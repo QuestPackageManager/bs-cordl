@@ -8,8 +8,35 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NatPunchModule)
-namespace System::Net {
-class IPEndPoint;
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace LiteNetLib::Utils {
+class NetPacketProcessor;
+}
+namespace LiteNetLib {
+class INatPunchListener;
+}
+namespace LiteNetLib {
+struct NatAddressType;
+}
+namespace LiteNetLib {
+class NetPacket;
+}
+namespace LiteNetLib {
+class NetSocket;
+}
+namespace LiteNetLib {
+class __NatPunchModule__NatIntroduceRequestPacket;
+}
+namespace LiteNetLib {
+class __NatPunchModule__NatIntroduceResponsePacket;
+}
+namespace LiteNetLib {
+class __NatPunchModule__NatPunchPacket;
 }
 namespace LiteNetLib {
 struct __NatPunchModule__RequestEventData;
@@ -20,35 +47,8 @@ struct __NatPunchModule__SuccessEventData;
 namespace System::Collections::Generic {
 template <typename T> class Queue_1;
 }
-namespace LiteNetLib {
-class __NatPunchModule__NatIntroduceRequestPacket;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace LiteNetLib {
-class INatPunchListener;
-}
-namespace LiteNetLib {
-class NetPacket;
-}
-namespace LiteNetLib::Utils {
-class NetPacketProcessor;
-}
-namespace LiteNetLib {
-class __NatPunchModule__NatIntroduceResponsePacket;
-}
-namespace LiteNetLib {
-class __NatPunchModule__NatPunchPacket;
-}
-namespace LiteNetLib {
-class NetSocket;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace LiteNetLib {
-struct NatAddressType;
+namespace System::Net {
+class IPEndPoint;
 }
 // Forward declare root types
 namespace LiteNetLib {

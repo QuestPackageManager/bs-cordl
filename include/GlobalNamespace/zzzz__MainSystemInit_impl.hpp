@@ -1,70 +1,70 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MainSystemInit_def.hpp"
-#include "GlobalNamespace/zzzz__HapticFeedbackManager_def.hpp"
-#include "GlobalNamespace/zzzz__RelativeSfxVolumePerLevelSO_def.hpp"
-#include "GlobalNamespace/zzzz__CustomLevelLoader_def.hpp"
-#include "GlobalNamespace/zzzz__CoroutineStarter_def.hpp"
-#include "GlobalNamespace/zzzz__BloomPrePassLightsUpdateSystem_def.hpp"
-#include "GlobalNamespace/zzzz__PSVR2Helper_def.hpp"
-#include "GlobalNamespace/zzzz__DevicelessVRHelper_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapLevelsPromoDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__PS4LevelProductsModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__CachedMediaAsyncLoader_def.hpp"
-#include "GlobalNamespace/zzzz__AudioManagerSO_def.hpp"
-#include "GlobalNamespace/zzzz__MainEffectContainerSO_def.hpp"
-#include "GlobalNamespace/zzzz__PerceivedLoudnessPerLevelSO_def.hpp"
-#include "GlobalNamespace/zzzz__PS4LeaderboardIdsModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__StandardLevelScenesTransitionSetupDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__NodePoseSyncStateManager_def.hpp"
-#include "GlobalNamespace/zzzz__AlwaysOwnedContentContainerSO_def.hpp"
-#include "GlobalNamespace/zzzz__PS5LeaderboardIdsModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__OculusNetworkPlayerModel_def.hpp"
 #include "GlobalNamespace/zzzz__AchievementIdsModelSO_def.hpp"
-#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
-#include "GlobalNamespace/zzzz__RichPresenceManager_def.hpp"
-#include "GlobalNamespace/zzzz__BloomPrePassEffectContainerSO_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "GlobalNamespace/zzzz__AchievementsModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__AlwaysOwnedContentContainerSO_def.hpp"
+#include "GlobalNamespace/zzzz__AppStaticSettingsSO_def.hpp"
+#include "GlobalNamespace/zzzz__AudioManagerSO_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicCollectionSO_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelSO_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelsModel_def.hpp"
-#include "GlobalNamespace/zzzz__MainEffectGraphicsSettingsPresetsSO_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelsPromoDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__BloomPrePassEffectContainerSO_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassGraphicsSettingsPresetsSO_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerSessionManager_def.hpp"
-#include "GlobalNamespace/zzzz__PS4NetworkPlayerModel_def.hpp"
+#include "GlobalNamespace/zzzz__BloomPrePassLightsUpdateSystem_def.hpp"
+#include "GlobalNamespace/zzzz__CachedMediaAsyncLoader_def.hpp"
+#include "GlobalNamespace/zzzz__CampaignProgressModel_def.hpp"
+#include "GlobalNamespace/zzzz__CoroutineStarter_def.hpp"
+#include "GlobalNamespace/zzzz__CustomLevelLoader_def.hpp"
+#include "GlobalNamespace/zzzz__DevicelessVRHelper_def.hpp"
 #include "GlobalNamespace/zzzz__DlcPromoPanelDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__PS5NetworkPlayerModel_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentAudioEffectsPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentCommandLineArgsProvider_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
-#include "GlobalNamespace/zzzz__UnityXRHelper_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLevelScenesTransitionSetupDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__MirrorRendererGraphicsSettingsPresets_def.hpp"
 #include "GlobalNamespace/zzzz__ExternalCamerasManager_def.hpp"
 #include "GlobalNamespace/zzzz__GameLiftNetworkPlayerModel_def.hpp"
-#include "GlobalNamespace/zzzz__NetworkConfigSO_def.hpp"
-#include "GlobalNamespace/zzzz__PS5LevelProductsModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__SongPackMasksModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__LeaderboardScoreUploader_def.hpp"
-#include "GlobalNamespace/zzzz__MenuTransitionsHelper_def.hpp"
-#include "GlobalNamespace/zzzz__AppStaticSettingsSO_def.hpp"
-#include "GlobalNamespace/zzzz__CampaignProgressModel_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapLevelSO_def.hpp"
-#include "GlobalNamespace/zzzz__MirrorRendererSO_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicCollectionSO_def.hpp"
-#include "GlobalNamespace/zzzz__VoipManager_def.hpp"
-#include "GlobalNamespace/zzzz__NetworkPlayerEntitlementChecker_def.hpp"
-#include "GlobalNamespace/zzzz__OculusLevelProductsModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__PSVRHelper_def.hpp"
+#include "GlobalNamespace/zzzz__HapticFeedbackManager_def.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardIdsModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__SonyAchievementIdsModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__LeaderboardScoreUploader_def.hpp"
+#include "GlobalNamespace/zzzz__MainEffectContainerSO_def.hpp"
+#include "GlobalNamespace/zzzz__MainEffectGraphicsSettingsPresetsSO_def.hpp"
 #include "GlobalNamespace/zzzz__MainSettingsModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__MenuTransitionsHelper_def.hpp"
+#include "GlobalNamespace/zzzz__MirrorRendererGraphicsSettingsPresets_def.hpp"
+#include "GlobalNamespace/zzzz__MirrorRendererSO_def.hpp"
+#include "GlobalNamespace/zzzz__MissionLevelScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLevelScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerSessionManager_def.hpp"
+#include "GlobalNamespace/zzzz__NetworkConfigSO_def.hpp"
+#include "GlobalNamespace/zzzz__NetworkPlayerEntitlementChecker_def.hpp"
+#include "GlobalNamespace/zzzz__NodePoseSyncStateManager_def.hpp"
+#include "GlobalNamespace/zzzz__OculusLevelProductsModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__OculusNetworkPlayerModel_def.hpp"
 #include "GlobalNamespace/zzzz__OculusVRHelper_def.hpp"
+#include "GlobalNamespace/zzzz__PS4LeaderboardIdsModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__PS4LevelProductsModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__PS4NetworkPlayerModel_def.hpp"
+#include "GlobalNamespace/zzzz__PS5ActivityIdsModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__PS5LeaderboardIdsModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__PS5LevelProductsModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__PS5NetworkPlayerModel_def.hpp"
+#include "GlobalNamespace/zzzz__PSVR2Helper_def.hpp"
+#include "GlobalNamespace/zzzz__PSVRHelper_def.hpp"
+#include "GlobalNamespace/zzzz__PerceivedLoudnessPerLevelSO_def.hpp"
+#include "GlobalNamespace/zzzz__PlatformLeaderboardsModel_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
+#include "GlobalNamespace/zzzz__RelativeSfxVolumePerLevelSO_def.hpp"
+#include "GlobalNamespace/zzzz__RichPresenceManager_def.hpp"
+#include "GlobalNamespace/zzzz__SongPackMasksModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__SonyAchievementIdsModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__StandardLevelScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__SteamLevelProductsModelSO_def.hpp"
 #include "GlobalNamespace/zzzz__SteamNetworkPlayerModel_def.hpp"
 #include "GlobalNamespace/zzzz__TimeHelper_def.hpp"
-#include "GlobalNamespace/zzzz__PlatformLeaderboardsModel_def.hpp"
-#include "GlobalNamespace/zzzz__PS5ActivityIdsModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__SteamLevelProductsModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__MissionLevelScenesTransitionSetupDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__AchievementsModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__UnityXRHelper_def.hpp"
+#include "GlobalNamespace/zzzz__VoipManager_def.hpp"
+#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MainSystemInit.Init
 template <>
 
@@ -72,7 +72,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x384;
   constexpr static std::size_t addrs = 0x2226700;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "Init",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -86,7 +86,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1838;
   constexpr static std::size_t addrs = 0x2226b90;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "InstallBindings", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get(),
@@ -102,7 +102,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c0;
   constexpr static std::size_t addrs = 0x2228718;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "InstallHapticsController", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
@@ -117,7 +117,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xf0;
   constexpr static std::size_t addrs = 0x22284c0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "InstallRichPresence", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get(),
@@ -133,7 +133,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xf8;
   constexpr static std::size_t addrs = 0x22283c8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "InstallOculusDestinationBindings", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
@@ -148,7 +148,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x168;
   constexpr static std::size_t addrs = 0x22285b0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "InstallPlatformLeaderboardsModel", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get(),
@@ -164,7 +164,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x22288d8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "InstallPS5Bindings", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
@@ -179,7 +179,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x22288dc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "InstallPS4Bindings", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
@@ -193,7 +193,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x22288e0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;

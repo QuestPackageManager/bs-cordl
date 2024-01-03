@@ -9,19 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SaberMovementData)
 namespace GlobalNamespace {
+struct BladeMovementDataElement;
+}
+namespace GlobalNamespace {
+class IBladeMovementData;
+}
+namespace GlobalNamespace {
 class ISaberMovementDataProcessor;
 }
 namespace GlobalNamespace {
 class ISaberMovementData;
 }
 namespace GlobalNamespace {
-struct BladeMovementDataElement;
-}
-namespace GlobalNamespace {
 template <typename T> class LazyCopyHashSet_1;
-}
-namespace GlobalNamespace {
-class IBladeMovementData;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -66,8 +66,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBladeMovementData"
   constexpr operator ::GlobalNamespace::IBladeMovementData*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IBladeMovementData"
+  constexpr ::GlobalNamespace::IBladeMovementData* i___GlobalNamespace__IBladeMovementData() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::ISaberMovementData"
   constexpr operator ::GlobalNamespace::ISaberMovementData*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::ISaberMovementData"
+  constexpr ::GlobalNamespace::ISaberMovementData* i___GlobalNamespace__ISaberMovementData() noexcept;
 
   constexpr ::ArrayW<::GlobalNamespace::BladeMovementDataElement, ::Array<::GlobalNamespace::BladeMovementDataElement>*>& __get__data();
 

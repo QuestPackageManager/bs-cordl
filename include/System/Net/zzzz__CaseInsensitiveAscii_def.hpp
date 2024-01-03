@@ -41,8 +41,14 @@ public:
   /// @brief Convert operator to "::System::Collections::IEqualityComparer"
   constexpr operator ::System::Collections::IEqualityComparer*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEqualityComparer"
+  constexpr ::System::Collections::IEqualityComparer* i___System__Collections__IEqualityComparer() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IComparer"
+  constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
 
   static inline void setStaticF_StaticInstance(::System::Net::CaseInsensitiveAscii* value);
 

@@ -3,11 +3,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IAvatarPoseDataProvider)
-namespace System {
-template <typename T> class Action_1;
-}
 namespace BeatSaber::AvatarCore {
 struct AvatarPoseData;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {

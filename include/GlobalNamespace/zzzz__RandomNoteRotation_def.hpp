@@ -38,6 +38,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INoteControllerDidInitEvent"
   constexpr operator ::GlobalNamespace::INoteControllerDidInitEvent*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::INoteControllerDidInitEvent"
+  constexpr ::GlobalNamespace::INoteControllerDidInitEvent* i___GlobalNamespace__INoteControllerDidInitEvent() noexcept;
+
   constexpr ::GlobalNamespace::NoteControllerBase*& __get__noteController();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteControllerBase*> const& __get__noteController() const;

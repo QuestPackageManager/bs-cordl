@@ -10,13 +10,13 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements::UIR {
-struct __BitmapAllocator32__Page;
+struct BMPAlloc;
 }
 namespace UnityEngine::UIElements::UIR {
 class BaseShaderInfoStorage;
 }
 namespace UnityEngine::UIElements::UIR {
-struct BMPAlloc;
+struct __BitmapAllocator32__Page;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -87,9 +87,7 @@ public:
   __declspec(property(get = get_entryHeight)) int32_t entryHeight;
 
   /// @brief Method Construct, addr 0x2e8800c, size 0x110, virtual false, abstract: false, final false
-  /// @param entryWidth: int32_t (default: static_cast<int32_t>(0x1))
-  /// @param entryHeight: int32_t (default: static_cast<int32_t>(0x1))
-  inline void Construct(int32_t pageHeight, int32_t entryWidth = static_cast<int32_t>(0x1), int32_t entryHeight = static_cast<int32_t>(0x1));
+  inline void Construct(int32_t pageHeight, int32_t entryWidth, int32_t entryHeight);
 
   /// @brief Method ForceFirstAlloc, addr 0x2e8811c, size 0x1cc, virtual false, abstract: false, final false
   inline void ForceFirstAlloc(uint16_t firstPageX, uint16_t firstPageY);

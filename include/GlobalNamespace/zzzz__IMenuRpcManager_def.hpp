@@ -5,44 +5,44 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IMenuRpcManager)
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class BeatmapIdentifierNetSerializable;
 }
 namespace GlobalNamespace {
 struct CannotStartGameReason;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4> class Action_4;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
-}
-namespace GlobalNamespace {
-struct SongPackMask;
-}
-namespace GlobalNamespace {
 struct EntitlementsStatus;
 }
 namespace GlobalNamespace {
-class PlayersLobbyPermissionConfigurationNetSerializable;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace GlobalNamespace {
-class BeatmapIdentifierNetSerializable;
+class GameplayModifiers;
 }
 namespace GlobalNamespace {
 struct MultiplayerGameState;
 }
 namespace GlobalNamespace {
+class PlayersLobbyPermissionConfigurationNetSerializable;
+}
+namespace GlobalNamespace {
 class PlayersMissingEntitlementsNetSerializable;
+}
+namespace GlobalNamespace {
+struct SongPackMask;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace System {
+template <typename T1, typename T2, typename T3> class Action_3;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4> class Action_4;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -64,6 +64,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// @brief Method get_syncTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int64_t get_syncTime();

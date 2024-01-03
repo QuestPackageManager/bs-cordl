@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LocationCacheKey)
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
-}
 namespace System {
 template <typename T> class IEquatable_1;
-}
-namespace UnityEngine::ResourceManagement::Util {
-class IOperationCacheKey;
 }
 namespace System {
 class Object;
 }
 namespace System {
 class Type;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
+}
+namespace UnityEngine::ResourceManagement::Util {
+class IOperationCacheKey;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {
@@ -45,8 +45,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IOperationCacheKey"
   constexpr operator ::UnityEngine::ResourceManagement::Util::IOperationCacheKey*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::ResourceManagement::Util::IOperationCacheKey"
+  constexpr ::UnityEngine::ResourceManagement::Util::IOperationCacheKey* i___UnityEngine__ResourceManagement__Util__IOperationCacheKey() noexcept;
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>*() noexcept;
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>"
+  constexpr ::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>* i___System__IEquatable_1___UnityEngine__ResourceManagement__Util__IOperationCacheKey__() noexcept;
 
   constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*& __get_m_Location();
 

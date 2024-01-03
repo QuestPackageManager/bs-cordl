@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__RemoteProcedureCall_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RemoteProcedureCall_2)
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
+namespace GlobalNamespace {
+class IRemoteProcedureCall;
 }
 namespace GlobalNamespace {
 template <typename T> class __RemoteProcedureCall__TypeWrapper_1;
 }
-namespace GlobalNamespace {
-class IRemoteProcedureCall;
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {

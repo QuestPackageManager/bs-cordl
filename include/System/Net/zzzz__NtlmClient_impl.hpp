@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__NtlmClient_def.hpp"
-#include "System/Net/zzzz__WebRequest_def.hpp"
 #include "System/Net/zzzz__Authorization_def.hpp"
-#include "System/Net/zzzz__ICredentials_def.hpp"
 #include "System/Net/zzzz__IAuthenticationModule_def.hpp"
+#include "System/Net/zzzz__ICredentials_def.hpp"
+#include "System/Net/zzzz__WebRequest_def.hpp"
 //  Writing Method size for method: ::System::Net::NtlmClient._ctor
 template <>
 
@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x29d5594;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NtlmClient*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0xd0;
   constexpr static std::size_t addrs = 0x29d5600;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NtlmClient*>::get(), "Authenticate", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
@@ -43,7 +43,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x29d56d0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NtlmClient*>::get(), "PreAuthenticate", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::WebRequest*>::get(),
@@ -58,7 +58,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x29d56d8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NtlmClient*>::get(), "get_AuthenticationType",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -66,6 +66,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::System::Net::IAuthenticationModule"
 constexpr System::Net::NtlmClient::operator ::System::Net::IAuthenticationModule*() noexcept {
+  return static_cast<::System::Net::IAuthenticationModule*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Net::IAuthenticationModule"
+constexpr ::System::Net::IAuthenticationModule* System::Net::NtlmClient::i___System__Net__IAuthenticationModule() noexcept {
   return static_cast<::System::Net::IAuthenticationModule*>(static_cast<void*>(this));
 }
 constexpr ::System::Net::IAuthenticationModule*& System::Net::NtlmClient::__get_authObject() {

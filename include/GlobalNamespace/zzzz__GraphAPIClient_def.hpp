@@ -14,28 +14,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GraphAPIClient)
 namespace GlobalNamespace {
-struct __GraphAPIClient__PostOptions;
-}
-namespace System::Net::Http {
-class HttpContent;
-}
-namespace GlobalNamespace {
 class INetworkConfig;
 }
 namespace GlobalNamespace {
-template <typename TResponse> struct __GraphAPIClient___Post_d__5_1;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System {
-class Uri;
+struct __GraphAPIClient__PostOptions;
 }
 namespace GlobalNamespace {
 template <typename TRequest, typename TResponse> struct __GraphAPIClient___Post_d__4_2;
 }
+namespace GlobalNamespace {
+template <typename TResponse> struct __GraphAPIClient___Post_d__5_1;
+}
 namespace System::Net::Http {
 class HttpClient;
+}
+namespace System::Net::Http {
+class HttpContent;
+}
+namespace System::Net::Http {
+class HttpRequestMessage;
+}
+namespace System::Net::Http {
+class HttpResponseMessage;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -43,23 +46,20 @@ class IAsyncStateMachine;
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
 }
-namespace System {
-class UriBuilder;
-}
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+struct TaskAwaiter;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
+namespace System {
+class UriBuilder;
 }
-namespace System::Net::Http {
-class HttpRequestMessage;
-}
-namespace System::Net::Http {
-class HttpResponseMessage;
+namespace System {
+class Uri;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -127,15 +127,17 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TRequest, typename TResponse>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12769)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 865 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 865 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(12770)) CS Name:
-// ::GraphAPIClient::<Post>d__4`2<TRequest,TResponse>
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 865 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 865 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(12769)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3393))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12770)) CS Name: ::GraphAPIClient::<Post>d__4`2<TRequest,TResponse>
 struct CORDL_TYPE __GraphAPIClient___Post_d__4_2 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -213,15 +215,17 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TResponse>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14655)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 94 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 883 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 397 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(12771)) CS
-// Name: ::GraphAPIClient::<Post>d__5`1<TResponse>
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(14655)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 397
+// }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 883 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 94 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(12771)) CS Name: ::GraphAPIClient::<Post>d__5`1<TResponse>
 struct CORDL_TYPE __GraphAPIClient___Post_d__5_1 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -287,7 +291,7 @@ public:
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12769)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12772))
 // CS Name: ::GraphAPIClient*
 class CORDL_TYPE GraphAPIClient : public ::System::Object {
@@ -323,24 +327,19 @@ public:
   inline void _ctor(::GlobalNamespace::INetworkConfig* networkConfig);
 
   /// @brief Method PostLoggedOut, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param postOptions: ::GlobalNamespace::__GraphAPIClient__PostOptions (default: {})
-  /// @param cancellationToken: ::System::Threading::CancellationToken (default: {})
   template <typename TRequest, typename TResponse>
-  inline ::System::Threading::Tasks::Task_1<TResponse>* PostLoggedOut(::StringW path, TRequest request, ::GlobalNamespace::__GraphAPIClient__PostOptions postOptions = {},
-                                                                      ::System::Threading::CancellationToken cancellationToken = {});
+  inline ::System::Threading::Tasks::Task_1<TResponse>* PostLoggedOut(::StringW path, TRequest request, ::GlobalNamespace::__GraphAPIClient__PostOptions postOptions,
+                                                                      ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method Post, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param postOptions: ::GlobalNamespace::__GraphAPIClient__PostOptions (default: {})
-  /// @param cancellationToken: ::System::Threading::CancellationToken (default: {})
   template <typename TRequest, typename TResponse>
-  inline ::System::Threading::Tasks::Task_1<TResponse>* Post(::StringW path, ::StringW accessToken, TRequest request, ::GlobalNamespace::__GraphAPIClient__PostOptions postOptions = {},
-                                                             ::System::Threading::CancellationToken cancellationToken = {});
+  inline ::System::Threading::Tasks::Task_1<TResponse>* Post(::StringW path, ::StringW accessToken, TRequest request, ::GlobalNamespace::__GraphAPIClient__PostOptions postOptions,
+                                                             ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method Post, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param cancellationToken: ::System::Threading::CancellationToken (default: {})
   template <typename TResponse>
   inline ::System::Threading::Tasks::Task_1<TResponse>* Post(::System::Uri* uri, ::StringW accessToken, ::System::Net::Http::HttpContent* httpContent,
-                                                             ::System::Threading::CancellationToken cancellationToken = {});
+                                                             ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method CalculateDelayMsBeforeRetry, addr 0xe3c2d0, size 0x98, virtual false, abstract: false, final false
   static inline int32_t CalculateDelayMsBeforeRetry(int32_t numAttempts, ::GlobalNamespace::__GraphAPIClient__PostOptions postOptions);

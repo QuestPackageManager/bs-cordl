@@ -8,38 +8,38 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TraceJsonWriter)
+namespace Newtonsoft::Json {
+class JsonTextWriter;
+}
+namespace Newtonsoft::Json {
+class JsonWriter;
+}
+namespace System::IO {
+class StringWriter;
+}
+namespace System {
+struct DateTimeOffset;
+}
+namespace System {
+struct DateTime;
+}
 namespace System {
 struct Decimal;
 }
 namespace System {
 struct Guid;
 }
-namespace Newtonsoft::Json {
-class JsonWriter;
-}
 namespace System {
-class Uri;
-}
-namespace System {
-struct DateTime;
-}
-namespace System {
-struct DateTimeOffset;
+template <typename T> struct Nullable_1;
 }
 namespace System {
 class Object;
 }
-namespace Newtonsoft::Json {
-class JsonTextWriter;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace System::IO {
-class StringWriter;
-}
 namespace System {
 struct TimeSpan;
+}
+namespace System {
+class Uri;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {

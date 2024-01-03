@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Ess/zzzz__SigningCertificateV2_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "Org/BouncyCastle/Asn1/Ess/zzzz__EssCertIDv2_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__PolicyInformation_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Ess::SigningCertificateV2.GetInstance
 template <>
 
@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x190;
   constexpr static std::size_t addrs = 0xe9c024;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Ess::SigningCertificateV2*>::get(), "GetInstance",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x184;
   constexpr static std::size_t addrs = 0xe9c1b4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Ess::SigningCertificateV2*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Sequence*>::get() })));
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0xe9c338;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Ess::SigningCertificateV2*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*>::get() })));
@@ -59,7 +59,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0xe9c3b4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Ess::SigningCertificateV2*>::get(), ".ctor", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{
@@ -76,7 +76,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0xe9c430;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Ess::SigningCertificateV2*>::get(), ".ctor", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{
@@ -94,7 +94,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x140;
   constexpr static std::size_t addrs = 0xe9c4d4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Ess::SigningCertificateV2*>::get(),
                                                                                "GetCerts", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -109,7 +109,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x118;
   constexpr static std::size_t addrs = 0xe9c614;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Ess::SigningCertificateV2*>::get(),
                                                                                "GetPolicies", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -123,7 +123,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x148;
   constexpr static std::size_t addrs = 0xe9c72c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Ess::SigningCertificateV2*>::get(),

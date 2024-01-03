@@ -3,27 +3,13 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__LevelScenesTransitionSetupDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__RecordingToolManager_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(StandardLevelScenesTransitionSetupDataSO)
 namespace GlobalNamespace {
-class PlayerSpecificSettings;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
+class BeatmapDataCache;
 }
 namespace GlobalNamespace {
 class ColorScheme;
-}
-namespace GlobalNamespace {
-class MainSettingsModelSO;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 class EnvironmentInfoSO;
@@ -32,19 +18,37 @@ namespace GlobalNamespace {
 class GameplayModifiers;
 }
 namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+class LevelCompletionResults;
+}
+namespace GlobalNamespace {
+class MainSettingsModelSO;
+}
+namespace GlobalNamespace {
+class OverrideEnvironmentSettings;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettings;
+}
+namespace GlobalNamespace {
 class PracticeSettings;
 }
 namespace GlobalNamespace {
 class SceneInfo;
 }
 namespace GlobalNamespace {
-class LevelCompletionResults;
+struct __RecordingToolManager__SetupData;
 }
-namespace GlobalNamespace {
-class OverrideEnvironmentSettings;
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
-namespace GlobalNamespace {
-class BeatmapDataCache;
+namespace System {
+template <typename T> struct Nullable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -56,9 +60,9 @@ MARK_REF_PTR_T(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4778 }), TypeDefinitionIndex(TypeDefinitionIndex(6067)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(5962))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6079)) CS Name:
-// ::StandardLevelScenesTransitionSetupDataSO*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6067))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6079))
+// CS Name: ::StandardLevelScenesTransitionSetupDataSO*
 class CORDL_TYPE StandardLevelScenesTransitionSetupDataSO : public ::GlobalNamespace::LevelScenesTransitionSetupDataSO {
 public:
   // Declarations
@@ -243,16 +247,11 @@ public:
   inline void set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
 
   /// @brief Method Init, addr 0x231b8a4, size 0x66c, virtual false, abstract: false, final false
-  /// @param useTestNoteCutSoundEffects: bool (default: false)
-  /// @param startPaused: bool (default: false)
-  /// @param beatmapDataCache: ::GlobalNamespace::BeatmapDataCache* (default: nullptr)
-  /// @param recordingToolData: ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> (default: {})
   inline void Init(::StringW gameMode, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel,
                    ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, ::GlobalNamespace::ColorScheme* overrideColorScheme,
                    ::GlobalNamespace::ColorScheme* beatmapOverrideColorScheme, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
-                   ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings, ::StringW backButtonText,
-                   bool useTestNoteCutSoundEffects = false, bool startPaused = false, ::GlobalNamespace::BeatmapDataCache* beatmapDataCache = nullptr,
-                   ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData = {});
+                   ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings, ::StringW backButtonText, bool useTestNoteCutSoundEffects,
+                   bool startPaused, ::GlobalNamespace::BeatmapDataCache* beatmapDataCache, ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData);
 
   /// @brief Method Finish, addr 0x2320028, size 0x28, virtual false, abstract: false, final false
   inline void Finish(::GlobalNamespace::LevelCompletionResults* levelCompletionResults);

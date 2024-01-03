@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Iso4217CurrencyCode)
 namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
@@ -14,9 +17,6 @@ class IAsn1Choice;
 }
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509::Qualified {
@@ -45,6 +45,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept;
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __get_obj();
 

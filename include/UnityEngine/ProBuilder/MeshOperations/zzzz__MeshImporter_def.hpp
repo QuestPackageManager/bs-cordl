@@ -5,20 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MeshImporter)
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine::ProBuilder::MeshOperations {
 class MeshImportSettings;
 }
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
-class Mesh;
-}
 namespace UnityEngine::ProBuilder::MeshOperations {
 class __MeshImporter____c;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
 namespace UnityEngine::ProBuilder {
 class Vertex;
@@ -27,10 +24,13 @@ namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine {
-struct Vector3;
+class Material;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace UnityEngine {
+class Mesh;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::MeshOperations {
@@ -166,12 +166,10 @@ public:
   inline void _ctor(::UnityEngine::ProBuilder::ProBuilderMesh* destination);
 
   /// @brief Method Import, addr 0x2bb9f1c, size 0x184, virtual false, abstract: false, final false
-  /// @param importSettings: ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* (default: nullptr)
-  inline bool Import(::UnityEngine::GameObject* go, ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* importSettings = nullptr);
+  inline bool Import(::UnityEngine::GameObject* go, ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* importSettings);
 
   /// @brief Method Import, addr 0x2bba0a0, size 0xab8, virtual false, abstract: false, final false
-  /// @param importSettings: ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* (default: nullptr)
-  inline void Import(::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* importSettings = nullptr);
+  inline void Import(::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* importSettings);
 
   // Ctor Parameters [CppParam { name: "", ty: "MeshImporter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

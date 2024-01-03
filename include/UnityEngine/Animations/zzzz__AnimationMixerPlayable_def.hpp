@@ -7,6 +7,12 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AnimationMixerPlayable)
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace UnityEngine::Playables {
+class IPlayable;
+}
 namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
@@ -14,13 +20,7 @@ namespace UnityEngine::Playables {
 struct PlayableHandle;
 }
 namespace UnityEngine::Playables {
-class IPlayable;
-}
-namespace UnityEngine::Playables {
 struct Playable;
-}
-namespace System {
-template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::Animations {
@@ -44,20 +44,24 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
+  /// @brief Convert to "::UnityEngine::Playables::IPlayable"
+  constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Animations::AnimationMixerPlayable>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Animations::AnimationMixerPlayable>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Animations::AnimationMixerPlayable>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Animations::AnimationMixerPlayable>* i___System__IEquatable_1___UnityEngine__Animations__AnimationMixerPlayable_();
 
   static inline void setStaticF_m_NullPlayable(::UnityEngine::Animations::AnimationMixerPlayable value);
 
   static inline ::UnityEngine::Animations::AnimationMixerPlayable getStaticF_m_NullPlayable();
 
   /// @brief Method Create, addr 0x2c98c94, size 0x98, virtual false, abstract: false, final false
-  /// @param inputCount: int32_t (default: static_cast<int32_t>(0x0))
-  static inline ::UnityEngine::Animations::AnimationMixerPlayable Create(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount = static_cast<int32_t>(0x0));
+  static inline ::UnityEngine::Animations::AnimationMixerPlayable Create(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount);
 
   /// @brief Method CreateHandle, addr 0x2c98d2c, size 0xe4, virtual false, abstract: false, final false
-  /// @param inputCount: int32_t (default: static_cast<int32_t>(0x0))
-  static inline ::UnityEngine::Playables::PlayableHandle CreateHandle(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount = static_cast<int32_t>(0x0));
+  static inline ::UnityEngine::Playables::PlayableHandle CreateHandle(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount);
 
   /// @brief Method .ctor, addr 0x2c98e10, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableHandle handle);

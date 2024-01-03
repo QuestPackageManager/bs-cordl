@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__StaticMemoryPoolBase_1_def.hpp"
 CORDL_MODULE_EXPORT(StaticMemoryPool_8)
 namespace System {
-template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8> class Action_8;
+template <typename T> class Action_1;
 }
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TValue> class IMemoryPool_8;
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8> class Action_8;
 }
 namespace Zenject {
 template <typename TValue> class IDespawnableMemoryPool_1;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TValue> class IMemoryPool_8;
 }
 namespace Zenject {
 class IMemoryPool;
@@ -31,7 +31,7 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TValue>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11085), inst: 190 }), TypeDefinitionIndex(TypeDefinitionIndex(11085))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11085)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11085), inst: 190 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11093))
 // CS Name: ::Zenject::StaticMemoryPool`8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue>*
 class CORDL_TYPE StaticMemoryPool_8 : public ::Zenject::StaticMemoryPoolBase_1<TValue> {
@@ -45,11 +45,21 @@ public:
   /// @brief Convert operator to "::Zenject::IMemoryPool_8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue>"
   constexpr operator ::Zenject::IMemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>*() noexcept;
 
+  /// @brief Convert to "::Zenject::IMemoryPool_8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue>"
+  constexpr ::Zenject::IMemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>*
+  i___Zenject__IMemoryPool_8_TParam1_TParam2_TParam3_TParam4_TParam5_TParam6_TParam7_TValue_() noexcept;
+
   /// @brief Convert operator to "::Zenject::IDespawnableMemoryPool_1<TValue>"
   constexpr operator ::Zenject::IDespawnableMemoryPool_1<TValue>*() noexcept;
 
+  /// @brief Convert to "::Zenject::IDespawnableMemoryPool_1<TValue>"
+  constexpr ::Zenject::IDespawnableMemoryPool_1<TValue>* i___Zenject__IDespawnableMemoryPool_1_TValue_() noexcept;
+
   /// @brief Convert operator to "::Zenject::IMemoryPool"
   constexpr operator ::Zenject::IMemoryPool*() noexcept;
+
+  /// @brief Convert to "::Zenject::IMemoryPool"
+  constexpr ::Zenject::IMemoryPool* i___Zenject__IMemoryPool() noexcept;
 
   constexpr ::System::Action_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>*& __get__onSpawnMethod();
 
@@ -61,8 +71,7 @@ public:
   New_ctor(::System::Action_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>* onSpawnMethod, ::System::Action_1<TValue>* onDespawnedMethod);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param onDespawnedMethod: ::System::Action_1<TValue>* (default: nullptr)
-  inline void _ctor(::System::Action_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>* onSpawnMethod, ::System::Action_1<TValue>* onDespawnedMethod = nullptr);
+  inline void _ctor(::System::Action_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>* onSpawnMethod, ::System::Action_1<TValue>* onDespawnedMethod);
 
   /// @brief Method set_OnSpawnMethod, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_OnSpawnMethod(::System::Action_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>* value);

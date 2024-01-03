@@ -7,46 +7,46 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MonoCustomAttrs)
 namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
 template <typename T> class IList_1;
+}
+namespace System::Reflection {
+class Assembly;
+}
+namespace System::Reflection {
+class CustomAttributeData;
+}
+namespace System::Reflection {
+class EventInfo;
+}
+namespace System::Reflection {
+class ICustomAttributeProvider;
+}
+namespace System::Reflection {
+class PropertyInfo;
 }
 namespace System::Reflection {
 class RuntimeEventInfo;
 }
+namespace System::Reflection {
+class RuntimePropertyInfo;
+}
+namespace System {
+class AttributeUsageAttribute;
+}
 namespace System {
 class Attribute;
 }
-namespace System::Reflection {
-class PropertyInfo;
+namespace System {
+class Object;
 }
 namespace System {
 class Type;
 }
 namespace System {
 class __MonoCustomAttrs__AttributeInfo;
-}
-namespace System::Reflection {
-class ICustomAttributeProvider;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System {
-class Object;
-}
-namespace System::Reflection {
-class EventInfo;
-}
-namespace System::Reflection {
-class Assembly;
-}
-namespace System {
-class AttributeUsageAttribute;
-}
-namespace System::Reflection {
-class CustomAttributeData;
-}
-namespace System::Reflection {
-class RuntimePropertyInfo;
 }
 // Forward declare root types
 namespace System {
@@ -192,8 +192,7 @@ public:
   GetCustomAttributesDataInternal(::System::Reflection::ICustomAttributeProvider* obj);
 
   /// @brief Method GetCustomAttributesData, addr 0x25fbd58, size 0x12c, virtual false, abstract: false, final false
-  /// @param inherit: bool (default: false)
-  static inline ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* GetCustomAttributesData(::System::Reflection::ICustomAttributeProvider* obj, bool inherit = false);
+  static inline ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* GetCustomAttributesData(::System::Reflection::ICustomAttributeProvider* obj, bool inherit);
 
   /// @brief Method GetCustomAttributesData, addr 0x25fc030, size 0x1360, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* GetCustomAttributesData(::System::Reflection::ICustomAttributeProvider* obj,

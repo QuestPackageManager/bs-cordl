@@ -3,12 +3,12 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerEnvironmentResizeController_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerEnvironmentResizeController_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerCenterResizeController_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectSpawnCenter_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerCenterResizeController_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerEnvironmentResizeController_def.hpp"
 #include "GlobalNamespace/zzzz__TubeBloomPrePassLight_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType::__MultiplayerEnvironmentResizeController__ResizeType(int32_t value__) noexcept {
   this->value__ = value__;
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x224c89c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*>::get(),
                                                  "get_resizeType", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x224c8a4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*>::get(), "get_offset",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -56,7 +56,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x224c8ac;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*>::get(), "get_lights",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -71,7 +71,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x224c8b4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*>::get(),
                                                  "get_otherTransforms", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -86,7 +86,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x224c8bc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*>::get(), ".ctor",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -187,7 +187,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x224c298;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerEnvironmentResizeController*>::get(), "get_isResizingFinished",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -202,7 +202,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x224c2a0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerEnvironmentResizeController*>::get(), "add_resizingDidFinishEvent",
                                     std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
@@ -217,7 +217,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x224c33c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerEnvironmentResizeController*>::get(), "remove_resizingDidFinishEvent",
                                     std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
@@ -232,7 +232,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x13c;
   constexpr static std::size_t addrs = 0x224c3d8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerEnvironmentResizeController*>::get(), "Start",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -247,7 +247,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x150;
   constexpr static std::size_t addrs = 0x224c544;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerEnvironmentResizeController*>::get(), "OnDestroy",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -262,7 +262,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x224c514;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerEnvironmentResizeController*>::get(), "HandleEdgeDistanceFromCenterWasCalculated",
         std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
@@ -277,7 +277,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x224c52c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerEnvironmentResizeController*>::get(), "HandleSpawnCenterDistanceWasFound",
                                     std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
@@ -292,7 +292,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x224c694;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerEnvironmentResizeController*>::get(), "TryResize",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -307,7 +307,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1e8;
   constexpr static std::size_t addrs = 0x224c6ac;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerEnvironmentResizeController*>::get(), "Resize",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -322,7 +322,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x224c894;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerEnvironmentResizeController*>::get(), ".ctor",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));

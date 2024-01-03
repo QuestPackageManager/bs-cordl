@@ -10,25 +10,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MockPlayer)
 namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace GlobalNamespace {
 struct BeatmapLevelSelectionMask;
-}
-namespace GlobalNamespace {
-class NodePoseSyncStateManager;
-}
-namespace GlobalNamespace {
-class IGameplayRpcManager;
-}
-namespace GlobalNamespace {
-struct MultiplayerAvatarsData;
-}
-namespace GlobalNamespace {
-class MockPlayerSettings;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
 }
 namespace GlobalNamespace {
 class BeatmapLevelsModel;
@@ -37,16 +19,34 @@ namespace GlobalNamespace {
 struct DisconnectedReason;
 }
 namespace GlobalNamespace {
-class MockPlayerFiniteStateMachine;
+struct GameplayServerConfiguration;
 }
 namespace GlobalNamespace {
-struct GameplayServerConfiguration;
+class IConnectedPlayer;
+}
+namespace GlobalNamespace {
+class IGameplayRpcManager;
 }
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
 class INetworkPlayer;
+}
+namespace GlobalNamespace {
+class MockPlayerFiniteStateMachine;
+}
+namespace GlobalNamespace {
+class MockPlayerSettings;
+}
+namespace GlobalNamespace {
+struct MultiplayerAvatarsData;
+}
+namespace GlobalNamespace {
+class NodePoseSyncStateManager;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -58,8 +58,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MockPlayer);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12758)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15021))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5179)) CS Name: ::MockPlayer*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12758)), TypeDefinitionIndex(TypeDefinitionIndex(15021)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12686))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5179)) CS Name: ::MockPlayer*
 class CORDL_TYPE MockPlayer : public ::System::Object {
 public:
   // Declarations
@@ -205,8 +205,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IConnectedPlayer"
   constexpr operator ::GlobalNamespace::IConnectedPlayer*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IConnectedPlayer"
+  constexpr ::GlobalNamespace::IConnectedPlayer* i___GlobalNamespace__IConnectedPlayer() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::INetworkPlayer"
   constexpr operator ::GlobalNamespace::INetworkPlayer*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::INetworkPlayer"
+  constexpr ::GlobalNamespace::INetworkPlayer* i___GlobalNamespace__INetworkPlayer() noexcept;
 
   constexpr bool& __get__isMe_k__BackingField();
 

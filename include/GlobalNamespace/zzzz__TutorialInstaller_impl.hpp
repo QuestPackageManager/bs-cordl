@@ -2,9 +2,9 @@
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__TutorialInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__EffectPoolsManualInstaller_def.hpp"
-#include "UnityEngine/zzzz__AudioClip_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerHeightDetector_def.hpp"
 #include "GlobalNamespace/zzzz__TutorialSceneSetupData_def.hpp"
+#include "UnityEngine/zzzz__AudioClip_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TutorialInstaller.InstallBindings
 template <>
 
@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xd08;
   constexpr static std::size_t addrs = 0x2273700;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TutorialInstaller*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TutorialInstaller*>::get(), 8));
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x2274408;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TutorialInstaller*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;

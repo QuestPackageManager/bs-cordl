@@ -15,20 +15,20 @@ class NetworkStream;
 namespace System::Net {
 struct CloseExState;
 }
-namespace System {
-class AsyncCallback;
+namespace System::Net {
+class FtpWebRequest;
 }
 namespace System::Net {
 class ICloseEx;
 }
 namespace System::Net {
-class FtpWebRequest;
+struct TriState;
+}
+namespace System {
+class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
-}
-namespace System::Net {
-struct TriState;
 }
 namespace System {
 class Object;
@@ -85,6 +85,9 @@ public:
 
   /// @brief Convert operator to "::System::Net::ICloseEx"
   constexpr operator ::System::Net::ICloseEx*() noexcept;
+
+  /// @brief Convert to "::System::Net::ICloseEx"
+  constexpr ::System::Net::ICloseEx* i___System__Net__ICloseEx() noexcept;
 
   constexpr ::System::Net::FtpWebRequest*& __get__request();
 

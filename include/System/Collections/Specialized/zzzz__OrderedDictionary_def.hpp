@@ -5,14 +5,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OrderedDictionary)
-namespace System::Collections {
-class IDictionary;
+namespace System::Collections::Specialized {
+class __OrderedDictionary__OrderedDictionaryEnumerator;
 }
 namespace System::Collections::Specialized {
 class __OrderedDictionary__OrderedDictionaryKeyValueCollection;
 }
-namespace System {
-class Object;
+namespace System::Collections {
+class ArrayList;
+}
+namespace System::Collections {
+struct DictionaryEntry;
+}
+namespace System::Collections {
+class Hashtable;
 }
 namespace System::Collections {
 class ICollection;
@@ -21,25 +27,13 @@ namespace System::Collections {
 class IDictionaryEnumerator;
 }
 namespace System::Collections {
-class Hashtable;
-}
-namespace System {
-class Array;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Collections::Specialized {
-class __OrderedDictionary__OrderedDictionaryEnumerator;
+class IDictionary;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
 namespace System::Collections {
-class ArrayList;
+class IEnumerator;
 }
 namespace System::Collections {
 class IEqualityComparer;
@@ -47,14 +41,20 @@ class IEqualityComparer;
 namespace System::Runtime::Serialization {
 class IDeserializationCallback;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System::Collections {
-struct DictionaryEntry;
+namespace System {
+class Array;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Collections::Specialized {
@@ -97,8 +97,14 @@ public:
   /// @brief Convert operator to "::System::Collections::IDictionaryEnumerator"
   constexpr operator ::System::Collections::IDictionaryEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IDictionaryEnumerator"
+  constexpr ::System::Collections::IDictionaryEnumerator* i___System__Collections__IDictionaryEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr int32_t& __get__objectReturnType();
 
@@ -190,8 +196,14 @@ public:
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
 
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::System::Collections::ArrayList*& __get__objects();
 
@@ -313,17 +325,32 @@ public:
   /// @brief Convert operator to "::System::Collections::IDictionary"
   constexpr operator ::System::Collections::IDictionary*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IDictionary"
+  constexpr ::System::Collections::IDictionary* i___System__Collections__IDictionary() noexcept;
+
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
+
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
   constexpr operator ::System::Runtime::Serialization::IDeserializationCallback*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
+  constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback() noexcept;
 
   constexpr ::System::Collections::ArrayList*& __get__objectsArray();
 

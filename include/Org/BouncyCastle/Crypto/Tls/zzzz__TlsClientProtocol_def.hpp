@@ -7,46 +7,46 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsClientProtocol)
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsKeyExchange;
+class AbstractTlsContext;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class CertificateRequest;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class CertificateStatus;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsPeer;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class CertificateRequest;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class AbstractTlsContext;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
 class DigitallySigned;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsClient;
-}
-namespace System::IO {
-class MemoryStream;
-}
-namespace System::Collections {
-class IList;
+class TlsAuthentication;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsClientContextImpl;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsAuthentication;
-}
-namespace System::IO {
-class Stream;
+class TlsClient;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsKeyExchange;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsPeer;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
+namespace System::Collections {
+class IList;
+}
+namespace System::IO {
+class MemoryStream;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

@@ -2,8 +2,8 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__SaberSound_def.hpp"
-#include "UnityEngine/zzzz__AudioSource_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
+#include "UnityEngine/zzzz__AudioSource_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SaberSound.Start
 template <>
@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x226458c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSound*>::get(), "Start",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -25,7 +25,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1cc;
   constexpr static std::size_t addrs = 0x22645b8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSound*>::get(), "Update",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -38,7 +38,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x2264784;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSound*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;

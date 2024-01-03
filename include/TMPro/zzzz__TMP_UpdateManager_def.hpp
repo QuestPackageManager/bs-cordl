@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_UpdateManager)
 namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace TMPro {
 class TMP_Text;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
 }
 // Forward declare root types
 namespace TMPro {
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::TMPro::TMP_UpdateManager);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9966))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12458))
 // CS Name: ::TMPro::TMP_UpdateManager*
 class CORDL_TYPE TMP_UpdateManager : public ::System::Object {

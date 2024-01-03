@@ -11,11 +11,14 @@ CORDL_MODULE_EXPORT(VisualTreeBindingsUpdater)
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace UnityEngine::UIElements {
-class IBinding;
-}
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+class Object;
 }
 namespace Unity::Profiling {
 struct ProfilerMarker;
@@ -23,17 +26,14 @@ struct ProfilerMarker;
 namespace UnityEngine::UIElements {
 struct HierarchyChangeType;
 }
-namespace System {
-class Object;
-}
 namespace UnityEngine::UIElements {
-class VisualElement;
+class IBinding;
 }
 namespace UnityEngine::UIElements {
 struct VersionChangeType;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

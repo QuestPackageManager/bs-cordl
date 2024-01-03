@@ -1,13 +1,13 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__SignalCallbackWrapper_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "Zenject/zzzz__SignalBus_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__SignalBindingBindInfo_def.hpp"
+#include "Zenject/zzzz__SignalBus_def.hpp"
 //  Writing Method size for method: ::Zenject::SignalCallbackWrapper._ctor
 template <>
 
@@ -16,7 +16,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc8;
   constexpr static std::size_t addrs = 0x2ec1c28;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SignalCallbackWrapper*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::SignalBindingBindInfo*>::get(),
@@ -32,7 +32,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x2ec1cf0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SignalCallbackWrapper*>::get(), "OnSignalFired", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xa0;
   constexpr static std::size_t addrs = 0x2ec1d14;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SignalCallbackWrapper*>::get(), "Dispose",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -60,7 +60,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x178;
   constexpr static std::size_t addrs = 0x2ec1db4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SignalCallbackWrapper*>::get(), "__zenCreate", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
@@ -74,7 +74,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x394;
   constexpr static std::size_t addrs = 0x2ec1f2c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SignalCallbackWrapper*>::get(),
                                                                                "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -82,6 +82,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::System::IDisposable"
 constexpr Zenject::SignalCallbackWrapper::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* Zenject::SignalCallbackWrapper::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::Zenject::SignalBus*& Zenject::SignalCallbackWrapper::__get__signalBus() {

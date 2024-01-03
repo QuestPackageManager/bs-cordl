@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PlayersSpecificSettingsAtGameStartModel)
 namespace GlobalNamespace {
-class PlayerSpecificSettingsNetSerializable;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettingsAtStartNetSerializable;
-}
-namespace GlobalNamespace {
-class __PlayersSpecificSettingsAtGameStartModel____c__DisplayClass13_0;
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class PlayerSpecificSettingsAtStartNetSerializable;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettingsNetSerializable;
+}
+namespace GlobalNamespace {
+class __PlayersSpecificSettingsAtGameStartModel____c__DisplayClass13_0;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;

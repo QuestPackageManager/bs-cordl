@@ -8,29 +8,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XRLayoutBuilder)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::InputSystem::Layouts {
+class InputControlLayout;
+}
 namespace UnityEngine::InputSystem::Layouts {
 struct InputDeviceDescription;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class InputDeviceExecuteCommandDelegate;
+}
+namespace UnityEngine::InputSystem::XR {
+struct FeatureType;
+}
+namespace UnityEngine::InputSystem::XR {
+class XRDeviceDescriptor;
 }
 namespace UnityEngine::InputSystem::XR {
 struct XRFeatureDescriptor;
 }
 namespace UnityEngine::InputSystem::XR {
 class __XRLayoutBuilder____c__DisplayClass5_0;
-}
-namespace UnityEngine::InputSystem::XR {
-struct FeatureType;
-}
-namespace UnityEngine::InputSystem::Layouts {
-class InputControlLayout;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::InputSystem::XR {
-class XRDeviceDescriptor;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class InputDeviceExecuteCommandDelegate;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XR {
@@ -152,8 +152,7 @@ public:
   static inline uint32_t GetSizeOfFeature(::UnityEngine::InputSystem::XR::XRFeatureDescriptor featureDescriptor);
 
   /// @brief Method SanitizeString, addr 0x2ac6cd4, size 0x160, virtual false, abstract: false, final false
-  /// @param allowPaths: bool (default: false)
-  static inline ::StringW SanitizeString(::StringW original, bool allowPaths = false);
+  static inline ::StringW SanitizeString(::StringW original, bool allowPaths);
 
   /// @brief Method OnFindLayoutForDevice, addr 0x2ac6e34, size 0x454, virtual false, abstract: false, final false
   static inline ::StringW OnFindLayoutForDevice(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::StringW matchedLayout,

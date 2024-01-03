@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IScoreSyncStateManager_5)
 namespace GlobalNamespace {
+class IConnectedPlayer;
+}
+namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class LocalMultiplayerSyncState_3;
 }
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class MultiplayerSyncState_3;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {

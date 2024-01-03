@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/EventSystems/zzzz__MoveDirection_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 CORDL_MODULE_EXPORT(AxisEventData)
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::EventSystems {
+class EventSystem;
 }
 namespace UnityEngine::EventSystems {
 struct MoveDirection;
 }
-namespace UnityEngine::EventSystems {
-class EventSystem;
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::AxisEventData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13165)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(13207))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(13165)), TypeDefinitionIndex(TypeDefinitionIndex(13207))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13163))
 // CS Name: ::UnityEngine.EventSystems::AxisEventData*
 class CORDL_TYPE AxisEventData : public ::UnityEngine::EventSystems::BaseEventData {

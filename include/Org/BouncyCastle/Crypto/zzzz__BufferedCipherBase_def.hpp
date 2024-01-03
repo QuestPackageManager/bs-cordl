@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BufferedCipherBase)
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IBufferedCipher;
 }
 namespace Org::BouncyCastle::Crypto {
-class IBufferedCipher;
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto {
@@ -36,6 +36,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBufferedCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IBufferedCipher*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IBufferedCipher"
+  constexpr ::Org::BouncyCastle::Crypto::IBufferedCipher* i___Org__BouncyCastle__Crypto__IBufferedCipher() noexcept;
 
   static inline void setStaticF_EmptyBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 

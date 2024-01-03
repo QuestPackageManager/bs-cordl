@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ColorSchemeColorToggleController)
 namespace UnityEngine::UI {
+class Graphic;
+}
+namespace UnityEngine::UI {
 class Toggle;
 }
 namespace UnityEngine {
 struct Color;
-}
-namespace UnityEngine::UI {
-class Graphic;
 }
 // Forward declare root types
 namespace GlobalNamespace {

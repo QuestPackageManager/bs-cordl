@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(ParticleSystemLightWithId)
 namespace UnityEngine {
-struct __ParticleSystem__Particle;
-}
-namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
 class ParticleSystem;
+}
+namespace UnityEngine {
+struct __ParticleSystem__Particle;
 }
 // Forward declare root types
 namespace GlobalNamespace {

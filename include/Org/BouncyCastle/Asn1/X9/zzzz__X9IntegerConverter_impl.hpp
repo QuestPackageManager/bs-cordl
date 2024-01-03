@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X9/zzzz__X9IntegerConverter_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X9IntegerConverter.GetByteLength
 template <>
 
@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x34;
   constexpr static std::size_t addrs = 0x11b22a8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X9IntegerConverter*>::get(), "GetByteLength", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::ECFieldElement*>::get() })));
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x34;
   constexpr static std::size_t addrs = 0x11b25dc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X9IntegerConverter*>::get(), "GetByteLength", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::ECCurve*>::get() })));
@@ -42,7 +42,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xdc;
   constexpr static std::size_t addrs = 0x11b22dc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X9IntegerConverter*>::get(), "IntegerToBytes", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::BigInteger*>::get(),
@@ -58,7 +58,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x11b2610;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X9IntegerConverter*>::get(),
                                                                                ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;

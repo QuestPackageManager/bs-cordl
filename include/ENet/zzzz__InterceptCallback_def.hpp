@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(InterceptCallback)
-namespace System {
-class IAsyncResult;
-}
 namespace ENet {
 struct Address;
 }
-namespace System {
-class Object;
+namespace ENet {
+struct Event;
 }
 namespace System {
 class AsyncCallback;
 }
-namespace ENet {
-struct Event;
+namespace System {
+class IAsyncResult;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace ENet {

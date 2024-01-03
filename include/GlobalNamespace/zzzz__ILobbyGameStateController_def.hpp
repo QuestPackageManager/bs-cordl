@@ -4,41 +4,41 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ILobbyGameStateController)
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
 namespace GlobalNamespace {
 struct CannotStartGameReason;
-}
-namespace GlobalNamespace {
-struct MultiplayerLobbyState;
 }
 namespace GlobalNamespace {
 struct DisconnectedReason;
 }
 namespace GlobalNamespace {
-class MultiplayerResultsData;
+class ILevelGameplaySetupData;
 }
 namespace GlobalNamespace {
 class MultiplayerLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class ILevelGameplaySetupData;
+struct MultiplayerLobbyState;
+}
+namespace GlobalNamespace {
+class MultiplayerResultsData;
+}
+namespace GlobalNamespace {
+class PlayersMissingEntitlementsNetSerializable;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace System {
-class Action;
+template <typename T> class Action_1;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
-namespace GlobalNamespace {
-class PlayersMissingEntitlementsNetSerializable;
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {

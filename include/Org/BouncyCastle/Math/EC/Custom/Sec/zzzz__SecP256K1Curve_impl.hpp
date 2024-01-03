@@ -2,14 +2,14 @@
 #include "Org/BouncyCastle/Math/EC/zzzz__AbstractECLookupTable_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__AbstractFpCurve_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/Custom/Sec/zzzz__SecP256K1Curve_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Math/EC/Custom/Sec/zzzz__SecP256K1Curve_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__ECLookupTable_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_def.hpp"
 #include "Org/BouncyCastle/Math/EC/Custom/Sec/zzzz__SecP256K1Point_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECLookupTable_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Custom::Sec::__SecP256K1Curve__SecP256K1LookupTable._ctor
 template <>
 
@@ -19,7 +19,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0xff2e54;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::__SecP256K1Curve__SecP256K1LookupTable*>::get(), ".ctor", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Custom::Sec::SecP256K1Curve*>::get(),
@@ -36,7 +36,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0xff3278;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(
         ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::__SecP256K1Curve__SecP256K1LookupTable*>::get(),
@@ -52,7 +52,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x118;
   constexpr static std::size_t addrs = 0xff3280;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(
         ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::__SecP256K1Curve__SecP256K1LookupTable*>::get(),
@@ -68,7 +68,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc4;
   constexpr static std::size_t addrs = 0xff3478;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(
         ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::__SecP256K1Curve__SecP256K1LookupTable*>::get(),
@@ -85,7 +85,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xe0;
   constexpr static std::size_t addrs = 0xff3398;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::__SecP256K1Curve__SecP256K1LookupTable*>::get(), "CreatePoint", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t, ::Array<uint32_t>*>>::get(),
@@ -180,7 +180,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1a4;
   constexpr static std::size_t addrs = 0xff26b0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::SecP256K1Curve*>::get(), ".ctor",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -195,7 +195,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0xff285c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::SecP256K1Curve*>::get(),
@@ -211,7 +211,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0xff28b4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::SecP256K1Curve*>::get(),
@@ -227,7 +227,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0xff28c0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::SecP256K1Curve*>::get(),
@@ -243,7 +243,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0xff2918;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::SecP256K1Curve*>::get(),
@@ -259,7 +259,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0xff2920;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::SecP256K1Curve*>::get(),
@@ -275,7 +275,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0xff2984;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::SecP256K1Curve*>::get(),
@@ -292,7 +292,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0xff2afc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::SecP256K1Curve*>::get(),
@@ -310,7 +310,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0xff2c10;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::SecP256K1Curve*>::get(),
@@ -327,7 +327,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1a4;
   constexpr static std::size_t addrs = 0xff2cb0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::SecP256K1Curve*>::get(),
@@ -343,7 +343,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0xff2e90;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::SecP256K1Curve*>::get(),
@@ -360,7 +360,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0xff3034;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::SecP256K1Curve*>::get(),

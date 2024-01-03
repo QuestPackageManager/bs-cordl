@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ValueAnimation_1)
 namespace System {
-template <typename T, typename TResult> class Func_2;
+template <typename T1, typename T2> class Action_2;
 }
-namespace UnityEngine::UIElements {
-class VisualElement;
+namespace System {
+class Action;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
 }
 namespace UnityEngine::UIElements::Experimental {
 class IValueAnimationUpdate;
@@ -24,8 +24,8 @@ class IValueAnimationUpdate;
 namespace UnityEngine::UIElements {
 template <typename T> class ObjectPool_1;
 }
-namespace System {
-class Action;
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::Experimental {
@@ -119,6 +119,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::UIElements::Experimental::IValueAnimationUpdate"
   constexpr operator ::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UIElements::Experimental::IValueAnimationUpdate"
+  constexpr ::UnityEngine::UIElements::Experimental::IValueAnimationUpdate* i___UnityEngine__UIElements__Experimental__IValueAnimationUpdate() noexcept;
 
   constexpr int64_t& __get_m_StartTimeMs();
 

@@ -2,14 +2,14 @@
 #include "HMUI/zzzz__TextSlider_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "HMUI/zzzz__ColorGradientSlider_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerUpHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
 #include "GlobalNamespace/zzzz__ColorChangeUIEventType_def.hpp"
-#include "System/zzzz__Action_3_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
-#include "HMUI/zzzz__TextSlider_def.hpp"
 #include "HMUI/zzzz__ImageView_def.hpp"
+#include "HMUI/zzzz__TextSlider_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/zzzz__Action_3_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerUpHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::HMUI::ColorGradientSlider.add_colorDidChangeEvent
 template <>
@@ -19,7 +19,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x2121460;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ColorGradientSlider*>::get(), "add_colorDidChangeEvent", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{
@@ -35,7 +35,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x2121514;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ColorGradientSlider*>::get(), "remove_colorDidChangeEvent", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{
@@ -50,7 +50,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x21215c8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ColorGradientSlider*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ColorGradientSlider*>::get(), 4));
@@ -64,7 +64,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8c;
   constexpr static std::size_t addrs = 0x21217a4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ColorGradientSlider*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ColorGradientSlider*>::get(), 8));
@@ -79,7 +79,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x21218e4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ColorGradientSlider*>::get(), "SetColors", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get(),
@@ -94,7 +94,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1a4;
   constexpr static std::size_t addrs = 0x2121914;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ColorGradientSlider*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ColorGradientSlider*>::get(), 50));
@@ -108,7 +108,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1a0;
   constexpr static std::size_t addrs = 0x2122048;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ColorGradientSlider*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ColorGradientSlider*>::get(), 54));
@@ -123,7 +123,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x21221e8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ColorGradientSlider*>::get(), "HandleNormalizedValueDidChange", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::TextSlider*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
@@ -138,7 +138,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xa0;
   constexpr static std::size_t addrs = 0x2122240;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ColorGradientSlider*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ColorGradientSlider*>::get(), 33));
@@ -152,7 +152,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x21222e0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ColorGradientSlider*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -162,8 +162,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 constexpr HMUI::ColorGradientSlider::operator ::UnityEngine::EventSystems::IPointerUpHandler*() noexcept {
   return static_cast<::UnityEngine::EventSystems::IPointerUpHandler*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::UnityEngine::EventSystems::IPointerUpHandler"
+constexpr ::UnityEngine::EventSystems::IPointerUpHandler* HMUI::ColorGradientSlider::i___UnityEngine__EventSystems__IPointerUpHandler() noexcept {
+  return static_cast<::UnityEngine::EventSystems::IPointerUpHandler*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
 constexpr HMUI::ColorGradientSlider::operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept {
+  return static_cast<::UnityEngine::EventSystems::IEventSystemHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+constexpr ::UnityEngine::EventSystems::IEventSystemHandler* HMUI::ColorGradientSlider::i___UnityEngine__EventSystems__IEventSystemHandler() noexcept {
   return static_cast<::UnityEngine::EventSystems::IEventSystemHandler*>(static_cast<void*>(this));
 }
 constexpr ::StringW& HMUI::ColorGradientSlider::__get__textPrefix() {

@@ -12,31 +12,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AnimatedSwitchView)
 namespace HMUI {
-class __AnimatedSwitchView__ColorBlock;
-}
-namespace HMUI {
-class __AnimatedSwitchView____c;
+class ImageView;
 }
 namespace HMUI {
 class ToggleWithCallbacks;
 }
-namespace UnityEngine {
-struct Color;
+namespace HMUI {
+struct __AnimatedSwitchView__AnimationState;
 }
 namespace HMUI {
-class ImageView;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace UnityEngine {
-class RectTransform;
+class __AnimatedSwitchView__ColorBlock;
 }
 namespace HMUI {
 class __AnimatedSwitchView__GetColorDelegate;
 }
 namespace HMUI {
-struct __AnimatedSwitchView__AnimationState;
+class __AnimatedSwitchView____c;
 }
 namespace HMUI {
 struct __ToggleWithCallbacks__SelectionState;
@@ -49,6 +40,15 @@ class IAsyncResult;
 }
 namespace System {
 class Object;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+class RectTransform;
 }
 // Forward declare root types
 namespace HMUI {
@@ -76,7 +76,7 @@ MARK_REF_PTR_T(::HMUI::__AnimatedSwitchView____c);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13614))
 // CS Name: ::AnimatedSwitchView::ColorBlock*
 class CORDL_TYPE __AnimatedSwitchView__ColorBlock : public ::System::Object {

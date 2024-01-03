@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Comparer_1)
-namespace System::Collections {
-class IComparer;
-}
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
+}
+namespace System::Collections {
+class IComparer;
 }
 namespace System {
 class Object;
@@ -38,8 +38,14 @@ public:
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IComparer"
+  constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<T>"
   constexpr operator ::System::Collections::Generic::IComparer_1<T>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::IComparer_1<T>"
+  constexpr ::System::Collections::Generic::IComparer_1<T>* i___System__Collections__Generic__IComparer_1_T_() noexcept;
 
   static inline void setStaticF_defaultComparer(::System::Collections::Generic::Comparer_1<T>* value);
 

@@ -2,10 +2,16 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataProcessor_1_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
-#include "System/Collections/Generic/zzzz__LinkedListNode_1_def.hpp"
 #include "GlobalNamespace/zzzz__ISortedListItemProcessor_1_def.hpp"
+#include "System/Collections/Generic/zzzz__LinkedListNode_1_def.hpp"
 /// @brief Convert operator to "::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapDataItem*>"
 template <typename T> constexpr GlobalNamespace::BeatmapEventDataProcessor_1<T>::operator ::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapDataItem*>*() noexcept {
+  return static_cast<::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapDataItem*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapDataItem*>"
+template <typename T>
+constexpr ::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapDataItem*>*
+GlobalNamespace::BeatmapEventDataProcessor_1<T>::i___GlobalNamespace__ISortedListItemProcessor_1___GlobalNamespace__BeatmapDataItem__() noexcept {
   return static_cast<::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapDataItem*>*>(static_cast<void*>(this));
 }
 template <typename T>

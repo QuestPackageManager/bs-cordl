@@ -8,8 +8,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BatchRendererGroup)
+namespace System {
+class Object;
+}
+namespace Unity::Jobs {
+struct JobHandle;
+}
 namespace UnityEngine::Rendering {
-class __BatchRendererGroup__OnPerformCulling;
+struct BatchCullingContext;
 }
 namespace UnityEngine::Rendering {
 struct BatchRendererCullingOutput;
@@ -18,13 +24,7 @@ namespace UnityEngine::Rendering {
 struct LODParameters;
 }
 namespace UnityEngine::Rendering {
-struct BatchCullingContext;
-}
-namespace Unity::Jobs {
-struct JobHandle;
-}
-namespace System {
-class Object;
+class __BatchRendererGroup__OnPerformCulling;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {

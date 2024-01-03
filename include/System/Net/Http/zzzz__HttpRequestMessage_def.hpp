@@ -5,8 +5,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HttpRequestMessage)
-namespace System {
-class Uri;
+namespace System::Net::Http::Headers {
+class HttpRequestHeaders;
 }
 namespace System::Net::Http {
 class HttpContent;
@@ -15,13 +15,13 @@ namespace System::Net::Http {
 class HttpMethod;
 }
 namespace System {
-class Version;
-}
-namespace System::Net::Http::Headers {
-class HttpRequestHeaders;
+class IDisposable;
 }
 namespace System {
-class IDisposable;
+class Uri;
+}
+namespace System {
+class Version;
 }
 // Forward declare root types
 namespace System::Net::Http {
@@ -72,6 +72,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::System::Net::Http::Headers::HttpRequestHeaders*& __get_headers();
 

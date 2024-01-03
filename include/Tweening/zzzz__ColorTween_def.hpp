@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ColorTween)
-namespace UnityEngine {
-struct Color;
-}
 namespace GlobalNamespace {
 struct EaseType;
 }
 namespace System {
 template <typename T> class Action_1;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue> class StaticMemoryPool_7;
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::Tweening::ColorTween);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Tweening {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(16099), inst: 293 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(16099))} Self: TypeDefinitionIndex(TypeDefinitionIndex(16096)) CS Name: ::Tweening::ColorTween*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16099)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(16099), inst:
+// 293 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(16096)) CS Name: ::Tweening::ColorTween*
 class CORDL_TYPE ColorTween : public ::Tweening::Tween_1<::UnityEngine::Color> {
 public:
   // Declarations
@@ -53,9 +53,8 @@ public:
                                                  ::GlobalNamespace::EaseType easeType, float_t delay);
 
   /// @brief Method .ctor, addr 0x2a0e184, size 0xd0, virtual false, abstract: false, final false
-  /// @param delay: float_t (default: 0.0)
   inline void _ctor(::UnityEngine::Color fromValue, ::UnityEngine::Color toValue, ::System::Action_1<::UnityEngine::Color>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType,
-                    float_t delay = 0.0);
+                    float_t delay);
 
   /// @brief Method GetValue, addr 0x2a0e254, size 0x48, virtual true, abstract: false, final false
   inline ::UnityEngine::Color GetValue(float_t t);

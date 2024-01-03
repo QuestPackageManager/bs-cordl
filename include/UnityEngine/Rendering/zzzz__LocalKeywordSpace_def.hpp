@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LocalKeywordSpace)
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -30,6 +30,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>* i___System__IEquatable_1___UnityEngine__Rendering__LocalKeywordSpace_();
 
   /// @brief Method Equals, addr 0x2cef1f8, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);

@@ -12,17 +12,8 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InteractionSystem)
-namespace UnityEngine {
-class Collider;
-}
 namespace RootMotion::FinalIK {
-class __InteractionSystem__InteractionDelegate;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace RootMotion::FinalIK {
-class InteractionLookAt;
+struct FullBodyBipedEffector;
 }
 namespace RootMotion::FinalIK {
 class FullBodyBipedIK;
@@ -31,25 +22,31 @@ namespace RootMotion::FinalIK {
 class InteractionEffector;
 }
 namespace RootMotion::FinalIK {
-class InteractionTrigger;
-}
-namespace RootMotion::FinalIK {
-struct FullBodyBipedEffector;
+class InteractionLookAt;
 }
 namespace RootMotion::FinalIK {
 class InteractionObject;
 }
 namespace RootMotion::FinalIK {
-class __InteractionTrigger__Range;
+class InteractionTarget;
+}
+namespace RootMotion::FinalIK {
+class InteractionTrigger;
+}
+namespace RootMotion::FinalIK {
+class __InteractionObject__InteractionEvent;
+}
+namespace RootMotion::FinalIK {
+class __InteractionSystem__InteractionDelegate;
 }
 namespace RootMotion::FinalIK {
 class __InteractionSystem__InteractionEventDelegate;
 }
+namespace RootMotion::FinalIK {
+class __InteractionTrigger__Range;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace RootMotion::FinalIK {
-class InteractionTarget;
 }
 namespace System {
 class AsyncCallback;
@@ -60,8 +57,11 @@ class IAsyncResult;
 namespace System {
 class Object;
 }
-namespace RootMotion::FinalIK {
-class __InteractionObject__InteractionEvent;
+namespace UnityEngine {
+class Collider;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -172,7 +172,7 @@ static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__Interacti
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 240, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15487))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15487)), TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12606))
 // CS Name: ::RootMotion.FinalIK::InteractionSystem*
 class CORDL_TYPE InteractionSystem : public ::UnityEngine::MonoBehaviour {

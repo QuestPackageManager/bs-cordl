@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(SynchronizedActionQueue)
 namespace GlobalNamespace {
 struct __SynchronizedActionQueue__SynchronizedAction;
 }
-namespace System {
-class Action;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {

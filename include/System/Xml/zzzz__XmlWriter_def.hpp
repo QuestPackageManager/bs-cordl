@@ -10,17 +10,17 @@ CORDL_MODULE_EXPORT(XmlWriter)
 namespace System::IO {
 class Stream;
 }
-namespace System {
-class IDisposable;
-}
-namespace System::Xml {
-struct WriteState;
-}
 namespace System::IO {
 class TextWriter;
 }
 namespace System::Xml {
+struct WriteState;
+}
+namespace System::Xml {
 class XmlWriterSettings;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -42,6 +42,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// @brief Method WriteStartDocument, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void WriteStartDocument();

@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__TypeNameParser_def.hpp"
-#include "System/zzzz__Func_4_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
 #include "System/Reflection/zzzz__AssemblyName_def.hpp"
 #include "System/Reflection/zzzz__Assembly_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Threading/zzzz__StackCrawlMark_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__Func_4_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::TypeNameParser.GetType
 template <>
 
@@ -17,7 +17,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x25f624c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TypeNameParser*>::get(), "GetType", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),

@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/Playables/zzzz__PlayableAsset_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomFogParamsAsset_def.hpp"
+#include "GlobalNamespace/zzzz__BloomFogParamsBehaviour_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 #include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
-#include "GlobalNamespace/zzzz__BloomFogParamsBehaviour_def.hpp"
 #include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BloomFogParamsAsset.get_clipCaps
 template <>
 
@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23155b0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomFogParamsAsset*>::get(), "get_clipCaps",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xa8;
   constexpr static std::size_t addrs = 0x23155b8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomFogParamsAsset*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomFogParamsAsset*>::get(), 6));
@@ -43,7 +43,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2315660;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomFogParamsAsset*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -51,6 +51,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
 constexpr GlobalNamespace::BloomFogParamsAsset::operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept {
+  return static_cast<::UnityEngine::Timeline::ITimelineClipAsset*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
+constexpr ::UnityEngine::Timeline::ITimelineClipAsset* GlobalNamespace::BloomFogParamsAsset::i___UnityEngine__Timeline__ITimelineClipAsset() noexcept {
   return static_cast<::UnityEngine::Timeline::ITimelineClipAsset*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::BloomFogParamsBehaviour*& GlobalNamespace::BloomFogParamsAsset::__get__template() {

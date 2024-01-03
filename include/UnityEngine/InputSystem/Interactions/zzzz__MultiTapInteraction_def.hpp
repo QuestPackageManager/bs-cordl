@@ -9,14 +9,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiTapInteraction)
-namespace UnityEngine::InputSystem {
-class IInputInteraction;
+namespace UnityEngine::InputSystem::Interactions {
+struct __MultiTapInteraction__TapPhase;
 }
 namespace UnityEngine::InputSystem {
 template <typename TValue> class IInputInteraction_1;
 }
-namespace UnityEngine::InputSystem::Interactions {
-struct __MultiTapInteraction__TapPhase;
+namespace UnityEngine::InputSystem {
+class IInputInteraction;
 }
 namespace UnityEngine::InputSystem {
 struct InputInteractionContext;
@@ -132,8 +132,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::IInputInteraction_1<float_t>"
   constexpr operator ::UnityEngine::InputSystem::IInputInteraction_1<float_t>*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::InputSystem::IInputInteraction_1<float_t>"
+  constexpr ::UnityEngine::InputSystem::IInputInteraction_1<float_t>* i___UnityEngine__InputSystem__IInputInteraction_1_float_t_() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::InputSystem::IInputInteraction"
   constexpr operator ::UnityEngine::InputSystem::IInputInteraction*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::InputSystem::IInputInteraction"
+  constexpr ::UnityEngine::InputSystem::IInputInteraction* i___UnityEngine__InputSystem__IInputInteraction() noexcept;
 
   constexpr float_t& __get_tapTime();
 

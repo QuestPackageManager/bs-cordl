@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509BasicCons
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9011)), TypeDefinitionIndex(TypeDefinitionIndex(8976))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8976)), TypeDefinitionIndex(TypeDefinitionIndex(9011))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8992))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509BasicConstraintsExtension*
 class CORDL_TYPE X509BasicConstraintsExtension : public ::System::Security::Cryptography::X509Certificates::X509Extension {

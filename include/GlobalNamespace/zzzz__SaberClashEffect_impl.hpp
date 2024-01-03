@@ -2,11 +2,11 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_impl.hpp"
 #include "GlobalNamespace/zzzz__SaberClashEffect_def.hpp"
-#include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
-#include "GlobalNamespace/zzzz__SaberClashChecker_def.hpp"
 #include "GlobalNamespace/zzzz__ColorManager_def.hpp"
-#include "UnityEngine/zzzz__ParticleSystem_def.hpp"
 #include "GlobalNamespace/zzzz__HapticFeedbackManager_def.hpp"
+#include "GlobalNamespace/zzzz__SaberClashChecker_def.hpp"
+#include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
+#include "UnityEngine/zzzz__ParticleSystem_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SaberClashEffect.Start
 template <>
 
@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1b0;
   constexpr static std::size_t addrs = 0x23b2168;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberClashEffect*>::get(), "Start",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x23b2318;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberClashEffect*>::get(), "OnDisable",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -40,7 +40,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xfc;
   constexpr static std::size_t addrs = 0x23b2328;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberClashEffect*>::get(), "LateUpdate",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -53,7 +53,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23b2424;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberClashEffect*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;

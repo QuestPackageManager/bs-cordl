@@ -8,8 +8,8 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Sprite)
-namespace UnityEngine {
-class Texture2D;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -20,20 +20,20 @@ struct Bounds;
 namespace UnityEngine {
 struct Rect;
 }
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
 namespace UnityEngine {
-struct Vector2;
+struct SpriteMeshType;
 }
 namespace UnityEngine {
 struct SpritePackingMode;
 }
 namespace UnityEngine {
-struct SpriteMeshType;
+struct SpritePackingRotation;
 }
 namespace UnityEngine {
-struct SpritePackingRotation;
+class Texture2D;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine {
 struct Vector4;

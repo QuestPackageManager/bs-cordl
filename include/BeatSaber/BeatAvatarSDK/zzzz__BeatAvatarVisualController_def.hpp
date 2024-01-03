@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatAvatarVisualController)
 namespace BeatSaber::BeatAvatarSDK {
+class AvatarData;
+}
+namespace BeatSaber::BeatAvatarSDK {
+struct AvatarPart;
+}
+namespace BeatSaber::BeatAvatarSDK {
 class AvatarPartsModel;
-}
-namespace UnityEngine {
-class MeshFilter;
-}
-namespace UnityEngine {
-class SpriteRenderer;
 }
 namespace BeatSaber::BeatAvatarSDK {
 class AvatarPropertyBlockColorSetter;
@@ -28,14 +28,8 @@ class __BeatAvatarVisualController__HighlighterDelegate;
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace UnityEngine {
-struct Color;
-}
-namespace BeatSaber::BeatAvatarSDK {
-class AvatarData;
-}
-namespace BeatSaber::BeatAvatarSDK {
-struct AvatarPart;
+namespace System {
+class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
@@ -43,8 +37,14 @@ class IAsyncResult;
 namespace System {
 class Object;
 }
-namespace System {
-class AsyncCallback;
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+class MeshFilter;
+}
+namespace UnityEngine {
+class SpriteRenderer;
 }
 // Forward declare root types
 namespace BeatSaber::BeatAvatarSDK {

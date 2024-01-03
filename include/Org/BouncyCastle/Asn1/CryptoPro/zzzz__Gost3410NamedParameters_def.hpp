@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Gost3410NamedParameters)
-namespace System::Collections {
-class IDictionary;
-}
 namespace Org::BouncyCastle::Asn1::CryptoPro {
 class Gost3410ParamSetParameters;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace System::Collections {
+class IDictionary;
 }
 namespace System::Collections {
 class IEnumerable;

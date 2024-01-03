@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ResourceProviderBase_def.hpp"
 CORDL_MODULE_EXPORT(AssetBundleProvider)
 namespace System {
-class Type;
-}
-namespace System {
 class Object;
 }
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct ProvideHandle;
+namespace System {
+class Type;
 }
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct ProvideHandle;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {

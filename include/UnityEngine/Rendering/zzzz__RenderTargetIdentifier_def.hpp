@@ -9,14 +9,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RenderTargetIdentifier)
-namespace UnityEngine::Rendering {
-struct BuiltinRenderTextureType;
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
 }
-namespace System {
-template <typename T> class IEquatable_1;
+namespace UnityEngine::Rendering {
+struct BuiltinRenderTextureType;
 }
 namespace UnityEngine {
 struct CubemapFace;
@@ -34,7 +34,7 @@ MARK_VAL_T(::UnityEngine::Rendering::RenderTargetIdentifier);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10339)), TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(10116))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10116)), TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(10339))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10346))
 // CS Name: ::UnityEngine.Rendering::RenderTargetIdentifier
 struct CORDL_TYPE RenderTargetIdentifier {
@@ -42,6 +42,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>* i___System__IEquatable_1___UnityEngine__Rendering__RenderTargetIdentifier_();
 
   /// @brief Method .ctor, addr 0x2cec308, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::BuiltinRenderTextureType type);

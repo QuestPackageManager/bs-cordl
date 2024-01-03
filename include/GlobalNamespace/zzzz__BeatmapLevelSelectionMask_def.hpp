@@ -8,26 +8,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapLevelSelectionMask)
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace GlobalNamespace {
-struct SongPackMask;
-}
-namespace System {
-class Object;
-}
 namespace GlobalNamespace {
 struct BeatmapDifficultyMask;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
 }
 namespace GlobalNamespace {
 struct GameplayModifierMask;
 }
+namespace GlobalNamespace {
+struct SongPackMask;
+}
 namespace LiteNetLib::Utils {
 class NetDataReader;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -48,6 +48,9 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::BeatmapLevelSelectionMask>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::BeatmapLevelSelectionMask>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::BeatmapLevelSelectionMask>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::BeatmapLevelSelectionMask>* i___System__IEquatable_1___GlobalNamespace__BeatmapLevelSelectionMask_();
+
   /// @brief Method .ctor, addr 0xe299a4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapDifficultyMask difficulties, ::GlobalNamespace::GameplayModifierMask modifiers, ::GlobalNamespace::SongPackMask songPacks);
 
@@ -61,12 +64,10 @@ public:
   inline int32_t GetHashCode();
 
   /// @brief Method Serialize, addr 0xe29b8c, size 0x50, virtual false, abstract: false, final false
-  /// @param version: uint32_t (default: static_cast<uint32_t>(0xc0000000u))
-  inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer, uint32_t version = static_cast<uint32_t>(0xc0000000u));
+  inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer, uint32_t version);
 
   /// @brief Method Deserialize, addr 0xe29bdc, size 0x80, virtual false, abstract: false, final false
-  /// @param version: uint32_t (default: static_cast<uint32_t>(0xc00000u))
-  static inline ::GlobalNamespace::BeatmapLevelSelectionMask Deserialize(::LiteNetLib::Utils::NetDataReader* reader, uint32_t version = static_cast<uint32_t>(0xc00000u));
+  static inline ::GlobalNamespace::BeatmapLevelSelectionMask Deserialize(::LiteNetLib::Utils::NetDataReader* reader, uint32_t version);
 
   /// @brief Method op_Equality, addr 0xe29c5c, size 0x88, virtual false, abstract: false, final false
   static inline bool op_Equality(::GlobalNamespace::BeatmapLevelSelectionMask l, ::GlobalNamespace::BeatmapLevelSelectionMask r);

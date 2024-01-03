@@ -6,50 +6,50 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DotNetUtilities)
-namespace System::Security::Cryptography {
-class AsymmetricAlgorithm;
+namespace Org::BouncyCastle::Asn1::Pkcs {
+class RsaPrivateKeyStructure;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509CertificateStructure;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DsaPublicKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class RsaKeyParameters;
 }
-namespace System::Security::Cryptography {
-class RSA;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class RsaPrivateCrtKeyParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricCipherKeyPair;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
 }
 namespace System::Security::Cryptography {
-struct DSAParameters;
-}
-namespace Org::BouncyCastle::Asn1::Pkcs {
-class RsaPrivateKeyStructure;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+class AsymmetricAlgorithm;
 }
 namespace System::Security::Cryptography {
-struct RSAParameters;
+class CspParameters;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class RsaPrivateCrtKeyParameters;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509CertificateStructure;
-}
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
+namespace System::Security::Cryptography {
+struct DSAParameters;
 }
 namespace System::Security::Cryptography {
 class DSA;
 }
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricCipherKeyPair;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DsaPublicKeyParameters;
+namespace System::Security::Cryptography {
+struct RSAParameters;
 }
 namespace System::Security::Cryptography {
-class CspParameters;
+class RSA;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Security {

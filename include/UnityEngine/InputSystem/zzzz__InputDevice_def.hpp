@@ -12,17 +12,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputDevice)
-namespace UnityEngine::InputSystem {
-struct __InputDevice__DeviceFlags;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct ReadOnlyArray_1;
-}
 namespace System {
 class Object;
 }
-namespace UnityEngine::InputSystem {
-class InputControl;
+namespace System {
+class Type;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct InputDeviceDescription;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputDeviceCommand;
@@ -30,11 +27,14 @@ struct InputDeviceCommand;
 namespace UnityEngine::InputSystem::Utilities {
 struct InternedString;
 }
-namespace System {
-class Type;
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> struct ReadOnlyArray_1;
 }
-namespace UnityEngine::InputSystem::Layouts {
-struct InputDeviceDescription;
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
+namespace UnityEngine::InputSystem {
+struct __InputDevice__DeviceFlags;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -148,7 +148,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputDevice__DeviceFlags, v
 // SizeInfo { instance_size: 344, native_size: -1, calculated_instance_size: 344, calculated_native_size: 344, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6215)), TypeDefinitionIndex(TypeDefinitionIndex(6620)), TypeDefinitionIndex(TypeDefinitionIndex(6238))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6620)), TypeDefinitionIndex(TypeDefinitionIndex(6238)), TypeDefinitionIndex(TypeDefinitionIndex(6215))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6239))
 // CS Name: ::UnityEngine.InputSystem::InputDevice*
 class CORDL_TYPE InputDevice : public ::UnityEngine::InputSystem::InputControl {
@@ -477,13 +477,8 @@ public:
   inline void NotifyRemoved();
 
   /// @brief Method Build, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param layoutName: ::StringW (default: nullptr)
-  /// @param layoutVariants: ::StringW (default: nullptr)
-  /// @param deviceDescription: ::UnityEngine::InputSystem::Layouts::InputDeviceDescription (default: {})
-  /// @param noPrecompiledLayouts: bool (default: false)
   template <typename TDevice>
-  static inline TDevice Build(::StringW layoutName = nullptr, ::StringW layoutVariants = nullptr, ::UnityEngine::InputSystem::Layouts::InputDeviceDescription deviceDescription = {},
-                              bool noPrecompiledLayouts = false);
+  static inline TDevice Build(::StringW layoutName, ::StringW layoutVariants, ::UnityEngine::InputSystem::Layouts::InputDeviceDescription deviceDescription, bool noPrecompiledLayouts);
 
   // Ctor Parameters [CppParam { name: "", ty: "InputDevice", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

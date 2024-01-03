@@ -9,37 +9,41 @@
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NetworkPlayerModel_1_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
-#include "GlobalNamespace/zzzz__NetworkPlayerModel_1_def.hpp"
-#include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "GlobalNamespace/zzzz__IAuthenticationTokenProvider_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "GlobalNamespace/zzzz__IPlatformUserModel_def.hpp"
-#include "GlobalNamespace/zzzz__INetworkPlayerModel_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__INetworkPlayer_def.hpp"
-#include "GlobalNamespace/zzzz__UserInfo_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
 #include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
-#include "GlobalNamespace/zzzz__INetworkPlayerModelPartyConfig_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "GlobalNamespace/zzzz__PublicServerInfo_def.hpp"
+#include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
+#include "GlobalNamespace/zzzz__IAuthenticationTokenProvider_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectionInitParams_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkPlayerModelPartyConfig_1_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkPlayerModel_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkPlayer_def.hpp"
+#include "GlobalNamespace/zzzz__IPlatformUserModel_def.hpp"
+#include "GlobalNamespace/zzzz__NetworkPlayerModel_1_def.hpp"
+#include "GlobalNamespace/zzzz__PublicServerInfo_def.hpp"
+#include "GlobalNamespace/zzzz__UserInfo_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__Comparison_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "System/zzzz__Comparison_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 /// @brief Convert operator to "::GlobalNamespace::INetworkPlayer"
 template <typename T> constexpr GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>::operator ::GlobalNamespace::INetworkPlayer*() noexcept {
+  return static_cast<::GlobalNamespace::INetworkPlayer*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::INetworkPlayer"
+template <typename T> constexpr ::GlobalNamespace::INetworkPlayer* GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>::i___GlobalNamespace__INetworkPlayer() noexcept {
   return static_cast<::GlobalNamespace::INetworkPlayer*>(static_cast<void*>(this));
 }
 template <typename T> constexpr ::GlobalNamespace::NetworkPlayerModel_1<T>*& GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>::__get__playerModel() {
@@ -251,6 +255,12 @@ constexpr GlobalNamespace::__NetworkPlayerModel_1__JoinMatchmakingPartyConfig<T>
     ::GlobalNamespace::NetworkPlayerModel_1<T>*>*() noexcept {
   return static_cast<::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>"
+template <typename T>
+constexpr ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>*
+GlobalNamespace::__NetworkPlayerModel_1__JoinMatchmakingPartyConfig<T>::i___GlobalNamespace__INetworkPlayerModelPartyConfig_1___GlobalNamespace__NetworkPlayerModel_1_T___() noexcept {
+  return static_cast<::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>*>(static_cast<void*>(this));
+}
 template <typename T> constexpr ::StringW& GlobalNamespace::__NetworkPlayerModel_1__JoinMatchmakingPartyConfig<T>::__get_secret() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___secret;
@@ -291,6 +301,12 @@ template <typename T>
 constexpr GlobalNamespace::__NetworkPlayerModel_1__StartClientPartyConfig<T>::operator ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>*() noexcept {
   return static_cast<::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>"
+template <typename T>
+constexpr ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>*
+GlobalNamespace::__NetworkPlayerModel_1__StartClientPartyConfig<T>::i___GlobalNamespace__INetworkPlayerModelPartyConfig_1___GlobalNamespace__NetworkPlayerModel_1_T___() noexcept {
+  return static_cast<::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>*>(static_cast<void*>(this));
+}
 template <typename T> inline ::GlobalNamespace::__NetworkPlayerModel_1__StartClientPartyConfig<T>* GlobalNamespace::__NetworkPlayerModel_1__StartClientPartyConfig<T>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__NetworkPlayerModel_1__StartClientPartyConfig<T>*>());
 }
@@ -304,6 +320,10 @@ template <typename T> inline void GlobalNamespace::__NetworkPlayerModel_1__Start
 template <typename T> constexpr ::GlobalNamespace::__NetworkPlayerModel_1__StartClientPartyConfig<T>::__NetworkPlayerModel_1__StartClientPartyConfig() {}
 /// @brief Convert operator to "::GlobalNamespace::INetworkPlayer"
 template <typename T> constexpr GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>::operator ::GlobalNamespace::INetworkPlayer*() noexcept {
+  return static_cast<::GlobalNamespace::INetworkPlayer*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::INetworkPlayer"
+template <typename T> constexpr ::GlobalNamespace::INetworkPlayer* GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>::i___GlobalNamespace__INetworkPlayer() noexcept {
   return static_cast<::GlobalNamespace::INetworkPlayer*>(static_cast<void*>(this));
 }
 template <typename T> constexpr ::GlobalNamespace::NetworkPlayerModel_1<T>*& GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>::__get__playerModel() {
@@ -582,6 +602,12 @@ template <typename T> constexpr ::GlobalNamespace::__NetworkPlayerModel_1__Netwo
 template <typename T> constexpr GlobalNamespace::__NetworkPlayerModel_1___InitAuthenticationTokenProvider_d__56<T>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+template <typename T>
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+GlobalNamespace::__NetworkPlayerModel_1___InitAuthenticationTokenProvider_d__56<T>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 template <typename T> inline void GlobalNamespace::__NetworkPlayerModel_1___InitAuthenticationTokenProvider_d__56<T>::MoveNext() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__NetworkPlayerModel_1___InitAuthenticationTokenProvider_d__56<T>>::get(),
@@ -615,8 +641,18 @@ template <typename T>
 constexpr GlobalNamespace::__NetworkPlayerModel_1___GetPartyPlayers_d__57<T>::operator ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>"
+template <typename T>
+constexpr ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*
+GlobalNamespace::__NetworkPlayerModel_1___GetPartyPlayers_d__57<T>::i___System__Collections__Generic__IEnumerable_1___GlobalNamespace__INetworkPlayer__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename T> constexpr GlobalNamespace::__NetworkPlayerModel_1___GetPartyPlayers_d__57<T>::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename T> constexpr ::System::Collections::IEnumerable* GlobalNamespace::__NetworkPlayerModel_1___GetPartyPlayers_d__57<T>::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>"
@@ -624,12 +660,26 @@ template <typename T>
 constexpr GlobalNamespace::__NetworkPlayerModel_1___GetPartyPlayers_d__57<T>::operator ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>"
+template <typename T>
+constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*
+GlobalNamespace::__NetworkPlayerModel_1___GetPartyPlayers_d__57<T>::i___System__Collections__Generic__IEnumerator_1___GlobalNamespace__INetworkPlayer__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 template <typename T> constexpr GlobalNamespace::__NetworkPlayerModel_1___GetPartyPlayers_d__57<T>::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::IEnumerator"
+template <typename T> constexpr ::System::Collections::IEnumerator* GlobalNamespace::__NetworkPlayerModel_1___GetPartyPlayers_d__57<T>::i___System__Collections__IEnumerator() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::IDisposable"
 template <typename T> constexpr GlobalNamespace::__NetworkPlayerModel_1___GetPartyPlayers_d__57<T>::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename T> constexpr ::System::IDisposable* GlobalNamespace::__NetworkPlayerModel_1___GetPartyPlayers_d__57<T>::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 template <typename T> constexpr int32_t& GlobalNamespace::__NetworkPlayerModel_1___GetPartyPlayers_d__57<T>::__get___1__state() {
@@ -755,8 +805,18 @@ template <typename T>
 constexpr GlobalNamespace::__NetworkPlayerModel_1___GetOtherPlayers_d__58<T>::operator ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>"
+template <typename T>
+constexpr ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*
+GlobalNamespace::__NetworkPlayerModel_1___GetOtherPlayers_d__58<T>::i___System__Collections__Generic__IEnumerable_1___GlobalNamespace__INetworkPlayer__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename T> constexpr GlobalNamespace::__NetworkPlayerModel_1___GetOtherPlayers_d__58<T>::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename T> constexpr ::System::Collections::IEnumerable* GlobalNamespace::__NetworkPlayerModel_1___GetOtherPlayers_d__58<T>::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>"
@@ -764,12 +824,26 @@ template <typename T>
 constexpr GlobalNamespace::__NetworkPlayerModel_1___GetOtherPlayers_d__58<T>::operator ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>"
+template <typename T>
+constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*
+GlobalNamespace::__NetworkPlayerModel_1___GetOtherPlayers_d__58<T>::i___System__Collections__Generic__IEnumerator_1___GlobalNamespace__INetworkPlayer__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 template <typename T> constexpr GlobalNamespace::__NetworkPlayerModel_1___GetOtherPlayers_d__58<T>::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::IEnumerator"
+template <typename T> constexpr ::System::Collections::IEnumerator* GlobalNamespace::__NetworkPlayerModel_1___GetOtherPlayers_d__58<T>::i___System__Collections__IEnumerator() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::IDisposable"
 template <typename T> constexpr GlobalNamespace::__NetworkPlayerModel_1___GetOtherPlayers_d__58<T>::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename T> constexpr ::System::IDisposable* GlobalNamespace::__NetworkPlayerModel_1___GetOtherPlayers_d__58<T>::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 template <typename T> constexpr int32_t& GlobalNamespace::__NetworkPlayerModel_1___GetOtherPlayers_d__58<T>::__get___1__state() {
@@ -1014,6 +1088,10 @@ inline int32_t GlobalNamespace::__NetworkPlayerModel_1____c<T>::_PlayerOrderChan
 template <typename T> constexpr ::GlobalNamespace::__NetworkPlayerModel_1____c<T>::__NetworkPlayerModel_1____c() {}
 /// @brief Convert operator to "::GlobalNamespace::INetworkPlayerModel"
 template <typename T> constexpr GlobalNamespace::NetworkPlayerModel_1<T>::operator ::GlobalNamespace::INetworkPlayerModel*() noexcept {
+  return static_cast<::GlobalNamespace::INetworkPlayerModel*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::INetworkPlayerModel"
+template <typename T> constexpr ::GlobalNamespace::INetworkPlayerModel* GlobalNamespace::NetworkPlayerModel_1<T>::i___GlobalNamespace__INetworkPlayerModel() noexcept {
   return static_cast<::GlobalNamespace::INetworkPlayerModel*>(static_cast<void*>(this));
 }
 template <typename T> constexpr ::GlobalNamespace::IPlatformUserModel*& GlobalNamespace::NetworkPlayerModel_1<T>::__get__platformUserModel() {

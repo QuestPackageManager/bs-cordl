@@ -6,14 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ConstructionCall)
-namespace System::Runtime::Remoting::Messaging {
-class IMethodCallMessage;
-}
-namespace System::Runtime::Remoting::Proxies {
-class RemotingProxy;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+namespace System::Collections {
+class IDictionary;
 }
 namespace System::Collections {
 class IList;
@@ -21,17 +15,20 @@ class IList;
 namespace System::Runtime::Remoting::Activation {
 class IActivator;
 }
+namespace System::Runtime::Remoting::Activation {
+class IConstructionCallMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMethodCallMessage;
+}
 namespace System::Runtime::Remoting::Messaging {
 class IMethodMessage;
 }
-namespace System {
-class Object;
-}
-namespace System {
-class Type;
-}
-namespace System::Collections {
-class IDictionary;
+namespace System::Runtime::Remoting::Proxies {
+class RemotingProxy;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
@@ -39,8 +36,11 @@ class SerializationInfo;
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System::Runtime::Remoting::Activation {
-class IConstructionCallMessage;
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -98,14 +98,26 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Activation::IConstructionCallMessage"
   constexpr operator ::System::Runtime::Remoting::Activation::IConstructionCallMessage*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Remoting::Activation::IConstructionCallMessage"
+  constexpr ::System::Runtime::Remoting::Activation::IConstructionCallMessage* i___System__Runtime__Remoting__Activation__IConstructionCallMessage() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessage*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessage"
+  constexpr ::System::Runtime::Remoting::Messaging::IMessage* i___System__Runtime__Remoting__Messaging__IMessage() noexcept;
 
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodCallMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMethodCallMessage*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodCallMessage"
+  constexpr ::System::Runtime::Remoting::Messaging::IMethodCallMessage* i___System__Runtime__Remoting__Messaging__IMethodCallMessage() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMethodMessage*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodMessage"
+  constexpr ::System::Runtime::Remoting::Messaging::IMethodMessage* i___System__Runtime__Remoting__Messaging__IMethodMessage() noexcept;
 
   constexpr ::System::Runtime::Remoting::Activation::IActivator*& __get__activator();
 

@@ -1,11 +1,11 @@
 #pragma once
 #include "Zenject/zzzz__ConcreteBinderNonGeneric_impl.hpp"
 #include "Zenject/zzzz__ConcreteIdBinderNonGeneric_def.hpp"
-#include "Zenject/zzzz__BindStatement_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "Zenject/zzzz__BindInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__BindInfo_def.hpp"
+#include "Zenject/zzzz__BindStatement_def.hpp"
 #include "Zenject/zzzz__ConcreteBinderNonGeneric_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 //  Writing Method size for method: ::Zenject::ConcreteIdBinderNonGeneric._ctor
 template <>
 
@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x34;
   constexpr static std::size_t addrs = 0x2ec739c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ConcreteIdBinderNonGeneric*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get(),
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x2ec73d0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ConcreteIdBinderNonGeneric*>::get(), "WithId", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));

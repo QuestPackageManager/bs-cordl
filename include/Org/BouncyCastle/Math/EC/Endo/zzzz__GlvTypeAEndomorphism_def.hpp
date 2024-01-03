@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(GlvTypeAEndomorphism)
-namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECPointMap;
-}
 namespace Org::BouncyCastle::Math::EC::Endo {
-class GlvTypeAParameters;
+class ECEndomorphism;
 }
 namespace Org::BouncyCastle::Math::EC::Endo {
 class GlvEndomorphism;
 }
 namespace Org::BouncyCastle::Math::EC::Endo {
-class ECEndomorphism;
+class GlvTypeAParameters;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECCurve;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECPointMap;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Endo {
@@ -52,8 +52,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism"
   constexpr operator ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism"
+  constexpr ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* i___Org__BouncyCastle__Math__EC__Endo__GlvEndomorphism() noexcept;
+
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism"
   constexpr operator ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism"
+  constexpr ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* i___Org__BouncyCastle__Math__EC__Endo__ECEndomorphism() noexcept;
 
   constexpr ::Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters*& __get_m_parameters();
 

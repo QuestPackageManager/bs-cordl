@@ -13,85 +13,85 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameScenesManager)
 namespace GlobalNamespace {
-class __GameScenesManager____c__DisplayClass34_0;
+class SceneInfo;
 }
 namespace GlobalNamespace {
 class ScenesTransitionSetupDataSO;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace Zenject {
-class DiContainer;
-}
 namespace GlobalNamespace {
-class __GameScenesManager____c__DisplayClass30_0;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace GlobalNamespace {
-class __GameScenesManager___ScenesTransitionCoroutine_d__38;
-}
-namespace GlobalNamespace {
-class SceneInfo;
-}
-namespace GlobalNamespace {
-class __GameScenesManager____c__DisplayClass38_0;
-}
-namespace System {
-template <typename T> class Action_1;
+struct __GameScenesManager__SceneDismissType;
 }
 namespace GlobalNamespace {
 struct __GameScenesManager__ScenePresentType;
 }
 namespace GlobalNamespace {
-struct __GameScenesManager__SceneDismissType;
-}
-namespace UnityEngine {
-class WaitUntil;
+class __GameScenesManager__ScenesStackData;
 }
 namespace GlobalNamespace {
-class __GameScenesManager____c__DisplayClass33_0;
+class __GameScenesManager___ScenesTransitionCoroutine_d__38;
 }
-namespace System {
-class Action;
+namespace GlobalNamespace {
+class __GameScenesManager____c__DisplayClass30_0;
 }
 namespace GlobalNamespace {
 class __GameScenesManager____c__DisplayClass31_0;
 }
 namespace GlobalNamespace {
-class __GameScenesManager__ScenesStackData;
+class __GameScenesManager____c__DisplayClass32_0;
 }
-namespace Zenject {
-class ZenjectSceneLoader;
+namespace GlobalNamespace {
+class __GameScenesManager____c__DisplayClass33_0;
 }
-namespace System {
-template <typename T1, typename T2> class Action_2;
+namespace GlobalNamespace {
+class __GameScenesManager____c__DisplayClass34_0;
 }
 namespace GlobalNamespace {
 class __GameScenesManager____c__DisplayClass35_0;
 }
 namespace GlobalNamespace {
-class __GameScenesManager____c__DisplayClass32_0;
+class __GameScenesManager____c__DisplayClass38_0;
 }
-namespace UnityEngine {
-class AsyncOperation;
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
-namespace UnityEngine::EventSystems {
-class EventSystem;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
-class Object;
+template <typename T> class Action_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace System {
+class Action;
 }
 namespace System {
 class IDisposable;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class Object;
+}
+namespace UnityEngine::EventSystems {
+class EventSystem;
+}
+namespace UnityEngine {
+class AsyncOperation;
+}
+namespace UnityEngine {
+class WaitUntil;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class ZenjectSceneLoader;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -1047,8 +1047,8 @@ static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15396)), TypeDefinitionIndex(TypeDefinitionIndex(3842)), TypeDefinitionIndex(TypeDefinitionIndex(15397))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15396)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 397 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(15397)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3842))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(15405)) CS Name: ::GameScenesManager::<ScenesTransitionCoroutine>d__38*
 class CORDL_TYPE __GameScenesManager___ScenesTransitionCoroutine_d__38 : public ::System::Object {
 public:
@@ -1114,11 +1114,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -1525,48 +1534,28 @@ public:
   inline ::System::Collections::Generic::List_1<::StringW>* GetCurrentlyLoadedSceneNames();
 
   /// @brief Method PushScenes, addr 0xe1f1a8, size 0x354, virtual false, abstract: false, final false
-  /// @param minDuration: float_t (default: 0.0)
-  /// @param afterMinDurationCallback: ::System::Action* (default: nullptr)
-  /// @param finishCallback: ::System::Action_1<::Zenject::DiContainer*>* (default: nullptr)
-  inline void PushScenes(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, float_t minDuration = 0.0, ::System::Action* afterMinDurationCallback = nullptr,
-                         ::System::Action_1<::Zenject::DiContainer*>* finishCallback = nullptr);
+  inline void PushScenes(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, float_t minDuration, ::System::Action* afterMinDurationCallback,
+                         ::System::Action_1<::Zenject::DiContainer*>* finishCallback);
 
   /// @brief Method PopScenes, addr 0xe1f724, size 0x1e8, virtual false, abstract: false, final false
-  /// @param minDuration: float_t (default: 0.0)
-  /// @param afterMinDurationCallback: ::System::Action* (default: nullptr)
-  /// @param finishCallback: ::System::Action_1<::Zenject::DiContainer*>* (default: nullptr)
-  inline void PopScenes(float_t minDuration = 0.0, ::System::Action* afterMinDurationCallback = nullptr, ::System::Action_1<::Zenject::DiContainer*>* finishCallback = nullptr);
+  inline void PopScenes(float_t minDuration, ::System::Action* afterMinDurationCallback, ::System::Action_1<::Zenject::DiContainer*>* finishCallback);
 
   /// @brief Method ReplaceScenes, addr 0xe1f914, size 0x358, virtual false, abstract: false, final false
-  /// @param beforeNewScenesActivateRoutines: ::ArrayW<::System::Collections::IEnumerator*,::Array<::System::Collections::IEnumerator*>*> (default: nullptr)
-  /// @param minDuration: float_t (default: 0.0)
-  /// @param afterMinDurationCallback: ::System::Action* (default: nullptr)
-  /// @param finishCallback: ::System::Action_1<::Zenject::DiContainer*>* (default: nullptr)
   inline void ReplaceScenes(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData,
-                            ::ArrayW<::System::Collections::IEnumerator*, ::Array<::System::Collections::IEnumerator*>*> beforeNewScenesActivateRoutines = nullptr, float_t minDuration = 0.0,
-                            ::System::Action* afterMinDurationCallback = nullptr, ::System::Action_1<::Zenject::DiContainer*>* finishCallback = nullptr);
+                            ::ArrayW<::System::Collections::IEnumerator*, ::Array<::System::Collections::IEnumerator*>*> beforeNewScenesActivateRoutines, float_t minDuration,
+                            ::System::Action* afterMinDurationCallback, ::System::Action_1<::Zenject::DiContainer*>* finishCallback);
 
   /// @brief Method ClearAndOpenScenes, addr 0xe1fc74, size 0x62c, virtual false, abstract: false, final false
-  /// @param minDuration: float_t (default: 0.0)
-  /// @param afterMinDurationCallback: ::System::Action* (default: nullptr)
-  /// @param finishCallback: ::System::Action_1<::Zenject::DiContainer*>* (default: nullptr)
-  /// @param unloadAllScenes: bool (default: true)
-  inline void ClearAndOpenScenes(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, float_t minDuration = 0.0, ::System::Action* afterMinDurationCallback = nullptr,
-                                 ::System::Action_1<::Zenject::DiContainer*>* finishCallback = nullptr, bool unloadAllScenes = true);
+  inline void ClearAndOpenScenes(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, float_t minDuration, ::System::Action* afterMinDurationCallback,
+                                 ::System::Action_1<::Zenject::DiContainer*>* finishCallback, bool unloadAllScenes);
 
   /// @brief Method AppendScenes, addr 0xe202a8, size 0x3bc, virtual false, abstract: false, final false
-  /// @param minDuration: float_t (default: 0.0)
-  /// @param afterMinDurationCallback: ::System::Action* (default: nullptr)
-  /// @param finishCallback: ::System::Action_1<::Zenject::DiContainer*>* (default: nullptr)
-  inline void AppendScenes(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, float_t minDuration = 0.0, ::System::Action* afterMinDurationCallback = nullptr,
-                           ::System::Action_1<::Zenject::DiContainer*>* finishCallback = nullptr);
+  inline void AppendScenes(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, float_t minDuration, ::System::Action* afterMinDurationCallback,
+                           ::System::Action_1<::Zenject::DiContainer*>* finishCallback);
 
   /// @brief Method RemoveScenes, addr 0xe2066c, size 0x3a0, virtual false, abstract: false, final false
-  /// @param minDuration: float_t (default: 0.0)
-  /// @param afterMinDurationCallback: ::System::Action* (default: nullptr)
-  /// @param finishCallback: ::System::Action_1<::Zenject::DiContainer*>* (default: nullptr)
-  inline void RemoveScenes(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupDataSo, float_t minDuration = 0.0, ::System::Action* afterMinDurationCallback = nullptr,
-                           ::System::Action_1<::Zenject::DiContainer*>* finishCallback = nullptr);
+  inline void RemoveScenes(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupDataSo, float_t minDuration, ::System::Action* afterMinDurationCallback,
+                           ::System::Action_1<::Zenject::DiContainer*>* finishCallback);
 
   /// @brief Method ScenesTransitionCoroutine, addr 0xe1f654, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator*

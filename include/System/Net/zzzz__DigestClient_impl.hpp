@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__DigestClient_def.hpp"
-#include "System/Net/zzzz__Authorization_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
-#include "System/Net/zzzz__ICredentials_def.hpp"
+#include "System/Net/zzzz__Authorization_def.hpp"
 #include "System/Net/zzzz__IAuthenticationModule_def.hpp"
+#include "System/Net/zzzz__ICredentials_def.hpp"
 #include "System/Net/zzzz__WebRequest_def.hpp"
 //  Writing Method size for method: ::System::Net::DigestClient.get_Cache
 template <>
@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x168;
   constexpr static std::size_t addrs = 0x29beaac;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::DigestClient*>::get(), "get_Cache",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x848;
   constexpr static std::size_t addrs = 0x29bec14;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::DigestClient*>::get(), "CheckExpired", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x2a8;
   constexpr static std::size_t addrs = 0x29bf45c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::DigestClient*>::get(), "Authenticate", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
@@ -58,7 +58,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x194;
   constexpr static std::size_t addrs = 0x29bf704;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::DigestClient*>::get(), "PreAuthenticate", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::WebRequest*>::get(),
@@ -73,7 +73,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x29bf898;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::DigestClient*>::get(), "get_AuthenticationType",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -86,7 +86,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x29badb8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::DigestClient*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -94,6 +94,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::System::Net::IAuthenticationModule"
 constexpr System::Net::DigestClient::operator ::System::Net::IAuthenticationModule*() noexcept {
+  return static_cast<::System::Net::IAuthenticationModule*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Net::IAuthenticationModule"
+constexpr ::System::Net::IAuthenticationModule* System::Net::DigestClient::i___System__Net__IAuthenticationModule() noexcept {
   return static_cast<::System::Net::IAuthenticationModule*>(static_cast<void*>(this));
 }
 inline void System::Net::DigestClient::setStaticF_cache(::System::Collections::Hashtable* value) {

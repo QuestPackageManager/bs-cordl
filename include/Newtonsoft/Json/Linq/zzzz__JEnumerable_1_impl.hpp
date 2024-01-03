@@ -2,21 +2,33 @@
 #include "Newtonsoft/Json/Linq/zzzz__JEnumerable_1_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__IJEnumerable_1_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 /// @brief Convert operator to "::Newtonsoft::Json::Linq::IJEnumerable_1<T>"
 template <typename T> constexpr Newtonsoft::Json::Linq::JEnumerable_1<T>::operator ::Newtonsoft::Json::Linq::IJEnumerable_1<T>*() {
+  return static_cast<::Newtonsoft::Json::Linq::IJEnumerable_1<T>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::Newtonsoft::Json::Linq::IJEnumerable_1<T>"
+template <typename T> constexpr ::Newtonsoft::Json::Linq::IJEnumerable_1<T>* Newtonsoft::Json::Linq::JEnumerable_1<T>::i___Newtonsoft__Json__Linq__IJEnumerable_1_T_() {
   return static_cast<::Newtonsoft::Json::Linq::IJEnumerable_1<T>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
 template <typename T> constexpr Newtonsoft::Json::Linq::JEnumerable_1<T>::operator ::System::Collections::Generic::IEnumerable_1<T>*() {
   return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::IEnumerable_1<T>* Newtonsoft::Json::Linq::JEnumerable_1<T>::i___System__Collections__Generic__IEnumerable_1_T_() {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename T> constexpr Newtonsoft::Json::Linq::JEnumerable_1<T>::operator ::System::Collections::IEnumerable*() {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename T> constexpr ::System::Collections::IEnumerable* Newtonsoft::Json::Linq::JEnumerable_1<T>::i___System__Collections__IEnumerable() {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename T> inline void Newtonsoft::Json::Linq::JEnumerable_1<T>::setStaticF_Empty(::Newtonsoft::Json::Linq::JEnumerable_1<T> value) {

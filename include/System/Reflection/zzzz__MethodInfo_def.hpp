@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MethodInfo)
-namespace System {
-class Delegate;
+namespace System::Reflection {
+struct MemberTypes;
 }
 namespace System::Reflection {
 class ParameterInfo;
 }
-namespace System::Reflection {
-struct MemberTypes;
+namespace System {
+class Delegate;
 }
 namespace System {
 class Object;

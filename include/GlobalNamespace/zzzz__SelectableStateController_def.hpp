@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SelectableStateController)
-namespace Tweening {
-class TimeTweeningManager;
+namespace GlobalNamespace {
+struct __SelectableStateController__ViewState;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
-namespace GlobalNamespace {
-struct __SelectableStateController__ViewState;
+namespace Tweening {
+class TimeTweeningManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -96,7 +96,7 @@ static_assert(offsetof(::GlobalNamespace::__SelectableStateController__ViewState
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5455)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(5455))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5456))
 // CS Name: ::SelectableStateController*
 class CORDL_TYPE SelectableStateController : public ::UnityEngine::MonoBehaviour {

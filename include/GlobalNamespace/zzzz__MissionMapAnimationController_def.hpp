@@ -9,25 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MissionMapAnimationController)
 namespace GlobalNamespace {
-class __MissionMapAnimationController___UpdateNodesAndConnectionCoroutine_d__15;
+class MenuShockwave;
 }
 namespace GlobalNamespace {
-class __MissionMapAnimationController___UpdateStageCoroutine_d__14;
-}
-namespace GlobalNamespace {
-class __MissionMapAnimationController____c;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace GlobalNamespace {
-class __MissionMapAnimationController___UpdateMissionMapCoroutine_d__12;
-}
-namespace HMUI {
-class ScrollView;
-}
-namespace GlobalNamespace {
-class __MissionMapAnimationController___UpdateClearedNodeStateCoroutine_d__13;
+class MissionNodeConnection;
 }
 namespace GlobalNamespace {
 class MissionNode;
@@ -36,25 +21,40 @@ namespace GlobalNamespace {
 class MissionNodesManager;
 }
 namespace GlobalNamespace {
-class MenuShockwave;
+class __MissionMapAnimationController___UpdateClearedNodeStateCoroutine_d__13;
+}
+namespace GlobalNamespace {
+class __MissionMapAnimationController___UpdateMissionMapCoroutine_d__12;
+}
+namespace GlobalNamespace {
+class __MissionMapAnimationController___UpdateNodesAndConnectionCoroutine_d__15;
+}
+namespace GlobalNamespace {
+class __MissionMapAnimationController___UpdateStageCoroutine_d__14;
+}
+namespace GlobalNamespace {
+class __MissionMapAnimationController____c;
+}
+namespace HMUI {
+class ScrollView;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class Action;
 }
 namespace System {
-class IDisposable;
+template <typename T, typename TResult> class Func_2;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
-}
-namespace GlobalNamespace {
-class MissionNodeConnection;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -114,11 +114,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -244,11 +253,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -360,11 +378,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -537,11 +564,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

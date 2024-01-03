@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapDataStrobeFilterTransform)
 namespace GlobalNamespace {
-struct EnvironmentColorType;
+class BasicBeatmapEventData;
 }
 namespace GlobalNamespace {
-class __BeatmapDataStrobeFilterTransform__StrobeStreakData;
+struct EnvironmentColorType;
 }
 namespace GlobalNamespace {
 class EnvironmentIntensityReductionOptions;
@@ -20,7 +20,7 @@ namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
-class BasicBeatmapEventData;
+class __BeatmapDataStrobeFilterTransform__StrobeStreakData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

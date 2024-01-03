@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__AbstractECMultiplier_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__GlvMultiplier_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Math/EC/Endo/zzzz__GlvEndomorphism_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier._ctor
 template <>
 
@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xa8;
   constexpr static std::size_t addrs = 0x10368d8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::ECCurve*>::get(),
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x26c;
   constexpr static std::size_t addrs = 0x1036980;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier*>::get(),

@@ -11,38 +11,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MonoTlsStream)
-namespace System::IO {
-class Stream;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
 namespace Mono::Net::Security {
 class MobileTlsProvider;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Net {
-struct WebExceptionStatus;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Net::Security {
-class SslStream;
 }
 namespace Mono::Net::Security {
 struct __MonoTlsStream___CreateStream_d__18;
 }
-namespace System::Net::Sockets {
-class NetworkStream;
-}
 namespace Mono::Security::Interface {
 class MonoTlsSettings;
 }
-namespace System {
-class Object;
+namespace System::IO {
+class Stream;
+}
+namespace System::Net::Security {
+class SslStream;
+}
+namespace System::Net::Sockets {
+class NetworkStream;
+}
+namespace System::Net::Sockets {
+class Socket;
 }
 namespace System::Net {
 class HttpWebRequest;
@@ -50,17 +38,29 @@ class HttpWebRequest;
 namespace System::Net {
 class WebConnectionTunnel;
 }
+namespace System::Net {
+struct WebExceptionStatus;
+}
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
-namespace System::Net::Sockets {
-class Socket;
-}
 namespace System::Runtime::CompilerServices {
 struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Mono::Net::Security {
@@ -76,14 +76,17 @@ MARK_VAL_T(::Mono::Net::Security::__MonoTlsStream___CreateStream_d__18);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3619)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 899 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(8843)) CS
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 899 }), TypeDefinitionIndex(TypeDefinitionIndex(3619))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8843)) CS
 // Name: ::MonoTlsStream::<CreateStream>d__18
 struct CORDL_TYPE __MonoTlsStream___CreateStream_d__18 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x2825634, size 0x6a4, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -192,6 +195,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::Mono::Net::Security::MobileTlsProvider*& __get_provider();
 

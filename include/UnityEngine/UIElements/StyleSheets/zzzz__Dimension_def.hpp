@@ -11,20 +11,20 @@ CORDL_MODULE_EXPORT(Dimension)
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace UnityEngine::UIElements {
-struct TimeValue;
-}
-namespace UnityEngine::UIElements {
-struct Angle;
+namespace System {
+class Object;
 }
 namespace UnityEngine::UIElements::StyleSheets {
 struct __Dimension__Unit;
 }
 namespace UnityEngine::UIElements {
+struct Angle;
+}
+namespace UnityEngine::UIElements {
 struct Length;
 }
-namespace System {
-class Object;
+namespace UnityEngine::UIElements {
+struct TimeValue;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {
@@ -128,6 +128,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimension>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimension>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimension>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimension>* i___System__IEquatable_1___UnityEngine__UIElements__StyleSheets__Dimension_();
 
   /// @brief Method .ctor, addr 0x2dea320, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t value, ::UnityEngine::UIElements::StyleSheets::__Dimension__Unit unit);

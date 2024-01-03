@@ -9,7 +9,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Haptics::IDualMotorRumble*>::get(),
@@ -19,6 +19,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::UnityEngine::InputSystem::Haptics::IHaptics"
 constexpr UnityEngine::InputSystem::Haptics::IDualMotorRumble::operator ::UnityEngine::InputSystem::Haptics::IHaptics*() noexcept {
+  return static_cast<::UnityEngine::InputSystem::Haptics::IHaptics*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::InputSystem::Haptics::IHaptics"
+constexpr ::UnityEngine::InputSystem::Haptics::IHaptics* UnityEngine::InputSystem::Haptics::IDualMotorRumble::i___UnityEngine__InputSystem__Haptics__IHaptics() noexcept {
   return static_cast<::UnityEngine::InputSystem::Haptics::IHaptics*>(static_cast<void*>(this));
 }
 inline void UnityEngine::InputSystem::Haptics::IDualMotorRumble::SetMotorSpeeds(float_t lowFrequency, float_t highFrequency) {

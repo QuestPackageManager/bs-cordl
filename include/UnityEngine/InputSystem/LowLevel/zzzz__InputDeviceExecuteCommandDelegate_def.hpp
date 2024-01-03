@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputDeviceExecuteCommandDelegate)
 namespace System {
-class Object;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputDeviceCommand;
+class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
 }
 namespace System {
-class AsyncCallback;
+class Object;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputDeviceCommand;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

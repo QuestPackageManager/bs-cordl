@@ -7,17 +7,14 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(NoteLineConnectionController)
-namespace UnityEngine {
-class LineRenderer;
-}
 namespace GlobalNamespace {
 class AudioTimeSyncController;
 }
 namespace GlobalNamespace {
 class ColorManager;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace GlobalNamespace {
+class NoteController;
 }
 namespace GlobalNamespace {
 class PlayerTransforms;
@@ -25,8 +22,11 @@ class PlayerTransforms;
 namespace GlobalNamespace {
 class __NoteLineConnectionController__Pool;
 }
-namespace GlobalNamespace {
-class NoteController;
+namespace System {
+template <typename T> class Action_1;
+}
+namespace UnityEngine {
+class LineRenderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__NoteLineConnectionController__Pool);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 125, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4781))
 // CS Name: ::NoteLineConnectionController*
 class CORDL_TYPE NoteLineConnectionController : public ::UnityEngine::MonoBehaviour {
@@ -276,8 +276,8 @@ static_assert(offsetof(::GlobalNamespace::NoteLineConnectionController, ____didF
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 366 }), TypeDefinitionIndex(TypeDefinitionIndex(11050)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4781))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4780)) CS Name: ::NoteLineConnectionController::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4781)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// 366 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4780)) CS Name: ::NoteLineConnectionController::Pool*
 class CORDL_TYPE __NoteLineConnectionController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::NoteLineConnectionController*> {
 public:
   // Declarations

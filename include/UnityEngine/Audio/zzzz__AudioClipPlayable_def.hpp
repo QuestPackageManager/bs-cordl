@@ -10,8 +10,11 @@ CORDL_MODULE_EXPORT(AudioClipPlayable)
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace UnityEngine {
-class AudioClip;
+namespace UnityEngine::Playables {
+class IPlayable;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
 struct PlayableHandle;
@@ -19,11 +22,8 @@ struct PlayableHandle;
 namespace UnityEngine::Playables {
 struct Playable;
 }
-namespace UnityEngine::Playables {
-class IPlayable;
-}
-namespace UnityEngine::Playables {
-struct PlayableGraph;
+namespace UnityEngine {
+class AudioClip;
 }
 // Forward declare root types
 namespace UnityEngine::Audio {
@@ -44,8 +44,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
+  /// @brief Convert to "::UnityEngine::Playables::IPlayable"
+  constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Audio::AudioClipPlayable>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Audio::AudioClipPlayable>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Audio::AudioClipPlayable>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Audio::AudioClipPlayable>* i___System__IEquatable_1___UnityEngine__Audio__AudioClipPlayable_();
 
   /// @brief Method Create, addr 0x2c9c69c, size 0x124, virtual false, abstract: false, final false
   static inline ::UnityEngine::Audio::AudioClipPlayable Create(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::AudioClip* clip, bool looping);

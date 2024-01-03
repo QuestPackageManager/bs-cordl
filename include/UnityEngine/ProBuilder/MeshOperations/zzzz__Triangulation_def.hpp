@@ -7,38 +7,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Triangulation)
-namespace UnityEngine::ProBuilder::MeshOperations {
-class __Triangulation____c__DisplayClass7_0;
-}
-namespace UnityEngine::ProBuilder {
-class Vertex;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class TriangulationContext;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::ProBuilder::MeshOperations {
-class __Triangulation____c__DisplayClass8_0;
-}
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine::ProBuilder::MeshOperations {
+class __Triangulation____c__DisplayClass7_0;
+}
+namespace UnityEngine::ProBuilder::MeshOperations {
+class __Triangulation____c__DisplayClass8_0;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class PolygonPoint;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
+class TriangulationContext;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
 class TriangulationPoint;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace UnityEngine::ProBuilder {
+class Vertex;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::MeshOperations {
@@ -203,30 +203,23 @@ public:
   static inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* get_triangulationContext();
 
   /// @brief Method SortAndTriangulate, addr 0x2bc10b8, size 0x314, virtual false, abstract: false, final false
-  /// @param convex: bool (default: false)
-  static inline bool SortAndTriangulate(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* points, ByRef<::System::Collections::Generic::List_1<int32_t>*> indexes, bool convex = false);
+  static inline bool SortAndTriangulate(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* points, ByRef<::System::Collections::Generic::List_1<int32_t>*> indexes, bool convex);
 
   /// @brief Method TriangulateVertices, addr 0x2bc1f60, size 0x20c, virtual false, abstract: false, final false
-  /// @param unordered: bool (default: true)
-  /// @param convex: bool (default: false)
   static inline bool TriangulateVertices(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ByRef<::System::Collections::Generic::List_1<int32_t>*> triangles,
-                                         bool unordered = true, bool convex = false);
+                                         bool unordered, bool convex);
 
   /// @brief Method TriangulateVertices, addr 0x2bc2390, size 0x1ac, virtual false, abstract: false, final false
-  /// @param holes: ::ArrayW<::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>,::Array<::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>>*> (default: nullptr)
   static inline bool
   TriangulateVertices(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> vertices, ByRef<::System::Collections::Generic::List_1<int32_t>*> triangles,
-                      ::ArrayW<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>, ::Array<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>*> holes = nullptr);
+                      ::ArrayW<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>, ::Array<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>*> holes);
 
   /// @brief Method TriangulateVertices, addr 0x2bc216c, size 0x224, virtual false, abstract: false, final false
-  /// @param unordered: bool (default: true)
-  /// @param convex: bool (default: false)
-  static inline bool TriangulateVertices(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> vertices, ByRef<::System::Collections::Generic::List_1<int32_t>*> triangles,
-                                         bool unordered = true, bool convex = false);
+  static inline bool TriangulateVertices(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> vertices, ByRef<::System::Collections::Generic::List_1<int32_t>*> triangles, bool unordered,
+                                         bool convex);
 
   /// @brief Method Triangulate, addr 0x2bc13cc, size 0xb94, virtual false, abstract: false, final false
-  /// @param convex: bool (default: false)
-  static inline bool Triangulate(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* points, ByRef<::System::Collections::Generic::List_1<int32_t>*> indexes, bool convex = false);
+  static inline bool Triangulate(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* points, ByRef<::System::Collections::Generic::List_1<int32_t>*> indexes, bool convex);
 
   /// @brief Method Triangulate, addr 0x2bc253c, size 0xc1c, virtual false, abstract: false, final false
   static inline bool Triangulate(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* points,

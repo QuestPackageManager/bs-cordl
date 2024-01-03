@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ZenAutoInjecter)
-namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
-struct __ZenAutoInjecter__ContainerSources;
-}
 namespace System {
 class Object;
 }
 namespace Zenject {
 class DiContainer;
+}
+namespace Zenject {
+class InjectTypeInfo;
+}
+namespace Zenject {
+struct __ZenAutoInjecter__ContainerSources;
 }
 // Forward declare root types
 namespace Zenject {
@@ -88,7 +88,7 @@ static_assert(offsetof(::Zenject::__ZenAutoInjecter__ContainerSources, value__) 
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11359)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(11359))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11360))
 // CS Name: ::Zenject::ZenAutoInjecter*
 class CORDL_TYPE ZenAutoInjecter : public ::UnityEngine::MonoBehaviour {

@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(StackTraceUtility)
-namespace System {
-class Object;
-}
 namespace System::Diagnostics {
 class StackTrace;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine {

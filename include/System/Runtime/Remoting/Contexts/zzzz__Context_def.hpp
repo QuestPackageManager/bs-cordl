@@ -8,38 +8,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Context)
-namespace System {
-class LocalDataStore;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System::Runtime::Remoting::Activation {
+class IConstructionCallMessage;
+}
+namespace System::Runtime::Remoting::Contexts {
+class ContextCallbackObject;
+}
+namespace System::Runtime::Remoting::Contexts {
+class CrossContextDelegate;
 }
 namespace System::Runtime::Remoting::Contexts {
 class DynamicPropertyCollection;
 }
 namespace System::Runtime::Remoting::Contexts {
-class CrossContextDelegate;
-}
-namespace System {
-class LocalDataStoreHolder;
-}
-namespace System {
-class LocalDataStoreMgr;
-}
-namespace System::Runtime::Remoting::Activation {
-class IConstructionCallMessage;
-}
-namespace System {
-class LocalDataStoreSlot;
-}
-namespace System {
-class MarshalByRefObject;
+class IContextProperty;
 }
 namespace System::Runtime::Remoting::Contexts {
-class IContextProperty;
+class IDynamicProperty;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessageSink;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
@@ -47,14 +38,23 @@ class IMessage;
 namespace System {
 class ContextBoundObject;
 }
-namespace System::Runtime::Remoting::Contexts {
-class IDynamicProperty;
+namespace System {
+class LocalDataStoreHolder;
+}
+namespace System {
+class LocalDataStoreMgr;
+}
+namespace System {
+class LocalDataStoreSlot;
+}
+namespace System {
+class LocalDataStore;
+}
+namespace System {
+class MarshalByRefObject;
 }
 namespace System {
 class Object;
-}
-namespace System::Runtime::Remoting::Contexts {
-class ContextCallbackObject;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Contexts {
@@ -66,7 +66,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Contexts::Context);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3098))
 // CS Name: ::System.Runtime.Remoting.Contexts::Context*
 class CORDL_TYPE Context : public ::System::Object {

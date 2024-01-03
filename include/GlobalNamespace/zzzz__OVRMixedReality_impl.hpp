@@ -3,11 +3,11 @@
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRMixedReality_def.hpp"
+#include "GlobalNamespace/zzzz__OVRComposition_def.hpp"
+#include "GlobalNamespace/zzzz__OVRManager_def.hpp"
 #include "GlobalNamespace/zzzz__OVRMixedRealityCaptureConfiguration_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "GlobalNamespace/zzzz__OVRComposition_def.hpp"
-#include "GlobalNamespace/zzzz__OVRManager_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRMixedReality.Update
 template <>
 
@@ -16,7 +16,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4e0;
   constexpr static std::size_t addrs = 0x2744d3c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedReality*>::get(), "Update", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(),
@@ -33,7 +33,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xe8;
   constexpr static std::size_t addrs = 0x274521c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedReality*>::get(), "Cleanup",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x2745c04;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedReality*>::get(), "RecenterPose",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;

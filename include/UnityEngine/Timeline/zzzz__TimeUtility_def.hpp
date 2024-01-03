@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimeUtility)
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine::Playables {
+struct FrameRate;
+}
 namespace UnityEngine::Timeline {
 struct StandardFrameRates;
 }
 namespace UnityEngine::Timeline {
 class __TimeUtility____c;
 }
-namespace UnityEngine::Playables {
-struct FrameRate;
-}
 namespace UnityEngine {
 class AnimationClip;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -173,12 +173,10 @@ public:
   static inline double_t RoundToFrame(double_t time, double_t frameRate);
 
   /// @brief Method TimeAsFrames, addr 0x2c72dbc, size 0xd0, virtual false, abstract: false, final false
-  /// @param format: ::StringW (default: u"F2")
-  static inline ::StringW TimeAsFrames(double_t timeValue, double_t frameRate, ::StringW format = u"F2");
+  static inline ::StringW TimeAsFrames(double_t timeValue, double_t frameRate, ::StringW format);
 
   /// @brief Method TimeAsTimeCode, addr 0x2c72e8c, size 0x49c, virtual false, abstract: false, final false
-  /// @param format: ::StringW (default: u"F2")
-  static inline ::StringW TimeAsTimeCode(double_t timeValue, double_t frameRate, ::StringW format = u"F2");
+  static inline ::StringW TimeAsTimeCode(double_t timeValue, double_t frameRate, ::StringW format);
 
   /// @brief Method ParseTimeCode, addr 0x2c73328, size 0x510, virtual false, abstract: false, final false
   static inline double_t ParseTimeCode(::StringW timeCode, double_t frameRate, double_t defaultValue);

@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AvatarEditorFlowCoordinator)
 namespace BeatSaber::AvatarCore {
+class IAvatarSystemMetadata;
+}
+namespace BeatSaber::AvatarCore {
 struct __AvatarEditorFlowCoordinator__EditMode;
 }
 namespace BeatSaber::AvatarCore {
 struct __AvatarEditorFlowCoordinator__FinishAction;
 }
-namespace BeatSaber::AvatarCore {
-class IAvatarSystemMetadata;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System {
 template <typename T1, typename T2, typename T3> class Action_3;
-}
-namespace System {
-template <typename T> class Action_1;
 }
 namespace System {
 class Action;

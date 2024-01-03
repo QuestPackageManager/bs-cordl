@@ -4,20 +4,20 @@
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MainMenuDestinationRequestController_def.hpp"
-#include "GlobalNamespace/zzzz__MainMenuDestinationRequestController_def.hpp"
-#include "GlobalNamespace/zzzz__IDestinationRequestManager_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
-#include "GlobalNamespace/zzzz__MenuScenesTransitionSetupDataSO_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "GlobalNamespace/zzzz__IDestinationRequestManager_def.hpp"
+#include "GlobalNamespace/zzzz__MainMenuDestinationRequestController_def.hpp"
 #include "GlobalNamespace/zzzz__MenuDestination_def.hpp"
-#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
+#include "GlobalNamespace/zzzz__MenuScenesTransitionSetupDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_def.hpp"
-#include "Zenject/zzzz__IInitializable_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
+#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__IInitializable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__MainMenuDestinationRequestController___ProcessDestinationRequest_d__9.MoveNext
 template <>
 
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4cc;
   constexpr static std::size_t addrs = 0x223d848;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainMenuDestinationRequestController___ProcessDestinationRequest_d__9>::get(),
                                     "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x223dd14;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainMenuDestinationRequestController___ProcessDestinationRequest_d__9>::get(), "SetStateMachine",
         std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
@@ -50,6 +50,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr GlobalNamespace::__MainMenuDestinationRequestController___ProcessDestinationRequest_d__9::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+GlobalNamespace::__MainMenuDestinationRequestController___ProcessDestinationRequest_d__9::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 inline void GlobalNamespace::__MainMenuDestinationRequestController___ProcessDestinationRequest_d__9::MoveNext() {
@@ -89,7 +94,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x274;
   constexpr static std::size_t addrs = 0x223d0e0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainMenuDestinationRequestController*>::get(),
                                                                                "Initialize", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -103,7 +108,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1b4;
   constexpr static std::size_t addrs = 0x223d3f4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainMenuDestinationRequestController*>::get(),
                                                                                "Dispose", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -117,7 +122,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x294;
   constexpr static std::size_t addrs = 0x223d5a8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainMenuDestinationRequestController*>::get(),
                                                  "HandleGameScenesManagerInstallEarlyBindings", std::vector<Il2CppClass*>{},
@@ -134,7 +139,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x223d83c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainMenuDestinationRequestController*>::get(), "HandleDestinationRequestManagerDidSendMenuDestinationRequest",
         std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MenuDestination*>::get() })));
@@ -149,7 +154,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xa0;
   constexpr static std::size_t addrs = 0x223d354;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainMenuDestinationRequestController*>::get(), "ProcessDestinationRequest", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MenuDestination*>::get() })));
@@ -164,7 +169,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x223d840;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainMenuDestinationRequestController*>::get(),
                                                                                ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -174,8 +179,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 constexpr GlobalNamespace::MainMenuDestinationRequestController::operator ::Zenject::IInitializable*() noexcept {
   return static_cast<::Zenject::IInitializable*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::Zenject::IInitializable"
+constexpr ::Zenject::IInitializable* GlobalNamespace::MainMenuDestinationRequestController::i___Zenject__IInitializable() noexcept {
+  return static_cast<::Zenject::IInitializable*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::IDisposable"
 constexpr GlobalNamespace::MainMenuDestinationRequestController::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* GlobalNamespace::MainMenuDestinationRequestController::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::IDestinationRequestManager*& GlobalNamespace::MainMenuDestinationRequestController::__get__destinationRequestManager() {

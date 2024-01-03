@@ -7,18 +7,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(TemplateContainer)
 namespace UnityEngine::UIElements {
-class VisualTreeAsset;
-}
-namespace UnityEngine::UIElements {
-class __TemplateContainer__UxmlFactory;
-}
-namespace UnityEngine::UIElements {
-class __TemplateContainer__UxmlTraits;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
 struct CreationContext;
 }
 namespace UnityEngine::UIElements {
@@ -26,6 +14,18 @@ class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
 class UxmlStringAttributeDescription;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+class VisualTreeAsset;
+}
+namespace UnityEngine::UIElements {
+class __TemplateContainer__UxmlFactory;
+}
+namespace UnityEngine::UIElements {
+class __TemplateContainer__UxmlTraits;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -204,8 +204,8 @@ static_assert(offsetof(::UnityEngine::UIElements::TemplateContainer, ___m_Templa
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(6778)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5278
-// }), TypeDefinitionIndex(TypeDefinitionIndex(6779))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6777)) CS Name: ::TemplateContainer::UxmlFactory*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5278 }), TypeDefinitionIndex(TypeDefinitionIndex(6997)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6779)), TypeDefinitionIndex(TypeDefinitionIndex(6778))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6777)) CS Name: ::TemplateContainer::UxmlFactory*
 class CORDL_TYPE __TemplateContainer__UxmlFactory
     : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::TemplateContainer*, ::UnityEngine::UIElements::__TemplateContainer__UxmlTraits*> {
 public:

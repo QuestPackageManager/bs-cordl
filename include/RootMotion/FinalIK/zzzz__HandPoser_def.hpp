@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(HandPoser)
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
 class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {

@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(HttpContentHeaders)
 namespace System::Net::Http::Headers {
 class MediaTypeHeaderValue;
 }
-namespace System {
-template <typename T> struct Nullable_1;
-}
 namespace System::Net::Http {
 class HttpContent;
+}
+namespace System {
+template <typename T> struct Nullable_1;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {

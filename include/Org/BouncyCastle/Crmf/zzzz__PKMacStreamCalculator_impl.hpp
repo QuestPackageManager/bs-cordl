@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crmf/zzzz__PKMacStreamCalculator_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IStreamCalculator_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Crypto/IO/zzzz__MacSink_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IStreamCalculator_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crmf::PKMacStreamCalculator._ctor
 template <>
 
@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x1211eac;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crmf::PKMacStreamCalculator*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::IMac*>::get() })));
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x1211f28;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crmf::PKMacStreamCalculator*>::get(),
                                                                                "get_Stream", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -43,7 +43,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x1211f30;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crmf::PKMacStreamCalculator*>::get(),
                                                                                "GetResult", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -51,6 +51,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IStreamCalculator"
 constexpr Org::BouncyCastle::Crmf::PKMacStreamCalculator::operator ::Org::BouncyCastle::Crypto::IStreamCalculator*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::IStreamCalculator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Crypto::IStreamCalculator"
+constexpr ::Org::BouncyCastle::Crypto::IStreamCalculator* Org::BouncyCastle::Crmf::PKMacStreamCalculator::i___Org__BouncyCastle__Crypto__IStreamCalculator() noexcept {
   return static_cast<::Org::BouncyCastle::Crypto::IStreamCalculator*>(static_cast<void*>(this));
 }
 constexpr ::Org::BouncyCastle::Crypto::IO::MacSink*& Org::BouncyCastle::Crmf::PKMacStreamCalculator::__get__stream() {

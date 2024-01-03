@@ -2,17 +2,22 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__MethodProviderWithContainer_5_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "Zenject/zzzz__InjectContext_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Func_6_def.hpp"
-#include "Zenject/zzzz__TypeValuePair_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__IProvider_def.hpp"
+#include "Zenject/zzzz__InjectContext_def.hpp"
+#include "Zenject/zzzz__TypeValuePair_def.hpp"
 /// @brief Convert operator to "::Zenject::IProvider"
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TValue>
 constexpr Zenject::MethodProviderWithContainer_5<TParam1, TParam2, TParam3, TParam4, TValue>::operator ::Zenject::IProvider*() noexcept {
+  return static_cast<::Zenject::IProvider*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::IProvider"
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TValue>
+constexpr ::Zenject::IProvider* Zenject::MethodProviderWithContainer_5<TParam1, TParam2, TParam3, TParam4, TValue>::i___Zenject__IProvider() noexcept {
   return static_cast<::Zenject::IProvider*>(static_cast<void*>(this));
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TValue>

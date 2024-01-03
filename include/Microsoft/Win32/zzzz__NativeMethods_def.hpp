@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeMethods)
 namespace Microsoft::Win32::SafeHandles {
-class SafeWaitHandle;
+class SafeProcessHandle;
 }
 namespace Microsoft::Win32::SafeHandles {
-class SafeProcessHandle;
+class SafeWaitHandle;
 }
 namespace System::Runtime::InteropServices {
 struct HandleRef;

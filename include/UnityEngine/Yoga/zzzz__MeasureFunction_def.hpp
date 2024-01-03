@@ -10,13 +10,13 @@ namespace System {
 class Object;
 }
 namespace UnityEngine::Yoga {
-struct YogaSize;
-}
-namespace UnityEngine::Yoga {
 struct YogaMeasureMode;
 }
 namespace UnityEngine::Yoga {
 class YogaNode;
+}
+namespace UnityEngine::Yoga {
+struct YogaSize;
 }
 // Forward declare root types
 namespace UnityEngine::Yoga {

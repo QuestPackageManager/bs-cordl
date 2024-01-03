@@ -9,35 +9,35 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnityWebRequest)
-namespace UnityEngine::Networking {
-class UnityWebRequestAsyncOperation;
-}
-namespace UnityEngine::Networking {
-struct __UnityWebRequest__Result;
-}
-namespace UnityEngine::Networking {
-class DownloadHandler;
+namespace System::Text {
+class Encoding;
 }
 namespace System {
 class IDisposable;
 }
-namespace System::Text {
-class Encoding;
-}
-namespace UnityEngine::Networking {
-struct __UnityWebRequest__UnityWebRequestError;
+namespace System {
+class Uri;
 }
 namespace UnityEngine::Networking {
 class CertificateHandler;
 }
 namespace UnityEngine::Networking {
-struct __UnityWebRequest__UnityWebRequestMethod;
+class DownloadHandler;
+}
+namespace UnityEngine::Networking {
+class UnityWebRequestAsyncOperation;
 }
 namespace UnityEngine::Networking {
 class UploadHandler;
 }
-namespace System {
-class Uri;
+namespace UnityEngine::Networking {
+struct __UnityWebRequest__Result;
+}
+namespace UnityEngine::Networking {
+struct __UnityWebRequest__UnityWebRequestError;
+}
+namespace UnityEngine::Networking {
+struct __UnityWebRequest__UnityWebRequestMethod;
 }
 // Forward declare root types
 namespace UnityEngine::Networking {
@@ -343,7 +343,7 @@ static_assert(offsetof(::UnityEngine::Networking::__UnityWebRequest__Result, val
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 59, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15579))
 // CS Name: ::UnityEngine.Networking::UnityWebRequest*
 class CORDL_TYPE UnityWebRequest : public ::System::Object {
@@ -417,6 +417,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr void*& __get_m_Ptr();
 

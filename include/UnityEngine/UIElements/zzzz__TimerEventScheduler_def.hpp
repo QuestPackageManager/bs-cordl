@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimerEventScheduler)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template <typename T> class HashSet_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
 class IScheduler;
@@ -54,6 +54,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::UIElements::IScheduler"
   constexpr operator ::UnityEngine::UIElements::IScheduler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UIElements::IScheduler"
+  constexpr ::UnityEngine::UIElements::IScheduler* i___UnityEngine__UIElements__IScheduler() noexcept;
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ScheduledItem*>*& __get_m_ScheduledItems();
 

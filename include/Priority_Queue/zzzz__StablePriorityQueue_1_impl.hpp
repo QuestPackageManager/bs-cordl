@@ -1,25 +1,38 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Priority_Queue/zzzz__StablePriorityQueue_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "Priority_Queue/zzzz__StablePriorityQueue_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "Priority_Queue/zzzz__IFixedSizePriorityQueue_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "Priority_Queue/zzzz__IPriorityQueue_2_def.hpp"
+#include "Priority_Queue/zzzz__StablePriorityQueue_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
 template <typename T> constexpr Priority_Queue::__StablePriorityQueue_1___GetEnumerator_d__22<T>::operator ::System::Collections::Generic::IEnumerator_1<T>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<T>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
+template <typename T>
+constexpr ::System::Collections::Generic::IEnumerator_1<T>* Priority_Queue::__StablePriorityQueue_1___GetEnumerator_d__22<T>::i___System__Collections__Generic__IEnumerator_1_T_() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<T>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 template <typename T> constexpr Priority_Queue::__StablePriorityQueue_1___GetEnumerator_d__22<T>::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::IEnumerator"
+template <typename T> constexpr ::System::Collections::IEnumerator* Priority_Queue::__StablePriorityQueue_1___GetEnumerator_d__22<T>::i___System__Collections__IEnumerator() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::IDisposable"
 template <typename T> constexpr Priority_Queue::__StablePriorityQueue_1___GetEnumerator_d__22<T>::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename T> constexpr ::System::IDisposable* Priority_Queue::__StablePriorityQueue_1___GetEnumerator_d__22<T>::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 template <typename T> constexpr int32_t& Priority_Queue::__StablePriorityQueue_1___GetEnumerator_d__22<T>::__get___1__state() {
@@ -116,16 +129,32 @@ template <typename T> constexpr ::Priority_Queue::__StablePriorityQueue_1___GetE
 template <typename T> constexpr Priority_Queue::StablePriorityQueue_1<T>::operator ::Priority_Queue::IFixedSizePriorityQueue_2<T, float_t>*() noexcept {
   return static_cast<::Priority_Queue::IFixedSizePriorityQueue_2<T, float_t>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::Priority_Queue::IFixedSizePriorityQueue_2<T,float_t>"
+template <typename T> constexpr ::Priority_Queue::IFixedSizePriorityQueue_2<T, float_t>* Priority_Queue::StablePriorityQueue_1<T>::i___Priority_Queue__IFixedSizePriorityQueue_2_T_float_t_() noexcept {
+  return static_cast<::Priority_Queue::IFixedSizePriorityQueue_2<T, float_t>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::Priority_Queue::IPriorityQueue_2<T,float_t>"
 template <typename T> constexpr Priority_Queue::StablePriorityQueue_1<T>::operator ::Priority_Queue::IPriorityQueue_2<T, float_t>*() noexcept {
+  return static_cast<::Priority_Queue::IPriorityQueue_2<T, float_t>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Priority_Queue::IPriorityQueue_2<T,float_t>"
+template <typename T> constexpr ::Priority_Queue::IPriorityQueue_2<T, float_t>* Priority_Queue::StablePriorityQueue_1<T>::i___Priority_Queue__IPriorityQueue_2_T_float_t_() noexcept {
   return static_cast<::Priority_Queue::IPriorityQueue_2<T, float_t>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
 template <typename T> constexpr Priority_Queue::StablePriorityQueue_1<T>::operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::IEnumerable_1<T>* Priority_Queue::StablePriorityQueue_1<T>::i___System__Collections__Generic__IEnumerable_1_T_() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename T> constexpr Priority_Queue::StablePriorityQueue_1<T>::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename T> constexpr ::System::Collections::IEnumerable* Priority_Queue::StablePriorityQueue_1<T>::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 template <typename T> constexpr int32_t& Priority_Queue::StablePriorityQueue_1<T>::__get__numNodes() {

@@ -11,8 +11,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlUrlResolver)
-namespace System {
-class Uri;
+namespace System::IO {
+class Stream;
+}
+namespace System::Net::Cache {
+class RequestCachePolicy;
+}
+namespace System::Net {
+class ICredentials;
+}
+namespace System::Net {
+class IWebProxy;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace System::Xml {
 class XmlDownloadManager;
@@ -20,35 +41,14 @@ class XmlDownloadManager;
 namespace System::Xml {
 struct __XmlUrlResolver___GetEntityAsync_d__15;
 }
-namespace System::Net {
-class IWebProxy;
-}
-namespace System::Net::Cache {
-class RequestCachePolicy;
+namespace System {
+class Object;
 }
 namespace System {
 class Type;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
 namespace System {
-class Object;
-}
-namespace System::Net {
-class ICredentials;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
-}
-namespace System::IO {
-class Stream;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+class Uri;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -64,14 +64,17 @@ MARK_VAL_T(::System::Xml::__XmlUrlResolver___GetEntityAsync_d__15);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 899 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3619)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 2 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3397))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11575)) CS Name: ::XmlUrlResolver::<GetEntityAsync>d__15
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 899 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 2 }), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3619))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11575)) CS Name: ::XmlUrlResolver::<GetEntityAsync>d__15
 struct CORDL_TYPE __XmlUrlResolver___GetEntityAsync_d__15 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x28a999c, size 0x37c, virtual true, abstract: false, final true
   inline void MoveNext();

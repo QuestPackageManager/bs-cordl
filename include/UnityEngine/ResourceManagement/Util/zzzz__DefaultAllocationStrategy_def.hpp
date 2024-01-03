@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(DefaultAllocationStrategy)
 namespace System {
 class Object;
 }
-namespace UnityEngine::ResourceManagement::Util {
-class IAllocationStrategy;
-}
 namespace System {
 class Type;
+}
+namespace UnityEngine::ResourceManagement::Util {
+class IAllocationStrategy;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {
@@ -32,6 +32,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IAllocationStrategy"
   constexpr operator ::UnityEngine::ResourceManagement::Util::IAllocationStrategy*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::ResourceManagement::Util::IAllocationStrategy"
+  constexpr ::UnityEngine::ResourceManagement::Util::IAllocationStrategy* i___UnityEngine__ResourceManagement__Util__IAllocationStrategy() noexcept;
 
   /// @brief Method New, addr 0x2bd2014, size 0xc, virtual true, abstract: false, final true
   inline ::System::Object* New(::System::Type* type, int32_t typeHash);

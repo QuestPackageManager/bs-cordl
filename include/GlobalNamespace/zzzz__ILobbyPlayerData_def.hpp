@@ -33,6 +33,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ILevelGameplaySetupData"
   constexpr operator ::GlobalNamespace::ILevelGameplaySetupData*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::ILevelGameplaySetupData"
+  constexpr ::GlobalNamespace::ILevelGameplaySetupData* i___GlobalNamespace__ILevelGameplaySetupData() noexcept;
+
   /// @brief Method get_isPartyOwner, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isPartyOwner();
 

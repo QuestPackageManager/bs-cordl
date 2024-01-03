@@ -12,37 +12,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightmappingSceneSetup)
 namespace GlobalNamespace {
-class __LightmappingSceneSetup____c__DisplayClass8_0;
-}
-namespace GlobalNamespace {
-class ColorSchemeSO;
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
 class BeatmapLevelSO;
 }
 namespace GlobalNamespace {
-class StandardLevelNoTransitionInstallerData;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace GlobalNamespace {
-struct __LightmappingSceneSetup____c__DisplayClass8_0____InstallBindings_b__0_d;
+class ColorSchemeSO;
 }
 namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+namespace GlobalNamespace {
+class StandardLevelNoTransitionInstallerData;
+}
+namespace GlobalNamespace {
+class __LightmappingSceneSetup____c__DisplayClass8_0;
+}
+namespace GlobalNamespace {
+struct __LightmappingSceneSetup____c__DisplayClass8_0____InstallBindings_b__0_d;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -62,14 +62,16 @@ MARK_VAL_T(::GlobalNamespace::__LightmappingSceneSetup____c__DisplayClass8_0____
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 890 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4260)), TypeDefinitionIndex(TypeDefinitionIndex(3401))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6033)) CS Name:
-// ::LightmappingSceneSetup::<>c__DisplayClass8_0::<<InstallBindings>b__0>d
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4260)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 890
+// }), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6033)) CS Name: ::LightmappingSceneSetup::<>c__DisplayClass8_0::<<InstallBindings>b__0>d
 struct CORDL_TYPE __LightmappingSceneSetup____c__DisplayClass8_0____InstallBindings_b__0_d {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x231ac64, size 0x2ac, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -190,7 +192,7 @@ static_assert(offsetof(::GlobalNamespace::__LightmappingSceneSetup____c__Display
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138)), TypeDefinitionIndex(TypeDefinitionIndex(14717))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(11138))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6035))
 // CS Name: ::LightmappingSceneSetup*
 class CORDL_TYPE LightmappingSceneSetup : public ::Zenject::MonoInstaller {

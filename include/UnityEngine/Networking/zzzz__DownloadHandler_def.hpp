@@ -9,8 +9,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DownloadHandler)
-namespace UnityEngine::Networking {
-class UnityWebRequest;
+namespace System::Text {
+class Encoding;
 }
 namespace System {
 class IDisposable;
@@ -18,8 +18,8 @@ class IDisposable;
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
 }
-namespace System::Text {
-class Encoding;
+namespace UnityEngine::Networking {
+class UnityWebRequest;
 }
 // Forward declare root types
 namespace UnityEngine::Networking {
@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::UnityEngine::Networking::DownloadHandler);
 // SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15580))
 // CS Name: ::UnityEngine.Networking::DownloadHandler*
 class CORDL_TYPE DownloadHandler : public ::System::Object {
@@ -46,6 +46,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr void*& __get_m_Ptr();
 

@@ -10,95 +10,89 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetSerializer)
-namespace System {
-class Type;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class __NetSerializer__BoolSerializer_1;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class __NetSerializer__EnumByteSerializer_1;
-}
-namespace LiteNetLib::Utils {
-template <typename TClass, typename TProperty> class __NetSerializer__FastCallSpecificAuto_2;
-}
 namespace LiteNetLib::Utils {
 class NetDataReader;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class __NetSerializer__DoubleSerializer_1;
-}
-namespace LiteNetLib::Utils {
-template <typename TProperty> class __NetSerializer__CustomTypeClass_1;
-}
-namespace LiteNetLib::Utils {
-class __NetSerializer__CustomType;
-}
-namespace LiteNetLib::Utils {
-template <typename TProperty> class __NetSerializer__CustomTypeStruct_1;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class __NetSerializer__FastCall_1;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class __NetSerializer__IntSerializer_1;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class __NetSerializer__FloatSerializer_1;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class __NetSerializer__ClassInfo_1;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace LiteNetLib::Utils {
-template <typename TProperty> class __NetSerializer__CustomTypeStatic_1;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class __NetSerializer__StringSerializer_1;
-}
-namespace LiteNetLib::Utils {
-template <typename TClass, typename TProperty> class __NetSerializer__FastCallStruct_2;
-}
-namespace System {
-template <typename TResult> class Func_1;
-}
-namespace LiteNetLib::Utils {
-template <typename TClass, typename TProperty> class __NetSerializer__FastCallSpecific_2;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class __NetSerializer__UIntSerializer_1;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
 namespace LiteNetLib::Utils {
-template <typename T> class __NetSerializer__LongSerializer_1;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class __NetSerializer__ULongSerializer_1;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class __NetSerializer__EnumIntSerializer_1;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class __NetSerializer__SByteSerializer_1;
-}
-namespace LiteNetLib::Utils {
-template <typename TClass, typename TProperty> class __NetSerializer__FastCallClass_2;
+template <typename T> class __NetSerializer__BoolSerializer_1;
 }
 namespace LiteNetLib::Utils {
 template <typename T> class __NetSerializer__ByteSerializer_1;
 }
 namespace LiteNetLib::Utils {
+template <typename T> class __NetSerializer__CharSerializer_1;
+}
+namespace LiteNetLib::Utils {
+template <typename T> class __NetSerializer__ClassInfo_1;
+}
+namespace LiteNetLib::Utils {
+template <typename TProperty> class __NetSerializer__CustomTypeClass_1;
+}
+namespace LiteNetLib::Utils {
+template <typename TProperty> class __NetSerializer__CustomTypeStatic_1;
+}
+namespace LiteNetLib::Utils {
+template <typename TProperty> class __NetSerializer__CustomTypeStruct_1;
+}
+namespace LiteNetLib::Utils {
+class __NetSerializer__CustomType;
+}
+namespace LiteNetLib::Utils {
+template <typename T> class __NetSerializer__DoubleSerializer_1;
+}
+namespace LiteNetLib::Utils {
+template <typename T> class __NetSerializer__EnumByteSerializer_1;
+}
+namespace LiteNetLib::Utils {
+template <typename T> class __NetSerializer__EnumIntSerializer_1;
+}
+namespace LiteNetLib::Utils {
+template <typename TClass, typename TProperty> class __NetSerializer__FastCallClass_2;
+}
+namespace LiteNetLib::Utils {
+template <typename TClass, typename TProperty> class __NetSerializer__FastCallSpecificAuto_2;
+}
+namespace LiteNetLib::Utils {
+template <typename TClass, typename TProperty> class __NetSerializer__FastCallSpecific_2;
+}
+namespace LiteNetLib::Utils {
+template <typename TClass, typename TProperty> class __NetSerializer__FastCallStatic_2;
+}
+namespace LiteNetLib::Utils {
+template <typename TClass, typename TProperty> class __NetSerializer__FastCallStruct_2;
+}
+namespace LiteNetLib::Utils {
+template <typename T> class __NetSerializer__FastCall_1;
+}
+namespace LiteNetLib::Utils {
+template <typename T> class __NetSerializer__FloatSerializer_1;
+}
+namespace LiteNetLib::Utils {
 template <typename T> class __NetSerializer__IPEndPointSerializer_1;
 }
 namespace LiteNetLib::Utils {
-template <typename T> class __NetSerializer__CharSerializer_1;
+template <typename T> class __NetSerializer__IntSerializer_1;
+}
+namespace LiteNetLib::Utils {
+template <typename T> class __NetSerializer__LongSerializer_1;
+}
+namespace LiteNetLib::Utils {
+template <typename T> class __NetSerializer__SByteSerializer_1;
+}
+namespace LiteNetLib::Utils {
+template <typename T> class __NetSerializer__ShortSerializer_1;
+}
+namespace LiteNetLib::Utils {
+template <typename T> class __NetSerializer__StringSerializer_1;
+}
+namespace LiteNetLib::Utils {
+template <typename T> class __NetSerializer__UIntSerializer_1;
+}
+namespace LiteNetLib::Utils {
+template <typename T> class __NetSerializer__ULongSerializer_1;
 }
 namespace LiteNetLib::Utils {
 template <typename T> class __NetSerializer__UShortSerializer_1;
@@ -106,23 +100,29 @@ template <typename T> class __NetSerializer__UShortSerializer_1;
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace LiteNetLib::Utils {
-template <typename TClass, typename TProperty> class __NetSerializer__FastCallStatic_2;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class __NetSerializer__ShortSerializer_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System::Reflection {
-class PropertyInfo;
+namespace System::Net {
+class IPEndPoint;
 }
 namespace System::Reflection {
 class MethodInfo;
 }
-namespace System::Net {
-class IPEndPoint;
+namespace System::Reflection {
+class PropertyInfo;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace System {
+template <typename TResult> class Func_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace LiteNetLib::Utils {
@@ -398,7 +398,7 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename TClass, typename TProperty>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1957 }), TypeDefinitionIndex(TypeDefinitionIndex(14210))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14210)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1957 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14211))
 // CS Name: ::NetSerializer::FastCallSpecificAuto`2<TClass,TProperty>*
 class CORDL_TYPE __NetSerializer__FastCallSpecificAuto_2 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<TClass, TProperty> {
@@ -735,7 +735,7 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14210)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1964 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1964 }), TypeDefinitionIndex(TypeDefinitionIndex(14210))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14217))
 // CS Name: ::NetSerializer::ShortSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__ShortSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<T, int16_t> {
@@ -876,7 +876,7 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14210)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1967 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1967 }), TypeDefinitionIndex(TypeDefinitionIndex(14210))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14220))
 // CS Name: ::NetSerializer::ULongSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__ULongSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<T, uint64_t> {
@@ -970,7 +970,7 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14210)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1963 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1963 }), TypeDefinitionIndex(TypeDefinitionIndex(14210))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14222))
 // CS Name: ::NetSerializer::SByteSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__SByteSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<T, int8_t> {
@@ -1158,7 +1158,7 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14211)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14211), inst: 1951 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14211), inst: 1951 }), TypeDefinitionIndex(TypeDefinitionIndex(14211))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14226))
 // CS Name: ::NetSerializer::CharSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__CharSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecificAuto_2<T, char16_t> {
@@ -1298,7 +1298,7 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14209), inst: 1973 }), TypeDefinitionIndex(TypeDefinitionIndex(14209))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14209)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14209), inst: 1973 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14229))
 // CS Name: ::NetSerializer::EnumByteSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__EnumByteSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__FastCall_1<T> {

@@ -9,20 +9,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UIRAtlasAllocator)
-namespace UnityEngine {
-struct RectInt;
-}
 namespace System {
 class IDisposable;
 }
 namespace UnityEngine::UIElements {
-class __UIRAtlasAllocator__Row;
+template <typename T> class ObjectPool_1;
 }
 namespace UnityEngine::UIElements {
 class __UIRAtlasAllocator__AreaNode;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class ObjectPool_1;
+class __UIRAtlasAllocator__Row;
+}
+namespace UnityEngine {
+struct RectInt;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -189,7 +189,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__UIRAtlasAllocator__Row, ___C
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10162)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10162))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7325))
 // CS Name: ::UIRAtlasAllocator::AreaNode*
 class CORDL_TYPE __UIRAtlasAllocator__AreaNode : public ::System::Object {
@@ -354,6 +354,9 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   constexpr int32_t& __get__maxAtlasSize_k__BackingField();
 
   constexpr int32_t const& __get__maxAtlasSize_k__BackingField() const;
@@ -481,8 +484,7 @@ public:
   static inline ::UnityEngine::UIElements::UIRAtlasAllocator* New_ctor(int32_t initialAtlasSize, int32_t maxAtlasSize, int32_t sidePadding);
 
   /// @brief Method .ctor, addr 0x2e76924, size 0x1cc, virtual false, abstract: false, final false
-  /// @param sidePadding: int32_t (default: static_cast<int32_t>(0x1))
-  inline void _ctor(int32_t initialAtlasSize, int32_t maxAtlasSize, int32_t sidePadding = static_cast<int32_t>(0x1));
+  inline void _ctor(int32_t initialAtlasSize, int32_t maxAtlasSize, int32_t sidePadding);
 
   /// @brief Method TryAllocate, addr 0x2e76c94, size 0x3e0, virtual false, abstract: false, final false
   inline bool TryAllocate(int32_t width, int32_t height, ByRef<::UnityEngine::RectInt> location);

@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputStateBuffers)
-namespace UnityEngine::InputSystem {
-class InputDevice;
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputUpdateType;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct __InputStateBuffers__DoubleBuffers;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputUpdateType;
+namespace UnityEngine::InputSystem {
+class InputDevice;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

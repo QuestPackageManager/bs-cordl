@@ -9,8 +9,11 @@ CORDL_MODULE_EXPORT(X509ChainImplUnityTls)
 namespace Mono::Unity {
 struct __UnityTls__unitytls_x509list_ref;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace System::Security::Cryptography::X509Certificates {
-struct X509ChainStatusFlags;
+class X509Certificate2;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509ChainElementCollection;
@@ -18,11 +21,8 @@ class X509ChainElementCollection;
 namespace System::Security::Cryptography::X509Certificates {
 class X509ChainPolicy;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2;
+struct X509ChainStatusFlags;
 }
 namespace System::Security::Cryptography::X509Certificates {
 struct X509ChainStatus;
@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::Mono::Unity::X509ChainImplUnityTls);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9006)), TypeDefinitionIndex(TypeDefinitionIndex(8764))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8764)), TypeDefinitionIndex(TypeDefinitionIndex(9006))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8814))
 // CS Name: ::Mono.Unity::X509ChainImplUnityTls*
 class CORDL_TYPE X509ChainImplUnityTls : public ::System::Security::Cryptography::X509Certificates::X509ChainImpl {
@@ -103,8 +103,7 @@ public:
   static inline ::Mono::Unity::X509ChainImplUnityTls* New_ctor(::Mono::Unity::__UnityTls__unitytls_x509list_ref nativeCertificateChain, bool reverseOrder);
 
   /// @brief Method .ctor, addr 0x281c250, size 0x88, virtual false, abstract: false, final false
-  /// @param reverseOrder: bool (default: false)
-  inline void _ctor(::Mono::Unity::__UnityTls__unitytls_x509list_ref nativeCertificateChain, bool reverseOrder = false);
+  inline void _ctor(::Mono::Unity::__UnityTls__unitytls_x509list_ref nativeCertificateChain, bool reverseOrder);
 
   /// @brief Method get_IsValid, addr 0x281d88c, size 0x28, virtual true, abstract: false, final false
   inline bool get_IsValid();

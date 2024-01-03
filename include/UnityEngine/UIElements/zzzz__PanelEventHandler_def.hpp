@@ -12,35 +12,56 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PanelEventHandler)
-namespace UnityEngine::UIElements {
-class FocusEvent;
+namespace UnityEngine::EventSystems {
+class AxisEventData;
+}
+namespace UnityEngine::EventSystems {
+class BaseEventData;
+}
+namespace UnityEngine::EventSystems {
+class EventSystem;
+}
+namespace UnityEngine::EventSystems {
+class ICancelHandler;
+}
+namespace UnityEngine::EventSystems {
+class IDeselectHandler;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine::EventSystems {
+class IMoveHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerDownHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerEnterHandler;
 }
 namespace UnityEngine::EventSystems {
 class IPointerExitHandler;
 }
-namespace UnityEngine::UIElements {
-class BaseRuntimePanel;
+namespace UnityEngine::EventSystems {
+class IPointerMoveHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerUpHandler;
+}
+namespace UnityEngine::EventSystems {
+class IScrollHandler;
+}
+namespace UnityEngine::EventSystems {
+class ISelectHandler;
+}
+namespace UnityEngine::EventSystems {
+class ISubmitHandler;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
 namespace UnityEngine::UIElements {
-struct __PanelEventHandler__PointerEventType;
-}
-namespace UnityEngine::EventSystems {
-class AxisEventData;
-}
-namespace UnityEngine::EventSystems {
-class IPointerMoveHandler;
-}
-namespace UnityEngine {
-class Event;
-}
-namespace UnityEngine::EventSystems {
-class ISubmitHandler;
-}
-namespace UnityEngine::UIElements {
-class IRuntimePanelComponent;
+class BaseRuntimePanel;
 }
 namespace UnityEngine::UIElements {
 class BlurEvent;
@@ -49,58 +70,37 @@ namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
+class FocusEvent;
+}
+namespace UnityEngine::UIElements {
 class IPanel;
 }
-namespace UnityEngine::EventSystems {
-class EventSystem;
+namespace UnityEngine::UIElements {
+class IPointerEvent;
 }
-namespace UnityEngine::EventSystems {
-class IDeselectHandler;
+namespace UnityEngine::UIElements {
+class IRuntimePanelComponent;
 }
-namespace UnityEngine::EventSystems {
-class IPointerUpHandler;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine::EventSystems {
-class BaseEventData;
-}
-namespace UnityEngine::EventSystems {
-class IScrollHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerDownHandler;
-}
-namespace UnityEngine::EventSystems {
-class ISelectHandler;
-}
-namespace UnityEngine::EventSystems {
-class ICancelHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerEnterHandler;
-}
-namespace UnityEngine::EventSystems {
-class IMoveHandler;
+namespace UnityEngine::UIElements {
+struct __PanelEventHandler__PointerEventType;
 }
 namespace UnityEngine::UIElements {
 class __PanelEventHandler__PointerEvent;
 }
 namespace UnityEngine {
-struct Vector2;
+struct EventModifiers;
 }
-namespace UnityEngine::UIElements {
-class IPointerEvent;
+namespace UnityEngine {
+class Event;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine {
-struct EventModifiers;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -174,7 +174,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__PanelEventHandler__PointerEv
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14602)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14602)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
 // TypeDefinitionIndex(TypeDefinitionIndex(10243))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13159)) CS Name: ::PanelEventHandler::PointerEvent*
 class CORDL_TYPE __PanelEventHandler__PointerEvent : public ::System::Object {
 public:
@@ -281,6 +281,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::UIElements::IPointerEvent"
   constexpr operator ::UnityEngine::UIElements::IPointerEvent*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UIElements::IPointerEvent"
+  constexpr ::UnityEngine::UIElements::IPointerEvent* i___UnityEngine__UIElements__IPointerEvent() noexcept;
 
   constexpr int32_t& __get__pointerId_k__BackingField();
 
@@ -642,7 +645,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__PanelEventHandler__PointerEv
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13214)), TypeDefinitionIndex(TypeDefinitionIndex(14602)), TypeDefinitionIndex(TypeDefinitionIndex(13158))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13214)), TypeDefinitionIndex(TypeDefinitionIndex(14602))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13160))
 // CS Name: ::UnityEngine.UIElements::PanelEventHandler*
 class CORDL_TYPE PanelEventHandler : public ::UnityEngine::EventSystems::UIBehaviour {
@@ -676,41 +679,80 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerMoveHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerMoveHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerMoveHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerMoveHandler* i___UnityEngine__EventSystems__IPointerMoveHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerUpHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerUpHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerUpHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerUpHandler* i___UnityEngine__EventSystems__IPointerUpHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerDownHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerDownHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerDownHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerDownHandler* i___UnityEngine__EventSystems__IPointerDownHandler() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::ISubmitHandler"
   constexpr operator ::UnityEngine::EventSystems::ISubmitHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::ISubmitHandler"
+  constexpr ::UnityEngine::EventSystems::ISubmitHandler* i___UnityEngine__EventSystems__ISubmitHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::ICancelHandler"
   constexpr operator ::UnityEngine::EventSystems::ICancelHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::ICancelHandler"
+  constexpr ::UnityEngine::EventSystems::ICancelHandler* i___UnityEngine__EventSystems__ICancelHandler() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IMoveHandler"
   constexpr operator ::UnityEngine::EventSystems::IMoveHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IMoveHandler"
+  constexpr ::UnityEngine::EventSystems::IMoveHandler* i___UnityEngine__EventSystems__IMoveHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IScrollHandler"
   constexpr operator ::UnityEngine::EventSystems::IScrollHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IScrollHandler"
+  constexpr ::UnityEngine::EventSystems::IScrollHandler* i___UnityEngine__EventSystems__IScrollHandler() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::ISelectHandler"
   constexpr operator ::UnityEngine::EventSystems::ISelectHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::ISelectHandler"
+  constexpr ::UnityEngine::EventSystems::ISelectHandler* i___UnityEngine__EventSystems__ISelectHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IDeselectHandler"
   constexpr operator ::UnityEngine::EventSystems::IDeselectHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IDeselectHandler"
+  constexpr ::UnityEngine::EventSystems::IDeselectHandler* i___UnityEngine__EventSystems__IDeselectHandler() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerExitHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerExitHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerExitHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerExitHandler* i___UnityEngine__EventSystems__IPointerExitHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerEnterHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerEnterHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerEnterHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerEnterHandler* i___UnityEngine__EventSystems__IPointerEnterHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::UIElements::IRuntimePanelComponent"
   constexpr operator ::UnityEngine::UIElements::IRuntimePanelComponent*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UIElements::IRuntimePanelComponent"
+  constexpr ::UnityEngine::UIElements::IRuntimePanelComponent* i___UnityEngine__UIElements__IRuntimePanelComponent() noexcept;
 
   constexpr ::UnityEngine::UIElements::BaseRuntimePanel*& __get_m_Panel();
 
@@ -837,9 +879,8 @@ public:
   inline void SendKeyDownEvent(::UnityEngine::Event* e);
 
   /// @brief Method ReadPointerData, addr 0x2d92c60, size 0x13c, virtual false, abstract: false, final false
-  /// @param eventType: ::UnityEngine::UIElements::__PanelEventHandler__PointerEventType (default: static_cast<int32_t>(0x0))
   inline bool ReadPointerData(::UnityEngine::UIElements::__PanelEventHandler__PointerEvent* pe, ::UnityEngine::EventSystems::PointerEventData* eventData,
-                              ::UnityEngine::UIElements::__PanelEventHandler__PointerEventType eventType = static_cast<int32_t>(0x0));
+                              ::UnityEngine::UIElements::__PanelEventHandler__PointerEventType eventType);
 
   static inline ::UnityEngine::UIElements::PanelEventHandler* New_ctor();
 

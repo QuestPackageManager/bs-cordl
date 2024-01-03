@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(WeakHashtable)
+namespace System::Collections {
+class IEqualityComparer;
+}
 namespace System::ComponentModel {
 class __WeakHashtable__WeakKeyComparer;
 }
 namespace System {
 class Object;
-}
-namespace System::Collections {
-class IEqualityComparer;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -37,6 +37,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Collections::IEqualityComparer"
   constexpr operator ::System::Collections::IEqualityComparer*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEqualityComparer"
+  constexpr ::System::Collections::IEqualityComparer* i___System__Collections__IEqualityComparer() noexcept;
 
   /// @brief Method System.Collections.IEqualityComparer.Equals, addr 0x293a970, size 0x15c, virtual true, abstract: false, final true
   inline bool System_Collections_IEqualityComparer_Equals(::System::Object* x, ::System::Object* y);

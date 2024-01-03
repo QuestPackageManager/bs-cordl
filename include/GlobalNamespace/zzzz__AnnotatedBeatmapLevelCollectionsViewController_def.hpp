@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AnnotatedBeatmapLevelCollectionsViewController)
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System {
-class Action;
+namespace GlobalNamespace {
+class AnnotatedBeatmapLevelCollectionsGridView;
 }
 namespace GlobalNamespace {
 class IAdditionalContentModel;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-class AnnotatedBeatmapLevelCollectionsGridView;
 }
 namespace GlobalNamespace {
 class IAnnotatedBeatmapLevelCollection;
 }
 namespace GlobalNamespace {
 class LoadingControl;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {

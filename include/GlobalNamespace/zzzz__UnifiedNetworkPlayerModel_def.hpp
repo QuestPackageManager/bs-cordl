@@ -11,76 +11,76 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnifiedNetworkPlayerModel)
 namespace GlobalNamespace {
-class INetworkPlayer;
+struct BeatmapLevelSelectionMask;
 }
 namespace GlobalNamespace {
-struct GameplayServerConfiguration;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace GlobalNamespace {
-class __UnifiedNetworkPlayerModel___get_otherPlayers_d__64;
-}
-namespace GlobalNamespace {
-class PartyMessageHandler;
-}
-namespace GlobalNamespace {
-class __UnifiedNetworkPlayerModel__StartClientPartyConfig;
-}
-namespace GlobalNamespace {
-class __UnifiedNetworkPlayerModel__JoinMatchmakingPartyConfig;
-}
-namespace Zenject {
-class IInitializable;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-struct __UnifiedNetworkPlayerModel__ActiveNetworkPlayerModelType;
-}
-namespace GlobalNamespace {
-class PlatformNetworkPlayerModel;
+class ConnectedPlayerManager;
 }
 namespace GlobalNamespace {
 class GameLiftNetworkPlayerModel;
 }
 namespace GlobalNamespace {
+struct GameplayServerConfiguration;
+}
+namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace GlobalNamespace {
-class ConnectedPlayerManager;
-}
-namespace System {
-class IDisposable;
+template <typename T> class INetworkPlayerModelPartyConfig_1;
 }
 namespace GlobalNamespace {
 class INetworkPlayerModel;
 }
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
-struct BeatmapLevelSelectionMask;
+class INetworkPlayer;
 }
 namespace GlobalNamespace {
 class IUnifiedNetworkPlayerModel;
 }
 namespace GlobalNamespace {
-template <typename T> class INetworkPlayerModelPartyConfig_1;
+class PartyMessageHandler;
+}
+namespace GlobalNamespace {
+class PlatformNetworkPlayerModel;
+}
+namespace GlobalNamespace {
+struct __UnifiedNetworkPlayerModel__ActiveNetworkPlayerModelType;
+}
+namespace GlobalNamespace {
+class __UnifiedNetworkPlayerModel__JoinMatchmakingPartyConfig;
+}
+namespace GlobalNamespace {
+class __UnifiedNetworkPlayerModel__StartClientPartyConfig;
+}
+namespace GlobalNamespace {
+class __UnifiedNetworkPlayerModel___get_otherPlayers_d__64;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
-}
-namespace System {
-class Object;
 }
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+class Action;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace Zenject {
+class IInitializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -158,7 +158,7 @@ static_assert(offsetof(::GlobalNamespace::__UnifiedNetworkPlayerModel__ActiveNet
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12758))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12758))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14981))
 // CS Name: ::UnifiedNetworkPlayerModel::JoinMatchmakingPartyConfig*
 class CORDL_TYPE __UnifiedNetworkPlayerModel__JoinMatchmakingPartyConfig : public ::System::Object {
@@ -178,6 +178,10 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::UnifiedNetworkPlayerModel*>"
   constexpr operator ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::UnifiedNetworkPlayerModel*>*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::UnifiedNetworkPlayerModel*>"
+  constexpr ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::UnifiedNetworkPlayerModel*>*
+  i___GlobalNamespace__INetworkPlayerModelPartyConfig_1___GlobalNamespace__UnifiedNetworkPlayerModel__() noexcept;
 
   constexpr ::GlobalNamespace::BeatmapLevelSelectionMask& __get_selectionMask();
 
@@ -252,7 +256,7 @@ static_assert(offsetof(::GlobalNamespace::__UnifiedNetworkPlayerModel__JoinMatch
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12758)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12758))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14982))
 // CS Name: ::UnifiedNetworkPlayerModel::StartClientPartyConfig*
 class CORDL_TYPE __UnifiedNetworkPlayerModel__StartClientPartyConfig : public ::System::Object {
@@ -266,6 +270,10 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::UnifiedNetworkPlayerModel*>"
   constexpr operator ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::UnifiedNetworkPlayerModel*>*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::UnifiedNetworkPlayerModel*>"
+  constexpr ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::UnifiedNetworkPlayerModel*>*
+  i___GlobalNamespace__INetworkPlayerModelPartyConfig_1___GlobalNamespace__UnifiedNetworkPlayerModel__() noexcept;
 
   constexpr ::GlobalNamespace::BeatmapLevelSelectionMask& __get_selectionMask();
 
@@ -346,17 +354,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* i___System__Collections__Generic__IEnumerable_1___GlobalNamespace__INetworkPlayer__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>* i___System__Collections__Generic__IEnumerator_1___GlobalNamespace__INetworkPlayer__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -469,7 +492,7 @@ static_assert(offsetof(::GlobalNamespace::__UnifiedNetworkPlayerModel___get_othe
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14980)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14980))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14984))
 // CS Name: ::UnifiedNetworkPlayerModel*
 class CORDL_TYPE UnifiedNetworkPlayerModel : public ::System::Object {
@@ -557,14 +580,26 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IUnifiedNetworkPlayerModel"
   constexpr operator ::GlobalNamespace::IUnifiedNetworkPlayerModel*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IUnifiedNetworkPlayerModel"
+  constexpr ::GlobalNamespace::IUnifiedNetworkPlayerModel* i___GlobalNamespace__IUnifiedNetworkPlayerModel() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::INetworkPlayerModel"
   constexpr operator ::GlobalNamespace::INetworkPlayerModel*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::INetworkPlayerModel"
+  constexpr ::GlobalNamespace::INetworkPlayerModel* i___GlobalNamespace__INetworkPlayerModel() noexcept;
 
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
+  /// @brief Convert to "::Zenject::IInitializable"
+  constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::GlobalNamespace::GameLiftNetworkPlayerModel*& __get__gameLiftNetworkPlayerModel();
 

@@ -4,23 +4,23 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/zzzz__Pointer_def.hpp"
 CORDL_MODULE_EXPORT(Mouse)
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
-}
-namespace UnityEngine::InputSystem::Controls {
-class DeltaControl;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputStateCallbackReceiver;
-}
 namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
 }
 namespace UnityEngine::InputSystem::Controls {
+class DeltaControl;
+}
+namespace UnityEngine::InputSystem::Controls {
 class IntegerControl;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputStateCallbackReceiver;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -81,6 +81,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateCallbackReceiver"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateCallbackReceiver*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateCallbackReceiver"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateCallbackReceiver* i___UnityEngine__InputSystem__LowLevel__IInputStateCallbackReceiver() noexcept;
 
   constexpr ::UnityEngine::InputSystem::Controls::DeltaControl*& __get__scroll_k__BackingField();
 

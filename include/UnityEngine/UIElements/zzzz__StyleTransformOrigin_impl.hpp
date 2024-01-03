@@ -2,11 +2,11 @@
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TransformOrigin_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleTransformOrigin_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TransformOrigin_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleKeyword_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IStyleValue_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleKeyword_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TransformOrigin_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleTransformOrigin.get_value
 template <>
 
@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x2e73024;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleTransformOrigin>::get(),
                                                                                "get_value", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2e75500;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleTransformOrigin>::get(),
                                                                                "get_keyword", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -43,7 +43,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x2e75508;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleTransformOrigin>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleKeyword>::get() })));
@@ -58,7 +58,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x2e75514;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleTransformOrigin>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::TransformOrigin>::get(),
@@ -74,7 +74,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x2e7552c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleTransformOrigin>::get(), "op_Equality", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleTransformOrigin>::get(),
@@ -90,7 +90,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x2e73220;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleTransformOrigin>::get(), "op_Implicit", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleKeyword>::get() })));
@@ -105,7 +105,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8c;
   constexpr static std::size_t addrs = 0x2e75608;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleTransformOrigin>::get(), "Equals", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleTransformOrigin>::get() })));
@@ -120,7 +120,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x2e75694;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleTransformOrigin>::get(),
@@ -136,7 +136,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x2e75724;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleTransformOrigin>::get(),
@@ -152,7 +152,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0x2e757bc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleTransformOrigin>::get(),
@@ -164,8 +164,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 constexpr UnityEngine::UIElements::StyleTransformOrigin::operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TransformOrigin>*() {
   return static_cast<::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TransformOrigin>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TransformOrigin>"
+constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TransformOrigin>*
+UnityEngine::UIElements::StyleTransformOrigin::i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__TransformOrigin_() {
+  return static_cast<::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TransformOrigin>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleTransformOrigin>"
 constexpr UnityEngine::UIElements::StyleTransformOrigin::operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleTransformOrigin>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::StyleTransformOrigin>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleTransformOrigin>"
+constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleTransformOrigin>*
+UnityEngine::UIElements::StyleTransformOrigin::i___System__IEquatable_1___UnityEngine__UIElements__StyleTransformOrigin_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::StyleTransformOrigin>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 inline ::UnityEngine::UIElements::TransformOrigin UnityEngine::UIElements::StyleTransformOrigin::get_value() {

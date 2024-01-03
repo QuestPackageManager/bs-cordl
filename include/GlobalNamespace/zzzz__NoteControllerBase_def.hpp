@@ -5,7 +5,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(NoteControllerBase)
 namespace GlobalNamespace {
-class NoteData;
+template <typename T> class ILazyCopyHashSet_1;
+}
+namespace GlobalNamespace {
+class INoteControllerDidInitEvent;
 }
 namespace GlobalNamespace {
 class INoteControllerNoteDidPassJumpThreeQuartersEvent;
@@ -14,10 +17,7 @@ namespace GlobalNamespace {
 class INoteControllerNoteDidStartDissolvingEvent;
 }
 namespace GlobalNamespace {
-template <typename T> class ILazyCopyHashSet_1;
-}
-namespace GlobalNamespace {
-class INoteControllerDidInitEvent;
+class NoteData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

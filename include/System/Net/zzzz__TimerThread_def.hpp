@@ -11,32 +11,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimerThread)
-namespace System::Threading {
-class WaitHandle;
+namespace GlobalNamespace {
+struct __TimerThread__TimerNode__TimerState;
 }
-namespace System::Net {
-class __TimerThread__InfiniteTimerQueue;
+namespace System::Collections::Generic {
+template <typename T> class LinkedList_1;
 }
-namespace System::Threading {
-class ManualResetEvent;
+namespace System::Collections {
+class Hashtable;
 }
 namespace System::Net {
 class __TimerThread__Callback;
 }
 namespace System::Net {
-class __TimerThread__TimerQueue;
+class __TimerThread__InfiniteTimerQueue;
 }
-namespace System::Collections {
-class Hashtable;
-}
-namespace System {
-class EventArgs;
-}
-namespace System {
-class WeakReference;
-}
-namespace System::Collections::Generic {
-template <typename T> class LinkedList_1;
+namespace System::Net {
+class __TimerThread__InfiniteTimer;
 }
 namespace System::Net {
 class __TimerThread__Queue;
@@ -44,23 +35,32 @@ class __TimerThread__Queue;
 namespace System::Net {
 class __TimerThread__TimerNode;
 }
-namespace System {
-class Object;
-}
 namespace System::Net {
-class __TimerThread__InfiniteTimer;
-}
-namespace System::Threading {
-class AutoResetEvent;
+class __TimerThread__TimerQueue;
 }
 namespace System::Net {
 class __TimerThread__Timer;
 }
+namespace System::Threading {
+class AutoResetEvent;
+}
+namespace System::Threading {
+class ManualResetEvent;
+}
+namespace System::Threading {
+class WaitHandle;
+}
+namespace System {
+class EventArgs;
+}
 namespace System {
 class IDisposable;
 }
-namespace GlobalNamespace {
-struct __TimerThread__TimerNode__TimerState;
+namespace System {
+class Object;
+}
+namespace System {
+class WeakReference;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -181,6 +181,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get_m_StartTimeMilliseconds();
 

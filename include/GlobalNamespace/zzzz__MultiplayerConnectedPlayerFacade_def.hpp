@@ -10,32 +10,32 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerConnectedPlayerFacade)
-namespace GlobalNamespace {
-class __MultiplayerConnectedPlayerFacade__Factory;
+namespace BeatSaber::AvatarCore {
+class Avatar;
 }
 namespace GlobalNamespace {
-class MultiplayerScoreDiffText;
-}
-namespace UnityEngine {
-class GameObject;
+class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
 class IConnectedPlayerBeatmapObjectEventManager;
-}
-namespace BeatSaber::AvatarCore {
-class Avatar;
 }
 namespace GlobalNamespace {
 class MultiplayerBigAvatarAnimator;
 }
 namespace GlobalNamespace {
-class MultiplayerConnectedPlayerSongTimeSyncController;
-}
-namespace GlobalNamespace {
 class MultiplayerConnectedPlayerIntroAnimator;
 }
 namespace GlobalNamespace {
-class BeatmapObjectManager;
+class MultiplayerConnectedPlayerSongTimeSyncController;
+}
+namespace GlobalNamespace {
+class MultiplayerScoreDiffText;
+}
+namespace GlobalNamespace {
+class __MultiplayerConnectedPlayerFacade__Factory;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -247,9 +247,9 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerFacade, ____
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11008), inst: 3503 }), TypeDefinitionIndex(TypeDefinitionIndex(5239)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11008)), TypeDefinitionIndex(TypeDefinitionIndex(5122)), TypeDefinitionIndex(TypeDefinitionIndex(12778))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(5121)) CS Name: ::MultiplayerConnectedPlayerFacade::Factory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12778)), TypeDefinitionIndex(TypeDefinitionIndex(5239)), TypeDefinitionIndex(TypeDefinitionIndex(11008)),
+// TypeDefinitionIndex(TypeDefinitionIndex(5122)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11008), inst: 3503 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5121)) CS
+// Name: ::MultiplayerConnectedPlayerFacade::Factory*
 class CORDL_TYPE __MultiplayerConnectedPlayerFacade__Factory
     : public ::Zenject::PlaceholderFactory_3<::GlobalNamespace::IConnectedPlayer*, ::GlobalNamespace::MultiplayerPlayerStartState, ::GlobalNamespace::MultiplayerConnectedPlayerFacade*> {
 public:

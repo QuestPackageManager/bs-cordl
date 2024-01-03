@@ -1,33 +1,56 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Tuple_4_def.hpp"
-#include "System/Collections/zzzz__IStructuralEquatable_def.hpp"
-#include "System/Collections/zzzz__IStructuralComparable_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ITuple_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/Collections/zzzz__IEqualityComparer_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "System/Collections/zzzz__IStructuralComparable_def.hpp"
+#include "System/Collections/zzzz__IStructuralEquatable_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ITuple_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/zzzz__IComparable_def.hpp"
 #include "System/zzzz__ITupleInternal_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 /// @brief Convert operator to "::System::Collections::IStructuralEquatable"
 template <typename T1, typename T2, typename T3, typename T4> constexpr System::Tuple_4<T1, T2, T3, T4>::operator ::System::Collections::IStructuralEquatable*() noexcept {
+  return static_cast<::System::Collections::IStructuralEquatable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IStructuralEquatable"
+template <typename T1, typename T2, typename T3, typename T4>
+constexpr ::System::Collections::IStructuralEquatable* System::Tuple_4<T1, T2, T3, T4>::i___System__Collections__IStructuralEquatable() noexcept {
   return static_cast<::System::Collections::IStructuralEquatable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IStructuralComparable"
 template <typename T1, typename T2, typename T3, typename T4> constexpr System::Tuple_4<T1, T2, T3, T4>::operator ::System::Collections::IStructuralComparable*() noexcept {
   return static_cast<::System::Collections::IStructuralComparable*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::IStructuralComparable"
+template <typename T1, typename T2, typename T3, typename T4>
+constexpr ::System::Collections::IStructuralComparable* System::Tuple_4<T1, T2, T3, T4>::i___System__Collections__IStructuralComparable() noexcept {
+  return static_cast<::System::Collections::IStructuralComparable*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::IComparable"
 template <typename T1, typename T2, typename T3, typename T4> constexpr System::Tuple_4<T1, T2, T3, T4>::operator ::System::IComparable*() noexcept {
+  return static_cast<::System::IComparable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IComparable"
+template <typename T1, typename T2, typename T3, typename T4> constexpr ::System::IComparable* System::Tuple_4<T1, T2, T3, T4>::i___System__IComparable() noexcept {
   return static_cast<::System::IComparable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::ITupleInternal"
 template <typename T1, typename T2, typename T3, typename T4> constexpr System::Tuple_4<T1, T2, T3, T4>::operator ::System::ITupleInternal*() noexcept {
   return static_cast<::System::ITupleInternal*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::ITupleInternal"
+template <typename T1, typename T2, typename T3, typename T4> constexpr ::System::ITupleInternal* System::Tuple_4<T1, T2, T3, T4>::i___System__ITupleInternal() noexcept {
+  return static_cast<::System::ITupleInternal*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Runtime::CompilerServices::ITuple"
 template <typename T1, typename T2, typename T3, typename T4> constexpr System::Tuple_4<T1, T2, T3, T4>::operator ::System::Runtime::CompilerServices::ITuple*() noexcept {
+  return static_cast<::System::Runtime::CompilerServices::ITuple*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::ITuple"
+template <typename T1, typename T2, typename T3, typename T4>
+constexpr ::System::Runtime::CompilerServices::ITuple* System::Tuple_4<T1, T2, T3, T4>::i___System__Runtime__CompilerServices__ITuple() noexcept {
   return static_cast<::System::Runtime::CompilerServices::ITuple*>(static_cast<void*>(this));
 }
 template <typename T1, typename T2, typename T3, typename T4> constexpr T1& System::Tuple_4<T1, T2, T3, T4>::__get_m_Item1() {

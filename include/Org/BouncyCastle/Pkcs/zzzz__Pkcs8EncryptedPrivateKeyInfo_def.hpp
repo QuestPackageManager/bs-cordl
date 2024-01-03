@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Pkcs8EncryptedPrivateKeyInfo)
 namespace Org::BouncyCastle::Asn1::Pkcs {
-class PrivateKeyInfo;
+class EncryptedPrivateKeyInfo;
 }
 namespace Org::BouncyCastle::Asn1::Pkcs {
-class EncryptedPrivateKeyInfo;
+class PrivateKeyInfo;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDecryptorBuilderProvider;

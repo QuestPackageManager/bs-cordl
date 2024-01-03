@@ -10,56 +10,56 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CommandBuffer)
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine::Experimental::Rendering {
+struct GraphicsFormat;
+}
+namespace UnityEngine::Rendering {
+struct CommandBufferExecutionFlags;
+}
+namespace UnityEngine::Rendering {
+struct RenderBufferLoadAction;
+}
+namespace UnityEngine::Rendering {
+struct RenderBufferStoreAction;
+}
 namespace UnityEngine::Rendering {
 struct RenderTargetIdentifier;
 }
+namespace UnityEngine::Rendering {
+struct RenderTextureSubElement;
+}
 namespace UnityEngine {
-struct Vector4;
+struct FilterMode;
 }
 namespace UnityEngine {
 class MaterialPropertyBlock;
 }
 namespace UnityEngine {
-class Mesh;
-}
-namespace UnityEngine::Experimental::Rendering {
-struct GraphicsFormat;
-}
-namespace UnityEngine {
-class Renderer;
-}
-namespace UnityEngine::Rendering {
-struct RenderTextureSubElement;
-}
-namespace System {
-class IDisposable;
+class Material;
 }
 namespace UnityEngine {
 struct Matrix4x4;
 }
-namespace UnityEngine::Rendering {
-struct CommandBufferExecutionFlags;
-}
 namespace UnityEngine {
-struct FilterMode;
-}
-namespace UnityEngine::Rendering {
-struct RenderBufferLoadAction;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::Rendering {
-struct RenderBufferStoreAction;
-}
-namespace UnityEngine {
-struct RenderTextureMemoryless;
+class Mesh;
 }
 namespace UnityEngine {
 struct RenderTextureFormat;
 }
 namespace UnityEngine {
-class Material;
+struct RenderTextureMemoryless;
+}
+namespace UnityEngine {
+class Renderer;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -84,6 +84,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr void*& __get_m_Ptr();
 

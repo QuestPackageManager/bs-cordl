@@ -9,28 +9,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextInfo)
 namespace System::Globalization {
+class CultureData;
+}
+namespace System::Globalization {
 struct UnicodeCategory;
 }
 namespace System::Runtime::Serialization {
 class IDeserializationCallback;
 }
-namespace System {
-class ICloneable;
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System::Text {
 class StringBuilder;
+}
+namespace System {
+class ICloneable;
 }
 namespace System {
 class Object;
 }
 namespace System {
 template <typename T> struct ReadOnlySpan_1;
-}
-namespace System::Globalization {
-class CultureData;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
 }
 namespace System {
 template <typename T> struct Span_1;
@@ -45,7 +45,7 @@ MARK_REF_PTR_T(::System::Globalization::TextInfo);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(2448)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }),
 // TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3706)) CS Name: ::System.Globalization::TextInfo*
 class CORDL_TYPE TextInfo : public ::System::Object {
 public:
@@ -90,8 +90,14 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
   constexpr operator ::System::Runtime::Serialization::IDeserializationCallback*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
+  constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback() noexcept;
 
   constexpr ::StringW& __get_m_listSeparator();
 

@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(Datatype_QName)
 namespace System::Xml::Schema {
 class FacetsChecker;
 }
-namespace System::Xml {
-class IXmlNamespaceResolver;
+namespace System::Xml::Schema {
+class XmlSchemaType;
 }
-namespace System {
-class Type;
+namespace System::Xml::Schema {
+struct XmlSchemaWhiteSpace;
 }
 namespace System::Xml::Schema {
 struct XmlTypeCode;
@@ -21,23 +21,23 @@ struct XmlTypeCode;
 namespace System::Xml::Schema {
 class XmlValueConverter;
 }
-namespace System::Xml::Schema {
-struct XmlSchemaWhiteSpace;
+namespace System::Xml {
+class IXmlNamespaceResolver;
 }
-namespace System::Xml::Schema {
-class XmlSchemaType;
+namespace System::Xml {
+class XmlNameTable;
+}
+namespace System::Xml {
+struct XmlTokenizedType;
+}
+namespace System {
+class Exception;
 }
 namespace System {
 class Object;
 }
 namespace System {
-class Exception;
-}
-namespace System::Xml {
-struct XmlTokenizedType;
-}
-namespace System::Xml {
-class XmlNameTable;
+class Type;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

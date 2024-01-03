@@ -5,86 +5,86 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(OVRExtensions)
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
-}
-namespace GlobalNamespace {
-struct __OVRTracker__Frustum;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Quatf;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Colorf;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Vector4f;
-}
-namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-class Gradient;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Size3f;
-}
 namespace GlobalNamespace {
 template <typename T> struct OVREnumerable_1;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Frustumf;
 }
 namespace GlobalNamespace {
 struct OVRPose;
 }
 namespace GlobalNamespace {
-struct __OVRPlugin__Vector2f;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace OVR::OpenVR {
-struct HmdMatrix34_t;
+struct __OVRPlugin__Colorf;
 }
 namespace GlobalNamespace {
-struct __OVRSpace__StorageLocation;
+struct __OVRPlugin__Frustumf;
 }
 namespace GlobalNamespace {
-struct __OVRPlugin__SpaceStorageLocation;
+struct __OVRPlugin__Posef;
 }
-namespace UnityEngine {
-struct Color;
+namespace GlobalNamespace {
+struct __OVRPlugin__Quatf;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Size3f;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__Sizef;
 }
 namespace GlobalNamespace {
-struct __OVRPlugin__Posef;
+struct __OVRPlugin__SpaceStorageLocation;
 }
-namespace Unity::Collections {
-struct Allocator;
+namespace GlobalNamespace {
+struct __OVRPlugin__Vector2f;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__Vector3f;
 }
+namespace GlobalNamespace {
+struct __OVRPlugin__Vector4f;
+}
+namespace GlobalNamespace {
+struct __OVRSpace__StorageLocation;
+}
+namespace GlobalNamespace {
+struct __OVRTracker__Frustum;
+}
+namespace OVR::OpenVR {
+struct HmdMatrix34_t;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace Unity::Collections {
+struct Allocator;
+}
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
+}
+namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+class Gradient;
+}
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -118,12 +118,10 @@ public:
   static inline ::GlobalNamespace::OVRPose ToHeadSpacePose(::UnityEngine::Transform* transform, ::UnityEngine::Camera* camera);
 
   /// @brief Method ToOVRPose, addr 0x27195ec, size 0x88, virtual false, abstract: false, final false
-  /// @param isLocal: bool (default: false)
-  static inline ::GlobalNamespace::OVRPose ToOVRPose(::UnityEngine::Transform* t, bool isLocal = false);
+  static inline ::GlobalNamespace::OVRPose ToOVRPose(::UnityEngine::Transform* t, bool isLocal);
 
   /// @brief Method FromOVRPose, addr 0x2710af4, size 0x68, virtual false, abstract: false, final false
-  /// @param isLocal: bool (default: false)
-  static inline void FromOVRPose(::UnityEngine::Transform* t, ::GlobalNamespace::OVRPose pose, bool isLocal = false);
+  static inline void FromOVRPose(::UnityEngine::Transform* t, ::GlobalNamespace::OVRPose pose, bool isLocal);
 
   /// @brief Method ToOVRPose, addr 0x270d134, size 0x28, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPose ToOVRPose(::GlobalNamespace::__OVRPlugin__Posef p);

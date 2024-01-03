@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(OVRResources)
-namespace UnityEngine {
-class AssetBundle;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine {
-class Object;
-}
 namespace GlobalNamespace {
 class __OVRResources____c__DisplayClass2_0;
 }
 namespace GlobalNamespace {
 template <typename T> class __OVRResources____c__DisplayClass3_0_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+class AssetBundle;
+}
+namespace UnityEngine {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {

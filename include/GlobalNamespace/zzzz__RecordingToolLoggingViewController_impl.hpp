@@ -1,8 +1,8 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolLoggingViewController_def.hpp"
-#include "HMUI/zzzz__TextPageScrollView_def.hpp"
 #include "GlobalNamespace/zzzz__ListLogger_def.hpp"
+#include "HMUI/zzzz__TextPageScrollView_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::RecordingToolLoggingViewController.DidActivate
 template <>
 
@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x22d5f2c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolLoggingViewController*>::get(),
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x22d5fc8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolLoggingViewController*>::get(),
                                                                                ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;

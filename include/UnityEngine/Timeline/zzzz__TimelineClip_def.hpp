@@ -10,41 +10,41 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimelineClip)
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::Timeline {
+struct ClipCaps;
 }
 namespace UnityEngine::Timeline {
 class ICurvesOwner;
 }
 namespace UnityEngine::Timeline {
-class __TimelineClip__TimelineClipUpgrade;
+class TrackAsset;
+}
+namespace UnityEngine::Timeline {
+struct __TimelineClip__BlendCurveMode;
 }
 namespace UnityEngine::Timeline {
 struct __TimelineClip__ClipExtrapolation;
 }
 namespace UnityEngine::Timeline {
-class TrackAsset;
-}
-namespace UnityEngine {
-class AnimationCurve;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine {
-class AnimationClip;
-}
-namespace UnityEngine::Timeline {
-struct ClipCaps;
-}
-namespace UnityEngine {
-class Object;
+class __TimelineClip__TimelineClipUpgrade;
 }
 namespace UnityEngine::Timeline {
 struct __TimelineClip__Versions;
 }
-namespace UnityEngine::Timeline {
-struct __TimelineClip__BlendCurveMode;
+namespace UnityEngine {
+class AnimationClip;
+}
+namespace UnityEngine {
+class AnimationCurve;
+}
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
+}
+namespace UnityEngine {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -267,8 +267,8 @@ static_assert(offsetof(::UnityEngine::Timeline::__TimelineClip__BlendCurveMode, 
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13848)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13871)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13847))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13849)) CS Name: ::UnityEngine.Timeline::TimelineClip*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13871)), TypeDefinitionIndex(TypeDefinitionIndex(13848)), TypeDefinitionIndex(TypeDefinitionIndex(13847)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13849)) CS Name: ::UnityEngine.Timeline::TimelineClip*
 class CORDL_TYPE TimelineClip : public ::System::Object {
 public:
   // Declarations
@@ -457,8 +457,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::Timeline::ICurvesOwner"
   constexpr operator ::UnityEngine::Timeline::ICurvesOwner*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::Timeline::ICurvesOwner"
+  constexpr ::UnityEngine::Timeline::ICurvesOwner* i___UnityEngine__Timeline__ICurvesOwner() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
+  constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
   constexpr int32_t& __get_m_Version();
 

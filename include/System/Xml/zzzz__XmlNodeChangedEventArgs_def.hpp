@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlNodeChangedEventArgs)
 namespace System::Xml {
-class XmlNode;
+struct XmlNodeChangedAction;
 }
 namespace System::Xml {
-struct XmlNodeChangedAction;
+class XmlNode;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::System::Xml::XmlNodeChangedEventArgs);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2376)), TypeDefinitionIndex(TypeDefinitionIndex(11511))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11511)), TypeDefinitionIndex(TypeDefinitionIndex(2376))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11521))
 // CS Name: ::System.Xml::XmlNodeChangedEventArgs*
 class CORDL_TYPE XmlNodeChangedEventArgs : public ::System::EventArgs {

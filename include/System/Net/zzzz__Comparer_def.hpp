@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Comparer)
-namespace System {
-class Object;
-}
 namespace System::Collections {
 class IComparer;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Net {
@@ -29,6 +29,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IComparer"
+  constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
 
   /// @brief Method System.Collections.IComparer.Compare, addr 0x29adc18, size 0xdc, virtual true, abstract: false, final true
   inline int32_t System_Collections_IComparer_Compare(::System::Object* ol, ::System::Object* _cordl_or);

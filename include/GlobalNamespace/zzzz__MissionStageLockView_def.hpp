@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MissionStageLockView)
-namespace UnityEngine {
-class RectTransform;
-}
 namespace TMPro {
 class TMP_Text;
+}
+namespace UnityEngine {
+class RectTransform;
 }
 // Forward declare root types
 namespace GlobalNamespace {

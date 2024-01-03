@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(Test_LODGroup)
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivableWrapperClass_1;
 }
-namespace UnityEngine {
-class LODGroup;
-}
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivable_1;
+}
+namespace UnityEngine {
+class LODGroup;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -35,8 +35,14 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_LODGroup*>"
   constexpr operator ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_LODGroup*>*() noexcept;
 
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_LODGroup*>"
+  constexpr ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_LODGroup*>* i___HoudiniEngineUnity__IEquivableWrapperClass_1___HoudiniEngineUnity__Test_LODGroup__() noexcept;
+
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LODGroup*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LODGroup*>*() noexcept;
+
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LODGroup*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LODGroup*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_LODGroup__() noexcept;
 
   constexpr ::UnityEngine::LODGroup*& __get_self();
 

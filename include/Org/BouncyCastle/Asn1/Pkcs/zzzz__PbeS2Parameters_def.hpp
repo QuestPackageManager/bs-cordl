@@ -7,17 +7,17 @@ CORDL_MODULE_EXPORT(PbeS2Parameters)
 namespace Org::BouncyCastle::Asn1::Pkcs {
 class EncryptionScheme;
 }
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace Org::BouncyCastle::Asn1::Pkcs {
 class KeyDerivationFunc;
 }
 namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Pkcs {

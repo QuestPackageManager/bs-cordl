@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HighlightState)
+namespace System {
+class Object;
+}
 namespace TMPro {
 struct TMP_Offset;
 }
 namespace UnityEngine {
 struct Color32;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace TMPro {
@@ -26,7 +26,7 @@ MARK_VAL_T(::TMPro::HighlightState);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(12330))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12330)), TypeDefinitionIndex(TypeDefinitionIndex(10250))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12331))
 // CS Name: ::TMPro::HighlightState
 struct CORDL_TYPE HighlightState {

@@ -7,11 +7,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StandardScoreSyncStateNetSerializable)
-namespace LiteNetLib::Utils {
-class INetSerializable;
-}
 namespace GlobalNamespace {
-struct StandardScoreSyncState;
+class IPoolablePacket;
 }
 namespace GlobalNamespace {
 template <typename T> class ISyncStateSerializable_1;
@@ -19,17 +16,20 @@ template <typename T> class ISyncStateSerializable_1;
 namespace GlobalNamespace {
 template <typename T> class PacketPool_1;
 }
-namespace LiteNetLib::Utils {
-class NetDataReader;
+namespace GlobalNamespace {
+struct StandardScoreSyncState;
 }
 namespace GlobalNamespace {
 struct SyncStateId;
 }
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+class INetSerializable;
 }
-namespace GlobalNamespace {
-class IPoolablePacket;
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::GlobalNamespace::StandardScoreSyncStateNetSerializable);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12988)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12978))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12978)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12988))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12980))
 // CS Name: ::StandardScoreSyncStateNetSerializable*
 class CORDL_TYPE StandardScoreSyncStateNetSerializable : public ::System::Object {
@@ -65,11 +65,20 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IPoolablePacket"
   constexpr operator ::GlobalNamespace::IPoolablePacket*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
+  constexpr ::GlobalNamespace::IPoolablePacket* i___GlobalNamespace__IPoolablePacket() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::ISyncStateSerializable_1<::GlobalNamespace::StandardScoreSyncState>"
   constexpr operator ::GlobalNamespace::ISyncStateSerializable_1<::GlobalNamespace::StandardScoreSyncState>*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::ISyncStateSerializable_1<::GlobalNamespace::StandardScoreSyncState>"
+  constexpr ::GlobalNamespace::ISyncStateSerializable_1<::GlobalNamespace::StandardScoreSyncState>* i___GlobalNamespace__ISyncStateSerializable_1___GlobalNamespace__StandardScoreSyncState_() noexcept;
 
   constexpr ::GlobalNamespace::StandardScoreSyncState& __get__state();
 

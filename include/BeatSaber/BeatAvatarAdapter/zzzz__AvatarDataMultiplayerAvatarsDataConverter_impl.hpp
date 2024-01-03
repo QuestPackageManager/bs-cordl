@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/BeatAvatarAdapter/zzzz__AvatarDataMultiplayerAvatarsDataConverter_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerAvatarData_def.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarData_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerAvatarData_def.hpp"
 //  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarDataMultiplayerAvatarsDataConverter.CreateMultiplayerAvatarsData
 template <>
 
@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x508;
   constexpr static std::size_t addrs = 0xe1372c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarAdapter::AvatarDataMultiplayerAvatarsDataConverter*>::get(), "CreateMultiplayerAvatarsData",
         std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::BeatAvatarSDK::AvatarData*>::get() })));
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x5e8;
   constexpr static std::size_t addrs = 0xe13c34;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarAdapter::AvatarDataMultiplayerAvatarsDataConverter*>::get(), "CreateAvatarData", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerAvatarData>::get() })));

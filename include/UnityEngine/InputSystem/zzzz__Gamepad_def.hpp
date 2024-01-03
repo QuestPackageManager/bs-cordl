@@ -8,26 +8,26 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Gamepad)
-namespace UnityEngine::InputSystem::LowLevel {
-struct GamepadButton;
+namespace UnityEngine::InputSystem::Controls {
+class ButtonControl;
 }
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct ReadOnlyArray_1;
+namespace UnityEngine::InputSystem::Controls {
+class DpadControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class StickControl;
 }
 namespace UnityEngine::InputSystem::Haptics {
-class IHaptics;
-}
-namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
-}
-namespace UnityEngine::InputSystem::Haptics {
 class IDualMotorRumble;
 }
-namespace UnityEngine::InputSystem::Controls {
-class DpadControl;
+namespace UnityEngine::InputSystem::Haptics {
+class IHaptics;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct GamepadButton;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> struct ReadOnlyArray_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -154,8 +154,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::Haptics::IDualMotorRumble"
   constexpr operator ::UnityEngine::InputSystem::Haptics::IDualMotorRumble*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::InputSystem::Haptics::IDualMotorRumble"
+  constexpr ::UnityEngine::InputSystem::Haptics::IDualMotorRumble* i___UnityEngine__InputSystem__Haptics__IDualMotorRumble() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::InputSystem::Haptics::IHaptics"
   constexpr operator ::UnityEngine::InputSystem::Haptics::IHaptics*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::InputSystem::Haptics::IHaptics"
+  constexpr ::UnityEngine::InputSystem::Haptics::IHaptics* i___UnityEngine__InputSystem__Haptics__IHaptics() noexcept;
 
   constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__buttonWest_k__BackingField();
 

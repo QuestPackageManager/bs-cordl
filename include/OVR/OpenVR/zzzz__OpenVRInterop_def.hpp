@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OpenVRInterop)
 namespace OVR::OpenVR {
-struct EVRInitError;
+struct EVRApplicationType;
 }
 namespace OVR::OpenVR {
-struct EVRApplicationType;
+struct EVRInitError;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

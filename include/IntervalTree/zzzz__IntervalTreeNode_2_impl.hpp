@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "IntervalTree/zzzz__IntervalTreeNode_2_def.hpp"
-#include "IntervalTree/zzzz__RangeValuePair_2_def.hpp"
 #include "IntervalTree/zzzz__IntervalTreeNode_2_def.hpp"
+#include "IntervalTree/zzzz__RangeValuePair_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 template <typename TKey, typename TValue> inline void IntervalTree::__IntervalTreeNode_2____c<TKey, TValue>::setStaticF___9(::IntervalTree::__IntervalTreeNode_2____c<TKey, TValue>* value) {
@@ -62,6 +62,12 @@ template <typename TKey, typename TValue> constexpr ::IntervalTree::__IntervalTr
 /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::IntervalTree::RangeValuePair_2<TKey,TValue>>"
 template <typename TKey, typename TValue>
 constexpr IntervalTree::IntervalTreeNode_2<TKey, TValue>::operator ::System::Collections::Generic::IComparer_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IComparer_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IComparer_1<::IntervalTree::RangeValuePair_2<TKey,TValue>>"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::IComparer_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*
+IntervalTree::IntervalTreeNode_2<TKey, TValue>::i___System__Collections__Generic__IComparer_1___IntervalTree__RangeValuePair_2_TKey_TValue__() noexcept {
   return static_cast<::System::Collections::Generic::IComparer_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
 }
 template <typename TKey, typename TValue> constexpr TKey& IntervalTree::IntervalTreeNode_2<TKey, TValue>::__get_center() {

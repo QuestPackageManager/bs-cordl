@@ -9,11 +9,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(IKSolverFullBodyBiped)
-namespace RootMotion {
-class BipedLimbOrientations;
+namespace RootMotion::FinalIK {
+class FBIKChain;
 }
-namespace RootMotion {
-class __BipedLimbOrientations__LimbOrientation;
+namespace RootMotion::FinalIK {
+struct FullBodyBipedChain;
+}
+namespace RootMotion::FinalIK {
+struct FullBodyBipedEffector;
+}
+namespace RootMotion::FinalIK {
+class IKConstraintBend;
 }
 namespace RootMotion::FinalIK {
 class IKEffector;
@@ -21,32 +27,26 @@ class IKEffector;
 namespace RootMotion::FinalIK {
 class IKMappingBone;
 }
-namespace RootMotion {
-class BipedReferences;
-}
-namespace RootMotion::FinalIK {
-struct FullBodyBipedChain;
-}
-namespace UnityEngine {
-class Transform;
-}
 namespace RootMotion::FinalIK {
 class IKMappingLimb;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace RootMotion::FinalIK {
-struct FullBodyBipedEffector;
 }
 namespace RootMotion::FinalIK {
 class IKMappingSpine;
 }
-namespace RootMotion::FinalIK {
-class IKConstraintBend;
+namespace RootMotion {
+class BipedLimbOrientations;
 }
-namespace RootMotion::FinalIK {
-class FBIKChain;
+namespace RootMotion {
+class BipedReferences;
+}
+namespace RootMotion {
+class __BipedLimbOrientations__LimbOrientation;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -211,8 +211,7 @@ public:
   inline ::RootMotion::FinalIK::IKMappingBone* get_headMapping();
 
   /// @brief Method SetChainWeights, addr 0x1267734, size 0x50, virtual false, abstract: false, final false
-  /// @param reach: float_t (default: 0.0)
-  inline void SetChainWeights(::RootMotion::FinalIK::FullBodyBipedChain c, float_t pull, float_t reach = 0.0);
+  inline void SetChainWeights(::RootMotion::FinalIK::FullBodyBipedChain c, float_t pull, float_t reach);
 
   /// @brief Method SetEffectorWeights, addr 0x1267834, size 0x78, virtual false, abstract: false, final false
   inline void SetEffectorWeights(::RootMotion::FinalIK::FullBodyBipedEffector effector, float_t positionWeight, float_t rotationWeight);
@@ -248,8 +247,7 @@ public:
   inline bool IsValid(ByRef<::StringW> message);
 
   /// @brief Method SetToReferences, addr 0x1267dfc, size 0xf80, virtual false, abstract: false, final false
-  /// @param rootNode: ::UnityEngine::Transform* (default: nullptr)
-  inline void SetToReferences(::RootMotion::BipedReferences* references, ::UnityEngine::Transform* rootNode = nullptr);
+  inline void SetToReferences(::RootMotion::BipedReferences* references, ::UnityEngine::Transform* rootNode);
 
   /// @brief Method DetectRootNodeBone, addr 0x1268d7c, size 0x450, virtual false, abstract: false, final false
   static inline ::UnityEngine::Transform* DetectRootNodeBone(::RootMotion::BipedReferences* references);

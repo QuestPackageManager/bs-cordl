@@ -3,16 +3,24 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__StateBuffer_3_def.hpp"
-#include "GlobalNamespace/zzzz__StateBuffer_3_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
-#include "GlobalNamespace/zzzz__SyncStateId_def.hpp"
 #include "GlobalNamespace/zzzz__IEquatableByReference_1_def.hpp"
+#include "GlobalNamespace/zzzz__StateBuffer_3_def.hpp"
+#include "GlobalNamespace/zzzz__SyncStateId_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 /// @brief Convert operator to "::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable,TType,TState>>"
 template <typename TStateTable, typename TType, typename TState>
 constexpr GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>::operator ::GlobalNamespace::IEquatableByReference_1<
     ::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*() {
+  return static_cast<::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>(
+      static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable,TType,TState>>"
+template <typename TStateTable, typename TType, typename TState>
+constexpr ::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*
+GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType,
+                                                        TState>::i___GlobalNamespace__IEquatableByReference_1___GlobalNamespace____StateBuffer_3__TimestampedStateTable_TStateTable_TType_TState__() {
   return static_cast<::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>(
       static_cast<void*>(::cordl_internals::Box(this)));
 }

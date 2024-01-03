@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SaberTypeExtensions)
-namespace UnityEngine::XR {
-struct XRNode;
+namespace GlobalNamespace {
+struct ColorType;
 }
 namespace GlobalNamespace {
 struct SaberType;
 }
-namespace GlobalNamespace {
-struct ColorType;
+namespace UnityEngine::XR {
+struct XRNode;
 }
 // Forward declare root types
 namespace GlobalNamespace {

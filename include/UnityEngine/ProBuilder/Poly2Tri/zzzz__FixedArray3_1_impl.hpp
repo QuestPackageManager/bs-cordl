@@ -2,19 +2,27 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__FixedArray3_1_impl.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__FixedArray3_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__FixedArray3_1_def.hpp"
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
 template <typename T> constexpr UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<T>::operator ::System::Collections::Generic::IEnumerable_1<T>*() {
   return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::IEnumerable_1<T>* UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<T>::i___System__Collections__Generic__IEnumerable_1_T_() {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename T> constexpr UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<T>::operator ::System::Collections::IEnumerable*() {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename T> constexpr ::System::Collections::IEnumerable* UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<T>::i___System__Collections__IEnumerable() {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename T> inline T UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<T>::get_Item(int32_t index) {
@@ -80,20 +88,42 @@ template <typename T> constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedArray3
 template <typename T> constexpr UnityEngine::ProBuilder::Poly2Tri::__FixedArray3_1___Enumerate_d__10<T>::operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+template <typename T>
+constexpr ::System::Collections::Generic::IEnumerable_1<T>* UnityEngine::ProBuilder::Poly2Tri::__FixedArray3_1___Enumerate_d__10<T>::i___System__Collections__Generic__IEnumerable_1_T_() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename T> constexpr UnityEngine::ProBuilder::Poly2Tri::__FixedArray3_1___Enumerate_d__10<T>::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename T> constexpr ::System::Collections::IEnumerable* UnityEngine::ProBuilder::Poly2Tri::__FixedArray3_1___Enumerate_d__10<T>::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
 template <typename T> constexpr UnityEngine::ProBuilder::Poly2Tri::__FixedArray3_1___Enumerate_d__10<T>::operator ::System::Collections::Generic::IEnumerator_1<T>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<T>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
+template <typename T>
+constexpr ::System::Collections::Generic::IEnumerator_1<T>* UnityEngine::ProBuilder::Poly2Tri::__FixedArray3_1___Enumerate_d__10<T>::i___System__Collections__Generic__IEnumerator_1_T_() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<T>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 template <typename T> constexpr UnityEngine::ProBuilder::Poly2Tri::__FixedArray3_1___Enumerate_d__10<T>::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::IEnumerator"
+template <typename T> constexpr ::System::Collections::IEnumerator* UnityEngine::ProBuilder::Poly2Tri::__FixedArray3_1___Enumerate_d__10<T>::i___System__Collections__IEnumerator() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::IDisposable"
 template <typename T> constexpr UnityEngine::ProBuilder::Poly2Tri::__FixedArray3_1___Enumerate_d__10<T>::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename T> constexpr ::System::IDisposable* UnityEngine::ProBuilder::Poly2Tri::__FixedArray3_1___Enumerate_d__10<T>::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 template <typename T> constexpr int32_t& UnityEngine::ProBuilder::Poly2Tri::__FixedArray3_1___Enumerate_d__10<T>::__get___1__state() {

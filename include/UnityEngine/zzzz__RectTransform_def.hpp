@@ -10,32 +10,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RectTransform)
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
-class __RectTransform__ReapplyDrivenProperties;
-}
-namespace UnityEngine {
+namespace System {
 class Object;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct __RectTransform__Edge;
-}
-namespace UnityEngine {
-struct Vector2;
 }
 namespace UnityEngine {
 struct DrivenTransformProperties;
 }
 namespace UnityEngine {
+class Object;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
 struct __RectTransform__Axis;
 }
-namespace System {
-class Object;
+namespace UnityEngine {
+struct __RectTransform__Edge;
+}
+namespace UnityEngine {
+class __RectTransform__ReapplyDrivenProperties;
 }
 // Forward declare root types
 namespace UnityEngine {

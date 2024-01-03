@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(DiagnosticEventCollector)
 namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
 struct Guid;
 }
 namespace UnityEngine::ResourceManagement::Diagnostics {
 struct DiagnosticEvent;
-}
-namespace System {
-template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Diagnostics {

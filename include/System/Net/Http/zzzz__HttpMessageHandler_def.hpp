@@ -4,11 +4,8 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(HttpMessageHandler)
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System {
-class IDisposable;
+namespace System::Net::Http {
+class HttpRequestMessage;
 }
 namespace System::Net::Http {
 class HttpResponseMessage;
@@ -16,8 +13,11 @@ class HttpResponseMessage;
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
-namespace System::Net::Http {
-class HttpRequestMessage;
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Net::Http {
@@ -37,6 +37,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// @brief Method Dispose, addr 0x2833428, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();

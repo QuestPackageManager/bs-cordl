@@ -10,84 +10,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputRemoting)
-namespace UnityEngine::InputSystem::Utilities {
-struct InternedString;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace System {
-class Exception;
-}
-namespace UnityEngine::InputSystem {
-struct __InputRemoting__Flags;
-}
-namespace UnityEngine::InputSystem {
-class __InputRemoting__DisconnectMsg;
-}
-namespace UnityEngine::InputSystem {
-class __InputRemoting__ConnectMsg;
-}
-namespace UnityEngine::InputSystem {
-class __InputRemoting__ChangeUsageMsg;
-}
-namespace UnityEngine::InputSystem {
-class InputManager;
-}
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine::InputSystem {
-class __InputRemoting__NewEventsMsg;
-}
-namespace UnityEngine::InputSystem {
-struct __InputRemoting__RemoteSender;
-}
-namespace UnityEngine::InputSystem {
-struct InputControlLayoutChange;
-}
-namespace UnityEngine::InputSystem {
-struct __InputRemoting__Message;
-}
-namespace UnityEngine::InputSystem {
-struct InputDeviceChange;
-}
-namespace UnityEngine::InputSystem {
-class __InputRemoting__RemoveDeviceMsg;
-}
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
-}
-namespace UnityEngine::InputSystem {
-struct __InputRemoting__RemoteInputDevice;
-}
-namespace System {
-template <typename T> class IObservable_1;
-}
-namespace UnityEngine::InputSystem {
-class __InputRemoting__StartSendingMsg;
-}
-namespace UnityEngine::InputSystem {
-class __InputRemoting__StopSendingMsg;
-}
-namespace UnityEngine::InputSystem {
-class __InputRemoting__Subscriber;
-}
-namespace UnityEngine::InputSystem {
-struct __InputRemoting__MessageType;
-}
-namespace UnityEngine::InputSystem {
-class __InputRemoting__NewLayoutMsg;
-}
-namespace System {
-template <typename T> class IObserver_1;
-}
-namespace UnityEngine::InputSystem {
-class __InputRemoting__NewDeviceMsg;
-}
 namespace GlobalNamespace {
 struct __InputRemoting__ChangeUsageMsg__Data;
 }
@@ -100,17 +22,95 @@ struct __InputRemoting__NewDeviceMsg__Data;
 namespace GlobalNamespace {
 class __InputRemoting__NewDeviceMsg____c;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEvent;
+namespace GlobalNamespace {
+struct __InputRemoting__NewLayoutMsg__Data;
+}
+namespace System {
+class Exception;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+template <typename T> class IObservable_1;
+}
+namespace System {
+template <typename T> class IObserver_1;
 }
 namespace System {
 template <typename T> struct Nullable_1;
 }
-namespace GlobalNamespace {
-struct __InputRemoting__NewLayoutMsg__Data;
-}
 namespace UnityEngine::InputSystem::Layouts {
 struct InputDeviceDescription;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEvent;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct InternedString;
+}
+namespace UnityEngine::InputSystem {
+struct InputControlLayoutChange;
+}
+namespace UnityEngine::InputSystem {
+struct InputDeviceChange;
+}
+namespace UnityEngine::InputSystem {
+class InputDevice;
+}
+namespace UnityEngine::InputSystem {
+class InputManager;
+}
+namespace UnityEngine::InputSystem {
+class __InputRemoting__ChangeUsageMsg;
+}
+namespace UnityEngine::InputSystem {
+class __InputRemoting__ConnectMsg;
+}
+namespace UnityEngine::InputSystem {
+class __InputRemoting__DisconnectMsg;
+}
+namespace UnityEngine::InputSystem {
+struct __InputRemoting__Flags;
+}
+namespace UnityEngine::InputSystem {
+struct __InputRemoting__MessageType;
+}
+namespace UnityEngine::InputSystem {
+struct __InputRemoting__Message;
+}
+namespace UnityEngine::InputSystem {
+class __InputRemoting__NewDeviceMsg;
+}
+namespace UnityEngine::InputSystem {
+class __InputRemoting__NewEventsMsg;
+}
+namespace UnityEngine::InputSystem {
+class __InputRemoting__NewLayoutMsg;
+}
+namespace UnityEngine::InputSystem {
+struct __InputRemoting__RemoteInputDevice;
+}
+namespace UnityEngine::InputSystem {
+struct __InputRemoting__RemoteSender;
+}
+namespace UnityEngine::InputSystem {
+class __InputRemoting__RemoveDeviceMsg;
+}
+namespace UnityEngine::InputSystem {
+class __InputRemoting__StartSendingMsg;
+}
+namespace UnityEngine::InputSystem {
+class __InputRemoting__StopSendingMsg;
+}
+namespace UnityEngine::InputSystem {
+class __InputRemoting__Subscriber;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -477,6 +477,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::UnityEngine::InputSystem::InputRemoting*& __get_owner();
 
@@ -1097,7 +1100,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6253)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6253))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6271))
 // CS Name: ::UnityEngine.InputSystem::InputRemoting*
 class CORDL_TYPE InputRemoting : public ::System::Object {
@@ -1154,8 +1157,14 @@ public:
   /// @brief Convert operator to "::System::IObservable_1<::UnityEngine::InputSystem::__InputRemoting__Message>"
   constexpr operator ::System::IObservable_1<::UnityEngine::InputSystem::__InputRemoting__Message>*() noexcept;
 
+  /// @brief Convert to "::System::IObservable_1<::UnityEngine::InputSystem::__InputRemoting__Message>"
+  constexpr ::System::IObservable_1<::UnityEngine::InputSystem::__InputRemoting__Message>* i___System__IObservable_1___UnityEngine__InputSystem____InputRemoting__Message_() noexcept;
+
   /// @brief Convert operator to "::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>"
   constexpr operator ::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>*() noexcept;
+
+  /// @brief Convert to "::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>"
+  constexpr ::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>* i___System__IObserver_1___UnityEngine__InputSystem____InputRemoting__Message_() noexcept;
 
   constexpr ::UnityEngine::InputSystem::__InputRemoting__Flags& __get_m_Flags();
 
@@ -1190,8 +1199,7 @@ public:
   static inline ::UnityEngine::InputSystem::InputRemoting* New_ctor(::UnityEngine::InputSystem::InputManager* manager, bool startSendingOnConnect);
 
   /// @brief Method .ctor, addr 0x2aa3544, size 0x8c, virtual false, abstract: false, final false
-  /// @param startSendingOnConnect: bool (default: false)
-  inline void _ctor(::UnityEngine::InputSystem::InputManager* manager, bool startSendingOnConnect = false);
+  inline void _ctor(::UnityEngine::InputSystem::InputManager* manager, bool startSendingOnConnect);
 
   /// @brief Method StartSending, addr 0x2aa35d0, size 0x17c, virtual false, abstract: false, final false
   inline void StartSending();

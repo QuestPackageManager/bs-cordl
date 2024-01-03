@@ -5,6 +5,18 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IConstructionCallMessage)
+namespace System::Collections {
+class IList;
+}
+namespace System::Runtime::Remoting::Activation {
+class IActivator;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMethodCallMessage;
+}
 namespace System::Runtime::Remoting::Messaging {
 class IMethodMessage;
 }
@@ -13,18 +25,6 @@ class Object;
 }
 namespace System {
 class Type;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
-namespace System::Runtime::Remoting::Activation {
-class IActivator;
-}
-namespace System::Collections {
-class IList;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMethodCallMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Activation {
@@ -55,11 +55,20 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessage*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessage"
+  constexpr ::System::Runtime::Remoting::Messaging::IMessage* i___System__Runtime__Remoting__Messaging__IMessage() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodCallMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMethodCallMessage*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodCallMessage"
+  constexpr ::System::Runtime::Remoting::Messaging::IMethodCallMessage* i___System__Runtime__Remoting__Messaging__IMethodCallMessage() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMethodMessage*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodMessage"
+  constexpr ::System::Runtime::Remoting::Messaging::IMethodMessage* i___System__Runtime__Remoting__Messaging__IMethodMessage() noexcept;
 
   /// @brief Method get_ActivationType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* get_ActivationType();

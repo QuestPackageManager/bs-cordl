@@ -14,16 +14,7 @@ namespace System {
 class ICloneable;
 }
 namespace System {
-template <typename T> struct Span_1;
-}
-namespace System {
-class ISpanFormattable;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class IFormatProvider;
+template <typename T> class IComparable_1;
 }
 namespace System {
 class IComparable;
@@ -32,10 +23,19 @@ namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
+class IFormatProvider;
+}
+namespace System {
+class ISpanFormattable;
+}
+namespace System {
+class Object;
+}
+namespace System {
 template <typename T> struct ReadOnlySpan_1;
 }
 namespace System {
-template <typename T> class IComparable_1;
+template <typename T> struct Span_1;
 }
 // Forward declare root types
 namespace System {
@@ -78,17 +78,32 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
+
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*() noexcept;
+
+  /// @brief Convert to "::System::IComparable"
+  constexpr ::System::IComparable* i___System__IComparable() noexcept;
 
   /// @brief Convert operator to "::System::IComparable_1<::System::Version*>"
   constexpr operator ::System::IComparable_1<::System::Version*>*() noexcept;
 
+  /// @brief Convert to "::System::IComparable_1<::System::Version*>"
+  constexpr ::System::IComparable_1<::System::Version*>* i___System__IComparable_1___System__Version__() noexcept;
+
   /// @brief Convert operator to "::System::IEquatable_1<::System::Version*>"
   constexpr operator ::System::IEquatable_1<::System::Version*>*() noexcept;
 
+  /// @brief Convert to "::System::IEquatable_1<::System::Version*>"
+  constexpr ::System::IEquatable_1<::System::Version*>* i___System__IEquatable_1___System__Version__() noexcept;
+
   /// @brief Convert operator to "::System::ISpanFormattable"
   constexpr operator ::System::ISpanFormattable*() noexcept;
+
+  /// @brief Convert to "::System::ISpanFormattable"
+  constexpr ::System::ISpanFormattable* i___System__ISpanFormattable() noexcept;
 
   constexpr int32_t& __get__Major();
 

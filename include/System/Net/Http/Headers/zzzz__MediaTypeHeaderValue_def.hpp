@@ -7,32 +7,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MediaTypeHeaderValue)
-namespace System::Net::Http::Headers {
-class NameValueHeaderValue;
-}
-namespace System::Net::Http::Headers {
-class __MediaTypeHeaderValue____c;
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
-}
 namespace System::Net::Http::Headers {
 class Lexer;
 }
-namespace System {
-class Object;
-}
-namespace System {
-class ICloneable;
+namespace System::Net::Http::Headers {
+class NameValueHeaderValue;
 }
 namespace System::Net::Http::Headers {
 struct Token;
 }
+namespace System::Net::Http::Headers {
+class __MediaTypeHeaderValue____c;
+}
+namespace System {
+class ICloneable;
+}
 namespace System {
 template <typename T> struct Nullable_1;
+}
+namespace System {
+class Object;
 }
 namespace System {
 template <typename T> class Predicate_1;
@@ -125,6 +125,9 @@ public:
 
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
+
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
   constexpr ::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>*& __get_parameters();
 

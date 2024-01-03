@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::PerformancePreset);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4442)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4442))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4443))
 // CS Name: ::PerformancePreset*
 class CORDL_TYPE PerformancePreset : public ::System::Object {

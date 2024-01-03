@@ -9,20 +9,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Event)
-namespace UnityEngine {
-struct EventType;
-}
-namespace UnityEngine {
-struct PointerType;
+namespace System {
+class Object;
 }
 namespace UnityEngine {
 struct EventModifiers;
 }
 namespace UnityEngine {
+struct EventType;
+}
+namespace UnityEngine {
 struct KeyCode;
 }
-namespace System {
-class Object;
+namespace UnityEngine {
+struct PointerType;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::UnityEngine::Event);
 // SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14605))
 // CS Name: ::UnityEngine::Event*
 class CORDL_TYPE Event : public ::System::Object {

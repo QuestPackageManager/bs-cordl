@@ -7,43 +7,43 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ObstacleSaberSparkleEffectManager)
 namespace GlobalNamespace {
+class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
 class ColorManager;
 }
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-struct Quaternion;
+namespace GlobalNamespace {
+class HapticFeedbackManager;
 }
 namespace GlobalNamespace {
 class ObstacleSaberSparkleEffect;
 }
 namespace GlobalNamespace {
-class BeatmapObjectManager;
-}
-namespace Libraries::HM::HMLib::VR {
-class HapticPresetSO;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
 class SaberManager;
-}
-namespace GlobalNamespace {
-class Saber;
-}
-namespace UnityEngine {
-struct Bounds;
 }
 namespace GlobalNamespace {
 struct SaberType;
 }
 namespace GlobalNamespace {
-class HapticFeedbackManager;
+class Saber;
+}
+namespace Libraries::HM::HMLib::VR {
+class HapticPresetSO;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace UnityEngine {
+struct Bounds;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {

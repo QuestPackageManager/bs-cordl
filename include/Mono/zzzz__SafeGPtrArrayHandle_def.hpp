@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SafeGPtrArrayHandle)
-namespace System {
-class IDisposable;
-}
 namespace Mono {
 struct RuntimeGPtrArrayHandle;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace Mono {
@@ -34,6 +34,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   /// @brief Method .ctor, addr 0x2412e38, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(void* ptr);

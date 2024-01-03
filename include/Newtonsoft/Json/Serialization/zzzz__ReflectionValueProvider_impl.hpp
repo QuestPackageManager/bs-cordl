@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ReflectionValueProvider_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__IValueProvider_def.hpp"
 #include "System/Reflection/zzzz__MemberInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__IValueProvider_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Serialization::ReflectionValueProvider._ctor
 template <>
 
@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x268f5a8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::ReflectionValueProvider*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MemberInfo*>::get() })));
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1a4;
   constexpr static std::size_t addrs = 0x268f614;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::ReflectionValueProvider*>::get(), "SetValue", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
@@ -43,7 +43,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1a0;
   constexpr static std::size_t addrs = 0x268f7b8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::ReflectionValueProvider*>::get(), "GetValue",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
@@ -52,6 +52,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::Newtonsoft::Json::Serialization::IValueProvider"
 constexpr Newtonsoft::Json::Serialization::ReflectionValueProvider::operator ::Newtonsoft::Json::Serialization::IValueProvider*() noexcept {
+  return static_cast<::Newtonsoft::Json::Serialization::IValueProvider*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Newtonsoft::Json::Serialization::IValueProvider"
+constexpr ::Newtonsoft::Json::Serialization::IValueProvider* Newtonsoft::Json::Serialization::ReflectionValueProvider::i___Newtonsoft__Json__Serialization__IValueProvider() noexcept {
   return static_cast<::Newtonsoft::Json::Serialization::IValueProvider*>(static_cast<void*>(this));
 }
 constexpr ::System::Reflection::MemberInfo*& Newtonsoft::Json::Serialization::ReflectionValueProvider::__get__memberInfo() {

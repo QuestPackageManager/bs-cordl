@@ -15,23 +15,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Socket)
-namespace System {
-class Object;
-}
-namespace System::Threading {
-class ContextCallback;
-}
-namespace System::Threading {
-class SendOrPostCallback;
-}
-namespace System::Net::Sockets {
-class __Socket__CachedEventArgs;
+namespace GlobalNamespace {
+class __Socket__AwaitableSocketAsyncEventArgs____c;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
-namespace System {
-template <typename T> struct ReadOnlyMemory_1;
+namespace System::Net::NetworkInformation {
+struct NetworkInterfaceComponent;
 }
 namespace System::Net::Sockets {
 struct AddressFamily;
@@ -39,143 +30,92 @@ struct AddressFamily;
 namespace System::Net::Sockets {
 struct IOControlCode;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> struct ValueTask_1;
-}
-namespace System::Threading::Tasks {
-struct ValueTask;
-}
-namespace System::Net::Sockets {
-class SocketAsyncResult;
-}
-namespace System {
-class IAsyncResult;
-}
 namespace System::Net::Sockets {
 struct IPProtectionLevel;
 }
 namespace System::Net::Sockets {
-class __Socket____c__DisplayClass298_0;
-}
-namespace System {
-template <typename T> struct Span_1;
-}
-namespace System::Net {
-class SocketAddress;
-}
-namespace System::Net {
-class IPEndPoint;
-}
-namespace System::Net::Sockets {
-template <typename TResult> class __Socket__TaskSocketAsyncEventArgs_1;
-}
-namespace System {
-class Exception;
-}
-namespace System::Net::NetworkInformation {
-struct NetworkInterfaceComponent;
-}
-namespace System::Net::Sockets {
-struct SocketOptionLevel;
-}
-namespace System::Threading {
-class SemaphoreSlim;
-}
-namespace System::Net::Sockets {
-class __Socket__Int32TaskSocketAsyncEventArgs;
-}
-namespace System {
-template <typename TEventArgs> class EventHandler_1;
+struct ProtocolType;
 }
 namespace System::Net::Sockets {
 class SafeSocketHandle;
 }
 namespace System::Net::Sockets {
-class __Socket____c__DisplayClass355_0;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System::Net::Sockets {
-class __Socket____c__DisplayClass240_0;
+struct SelectMode;
 }
 namespace System::Net::Sockets {
 class SocketAsyncEventArgs;
 }
 namespace System::Net::Sockets {
-class __Socket__AwaitableSocketAsyncEventArgs;
+struct SocketAsyncOperation;
+}
+namespace System::Net::Sockets {
+class SocketAsyncResult;
 }
 namespace System::Net::Sockets {
 struct SocketError;
 }
-namespace System {
-class IOSelectorJob;
+namespace System::Net::Sockets {
+struct SocketFlags;
 }
 namespace System::Net::Sockets {
 struct SocketOperation;
 }
 namespace System::Net::Sockets {
-class __Socket____c;
-}
-namespace System::Net::Sockets {
-struct SocketFlags;
-}
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System::Net::Sockets {
-struct SocketAsyncOperation;
-}
-namespace System::Net::Sockets {
-struct __Socket__WSABUF;
-}
-namespace System::Threading {
-class Thread;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Net {
-class IPAddress;
-}
-namespace System::Net::Sockets {
-struct SocketType;
-}
-namespace System {
-template <typename T> struct Memory_1;
-}
-namespace System {
-class IOAsyncCallback;
-}
-namespace System {
-template <typename T> struct ArraySegment_1;
-}
-namespace System::Net {
-class EndPoint;
+struct SocketOptionLevel;
 }
 namespace System::Net::Sockets {
 struct SocketOptionName;
 }
 namespace System::Net::Sockets {
-struct SelectMode;
-}
-namespace System::Net::Sockets {
 struct SocketShutdown;
 }
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System {
-class AsyncCallback;
+namespace System::Net::Sockets {
+struct SocketType;
 }
 namespace System::Net::Sockets {
-struct ProtocolType;
+class __Socket__AwaitableSocketAsyncEventArgs;
+}
+namespace System::Net::Sockets {
+class __Socket__CachedEventArgs;
+}
+namespace System::Net::Sockets {
+class __Socket__Int32TaskSocketAsyncEventArgs;
+}
+namespace System::Net::Sockets {
+template <typename TResult> class __Socket__TaskSocketAsyncEventArgs_1;
+}
+namespace System::Net::Sockets {
+struct __Socket__WSABUF;
+}
+namespace System::Net::Sockets {
+class __Socket____c;
+}
+namespace System::Net::Sockets {
+class __Socket____c__DisplayClass240_0;
+}
+namespace System::Net::Sockets {
+class __Socket____c__DisplayClass298_0;
+}
+namespace System::Net::Sockets {
+class __Socket____c__DisplayClass355_0;
+}
+namespace System::Net {
+class EndPoint;
+}
+namespace System::Net {
+class IPAddress;
+}
+namespace System::Net {
+class IPEndPoint;
+}
+namespace System::Net {
+class SocketAddress;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Threading::Tasks::Sources {
-struct ValueTaskSourceStatus;
-}
-namespace System::Threading {
-class ExecutionContext;
+template <typename TResult> class IValueTaskSource_1;
 }
 namespace System::Threading::Tasks::Sources {
 class IValueTaskSource;
@@ -184,25 +124,85 @@ namespace System::Threading::Tasks::Sources {
 struct ValueTaskSourceOnCompletedFlags;
 }
 namespace System::Threading::Tasks::Sources {
-template <typename TResult> class IValueTaskSource_1;
+struct ValueTaskSourceStatus;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> struct ValueTask_1;
+}
+namespace System::Threading::Tasks {
+struct ValueTask;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Threading {
+class ContextCallback;
+}
+namespace System::Threading {
+class ExecutionContext;
+}
+namespace System::Threading {
+class SemaphoreSlim;
+}
+namespace System::Threading {
+class SendOrPostCallback;
+}
+namespace System::Threading {
+class Thread;
 }
 namespace System {
 template <typename T> class Action_1;
 }
-namespace GlobalNamespace {
-class __Socket__AwaitableSocketAsyncEventArgs____c;
+namespace System {
+template <typename T> struct ArraySegment_1;
 }
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+namespace System {
+class AsyncCallback;
+}
+namespace System {
+template <typename TEventArgs> class EventHandler_1;
+}
+namespace System {
+class Exception;
 }
 namespace System {
 template <typename TResult> class Func_1;
 }
 namespace System {
+class IAsyncResult;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class IOAsyncCallback;
+}
+namespace System {
 class IOAsyncResult;
 }
-namespace System::Threading::Tasks {
-class Task;
+namespace System {
+class IOSelectorJob;
+}
+namespace System {
+template <typename T> struct Memory_1;
+}
+namespace System {
+class Object;
+}
+namespace System {
+template <typename T> struct ReadOnlyMemory_1;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
+template <typename T> struct Span_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -361,8 +361,8 @@ namespace System::Net::Sockets {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 862 }), TypeDefinitionIndex(TypeDefinitionIndex(9357)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9326)) CS Name: ::Socket::TaskSocketAsyncEventArgs`1<TResult>*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9357)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 862
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9326)) CS Name: ::Socket::TaskSocketAsyncEventArgs`1<TResult>*
 class CORDL_TYPE __Socket__TaskSocketAsyncEventArgs_1 : public ::System::Net::Sockets::SocketAsyncEventArgs {
 public:
   // Declarations
@@ -574,8 +574,14 @@ public:
   /// @brief Convert operator to "::System::Threading::Tasks::Sources::IValueTaskSource"
   constexpr operator ::System::Threading::Tasks::Sources::IValueTaskSource*() noexcept;
 
+  /// @brief Convert to "::System::Threading::Tasks::Sources::IValueTaskSource"
+  constexpr ::System::Threading::Tasks::Sources::IValueTaskSource* i___System__Threading__Tasks__Sources__IValueTaskSource() noexcept;
+
   /// @brief Convert operator to "::System::Threading::Tasks::Sources::IValueTaskSource_1<int32_t>"
   constexpr operator ::System::Threading::Tasks::Sources::IValueTaskSource_1<int32_t>*() noexcept;
+
+  /// @brief Convert to "::System::Threading::Tasks::Sources::IValueTaskSource_1<int32_t>"
+  constexpr ::System::Threading::Tasks::Sources::IValueTaskSource_1<int32_t>* i___System__Threading__Tasks__Sources__IValueTaskSource_1_int32_t_() noexcept;
 
   constexpr ::System::Action_1<::System::Object*>*& __get__continuation();
 
@@ -1057,7 +1063,7 @@ static_assert(offsetof(::System::Net::Sockets::__Socket____c__DisplayClass298_0,
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9334))
 // CS Name: ::Socket::<>c__DisplayClass355_0*
 class CORDL_TYPE __Socket____c__DisplayClass355_0 : public ::System::Object {
@@ -1137,8 +1143,8 @@ static_assert(offsetof(::System::Net::Sockets::__Socket____c__DisplayClass355_0,
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9337)), TypeDefinitionIndex(TypeDefinitionIndex(9352)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9343))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9335)) CS Name: ::System.Net.Sockets::Socket*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9352)), TypeDefinitionIndex(TypeDefinitionIndex(9337)), TypeDefinitionIndex(TypeDefinitionIndex(9343)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9335)) CS Name: ::System.Net.Sockets::Socket*
 class CORDL_TYPE Socket : public ::System::Object {
 public:
   // Declarations
@@ -1348,6 +1354,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::System::Net::Sockets::__Socket__CachedEventArgs*& __get__cachedTaskEventArgs();
 
@@ -1590,8 +1599,7 @@ public:
   static inline void CompleteSendReceive(::System::Net::Sockets::Socket* s, ::System::Net::Sockets::__Socket__Int32TaskSocketAsyncEventArgs* saea, bool isReceive);
 
   /// @brief Method GetException, addr 0x29f5b24, size 0xec, virtual false, abstract: false, final false
-  /// @param wrapExceptionsInIOExceptions: bool (default: false)
-  static inline ::System::Exception* GetException(::System::Net::Sockets::SocketError error, bool wrapExceptionsInIOExceptions = false);
+  static inline ::System::Exception* GetException(::System::Net::Sockets::SocketError error, bool wrapExceptionsInIOExceptions);
 
   /// @brief Method ReturnSocketAsyncEventArgs, addr 0x29f5d54, size 0x4c, virtual false, abstract: false, final false
   inline void ReturnSocketAsyncEventArgs(::System::Net::Sockets::__Socket__Int32TaskSocketAsyncEventArgs* saea, bool isReceive);

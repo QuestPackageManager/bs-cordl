@@ -11,28 +11,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TrackedPoseDriver)
 namespace UnityEngine::InputSystem::XR {
-struct __TrackedPoseDriver__UpdateType;
+struct __TrackedPoseDriver__TrackingType;
 }
-namespace UnityEngine::InputSystem {
-class InputAction;
+namespace UnityEngine::InputSystem::XR {
+struct __TrackedPoseDriver__UpdateType;
 }
 namespace UnityEngine::InputSystem {
 struct InputActionProperty;
 }
 namespace UnityEngine::InputSystem {
+class InputAction;
+}
+namespace UnityEngine::InputSystem {
 struct __InputAction__CallbackContext;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine::InputSystem::XR {
-struct __TrackedPoseDriver__TrackingType;
+class ISerializationCallbackReceiver;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
-class ISerializationCallbackReceiver;
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XR {
@@ -160,9 +160,9 @@ static_assert(offsetof(::UnityEngine::InputSystem::XR::__TrackedPoseDriver__Upda
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 129, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(6327)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6328)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(6164))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6329))
-// CS Name: ::UnityEngine.InputSystem.XR::TrackedPoseDriver*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6327)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(6328)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6164)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(6329)) CS Name: ::UnityEngine.InputSystem.XR::TrackedPoseDriver*
 class CORDL_TYPE TrackedPoseDriver : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -217,6 +217,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
+  constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
   constexpr ::UnityEngine::InputSystem::XR::__TrackedPoseDriver__TrackingType& __get_m_TrackingType();
 

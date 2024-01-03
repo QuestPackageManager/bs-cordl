@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IListDragAndDropArgs)
 namespace UnityEngine::UIElements {
-class IDragAndDropData;
+struct DragAndDropPosition;
 }
 namespace UnityEngine::UIElements {
-struct DragAndDropPosition;
+class IDragAndDropData;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

@@ -1,15 +1,25 @@
 #pragma once
 #include "UnityEngine/ProBuilder/KdTree/zzzz__IKdTree_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "UnityEngine/ProBuilder/KdTree/zzzz__KdTreeNode_2_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "UnityEngine/ProBuilder/KdTree/zzzz__KdTreeNode_2_def.hpp"
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey,TValue>*>"
 template <typename TKey, typename TValue>
 constexpr UnityEngine::ProBuilder::KdTree::IKdTree_2<TKey, TValue>::operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey,TValue>*>"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*
+UnityEngine::ProBuilder::KdTree::IKdTree_2<TKey, TValue>::i___System__Collections__Generic__IEnumerable_1___UnityEngine__ProBuilder__KdTree__KdTreeNode_2_TKey_TValue___() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename TKey, typename TValue> constexpr UnityEngine::ProBuilder::KdTree::IKdTree_2<TKey, TValue>::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename TKey, typename TValue> constexpr ::System::Collections::IEnumerable* UnityEngine::ProBuilder::KdTree::IKdTree_2<TKey, TValue>::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 template <typename TKey, typename TValue> inline bool UnityEngine::ProBuilder::KdTree::IKdTree_2<TKey, TValue>::Add(::ArrayW<TKey, ::Array<TKey>*> point, TValue value) {

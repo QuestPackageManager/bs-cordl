@@ -42,6 +42,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ILevelGameplaySetupData"
   constexpr operator ::GlobalNamespace::ILevelGameplaySetupData*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::ILevelGameplaySetupData"
+  constexpr ::GlobalNamespace::ILevelGameplaySetupData* i___GlobalNamespace__ILevelGameplaySetupData() noexcept;
+
   constexpr ::GlobalNamespace::PreviewDifficultyBeatmap*& __get__beatmapLevel();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PreviewDifficultyBeatmap*> const& __get__beatmapLevel() const;

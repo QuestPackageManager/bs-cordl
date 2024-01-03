@@ -10,14 +10,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AssetBundleResource)
-namespace UnityEngine::ResourceManagement {
-class IUpdateReceiver;
+namespace System {
+template <typename T> class Action_1;
 }
-namespace UnityEngine {
-class AssetBundleRequest;
+namespace UnityEngine::Networking {
+class DownloadHandlerAssetBundle;
 }
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
+namespace UnityEngine::Networking {
+class UnityWebRequestAsyncOperation;
+}
+namespace UnityEngine::Networking {
+class UnityWebRequest;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct DownloadStatus;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class AssetBundleRequestOptions;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class IAssetBundleResource;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct ProvideHandle;
@@ -25,38 +40,23 @@ struct ProvideHandle;
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct __AssetBundleResource__LoadType;
 }
-namespace UnityEngine::Networking {
-class DownloadHandlerAssetBundle;
+namespace UnityEngine::ResourceManagement {
+class IUpdateReceiver;
+}
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
 }
 namespace UnityEngine::ResourceManagement {
 class WebRequestQueueOperation;
 }
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
-}
-namespace UnityEngine::Networking {
-class UnityWebRequest;
-}
-namespace UnityEngine::Networking {
-class UnityWebRequestAsyncOperation;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class IAssetBundleResource;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class AssetBundleRequestOptions;
+namespace UnityEngine {
+class AssetBundleRequest;
 }
 namespace UnityEngine {
 class AssetBundle;
 }
 namespace UnityEngine {
 class AsyncOperation;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct DownloadStatus;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {
@@ -126,7 +126,7 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__A
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14002)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14002))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13993))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::AssetBundleResource*
 class CORDL_TYPE AssetBundleResource : public ::System::Object {
@@ -192,8 +192,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource"
   constexpr operator ::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource"
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource* i___UnityEngine__ResourceManagement__ResourceProviders__IAssetBundleResource() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::IUpdateReceiver"
   constexpr operator ::UnityEngine::ResourceManagement::IUpdateReceiver*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::ResourceManagement::IUpdateReceiver"
+  constexpr ::UnityEngine::ResourceManagement::IUpdateReceiver* i___UnityEngine__ResourceManagement__IUpdateReceiver() noexcept;
 
   constexpr ::UnityEngine::AssetBundle*& __get_m_AssetBundle();
 

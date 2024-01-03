@@ -6,26 +6,23 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__ProviderBindingFinalizer_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ScopableBindingFinalizer)
-namespace Zenject {
-class __ScopableBindingFinalizer____c__DisplayClass4_0;
-}
-namespace Zenject {
-class DiContainer;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System {
+template <typename T1, typename T2, typename TResult> class Func_3;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class Type;
 }
 namespace Zenject {
-class __ScopableBindingFinalizer____c__DisplayClass3_0;
-}
-namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
+class BindInfo;
 }
 namespace Zenject {
-class BindInfo;
+class DiContainer;
 }
 namespace Zenject {
 class IProvider;
@@ -33,8 +30,11 @@ class IProvider;
 namespace Zenject {
 class InjectTypeInfo;
 }
-namespace System {
-class Object;
+namespace Zenject {
+class __ScopableBindingFinalizer____c__DisplayClass3_0;
+}
+namespace Zenject {
+class __ScopableBindingFinalizer____c__DisplayClass4_0;
 }
 // Forward declare root types
 namespace Zenject {

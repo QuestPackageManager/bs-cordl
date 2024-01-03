@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PrivateKeyFactory)
 namespace Org::BouncyCastle::Asn1::Pkcs {
+class EncryptedPrivateKeyInfo;
+}
+namespace Org::BouncyCastle::Asn1::Pkcs {
 class PrivateKeyInfo;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace System::IO {
-class Stream;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace Org::BouncyCastle::Asn1::Pkcs {
-class EncryptedPrivateKeyInfo;
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Security {

@@ -16,10 +16,10 @@ namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename T> class IList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -134,6 +134,10 @@ public:
 
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::IntervalTree::RangeValuePair_2<TKey,TValue>>"
   constexpr operator ::System::Collections::Generic::IComparer_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::IComparer_1<::IntervalTree::RangeValuePair_2<TKey,TValue>>"
+  constexpr ::System::Collections::Generic::IComparer_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*
+  i___System__Collections__Generic__IComparer_1___IntervalTree__RangeValuePair_2_TKey_TValue__() noexcept;
 
   constexpr TKey& __get_center();
 

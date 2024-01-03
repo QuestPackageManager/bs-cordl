@@ -8,13 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(JSONLazyCreator)
 namespace HoudiniEngineUnity {
-class JSONObject;
-}
-namespace HoudiniEngineUnity {
-struct JSONTextMode;
-}
-namespace System::Text {
-class StringBuilder;
+class JSONArray;
 }
 namespace HoudiniEngineUnity {
 struct JSONNodeType;
@@ -23,10 +17,16 @@ namespace HoudiniEngineUnity {
 class JSONNode;
 }
 namespace HoudiniEngineUnity {
-struct __JSONNode__Enumerator;
+class JSONObject;
 }
 namespace HoudiniEngineUnity {
-class JSONArray;
+struct JSONTextMode;
+}
+namespace HoudiniEngineUnity {
+struct __JSONNode__Enumerator;
+}
+namespace System::Text {
+class StringBuilder;
 }
 namespace System {
 class Object;

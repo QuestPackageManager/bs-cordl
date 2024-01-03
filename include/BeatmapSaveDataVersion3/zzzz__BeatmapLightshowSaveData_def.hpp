@@ -4,20 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(BeatmapLightshowSaveData)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace BeatmapSaveDataVersion3 {
-class __BeatmapSaveData__LightTranslationEventBoxGroup;
-}
 namespace BeatmapSaveDataVersion3 {
 class __BeatmapSaveData__BasicEventData;
 }
 namespace BeatmapSaveDataVersion3 {
 class __BeatmapSaveData__ColorBoostEventData;
-}
-namespace BeatmapSaveDataVersion3 {
-class __BeatmapSaveData__LightRotationEventBoxGroup;
 }
 namespace BeatmapSaveDataVersion3 {
 class __BeatmapSaveData__FxEventBoxGroup;
@@ -27,6 +18,15 @@ class __BeatmapSaveData__FxEventsCollection;
 }
 namespace BeatmapSaveDataVersion3 {
 class __BeatmapSaveData__LightColorEventBoxGroup;
+}
+namespace BeatmapSaveDataVersion3 {
+class __BeatmapSaveData__LightRotationEventBoxGroup;
+}
+namespace BeatmapSaveDataVersion3 {
+class __BeatmapSaveData__LightTranslationEventBoxGroup;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace BeatmapSaveDataVersion3 {

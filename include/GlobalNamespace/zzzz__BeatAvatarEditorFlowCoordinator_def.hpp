@@ -5,41 +5,41 @@ CORDL_MODULE_INIT
 #include "BeatSaber/AvatarCore/zzzz__AvatarEditorFlowCoordinator_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatAvatarEditorFlowCoordinator)
-namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
-class EditAvatarColorViewController;
-}
 namespace BeatSaber::AvatarCore {
 struct __AvatarEditorFlowCoordinator__EditMode;
-}
-namespace BeatSaber::BeatAvatarSDK {
-class BeatAvatarVisualController;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
-class BeatAvatarEditorViewController;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine {
-struct Color;
 }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 class AvatarTweenController;
 }
+namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
+class BeatAvatarEditorViewController;
+}
+namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
+class EditAvatarColorViewController;
+}
 namespace BeatSaber::BeatAvatarSDK {
 class AvatarDataModel;
-}
-namespace System {
-class Action;
 }
 namespace BeatSaber::BeatAvatarSDK {
 struct AvatarPart;
 }
+namespace BeatSaber::BeatAvatarSDK {
+class BeatAvatarVisualController;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
 namespace System {
 template <typename T> class Action_1;
+}
+namespace System {
+class Action;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {

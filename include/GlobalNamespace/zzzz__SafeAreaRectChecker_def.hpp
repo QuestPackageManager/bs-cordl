@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(SafeAreaRectChecker)
 namespace GlobalNamespace {
 class MainCamera;
 }
+namespace GlobalNamespace {
+class __SafeAreaRectChecker__InitData;
+}
 namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine {
 class RectTransform;
-}
-namespace GlobalNamespace {
-class __SafeAreaRectChecker__InitData;
 }
 namespace UnityEngine {
 struct Vector3;

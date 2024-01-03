@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/Reflection/zzzz__ReflectionTypeLoadException_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::Reflection::ReflectionTypeLoadException._ctor
 template <>
 
@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x24e9a98;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::ReflectionTypeLoadException*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Type*, ::Array<::System::Type*>*>>::get(),
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x138;
   constexpr static std::size_t addrs = 0x24e9ad4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::ReflectionTypeLoadException*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationInfo*>::get(),
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x128;
   constexpr static std::size_t addrs = 0x24e9c0c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::ReflectionTypeLoadException*>::get(),
@@ -62,7 +62,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x24e9d34;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::ReflectionTypeLoadException*>::get(),
                                                                                "get_LoaderExceptions", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -76,7 +76,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x24e9d3c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::ReflectionTypeLoadException*>::get(),
@@ -92,7 +92,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x24e9e7c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::ReflectionTypeLoadException*>::get(),
@@ -108,7 +108,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x138;
   constexpr static std::size_t addrs = 0x24e9d44;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::ReflectionTypeLoadException*>::get(), "CreateString",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
@@ -117,6 +117,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
 constexpr System::Reflection::ReflectionTypeLoadException::operator ::System::Runtime::Serialization::ISerializable*() noexcept {
+  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+constexpr ::System::Runtime::Serialization::ISerializable* System::Reflection::ReflectionTypeLoadException::i___System__Runtime__Serialization__ISerializable() noexcept {
   return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
 }
 constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& System::Reflection::ReflectionTypeLoadException::__get__Types_k__BackingField() {

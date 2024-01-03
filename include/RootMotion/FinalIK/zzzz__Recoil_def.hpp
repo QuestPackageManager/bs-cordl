@@ -13,14 +13,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Recoil)
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+class __Recoil__RecoilOffset__EffectorLink;
+}
+namespace RootMotion::FinalIK {
+class AimIK;
+}
+namespace RootMotion::FinalIK {
+class IKEffector;
+}
+namespace RootMotion::FinalIK {
+class IKSolverFullBodyBiped;
 }
 namespace RootMotion::FinalIK {
 struct __Recoil__Handedness;
 }
 namespace RootMotion::FinalIK {
-class AimIK;
+class __Recoil__RecoilOffset;
 }
 namespace UnityEngine {
 class AnimationCurve;
@@ -28,17 +37,8 @@ class AnimationCurve;
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace RootMotion::FinalIK {
-class IKEffector;
-}
-namespace RootMotion::FinalIK {
-class __Recoil__RecoilOffset;
-}
-namespace GlobalNamespace {
-class __Recoil__RecoilOffset__EffectorLink;
-}
-namespace RootMotion::FinalIK {
-class IKSolverFullBodyBiped;
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -62,7 +62,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__Recoil__RecoilOffset);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12571)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12571))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12664))
 // CS Name: ::Recoil::RecoilOffset::EffectorLink*
 class CORDL_TYPE __Recoil__RecoilOffset__EffectorLink : public ::System::Object {
@@ -303,8 +303,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__Recoil__Handedness, value__) == 
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 240, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12656)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12666))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12667)) CS Name: ::RootMotion.FinalIK::Recoil*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(12666)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12656))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12667)) CS Name: ::RootMotion.FinalIK::Recoil*
 class CORDL_TYPE Recoil : public ::RootMotion::FinalIK::OffsetModifier {
 public:
   // Declarations

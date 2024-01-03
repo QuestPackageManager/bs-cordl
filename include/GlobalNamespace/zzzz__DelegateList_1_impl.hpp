@@ -2,9 +2,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__DelegateList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__LinkedListNode_1_def.hpp"
+#include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
 template <typename T>
 constexpr ::System::Func_2<::System::Action_1<T>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>*>*>*& GlobalNamespace::DelegateList_1<T>::__get_m_acquireFunc() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

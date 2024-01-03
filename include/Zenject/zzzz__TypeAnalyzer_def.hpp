@@ -6,32 +6,32 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__ReflectionBakingCoverageModes_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(TypeAnalyzer)
-namespace Zenject {
-class __TypeAnalyzer____c__DisplayClass23_0;
-}
-namespace Zenject {
-struct ReflectionBakingCoverageModes;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace Zenject {
-class InjectTypeInfo;
-}
-namespace System {
-class Type;
 }
 namespace System {
 class Object;
 }
+namespace System {
+class Type;
+}
 namespace Zenject::Internal {
 class __ReflectionTypeInfo__InjectFieldInfo;
+}
+namespace Zenject::Internal {
+class __ReflectionTypeInfo__InjectPropertyInfo;
+}
+namespace Zenject {
+class InjectTypeInfo;
+}
+namespace Zenject {
+struct ReflectionBakingCoverageModes;
 }
 namespace Zenject {
 class __InjectTypeInfo__InjectMemberInfo;
 }
-namespace Zenject::Internal {
-class __ReflectionTypeInfo__InjectPropertyInfo;
+namespace Zenject {
+class __TypeAnalyzer____c__DisplayClass23_0;
 }
 // Forward declare root types
 namespace Zenject {

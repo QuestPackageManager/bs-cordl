@@ -12,13 +12,13 @@ namespace System::Security::AccessControl {
 struct AceFlags;
 }
 namespace System::Security::AccessControl {
+struct AceQualifier;
+}
+namespace System::Security::AccessControl {
 struct AceType;
 }
 namespace System::Security::AccessControl {
 struct ObjectAceFlags;
-}
-namespace System::Security::AccessControl {
-struct AceQualifier;
 }
 namespace System::Security::Principal {
 class SecurityIdentifier;

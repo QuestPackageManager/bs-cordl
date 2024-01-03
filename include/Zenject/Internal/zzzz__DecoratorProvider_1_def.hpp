@@ -7,14 +7,17 @@ CORDL_MODULE_EXPORT(DecoratorProvider_1)
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace Zenject::Internal {
-class IDecoratorProvider;
-}
-namespace Zenject {
-class IProvider;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System {
+struct Guid;
+}
+namespace System {
+class Object;
+}
+namespace Zenject::Internal {
+class IDecoratorProvider;
 }
 namespace Zenject {
 class DiContainer;
@@ -23,13 +26,10 @@ namespace Zenject {
 template <typename TParam1, typename TValue> class IFactory_2;
 }
 namespace Zenject {
+class IProvider;
+}
+namespace Zenject {
 class InjectContext;
-}
-namespace System {
-class Object;
-}
-namespace System {
-struct Guid;
 }
 // Forward declare root types
 namespace Zenject::Internal {
@@ -64,6 +64,9 @@ public:
 
   /// @brief Convert operator to "::Zenject::Internal::IDecoratorProvider"
   constexpr operator ::Zenject::Internal::IDecoratorProvider*() noexcept;
+
+  /// @brief Convert to "::Zenject::Internal::IDecoratorProvider"
+  constexpr ::Zenject::Internal::IDecoratorProvider* i___Zenject__Internal__IDecoratorProvider() noexcept;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::Zenject::IProvider*, ::System::Collections::Generic::List_1<::System::Object*>*>*& __get__cachedInstances();
 

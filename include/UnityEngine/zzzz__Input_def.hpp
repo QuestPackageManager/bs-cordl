@@ -9,7 +9,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Input)
 namespace UnityEngine {
-struct Vector3;
+struct IMECompositionMode;
 }
 namespace UnityEngine {
 struct KeyCode;
@@ -21,7 +21,7 @@ namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
-struct IMECompositionMode;
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine {

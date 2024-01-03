@@ -23,7 +23,7 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11020), inst: 3534 }), TypeDefinitionIndex(TypeDefinitionIndex(11020))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11020)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11020), inst: 3534 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11021))
 // CS Name: ::Zenject::Factory`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TValue>*
 class CORDL_TYPE Factory_7 : public ::Zenject::PlaceholderFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue> {

@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DtlsTransport)
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCloseable;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
 class DatagramTransport;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class DtlsRecordLayer;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCloseable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -37,8 +37,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::DatagramTransport"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::DatagramTransport*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::DatagramTransport"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::DatagramTransport* i___Org__BouncyCastle__Crypto__Tls__DatagramTransport() noexcept;
+
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCloseable"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCloseable*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCloseable"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCloseable* i___Org__BouncyCastle__Crypto__Tls__TlsCloseable() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer*& __get_mRecordLayer();
 

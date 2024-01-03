@@ -4,8 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ForDeviceEventObservable)
-namespace UnityEngine::InputSystem {
-class InputDevice;
+namespace System {
+class Exception;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+template <typename T> class IObservable_1;
+}
+namespace System {
+template <typename T> class IObserver_1;
 }
 namespace System {
 class Type;
@@ -13,20 +22,11 @@ class Type;
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
 }
-namespace System {
-template <typename T> class IObserver_1;
-}
-namespace System {
-class IDisposable;
-}
 namespace UnityEngine::InputSystem::Utilities {
 class __ForDeviceEventObservable__ForDevice;
 }
-namespace System {
-template <typename T> class IObservable_1;
-}
-namespace System {
-class Exception;
+namespace UnityEngine::InputSystem {
+class InputDevice;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -59,6 +59,9 @@ public:
 
   /// @brief Convert operator to "::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
   constexpr operator ::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*() noexcept;
+
+  /// @brief Convert to "::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
+  constexpr ::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* i___System__IObserver_1___UnityEngine__InputSystem__LowLevel__InputEventPtr_() noexcept;
 
   constexpr ::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*& __get_m_Observer();
 
@@ -151,6 +154,9 @@ public:
 
   /// @brief Convert operator to "::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
   constexpr operator ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*() noexcept;
+
+  /// @brief Convert to "::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
+  constexpr ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* i___System__IObservable_1___UnityEngine__InputSystem__LowLevel__InputEventPtr_() noexcept;
 
   constexpr ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*& __get_m_Source();
 

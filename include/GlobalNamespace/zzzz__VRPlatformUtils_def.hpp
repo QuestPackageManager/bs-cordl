@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(VRPlatformUtils)
-namespace UnityEngine::XR {
-struct XRNode;
-}
-namespace UnityEngine {
-struct Vector2;
-}
 namespace GlobalNamespace {
 class IVRPlatformHelper;
 }
 namespace GlobalNamespace {
 class IVerboseLogger;
+}
+namespace UnityEngine::XR {
+struct XRNode;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

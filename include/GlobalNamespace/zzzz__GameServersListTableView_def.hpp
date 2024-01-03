@@ -16,26 +16,26 @@ class GameServerListTableCell;
 namespace GlobalNamespace {
 class INetworkPlayer;
 }
-namespace HMUI {
-class TableCell;
+namespace GlobalNamespace {
+class TableViewWithDetailCell;
 }
 namespace GlobalNamespace {
 class __TableViewWithDetailCell__IDataSource;
 }
 namespace HMUI {
+class TableCell;
+}
+namespace HMUI {
 class TableView;
 }
-namespace GlobalNamespace {
-class TableViewWithDetailCell;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace Zenject {
 class DiContainer;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -79,6 +79,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::__TableViewWithDetailCell__IDataSource"
   constexpr operator ::GlobalNamespace::__TableViewWithDetailCell__IDataSource*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::__TableViewWithDetailCell__IDataSource"
+  constexpr ::GlobalNamespace::__TableViewWithDetailCell__IDataSource* i___GlobalNamespace____TableViewWithDetailCell__IDataSource() noexcept;
 
   constexpr ::GlobalNamespace::TableViewWithDetailCell*& __get__tableView();
 

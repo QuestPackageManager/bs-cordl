@@ -7,8 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SubContainerCreatorByNewPrefabWithParams)
-namespace Zenject {
-class IPrefabProvider;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
 }
 namespace Zenject {
 class DiContainer;
@@ -17,19 +23,10 @@ namespace Zenject {
 class GameObjectCreationParameters;
 }
 namespace Zenject {
-class __SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-class Type;
+class IPrefabProvider;
 }
 namespace Zenject {
 class ISubContainerCreator;
-}
-namespace Zenject {
-struct TypeValuePair;
 }
 namespace Zenject {
 class InjectContext;
@@ -40,8 +37,11 @@ class InjectTypeInfo;
 namespace Zenject {
 class InjectableInfo;
 }
-namespace System {
-class Object;
+namespace Zenject {
+struct TypeValuePair;
+}
+namespace Zenject {
+class __SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0;
 }
 // Forward declare root types
 namespace Zenject {
@@ -142,6 +142,9 @@ public:
 
   /// @brief Convert operator to "::Zenject::ISubContainerCreator"
   constexpr operator ::Zenject::ISubContainerCreator*() noexcept;
+
+  /// @brief Convert to "::Zenject::ISubContainerCreator"
+  constexpr ::Zenject::ISubContainerCreator* i___Zenject__ISubContainerCreator() noexcept;
 
   constexpr ::Zenject::DiContainer*& __get__container();
 

@@ -31,6 +31,9 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::BeatSaber::AvatarCore::AvatarSystemIdentifier>"
   constexpr operator ::System::IEquatable_1<::BeatSaber::AvatarCore::AvatarSystemIdentifier>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::BeatSaber::AvatarCore::AvatarSystemIdentifier>"
+  constexpr ::System::IEquatable_1<::BeatSaber::AvatarCore::AvatarSystemIdentifier>* i___System__IEquatable_1___BeatSaber__AvatarCore__AvatarSystemIdentifier_();
+
   /// @brief Method .ctor, addr 0xe0e78c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW avatarSystemTypeIdentifier);
 

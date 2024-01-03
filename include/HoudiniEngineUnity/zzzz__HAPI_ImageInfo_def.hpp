@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HAPI_ImageInfo)
 namespace HoudiniEngineUnity {
-struct HAPI_ImagePacking;
+struct HAPI_ImageDataFormat;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_ImageDataFormat;
+struct HAPI_ImagePacking;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(ToggleGroup)
-namespace UnityEngine::UI {
-class __ToggleGroup____c;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine::UI {
-class Toggle;
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 template <typename T> class Predicate_1;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace UnityEngine::UI {
+class Toggle;
+}
+namespace UnityEngine::UI {
+class __ToggleGroup____c;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -148,8 +148,7 @@ public:
   inline void ValidateToggleIsInGroup(::UnityEngine::UI::Toggle* toggle);
 
   /// @brief Method NotifyToggleOn, addr 0x2d8d128, size 0x10c, virtual false, abstract: false, final false
-  /// @param sendCallback: bool (default: true)
-  inline void NotifyToggleOn(::UnityEngine::UI::Toggle* toggle, bool sendCallback = true);
+  inline void NotifyToggleOn(::UnityEngine::UI::Toggle* toggle, bool sendCallback);
 
   /// @brief Method UnregisterToggle, addr 0x2d8cfc4, size 0x90, virtual false, abstract: false, final false
   inline void UnregisterToggle(::UnityEngine::UI::Toggle* toggle);
@@ -170,8 +169,7 @@ public:
   inline ::UnityEngine::UI::Toggle* GetFirstActiveToggle();
 
   /// @brief Method SetAllTogglesOff, addr 0x2d8d7c0, size 0xf0, virtual false, abstract: false, final false
-  /// @param sendCallback: bool (default: true)
-  inline void SetAllTogglesOff(bool sendCallback = true);
+  inline void SetAllTogglesOff(bool sendCallback);
 
   // Ctor Parameters [CppParam { name: "", ty: "ToggleGroup", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

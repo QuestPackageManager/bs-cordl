@@ -73,8 +73,7 @@ public:
   inline void _ctor(T fromValue, T toValue, ::System::Action_1<T>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay);
 
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param delay: float_t (default: 0.0)
-  inline void Init(T fromValue, T toValue, ::System::Action_1<T>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay = 0.0);
+  inline void Init(T fromValue, T toValue, ::System::Action_1<T>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay);
 
   /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Update(float_t currentTime);

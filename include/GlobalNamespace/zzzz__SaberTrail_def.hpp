@@ -7,8 +7,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SaberTrail)
-namespace UnityEngine {
-struct Color;
+namespace GlobalNamespace {
+struct BladeMovementDataElement;
+}
+namespace GlobalNamespace {
+class IBladeMovementData;
 }
 namespace GlobalNamespace {
 class SaberTrailRenderer;
@@ -16,11 +19,8 @@ class SaberTrailRenderer;
 namespace GlobalNamespace {
 class TrailElementCollection;
 }
-namespace GlobalNamespace {
-struct BladeMovementDataElement;
-}
-namespace GlobalNamespace {
-class IBladeMovementData;
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberTrail);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 137, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4876))
 // CS Name: ::SaberTrail*
 class CORDL_TYPE SaberTrail : public ::UnityEngine::MonoBehaviour {

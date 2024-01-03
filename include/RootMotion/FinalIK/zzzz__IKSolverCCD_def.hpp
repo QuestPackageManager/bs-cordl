@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "RootMotion/FinalIK/zzzz__IKSolverHeuristic_def.hpp"
 CORDL_MODULE_EXPORT(IKSolverCCD)
-namespace UnityEngine {
-struct Vector3;
-}
 namespace RootMotion::FinalIK {
 class __IKSolver__IterationDelegate;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {

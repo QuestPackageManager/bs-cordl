@@ -10,16 +10,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NamedValue)
 namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
 class Object;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+struct TypeCode;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct PrimitiveValue;
-}
-namespace System {
-struct TypeCode;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -45,6 +45,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::NamedValue>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::NamedValue>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::NamedValue>"
+  constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::NamedValue>* i___System__IEquatable_1___UnityEngine__InputSystem__Utilities__NamedValue_();
 
   /// @brief Method get_name, addr 0x2b149b0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();

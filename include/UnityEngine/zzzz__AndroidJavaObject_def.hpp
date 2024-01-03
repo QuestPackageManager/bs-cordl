@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AndroidJavaObject)
-namespace UnityEngine {
-class AndroidJavaRunnable;
-}
-namespace UnityEngine {
-class AndroidJavaProxy;
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
 }
 namespace UnityEngine {
-class GlobalJavaObjectRef;
-}
-namespace System {
-class IDisposable;
+class AndroidJavaClass;
 }
 namespace UnityEngine {
-class AndroidJavaClass;
+class AndroidJavaProxy;
+}
+namespace UnityEngine {
+class AndroidJavaRunnable;
+}
+namespace UnityEngine {
+class GlobalJavaObjectRef;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -52,6 +52,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::UnityEngine::GlobalJavaObjectRef*& __get_m_jobject();
 

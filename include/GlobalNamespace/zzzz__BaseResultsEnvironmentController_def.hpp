@@ -24,12 +24,10 @@ class CORDL_TYPE BaseResultsEnvironmentController : public ::UnityEngine::MonoBe
 public:
   // Declarations
   /// @brief Method Activate, addr 0x23762f0, size 0x24, virtual true, abstract: false, final false
-  /// @param immediately: bool (default: false)
-  inline void Activate(bool immediately = false);
+  inline void Activate(bool immediately);
 
   /// @brief Method Deactivate, addr 0x2376314, size 0x24, virtual true, abstract: false, final false
-  /// @param immediately: bool (default: false)
-  inline void Deactivate(bool immediately = false);
+  inline void Deactivate(bool immediately);
 
   /// @brief Method Setup, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Setup(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);

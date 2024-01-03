@@ -11,22 +11,22 @@ namespace Org::BouncyCastle::Crypto::Signers {
 class IDsaEncoding;
 }
 namespace Org::BouncyCastle::Crypto {
-class IDsaExt;
-}
-namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class ISigner;
+class IDigest;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDsaExt;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDsa;
 }
+namespace Org::BouncyCastle::Crypto {
+class ISigner;
+}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -60,6 +60,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ISigner"
   constexpr operator ::Org::BouncyCastle::Crypto::ISigner*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::ISigner"
+  constexpr ::Org::BouncyCastle::Crypto::ISigner* i___Org__BouncyCastle__Crypto__ISigner() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::IDsa*& __get_dsa();
 

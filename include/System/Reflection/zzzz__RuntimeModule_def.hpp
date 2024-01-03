@@ -9,22 +9,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeModule)
 namespace System::Reflection {
+class Assembly;
+}
+namespace System::Reflection {
 class RuntimeAssembly;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System {
-class Object;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System {
 struct Guid;
 }
-namespace System::Reflection {
-class Assembly;
+namespace System {
+class Object;
 }
 namespace System {
 class Type;

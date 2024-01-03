@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Length)
-namespace UnityEngine::UIElements {
-struct __Length__Unit;
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
 }
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace UnityEngine::UIElements {
 struct LengthUnit;
+}
+namespace UnityEngine::UIElements {
+struct __Length__Unit;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -106,6 +106,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Length>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Length>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Length>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Length>* i___System__IEquatable_1___UnityEngine__UIElements__Length_();
 
   /// @brief Method Percent, addr 0x2e7534c, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Length Percent(float_t value);

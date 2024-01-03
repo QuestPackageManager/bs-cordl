@@ -1,10 +1,10 @@
 #pragma once
 #include "Zenject/zzzz__ScriptableObjectInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__PlatformInstallerSO_def.hpp"
-#include "GlobalNamespace/zzzz__MockPlatformAdditionalContentModelInitialDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__AppInitSetupData_def.hpp"
-#include "GlobalNamespace/zzzz__SonyAchievementIdsModelSO_def.hpp"
 #include "GlobalNamespace/zzzz__AchievementIdsModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__AppInitSetupData_def.hpp"
+#include "GlobalNamespace/zzzz__MockPlatformAdditionalContentModelInitialDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__SonyAchievementIdsModelSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PlatformInstallerSO.InstallBindings
 template <>
 
@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x2229a34;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformInstallerSO*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformInstallerSO*>::get(), 6));
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2229ac4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformInstallerSO*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;

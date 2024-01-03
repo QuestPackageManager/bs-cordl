@@ -9,10 +9,10 @@ namespace System::Collections {
 class Hashtable;
 }
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
 }
 // Forward declare root types
 namespace System::Collections::Specialized {
@@ -35,6 +35,9 @@ public:
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::System::Collections::Hashtable*& __get_contents();
 

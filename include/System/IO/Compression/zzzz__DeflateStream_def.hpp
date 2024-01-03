@@ -8,56 +8,56 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DeflateStream)
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Threading::Tasks {
-struct ValueTask;
-}
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
 namespace System::IO::Compression {
-class __DeflateStream__WriteMethod;
+struct CompressionLevel;
 }
 namespace System::IO::Compression {
 struct CompressionMode;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> struct ValueTask_1;
+namespace System::IO::Compression {
+class DeflateStreamNative;
 }
-namespace System {
-class Object;
+namespace System::IO::Compression {
+class __DeflateStream__ReadMethod;
+}
+namespace System::IO::Compression {
+class __DeflateStream__WriteMethod;
 }
 namespace System::IO {
 struct SeekOrigin;
 }
-namespace System::IO::Compression {
-class DeflateStreamNative;
+namespace System::IO {
+class Stream;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> struct ValueTask_1;
+}
+namespace System::Threading::Tasks {
+struct ValueTask;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace System {
-template <typename T> struct Span_1;
+class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
 }
 namespace System {
-class AsyncCallback;
+template <typename T> struct Memory_1;
 }
-namespace System::IO::Compression {
-struct CompressionLevel;
+namespace System {
+class Object;
 }
 namespace System {
 template <typename T> struct ReadOnlyMemory_1;
 }
-namespace System::IO {
-class Stream;
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
 }
 namespace System {
-template <typename T> struct Memory_1;
-}
-namespace System::IO::Compression {
-class __DeflateStream__ReadMethod;
+template <typename T> struct Span_1;
 }
 // Forward declare root types
 namespace System::IO::Compression {

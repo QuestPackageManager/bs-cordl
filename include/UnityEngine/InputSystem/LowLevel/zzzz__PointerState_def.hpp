@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PointerState)
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateTypeInfo;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -36,6 +36,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
+
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo();
 
   /// @brief Method get_kFormat, addr 0x2ae8b1c, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_kFormat();

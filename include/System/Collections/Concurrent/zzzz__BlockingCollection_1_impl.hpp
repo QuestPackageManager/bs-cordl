@@ -2,36 +2,58 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Concurrent/zzzz__BlockingCollection_1_def.hpp"
 #include "System/Collections/Concurrent/zzzz__IProducerConsumerCollection_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
-#include "System/zzzz__Array_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/Threading/zzzz__SemaphoreSlim_def.hpp"
+#include "System/zzzz__Array_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
 template <typename T> constexpr System::Collections::Concurrent::BlockingCollection_1<T>::operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+template <typename T>
+constexpr ::System::Collections::Generic::IEnumerable_1<T>* System::Collections::Concurrent::BlockingCollection_1<T>::i___System__Collections__Generic__IEnumerable_1_T_() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename T> constexpr System::Collections::Concurrent::BlockingCollection_1<T>::operator ::System::Collections::IEnumerable*() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename T> constexpr ::System::Collections::IEnumerable* System::Collections::Concurrent::BlockingCollection_1<T>::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::ICollection"
 template <typename T> constexpr System::Collections::Concurrent::BlockingCollection_1<T>::operator ::System::Collections::ICollection*() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::ICollection"
+template <typename T> constexpr ::System::Collections::ICollection* System::Collections::Concurrent::BlockingCollection_1<T>::i___System__Collections__ICollection() noexcept {
   return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
 template <typename T> constexpr System::Collections::Concurrent::BlockingCollection_1<T>::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::IDisposable"
+template <typename T> constexpr ::System::IDisposable* System::Collections::Concurrent::BlockingCollection_1<T>::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
 template <typename T> constexpr System::Collections::Concurrent::BlockingCollection_1<T>::operator ::System::Collections::Generic::IReadOnlyCollection_1<T>*() noexcept {
+  return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
+template <typename T>
+constexpr ::System::Collections::Generic::IReadOnlyCollection_1<T>* System::Collections::Concurrent::BlockingCollection_1<T>::i___System__Collections__Generic__IReadOnlyCollection_1_T_() noexcept {
   return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<T>*>(static_cast<void*>(this));
 }
 template <typename T> constexpr ::System::Collections::Concurrent::IProducerConsumerCollection_1<T>*& System::Collections::Concurrent::BlockingCollection_1<T>::__get__collection() {

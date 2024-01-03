@@ -1,31 +1,46 @@
 #pragma once
-#include "System/zzzz__Nullable_1_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_impl.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_1_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControl_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_1_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControl_1_def.hpp"
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>"
 template <typename TValue>
 constexpr UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Enumerator<TValue>::operator ::System::Collections::Generic::IEnumerator_1<
     ::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>*() {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>"
+template <typename TValue>
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>*
+UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Enumerator<
+    TValue>::i___System__Collections__Generic__IEnumerator_1___UnityEngine__InputSystem__LowLevel____InputStateHistory_1__Record_TValue__() {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 template <typename TValue> constexpr UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Enumerator<TValue>::operator ::System::Collections::IEnumerator*() {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Collections::IEnumerator"
+template <typename TValue> constexpr ::System::Collections::IEnumerator* UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Enumerator<TValue>::i___System__Collections__IEnumerator() {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::IDisposable"
 template <typename TValue> constexpr UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Enumerator<TValue>::operator ::System::IDisposable*() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename TValue> constexpr ::System::IDisposable* UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Enumerator<TValue>::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename TValue>
@@ -79,6 +94,12 @@ template <typename TValue> constexpr ::UnityEngine::InputSystem::LowLevel::__Inp
 /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>"
 template <typename TValue>
 constexpr UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>::operator ::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>"
+template <typename TValue>
+constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>*
+UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>::i___System__IEquatable_1___UnityEngine__InputSystem__LowLevel____InputStateHistory_1__Record_TValue__() {
   return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename TValue>
@@ -241,20 +262,42 @@ constexpr UnityEngine::InputSystem::LowLevel::InputStateHistory_1<TValue>::opera
     ::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>*() noexcept {
   return static_cast<::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>"
+template <typename TValue>
+constexpr ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>* UnityEngine::InputSystem::LowLevel::InputStateHistory_1<
+    TValue>::i___System__Collections__Generic__IReadOnlyList_1___UnityEngine__InputSystem__LowLevel____InputStateHistory_1__Record_TValue__() noexcept {
+  return static_cast<::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>"
 template <typename TValue>
 constexpr UnityEngine::InputSystem::LowLevel::InputStateHistory_1<TValue>::operator ::System::Collections::Generic::IEnumerable_1<
     ::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>"
+template <typename TValue>
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>* UnityEngine::InputSystem::LowLevel::InputStateHistory_1<
+    TValue>::i___System__Collections__Generic__IEnumerable_1___UnityEngine__InputSystem__LowLevel____InputStateHistory_1__Record_TValue__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename TValue> constexpr UnityEngine::InputSystem::LowLevel::InputStateHistory_1<TValue>::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename TValue> constexpr ::System::Collections::IEnumerable* UnityEngine::InputSystem::LowLevel::InputStateHistory_1<TValue>::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>"
 template <typename TValue>
 constexpr UnityEngine::InputSystem::LowLevel::InputStateHistory_1<TValue>::operator ::System::Collections::Generic::IReadOnlyCollection_1<
     ::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>"
+template <typename TValue>
+constexpr ::System::Collections::Generic::IReadOnlyCollection_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>* UnityEngine::InputSystem::LowLevel::InputStateHistory_1<
+    TValue>::i___System__Collections__Generic__IReadOnlyCollection_1___UnityEngine__InputSystem__LowLevel____InputStateHistory_1__Record_TValue__() noexcept {
   return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>*>(static_cast<void*>(this));
 }
 /// @param maxStateSizeInBytes: ::System::Nullable_1<int32_t> (default: {})

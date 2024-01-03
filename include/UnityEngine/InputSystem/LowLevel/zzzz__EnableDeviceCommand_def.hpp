@@ -40,6 +40,9 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo();
+
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& __get_baseCommand();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __get_baseCommand() const;

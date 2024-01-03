@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(X509CollectionStoreParameters)
-namespace System::Collections {
-class ICollection;
-}
 namespace Org::BouncyCastle::X509::Store {
 class IX509StoreParameters;
+}
+namespace System::Collections {
+class ICollection;
 }
 namespace System::Collections {
 class IList;
@@ -35,6 +35,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::X509::Store::IX509StoreParameters"
   constexpr operator ::Org::BouncyCastle::X509::Store::IX509StoreParameters*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::X509::Store::IX509StoreParameters"
+  constexpr ::Org::BouncyCastle::X509::Store::IX509StoreParameters* i___Org__BouncyCastle__X509__Store__IX509StoreParameters() noexcept;
 
   constexpr ::System::Collections::IList*& __get_collection();
 

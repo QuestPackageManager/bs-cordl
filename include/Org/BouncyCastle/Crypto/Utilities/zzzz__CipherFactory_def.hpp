@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CipherFactory)
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
-namespace Org::BouncyCastle::Crypto {
-class BufferedBlockCipher;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Crypto {
+class BufferedBlockCipher;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 namespace System {
 class Object;

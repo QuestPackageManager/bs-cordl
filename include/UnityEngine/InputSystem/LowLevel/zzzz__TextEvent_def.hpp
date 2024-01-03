@@ -11,13 +11,13 @@ namespace UnityEngine::InputSystem::LowLevel {
 class IInputEventTypeInfo;
 }
 namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
+}
+namespace UnityEngine::InputSystem::LowLevel {
 struct InputEvent;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -47,6 +47,9 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo*();
 
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputEventTypeInfo();
+
   constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent& __get_baseEvent();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent const& __get_baseEvent() const;
@@ -66,12 +69,10 @@ public:
   static inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::TextEvent> From(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
   /// @brief Method Create, addr 0x2af08ec, size 0xa0, virtual false, abstract: false, final false
-  /// @param time: double_t (default: -1.0)
-  static inline ::UnityEngine::InputSystem::LowLevel::TextEvent Create(int32_t deviceId, char16_t character, double_t time = -1.0);
+  static inline ::UnityEngine::InputSystem::LowLevel::TextEvent Create(int32_t deviceId, char16_t character, double_t time);
 
   /// @brief Method Create, addr 0x2af098c, size 0x9c, virtual false, abstract: false, final false
-  /// @param time: double_t (default: -1.0)
-  static inline ::UnityEngine::InputSystem::LowLevel::TextEvent Create(int32_t deviceId, int32_t character, double_t time = -1.0);
+  static inline ::UnityEngine::InputSystem::LowLevel::TextEvent Create(int32_t deviceId, int32_t character, double_t time);
 
   // Ctor Parameters [CppParam { name: "baseEvent", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent", modifiers: "", def_value: None }, CppParam { name: "character", ty: "int32_t", modifiers:
   // "", def_value: None }]

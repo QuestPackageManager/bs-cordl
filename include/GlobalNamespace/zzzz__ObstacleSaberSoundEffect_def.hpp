@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ObstacleSaberSoundEffect)
-namespace UnityEngine {
-class AudioSource;
-}
 namespace GlobalNamespace {
 class ObstacleSaberSparkleEffectManager;
 }
 namespace GlobalNamespace {
 struct SaberType;
+}
+namespace UnityEngine {
+class AudioSource;
 }
 // Forward declare root types
 namespace GlobalNamespace {

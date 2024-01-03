@@ -6,97 +6,58 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MainSystemInit)
 namespace GlobalNamespace {
-class HapticFeedbackManager;
+class AchievementIdsModelSO;
 }
 namespace GlobalNamespace {
-class RelativeSfxVolumePerLevelSO;
-}
-namespace GlobalNamespace {
-class CustomLevelLoader;
-}
-namespace GlobalNamespace {
-class CoroutineStarter;
-}
-namespace GlobalNamespace {
-class BloomPrePassLightsUpdateSystem;
-}
-namespace GlobalNamespace {
-class PSVR2Helper;
-}
-namespace GlobalNamespace {
-class DevicelessVRHelper;
-}
-namespace GlobalNamespace {
-class BeatmapLevelsPromoDataSO;
-}
-namespace GlobalNamespace {
-class PS4LevelProductsModelSO;
-}
-namespace GlobalNamespace {
-class CachedMediaAsyncLoader;
-}
-namespace GlobalNamespace {
-class AudioManagerSO;
-}
-namespace GlobalNamespace {
-class MainEffectContainerSO;
-}
-namespace GlobalNamespace {
-class PerceivedLoudnessPerLevelSO;
-}
-namespace GlobalNamespace {
-class PS4LeaderboardIdsModelSO;
-}
-namespace GlobalNamespace {
-class StandardLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class NodePoseSyncStateManager;
+class AchievementsModelSO;
 }
 namespace GlobalNamespace {
 class AlwaysOwnedContentContainerSO;
 }
 namespace GlobalNamespace {
-class PS5LeaderboardIdsModelSO;
+class AppStaticSettingsSO;
 }
 namespace GlobalNamespace {
-class OculusNetworkPlayerModel;
+class AudioManagerSO;
 }
 namespace GlobalNamespace {
-class AchievementIdsModelSO;
-}
-namespace Tweening {
-class TimeTweeningManager;
+class BeatmapCharacteristicCollectionSO;
 }
 namespace GlobalNamespace {
-class RichPresenceManager;
-}
-namespace GlobalNamespace {
-class BloomPrePassEffectContainerSO;
-}
-namespace Zenject {
-class DiContainer;
+class BeatmapLevelSO;
 }
 namespace GlobalNamespace {
 class BeatmapLevelsModel;
 }
 namespace GlobalNamespace {
-class MainEffectGraphicsSettingsPresetsSO;
+class BeatmapLevelsPromoDataSO;
+}
+namespace GlobalNamespace {
+class BloomPrePassEffectContainerSO;
 }
 namespace GlobalNamespace {
 class BloomPrePassGraphicsSettingsPresetsSO;
 }
 namespace GlobalNamespace {
-class MultiplayerSessionManager;
+class BloomPrePassLightsUpdateSystem;
 }
 namespace GlobalNamespace {
-class PS4NetworkPlayerModel;
+class CachedMediaAsyncLoader;
+}
+namespace GlobalNamespace {
+class CampaignProgressModel;
+}
+namespace GlobalNamespace {
+class CoroutineStarter;
+}
+namespace GlobalNamespace {
+class CustomLevelLoader;
+}
+namespace GlobalNamespace {
+class DevicelessVRHelper;
 }
 namespace GlobalNamespace {
 class DlcPromoPanelDataSO;
-}
-namespace GlobalNamespace {
-class PS5NetworkPlayerModel;
 }
 namespace GlobalNamespace {
 class EnvironmentAudioEffectsPlayer;
@@ -105,76 +66,118 @@ namespace GlobalNamespace {
 class EnvironmentCommandLineArgsProvider;
 }
 namespace GlobalNamespace {
-class PlayerDataModel;
-}
-namespace GlobalNamespace {
-class UnityXRHelper;
-}
-namespace GlobalNamespace {
-class MultiplayerLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class MirrorRendererGraphicsSettingsPresets;
-}
-namespace GlobalNamespace {
 class ExternalCamerasManager;
 }
 namespace GlobalNamespace {
 class GameLiftNetworkPlayerModel;
 }
 namespace GlobalNamespace {
-class NetworkConfigSO;
-}
-namespace GlobalNamespace {
-class PS5LevelProductsModelSO;
-}
-namespace GlobalNamespace {
-class SongPackMasksModelSO;
-}
-namespace GlobalNamespace {
-class LeaderboardScoreUploader;
-}
-namespace GlobalNamespace {
-class MenuTransitionsHelper;
-}
-namespace GlobalNamespace {
-class AppStaticSettingsSO;
-}
-namespace GlobalNamespace {
-class CampaignProgressModel;
-}
-namespace GlobalNamespace {
-class BeatmapLevelSO;
-}
-namespace GlobalNamespace {
-class MirrorRendererSO;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicCollectionSO;
-}
-namespace GlobalNamespace {
-class VoipManager;
-}
-namespace GlobalNamespace {
-class NetworkPlayerEntitlementChecker;
-}
-namespace GlobalNamespace {
-class OculusLevelProductsModelSO;
-}
-namespace GlobalNamespace {
-class PSVRHelper;
+class HapticFeedbackManager;
 }
 namespace GlobalNamespace {
 class LeaderboardIdsModelSO;
 }
 namespace GlobalNamespace {
-class SonyAchievementIdsModelSO;
+class LeaderboardScoreUploader;
+}
+namespace GlobalNamespace {
+class MainEffectContainerSO;
+}
+namespace GlobalNamespace {
+class MainEffectGraphicsSettingsPresetsSO;
 }
 namespace GlobalNamespace {
 class MainSettingsModelSO;
 }
 namespace GlobalNamespace {
+class MenuTransitionsHelper;
+}
+namespace GlobalNamespace {
+class MirrorRendererGraphicsSettingsPresets;
+}
+namespace GlobalNamespace {
+class MirrorRendererSO;
+}
+namespace GlobalNamespace {
+class MissionLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class MultiplayerLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class MultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+class NetworkConfigSO;
+}
+namespace GlobalNamespace {
+class NetworkPlayerEntitlementChecker;
+}
+namespace GlobalNamespace {
+class NodePoseSyncStateManager;
+}
+namespace GlobalNamespace {
+class OculusLevelProductsModelSO;
+}
+namespace GlobalNamespace {
+class OculusNetworkPlayerModel;
+}
+namespace GlobalNamespace {
 class OculusVRHelper;
+}
+namespace GlobalNamespace {
+class PS4LeaderboardIdsModelSO;
+}
+namespace GlobalNamespace {
+class PS4LevelProductsModelSO;
+}
+namespace GlobalNamespace {
+class PS4NetworkPlayerModel;
+}
+namespace GlobalNamespace {
+class PS5ActivityIdsModelSO;
+}
+namespace GlobalNamespace {
+class PS5LeaderboardIdsModelSO;
+}
+namespace GlobalNamespace {
+class PS5LevelProductsModelSO;
+}
+namespace GlobalNamespace {
+class PS5NetworkPlayerModel;
+}
+namespace GlobalNamespace {
+class PSVR2Helper;
+}
+namespace GlobalNamespace {
+class PSVRHelper;
+}
+namespace GlobalNamespace {
+class PerceivedLoudnessPerLevelSO;
+}
+namespace GlobalNamespace {
+class PlatformLeaderboardsModel;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
+}
+namespace GlobalNamespace {
+class RelativeSfxVolumePerLevelSO;
+}
+namespace GlobalNamespace {
+class RichPresenceManager;
+}
+namespace GlobalNamespace {
+class SongPackMasksModelSO;
+}
+namespace GlobalNamespace {
+class SonyAchievementIdsModelSO;
+}
+namespace GlobalNamespace {
+class StandardLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class SteamLevelProductsModelSO;
 }
 namespace GlobalNamespace {
 class SteamNetworkPlayerModel;
@@ -183,19 +186,16 @@ namespace GlobalNamespace {
 class TimeHelper;
 }
 namespace GlobalNamespace {
-class PlatformLeaderboardsModel;
+class UnityXRHelper;
 }
 namespace GlobalNamespace {
-class PS5ActivityIdsModelSO;
+class VoipManager;
 }
-namespace GlobalNamespace {
-class SteamLevelProductsModelSO;
+namespace Tweening {
+class TimeTweeningManager;
 }
-namespace GlobalNamespace {
-class MissionLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class AchievementsModelSO;
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace GlobalNamespace {

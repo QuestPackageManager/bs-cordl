@@ -6,13 +6,13 @@
 #include "GlobalNamespace/zzzz__PoolableSerializable_impl.hpp"
 #include "GlobalNamespace/zzzz__Vector3Serializable_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteSpawnInfoNetSerializable_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
-#include "GlobalNamespace/zzzz__NoteData_def.hpp"
 #include "GlobalNamespace/zzzz__ColorType_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "GlobalNamespace/zzzz__NoteCutDirection_def.hpp"
+#include "GlobalNamespace/zzzz__NoteData_def.hpp"
+#include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NoteSpawnInfoNetSerializable.Obtain
 template <>
 
@@ -20,7 +20,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x12a4c54;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteSpawnInfoNetSerializable*>::get(),
                                                                                "Obtain", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -37,7 +37,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x140;
   constexpr static std::size_t addrs = 0x12a4cb8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteSpawnInfoNetSerializable*>::get(), "Init", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
@@ -72,7 +72,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x12a4df8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteSpawnInfoNetSerializable*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -86,7 +86,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1a4;
   constexpr static std::size_t addrs = 0x12a4e50;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteSpawnInfoNetSerializable*>::get(),
@@ -102,7 +102,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1b4;
   constexpr static std::size_t addrs = 0x12a4ff4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteSpawnInfoNetSerializable*>::get(),

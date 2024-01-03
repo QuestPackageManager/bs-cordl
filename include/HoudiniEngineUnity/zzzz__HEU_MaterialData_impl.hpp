@@ -2,14 +2,14 @@
 #include "HoudiniEngineUnity/zzzz__HEU_MaterialData_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_MaterialData_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_ImageInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_MaterialInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_NodeInfo_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_ParmInfo_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_MaterialData_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_MaterialInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_NodeInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_ImageInfo_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::HoudiniEngineUnity::__HEU_MaterialData__Source::__HEU_MaterialData__Source(int32_t value__) noexcept {
   this->value__ = value__;
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x219d59c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_MaterialData*>::get(),
                                                                                "IsExistingMaterial", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xf40;
   constexpr static std::size_t addrs = 0x219d5b0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_MaterialData*>::get(), "UpdateMaterialFromHoudini", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HAPI_MaterialInfo>::get(),
@@ -58,7 +58,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x5d8;
   constexpr static std::size_t addrs = 0x219e56c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_MaterialData*>::get(), "UseLegacyShaders", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{
@@ -77,7 +77,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x24c;
   constexpr static std::size_t addrs = 0x219eb44;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_MaterialData*>::get(), "GetTextureFileNameFromMaterialParam", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_SessionBase*>::get(),
@@ -95,7 +95,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x219e4f0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_MaterialData*>::get(), "IsTransparentMaterial", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{
@@ -113,7 +113,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x1d8;
   constexpr static std::size_t addrs = 0x219f200;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_MaterialData*>::get(), "GetMaterialAlpha", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_SessionBase*>::get(),
@@ -131,7 +131,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x124;
   constexpr static std::size_t addrs = 0x219f3d8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_MaterialData*>::get(), "GetSupportedFileFormat", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_SessionBase*>::get(),
@@ -147,7 +147,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c8;
   constexpr static std::size_t addrs = 0x219f4fc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_MaterialData*>::get(), "IsEquivalentTo", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_MaterialData*>::get() })));
@@ -161,7 +161,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x219f6c4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_MaterialData*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -169,6 +169,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_MaterialData*>"
 constexpr HoudiniEngineUnity::HEU_MaterialData::operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_MaterialData*>*() noexcept {
+  return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_MaterialData*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_MaterialData*>"
+constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_MaterialData*>*
+HoudiniEngineUnity::HEU_MaterialData::i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_MaterialData__() noexcept {
   return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_MaterialData*>*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::Material*& HoudiniEngineUnity::HEU_MaterialData::__get__material() {

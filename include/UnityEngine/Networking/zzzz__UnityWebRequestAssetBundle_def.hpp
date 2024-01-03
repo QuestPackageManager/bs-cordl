@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnityWebRequestAssetBundle)
-namespace UnityEngine {
-struct CachedAssetBundle;
-}
 namespace UnityEngine::Networking {
 class UnityWebRequest;
+}
+namespace UnityEngine {
+struct CachedAssetBundle;
 }
 // Forward declare root types
 namespace UnityEngine::Networking {
@@ -35,8 +35,7 @@ public:
   static inline ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::StringW uri, uint32_t crc);
 
   /// @brief Method GetAssetBundle, addr 0x2eabaa8, size 0xf0, virtual false, abstract: false, final false
-  /// @param crc: uint32_t (default: static_cast<uint32_t>(0xcccccd00u))
-  static inline ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::StringW uri, ::UnityEngine::CachedAssetBundle cachedAssetBundle, uint32_t crc = static_cast<uint32_t>(0xcccccd00u));
+  static inline ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::StringW uri, ::UnityEngine::CachedAssetBundle cachedAssetBundle, uint32_t crc);
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestAssetBundle", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

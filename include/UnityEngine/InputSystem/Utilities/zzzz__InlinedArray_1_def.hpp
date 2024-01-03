@@ -8,10 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InlinedArray_1)
 namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEqualityComparer_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -19,20 +25,14 @@ class IEnumerator;
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace System::Collections {
-class IEnumerable;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct __InlinedArray_1__Enumerator;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
 }
-namespace System {
-class IDisposable;
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> struct __InlinedArray_1__Enumerator;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -65,8 +65,14 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TValue>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TValue>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TValue>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<TValue>* i___System__Collections__Generic__IEnumerable_1_TValue_();
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable();
 
   /// @brief Method get_Capacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Capacity();
@@ -111,8 +117,7 @@ public:
   inline int32_t Append(TValue value);
 
   /// @brief Method AppendWithCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param capacityIncrement: int32_t (default: static_cast<int32_t>(0xa))
-  inline int32_t AppendWithCapacity(TValue value, int32_t capacityIncrement = static_cast<int32_t>(0xa));
+  inline int32_t AppendWithCapacity(TValue value, int32_t capacityIncrement);
 
   /// @brief Method AssignWithCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AssignWithCapacity(::UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue> values);
@@ -190,11 +195,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TValue>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<TValue>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TValue>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<TValue>* i___System__Collections__Generic__IEnumerator_1_TValue_();
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*();
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator();
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();

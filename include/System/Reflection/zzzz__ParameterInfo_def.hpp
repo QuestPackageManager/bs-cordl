@@ -9,10 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ParameterInfo)
 namespace System::Reflection {
+class ICustomAttributeProvider;
+}
+namespace System::Reflection {
 class MemberInfo;
 }
-namespace System {
-class Object;
+namespace System::Reflection {
+struct ParameterAttributes;
 }
 namespace System::Runtime::InteropServices {
 class _ParameterInfo;
@@ -20,17 +23,14 @@ class _ParameterInfo;
 namespace System::Runtime::Serialization {
 class IObjectReference;
 }
-namespace System::Reflection {
-class ICustomAttributeProvider;
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class Type;
-}
-namespace System::Reflection {
-struct ParameterAttributes;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -87,11 +87,20 @@ public:
   /// @brief Convert operator to "::System::Reflection::ICustomAttributeProvider"
   constexpr operator ::System::Reflection::ICustomAttributeProvider*() noexcept;
 
+  /// @brief Convert to "::System::Reflection::ICustomAttributeProvider"
+  constexpr ::System::Reflection::ICustomAttributeProvider* i___System__Reflection__ICustomAttributeProvider() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Serialization::IObjectReference"
   constexpr operator ::System::Runtime::Serialization::IObjectReference*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Serialization::IObjectReference"
+  constexpr ::System::Runtime::Serialization::IObjectReference* i___System__Runtime__Serialization__IObjectReference() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::InteropServices::_ParameterInfo"
   constexpr operator ::System::Runtime::InteropServices::_ParameterInfo*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::InteropServices::_ParameterInfo"
+  constexpr ::System::Runtime::InteropServices::_ParameterInfo* i___System__Runtime__InteropServices___ParameterInfo() noexcept;
 
   constexpr ::System::Reflection::ParameterAttributes& __get_AttrsImpl();
 

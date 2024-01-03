@@ -6,13 +6,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ColorsOverrideSettingsPanelController)
 namespace GlobalNamespace {
-class IRefreshable;
-}
-namespace UnityEngine::UI {
-class Toggle;
+class ColorSchemeDropdown;
 }
 namespace GlobalNamespace {
-class ColorSchemeDropdown;
+class ColorScheme;
+}
+namespace GlobalNamespace {
+class ColorSchemesSettings;
+}
+namespace GlobalNamespace {
+class EditColorSchemeController;
+}
+namespace GlobalNamespace {
+class IAnalyticsModel;
+}
+namespace GlobalNamespace {
+class IRefreshable;
 }
 namespace HMUI {
 class ButtonBinder;
@@ -20,29 +29,20 @@ class ButtonBinder;
 namespace HMUI {
 class DropdownWithTableView;
 }
-namespace GlobalNamespace {
-class EditColorSchemeController;
-}
-namespace UnityEngine {
-class GameObject;
-}
 namespace HMUI {
 class ModalView;
-}
-namespace UnityEngine::UI {
-class Button;
 }
 namespace HMUI {
 class PanelAnimationSO;
 }
-namespace GlobalNamespace {
-class IAnalyticsModel;
+namespace UnityEngine::UI {
+class Button;
 }
-namespace GlobalNamespace {
-class ColorSchemesSettings;
+namespace UnityEngine::UI {
+class Toggle;
 }
-namespace GlobalNamespace {
-class ColorScheme;
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -101,6 +101,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IRefreshable"
   constexpr operator ::GlobalNamespace::IRefreshable*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IRefreshable"
+  constexpr ::GlobalNamespace::IRefreshable* i___GlobalNamespace__IRefreshable() noexcept;
 
   constexpr ::UnityEngine::UI::Toggle*& __get__overrideColorsToggle();
 

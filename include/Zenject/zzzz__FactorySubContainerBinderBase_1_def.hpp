@@ -6,38 +6,44 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(FactorySubContainerBinderBase_1)
-namespace Zenject {
-template <typename TContract> class __FactorySubContainerBinderBase_1____c__DisplayClass29_0;
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
-namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
-}
-namespace Zenject {
-class IProvider;
+namespace System {
+class Object;
 }
 namespace System {
 class Type;
 }
-namespace Zenject {
-template <typename TContract> class __FactorySubContainerBinderBase_1____c__DisplayClass27_0;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace UnityEngine {
+class Object;
 }
 namespace Zenject {
 class BindInfo;
 }
 namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
 class FactoryBindInfo;
+}
+namespace Zenject {
+class GameObjectCreationParameters;
+}
+namespace Zenject {
+class IProvider;
+}
+namespace Zenject {
+class InjectTypeInfo;
+}
+namespace Zenject {
+class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
 }
 namespace Zenject {
 class ScopeConcreteIdArgConditionCopyNonLazyBinder;
 }
-namespace System {
-class Object;
+namespace Zenject {
+class SubContainerCreatorBindInfo;
 }
 namespace Zenject {
 template <typename TContract> class __FactorySubContainerBinderBase_1____c__DisplayClass23_0;
@@ -45,17 +51,11 @@ template <typename TContract> class __FactorySubContainerBinderBase_1____c__Disp
 namespace Zenject {
 template <typename TContract> class __FactorySubContainerBinderBase_1____c__DisplayClass25_0;
 }
-namespace UnityEngine {
-class Object;
+namespace Zenject {
+template <typename TContract> class __FactorySubContainerBinderBase_1____c__DisplayClass27_0;
 }
 namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
-class SubContainerCreatorBindInfo;
-}
-namespace Zenject {
-class GameObjectCreationParameters;
+template <typename TContract> class __FactorySubContainerBinderBase_1____c__DisplayClass29_0;
 }
 // Forward declare root types
 namespace Zenject {

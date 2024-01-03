@@ -7,35 +7,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MethodBase)
-namespace System::Reflection {
-struct BindingFlags;
-}
-namespace System::Reflection {
-struct MethodImplAttributes;
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace System::Reflection {
 class Binder;
 }
 namespace System::Reflection {
-class ParameterInfo;
-}
-namespace System::Reflection {
-struct MethodAttributes;
-}
-namespace System {
-struct RuntimeMethodHandle;
+struct BindingFlags;
 }
 namespace System::Reflection {
 struct CallingConventions;
 }
-namespace System::Globalization {
-class CultureInfo;
+namespace System::Reflection {
+struct MethodAttributes;
 }
-namespace System {
-class Type;
+namespace System::Reflection {
+struct MethodImplAttributes;
+}
+namespace System::Reflection {
+class ParameterInfo;
 }
 namespace System {
 class Object;
+}
+namespace System {
+struct RuntimeMethodHandle;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Reflection {

@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SurrogateKey)
-namespace System {
-class Type;
-}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {

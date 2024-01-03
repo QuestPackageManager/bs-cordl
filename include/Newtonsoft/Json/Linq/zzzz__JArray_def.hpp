@@ -7,20 +7,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(JArray)
-namespace Newtonsoft::Json {
-class JsonReader;
+namespace Newtonsoft::Json::Linq {
+struct JTokenType;
 }
-namespace System {
-class Object;
+namespace Newtonsoft::Json::Linq {
+class JToken;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace Newtonsoft::Json::Linq {
+class JsonLoadSettings;
 }
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
+namespace Newtonsoft::Json::Linq {
+class JsonMergeSettings;
 }
 namespace Newtonsoft::Json {
 class JsonConverter;
+}
+namespace Newtonsoft::Json {
+class JsonReader;
+}
+namespace Newtonsoft::Json {
+class JsonSerializer;
 }
 namespace Newtonsoft::Json {
 class JsonWriter;
@@ -28,29 +34,23 @@ class JsonWriter;
 namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
 }
-namespace Newtonsoft::Json::Linq {
-class JToken;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace Newtonsoft::Json::Linq {
-struct JTokenType;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
-namespace Newtonsoft::Json::Linq {
-class JsonMergeSettings;
-}
-namespace Newtonsoft::Json {
-class JsonSerializer;
-}
-namespace Newtonsoft::Json::Linq {
-class JsonLoadSettings;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {
@@ -84,14 +84,26 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>"
   constexpr operator ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>"
+  constexpr ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>* i___System__Collections__Generic__IList_1___Newtonsoft__Json__Linq__JToken__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<::Newtonsoft::Json::Linq::JToken*>"
   constexpr operator ::System::Collections::Generic::ICollection_1<::Newtonsoft::Json::Linq::JToken*>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::ICollection_1<::Newtonsoft::Json::Linq::JToken*>"
+  constexpr ::System::Collections::Generic::ICollection_1<::Newtonsoft::Json::Linq::JToken*>* i___System__Collections__Generic__ICollection_1___Newtonsoft__Json__Linq__JToken__() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* i___System__Collections__Generic__IEnumerable_1___Newtonsoft__Json__Linq__JToken__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JToken*>*& __get__values();
 

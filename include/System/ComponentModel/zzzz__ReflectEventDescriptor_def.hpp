@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/ComponentModel/zzzz__EventDescriptor_def.hpp"
 CORDL_MODULE_EXPORT(ReflectEventDescriptor)
+namespace System::Collections {
+class IList;
+}
 namespace System::Reflection {
 class EventInfo;
-}
-namespace System {
-class Type;
 }
 namespace System::Reflection {
 class MethodInfo;
 }
-namespace System::Collections {
-class IList;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::ComponentModel {

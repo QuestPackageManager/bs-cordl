@@ -9,20 +9,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PyramidBloomRendererSO)
-namespace UnityEngine {
-class RenderTexture;
+namespace GlobalNamespace {
+struct __PyramidBloomRendererSO__Level;
 }
 namespace GlobalNamespace {
 struct __PyramidBloomRendererSO__Pass;
 }
-namespace GlobalNamespace {
-struct __PyramidBloomRendererSO__Level;
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+class RenderTexture;
 }
 namespace UnityEngine {
 class Shader;
-}
-namespace UnityEngine {
-class Material;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -300,12 +300,11 @@ public:
   inline void RenderBloom(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float_t radius, bool alphaWeights, bool betterQuality, bool gammaCorrection, bool legacyAutoExposure);
 
   /// @brief Method RenderBloom, addr 0x210145c, size 0x81c, virtual false, abstract: false, final false
-  /// @param isScreenspaceEffect: bool (default: false)
   inline void RenderBloom(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float_t radius, float_t intensity, float_t autoExposureLimit, float_t downIntensityOffset,
                           bool uniformPyramidWeights, bool downsampleOnFirstPass, float_t pyramidWeightsParam, float_t alphaWeights, float_t firstUpsampleBrightness, float_t finalUpsampleBrightness,
                           ::GlobalNamespace::__PyramidBloomRendererSO__Pass preFilterPass, ::GlobalNamespace::__PyramidBloomRendererSO__Pass downsamplePass,
                           ::GlobalNamespace::__PyramidBloomRendererSO__Pass upsamplePass, ::GlobalNamespace::__PyramidBloomRendererSO__Pass finalUpsamplePass, bool legacyAutoExposure,
-                          bool isScreenspaceEffect = false);
+                          bool isScreenspaceEffect);
 
   static inline ::GlobalNamespace::PyramidBloomRendererSO* New_ctor();
 

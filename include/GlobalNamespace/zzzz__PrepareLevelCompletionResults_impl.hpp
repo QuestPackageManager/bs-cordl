@@ -1,16 +1,16 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PrepareLevelCompletionResults_def.hpp"
-#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
-#include "GlobalNamespace/zzzz__ComboController_def.hpp"
-#include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
 #include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
-#include "GlobalNamespace/zzzz__GameEnergyCounter_def.hpp"
-#include "GlobalNamespace/zzzz__IScoreController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectExecutionRatingsRecorder_def.hpp"
-#include "GlobalNamespace/zzzz__SaberActivityCounter_def.hpp"
+#include "GlobalNamespace/zzzz__ComboController_def.hpp"
+#include "GlobalNamespace/zzzz__GameEnergyCounter_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiersModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
+#include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
+#include "GlobalNamespace/zzzz__IScoreController_def.hpp"
+#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
+#include "GlobalNamespace/zzzz__SaberActivityCounter_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PrepareLevelCompletionResults.FillLevelCompletionResults
 template <>
 
@@ -20,7 +20,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x250;
   constexpr static std::size_t addrs = 0x22607b8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PrepareLevelCompletionResults*>::get(), "FillLevelCompletionResults", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__LevelCompletionResults__LevelEndStateType>::get(),
@@ -36,7 +36,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2260a40;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PrepareLevelCompletionResults*>::get(),
                                                                                ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;

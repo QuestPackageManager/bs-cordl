@@ -87,7 +87,7 @@ static_assert(offsetof(::GlobalNamespace::__UserInfo__Platform, value__) == 0x0,
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15995)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15995))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15996))
 // CS Name: ::UserInfo*
 class CORDL_TYPE UserInfo : public ::System::Object {

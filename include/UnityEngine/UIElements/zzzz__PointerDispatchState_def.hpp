@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PointerDispatchState)
 namespace UnityEngine::UIElements {
-class IPointerEvent;
+class IEventHandler;
 }
 namespace UnityEngine::UIElements {
-class IEventHandler;
+class IPointerEvent;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

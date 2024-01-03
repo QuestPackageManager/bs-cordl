@@ -17,10 +17,10 @@ namespace System {
 class Exception;
 }
 namespace System {
-class Type;
+class Object;
 }
 namespace System {
-class Object;
+class Type;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

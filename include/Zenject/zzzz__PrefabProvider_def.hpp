@@ -32,6 +32,9 @@ public:
   /// @brief Convert operator to "::Zenject::IPrefabProvider"
   constexpr operator ::Zenject::IPrefabProvider*() noexcept;
 
+  /// @brief Convert to "::Zenject::IPrefabProvider"
+  constexpr ::Zenject::IPrefabProvider* i___Zenject__IPrefabProvider() noexcept;
+
   constexpr ::UnityEngine::Object*& __get__prefab();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Object*> const& __get__prefab() const;

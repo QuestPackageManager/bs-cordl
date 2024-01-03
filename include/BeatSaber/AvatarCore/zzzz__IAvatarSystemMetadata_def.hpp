@@ -3,11 +3,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IAvatarSystemMetadata)
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
 namespace BeatSaber::AvatarCore {
 struct AvatarSystemIdentifier;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {

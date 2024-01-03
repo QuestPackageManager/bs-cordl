@@ -10,41 +10,41 @@ CORDL_MODULE_EXPORT(IntroTutorialController)
 namespace GlobalNamespace {
 class BloomFogEnvironmentParams;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace GlobalNamespace {
+class BloomFogParamsAnimator;
 }
 namespace GlobalNamespace {
 class IGamePause;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine {
-class CanvasGroup;
-}
-namespace GlobalNamespace {
-class __IntroTutorialController___ShowFinishAnimationCoroutine_d__22;
-}
-namespace UnityEngine {
-class GameObject;
 }
 namespace GlobalNamespace {
 class IntroTutorialRing;
 }
 namespace GlobalNamespace {
-class BloomFogParamsAnimator;
-}
-namespace UnityEngine {
-class ParticleSystem;
-}
-namespace System {
-class Object;
+class __IntroTutorialController___ShowFinishAnimationCoroutine_d__22;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class Action;
+}
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine {
+class CanvasGroup;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class ParticleSystem;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -88,11 +88,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

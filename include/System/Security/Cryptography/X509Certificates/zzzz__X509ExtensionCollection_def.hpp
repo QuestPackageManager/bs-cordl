@@ -13,8 +13,8 @@ class ArrayList;
 namespace System::Collections {
 class ICollection;
 }
-namespace System::Security::Cryptography::X509Certificates {
-class X509Extension;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -22,14 +22,14 @@ class IEnumerator;
 namespace System::Security::Cryptography::X509Certificates {
 class X509ExtensionEnumerator;
 }
-namespace System {
-class Object;
-}
-namespace System::Collections {
-class IEnumerable;
+namespace System::Security::Cryptography::X509Certificates {
+class X509Extension;
 }
 namespace System {
 class Array;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -64,8 +64,14 @@ public:
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
 
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::System::Collections::ArrayList*& __get__list();
 

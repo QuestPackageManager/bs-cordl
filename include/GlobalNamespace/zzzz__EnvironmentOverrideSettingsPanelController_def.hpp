@@ -8,53 +8,53 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EnvironmentOverrideSettingsPanelController)
-namespace UnityEngine {
-class GameObject;
-}
 namespace GlobalNamespace {
-class __EnvironmentOverrideSettingsPanelController____c;
-}
-namespace GlobalNamespace {
-class __EnvironmentOverrideSettingsPanelController__Elements;
-}
-namespace GlobalNamespace {
-class IRefreshable;
-}
-namespace HMUI {
-class DropdownWithTableView;
-}
-namespace GlobalNamespace {
-class IAnalyticsModel;
-}
-namespace GlobalNamespace {
-class EnvironmentsListSO;
-}
-namespace UnityEngine::UI {
-class Toggle;
-}
-namespace HMUI {
-class PanelAnimationSO;
-}
-namespace GlobalNamespace {
-class OverrideEnvironmentSettings;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace HMUI {
-class SimpleTextDropdown;
+class EnvironmentInfoSO;
 }
 namespace GlobalNamespace {
 class EnvironmentTypeSO;
 }
 namespace GlobalNamespace {
-class EnvironmentInfoSO;
+class EnvironmentsListSO;
+}
+namespace GlobalNamespace {
+class IAnalyticsModel;
+}
+namespace GlobalNamespace {
+class IRefreshable;
+}
+namespace GlobalNamespace {
+class OverrideEnvironmentSettings;
+}
+namespace GlobalNamespace {
+class __EnvironmentOverrideSettingsPanelController__Elements;
+}
+namespace GlobalNamespace {
+class __EnvironmentOverrideSettingsPanelController____c;
+}
+namespace HMUI {
+class DropdownWithTableView;
+}
+namespace HMUI {
+class PanelAnimationSO;
+}
+namespace HMUI {
+class SimpleTextDropdown;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace UnityEngine::UI {
+class Toggle;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -268,6 +268,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IRefreshable"
   constexpr operator ::GlobalNamespace::IRefreshable*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IRefreshable"
+  constexpr ::GlobalNamespace::IRefreshable* i___GlobalNamespace__IRefreshable() noexcept;
 
   constexpr ::UnityEngine::UI::Toggle*& __get__overrideEnvironmentsToggle();
 

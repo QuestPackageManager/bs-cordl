@@ -9,7 +9,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509ChainImplMono)
 namespace Mono::Security::X509 {
+class X509Crl;
+}
+namespace Mono::Security::X509 {
+class X509Extension;
+}
+namespace Mono::Security::X509 {
+class X509Store;
+}
+namespace Mono::Security::X509 {
 class __X509Crl__X509CrlEntry;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X500DistinguishedName;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate2Collection;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate2;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509ChainElementCollection;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509ChainElement;
@@ -17,38 +38,17 @@ class X509ChainElement;
 namespace System::Security::Cryptography::X509Certificates {
 class X509ChainPolicy;
 }
-namespace System::Security::Cryptography {
-class AsymmetricAlgorithm;
-}
 namespace System::Security::Cryptography::X509Certificates {
-class X500DistinguishedName;
+struct X509ChainStatusFlags;
 }
 namespace System::Security::Cryptography::X509Certificates {
 struct X509ChainStatus;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509ChainElementCollection;
-}
-namespace System::Security::Cryptography::X509Certificates {
-struct X509ChainStatusFlags;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2;
-}
-namespace Mono::Security::X509 {
-class X509Crl;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2Collection;
-}
-namespace System::Security::Cryptography::X509Certificates {
 class X509Store;
 }
-namespace Mono::Security::X509 {
-class X509Extension;
-}
-namespace Mono::Security::X509 {
-class X509Store;
+namespace System::Security::Cryptography {
+class AsymmetricAlgorithm;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {

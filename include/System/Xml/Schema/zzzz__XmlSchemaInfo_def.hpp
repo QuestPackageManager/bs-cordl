@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(XmlSchemaInfo)
 namespace System::Xml::Schema {
-struct XmlSchemaValidity;
-}
-namespace System::Xml::Schema {
-class XmlSchemaElement;
+class IXmlSchemaInfo;
 }
 namespace System::Xml::Schema {
 class XmlSchemaAttribute;
 }
 namespace System::Xml::Schema {
-class IXmlSchemaInfo;
+class XmlSchemaElement;
+}
+namespace System::Xml::Schema {
+class XmlSchemaSimpleType;
 }
 namespace System::Xml::Schema {
 class XmlSchemaType;
 }
 namespace System::Xml::Schema {
-class XmlSchemaSimpleType;
+struct XmlSchemaValidity;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -80,6 +80,9 @@ public:
 
   /// @brief Convert operator to "::System::Xml::Schema::IXmlSchemaInfo"
   constexpr operator ::System::Xml::Schema::IXmlSchemaInfo*() noexcept;
+
+  /// @brief Convert to "::System::Xml::Schema::IXmlSchemaInfo"
+  constexpr ::System::Xml::Schema::IXmlSchemaInfo* i___System__Xml__Schema__IXmlSchemaInfo() noexcept;
 
   constexpr bool& __get_isDefault();
 

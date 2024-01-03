@@ -9,14 +9,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509KeyUsageExtension)
-namespace System::Security::Cryptography {
-class AsnEncodedData;
+namespace System::Security::Cryptography::X509Certificates {
+struct X509KeyUsageFlags;
 }
 namespace System::Security::Cryptography {
 struct AsnDecodeStatus;
 }
-namespace System::Security::Cryptography::X509Certificates {
-struct X509KeyUsageFlags;
+namespace System::Security::Cryptography {
+class AsnEncodedData;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {

@@ -8,19 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_SerializableDictionary_2)
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
@@ -29,10 +17,22 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class IDictionary_2;
 }
 namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template <typename TKey, typename TValue> struct KeyValuePair_2;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -74,17 +74,34 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IDictionary_2<TKey,TValue>"
   constexpr operator ::System::Collections::Generic::IDictionary_2<TKey, TValue>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IDictionary_2<TKey,TValue>"
+  constexpr ::System::Collections::Generic::IDictionary_2<TKey, TValue>* i___System__Collections__Generic__IDictionary_2_TKey_TValue_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
   constexpr operator ::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
+  constexpr ::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
+  i___System__Collections__Generic__ICollection_1___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
+  i___System__Collections__Generic__IEnumerable_1___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
+  constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
   constexpr ::System::Collections::Generic::Dictionary_2<TKey, TValue>*& __get__dictionary();
 

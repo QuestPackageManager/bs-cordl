@@ -6,6 +6,10 @@
 template <typename T> constexpr UnityEngine::Pool::PooledObject_1<T>::operator ::System::IDisposable*() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::IDisposable"
+template <typename T> constexpr ::System::IDisposable* UnityEngine::Pool::PooledObject_1<T>::i___System__IDisposable() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 template <typename T> inline void UnityEngine::Pool::PooledObject_1<T>::_ctor(T value, ::UnityEngine::Pool::IObjectPool_1<T>* pool) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Pool::PooledObject_1<T>>::get(), ".ctor", std::vector<Il2CppClass*>{},

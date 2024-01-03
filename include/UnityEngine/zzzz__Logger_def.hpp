@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Logger)
-namespace UnityEngine {
-class ILogger;
+namespace System {
+class Exception;
+}
+namespace System {
+class Object;
 }
 namespace UnityEngine {
 class ILogHandler;
 }
 namespace UnityEngine {
-class Object;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class Exception;
+class ILogger;
 }
 namespace UnityEngine {
 struct LogType;
+}
+namespace UnityEngine {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::UnityEngine::Logger);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10036))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10036)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10056))
 // CS Name: ::UnityEngine::Logger*
 class CORDL_TYPE Logger : public ::System::Object {
@@ -59,8 +59,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::ILogger"
   constexpr operator ::UnityEngine::ILogger*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::ILogger"
+  constexpr ::UnityEngine::ILogger* i___UnityEngine__ILogger() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::ILogHandler"
   constexpr operator ::UnityEngine::ILogHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::ILogHandler"
+  constexpr ::UnityEngine::ILogHandler* i___UnityEngine__ILogHandler() noexcept;
 
   constexpr ::UnityEngine::ILogHandler*& __get__logHandler_k__BackingField();
 

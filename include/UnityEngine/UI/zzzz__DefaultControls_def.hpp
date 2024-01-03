@@ -11,23 +11,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DefaultControls)
-namespace UnityEngine::UI {
-class __DefaultControls__IFactoryControls;
-}
-namespace UnityEngine::UI {
-struct __DefaultControls__Resources;
-}
-namespace UnityEngine {
-struct Vector2;
-}
 namespace System {
 class Type;
 }
 namespace UnityEngine::UI {
 class Selectable;
-}
-namespace UnityEngine {
-class GameObject;
 }
 namespace UnityEngine::UI {
 class Text;
@@ -35,8 +23,20 @@ class Text;
 namespace UnityEngine::UI {
 class __DefaultControls__DefaultRuntimeFactory;
 }
+namespace UnityEngine::UI {
+class __DefaultControls__IFactoryControls;
+}
+namespace UnityEngine::UI {
+struct __DefaultControls__Resources;
+}
+namespace UnityEngine {
+class GameObject;
+}
 namespace UnityEngine {
 class Sprite;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -96,6 +96,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::UI::__DefaultControls__IFactoryControls"
   constexpr operator ::UnityEngine::UI::__DefaultControls__IFactoryControls*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UI::__DefaultControls__IFactoryControls"
+  constexpr ::UnityEngine::UI::__DefaultControls__IFactoryControls* i___UnityEngine__UI____DefaultControls__IFactoryControls() noexcept;
 
   static inline void setStaticF_Default(::UnityEngine::UI::__DefaultControls__IFactoryControls* value);
 
@@ -198,7 +201,7 @@ static_assert(offsetof(::UnityEngine::UI::__DefaultControls__Resources, mask) ==
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13032))
 // CS Name: ::UnityEngine.UI::DefaultControls*
 class CORDL_TYPE DefaultControls : public ::System::Object {

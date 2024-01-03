@@ -8,10 +8,10 @@ namespace BeatSaber::AvatarCore {
 class OptionalAvatarDataPacket;
 }
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
 class NodePoseSyncStateManager;

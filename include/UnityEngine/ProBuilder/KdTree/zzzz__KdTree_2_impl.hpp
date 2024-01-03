@@ -2,23 +2,23 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__AddDuplicateBehavior_impl.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__KdTree_2_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "UnityEngine/ProBuilder/KdTree/zzzz__IKdTree_2_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "UnityEngine/ProBuilder/KdTree/zzzz__KdTree_2_def.hpp"
-#include "UnityEngine/ProBuilder/KdTree/zzzz__ITypeMath_1_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/ProBuilder/KdTree/zzzz__NearestNeighbourList_2_def.hpp"
-#include "UnityEngine/ProBuilder/KdTree/zzzz__KdTreeNode_2_def.hpp"
+#include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__AddDuplicateBehavior_def.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__HyperRect_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
+#include "UnityEngine/ProBuilder/KdTree/zzzz__IKdTree_2_def.hpp"
+#include "UnityEngine/ProBuilder/KdTree/zzzz__ITypeMath_1_def.hpp"
+#include "UnityEngine/ProBuilder/KdTree/zzzz__KdTreeNode_2_def.hpp"
+#include "UnityEngine/ProBuilder/KdTree/zzzz__KdTree_2_def.hpp"
+#include "UnityEngine/ProBuilder/KdTree/zzzz__NearestNeighbourList_2_def.hpp"
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*&
 UnityEngine::ProBuilder::KdTree::__KdTree_2____c__DisplayClass33_0<TKey, TValue>::__get_left() {
@@ -87,12 +87,28 @@ constexpr UnityEngine::ProBuilder::KdTree::__KdTree_2___GetEnumerator_d__33<TKey
     ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey,TValue>*>"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*
+UnityEngine::ProBuilder::KdTree::__KdTree_2___GetEnumerator_d__33<TKey,
+                                                                  TValue>::i___System__Collections__Generic__IEnumerator_1___UnityEngine__ProBuilder__KdTree__KdTreeNode_2_TKey_TValue___() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 template <typename TKey, typename TValue> constexpr UnityEngine::ProBuilder::KdTree::__KdTree_2___GetEnumerator_d__33<TKey, TValue>::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::IEnumerator"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::IEnumerator* UnityEngine::ProBuilder::KdTree::__KdTree_2___GetEnumerator_d__33<TKey, TValue>::i___System__Collections__IEnumerator() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::IDisposable"
 template <typename TKey, typename TValue> constexpr UnityEngine::ProBuilder::KdTree::__KdTree_2___GetEnumerator_d__33<TKey, TValue>::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename TKey, typename TValue> constexpr ::System::IDisposable* UnityEngine::ProBuilder::KdTree::__KdTree_2___GetEnumerator_d__33<TKey, TValue>::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 template <typename TKey, typename TValue> constexpr int32_t& UnityEngine::ProBuilder::KdTree::__KdTree_2___GetEnumerator_d__33<TKey, TValue>::__get___1__state() {
@@ -239,13 +255,28 @@ template <typename TKey, typename TValue> constexpr ::UnityEngine::ProBuilder::K
 template <typename TKey, typename TValue> constexpr UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>::operator ::UnityEngine::ProBuilder::KdTree::IKdTree_2<TKey, TValue>*() noexcept {
   return static_cast<::UnityEngine::ProBuilder::KdTree::IKdTree_2<TKey, TValue>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::UnityEngine::ProBuilder::KdTree::IKdTree_2<TKey,TValue>"
+template <typename TKey, typename TValue>
+constexpr ::UnityEngine::ProBuilder::KdTree::IKdTree_2<TKey, TValue>* UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>::i___UnityEngine__ProBuilder__KdTree__IKdTree_2_TKey_TValue_() noexcept {
+  return static_cast<::UnityEngine::ProBuilder::KdTree::IKdTree_2<TKey, TValue>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey,TValue>*>"
 template <typename TKey, typename TValue>
 constexpr UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>::operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey,TValue>*>"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*
+UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>::i___System__Collections__Generic__IEnumerable_1___UnityEngine__ProBuilder__KdTree__KdTreeNode_2_TKey_TValue___() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename TKey, typename TValue> constexpr UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename TKey, typename TValue> constexpr ::System::Collections::IEnumerable* UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 template <typename TKey, typename TValue> constexpr int32_t& UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>::__get_dimensions() {

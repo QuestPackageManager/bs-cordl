@@ -39,6 +39,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IConnectionRequestHandler"
   constexpr operator ::GlobalNamespace::IConnectionRequestHandler*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IConnectionRequestHandler"
+  constexpr ::GlobalNamespace::IConnectionRequestHandler* i___GlobalNamespace__IConnectionRequestHandler() noexcept;
+
   constexpr ::StringW& __get__playerSessionId_k__BackingField();
 
   constexpr ::StringW const& __get__playerSessionId_k__BackingField() const;

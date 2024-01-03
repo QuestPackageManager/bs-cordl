@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StateMachineBehaviour)
-namespace UnityEngine {
-struct AnimatorStateInfo;
-}
 namespace UnityEngine::Animations {
 struct AnimatorControllerPlayable;
+}
+namespace UnityEngine {
+struct AnimatorStateInfo;
 }
 namespace UnityEngine {
 class Animator;

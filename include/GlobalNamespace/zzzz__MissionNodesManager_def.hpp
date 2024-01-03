@@ -5,9 +5,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MissionNodesManager)
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
 namespace GlobalNamespace {
 class CampaignProgressModel;
 }
@@ -15,13 +12,16 @@ namespace GlobalNamespace {
 class MissionNodeConnection;
 }
 namespace GlobalNamespace {
+class MissionNodeVisualController;
+}
+namespace GlobalNamespace {
 class MissionNode;
 }
 namespace GlobalNamespace {
 class MissionStagesManager;
 }
-namespace GlobalNamespace {
-class MissionNodeVisualController;
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 namespace UnityEngine {
 class GameObject;

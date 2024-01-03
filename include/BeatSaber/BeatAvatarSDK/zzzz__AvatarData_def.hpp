@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AvatarData)
-namespace UnityEngine {
-struct Color;
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
 }
-namespace System {
-template <typename T> class IEquatable_1;
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace BeatSaber::BeatAvatarSDK {
@@ -114,6 +114,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::BeatSaber::BeatAvatarSDK::AvatarData*>"
   constexpr operator ::System::IEquatable_1<::BeatSaber::BeatAvatarSDK::AvatarData*>*() noexcept;
+
+  /// @brief Convert to "::System::IEquatable_1<::BeatSaber::BeatAvatarSDK::AvatarData*>"
+  constexpr ::System::IEquatable_1<::BeatSaber::BeatAvatarSDK::AvatarData*>* i___System__IEquatable_1___BeatSaber__BeatAvatarSDK__AvatarData__() noexcept;
 
   constexpr ::StringW& __get__headTopId_k__BackingField();
 

@@ -2,35 +2,38 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "ENet/zzzz__Address_def.hpp"
-#include "ENet/zzzz__SslConfiguration_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Host)
 namespace ENet {
-struct Event;
-}
-namespace ENet {
 struct Address;
-}
-namespace ENet {
-class InterceptCallback;
 }
 namespace ENet {
 class ChecksumCallback;
 }
 namespace ENet {
+struct Event;
+}
+namespace ENet {
+class InterceptCallback;
+}
+namespace ENet {
 struct Packet;
+}
+namespace ENet {
+struct Peer;
+}
+namespace ENet {
+struct SslConfiguration;
 }
 namespace System {
 class IDisposable;
 }
-namespace ENet {
-struct Peer;
+namespace System {
+template <typename T> struct Nullable_1;
 }
 // Forward declare root types
 namespace ENet {
@@ -42,8 +45,7 @@ MARK_REF_PTR_T(::ENet::Host);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace ENet {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4728 }), TypeDefinitionIndex(TypeDefinitionIndex(2603)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(15228)), TypeDefinitionIndex(TypeDefinitionIndex(15229)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15233))
 // CS Name: ::ENet::Host*
 class CORDL_TYPE Host : public ::System::Object {
@@ -68,6 +70,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr void*& __get_nativeHost();
 
@@ -115,16 +120,8 @@ public:
   static inline void ThrowIfChannelsExceeded(int32_t channelLimit);
 
   /// @brief Method Create, addr 0x21f13b0, size 0x29c, virtual false, abstract: false, final false
-  /// @param address: ::System::Nullable_1<::ENet::Address> (default: {})
-  /// @param peerLimit: int32_t (default: static_cast<int32_t>(0x1))
-  /// @param channelLimit: int32_t (default: static_cast<int32_t>(0x0))
-  /// @param incomingBandwidth: uint32_t (default: static_cast<uint32_t>(0x80000000u))
-  /// @param outgoingBandwidth: uint32_t (default: static_cast<uint32_t>(0xff800000u))
-  /// @param bufferSize: int32_t (default: static_cast<int32_t>(0x0))
-  /// @param sslConfiguration: ::ENet::SslConfiguration (default: {})
-  inline void Create(::System::Nullable_1<::ENet::Address> address = {}, int32_t peerLimit = static_cast<int32_t>(0x1), int32_t channelLimit = static_cast<int32_t>(0x0),
-                     uint32_t incomingBandwidth = static_cast<uint32_t>(0x80000000u), uint32_t outgoingBandwidth = static_cast<uint32_t>(0xff800000u), int32_t bufferSize = static_cast<int32_t>(0x0),
-                     ::ENet::SslConfiguration sslConfiguration = {});
+  inline void Create(::System::Nullable_1<::ENet::Address> address, int32_t peerLimit, int32_t channelLimit, uint32_t incomingBandwidth, uint32_t outgoingBandwidth, int32_t bufferSize,
+                     ::ENet::SslConfiguration sslConfiguration);
 
   /// @brief Method PreventConnections, addr 0x21f1884, size 0x28, virtual false, abstract: false, final false
   inline void PreventConnections(bool state);

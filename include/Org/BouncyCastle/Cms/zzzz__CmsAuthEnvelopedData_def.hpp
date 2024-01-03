@@ -9,32 +9,32 @@ CORDL_MODULE_EXPORT(CmsAuthEnvelopedData)
 namespace Org::BouncyCastle::Asn1::Cms {
 class ContentInfo;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
-}
-namespace Org::BouncyCastle::Cms {
-class RecipientInformationStore;
-}
 namespace Org::BouncyCastle::Asn1::Cms {
 class OriginatorInfo;
-}
-namespace Org::BouncyCastle::Cms {
-class __CmsAuthEnvelopedData__AuthEnvelopedSecureReadable;
-}
-namespace System::IO {
-class Stream;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Set;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsReadable;
+}
 namespace Org::BouncyCastle::Cms {
 class CmsSecureReadable;
+}
+namespace Org::BouncyCastle::Cms {
+class RecipientInformationStore;
+}
+namespace Org::BouncyCastle::Cms {
+class __CmsAuthEnvelopedData__AuthEnvelopedSecureReadable;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
 }
-namespace Org::BouncyCastle::Cms {
-class CmsReadable;
+namespace System::IO {
+class Stream;
 }
 namespace System {
 class Object;
@@ -68,6 +68,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsSecureReadable"
   constexpr operator ::Org::BouncyCastle::Cms::CmsSecureReadable*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Cms::CmsSecureReadable"
+  constexpr ::Org::BouncyCastle::Cms::CmsSecureReadable* i___Org__BouncyCastle__Cms__CmsSecureReadable() noexcept;
 
   constexpr ::Org::BouncyCastle::Cms::CmsAuthEnvelopedData*& __get_parent();
 

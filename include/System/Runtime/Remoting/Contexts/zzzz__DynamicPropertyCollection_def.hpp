@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DynamicPropertyCollection)
-namespace System::Runtime::Remoting::Contexts {
-class __DynamicPropertyCollection__DynamicPropertyReg;
-}
 namespace System::Collections {
 class ArrayList;
 }
 namespace System::Runtime::Remoting::Contexts {
+class IDynamicMessageSink;
+}
+namespace System::Runtime::Remoting::Contexts {
 class IDynamicProperty;
+}
+namespace System::Runtime::Remoting::Contexts {
+class __DynamicPropertyCollection__DynamicPropertyReg;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
-}
-namespace System::Runtime::Remoting::Contexts {
-class IDynamicMessageSink;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Contexts {

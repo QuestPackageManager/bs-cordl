@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UIDocument)
-namespace UnityEngine::UIElements {
-class PanelSettings;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+class PanelSettings;
 }
 namespace UnityEngine::UIElements {
 class UIDocumentList;
 }
 namespace UnityEngine::UIElements {
-class VisualTreeAsset;
+class VisualElement;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::UIElements {
+class VisualTreeAsset;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

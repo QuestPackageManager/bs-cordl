@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PyramidBloomMainEffectSO)
 namespace GlobalNamespace {
+class BloomFogSO;
+}
+namespace GlobalNamespace {
 class PyramidBloomRendererSO;
+}
+namespace UnityEngine {
+class Material;
 }
 namespace UnityEngine {
 class RenderTexture;
 }
-namespace GlobalNamespace {
-class BloomFogSO;
-}
 namespace UnityEngine {
 class Shader;
-}
-namespace UnityEngine {
-class Material;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::PyramidBloomMainEffectSO);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14446)), TypeDefinitionIndex(TypeDefinitionIndex(15293))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15293)), TypeDefinitionIndex(TypeDefinitionIndex(14446))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15295))
 // CS Name: ::PyramidBloomMainEffectSO*
 class CORDL_TYPE PyramidBloomMainEffectSO : public ::GlobalNamespace::MainEffectSO {

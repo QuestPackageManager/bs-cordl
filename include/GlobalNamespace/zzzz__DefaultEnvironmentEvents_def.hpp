@@ -12,28 +12,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DefaultEnvironmentEvents)
 namespace GlobalNamespace {
-class __DefaultEnvironmentEvents__LightGroupFiltering;
-}
-namespace GlobalNamespace {
-class __DefaultEnvironmentEvents__BasicBeatmapEvent;
-}
-namespace GlobalNamespace {
-class __DefaultEnvironmentEvents__LightGroupEvent;
-}
-namespace GlobalNamespace {
-class __DefaultEnvironmentEvents__LightGroupDistribution;
-}
-namespace GlobalNamespace {
 struct BasicBeatmapEventType;
 }
 namespace GlobalNamespace {
-struct __BeatmapEventDataBox__DistributionParamType;
+struct EnvironmentColorType;
 }
 namespace GlobalNamespace {
 class LightGroupSO;
 }
 namespace GlobalNamespace {
-struct EnvironmentColorType;
+struct __BeatmapEventDataBox__DistributionParamType;
+}
+namespace GlobalNamespace {
+class __DefaultEnvironmentEvents__BasicBeatmapEvent;
+}
+namespace GlobalNamespace {
+class __DefaultEnvironmentEvents__LightGroupDistribution;
+}
+namespace GlobalNamespace {
+class __DefaultEnvironmentEvents__LightGroupEvent;
+}
+namespace GlobalNamespace {
+class __DefaultEnvironmentEvents__LightGroupFiltering;
 }
 namespace GlobalNamespace {
 struct __IndexFilter__IndexFilterLimitAlsoAffectType;
@@ -159,7 +159,7 @@ static_assert(offsetof(::GlobalNamespace::__DefaultEnvironmentEvents__BasicBeatm
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4300))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4300)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4166))
 // CS Name: ::DefaultEnvironmentEvents::LightGroupDistribution*
 class CORDL_TYPE __DefaultEnvironmentEvents__LightGroupDistribution : public ::System::Object {
@@ -251,7 +251,7 @@ static_assert(offsetof(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroup
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4316)), TypeDefinitionIndex(TypeDefinitionIndex(4315)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4316)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4315))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4167))
 // CS Name: ::DefaultEnvironmentEvents::LightGroupFiltering*
 class CORDL_TYPE __DefaultEnvironmentEvents__LightGroupFiltering : public ::System::Object {
@@ -400,7 +400,7 @@ static_assert(offsetof(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroup
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14754)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14754))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4168))
 // CS Name: ::DefaultEnvironmentEvents::LightGroupEvent*
 class CORDL_TYPE __DefaultEnvironmentEvents__LightGroupEvent : public ::System::Object {

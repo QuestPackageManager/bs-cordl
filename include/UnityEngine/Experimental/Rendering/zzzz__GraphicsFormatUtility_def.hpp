@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GraphicsFormatUtility)
+namespace UnityEngine::Experimental::Rendering {
+struct GraphicsFormat;
+}
 namespace UnityEngine {
 struct RenderTextureFormat;
 }
 namespace UnityEngine {
 struct RenderTextureReadWrite;
-}
-namespace UnityEngine::Experimental::Rendering {
-struct GraphicsFormat;
 }
 namespace UnityEngine {
 struct TextureFormat;

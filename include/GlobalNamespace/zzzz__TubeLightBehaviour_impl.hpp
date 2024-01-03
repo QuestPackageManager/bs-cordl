@@ -2,13 +2,13 @@
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__TubeLightBehaviour_def.hpp"
-#include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "GlobalNamespace/zzzz__DirectionalLight_def.hpp"
-#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 #include "GlobalNamespace/zzzz__ColorSO_def.hpp"
-#include "GlobalNamespace/zzzz__TubeLightBehaviour_def.hpp"
+#include "GlobalNamespace/zzzz__DirectionalLight_def.hpp"
 #include "GlobalNamespace/zzzz__TubeBloomPrePassLight_def.hpp"
+#include "GlobalNamespace/zzzz__TubeLightBehaviour_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
+#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__TubeLightBehaviour__ParameterType::__TubeLightBehaviour__ParameterType(int32_t value__) noexcept {
   this->value__ = value__;
@@ -25,7 +25,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x408;
   constexpr static std::size_t addrs = 0x2317dc0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeLightBehaviour*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeLightBehaviour*>::get(), 20));
@@ -40,7 +40,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xcc;
   constexpr static std::size_t addrs = 0x23181c8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeLightBehaviour*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeLightBehaviour*>::get(), 16));
@@ -54,7 +54,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2318294;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeLightBehaviour*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;

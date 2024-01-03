@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(ISonyPSPremiumHelper)
 namespace GlobalNamespace {
 struct __ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult;
 }
-namespace System::Threading {
-struct CancellationToken;
-}
 namespace GlobalNamespace {
 struct __ISonyPSPremiumHelper__GetPremiumStatusResult;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 // Forward declare root types
 namespace GlobalNamespace {

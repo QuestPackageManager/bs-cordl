@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(PlayerTransforms)
 namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine {
-struct Quaternion;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerTransforms);
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 193, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5277))
 // CS Name: ::PlayerTransforms*
 class CORDL_TYPE PlayerTransforms : public ::UnityEngine::MonoBehaviour {

@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CreationContext)
-namespace UnityEngine::UIElements {
-struct __TemplateAsset__AttributeOverride;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
 class Object;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
 class VisualTreeAsset;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace UnityEngine::UIElements {
-class VisualElement;
+struct __TemplateAsset__AttributeOverride;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -58,6 +58,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::CreationContext>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::CreationContext>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::CreationContext>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::CreationContext>* i___System__IEquatable_1___UnityEngine__UIElements__CreationContext_();
 
   static inline void setStaticF_Default(::UnityEngine::UIElements::CreationContext value);
 

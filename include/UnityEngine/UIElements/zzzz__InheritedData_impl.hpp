@@ -8,18 +8,18 @@
 #include "UnityEngine/zzzz__FontStyle_impl.hpp"
 #include "UnityEngine/zzzz__TextAnchor_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__InheritedData_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TextShadow_def.hpp"
-#include "UnityEngine/UIElements/zzzz__FontDefinition_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/UIElements/zzzz__FontDefinition_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IStyleDataGroup_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Length_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TextShadow_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Visibility_def.hpp"
 #include "UnityEngine/UIElements/zzzz__WhiteSpace_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Length_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__FontStyle_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/zzzz__TextAnchor_def.hpp"
 #include "UnityEngine/zzzz__Font_def.hpp"
+#include "UnityEngine/zzzz__TextAnchor_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::InheritedData.Copy
 template <>
 
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x2e83514;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::InheritedData>::get(), "Copy",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -42,7 +42,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x2e83530;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::InheritedData>::get(), "CopyFrom", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::UIElements::InheritedData>>::get() })));
@@ -57,7 +57,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x200;
   constexpr static std::size_t addrs = 0x2e83544;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::InheritedData>::get(), "op_Equality", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::InheritedData>::get(),
@@ -73,7 +73,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4c;
   constexpr static std::size_t addrs = 0x2e83744;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::InheritedData>::get(), "Equals", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::InheritedData>::get() })));
@@ -88,7 +88,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xa8;
   constexpr static std::size_t addrs = 0x2e83790;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::InheritedData>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::InheritedData>::get(), 0));
@@ -102,7 +102,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x24c;
   constexpr static std::size_t addrs = 0x2e83838;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::InheritedData>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::InheritedData>::get(), 2));
@@ -113,8 +113,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 constexpr UnityEngine::UIElements::InheritedData::operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>*() {
   return static_cast<::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>"
+constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>*
+UnityEngine::UIElements::InheritedData::i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__InheritedData_() {
+  return static_cast<::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::InheritedData>"
 constexpr UnityEngine::UIElements::InheritedData::operator ::System::IEquatable_1<::UnityEngine::UIElements::InheritedData>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::InheritedData>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::InheritedData>"
+constexpr ::System::IEquatable_1<::UnityEngine::UIElements::InheritedData>* UnityEngine::UIElements::InheritedData::i___System__IEquatable_1___UnityEngine__UIElements__InheritedData_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::InheritedData>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 inline ::UnityEngine::UIElements::InheritedData UnityEngine::UIElements::InheritedData::Copy() {

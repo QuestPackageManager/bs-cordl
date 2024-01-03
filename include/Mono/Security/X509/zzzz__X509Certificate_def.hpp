@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509Certificate)
+namespace Mono::Security::X509 {
+class X509ExtensionCollection;
+}
+namespace Mono::Security {
+class ASN1;
+}
 namespace System::Runtime::Serialization {
 class ISerializable;
-}
-namespace System {
-struct DateTime;
-}
-namespace System::Security::Cryptography {
-class AsymmetricAlgorithm;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
@@ -23,17 +23,17 @@ class SerializationInfo;
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace Mono::Security {
-class ASN1;
+namespace System::Security::Cryptography {
+class AsymmetricAlgorithm;
 }
-namespace Mono::Security::X509 {
-class X509ExtensionCollection;
+namespace System::Security::Cryptography {
+class DSA;
 }
 namespace System::Security::Cryptography {
 class RSA;
 }
-namespace System::Security::Cryptography {
-class DSA;
+namespace System {
+struct DateTime;
 }
 // Forward declare root types
 namespace Mono::Security::X509 {
@@ -45,7 +45,7 @@ MARK_REF_PTR_T(::Mono::Security::X509::X509Certificate);
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13751))
 // CS Name: ::Mono.Security.X509::X509Certificate*
 class CORDL_TYPE X509Certificate : public ::System::Object {
@@ -156,6 +156,9 @@ public:
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
   constexpr ::Mono::Security::ASN1*& __get_decoder();
 

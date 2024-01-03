@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TypeHelpers)
-namespace System {
-class Type;
-}
 namespace System::Reflection {
 class MemberInfo;
+}
+namespace System {
+class Object;
 }
 namespace System {
 struct TypeCode;
 }
 namespace System {
-class Object;
+class Type;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {

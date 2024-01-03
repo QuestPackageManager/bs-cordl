@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StencilState)
 namespace System {
-class Object;
-}
-namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace UnityEngine::Rendering {
-struct StencilOp;
+namespace System {
+class Object;
 }
 namespace UnityEngine::Rendering {
 struct CompareFunction;
+}
+namespace UnityEngine::Rendering {
+struct StencilOp;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -57,6 +57,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::StencilState>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::StencilState>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::StencilState>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Rendering::StencilState>* i___System__IEquatable_1___UnityEngine__Rendering__StencilState_();
 
   /// @brief Method set_enabled, addr 0x2cedfa4, size 0x6c, virtual false, abstract: false, final false
   inline void set_enabled(bool value);

@@ -1,10 +1,10 @@
 #pragma once
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerCoreInstaller_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerBadgesModelSO_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
-#include "GlobalNamespace/zzzz__ScoreSyncStateManager_def.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerBadgesModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__ScoreSyncStateManager_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerCoreInstaller.InstallBindings
 template <>
 
@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x61c;
   constexpr static std::size_t addrs = 0x22725cc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerCoreInstaller*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerCoreInstaller*>::get(), 8));
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2272be8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerCoreInstaller*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;

@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Cms/zzzz__RecipientInformation_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(KeyTransRecipientInformation)
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
-}
-namespace Org::BouncyCastle::Cms {
-class CmsTypedStream;
+namespace Org::BouncyCastle::Asn1::Cms {
+class KeyTransRecipientInfo;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class KeyTransRecipientInfo;
+namespace Org::BouncyCastle::Cms {
+class CmsSecureReadable;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsTypedStream;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
-}
-namespace Org::BouncyCastle::Cms {
-class CmsSecureReadable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

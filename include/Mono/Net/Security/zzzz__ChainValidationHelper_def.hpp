@@ -8,52 +8,52 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ChainValidationHelper)
 namespace Mono::Net::Security {
+class MobileTlsProvider;
+}
+namespace Mono::Net::Security {
+class MonoTlsStream;
+}
+namespace Mono::Net::Security {
 class __ChainValidationHelper____c__DisplayClass11_0;
+}
+namespace Mono::Security::Interface {
+class ICertificateValidator;
+}
+namespace Mono::Security::Interface {
+class MonoTlsSettings;
+}
+namespace Mono::Security::Interface {
+class ValidationResult;
+}
+namespace System::Net::Security {
+class LocalCertSelectionCallback;
+}
+namespace System::Net::Security {
+struct SslPolicyErrors;
+}
+namespace System::Net::Security {
+class SslStream;
+}
+namespace System::Net {
+class HttpWebRequest;
 }
 namespace System::Net {
 class ServerCertValidationCallback;
 }
 namespace System::Security::Cryptography::X509Certificates {
+class X509CertificateCollection;
+}
+namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
-}
-namespace System {
-template <typename T> class WeakReference_1;
-}
-namespace System::Net::Security {
-class SslStream;
-}
-namespace System::Net::Security {
-class LocalCertSelectionCallback;
-}
-namespace System::Net {
-class HttpWebRequest;
-}
-namespace Mono::Net::Security {
-class MonoTlsStream;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Chain;
 }
-namespace Mono::Security::Interface {
-class ValidationResult;
-}
-namespace Mono::Net::Security {
-class MobileTlsProvider;
-}
-namespace System::Net::Security {
-struct SslPolicyErrors;
-}
-namespace Mono::Security::Interface {
-class MonoTlsSettings;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateCollection;
-}
-namespace Mono::Security::Interface {
-class ICertificateValidator;
-}
 namespace System {
 class Object;
+}
+namespace System {
+template <typename T> class WeakReference_1;
 }
 // Forward declare root types
 namespace Mono::Net::Security {
@@ -155,6 +155,9 @@ public:
 
   /// @brief Convert operator to "::Mono::Security::Interface::ICertificateValidator"
   constexpr operator ::Mono::Security::Interface::ICertificateValidator*() noexcept;
+
+  /// @brief Convert to "::Mono::Security::Interface::ICertificateValidator"
+  constexpr ::Mono::Security::Interface::ICertificateValidator* i___Mono__Security__Interface__ICertificateValidator() noexcept;
 
   constexpr ::System::WeakReference_1<::System::Net::Security::SslStream*>*& __get_owner();
 

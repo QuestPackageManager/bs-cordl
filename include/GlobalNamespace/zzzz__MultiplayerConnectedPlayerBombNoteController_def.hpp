@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerConnectedPlayerBombNoteController)
 namespace GlobalNamespace {
-class __MultiplayerConnectedPlayerBombNoteController__Pool;
+class NoteData;
 }
 namespace GlobalNamespace {
-class NoteData;
+class __MultiplayerConnectedPlayerBombNoteController__Pool;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -70,8 +70,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerConn
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 2819 }), TypeDefinitionIndex(TypeDefinitionIndex(5134)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11050))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5133)) CS Name: ::MultiplayerConnectedPlayerBombNoteController::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), TypeDefinitionIndex(TypeDefinitionIndex(5134)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// 2819 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5133)) CS Name: ::MultiplayerConnectedPlayerBombNoteController::Pool*
 class CORDL_TYPE __MultiplayerConnectedPlayerBombNoteController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController*> {
 public:
   // Declarations

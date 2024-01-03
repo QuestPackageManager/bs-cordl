@@ -8,22 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PropertyDescriptorCollection)
 namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
-class IDictionaryEnumerator;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::ComponentModel {
-class __PropertyDescriptorCollection__PropertyDescriptorEnumerator;
-}
-namespace System::ComponentModel {
-class PropertyDescriptor;
-}
-namespace System::Collections {
-class IDictionary;
+struct DictionaryEntry;
 }
 namespace System::Collections {
 class ICollection;
@@ -31,17 +16,32 @@ class ICollection;
 namespace System::Collections {
 class IComparer;
 }
-namespace System {
-class Object;
+namespace System::Collections {
+class IDictionaryEnumerator;
 }
-namespace System {
-class Array;
+namespace System::Collections {
+class IDictionary;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections {
 class IList;
 }
-namespace System::Collections {
-struct DictionaryEntry;
+namespace System::ComponentModel {
+class PropertyDescriptor;
+}
+namespace System::ComponentModel {
+class __PropertyDescriptorCollection__PropertyDescriptorEnumerator;
+}
+namespace System {
+class Array;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -80,8 +80,14 @@ public:
   /// @brief Convert operator to "::System::Collections::IDictionaryEnumerator"
   constexpr operator ::System::Collections::IDictionaryEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IDictionaryEnumerator"
+  constexpr ::System::Collections::IDictionaryEnumerator* i___System__Collections__IDictionaryEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr ::System::ComponentModel::PropertyDescriptorCollection*& __get__owner();
 
@@ -224,14 +230,26 @@ public:
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
 
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IList"
   constexpr operator ::System::Collections::IList*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IList"
+  constexpr ::System::Collections::IList* i___System__Collections__IList() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IDictionary"
   constexpr operator ::System::Collections::IDictionary*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IDictionary"
+  constexpr ::System::Collections::IDictionary* i___System__Collections__IDictionary() noexcept;
 
   constexpr ::System::Collections::IDictionary*& __get__cachedFoundProperties();
 

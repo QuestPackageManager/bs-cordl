@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLayoutProvider);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5233))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5233)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5215))
 // CS Name: ::MultiplayerLayoutProvider*
 class CORDL_TYPE MultiplayerLayoutProvider : public ::System::Object {

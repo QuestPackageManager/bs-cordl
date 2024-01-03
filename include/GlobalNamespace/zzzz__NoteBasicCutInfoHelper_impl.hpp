@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteBasicCutInfoHelper_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "GlobalNamespace/zzzz__ColorType_def.hpp"
 #include "GlobalNamespace/zzzz__NoteCutDirection_def.hpp"
 #include "GlobalNamespace/zzzz__SaberType_def.hpp"
-#include "GlobalNamespace/zzzz__ColorType_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NoteBasicCutInfoHelper.GetBasicCutInfo
 template <>
@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x198;
   constexpr static std::size_t addrs = 0x12a3df8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteBasicCutInfoHelper*>::get(), "GetBasicCutInfo", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{

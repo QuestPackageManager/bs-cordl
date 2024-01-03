@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(CustomLevelLoader)
 namespace GlobalNamespace {
 class EnvironmentInfoSO;
 }
-namespace UnityEngine {
-class Sprite;
-}
 namespace GlobalNamespace {
 class EnvironmentsListSO;
+}
+namespace UnityEngine {
+class Sprite;
 }
 // Forward declare root types
 namespace GlobalNamespace {

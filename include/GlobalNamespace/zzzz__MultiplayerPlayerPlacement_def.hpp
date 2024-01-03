@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerPlayerPlacement)
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
+namespace GlobalNamespace {
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 struct MultiplayerPlayerLayout;
 }
-namespace UnityEngine {
-struct Vector3;
-}
 namespace GlobalNamespace {
 class __MultiplayerPlayerPlacement____c;
 }
-namespace GlobalNamespace {
-class IConnectedPlayer;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
 template <typename T> class Comparison_1;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -6,55 +6,55 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(BindSignalToBinder_1)
 namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace System {
+class Action;
+}
+namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace Zenject {
-template <typename TSignal> class __BindSignalToBinder_1____c__DisplayClass6_0;
+namespace System {
+class Object;
 }
 namespace Zenject {
 template <typename TObject, typename TSignal> class BindSignalFromBinder_2;
 }
 namespace Zenject {
-template <typename TSignal> class __BindSignalToBinder_1____c__DisplayClass7_0;
-}
-namespace Zenject {
-template <typename TSignal, typename TObject> class __BindSignalToBinder_1____c__DisplayClass9_0_1;
-}
-namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
-template <typename TSignal, typename TObject> class __BindSignalToBinder_1____c__DisplayClass9_1_1;
+class BindStatement;
 }
 namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-class BindStatement;
-}
-namespace System {
-class Action;
+class InjectTypeInfo;
 }
 namespace Zenject {
-template <typename TSignal, typename TObject> class __BindSignalToBinder_1____c__DisplayClass8_0_1;
+class SignalBindingBindInfo;
 }
 namespace Zenject {
 class SignalCopyBinder;
 }
 namespace Zenject {
-template <typename TSignal, typename TObject> class __BindSignalToBinder_1____c__DisplayClass8_1_1;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
+template <typename TSignal> class __BindSignalToBinder_1____c__DisplayClass6_0;
 }
 namespace Zenject {
-class SignalBindingBindInfo;
+template <typename TSignal> class __BindSignalToBinder_1____c__DisplayClass7_0;
 }
-namespace System {
-class Object;
+namespace Zenject {
+template <typename TSignal, typename TObject> class __BindSignalToBinder_1____c__DisplayClass8_0_1;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace Zenject {
+template <typename TSignal, typename TObject> class __BindSignalToBinder_1____c__DisplayClass8_1_1;
+}
+namespace Zenject {
+template <typename TSignal, typename TObject> class __BindSignalToBinder_1____c__DisplayClass9_0_1;
+}
+namespace Zenject {
+template <typename TSignal, typename TObject> class __BindSignalToBinder_1____c__DisplayClass9_1_1;
 }
 // Forward declare root types
 namespace Zenject {

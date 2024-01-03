@@ -9,41 +9,41 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerIntroAnimationController)
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace UnityEngine::Playables {
-class PlayableDirector;
-}
-namespace System::Collections::Generic {
-template <typename T> class Queue_1;
-}
 namespace GlobalNamespace {
-class MultiplayerLayoutProvider;
-}
-namespace System {
-class Random;
-}
-namespace GlobalNamespace {
-class MultiplayerScoreRingManager;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-class MultiplayerPlayersManager;
-}
-namespace UnityEngine {
-struct PropertyName;
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class MultiplayerLayoutProvider;
+}
+namespace GlobalNamespace {
+class MultiplayerPlayersManager;
+}
+namespace GlobalNamespace {
+class MultiplayerScoreRingManager;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class Queue_1;
+}
+namespace System {
+class Action;
+}
+namespace System {
+class Random;
+}
+namespace UnityEngine::Playables {
+class PlayableDirector;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+struct PropertyName;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -238,10 +238,7 @@ public:
   inline void BindTimeline();
 
   /// @brief Method BindRingsAndSetTiming, addr 0x224e234, size 0x7f4, virtual false, abstract: false, final false
-  /// @param connectedRings: ::ArrayW<::UnityEngine::GameObject*,::Array<::UnityEngine::GameObject*>*> (default: nullptr)
-  /// @param localRing: ::UnityEngine::GameObject* (default: nullptr)
-  inline void BindRingsAndSetTiming(int32_t connectedPlayersCount, ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> connectedRings = nullptr,
-                                    ::UnityEngine::GameObject* localRing = nullptr);
+  inline void BindRingsAndSetTiming(int32_t connectedPlayersCount, ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> connectedRings, ::UnityEngine::GameObject* localRing);
 
   /// @brief Method TransitionToAfterIntroAnimationState, addr 0x2248d18, size 0xd4, virtual false, abstract: false, final false
   inline void TransitionToAfterIntroAnimationState();

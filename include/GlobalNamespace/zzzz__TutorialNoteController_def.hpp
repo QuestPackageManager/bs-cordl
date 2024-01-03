@@ -6,27 +6,6 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(TutorialNoteController)
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-class Saber;
-}
-namespace GlobalNamespace {
-class NoteData;
-}
-namespace GlobalNamespace {
-struct NoteVisualModifierType;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace GlobalNamespace {
-class NoteMovement;
-}
-namespace GlobalNamespace {
-class __TutorialNoteController__Pool;
-}
 namespace GlobalNamespace {
 class BoxCuttableBySaber;
 }
@@ -37,7 +16,28 @@ namespace GlobalNamespace {
 class INoteMirrorable;
 }
 namespace GlobalNamespace {
+class NoteData;
+}
+namespace GlobalNamespace {
+class NoteMovement;
+}
+namespace GlobalNamespace {
+struct NoteVisualModifierType;
+}
+namespace GlobalNamespace {
+class Saber;
+}
+namespace GlobalNamespace {
 struct __NoteData__GameplayType;
+}
+namespace GlobalNamespace {
+class __TutorialNoteController__Pool;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -88,8 +88,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IGameNoteMirrorable"
   constexpr operator ::GlobalNamespace::IGameNoteMirrorable*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IGameNoteMirrorable"
+  constexpr ::GlobalNamespace::IGameNoteMirrorable* i___GlobalNamespace__IGameNoteMirrorable() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::INoteMirrorable"
   constexpr operator ::GlobalNamespace::INoteMirrorable*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::INoteMirrorable"
+  constexpr ::GlobalNamespace::INoteMirrorable* i___GlobalNamespace__INoteMirrorable() noexcept;
 
   constexpr ::GlobalNamespace::BoxCuttableBySaber*& __get__cuttableBySaberCore();
 
@@ -209,8 +215,8 @@ static_assert(offsetof(::GlobalNamespace::TutorialNoteController, ____cutAngleTo
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 2828 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(4787))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4786)) CS Name: ::TutorialNoteController::Pool*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 2828 }), TypeDefinitionIndex(TypeDefinitionIndex(4787)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11050))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4786)) CS Name: ::TutorialNoteController::Pool*
 class CORDL_TYPE __TutorialNoteController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::TutorialNoteController*> {
 public:
   // Declarations

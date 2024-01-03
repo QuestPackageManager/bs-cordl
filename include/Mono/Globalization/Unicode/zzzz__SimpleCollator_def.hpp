@@ -11,43 +11,43 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SimpleCollator)
 namespace Mono::Globalization::Unicode {
-struct __SimpleCollator__ExtenderType;
+class CodePointIndexer;
+}
+namespace Mono::Globalization::Unicode {
+class Contraction;
+}
+namespace Mono::Globalization::Unicode {
+class Level2Map;
+}
+namespace Mono::Globalization::Unicode {
+class SortKeyBuffer;
 }
 namespace Mono::Globalization::Unicode {
 struct __SimpleCollator__Context;
 }
 namespace Mono::Globalization::Unicode {
-class Level2Map;
+struct __SimpleCollator__Escape;
+}
+namespace Mono::Globalization::Unicode {
+struct __SimpleCollator__ExtenderType;
+}
+namespace Mono::Globalization::Unicode {
+struct __SimpleCollator__PreviousInfo;
+}
+namespace System::Globalization {
+struct CompareOptions;
 }
 namespace System::Globalization {
 class CultureInfo;
-}
-namespace Mono::Globalization::Unicode {
-class SortKeyBuffer;
 }
 namespace System::Globalization {
 class ISimpleCollator;
 }
 namespace System::Globalization {
-class TextInfo;
-}
-namespace Mono::Globalization::Unicode {
-class Contraction;
-}
-namespace System::Globalization {
-struct CompareOptions;
-}
-namespace Mono::Globalization::Unicode {
-class CodePointIndexer;
-}
-namespace System::Globalization {
 class SortKey;
 }
-namespace Mono::Globalization::Unicode {
-struct __SimpleCollator__PreviousInfo;
-}
-namespace Mono::Globalization::Unicode {
-struct __SimpleCollator__Escape;
+namespace System::Globalization {
+class TextInfo;
 }
 // Forward declare root types
 namespace Mono::Globalization::Unicode {
@@ -350,6 +350,9 @@ public:
 
   /// @brief Convert operator to "::System::Globalization::ISimpleCollator"
   constexpr operator ::System::Globalization::ISimpleCollator*() noexcept;
+
+  /// @brief Convert to "::System::Globalization::ISimpleCollator"
+  constexpr ::System::Globalization::ISimpleCollator* i___System__Globalization__ISimpleCollator() noexcept;
 
   constexpr ::System::Globalization::TextInfo*& __get_textInfo();
 

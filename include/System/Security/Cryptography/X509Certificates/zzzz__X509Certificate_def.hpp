@@ -9,10 +9,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509Certificate)
 namespace System::Runtime::Serialization {
+class IDeserializationCallback;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509CertificateImpl;
+}
+namespace System::Security::Cryptography::X509Certificates {
+struct X509KeyStorageFlags;
 }
 namespace System {
 struct DateTime;
@@ -20,20 +32,8 @@ struct DateTime;
 namespace System {
 class IDisposable;
 }
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
 namespace System {
 class Object;
-}
-namespace System::Security::Cryptography::X509Certificates {
-struct X509KeyStorageFlags;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateImpl;
-}
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -92,11 +92,20 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
   constexpr operator ::System::Runtime::Serialization::IDeserializationCallback*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
+  constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
   constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateImpl*& __get_impl();
 

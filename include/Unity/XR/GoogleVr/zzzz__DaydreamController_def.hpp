@@ -8,10 +8,10 @@ namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class Vector3Control;
+class Vector2Control;
 }
 namespace UnityEngine::InputSystem::Controls {
-class Vector2Control;
+class Vector3Control;
 }
 // Forward declare root types
 namespace Unity::XR::GoogleVr {

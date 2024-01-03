@@ -9,13 +9,13 @@ namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+class IEventDispatchingStrategy;
 }
 namespace UnityEngine::UIElements {
 class IPanel;
 }
 namespace UnityEngine::UIElements {
-class IEventDispatchingStrategy;
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -35,6 +35,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::UnityEngine::UIElements::IEventDispatchingStrategy"
   constexpr operator ::UnityEngine::UIElements::IEventDispatchingStrategy*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UIElements::IEventDispatchingStrategy"
+  constexpr ::UnityEngine::UIElements::IEventDispatchingStrategy* i___UnityEngine__UIElements__IEventDispatchingStrategy() noexcept;
 
   /// @brief Method CanDispatchEvent, addr 0x2e4e0c8, size 0x54, virtual true, abstract: false, final true
   inline bool CanDispatchEvent(::UnityEngine::UIElements::EventBase* evt);

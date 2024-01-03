@@ -2,29 +2,42 @@
 #include "Unity/Collections/zzzz__Allocator_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControlList_1_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControlList_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "Unity/Collections/zzzz__Allocator_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
-#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Unity/Collections/zzzz__Allocator_def.hpp"
+#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControlList_1_def.hpp"
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TControl>"
 template <typename TControl> constexpr UnityEngine::InputSystem::__InputControlList_1__Enumerator<TControl>::operator ::System::Collections::Generic::IEnumerator_1<TControl>*() {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<TControl>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TControl>"
+template <typename TControl>
+constexpr ::System::Collections::Generic::IEnumerator_1<TControl>* UnityEngine::InputSystem::__InputControlList_1__Enumerator<TControl>::i___System__Collections__Generic__IEnumerator_1_TControl_() {
   return static_cast<::System::Collections::Generic::IEnumerator_1<TControl>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 template <typename TControl> constexpr UnityEngine::InputSystem::__InputControlList_1__Enumerator<TControl>::operator ::System::Collections::IEnumerator*() {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Collections::IEnumerator"
+template <typename TControl> constexpr ::System::Collections::IEnumerator* UnityEngine::InputSystem::__InputControlList_1__Enumerator<TControl>::i___System__Collections__IEnumerator() {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::IDisposable"
 template <typename TControl> constexpr UnityEngine::InputSystem::__InputControlList_1__Enumerator<TControl>::operator ::System::IDisposable*() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename TControl> constexpr ::System::IDisposable* UnityEngine::InputSystem::__InputControlList_1__Enumerator<TControl>::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename TControl> inline void UnityEngine::InputSystem::__InputControlList_1__Enumerator<TControl>::_ctor(::UnityEngine::InputSystem::InputControlList_1<TControl> list) {
@@ -78,28 +91,61 @@ template <typename TControl> constexpr ::UnityEngine::InputSystem::__InputContro
 template <typename TControl> constexpr UnityEngine::InputSystem::InputControlList_1<TControl>::operator ::System::Collections::Generic::IList_1<TControl>*() {
   return static_cast<::System::Collections::Generic::IList_1<TControl>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Collections::Generic::IList_1<TControl>"
+template <typename TControl>
+constexpr ::System::Collections::Generic::IList_1<TControl>* UnityEngine::InputSystem::InputControlList_1<TControl>::i___System__Collections__Generic__IList_1_TControl_() {
+  return static_cast<::System::Collections::Generic::IList_1<TControl>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<TControl>"
 template <typename TControl> constexpr UnityEngine::InputSystem::InputControlList_1<TControl>::operator ::System::Collections::Generic::ICollection_1<TControl>*() {
+  return static_cast<::System::Collections::Generic::ICollection_1<TControl>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::Collections::Generic::ICollection_1<TControl>"
+template <typename TControl>
+constexpr ::System::Collections::Generic::ICollection_1<TControl>* UnityEngine::InputSystem::InputControlList_1<TControl>::i___System__Collections__Generic__ICollection_1_TControl_() {
   return static_cast<::System::Collections::Generic::ICollection_1<TControl>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TControl>"
 template <typename TControl> constexpr UnityEngine::InputSystem::InputControlList_1<TControl>::operator ::System::Collections::Generic::IEnumerable_1<TControl>*() {
   return static_cast<::System::Collections::Generic::IEnumerable_1<TControl>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TControl>"
+template <typename TControl>
+constexpr ::System::Collections::Generic::IEnumerable_1<TControl>* UnityEngine::InputSystem::InputControlList_1<TControl>::i___System__Collections__Generic__IEnumerable_1_TControl_() {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<TControl>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename TControl> constexpr UnityEngine::InputSystem::InputControlList_1<TControl>::operator ::System::Collections::IEnumerable*() {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename TControl> constexpr ::System::Collections::IEnumerable* UnityEngine::InputSystem::InputControlList_1<TControl>::i___System__Collections__IEnumerable() {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyList_1<TControl>"
 template <typename TControl> constexpr UnityEngine::InputSystem::InputControlList_1<TControl>::operator ::System::Collections::Generic::IReadOnlyList_1<TControl>*() {
   return static_cast<::System::Collections::Generic::IReadOnlyList_1<TControl>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Collections::Generic::IReadOnlyList_1<TControl>"
+template <typename TControl>
+constexpr ::System::Collections::Generic::IReadOnlyList_1<TControl>* UnityEngine::InputSystem::InputControlList_1<TControl>::i___System__Collections__Generic__IReadOnlyList_1_TControl_() {
+  return static_cast<::System::Collections::Generic::IReadOnlyList_1<TControl>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<TControl>"
 template <typename TControl> constexpr UnityEngine::InputSystem::InputControlList_1<TControl>::operator ::System::Collections::Generic::IReadOnlyCollection_1<TControl>*() {
   return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<TControl>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<TControl>"
+template <typename TControl>
+constexpr ::System::Collections::Generic::IReadOnlyCollection_1<TControl>* UnityEngine::InputSystem::InputControlList_1<TControl>::i___System__Collections__Generic__IReadOnlyCollection_1_TControl_() {
+  return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<TControl>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::IDisposable"
 template <typename TControl> constexpr UnityEngine::InputSystem::InputControlList_1<TControl>::operator ::System::IDisposable*() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename TControl> constexpr ::System::IDisposable* UnityEngine::InputSystem::InputControlList_1<TControl>::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename TControl> inline int32_t UnityEngine::InputSystem::InputControlList_1<TControl>::get_Count() {

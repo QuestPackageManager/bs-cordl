@@ -14,32 +14,26 @@ CORDL_MODULE_EXPORT(AsyncHelper)
 namespace GlobalNamespace {
 struct __AsyncHelper___AnyTaskTrueNonAlloc_d__2;
 }
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-class __AsyncHelper____c__DisplayClass1_0;
-}
 namespace GlobalNamespace {
 template <typename T> class __AsyncHelper____c__DisplayClass0_0_1;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System {
-template <typename TResult> class Func_1;
 }
 namespace GlobalNamespace {
 template <typename T> struct __AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d;
 }
 namespace GlobalNamespace {
+class __AsyncHelper____c__DisplayClass1_0;
+}
+namespace GlobalNamespace {
 struct __AsyncHelper____c__DisplayClass1_0____RunSync_b__0_d;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -48,10 +42,16 @@ namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
-}
-namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System {
+template <typename TResult> class Func_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -85,13 +85,16 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 1
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(15814)) CS Name: ::AsyncHelper::<>c__DisplayClass0_0`1::<<RunSync>b__0>d<T>
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 1 }), TypeDefinitionIndex(TypeDefinitionIndex(3401)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15814)) CS Name: ::AsyncHelper::<>c__DisplayClass0_0`1::<<RunSync>b__0>d<T>
 struct CORDL_TYPE __AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -197,7 +200,7 @@ public:
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15816))
 // CS Name: ::AsyncHelper::<>c__DisplayClass1_0::<<RunSync>b__0>d
 struct CORDL_TYPE __AsyncHelper____c__DisplayClass1_0____RunSync_b__0_d {
@@ -205,6 +208,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0xe24eb4, size 0x194, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -309,14 +315,17 @@ static_assert(offsetof(::GlobalNamespace::__AsyncHelper____c__DisplayClass1_0, _
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 4099 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(2773)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15818)) CS Name: ::AsyncHelper::<AnyTaskTrueNonAlloc>d__2
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 4099 }), TypeDefinitionIndex(TypeDefinitionIndex(2773)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 105 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(15818)) CS Name: ::AsyncHelper::<AnyTaskTrueNonAlloc>d__2
 struct CORDL_TYPE __AsyncHelper___AnyTaskTrueNonAlloc_d__2 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0xe25054, size 0x2a8, virtual true, abstract: false, final true
   inline void MoveNext();

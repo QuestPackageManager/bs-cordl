@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(RegexRunner)
 namespace System::Text::RegularExpressions {
 class Match;
 }
-namespace System {
-struct TimeSpan;
-}
 namespace System::Text::RegularExpressions {
 class Regex;
+}
+namespace System {
+struct TimeSpan;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {

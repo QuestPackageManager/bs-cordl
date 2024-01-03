@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6236)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6236), inst: 391 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6236), inst: 391 }), TypeDefinitionIndex(TypeDefinitionIndex(6236))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6580))
 // CS Name: ::UnityEngine.InputSystem.Processors::AxisDeadzoneProcessor*
 class CORDL_TYPE AxisDeadzoneProcessor : public ::UnityEngine::InputSystem::InputProcessor_1<float_t> {
@@ -54,8 +54,7 @@ public:
   inline float_t get_maxOrDefault();
 
   /// @brief Method Process, addr 0x2af8bec, size 0x68, virtual true, abstract: false, final false
-  /// @param control: ::UnityEngine::InputSystem::InputControl* (default: nullptr)
-  inline float_t Process(float_t value, ::UnityEngine::InputSystem::InputControl* control = nullptr);
+  inline float_t Process(float_t value, ::UnityEngine::InputSystem::InputControl* control);
 
   /// @brief Method ToString, addr 0x2af8c54, size 0xa8, virtual true, abstract: false, final false
   inline ::StringW ToString();

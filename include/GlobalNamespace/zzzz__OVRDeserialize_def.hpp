@@ -11,7 +11,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRDeserialize)
 namespace GlobalNamespace {
+struct __OVRDeserialize__DisplayRefreshRateChangedData;
+}
+namespace GlobalNamespace {
+struct __OVRDeserialize__SceneCaptureCompleteData;
+}
+namespace GlobalNamespace {
 struct __OVRDeserialize__SpaceEraseCompleteData;
+}
+namespace GlobalNamespace {
+struct __OVRDeserialize__SpaceListSaveResultData;
+}
+namespace GlobalNamespace {
+struct __OVRDeserialize__SpaceQueryCompleteData;
+}
+namespace GlobalNamespace {
+struct __OVRDeserialize__SpaceQueryResultsData;
+}
+namespace GlobalNamespace {
+struct __OVRDeserialize__SpaceSaveCompleteData;
+}
+namespace GlobalNamespace {
+struct __OVRDeserialize__SpaceSetComponentStatusCompleteData;
 }
 namespace GlobalNamespace {
 struct __OVRDeserialize__SpaceShareResultData;
@@ -20,34 +41,13 @@ namespace GlobalNamespace {
 struct __OVRDeserialize__SpatialAnchorCreateCompleteData;
 }
 namespace GlobalNamespace {
-struct __OVRDeserialize__SpaceQueryResultsData;
-}
-namespace GlobalNamespace {
-struct __OVRDeserialize__SpaceQueryCompleteData;
-}
-namespace GlobalNamespace {
-struct __OVRDeserialize__SpaceSaveCompleteData;
-}
-namespace GlobalNamespace {
-struct __OVRDeserialize__SceneCaptureCompleteData;
-}
-namespace GlobalNamespace {
-struct __OVRDeserialize__SpaceListSaveResultData;
-}
-namespace GlobalNamespace {
-struct __OVRDeserialize__SpaceSetComponentStatusCompleteData;
-}
-namespace GlobalNamespace {
-struct __OVRDeserialize__DisplayRefreshRateChangedData;
-}
-namespace System {
-struct Guid;
+struct __OVRPlugin__SpaceComponentType;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__SpaceStorageLocation;
 }
-namespace GlobalNamespace {
-struct __OVRPlugin__SpaceComponentType;
+namespace System {
+struct Guid;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -285,7 +285,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpatialAnchorCreateC
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(7835))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7835)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8098))
 // CS Name: ::OVRDeserialize::SpaceSetComponentStatusCompleteData
 struct CORDL_TYPE __OVRDeserialize__SpaceSetComponentStatusCompleteData {
@@ -391,7 +391,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceSaveCompleteDat
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7836)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(7836))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8100))
 // CS Name: ::OVRDeserialize::SpaceEraseCompleteData
 struct CORDL_TYPE __OVRDeserialize__SpaceEraseCompleteData {

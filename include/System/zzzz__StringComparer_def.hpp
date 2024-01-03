@@ -6,8 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StringComparer)
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class IComparer_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEqualityComparer_1;
+}
+namespace System::Collections {
+class IComparer;
 }
 namespace System::Collections {
 class IEqualityComparer;
@@ -15,14 +21,8 @@ class IEqualityComparer;
 namespace System {
 class CultureAwareComparer;
 }
-namespace System::Collections {
-class IComparer;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IComparer_1;
+namespace System {
+class Object;
 }
 namespace System {
 class OrdinalCaseSensitiveComparer;
@@ -61,14 +61,26 @@ public:
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IComparer"
+  constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEqualityComparer"
   constexpr operator ::System::Collections::IEqualityComparer*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEqualityComparer"
+  constexpr ::System::Collections::IEqualityComparer* i___System__Collections__IEqualityComparer() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::StringW>"
   constexpr operator ::System::Collections::Generic::IComparer_1<::StringW>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IComparer_1<::StringW>"
+  constexpr ::System::Collections::Generic::IComparer_1<::StringW>* i___System__Collections__Generic__IComparer_1___StringW_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::StringW>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::StringW>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::StringW>"
+  constexpr ::System::Collections::Generic::IEqualityComparer_1<::StringW>* i___System__Collections__Generic__IEqualityComparer_1___StringW_() noexcept;
 
   static inline void setStaticF_s_invariantCulture(::System::CultureAwareComparer* value);
 

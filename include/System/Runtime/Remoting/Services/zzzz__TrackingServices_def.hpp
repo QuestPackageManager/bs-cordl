@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(TrackingServices)
-namespace System {
-class Object;
+namespace System::Collections {
+class ArrayList;
 }
 namespace System::Runtime::Remoting {
 class ObjRef;
 }
-namespace System::Collections {
-class ArrayList;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Services {

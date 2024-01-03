@@ -3,7 +3,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Guid_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -11,28 +10,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Guid)
 namespace System {
+class Exception;
+}
+namespace System {
 template <typename T> class IComparable_1;
 }
 namespace System {
-struct __Guid__ParseFailureKind;
+class IComparable;
 }
 namespace System {
-class ISpanFormattable;
-}
-namespace System {
-class IFormattable;
-}
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class IFormatProvider;
 }
 namespace System {
-struct __Guid__GuidStyles;
+class IFormattable;
+}
+namespace System {
+class ISpanFormattable;
+}
+namespace System {
+class Object;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
+template <typename T> struct Span_1;
 }
 namespace System {
 struct __Guid__GuidParseThrowStyle;
@@ -41,16 +46,10 @@ namespace System {
 struct __Guid__GuidResult;
 }
 namespace System {
-template <typename T> struct Span_1;
+struct __Guid__GuidStyles;
 }
 namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
-class IComparable;
-}
-namespace System {
-class Exception;
+struct __Guid__ParseFailureKind;
 }
 // Forward declare root types
 namespace System {
@@ -300,7 +299,7 @@ static_assert(offsetof(::System::__Guid__ParseFailureKind, value__) == 0x0, "Off
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2464)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292 })}
+// Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2406))
 // CS Name: ::System::Guid
 struct CORDL_TYPE Guid {
@@ -320,17 +319,32 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
+  /// @brief Convert to "::System::IFormattable"
+  constexpr ::System::IFormattable* i___System__IFormattable();
+
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*();
+
+  /// @brief Convert to "::System::IComparable"
+  constexpr ::System::IComparable* i___System__IComparable();
 
   /// @brief Convert operator to "::System::IComparable_1<::System::Guid>"
   constexpr operator ::System::IComparable_1<::System::Guid>*();
 
+  /// @brief Convert to "::System::IComparable_1<::System::Guid>"
+  constexpr ::System::IComparable_1<::System::Guid>* i___System__IComparable_1___System__Guid_();
+
   /// @brief Convert operator to "::System::IEquatable_1<::System::Guid>"
   constexpr operator ::System::IEquatable_1<::System::Guid>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::System::Guid>"
+  constexpr ::System::IEquatable_1<::System::Guid>* i___System__IEquatable_1___System__Guid_();
+
   /// @brief Convert operator to "::System::ISpanFormattable"
   constexpr operator ::System::ISpanFormattable*();
+
+  /// @brief Convert to "::System::ISpanFormattable"
+  constexpr ::System::ISpanFormattable* i___System__ISpanFormattable();
 
   static inline void setStaticF_Empty(::System::Guid value);
 
@@ -450,8 +464,7 @@ public:
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* provider);
 
   /// @brief Method TryFormat, addr 0x25a8234, size 0x424, virtual false, abstract: false, final false
-  /// @param format: ::System::ReadOnlySpan_1<char16_t> (default: {})
-  inline bool TryFormat(::System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten, ::System::ReadOnlySpan_1<char16_t> format = {});
+  inline bool TryFormat(::System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten, ::System::ReadOnlySpan_1<char16_t> format);
 
   /// @brief Method System.ISpanFormattable.TryFormat, addr 0x25a8658, size 0x4, virtual true, abstract: false, final true
   inline bool System_ISpanFormattable_TryFormat(::System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten, ::System::ReadOnlySpan_1<char16_t> format, ::System::IFormatProvider* provider);
@@ -535,7 +548,7 @@ static_assert(offsetof(::System::Guid, _k) == 0xf, "Offset mismatch!");
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2403)), TypeDefinitionIndex(TypeDefinitionIndex(2404))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2404)), TypeDefinitionIndex(TypeDefinitionIndex(2403))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2405))
 // CS Name: ::Guid::GuidResult
 struct CORDL_TYPE __Guid__GuidResult {

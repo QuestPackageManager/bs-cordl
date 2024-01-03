@@ -3,11 +3,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IDeliveryEventListener)
-namespace System {
-class Object;
-}
 namespace LiteNetLib {
 class NetPeer;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace LiteNetLib {

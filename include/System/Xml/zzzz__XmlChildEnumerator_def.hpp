@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(XmlChildEnumerator)
-namespace System::Xml {
-class XmlNode;
-}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System::Xml {
+class XmlNode;
 }
 namespace System {
 class Object;
@@ -44,6 +44,9 @@ public:
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr ::System::Xml::XmlNode*& __get_container();
 

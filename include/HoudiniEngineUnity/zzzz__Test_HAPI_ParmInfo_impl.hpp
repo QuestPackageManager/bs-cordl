@@ -2,8 +2,8 @@
 #include "HoudiniEngineUnity/zzzz__HAPI_ParmInfo_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__Test_HAPI_ParmInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_ParmInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::Test_HAPI_ParmInfo._ctor
 template <>
 
@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x34;
   constexpr static std::size_t addrs = 0x21e39e4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::Test_HAPI_ParmInfo*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HAPI_ParmInfo>::get() })));
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x78c;
   constexpr static std::size_t addrs = 0x21e3a18;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::Test_HAPI_ParmInfo*>::get(), "IsEquivalentTo", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::Test_HAPI_ParmInfo*>::get() })));
@@ -36,6 +36,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_ParmInfo*>"
 constexpr HoudiniEngineUnity::Test_HAPI_ParmInfo::operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_ParmInfo*>*() noexcept {
+  return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_ParmInfo*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_ParmInfo*>"
+constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_ParmInfo*>*
+HoudiniEngineUnity::Test_HAPI_ParmInfo::i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_HAPI_ParmInfo__() noexcept {
   return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_ParmInfo*>*>(static_cast<void*>(this));
 }
 constexpr ::HoudiniEngineUnity::HAPI_ParmInfo& HoudiniEngineUnity::Test_HAPI_ParmInfo::__get_self() {

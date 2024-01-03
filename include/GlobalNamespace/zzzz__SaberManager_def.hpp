@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(SaberManager)
 namespace GlobalNamespace {
-class __SaberManager__InitData;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace GlobalNamespace {
 struct SaberType;
 }
 namespace GlobalNamespace {
 class Saber;
+}
+namespace GlobalNamespace {
+class __SaberManager__InitData;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__SaberManager__InitData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15036))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15036)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5295))
 // CS Name: ::SaberManager::InitData*
 class CORDL_TYPE __SaberManager__InitData : public ::System::Object {
@@ -59,8 +59,7 @@ public:
   static inline ::GlobalNamespace::__SaberManager__InitData* New_ctor(bool oneSaberMode, ::GlobalNamespace::SaberType oneSaberType);
 
   /// @brief Method .ctor, addr 0x22640f8, size 0x30, virtual false, abstract: false, final false
-  /// @param oneSaberType: ::GlobalNamespace::SaberType (default: static_cast<int32_t>(0x0))
-  inline void _ctor(bool oneSaberMode, ::GlobalNamespace::SaberType oneSaberType = static_cast<int32_t>(0x0));
+  inline void _ctor(bool oneSaberMode, ::GlobalNamespace::SaberType oneSaberType);
 
   // Ctor Parameters [CppParam { name: "", ty: "__SaberManager__InitData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

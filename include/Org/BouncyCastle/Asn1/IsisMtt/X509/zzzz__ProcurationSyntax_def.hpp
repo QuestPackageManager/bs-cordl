@@ -8,20 +8,20 @@ CORDL_MODULE_EXPORT(ProcurationSyntax)
 namespace Org::BouncyCastle::Asn1::X500 {
 class DirectoryString;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
-}
-namespace System {
-class Object;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class IssuerSerial;
 }
 namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {

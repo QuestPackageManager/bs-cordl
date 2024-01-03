@@ -10,16 +10,13 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(BipedReferences)
 namespace RootMotion {
-struct __BipedNaming__BoneType;
+struct __BipedNaming__BoneSide;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace RootMotion {
+struct __BipedNaming__BoneType;
 }
 namespace RootMotion {
 struct __BipedReferences__AutoDetectParams;
-}
-namespace UnityEngine {
-class Transform;
 }
 namespace UnityEngine {
 class Animator;
@@ -27,8 +24,11 @@ class Animator;
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace RootMotion {
-struct __BipedNaming__BoneSide;
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion {
@@ -261,8 +261,7 @@ public:
   inline bool IsEmpty(bool includeRoot);
 
   /// @brief Method Contains, addr 0x1239aac, size 0x390, virtual true, abstract: false, final false
-  /// @param ignoreRoot: bool (default: false)
-  inline bool Contains(::UnityEngine::Transform* t, bool ignoreRoot = false);
+  inline bool Contains(::UnityEngine::Transform* t, bool ignoreRoot);
 
   /// @brief Method AutoDetectReferences, addr 0x1239e3c, size 0x1f8, virtual false, abstract: false, final false
   static inline bool AutoDetectReferences(ByRef<::RootMotion::BipedReferences*> references, ::UnityEngine::Transform* root, ::RootMotion::__BipedReferences__AutoDetectParams autoDetectParams);

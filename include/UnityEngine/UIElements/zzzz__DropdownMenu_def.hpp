@@ -6,20 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DropdownMenu)
-namespace UnityEngine::UIElements {
-class DropdownMenuAction;
-}
-namespace UnityEngine::UIElements {
-struct __DropdownMenuAction__Status;
-}
-namespace UnityEngine::UIElements {
-class DropdownMenuItem;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace UnityEngine::UIElements {
-class DropdownMenuEventInfo;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -31,7 +19,19 @@ namespace System {
 class Object;
 }
 namespace UnityEngine::UIElements {
+class DropdownMenuAction;
+}
+namespace UnityEngine::UIElements {
+class DropdownMenuEventInfo;
+}
+namespace UnityEngine::UIElements {
+class DropdownMenuItem;
+}
+namespace UnityEngine::UIElements {
 class EventBase;
+}
+namespace UnityEngine::UIElements {
+struct __DropdownMenuAction__Status;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -71,10 +71,8 @@ public:
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>* MenuItems();
 
   /// @brief Method AppendAction, addr 0x2e0860c, size 0x104, virtual false, abstract: false, final false
-  /// @param userData: ::System::Object* (default: nullptr)
   inline void AppendAction(::StringW actionName, ::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction*>* action,
-                           ::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::__DropdownMenuAction__Status>* actionStatusCallback,
-                           ::System::Object* userData = nullptr);
+                           ::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::__DropdownMenuAction__Status>* actionStatusCallback, ::System::Object* userData);
 
   /// @brief Method InsertSeparator, addr 0x2e08710, size 0x140, virtual false, abstract: false, final false
   inline void InsertSeparator(::StringW subMenuPath, int32_t atIndex);

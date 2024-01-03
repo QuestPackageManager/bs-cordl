@@ -25,6 +25,9 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::ILayoutController"
   constexpr operator ::UnityEngine::UI::ILayoutController*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::UI::ILayoutController"
+  constexpr ::UnityEngine::UI::ILayoutController* i___UnityEngine__UI__ILayoutController() noexcept;
+
   // Ctor Parameters [CppParam { name: "", ty: "ILayoutSelfController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ILayoutSelfController(ILayoutSelfController&&) = delete;

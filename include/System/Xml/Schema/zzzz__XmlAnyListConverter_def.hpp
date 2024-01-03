@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__XmlListConverter_def.hpp"
 CORDL_MODULE_EXPORT(XmlAnyListConverter)
 namespace System::Xml::Schema {
-class XmlValueConverter;
+class XmlBaseConverter;
 }
 namespace System::Xml::Schema {
-class XmlBaseConverter;
+class XmlValueConverter;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;

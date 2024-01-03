@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsProcessableInputStream_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsReadable_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsProcessable_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsReadable_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Cms::CmsProcessableInputStream._ctor
 template <>
@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x11e444c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsProcessableInputStream*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::Stream*>::get() })));
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x11e5310;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsProcessableInputStream*>::get(),
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0x11e5330;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsProcessableInputStream*>::get(),
@@ -60,7 +60,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x11e53b8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsProcessableInputStream*>::get(),
@@ -76,7 +76,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xf8;
   constexpr static std::size_t addrs = 0x11e53c4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsProcessableInputStream*>::get(),
@@ -88,8 +88,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 constexpr Org::BouncyCastle::Cms::CmsProcessableInputStream::operator ::Org::BouncyCastle::Cms::CmsProcessable*() noexcept {
   return static_cast<::Org::BouncyCastle::Cms::CmsProcessable*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::Org::BouncyCastle::Cms::CmsProcessable"
+constexpr ::Org::BouncyCastle::Cms::CmsProcessable* Org::BouncyCastle::Cms::CmsProcessableInputStream::i___Org__BouncyCastle__Cms__CmsProcessable() noexcept {
+  return static_cast<::Org::BouncyCastle::Cms::CmsProcessable*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsReadable"
 constexpr Org::BouncyCastle::Cms::CmsProcessableInputStream::operator ::Org::BouncyCastle::Cms::CmsReadable*() noexcept {
+  return static_cast<::Org::BouncyCastle::Cms::CmsReadable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Cms::CmsReadable"
+constexpr ::Org::BouncyCastle::Cms::CmsReadable* Org::BouncyCastle::Cms::CmsProcessableInputStream::i___Org__BouncyCastle__Cms__CmsReadable() noexcept {
   return static_cast<::Org::BouncyCastle::Cms::CmsReadable*>(static_cast<void*>(this));
 }
 constexpr ::System::IO::Stream*& Org::BouncyCastle::Cms::CmsProcessableInputStream::__get_input() {

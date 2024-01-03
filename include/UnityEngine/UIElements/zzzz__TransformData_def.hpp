@@ -11,25 +11,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TransformData)
 namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
 class Object;
 }
 namespace UnityEngine::UIElements {
-struct TransformOrigin;
-}
-namespace UnityEngine::UIElements {
 template <typename T> class IStyleDataGroup_1;
-}
-namespace System {
-template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::UIElements {
 struct Rotate;
 }
 namespace UnityEngine::UIElements {
-struct Translate;
+struct Scale;
 }
 namespace UnityEngine::UIElements {
-struct Scale;
+struct TransformOrigin;
+}
+namespace UnityEngine::UIElements {
+struct Translate;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -41,16 +41,22 @@ MARK_VAL_T(::UnityEngine::UIElements::TransformData);
 // SizeInfo { instance_size: 84, native_size: 84, calculated_instance_size: 84, calculated_native_size: 100, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7302)), TypeDefinitionIndex(TypeDefinitionIndex(7295)), TypeDefinitionIndex(TypeDefinitionIndex(7318)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7317))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7359)) CS Name: ::UnityEngine.UIElements::TransformData
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7318)), TypeDefinitionIndex(TypeDefinitionIndex(7317)), TypeDefinitionIndex(TypeDefinitionIndex(7295)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7302))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7359)) CS Name: ::UnityEngine.UIElements::TransformData
 struct CORDL_TYPE TransformData {
 public:
   // Declarations
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransformData>"
   constexpr operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransformData>*();
 
+  /// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransformData>"
+  constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransformData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__TransformData_();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::TransformData>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::TransformData>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::TransformData>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::TransformData>* i___System__IEquatable_1___UnityEngine__UIElements__TransformData_();
 
   /// @brief Method Copy, addr 0x2e843b8, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::TransformData Copy();

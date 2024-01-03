@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(XmlImplementation)
 namespace System::Xml {
-class XmlNameTable;
+class XmlDocument;
 }
 namespace System::Xml {
-class XmlDocument;
+class XmlNameTable;
 }
 // Forward declare root types
 namespace System::Xml {

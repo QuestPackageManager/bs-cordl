@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UriBuilder)
 namespace System {
-class Uri;
+class Object;
 }
 namespace System {
-class Object;
+class Uri;
 }
 // Forward declare root types
 namespace System {

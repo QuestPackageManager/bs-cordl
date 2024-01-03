@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(StaticJumpOffsetYProvider)
 namespace GlobalNamespace {
-class __StaticJumpOffsetYProvider__InitData;
+class IJumpOffsetYProvider;
 }
 namespace GlobalNamespace {
-class IJumpOffsetYProvider;
+class __StaticJumpOffsetYProvider__InitData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -89,6 +89,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IJumpOffsetYProvider"
   constexpr operator ::GlobalNamespace::IJumpOffsetYProvider*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IJumpOffsetYProvider"
+  constexpr ::GlobalNamespace::IJumpOffsetYProvider* i___GlobalNamespace__IJumpOffsetYProvider() noexcept;
 
   constexpr ::GlobalNamespace::__StaticJumpOffsetYProvider__InitData*& __get__initData();
 

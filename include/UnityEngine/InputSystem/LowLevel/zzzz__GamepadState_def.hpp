@@ -14,11 +14,11 @@ struct GamepadButton;
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateTypeInfo;
 }
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -56,6 +56,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
+
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo();
 
   constexpr uint32_t& __get_buttons();
 
@@ -97,8 +100,7 @@ public:
   inline void _ctor(::ArrayW<::UnityEngine::InputSystem::LowLevel::GamepadButton, ::Array<::UnityEngine::InputSystem::LowLevel::GamepadButton>*> buttons);
 
   /// @brief Method WithButton, addr 0x2ae87bc, size 0x34, virtual false, abstract: false, final false
-  /// @param value: bool (default: true)
-  inline ::UnityEngine::InputSystem::LowLevel::GamepadState WithButton(::UnityEngine::InputSystem::LowLevel::GamepadButton button, bool value = true);
+  inline ::UnityEngine::InputSystem::LowLevel::GamepadState WithButton(::UnityEngine::InputSystem::LowLevel::GamepadButton button, bool value);
 
   // Ctor Parameters [CppParam { name: "buttons", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "leftStick", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None },
   // CppParam { name: "rightStick", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "leftTrigger", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:

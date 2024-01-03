@@ -9,14 +9,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRCustomFace)
-namespace System {
-template <typename T1, typename T2> struct ValueTuple_2;
-}
 namespace GlobalNamespace {
 struct __OVRCustomFace__RetargetingType;
 }
 namespace GlobalNamespace {
 struct __OVRFaceExpressions__FaceExpression;
+}
+namespace System {
+template <typename T1, typename T2> struct ValueTuple_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -82,7 +82,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRCustomFace__RetargetingType, valu
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 61, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8107)), TypeDefinitionIndex(TypeDefinitionIndex(8087))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8087)), TypeDefinitionIndex(TypeDefinitionIndex(8107))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8088))
 // CS Name: ::OVRCustomFace*
 class CORDL_TYPE OVRCustomFace : public ::GlobalNamespace::OVRFace {

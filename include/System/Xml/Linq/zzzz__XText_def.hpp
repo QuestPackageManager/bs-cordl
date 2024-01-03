@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/Xml/Linq/zzzz__XNode_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XText)
-namespace System::Xml {
-struct XmlNodeType;
-}
 namespace System::Text {
 class StringBuilder;
 }
 namespace System::Xml::Linq {
 class XNode;
+}
+namespace System::Xml {
+struct XmlNodeType;
 }
 namespace System::Xml {
 class XmlWriter;

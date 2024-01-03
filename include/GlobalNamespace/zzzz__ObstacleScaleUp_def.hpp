@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(ObstacleScaleUp)
 namespace GlobalNamespace {
 class ObstacleControllerBase;
 }
-namespace UnityEngine {
-class Transform;
-}
 namespace GlobalNamespace {
 class ObstacleController;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {

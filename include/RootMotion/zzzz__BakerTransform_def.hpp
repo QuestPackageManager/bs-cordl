@@ -10,19 +10,19 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BakerTransform)
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
 class AnimationClip;
 }
 namespace UnityEngine {
-class Transform;
+class AnimationCurve;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
-class AnimationCurve;
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion {
@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::RootMotion::BakerTransform);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 124, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12478))
 // CS Name: ::RootMotion::BakerTransform*
 class CORDL_TYPE BakerTransform : public ::System::Object {

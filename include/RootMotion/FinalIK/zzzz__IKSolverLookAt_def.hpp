@@ -10,9 +10,6 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IKSolverLookAt)
-namespace UnityEngine {
-struct Vector3;
-}
 namespace RootMotion::FinalIK {
 class __IKSolverLookAt__LookAtBone;
 }
@@ -24,6 +21,9 @@ class AnimationCurve;
 }
 namespace UnityEngine {
 class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -284,14 +284,7 @@ public:
   inline void SetLookAtWeight(float_t weight, float_t bodyWeight, float_t headWeight, float_t eyesWeight, float_t clampWeight);
 
   /// @brief Method SetLookAtWeight, addr 0x126d0c4, size 0x70, virtual false, abstract: false, final false
-  /// @param bodyWeight: float_t (default: 0.0)
-  /// @param headWeight: float_t (default: 1.0)
-  /// @param eyesWeight: float_t (default: 0.5)
-  /// @param clampWeight: float_t (default: 0.5)
-  /// @param clampWeightHead: float_t (default: 0.5)
-  /// @param clampWeightEyes: float_t (default: 0.3)
-  inline void SetLookAtWeight(float_t weight, float_t bodyWeight = 0.0, float_t headWeight = 1.0, float_t eyesWeight = 0.5, float_t clampWeight = 0.5, float_t clampWeightHead = 0.5,
-                              float_t clampWeightEyes = 0.3);
+  inline void SetLookAtWeight(float_t weight, float_t bodyWeight, float_t headWeight, float_t eyesWeight, float_t clampWeight, float_t clampWeightHead, float_t clampWeightEyes);
 
   /// @brief Method StoreDefaultLocalState, addr 0x126d134, size 0x118, virtual true, abstract: false, final false
   inline void StoreDefaultLocalState();

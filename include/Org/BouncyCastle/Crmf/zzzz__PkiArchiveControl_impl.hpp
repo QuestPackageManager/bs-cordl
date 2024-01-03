@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crmf/zzzz__PkiArchiveControl_def.hpp"
+#include "Org/BouncyCastle/Asn1/Crmf/zzzz__PkiArchiveOptions_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsEnvelopedData_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "Org/BouncyCastle/Asn1/Crmf/zzzz__PkiArchiveOptions_def.hpp"
 #include "Org/BouncyCastle/Crmf/zzzz__IControl_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crmf::PkiArchiveControl._ctor
 template <>
@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x120e268;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crmf::PkiArchiveControl*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions*>::get() })));
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x12117d0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crmf::PkiArchiveControl*>::get(), "get_Type",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -43,7 +43,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x1211828;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crmf::PkiArchiveControl*>::get(),
                                                                                "get_Value", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -57,7 +57,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x1211830;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crmf::PkiArchiveControl*>::get(),
                                                                                "get_ArchiveType", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -71,7 +71,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x1211850;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crmf::PkiArchiveControl*>::get(),
                                                                                "get_EnvelopedData", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -85,7 +85,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x264;
   constexpr static std::size_t addrs = 0x1211894;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crmf::PkiArchiveControl*>::get(),
                                                                                "GetEnvelopedData", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -93,6 +93,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::Org::BouncyCastle::Crmf::IControl"
 constexpr Org::BouncyCastle::Crmf::PkiArchiveControl::operator ::Org::BouncyCastle::Crmf::IControl*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crmf::IControl*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Crmf::IControl"
+constexpr ::Org::BouncyCastle::Crmf::IControl* Org::BouncyCastle::Crmf::PkiArchiveControl::i___Org__BouncyCastle__Crmf__IControl() noexcept {
   return static_cast<::Org::BouncyCastle::Crmf::IControl*>(static_cast<void*>(this));
 }
 constexpr ::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions*& Org::BouncyCastle::Crmf::PkiArchiveControl::__get_pkiArchiveOptions() {

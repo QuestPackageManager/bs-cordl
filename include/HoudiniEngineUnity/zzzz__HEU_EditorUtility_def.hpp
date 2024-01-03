@@ -12,17 +12,14 @@ CORDL_MODULE_EXPORT(HEU_EditorUtility)
 namespace HoudiniEngineUnity {
 class HEU_HoudiniAssetRoot;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace HoudiniEngineUnity {
+struct __HEU_EditorUtility__HEU_ReplacePrefabOptions;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
 namespace UnityEngine {
-class Object;
-}
-namespace UnityEngine {
-struct Matrix4x4;
+class Component;
 }
 namespace UnityEngine {
 class GameObject;
@@ -31,13 +28,16 @@ namespace UnityEngine {
 class Material;
 }
 namespace UnityEngine {
-class Transform;
-}
-namespace HoudiniEngineUnity {
-struct __HEU_EditorUtility__HEU_ReplacePrefabOptions;
+struct Matrix4x4;
 }
 namespace UnityEngine {
-class Component;
+class Object;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -199,12 +199,10 @@ public:
   static inline bool IsEditorNotInPlayModeAndNotGoingToPlayMode();
 
   /// @brief Method DisplayDialog, addr 0x21b2320, size 0x6c, virtual false, abstract: false, final false
-  /// @param cancel: ::StringW (default: u"")
-  static inline bool DisplayDialog(::StringW title, ::StringW message, ::StringW ok, ::StringW cancel = u"");
+  static inline bool DisplayDialog(::StringW title, ::StringW message, ::StringW ok, ::StringW cancel);
 
   /// @brief Method DisplayErrorDialog, addr 0x21b238c, size 0x84, virtual false, abstract: false, final false
-  /// @param cancel: ::StringW (default: u"")
-  static inline bool DisplayErrorDialog(::StringW title, ::StringW message, ::StringW ok, ::StringW cancel = u"");
+  static inline bool DisplayErrorDialog(::StringW title, ::StringW message, ::StringW ok, ::StringW cancel);
 
   /// @brief Method RevealInFinder, addr 0x21b2410, size 0x4, virtual false, abstract: false, final false
   static inline void RevealInFinder(::StringW path);

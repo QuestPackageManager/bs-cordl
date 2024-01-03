@@ -40,6 +40,9 @@ public:
   /// @brief Convert operator to "::UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>"
   constexpr operator ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>"
+  constexpr ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>* i___UnityEngine__ProBuilder__KdTree__ITypeMath_1_T_() noexcept;
+
   /// @brief Method Compare, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Compare(T a, T b);
 

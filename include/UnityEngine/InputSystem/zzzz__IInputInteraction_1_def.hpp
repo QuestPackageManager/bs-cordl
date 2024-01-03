@@ -27,6 +27,9 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::IInputInteraction"
   constexpr operator ::UnityEngine::InputSystem::IInputInteraction*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::InputSystem::IInputInteraction"
+  constexpr ::UnityEngine::InputSystem::IInputInteraction* i___UnityEngine__InputSystem__IInputInteraction() noexcept;
+
   // Ctor Parameters [CppParam { name: "", ty: "IInputInteraction_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IInputInteraction_1(IInputInteraction_1&&) = delete;

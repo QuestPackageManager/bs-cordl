@@ -10,17 +10,17 @@ CORDL_MODULE_EXPORT(MenuLightsManager)
 namespace GlobalNamespace {
 class LightWithIdManager;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine {
-struct Color;
+namespace GlobalNamespace {
+class MenuLightsPresetSO;
 }
 namespace GlobalNamespace {
 class __MenuLightsManager___Start_d__4;
 }
-namespace GlobalNamespace {
-class MenuLightsPresetSO;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class IDisposable;
@@ -28,8 +28,8 @@ class IDisposable;
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -67,11 +67,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -210,8 +219,7 @@ public:
   inline ::UnityEngine::Color CurrentColorForID(int32_t lightId);
 
   /// @brief Method SetColorsFromPreset, addr 0x239a390, size 0x164, virtual false, abstract: false, final false
-  /// @param interpolationFactor: float_t (default: 1.0)
-  inline bool SetColorsFromPreset(::GlobalNamespace::MenuLightsPresetSO* preset, float_t interpolationFactor = 1.0);
+  inline bool SetColorsFromPreset(::GlobalNamespace::MenuLightsPresetSO* preset, float_t interpolationFactor);
 
   /// @brief Method RefreshLightsDictForPreset, addr 0x239a574, size 0xe0, virtual false, abstract: false, final false
   inline void RefreshLightsDictForPreset(::GlobalNamespace::MenuLightsPresetSO* preset);

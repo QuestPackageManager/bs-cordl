@@ -10,19 +10,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TaskExtensions)
 namespace GlobalNamespace {
-template <typename T> class __TaskExtensions____c__DisplayClass0_0_1;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace GlobalNamespace {
 template <typename T> struct __TaskExtensions___WaitForTask_d__1_1;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+namespace GlobalNamespace {
+template <typename T> class __TaskExtensions____c__DisplayClass0_0_1;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class TaskCompletionSource_1;
+namespace System::Runtime::CompilerServices {
+struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -30,8 +24,14 @@ class IAsyncStateMachine;
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
 }
-namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+namespace System::Threading::Tasks {
+template <typename TResult> class TaskCompletionSource_1;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -115,13 +115,16 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 104
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(12990)) CS Name: ::TaskExtensions::<WaitForTask>d__1`1<T>
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 104 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12990)) CS Name: ::TaskExtensions::<WaitForTask>d__1`1<T>
 struct CORDL_TYPE __TaskExtensions___WaitForTask_d__1_1 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();

@@ -12,10 +12,10 @@ namespace GlobalNamespace {
 class BasicSpectrogramData;
 }
 namespace UnityEngine {
-struct Vector3;
+class Transform;
 }
 namespace UnityEngine {
-class Transform;
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {

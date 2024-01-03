@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SubsystemDescriptorWithProvider)
 namespace UnityEngine {
-class ISubsystem;
+class ISubsystemDescriptor;
 }
 namespace UnityEngine {
-class ISubsystemDescriptor;
+class ISubsystem;
 }
 // Forward declare root types
 namespace UnityEngine::SubsystemsImplementation {
@@ -34,6 +34,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::ISubsystemDescriptor"
   constexpr operator ::UnityEngine::ISubsystemDescriptor*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::ISubsystemDescriptor"
+  constexpr ::UnityEngine::ISubsystemDescriptor* i___UnityEngine__ISubsystemDescriptor() noexcept;
 
   constexpr ::StringW& __get__id_k__BackingField();
 

@@ -43,6 +43,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IMultiplayerObservable"
   constexpr operator ::GlobalNamespace::IMultiplayerObservable*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IMultiplayerObservable"
+  constexpr ::GlobalNamespace::IMultiplayerObservable* i___GlobalNamespace__IMultiplayerObservable() noexcept;
+
   constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __get__multiplayerSessionManager();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __get__multiplayerSessionManager() const;

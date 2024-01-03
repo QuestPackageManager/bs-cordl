@@ -12,38 +12,38 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRVignette)
-namespace UnityEngine {
-class Camera;
-}
 namespace GlobalNamespace {
 struct __OVRVignette__FalloffType;
 }
-namespace UnityEngine {
-class Shader;
+namespace GlobalNamespace {
+struct __OVRVignette__MeshComplexityLevel;
+}
+namespace UnityEngine::Rendering {
+struct ScriptableRenderContext;
 }
 namespace UnityEngine {
-class MeshFilter;
+class Camera;
 }
 namespace UnityEngine {
 class Material;
 }
 namespace UnityEngine {
-struct __Camera__StereoscopicEye;
+class MeshFilter;
+}
+namespace UnityEngine {
+class MeshRenderer;
 }
 namespace UnityEngine {
 class Mesh;
 }
 namespace UnityEngine {
-struct Vector4;
-}
-namespace GlobalNamespace {
-struct __OVRVignette__MeshComplexityLevel;
+class Shader;
 }
 namespace UnityEngine {
-class MeshRenderer;
+struct Vector4;
 }
-namespace UnityEngine::Rendering {
-struct ScriptableRenderContext;
+namespace UnityEngine {
+struct __Camera__StereoscopicEye;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -175,8 +175,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRVignette__FalloffType, value__) =
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 186, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8186)), TypeDefinitionIndex(TypeDefinitionIndex(8185)), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10251))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8187)) CS Name: ::OVRVignette*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8186)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(8185)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10225))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8187)) CS Name: ::OVRVignette*
 class CORDL_TYPE OVRVignette : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations

@@ -8,68 +8,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(JContainer)
-namespace Newtonsoft::Json {
-class JsonWriter;
+namespace Newtonsoft::Json::Linq {
+template <typename T> struct JEnumerable_1;
+}
+namespace Newtonsoft::Json::Linq {
+class JToken;
 }
 namespace Newtonsoft::Json::Linq {
 class JsonLoadSettings;
 }
 namespace Newtonsoft::Json::Linq {
-template <typename T> struct JEnumerable_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
-}
-namespace System::Collections {
-class IList;
-}
-namespace System {
-class Array;
-}
-namespace Newtonsoft::Json::Linq {
 class JsonMergeSettings;
-}
-namespace Newtonsoft::Json::Linq {
-class JToken;
-}
-namespace System::ComponentModel {
-struct ListSortDirection;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace System::ComponentModel {
-class PropertyDescriptor;
-}
-namespace System::ComponentModel {
-class ListChangedEventHandler;
-}
-namespace System {
-class Object;
-}
-namespace System::ComponentModel {
-class ListChangedEventArgs;
-}
-namespace System::ComponentModel {
-class PropertyDescriptorCollection;
-}
-namespace System::ComponentModel {
-class ITypedList;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::ComponentModel {
-class AddingNewEventHandler;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::ComponentModel {
-class AddingNewEventArgs;
-}
-namespace System::Collections {
-class ICollection;
 }
 namespace Newtonsoft::Json::Linq {
 class __JContainer___GetDescendants_d__29;
@@ -77,17 +26,68 @@ class __JContainer___GetDescendants_d__29;
 namespace Newtonsoft::Json {
 class JsonReader;
 }
-namespace System::ComponentModel {
-class IBindingList;
+namespace Newtonsoft::Json {
+class JsonWriter;
+}
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
 }
+namespace System::Collections {
+class IList;
+}
+namespace System::ComponentModel {
+class AddingNewEventArgs;
+}
+namespace System::ComponentModel {
+class AddingNewEventHandler;
+}
+namespace System::ComponentModel {
+class IBindingList;
+}
+namespace System::ComponentModel {
+class ITypedList;
+}
+namespace System::ComponentModel {
+class ListChangedEventArgs;
+}
+namespace System::ComponentModel {
+class ListChangedEventHandler;
+}
+namespace System::ComponentModel {
+struct ListSortDirection;
+}
+namespace System::ComponentModel {
+class PropertyDescriptorCollection;
+}
+namespace System::ComponentModel {
+class PropertyDescriptor;
+}
+namespace System {
+class Array;
+}
 namespace System {
 class IDisposable;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {
@@ -144,17 +144,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* i___System__Collections__Generic__IEnumerable_1___Newtonsoft__Json__Linq__JToken__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* i___System__Collections__Generic__IEnumerator_1___Newtonsoft__Json__Linq__JToken__() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -378,26 +393,50 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>"
   constexpr operator ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>"
+  constexpr ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>* i___System__Collections__Generic__IList_1___Newtonsoft__Json__Linq__JToken__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<::Newtonsoft::Json::Linq::JToken*>"
   constexpr operator ::System::Collections::Generic::ICollection_1<::Newtonsoft::Json::Linq::JToken*>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::ICollection_1<::Newtonsoft::Json::Linq::JToken*>"
+  constexpr ::System::Collections::Generic::ICollection_1<::Newtonsoft::Json::Linq::JToken*>* i___System__Collections__Generic__ICollection_1___Newtonsoft__Json__Linq__JToken__() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* i___System__Collections__Generic__IEnumerable_1___Newtonsoft__Json__Linq__JToken__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::ComponentModel::ITypedList"
   constexpr operator ::System::ComponentModel::ITypedList*() noexcept;
 
+  /// @brief Convert to "::System::ComponentModel::ITypedList"
+  constexpr ::System::ComponentModel::ITypedList* i___System__ComponentModel__ITypedList() noexcept;
+
   /// @brief Convert operator to "::System::ComponentModel::IBindingList"
   constexpr operator ::System::ComponentModel::IBindingList*() noexcept;
+
+  /// @brief Convert to "::System::ComponentModel::IBindingList"
+  constexpr ::System::ComponentModel::IBindingList* i___System__ComponentModel__IBindingList() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IList"
   constexpr operator ::System::Collections::IList*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IList"
+  constexpr ::System::Collections::IList* i___System__Collections__IList() noexcept;
+
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
+
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
 
   constexpr ::System::ComponentModel::ListChangedEventHandler*& __get__listChanged();
 

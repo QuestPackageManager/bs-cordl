@@ -4,9 +4,6 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(BaseStateTransition)
-namespace Tweening {
-class TimeTweeningManager;
-}
 namespace GlobalNamespace {
 class BaseTransitionSO;
 }
@@ -15,6 +12,9 @@ class SelectableStateController;
 }
 namespace GlobalNamespace {
 struct __SelectableStateController__ViewState;
+}
+namespace Tweening {
+class TimeTweeningManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {

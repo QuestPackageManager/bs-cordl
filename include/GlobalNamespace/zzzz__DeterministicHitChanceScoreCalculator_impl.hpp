@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x23ddfb8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DeterministicHitChanceScoreCalculator*>::get(), ".ctor",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x23ddfe0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DeterministicHitChanceScoreCalculator*>::get(), "GetScoreForNote",
                                     std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MockNoteData*>::get() })));
@@ -35,6 +35,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::GlobalNamespace::IMockPlayerScoreCalculator"
 constexpr GlobalNamespace::DeterministicHitChanceScoreCalculator::operator ::GlobalNamespace::IMockPlayerScoreCalculator*() noexcept {
+  return static_cast<::GlobalNamespace::IMockPlayerScoreCalculator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IMockPlayerScoreCalculator"
+constexpr ::GlobalNamespace::IMockPlayerScoreCalculator* GlobalNamespace::DeterministicHitChanceScoreCalculator::i___GlobalNamespace__IMockPlayerScoreCalculator() noexcept {
   return static_cast<::GlobalNamespace::IMockPlayerScoreCalculator*>(static_cast<void*>(this));
 }
 constexpr float_t& GlobalNamespace::DeterministicHitChanceScoreCalculator::__get__hitChance() {

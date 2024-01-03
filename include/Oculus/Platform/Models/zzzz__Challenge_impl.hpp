@@ -4,8 +4,8 @@
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__Challenge_def.hpp"
-#include "Oculus/Platform/Models/zzzz__UserList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__Leaderboard_def.hpp"
+#include "Oculus/Platform/Models/zzzz__UserList_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::Models::Challenge._ctor
 template <>
 
@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x228;
   constexpr static std::size_t addrs = 0x2704fb0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Models::Challenge*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));

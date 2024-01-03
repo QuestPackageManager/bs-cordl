@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(TaskSchedulerException)
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
-namespace System {
-class Exception;
-}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {

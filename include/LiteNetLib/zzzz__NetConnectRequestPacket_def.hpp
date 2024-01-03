@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetConnectRequestPacket)
 namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace System::Net {
-class SocketAddress;
+class NetDataReader;
 }
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class NetDataWriter;
 }
 namespace LiteNetLib {
 class NetPacket;
+}
+namespace System::Net {
+class SocketAddress;
 }
 // Forward declare root types
 namespace LiteNetLib {

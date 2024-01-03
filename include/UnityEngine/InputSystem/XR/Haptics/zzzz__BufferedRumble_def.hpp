@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BufferedRumble)
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
 namespace UnityEngine::InputSystem::XR::Haptics {
 struct HapticCapabilities;
+}
+namespace UnityEngine::InputSystem {
+class InputDevice;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XR::Haptics {

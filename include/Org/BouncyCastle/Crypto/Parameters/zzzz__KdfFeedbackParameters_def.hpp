@@ -56,6 +56,9 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDerivationParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::IDerivationParameters*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationParameters"
+  constexpr ::Org::BouncyCastle::Crypto::IDerivationParameters* i___Org__BouncyCastle__Crypto__IDerivationParameters() noexcept;
+
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_ki();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_ki() const;

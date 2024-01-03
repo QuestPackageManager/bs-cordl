@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(PkixAttrCertChecker)
+namespace Org::BouncyCastle::Pkix {
+class PkixCertPath;
+}
 namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
 }
 namespace Org::BouncyCastle::X509 {
 class IX509AttributeCertificate;
-}
-namespace Org::BouncyCastle::Pkix {
-class PkixCertPath;
 }
 namespace System::Collections {
 class ICollection;

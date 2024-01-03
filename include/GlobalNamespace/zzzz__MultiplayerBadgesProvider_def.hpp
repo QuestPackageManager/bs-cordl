@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerBadgesProvider)
 namespace GlobalNamespace {
-class MultiplayerPlayerResultsData;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
-}
-namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 class MultiplayerBadgesModelSO;
+}
+namespace GlobalNamespace {
+class MultiplayerPlayerResultsData;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
 }
 namespace GlobalNamespace {
 class __MultiplayerBadgesProvider____c;

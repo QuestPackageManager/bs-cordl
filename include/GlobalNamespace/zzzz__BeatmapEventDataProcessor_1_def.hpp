@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(BeatmapEventDataProcessor_1)
 namespace GlobalNamespace {
 class BeatmapDataItem;
 }
-namespace System::Collections::Generic {
-template <typename T> class LinkedListNode_1;
-}
 namespace GlobalNamespace {
 template <typename T> class ISortedListItemProcessor_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class LinkedListNode_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -33,6 +33,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapDataItem*>"
   constexpr operator ::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapDataItem*>*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapDataItem*>"
+  constexpr ::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapDataItem*>* i___GlobalNamespace__ISortedListItemProcessor_1___GlobalNamespace__BeatmapDataItem__() noexcept;
 
   /// @brief Method ProcessInsertedData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void ProcessInsertedData(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* insertedNode);

@@ -7,52 +7,52 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SurfaceTopology)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
-namespace UnityEngine::ProBuilder::MeshOperations {
-class __SurfaceTopology____c;
-}
-namespace UnityEngine::ProBuilder {
-struct Edge;
-}
-namespace UnityEngine::ProBuilder {
-struct WindingOrder;
-}
-namespace UnityEngine::ProBuilder {
-class ActionResult;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace UnityEngine::ProBuilder {
-class WingedEdge;
-}
-namespace UnityEngine::ProBuilder {
-class Face;
-}
-namespace UnityEngine::ProBuilder {
-class FaceRebuildData;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::ProBuilder {
-class Vertex;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template <typename T> class IList_1;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine::ProBuilder::MeshOperations {
+class __SurfaceTopology____c;
+}
+namespace UnityEngine::ProBuilder {
+class ActionResult;
+}
+namespace UnityEngine::ProBuilder {
+struct Edge;
+}
+namespace UnityEngine::ProBuilder {
+class FaceRebuildData;
+}
+namespace UnityEngine::ProBuilder {
+class Face;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
+}
+namespace UnityEngine::ProBuilder {
+class Vertex;
+}
+namespace UnityEngine::ProBuilder {
+struct WindingOrder;
+}
+namespace UnityEngine::ProBuilder {
+class WingedEdge;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::MeshOperations {

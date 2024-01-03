@@ -15,8 +15,8 @@ class IStreamGenerator;
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class __PgpCompressedDataGenerator__SafeCBZip2OutputStream;
 }
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class __PgpCompressedDataGenerator__SafeZOutputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgOutputStream;
@@ -24,8 +24,8 @@ class BcpgOutputStream;
 namespace Org::BouncyCastle::Bcpg {
 struct CompressionAlgorithmTag;
 }
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class __PgpCompressedDataGenerator__SafeZOutputStream;
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -145,6 +145,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator"
   constexpr operator ::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator"
+  constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator* i___Org__BouncyCastle__Bcpg__OpenPgp__IStreamGenerator() noexcept;
 
   constexpr ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag& __get_algorithm();
 

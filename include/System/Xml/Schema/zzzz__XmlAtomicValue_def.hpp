@@ -13,7 +13,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlAtomicValue)
 namespace System::Xml::Schema {
+class XmlSchemaType;
+}
+namespace System::Xml::Schema {
+class __XmlAtomicValue__NamespacePrefixForQName;
+}
+namespace System::Xml::Schema {
 struct __XmlAtomicValue__Union;
+}
+namespace System::Xml {
+class IXmlNamespaceResolver;
+}
+namespace System {
+struct DateTime;
 }
 namespace System {
 class ICloneable;
@@ -21,20 +33,8 @@ class ICloneable;
 namespace System {
 class Object;
 }
-namespace System::Xml::Schema {
-class XmlSchemaType;
-}
-namespace System::Xml::Schema {
-class __XmlAtomicValue__NamespacePrefixForQName;
-}
-namespace System::Xml {
-class IXmlNamespaceResolver;
-}
 namespace System {
 class Type;
-}
-namespace System {
-struct DateTime;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -220,6 +220,9 @@ public:
   /// @brief Convert operator to "::System::Xml::IXmlNamespaceResolver"
   constexpr operator ::System::Xml::IXmlNamespaceResolver*() noexcept;
 
+  /// @brief Convert to "::System::Xml::IXmlNamespaceResolver"
+  constexpr ::System::Xml::IXmlNamespaceResolver* i___System__Xml__IXmlNamespaceResolver() noexcept;
+
   constexpr ::StringW& __get_prefix();
 
   constexpr ::StringW const& __get_prefix() const;
@@ -322,6 +325,9 @@ public:
 
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
+
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
   constexpr ::System::Xml::Schema::XmlSchemaType*& __get_xmlType();
 

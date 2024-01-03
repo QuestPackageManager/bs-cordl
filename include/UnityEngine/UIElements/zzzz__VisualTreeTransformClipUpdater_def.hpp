@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::VisualTreeTransformClipUpdater);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6754)), TypeDefinitionIndex(TypeDefinitionIndex(9966))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(6754))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6784))
 // CS Name: ::UnityEngine.UIElements::VisualTreeTransformClipUpdater*
 class CORDL_TYPE VisualTreeTransformClipUpdater : public ::UnityEngine::UIElements::BaseVisualTreeUpdater {

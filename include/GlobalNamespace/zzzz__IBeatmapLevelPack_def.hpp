@@ -37,6 +37,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IAnnotatedBeatmapLevelCollection"
   constexpr operator ::GlobalNamespace::IAnnotatedBeatmapLevelCollection*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IAnnotatedBeatmapLevelCollection"
+  constexpr ::GlobalNamespace::IAnnotatedBeatmapLevelCollection* i___GlobalNamespace__IAnnotatedBeatmapLevelCollection() noexcept;
+
   /// @brief Method get_packID, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_packID();
 

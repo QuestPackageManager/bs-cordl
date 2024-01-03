@@ -12,25 +12,31 @@ namespace Mono::Security::Cryptography {
 class __PKCS8__PrivateKeyInfo;
 }
 namespace Mono::Security::X509 {
+class X509CertificateCollection;
+}
+namespace Mono::Security::X509 {
+class X509Certificate;
+}
+namespace Mono::Security::X509 {
 class __PKCS12__DeriveBytes;
 }
-namespace System::Collections {
-class ArrayList;
+namespace Mono::Security {
+class ASN1;
 }
 namespace Mono::Security {
 class __PKCS7__ContentInfo;
 }
 namespace Mono::Security {
-class ASN1;
+class __PKCS7__EncryptedData;
 }
-namespace System::Security::Cryptography {
-struct DSAParameters;
+namespace System::Collections {
+class ArrayList;
 }
 namespace System::Collections {
 class IDictionary;
 }
-namespace System {
-class Object;
+namespace System::Security::Cryptography {
+struct DSAParameters;
 }
 namespace System::Security::Cryptography {
 class RandomNumberGenerator;
@@ -38,17 +44,11 @@ class RandomNumberGenerator;
 namespace System::Security::Cryptography {
 class SymmetricAlgorithm;
 }
-namespace Mono::Security::X509 {
-class X509Certificate;
-}
 namespace System {
 class ICloneable;
 }
-namespace Mono::Security::X509 {
-class X509CertificateCollection;
-}
-namespace Mono::Security {
-class __PKCS7__EncryptedData;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Mono::Security::X509 {
@@ -264,6 +264,9 @@ public:
 
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
+
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__password();
 

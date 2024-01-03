@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetworkStatisticsState)
-namespace System {
-class IAsyncResult;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class AsyncCallback;
-}
 namespace GlobalNamespace {
 struct NetworkStatisticsDelta;
 }
 namespace GlobalNamespace {
 class __NetworkStatisticsState__NetworkStatisticsUpdateDelegate;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {

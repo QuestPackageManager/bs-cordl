@@ -8,50 +8,50 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(JSONObject)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace OVRSimpleJSON {
-class __JSONObject___get_Children_d__23;
+struct JSONNodeType;
 }
 namespace OVRSimpleJSON {
 class JSONNode;
 }
 namespace OVRSimpleJSON {
-struct JSONNodeType;
+struct JSONTextMode;
 }
 namespace OVRSimpleJSON {
-struct JSONTextMode;
+struct __JSONNode__Enumerator;
 }
 namespace OVRSimpleJSON {
 class __JSONObject____c__DisplayClass21_0;
 }
 namespace OVRSimpleJSON {
-struct __JSONNode__Enumerator;
+class __JSONObject___get_Children_d__23;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System::Text {
-class StringBuilder;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
 namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IEnumerator;
+}
+namespace System::Text {
+class StringBuilder;
 }
 namespace System {
 class IDisposable;
 }
 namespace System {
 class Object;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace OVRSimpleJSON {
@@ -123,8 +123,8 @@ static_assert(offsetof(::OVRSimpleJSON::__JSONObject____c__DisplayClass21_0, ___
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVRSimpleJSON {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8204)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3819), inst: 1429
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3819))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8208)) CS Name: ::JSONObject::<get_Children>d__23*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3819)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3819), inst: 1429
+// }), TypeDefinitionIndex(TypeDefinitionIndex(8204))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8208)) CS Name: ::JSONObject::<get_Children>d__23*
 class CORDL_TYPE __JSONObject___get_Children_d__23 : public ::System::Object {
 public:
   // Declarations
@@ -151,17 +151,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::OVRSimpleJSON::JSONNode*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::OVRSimpleJSON::JSONNode*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::OVRSimpleJSON::JSONNode*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::OVRSimpleJSON::JSONNode*>* i___System__Collections__Generic__IEnumerable_1___OVRSimpleJSON__JSONNode__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::OVRSimpleJSON::JSONNode*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::OVRSimpleJSON::JSONNode*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::OVRSimpleJSON::JSONNode*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::OVRSimpleJSON::JSONNode*>* i___System__Collections__Generic__IEnumerator_1___OVRSimpleJSON__JSONNode__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

@@ -5,17 +5,29 @@ CORDL_MODULE_INIT
 #include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(G_AudioManager)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace Tayx::Graphy::Audio {
+class G_AudioGraph;
+}
+namespace Tayx::Graphy::Audio {
+class G_AudioMonitor;
+}
+namespace Tayx::Graphy::Audio {
+class G_AudioText;
+}
 namespace Tayx::Graphy::UI {
 class IModifiableState;
-}
-namespace UnityEngine::UI {
-class Text;
 }
 namespace Tayx::Graphy::UI {
 class IMovable;
 }
-namespace UnityEngine {
-class RectTransform;
+namespace Tayx::Graphy {
+class GraphyManager;
+}
+namespace Tayx::Graphy {
+struct __GraphyManager__ModulePosition;
 }
 namespace Tayx::Graphy {
 struct __GraphyManager__ModuleState;
@@ -23,26 +35,14 @@ struct __GraphyManager__ModuleState;
 namespace UnityEngine::UI {
 class Image;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace Tayx::Graphy::Audio {
-class G_AudioMonitor;
-}
-namespace Tayx::Graphy::Audio {
-class G_AudioGraph;
-}
-namespace Tayx::Graphy {
-class GraphyManager;
-}
-namespace Tayx::Graphy::Audio {
-class G_AudioText;
-}
-namespace Tayx::Graphy {
-struct __GraphyManager__ModulePosition;
+namespace UnityEngine::UI {
+class Text;
 }
 namespace UnityEngine {
 class GameObject;
+}
+namespace UnityEngine {
+class RectTransform;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Audio {
@@ -54,7 +54,7 @@ MARK_REF_PTR_T(::Tayx::Graphy::Audio::G_AudioManager);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Audio {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15064))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15064)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15087))
 // CS Name: ::Tayx.Graphy.Audio::G_AudioManager*
 class CORDL_TYPE G_AudioManager : public ::UnityEngine::MonoBehaviour {
@@ -96,8 +96,14 @@ public:
   /// @brief Convert operator to "::Tayx::Graphy::UI::IMovable"
   constexpr operator ::Tayx::Graphy::UI::IMovable*() noexcept;
 
+  /// @brief Convert to "::Tayx::Graphy::UI::IMovable"
+  constexpr ::Tayx::Graphy::UI::IMovable* i___Tayx__Graphy__UI__IMovable() noexcept;
+
   /// @brief Convert operator to "::Tayx::Graphy::UI::IModifiableState"
   constexpr operator ::Tayx::Graphy::UI::IModifiableState*() noexcept;
+
+  /// @brief Convert to "::Tayx::Graphy::UI::IModifiableState"
+  constexpr ::Tayx::Graphy::UI::IModifiableState* i___Tayx__Graphy__UI__IModifiableState() noexcept;
 
   constexpr ::UnityEngine::GameObject*& __get_m_audioGraphGameObject();
 
@@ -175,8 +181,7 @@ public:
   inline void SetPosition(::Tayx::Graphy::__GraphyManager__ModulePosition newModulePosition);
 
   /// @brief Method SetState, addr 0x2a01bac, size 0x150, virtual true, abstract: false, final true
-  /// @param silentUpdate: bool (default: false)
-  inline void SetState(::Tayx::Graphy::__GraphyManager__ModuleState state, bool silentUpdate = false);
+  inline void SetState(::Tayx::Graphy::__GraphyManager__ModuleState state, bool silentUpdate);
 
   /// @brief Method RestorePreviousState, addr 0x2a03608, size 0xc, virtual false, abstract: false, final false
   inline void RestorePreviousState();

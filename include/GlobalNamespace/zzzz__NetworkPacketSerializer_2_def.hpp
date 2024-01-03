@@ -7,62 +7,62 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetworkPacketSerializer_2)
-namespace System {
-template <typename TResult> class Func_1;
-}
-namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
-}
 namespace GlobalNamespace {
 template <typename TData> class INetworkPacketSerializer_1;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace GlobalNamespace {
-template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass4_0_1;
-}
-namespace System {
-template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 template <typename TData> class INetworkPacketSubSerializer_1;
 }
 namespace GlobalNamespace {
-template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass5_0_1;
+template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__6_1;
 }
 namespace GlobalNamespace {
 template <typename TType, typename TData> class __NetworkPacketSerializer_2____c__DisplayClass10_0;
 }
-namespace System {
-class Type;
+namespace GlobalNamespace {
+template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass4_0_1;
 }
 namespace GlobalNamespace {
-template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__6_1;
+template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass5_0_1;
 }
-namespace LiteNetLib::Utils {
-class INetSerializable;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace GlobalNamespace {
+template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass7_0_1;
 }
 namespace GlobalNamespace {
 template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass8_0_1;
 }
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+class INetSerializable;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
-namespace GlobalNamespace {
-template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass7_0_1;
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace System {
+template <typename T1, typename T2, typename T3> class Action_3;
+}
+namespace System {
+template <typename TResult> class Func_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -479,8 +479,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INetworkPacketSerializer_1<TData>"
   constexpr operator ::GlobalNamespace::INetworkPacketSerializer_1<TData>*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::INetworkPacketSerializer_1<TData>"
+  constexpr ::GlobalNamespace::INetworkPacketSerializer_1<TData>* i___GlobalNamespace__INetworkPacketSerializer_1_TData_() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::INetworkPacketSubSerializer_1<TData>"
   constexpr operator ::GlobalNamespace::INetworkPacketSubSerializer_1<TData>*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::INetworkPacketSubSerializer_1<TData>"
+  constexpr ::GlobalNamespace::INetworkPacketSubSerializer_1<TData>* i___GlobalNamespace__INetworkPacketSubSerializer_1_TData_() noexcept;
 
   constexpr ::System::Collections::Generic::Dictionary_2<uint8_t, ::System::Action_3<::LiteNetLib::Utils::NetDataReader*, int32_t, TData>*>*& __get__messsageHandlers();
 

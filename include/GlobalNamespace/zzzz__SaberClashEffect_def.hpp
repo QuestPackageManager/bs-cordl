@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
 CORDL_MODULE_EXPORT(SaberClashEffect)
-namespace Libraries::HM::HMLib::VR {
-class HapticPresetSO;
+namespace GlobalNamespace {
+class ColorManager;
+}
+namespace GlobalNamespace {
+class HapticFeedbackManager;
 }
 namespace GlobalNamespace {
 class SaberClashChecker;
 }
-namespace GlobalNamespace {
-class ColorManager;
+namespace Libraries::HM::HMLib::VR {
+class HapticPresetSO;
 }
 namespace UnityEngine {
 class ParticleSystem;
-}
-namespace GlobalNamespace {
-class HapticFeedbackManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {

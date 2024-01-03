@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X931SecureRandom)
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Crypto::Prng {
 class X931Rng;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Prng {

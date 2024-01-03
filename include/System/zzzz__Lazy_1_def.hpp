@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Lazy_1)
+namespace System::Threading {
+struct LazyThreadSafetyMode;
+}
 namespace System {
 template <typename TResult> class Func_1;
 }
 namespace System {
 class LazyHelper;
-}
-namespace System::Threading {
-struct LazyThreadSafetyMode;
 }
 // Forward declare root types
 namespace System {

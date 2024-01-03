@@ -9,58 +9,58 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapData)
 namespace GlobalNamespace {
-class IBeatmapDataBasicInfo;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
-template <typename T> class ISortedList_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class LinkedList_1;
-}
-namespace GlobalNamespace {
 class BeatmapDataItem;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class LinkedListNode_1;
-}
-namespace GlobalNamespace {
-template <typename T> class __BeatmapData____c__DisplayClass45_0_1;
-}
-namespace GlobalNamespace {
-class BeatmapObjectsInTimeRowProcessor;
-}
-namespace GlobalNamespace {
-class IReadonlyBeatmapData;
-}
-namespace GlobalNamespace {
-class __BeatmapData__BeatmapDataBinaryHeapItem;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace GlobalNamespace {
-class BeatmapEventData;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
 }
 namespace GlobalNamespace {
 template <typename TBase> class BeatmapDataSortedListForTypeAndIds_1;
 }
 namespace GlobalNamespace {
+class BeatmapEventData;
+}
+namespace GlobalNamespace {
 class BeatmapObjectData;
+}
+namespace GlobalNamespace {
+class BeatmapObjectsInTimeRowProcessor;
+}
+namespace GlobalNamespace {
+class IBeatmapDataBasicInfo;
+}
+namespace GlobalNamespace {
+class IReadonlyBeatmapData;
+}
+namespace GlobalNamespace {
+template <typename T> class ISortedList_1;
+}
+namespace GlobalNamespace {
+class __BeatmapData__BeatmapDataBinaryHeapItem;
+}
+namespace GlobalNamespace {
+template <typename T> class __BeatmapData____c__DisplayClass45_0_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class LinkedListNode_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class LinkedList_1;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 template <typename T> class IComparable_1;
@@ -94,6 +94,9 @@ public:
 
   /// @brief Convert operator to "::System::IComparable_1<::GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem*>"
   constexpr operator ::System::IComparable_1<::GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem*>*() noexcept;
+
+  /// @brief Convert to "::System::IComparable_1<::GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem*>"
+  constexpr ::System::IComparable_1<::GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem*>* i___System__IComparable_1___GlobalNamespace____BeatmapData__BeatmapDataBinaryHeapItem__() noexcept;
 
   constexpr ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*& __get_node();
 
@@ -269,8 +272,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IReadonlyBeatmapData"
   constexpr operator ::GlobalNamespace::IReadonlyBeatmapData*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IReadonlyBeatmapData"
+  constexpr ::GlobalNamespace::IReadonlyBeatmapData* i___GlobalNamespace__IReadonlyBeatmapData() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IBeatmapDataBasicInfo"
   constexpr operator ::GlobalNamespace::IBeatmapDataBasicInfo*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IBeatmapDataBasicInfo"
+  constexpr ::GlobalNamespace::IBeatmapDataBasicInfo* i___GlobalNamespace__IBeatmapDataBasicInfo() noexcept;
 
   constexpr bool& __get__updateAllBeatmapDataOnInsert_k__BackingField();
 
@@ -479,9 +488,8 @@ public:
   inline ::GlobalNamespace::BeatmapData* GetFilteredCopy(::System::Func_2<::GlobalNamespace::BeatmapDataItem*, ::GlobalNamespace::BeatmapDataItem*>* processDataItem);
 
   /// @brief Method InsertToAllBeatmapData, addr 0x232dc64, size 0x1d4, virtual false, abstract: false, final false
-  /// @param node: ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* (default: nullptr)
   inline ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*
-  InsertToAllBeatmapData(::GlobalNamespace::BeatmapDataItem* beatmapDataItem, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* node = nullptr);
+  InsertToAllBeatmapData(::GlobalNamespace::BeatmapDataItem* beatmapDataItem, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* node);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

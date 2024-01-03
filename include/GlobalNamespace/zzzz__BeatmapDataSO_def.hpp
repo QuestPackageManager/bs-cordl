@@ -18,56 +18,56 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapDataSO)
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
-}
-namespace GlobalNamespace {
-class __BeatmapDataSO____c__DisplayClass5_0;
-}
-namespace GlobalNamespace {
-class IBeatmapDataBasicInfo;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class __BeatmapDataSO____c__DisplayClass9_0;
-}
-namespace GlobalNamespace {
-class EnvironmentInfoSO;
-}
-namespace GlobalNamespace {
-struct __BeatmapDataSO___RunTaskAndLogException_d__9;
-}
-namespace GlobalNamespace {
-struct __BeatmapDataSO___GetBeatmapDataBasicInfoAsync_d__4;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace GlobalNamespace {
-class IReadonlyBeatmapData;
-}
-namespace GlobalNamespace {
-class __BeatmapDataSO____c__DisplayClass8_0;
-}
-namespace GlobalNamespace {
-struct __BeatmapDataSO___GetBeatmapDataAsync_d__5;
-}
-namespace GlobalNamespace {
-struct __BeatmapDataSO___LoadBeatmapSaveDataAsync_d__8;
-}
-namespace GlobalNamespace {
-class __BeatmapDataSO____c__DisplayClass4_0;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
 namespace BeatmapSaveDataVersion3 {
 class BeatmapSaveData;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
+}
+namespace GlobalNamespace {
+class EnvironmentInfoSO;
+}
+namespace GlobalNamespace {
+class IBeatmapDataBasicInfo;
+}
+namespace GlobalNamespace {
+class IReadonlyBeatmapData;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettings;
+}
+namespace GlobalNamespace {
+struct __BeatmapDataSO___GetBeatmapDataAsync_d__5;
+}
+namespace GlobalNamespace {
+struct __BeatmapDataSO___GetBeatmapDataBasicInfoAsync_d__4;
+}
+namespace GlobalNamespace {
+struct __BeatmapDataSO___LoadBeatmapSaveDataAsync_d__8;
+}
+namespace GlobalNamespace {
+struct __BeatmapDataSO___RunTaskAndLogException_d__9;
+}
+namespace GlobalNamespace {
+class __BeatmapDataSO____c__DisplayClass4_0;
+}
+namespace GlobalNamespace {
+class __BeatmapDataSO____c__DisplayClass5_0;
+}
+namespace GlobalNamespace {
+class __BeatmapDataSO____c__DisplayClass8_0;
+}
+namespace GlobalNamespace {
+class __BeatmapDataSO____c__DisplayClass9_0;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncTaskMethodBuilder;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
@@ -75,14 +75,14 @@ template <typename TResult> struct TaskAwaiter_1;
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
 }
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace System::Threading::Tasks {
+class Task;
 }
-namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -192,14 +192,17 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapDataSO____c__DisplayClass4_0,
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4258)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 886
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 878 }), TypeDefinitionIndex(TypeDefinitionIndex(14828)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4248)) CS Name: ::BeatmapDataSO::<GetBeatmapDataBasicInfoAsync>d__4
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14828)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 886
+// }), TypeDefinitionIndex(TypeDefinitionIndex(4258)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 878 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4248)) CS Name: ::BeatmapDataSO::<GetBeatmapDataBasicInfoAsync>d__4
 struct CORDL_TYPE __BeatmapDataSO___GetBeatmapDataBasicInfoAsync_d__4 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x232fc4c, size 0x360, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -401,14 +404,18 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapDataSO____c__DisplayClass5_0,
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14828)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 878
-// }), TypeDefinitionIndex(TypeDefinitionIndex(4260)), TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3402), inst: 890 }), TypeDefinitionIndex(TypeDefinitionIndex(3393))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4250)) CS Name: ::BeatmapDataSO::<GetBeatmapDataAsync>d__5
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(14717)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 878
+// }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 890 }), TypeDefinitionIndex(TypeDefinitionIndex(14828)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4260)), TypeDefinitionIndex(TypeDefinitionIndex(3393))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4250)) CS Name:
+// ::BeatmapDataSO::<GetBeatmapDataAsync>d__5
 struct CORDL_TYPE __BeatmapDataSO___GetBeatmapDataAsync_d__5 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x2330220, size 0x378, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -569,13 +576,17 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapDataSO____c__DisplayClass8_0,
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(14828)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 878
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4252)) CS Name: ::BeatmapDataSO::<LoadBeatmapSaveDataAsync>d__8
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 878 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(14828)), TypeDefinitionIndex(TypeDefinitionIndex(3393))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4252)) CS Name:
+// ::BeatmapDataSO::<LoadBeatmapSaveDataAsync>d__8
 struct CORDL_TYPE __BeatmapDataSO___LoadBeatmapSaveDataAsync_d__8 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x2330684, size 0x254, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -685,7 +696,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapDataSO____c__DisplayClass9_0,
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4254))
 // CS Name: ::BeatmapDataSO::<RunTaskAndLogException>d__9
 struct CORDL_TYPE __BeatmapDataSO___RunTaskAndLogException_d__9 {
@@ -693,6 +704,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x23309f8, size 0x230, virtual true, abstract: false, final true
   inline void MoveNext();

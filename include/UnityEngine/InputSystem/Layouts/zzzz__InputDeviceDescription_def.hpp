@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputDeviceDescription)
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 namespace UnityEngine::InputSystem::Layouts {
 struct __InputDeviceDescription__DeviceDescriptionJson;
@@ -119,6 +119,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::Layouts::InputDeviceDescription>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::Layouts::InputDeviceDescription>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::Layouts::InputDeviceDescription>"
+  constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::Layouts::InputDeviceDescription>* i___System__IEquatable_1___UnityEngine__InputSystem__Layouts__InputDeviceDescription_();
 
   /// @brief Method get_interfaceName, addr 0x2b06954, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_interfaceName();

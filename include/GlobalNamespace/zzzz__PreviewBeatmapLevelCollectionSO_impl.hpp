@@ -1,10 +1,10 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__PreviewBeatmapLevelCollectionSO_def.hpp"
-#include "GlobalNamespace/zzzz__PreviewBeatmapLevelSO_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevelCollection_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__PreviewBeatmapLevelSO_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PreviewBeatmapLevelCollectionSO.get_beatmapLevels
 template <>
 
@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x234ba98;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PreviewBeatmapLevelCollectionSO*>::get(),
                                                                                "get_beatmapLevels", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x234baa0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PreviewBeatmapLevelCollectionSO*>::get(),
                                                                                ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -35,6 +35,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::GlobalNamespace::IBeatmapLevelCollection"
 constexpr GlobalNamespace::PreviewBeatmapLevelCollectionSO::operator ::GlobalNamespace::IBeatmapLevelCollection*() noexcept {
+  return static_cast<::GlobalNamespace::IBeatmapLevelCollection*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IBeatmapLevelCollection"
+constexpr ::GlobalNamespace::IBeatmapLevelCollection* GlobalNamespace::PreviewBeatmapLevelCollectionSO::i___GlobalNamespace__IBeatmapLevelCollection() noexcept {
   return static_cast<::GlobalNamespace::IBeatmapLevelCollection*>(static_cast<void*>(this));
 }
 constexpr ::ArrayW<::GlobalNamespace::PreviewBeatmapLevelSO*, ::Array<::GlobalNamespace::PreviewBeatmapLevelSO*>*>& GlobalNamespace::PreviewBeatmapLevelCollectionSO::__get__beatmapLevels() {

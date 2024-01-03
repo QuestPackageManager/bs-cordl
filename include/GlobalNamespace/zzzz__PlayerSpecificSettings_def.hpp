@@ -5,21 +5,23 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__ArcVisibilityType_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentEffectsFilterPreset_def.hpp"
 #include "GlobalNamespace/zzzz__NoteJumpDurationTypeSettings_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(PlayerSpecificSettings)
 namespace GlobalNamespace {
+struct ArcVisibilityType;
+}
+namespace GlobalNamespace {
 struct BeatmapDifficulty;
+}
+namespace GlobalNamespace {
+struct EnvironmentEffectsFilterPreset;
 }
 namespace GlobalNamespace {
 struct NoteJumpDurationTypeSettings;
 }
-namespace GlobalNamespace {
-struct ArcVisibilityType;
-}
-namespace GlobalNamespace {
-struct EnvironmentEffectsFilterPreset;
+namespace System {
+template <typename T> struct Nullable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -31,11 +33,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerSpecificSettings);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 391 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4729 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4748 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4736 }), TypeDefinitionIndex(TypeDefinitionIndex(4622)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(4606)), TypeDefinitionIndex(TypeDefinitionIndex(4621))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4659)) CS
-// Name: ::PlayerSpecificSettings*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4622)), TypeDefinitionIndex(TypeDefinitionIndex(4621)), TypeDefinitionIndex(TypeDefinitionIndex(4606)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4659)) CS Name: ::PlayerSpecificSettings*
 class CORDL_TYPE PlayerSpecificSettings : public ::System::Object {
 public:
   // Declarations
@@ -342,35 +341,14 @@ public:
                     float_t headsetHapticIntensity);
 
   /// @brief Method CopyWith, addr 0x2372d0c, size 0x3d4, virtual false, abstract: false, final false
-  /// @param leftHanded: ::System::Nullable_1<bool> (default: {})
-  /// @param playerHeight: ::System::Nullable_1<float_t> (default: {})
-  /// @param automaticPlayerHeight: ::System::Nullable_1<bool> (default: {})
-  /// @param sfxVolume: ::System::Nullable_1<float_t> (default: {})
-  /// @param reduceDebris: ::System::Nullable_1<bool> (default: {})
-  /// @param noTextsAndHuds: ::System::Nullable_1<bool> (default: {})
-  /// @param noFailEffects: ::System::Nullable_1<bool> (default: {})
-  /// @param advancedHud: ::System::Nullable_1<bool> (default: {})
-  /// @param autoRestart: ::System::Nullable_1<bool> (default: {})
-  /// @param saberTrailIntensity: ::System::Nullable_1<float_t> (default: {})
-  /// @param noteJumpDurationTypeSettings: ::System::Nullable_1<::GlobalNamespace::NoteJumpDurationTypeSettings> (default: {})
-  /// @param noteJumpFixedDuration: ::System::Nullable_1<float_t> (default: {})
-  /// @param noteJumpStartBeatOffset: ::System::Nullable_1<float_t> (default: {})
-  /// @param hideNoteSpawnEffect: ::System::Nullable_1<bool> (default: {})
-  /// @param adaptiveSfx: ::System::Nullable_1<bool> (default: {})
-  /// @param arcsHapticFeedback: ::System::Nullable_1<bool> (default: {})
-  /// @param arcsVisible: ::System::Nullable_1<::GlobalNamespace::ArcVisibilityType> (default: {})
-  /// @param environmentEffectsFilterDefaultPreset: ::System::Nullable_1<::GlobalNamespace::EnvironmentEffectsFilterPreset> (default: {})
-  /// @param environmentEffectsFilterExpertPlusPreset: ::System::Nullable_1<::GlobalNamespace::EnvironmentEffectsFilterPreset> (default: {})
-  /// @param headsetHapticIntensity: ::System::Nullable_1<float_t> (default: {})
   inline ::GlobalNamespace::PlayerSpecificSettings*
-  CopyWith(::System::Nullable_1<bool> leftHanded = {}, ::System::Nullable_1<float_t> playerHeight = {}, ::System::Nullable_1<bool> automaticPlayerHeight = {},
-           ::System::Nullable_1<float_t> sfxVolume = {}, ::System::Nullable_1<bool> reduceDebris = {}, ::System::Nullable_1<bool> noTextsAndHuds = {}, ::System::Nullable_1<bool> noFailEffects = {},
-           ::System::Nullable_1<bool> advancedHud = {}, ::System::Nullable_1<bool> autoRestart = {}, ::System::Nullable_1<float_t> saberTrailIntensity = {},
-           ::System::Nullable_1<::GlobalNamespace::NoteJumpDurationTypeSettings> noteJumpDurationTypeSettings = {}, ::System::Nullable_1<float_t> noteJumpFixedDuration = {},
-           ::System::Nullable_1<float_t> noteJumpStartBeatOffset = {}, ::System::Nullable_1<bool> hideNoteSpawnEffect = {}, ::System::Nullable_1<bool> adaptiveSfx = {},
-           ::System::Nullable_1<bool> arcsHapticFeedback = {}, ::System::Nullable_1<::GlobalNamespace::ArcVisibilityType> arcsVisible = {},
-           ::System::Nullable_1<::GlobalNamespace::EnvironmentEffectsFilterPreset> environmentEffectsFilterDefaultPreset = {},
-           ::System::Nullable_1<::GlobalNamespace::EnvironmentEffectsFilterPreset> environmentEffectsFilterExpertPlusPreset = {}, ::System::Nullable_1<float_t> headsetHapticIntensity = {});
+  CopyWith(::System::Nullable_1<bool> leftHanded, ::System::Nullable_1<float_t> playerHeight, ::System::Nullable_1<bool> automaticPlayerHeight, ::System::Nullable_1<float_t> sfxVolume,
+           ::System::Nullable_1<bool> reduceDebris, ::System::Nullable_1<bool> noTextsAndHuds, ::System::Nullable_1<bool> noFailEffects, ::System::Nullable_1<bool> advancedHud,
+           ::System::Nullable_1<bool> autoRestart, ::System::Nullable_1<float_t> saberTrailIntensity,
+           ::System::Nullable_1<::GlobalNamespace::NoteJumpDurationTypeSettings> noteJumpDurationTypeSettings, ::System::Nullable_1<float_t> noteJumpFixedDuration,
+           ::System::Nullable_1<float_t> noteJumpStartBeatOffset, ::System::Nullable_1<bool> hideNoteSpawnEffect, ::System::Nullable_1<bool> adaptiveSfx, ::System::Nullable_1<bool> arcsHapticFeedback,
+           ::System::Nullable_1<::GlobalNamespace::ArcVisibilityType> arcsVisible, ::System::Nullable_1<::GlobalNamespace::EnvironmentEffectsFilterPreset> environmentEffectsFilterDefaultPreset,
+           ::System::Nullable_1<::GlobalNamespace::EnvironmentEffectsFilterPreset> environmentEffectsFilterExpertPlusPreset, ::System::Nullable_1<float_t> headsetHapticIntensity);
 
   /// @brief Method GetEnvironmentEffectsFilterPreset, addr 0x23730e0, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentEffectsFilterPreset GetEnvironmentEffectsFilterPreset(::GlobalNamespace::BeatmapDifficulty difficulty);

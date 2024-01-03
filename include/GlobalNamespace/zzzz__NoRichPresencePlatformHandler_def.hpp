@@ -35,6 +35,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IRichPresencePlatformHandler"
   constexpr operator ::GlobalNamespace::IRichPresencePlatformHandler*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IRichPresencePlatformHandler"
+  constexpr ::GlobalNamespace::IRichPresencePlatformHandler* i___GlobalNamespace__IRichPresencePlatformHandler() noexcept;
+
   constexpr ::StringW& __get__currentPresenceApiName_k__BackingField();
 
   constexpr ::StringW const& __get__currentPresenceApiName_k__BackingField() const;

@@ -3,7 +3,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__DateTime_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -13,50 +12,53 @@ CORDL_MODULE_EXPORT(DateTimeOffset)
 namespace System::Globalization {
 class Calendar;
 }
-namespace System {
-class IComparable;
-}
-namespace System {
-struct TimeSpan;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System {
-class IFormattable;
-}
-namespace System {
-template <typename T> struct Span_1;
-}
-namespace System {
-class ISpanFormattable;
-}
 namespace System::Globalization {
 struct DateTimeStyles;
-}
-namespace System {
-template <typename T> class IEquatable_1;
 }
 namespace System::Runtime::Serialization {
 class IDeserializationCallback;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class ISerializable;
 }
 namespace System::Runtime::Serialization {
-class ISerializable;
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System {
+struct DateTime;
 }
 namespace System {
 template <typename T> class IComparable_1;
 }
 namespace System {
-class Object;
+class IComparable;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class IFormatProvider;
 }
 namespace System {
-struct DateTime;
+class IFormattable;
+}
+namespace System {
+class ISpanFormattable;
+}
+namespace System {
+class Object;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
+template <typename T> struct Span_1;
+}
+namespace System {
+struct TimeSpan;
 }
 // Forward declare root types
 namespace System {
@@ -68,8 +70,9 @@ MARK_VAL_T(::System::DateTimeOffset);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 26, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2464)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(2370)) CS Name: ::System::DateTimeOffset
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2370))
+// CS Name: ::System::DateTimeOffset
 struct CORDL_TYPE DateTimeOffset {
 public:
   // Declarations
@@ -113,23 +116,44 @@ public:
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*();
 
+  /// @brief Convert to "::System::IComparable"
+  constexpr ::System::IComparable* i___System__IComparable();
+
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
+
+  /// @brief Convert to "::System::IFormattable"
+  constexpr ::System::IFormattable* i___System__IFormattable();
 
   /// @brief Convert operator to "::System::IComparable_1<::System::DateTimeOffset>"
   constexpr operator ::System::IComparable_1<::System::DateTimeOffset>*();
 
+  /// @brief Convert to "::System::IComparable_1<::System::DateTimeOffset>"
+  constexpr ::System::IComparable_1<::System::DateTimeOffset>* i___System__IComparable_1___System__DateTimeOffset_();
+
   /// @brief Convert operator to "::System::IEquatable_1<::System::DateTimeOffset>"
   constexpr operator ::System::IEquatable_1<::System::DateTimeOffset>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::System::DateTimeOffset>"
+  constexpr ::System::IEquatable_1<::System::DateTimeOffset>* i___System__IEquatable_1___System__DateTimeOffset_();
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*();
 
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable();
+
   /// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
   constexpr operator ::System::Runtime::Serialization::IDeserializationCallback*();
 
+  /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
+  constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback();
+
   /// @brief Convert operator to "::System::ISpanFormattable"
   constexpr operator ::System::ISpanFormattable*();
+
+  /// @brief Convert to "::System::ISpanFormattable"
+  constexpr ::System::ISpanFormattable* i___System__ISpanFormattable();
 
   static inline void setStaticF_MinValue(::System::DateTimeOffset value);
 
@@ -262,9 +286,7 @@ public:
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
   /// @brief Method TryFormat, addr 0x2594824, size 0xdc, virtual true, abstract: false, final true
-  /// @param format: ::System::ReadOnlySpan_1<char16_t> (default: {})
-  /// @param formatProvider: ::System::IFormatProvider* (default: nullptr)
-  inline bool TryFormat(::System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten, ::System::ReadOnlySpan_1<char16_t> format = {}, ::System::IFormatProvider* formatProvider = nullptr);
+  inline bool TryFormat(::System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten, ::System::ReadOnlySpan_1<char16_t> format, ::System::IFormatProvider* formatProvider);
 
   /// @brief Method ToUniversalTime, addr 0x2594b10, size 0x2c, virtual false, abstract: false, final false
   inline ::System::DateTimeOffset ToUniversalTime();

@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(X509Extension)
 namespace Mono::Security {
 class ASN1;
 }
-namespace System {
-class Object;
-}
 namespace System::Text {
 class StringBuilder;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Mono::Security::X509 {

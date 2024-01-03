@@ -10,37 +10,37 @@ namespace System::Globalization {
 class CultureInfo;
 }
 namespace System::Reflection {
+class Binder;
+}
+namespace System::Reflection {
 struct BindingFlags;
 }
 namespace System::Reflection {
 class CustomAttributeData;
 }
-namespace System::Runtime::InteropServices {
-class MarshalAsAttribute;
-}
 namespace System::Reflection {
 struct FieldAttributes;
+}
+namespace System::Reflection {
+struct MemberTypes;
+}
+namespace System::Runtime::InteropServices {
+class MarshalAsAttribute;
 }
 namespace System {
 class Object;
 }
 namespace System {
+struct RuntimeFieldHandle;
+}
+namespace System {
 struct RuntimeTypeHandle;
 }
 namespace System {
-struct TypedReference;
-}
-namespace System {
-struct RuntimeFieldHandle;
-}
-namespace System::Reflection {
-struct MemberTypes;
-}
-namespace System::Reflection {
-class Binder;
-}
-namespace System {
 class Type;
+}
+namespace System {
+struct TypedReference;
 }
 // Forward declare root types
 namespace System::Reflection {

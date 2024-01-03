@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IAsymmetricCipherKeyPairGenerator)
 namespace Org::BouncyCastle::Crypto {
-class KeyGenerationParameters;
+class AsymmetricCipherKeyPair;
 }
 namespace Org::BouncyCastle::Crypto {
-class AsymmetricCipherKeyPair;
+class KeyGenerationParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto {

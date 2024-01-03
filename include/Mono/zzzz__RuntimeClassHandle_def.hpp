@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeClassHandle)
-namespace System {
-class Object;
-}
 namespace Mono {
 struct __RuntimeStructs__MonoClass;
+}
+namespace System {
+class Object;
 }
 namespace System {
 struct RuntimeTypeHandle;

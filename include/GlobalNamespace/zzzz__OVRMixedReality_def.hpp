@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(OVRMixedReality)
 namespace GlobalNamespace {
+class OVRComposition;
+}
+namespace GlobalNamespace {
 class OVRMixedRealityCaptureConfiguration;
+}
+namespace GlobalNamespace {
+struct __OVRManager__TrackingOrigin;
 }
 namespace UnityEngine {
 class Camera;
 }
 namespace UnityEngine {
 class GameObject;
-}
-namespace GlobalNamespace {
-class OVRComposition;
-}
-namespace GlobalNamespace {
-struct __OVRManager__TrackingOrigin;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRMixedReality);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7651))
 // CS Name: ::OVRMixedReality*
 class CORDL_TYPE OVRMixedReality : public ::System::Object {

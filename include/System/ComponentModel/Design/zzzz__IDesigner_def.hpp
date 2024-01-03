@@ -25,6 +25,9 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   // Ctor Parameters [CppParam { name: "", ty: "IDesigner", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IDesigner(IDesigner&&) = delete;

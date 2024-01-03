@@ -5,35 +5,35 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(UIKeyboard)
-namespace System {
-template <typename T> class Action_1;
+namespace HMUI {
+class ButtonBinder;
 }
-namespace UnityEngine::UI {
-class Button;
+namespace HMUI {
+class UIKeyboardKey;
+}
+namespace HMUI {
+class __UIKeyboard____c__DisplayClass13_0;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
 class Action;
-}
-namespace HMUI {
-class __UIKeyboard____c__DisplayClass13_0;
-}
-namespace UnityEngine {
-struct KeyCode;
-}
-namespace HMUI {
-class ButtonBinder;
-}
-namespace TMPro {
-class TextMeshProUGUI;
 }
 namespace TMPro {
 struct FontStyles;
 }
-namespace HMUI {
-class UIKeyboardKey;
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace UnityEngine {
+struct KeyCode;
 }
 // Forward declare root types
 namespace HMUI {

@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(AuthenticationTokenPlatformExtensions)
 namespace GlobalNamespace {
-struct __UserInfo__Platform;
+struct __AuthenticationToken__Platform;
 }
 namespace GlobalNamespace {
-struct __AuthenticationToken__Platform;
+struct __UserInfo__Platform;
 }
 // Forward declare root types
 namespace GlobalNamespace {

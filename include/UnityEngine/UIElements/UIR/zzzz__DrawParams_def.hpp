@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
 CORDL_MODULE_EXPORT(DrawParams)
-namespace UnityEngine {
-class RenderTexture;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class Stack_1;
 }
 namespace UnityEngine {
-struct Rect;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class Material;
 }
 namespace UnityEngine {
 struct Matrix4x4;
 }
 namespace UnityEngine {
-class Material;
+struct Rect;
+}
+namespace UnityEngine {
+class RenderTexture;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {

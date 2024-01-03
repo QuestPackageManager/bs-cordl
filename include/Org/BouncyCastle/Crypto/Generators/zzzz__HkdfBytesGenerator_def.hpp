@@ -9,17 +9,17 @@ CORDL_MODULE_EXPORT(HkdfBytesGenerator)
 namespace Org::BouncyCastle::Crypto::Macs {
 class HMac;
 }
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDerivationFunction;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
 }
 namespace Org::BouncyCastle::Crypto {
+class IDerivationFunction;
+}
+namespace Org::BouncyCastle::Crypto {
 class IDerivationParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {
@@ -56,6 +56,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDerivationFunction"
   constexpr operator ::Org::BouncyCastle::Crypto::IDerivationFunction*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationFunction"
+  constexpr ::Org::BouncyCastle::Crypto::IDerivationFunction* i___Org__BouncyCastle__Crypto__IDerivationFunction() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::Macs::HMac*& __get_hMacHash();
 

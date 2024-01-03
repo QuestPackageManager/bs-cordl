@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Submesh)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace UnityEngine::ProBuilder {
 class Face;
 }
-namespace UnityEngine {
-class Mesh;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
 namespace UnityEngine {
 struct MeshTopology;
 }
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+namespace UnityEngine {
+class Mesh;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -107,9 +107,8 @@ public:
   static inline int32_t GetSubmeshCount(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
   /// @brief Method GetSubmeshes, addr 0x2b7b5a4, size 0x96c, virtual false, abstract: false, final false
-  /// @param preferredTopology: ::UnityEngine::MeshTopology (default: static_cast<int32_t>(0x0))
   static inline ::ArrayW<::UnityEngine::ProBuilder::Submesh*, ::Array<::UnityEngine::ProBuilder::Submesh*>*>
-  GetSubmeshes(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, int32_t submeshCount, ::UnityEngine::MeshTopology preferredTopology = static_cast<int32_t>(0x0));
+  GetSubmeshes(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, int32_t submeshCount, ::UnityEngine::MeshTopology preferredTopology);
 
   /// @brief Method MapFaceMaterialsToSubmeshIndex, addr 0x2b7bf10, size 0x12c, virtual false, abstract: false, final false
   static inline void MapFaceMaterialsToSubmeshIndex(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);

@@ -10,85 +10,85 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsSignedDataStreamGenerator)
 namespace Org::BouncyCastle::Asn1::Cms {
-class SignerIdentifier;
-}
-namespace Org::BouncyCastle::Cms {
-class CmsAttributeTableGenerator;
-}
-namespace System::IO {
-class Stream;
-}
-namespace Org::BouncyCastle::Cms {
-class CmsProcessable;
-}
-namespace Org::BouncyCastle::Cms {
-class __CmsSignedDataStreamGenerator__CmsSignedDataOutputStream;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
-}
-namespace Org::BouncyCastle::Cms {
-class __CmsSignedDataStreamGenerator__SignerInfoGeneratorImpl;
-}
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Cms {
-class CmsSignedHelper;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace Org::BouncyCastle::Cms {
-class SignerInformation;
-}
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
-namespace Org::BouncyCastle::Cms {
-class __CmsSignedDataStreamGenerator__DigestAndSignerInfoGeneratorHolder;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
 class AttributeTable;
 }
-namespace System::Collections {
-class IDictionary;
+namespace Org::BouncyCastle::Asn1::Cms {
+class SignerIdentifier;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class SignerInfo;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
-class BerSequenceGenerator;
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Generator;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class BerSequenceGenerator;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsAttributeTableGenerator;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsProcessable;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsSignedHelper;
 }
 namespace Org::BouncyCastle::Cms {
 class ISignerInfoGenerator;
 }
+namespace Org::BouncyCastle::Cms {
+class SignerInformation;
+}
+namespace Org::BouncyCastle::Cms {
+class __CmsSignedDataStreamGenerator__CmsSignedDataOutputStream;
+}
+namespace Org::BouncyCastle::Cms {
+class __CmsSignedDataStreamGenerator__DigestAndSignerInfoGeneratorHolder;
+}
+namespace Org::BouncyCastle::Cms {
+class __CmsSignedDataStreamGenerator__SignerInfoGeneratorImpl;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
 namespace Org::BouncyCastle::Crypto {
 class ISigner;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class SignerInfo;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IList;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -212,6 +212,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::ISignerInfoGenerator"
   constexpr operator ::Org::BouncyCastle::Cms::ISignerInfoGenerator*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Cms::ISignerInfoGenerator"
+  constexpr ::Org::BouncyCastle::Cms::ISignerInfoGenerator* i___Org__BouncyCastle__Cms__ISignerInfoGenerator() noexcept;
 
   constexpr ::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator*& __get_outer();
 

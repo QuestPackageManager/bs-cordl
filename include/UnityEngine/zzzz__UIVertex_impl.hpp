@@ -3,9 +3,9 @@
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/zzzz__Vector4_impl.hpp"
 #include "UnityEngine/zzzz__UIVertex_def.hpp"
+#include "UnityEngine/zzzz__Color32_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
-#include "UnityEngine/zzzz__Color32_def.hpp"
 inline void UnityEngine::UIVertex::setStaticF_s_DefaultColor(::UnityEngine::Color32 value) {
   ::cordl_internals::setStaticField<::UnityEngine::Color32, "s_DefaultColor", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIVertex>::get>(
       std::forward<::UnityEngine::Color32>(value));

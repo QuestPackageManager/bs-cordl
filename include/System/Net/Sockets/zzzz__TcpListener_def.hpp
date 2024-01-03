@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TcpListener)
-namespace System {
-class AsyncCallback;
+namespace System::Net::Sockets {
+class Socket;
 }
 namespace System::Net::Sockets {
 class TcpClient;
 }
-namespace System {
-class IAsyncResult;
+namespace System::Net {
+class EndPoint;
 }
 namespace System::Net {
 class IPAddress;
@@ -21,13 +21,13 @@ namespace System::Net {
 class IPEndPoint;
 }
 namespace System {
+class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System {
 class Object;
-}
-namespace System::Net {
-class EndPoint;
-}
-namespace System::Net::Sockets {
-class Socket;
 }
 // Forward declare root types
 namespace System::Net::Sockets {

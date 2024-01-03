@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BigInteger)
+namespace System::Numerics {
+struct __BigInteger__GetBytesMode;
+}
+namespace System {
+template <typename T> class IComparable_1;
+}
 namespace System {
 class IComparable;
 }
 namespace System {
-template <typename T> struct Span_1;
-}
-namespace System {
-class Object;
-}
-namespace System {
-template <typename T> class IComparable_1;
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class IFormatProvider;
@@ -27,13 +27,13 @@ namespace System {
 class IFormattable;
 }
 namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System::Numerics {
-struct __BigInteger__GetBytesMode;
+class Object;
 }
 namespace System {
 template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
+template <typename T> struct Span_1;
 }
 // Forward declare root types
 namespace System::Numerics {
@@ -129,14 +129,26 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
+  /// @brief Convert to "::System::IFormattable"
+  constexpr ::System::IFormattable* i___System__IFormattable();
+
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*();
+
+  /// @brief Convert to "::System::IComparable"
+  constexpr ::System::IComparable* i___System__IComparable();
 
   /// @brief Convert operator to "::System::IComparable_1<::System::Numerics::BigInteger>"
   constexpr operator ::System::IComparable_1<::System::Numerics::BigInteger>*();
 
+  /// @brief Convert to "::System::IComparable_1<::System::Numerics::BigInteger>"
+  constexpr ::System::IComparable_1<::System::Numerics::BigInteger>* i___System__IComparable_1___System__Numerics__BigInteger_();
+
   /// @brief Convert operator to "::System::IEquatable_1<::System::Numerics::BigInteger>"
   constexpr operator ::System::IEquatable_1<::System::Numerics::BigInteger>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::System::Numerics::BigInteger>"
+  constexpr ::System::IEquatable_1<::System::Numerics::BigInteger>* i___System__IEquatable_1___System__Numerics__BigInteger_();
 
   static inline void setStaticF_s_bnMinInt(::System::Numerics::BigInteger value);
 
@@ -168,9 +180,7 @@ public:
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   /// @brief Method .ctor, addr 0x2844768, size 0x52c, virtual false, abstract: false, final false
-  /// @param isUnsigned: bool (default: false)
-  /// @param isBigEndian: bool (default: false)
-  inline void _ctor(::System::ReadOnlySpan_1<uint8_t> value, bool isUnsigned = false, bool isBigEndian = false);
+  inline void _ctor(::System::ReadOnlySpan_1<uint8_t> value, bool isUnsigned, bool isBigEndian);
 
   /// @brief Method .ctor, addr 0x2844d50, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t n, ::ArrayW<uint32_t, ::Array<uint32_t>*> rgu);
@@ -197,14 +207,10 @@ public:
   inline int32_t CompareTo(::System::Object* obj);
 
   /// @brief Method TryWriteBytes, addr 0x2845348, size 0x40, virtual false, abstract: false, final false
-  /// @param isUnsigned: bool (default: false)
-  /// @param isBigEndian: bool (default: false)
-  inline bool TryWriteBytes(::System::Span_1<uint8_t> destination, ByRef<int32_t> bytesWritten, bool isUnsigned = false, bool isBigEndian = false);
+  inline bool TryWriteBytes(::System::Span_1<uint8_t> destination, ByRef<int32_t> bytesWritten, bool isUnsigned, bool isBigEndian);
 
   /// @brief Method TryWriteOrCountBytes, addr 0x2845874, size 0x34, virtual false, abstract: false, final false
-  /// @param isUnsigned: bool (default: false)
-  /// @param isBigEndian: bool (default: false)
-  inline bool TryWriteOrCountBytes(::System::Span_1<uint8_t> destination, ByRef<int32_t> bytesWritten, bool isUnsigned = false, bool isBigEndian = false);
+  inline bool TryWriteOrCountBytes(::System::Span_1<uint8_t> destination, ByRef<int32_t> bytesWritten, bool isUnsigned, bool isBigEndian);
 
   /// @brief Method TryGetBytes, addr 0x2845388, size 0x4ec, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> TryGetBytes(::System::Numerics::__BigInteger__GetBytesMode mode, ::System::Span_1<uint8_t> destination, bool isUnsigned, bool isBigEndian,

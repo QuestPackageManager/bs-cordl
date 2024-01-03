@@ -20,104 +20,104 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapLevelSO)
-namespace UnityEngine {
-class Sprite;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
-class IAssetSongPreviewAudioClipProvider;
-}
-namespace GlobalNamespace {
-struct BeatmapDifficulty;
-}
-namespace GlobalNamespace {
-struct __BeatmapLevelSO__GetBeatmapLevelDataResult;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace UnityEngine {
-class AudioClip;
-}
-namespace GlobalNamespace {
-class EnvironmentInfoSO;
-}
-namespace GlobalNamespace {
-class PreviewDifficultyBeatmapSet;
-}
-namespace GlobalNamespace {
-struct PlayerSensitivityFlag;
-}
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
-}
-namespace GlobalNamespace {
-class __BeatmapLevelSO__DifficultyBeatmap;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmapSet;
-}
-namespace GlobalNamespace {
-class IAssetSongAudioClipProvider;
-}
-namespace GlobalNamespace {
-class IBeatmapLevel;
-}
-namespace GlobalNamespace {
-struct __BeatmapLevelSO___GetPreviewAudioClipAsync_d__71;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelData;
-}
-namespace GlobalNamespace {
-struct __BeatmapLevelSO___GetBeatmapLevelDataAsync_d__76;
-}
-namespace GlobalNamespace {
-class __BeatmapLevelSO__DifficultyBeatmapSet;
-}
-namespace GlobalNamespace {
-struct __BeatmapLevelSO___GetCoverImageAsync_d__72;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
-}
-namespace GlobalNamespace {
-struct __BeatmapLevelSO__DifficultyBeatmap___GetBeatmapDataBasicInfoAsync_d__16;
 }
 namespace GlobalNamespace {
 class BeatmapDataSO;
 }
 namespace GlobalNamespace {
-struct __BeatmapLevelSO__DifficultyBeatmap___GetBeatmapDataAsync_d__17;
+struct BeatmapDifficulty;
+}
+namespace GlobalNamespace {
+class EnvironmentInfoSO;
+}
+namespace GlobalNamespace {
+class IAssetSongAudioClipProvider;
+}
+namespace GlobalNamespace {
+class IAssetSongPreviewAudioClipProvider;
+}
+namespace GlobalNamespace {
+class IBeatmapDataBasicInfo;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelData;
+}
+namespace GlobalNamespace {
+class IBeatmapLevel;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmapSet;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
-class IBeatmapDataBasicInfo;
+struct PlayerSensitivityFlag;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettings;
+}
+namespace GlobalNamespace {
+class PreviewDifficultyBeatmapSet;
+}
+namespace GlobalNamespace {
+class __BeatmapLevelSO__DifficultyBeatmapSet;
+}
+namespace GlobalNamespace {
+class __BeatmapLevelSO__DifficultyBeatmap;
+}
+namespace GlobalNamespace {
+struct __BeatmapLevelSO__DifficultyBeatmap___GetBeatmapDataAsync_d__17;
+}
+namespace GlobalNamespace {
+struct __BeatmapLevelSO__DifficultyBeatmap___GetBeatmapDataBasicInfoAsync_d__16;
+}
+namespace GlobalNamespace {
+struct __BeatmapLevelSO__GetBeatmapLevelDataResult;
+}
+namespace GlobalNamespace {
+struct __BeatmapLevelSO__GetBeatmapLevelDataResult__Result;
+}
+namespace GlobalNamespace {
+struct __BeatmapLevelSO___GetBeatmapLevelDataAsync_d__76;
+}
+namespace GlobalNamespace {
+struct __BeatmapLevelSO___GetCoverImageAsync_d__72;
+}
+namespace GlobalNamespace {
+struct __BeatmapLevelSO___GetPreviewAudioClipAsync_d__71;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+template <typename TResult> struct TaskAwaiter_1;
 }
-namespace GlobalNamespace {
-struct __BeatmapLevelSO__GetBeatmapLevelDataResult__Result;
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace UnityEngine {
+class AudioClip;
+}
+namespace UnityEngine {
+class Sprite;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -186,6 +186,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IDifficultyBeatmapSet"
   constexpr operator ::GlobalNamespace::IDifficultyBeatmapSet*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IDifficultyBeatmapSet"
+  constexpr ::GlobalNamespace::IDifficultyBeatmapSet* i___GlobalNamespace__IDifficultyBeatmapSet() noexcept;
+
   constexpr ::GlobalNamespace::BeatmapCharacteristicSO*& __get__beatmapCharacteristic();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCharacteristicSO*> const& __get__beatmapCharacteristic() const;
@@ -249,14 +252,17 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelSO__DifficultyBeatmapSet
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(4258)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 886
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 886 }), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4367)) CS
-// Name: ::BeatmapLevelSO::DifficultyBeatmap::<GetBeatmapDataBasicInfoAsync>d__16
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4258)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 886 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 886 }), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(4367)) CS Name: ::BeatmapLevelSO::DifficultyBeatmap::<GetBeatmapDataBasicInfoAsync>d__16
 struct CORDL_TYPE __BeatmapLevelSO__DifficultyBeatmap___GetBeatmapDataBasicInfoAsync_d__16 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x2345c3c, size 0x1ec, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -309,14 +315,17 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelSO__DifficultyBeatmap___
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4260)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 890
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 890 }), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4368)) CS
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 890
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 890 }), TypeDefinitionIndex(TypeDefinitionIndex(4260))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4368)) CS
 // Name: ::BeatmapLevelSO::DifficultyBeatmap::<GetBeatmapDataAsync>d__17
 struct CORDL_TYPE __BeatmapLevelSO__DifficultyBeatmap___GetBeatmapDataAsync_d__17 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x2345e80, size 0x2e4, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -382,7 +391,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelSO__DifficultyBeatmap___
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14717))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4369))
 // CS Name: ::BeatmapLevelSO::DifficultyBeatmap*
 class CORDL_TYPE __BeatmapLevelSO__DifficultyBeatmap : public ::System::Object {
@@ -432,6 +441,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IDifficultyBeatmap"
   constexpr operator ::GlobalNamespace::IDifficultyBeatmap*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IDifficultyBeatmap"
+  constexpr ::GlobalNamespace::IDifficultyBeatmap* i___GlobalNamespace__IDifficultyBeatmap() noexcept;
 
   constexpr ::GlobalNamespace::BeatmapDifficulty& __get__difficulty();
 
@@ -680,14 +692,17 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelSO__GetBeatmapLevelDataR
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15594)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 276 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 276 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4372)) CS Name: ::BeatmapLevelSO::<GetPreviewAudioClipAsync>d__71
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15594)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 276
+// }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 276 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(4372)) CS Name: ::BeatmapLevelSO::<GetPreviewAudioClipAsync>d__71
 struct CORDL_TYPE __BeatmapLevelSO___GetPreviewAudioClipAsync_d__71 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x23461c8, size 0x230, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -745,14 +760,17 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelSO___GetPreviewAudioClip
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10291)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 777 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3394), inst: 777 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4373)) CS Name: ::BeatmapLevelSO::<GetCoverImageAsync>d__72
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10291)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 777
+// }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 777 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(4373)) CS Name: ::BeatmapLevelSO::<GetCoverImageAsync>d__72
 struct CORDL_TYPE __BeatmapLevelSO___GetCoverImageAsync_d__72 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x2346450, size 0x230, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -810,14 +828,17 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelSO___GetCoverImageAsync_
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 905
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 905 }), TypeDefinitionIndex(TypeDefinitionIndex(4371))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4374)) CS
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(4371)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 905
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 905 }), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4374)) CS
 // Name: ::BeatmapLevelSO::<GetBeatmapLevelDataAsync>d__76
 struct CORDL_TYPE __BeatmapLevelSO___GetBeatmapLevelDataAsync_d__76 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x23466d8, size 0x2a0, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -870,7 +891,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelSO___GetBeatmapLevelData
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4371)), TypeDefinitionIndex(TypeDefinitionIndex(4658)), TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857)), TypeDefinitionIndex(TypeDefinitionIndex(4658)), TypeDefinitionIndex(TypeDefinitionIndex(4371))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4375))
 // CS Name: ::BeatmapLevelSO*
 class CORDL_TYPE BeatmapLevelSO : public ::GlobalNamespace::PersistentScriptableObject {
@@ -1012,14 +1033,26 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBeatmapLevel"
   constexpr operator ::GlobalNamespace::IBeatmapLevel*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IBeatmapLevel"
+  constexpr ::GlobalNamespace::IBeatmapLevel* i___GlobalNamespace__IBeatmapLevel() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IPreviewBeatmapLevel"
   constexpr operator ::GlobalNamespace::IPreviewBeatmapLevel*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IPreviewBeatmapLevel"
+  constexpr ::GlobalNamespace::IPreviewBeatmapLevel* i___GlobalNamespace__IPreviewBeatmapLevel() noexcept;
 
   /// @brief Convert operator to "::GlobalNamespace::IAssetSongAudioClipProvider"
   constexpr operator ::GlobalNamespace::IAssetSongAudioClipProvider*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IAssetSongAudioClipProvider"
+  constexpr ::GlobalNamespace::IAssetSongAudioClipProvider* i___GlobalNamespace__IAssetSongAudioClipProvider() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IAssetSongPreviewAudioClipProvider"
   constexpr operator ::GlobalNamespace::IAssetSongPreviewAudioClipProvider*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IAssetSongPreviewAudioClipProvider"
+  constexpr ::GlobalNamespace::IAssetSongPreviewAudioClipProvider* i___GlobalNamespace__IAssetSongPreviewAudioClipProvider() noexcept;
 
   constexpr ::StringW& __get__levelID();
 

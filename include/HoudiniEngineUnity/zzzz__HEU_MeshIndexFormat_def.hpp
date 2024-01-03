@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_MeshIndexFormat);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10328))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10328)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9852))
 // CS Name: ::HoudiniEngineUnity::HEU_MeshIndexFormat*
 class CORDL_TYPE HEU_MeshIndexFormat : public ::System::Object {

@@ -7,31 +7,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PartyFreePlayFlowCoordinator)
 namespace GlobalNamespace {
-class MenuLightsManager;
-}
-namespace GlobalNamespace {
-class ResultsViewController;
-}
-namespace GlobalNamespace {
-class IReadonlyBeatmapData;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
-class LocalLeaderboardViewController;
+class EnterPlayerGuestNameViewController;
 }
 namespace GlobalNamespace {
 class GameplayModifiers;
 }
 namespace GlobalNamespace {
-class __PartyFreePlayFlowCoordinator____c__DisplayClass23_0;
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
 class ISaveData;
-}
-namespace GlobalNamespace {
-class EnterPlayerGuestNameViewController;
 }
 namespace GlobalNamespace {
 class LeaderboardViewController;
@@ -40,10 +28,22 @@ namespace GlobalNamespace {
 class LevelCompletionResults;
 }
 namespace GlobalNamespace {
-class __PartyFreePlayFlowCoordinator____c__DisplayClass18_0;
+class LocalLeaderboardViewController;
+}
+namespace GlobalNamespace {
+class MenuLightsManager;
 }
 namespace GlobalNamespace {
 class MenuLightsPresetSO;
+}
+namespace GlobalNamespace {
+class ResultsViewController;
+}
+namespace GlobalNamespace {
+class __PartyFreePlayFlowCoordinator____c__DisplayClass18_0;
+}
+namespace GlobalNamespace {
+class __PartyFreePlayFlowCoordinator____c__DisplayClass23_0;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MemoryExtensions)
 namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
 template <typename T> struct Span_1;
 }
 namespace System {
 struct StringComparison;
-}
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
 }
 // Forward declare root types
 namespace System {

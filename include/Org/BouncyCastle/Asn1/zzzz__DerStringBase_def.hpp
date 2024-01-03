@@ -28,6 +28,9 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1String"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1String*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1String"
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1String* i___Org__BouncyCastle__Asn1__IAsn1String() noexcept;
+
   static inline ::Org::BouncyCastle::Asn1::DerStringBase* New_ctor();
 
   /// @brief Method .ctor, addr 0xe6a5e4, size 0x8, virtual false, abstract: false, final false

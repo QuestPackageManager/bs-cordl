@@ -10,8 +10,11 @@ CORDL_MODULE_EXPORT(X509CertStoreSelector)
 namespace Org::BouncyCastle::Asn1::X509 {
 class SubjectPublicKeyInfo;
 }
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
@@ -22,20 +25,17 @@ class ISet;
 namespace Org::BouncyCastle::Utilities::Date {
 class DateTimeObject;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
+namespace Org::BouncyCastle::X509::Store {
+class IX509Selector;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 namespace System {
 class ICloneable;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::X509::Store {
-class IX509Selector;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509::Store {
@@ -135,8 +135,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::X509::Store::IX509Selector"
   constexpr operator ::Org::BouncyCastle::X509::Store::IX509Selector*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::X509::Store::IX509Selector"
+  constexpr ::Org::BouncyCastle::X509::Store::IX509Selector* i___Org__BouncyCastle__X509__Store__IX509Selector() noexcept;
+
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
+
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_authorityKeyIdentifier();
 

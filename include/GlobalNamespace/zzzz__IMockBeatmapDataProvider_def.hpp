@@ -6,8 +6,8 @@ CORDL_MODULE_EXPORT(IMockBeatmapDataProvider)
 namespace GlobalNamespace {
 class BeatmapIdentifierNetSerializable;
 }
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class MockBeatmapData;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
@@ -15,8 +15,8 @@ template <typename TResult> class Task_1;
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace GlobalNamespace {
-class MockBeatmapData;
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -36,6 +36,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// @brief Method GetBeatmapData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MockBeatmapData*>* GetBeatmapData(::GlobalNamespace::BeatmapIdentifierNetSerializable* beatmap,

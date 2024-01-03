@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomPrePassBackgroundColorsGradientElementWithLightId)
 namespace GlobalNamespace {
-class __BloomPrePassBackgroundColorsGradientElementWithLightId__Elements;
+class BloomPrePassBackgroundColorsGradient;
 }
 namespace GlobalNamespace {
-class BloomPrePassBackgroundColorsGradient;
+class __BloomPrePassBackgroundColorsGradientElementWithLightId__Elements;
 }
 namespace UnityEngine {
 struct Color;

@@ -7,15 +7,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FixedArray3_1)
-namespace System {
-class IDisposable;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System {
-class Object;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
@@ -23,7 +14,16 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 template <typename T> class __FixedArray3_1___Enumerate_d__10;
@@ -57,8 +57,14 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<T>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>* i___System__Collections__Generic__IEnumerable_1_T_();
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable();
 
   /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_Item(int32_t index);
@@ -117,8 +123,8 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15349)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15349), inst: 1981 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15348)) CS Name: ::FixedArray3`1::<Enumerate>d__10<T>*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15349), inst: 1981 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15349))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15348)) CS Name: ::FixedArray3`1::<Enumerate>d__10<T>*
 class CORDL_TYPE __FixedArray3_1___Enumerate_d__10 : public ::System::Object {
 public:
   // Declarations
@@ -147,17 +153,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>* i___System__Collections__Generic__IEnumerable_1_T_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<T>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<T>* i___System__Collections__Generic__IEnumerator_1_T_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

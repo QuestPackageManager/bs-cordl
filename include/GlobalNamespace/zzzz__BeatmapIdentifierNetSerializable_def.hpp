@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapIdentifierNetSerializable)
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace System {
-class Object;
-}
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
 namespace LiteNetLib::Utils {
 class INetSerializable;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -60,8 +60,14 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
+
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::BeatmapIdentifierNetSerializable*>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::BeatmapIdentifierNetSerializable*>*() noexcept;
+
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::BeatmapIdentifierNetSerializable*>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::BeatmapIdentifierNetSerializable*>* i___System__IEquatable_1___GlobalNamespace__BeatmapIdentifierNetSerializable__() noexcept;
 
   constexpr ::StringW& __get__levelID_k__BackingField();
 

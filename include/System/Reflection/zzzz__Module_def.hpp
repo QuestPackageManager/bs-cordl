@@ -8,32 +8,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Module)
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
 namespace System::Reflection {
-class TypeFilter;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::Runtime::InteropServices {
-class _Module;
-}
-namespace System {
-class Object;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+class Assembly;
 }
 namespace System::Reflection {
 class ICustomAttributeProvider;
 }
 namespace System::Reflection {
-class Assembly;
+class TypeFilter;
+}
+namespace System::Runtime::InteropServices {
+class _Module;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System {
 struct Guid;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class Type;
@@ -48,7 +48,7 @@ MARK_REF_PTR_T(::System::Reflection::Module);
 // SizeInfo { instance_size: 16, native_size: 1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3459))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3459)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3481))
 // CS Name: ::System.Reflection::Module*
 class CORDL_TYPE Module : public ::System::Object {
@@ -69,11 +69,20 @@ public:
   /// @brief Convert operator to "::System::Reflection::ICustomAttributeProvider"
   constexpr operator ::System::Reflection::ICustomAttributeProvider*() noexcept;
 
+  /// @brief Convert to "::System::Reflection::ICustomAttributeProvider"
+  constexpr ::System::Reflection::ICustomAttributeProvider* i___System__Reflection__ICustomAttributeProvider() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::InteropServices::_Module"
   constexpr operator ::System::Runtime::InteropServices::_Module*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::InteropServices::_Module"
+  constexpr ::System::Runtime::InteropServices::_Module* i___System__Runtime__InteropServices___Module() noexcept;
 
   static inline void setStaticF_FilterTypeName(::System::Reflection::TypeFilter* value);
 

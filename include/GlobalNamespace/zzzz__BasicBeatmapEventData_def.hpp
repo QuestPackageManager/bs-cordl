@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BasicBeatmapEventData)
 namespace GlobalNamespace {
-class BeatmapDataItem;
+struct BasicBeatmapEventType;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace GlobalNamespace {
+class BeatmapDataItem;
 }
 namespace GlobalNamespace {
 class BeatmapEventData;
 }
-namespace GlobalNamespace {
-struct BasicBeatmapEventType;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

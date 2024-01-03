@@ -8,55 +8,55 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HashSet_1)
 namespace System::Collections::Generic {
-template <typename T> struct __HashSet_1__Enumerator;
+template <typename T> class ICollection_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
-template <typename T> struct __HashSet_1__ElementCount;
-}
-namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEqualityComparer_1;
 }
-namespace System {
-template <typename T> class Predicate_1;
-}
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template <typename T> struct __HashSet_1__ElementCount;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+namespace System::Collections::Generic {
+template <typename T> struct __HashSet_1__Enumerator;
+}
+namespace System::Collections::Generic {
+template <typename T> struct __HashSet_1__Slot;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Runtime::Serialization {
+class IDeserializationCallback;
+}
+namespace System::Runtime::Serialization {
 class ISerializable;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
 }
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template <typename T> struct __HashSet_1__Slot;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
-}
 namespace System {
-class IDisposable;
+template <typename T> class Predicate_1;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
@@ -163,11 +163,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<T>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<T>* i___System__Collections__Generic__IEnumerator_1_T_();
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*();
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::HashSet_1<T>* set);
@@ -265,20 +274,38 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<T>"
   constexpr operator ::System::Collections::Generic::ICollection_1<T>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::ICollection_1<T>"
+  constexpr ::System::Collections::Generic::ICollection_1<T>* i___System__Collections__Generic__ICollection_1_T_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>* i___System__Collections__Generic__IEnumerable_1_T_() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
   constexpr operator ::System::Collections::Generic::IReadOnlyCollection_1<T>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
+  constexpr ::System::Collections::Generic::IReadOnlyCollection_1<T>* i___System__Collections__Generic__IReadOnlyCollection_1_T_() noexcept;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
   constexpr operator ::System::Runtime::Serialization::IDeserializationCallback*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
+  constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback() noexcept;
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get__buckets();
 

@@ -13,83 +13,56 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_PartData)
-namespace UnityEngine {
-class TerrainData;
-}
-namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
-}
-namespace HoudiniEngineUnity {
-class __HEU_PartData____c;
-}
-namespace UnityEngine {
-class Mesh;
-}
-namespace HoudiniEngineUnity {
-struct __HEU_PartData__PartOutputType;
-}
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_Transform;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace HoudiniEngineUnity {
-struct TransformData;
-}
-namespace HoudiniEngineUnity {
-class HEU_ObjectNode;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
-namespace HoudiniEngineUnity {
-class HEU_ObjectInstanceInfo;
-}
-namespace HoudiniEngineUnity {
-class HEU_GeneratedOutput;
-}
-namespace HoudiniEngineUnity {
-class HEU_Curve;
-}
-namespace UnityEngine {
-class Object;
-}
-namespace System::Text {
-class StringBuilder;
-}
 namespace HoudiniEngineUnity {
 struct HAPI_PartInfo;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace HoudiniEngineUnity {
-class HEU_GeoNode;
-}
-namespace HoudiniEngineUnity {
-class __HEU_PartData____c__DisplayClass86_0;
-}
-namespace HoudiniEngineUnity {
-class HEU_MaterialData;
-}
-namespace UnityEngine {
-class Material;
+struct HAPI_Transform;
 }
 namespace HoudiniEngineUnity {
 class HEU_AttributesStore;
 }
 namespace HoudiniEngineUnity {
-class __HEU_PartData____c__DisplayClass88_0;
+class HEU_Curve;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace HoudiniEngineUnity {
+class HEU_GeneratedOutput;
+}
+namespace HoudiniEngineUnity {
+class HEU_GeoNode;
+}
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset;
+}
+namespace HoudiniEngineUnity {
+class HEU_MaterialData;
+}
+namespace HoudiniEngineUnity {
+class HEU_ObjectInstanceInfo;
+}
+namespace HoudiniEngineUnity {
+class HEU_ObjectNode;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
+}
+namespace HoudiniEngineUnity {
+template <typename T> class IEquivable_1;
+}
+namespace HoudiniEngineUnity {
+struct TransformData;
+}
+namespace HoudiniEngineUnity {
+struct __HEU_PartData__PartOutputType;
+}
+namespace HoudiniEngineUnity {
+class __HEU_PartData____c;
+}
+namespace HoudiniEngineUnity {
+class __HEU_PartData____c__DisplayClass86_0;
+}
+namespace HoudiniEngineUnity {
+class __HEU_PartData____c__DisplayClass88_0;
 }
 namespace HoudiniEngineUnity {
 class __HEU_PartData____c__DisplayClass88_1;
@@ -97,11 +70,38 @@ class __HEU_PartData____c__DisplayClass88_1;
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace UnityEngine {
-struct LOD;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Text {
+class StringBuilder;
 }
 namespace System {
 template <typename T> class Comparison_1;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+struct LOD;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace UnityEngine {
+class Object;
+}
+namespace UnityEngine {
+class TerrainData;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -403,8 +403,8 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_PartData____c__DisplayClass88
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(9655)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9710))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9660)) CS Name: ::HoudiniEngineUnity::HEU_PartData*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9710)), TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(9655)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9660)) CS Name: ::HoudiniEngineUnity::HEU_PartData*
 class CORDL_TYPE HEU_PartData : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
@@ -502,6 +502,9 @@ public:
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_PartData*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_PartData*>*() noexcept;
+
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_PartData*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_PartData*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_PartData__() noexcept;
 
   constexpr int32_t& __get__partID();
 
@@ -782,11 +785,10 @@ public:
   inline void GenerateInstancesFromUnityAssetPathAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, ::StringW unityInstanceAttr);
 
   /// @brief Method CreateNewInstanceFromObject, addr 0x217a098, size 0x408, virtual false, abstract: false, final false
-  /// @param copyParentFlags: bool (default: true)
   inline void CreateNewInstanceFromObject(::UnityEngine::GameObject* sourceObject, int32_t instanceIndex, ::UnityEngine::Transform* parentTransform,
                                           ByRef<::HoudiniEngineUnity::HAPI_Transform> hapiTransform, int32_t instancedObjectNodeID, ::StringW instancedObjectPath,
                                           ::UnityEngine::Vector3 rotationOffset, ::UnityEngine::Vector3 scaleOffset, ::ArrayW<::StringW, ::Array<::StringW>*> instancePrefixes,
-                                          ::UnityEngine::GameObject* collisionSrcGO, bool copyParentFlags = true);
+                                          ::UnityEngine::GameObject* collisionSrcGO, bool copyParentFlags);
 
   /// @brief Method GenerateAttributesStore, addr 0x217aa04, size 0xb4, virtual false, abstract: false, final false
   inline void GenerateAttributesStore(::HoudiniEngineUnity::HEU_SessionBase* session);

@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(HEU_BakedEventData)
 namespace HoudiniEngineUnity {
 class HEU_HoudiniAsset;
 }
-namespace UnityEngine {
-class GameObject;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

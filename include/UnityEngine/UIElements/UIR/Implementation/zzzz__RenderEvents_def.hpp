@@ -7,18 +7,6 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RenderEvents)
-namespace UnityEngine::UIElements::UIR {
-class UIRenderDevice;
-}
-namespace UnityEngine::UIElements::UIR {
-class RenderChain;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
 namespace UnityEngine::UIElements::UIR::Implementation {
 struct ClipMethod;
 }
@@ -28,8 +16,20 @@ class UIRTextUpdatePainter;
 namespace UnityEngine::UIElements::UIR {
 struct ChainBuilderStats;
 }
+namespace UnityEngine::UIElements::UIR {
+class RenderChain;
+}
+namespace UnityEngine::UIElements::UIR {
+class UIRenderDevice;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
 namespace UnityEngine {
 struct Matrix4x4;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR::Implementation {
@@ -99,9 +99,8 @@ public:
                                                  ByRef<::UnityEngine::UIElements::UIR::ChainBuilderStats> stats);
 
   /// @brief Method DepthFirstOnOpacityChanged, addr 0x2dd63e4, size 0x384, virtual false, abstract: false, final false
-  /// @param isDoingFullVertexRegeneration: bool (default: false)
   static inline void DepthFirstOnOpacityChanged(::UnityEngine::UIElements::UIR::RenderChain* renderChain, float_t parentCompositeOpacity, ::UnityEngine::UIElements::VisualElement* ve,
-                                                uint32_t dirtyID, bool hierarchical, ByRef<::UnityEngine::UIElements::UIR::ChainBuilderStats> stats, bool isDoingFullVertexRegeneration = false);
+                                                uint32_t dirtyID, bool hierarchical, ByRef<::UnityEngine::UIElements::UIR::ChainBuilderStats> stats, bool isDoingFullVertexRegeneration);
 
   /// @brief Method OnColorChanged, addr 0x2dd67f0, size 0x1cc, virtual false, abstract: false, final false
   static inline void OnColorChanged(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* ve, uint32_t dirtyID,

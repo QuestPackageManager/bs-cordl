@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__InstantMenuButtonTrigger_def.hpp"
-#include "Zenject/zzzz__ITickable_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "GlobalNamespace/zzzz__IMenuButtonTrigger_def.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "Zenject/zzzz__ITickable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::InstantMenuButtonTrigger.add_menuButtonTriggeredEvent
 template <>
 
@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x23c4088;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::InstantMenuButtonTrigger*>::get(), "add_menuButtonTriggeredEvent",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x23c4124;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::InstantMenuButtonTrigger*>::get(), "remove_menuButtonTriggeredEvent",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
@@ -42,7 +42,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xcc;
   constexpr static std::size_t addrs = 0x23c41c0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::InstantMenuButtonTrigger*>::get(), "Tick",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -55,7 +55,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23c428c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::InstantMenuButtonTrigger*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -65,8 +65,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 constexpr GlobalNamespace::InstantMenuButtonTrigger::operator ::Zenject::ITickable*() noexcept {
   return static_cast<::Zenject::ITickable*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::Zenject::ITickable"
+constexpr ::Zenject::ITickable* GlobalNamespace::InstantMenuButtonTrigger::i___Zenject__ITickable() noexcept {
+  return static_cast<::Zenject::ITickable*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::GlobalNamespace::IMenuButtonTrigger"
 constexpr GlobalNamespace::InstantMenuButtonTrigger::operator ::GlobalNamespace::IMenuButtonTrigger*() noexcept {
+  return static_cast<::GlobalNamespace::IMenuButtonTrigger*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IMenuButtonTrigger"
+constexpr ::GlobalNamespace::IMenuButtonTrigger* GlobalNamespace::InstantMenuButtonTrigger::i___GlobalNamespace__IMenuButtonTrigger() noexcept {
   return static_cast<::GlobalNamespace::IMenuButtonTrigger*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::IVRPlatformHelper*& GlobalNamespace::InstantMenuButtonTrigger::__get__vrPlatformHelper() {

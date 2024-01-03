@@ -8,13 +8,13 @@ namespace System {
 class Object;
 }
 namespace Zenject {
-template <typename TContract> class ConcreteBinderGeneric_1;
-}
-namespace Zenject {
 class BindInfo;
 }
 namespace Zenject {
 class BindStatement;
+}
+namespace Zenject {
+template <typename TContract> class ConcreteBinderGeneric_1;
 }
 namespace Zenject {
 class DiContainer;

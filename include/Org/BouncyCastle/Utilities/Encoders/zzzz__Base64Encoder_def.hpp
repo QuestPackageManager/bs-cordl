@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Base64Encoder)
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Utilities::Encoders {
 class IEncoder;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Encoders {
@@ -40,6 +40,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Utilities::Encoders::IEncoder"
   constexpr operator ::Org::BouncyCastle::Utilities::Encoders::IEncoder*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Utilities::Encoders::IEncoder"
+  constexpr ::Org::BouncyCastle::Utilities::Encoders::IEncoder* i___Org__BouncyCastle__Utilities__Encoders__IEncoder() noexcept;
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_encodingTable();
 

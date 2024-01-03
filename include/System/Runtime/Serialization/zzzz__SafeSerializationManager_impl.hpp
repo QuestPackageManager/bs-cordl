@@ -1,15 +1,15 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__SafeSerializationManager_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SafeSerializationEventArgs_def.hpp"
-#include "System/zzzz__EventHandler_1_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/Runtime/Serialization/zzzz__IObjectReference_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SafeSerializationEventArgs_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/zzzz__RuntimeType_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__EventHandler_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__RuntimeType_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::SafeSerializationManager._ctor
 template <>
 
@@ -18,7 +18,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x24bce54;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SafeSerializationManager*>::get(), ".ctor",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -33,7 +33,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1e4;
   constexpr static std::size_t addrs = 0x24bce5c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SafeSerializationManager*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationInfo*>::get(),
@@ -49,7 +49,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x24bd35c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SafeSerializationManager*>::get(), "get_IsActive",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -65,7 +65,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x174;
   constexpr static std::size_t addrs = 0x24bd36c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SafeSerializationManager*>::get(), "CompleteSerialization", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
@@ -82,7 +82,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x3a0;
   constexpr static std::size_t addrs = 0x24bd69c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SafeSerializationManager*>::get(), "CompleteDeserialization",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
@@ -98,7 +98,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x24bda3c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SafeSerializationManager*>::get(),
                                     "System.Runtime.Serialization.ISerializable.GetObjectData", std::vector<Il2CppClass*>{},
@@ -116,7 +116,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x2c0;
   constexpr static std::size_t addrs = 0x24bdaec;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SafeSerializationManager*>::get(), "System.Runtime.Serialization.IObjectReference.GetRealObject",
         std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
@@ -131,7 +131,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x24bddac;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SafeSerializationManager*>::get(), "OnDeserialized", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
@@ -142,8 +142,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 constexpr System::Runtime::Serialization::SafeSerializationManager::operator ::System::Runtime::Serialization::IObjectReference*() noexcept {
   return static_cast<::System::Runtime::Serialization::IObjectReference*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Runtime::Serialization::IObjectReference"
+constexpr ::System::Runtime::Serialization::IObjectReference* System::Runtime::Serialization::SafeSerializationManager::i___System__Runtime__Serialization__IObjectReference() noexcept {
+  return static_cast<::System::Runtime::Serialization::IObjectReference*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
 constexpr System::Runtime::Serialization::SafeSerializationManager::operator ::System::Runtime::Serialization::ISerializable*() noexcept {
+  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+constexpr ::System::Runtime::Serialization::ISerializable* System::Runtime::Serialization::SafeSerializationManager::i___System__Runtime__Serialization__ISerializable() noexcept {
   return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::Generic::IList_1<::System::Object*>*& System::Runtime::Serialization::SafeSerializationManager::__get_m_serializedStates() {

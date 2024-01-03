@@ -2,22 +2,22 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationStatus_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationBase_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "GlobalNamespace/zzzz__DelegateList_1_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__TaskCompletionSource_1_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__IAsyncOperation_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationBase_1_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationStatus_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__DownloadStatus_def.hpp"
-#include "GlobalNamespace/zzzz__DelegateList_1_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__IAsyncOperation_def.hpp"
+#include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
 template <typename TObject>
 constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*&
 UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass57_0<TObject>::__get_value() {
@@ -101,6 +101,12 @@ template <typename TObject> constexpr ::UnityEngine::ResourceManagement::AsyncOp
 /// @brief Convert operator to "::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation"
 template <typename TObject>
 constexpr UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::operator ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*() noexcept {
+  return static_cast<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation"
+template <typename TObject>
+constexpr ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*
+UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::i___UnityEngine__ResourceManagement__AsyncOperations__IAsyncOperation() noexcept {
   return static_cast<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>(static_cast<void*>(this));
 }
 template <typename TObject> constexpr TObject& UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__get__Result_k__BackingField() {

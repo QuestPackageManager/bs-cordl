@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(EmptyPosesSerializer)
 namespace GlobalNamespace {
-class PosesRecordingData;
+class IPosesSerializer;
 }
 namespace GlobalNamespace {
-class IPosesSerializer;
+class PosesRecordingData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,6 +29,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::GlobalNamespace::IPosesSerializer"
   constexpr operator ::GlobalNamespace::IPosesSerializer*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IPosesSerializer"
+  constexpr ::GlobalNamespace::IPosesSerializer* i___GlobalNamespace__IPosesSerializer() noexcept;
 
   /// @brief Method SaveToOldFormat, addr 0x22fef54, size 0x4, virtual true, abstract: false, final true
   inline void SaveToOldFormat(::StringW path, ::GlobalNamespace::PosesRecordingData* data);

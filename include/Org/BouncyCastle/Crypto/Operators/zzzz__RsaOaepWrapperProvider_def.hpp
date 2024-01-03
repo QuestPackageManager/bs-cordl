@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(RsaOaepWrapperProvider)
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Crypto::Operators {
 class WrapperProvider;
 }
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Operators {
@@ -37,6 +37,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Operators::WrapperProvider"
   constexpr operator ::Org::BouncyCastle::Crypto::Operators::WrapperProvider*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Operators::WrapperProvider"
+  constexpr ::Org::BouncyCastle::Crypto::Operators::WrapperProvider* i___Org__BouncyCastle__Crypto__Operators__WrapperProvider() noexcept;
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __get_digestOid();
 

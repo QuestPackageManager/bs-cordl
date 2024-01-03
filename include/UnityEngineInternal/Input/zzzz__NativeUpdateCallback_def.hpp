@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeUpdateCallback)
+namespace System {
+class Object;
+}
 namespace UnityEngineInternal::Input {
 struct NativeInputEventBuffer;
 }
 namespace UnityEngineInternal::Input {
 struct NativeInputUpdateType;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace UnityEngineInternal::Input {

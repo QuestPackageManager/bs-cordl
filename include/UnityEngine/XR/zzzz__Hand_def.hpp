@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Hand)
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::XR {
@@ -33,6 +33,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::Hand>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::Hand>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::Hand>"
+  constexpr ::System::IEquatable_1<::UnityEngine::XR::Hand>* i___System__IEquatable_1___UnityEngine__XR__Hand_();
 
   /// @brief Method get_deviceId, addr 0x2eb25b0, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_deviceId();

@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "Priority_Queue/zzzz__SimplePriorityQueue_2_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(SimplePriorityQueue_1)
-namespace System {
-template <typename T> class Comparison_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
+}
+namespace System {
+template <typename T> class Comparison_1;
 }
 // Forward declare root types
 namespace Priority_Queue {
@@ -23,7 +23,7 @@ namespace Priority_Queue {
 // cpp template
 template <typename TItem>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6100)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6100), inst: 3776 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6100), inst: 3776 }), TypeDefinitionIndex(TypeDefinitionIndex(6100))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6101))
 // CS Name: ::Priority_Queue::SimplePriorityQueue`1<TItem>*
 class CORDL_TYPE SimplePriorityQueue_1 : public ::Priority_Queue::SimplePriorityQueue_2<TItem, float_t> {

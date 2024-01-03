@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DigestInfo)
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {

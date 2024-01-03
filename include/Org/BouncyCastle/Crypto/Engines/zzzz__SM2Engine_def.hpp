@@ -9,29 +9,29 @@ CORDL_MODULE_EXPORT(SM2Engine)
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECDomainParameters;
 }
-namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECKeyParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECKeyParameters;
-}
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class ECMultiplier;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
 }
+namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
+}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {

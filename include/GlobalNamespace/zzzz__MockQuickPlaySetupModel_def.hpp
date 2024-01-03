@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MockQuickPlaySetupModel)
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
 namespace GlobalNamespace {
 class IQuickPlaySetupModel;
 }
-namespace System::Threading {
-struct CancellationToken;
-}
 namespace GlobalNamespace {
 class QuickPlaySetupData;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -37,6 +37,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IQuickPlaySetupModel"
   constexpr operator ::GlobalNamespace::IQuickPlaySetupModel*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IQuickPlaySetupModel"
+  constexpr ::GlobalNamespace::IQuickPlaySetupModel* i___GlobalNamespace__IQuickPlaySetupModel() noexcept;
 
   constexpr ::GlobalNamespace::QuickPlaySetupData*& __get__quickPlaySetupData();
 

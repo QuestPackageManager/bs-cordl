@@ -5,11 +5,14 @@ CORDL_MODULE_INIT
 #include "BeatSaber/AvatarCore/zzzz__AvatarPoseData_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ConnectedPlayerAvatarPoseDataProvider)
-namespace System {
-template <typename T> class Action_1;
+namespace BeatSaber::AvatarCore {
+struct AvatarPoseData;
 }
 namespace BeatSaber::AvatarCore {
 class IAvatarPoseDataProvider;
+}
+namespace BeatSaber::AvatarCore {
+class IAvatarPoseRestriction;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
@@ -17,14 +20,11 @@ class IConnectedPlayer;
 namespace GlobalNamespace {
 class INodePoseSyncStateManager;
 }
-namespace BeatSaber::AvatarCore {
-class IAvatarPoseRestriction;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace Zenject {
 class ITickable;
-}
-namespace BeatSaber::AvatarCore {
-struct AvatarPoseData;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {
@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 132, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15174))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15174)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15187))
 // CS Name: ::BeatSaber.AvatarCore::ConnectedPlayerAvatarPoseDataProvider*
 class CORDL_TYPE ConnectedPlayerAvatarPoseDataProvider : public ::System::Object {
@@ -62,8 +62,14 @@ public:
   /// @brief Convert operator to "::BeatSaber::AvatarCore::IAvatarPoseDataProvider"
   constexpr operator ::BeatSaber::AvatarCore::IAvatarPoseDataProvider*() noexcept;
 
+  /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarPoseDataProvider"
+  constexpr ::BeatSaber::AvatarCore::IAvatarPoseDataProvider* i___BeatSaber__AvatarCore__IAvatarPoseDataProvider() noexcept;
+
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
+
+  /// @brief Convert to "::Zenject::ITickable"
+  constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
   constexpr ::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>*& __get_poseDidChangeEvent();
 

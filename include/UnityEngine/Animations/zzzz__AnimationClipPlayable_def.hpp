@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(AnimationClipPlayable)
-namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
-namespace UnityEngine::Playables {
-struct PlayableHandle;
-}
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::Playables {
 class IPlayable;
 }
-namespace UnityEngine {
-class AnimationClip;
+namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
+namespace UnityEngine::Playables {
+struct PlayableHandle;
 }
 namespace UnityEngine::Playables {
 struct Playable;
+}
+namespace UnityEngine {
+class AnimationClip;
 }
 // Forward declare root types
 namespace UnityEngine::Animations {
@@ -43,8 +43,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
+  /// @brief Convert to "::UnityEngine::Playables::IPlayable"
+  constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Animations::AnimationClipPlayable>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Animations::AnimationClipPlayable>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Animations::AnimationClipPlayable>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Animations::AnimationClipPlayable>* i___System__IEquatable_1___UnityEngine__Animations__AnimationClipPlayable_();
 
   /// @brief Method Create, addr 0x2c9803c, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityEngine::Animations::AnimationClipPlayable Create(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::AnimationClip* clip);

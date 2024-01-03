@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/InputSystem/zzzz__IInputActionCollection2_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputBinding_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__IInputActionCollection_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputBinding_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::IInputActionCollection2.get_bindings
 template <>
 
@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::IInputActionCollection2*>::get(),
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::IInputActionCollection2*>::get(),
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::IInputActionCollection2*>::get(),
@@ -57,12 +57,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 constexpr UnityEngine::InputSystem::IInputActionCollection2::operator ::UnityEngine::InputSystem::IInputActionCollection*() noexcept {
   return static_cast<::UnityEngine::InputSystem::IInputActionCollection*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::UnityEngine::InputSystem::IInputActionCollection"
+constexpr ::UnityEngine::InputSystem::IInputActionCollection* UnityEngine::InputSystem::IInputActionCollection2::i___UnityEngine__InputSystem__IInputActionCollection() noexcept {
+  return static_cast<::UnityEngine::InputSystem::IInputActionCollection*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputAction*>"
 constexpr UnityEngine::InputSystem::IInputActionCollection2::operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputAction*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputAction*>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputAction*>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputAction*>*
+UnityEngine::InputSystem::IInputActionCollection2::i___System__Collections__Generic__IEnumerable_1___UnityEngine__InputSystem__InputAction__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputAction*>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 constexpr UnityEngine::InputSystem::IInputActionCollection2::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* UnityEngine::InputSystem::IInputActionCollection2::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputBinding>* UnityEngine::InputSystem::IInputActionCollection2::get_bindings() {

@@ -2,10 +2,10 @@
 #include "System/Net/NetworkInformation/zzzz__IPInterfaceProperties_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__UnixIPInterfaceProperties_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
-#include "System/Net/NetworkInformation/zzzz__UnixNetworkInterface_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__UnicastIPAddressInformationCollection_def.hpp"
+#include "System/Net/NetworkInformation/zzzz__UnixNetworkInterface_def.hpp"
 #include "System/Net/zzzz__IPAddress_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
 //  Writing Method size for method: ::System::Net::NetworkInformation::UnixIPInterfaceProperties._ctor
 template <>
 
@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x29ec0e4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::UnixIPInterfaceProperties*>::get(), ".ctor", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::NetworkInformation::UnixNetworkInterface*>::get(),
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x274;
   constexpr static std::size_t addrs = 0x29f088c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::UnixIPInterfaceProperties*>::get(),

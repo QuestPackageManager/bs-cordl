@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Avatar)
 namespace UnityEngine {
+struct HumanDescription;
+}
+namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine {
-struct HumanDescription;
 }
 // Forward declare root types
 namespace UnityEngine {

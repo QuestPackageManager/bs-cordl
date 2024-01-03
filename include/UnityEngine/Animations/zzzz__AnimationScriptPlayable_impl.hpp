@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/Playables/zzzz__PlayableHandle_impl.hpp"
 #include "UnityEngine/Animations/zzzz__AnimationScriptPlayable_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/Playables/zzzz__IPlayable_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableHandle_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Animations::AnimationScriptPlayable._ctor
 template <>
 
@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc0;
   constexpr static std::size_t addrs = 0x2c976b0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Animations::AnimationScriptPlayable>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Playables::PlayableHandle>::get() })));
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x2c97770;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Animations::AnimationScriptPlayable>::get(),
                                                                                "GetHandle", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0x2c9777c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Animations::AnimationScriptPlayable>::get(), "Equals", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Animations::AnimationScriptPlayable>::get() })));
@@ -52,8 +52,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 constexpr UnityEngine::Animations::AnimationScriptPlayable::operator ::UnityEngine::Playables::IPlayable*() {
   return static_cast<::UnityEngine::Playables::IPlayable*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::UnityEngine::Playables::IPlayable"
+constexpr ::UnityEngine::Playables::IPlayable* UnityEngine::Animations::AnimationScriptPlayable::i___UnityEngine__Playables__IPlayable() {
+  return static_cast<::UnityEngine::Playables::IPlayable*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Animations::AnimationScriptPlayable>"
 constexpr UnityEngine::Animations::AnimationScriptPlayable::operator ::System::IEquatable_1<::UnityEngine::Animations::AnimationScriptPlayable>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::Animations::AnimationScriptPlayable>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::Animations::AnimationScriptPlayable>"
+constexpr ::System::IEquatable_1<::UnityEngine::Animations::AnimationScriptPlayable>*
+UnityEngine::Animations::AnimationScriptPlayable::i___System__IEquatable_1___UnityEngine__Animations__AnimationScriptPlayable_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Animations::AnimationScriptPlayable>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 inline void UnityEngine::Animations::AnimationScriptPlayable::setStaticF_m_NullPlayable(::UnityEngine::Animations::AnimationScriptPlayable value) {

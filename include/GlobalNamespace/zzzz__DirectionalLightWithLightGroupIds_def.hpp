@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__RuntimeLightWithLightGroupIds_def.hpp"
 CORDL_MODULE_EXPORT(DirectionalLightWithLightGroupIds)
-namespace UnityEngine {
-struct Color;
-}
 namespace GlobalNamespace {
 class DirectionalLight;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {

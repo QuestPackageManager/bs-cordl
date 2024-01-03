@@ -8,29 +8,29 @@ CORDL_MODULE_EXPORT(MethodProviderWithContainer_5)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace Zenject {
-class InjectContext;
-}
 namespace System {
 class Action;
 }
 namespace System {
-class Type;
-}
-namespace System {
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename TResult> class Func_6;
-}
-namespace Zenject {
-struct TypeValuePair;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class Type;
 }
 namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
 class IProvider;
+}
+namespace Zenject {
+class InjectContext;
+}
+namespace Zenject {
+struct TypeValuePair;
 }
 // Forward declare root types
 namespace Zenject {
@@ -59,6 +59,9 @@ public:
 
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
+
+  /// @brief Convert to "::Zenject::IProvider"
+  constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
 
   constexpr ::System::Func_6<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TValue>*& __get__method();
 

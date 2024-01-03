@@ -14,10 +14,10 @@ namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -37,6 +37,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::LevelKey>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::LevelKey>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::LevelKey>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::LevelKey>* i___System__IEquatable_1___GlobalNamespace__LevelKey_();
 
   /// @brief Method Equals, addr 0x236bbb8, size 0x9c, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::LevelKey other);

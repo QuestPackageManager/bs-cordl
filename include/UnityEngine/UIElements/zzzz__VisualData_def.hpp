@@ -12,13 +12,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(VisualData)
 namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
 class Object;
 }
 namespace UnityEngine::UIElements {
 struct Background;
-}
-namespace UnityEngine {
-struct Color;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class IStyleDataGroup_1;
@@ -29,8 +29,8 @@ struct Length;
 namespace UnityEngine::UIElements {
 struct OverflowInternal;
 }
-namespace System {
-template <typename T> class IEquatable_1;
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -42,16 +42,22 @@ MARK_VAL_T(::UnityEngine::UIElements::VisualData);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(7313)), TypeDefinitionIndex(TypeDefinitionIndex(7293)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6887))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7361)) CS Name: ::UnityEngine.UIElements::VisualData
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7293)), TypeDefinitionIndex(TypeDefinitionIndex(7313)), TypeDefinitionIndex(TypeDefinitionIndex(6887)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10251))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7361)) CS Name: ::UnityEngine.UIElements::VisualData
 struct CORDL_TYPE VisualData {
 public:
   // Declarations
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::VisualData>"
   constexpr operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::VisualData>*();
 
+  /// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::VisualData>"
+  constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::VisualData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__VisualData_();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::VisualData>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::VisualData>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::VisualData>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::VisualData>* i___System__IEquatable_1___UnityEngine__UIElements__VisualData_();
 
   /// @brief Method Copy, addr 0x2e84ae0, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::VisualData Copy();

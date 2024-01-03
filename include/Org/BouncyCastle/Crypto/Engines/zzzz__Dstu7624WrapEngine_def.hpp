@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Dstu7624WrapEngine)
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+namespace Org::BouncyCastle::Crypto::Engines {
+class Dstu7624Engine;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
 }
-namespace Org::BouncyCastle::Crypto::Engines {
-class Dstu7624Engine;
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class IWrapper;
@@ -51,6 +51,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IWrapper"
   constexpr operator ::Org::BouncyCastle::Crypto::IWrapper*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IWrapper"
+  constexpr ::Org::BouncyCastle::Crypto::IWrapper* i___Org__BouncyCastle__Crypto__IWrapper() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::Parameters::KeyParameter*& __get_param();
 

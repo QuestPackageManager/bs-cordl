@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PoseObject)
-namespace UnityEngine {
-class Transform;
-}
 namespace GlobalNamespace {
 class PoseObjectIdSO;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {

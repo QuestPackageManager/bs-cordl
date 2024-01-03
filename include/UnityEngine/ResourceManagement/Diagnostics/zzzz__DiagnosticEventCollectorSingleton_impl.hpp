@@ -3,14 +3,14 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__ComponentSingleton_1_impl.hpp"
 #include "UnityEngine/ResourceManagement/Diagnostics/zzzz__DiagnosticEventCollectorSingleton_def.hpp"
+#include "GlobalNamespace/zzzz__DelegateList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/ResourceManagement/Diagnostics/zzzz__DiagnosticEvent_def.hpp"
-#include "UnityEngine/ResourceManagement/Diagnostics/zzzz__DiagnosticEventCollectorSingleton_def.hpp"
-#include "GlobalNamespace/zzzz__DelegateList_1_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
+#include "UnityEngine/ResourceManagement/Diagnostics/zzzz__DiagnosticEventCollectorSingleton_def.hpp"
+#include "UnityEngine/ResourceManagement/Diagnostics/zzzz__DiagnosticEvent_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::Diagnostics::__DiagnosticEventCollectorSingleton____c._ctor
 template <>
 
@@ -19,7 +19,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2bdc540;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Diagnostics::__DiagnosticEventCollectorSingleton____c*>::get(), ".ctor",
                                     std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -34,7 +34,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2bdc548;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
         ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Diagnostics::__DiagnosticEventCollectorSingleton____c*>::get(),
                                    "<RegisterEventHandler>b__8_0", std::vector<Il2CppClass*>{},
@@ -50,7 +50,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x2bdc550;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
         ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Diagnostics::__DiagnosticEventCollectorSingleton____c*>::get(),
                                    "<Awake>b__11_0", std::vector<Il2CppClass*>{},
@@ -123,7 +123,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xfc;
   constexpr static std::size_t addrs = 0x2bdb77c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton*>::get(),
                                                  "get_PlayerConnectionGuid", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -138,7 +138,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x2bdb878;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(
         ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton*>::get(),
@@ -154,7 +154,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xbc;
   constexpr static std::size_t addrs = 0x2bdb8b8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton*>::get(), "RegisterEventHandler",
         std::vector<Il2CppClass*>{},
@@ -171,7 +171,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4dc;
   constexpr static std::size_t addrs = 0x2bdb974;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton*>::get(), "RegisterEventHandler",
         std::vector<Il2CppClass*>{},
@@ -188,7 +188,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0xa8;
   constexpr static std::size_t addrs = 0x2bdbe50;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton*>::get(), "UnregisterEventHandler",
         std::vector<Il2CppClass*>{},
@@ -204,7 +204,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x224;
   constexpr static std::size_t addrs = 0x2bdbef8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton*>::get(), "PostEvent", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>::get() })));
@@ -219,7 +219,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xe4;
   constexpr static std::size_t addrs = 0x2bdc11c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton*>::get(),
                                                  "Awake", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -234,7 +234,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1d8;
   constexpr static std::size_t addrs = 0x2bdc200;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton*>::get(),
                                                  "Update", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -249,7 +249,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x104;
   constexpr static std::size_t addrs = 0x2bdc3d8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton*>::get(),
                                                  ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));

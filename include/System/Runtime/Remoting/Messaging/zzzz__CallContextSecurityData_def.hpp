@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CallContextSecurityData)
-namespace System {
-class ICloneable;
-}
 namespace System::Security::Principal {
 class IPrincipal;
+}
+namespace System {
+class ICloneable;
 }
 namespace System {
 class Object;
@@ -36,6 +36,9 @@ public:
 
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
+
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
   constexpr ::System::Security::Principal::IPrincipal*& __get__principal();
 

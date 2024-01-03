@@ -7,17 +7,17 @@ CORDL_MODULE_EXPORT(ILobbyStateDataModel)
 namespace GlobalNamespace {
 struct GameplayServerConfiguration;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
 namespace GlobalNamespace {
 class IConnectedPlayer;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

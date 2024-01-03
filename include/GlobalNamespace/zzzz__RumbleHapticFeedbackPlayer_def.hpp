@@ -9,8 +9,8 @@ CORDL_MODULE_EXPORT(RumbleHapticFeedbackPlayer)
 namespace GlobalNamespace {
 class IHapticFeedbackPlayer;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace GlobalNamespace {
+class IVRPlatformHelper;
 }
 namespace GlobalNamespace {
 class __RumbleHapticFeedbackPlayer__RumbleData;
@@ -18,14 +18,14 @@ class __RumbleHapticFeedbackPlayer__RumbleData;
 namespace Libraries::HM::HMLib::VR {
 class HapticPresetSO;
 }
-namespace UnityEngine::XR {
-struct XRNode;
-}
-namespace GlobalNamespace {
-class IVRPlatformHelper;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
 class Object;
+}
+namespace UnityEngine::XR {
+struct XRNode;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -163,6 +163,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IHapticFeedbackPlayer"
   constexpr operator ::GlobalNamespace::IHapticFeedbackPlayer*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IHapticFeedbackPlayer"
+  constexpr ::GlobalNamespace::IHapticFeedbackPlayer* i___GlobalNamespace__IHapticFeedbackPlayer() noexcept;
 
   constexpr ::GlobalNamespace::IVRPlatformHelper*& __get__vrPlatformHelper();
 

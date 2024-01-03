@@ -3,14 +3,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IFormatter)
+namespace System::IO {
+class Stream;
+}
 namespace System::Runtime::Serialization {
 class ISurrogateSelector;
 }
 namespace System {
 class Object;
-}
-namespace System::IO {
-class Stream;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {

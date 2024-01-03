@@ -12,74 +12,74 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Camera)
+namespace System {
+class Object;
+}
 namespace UnityEngine::Rendering {
 struct CameraEvent;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine {
-struct DepthTextureMode;
-}
-namespace UnityEngine {
-struct __Camera__RenderRequestMode;
-}
-namespace UnityEngine {
-struct RenderingPath;
-}
-namespace UnityEngine {
-struct CameraClearFlags;
-}
-namespace UnityEngine {
-struct StereoTargetEyeMask;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-struct __Camera__RenderRequestOutputSpace;
-}
-namespace UnityEngine {
-class __Camera__CameraCallback;
-}
-namespace UnityEngine {
-class Shader;
-}
-namespace UnityEngine {
-struct __Camera__StereoscopicEye;
 }
 namespace UnityEngine::Rendering {
 class CommandBuffer;
 }
 namespace UnityEngine {
-class RenderTexture;
+struct CameraClearFlags;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Color;
 }
 namespace UnityEngine {
-struct __Camera__RenderRequest;
+struct DepthTextureMode;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
-struct Vector4;
+struct Matrix4x4;
 }
 namespace UnityEngine {
 struct Ray;
 }
 namespace UnityEngine {
-struct __Camera__MonoOrStereoscopicEye;
+struct Rect;
+}
+namespace UnityEngine {
+class RenderTexture;
+}
+namespace UnityEngine {
+struct RenderingPath;
+}
+namespace UnityEngine {
+class Shader;
+}
+namespace UnityEngine {
+struct StereoTargetEyeMask;
 }
 namespace UnityEngine {
 class Texture;
 }
-namespace System {
-class Object;
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace UnityEngine {
+class __Camera__CameraCallback;
+}
+namespace UnityEngine {
+struct __Camera__MonoOrStereoscopicEye;
+}
+namespace UnityEngine {
+struct __Camera__RenderRequestMode;
+}
+namespace UnityEngine {
+struct __Camera__RenderRequestOutputSpace;
+}
+namespace UnityEngine {
+struct __Camera__RenderRequest;
+}
+namespace UnityEngine {
+struct __Camera__StereoscopicEye;
 }
 // Forward declare root types
 namespace UnityEngine {

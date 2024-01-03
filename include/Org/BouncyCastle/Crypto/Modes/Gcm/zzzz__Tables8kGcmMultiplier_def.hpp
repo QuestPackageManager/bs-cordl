@@ -35,6 +35,9 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier"
   constexpr operator ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier"
+  constexpr ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier* i___Org__BouncyCastle__Crypto__Modes__Gcm__IGcmMultiplier() noexcept;
+
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_H();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_H() const;

@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsymmetricKeyParameter)
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto {
@@ -34,6 +34,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"
+  constexpr ::Org::BouncyCastle::Crypto::ICipherParameters* i___Org__BouncyCastle__Crypto__ICipherParameters() noexcept;
 
   constexpr bool& __get_privateKey();
 

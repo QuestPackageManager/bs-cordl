@@ -5,53 +5,53 @@ CORDL_MODULE_INIT
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Task_1)
-namespace System::Threading::Tasks {
-class Task;
+namespace GlobalNamespace {
+template <typename TResult> class __Task_1__TaskWhenAnyCast____c;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct ConfiguredTaskAwaitable_1;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace System {
-class Delegate;
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Threading::Tasks {
-class TaskScheduler;
+struct InternalTaskOptions;
 }
 namespace System::Threading::Tasks {
 struct TaskContinuationOptions;
 }
 namespace System::Threading::Tasks {
+struct TaskCreationOptions;
+}
+namespace System::Threading::Tasks {
 template <typename TResult> class TaskFactory_1;
+}
+namespace System::Threading::Tasks {
+class TaskScheduler;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class __Task_1__TaskWhenAnyCast;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace System {
+class Delegate;
+}
+namespace System {
 template <typename TResult> class Func_1;
 }
-namespace System::Threading::Tasks {
-struct TaskCreationOptions;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct ConfiguredTaskAwaitable_1;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class __Task_1__TaskWhenAnyCast;
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 class Object;
-}
-namespace System::Threading::Tasks {
-struct InternalTaskOptions;
-}
-namespace GlobalNamespace {
-template <typename TResult> class __Task_1__TaskWhenAnyCast____c;
 }
 // Forward declare root types
 namespace GlobalNamespace {

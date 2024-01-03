@@ -5,18 +5,6 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MemoryPoolBase_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MemoryPool_2)
-namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
-template <typename TParam1, typename TValue> class IFactory_2;
-}
-namespace Zenject {
-template <typename TParam1, typename TValue> class IMemoryPool_2;
-}
-namespace Zenject {
-class IMemoryPool;
-}
 namespace System {
 class Object;
 }
@@ -24,7 +12,19 @@ namespace Zenject {
 template <typename TValue> class IDespawnableMemoryPool_1;
 }
 namespace Zenject {
+template <typename TParam1, typename TValue> class IFactory_2;
+}
+namespace Zenject {
 class IFactory;
+}
+namespace Zenject {
+template <typename TParam1, typename TValue> class IMemoryPool_2;
+}
+namespace Zenject {
+class IMemoryPool;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -47,17 +47,32 @@ public:
   /// @brief Convert operator to "::Zenject::IMemoryPool_2<TParam1,TValue>"
   constexpr operator ::Zenject::IMemoryPool_2<TParam1, TValue>*() noexcept;
 
+  /// @brief Convert to "::Zenject::IMemoryPool_2<TParam1,TValue>"
+  constexpr ::Zenject::IMemoryPool_2<TParam1, TValue>* i___Zenject__IMemoryPool_2_TParam1_TValue_() noexcept;
+
   /// @brief Convert operator to "::Zenject::IDespawnableMemoryPool_1<TValue>"
   constexpr operator ::Zenject::IDespawnableMemoryPool_1<TValue>*() noexcept;
+
+  /// @brief Convert to "::Zenject::IDespawnableMemoryPool_1<TValue>"
+  constexpr ::Zenject::IDespawnableMemoryPool_1<TValue>* i___Zenject__IDespawnableMemoryPool_1_TValue_() noexcept;
 
   /// @brief Convert operator to "::Zenject::IMemoryPool"
   constexpr operator ::Zenject::IMemoryPool*() noexcept;
 
+  /// @brief Convert to "::Zenject::IMemoryPool"
+  constexpr ::Zenject::IMemoryPool* i___Zenject__IMemoryPool() noexcept;
+
   /// @brief Convert operator to "::Zenject::IFactory_2<TParam1,TValue>"
   constexpr operator ::Zenject::IFactory_2<TParam1, TValue>*() noexcept;
 
+  /// @brief Convert to "::Zenject::IFactory_2<TParam1,TValue>"
+  constexpr ::Zenject::IFactory_2<TParam1, TValue>* i___Zenject__IFactory_2_TParam1_TValue_() noexcept;
+
   /// @brief Convert operator to "::Zenject::IFactory"
   constexpr operator ::Zenject::IFactory*() noexcept;
+
+  /// @brief Convert to "::Zenject::IFactory"
+  constexpr ::Zenject::IFactory* i___Zenject__IFactory() noexcept;
 
   /// @brief Method Spawn, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline TValue Spawn(TParam1 param);

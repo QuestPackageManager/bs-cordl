@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ScaleAnimator)
-namespace Tweening {
-class TimeTweeningManager;
-}
-namespace UnityEngine {
-class Transform;
-}
 namespace GlobalNamespace {
 struct EaseType;
+}
+namespace Tweening {
+class TimeTweeningManager;
 }
 namespace Tweening {
 template <typename T> class Tween_1;
 }
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -109,8 +109,7 @@ public:
   inline void ShowInstant();
 
   /// @brief Method Animate, addr 0x225d170, size 0xfc, virtual false, abstract: false, final false
-  /// @param delay: float_t (default: 0.0)
-  inline void Animate(bool show, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay = 0.0);
+  inline void Animate(bool show, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay);
 
   static inline ::GlobalNamespace::ScaleAnimator* New_ctor();
 

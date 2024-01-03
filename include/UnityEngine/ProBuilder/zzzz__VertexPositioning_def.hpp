@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(VertexPositioning)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+struct Edge;
 }
 namespace UnityEngine::ProBuilder {
 class Face;
 }
 namespace UnityEngine::ProBuilder {
-class Vertex;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+class ProBuilderMesh;
 }
 namespace UnityEngine::ProBuilder {
-struct Edge;
+class Vertex;
 }
 namespace UnityEngine {
 struct Vector3;

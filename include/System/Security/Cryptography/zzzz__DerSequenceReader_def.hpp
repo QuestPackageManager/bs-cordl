@@ -12,17 +12,17 @@ CORDL_MODULE_EXPORT(DerSequenceReader)
 namespace System::Globalization {
 class DateTimeFormatInfo;
 }
-namespace System {
-struct DateTime;
-}
-namespace System::Text {
-class Encoding;
+namespace System::Security::Cryptography {
+struct __DerSequenceReader__DerTag;
 }
 namespace System::Security::Cryptography {
 class __DerSequenceReader____c;
 }
-namespace System::Security::Cryptography {
-struct __DerSequenceReader__DerTag;
+namespace System::Text {
+class Encoding;
+}
+namespace System {
+struct DateTime;
 }
 namespace System {
 template <typename TResult> class Func_1;

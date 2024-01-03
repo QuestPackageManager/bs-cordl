@@ -9,19 +9,22 @@ namespace GlobalNamespace {
 class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
-class IVRPlatformHelper;
-}
-namespace GlobalNamespace {
 class IGamePause;
-}
-namespace System {
-template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 class IMenuButtonTrigger;
 }
 namespace GlobalNamespace {
+class IVRPlatformHelper;
+}
+namespace GlobalNamespace {
 class MultiplayerController;
+}
+namespace GlobalNamespace {
+class MultiplayerLocalActivePlayerInGameMenuViewController;
+}
+namespace GlobalNamespace {
+class SaberManager;
 }
 namespace GlobalNamespace {
 struct __MultiplayerController__State;
@@ -30,13 +33,10 @@ namespace GlobalNamespace {
 class __MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0;
 }
 namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
 class Action;
-}
-namespace GlobalNamespace {
-class MultiplayerLocalActivePlayerInGameMenuViewController;
-}
-namespace GlobalNamespace {
-class SaberManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -23,8 +23,7 @@ class CORDL_TYPE AssertExtensions : public ::System::Object {
 public:
   // Declarations
   /// @brief Method LessThan, addr 0xe265e0, size 0x4, virtual false, abstract: false, final false
-  /// @param message: ::StringW (default: nullptr)
-  static inline void LessThan(float_t expected, float_t value, ::StringW message = nullptr);
+  static inline void LessThan(float_t expected, float_t value, ::StringW message);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssertExtensions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

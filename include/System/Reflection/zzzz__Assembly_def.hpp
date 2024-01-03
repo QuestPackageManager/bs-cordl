@@ -7,26 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Assembly)
-namespace System {
-class Type;
+namespace System::Reflection {
+class AssemblyName;
 }
-namespace System {
-class Object;
+namespace System::Reflection {
+class ICustomAttributeProvider;
 }
 namespace System::Reflection {
 class Module;
 }
 namespace System::Reflection {
-class AssemblyName;
-}
-namespace System::Security::Policy {
-class Evidence;
-}
-namespace System {
-class Exception;
-}
-namespace System::Reflection {
-class ICustomAttributeProvider;
+class __Assembly__ResolveEventHolder;
 }
 namespace System::Runtime::InteropServices {
 class _Assembly;
@@ -35,13 +26,22 @@ namespace System::Runtime::Serialization {
 class ISerializable;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Reflection {
-class __Assembly__ResolveEventHolder;
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
+}
+namespace System::Security::Policy {
+class Evidence;
+}
+namespace System {
+class Exception;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -111,11 +111,20 @@ public:
   /// @brief Convert operator to "::System::Reflection::ICustomAttributeProvider"
   constexpr operator ::System::Reflection::ICustomAttributeProvider*() noexcept;
 
+  /// @brief Convert to "::System::Reflection::ICustomAttributeProvider"
+  constexpr ::System::Reflection::ICustomAttributeProvider* i___System__Reflection__ICustomAttributeProvider() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::InteropServices::_Assembly"
   constexpr operator ::System::Runtime::InteropServices::_Assembly*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::InteropServices::_Assembly"
+  constexpr ::System::Runtime::InteropServices::_Assembly* i___System__Runtime__InteropServices___Assembly() noexcept;
 
   /// @brief Method get_CodeBase, addr 0x24eee4c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_CodeBase();

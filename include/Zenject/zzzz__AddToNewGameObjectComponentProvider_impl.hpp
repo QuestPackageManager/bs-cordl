@@ -1,13 +1,13 @@
 #pragma once
 #include "Zenject/zzzz__AddToGameObjectComponentProviderBase_impl.hpp"
 #include "Zenject/zzzz__AddToNewGameObjectComponentProvider_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__GameObjectCreationParameters_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__GameObjectCreationParameters_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
 //  Writing Method size for method: ::Zenject::AddToNewGameObjectComponentProvider._ctor
@@ -19,7 +19,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x2f06bc4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::AddToNewGameObjectComponentProvider*>::get(), ".ctor", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{
@@ -38,7 +38,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2f06bf0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::AddToNewGameObjectComponentProvider*>::get(),
@@ -54,7 +54,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x2f06bf8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::AddToNewGameObjectComponentProvider*>::get(),

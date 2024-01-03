@@ -8,31 +8,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjRef)
 namespace System::Runtime::Remoting {
+class IChannelInfo;
+}
+namespace System::Runtime::Remoting {
+class IEnvoyInfo;
+}
+namespace System::Runtime::Remoting {
 class IRemotingTypeInfo;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System {
-class Type;
+class IObjectReference;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
-namespace System::Runtime::Remoting {
-class IEnvoyInfo;
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System {
 class Object;
 }
-namespace System::Runtime::Serialization {
-class IObjectReference;
-}
-namespace System::Runtime::Remoting {
-class IChannelInfo;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {
@@ -89,8 +89,14 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::IObjectReference"
   constexpr operator ::System::Runtime::Serialization::IObjectReference*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Serialization::IObjectReference"
+  constexpr ::System::Runtime::Serialization::IObjectReference* i___System__Runtime__Serialization__IObjectReference() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
   constexpr ::System::Runtime::Remoting::IChannelInfo*& __get_channel_info();
 

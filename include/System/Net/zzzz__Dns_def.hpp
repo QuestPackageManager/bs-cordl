@@ -9,26 +9,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Dns)
-namespace System {
-class AsyncCallback;
-}
 namespace System::Net {
 class IPAddress;
+}
+namespace System::Net {
+class IPHostEntry;
+}
+namespace System::Net {
+class __Dns__GetHostAddressesCallback;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System {
+class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
 }
 namespace System {
 class Object;
-}
-namespace System::Net {
-class IPHostEntry;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System::Net {
-class __Dns__GetHostAddressesCallback;
 }
 // Forward declare root types
 namespace System::Net {

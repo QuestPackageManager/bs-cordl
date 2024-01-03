@@ -11,16 +11,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MockPlayerGamePoseGeneratorAI)
 namespace GlobalNamespace {
-class MockNoteData;
+class GameplayModifiers;
 }
 namespace GlobalNamespace {
 class IGameplayRpcManager;
 }
 namespace GlobalNamespace {
-class ObstacleSpawnInfoNetSerializable;
+class IMockPlayerScoreCalculator;
 }
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+class MockBeatmapData;
+}
+namespace GlobalNamespace {
+class MockNoteData;
+}
+namespace GlobalNamespace {
+class MockObstacleData;
+}
+namespace GlobalNamespace {
+struct NoteCutDirection;
+}
+namespace GlobalNamespace {
+class NoteSpawnInfoNetSerializable;
+}
+namespace GlobalNamespace {
+class ObstacleSpawnInfoNetSerializable;
 }
 namespace GlobalNamespace {
 class SliderSpawnInfoNetSerializable;
@@ -31,26 +49,8 @@ class Action;
 namespace UnityEngine {
 struct Pose;
 }
-namespace GlobalNamespace {
-class MockObstacleData;
-}
-namespace GlobalNamespace {
-struct NoteCutDirection;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class MockBeatmapData;
-}
 namespace UnityEngine {
 struct Vector3;
-}
-namespace GlobalNamespace {
-class NoteSpawnInfoNetSerializable;
-}
-namespace GlobalNamespace {
-class IMockPlayerScoreCalculator;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -62,7 +62,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MockPlayerGamePoseGeneratorAI);
 // SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 279, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15515)), TypeDefinitionIndex(TypeDefinitionIndex(10057))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10057)), TypeDefinitionIndex(TypeDefinitionIndex(15515))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15516))
 // CS Name: ::MockPlayerGamePoseGeneratorAI*
 class CORDL_TYPE MockPlayerGamePoseGeneratorAI : public ::GlobalNamespace::MockPlayerGamePoseGenerator {

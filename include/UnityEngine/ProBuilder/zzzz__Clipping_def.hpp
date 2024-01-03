@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Clipping)
-namespace UnityEngine {
-struct Rect;
-}
 namespace UnityEngine::ProBuilder {
 struct __Clipping__OutCode;
+}
+namespace UnityEngine {
+struct Rect;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

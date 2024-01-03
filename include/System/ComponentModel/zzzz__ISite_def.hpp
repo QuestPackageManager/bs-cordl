@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ISite)
-namespace System {
-class IServiceProvider;
-}
 namespace System::ComponentModel {
 class IContainer;
+}
+namespace System {
+class IServiceProvider;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -34,6 +34,9 @@ public:
 
   /// @brief Convert operator to "::System::IServiceProvider"
   constexpr operator ::System::IServiceProvider*() noexcept;
+
+  /// @brief Convert to "::System::IServiceProvider"
+  constexpr ::System::IServiceProvider* i___System__IServiceProvider() noexcept;
 
   /// @brief Method get_Container, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::ComponentModel::IContainer* get_Container();

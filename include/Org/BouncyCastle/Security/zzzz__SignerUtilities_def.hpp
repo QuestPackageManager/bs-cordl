@@ -12,19 +12,19 @@ namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Crypto {
 class ISigner;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
 namespace System::Collections {
-class IDictionary;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+class ICollection;
 }
 namespace System::Collections {
-class ICollection;
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Security {

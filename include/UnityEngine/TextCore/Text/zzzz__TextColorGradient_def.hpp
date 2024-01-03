@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextColorGradient);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13722))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(13722))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13723))
 // CS Name: ::UnityEngine.TextCore.Text::TextColorGradient*
 class CORDL_TYPE TextColorGradient : public ::UnityEngine::ScriptableObject {

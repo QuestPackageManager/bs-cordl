@@ -7,38 +7,38 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerLevelLoader)
-namespace System {
-class Action;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+namespace GlobalNamespace {
+class BeatmapLevelsModel;
 }
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace GlobalNamespace {
-struct __MultiplayerLevelLoader__MultiplayerBeatmapLoaderState;
-}
-namespace System::Threading {
-class CancellationTokenSource;
-}
-namespace GlobalNamespace {
-struct __BeatmapLevelsModel__GetBeatmapLevelResult;
-}
-namespace Zenject {
-class ITickable;
+class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 class ILevelGameplaySetupData;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+struct __BeatmapLevelsModel__GetBeatmapLevelResult;
+}
+namespace GlobalNamespace {
+struct __MultiplayerLevelLoader__MultiplayerBeatmapLoaderState;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading {
+class CancellationTokenSource;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
-namespace GlobalNamespace {
-class BeatmapLevelsModel;
+namespace System {
+class Action;
+}
+namespace Zenject {
+class ITickable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -153,6 +153,9 @@ public:
 
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
+
+  /// @brief Convert to "::Zenject::ITickable"
+  constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
   constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __get__multiplayerSessionManager();
 

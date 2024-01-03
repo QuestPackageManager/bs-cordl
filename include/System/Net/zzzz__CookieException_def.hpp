@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CookieException)
 namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-class ISerializable;
+struct StreamingContext;
 }
 namespace System {
 class Exception;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Net {
@@ -35,6 +35,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
   static inline ::System::Net::CookieException* New_ctor();
 

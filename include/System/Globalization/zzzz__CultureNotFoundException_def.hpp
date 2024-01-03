@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CultureNotFoundException)
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 namespace System {
 template <typename T> struct Nullable_1;

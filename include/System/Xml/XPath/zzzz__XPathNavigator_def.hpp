@@ -8,20 +8,26 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(XPathNavigator)
-namespace System::Xml::XPath {
-struct XPathNamespaceScope;
-}
-namespace System::Xml {
-class IXmlNamespaceResolver;
+namespace System::Xml::Schema {
+class IXmlSchemaInfo;
 }
 namespace System::Xml::Schema {
 class XmlSchemaType;
 }
 namespace System::Xml::XPath {
+struct XPathNamespaceScope;
+}
+namespace System::Xml::XPath {
 class XPathNavigatorKeyComparer;
 }
-namespace System {
-class Type;
+namespace System::Xml::XPath {
+struct XPathNodeType;
+}
+namespace System::Xml {
+class IXmlNamespaceResolver;
+}
+namespace System::Xml {
+class XmlNameTable;
 }
 namespace System {
 struct DateTime;
@@ -29,17 +35,11 @@ struct DateTime;
 namespace System {
 class ICloneable;
 }
-namespace System::Xml::XPath {
-struct XPathNodeType;
-}
-namespace System::Xml::Schema {
-class IXmlSchemaInfo;
-}
 namespace System {
 class Object;
 }
-namespace System::Xml {
-class XmlNameTable;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Xml::XPath {
@@ -102,8 +102,14 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
+
   /// @brief Convert operator to "::System::Xml::IXmlNamespaceResolver"
   constexpr operator ::System::Xml::IXmlNamespaceResolver*() noexcept;
+
+  /// @brief Convert to "::System::Xml::IXmlNamespaceResolver"
+  constexpr ::System::Xml::IXmlNamespaceResolver* i___System__Xml__IXmlNamespaceResolver() noexcept;
 
   static inline void setStaticF_comparer(::System::Xml::XPath::XPathNavigatorKeyComparer* value);
 

@@ -5,9 +5,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Plane)
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace UnityEngine::ProBuilder::Shapes {
 class Shape;
 }
@@ -16,6 +13,9 @@ class ProBuilderMesh;
 }
 namespace UnityEngine {
 struct Bounds;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;

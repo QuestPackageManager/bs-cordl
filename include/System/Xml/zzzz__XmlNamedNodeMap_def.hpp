@@ -8,26 +8,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlNamedNodeMap)
-namespace System {
-class Object;
+namespace GlobalNamespace {
+class __XmlNamedNodeMap__SmallXmlNodeList__SingleObjectEnumerator;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Xml {
-struct __XmlNamedNodeMap__SmallXmlNodeList;
+class XmlDocument;
 }
 namespace System::Xml {
 class XmlNode;
 }
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System::Xml {
-class XmlDocument;
+struct __XmlNamedNodeMap__SmallXmlNodeList;
 }
-namespace GlobalNamespace {
-class __XmlNamedNodeMap__SmallXmlNodeList__SingleObjectEnumerator;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -63,6 +63,9 @@ public:
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr ::System::Object*& __get_loneValue();
 
@@ -179,7 +182,7 @@ static_assert(offsetof(::System::Xml::__XmlNamedNodeMap__SmallXmlNodeList, field
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11518))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11518)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11519))
 // CS Name: ::System.Xml::XmlNamedNodeMap*
 class CORDL_TYPE XmlNamedNodeMap : public ::System::Object {
@@ -197,6 +200,9 @@ public:
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::System::Xml::XmlNode*& __get_parent();
 

@@ -5,16 +5,22 @@
 #include "UnityEngine/zzzz__GameObject_impl.hpp"
 #include "BGLib/AsyncInitialization/zzzz__AddressablesLoader_def.hpp"
 #include "BGLib/AsyncInitialization/zzzz__AddressablesLoader_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__AssetReferenceGameObject_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 template <typename TInstantiate, typename TReturn>
 constexpr BGLib::AsyncInitialization::__AddressablesLoader___InstantiateFromAddressableToContainer_d__0_2<TInstantiate, TReturn>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+template <typename TInstantiate, typename TReturn>
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+BGLib::AsyncInitialization::__AddressablesLoader___InstantiateFromAddressableToContainer_d__0_2<TInstantiate, TReturn>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename TInstantiate, typename TReturn> inline void BGLib::AsyncInitialization::__AddressablesLoader___InstantiateFromAddressableToContainer_d__0_2<TInstantiate, TReturn>::MoveNext() {

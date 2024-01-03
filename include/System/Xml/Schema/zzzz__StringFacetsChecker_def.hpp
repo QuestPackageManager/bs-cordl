@@ -8,20 +8,20 @@ CORDL_MODULE_EXPORT(StringFacetsChecker)
 namespace System::Collections {
 class ArrayList;
 }
+namespace System::Text::RegularExpressions {
+class Regex;
+}
 namespace System::Xml::Schema {
 class XmlSchemaDatatype;
 }
-namespace System {
-class Object;
-}
-namespace System::Text::RegularExpressions {
-class Regex;
+namespace System::Xml::Schema {
+struct XmlTypeCode;
 }
 namespace System {
 class Exception;
 }
-namespace System::Xml::Schema {
-struct XmlTypeCode;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

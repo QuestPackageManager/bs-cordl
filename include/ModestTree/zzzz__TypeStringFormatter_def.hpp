@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(TypeStringFormatter)
 namespace ModestTree {
 class __TypeStringFormatter____c;
 }
-namespace System {
-class Type;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace ModestTree {

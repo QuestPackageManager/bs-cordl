@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DTSubString)
 namespace System {
-template <typename T> struct ReadOnlySpan_1;
+struct DTSubStringType;
 }
 namespace System {
-struct DTSubStringType;
+template <typename T> struct ReadOnlySpan_1;
 }
 // Forward declare root types
 namespace System {
@@ -23,8 +23,8 @@ MARK_VAL_T(::System::DTSubString);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2464)), TypeDefinitionIndex(TypeDefinitionIndex(2393)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(2394)) CS Name: ::System::DTSubString
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2464)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2393))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2394)) CS Name: ::System::DTSubString
 struct CORDL_TYPE DTSubString {
 public:
   // Declarations

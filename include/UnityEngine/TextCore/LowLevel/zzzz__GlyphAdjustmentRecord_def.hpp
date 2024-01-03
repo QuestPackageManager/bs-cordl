@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GlyphAdjustmentRecord)
 namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
 class Object;
 }
 namespace UnityEngine::TextCore::LowLevel {
 struct GlyphValueRecord;
-}
-namespace System {
-template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::LowLevel {
@@ -37,6 +37,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>"
+  constexpr ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>* i___System__IEquatable_1___UnityEngine__TextCore__LowLevel__GlyphAdjustmentRecord_();
 
   /// @brief Method get_glyphIndex, addr 0x2d22a80, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_glyphIndex();

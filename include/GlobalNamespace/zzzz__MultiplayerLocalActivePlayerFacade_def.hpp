@@ -8,46 +8,46 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MultiplayerLocalActivePlayerFacade)
 namespace GlobalNamespace {
-class PrepareLevelCompletionResults;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class __MultiplayerLocalActivePlayerFacade__Factory;
+class BeatmapCallbacksUpdater;
 }
 namespace GlobalNamespace {
 class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
-class IMultiplayerLevelEndActionsListener;
+class GameSongController;
 }
 namespace GlobalNamespace {
-class GameSongController;
+class IMultiplayerLevelEndActionsListener;
 }
 namespace GlobalNamespace {
 class IMultiplayerLevelEndActionsPublisher;
 }
 namespace GlobalNamespace {
-class BeatmapCallbacksUpdater;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
 class IStartSeekSongControllerProvider;
 }
 namespace GlobalNamespace {
-class MultiplayerLocalActivePlayerIntroAnimator;
-}
-namespace GlobalNamespace {
-class MultiplayerLevelCompletionResults;
+class IStartSeekSongController;
 }
 namespace GlobalNamespace {
 class LevelCompletionResults;
 }
 namespace GlobalNamespace {
-class IStartSeekSongController;
+class MultiplayerLevelCompletionResults;
+}
+namespace GlobalNamespace {
+class MultiplayerLocalActivePlayerIntroAnimator;
+}
+namespace GlobalNamespace {
+class PrepareLevelCompletionResults;
+}
+namespace GlobalNamespace {
+class __MultiplayerLocalActivePlayerFacade__Factory;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -113,11 +113,20 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IMultiplayerLevelEndActionsPublisher"
   constexpr operator ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IMultiplayerLevelEndActionsPublisher"
+  constexpr ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher* i___GlobalNamespace__IMultiplayerLevelEndActionsPublisher() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IMultiplayerLevelEndActionsListener"
   constexpr operator ::GlobalNamespace::IMultiplayerLevelEndActionsListener*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IMultiplayerLevelEndActionsListener"
+  constexpr ::GlobalNamespace::IMultiplayerLevelEndActionsListener* i___GlobalNamespace__IMultiplayerLevelEndActionsListener() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IStartSeekSongControllerProvider"
   constexpr operator ::GlobalNamespace::IStartSeekSongControllerProvider*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IStartSeekSongControllerProvider"
+  constexpr ::GlobalNamespace::IStartSeekSongControllerProvider* i___GlobalNamespace__IStartSeekSongControllerProvider() noexcept;
 
   constexpr ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*>& __get__activeOnlyGameObjects();
 
@@ -303,9 +312,8 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerFacade, __
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5239)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11005), inst: 3490 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(5151)), TypeDefinitionIndex(TypeDefinitionIndex(11005))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5150)) CS Name:
-// ::MultiplayerLocalActivePlayerFacade::Factory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11005)), TypeDefinitionIndex(TypeDefinitionIndex(5239)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11005), inst:
+// 3490 }), TypeDefinitionIndex(TypeDefinitionIndex(5151))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5150)) CS Name: ::MultiplayerLocalActivePlayerFacade::Factory*
 class CORDL_TYPE __MultiplayerLocalActivePlayerFacade__Factory
     : public ::Zenject::PlaceholderFactory_2<::GlobalNamespace::MultiplayerPlayerStartState, ::GlobalNamespace::MultiplayerLocalActivePlayerFacade*> {
 public:

@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(AbstractFpCurve)
 namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC {

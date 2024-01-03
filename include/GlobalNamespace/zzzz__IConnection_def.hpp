@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IConnection)
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
 namespace BGNet::Core {
 struct DeliveryMethod;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {

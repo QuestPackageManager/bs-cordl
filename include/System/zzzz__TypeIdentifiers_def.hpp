@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(TypeIdentifiers)
 namespace System {
-class TypeIdentifier;
-}
-namespace System {
-class __TypeIdentifiers__Display;
-}
-namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
+class TypeIdentifier;
+}
+namespace System {
 class TypeName;
+}
+namespace System {
+class __TypeIdentifiers__Display;
 }
 // Forward declare root types
 namespace System {
@@ -51,11 +51,20 @@ public:
   /// @brief Convert operator to "::System::TypeIdentifier"
   constexpr operator ::System::TypeIdentifier*() noexcept;
 
+  /// @brief Convert to "::System::TypeIdentifier"
+  constexpr ::System::TypeIdentifier* i___System__TypeIdentifier() noexcept;
+
   /// @brief Convert operator to "::System::TypeName"
   constexpr operator ::System::TypeName*() noexcept;
 
+  /// @brief Convert to "::System::TypeName"
+  constexpr ::System::TypeName* i___System__TypeName() noexcept;
+
   /// @brief Convert operator to "::System::IEquatable_1<::System::TypeName*>"
   constexpr operator ::System::IEquatable_1<::System::TypeName*>*() noexcept;
+
+  /// @brief Convert to "::System::IEquatable_1<::System::TypeName*>"
+  constexpr ::System::IEquatable_1<::System::TypeName*>* i___System__IEquatable_1___System__TypeName__() noexcept;
 
   constexpr ::StringW& __get_displayName();
 

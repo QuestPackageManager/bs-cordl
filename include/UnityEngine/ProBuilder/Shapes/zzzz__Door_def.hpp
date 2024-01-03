@@ -12,10 +12,10 @@ namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Bounds;
 }
 namespace UnityEngine {
-struct Bounds;
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;

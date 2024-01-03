@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MaterialReferenceManager)
-namespace UnityEngine {
-class Material;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine::TextCore::Text {
+class FontAsset;
 }
 namespace UnityEngine::TextCore::Text {
 class SpriteAsset;
@@ -18,8 +18,8 @@ class SpriteAsset;
 namespace UnityEngine::TextCore::Text {
 class TextColorGradient;
 }
-namespace UnityEngine::TextCore::Text {
-class FontAsset;
+namespace UnityEngine {
+class Material;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {

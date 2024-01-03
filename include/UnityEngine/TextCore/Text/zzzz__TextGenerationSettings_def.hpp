@@ -16,26 +16,26 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextGenerationSettings)
+namespace System {
+class Object;
+}
 namespace UnityEngine::TextCore::Text {
-class TextSettings;
+class FontAsset;
 }
 namespace UnityEngine::TextCore::Text {
 class SpriteAsset;
 }
 namespace UnityEngine::TextCore::Text {
-class FontAsset;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine::TextCore::Text {
 class TextColorGradient;
 }
-namespace System {
-class Object;
+namespace UnityEngine::TextCore::Text {
+class TextSettings;
 }
 namespace UnityEngine::TextCore::Text {
 class TextStyleSheet;
+}
+namespace UnityEngine {
+class Material;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -47,9 +47,9 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextGenerationSettings);
 // SizeInfo { instance_size: 256, native_size: -1, calculated_instance_size: 256, calculated_native_size: 252, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13719)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13718)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13729)), TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13687)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13677)), TypeDefinitionIndex(TypeDefinitionIndex(13688)), TypeDefinitionIndex(TypeDefinitionIndex(10165))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13677)), TypeDefinitionIndex(TypeDefinitionIndex(13729)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13718)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(13687)), TypeDefinitionIndex(TypeDefinitionIndex(13688)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13719)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10246))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(13689)) CS Name: ::UnityEngine.TextCore.Text::TextGenerationSettings*
 class CORDL_TYPE TextGenerationSettings : public ::System::Object {
 public:

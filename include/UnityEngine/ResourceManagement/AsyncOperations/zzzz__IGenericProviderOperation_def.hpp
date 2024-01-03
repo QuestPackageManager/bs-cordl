@@ -5,38 +5,38 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IGenericProviderOperation)
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace System {
 class Exception;
 }
 namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace System {
 template <typename TResult> class Func_1;
 }
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct DownloadStatus;
-}
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
+namespace System {
+class Object;
 }
 namespace System {
 class Type;
 }
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class IResourceProvider;
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> struct AsyncOperationHandle_1;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct AsyncOperationHandle;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> struct AsyncOperationHandle_1;
+struct DownloadStatus;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class IResourceProvider;
+}
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::AsyncOperations {

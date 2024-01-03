@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509CertificateImplCollection)
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateImpl;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -39,6 +39,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509CertificateImpl*>*& __get_list();
 

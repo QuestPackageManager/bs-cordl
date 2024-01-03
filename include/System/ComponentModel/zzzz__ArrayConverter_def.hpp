@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArrayConverter)
-namespace System {
-class Object;
-}
 namespace System::ComponentModel {
 class ITypeDescriptorContext;
+}
+namespace System::ComponentModel {
+class PropertyDescriptorCollection;
 }
 namespace System::ComponentModel {
 class __ArrayConverter__ArrayPropertyDescriptor;
@@ -20,13 +20,13 @@ namespace System::Globalization {
 class CultureInfo;
 }
 namespace System {
-class Type;
-}
-namespace System::ComponentModel {
-class PropertyDescriptorCollection;
+class Attribute;
 }
 namespace System {
-class Attribute;
+class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::ComponentModel {

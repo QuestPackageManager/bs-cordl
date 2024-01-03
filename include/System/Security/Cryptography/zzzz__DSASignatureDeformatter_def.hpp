@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DSASignatureDeformatter)
 namespace System::Security::Cryptography {
-class DSA;
+class AsymmetricAlgorithm;
 }
 namespace System::Security::Cryptography {
-class AsymmetricAlgorithm;
+class DSA;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {

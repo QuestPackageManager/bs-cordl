@@ -9,7 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GoogleDownload)
 namespace Polyglot {
+struct GoogleDriveDownloadFormat;
+}
+namespace Polyglot {
 class __GoogleDownload___DownloadSheet_d__0;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -20,17 +26,14 @@ template <typename T> class Action_1;
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace UnityEngine::Networking {
-class UnityWebRequest;
-}
 namespace System {
 class IDisposable;
 }
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace UnityEngine::Networking {
+class UnityWebRequest;
 }
 // Forward declare root types
 namespace Polyglot {
@@ -46,7 +49,7 @@ MARK_REF_PTR_T(::Polyglot::__GoogleDownload___DownloadSheet_d__0);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15552)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15552))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15550))
 // CS Name: ::GoogleDownload::<DownloadSheet>d__0*
 class CORDL_TYPE __GoogleDownload___DownloadSheet_d__0 : public ::System::Object {
@@ -86,11 +89,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -235,7 +247,7 @@ static_assert(offsetof(::Polyglot::__GoogleDownload___DownloadSheet_d__0, ____ww
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15552)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15551))
 // CS Name: ::Polyglot::GoogleDownload*
 class CORDL_TYPE GoogleDownload : public ::System::Object {
@@ -244,10 +256,8 @@ public:
   using _DownloadSheet_d__0 = ::Polyglot::__GoogleDownload___DownloadSheet_d__0;
 
   /// @brief Method DownloadSheet, addr 0x280191c, size 0x90, virtual false, abstract: false, final false
-  /// @param format: ::Polyglot::GoogleDriveDownloadFormat (default: static_cast<int32_t>(0x0))
-  /// @param progressbar: ::System::Func_2<float_t,bool>* (default: nullptr)
-  static inline ::System::Collections::IEnumerator* DownloadSheet(::StringW docsId, ::StringW sheetId, ::System::Action_1<::StringW>* done,
-                                                                  ::Polyglot::GoogleDriveDownloadFormat format = static_cast<int32_t>(0x0), ::System::Func_2<float_t, bool>* progressbar = nullptr);
+  static inline ::System::Collections::IEnumerator* DownloadSheet(::StringW docsId, ::StringW sheetId, ::System::Action_1<::StringW>* done, ::Polyglot::GoogleDriveDownloadFormat format,
+                                                                  ::System::Func_2<float_t, bool>* progressbar);
 
   // Ctor Parameters [CppParam { name: "", ty: "GoogleDownload", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

@@ -11,43 +11,43 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_SessionManager)
 namespace HoudiniEngineUnity {
-class __HEU_SessionManager__CreateSessionFromTypeDelegate;
+struct HAPI_GroupType;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_License;
 }
 namespace HoudiniEngineUnity {
+struct HAPI_ObjectInfo;
+}
+namespace HoudiniEngineUnity {
 struct HAPI_RSTOrder;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionData;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_GroupType;
-}
-namespace System {
-class Type;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_Transform;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_ObjectInfo;
+class HEU_SessionBase;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionData;
+}
+namespace HoudiniEngineUnity {
+class __HEU_SessionManager__CreateSessionFromTypeDelegate;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System {
+class IAsyncResult;
+}
+namespace System {
 class Object;
 }
 namespace System {
-class IAsyncResult;
+class Type;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -165,8 +165,7 @@ public:
   static inline void InternalValidateSceneAssets();
 
   /// @brief Method GetOrCreateDefaultSession, addr 0x219d22c, size 0x288, virtual false, abstract: false, final false
-  /// @param bNotifyUserError: bool (default: true)
-  static inline ::HoudiniEngineUnity::HEU_SessionBase* GetOrCreateDefaultSession(bool bNotifyUserError = true);
+  static inline ::HoudiniEngineUnity::HEU_SessionBase* GetOrCreateDefaultSession(bool bNotifyUserError);
 
   /// @brief Method CreateInProcessSession, addr 0x21a356c, size 0x84, virtual false, abstract: false, final false
   static inline bool CreateInProcessSession();
@@ -220,8 +219,7 @@ public:
   static inline bool RestartSession();
 
   /// @brief Method ValidatePluginSession, addr 0x21a41b8, size 0x80, virtual false, abstract: false, final false
-  /// @param session: ::HoudiniEngineUnity::HEU_SessionBase* (default: nullptr)
-  static inline bool ValidatePluginSession(::HoudiniEngineUnity::HEU_SessionBase* session = nullptr);
+  static inline bool ValidatePluginSession(::HoudiniEngineUnity::HEU_SessionBase* session);
 
   /// @brief Method GetLastSessionError, addr 0x21a34f8, size 0x74, virtual false, abstract: false, final false
   static inline ::StringW GetLastSessionError();
@@ -239,12 +237,10 @@ public:
   static inline bool IsHARSProcessRunning(int32_t processID);
 
   /// @brief Method LoadSessionFromHIP, addr 0x21a4344, size 0xe0, virtual false, abstract: false, final false
-  /// @param session: ::HoudiniEngineUnity::HEU_SessionBase* (default: nullptr)
-  static inline bool LoadSessionFromHIP(bool bCookNodes, ::HoudiniEngineUnity::HEU_SessionBase* session = nullptr);
+  static inline bool LoadSessionFromHIP(bool bCookNodes, ::HoudiniEngineUnity::HEU_SessionBase* session);
 
   /// @brief Method SaveSessionToHIP, addr 0x21a4424, size 0xe0, virtual false, abstract: false, final false
-  /// @param session: ::HoudiniEngineUnity::HEU_SessionBase* (default: nullptr)
-  static inline bool SaveSessionToHIP(bool bLockNodes, ::HoudiniEngineUnity::HEU_SessionBase* session = nullptr);
+  static inline bool SaveSessionToHIP(bool bLockNodes, ::HoudiniEngineUnity::HEU_SessionBase* session);
 
   /// @brief Method GetHoudiniPathOnMacOS, addr 0x21a4504, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetHoudiniPathOnMacOS(::StringW houdiniPath);
@@ -253,15 +249,13 @@ public:
   static inline bool OpenHoudini(::StringW args);
 
   /// @brief Method OpenSessionInHoudini, addr 0x21a45a4, size 0x314, virtual false, abstract: false, final false
-  /// @param session: ::HoudiniEngineUnity::HEU_SessionBase* (default: nullptr)
-  static inline bool OpenSessionInHoudini(::HoudiniEngineUnity::HEU_SessionBase* session = nullptr);
+  static inline bool OpenSessionInHoudini(::HoudiniEngineUnity::HEU_SessionBase* session);
 
   /// @brief Method GetCurrentLicense, addr 0x21a48b8, size 0x9c, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HAPI_License GetCurrentLicense(bool bLogError);
 
   /// @brief Method GetString, addr 0x219a4f8, size 0xec, virtual false, abstract: false, final false
-  /// @param session: ::HoudiniEngineUnity::HEU_SessionBase* (default: nullptr)
-  static inline ::StringW GetString(int32_t stringHandle, ::HoudiniEngineUnity::HEU_SessionBase* session = nullptr);
+  static inline ::StringW GetString(int32_t stringHandle, ::HoudiniEngineUnity::HEU_SessionBase* session);
 
   /// @brief Method GetStringValuesFromStringIndices, addr 0x21a4954, size 0x1ac, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetStringValuesFromStringIndices(::ArrayW<int32_t, ::Array<int32_t>*> strIndices);
@@ -275,8 +269,7 @@ public:
                                         ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> membership, bool isInstanced);
 
   /// @brief Method GetNodeName, addr 0x21a4e84, size 0xf0, virtual false, abstract: false, final false
-  /// @param session: ::HoudiniEngineUnity::HEU_SessionBase* (default: nullptr)
-  static inline ::StringW GetNodeName(int32_t nodeID, ::HoudiniEngineUnity::HEU_SessionBase* session = nullptr);
+  static inline ::StringW GetNodeName(int32_t nodeID, ::HoudiniEngineUnity::HEU_SessionBase* session);
 
   /// @brief Method GetNodeInputName, addr 0x21a4f74, size 0xe4, virtual false, abstract: false, final false
   static inline bool GetNodeInputName(int32_t nodeID, int32_t inputIndex, ByRef<::StringW> inputName);

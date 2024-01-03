@@ -8,34 +8,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpUtilities)
 namespace Org::BouncyCastle::Bcpg {
-struct PublicKeyAlgorithmTag;
-}
-namespace Org::BouncyCastle::Bcpg {
-struct SymmetricKeyAlgorithmTag;
-}
-namespace Org::BouncyCastle::Bcpg {
 struct HashAlgorithmTag;
 }
 namespace Org::BouncyCastle::Bcpg {
 class MPInteger;
 }
+namespace Org::BouncyCastle::Bcpg {
+struct PublicKeyAlgorithmTag;
+}
+namespace Org::BouncyCastle::Bcpg {
+class S2k;
+}
+namespace Org::BouncyCastle::Bcpg {
+struct SymmetricKeyAlgorithmTag;
+}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
+}
+namespace Org::BouncyCastle::Crypto {
+class IWrapper;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
 namespace System::IO {
-class Stream;
-}
-namespace Org::BouncyCastle::Crypto {
-class IWrapper;
-}
-namespace Org::BouncyCastle::Bcpg {
-class S2k;
+class FileInfo;
 }
 namespace System::IO {
-class FileInfo;
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {

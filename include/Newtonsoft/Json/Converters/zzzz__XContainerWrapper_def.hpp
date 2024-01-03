@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "Newtonsoft/Json/Converters/zzzz__XObjectWrapper_def.hpp"
 CORDL_MODULE_EXPORT(XContainerWrapper)
-namespace System::Xml::Linq {
-class XContainer;
+namespace Newtonsoft::Json::Converters {
+class IXmlNode;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Xml::Linq {
-class XObject;
+class XContainer;
 }
-namespace Newtonsoft::Json::Converters {
-class IXmlNode;
+namespace System::Xml::Linq {
+class XObject;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {

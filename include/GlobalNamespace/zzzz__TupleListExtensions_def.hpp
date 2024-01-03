@@ -4,9 +4,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(TupleListExtensions)
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4> class Tuple_4;
-}
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
@@ -15,6 +12,9 @@ template <typename T1, typename T2> class Tuple_2;
 }
 namespace System {
 template <typename T1, typename T2, typename T3> class Tuple_3;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4> class Tuple_4;
 }
 // Forward declare root types
 namespace GlobalNamespace {

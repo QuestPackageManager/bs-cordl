@@ -2,9 +2,9 @@
 #include "GlobalNamespace/zzzz__BloomPrePassEffectSO_impl.hpp"
 #include "GlobalNamespace/zzzz__PyramidBloomRendererSO_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassBloomTextureEffectSO_def.hpp"
-#include "GlobalNamespace/zzzz__ToneMapping_def.hpp"
 #include "GlobalNamespace/zzzz__BloomFogSO_def.hpp"
 #include "GlobalNamespace/zzzz__PyramidBloomRendererSO_def.hpp"
+#include "GlobalNamespace/zzzz__ToneMapping_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BloomPrePassBloomTextureEffectSO.get_toneMapping
 template <>
@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x280c20c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBloomTextureEffectSO*>::get(),
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x280c22c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBloomTextureEffectSO*>::get(),
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x280c298;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBloomTextureEffectSO*>::get(),
                                                                                ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;

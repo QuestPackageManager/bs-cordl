@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(HEU_LoadBufferMesh)
 namespace HoudiniEngineUnity {
 class HEU_GenerateGeoCache;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace HoudiniEngineUnity {
 class HEU_GeoGroup;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

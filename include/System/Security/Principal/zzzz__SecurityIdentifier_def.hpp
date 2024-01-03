@@ -8,8 +8,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SecurityIdentifier)
-namespace System {
-class Type;
+namespace System::Security::Principal {
+class IdentityReference;
 }
 namespace System {
 template <typename T> class IComparable_1;
@@ -17,8 +17,8 @@ template <typename T> class IComparable_1;
 namespace System {
 class Object;
 }
-namespace System::Security::Principal {
-class IdentityReference;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Security::Principal {
@@ -51,6 +51,9 @@ public:
 
   /// @brief Convert operator to "::System::IComparable_1<::System::Security::Principal::SecurityIdentifier*>"
   constexpr operator ::System::IComparable_1<::System::Security::Principal::SecurityIdentifier*>*() noexcept;
+
+  /// @brief Convert to "::System::IComparable_1<::System::Security::Principal::SecurityIdentifier*>"
+  constexpr ::System::IComparable_1<::System::Security::Principal::SecurityIdentifier*>* i___System__IComparable_1___System__Security__Principal__SecurityIdentifier__() noexcept;
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_buffer();
 

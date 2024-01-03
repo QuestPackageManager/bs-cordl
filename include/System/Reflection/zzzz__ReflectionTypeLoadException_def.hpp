@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ReflectionTypeLoadException)
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+class ISerializable;
 }
 namespace System::Runtime::Serialization {
-class ISerializable;
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System {
-class Type;
+class Exception;
 }
 namespace System {
-class Exception;
+class Type;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -50,6 +50,9 @@ public:
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
   constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __get__Types_k__BackingField();
 

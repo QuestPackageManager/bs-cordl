@@ -9,23 +9,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DateTimeFormat)
-namespace System {
-struct DateTime;
-}
-namespace System {
-template <typename T> struct Span_1;
-}
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
+namespace System::Globalization {
+class DateTimeFormatInfo;
 }
 namespace System::Text {
 class StringBuilder;
 }
-namespace System::Globalization {
-class DateTimeFormatInfo;
+namespace System {
+struct DateTime;
 }
 namespace System {
 class IFormatProvider;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
+template <typename T> struct Span_1;
 }
 namespace System {
 struct TimeSpan;
@@ -167,8 +167,7 @@ public:
   static inline void WriteTwoDecimalDigits(uint32_t value, ::System::Span_1<char16_t> destination, int32_t offset);
 
   /// @brief Method WriteFourDecimalDigits, addr 0x259a588, size 0xa0, virtual false, abstract: false, final false
-  /// @param startingIndex: int32_t (default: static_cast<int32_t>(0x0))
-  static inline void WriteFourDecimalDigits(uint32_t value, ::System::Span_1<char16_t> buffer, int32_t startingIndex = static_cast<int32_t>(0x0));
+  static inline void WriteFourDecimalDigits(uint32_t value, ::System::Span_1<char16_t> buffer, int32_t startingIndex);
 
   /// @brief Method WriteDigits, addr 0x259a628, size 0xac, virtual false, abstract: false, final false
   static inline void WriteDigits(uint64_t value, ::System::Span_1<char16_t> buffer);

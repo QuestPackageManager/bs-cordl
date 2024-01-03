@@ -12,13 +12,13 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine {
-class Material;
+class Collider;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine {
-class Collider;
+class Material;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -47,6 +47,9 @@ public:
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>*() noexcept;
+
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_GeneratedOutputData__() noexcept;
 
   constexpr ::UnityEngine::GameObject*& __get__gameObject();
 

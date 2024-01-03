@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(NavigationEventDispatchingStrategy)
 namespace UnityEngine::UIElements {
-class IPanel;
+class EventBase;
 }
 namespace UnityEngine::UIElements {
 class IEventDispatchingStrategy;
 }
 namespace UnityEngine::UIElements {
-class EventBase;
+class IPanel;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -31,6 +31,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::UnityEngine::UIElements::IEventDispatchingStrategy"
   constexpr operator ::UnityEngine::UIElements::IEventDispatchingStrategy*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UIElements::IEventDispatchingStrategy"
+  constexpr ::UnityEngine::UIElements::IEventDispatchingStrategy* i___UnityEngine__UIElements__IEventDispatchingStrategy() noexcept;
 
   /// @brief Method CanDispatchEvent, addr 0x2e4ea28, size 0x54, virtual true, abstract: false, final true
   inline bool CanDispatchEvent(::UnityEngine::UIElements::EventBase* evt);

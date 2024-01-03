@@ -31,6 +31,9 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Utilities::Encoders::ITranslator"
   constexpr operator ::Org::BouncyCastle::Utilities::Encoders::ITranslator*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Utilities::Encoders::ITranslator"
+  constexpr ::Org::BouncyCastle::Utilities::Encoders::ITranslator* i___Org__BouncyCastle__Utilities__Encoders__ITranslator() noexcept;
+
   static inline void setStaticF_hexTable(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_hexTable();

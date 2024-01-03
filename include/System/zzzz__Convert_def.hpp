@@ -2,7 +2,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__Base64FormattingOptions_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
@@ -10,15 +9,6 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Convert)
-namespace System {
-class IConvertible;
-}
-namespace System {
-template <typename T> struct Span_1;
-}
-namespace System {
-class Object;
-}
 namespace System {
 struct Base64FormattingOptions;
 }
@@ -29,13 +19,22 @@ namespace System {
 struct Decimal;
 }
 namespace System {
+class IConvertible;
+}
+namespace System {
 class IFormatProvider;
 }
 namespace System {
-struct TypeCode;
+class Object;
 }
 namespace System {
 template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
+template <typename T> struct Span_1;
+}
+namespace System {
+struct TypeCode;
 }
 namespace System {
 class Type;
@@ -50,7 +49,7 @@ MARK_REF_PTR_T(::System::Convert);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2365))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2364))
 // CS Name: ::System::Convert*
 class CORDL_TYPE Convert : public ::System::Object {
@@ -785,8 +784,7 @@ public:
   static inline ::StringW ToBase64String(::ArrayW<uint8_t, ::Array<uint8_t>*> inArray, int32_t offset, int32_t length, ::System::Base64FormattingOptions options);
 
   /// @brief Method ToBase64String, addr 0x252ddb4, size 0x1b4, virtual false, abstract: false, final false
-  /// @param options: ::System::Base64FormattingOptions (default: static_cast<int32_t>(0x0))
-  static inline ::StringW ToBase64String(::System::ReadOnlySpan_1<uint8_t> bytes, ::System::Base64FormattingOptions options = static_cast<int32_t>(0x0));
+  static inline ::StringW ToBase64String(::System::ReadOnlySpan_1<uint8_t> bytes, ::System::Base64FormattingOptions options);
 
   /// @brief Method ToBase64CharArray, addr 0x252e488, size 0x88, virtual false, abstract: false, final false
   static inline int32_t ToBase64CharArray(::ArrayW<uint8_t, ::Array<uint8_t>*> inArray, int32_t offsetIn, int32_t length, ::ArrayW<char16_t, ::Array<char16_t>*> outArray, int32_t offsetOut);

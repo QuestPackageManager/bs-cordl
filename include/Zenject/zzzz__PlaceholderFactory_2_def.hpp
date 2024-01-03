@@ -7,26 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlaceholderFactory_2)
-namespace Zenject {
-template <typename TParam1, typename TValue> class IFactory_2;
-}
-namespace Zenject {
-template <typename TParam1, typename TValue> class __PlaceholderFactory_2___get_ParamTypes_d__2;
-}
-namespace Zenject {
-class IFactory;
-}
-namespace System {
-class Type;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
-namespace Zenject {
-class InjectTypeInfo;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -34,11 +22,23 @@ class IEnumerator;
 namespace System {
 class IDisposable;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class Object;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System {
+class Type;
+}
+namespace Zenject {
+template <typename TParam1, typename TValue> class IFactory_2;
+}
+namespace Zenject {
+class IFactory;
+}
+namespace Zenject {
+class InjectTypeInfo;
+}
+namespace Zenject {
+template <typename TParam1, typename TValue> class __PlaceholderFactory_2___get_ParamTypes_d__2;
 }
 // Forward declare root types
 namespace Zenject {
@@ -78,17 +78,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Type*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::System::Type*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Type*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::System::Type*>* i___System__Collections__Generic__IEnumerable_1___System__Type__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Type*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Type*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Type*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Type*>* i___System__Collections__Generic__IEnumerator_1___System__Type__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -173,7 +188,7 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11026)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11026), inst: 4822 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11026), inst: 4822 }), TypeDefinitionIndex(TypeDefinitionIndex(11026))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11005))
 // CS Name: ::Zenject::PlaceholderFactory`2<TParam1,TValue>*
 class CORDL_TYPE PlaceholderFactory_2 : public ::Zenject::PlaceholderFactoryBase_1<TValue> {
@@ -186,8 +201,14 @@ public:
   /// @brief Convert operator to "::Zenject::IFactory_2<TParam1,TValue>"
   constexpr operator ::Zenject::IFactory_2<TParam1, TValue>*() noexcept;
 
+  /// @brief Convert to "::Zenject::IFactory_2<TParam1,TValue>"
+  constexpr ::Zenject::IFactory_2<TParam1, TValue>* i___Zenject__IFactory_2_TParam1_TValue_() noexcept;
+
   /// @brief Convert operator to "::Zenject::IFactory"
   constexpr operator ::Zenject::IFactory*() noexcept;
+
+  /// @brief Convert to "::Zenject::IFactory"
+  constexpr ::Zenject::IFactory* i___Zenject__IFactory() noexcept;
 
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline TValue Create(TParam1 param);

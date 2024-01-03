@@ -3,11 +3,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IComponent)
-namespace System {
-class IDisposable;
-}
 namespace System::ComponentModel {
 class ISite;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -29,6 +29,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// @brief Method get_Site, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::ComponentModel::ISite* get_Site();

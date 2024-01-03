@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Asn1SignatureFactory)
-namespace Org::BouncyCastle::Crypto {
-class IStreamCalculator;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace Org::BouncyCastle::Crypto {
+class ISignatureFactory;
+}
+namespace Org::BouncyCastle::Crypto {
+class IStreamCalculator;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace Org::BouncyCastle::Crypto {
-class ISignatureFactory;
-}
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Operators {
@@ -58,6 +58,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ISignatureFactory"
   constexpr operator ::Org::BouncyCastle::Crypto::ISignatureFactory*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::ISignatureFactory"
+  constexpr ::Org::BouncyCastle::Crypto::ISignatureFactory* i___Org__BouncyCastle__Crypto__ISignatureFactory() noexcept;
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_algID();
 

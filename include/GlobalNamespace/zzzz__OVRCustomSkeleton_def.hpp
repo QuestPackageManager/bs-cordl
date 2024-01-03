@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRCustomSkeleton)
 namespace GlobalNamespace {
+struct __OVRCustomSkeleton__RetargetingType;
+}
+namespace GlobalNamespace {
 struct __OVRSkeleton__BoneId;
+}
+namespace GlobalNamespace {
+struct __OVRSkeleton__SkeletonType;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine {
 class ISerializationCallbackReceiver;
 }
 namespace UnityEngine {
 class Transform;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-struct __OVRSkeleton__SkeletonType;
-}
-namespace GlobalNamespace {
-struct __OVRCustomSkeleton__RetargetingType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -85,7 +85,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRCustomSkeleton__RetargetingType, 
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 196, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8090)), TypeDefinitionIndex(TypeDefinitionIndex(8170))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8170)), TypeDefinitionIndex(TypeDefinitionIndex(8090))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8091))
 // CS Name: ::OVRCustomSkeleton*
 class CORDL_TYPE OVRCustomSkeleton : public ::GlobalNamespace::OVRSkeleton {
@@ -103,6 +103,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
+  constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Transform*>*& __get__customBones_V2();
 

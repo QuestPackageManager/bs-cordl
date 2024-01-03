@@ -3,7 +3,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__StringSplitOptions_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -11,65 +10,50 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(String)
+namespace System::Buffers {
+template <typename T, typename TArg> class SpanAction_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template <typename T> struct ValueListBuilder_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Globalization {
+struct CompareOptions;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System::Text {
+class Encoding;
+}
+namespace System::Text {
+struct NormalizationForm;
+}
 namespace System {
-struct TypeCode;
+struct DateTime;
 }
 namespace System {
 struct Decimal;
 }
 namespace System {
-struct __String__TrimType;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+class ICloneable;
 }
 namespace System {
-struct DateTime;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System {
-class Object;
-}
-namespace System::Buffers {
-template <typename T, typename TArg> class SpanAction_2;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-struct StringSplitOptions;
-}
-namespace System::Text {
-struct NormalizationForm;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System {
-struct ParamsArray;
+template <typename T> class IComparable_1;
 }
 namespace System {
 class IComparable;
-}
-namespace System::Globalization {
-struct CompareOptions;
-}
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System::Collections::Generic {
-template <typename T> struct ValueListBuilder_1;
-}
-namespace System {
-class Type;
-}
-namespace System {
-struct StringComparison;
 }
 namespace System {
 class IConvertible;
@@ -78,19 +62,34 @@ namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
-struct __String__ProbabilisticMap;
-}
-namespace System {
 class IFormatProvider;
 }
 namespace System {
-template <typename T> class IComparable_1;
-}
-namespace System::Text {
-class Encoding;
+class Object;
 }
 namespace System {
-class ICloneable;
+struct ParamsArray;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
+struct StringComparison;
+}
+namespace System {
+struct StringSplitOptions;
+}
+namespace System {
+struct TypeCode;
+}
+namespace System {
+class Type;
+}
+namespace System {
+struct __String__ProbabilisticMap;
+}
+namespace System {
+struct __String__TrimType;
 }
 // Forward declare root types
 namespace System {
@@ -192,7 +191,7 @@ static_assert(::cordl_internals::size_check_v<::System::__String__ProbabilisticM
 // SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 22, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2480))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2312))
 // CS Name: ::System::String*
 class CORDL_TYPE String : public ::System::Object {
@@ -218,23 +217,44 @@ public:
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*() noexcept;
 
+  /// @brief Convert to "::System::IComparable"
+  constexpr ::System::IComparable* i___System__IComparable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<char16_t>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<char16_t>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<char16_t>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<char16_t>* i___System__Collections__Generic__IEnumerable_1_char16_t_() noexcept;
+
   /// @brief Convert operator to "::System::IComparable_1<::StringW>"
   constexpr operator ::System::IComparable_1<::StringW>*() noexcept;
+
+  /// @brief Convert to "::System::IComparable_1<::StringW>"
+  constexpr ::System::IComparable_1<::StringW>* i___System__IComparable_1___StringW_() noexcept;
 
   /// @brief Convert operator to "::System::IEquatable_1<::StringW>"
   constexpr operator ::System::IEquatable_1<::StringW>*() noexcept;
 
+  /// @brief Convert to "::System::IEquatable_1<::StringW>"
+  constexpr ::System::IEquatable_1<::StringW>* i___System__IEquatable_1___StringW_() noexcept;
+
   /// @brief Convert operator to "::System::IConvertible"
   constexpr operator ::System::IConvertible*() noexcept;
 
+  /// @brief Convert to "::System::IConvertible"
+  constexpr ::System::IConvertible* i___System__IConvertible() noexcept;
+
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
+
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
   constexpr int32_t& __get__stringLength();
 
@@ -448,8 +468,7 @@ public:
   inline ::StringW ReplaceHelper(int32_t oldValueLength, ::StringW newValue, ::System::ReadOnlySpan_1<int32_t> indices);
 
   /// @brief Method Split, addr 0x2430a74, size 0x60, virtual false, abstract: false, final false
-  /// @param options: ::System::StringSplitOptions (default: static_cast<int32_t>(0x0))
-  inline ::ArrayW<::StringW, ::Array<::StringW>*> Split(char16_t separator, ::System::StringSplitOptions options = static_cast<int32_t>(0x0));
+  inline ::ArrayW<::StringW, ::Array<::StringW>*> Split(char16_t separator, ::System::StringSplitOptions options);
 
   /// @brief Method Split, addr 0x2430e30, size 0x74, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> Split(::ArrayW<char16_t, ::Array<char16_t>*> separator);

@@ -9,19 +9,19 @@ namespace System {
 class Object;
 }
 namespace UnityEngine::Playables {
+struct FrameData;
+}
+namespace UnityEngine::Playables {
 class PlayableDirector;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
-template <typename T> struct ScriptPlayable_1;
-}
-namespace UnityEngine::Playables {
 struct Playable;
 }
 namespace UnityEngine::Playables {
-struct FrameData;
+template <typename T> struct ScriptPlayable_1;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

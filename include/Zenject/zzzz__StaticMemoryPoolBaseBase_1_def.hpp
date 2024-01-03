@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StaticMemoryPoolBaseBase_1)
+namespace System::Collections::Generic {
+template <typename T> class Stack_1;
+}
 namespace System {
 template <typename T> class Action_1;
-}
-namespace Zenject {
-template <typename TValue> class IDespawnableMemoryPool_1;
 }
 namespace System {
 class IDisposable;
 }
 namespace System {
-class Type;
+class Object;
 }
 namespace System {
-class Object;
+class Type;
+}
+namespace Zenject {
+template <typename TValue> class IDespawnableMemoryPool_1;
 }
 namespace Zenject {
 class IMemoryPool;
-}
-namespace System::Collections::Generic {
-template <typename T> class Stack_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -66,11 +66,20 @@ public:
   /// @brief Convert operator to "::Zenject::IDespawnableMemoryPool_1<TValue>"
   constexpr operator ::Zenject::IDespawnableMemoryPool_1<TValue>*() noexcept;
 
+  /// @brief Convert to "::Zenject::IDespawnableMemoryPool_1<TValue>"
+  constexpr ::Zenject::IDespawnableMemoryPool_1<TValue>* i___Zenject__IDespawnableMemoryPool_1_TValue_() noexcept;
+
   /// @brief Convert operator to "::Zenject::IMemoryPool"
   constexpr operator ::Zenject::IMemoryPool*() noexcept;
 
+  /// @brief Convert to "::Zenject::IMemoryPool"
+  constexpr ::Zenject::IMemoryPool* i___Zenject__IMemoryPool() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::System::Collections::Generic::Stack_1<TValue>*& __get__stack();
 

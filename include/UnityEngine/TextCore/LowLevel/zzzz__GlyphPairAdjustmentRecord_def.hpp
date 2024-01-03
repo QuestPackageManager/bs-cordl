@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GlyphPairAdjustmentRecord)
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 namespace UnityEngine::TextCore::LowLevel {
 struct FontFeatureLookupFlags;
@@ -29,7 +29,7 @@ MARK_VAL_T(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord);
 // SizeInfo { instance_size: 44, native_size: 44, calculated_instance_size: 44, calculated_native_size: 60, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15541)), TypeDefinitionIndex(TypeDefinitionIndex(15539))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15539)), TypeDefinitionIndex(TypeDefinitionIndex(15541))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15542))
 // CS Name: ::UnityEngine.TextCore.LowLevel::GlyphPairAdjustmentRecord
 struct CORDL_TYPE GlyphPairAdjustmentRecord {
@@ -41,6 +41,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>"
+  constexpr ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* i___System__IEquatable_1___UnityEngine__TextCore__LowLevel__GlyphPairAdjustmentRecord_();
 
   /// @brief Method get_firstAdjustmentRecord, addr 0x2d22c24, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord get_firstAdjustmentRecord();

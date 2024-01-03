@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::GlobalNamespace::FloatFxBaseData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(4312))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4312)), TypeDefinitionIndex(TypeDefinitionIndex(16090))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4314))
 // CS Name: ::FloatFxBaseData*
 class CORDL_TYPE FloatFxBaseData : public ::GlobalNamespace::FxBaseData {

@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Asn1Encodable)
 namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
 class IAsn1Convertible;
 }
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -34,6 +34,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible* i___Org__BouncyCastle__Asn1__IAsn1Convertible() noexcept;
 
   /// @brief Method GetEncoded, addr 0xe631cc, size 0xb4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();

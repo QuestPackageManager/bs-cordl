@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Extrapolation)
+namespace System {
+template <typename T> class Comparison_1;
+}
 namespace UnityEngine::Timeline {
 class TimelineClip;
 }
 namespace UnityEngine::Timeline {
-class __Extrapolation____c;
-}
-namespace UnityEngine::Timeline {
 class TrackAsset;
 }
-namespace System {
-template <typename T> class Comparison_1;
+namespace UnityEngine::Timeline {
+class __Extrapolation____c;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

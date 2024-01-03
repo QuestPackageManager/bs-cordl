@@ -10,13 +10,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RotationLimitPolygonal)
 namespace RootMotion::FinalIK {
+class __RotationLimitPolygonal__LimitPoint;
+}
+namespace RootMotion::FinalIK {
 class __RotationLimitPolygonal__ReachCone;
 }
 namespace UnityEngine {
 struct Quaternion;
-}
-namespace RootMotion::FinalIK {
-class __RotationLimitPolygonal__LimitPoint;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -158,7 +158,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCon
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12626))
 // CS Name: ::RotationLimitPolygonal::LimitPoint*
 class CORDL_TYPE __RotationLimitPolygonal__LimitPoint : public ::System::Object {

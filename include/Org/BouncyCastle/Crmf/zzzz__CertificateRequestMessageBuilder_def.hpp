@@ -6,35 +6,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CertificateRequestMessageBuilder)
-namespace Org::BouncyCastle::Crmf {
-class CertificateRequestMessage;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509ExtensionsGenerator;
+namespace Org::BouncyCastle::Asn1::Crmf {
+class CertTemplateBuilder;
 }
 namespace Org::BouncyCastle::Asn1::Crmf {
 class PKMacValue;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralName;
-}
-namespace Org::BouncyCastle::Crmf {
-class PKMacBuilder;
+namespace Org::BouncyCastle::Asn1::Crmf {
+class PopoPrivKey;
 }
 namespace Org::BouncyCastle::Asn1::Crmf {
 class SubsequentMessage;
 }
-namespace Org::BouncyCastle::Asn1::Crmf {
-class CertTemplateBuilder;
+namespace Org::BouncyCastle::Asn1::X509 {
+class GeneralName;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class SubjectPublicKeyInfo;
 }
-namespace System::Collections {
-class IList;
+namespace Org::BouncyCastle::Asn1::X509 {
+class Time;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509ExtensionsGenerator;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Null;
@@ -42,23 +42,23 @@ class Asn1Null;
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+namespace Org::BouncyCastle::Crmf {
+class CertificateRequestMessage;
 }
 namespace Org::BouncyCastle::Crmf {
 class IControl;
 }
+namespace Org::BouncyCastle::Crmf {
+class PKMacBuilder;
+}
 namespace Org::BouncyCastle::Crypto {
 class ISignatureFactory;
 }
-namespace Org::BouncyCastle::Asn1::Crmf {
-class PopoPrivKey;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class Time;
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {

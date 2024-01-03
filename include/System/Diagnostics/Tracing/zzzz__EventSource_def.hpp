@@ -10,22 +10,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EventSource)
 namespace System::Diagnostics::Tracing {
-struct EventLevel;
+struct EventKeywords;
 }
-namespace System {
-class IDisposable;
+namespace System::Diagnostics::Tracing {
+struct EventLevel;
 }
 namespace System::Diagnostics::Tracing {
 struct __EventSource__EventData;
 }
 namespace System {
-class Object;
-}
-namespace System::Diagnostics::Tracing {
-struct EventKeywords;
+struct Guid;
 }
 namespace System {
-struct Guid;
+class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Diagnostics::Tracing {
@@ -113,6 +113,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::StringW& __get__Name_k__BackingField();
 

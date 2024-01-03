@@ -13,10 +13,10 @@ namespace LiteNetLib {
 class NetPacket;
 }
 namespace LiteNetLib {
-struct __ReliableChannel__PendingPacket;
+class NetPeer;
 }
 namespace LiteNetLib {
-class NetPeer;
+struct __ReliableChannel__PendingPacket;
 }
 // Forward declare root types
 namespace LiteNetLib {

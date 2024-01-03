@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(OVRGrabbable)
+namespace GlobalNamespace {
+class OVRGrabber;
+}
+namespace UnityEngine {
+class Collider;
+}
+namespace UnityEngine {
+class Rigidbody;
+}
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine {
-class Collider;
-}
-namespace GlobalNamespace {
-class OVRGrabber;
-}
-namespace UnityEngine {
-class Rigidbody;
 }
 // Forward declare root types
 namespace GlobalNamespace {

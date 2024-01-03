@@ -6,9 +6,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(BasicUIAudioManager)
-namespace UnityEngine {
-class AudioSource;
-}
 namespace GlobalNamespace {
 template <typename T> class RandomObjectPicker_1;
 }
@@ -17,6 +14,9 @@ class Signal;
 }
 namespace UnityEngine {
 class AudioClip;
+}
+namespace UnityEngine {
+class AudioSource;
 }
 // Forward declare root types
 namespace GlobalNamespace {

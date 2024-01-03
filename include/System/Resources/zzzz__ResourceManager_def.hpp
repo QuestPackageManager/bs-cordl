@@ -7,38 +7,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ResourceManager)
-namespace System::Reflection {
-class AssemblyName;
-}
-namespace System::Resources {
-class __ResourceManager__ResourceManagerMediator;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections {
 class Hashtable;
 }
-namespace System::Reflection {
-class Assembly;
-}
 namespace System::Globalization {
 class CultureInfo;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+namespace System::Reflection {
+class AssemblyName;
 }
-namespace System::Resources {
-class ResourceSet;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Resources {
-class __ResourceManager__CultureNameResourceSetPair;
+namespace System::Reflection {
+class Assembly;
 }
 namespace System::Reflection {
 class RuntimeAssembly;
 }
 namespace System::Resources {
 class IResourceGroveler;
+}
+namespace System::Resources {
+class ResourceSet;
+}
+namespace System::Resources {
+class __ResourceManager__CultureNameResourceSetPair;
+}
+namespace System::Resources {
+class __ResourceManager__ResourceManagerMediator;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System {
 class Type;
@@ -145,7 +145,7 @@ static_assert(offsetof(::System::Resources::__ResourceManager__ResourceManagerMe
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3431)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3431))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3438))
 // CS Name: ::System.Resources::ResourceManager*
 class CORDL_TYPE ResourceManager : public ::System::Object {

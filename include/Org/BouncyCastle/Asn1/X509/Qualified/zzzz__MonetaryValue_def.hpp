@@ -5,8 +5,8 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MonetaryValue)
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1::X509::Qualified {
+class Iso4217CurrencyCode;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
@@ -17,11 +17,11 @@ class Asn1Sequence;
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
-namespace Org::BouncyCastle::Asn1::X509::Qualified {
-class Iso4217CurrencyCode;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509::Qualified {

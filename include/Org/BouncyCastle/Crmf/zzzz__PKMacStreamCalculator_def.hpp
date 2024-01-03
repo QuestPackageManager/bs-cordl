@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(PKMacStreamCalculator)
-namespace Org::BouncyCastle::Crypto {
-class IStreamCalculator;
+namespace Org::BouncyCastle::Crypto::IO {
+class MacSink;
 }
 namespace Org::BouncyCastle::Crypto {
 class IMac;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Crypto {
+class IStreamCalculator;
 }
 namespace System::IO {
 class Stream;
 }
-namespace Org::BouncyCastle::Crypto::IO {
-class MacSink;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {
@@ -42,6 +42,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IStreamCalculator"
   constexpr operator ::Org::BouncyCastle::Crypto::IStreamCalculator*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IStreamCalculator"
+  constexpr ::Org::BouncyCastle::Crypto::IStreamCalculator* i___Org__BouncyCastle__Crypto__IStreamCalculator() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::IO::MacSink*& __get__stream();
 

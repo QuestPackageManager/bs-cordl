@@ -3,11 +3,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IDsaExt)
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Crypto {
 class IDsa;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto {
@@ -29,6 +29,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDsa"
   constexpr operator ::Org::BouncyCastle::Crypto::IDsa*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IDsa"
+  constexpr ::Org::BouncyCastle::Crypto::IDsa* i___Org__BouncyCastle__Crypto__IDsa() noexcept;
 
   /// @brief Method get_Order, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Order();

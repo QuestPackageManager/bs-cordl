@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(OptionalAvatarDataSender)
-namespace System {
-class IDisposable;
-}
-namespace BeatSaber::AvatarCore {
-class OptionalAvatarDataSyncHandler;
-}
 namespace BeatSaber::AvatarCore {
 struct AvatarDisplayContext;
 }
 namespace BeatSaber::AvatarCore {
-struct OptionalAvatarData;
+class AvatarSystemCollection;
 }
 namespace BeatSaber::AvatarCore {
 class IOptionalAvatarDataProvider;
 }
 namespace BeatSaber::AvatarCore {
-class AvatarSystemCollection;
+class OptionalAvatarDataSyncHandler;
+}
+namespace BeatSaber::AvatarCore {
+struct OptionalAvatarData;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {
@@ -57,6 +57,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection*& __get__avatarSystemCollection();
 

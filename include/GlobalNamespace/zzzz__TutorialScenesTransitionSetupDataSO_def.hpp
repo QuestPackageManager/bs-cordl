@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TutorialScenesTransitionSetupDataSO)
 namespace GlobalNamespace {
-struct __TutorialScenesTransitionSetupDataSO__TutorialEndStateType;
+class EnvironmentInfoSO;
 }
 namespace GlobalNamespace {
-class EnvironmentInfoSO;
+class PlayerSpecificSettings;
 }
 namespace GlobalNamespace {
 class SceneInfo;
 }
+namespace GlobalNamespace {
+struct __TutorialScenesTransitionSetupDataSO__TutorialEndStateType;
+}
 namespace System {
 template <typename T1, typename T2> class Action_2;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
 }
 // Forward declare root types
 namespace GlobalNamespace {

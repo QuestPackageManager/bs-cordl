@@ -2,32 +2,31 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DefaultTaskUtility)
+namespace BGNet::Core {
+class ITaskUtility;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
+class Action;
+}
+namespace System {
+template <typename TResult> class Func_1;
+}
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 struct TimeSpan;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace BGNet::Core {
-class ITaskUtility;
-}
-namespace System {
-template <typename TResult> class Func_1;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System {
-class Action;
 }
 // Forward declare root types
 namespace BGNet::Core {
@@ -39,7 +38,7 @@ MARK_REF_PTR_T(::BGNet::Core::DefaultTaskUtility);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BGNet::Core {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13000))
 // CS Name: ::BGNet.Core::DefaultTaskUtility*
 class CORDL_TYPE DefaultTaskUtility : public ::System::Object {
@@ -51,13 +50,15 @@ public:
   /// @brief Convert operator to "::BGNet::Core::ITaskUtility"
   constexpr operator ::BGNet::Core::ITaskUtility*() noexcept;
 
+  /// @brief Convert to "::BGNet::Core::ITaskUtility"
+  constexpr ::BGNet::Core::ITaskUtility* i___BGNet__Core__ITaskUtility() noexcept;
+
   static inline void setStaticF_instance(::BGNet::Core::DefaultTaskUtility* value);
 
   static inline ::BGNet::Core::DefaultTaskUtility* getStaticF_instance();
 
   /// @brief Method Delay, addr 0xe5df40, size 0x68, virtual true, abstract: false, final true
-  /// @param cancellationToken: ::System::Threading::CancellationToken (default: {})
-  inline ::System::Threading::Tasks::Task* Delay(::System::TimeSpan timeSpan, ::System::Threading::CancellationToken cancellationToken = {});
+  inline ::System::Threading::Tasks::Task* Delay(::System::TimeSpan timeSpan, ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method CancellationTokenWithDelay, addr 0xe5dfa8, size 0x68, virtual true, abstract: false, final true
   inline ::System::Threading::CancellationToken CancellationTokenWithDelay(::System::TimeSpan timeSpan);
@@ -74,16 +75,13 @@ public:
                                                               ::System::Func_2<::System::Threading::Tasks::Task_1<T1>*, ::System::Threading::Tasks::Task_1<T2>*>* continuation);
 
   /// @brief Method Run, addr 0xe5e028, size 0x68, virtual true, abstract: false, final true
-  /// @param cancellationToken: ::System::Threading::CancellationToken (default: {})
-  inline ::System::Threading::Tasks::Task* Run(::System::Action* action, ::System::Threading::CancellationToken cancellationToken = {});
+  inline ::System::Threading::Tasks::Task* Run(::System::Action* action, ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method Run, addr 0xe5e090, size 0x68, virtual true, abstract: false, final true
-  /// @param cancellationToken: ::System::Threading::CancellationToken (default: {})
-  inline ::System::Threading::Tasks::Task* Run(::System::Func_1<::System::Threading::Tasks::Task*>* func, ::System::Threading::CancellationToken cancellationToken = {});
+  inline ::System::Threading::Tasks::Task* Run(::System::Func_1<::System::Threading::Tasks::Task*>* func, ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method Run, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  /// @param cancellationToken: ::System::Threading::CancellationToken (default: {})
-  template <typename T> inline ::System::Threading::Tasks::Task_1<T>* Run(::System::Func_1<T>* func, ::System::Threading::CancellationToken cancellationToken = {});
+  template <typename T> inline ::System::Threading::Tasks::Task_1<T>* Run(::System::Func_1<T>* func, ::System::Threading::CancellationToken cancellationToken);
 
   static inline ::BGNet::Core::DefaultTaskUtility* New_ctor();
 

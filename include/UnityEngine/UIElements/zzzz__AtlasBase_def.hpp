@@ -6,22 +6,22 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(AtlasBase)
 namespace UnityEngine::UIElements {
-class VisualElement;
+class IPanel;
+}
+namespace UnityEngine::UIElements {
+struct TextureId;
 }
 namespace UnityEngine::UIElements {
 class TextureRegistry;
 }
 namespace UnityEngine::UIElements {
-struct TextureId;
+class VisualElement;
 }
 namespace UnityEngine {
 struct RectInt;
 }
 namespace UnityEngine {
 class Texture2D;
-}
-namespace UnityEngine::UIElements {
-class IPanel;
 }
 namespace UnityEngine {
 class Texture;

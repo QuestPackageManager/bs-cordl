@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IInitializableObject)
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
-}
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> struct AsyncOperationHandle_1;
+}
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {

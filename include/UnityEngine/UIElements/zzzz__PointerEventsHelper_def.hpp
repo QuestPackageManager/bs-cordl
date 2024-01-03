@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(PointerEventsHelper)
 namespace UnityEngine::UIElements {
 class IPointerEvent;
 }
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::UIElements {
 class VisualElement;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

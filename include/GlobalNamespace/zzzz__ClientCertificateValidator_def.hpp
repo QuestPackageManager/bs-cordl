@@ -34,6 +34,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ICertificateValidator"
   constexpr operator ::GlobalNamespace::ICertificateValidator*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::ICertificateValidator"
+  constexpr ::GlobalNamespace::ICertificateValidator* i___GlobalNamespace__ICertificateValidator() noexcept;
+
   /// @brief Method ValidateCertificateChain, addr 0xe2a5e4, size 0x4, virtual true, abstract: false, final true
   inline void ValidateCertificateChain(::GlobalNamespace::DnsEndPoint* endPoint, ::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate,
                                        ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> certificateChain);

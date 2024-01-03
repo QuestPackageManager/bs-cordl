@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEvent_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__DeviceConfigurationEvent_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEvent_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IInputEventTypeInfo_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEvent_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::DeviceConfigurationEvent.get_typeStatic
 template <>
 
@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x2ae9b08;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::DeviceConfigurationEvent>::get(), "get_typeStatic",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x2ae9b28;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::DeviceConfigurationEvent>::get(), "ToEventPtr",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -43,7 +43,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x2ae9b2c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::DeviceConfigurationEvent>::get(), "Create", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<double_t>::get() })));
@@ -52,6 +52,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
 constexpr UnityEngine::InputSystem::LowLevel::DeviceConfigurationEvent::operator ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo*() {
+  return static_cast<::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
+constexpr ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo* UnityEngine::InputSystem::LowLevel::DeviceConfigurationEvent::i___UnityEngine__InputSystem__LowLevel__IInputEventTypeInfo() {
   return static_cast<::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent& UnityEngine::InputSystem::LowLevel::DeviceConfigurationEvent::__get_baseEvent() {

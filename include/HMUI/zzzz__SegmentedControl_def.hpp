@@ -5,41 +5,41 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SegmentedControl)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace HMUI {
-class __SegmentedControl__IDataSource;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace System {
-template <typename T> class Action_1;
-}
 namespace HMUI {
 class SegmentedControlCell;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
 }
 namespace HMUI {
 class SelectableCell;
 }
 namespace HMUI {
+class __SegmentedControl__IDataSource;
+}
+namespace HMUI {
 struct __SelectableCell__TransitionType;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace System {
 class Object;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace HMUI {

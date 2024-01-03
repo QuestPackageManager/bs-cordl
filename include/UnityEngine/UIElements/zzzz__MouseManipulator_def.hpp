@@ -9,10 +9,10 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
-struct ManipulatorActivationFilter;
+class IMouseEvent;
 }
 namespace UnityEngine::UIElements {
-class IMouseEvent;
+struct ManipulatorActivationFilter;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::MouseManipulator);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6905)), TypeDefinitionIndex(TypeDefinitionIndex(6783))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6783)), TypeDefinitionIndex(TypeDefinitionIndex(6905))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6792))
 // CS Name: ::UnityEngine.UIElements::MouseManipulator*
 class CORDL_TYPE MouseManipulator : public ::UnityEngine::UIElements::Manipulator {

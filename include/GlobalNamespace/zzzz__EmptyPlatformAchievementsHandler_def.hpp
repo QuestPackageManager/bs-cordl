@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(EmptyPlatformAchievementsHandler)
 namespace GlobalNamespace {
-class __IPlatformAchievementsHandler__UnlockAchievementCompletionHandler;
-}
-namespace GlobalNamespace {
-class __IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler;
+class HMAsyncRequest;
 }
 namespace GlobalNamespace {
 class IPlatformAchievementsHandler;
 }
 namespace GlobalNamespace {
-class HMAsyncRequest;
+class __IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler;
+}
+namespace GlobalNamespace {
+class __IPlatformAchievementsHandler__UnlockAchievementCompletionHandler;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,6 +35,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::GlobalNamespace::IPlatformAchievementsHandler"
   constexpr operator ::GlobalNamespace::IPlatformAchievementsHandler*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IPlatformAchievementsHandler"
+  constexpr ::GlobalNamespace::IPlatformAchievementsHandler* i___GlobalNamespace__IPlatformAchievementsHandler() noexcept;
 
   /// @brief Method Initialize, addr 0x2233214, size 0x4, virtual true, abstract: false, final true
   inline void Initialize();

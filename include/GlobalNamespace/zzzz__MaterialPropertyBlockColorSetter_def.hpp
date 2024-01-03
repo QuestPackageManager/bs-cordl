@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MaterialPropertyBlockColorSetter)
-namespace UnityEngine {
-struct Color;
-}
 namespace GlobalNamespace {
 class MaterialPropertyBlockController;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BestFitAllocator)
 namespace UnityEngine::UIElements::UIR {
-class __BestFitAllocator__Block;
+struct Alloc;
 }
 namespace UnityEngine::UIElements::UIR {
 class __BestFitAllocator__BlockPool;
 }
 namespace UnityEngine::UIElements::UIR {
-struct Alloc;
+class __BestFitAllocator__Block;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -172,7 +172,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__BestFitAllocator__Block
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7435)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7400), inst: 3980 }),
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7400), inst: 3980 }), TypeDefinitionIndex(TypeDefinitionIndex(7435)),
 // TypeDefinitionIndex(TypeDefinitionIndex(7400))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7434)) CS Name: ::BestFitAllocator::BlockPool*
 class CORDL_TYPE __BestFitAllocator__BlockPool : public ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::__BestFitAllocator__Block*> {
 public:

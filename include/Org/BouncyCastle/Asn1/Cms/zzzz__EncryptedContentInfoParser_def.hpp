@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EncryptedContentInfoParser)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1SequenceParser;
-}
-namespace Org::BouncyCastle::Asn1 {
-class IAsn1Convertible;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1SequenceParser;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObjectParser;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class IAsn1Convertible;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {

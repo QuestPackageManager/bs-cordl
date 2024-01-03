@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayerConnectionInternal)
-namespace UnityEngine {
-class IPlayerEditorConnectionNative;
-}
 namespace System {
 struct Guid;
+}
+namespace UnityEngine {
+class IPlayerEditorConnectionNative;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -31,6 +31,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::UnityEngine::IPlayerEditorConnectionNative"
   constexpr operator ::UnityEngine::IPlayerEditorConnectionNative*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::IPlayerEditorConnectionNative"
+  constexpr ::UnityEngine::IPlayerEditorConnectionNative* i___UnityEngine__IPlayerEditorConnectionNative() noexcept;
 
   /// @brief Method UnityEngine.IPlayerEditorConnectionNative.SendMessage, addr 0x2cc5578, size 0x12c, virtual true, abstract: false, final true
   inline void UnityEngine_IPlayerEditorConnectionNative_SendMessage(::System::Guid messageId, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t playerId);

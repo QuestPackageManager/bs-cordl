@@ -9,10 +9,10 @@ namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
-struct BeatmapDifficulty;
+class IPreviewBeatmapLevel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::GlobalNamespace::LocalPlayerInGameMenuInitData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14717))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5051))
 // CS Name: ::LocalPlayerInGameMenuInitData*
 class CORDL_TYPE LocalPlayerInGameMenuInitData : public ::System::Object {

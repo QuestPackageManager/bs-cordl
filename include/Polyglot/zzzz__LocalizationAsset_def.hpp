@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "Polyglot/zzzz__GoogleDriveDownloadFormat_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(LocalizationAsset)
-namespace UnityEngine {
-class TextAsset;
-}
 namespace Polyglot {
 struct GoogleDriveDownloadFormat;
+}
+namespace UnityEngine {
+class TextAsset;
 }
 // Forward declare root types
 namespace Polyglot {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::Polyglot::LocalizationAsset);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15552)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15552))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15559))
 // CS Name: ::Polyglot::LocalizationAsset*
 class CORDL_TYPE LocalizationAsset : public ::System::Object {

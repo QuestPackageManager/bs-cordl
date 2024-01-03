@@ -6,8 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(TypeTable)
-namespace UnityEngine::InputSystem::Utilities {
-struct InternedString;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -16,13 +19,10 @@ namespace System {
 class Type;
 }
 namespace UnityEngine::InputSystem::Utilities {
+struct InternedString;
+}
+namespace UnityEngine::InputSystem::Utilities {
 class __TypeTable____c;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {

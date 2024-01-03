@@ -7,6 +7,11 @@
 template <typename TKey, typename TValue> constexpr GlobalNamespace::ReferenceCountingCache_2<TKey, TValue>::operator ::GlobalNamespace::IReferenceCountingCache_2<TKey, TValue>*() noexcept {
   return static_cast<::GlobalNamespace::IReferenceCountingCache_2<TKey, TValue>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::GlobalNamespace::IReferenceCountingCache_2<TKey,TValue>"
+template <typename TKey, typename TValue>
+constexpr ::GlobalNamespace::IReferenceCountingCache_2<TKey, TValue>* GlobalNamespace::ReferenceCountingCache_2<TKey, TValue>::i___GlobalNamespace__IReferenceCountingCache_2_TKey_TValue_() noexcept {
+  return static_cast<::GlobalNamespace::IReferenceCountingCache_2<TKey, TValue>*>(static_cast<void*>(this));
+}
 template <typename TKey, typename TValue> constexpr ::System::Collections::Generic::Dictionary_2<TKey, TValue>*& GlobalNamespace::ReferenceCountingCache_2<TKey, TValue>::__get__items() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____items;

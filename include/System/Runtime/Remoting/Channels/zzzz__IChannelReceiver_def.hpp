@@ -30,6 +30,9 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Channels::IChannel"
   constexpr operator ::System::Runtime::Remoting::Channels::IChannel*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Remoting::Channels::IChannel"
+  constexpr ::System::Runtime::Remoting::Channels::IChannel* i___System__Runtime__Remoting__Channels__IChannel() noexcept;
+
   /// @brief Method get_ChannelData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_ChannelData();
 

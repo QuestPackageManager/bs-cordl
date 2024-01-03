@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NoPlatformInit_def.hpp"
-#include "Zenject/zzzz__IInitializable_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "GlobalNamespace/zzzz__IPlatformInit_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "Zenject/zzzz__IInitializable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NoPlatformInit.Initialize
 template <>
 
@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x27fddd0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoPlatformInit*>::get(), "Initialize",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -24,7 +24,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x27fddd4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoPlatformInit*>::get(), "get_IsInitialized",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -38,7 +38,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x27fdddc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoPlatformInit*>::get(), "InitializeAsync",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -51,7 +51,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x27fde44;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoPlatformInit*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -61,8 +61,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 constexpr GlobalNamespace::NoPlatformInit::operator ::GlobalNamespace::IPlatformInit*() noexcept {
   return static_cast<::GlobalNamespace::IPlatformInit*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::GlobalNamespace::IPlatformInit"
+constexpr ::GlobalNamespace::IPlatformInit* GlobalNamespace::NoPlatformInit::i___GlobalNamespace__IPlatformInit() noexcept {
+  return static_cast<::GlobalNamespace::IPlatformInit*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::Zenject::IInitializable"
 constexpr GlobalNamespace::NoPlatformInit::operator ::Zenject::IInitializable*() noexcept {
+  return static_cast<::Zenject::IInitializable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::IInitializable"
+constexpr ::Zenject::IInitializable* GlobalNamespace::NoPlatformInit::i___Zenject__IInitializable() noexcept {
   return static_cast<::Zenject::IInitializable*>(static_cast<void*>(this));
 }
 inline void GlobalNamespace::NoPlatformInit::Initialize() {

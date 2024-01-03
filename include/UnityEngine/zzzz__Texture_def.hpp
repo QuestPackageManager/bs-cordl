@@ -6,32 +6,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Texture)
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::Rendering {
-struct TextureDimension;
+namespace UnityEngine::Experimental::Rendering {
+struct FormatUsage;
 }
 namespace UnityEngine::Experimental::Rendering {
 struct GraphicsFormat;
 }
-namespace UnityEngine {
-struct TextureWrapMode;
-}
-namespace UnityEngine::Experimental::Rendering {
-struct FormatUsage;
-}
-namespace UnityEngine {
-class UnityException;
-}
-namespace UnityEngine {
-struct FilterMode;
+namespace UnityEngine::Rendering {
+struct TextureDimension;
 }
 namespace UnityEngine {
 struct ColorSpace;
 }
 namespace UnityEngine {
+struct FilterMode;
+}
+namespace UnityEngine {
 struct TextureFormat;
+}
+namespace UnityEngine {
+struct TextureWrapMode;
+}
+namespace UnityEngine {
+class UnityException;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -139,12 +139,10 @@ public:
   inline ::UnityEngine::ColorSpace get_activeTextureColorSpace();
 
   /// @brief Method GetPixelDataSize, addr 0x2cada90, size 0x54, virtual false, abstract: false, final false
-  /// @param element: int32_t (default: static_cast<int32_t>(0x0))
-  inline uint64_t GetPixelDataSize(int32_t mipLevel, int32_t element = static_cast<int32_t>(0x0));
+  inline uint64_t GetPixelDataSize(int32_t mipLevel, int32_t element);
 
   /// @brief Method GetPixelDataOffset, addr 0x2cadae4, size 0x54, virtual false, abstract: false, final false
-  /// @param element: int32_t (default: static_cast<int32_t>(0x0))
-  inline uint64_t GetPixelDataOffset(int32_t mipLevel, int32_t element = static_cast<int32_t>(0x0));
+  inline uint64_t GetPixelDataOffset(int32_t mipLevel, int32_t element);
 
   /// @brief Method ValidateFormat, addr 0x2cadb38, size 0x1b8, virtual false, abstract: false, final false
   inline bool ValidateFormat(::UnityEngine::TextureFormat format);

@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__FireEffect_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(BurstFireEffect)
-namespace UnityEngine {
-class AnimationCurve;
+namespace GlobalNamespace {
+class IAudioTimeSource;
 }
 namespace GlobalNamespace {
 class LightColorBeatmapEventData;
 }
-namespace GlobalNamespace {
-class IAudioTimeSource;
+namespace Tweening {
+class FloatTween;
 }
 namespace Tweening {
 class SongTimeTweeningManager;
 }
-namespace Tweening {
-class FloatTween;
+namespace UnityEngine {
+class AnimationCurve;
 }
 // Forward declare root types
 namespace GlobalNamespace {

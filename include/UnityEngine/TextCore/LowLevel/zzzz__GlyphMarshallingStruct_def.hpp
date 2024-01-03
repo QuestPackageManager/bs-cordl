@@ -10,10 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GlyphMarshallingStruct)
 namespace UnityEngine::TextCore {
-struct GlyphMetrics;
+struct GlyphClassDefinitionType;
 }
 namespace UnityEngine::TextCore {
-struct GlyphClassDefinitionType;
+struct GlyphMetrics;
 }
 namespace UnityEngine::TextCore {
 struct GlyphRect;
@@ -28,7 +28,7 @@ MARK_VAL_T(::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct);
 // SizeInfo { instance_size: 52, native_size: 52, calculated_instance_size: 52, calculated_native_size: 68, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15527)), TypeDefinitionIndex(TypeDefinitionIndex(15529)), TypeDefinitionIndex(TypeDefinitionIndex(15528))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15529)), TypeDefinitionIndex(TypeDefinitionIndex(15528)), TypeDefinitionIndex(TypeDefinitionIndex(15527))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15531))
 // CS Name: ::UnityEngine.TextCore.LowLevel::GlyphMarshallingStruct
 struct CORDL_TYPE GlyphMarshallingStruct {

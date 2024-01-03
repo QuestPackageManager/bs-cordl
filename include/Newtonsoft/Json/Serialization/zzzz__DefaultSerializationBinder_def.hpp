@@ -14,10 +14,10 @@ namespace Newtonsoft::Json::Utilities {
 template <typename TKey, typename TValue> class ThreadSafeStore_2;
 }
 namespace System {
-class Type;
+class Object;
 }
 namespace System {
-class Object;
+class Type;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {

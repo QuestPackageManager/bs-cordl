@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DiagnosticsConfigurationHandler)
-namespace System {
-class Object;
-}
 namespace System::Configuration {
 class IConfigurationSectionHandler;
 }
 namespace System::Xml {
 class XmlNode;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Diagnostics {
@@ -31,6 +31,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Configuration::IConfigurationSectionHandler"
   constexpr operator ::System::Configuration::IConfigurationSectionHandler*() noexcept;
+
+  /// @brief Convert to "::System::Configuration::IConfigurationSectionHandler"
+  constexpr ::System::Configuration::IConfigurationSectionHandler* i___System__Configuration__IConfigurationSectionHandler() noexcept;
 
   static inline ::System::Diagnostics::DiagnosticsConfigurationHandler* New_ctor();
 

@@ -9,34 +9,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Asn1Sequence)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1SequenceParser;
-}
-namespace Org::BouncyCastle::Asn1 {
-class __Asn1Sequence__Asn1SequenceParserImpl;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1EncodableVector;
 }
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
+class Asn1SequenceParser;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
 class IAsn1Convertible;
+}
+namespace Org::BouncyCastle::Asn1 {
+class __Asn1Sequence__Asn1SequenceParserImpl;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -70,8 +70,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::Asn1SequenceParser"
   constexpr operator ::Org::BouncyCastle::Asn1::Asn1SequenceParser*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::Asn1SequenceParser"
+  constexpr ::Org::BouncyCastle::Asn1::Asn1SequenceParser* i___Org__BouncyCastle__Asn1__Asn1SequenceParser() noexcept;
+
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible* i___Org__BouncyCastle__Asn1__IAsn1Convertible() noexcept;
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __get_outer();
 
@@ -160,6 +166,9 @@ public:
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*>& __get_elements();
 

@@ -10,32 +10,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HIDParser)
-namespace UnityEngine::InputSystem::HID {
-struct __HIDParser__HIDReportData;
-}
-namespace UnityEngine::InputSystem::HID {
-struct __HIDParser__HIDItemTypeAndTag;
-}
-namespace UnityEngine::InputSystem::HID {
-struct __HIDParser__HIDItemStateGlobal;
-}
-namespace UnityEngine::InputSystem::HID {
-struct __HID__HIDDeviceDescriptor;
-}
-namespace UnityEngine::InputSystem::HID {
-struct __HIDParser__HIDItemStateLocal;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 template <typename T> struct Nullable_1;
 }
 namespace UnityEngine::InputSystem::HID {
-struct __HID__UsagePage;
+struct __HIDParser__HIDItemStateGlobal;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::InputSystem::HID {
+struct __HIDParser__HIDItemStateLocal;
+}
+namespace UnityEngine::InputSystem::HID {
+struct __HIDParser__HIDItemTypeAndTag;
+}
+namespace UnityEngine::InputSystem::HID {
+struct __HIDParser__HIDReportData;
+}
+namespace UnityEngine::InputSystem::HID {
+struct __HID__HIDDeviceDescriptor;
 }
 namespace UnityEngine::InputSystem::HID {
 struct __HID__HIDReportType;
+}
+namespace UnityEngine::InputSystem::HID {
+struct __HID__UsagePage;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::HID {
@@ -259,7 +259,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDItemType
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2448))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6408))
 // CS Name: ::HIDParser::HIDItemStateLocal
 struct CORDL_TYPE __HIDParser__HIDItemStateLocal {
@@ -352,7 +352,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStat
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2448))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6409))
 // CS Name: ::HIDParser::HIDItemStateGlobal
 struct CORDL_TYPE __HIDParser__HIDItemStateGlobal {

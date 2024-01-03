@@ -14,10 +14,10 @@ namespace UnityEngine {
 struct Color32;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::U2D {

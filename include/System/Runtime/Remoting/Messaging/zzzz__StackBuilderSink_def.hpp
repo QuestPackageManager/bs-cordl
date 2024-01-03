@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(StackBuilderSink)
 namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
-namespace System {
-class MarshalByRefObject;
+class IMessageCtrl;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMessageCtrl;
+class IMessage;
 }
 namespace System::Runtime::Remoting::Proxies {
 class RealProxy;
+}
+namespace System {
+class MarshalByRefObject;
 }
 namespace System {
 class Object;
@@ -46,6 +46,9 @@ public:
 
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"
+  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* i___System__Runtime__Remoting__Messaging__IMessageSink() noexcept;
 
   constexpr ::System::MarshalByRefObject*& __get__target();
 

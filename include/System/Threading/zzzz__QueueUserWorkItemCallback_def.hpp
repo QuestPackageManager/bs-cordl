@@ -6,22 +6,22 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(QueueUserWorkItemCallback)
 namespace System::Threading {
-struct StackCrawlMark;
+class ContextCallback;
 }
 namespace System::Threading {
-class WaitCallback;
-}
-namespace System::Threading {
-class ThreadAbortException;
+class ExecutionContext;
 }
 namespace System::Threading {
 class IThreadPoolWorkItem;
 }
 namespace System::Threading {
-class ContextCallback;
+struct StackCrawlMark;
 }
 namespace System::Threading {
-class ExecutionContext;
+class ThreadAbortException;
+}
+namespace System::Threading {
+class WaitCallback;
 }
 namespace System {
 class Object;
@@ -56,6 +56,9 @@ public:
 
   /// @brief Convert operator to "::System::Threading::IThreadPoolWorkItem"
   constexpr operator ::System::Threading::IThreadPoolWorkItem*() noexcept;
+
+  /// @brief Convert to "::System::Threading::IThreadPoolWorkItem"
+  constexpr ::System::Threading::IThreadPoolWorkItem* i___System__Threading__IThreadPoolWorkItem() noexcept;
 
   constexpr ::System::Threading::WaitCallback*& __get_callback();
 

@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 CORDL_MODULE_EXPORT(NoteDebrisSimplePhysics)
 namespace UnityEngine {
-struct Vector3;
+class Transform;
 }
 namespace UnityEngine {
-class Transform;
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteDebrisSimplePhysics);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 69, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4774)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(4774))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4776))
 // CS Name: ::NoteDebrisSimplePhysics*
 class CORDL_TYPE NoteDebrisSimplePhysics : public ::GlobalNamespace::NoteDebrisPhysics {

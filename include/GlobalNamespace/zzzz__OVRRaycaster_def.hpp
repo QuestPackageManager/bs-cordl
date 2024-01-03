@@ -9,53 +9,53 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRRaycaster)
-namespace UnityEngine::EventSystems {
-struct RaycastResult;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
-class Canvas;
-}
-namespace UnityEngine {
-class Camera;
+namespace GlobalNamespace {
+struct __OVRRaycaster__RaycastHit;
 }
 namespace GlobalNamespace {
 class __OVRRaycaster____c;
 }
-namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine {
-struct Ray;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine::EventSystems {
-class IPointerEnterHandler;
+namespace System {
+template <typename T> class Comparison_1;
 }
 namespace UnityEngine::EventSystems {
 class IEventSystemHandler;
 }
 namespace UnityEngine::EventSystems {
+class IPointerEnterHandler;
+}
+namespace UnityEngine::EventSystems {
 class PointerEventData;
+}
+namespace UnityEngine::EventSystems {
+struct RaycastResult;
+}
+namespace UnityEngine::UI {
+class Graphic;
+}
+namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine {
+class Canvas;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+struct Ray;
+}
+namespace UnityEngine {
+class RectTransform;
 }
 namespace UnityEngine {
 struct Vector2;
 }
-namespace GlobalNamespace {
-struct __OVRRaycaster__RaycastHit;
-}
 namespace UnityEngine {
 struct Vector3;
-}
-namespace System {
-template <typename T> class Comparison_1;
-}
-namespace UnityEngine::UI {
-class Graphic;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -204,8 +204,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerEnterHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerEnterHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerEnterHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerEnterHandler* i___UnityEngine__EventSystems__IPointerEnterHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
 
   constexpr ::UnityEngine::GameObject*& __get_pointer();
 

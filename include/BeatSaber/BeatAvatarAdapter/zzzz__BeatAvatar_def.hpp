@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "BeatSaber/AvatarCore/zzzz__Avatar_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(BeatAvatar)
-namespace UnityEngine {
-struct Color;
-}
 namespace BeatSaber::AvatarCore {
 struct AvatarPoseData;
-}
-namespace GlobalNamespace {
-struct MultiplayerAvatarsData;
-}
-namespace BeatSaber::BeatAvatarSDK {
-class BeatAvatarVisualController;
 }
 namespace BeatSaber::AvatarCore {
 struct OptionalAvatarData;
 }
-namespace UnityEngine {
-struct Vector3;
-}
 namespace BeatSaber::BeatAvatarSDK {
 class BeatAvatarPoseController;
+}
+namespace BeatSaber::BeatAvatarSDK {
+class BeatAvatarVisualController;
+}
+namespace GlobalNamespace {
+struct MultiplayerAvatarsData;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace BeatSaber::BeatAvatarAdapter {

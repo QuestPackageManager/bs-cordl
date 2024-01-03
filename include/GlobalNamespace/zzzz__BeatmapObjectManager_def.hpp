@@ -9,40 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapObjectManager)
 namespace GlobalNamespace {
+class IBeatmapObjectController;
+}
+namespace GlobalNamespace {
 class IBeatmapObjectSpawner;
-}
-namespace GlobalNamespace {
-class INoteControllerNoteWasCutEvent;
-}
-namespace GlobalNamespace {
-class ISliderDidDissolveEvent;
-}
-namespace GlobalNamespace {
-class NoteController;
-}
-namespace GlobalNamespace {
-struct NoteCutInfo;
-}
-namespace GlobalNamespace {
-class SliderController;
-}
-namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__ObstacleSpawnData;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__NoteSpawnData;
-}
-namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__SliderSpawnData;
 }
 namespace GlobalNamespace {
 class INoteControllerNoteDidDissolveEvent;
@@ -51,40 +21,70 @@ namespace GlobalNamespace {
 class INoteControllerNoteDidFinishJumpEvent;
 }
 namespace GlobalNamespace {
-class ISliderDidFinishJumpEvent;
+class INoteControllerNoteDidStartJumpEvent;
 }
 namespace GlobalNamespace {
-class __BeatmapObjectManager__NoteWasCutDelegate;
+class INoteControllerNoteWasCutEvent;
 }
 namespace GlobalNamespace {
 class INoteControllerNoteWasMissedEvent;
 }
 namespace GlobalNamespace {
-class NoteData;
+class ISliderDidDissolveEvent;
 }
 namespace GlobalNamespace {
-class ObstacleData;
+class ISliderDidFinishJumpEvent;
+}
+namespace GlobalNamespace {
+class NoteController;
+}
+namespace GlobalNamespace {
+struct NoteCutInfo;
+}
+namespace GlobalNamespace {
+class NoteData;
 }
 namespace GlobalNamespace {
 class ObstacleController;
 }
 namespace GlobalNamespace {
-class INoteControllerNoteDidStartJumpEvent;
+class ObstacleData;
+}
+namespace GlobalNamespace {
+class SliderController;
 }
 namespace GlobalNamespace {
 class SliderData;
 }
 namespace GlobalNamespace {
-class IBeatmapObjectController;
+class __BeatmapObjectManager__NoteWasCutDelegate;
+}
+namespace GlobalNamespace {
+struct __BeatmapObjectSpawnMovementData__NoteSpawnData;
+}
+namespace GlobalNamespace {
+struct __BeatmapObjectSpawnMovementData__ObstacleSpawnData;
+}
+namespace GlobalNamespace {
+struct __BeatmapObjectSpawnMovementData__SliderSpawnData;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+template <typename T1, typename T2, typename T3> class Action_3;
+}
+namespace System {
+class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
 }
 namespace System {
 class Object;
-}
-namespace System {
-class AsyncCallback;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -218,26 +218,50 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBeatmapObjectSpawner"
   constexpr operator ::GlobalNamespace::IBeatmapObjectSpawner*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IBeatmapObjectSpawner"
+  constexpr ::GlobalNamespace::IBeatmapObjectSpawner* i___GlobalNamespace__IBeatmapObjectSpawner() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::INoteControllerNoteDidStartJumpEvent"
   constexpr operator ::GlobalNamespace::INoteControllerNoteDidStartJumpEvent*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::INoteControllerNoteDidStartJumpEvent"
+  constexpr ::GlobalNamespace::INoteControllerNoteDidStartJumpEvent* i___GlobalNamespace__INoteControllerNoteDidStartJumpEvent() noexcept;
 
   /// @brief Convert operator to "::GlobalNamespace::INoteControllerNoteDidFinishJumpEvent"
   constexpr operator ::GlobalNamespace::INoteControllerNoteDidFinishJumpEvent*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::INoteControllerNoteDidFinishJumpEvent"
+  constexpr ::GlobalNamespace::INoteControllerNoteDidFinishJumpEvent* i___GlobalNamespace__INoteControllerNoteDidFinishJumpEvent() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::INoteControllerNoteWasCutEvent"
   constexpr operator ::GlobalNamespace::INoteControllerNoteWasCutEvent*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::INoteControllerNoteWasCutEvent"
+  constexpr ::GlobalNamespace::INoteControllerNoteWasCutEvent* i___GlobalNamespace__INoteControllerNoteWasCutEvent() noexcept;
 
   /// @brief Convert operator to "::GlobalNamespace::INoteControllerNoteWasMissedEvent"
   constexpr operator ::GlobalNamespace::INoteControllerNoteWasMissedEvent*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::INoteControllerNoteWasMissedEvent"
+  constexpr ::GlobalNamespace::INoteControllerNoteWasMissedEvent* i___GlobalNamespace__INoteControllerNoteWasMissedEvent() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::INoteControllerNoteDidDissolveEvent"
   constexpr operator ::GlobalNamespace::INoteControllerNoteDidDissolveEvent*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::INoteControllerNoteDidDissolveEvent"
+  constexpr ::GlobalNamespace::INoteControllerNoteDidDissolveEvent* i___GlobalNamespace__INoteControllerNoteDidDissolveEvent() noexcept;
 
   /// @brief Convert operator to "::GlobalNamespace::ISliderDidFinishJumpEvent"
   constexpr operator ::GlobalNamespace::ISliderDidFinishJumpEvent*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::ISliderDidFinishJumpEvent"
+  constexpr ::GlobalNamespace::ISliderDidFinishJumpEvent* i___GlobalNamespace__ISliderDidFinishJumpEvent() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::ISliderDidDissolveEvent"
   constexpr operator ::GlobalNamespace::ISliderDidDissolveEvent*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::ISliderDidDissolveEvent"
+  constexpr ::GlobalNamespace::ISliderDidDissolveEvent* i___GlobalNamespace__ISliderDidDissolveEvent() noexcept;
 
   constexpr ::System::Action_3<::GlobalNamespace::NoteData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData, float_t>*& __get_noteWasAddedEvent();
 

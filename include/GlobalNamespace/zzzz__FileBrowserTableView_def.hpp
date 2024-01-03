@@ -8,23 +8,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileBrowserTableView)
-namespace HMUI {
-class __TableView__IDataSource;
-}
 namespace GlobalNamespace {
 class FileBrowserItem;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace HMUI {
-class TableView;
 }
 namespace GlobalNamespace {
 class FileBrowserTableCell;
 }
 namespace HMUI {
 class TableCell;
+}
+namespace HMUI {
+class TableView;
+}
+namespace HMUI {
+class __TableView__IDataSource;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -59,6 +59,9 @@ public:
 
   /// @brief Convert operator to "::HMUI::__TableView__IDataSource"
   constexpr operator ::HMUI::__TableView__IDataSource*() noexcept;
+
+  /// @brief Convert to "::HMUI::__TableView__IDataSource"
+  constexpr ::HMUI::__TableView__IDataSource* i___HMUI____TableView__IDataSource() noexcept;
 
   constexpr ::HMUI::TableView*& __get__tableView();
 
@@ -121,9 +124,7 @@ public:
   inline void SelectAndScrollRow(int32_t row);
 
   /// @brief Method ClearSelection, addr 0x2285a80, size 0x5c, virtual false, abstract: false, final false
-  /// @param animated: bool (default: false)
-  /// @param scrollToRow0: bool (default: true)
-  inline void ClearSelection(bool animated = false, bool scrollToRow0 = true);
+  inline void ClearSelection(bool animated, bool scrollToRow0);
 
   static inline ::GlobalNamespace::FileBrowserTableView* New_ctor();
 

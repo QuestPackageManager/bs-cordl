@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnmodifiableDictionaryProxy)
 namespace System::Collections {
-class IDictionary;
-}
-namespace System::Collections {
 class ICollection;
 }
-namespace System {
-class Object;
+namespace System::Collections {
+class IDictionaryEnumerator;
+}
+namespace System::Collections {
+class IDictionary;
 }
 namespace System {
 class Array;
 }
-namespace System::Collections {
-class IDictionaryEnumerator;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Collections {

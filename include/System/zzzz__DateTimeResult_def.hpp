@@ -12,12 +12,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DateTimeResult)
-namespace System {
-class Object;
-}
-namespace System {
-struct ParseFlags;
-}
 namespace System::Globalization {
 class Calendar;
 }
@@ -25,13 +19,19 @@ namespace System {
 struct DateTime;
 }
 namespace System {
+class Object;
+}
+namespace System {
 struct ParseFailureKind;
 }
 namespace System {
-struct TimeSpan;
+struct ParseFlags;
 }
 namespace System {
 template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
+struct TimeSpan;
 }
 // Forward declare root types
 namespace System {
@@ -43,8 +43,8 @@ MARK_VAL_T(::System::DateTimeResult);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2398)), TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2464)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292 })} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2464)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292 }), TypeDefinitionIndex(TypeDefinitionIndex(2398)), TypeDefinitionIndex(TypeDefinitionIndex(2397))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(2399)) CS Name: ::System::DateTimeResult
 struct CORDL_TYPE DateTimeResult {
 public:

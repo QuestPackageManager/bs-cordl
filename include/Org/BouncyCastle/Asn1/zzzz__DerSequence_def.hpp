@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(DerSequence)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class Asn1EncodableVector;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1EncodableVector;
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerOutputStream;

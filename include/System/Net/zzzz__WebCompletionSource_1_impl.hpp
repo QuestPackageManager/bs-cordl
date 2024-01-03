@@ -5,15 +5,15 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__WebCompletionSource_1_def.hpp"
 #include "System/Net/zzzz__WebCompletionSource_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/zzzz__OperationCanceledException_def.hpp"
-#include "System/Threading/Tasks/zzzz__TaskCompletionSource_1_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/Runtime/ExceptionServices/zzzz__ExceptionDispatchInfo_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/ExceptionServices/zzzz__ExceptionDispatchInfo_def.hpp"
+#include "System/Threading/Tasks/zzzz__TaskCompletionSource_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/zzzz__OperationCanceledException_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 template <typename T> constexpr ::System::Net::__WebCompletionSource_1__Status<T>::__WebCompletionSource_1__Status(int32_t value__) noexcept {
   this->value__ = value__;
@@ -108,6 +108,11 @@ inline void System::Net::__WebCompletionSource_1__Result<T>::_ctor(::System::Net
 template <typename T> constexpr ::System::Net::__WebCompletionSource_1__Result<T>::__WebCompletionSource_1__Result() {}
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 template <typename T> constexpr System::Net::__WebCompletionSource_1___WaitForCompletion_d__15<T>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+template <typename T>
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* System::Net::__WebCompletionSource_1___WaitForCompletion_d__15<T>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename T> inline void System::Net::__WebCompletionSource_1___WaitForCompletion_d__15<T>::MoveNext() {

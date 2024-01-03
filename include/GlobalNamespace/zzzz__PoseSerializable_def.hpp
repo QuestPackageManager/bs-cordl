@@ -8,14 +8,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PoseSerializable)
-namespace System {
-class Object;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
 namespace GlobalNamespace {
 struct QuaternionSerializable;
+}
+namespace GlobalNamespace {
+struct Vector3Serializable;
 }
 namespace LiteNetLib::Utils {
 class INetSerializable;
@@ -23,14 +20,17 @@ class INetSerializable;
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
 namespace System {
 template <typename T> class IEquatable_1;
 }
+namespace System {
+class Object;
+}
 namespace UnityEngine {
 struct Pose;
-}
-namespace GlobalNamespace {
-struct Vector3Serializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -42,7 +42,7 @@ MARK_VAL_T(::GlobalNamespace::PoseSerializable);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15041)), TypeDefinitionIndex(TypeDefinitionIndex(15039))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15039)), TypeDefinitionIndex(TypeDefinitionIndex(15041))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15042))
 // CS Name: ::PoseSerializable
 struct CORDL_TYPE PoseSerializable {
@@ -51,8 +51,14 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*();
 
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable();
+
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::PoseSerializable>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::PoseSerializable>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::PoseSerializable>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::PoseSerializable>* i___System__IEquatable_1___GlobalNamespace__PoseSerializable_();
 
   /// @brief Method .ctor, addr 0x12a8354, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::Vector3Serializable position, ::GlobalNamespace::QuaternionSerializable rotation);

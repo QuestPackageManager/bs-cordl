@@ -9,20 +9,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LevelCompletionResults)
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace System {
-class IComparable;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
 namespace GlobalNamespace {
 class GameplayModifiers;
 }
-namespace System {
-class Object;
+namespace GlobalNamespace {
+struct __LevelCompletionResults__LevelEndAction;
+}
+namespace GlobalNamespace {
+struct __LevelCompletionResults__LevelEndStateType;
 }
 namespace GlobalNamespace {
 struct __RankModel__Rank;
@@ -30,11 +24,17 @@ struct __RankModel__Rank;
 namespace LiteNetLib::Utils {
 template <typename T> class INetImmutableSerializable_1;
 }
-namespace GlobalNamespace {
-struct __LevelCompletionResults__LevelEndAction;
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
-namespace GlobalNamespace {
-struct __LevelCompletionResults__LevelEndStateType;
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace System {
+class IComparable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -162,8 +162,8 @@ static_assert(offsetof(::GlobalNamespace::__LevelCompletionResults__LevelEndActi
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 116, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15034)), TypeDefinitionIndex(TypeDefinitionIndex(15018)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15017))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15019)) CS Name: ::LevelCompletionResults*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15017)), TypeDefinitionIndex(TypeDefinitionIndex(15034)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15018))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15019)) CS Name: ::LevelCompletionResults*
 class CORDL_TYPE LevelCompletionResults : public ::System::Object {
 public:
   // Declarations
@@ -248,8 +248,15 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::LevelCompletionResults*>"
   constexpr operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::LevelCompletionResults*>*() noexcept;
 
+  /// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::LevelCompletionResults*>"
+  constexpr ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::LevelCompletionResults*>*
+  i___LiteNetLib__Utils__INetImmutableSerializable_1___GlobalNamespace__LevelCompletionResults__() noexcept;
+
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*() noexcept;
+
+  /// @brief Convert to "::System::IComparable"
+  constexpr ::System::IComparable* i___System__IComparable() noexcept;
 
   constexpr ::GlobalNamespace::GameplayModifiers*& __get_gameplayModifiers();
 

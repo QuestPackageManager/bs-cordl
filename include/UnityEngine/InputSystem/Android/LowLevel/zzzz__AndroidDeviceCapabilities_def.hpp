@@ -9,11 +9,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AndroidDeviceCapabilities)
-namespace UnityEngine::InputSystem::Android::LowLevel {
-struct AndroidAxis;
-}
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine::InputSystem::Android::LowLevel {
+struct AndroidAxis;
 }
 namespace UnityEngine::InputSystem::Android::LowLevel {
 struct AndroidInputSource;

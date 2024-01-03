@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(DroneHover)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace GlobalNamespace {
 class __DroneHover__SineLayer;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace UnityEngine {
-struct Vector3;
+class Cloth;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
-class Cloth;
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -207,8 +207,7 @@ public:
   inline ::UnityEngine::Vector3 GetNoiseVec3(float_t time);
 
   /// @brief Method GetNoise, addr 0x2222a6c, size 0xf4, virtual false, abstract: false, final false
-  /// @param offset: float_t (default: 0.0)
-  inline float_t GetNoise(float_t time, float_t offset = 0.0);
+  inline float_t GetNoise(float_t time, float_t offset);
 
   /// @brief Method UpdateTiltTransform, addr 0x22227ac, size 0x2c0, virtual false, abstract: false, final false
   inline void UpdateTiltTransform();

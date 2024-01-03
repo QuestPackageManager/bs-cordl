@@ -6,28 +6,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Callback)
 namespace Oculus::Platform {
-class __Message__Callback;
-}
-namespace Oculus::Platform {
 class Message;
 }
 namespace Oculus::Platform {
-template <typename T> class __Message_1__Callback;
+class Request;
 }
 namespace Oculus::Platform {
 template <typename T> class __Callback__RequestCallback_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace Oculus::Platform {
-struct __Message__MessageType;
 }
 namespace Oculus::Platform {
 class __Callback__RequestCallback;
 }
 namespace Oculus::Platform {
-class Request;
+template <typename T> class __Message_1__Callback;
+}
+namespace Oculus::Platform {
+class __Message__Callback;
+}
+namespace Oculus::Platform {
+struct __Message__MessageType;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace Oculus::Platform {

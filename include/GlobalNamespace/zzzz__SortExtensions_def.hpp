@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SortExtensions)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace GlobalNamespace {
 template <typename T> class __SortExtensions____c__DisplayClass1_0_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

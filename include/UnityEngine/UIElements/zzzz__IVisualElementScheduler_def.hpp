@@ -10,10 +10,10 @@ namespace System {
 class Action;
 }
 namespace UnityEngine::UIElements {
-struct TimerState;
+class IVisualElementScheduledItem;
 }
 namespace UnityEngine::UIElements {
-class IVisualElementScheduledItem;
+struct TimerState;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

@@ -7,20 +7,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Thread)
-namespace System::Threading {
-class ExecutionContext;
-}
 namespace System::Globalization {
 class CultureInfo;
 }
-namespace System::Threading {
-class ParameterizedThreadStart;
+namespace System::Runtime::Remoting::Contexts {
+class Context;
+}
+namespace System::Security::Principal {
+class IPrincipal;
 }
 namespace System::Threading {
 template <typename T> struct AsyncLocalValueChangedArgs_1;
 }
-namespace System {
-class LocalDataStoreMgr;
+namespace System::Threading {
+template <typename T> class AsyncLocal_1;
+}
+namespace System::Threading {
+class ExecutionContext;
+}
+namespace System::Threading {
+class InternalThread;
+}
+namespace System::Threading {
+class ParameterizedThreadStart;
 }
 namespace System::Threading {
 struct StackCrawlMark;
@@ -28,38 +37,29 @@ struct StackCrawlMark;
 namespace System::Threading {
 struct ThreadPriority;
 }
-namespace System {
-class MulticastDelegate;
-}
-namespace System {
-class Delegate;
-}
-namespace System::Runtime::Remoting::Contexts {
-class Context;
+namespace System::Threading {
+class ThreadStart;
 }
 namespace System::Threading {
 struct ThreadState;
 }
 namespace System::Threading {
-class InternalThread;
+struct __ExecutionContext__Reader;
+}
+namespace System {
+class Delegate;
 }
 namespace System {
 class LocalDataStoreHolder;
 }
-namespace System::Threading {
-template <typename T> class AsyncLocal_1;
+namespace System {
+class LocalDataStoreMgr;
+}
+namespace System {
+class MulticastDelegate;
 }
 namespace System {
 class Object;
-}
-namespace System::Security::Principal {
-class IPrincipal;
-}
-namespace System::Threading {
-class ThreadStart;
-}
-namespace System::Threading {
-struct __ExecutionContext__Reader;
 }
 // Forward declare root types
 namespace System::Threading {

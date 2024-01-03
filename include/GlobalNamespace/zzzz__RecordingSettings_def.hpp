@@ -11,31 +11,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RecordingSettings)
 namespace GlobalNamespace {
-class IBeatmapLevelPack;
-}
-namespace GlobalNamespace {
-class __PlaybackRenderer__PlaybackScreenshot;
-}
-namespace GlobalNamespace {
-struct __ObjectsMovementRecorder__CameraView;
-}
-namespace GlobalNamespace {
-class EnvironmentInfoSO;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-class EnvironmentTypeSO;
-}
-namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
+class EnvironmentInfoSO;
+}
+namespace GlobalNamespace {
+class EnvironmentTypeSO;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelPack;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+struct __ObjectsMovementRecorder__CameraView;
+}
+namespace GlobalNamespace {
 struct __ObjectsMovementRecorder__Mode;
+}
+namespace GlobalNamespace {
+class __PlaybackRenderer__PlaybackScreenshot;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::GlobalNamespace::RecordingSettings);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 137, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5918)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5918)), TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
 // TypeDefinitionIndex(TypeDefinitionIndex(5917))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5968)) CS Name: ::RecordingSettings*
 class CORDL_TYPE RecordingSettings : public ::System::Object {
 public:

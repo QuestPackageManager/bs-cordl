@@ -36,6 +36,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IEditTimeValidated"
   constexpr operator ::GlobalNamespace::IEditTimeValidated*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IEditTimeValidated"
+  constexpr ::GlobalNamespace::IEditTimeValidated* i___GlobalNamespace__IEditTimeValidated() noexcept;
+
   constexpr ::UnityEngine::Vector3& __get__movementStep();
 
   constexpr ::UnityEngine::Vector3 const& __get__movementStep() const;

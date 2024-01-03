@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(InteropErrorExtensions)
 namespace GlobalNamespace {
-struct __Interop__Error;
+struct __Interop__ErrorInfo;
 }
 namespace GlobalNamespace {
-struct __Interop__ErrorInfo;
+struct __Interop__Error;
 }
 // Forward declare root types
 namespace GlobalNamespace {

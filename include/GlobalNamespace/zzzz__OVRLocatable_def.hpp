@@ -13,37 +13,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRLocatable)
 namespace GlobalNamespace {
-struct __OVRPlugin__SpaceComponentType;
-}
-namespace GlobalNamespace {
 template <typename T> class IOVRAnchorComponent_1;
 }
 namespace GlobalNamespace {
 struct OVRAnchor;
 }
-namespace System {
-template <typename T> class IEquatable_1;
+namespace GlobalNamespace {
+template <typename TResult> struct OVRTask_1;
 }
 namespace GlobalNamespace {
 struct __OVRLocatable__TrackingSpacePose;
 }
 namespace GlobalNamespace {
-template <typename TResult> struct OVRTask_1;
-}
-namespace System {
-class Object;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace UnityEngine {
-struct Quaternion;
+struct __OVRPlugin__SpaceComponentType;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__SpaceLocationFlags;
 }
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace System {
+class Object;
+}
 namespace UnityEngine {
 class Camera;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -62,9 +62,10 @@ MARK_VAL_T(::GlobalNamespace::__OVRLocatable__TrackingSpacePose);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7783)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2448)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3342 }), TypeDefinitionIndex(TypeDefinitionIndex(10252)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 412 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7512)) CS Name: ::OVRLocatable::TrackingSpacePose
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7783)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 412
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3342 }), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7512))
+// CS Name: ::OVRLocatable::TrackingSpacePose
 struct CORDL_TYPE __OVRLocatable__TrackingSpacePose {
 public:
   // Declarations
@@ -161,8 +162,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRLocatable>"
   constexpr operator ::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRLocatable>*();
 
+  /// @brief Convert to "::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRLocatable>"
+  constexpr ::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRLocatable>* i___GlobalNamespace__IOVRAnchorComponent_1___GlobalNamespace__OVRLocatable_();
+
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::OVRLocatable>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::OVRLocatable>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::OVRLocatable>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::OVRLocatable>* i___System__IEquatable_1___GlobalNamespace__OVRLocatable_();
 
   static inline void setStaticF_Null(::GlobalNamespace::OVRLocatable value);
 
@@ -184,8 +191,7 @@ public:
   inline bool get_IsEnabled();
 
   /// @brief Method SetEnabledAsync, addr 0x2711e80, size 0xdc, virtual true, abstract: false, final true
-  /// @param timeout: double_t (default: 0.0)
-  inline ::GlobalNamespace::OVRTask_1<bool> SetEnabledAsync(bool enabled, double_t timeout = 0.0);
+  inline ::GlobalNamespace::OVRTask_1<bool> SetEnabledAsync(bool enabled, double_t timeout);
 
   /// @brief Method Equals, addr 0x2711f5c, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::OVRLocatable other);

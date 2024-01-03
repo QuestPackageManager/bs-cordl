@@ -6,35 +6,17 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__FromBinder_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(FromBinderNonGeneric)
-namespace Zenject {
-class InjectContext;
-}
-namespace Zenject {
-template <typename TValue> class IFactory_1;
-}
-namespace Zenject {
-template <typename TContract> class ConcreteBinderGeneric_1;
-}
-namespace Zenject {
-template <typename TConcrete, typename TFactory> class __FromBinderNonGeneric____c__1_2;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace System {
-class Object;
-}
-namespace Zenject {
-struct InjectSources;
-}
-namespace Zenject {
-class ScopeConcreteIdArgConditionCopyNonLazyBinder;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+class Object;
 }
 namespace UnityEngine {
 class Component;
@@ -46,10 +28,28 @@ namespace Zenject {
 class BindStatement;
 }
 namespace Zenject {
+template <typename TContract> class ConcreteBinderGeneric_1;
+}
+namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
+template <typename TValue> class IFactory_1;
+}
+namespace Zenject {
+class InjectContext;
+}
+namespace Zenject {
+struct InjectSources;
+}
+namespace Zenject {
 class InjectTypeInfo;
+}
+namespace Zenject {
+class ScopeConcreteIdArgConditionCopyNonLazyBinder;
+}
+namespace Zenject {
+template <typename TConcrete, typename TFactory> class __FromBinderNonGeneric____c__1_2;
 }
 // Forward declare root types
 namespace Zenject {
@@ -176,20 +176,13 @@ public:
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromInstance(::System::Object* instance);
 
   /// @brief Method FromComponentsInChildren, addr 0x2eda058, size 0x14, virtual false, abstract: false, final false
-  /// @param includeInactive: bool (default: true)
-  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInChildren(::System::Func_2<::UnityEngine::Component*, bool>* predicate, bool includeInactive = true);
+  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInChildren(::System::Func_2<::UnityEngine::Component*, bool>* predicate, bool includeInactive);
 
   /// @brief Method FromComponentsInChildren, addr 0x2eda06c, size 0xc, virtual false, abstract: false, final false
-  /// @param excludeSelf: bool (default: false)
-  /// @param predicate: ::System::Func_2<::UnityEngine::Component*,bool>* (default: nullptr)
-  /// @param includeInactive: bool (default: true)
-  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInChildren(bool excludeSelf = false, ::System::Func_2<::UnityEngine::Component*, bool>* predicate = nullptr,
-                                                                                           bool includeInactive = true);
+  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInChildren(bool excludeSelf, ::System::Func_2<::UnityEngine::Component*, bool>* predicate, bool includeInactive);
 
   /// @brief Method FromComponentsInHierarchy, addr 0x2eda078, size 0x8, virtual false, abstract: false, final false
-  /// @param predicate: ::System::Func_2<::UnityEngine::Component*,bool>* (default: nullptr)
-  /// @param includeInactive: bool (default: true)
-  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInHierarchy(::System::Func_2<::UnityEngine::Component*, bool>* predicate = nullptr, bool includeInactive = true);
+  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInHierarchy(::System::Func_2<::UnityEngine::Component*, bool>* predicate, bool includeInactive);
 
   // Ctor Parameters [CppParam { name: "", ty: "FromBinderNonGeneric", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

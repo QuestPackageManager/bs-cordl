@@ -8,25 +8,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NodePoseSyncStateNetSerializable)
 namespace GlobalNamespace {
-struct SyncStateId;
+class IPoolablePacket;
+}
+namespace GlobalNamespace {
+template <typename T> class ISyncStateSerializable_1;
 }
 namespace GlobalNamespace {
 struct NodePoseSyncState;
 }
 namespace GlobalNamespace {
-class IPoolablePacket;
+template <typename T> class PacketPool_1;
+}
+namespace GlobalNamespace {
+struct SyncStateId;
 }
 namespace LiteNetLib::Utils {
 class INetSerializable;
 }
-namespace GlobalNamespace {
-template <typename T> class ISyncStateSerializable_1;
-}
 namespace LiteNetLib::Utils {
 class NetDataReader;
-}
-namespace GlobalNamespace {
-template <typename T> class PacketPool_1;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::GlobalNamespace::NodePoseSyncStateNetSerializable);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12973)), TypeDefinitionIndex(TypeDefinitionIndex(12988))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12973)), TypeDefinitionIndex(TypeDefinitionIndex(12988)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12975))
 // CS Name: ::NodePoseSyncStateNetSerializable*
 class CORDL_TYPE NodePoseSyncStateNetSerializable : public ::System::Object {
@@ -65,11 +65,20 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IPoolablePacket"
   constexpr operator ::GlobalNamespace::IPoolablePacket*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
+  constexpr ::GlobalNamespace::IPoolablePacket* i___GlobalNamespace__IPoolablePacket() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::ISyncStateSerializable_1<::GlobalNamespace::NodePoseSyncState>"
   constexpr operator ::GlobalNamespace::ISyncStateSerializable_1<::GlobalNamespace::NodePoseSyncState>*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::ISyncStateSerializable_1<::GlobalNamespace::NodePoseSyncState>"
+  constexpr ::GlobalNamespace::ISyncStateSerializable_1<::GlobalNamespace::NodePoseSyncState>* i___GlobalNamespace__ISyncStateSerializable_1___GlobalNamespace__NodePoseSyncState_() noexcept;
 
   constexpr ::GlobalNamespace::NodePoseSyncState& __get__state();
 

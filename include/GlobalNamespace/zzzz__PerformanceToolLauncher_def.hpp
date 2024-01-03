@@ -3,28 +3,21 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PerformanceToolLauncher_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstddef>
 CORDL_MODULE_EXPORT(PerformanceToolLauncher)
 namespace GlobalNamespace {
-class IGamePause;
-}
-namespace GlobalNamespace {
-class MainCamera;
+class BoolSO;
 }
 namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
 }
 namespace GlobalNamespace {
-struct __PerformanceToolLauncher__OverrideConfig;
+class IGamePause;
 }
 namespace GlobalNamespace {
-struct __PerformanceToolLauncher__Config;
-}
-namespace GlobalNamespace {
-struct __PerformanceToolLauncher__Assets;
+class MainCamera;
 }
 namespace GlobalNamespace {
 class PerformanceRecorder;
@@ -33,7 +26,16 @@ namespace GlobalNamespace {
 class PerformanceVisualizer;
 }
 namespace GlobalNamespace {
-class BoolSO;
+struct __PerformanceToolLauncher__Assets;
+}
+namespace GlobalNamespace {
+struct __PerformanceToolLauncher__Config;
+}
+namespace GlobalNamespace {
+struct __PerformanceToolLauncher__OverrideConfig;
+}
+namespace System {
+template <typename T> struct Nullable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -180,8 +182,7 @@ static_assert(offsetof(::GlobalNamespace::__PerformanceToolLauncher__OverrideCon
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4777 }), TypeDefinitionIndex(TypeDefinitionIndex(5949)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(5948)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(5950))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5949)), TypeDefinitionIndex(TypeDefinitionIndex(5948)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5951))
 // CS Name: ::PerformanceToolLauncher*
 class CORDL_TYPE PerformanceToolLauncher : public ::UnityEngine::MonoBehaviour {
@@ -212,11 +213,8 @@ public:
   constexpr void __set__config(::GlobalNamespace::__PerformanceToolLauncher__Config value);
 
   /// @brief Method Initialize, addr 0x2304c94, size 0x27c, virtual false, abstract: false, final false
-  /// @param gamePause: ::GlobalNamespace::IGamePause* (default: nullptr)
-  /// @param sceneSetupData: ::GlobalNamespace::GameplayCoreSceneSetupData* (default: nullptr)
-  /// @param overrideConfig: ::System::Nullable_1<::GlobalNamespace::__PerformanceToolLauncher__OverrideConfig> (default: {})
-  inline void Initialize(::GlobalNamespace::MainCamera* mainCamera, ::GlobalNamespace::IGamePause* gamePause = nullptr, ::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData = nullptr,
-                         ::System::Nullable_1<::GlobalNamespace::__PerformanceToolLauncher__OverrideConfig> overrideConfig = {});
+  inline void Initialize(::GlobalNamespace::MainCamera* mainCamera, ::GlobalNamespace::IGamePause* gamePause, ::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData,
+                         ::System::Nullable_1<::GlobalNamespace::__PerformanceToolLauncher__OverrideConfig> overrideConfig);
 
   static inline ::GlobalNamespace::PerformanceToolLauncher* New_ctor();
 

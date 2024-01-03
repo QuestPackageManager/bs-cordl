@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(TaskCanceledException)
 namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System::Threading::Tasks {
 class Task;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {

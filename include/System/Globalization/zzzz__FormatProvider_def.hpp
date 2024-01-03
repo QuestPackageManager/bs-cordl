@@ -9,6 +9,12 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FormatProvider)
+namespace GlobalNamespace {
+struct __FormatProvider__Number__NumberBuffer;
+}
+namespace System::Globalization {
+class NumberFormatInfo;
+}
 namespace System::Globalization {
 class __FormatProvider__Number;
 }
@@ -17,12 +23,6 @@ struct ValueStringBuilder;
 }
 namespace System {
 template <typename T> struct ReadOnlySpan_1;
-}
-namespace System::Globalization {
-class NumberFormatInfo;
-}
-namespace GlobalNamespace {
-struct __FormatProvider__Number__NumberBuffer;
 }
 // Forward declare root types
 namespace System::Globalization {

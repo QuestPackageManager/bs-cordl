@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Bcpg/zzzz__InputStreamPacket_def.hpp"
 CORDL_MODULE_EXPORT(CompressedDataPacket)
 namespace Org::BouncyCastle::Bcpg {
-struct CompressionAlgorithmTag;
+class BcpgInputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
+struct CompressionAlgorithmTag;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {

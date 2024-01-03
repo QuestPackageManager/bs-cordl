@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(PkiMessage)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
 namespace Org::BouncyCastle::Asn1::Cmp {
 class CmpCertificate;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiBody;
 }
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiHeader;
 }
 namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
 class DerBitString;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {

@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Challenges)
 namespace Oculus::Platform::Models {
+class ChallengeEntryList;
+}
+namespace Oculus::Platform::Models {
 class ChallengeList;
-}
-namespace Oculus::Platform {
-struct LeaderboardStartAt;
-}
-namespace Oculus::Platform {
-class ChallengeOptions;
 }
 namespace Oculus::Platform::Models {
 class Challenge;
 }
-namespace Oculus::Platform::Models {
-class ChallengeEntryList;
+namespace Oculus::Platform {
+class ChallengeOptions;
 }
 namespace Oculus::Platform {
 struct LeaderboardFilterType;
+}
+namespace Oculus::Platform {
+struct LeaderboardStartAt;
 }
 namespace Oculus::Platform {
 template <typename T> class Request_1;

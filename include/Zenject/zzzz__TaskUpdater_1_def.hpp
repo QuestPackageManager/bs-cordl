@@ -9,11 +9,20 @@ CORDL_MODULE_EXPORT(TaskUpdater_1)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace Zenject {
-class InjectTypeInfo;
+namespace System::Collections::Generic {
+template <typename T> class LinkedList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+class Object;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace Zenject {
 template <typename TTask> class __TaskUpdater_1__TaskInfo;
@@ -21,17 +30,8 @@ template <typename TTask> class __TaskUpdater_1__TaskInfo;
 namespace Zenject {
 template <typename TTask> class __TaskUpdater_1____c__DisplayClass8_0;
 }
-namespace System::Collections::Generic {
-template <typename T> class LinkedList_1;
-}
 namespace Zenject {
 template <typename TTask> class __TaskUpdater_1____c;
-}
-namespace System {
-class Object;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace Zenject {

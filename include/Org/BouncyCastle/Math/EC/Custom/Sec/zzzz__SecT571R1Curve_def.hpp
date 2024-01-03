@@ -10,17 +10,11 @@ CORDL_MODULE_EXPORT(SecT571R1Curve)
 namespace Org::BouncyCastle::Math::EC::Custom::Sec {
 class SecT571FieldElement;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECLookupTable;
-}
 namespace Org::BouncyCastle::Math::EC::Custom::Sec {
 class SecT571R1Point;
+}
+namespace Org::BouncyCastle::Math::EC::Custom::Sec {
+class __SecT571R1Curve__SecT571R1LookupTable;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECCurve;
@@ -28,8 +22,14 @@ class ECCurve;
 namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
 }
-namespace Org::BouncyCastle::Math::EC::Custom::Sec {
-class __SecT571R1Curve__SecT571R1LookupTable;
+namespace Org::BouncyCastle::Math::EC {
+class ECLookupTable;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Custom::Sec {

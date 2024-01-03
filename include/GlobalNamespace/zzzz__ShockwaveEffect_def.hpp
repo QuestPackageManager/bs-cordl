@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ShockwaveEffect)
-namespace UnityEngine {
-class ParticleSystem;
-}
 namespace GlobalNamespace {
 class IntSO;
+}
+namespace UnityEngine {
+class ParticleSystem;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ShockwaveEffect);
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 188, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15889)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15889))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4882))
 // CS Name: ::ShockwaveEffect*
 class CORDL_TYPE ShockwaveEffect : public ::UnityEngine::MonoBehaviour {

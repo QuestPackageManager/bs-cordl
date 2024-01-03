@@ -9,47 +9,35 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SelectAvatarSystemViewController)
+namespace BeatSaber::AvatarCore {
+class AvatarSystemCollection;
+}
+namespace BeatSaber::AvatarCore {
+class IAvatarSystemMetadata;
+}
 namespace GlobalNamespace {
 class PlayerDataModel;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace HMUI {
-class TableCell;
 }
 namespace GlobalNamespace {
 class SelectAvatarSystemCell;
 }
-namespace BeatSaber::AvatarCore {
-class AvatarSystemCollection;
-}
 namespace GlobalNamespace {
 struct __SelectAvatarSystemViewController___ReloadContinueButtonInteractability_d__31;
-}
-namespace BeatSaber::AvatarCore {
-class IAvatarSystemMetadata;
 }
 namespace HMUI {
 class HoverHint;
 }
 namespace HMUI {
-class __TableView__IDataSource;
-}
-namespace System {
-class Action;
-}
-namespace Zenject {
-class DiContainer;
+class TableCell;
 }
 namespace HMUI {
 class TableView;
 }
-namespace UnityEngine::UI {
-class Button;
+namespace HMUI {
+class __TableView__IDataSource;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
@@ -59,6 +47,18 @@ class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+class Action;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -81,6 +81,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x22d9690, size 0x228, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -186,6 +189,9 @@ public:
 
   /// @brief Convert operator to "::HMUI::__TableView__IDataSource"
   constexpr operator ::HMUI::__TableView__IDataSource*() noexcept;
+
+  /// @brief Convert to "::HMUI::__TableView__IDataSource"
+  constexpr ::HMUI::__TableView__IDataSource* i___HMUI____TableView__IDataSource() noexcept;
 
   constexpr ::HMUI::TableView*& __get__tableView();
 

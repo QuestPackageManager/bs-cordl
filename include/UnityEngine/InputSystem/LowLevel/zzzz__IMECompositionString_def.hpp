@@ -7,20 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IMECompositionString)
-namespace System::Collections {
-class IEnumerable;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct __IMECompositionString__Enumerator;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct __IMECompositionString___buffer_e__FixedBuffer;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -30,6 +24,12 @@ class IDisposable;
 }
 namespace System {
 class Object;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct __IMECompositionString__Enumerator;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct __IMECompositionString___buffer_e__FixedBuffer;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -110,8 +110,14 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<char16_t>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<char16_t>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<char16_t>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<char16_t>* i___System__Collections__Generic__IEnumerable_1_char16_t_();
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable();
 
   constexpr int32_t& __get_size();
 
@@ -212,11 +218,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<char16_t>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<char16_t>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<char16_t>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<char16_t>* i___System__Collections__Generic__IEnumerator_1_char16_t_();
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*();
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator();
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   /// @brief Method .ctor, addr 0x2aea004, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::LowLevel::IMECompositionString compositionString);

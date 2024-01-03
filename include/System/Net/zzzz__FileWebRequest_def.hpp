@@ -7,50 +7,50 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileWebRequest)
-namespace System::Threading {
-class ManualResetEvent;
-}
 namespace System::IO {
 class Stream;
 }
 namespace System::Net {
 class ICredentials;
 }
-namespace System::Threading {
-class WaitCallback;
-}
-namespace System {
-class Uri;
-}
-namespace System {
-class AsyncCallback;
-}
-namespace System {
-class Object;
-}
 namespace System::Net {
 class IWebProxy;
 }
-namespace System {
-class IAsyncResult;
+namespace System::Net {
+class LazyAsyncResult;
+}
+namespace System::Net {
+class WebHeaderCollection;
 }
 namespace System::Net {
 class WebResponse;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Net {
-class WebHeaderCollection;
-}
-namespace System::Runtime::Serialization {
 class ISerializable;
-}
-namespace System::Net {
-class LazyAsyncResult;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Threading {
+class ManualResetEvent;
+}
+namespace System::Threading {
+class WaitCallback;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Uri;
 }
 // Forward declare root types
 namespace System::Net {
@@ -62,7 +62,7 @@ MARK_REF_PTR_T(::System::Net::FileWebRequest);
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 196, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9096)), TypeDefinitionIndex(TypeDefinitionIndex(3559))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3559)), TypeDefinitionIndex(TypeDefinitionIndex(9096))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9134))
 // CS Name: ::System.Net::FileWebRequest*
 class CORDL_TYPE FileWebRequest : public ::System::Net::WebRequest {
@@ -158,6 +158,9 @@ public:
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
   constexpr ::StringW& __get_m_connectionGroupName();
 

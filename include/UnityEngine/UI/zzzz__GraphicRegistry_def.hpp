@@ -4,23 +4,23 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(GraphicRegistry)
-namespace UnityEngine::UI::Collections {
-template <typename T> class IndexedSet_1;
-}
-namespace UnityEngine {
-class Canvas;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template <typename T> class IList_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
+template <typename T> class List_1;
+}
+namespace UnityEngine::UI::Collections {
+template <typename T> class IndexedSet_1;
 }
 namespace UnityEngine::UI {
 class Graphic;
+}
+namespace UnityEngine {
+class Canvas;
 }
 // Forward declare root types
 namespace UnityEngine::UI {

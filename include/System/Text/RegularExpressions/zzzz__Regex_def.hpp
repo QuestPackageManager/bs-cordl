@@ -12,17 +12,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Regex)
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections {
+class Hashtable;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
-namespace System::Text::RegularExpressions {
-class __Regex__CachedCodeEntry;
-}
-namespace System {
-template <typename T> class WeakReference_1;
-}
-namespace System::Text::RegularExpressions {
-struct __Regex__CachedCodeEntryKey;
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System::Text::RegularExpressions {
 class ExclusiveReference;
@@ -30,41 +33,38 @@ class ExclusiveReference;
 namespace System::Text::RegularExpressions {
 class MatchCollection;
 }
-namespace System::Collections {
-class Hashtable;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
 namespace System::Text::RegularExpressions {
-class RegexRunnerFactory;
-}
-namespace System::Text::RegularExpressions {
-class RegexReplacement;
+class Match;
 }
 namespace System::Text::RegularExpressions {
 class RegexCode;
-}
-namespace System {
-struct TimeSpan;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Text::RegularExpressions {
 struct RegexOptions;
 }
 namespace System::Text::RegularExpressions {
-class Match;
+class RegexReplacement;
+}
+namespace System::Text::RegularExpressions {
+class RegexRunnerFactory;
+}
+namespace System::Text::RegularExpressions {
+struct __Regex__CachedCodeEntryKey;
+}
+namespace System::Text::RegularExpressions {
+class __Regex__CachedCodeEntry;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
+}
+namespace System {
+struct TimeSpan;
+}
+namespace System {
+template <typename T> class WeakReference_1;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {
@@ -92,6 +92,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::IEquatable_1<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>"
   constexpr operator ::System::IEquatable_1<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>"
+  constexpr ::System::IEquatable_1<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>* i___System__IEquatable_1___System__Text__RegularExpressions____Regex__CachedCodeEntryKey_();
 
   /// @brief Method .ctor, addr 0x2953b70, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::RegularExpressions::RegexOptions options, ::StringW cultureKey, ::StringW pattern);
@@ -144,7 +147,7 @@ static_assert(offsetof(::System::Text::RegularExpressions::__Regex__CachedCodeEn
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8911)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8911))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8912))
 // CS Name: ::Regex::CachedCodeEntry*
 class CORDL_TYPE __Regex__CachedCodeEntry : public ::System::Object {
@@ -325,7 +328,7 @@ static_assert(offsetof(::System::Text::RegularExpressions::__Regex__CachedCodeEn
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 105, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8925))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8925)), TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8913))
 // CS Name: ::System.Text.RegularExpressions::Regex*
 class CORDL_TYPE Regex : public ::System::Object {
@@ -402,6 +405,9 @@ public:
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
   constexpr ::System::TimeSpan& __get_internalMatchTimeout();
 

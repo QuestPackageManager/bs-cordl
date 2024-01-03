@@ -10,23 +10,23 @@ CORDL_MODULE_EXPORT(SkeinEngine)
 namespace Org::BouncyCastle::Crypto::Digests {
 class __SkeinEngine__Configuration;
 }
-namespace Org::BouncyCastle::Utilities {
-class IMemoable;
+namespace Org::BouncyCastle::Crypto::Digests {
+class __SkeinEngine__Parameter;
 }
 namespace Org::BouncyCastle::Crypto::Digests {
 class __SkeinEngine__UBI;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class SkeinParameters;
-}
 namespace Org::BouncyCastle::Crypto::Digests {
 class __SkeinEngine__UbiTweak;
 }
-namespace Org::BouncyCastle::Crypto::Digests {
-class __SkeinEngine__Parameter;
-}
 namespace Org::BouncyCastle::Crypto::Engines {
 class ThreefishEngine;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class SkeinParameters;
+}
+namespace Org::BouncyCastle::Utilities {
+class IMemoable;
 }
 namespace System::Collections {
 class IDictionary;
@@ -467,6 +467,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Utilities::IMemoable"
   constexpr operator ::Org::BouncyCastle::Utilities::IMemoable*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Utilities::IMemoable"
+  constexpr ::Org::BouncyCastle::Utilities::IMemoable* i___Org__BouncyCastle__Utilities__IMemoable() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::Engines::ThreefishEngine*& __get_threefish();
 

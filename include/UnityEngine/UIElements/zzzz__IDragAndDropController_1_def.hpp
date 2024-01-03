@@ -8,10 +8,10 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::UIElements {
-class StartDragArgs;
+struct DragVisualMode;
 }
 namespace UnityEngine::UIElements {
-struct DragVisualMode;
+class StartDragArgs;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -35,8 +35,7 @@ public:
   inline bool CanStartDrag(::System::Collections::Generic::IEnumerable_1<int32_t>* itemIndices);
 
   /// @brief Method SetupDragAndDrop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  /// @param skipText: bool (default: false)
-  inline ::UnityEngine::UIElements::StartDragArgs* SetupDragAndDrop(::System::Collections::Generic::IEnumerable_1<int32_t>* itemIndices, bool skipText = false);
+  inline ::UnityEngine::UIElements::StartDragArgs* SetupDragAndDrop(::System::Collections::Generic::IEnumerable_1<int32_t>* itemIndices, bool skipText);
 
   /// @brief Method HandleDragAndDrop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::DragVisualMode HandleDragAndDrop(TArgs args);

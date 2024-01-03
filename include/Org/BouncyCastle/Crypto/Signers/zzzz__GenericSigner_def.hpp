@@ -49,6 +49,9 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ISigner"
   constexpr operator ::Org::BouncyCastle::Crypto::ISigner*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::ISigner"
+  constexpr ::Org::BouncyCastle::Crypto::ISigner* i___Org__BouncyCastle__Crypto__ISigner() noexcept;
+
   constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*& __get_engine();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*> const& __get_engine() const;

@@ -9,31 +9,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReflectionUtils)
 namespace Newtonsoft::Json::Utilities {
-class __ReflectionUtils____c__DisplayClass42_0;
-}
-namespace System::Runtime::Serialization {
-class SerializationBinder;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace System::Reflection {
-class FieldInfo;
+class __ReflectionUtils____c;
 }
 namespace Newtonsoft::Json::Utilities {
-class __ReflectionUtils____c;
+class __ReflectionUtils____c__DisplayClass42_0;
+}
+namespace Newtonsoft::Json::Utilities {
+class __ReflectionUtils____c__DisplayClass43_0;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System {
-class Type;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
-namespace System::Reflection {
-class MemberInfo;
-}
-namespace System {
-template <typename T> struct Nullable_1;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Reflection {
 struct BindingFlags;
@@ -41,32 +32,41 @@ struct BindingFlags;
 namespace System::Reflection {
 class ConstructorInfo;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Runtime::Serialization::Formatters {
-struct FormatterAssemblyStyle;
-}
-namespace System {
-class Attribute;
-}
-namespace Newtonsoft::Json::Utilities {
-class __ReflectionUtils____c__DisplayClass43_0;
+namespace System::Reflection {
+class FieldInfo;
 }
 namespace System::Reflection {
-class PropertyInfo;
-}
-namespace System {
-class Object;
+class MemberInfo;
 }
 namespace System::Reflection {
 class MethodInfo;
 }
+namespace System::Reflection {
+class ParameterInfo;
+}
+namespace System::Reflection {
+class PropertyInfo;
+}
+namespace System::Runtime::Serialization::Formatters {
+struct FormatterAssemblyStyle;
+}
+namespace System::Runtime::Serialization {
+class SerializationBinder;
+}
+namespace System {
+class Attribute;
+}
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace System::Reflection {
-class ParameterInfo;
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {

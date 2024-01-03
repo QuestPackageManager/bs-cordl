@@ -11,13 +11,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MockPlayerSettings)
 namespace GlobalNamespace {
+struct MockPlayerAvatarType;
+}
+namespace GlobalNamespace {
 struct MockPlayerMovementType;
 }
 namespace UnityEngine {
 struct Color;
-}
-namespace GlobalNamespace {
-struct MockPlayerAvatarType;
 }
 // Forward declare root types
 namespace GlobalNamespace {

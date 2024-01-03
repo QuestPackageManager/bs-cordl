@@ -9,62 +9,62 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RecordingToolManager)
-namespace Zenject {
-class DiContainer;
-}
 namespace GlobalNamespace {
-class MenuDestination;
-}
-namespace GlobalNamespace {
-class IBeatSaberLogger;
-}
-namespace GlobalNamespace {
-class GameplayLevelSceneTransitionEvents;
-}
-namespace System {
-class IDisposable;
-}
-namespace GlobalNamespace {
-class IPosesSerializer;
-}
-namespace GlobalNamespace {
-class RecordingSettings;
-}
-namespace GlobalNamespace {
-struct __RecordingToolManager__SetupData;
-}
-namespace GlobalNamespace {
-class __RecordingToolManager____c;
-}
-namespace GlobalNamespace {
-struct __RecordingToolManager___HandleGameplayLevelSceneTransitionEventsAnyGameplayLevelDidFinish_d__28;
-}
-namespace Zenject {
-class IInitializable;
+class BeatmapCharacteristicCollection;
 }
 namespace GlobalNamespace {
 class GameScenesManager;
 }
 namespace GlobalNamespace {
-class RecordingToolSettings;
+class GameplayLevelSceneTransitionEvents;
+}
+namespace GlobalNamespace {
+class IBeatSaberLogger;
+}
+namespace GlobalNamespace {
+class IPosesSerializer;
+}
+namespace GlobalNamespace {
+class MenuDestination;
+}
+namespace GlobalNamespace {
+class RecordingSettings;
 }
 namespace GlobalNamespace {
 class RecordingToolConfigurationProcessor;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicCollection;
+class RecordingToolSettings;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace GlobalNamespace {
+struct __RecordingToolManager__SetupData;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace GlobalNamespace {
+struct __RecordingToolManager___HandleGameplayLevelSceneTransitionEventsAnyGameplayLevelDidFinish_d__28;
+}
+namespace GlobalNamespace {
+class __RecordingToolManager____c;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+class IDisposable;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class IInitializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -176,7 +176,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__RecordingTool
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3400))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5964))
 // CS Name: ::RecordingToolManager::<HandleGameplayLevelSceneTransitionEventsAnyGameplayLevelDidFinish>d__28
 struct CORDL_TYPE __RecordingToolManager___HandleGameplayLevelSceneTransitionEventsAnyGameplayLevelDidFinish_d__28 {
@@ -184,6 +184,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x2308a2c, size 0x2b8, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -297,8 +300,14 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
+  /// @brief Convert to "::Zenject::IInitializable"
+  constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::GlobalNamespace::GameplayLevelSceneTransitionEvents*& __get__gameplayLevelSceneTransitionEvents();
 

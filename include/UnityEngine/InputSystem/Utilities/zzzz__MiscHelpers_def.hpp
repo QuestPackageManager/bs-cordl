@@ -6,28 +6,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MiscHelpers)
 namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> class __MiscHelpers___EveryNth_d__1_1;
-}
-namespace System::Collections {
-class IEnumerator;
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class IDisposable;
 }
 namespace System {
 class Object;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> class __MiscHelpers___EveryNth_d__1_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -91,17 +91,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TValue>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TValue>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TValue>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<TValue>* i___System__Collections__Generic__IEnumerable_1_TValue_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TValue>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<TValue>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TValue>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<TValue>* i___System__Collections__Generic__IEnumerator_1_TValue_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -265,10 +280,7 @@ public:
   template <typename TKey, typename TValue> static inline TValue GetValueOrDefault(::System::Collections::Generic::Dictionary_2<TKey, TValue>* dictionary, TKey key);
 
   /// @brief Method EveryNth, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param start: int32_t (default: static_cast<int32_t>(0x0))
-  template <typename TValue>
-  static inline ::System::Collections::Generic::IEnumerable_1<TValue>* EveryNth(::System::Collections::Generic::IEnumerable_1<TValue>* enumerable, int32_t n,
-                                                                                int32_t start = static_cast<int32_t>(0x0));
+  template <typename TValue> static inline ::System::Collections::Generic::IEnumerable_1<TValue>* EveryNth(::System::Collections::Generic::IEnumerable_1<TValue>* enumerable, int32_t n, int32_t start);
 
   /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> static inline int32_t IndexOf(::System::Collections::Generic::IEnumerable_1<TValue>* enumerable, TValue value);

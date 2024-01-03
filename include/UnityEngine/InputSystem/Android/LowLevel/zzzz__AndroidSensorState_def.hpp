@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstddef>
 CORDL_MODULE_EXPORT(AndroidSensorState)
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputStateTypeInfo;
-}
 namespace UnityEngine::InputSystem::Android::LowLevel {
 struct __AndroidSensorState___data_e__FixedBuffer;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputStateTypeInfo;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
@@ -67,7 +67,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Android::LowLevel::__AndroidS
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6456)), TypeDefinitionIndex(TypeDefinitionIndex(6667))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6667)), TypeDefinitionIndex(TypeDefinitionIndex(6456))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6457))
 // CS Name: ::UnityEngine.InputSystem.Android.LowLevel::AndroidSensorState
 struct CORDL_TYPE AndroidSensorState {
@@ -82,6 +82,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
+
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo();
 
   static inline void setStaticF_kFormat(::UnityEngine::InputSystem::Utilities::FourCC value);
 

@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(JRaw)
 namespace Newtonsoft::Json::Linq {
 class JToken;
 }
-namespace System {
-class Object;
-}
 namespace Newtonsoft::Json {
 class JsonReader;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {

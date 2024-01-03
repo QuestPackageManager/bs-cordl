@@ -1,17 +1,17 @@
 #pragma once
 #include "GlobalNamespace/zzzz__LevelScenesTransitionSetupDataSO_impl.hpp"
 #include "BeatmapEditor3D/zzzz__BeatmapEditorStandardLevelScenesTransitionSetupDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "GlobalNamespace/zzzz__ColorScheme_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
-#include "GlobalNamespace/zzzz__SceneInfo_def.hpp"
-#include "GlobalNamespace/zzzz__MainSettingsModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
-#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
+#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
+#include "GlobalNamespace/zzzz__MainSettingsModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
 #include "GlobalNamespace/zzzz__PracticeSettings_def.hpp"
+#include "GlobalNamespace/zzzz__SceneInfo_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: ::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO.add_didFinishEvent
 template <>
 
@@ -21,7 +21,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x2320bf8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO*>::get(), "add_didFinishEvent", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
@@ -38,7 +38,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x231fc4c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO*>::get(), "remove_didFinishEvent", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
@@ -57,7 +57,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x580;
   constexpr static std::size_t addrs = 0x2320ca8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO*>::get(), "Init", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IDifficultyBeatmap*>::get(),
@@ -80,7 +80,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x2321228;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO*>::get(), "Finish", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LevelCompletionResults*>::get() })));
@@ -95,7 +95,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2321250;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO*>::get(), ".ctor",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));

@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScreenBackButtonAnimationController)
+namespace GlobalNamespace {
+struct __ScreenBackButtonAnimationController__AnimationType;
+}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine {
 class Animator;
-}
-namespace GlobalNamespace {
-struct __ScreenBackButtonAnimationController__AnimationType;
 }
 // Forward declare root types
 namespace GlobalNamespace {

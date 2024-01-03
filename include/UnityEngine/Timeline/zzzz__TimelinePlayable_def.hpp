@@ -5,26 +5,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimelinePlayable)
-namespace UnityEngine::Timeline {
-class ITimelineEvaluateCallback;
-}
 namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::Timeline {
-template <typename T> class IntervalTree_1;
-}
-namespace UnityEngine::Playables {
-struct Playable;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace UnityEngine::Timeline {
-class TrackAsset;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
-namespace UnityEngine::Playables {
-template <typename T> struct ScriptPlayable_1;
+namespace UnityEngine::Animations {
+struct AnimationPlayableOutput;
 }
 namespace UnityEngine::Playables {
 struct FrameData;
@@ -32,17 +23,26 @@ struct FrameData;
 namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace UnityEngine::Playables {
+struct Playable;
+}
+namespace UnityEngine::Playables {
+template <typename T> struct ScriptPlayable_1;
+}
+namespace UnityEngine::Timeline {
+class ITimelineEvaluateCallback;
+}
+namespace UnityEngine::Timeline {
+template <typename T> class IntervalTree_1;
 }
 namespace UnityEngine::Timeline {
 class RuntimeElement;
 }
+namespace UnityEngine::Timeline {
+class TrackAsset;
+}
 namespace UnityEngine {
 class GameObject;
-}
-namespace UnityEngine::Animations {
-struct AnimationPlayableOutput;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NavigationModel)
 namespace UnityEngine::EventSystems {
+class AxisEventData;
+}
+namespace UnityEngine::EventSystems {
 struct MoveDirection;
 }
 namespace UnityEngine {
 struct Vector2;
-}
-namespace UnityEngine::EventSystems {
-class AxisEventData;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::UI {
@@ -27,7 +27,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::UI::NavigationModel);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::UI {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(13207))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13207)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6378))
 // CS Name: ::UnityEngine.InputSystem.UI::NavigationModel
 struct CORDL_TYPE NavigationModel {

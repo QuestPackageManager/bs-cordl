@@ -16,10 +16,7 @@ namespace System {
 template <typename T> class Comparison_1;
 }
 namespace UnityEngine::EventSystems {
-struct __EventSystem__UIToolkitOverrideConfig;
-}
-namespace UnityEngine {
-class GameObject;
+class BaseEventData;
 }
 namespace UnityEngine::EventSystems {
 class BaseInputModule;
@@ -28,16 +25,19 @@ namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
 namespace UnityEngine::EventSystems {
-class BaseEventData;
+struct RaycastResult;
+}
+namespace UnityEngine::EventSystems {
+struct __EventSystem__UIToolkitOverrideConfig;
+}
+namespace UnityEngine::EventSystems {
+class __EventSystem____c__DisplayClass52_0;
 }
 namespace UnityEngine::UIElements {
 class BaseRuntimePanel;
 }
-namespace UnityEngine::EventSystems {
-struct RaycastResult;
-}
-namespace UnityEngine::EventSystems {
-class __EventSystem____c__DisplayClass52_0;
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -365,9 +365,7 @@ public:
   inline bool get_createUIToolkitPanelGameObjectsOnStart();
 
   /// @brief Method SetUITookitEventSystemOverride, addr 0x2d97660, size 0x19c, virtual false, abstract: false, final false
-  /// @param sendEvents: bool (default: true)
-  /// @param createPanelGameObjectsOnStart: bool (default: true)
-  static inline void SetUITookitEventSystemOverride(::UnityEngine::EventSystems::EventSystem* activeEventSystem, bool sendEvents = true, bool createPanelGameObjectsOnStart = true);
+  static inline void SetUITookitEventSystemOverride(::UnityEngine::EventSystems::EventSystem* activeEventSystem, bool sendEvents, bool createPanelGameObjectsOnStart);
 
   /// @brief Method CreateUIToolkitPanelGameObject, addr 0x2d977fc, size 0x29c, virtual false, abstract: false, final false
   inline void CreateUIToolkitPanelGameObject(::UnityEngine::UIElements::BaseRuntimePanel* panel);

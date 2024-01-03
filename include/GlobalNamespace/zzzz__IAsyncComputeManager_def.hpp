@@ -3,8 +3,8 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IAsyncComputeManager)
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+template <typename T> class AsyncComputeOperation_1;
 }
 namespace GlobalNamespace {
 class AsyncComputeOperation;
@@ -12,8 +12,8 @@ class AsyncComputeOperation;
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
-namespace GlobalNamespace {
-template <typename T> class AsyncComputeOperation_1;
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -33,6 +33,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// @brief Method BeginOperation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void BeginOperation(::GlobalNamespace::AsyncComputeOperation* asyncComputeOperation);

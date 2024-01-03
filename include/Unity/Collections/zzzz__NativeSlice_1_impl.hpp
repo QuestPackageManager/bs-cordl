@@ -1,25 +1,38 @@
 #pragma once
 #include "Unity/Collections/zzzz__NativeSlice_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeSlice_1_def.hpp"
-#include "Unity/Collections/zzzz__NativeSlice_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
+#include "Unity/Collections/zzzz__NativeSlice_1_def.hpp"
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
 template <typename T> constexpr Unity::Collections::NativeSlice_1<T>::operator ::System::Collections::Generic::IEnumerable_1<T>*() {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::IEnumerable_1<T>* Unity::Collections::NativeSlice_1<T>::i___System__Collections__Generic__IEnumerable_1_T_() {
   return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename T> constexpr Unity::Collections::NativeSlice_1<T>::operator ::System::Collections::IEnumerable*() {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename T> constexpr ::System::Collections::IEnumerable* Unity::Collections::NativeSlice_1<T>::i___System__Collections__IEnumerable() {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::IEquatable_1<::Unity::Collections::NativeSlice_1<T>>"
 template <typename T> constexpr Unity::Collections::NativeSlice_1<T>::operator ::System::IEquatable_1<::Unity::Collections::NativeSlice_1<T>>*() {
+  return static_cast<::System::IEquatable_1<::Unity::Collections::NativeSlice_1<T>>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::Unity::Collections::NativeSlice_1<T>>"
+template <typename T>
+constexpr ::System::IEquatable_1<::Unity::Collections::NativeSlice_1<T>>* Unity::Collections::NativeSlice_1<T>::i___System__IEquatable_1___Unity__Collections__NativeSlice_1_T__() {
   return static_cast<::System::IEquatable_1<::Unity::Collections::NativeSlice_1<T>>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename T> inline void Unity::Collections::NativeSlice_1<T>::_ctor(::Unity::Collections::NativeSlice_1<T> slice, int32_t start, int32_t length) {
@@ -135,12 +148,24 @@ template <typename T> constexpr ::Unity::Collections::NativeSlice_1<T>::NativeSl
 template <typename T> constexpr Unity::Collections::__NativeSlice_1__Enumerator<T>::operator ::System::Collections::Generic::IEnumerator_1<T>*() {
   return static_cast<::System::Collections::Generic::IEnumerator_1<T>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::IEnumerator_1<T>* Unity::Collections::__NativeSlice_1__Enumerator<T>::i___System__Collections__Generic__IEnumerator_1_T_() {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<T>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 template <typename T> constexpr Unity::Collections::__NativeSlice_1__Enumerator<T>::operator ::System::Collections::IEnumerator*() {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Collections::IEnumerator"
+template <typename T> constexpr ::System::Collections::IEnumerator* Unity::Collections::__NativeSlice_1__Enumerator<T>::i___System__Collections__IEnumerator() {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::IDisposable"
 template <typename T> constexpr Unity::Collections::__NativeSlice_1__Enumerator<T>::operator ::System::IDisposable*() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename T> constexpr ::System::IDisposable* Unity::Collections::__NativeSlice_1__Enumerator<T>::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename T> inline void Unity::Collections::__NativeSlice_1__Enumerator<T>::_ctor(ByRef<::Unity::Collections::NativeSlice_1<T>> array) {

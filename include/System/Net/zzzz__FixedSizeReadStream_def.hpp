@@ -10,29 +10,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FixedSizeReadStream)
+namespace System::IO {
+class Stream;
+}
 namespace System::Net {
 class WebOperation;
 }
 namespace System::Net {
 struct __FixedSizeReadStream___ProcessReadAsync_d__5;
 }
-namespace System::IO {
-class Stream;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 // Forward declare root types
 namespace System::Net {
@@ -48,14 +48,17 @@ MARK_VAL_T(::System::Net::__FixedSizeReadStream___ProcessReadAsync_d__5);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 })} Self:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 })} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(9166)) CS Name: ::FixedSizeReadStream::<ProcessReadAsync>d__5
 struct CORDL_TYPE __FixedSizeReadStream___ProcessReadAsync_d__5 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x29c4ad4, size 0x2b0, virtual true, abstract: false, final true
   inline void MoveNext();

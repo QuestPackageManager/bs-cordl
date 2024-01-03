@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__BaseVisualTreeUpdater_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UIRRepaintUpdater)
-namespace UnityEngine::UIElements {
-class BaseVisualElementPanel;
-}
-namespace UnityEngine::UIElements {
-struct VersionChangeType;
+namespace Unity::Profiling {
+struct ProfilerMarker;
 }
 namespace UnityEngine::UIElements::UIR {
 class RenderChain;
 }
 namespace UnityEngine::UIElements {
+class BaseVisualElementPanel;
+}
+namespace UnityEngine::UIElements {
 struct HierarchyChangeType;
 }
-namespace Unity::Profiling {
-struct ProfilerMarker;
+namespace UnityEngine::UIElements {
+struct VersionChangeType;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;

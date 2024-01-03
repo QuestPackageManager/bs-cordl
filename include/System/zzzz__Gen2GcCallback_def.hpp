@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::Gen2GcCallback);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3354)), TypeDefinitionIndex(TypeDefinitionIndex(3336))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3336)), TypeDefinitionIndex(TypeDefinitionIndex(3354))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2384))
 // CS Name: ::System::Gen2GcCallback*
 class CORDL_TYPE Gen2GcCallback : public ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject {

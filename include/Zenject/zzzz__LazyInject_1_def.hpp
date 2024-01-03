@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(LazyInject_1)
 namespace Zenject {
-class IValidatable;
+class DiContainer;
 }
 namespace Zenject {
-class DiContainer;
+class IValidatable;
 }
 namespace Zenject {
 class InjectContext;
@@ -47,6 +47,9 @@ public:
 
   /// @brief Convert operator to "::Zenject::IValidatable"
   constexpr operator ::Zenject::IValidatable*() noexcept;
+
+  /// @brief Convert to "::Zenject::IValidatable"
+  constexpr ::Zenject::IValidatable* i___Zenject__IValidatable() noexcept;
 
   constexpr ::Zenject::DiContainer*& __get__container();
 

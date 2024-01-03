@@ -8,34 +8,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(LevelSelectionNavigationController)
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-class LevelFilteringNavigationController;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-struct SongPackMask;
-}
-namespace GlobalNamespace {
-struct __SelectLevelCategoryViewController__LevelCategory;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
+struct BeatmapDifficultyMask;
 }
 namespace GlobalNamespace {
 class IAnnotatedBeatmapLevelCollection;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-class LevelCollectionNavigationController;
 }
 namespace GlobalNamespace {
 class IBeatmapLevelPack;
@@ -44,16 +23,37 @@ namespace GlobalNamespace {
 class IBeatmapLevel;
 }
 namespace GlobalNamespace {
-struct __StandardLevelDetailViewController__ContentType;
+class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+class LevelCollectionNavigationController;
+}
+namespace GlobalNamespace {
+class LevelFilteringNavigationController;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
 }
 namespace GlobalNamespace {
-struct BeatmapDifficultyMask;
+struct SongPackMask;
+}
+namespace GlobalNamespace {
+struct __SelectLevelCategoryViewController__LevelCategory;
+}
+namespace GlobalNamespace {
+struct __StandardLevelDetailViewController__ContentType;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {

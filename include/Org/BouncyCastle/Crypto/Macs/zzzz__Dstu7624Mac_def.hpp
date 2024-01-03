@@ -61,6 +61,9 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IMac"
   constexpr operator ::Org::BouncyCastle::Crypto::IMac*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IMac"
+  constexpr ::Org::BouncyCastle::Crypto::IMac* i___Org__BouncyCastle__Crypto__IMac() noexcept;
+
   constexpr int32_t& __get_macSize();
 
   constexpr int32_t const& __get_macSize() const;

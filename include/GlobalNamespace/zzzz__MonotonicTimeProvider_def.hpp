@@ -43,6 +43,9 @@ public:
   /// @brief Convert operator to "::BGNet::Core::ITimeProvider"
   constexpr operator ::BGNet::Core::ITimeProvider*() noexcept;
 
+  /// @brief Convert to "::BGNet::Core::ITimeProvider"
+  constexpr ::BGNet::Core::ITimeProvider* i___BGNet__Core__ITimeProvider() noexcept;
+
   constexpr double_t& __get__timeSpanTicksPerStopwatchTick();
 
   constexpr double_t const& __get__timeSpanTicksPerStopwatchTick() const;

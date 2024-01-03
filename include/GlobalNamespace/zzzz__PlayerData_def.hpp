@@ -10,16 +10,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayerData)
 namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficulty;
+}
+namespace GlobalNamespace {
+class ColorSchemesSettings;
+}
+namespace GlobalNamespace {
 class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
-class PracticeSettings;
+struct LevelKey;
+}
+namespace GlobalNamespace {
+class MissionHelpSO;
 }
 namespace GlobalNamespace {
 class MultiplayerModeSettings;
+}
+namespace GlobalNamespace {
+class OverrideEnvironmentSettings;
+}
+namespace GlobalNamespace {
+class PlayerAgreements;
 }
 namespace GlobalNamespace {
 class PlayerAllOverallStatsData;
@@ -28,52 +49,31 @@ namespace GlobalNamespace {
 class PlayerLevelStatsData;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-struct LevelKey;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
 class PlayerMissionStatsData;
-}
-namespace GlobalNamespace {
-struct BeatmapDifficulty;
-}
-namespace GlobalNamespace {
-class OverrideEnvironmentSettings;
-}
-namespace GlobalNamespace {
-struct UserAgeCategory;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
 }
 namespace GlobalNamespace {
 struct PlayerSensitivityFlag;
 }
 namespace GlobalNamespace {
-class MissionHelpSO;
+class PlayerSpecificSettings;
 }
 namespace GlobalNamespace {
-class PlayerAgreements;
+class PracticeSettings;
+}
+namespace GlobalNamespace {
+struct UserAgeCategory;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace GlobalNamespace {
-class ColorSchemesSettings;
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -85,8 +85,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerData);
 // SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 216, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(4658)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4660))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4628)) CS Name: ::PlayerData*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4660)), TypeDefinitionIndex(TypeDefinitionIndex(4658)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14717))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4628)) CS Name: ::PlayerData*
 class CORDL_TYPE PlayerData : public ::System::Object {
 public:
   // Declarations
@@ -690,8 +690,7 @@ public:
   inline void MarkLanguageAsSelected();
 
   /// @brief Method MarkRegionAsSelected, addr 0x236d358, size 0x8, virtual false, abstract: false, final false
-  /// @param version: int32_t (default: static_cast<int32_t>(0x1))
-  inline void MarkRegionAsSelected(int32_t version = static_cast<int32_t>(0x1));
+  inline void MarkRegionAsSelected(int32_t version);
 
   /// @brief Method SelectAvatarSystemTypeId, addr 0x236d360, size 0x8, virtual false, abstract: false, final false
   inline void SelectAvatarSystemTypeId(::StringW selectedAvatarSystemTypeId);

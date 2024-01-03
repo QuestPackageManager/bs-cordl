@@ -8,7 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TouchHistory)
 namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -20,31 +32,19 @@ namespace System {
 class Object;
 }
 namespace UnityEngine::InputSystem::EnhancedTouch {
+class Finger;
+}
+namespace UnityEngine::InputSystem::EnhancedTouch {
 struct Touch;
 }
 namespace UnityEngine::InputSystem::EnhancedTouch {
-class Finger;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct TouchState;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
-}
-namespace System::Collections {
-class IEnumerable;
+class __TouchHistory__Enumerator;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 template <typename TValue> class InputStateHistory_1;
 }
-namespace UnityEngine::InputSystem::EnhancedTouch {
-class __TouchHistory__Enumerator;
+namespace UnityEngine::InputSystem::LowLevel {
+struct TouchState;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::EnhancedTouch {
@@ -75,20 +75,33 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>"
   constexpr operator ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>"
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>*
+  i___System__Collections__Generic__IReadOnlyList_1___UnityEngine__InputSystem__EnhancedTouch__Touch_();
+
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>*();
+
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>*
+  i___System__Collections__Generic__IEnumerable_1___UnityEngine__InputSystem__EnhancedTouch__Touch_();
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
 
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable();
+
   /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>"
   constexpr operator ::System::Collections::Generic::IReadOnlyCollection_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>"
+  constexpr ::System::Collections::Generic::IReadOnlyCollection_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>*
+  i___System__Collections__Generic__IReadOnlyCollection_1___UnityEngine__InputSystem__EnhancedTouch__Touch_();
+
   /// @brief Method .ctor, addr 0x2ae0e10, size 0x3c, virtual false, abstract: false, final false
-  /// @param startIndex: int32_t (default: static_cast<int32_t>(0xffffffff))
-  /// @param count: int32_t (default: static_cast<int32_t>(0xffffffff))
   inline void _ctor(::UnityEngine::InputSystem::EnhancedTouch::Finger* finger, ::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState>* history,
-                    int32_t startIndex = static_cast<int32_t>(0xffffffff), int32_t count = static_cast<int32_t>(0xffffffff));
+                    int32_t startIndex, int32_t count);
 
   /// @brief Method GetEnumerator, addr 0x2ae381c, size 0x80, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>* GetEnumerator();
@@ -172,11 +185,21 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>*
+  i___System__Collections__Generic__IEnumerator_1___UnityEngine__InputSystem__EnhancedTouch__Touch_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::UnityEngine::InputSystem::EnhancedTouch::TouchHistory& __get_m_Owner();
 

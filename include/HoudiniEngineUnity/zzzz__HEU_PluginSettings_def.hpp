@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_PluginSettings)
-namespace UnityEngine {
-struct Color;
+namespace HoudiniEngineUnity {
+struct SessionMode;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace HoudiniEngineUnity {
-struct SessionMode;
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

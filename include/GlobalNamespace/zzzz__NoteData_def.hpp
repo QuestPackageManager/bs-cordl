@@ -7,19 +7,12 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__NoteCutDirection_def.hpp"
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
 #include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoteData)
 namespace GlobalNamespace {
-struct NoteLineLayer;
-}
-namespace GlobalNamespace {
 class BeatmapDataItem;
-}
-namespace GlobalNamespace {
-struct __NoteData__ScoringType;
 }
 namespace GlobalNamespace {
 struct ColorType;
@@ -28,7 +21,16 @@ namespace GlobalNamespace {
 struct NoteCutDirection;
 }
 namespace GlobalNamespace {
+struct NoteLineLayer;
+}
+namespace GlobalNamespace {
 struct __NoteData__GameplayType;
+}
+namespace GlobalNamespace {
+struct __NoteData__ScoringType;
+}
+namespace System {
+template <typename T> struct Nullable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -180,12 +182,9 @@ static_assert(offsetof(::GlobalNamespace::__NoteData__ScoringType, value__) == 0
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14760)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 391 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(2448), inst: 4770 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4730 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 4749 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(14752)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14755)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(14758)), TypeDefinitionIndex(TypeDefinitionIndex(14757)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4747 }), TypeDefinitionIndex(TypeDefinitionIndex(14751)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 2610 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14759)) CS Name: ::NoteData*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14758)), TypeDefinitionIndex(TypeDefinitionIndex(14752)), TypeDefinitionIndex(TypeDefinitionIndex(14751)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(14755)), TypeDefinitionIndex(TypeDefinitionIndex(14757))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(14759)) CS Name: ::NoteData*
 class CORDL_TYPE NoteData : public ::GlobalNamespace::BeatmapObjectData {
 public:
   // Declarations
@@ -447,28 +446,13 @@ public:
                                                                        ::GlobalNamespace::NoteCutDirection cutDirection, float_t cutSfxVolumeMultiplier);
 
   /// @brief Method CopyWith, addr 0xe00fbc, size 0x2cc, virtual false, abstract: false, final false
-  /// @param time: ::System::Nullable_1<float_t> (default: {})
-  /// @param lineIndex: ::System::Nullable_1<int32_t> (default: {})
-  /// @param noteLineLayer: ::System::Nullable_1<::GlobalNamespace::NoteLineLayer> (default: {})
-  /// @param beforeJumpNoteLineLayer: ::System::Nullable_1<::GlobalNamespace::NoteLineLayer> (default: {})
-  /// @param gameplayType: ::System::Nullable_1<::GlobalNamespace::__NoteData__GameplayType> (default: {})
-  /// @param scoringType: ::System::Nullable_1<::GlobalNamespace::__NoteData__ScoringType> (default: {})
-  /// @param colorType: ::System::Nullable_1<::GlobalNamespace::ColorType> (default: {})
-  /// @param cutDirection: ::System::Nullable_1<::GlobalNamespace::NoteCutDirection> (default: {})
-  /// @param timeToNextColorNote: ::System::Nullable_1<float_t> (default: {})
-  /// @param timeToPrevColorNote: ::System::Nullable_1<float_t> (default: {})
-  /// @param flipLineIndex: ::System::Nullable_1<int32_t> (default: {})
-  /// @param flipYSide: ::System::Nullable_1<float_t> (default: {})
-  /// @param cutDirectionAngleOffset: ::System::Nullable_1<float_t> (default: {})
-  /// @param cutSfxVolumeMultiplier: ::System::Nullable_1<float_t> (default: {})
-  inline ::GlobalNamespace::NoteData* CopyWith(::System::Nullable_1<float_t> time = {}, ::System::Nullable_1<int32_t> lineIndex = {},
-                                               ::System::Nullable_1<::GlobalNamespace::NoteLineLayer> noteLineLayer = {},
-                                               ::System::Nullable_1<::GlobalNamespace::NoteLineLayer> beforeJumpNoteLineLayer = {},
-                                               ::System::Nullable_1<::GlobalNamespace::__NoteData__GameplayType> gameplayType = {},
-                                               ::System::Nullable_1<::GlobalNamespace::__NoteData__ScoringType> scoringType = {}, ::System::Nullable_1<::GlobalNamespace::ColorType> colorType = {},
-                                               ::System::Nullable_1<::GlobalNamespace::NoteCutDirection> cutDirection = {}, ::System::Nullable_1<float_t> timeToNextColorNote = {},
-                                               ::System::Nullable_1<float_t> timeToPrevColorNote = {}, ::System::Nullable_1<int32_t> flipLineIndex = {}, ::System::Nullable_1<float_t> flipYSide = {},
-                                               ::System::Nullable_1<float_t> cutDirectionAngleOffset = {}, ::System::Nullable_1<float_t> cutSfxVolumeMultiplier = {});
+  inline ::GlobalNamespace::NoteData* CopyWith(::System::Nullable_1<float_t> time, ::System::Nullable_1<int32_t> lineIndex, ::System::Nullable_1<::GlobalNamespace::NoteLineLayer> noteLineLayer,
+                                               ::System::Nullable_1<::GlobalNamespace::NoteLineLayer> beforeJumpNoteLineLayer,
+                                               ::System::Nullable_1<::GlobalNamespace::__NoteData__GameplayType> gameplayType,
+                                               ::System::Nullable_1<::GlobalNamespace::__NoteData__ScoringType> scoringType, ::System::Nullable_1<::GlobalNamespace::ColorType> colorType,
+                                               ::System::Nullable_1<::GlobalNamespace::NoteCutDirection> cutDirection, ::System::Nullable_1<float_t> timeToNextColorNote,
+                                               ::System::Nullable_1<float_t> timeToPrevColorNote, ::System::Nullable_1<int32_t> flipLineIndex, ::System::Nullable_1<float_t> flipYSide,
+                                               ::System::Nullable_1<float_t> cutDirectionAngleOffset, ::System::Nullable_1<float_t> cutSfxVolumeMultiplier);
 
   /// @brief Method SetBeforeJumpNoteLineLayer, addr 0xe01288, size 0x8, virtual false, abstract: false, final false
   inline void SetBeforeJumpNoteLineLayer(::GlobalNamespace::NoteLineLayer lineLayer);

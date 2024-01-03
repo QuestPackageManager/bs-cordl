@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SubMeshDescriptor)
 namespace UnityEngine {
-struct MeshTopology;
+struct Bounds;
 }
 namespace UnityEngine {
-struct Bounds;
+struct MeshTopology;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -45,8 +45,7 @@ public:
   __declspec(property(get = get_vertexCount, put = set_vertexCount)) int32_t vertexCount;
 
   /// @brief Method .ctor, addr 0x2cebc98, size 0x18, virtual false, abstract: false, final false
-  /// @param topology: ::UnityEngine::MeshTopology (default: static_cast<int32_t>(0x0))
-  inline void _ctor(int32_t indexStart, int32_t indexCount, ::UnityEngine::MeshTopology topology = static_cast<int32_t>(0x0));
+  inline void _ctor(int32_t indexStart, int32_t indexCount, ::UnityEngine::MeshTopology topology);
 
   /// @brief Method get_bounds, addr 0x2cebcb0, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_bounds();

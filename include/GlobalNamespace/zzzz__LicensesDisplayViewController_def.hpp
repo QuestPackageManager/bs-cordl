@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 CORDL_MODULE_EXPORT(LicensesDisplayViewController)
-namespace UnityEngine {
-class TextAsset;
-}
 namespace HMUI {
 class TextPageScrollView;
+}
+namespace UnityEngine {
+class TextAsset;
 }
 // Forward declare root types
 namespace GlobalNamespace {

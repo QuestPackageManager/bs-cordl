@@ -9,10 +9,10 @@ namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
 namespace System {
-class Type;
+class Object;
 }
 namespace System {
-class Object;
+class Type;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceLocations {

@@ -4,26 +4,26 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(Mask)
-namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-class ICanvasRaycastFilter;
-}
 namespace UnityEngine::UI {
 class Graphic;
-}
-namespace UnityEngine {
-class Material;
 }
 namespace UnityEngine::UI {
 class IMaterialModifier;
 }
 namespace UnityEngine {
 class Camera;
+}
+namespace UnityEngine {
+class ICanvasRaycastFilter;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -65,8 +65,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::ICanvasRaycastFilter"
   constexpr operator ::UnityEngine::ICanvasRaycastFilter*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::ICanvasRaycastFilter"
+  constexpr ::UnityEngine::ICanvasRaycastFilter* i___UnityEngine__ICanvasRaycastFilter() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::UI::IMaterialModifier"
   constexpr operator ::UnityEngine::UI::IMaterialModifier*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UI::IMaterialModifier"
+  constexpr ::UnityEngine::UI::IMaterialModifier* i___UnityEngine__UI__IMaterialModifier() noexcept;
 
   constexpr ::UnityEngine::RectTransform*& __get_m_RectTransform();
 

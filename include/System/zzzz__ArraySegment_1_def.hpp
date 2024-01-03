@@ -7,37 +7,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArraySegment_1)
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
+template <typename T> class ICollection_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace System {
-template <typename T> struct __ArraySegment_1__Enumerator;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename T> class IList_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 namespace System::Collections {
 class IEnumerable;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace System {
+template <typename T> struct __ArraySegment_1__Enumerator;
 }
 // Forward declare root types
 namespace System {
@@ -68,11 +68,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<T>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<T>* i___System__Collections__Generic__IEnumerator_1_T_();
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*();
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::ArraySegment_1<T> arraySegment);
@@ -125,7 +134,7 @@ namespace System {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2349), inst: 772 }), TypeDefinitionIndex(TypeDefinitionIndex(2349))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2349)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2349), inst: 772 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2349))
 // CS Name: ::System::ArraySegment`1<T>
 struct CORDL_TYPE ArraySegment_1 {
@@ -151,20 +160,38 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IList_1<T>"
   constexpr operator ::System::Collections::Generic::IList_1<T>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IList_1<T>"
+  constexpr ::System::Collections::Generic::IList_1<T>* i___System__Collections__Generic__IList_1_T_();
+
   /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<T>"
   constexpr operator ::System::Collections::Generic::ICollection_1<T>*();
+
+  /// @brief Convert to "::System::Collections::Generic::ICollection_1<T>"
+  constexpr ::System::Collections::Generic::ICollection_1<T>* i___System__Collections__Generic__ICollection_1_T_();
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<T>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>* i___System__Collections__Generic__IEnumerable_1_T_();
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable();
 
   /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyList_1<T>"
   constexpr operator ::System::Collections::Generic::IReadOnlyList_1<T>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IReadOnlyList_1<T>"
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<T>* i___System__Collections__Generic__IReadOnlyList_1_T_();
+
   /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
   constexpr operator ::System::Collections::Generic::IReadOnlyCollection_1<T>*();
+
+  /// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
+  constexpr ::System::Collections::Generic::IReadOnlyCollection_1<T>* i___System__Collections__Generic__IReadOnlyCollection_1_T_();
 
   static inline void setStaticF__Empty_k__BackingField(::System::ArraySegment_1<T> value);
 

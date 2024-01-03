@@ -9,26 +9,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TubeLightBehaviour)
-namespace UnityEngine::Playables {
-struct FrameData;
-}
-namespace System {
-class Object;
-}
-namespace GlobalNamespace {
-class DirectionalLight;
-}
-namespace UnityEngine::Playables {
-struct Playable;
-}
 namespace GlobalNamespace {
 class ColorSO;
 }
 namespace GlobalNamespace {
-struct __TubeLightBehaviour__ParameterType;
+class DirectionalLight;
 }
 namespace GlobalNamespace {
 class TubeBloomPrePassLight;
+}
+namespace GlobalNamespace {
+struct __TubeLightBehaviour__ParameterType;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::Playables {
+struct FrameData;
+}
+namespace UnityEngine::Playables {
+struct Playable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -94,7 +94,7 @@ static_assert(offsetof(::GlobalNamespace::__TubeLightBehaviour__ParameterType, v
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10425))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10425)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6022))
 // CS Name: ::TubeLightBehaviour*
 class CORDL_TYPE TubeLightBehaviour : public ::UnityEngine::Playables::PlayableBehaviour {

@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IMemoryPool_3)
 namespace Zenject {
-class IMemoryPool;
+template <typename TValue> class IDespawnableMemoryPool_1;
 }
 namespace Zenject {
-template <typename TValue> class IDespawnableMemoryPool_1;
+class IMemoryPool;
 }
 // Forward declare root types
 namespace Zenject {
@@ -30,8 +30,14 @@ public:
   /// @brief Convert operator to "::Zenject::IDespawnableMemoryPool_1<TValue>"
   constexpr operator ::Zenject::IDespawnableMemoryPool_1<TValue>*() noexcept;
 
+  /// @brief Convert to "::Zenject::IDespawnableMemoryPool_1<TValue>"
+  constexpr ::Zenject::IDespawnableMemoryPool_1<TValue>* i___Zenject__IDespawnableMemoryPool_1_TValue_() noexcept;
+
   /// @brief Convert operator to "::Zenject::IMemoryPool"
   constexpr operator ::Zenject::IMemoryPool*() noexcept;
+
+  /// @brief Convert to "::Zenject::IMemoryPool"
+  constexpr ::Zenject::IMemoryPool* i___Zenject__IMemoryPool() noexcept;
 
   /// @brief Method Spawn, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TValue Spawn(TParam1 param1, TParam2 param2);

@@ -8,53 +8,53 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HandleUtility)
-namespace UnityEngine::ProBuilder {
-template <typename T1, typename T2> struct SimpleTuple_2;
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
-namespace UnityEngine::ProBuilder {
-struct CullingMode;
-}
-namespace UnityEngine::ProBuilder {
-class RaycastHit;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine::ProBuilder {
-struct Edge;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::ProBuilder {
+struct CullingMode;
+}
+namespace UnityEngine::ProBuilder {
+struct Edge;
+}
+namespace UnityEngine::ProBuilder {
+class Face;
+}
+namespace UnityEngine::ProBuilder {
 struct HandleOrientation;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
+}
+namespace UnityEngine::ProBuilder {
+class RaycastHit;
+}
+namespace UnityEngine::ProBuilder {
+template <typename T1, typename T2> struct SimpleTuple_2;
 }
 namespace UnityEngine {
 class Camera;
 }
 namespace UnityEngine {
-struct Ray;
-}
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+class GameObject;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Ray;
 }
 namespace UnityEngine {
-class GameObject;
+class Transform;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::ProBuilder {
-class Face;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -76,14 +76,12 @@ public:
   static inline ::UnityEngine::Vector3 ScreenToGuiPoint(::UnityEngine::Camera* camera, ::UnityEngine::Vector3 point, float_t pixelsPerPoint);
 
   /// @brief Method FaceRaycast, addr 0x2b428a0, size 0x40, virtual false, abstract: false, final false
-  /// @param ignore: ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* (default: nullptr)
   static inline bool FaceRaycast(::UnityEngine::Ray worldRay, ::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ByRef<::UnityEngine::ProBuilder::RaycastHit*> hit,
-                                 ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* ignore = nullptr);
+                                 ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* ignore);
 
   /// @brief Method FaceRaycast, addr 0x2b428e0, size 0x51c, virtual false, abstract: false, final false
-  /// @param ignore: ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* (default: nullptr)
   static inline bool FaceRaycast(::UnityEngine::Ray worldRay, ::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ByRef<::UnityEngine::ProBuilder::RaycastHit*> hit, float_t distance,
-                                 ::UnityEngine::ProBuilder::CullingMode cullingMode, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* ignore = nullptr);
+                                 ::UnityEngine::ProBuilder::CullingMode cullingMode, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* ignore);
 
   /// @brief Method FaceRaycastBothCullModes, addr 0x2b430d8, size 0x4ac, virtual false, abstract: false, final false
   static inline bool FaceRaycastBothCullModes(::UnityEngine::Ray worldRay, ::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
@@ -91,22 +89,19 @@ public:
                                               ByRef<::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::Vector3>> front);
 
   /// @brief Method FaceRaycast, addr 0x2b43584, size 0x548, virtual false, abstract: false, final false
-  /// @param ignore: ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* (default: nullptr)
   static inline bool FaceRaycast(::UnityEngine::Ray InWorldRay, ::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                  ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::RaycastHit*>*> hits, ::UnityEngine::ProBuilder::CullingMode cullingMode,
-                                 ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* ignore = nullptr);
+                                 ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* ignore);
 
   /// @brief Method InverseTransformRay, addr 0x2b43acc, size 0x138, virtual false, abstract: false, final false
   static inline ::UnityEngine::Ray InverseTransformRay(::UnityEngine::Transform* transform, ::UnityEngine::Ray InWorldRay);
 
   /// @brief Method MeshRaycast, addr 0x2b43c04, size 0x188, virtual false, abstract: false, final false
-  /// @param distance: float_t (default: INFINITY)
-  static inline bool MeshRaycast(::UnityEngine::Ray InWorldRay, ::UnityEngine::GameObject* gameObject, ByRef<::UnityEngine::ProBuilder::RaycastHit*> hit, float_t distance = INFINITY);
+  static inline bool MeshRaycast(::UnityEngine::Ray InWorldRay, ::UnityEngine::GameObject* gameObject, ByRef<::UnityEngine::ProBuilder::RaycastHit*> hit, float_t distance);
 
   /// @brief Method MeshRaycast, addr 0x2b43d8c, size 0x2b8, virtual false, abstract: false, final false
-  /// @param distance: float_t (default: INFINITY)
   static inline bool MeshRaycast(::UnityEngine::Ray InRay, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> mesh, ::ArrayW<int32_t, ::Array<int32_t>*> triangles,
-                                 ByRef<::UnityEngine::ProBuilder::RaycastHit*> hit, float_t distance = INFINITY);
+                                 ByRef<::UnityEngine::ProBuilder::RaycastHit*> hit, float_t distance);
 
   /// @brief Method PointIsOccluded, addr 0x2b4427c, size 0x210, virtual false, abstract: false, final false
   static inline bool PointIsOccluded(::UnityEngine::Camera* cam, ::UnityEngine::ProBuilder::ProBuilderMesh* pb, ::UnityEngine::Vector3 worldPoint);

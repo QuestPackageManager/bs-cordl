@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IAllocationStrategy)
 namespace System {
-class Type;
+class Object;
 }
 namespace System {
-class Object;
+class Type;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {

@@ -11,25 +11,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DelayedActionManager)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
 template <typename T> class LinkedListNode_1;
-}
-namespace System {
-class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class LinkedList_1;
 }
-namespace System {
-class Delegate;
-}
-namespace UnityEngine::ResourceManagement::Util {
-struct __DelayedActionManager__DelegateInfo;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class Stack_1;
+}
+namespace System {
+class Delegate;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::ResourceManagement::Util {
+struct __DelayedActionManager__DelegateInfo;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {
@@ -118,7 +118,7 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::Util::__DelayedActionM
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 53, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13966), inst: 1060 }), TypeDefinitionIndex(TypeDefinitionIndex(13966))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13966)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13966), inst: 1060 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13968))
 // CS Name: ::UnityEngine.ResourceManagement.Util::DelayedActionManager*
 class CORDL_TYPE DelayedActionManager : public ::UnityEngine::ResourceManagement::Util::ComponentSingleton_1<::UnityEngine::ResourceManagement::Util::DelayedActionManager*> {
@@ -197,8 +197,7 @@ public:
   inline void DestroyWhenComplete();
 
   /// @brief Method AddAction, addr 0x2bd04f0, size 0x74, virtual false, abstract: false, final false
-  /// @param delay: float_t (default: 0.0)
-  static inline void AddAction(::System::Delegate* action, float_t delay = 0.0, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters);
+  static inline void AddAction(::System::Delegate* action, float_t delay, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters);
 
   /// @brief Method AddActionInternal, addr 0x2bd0564, size 0x284, virtual false, abstract: false, final false
   inline void AddActionInternal(::System::Delegate* action, float_t delay, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters);
@@ -207,9 +206,7 @@ public:
   static inline bool get_IsActive();
 
   /// @brief Method Wait, addr 0x2bd097c, size 0x130, virtual false, abstract: false, final false
-  /// @param timeout: float_t (default: 0.0)
-  /// @param timeAdvanceAmount: float_t (default: 0.0)
-  static inline bool Wait(float_t timeout = 0.0, float_t timeAdvanceAmount = 0.0);
+  static inline bool Wait(float_t timeout, float_t timeAdvanceAmount);
 
   /// @brief Method LateUpdate, addr 0x2bd0dd0, size 0x1c, virtual false, abstract: false, final false
   inline void LateUpdate();

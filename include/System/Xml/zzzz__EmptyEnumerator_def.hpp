@@ -31,6 +31,9 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x2892350, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_IEnumerator_MoveNext();
 

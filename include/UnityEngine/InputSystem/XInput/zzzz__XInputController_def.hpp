@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(XInputController)
-namespace UnityEngine::InputSystem::XInput {
-struct __XInputController__DeviceType;
-}
 namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
+}
+namespace UnityEngine::InputSystem::XInput {
+struct __XInputController__Capabilities;
 }
 namespace UnityEngine::InputSystem::XInput {
 struct __XInputController__DeviceFlags;
@@ -20,7 +20,7 @@ namespace UnityEngine::InputSystem::XInput {
 struct __XInputController__DeviceSubType;
 }
 namespace UnityEngine::InputSystem::XInput {
-struct __XInputController__Capabilities;
+struct __XInputController__DeviceType;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XInput {
@@ -242,7 +242,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::XInput::__XInputController__D
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XInput {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6353)), TypeDefinitionIndex(TypeDefinitionIndex(6351)), TypeDefinitionIndex(TypeDefinitionIndex(6352))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6352)), TypeDefinitionIndex(TypeDefinitionIndex(6351)), TypeDefinitionIndex(TypeDefinitionIndex(6353))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6354))
 // CS Name: ::XInputController::Capabilities
 struct CORDL_TYPE __XInputController__Capabilities {

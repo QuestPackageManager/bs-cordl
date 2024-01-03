@@ -5,14 +5,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ConventionSelectTypesBinder)
-namespace Zenject {
-class ConventionBindInfo;
-}
-namespace Zenject {
-class ConventionFilterTypesBinder;
-}
-namespace Zenject {
-class __ConventionSelectTypesBinder____c;
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 class Object;
@@ -21,10 +15,16 @@ namespace System {
 class Type;
 }
 namespace Zenject {
+class ConventionBindInfo;
+}
+namespace Zenject {
+class ConventionFilterTypesBinder;
+}
+namespace Zenject {
 class InjectTypeInfo;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace Zenject {
+class __ConventionSelectTypesBinder____c;
 }
 // Forward declare root types
 namespace Zenject {

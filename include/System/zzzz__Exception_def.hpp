@@ -8,35 +8,35 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Exception)
+namespace System::Collections {
+class IDictionary;
+}
 namespace System::Diagnostics {
 class StackTrace;
-}
-namespace System {
-class Type;
-}
-namespace System {
-struct __Exception__ExceptionMessageKind;
-}
-namespace System {
-class Object;
 }
 namespace System::Runtime::ExceptionServices {
 class ExceptionDispatchInfo;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Runtime::Serialization {
 class ISerializable;
-}
-namespace System::Collections {
-class IDictionary;
 }
 namespace System::Runtime::Serialization {
 class SafeSerializationManager;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
+}
+namespace System {
+struct __Exception__ExceptionMessageKind;
 }
 // Forward declare root types
 namespace System {
@@ -179,6 +179,9 @@ public:
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
   constexpr ::StringW& __get__className();
 

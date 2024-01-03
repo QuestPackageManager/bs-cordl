@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_Vector2SerializationSurrogate_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISurrogateSelector_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializationSurrogate_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISurrogateSelector_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_Vector2SerializationSurrogate.System_Runtime_Serialization_ISerializationSurrogate_GetObjectData
 template <>
 
@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc8;
   constexpr static std::size_t addrs = 0x21506b8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Vector2SerializationSurrogate*>::get(),
                                     "System.Runtime.Serialization.ISerializationSurrogate.GetObjectData", std::vector<Il2CppClass*>{},
@@ -35,7 +35,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x198;
   constexpr static std::size_t addrs = 0x2150780;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Vector2SerializationSurrogate*>::get(),
                                     "System.Runtime.Serialization.ISerializationSurrogate.SetObjectData", std::vector<Il2CppClass*>{},
@@ -54,7 +54,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x214f7d0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Vector2SerializationSurrogate*>::get(),
                                                                                ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -62,6 +62,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::System::Runtime::Serialization::ISerializationSurrogate"
 constexpr HoudiniEngineUnity::HEU_Vector2SerializationSurrogate::operator ::System::Runtime::Serialization::ISerializationSurrogate*() noexcept {
+  return static_cast<::System::Runtime::Serialization::ISerializationSurrogate*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Serialization::ISerializationSurrogate"
+constexpr ::System::Runtime::Serialization::ISerializationSurrogate* HoudiniEngineUnity::HEU_Vector2SerializationSurrogate::i___System__Runtime__Serialization__ISerializationSurrogate() noexcept {
   return static_cast<::System::Runtime::Serialization::ISerializationSurrogate*>(static_cast<void*>(this));
 }
 inline void HoudiniEngineUnity::HEU_Vector2SerializationSurrogate::System_Runtime_Serialization_ISerializationSurrogate_GetObjectData(::System::Object* obj,

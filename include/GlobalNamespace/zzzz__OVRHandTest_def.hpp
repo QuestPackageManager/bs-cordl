@@ -14,32 +14,32 @@ CORDL_MODULE_EXPORT(OVRHandTest)
 namespace GlobalNamespace {
 class __OVRHandTest__BoolMonitor;
 }
-namespace System::Text {
-class StringBuilder;
+namespace GlobalNamespace {
+class __OVRHandTest__BoolMonitor__BoolGenerator;
 }
 namespace GlobalNamespace {
 class __OVRHandTest____c;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace GlobalNamespace {
 class __OVRPlugin__Mesh;
 }
-namespace UnityEngine::UI {
-class Text;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
-namespace GlobalNamespace {
-class __OVRHandTest__BoolMonitor__BoolGenerator;
-}
-namespace System {
-class Object;
+namespace System::Text {
+class StringBuilder;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::UI {
+class Text;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -181,8 +181,7 @@ public:
   static inline ::GlobalNamespace::__OVRHandTest__BoolMonitor* New_ctor(::StringW name, ::GlobalNamespace::__OVRHandTest__BoolMonitor__BoolGenerator* generator, float_t displayTimeout);
 
   /// @brief Method .ctor, addr 0x27af54c, size 0x78, virtual false, abstract: false, final false
-  /// @param displayTimeout: float_t (default: 0.5)
-  inline void _ctor(::StringW name, ::GlobalNamespace::__OVRHandTest__BoolMonitor__BoolGenerator* generator, float_t displayTimeout = 0.5);
+  inline void _ctor(::StringW name, ::GlobalNamespace::__OVRHandTest__BoolMonitor__BoolGenerator* generator, float_t displayTimeout);
 
   /// @brief Method Update, addr 0x27b01c8, size 0x94, virtual false, abstract: false, final false
   inline void Update();
@@ -304,7 +303,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRHandTest__
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 372, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7777)), TypeDefinitionIndex(TypeDefinitionIndex(7771)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7777)), TypeDefinitionIndex(TypeDefinitionIndex(7771))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8120))
 // CS Name: ::OVRHandTest*
 class CORDL_TYPE OVRHandTest : public ::UnityEngine::MonoBehaviour {

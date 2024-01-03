@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::JetBrains::Annotations::CollectionAccessAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(15784))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15784)), TypeDefinitionIndex(TypeDefinitionIndex(2547))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15783))
 // CS Name: ::JetBrains.Annotations::CollectionAccessAttribute*
 class CORDL_TYPE CollectionAccessAttribute : public ::System::Attribute {

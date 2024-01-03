@@ -82,7 +82,7 @@ static_assert(offsetof(::GlobalNamespace::__PlatformException__ErrorType, value_
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4036)), TypeDefinitionIndex(TypeDefinitionIndex(2561))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2561)), TypeDefinitionIndex(TypeDefinitionIndex(4036))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4037))
 // CS Name: ::PlatformException*
 class CORDL_TYPE PlatformException : public ::System::Exception {
@@ -120,17 +120,13 @@ public:
   static inline ::GlobalNamespace::PlatformException* New_ctor(::GlobalNamespace::__PlatformException__ErrorType error, ::StringW message, ::System::Exception* innerException);
 
   /// @brief Method .ctor, addr 0x2228ee4, size 0x14, virtual false, abstract: false, final false
-  /// @param message: ::StringW (default: nullptr)
-  /// @param innerException: ::System::Exception* (default: nullptr)
-  inline void _ctor(::GlobalNamespace::__PlatformException__ErrorType error, ::StringW message = nullptr, ::System::Exception* innerException = nullptr);
+  inline void _ctor(::GlobalNamespace::__PlatformException__ErrorType error, ::StringW message, ::System::Exception* innerException);
 
   static inline ::GlobalNamespace::PlatformException* New_ctor(::GlobalNamespace::__PlatformException__ErrorType error, int32_t code, int32_t httpCode, ::StringW message,
                                                                ::System::Exception* innerException);
 
   /// @brief Method .ctor, addr 0x2229358, size 0x98, virtual false, abstract: false, final false
-  /// @param message: ::StringW (default: nullptr)
-  /// @param innerException: ::System::Exception* (default: nullptr)
-  inline void _ctor(::GlobalNamespace::__PlatformException__ErrorType error, int32_t code, int32_t httpCode, ::StringW message = nullptr, ::System::Exception* innerException = nullptr);
+  inline void _ctor(::GlobalNamespace::__PlatformException__ErrorType error, int32_t code, int32_t httpCode, ::StringW message, ::System::Exception* innerException);
 
   // Ctor Parameters [CppParam { name: "", ty: "PlatformException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

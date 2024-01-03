@@ -4,9 +4,6 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(SubjectDirectoryAttributes)
-namespace System::Collections {
-class IEnumerable;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
@@ -15,6 +12,9 @@ class Asn1Sequence;
 }
 namespace System::Collections {
 class ArrayList;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IList;

@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ObjectsMovementRecorderSerializedMethods)
 namespace GlobalNamespace {
-struct __PlaybackRenderer__PlaybackScreenshot__Type;
-}
-namespace GlobalNamespace {
 struct __ObjectsMovementRecorder__CameraView;
 }
 namespace GlobalNamespace {
 struct __ObjectsMovementRecorder__Mode;
+}
+namespace GlobalNamespace {
+struct __PlaybackRenderer__PlaybackScreenshot__Type;
 }
 // Forward declare root types
 namespace GlobalNamespace {

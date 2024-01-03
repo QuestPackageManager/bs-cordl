@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextShaderUtilities)
 namespace UnityEngine {
-class Shader;
+class Material;
 }
 namespace UnityEngine {
-class Material;
+class Shader;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {

@@ -7,6 +7,15 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BeatmapLevelsPromoDataSO)
 namespace GlobalNamespace {
+class IBeatmapLevelPack;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+class PreviewBeatmapLevelPackSO;
+}
+namespace GlobalNamespace {
 class PreviewBeatmapLevelSO;
 }
 namespace GlobalNamespace {
@@ -14,15 +23,6 @@ class __BeatmapLevelsPromoDataSO____c;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelPack;
-}
-namespace GlobalNamespace {
-class PreviewBeatmapLevelPackSO;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;

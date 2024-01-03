@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::AttributeUsageAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 22, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(2354))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2354)), TypeDefinitionIndex(TypeDefinitionIndex(2547))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2355))
 // CS Name: ::System::AttributeUsageAttribute*
 class CORDL_TYPE AttributeUsageAttribute : public ::System::Attribute {

@@ -1,11 +1,15 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__LazyInject_1_def.hpp"
-#include "Zenject/zzzz__IValidatable_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__IValidatable_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
 /// @brief Convert operator to "::Zenject::IValidatable"
 template <typename T> constexpr Zenject::LazyInject_1<T>::operator ::Zenject::IValidatable*() noexcept {
+  return static_cast<::Zenject::IValidatable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::IValidatable"
+template <typename T> constexpr ::Zenject::IValidatable* Zenject::LazyInject_1<T>::i___Zenject__IValidatable() noexcept {
   return static_cast<::Zenject::IValidatable*>(static_cast<void*>(this));
 }
 template <typename T> constexpr ::Zenject::DiContainer*& Zenject::LazyInject_1<T>::__get__container() {

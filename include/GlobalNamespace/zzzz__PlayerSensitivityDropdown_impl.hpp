@@ -2,9 +2,9 @@
 #include "GlobalNamespace/zzzz__PlayerSensitivityFlag_impl.hpp"
 #include "GlobalNamespace/zzzz__ValueDropdownController_1_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerSensitivityDropdown_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerSensitivityFlag_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "System/zzzz__Tuple_2_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerSensitivityFlag_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PlayerSensitivityDropdown.GetNamedValues
 template <>
 
@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x128;
   constexpr static std::size_t addrs = 0x22a56d8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSensitivityDropdown*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSensitivityDropdown*>::get(), 4));
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x48;
   constexpr static std::size_t addrs = 0x22a5800;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSensitivityDropdown*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;

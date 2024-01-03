@@ -6,31 +6,31 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerVerticalPlayerMovementManager)
 namespace GlobalNamespace {
-class MultiplayerPlayersManager;
+class MultiplayerConnectedPlayerFacade;
 }
 namespace GlobalNamespace {
 class MultiplayerController;
 }
 namespace GlobalNamespace {
-class __MultiplayerScoreProvider__RankedPlayer;
-}
-namespace GlobalNamespace {
-struct __MultiplayerController__State;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
 class MultiplayerLayoutProvider;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace GlobalNamespace {
+class MultiplayerPlayersManager;
 }
 namespace GlobalNamespace {
 class MultiplayerScoreProvider;
 }
 namespace GlobalNamespace {
-class MultiplayerConnectedPlayerFacade;
+struct __MultiplayerController__State;
+}
+namespace GlobalNamespace {
+class __MultiplayerScoreProvider__RankedPlayer;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

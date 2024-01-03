@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 CORDL_MODULE_EXPORT(PlayerOptionsViewController)
 namespace GlobalNamespace {
-class PlayerSettingsPanelController;
-}
-namespace UnityEngine::UI {
-class Button;
+class PlayerDataModel;
 }
 namespace GlobalNamespace {
-class PlayerDataModel;
+class PlayerSettingsPanelController;
+}
+namespace HMUI {
+class ViewController;
 }
 namespace System {
 template <typename T> class Action_1;
 }
-namespace HMUI {
-class ViewController;
+namespace UnityEngine::UI {
+class Button;
 }
 // Forward declare root types
 namespace GlobalNamespace {

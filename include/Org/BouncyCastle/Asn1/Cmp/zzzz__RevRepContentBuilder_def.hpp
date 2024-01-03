@@ -4,8 +4,8 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(RevRepContentBuilder)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1EncodableVector;
+namespace Org::BouncyCastle::Asn1::Cmp {
+class PkiStatusInfo;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
 class RevRepContent;
@@ -16,8 +16,8 @@ class CertId;
 namespace Org::BouncyCastle::Asn1::X509 {
 class CertificateList;
 }
-namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiStatusInfo;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1EncodableVector;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {

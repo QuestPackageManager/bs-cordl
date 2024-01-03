@@ -7,11 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TbsCertificateList)
-namespace System::Collections {
-class IEnumerator;
+namespace GlobalNamespace {
+class __TbsCertificateList__RevokedCertificatesEnumeration__RevokedCertificatesEnumerator;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class CrlEntry;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class Time;
@@ -19,20 +22,14 @@ class Time;
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
 }
-namespace System::Collections {
-class IEnumerable;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
 }
+namespace Org::BouncyCastle::Asn1::X509 {
+class __TbsCertificateList__RevokedCertificatesEnumeration;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
@@ -40,14 +37,17 @@ class Asn1Sequence;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class __TbsCertificateList__RevokedCertificatesEnumeration;
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class CrlEntry;
+namespace System::Collections {
+class IEnumerable;
 }
-namespace GlobalNamespace {
-class __TbsCertificateList__RevokedCertificatesEnumeration__RevokedCertificatesEnumerator;
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -80,6 +80,9 @@ public:
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr ::System::Collections::IEnumerator*& __get_e();
 
@@ -143,6 +146,9 @@ public:
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::System::Collections::IEnumerable*& __get_en();
 

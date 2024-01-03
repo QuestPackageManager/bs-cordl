@@ -6,20 +6,32 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/StyleSheets/zzzz__HierarchyTraversal_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UQuery)
+namespace GlobalNamespace {
+class __UQuery__UQueryMatcher____c;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
-namespace UnityEngine::UIElements {
-class VisualElement;
+namespace System {
+class Object;
 }
 namespace UnityEngine::UIElements::StyleSheets {
 struct MatchResultInfo;
 }
 namespace UnityEngine::UIElements {
-class __UQuery__IVisualPredicateWrapper;
+struct RuleMatcher;
 }
 namespace UnityEngine::UIElements {
-class __UQuery__UQueryMatcher;
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+class __UQuery__FirstQueryMatcher;
+}
+namespace UnityEngine::UIElements {
+class __UQuery__IVisualPredicateWrapper;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class __UQuery__IsOfType_1;
@@ -28,19 +40,7 @@ namespace UnityEngine::UIElements {
 class __UQuery__SingleQueryMatcher;
 }
 namespace UnityEngine::UIElements {
-class __UQuery__FirstQueryMatcher;
-}
-namespace UnityEngine::UIElements {
-struct RuleMatcher;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-class __UQuery__UQueryMatcher____c;
+class __UQuery__UQueryMatcher;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -114,6 +114,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::UIElements::__UQuery__IVisualPredicateWrapper"
   constexpr operator ::UnityEngine::UIElements::__UQuery__IVisualPredicateWrapper*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UIElements::__UQuery__IVisualPredicateWrapper"
+  constexpr ::UnityEngine::UIElements::__UQuery__IVisualPredicateWrapper* i___UnityEngine__UIElements____UQuery__IVisualPredicateWrapper() noexcept;
 
   static inline void setStaticF_s_Instance(::UnityEngine::UIElements::__UQuery__IsOfType_1<T>* value);
 

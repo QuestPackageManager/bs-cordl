@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "HoudiniEngineUnity/zzzz__HEU_AssetEventType_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(HEU_AssetEventData)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace HoudiniEngineUnity {
 class HEU_HoudiniAsset;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine {
 class GameObject;
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_AssetEventData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9594)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9594))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9595))
 // CS Name: ::HoudiniEngineUnity::HEU_AssetEventData*
 class CORDL_TYPE HEU_AssetEventData : public ::System::Object {

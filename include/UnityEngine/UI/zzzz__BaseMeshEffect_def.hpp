@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(BaseMeshEffect)
 namespace UnityEngine::UI {
-class IMeshModifier;
+class Graphic;
 }
 namespace UnityEngine::UI {
-class Graphic;
+class IMeshModifier;
 }
 namespace UnityEngine::UI {
 class VertexHelper;
@@ -39,6 +39,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::UI::IMeshModifier"
   constexpr operator ::UnityEngine::UI::IMeshModifier*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UI::IMeshModifier"
+  constexpr ::UnityEngine::UI::IMeshModifier* i___UnityEngine__UI__IMeshModifier() noexcept;
 
   constexpr ::UnityEngine::UI::Graphic*& __get_m_Graphic();
 

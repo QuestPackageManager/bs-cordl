@@ -8,23 +8,23 @@ CORDL_MODULE_EXPORT(Evidence)
 namespace System::Collections {
 class ArrayList;
 }
-namespace System {
-class Array;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System::Collections {
 class ICollection;
 }
 namespace System::Collections {
 class IEnumerable;
 }
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System::Security::Policy {
 class __Evidence__EvidenceEnumerator;
+}
+namespace System {
+class Array;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Security::Policy {
@@ -59,6 +59,9 @@ public:
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr ::System::Collections::IEnumerator*& __get_currentEnum();
 
@@ -157,8 +160,14 @@ public:
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
 
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr bool& __get__locked();
 

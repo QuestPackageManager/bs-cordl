@@ -11,16 +11,16 @@ namespace GlobalNamespace {
 class __QuickPlaySetupData__QuickPlaySongPacksOverride;
 }
 namespace GlobalNamespace {
-class __QuickPlaySetupData__QuickPlaySongPacksOverride__PredefinedPack;
-}
-namespace GlobalNamespace {
 class __QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class __QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPack;
+}
+namespace GlobalNamespace {
+class __QuickPlaySetupData__QuickPlaySongPacksOverride__PredefinedPack;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

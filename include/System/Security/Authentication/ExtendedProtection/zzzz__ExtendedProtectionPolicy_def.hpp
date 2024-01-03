@@ -11,11 +11,11 @@ class ISerializable;
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
-namespace System::Security::Authentication::ExtendedProtection {
-struct PolicyEnforcement;
-}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System::Security::Authentication::ExtendedProtection {
+struct PolicyEnforcement;
 }
 // Forward declare root types
 namespace System::Security::Authentication::ExtendedProtection {
@@ -35,6 +35,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
   static inline ::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy* New_ctor(::System::Security::Authentication::ExtendedProtection::PolicyEnforcement policyEnforcement);
 

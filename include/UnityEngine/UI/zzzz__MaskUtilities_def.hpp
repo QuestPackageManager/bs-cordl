@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MaskUtilities)
-namespace UnityEngine {
-class Component;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::UI {
+class IClippable;
 }
 namespace UnityEngine::UI {
 class RectMask2D;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine {
+class Component;
 }
 namespace UnityEngine {
 class Transform;
-}
-namespace UnityEngine::UI {
-class IClippable;
 }
 // Forward declare root types
 namespace UnityEngine::UI {

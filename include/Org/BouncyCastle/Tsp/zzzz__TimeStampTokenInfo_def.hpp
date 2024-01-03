@@ -9,25 +9,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimeStampTokenInfo)
 namespace Org::BouncyCastle::Asn1::Tsp {
-class TstInfo;
-}
-namespace System {
-struct DateTime;
-}
-namespace Org::BouncyCastle::Asn1::Tsp {
 class Accuracy;
 }
-namespace Org::BouncyCastle::Tsp {
-class GenTimeAccuracy;
+namespace Org::BouncyCastle::Asn1::Tsp {
+class TstInfo;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Tsp {
+class GenTimeAccuracy;
+}
+namespace System {
+struct DateTime;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Tsp {
@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Tsp::TimeStampTokenInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Tsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1772))
 // CS Name: ::Org.BouncyCastle.Tsp::TimeStampTokenInfo*
 class CORDL_TYPE TimeStampTokenInfo : public ::System::Object {

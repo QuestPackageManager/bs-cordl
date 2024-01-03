@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__ConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
 CORDL_MODULE_EXPORT(ScopeConcreteIdArgConditionCopyNonLazyBinder)
 namespace Zenject {
-class ConcreteIdArgConditionCopyNonLazyBinder;
+class BindInfo;
 }
 namespace Zenject {
-class BindInfo;
+class ConcreteIdArgConditionCopyNonLazyBinder;
 }
 // Forward declare root types
 namespace Zenject {

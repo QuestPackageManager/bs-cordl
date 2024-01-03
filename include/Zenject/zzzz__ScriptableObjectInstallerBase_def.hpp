@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ScriptableObjectInstallerBase)
-namespace Zenject {
-class IInstaller;
-}
-namespace Zenject {
-class InjectTypeInfo;
-}
 namespace System {
 class Object;
 }
 namespace Zenject {
 class DiContainer;
+}
+namespace Zenject {
+class IInstaller;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -42,6 +42,9 @@ public:
 
   /// @brief Convert operator to "::Zenject::IInstaller"
   constexpr operator ::Zenject::IInstaller*() noexcept;
+
+  /// @brief Convert to "::Zenject::IInstaller"
+  constexpr ::Zenject::IInstaller* i___Zenject__IInstaller() noexcept;
 
   constexpr ::Zenject::DiContainer*& __get__container();
 

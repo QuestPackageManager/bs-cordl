@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AuthenticationToken)
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
 namespace GlobalNamespace {
 struct __AuthenticationToken__Platform;
 }
 namespace LiteNetLib::Utils {
 template <typename T> class INetImmutableSerializable_1;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
@@ -130,6 +130,9 @@ public:
 
   /// @brief Convert operator to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::AuthenticationToken>"
   constexpr operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::AuthenticationToken>*();
+
+  /// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::AuthenticationToken>"
+  constexpr ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::AuthenticationToken>* i___LiteNetLib__Utils__INetImmutableSerializable_1___GlobalNamespace__AuthenticationToken_();
 
   /// @brief Method .ctor, addr 0xe293f4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__AuthenticationToken__Platform platform, ::StringW userId, ::StringW userName, ::StringW sessionToken);

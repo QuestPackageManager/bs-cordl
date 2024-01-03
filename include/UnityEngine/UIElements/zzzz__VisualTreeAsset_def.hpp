@@ -13,20 +13,50 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(VisualTreeAsset)
-namespace UnityEngine::UIElements {
-class __VisualTreeAsset__UsingEntryComparer;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IComparer_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
 }
 namespace UnityEngine::UIElements {
-struct __VisualTreeAsset__SlotUsageEntry;
+struct CreationContext;
+}
+namespace UnityEngine::UIElements {
+class StyleSheet;
 }
 namespace UnityEngine::UIElements {
 class TemplateAsset;
 }
 namespace UnityEngine::UIElements {
-class __VisualTreeAsset____c__DisplayClass45_0;
+class TemplateContainer;
 }
 namespace UnityEngine::UIElements {
-class __VisualTreeAsset___get_stylesheets_d__21;
+class VisualElementAsset;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -34,59 +64,29 @@ class VisualElement;
 namespace UnityEngine::UIElements {
 struct __TemplateAsset__AttributeOverride;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace UnityEngine::UIElements {
+struct __VisualTreeAsset__SlotDefinition;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace UnityEngine::UIElements {
+struct __VisualTreeAsset__SlotUsageEntry;
+}
+namespace UnityEngine::UIElements {
+class __VisualTreeAsset__UsingEntryComparer;
+}
+namespace UnityEngine::UIElements {
+struct __VisualTreeAsset__UsingEntry;
+}
+namespace UnityEngine::UIElements {
+class __VisualTreeAsset____c__DisplayClass45_0;
 }
 namespace UnityEngine::UIElements {
 struct __VisualTreeAsset____c__DisplayClass49_0;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::UIElements {
-class VisualElementAsset;
-}
-namespace UnityEngine::UIElements {
-class TemplateContainer;
+class __VisualTreeAsset___get_stylesheets_d__21;
 }
 namespace UnityEngine::UIElements {
 class __VisualTreeAsset___get_templateDependencies_d__17;
-}
-namespace UnityEngine::UIElements {
-struct __VisualTreeAsset__SlotDefinition;
-}
-namespace UnityEngine::UIElements {
-class StyleSheet;
-}
-namespace UnityEngine::UIElements {
-struct __VisualTreeAsset__UsingEntry;
-}
-namespace System::Collections::Generic {
-template <typename T> class IComparer_1;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -190,6 +190,10 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry>"
   constexpr operator ::System::Collections::Generic::IComparer_1<::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::IComparer_1<::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry>"
+  constexpr ::System::Collections::Generic::IComparer_1<::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry>*
+  i___System__Collections__Generic__IComparer_1___UnityEngine__UIElements____VisualTreeAsset__UsingEntry_() noexcept;
 
   /// @brief Method Compare, addr 0x2e138d0, size 0x10, virtual true, abstract: false, final true
   inline int32_t Compare(::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry x, ::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry y);
@@ -295,7 +299,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__VisualTreeAsset__SlotUsageEn
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7003)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3842)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3842)), TypeDefinitionIndex(TypeDefinitionIndex(7003)),
 // GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1698 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7007)) CS Name:
 // ::VisualTreeAsset::<get_templateDependencies>d__17*
 class CORDL_TYPE __VisualTreeAsset___get_templateDependencies_d__17 : public ::System::Object {
@@ -333,17 +337,34 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::VisualTreeAsset*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::VisualTreeAsset*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::VisualTreeAsset*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::VisualTreeAsset*>*
+  i___System__Collections__Generic__IEnumerable_1___UnityEngine__UIElements__VisualTreeAsset__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::VisualTreeAsset*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::VisualTreeAsset*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::VisualTreeAsset*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::VisualTreeAsset*>*
+  i___System__Collections__Generic__IEnumerator_1___UnityEngine__UIElements__VisualTreeAsset__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -486,9 +507,9 @@ static_assert(offsetof(::UnityEngine::UIElements::__VisualTreeAsset___get_templa
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1696 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3842), inst: 1694 }), TypeDefinitionIndex(TypeDefinitionIndex(3842)), TypeDefinitionIndex(TypeDefinitionIndex(7279)), TypeDefinitionIndex(TypeDefinitionIndex(7013)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 397 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7008)) CS Name: ::VisualTreeAsset::<get_stylesheets>d__21*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7279)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 397 }), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(3842), inst: 1696 }), TypeDefinitionIndex(TypeDefinitionIndex(7013)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3842)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1694 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7008)) CS Name: ::VisualTreeAsset::<get_stylesheets>d__21*
 class CORDL_TYPE __VisualTreeAsset___get_stylesheets_d__21 : public ::System::Object {
 public:
   // Declarations
@@ -536,17 +557,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::StyleSheet*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::StyleSheet*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::StyleSheet*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::StyleSheet*>* i___System__Collections__Generic__IEnumerable_1___UnityEngine__UIElements__StyleSheet__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::StyleSheet*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::StyleSheet*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::StyleSheet*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::StyleSheet*>* i___System__Collections__Generic__IEnumerator_1___UnityEngine__UIElements__StyleSheet__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

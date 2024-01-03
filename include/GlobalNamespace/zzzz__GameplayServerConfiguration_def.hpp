@@ -12,34 +12,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameplayServerConfiguration)
 namespace GlobalNamespace {
-struct InvitePolicy;
+struct DiscoveryPolicy;
+}
+namespace GlobalNamespace {
+struct GameplayServerControlSettings;
 }
 namespace GlobalNamespace {
 struct GameplayServerMode;
 }
 namespace GlobalNamespace {
-struct SongSelectionMode;
+struct InvitePolicy;
 }
 namespace GlobalNamespace {
-struct DiscoveryPolicy;
+struct SongSelectionMode;
+}
+namespace LiteNetLib::Utils {
+template <typename T> class INetImmutableSerializable_1;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
-}
-namespace GlobalNamespace {
-struct GameplayServerControlSettings;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class INetImmutableSerializable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -51,16 +51,23 @@ MARK_VAL_T(::GlobalNamespace::GameplayServerConfiguration);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12768)), TypeDefinitionIndex(TypeDefinitionIndex(12804)), TypeDefinitionIndex(TypeDefinitionIndex(12759)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12721)), TypeDefinitionIndex(TypeDefinitionIndex(12959))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12758)) CS Name: ::GameplayServerConfiguration
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12721)), TypeDefinitionIndex(TypeDefinitionIndex(12759)), TypeDefinitionIndex(TypeDefinitionIndex(12959)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12768)), TypeDefinitionIndex(TypeDefinitionIndex(12804))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12758)) CS Name: ::GameplayServerConfiguration
 struct CORDL_TYPE GameplayServerConfiguration {
 public:
   // Declarations
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::GameplayServerConfiguration>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::GameplayServerConfiguration>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::GameplayServerConfiguration>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::GameplayServerConfiguration>* i___System__IEquatable_1___GlobalNamespace__GameplayServerConfiguration_();
+
   /// @brief Convert operator to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::GameplayServerConfiguration>"
   constexpr operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::GameplayServerConfiguration>*();
+
+  /// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::GameplayServerConfiguration>"
+  constexpr ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::GameplayServerConfiguration>*
+  i___LiteNetLib__Utils__INetImmutableSerializable_1___GlobalNamespace__GameplayServerConfiguration_();
 
   /// @brief Method .ctor, addr 0xe38c60, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxPlayerCount, ::GlobalNamespace::DiscoveryPolicy discoveryPolicy, ::GlobalNamespace::InvitePolicy invitePolicy, ::GlobalNamespace::GameplayServerMode gameplayServerMode,

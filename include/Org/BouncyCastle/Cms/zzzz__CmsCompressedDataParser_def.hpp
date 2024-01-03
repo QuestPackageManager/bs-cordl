@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsCompressedDataParser)
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Cms {
 class CmsTypedStream;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

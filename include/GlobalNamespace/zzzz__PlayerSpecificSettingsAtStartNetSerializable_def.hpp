@@ -4,26 +4,26 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(PlayerSpecificSettingsAtStartNetSerializable)
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+namespace GlobalNamespace {
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 class PlayerSpecificSettingsNetSerializable;
 }
 namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace LiteNetLib::Utils {
 class INetSerializable;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -56,6 +56,9 @@ public:
 
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
+
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
 
   constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>*& __get__activePlayerSpecificSettingsAtGameStart_k__BackingField();
 

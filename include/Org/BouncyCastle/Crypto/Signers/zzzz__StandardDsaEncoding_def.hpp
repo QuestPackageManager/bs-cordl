@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StandardDsaEncoding)
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::Crypto::Signers {
-class IDsaEncoding;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
+}
+namespace Org::BouncyCastle::Crypto::Signers {
+class IDsaEncoding;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -39,6 +39,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Signers::IDsaEncoding"
   constexpr operator ::Org::BouncyCastle::Crypto::Signers::IDsaEncoding*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Signers::IDsaEncoding"
+  constexpr ::Org::BouncyCastle::Crypto::Signers::IDsaEncoding* i___Org__BouncyCastle__Crypto__Signers__IDsaEncoding() noexcept;
 
   static inline void setStaticF_Instance(::Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding* value);
 

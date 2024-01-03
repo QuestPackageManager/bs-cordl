@@ -11,14 +11,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GhostEffectBehaviour)
-namespace UnityEngine::Playables {
-struct Playable;
+namespace GlobalNamespace {
+struct __GhostEffectBehaviour__EndBehavior;
 }
 namespace GlobalNamespace {
 struct __GhostEffectBehaviour__GhostEffectType;
-}
-namespace UnityEngine {
-class Transform;
 }
 namespace System {
 class Object;
@@ -26,17 +23,20 @@ class Object;
 namespace TMPro {
 class TextMeshPro;
 }
-namespace UnityEngine {
-class CanvasGroup;
-}
 namespace UnityEngine::Playables {
 struct FrameData;
 }
-namespace GlobalNamespace {
-struct __GhostEffectBehaviour__EndBehavior;
+namespace UnityEngine::Playables {
+struct Playable;
 }
 namespace UnityEngine {
 class AnimationCurve;
+}
+namespace UnityEngine {
+class CanvasGroup;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -160,8 +160,8 @@ static_assert(offsetof(::GlobalNamespace::__GhostEffectBehaviour__GhostEffectTyp
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 165, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6015)), TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(10425)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6014)), TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6016)) CS Name: ::GhostEffectBehaviour*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6014)), TypeDefinitionIndex(TypeDefinitionIndex(10425)), TypeDefinitionIndex(TypeDefinitionIndex(6015)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(16090))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6016)) CS Name: ::GhostEffectBehaviour*
 class CORDL_TYPE GhostEffectBehaviour : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
   // Declarations

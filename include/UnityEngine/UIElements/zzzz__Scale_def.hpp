@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Scale)
-namespace UnityEngine {
-struct Vector3;
-}
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -36,6 +36,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Scale>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Scale>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Scale>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Scale>* i___System__IEquatable_1___UnityEngine__UIElements__Scale_();
 
   /// @brief Method .ctor, addr 0x2e75bf4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 scale);

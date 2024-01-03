@@ -6,17 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultipleSortedListsEnumerator_1)
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace GlobalNamespace {
+template <typename T> class BinaryHeap_1;
 }
 namespace GlobalNamespace {
 template <typename T> class __MultipleSortedListsEnumerator_1__HeapItem;
@@ -24,8 +15,17 @@ template <typename T> class __MultipleSortedListsEnumerator_1__HeapItem;
 namespace GlobalNamespace {
 template <typename T> class __MultipleSortedListsEnumerator_1___GetEnumerator_d__4;
 }
-namespace GlobalNamespace {
-template <typename T> class BinaryHeap_1;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 template <typename T> class IComparable_1;
@@ -75,6 +75,10 @@ public:
 
   /// @brief Convert operator to "::System::IComparable_1<::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>*>"
   constexpr operator ::System::IComparable_1<::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>*>*() noexcept;
+
+  /// @brief Convert to "::System::IComparable_1<::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>*>"
+  constexpr ::System::IComparable_1<::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>*>*
+  i___System__IComparable_1___GlobalNamespace____MultipleSortedListsEnumerator_1__HeapItem_T___() noexcept;
 
   constexpr ::System::Collections::Generic::IReadOnlyList_1<T>*& __get__dataList();
 
@@ -166,11 +170,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<T>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<T>* i___System__Collections__Generic__IEnumerator_1_T_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -267,6 +280,9 @@ public:
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::GlobalNamespace::BinaryHeap_1<::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>*>*& __get__heap();
 

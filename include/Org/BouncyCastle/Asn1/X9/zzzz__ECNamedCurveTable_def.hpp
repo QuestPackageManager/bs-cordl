@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(ECNamedCurveTable)
 namespace Org::BouncyCastle::Asn1::X9 {
 class X9ECParameters;
 }
-namespace System::Collections {
-class IEnumerable;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X9 {

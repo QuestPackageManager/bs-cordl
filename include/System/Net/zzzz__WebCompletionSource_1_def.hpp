@@ -10,31 +10,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(WebCompletionSource_1)
 namespace System::Net {
-template <typename T> struct __WebCompletionSource_1__Status;
-}
-namespace System::Net {
 template <typename T> class __WebCompletionSource_1__Result;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System {
-class OperationCanceledException;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class TaskCompletionSource_1;
-}
-namespace System {
-class Exception;
-}
-namespace System::Threading::Tasks {
-class Task;
+namespace System::Net {
+template <typename T> struct __WebCompletionSource_1__Status;
 }
 namespace System::Net {
 template <typename T> struct __WebCompletionSource_1___WaitForCompletion_d__15;
 }
-namespace System::Runtime::ExceptionServices {
-class ExceptionDispatchInfo;
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -42,8 +27,23 @@ class IAsyncStateMachine;
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+namespace System::Runtime::ExceptionServices {
+class ExceptionDispatchInfo;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class TaskCompletionSource_1;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System {
+class Exception;
+}
+namespace System {
+class OperationCanceledException;
 }
 // Forward declare root types
 namespace System::Net {
@@ -125,8 +125,8 @@ namespace System::Net {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9209), inst: 5026 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9209))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9210)) CS Name: ::WebCompletionSource`1::Result<T>*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9209)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9209), inst: 5026 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9210)) CS Name: ::WebCompletionSource`1::Result<T>*
 class CORDL_TYPE __WebCompletionSource_1__Result : public ::System::Object {
 public:
   // Declarations
@@ -221,15 +221,17 @@ namespace System::Net {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9210)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 1122 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 101 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9210), inst: 101 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9211)) CS Name:
-// ::WebCompletionSource`1::<WaitForCompletion>d__15<T>
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9210)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9210), inst: 101
+// }), TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 101 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3397), inst: 1122 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9211)) CS Name: ::WebCompletionSource`1::<WaitForCompletion>d__15<T>
 struct CORDL_TYPE __WebCompletionSource_1___WaitForCompletion_d__15 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -311,8 +313,7 @@ public:
   static inline ::System::Net::WebCompletionSource_1<T>* New_ctor(bool runAsync);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param runAsync: bool (default: true)
-  inline void _ctor(bool runAsync = true);
+  inline void _ctor(bool runAsync);
 
   /// @brief Method get_CurrentResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Net::__WebCompletionSource_1__Result<T>* get_CurrentResult();

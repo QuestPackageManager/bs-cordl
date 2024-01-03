@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_HAPI_Transform);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9726))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9726)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9894))
 // CS Name: ::HoudiniEngineUnity::Test_HAPI_Transform*
 class CORDL_TYPE Test_HAPI_Transform : public ::System::Object {
@@ -32,6 +32,9 @@ public:
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_Transform*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_Transform*>*() noexcept;
+
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_Transform*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_Transform*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_HAPI_Transform__() noexcept;
 
   constexpr ::HoudiniEngineUnity::HAPI_Transform& __get_self();
 

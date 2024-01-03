@@ -7,29 +7,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DigestSession)
-namespace System::Security::Cryptography {
-class RandomNumberGenerator;
-}
-namespace System::Net {
-class WebRequest;
-}
 namespace System::Net {
 class Authorization;
-}
-namespace System::Security::Cryptography {
-class HashAlgorithm;
 }
 namespace System::Net {
 class DigestHeaderParser;
 }
 namespace System::Net {
+class HttpWebRequest;
+}
+namespace System::Net {
 class ICredentials;
+}
+namespace System::Net {
+class WebRequest;
+}
+namespace System::Security::Cryptography {
+class HashAlgorithm;
+}
+namespace System::Security::Cryptography {
+class RandomNumberGenerator;
 }
 namespace System {
 struct DateTime;
-}
-namespace System::Net {
-class HttpWebRequest;
 }
 // Forward declare root types
 namespace System::Net {

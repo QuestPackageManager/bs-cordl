@@ -9,14 +9,14 @@ CORDL_MODULE_EXPORT(BaseRaycaster)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine {
-class Camera;
+namespace UnityEngine::EventSystems {
+class PointerEventData;
 }
 namespace UnityEngine::EventSystems {
 struct RaycastResult;
 }
-namespace UnityEngine::EventSystems {
-class PointerEventData;
+namespace UnityEngine {
+class Camera;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {

@@ -7,10 +7,10 @@ namespace System {
 class Object;
 }
 namespace UnityEngine::Playables {
-struct Playable;
+class INotification;
 }
 namespace UnityEngine::Playables {
-class INotification;
+struct Playable;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {

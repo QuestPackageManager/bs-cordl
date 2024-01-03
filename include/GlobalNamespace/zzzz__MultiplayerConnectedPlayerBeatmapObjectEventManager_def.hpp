@@ -9,28 +9,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerConnectedPlayerBeatmapObjectEventManager)
 namespace GlobalNamespace {
-class MultiplayerConnectedPlayerSongTimeSyncController;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class SliderSpawnInfoNetSerializable;
-}
-namespace GlobalNamespace {
-struct __MultiplayerConnectedPlayerBeatmapObjectEventManager__TimestampedBeatmapObjectEventData;
-}
-namespace GlobalNamespace {
 class IConnectedPlayerBeatmapObjectEventManager;
 }
 namespace GlobalNamespace {
-class NoteCutInfoNetSerializable;
-}
-namespace GlobalNamespace {
-class ObstacleSpawnInfoNetSerializable;
-}
-namespace GlobalNamespace {
 class IConnectedPlayer;
+}
+namespace GlobalNamespace {
+class IGameplayRpcManager;
+}
+namespace GlobalNamespace {
+class IPoolableSerializable;
+}
+namespace GlobalNamespace {
+class MultiplayerConnectedPlayerSongTimeSyncController;
+}
+namespace GlobalNamespace {
+class NoteCutInfoNetSerializable;
 }
 namespace GlobalNamespace {
 class NoteMissInfoNetSerializable;
@@ -38,14 +32,20 @@ class NoteMissInfoNetSerializable;
 namespace GlobalNamespace {
 class NoteSpawnInfoNetSerializable;
 }
+namespace GlobalNamespace {
+class ObstacleSpawnInfoNetSerializable;
+}
+namespace GlobalNamespace {
+class SliderSpawnInfoNetSerializable;
+}
+namespace GlobalNamespace {
+struct __MultiplayerConnectedPlayerBeatmapObjectEventManager__TimestampedBeatmapObjectEventData;
+}
 namespace System::Collections::Generic {
 template <typename T> class Queue_1;
 }
-namespace GlobalNamespace {
-class IPoolableSerializable;
-}
-namespace GlobalNamespace {
-class IGameplayRpcManager;
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -147,6 +147,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager"
   constexpr operator ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager"
+  constexpr ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager* i___GlobalNamespace__IConnectedPlayerBeatmapObjectEventManager() noexcept;
 
   constexpr ::GlobalNamespace::IConnectedPlayer*& __get__connectedPlayer();
 

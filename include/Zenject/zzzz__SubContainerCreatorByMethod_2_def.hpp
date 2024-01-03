@@ -7,20 +7,20 @@ CORDL_MODULE_EXPORT(SubContainerCreatorByMethod_2)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace System {
+template <typename T1, typename T2, typename T3> class Action_3;
+}
 namespace Zenject {
-struct TypeValuePair;
+class DiContainer;
 }
 namespace Zenject {
 class InjectContext;
 }
 namespace Zenject {
-class DiContainer;
-}
-namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
+class SubContainerCreatorBindInfo;
 }
 namespace Zenject {
-class SubContainerCreatorBindInfo;
+struct TypeValuePair;
 }
 // Forward declare root types
 namespace Zenject {

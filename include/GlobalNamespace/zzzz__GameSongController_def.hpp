@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(GameSongController)
 namespace GlobalNamespace {
+class AudioPitchGainEffect;
+}
+namespace GlobalNamespace {
 class AudioTimeSyncController;
+}
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
 class BeatmapCallbacksUpdater;
 }
 namespace GlobalNamespace {
-class AudioPitchGainEffect;
-}
-namespace GlobalNamespace {
 class IStartSeekSongController;
-}
-namespace GlobalNamespace {
-class BeatmapCallbacksController;
 }
 namespace UnityEngine {
 class WaitUntil;
@@ -61,6 +61,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IStartSeekSongController"
   constexpr operator ::GlobalNamespace::IStartSeekSongController*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IStartSeekSongController"
+  constexpr ::GlobalNamespace::IStartSeekSongController* i___GlobalNamespace__IStartSeekSongController() noexcept;
+
   constexpr ::GlobalNamespace::AudioTimeSyncController*& __get__audioTimeSyncController();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioTimeSyncController*> const& __get__audioTimeSyncController() const;
@@ -101,8 +104,7 @@ public:
   inline void LateUpdate();
 
   /// @brief Method StartSong, addr 0x226879c, size 0x24, virtual true, abstract: false, final true
-  /// @param songTimeOffset: float_t (default: 0.0)
-  inline void StartSong(float_t songTimeOffset = 0.0);
+  inline void StartSong(float_t songTimeOffset);
 
   /// @brief Method StopSong, addr 0x22687c0, size 0x1c, virtual true, abstract: false, final false
   inline void StopSong();

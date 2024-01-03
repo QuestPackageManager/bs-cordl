@@ -10,38 +10,38 @@ CORDL_MODULE_EXPORT(X509V1CertificateGenerator)
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+namespace Org::BouncyCastle::Asn1::X509 {
+class TbsCertificateStructure;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class V1TbsCertificateGenerator;
 }
-namespace System {
-struct DateTime;
-}
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Crypto {
 class ISignatureFactory;
 }
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class TbsCertificateStructure;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+namespace System {
+struct DateTime;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {

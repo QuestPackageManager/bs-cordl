@@ -2,11 +2,11 @@
 #include "System/Linq/Expressions/zzzz__ExpressionType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/Expressions/zzzz__Expression_def.hpp"
-#include "System/Reflection/zzzz__MethodInfo_def.hpp"
+#include "System/Dynamic/Utils/zzzz__CacheDict_2_def.hpp"
 #include "System/Linq/Expressions/zzzz__ExpressionType_def.hpp"
 #include "System/Linq/Expressions/zzzz__Expression_def.hpp"
+#include "System/Reflection/zzzz__MethodInfo_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConditionalWeakTable_2_def.hpp"
-#include "System/Dynamic/Utils/zzzz__CacheDict_2_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::__Expression__LambdaExpressionProxy::__Expression__LambdaExpressionProxy() {}
@@ -36,7 +36,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xf0;
   constexpr static std::size_t addrs = 0x2813b1c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Expression*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Expression*>::get(), 4));

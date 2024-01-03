@@ -6,32 +6,32 @@
 #include "UnityEngine/UIElements/zzzz__VisualElement_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TextInputBaseField_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ITextHandle_def.hpp"
-#include "UnityEngine/UIElements/zzzz__CustomStyleResolvedEvent_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TextInputBaseField_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__AttachToPanelEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
-#include "UnityEngine/UIElements/zzzz__DropdownMenuAction_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IVisualElementScheduledItem_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ContextualMenuPopulateEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ITextInputField_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IEventHandler_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CustomStyleResolvedEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__DropdownMenuAction_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
 #include "UnityEngine/UIElements/zzzz__GeometryChangedEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IEventHandler_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ITextElement_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ITextHandle_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ITextInputField_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IVisualElementScheduledItem_def.hpp"
 #include "UnityEngine/UIElements/zzzz__MeshGenerationContext_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextEditorEngine_def.hpp"
-#include "UnityEngine/zzzz__RectOffset_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ITextElement_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextEditorEventHandler_def.hpp"
-#include "UnityEngine/zzzz__GUIStyle_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TextInputBaseField_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlBoolAttributeDescription_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UxmlStringAttributeDescription_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlIntAttributeDescription_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
-#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlStringAttributeDescription_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__GUIStyle_def.hpp"
+#include "UnityEngine/zzzz__RectOffset_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 template <typename TValueType> constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription*& UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__get_m_MaxLength() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaxLength;
@@ -144,12 +144,27 @@ template <typename TValueType> constexpr ::UnityEngine::UIElements::__TextInputB
 template <typename TValueType> constexpr UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::operator ::UnityEngine::UIElements::ITextInputField*() noexcept {
   return static_cast<::UnityEngine::UIElements::ITextInputField*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::UnityEngine::UIElements::ITextInputField"
+template <typename TValueType>
+constexpr ::UnityEngine::UIElements::ITextInputField* UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::i___UnityEngine__UIElements__ITextInputField() noexcept {
+  return static_cast<::UnityEngine::UIElements::ITextInputField*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::UnityEngine::UIElements::IEventHandler"
 template <typename TValueType> constexpr UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::operator ::UnityEngine::UIElements::IEventHandler*() noexcept {
   return static_cast<::UnityEngine::UIElements::IEventHandler*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::UnityEngine::UIElements::IEventHandler"
+template <typename TValueType>
+constexpr ::UnityEngine::UIElements::IEventHandler* UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::i___UnityEngine__UIElements__IEventHandler() noexcept {
+  return static_cast<::UnityEngine::UIElements::IEventHandler*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::UnityEngine::UIElements::ITextElement"
 template <typename TValueType> constexpr UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::operator ::UnityEngine::UIElements::ITextElement*() noexcept {
+  return static_cast<::UnityEngine::UIElements::ITextElement*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::UIElements::ITextElement"
+template <typename TValueType>
+constexpr ::UnityEngine::UIElements::ITextElement* UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::i___UnityEngine__UIElements__ITextElement() noexcept {
   return static_cast<::UnityEngine::UIElements::ITextElement*>(static_cast<void*>(this));
 }
 template <typename TValueType> constexpr ::StringW& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__get_m_OriginalText() {

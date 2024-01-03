@@ -38,6 +38,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IOVRSceneComponent"
   constexpr operator ::GlobalNamespace::IOVRSceneComponent*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IOVRSceneComponent"
+  constexpr ::GlobalNamespace::IOVRSceneComponent* i___GlobalNamespace__IOVRSceneComponent() noexcept;
+
   constexpr ::System::Collections::Generic::List_1<::StringW>*& __get__labels();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get__labels() const;

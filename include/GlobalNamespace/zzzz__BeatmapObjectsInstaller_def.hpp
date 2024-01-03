@@ -5,16 +5,7 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 CORDL_MODULE_EXPORT(BeatmapObjectsInstaller)
 namespace GlobalNamespace {
-class GameplayCoreSceneSetupData;
-}
-namespace GlobalNamespace {
-class NoteLineConnectionController;
-}
-namespace GlobalNamespace {
-class GameNoteController;
-}
-namespace GlobalNamespace {
-class SliderController;
+class BeatLine;
 }
 namespace GlobalNamespace {
 class BombNoteController;
@@ -23,10 +14,19 @@ namespace GlobalNamespace {
 class BurstSliderGameNoteController;
 }
 namespace GlobalNamespace {
+class GameNoteController;
+}
+namespace GlobalNamespace {
+class GameplayCoreSceneSetupData;
+}
+namespace GlobalNamespace {
+class NoteLineConnectionController;
+}
+namespace GlobalNamespace {
 class ObstacleController;
 }
 namespace GlobalNamespace {
-class BeatLine;
+class SliderController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

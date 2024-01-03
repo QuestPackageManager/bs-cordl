@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/Timeline/zzzz__ControlPlayableAsset_def.hpp"
 CORDL_MODULE_EXPORT(CustomControlPlayableAsset)
-namespace UnityEngine::Timeline {
-class ITimelineClipAsset;
-}
 namespace GlobalNamespace {
 class AvatarColorBehaviour;
 }
 namespace UnityEngine::Timeline {
 struct ClipCaps;
+}
+namespace UnityEngine::Timeline {
+class ITimelineClipAsset;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -36,6 +36,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
+  constexpr ::UnityEngine::Timeline::ITimelineClipAsset* i___UnityEngine__Timeline__ITimelineClipAsset() noexcept;
 
   constexpr ::GlobalNamespace::AvatarColorBehaviour*& __get__template();
 

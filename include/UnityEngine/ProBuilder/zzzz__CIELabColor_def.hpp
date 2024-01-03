@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(CIELabColor)
-namespace UnityEngine {
-struct Color;
-}
 namespace UnityEngine::ProBuilder {
 class XYZColor;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

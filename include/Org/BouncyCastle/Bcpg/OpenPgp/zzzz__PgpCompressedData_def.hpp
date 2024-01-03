@@ -10,11 +10,11 @@ class BcpgInputStream;
 namespace Org::BouncyCastle::Bcpg {
 class CompressedDataPacket;
 }
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Bcpg {
 struct CompressionAlgorithmTag;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {

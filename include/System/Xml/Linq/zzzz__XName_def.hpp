@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XName)
-namespace System {
-class Object;
-}
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
-namespace System::Xml::Linq {
-class XNamespace;
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
+namespace System::Xml::Linq {
+class XNamespace;
+}
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Xml::Linq {
@@ -58,8 +58,14 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::System::Xml::Linq::XName*>"
   constexpr operator ::System::IEquatable_1<::System::Xml::Linq::XName*>*() noexcept;
 
+  /// @brief Convert to "::System::IEquatable_1<::System::Xml::Linq::XName*>"
+  constexpr ::System::IEquatable_1<::System::Xml::Linq::XName*>* i___System__IEquatable_1___System__Xml__Linq__XName__() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
   constexpr ::System::Xml::Linq::XNamespace*& __get__ns();
 

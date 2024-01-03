@@ -4,26 +4,26 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ToggleBinder)
-namespace UnityEngine::UI {
-class Toggle;
-}
 namespace HMUI {
 class __ToggleBinder____c__DisplayClass7_0;
 }
-namespace UnityEngine::Events {
-template <typename T0> class UnityAction_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace System {
-template <typename T1, typename T2> class Tuple_2;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace System {
 class Action;
+}
+namespace System {
+template <typename T1, typename T2> class Tuple_2;
+}
+namespace UnityEngine::Events {
+template <typename T0> class UnityAction_1;
+}
+namespace UnityEngine::UI {
+class Toggle;
 }
 // Forward declare root types
 namespace HMUI {

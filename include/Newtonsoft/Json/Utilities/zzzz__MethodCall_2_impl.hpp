@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__MethodCall_2_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 template <typename T, typename TResult>
 inline ::Newtonsoft::Json::Utilities::MethodCall_2<T, TResult>* Newtonsoft::Json::Utilities::MethodCall_2<T, TResult>::New_ctor(::System::Object* object, void* method) {
   return THROW_UNLESS(::il2cpp_utils::New<::Newtonsoft::Json::Utilities::MethodCall_2<T, TResult>*>(object, method));

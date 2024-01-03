@@ -10,23 +10,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MovementBeatmapEventEffect)
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+class BasicBeatmapEventData;
+}
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+class __MovementBeatmapEventEffect__MovementData;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace GlobalNamespace {
-class BasicBeatmapEventData;
-}
-namespace GlobalNamespace {
-class __MovementBeatmapEventEffect__MovementData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MovementBeatmapEventEffect__MovementData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4988))
 // CS Name: ::MovementBeatmapEventEffect::MovementData*
 class CORDL_TYPE __MovementBeatmapEventEffect__MovementData : public ::System::Object {

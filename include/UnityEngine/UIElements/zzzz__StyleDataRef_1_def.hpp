@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleDataRef_1)
 namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
 class Object;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class __StyleDataRef_1__RefCounted;
-}
-namespace System {
-template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -134,6 +134,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleDataRef_1<T>>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleDataRef_1<T>>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleDataRef_1<T>>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleDataRef_1<T>>* i___System__IEquatable_1___UnityEngine__UIElements__StyleDataRef_1_T__();
 
   /// @brief Method Acquire, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleDataRef_1<T> Acquire();

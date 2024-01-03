@@ -13,13 +13,13 @@ namespace UnityEngine {
 class Component;
 }
 namespace Zenject {
-struct __ZenjectBinding__BindTypes;
-}
-namespace Zenject {
 class Context;
 }
 namespace Zenject {
 class InjectTypeInfo;
+}
+namespace Zenject {
+struct __ZenjectBinding__BindTypes;
 }
 // Forward declare root types
 namespace Zenject {
@@ -93,7 +93,7 @@ static_assert(offsetof(::Zenject::__ZenjectBinding__BindTypes, value__) == 0x0, 
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11155)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(11155))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11156))
 // CS Name: ::Zenject::ZenjectBinding*
 class CORDL_TYPE ZenjectBinding : public ::UnityEngine::MonoBehaviour {

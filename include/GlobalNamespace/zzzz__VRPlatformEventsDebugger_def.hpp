@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(VRPlatformEventsDebugger)
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class IVRPlatformHelper;
 }
 namespace GlobalNamespace {
 class IVerboseLogger;
 }
-namespace GlobalNamespace {
-class IVRPlatformHelper;
+namespace System {
+class IDisposable;
 }
 namespace Zenject {
 class IInitializable;
@@ -41,11 +41,20 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
+  /// @brief Convert to "::Zenject::IInitializable"
+  constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IVerboseLogger"
   constexpr operator ::GlobalNamespace::IVerboseLogger*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IVerboseLogger"
+  constexpr ::GlobalNamespace::IVerboseLogger* i___GlobalNamespace__IVerboseLogger() noexcept;
 
   constexpr ::GlobalNamespace::IVRPlatformHelper*& __get__vrPlatformHelper();
 

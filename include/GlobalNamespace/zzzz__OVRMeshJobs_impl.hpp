@@ -8,14 +8,14 @@
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRMeshJobs_def.hpp"
 #include "GlobalNamespace/zzzz__OVRMeshJobs_def.hpp"
+#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
+#include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
-#include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "Unity/Jobs/zzzz__IJobParallelFor_def.hpp"
 #include "UnityEngine/zzzz__BoneWeight_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__OVRMeshJobs__TransformToUnitySpaceJob.Execute
 template <>
 
@@ -24,7 +24,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x180;
   constexpr static std::size_t addrs = 0x27b13d0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRMeshJobs__TransformToUnitySpaceJob>::get(), "Execute",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
@@ -33,6 +33,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
 constexpr GlobalNamespace::__OVRMeshJobs__TransformToUnitySpaceJob::operator ::Unity::Jobs::IJobParallelFor*() {
+  return static_cast<::Unity::Jobs::IJobParallelFor*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::Unity::Jobs::IJobParallelFor"
+constexpr ::Unity::Jobs::IJobParallelFor* GlobalNamespace::__OVRMeshJobs__TransformToUnitySpaceJob::i___Unity__Jobs__IJobParallelFor() {
   return static_cast<::Unity::Jobs::IJobParallelFor*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 inline void GlobalNamespace::__OVRMeshJobs__TransformToUnitySpaceJob::Execute(int32_t index) {
@@ -75,7 +79,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x27b1550;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRMeshJobs__TransformTrianglesJob>::get(), "Execute",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
@@ -84,6 +88,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
 constexpr GlobalNamespace::__OVRMeshJobs__TransformTrianglesJob::operator ::Unity::Jobs::IJobParallelFor*() {
+  return static_cast<::Unity::Jobs::IJobParallelFor*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::Unity::Jobs::IJobParallelFor"
+constexpr ::Unity::Jobs::IJobParallelFor* GlobalNamespace::__OVRMeshJobs__TransformTrianglesJob::i___Unity__Jobs__IJobParallelFor() {
   return static_cast<::Unity::Jobs::IJobParallelFor*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 inline void GlobalNamespace::__OVRMeshJobs__TransformTrianglesJob::Execute(int32_t index) {
@@ -104,6 +112,10 @@ constexpr ::GlobalNamespace::__OVRMeshJobs__TransformTrianglesJob::__OVRMeshJobs
 constexpr ::GlobalNamespace::__OVRMeshJobs__TransformTrianglesJob::__OVRMeshJobs__TransformTrianglesJob() {}
 /// @brief Convert operator to "::System::IDisposable"
 template <typename T> constexpr GlobalNamespace::__OVRMeshJobs__NativeArrayHelper_1<T>::operator ::System::IDisposable*() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename T> constexpr ::System::IDisposable* GlobalNamespace::__OVRMeshJobs__NativeArrayHelper_1<T>::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename T> inline void GlobalNamespace::__OVRMeshJobs__NativeArrayHelper_1<T>::_ctor(::ArrayW<T, ::Array<T>*> ovrArray, int32_t length) {
@@ -135,7 +147,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x27b13c8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMeshJobs*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;

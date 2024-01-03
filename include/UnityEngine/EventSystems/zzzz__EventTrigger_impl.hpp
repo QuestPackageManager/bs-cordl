@@ -5,30 +5,30 @@
 #include "UnityEngine/Events/zzzz__UnityEvent_1_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__EventTrigger_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__ISubmitHandler_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerUpHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__AxisEventData_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__EventTriggerType_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__EventTrigger_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IBeginDragHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__ICancelHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IDeselectHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IDragHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IDropHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEndDragHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IInitializePotentialDragHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IMoveHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerDownHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IPointerExitHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerUpHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IScrollHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IDeselectHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerDownHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IBeginDragHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IInitializePotentialDragHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__ISelectHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEndDragHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__ICancelHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IMoveHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IDragHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__EventTrigger_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__AxisEventData_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__EventTriggerType_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__ISubmitHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IUpdateSelectedHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 //  Writing Method size for method: ::UnityEngine::EventSystems::__EventTrigger__TriggerEvent._ctor
 template <>
 
@@ -37,7 +37,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x48;
   constexpr static std::size_t addrs = 0x2d98904;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::__EventTrigger__TriggerEvent*>::get(), ".ctor",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -62,7 +62,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x2d9894c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::__EventTrigger__Entry*>::get(),
                                                                                ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -110,7 +110,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x2d986b0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(),
                                                                                "get_delegates", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -124,7 +124,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2d98734;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(), "set_delegates", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{
@@ -139,7 +139,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2d9873c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -153,7 +153,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x2d986b4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(),
                                                                                "get_triggers", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -167,7 +167,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2d98744;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(), "set_triggers", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{
@@ -183,7 +183,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xec;
   constexpr static std::size_t addrs = 0x2d9874c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(), "Execute", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::EventTriggerType>::get(),
@@ -199,7 +199,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x2d98838;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(), 21));
@@ -214,7 +214,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x2d98844;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(), 22));
@@ -229,7 +229,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x2d98850;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(), 23));
@@ -244,7 +244,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x2d9885c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(), 24));
@@ -259,7 +259,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x2d98868;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(), 25));
@@ -274,7 +274,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x2d98874;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(), 26));
@@ -289,7 +289,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x2d98880;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(), 27));
@@ -304,7 +304,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x2d9888c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(), 28));
@@ -319,7 +319,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x2d98898;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(), 29));
@@ -334,7 +334,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x2d988a4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(), 30));
@@ -349,7 +349,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x2d988b0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(), 31));
@@ -364,7 +364,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x2d988bc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(), 32));
@@ -379,7 +379,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x2d988c8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(), 33));
@@ -394,7 +394,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x2d988d4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(), 34));
@@ -409,7 +409,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x2d988e0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(), 35));
@@ -424,7 +424,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x2d988ec;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(), 36));
@@ -439,7 +439,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x2d988f8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(), 37));
@@ -450,72 +450,144 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 constexpr UnityEngine::EventSystems::EventTrigger::operator ::UnityEngine::EventSystems::IPointerEnterHandler*() noexcept {
   return static_cast<::UnityEngine::EventSystems::IPointerEnterHandler*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::UnityEngine::EventSystems::IPointerEnterHandler"
+constexpr ::UnityEngine::EventSystems::IPointerEnterHandler* UnityEngine::EventSystems::EventTrigger::i___UnityEngine__EventSystems__IPointerEnterHandler() noexcept {
+  return static_cast<::UnityEngine::EventSystems::IPointerEnterHandler*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
 constexpr UnityEngine::EventSystems::EventTrigger::operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept {
+  return static_cast<::UnityEngine::EventSystems::IEventSystemHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+constexpr ::UnityEngine::EventSystems::IEventSystemHandler* UnityEngine::EventSystems::EventTrigger::i___UnityEngine__EventSystems__IEventSystemHandler() noexcept {
   return static_cast<::UnityEngine::EventSystems::IEventSystemHandler*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerExitHandler"
 constexpr UnityEngine::EventSystems::EventTrigger::operator ::UnityEngine::EventSystems::IPointerExitHandler*() noexcept {
   return static_cast<::UnityEngine::EventSystems::IPointerExitHandler*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::UnityEngine::EventSystems::IPointerExitHandler"
+constexpr ::UnityEngine::EventSystems::IPointerExitHandler* UnityEngine::EventSystems::EventTrigger::i___UnityEngine__EventSystems__IPointerExitHandler() noexcept {
+  return static_cast<::UnityEngine::EventSystems::IPointerExitHandler*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerDownHandler"
 constexpr UnityEngine::EventSystems::EventTrigger::operator ::UnityEngine::EventSystems::IPointerDownHandler*() noexcept {
+  return static_cast<::UnityEngine::EventSystems::IPointerDownHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::IPointerDownHandler"
+constexpr ::UnityEngine::EventSystems::IPointerDownHandler* UnityEngine::EventSystems::EventTrigger::i___UnityEngine__EventSystems__IPointerDownHandler() noexcept {
   return static_cast<::UnityEngine::EventSystems::IPointerDownHandler*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerUpHandler"
 constexpr UnityEngine::EventSystems::EventTrigger::operator ::UnityEngine::EventSystems::IPointerUpHandler*() noexcept {
   return static_cast<::UnityEngine::EventSystems::IPointerUpHandler*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::UnityEngine::EventSystems::IPointerUpHandler"
+constexpr ::UnityEngine::EventSystems::IPointerUpHandler* UnityEngine::EventSystems::EventTrigger::i___UnityEngine__EventSystems__IPointerUpHandler() noexcept {
+  return static_cast<::UnityEngine::EventSystems::IPointerUpHandler*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerClickHandler"
 constexpr UnityEngine::EventSystems::EventTrigger::operator ::UnityEngine::EventSystems::IPointerClickHandler*() noexcept {
+  return static_cast<::UnityEngine::EventSystems::IPointerClickHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::IPointerClickHandler"
+constexpr ::UnityEngine::EventSystems::IPointerClickHandler* UnityEngine::EventSystems::EventTrigger::i___UnityEngine__EventSystems__IPointerClickHandler() noexcept {
   return static_cast<::UnityEngine::EventSystems::IPointerClickHandler*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::UnityEngine::EventSystems::IInitializePotentialDragHandler"
 constexpr UnityEngine::EventSystems::EventTrigger::operator ::UnityEngine::EventSystems::IInitializePotentialDragHandler*() noexcept {
   return static_cast<::UnityEngine::EventSystems::IInitializePotentialDragHandler*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::UnityEngine::EventSystems::IInitializePotentialDragHandler"
+constexpr ::UnityEngine::EventSystems::IInitializePotentialDragHandler* UnityEngine::EventSystems::EventTrigger::i___UnityEngine__EventSystems__IInitializePotentialDragHandler() noexcept {
+  return static_cast<::UnityEngine::EventSystems::IInitializePotentialDragHandler*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::UnityEngine::EventSystems::IBeginDragHandler"
 constexpr UnityEngine::EventSystems::EventTrigger::operator ::UnityEngine::EventSystems::IBeginDragHandler*() noexcept {
+  return static_cast<::UnityEngine::EventSystems::IBeginDragHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::IBeginDragHandler"
+constexpr ::UnityEngine::EventSystems::IBeginDragHandler* UnityEngine::EventSystems::EventTrigger::i___UnityEngine__EventSystems__IBeginDragHandler() noexcept {
   return static_cast<::UnityEngine::EventSystems::IBeginDragHandler*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::UnityEngine::EventSystems::IDragHandler"
 constexpr UnityEngine::EventSystems::EventTrigger::operator ::UnityEngine::EventSystems::IDragHandler*() noexcept {
   return static_cast<::UnityEngine::EventSystems::IDragHandler*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::UnityEngine::EventSystems::IDragHandler"
+constexpr ::UnityEngine::EventSystems::IDragHandler* UnityEngine::EventSystems::EventTrigger::i___UnityEngine__EventSystems__IDragHandler() noexcept {
+  return static_cast<::UnityEngine::EventSystems::IDragHandler*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::UnityEngine::EventSystems::IEndDragHandler"
 constexpr UnityEngine::EventSystems::EventTrigger::operator ::UnityEngine::EventSystems::IEndDragHandler*() noexcept {
+  return static_cast<::UnityEngine::EventSystems::IEndDragHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::IEndDragHandler"
+constexpr ::UnityEngine::EventSystems::IEndDragHandler* UnityEngine::EventSystems::EventTrigger::i___UnityEngine__EventSystems__IEndDragHandler() noexcept {
   return static_cast<::UnityEngine::EventSystems::IEndDragHandler*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::UnityEngine::EventSystems::IDropHandler"
 constexpr UnityEngine::EventSystems::EventTrigger::operator ::UnityEngine::EventSystems::IDropHandler*() noexcept {
   return static_cast<::UnityEngine::EventSystems::IDropHandler*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::UnityEngine::EventSystems::IDropHandler"
+constexpr ::UnityEngine::EventSystems::IDropHandler* UnityEngine::EventSystems::EventTrigger::i___UnityEngine__EventSystems__IDropHandler() noexcept {
+  return static_cast<::UnityEngine::EventSystems::IDropHandler*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::UnityEngine::EventSystems::IScrollHandler"
 constexpr UnityEngine::EventSystems::EventTrigger::operator ::UnityEngine::EventSystems::IScrollHandler*() noexcept {
+  return static_cast<::UnityEngine::EventSystems::IScrollHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::IScrollHandler"
+constexpr ::UnityEngine::EventSystems::IScrollHandler* UnityEngine::EventSystems::EventTrigger::i___UnityEngine__EventSystems__IScrollHandler() noexcept {
   return static_cast<::UnityEngine::EventSystems::IScrollHandler*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::UnityEngine::EventSystems::IUpdateSelectedHandler"
 constexpr UnityEngine::EventSystems::EventTrigger::operator ::UnityEngine::EventSystems::IUpdateSelectedHandler*() noexcept {
   return static_cast<::UnityEngine::EventSystems::IUpdateSelectedHandler*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::UnityEngine::EventSystems::IUpdateSelectedHandler"
+constexpr ::UnityEngine::EventSystems::IUpdateSelectedHandler* UnityEngine::EventSystems::EventTrigger::i___UnityEngine__EventSystems__IUpdateSelectedHandler() noexcept {
+  return static_cast<::UnityEngine::EventSystems::IUpdateSelectedHandler*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::UnityEngine::EventSystems::ISelectHandler"
 constexpr UnityEngine::EventSystems::EventTrigger::operator ::UnityEngine::EventSystems::ISelectHandler*() noexcept {
+  return static_cast<::UnityEngine::EventSystems::ISelectHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::ISelectHandler"
+constexpr ::UnityEngine::EventSystems::ISelectHandler* UnityEngine::EventSystems::EventTrigger::i___UnityEngine__EventSystems__ISelectHandler() noexcept {
   return static_cast<::UnityEngine::EventSystems::ISelectHandler*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::UnityEngine::EventSystems::IDeselectHandler"
 constexpr UnityEngine::EventSystems::EventTrigger::operator ::UnityEngine::EventSystems::IDeselectHandler*() noexcept {
   return static_cast<::UnityEngine::EventSystems::IDeselectHandler*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::UnityEngine::EventSystems::IDeselectHandler"
+constexpr ::UnityEngine::EventSystems::IDeselectHandler* UnityEngine::EventSystems::EventTrigger::i___UnityEngine__EventSystems__IDeselectHandler() noexcept {
+  return static_cast<::UnityEngine::EventSystems::IDeselectHandler*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::UnityEngine::EventSystems::IMoveHandler"
 constexpr UnityEngine::EventSystems::EventTrigger::operator ::UnityEngine::EventSystems::IMoveHandler*() noexcept {
+  return static_cast<::UnityEngine::EventSystems::IMoveHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::IMoveHandler"
+constexpr ::UnityEngine::EventSystems::IMoveHandler* UnityEngine::EventSystems::EventTrigger::i___UnityEngine__EventSystems__IMoveHandler() noexcept {
   return static_cast<::UnityEngine::EventSystems::IMoveHandler*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::UnityEngine::EventSystems::ISubmitHandler"
 constexpr UnityEngine::EventSystems::EventTrigger::operator ::UnityEngine::EventSystems::ISubmitHandler*() noexcept {
   return static_cast<::UnityEngine::EventSystems::ISubmitHandler*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::UnityEngine::EventSystems::ISubmitHandler"
+constexpr ::UnityEngine::EventSystems::ISubmitHandler* UnityEngine::EventSystems::EventTrigger::i___UnityEngine__EventSystems__ISubmitHandler() noexcept {
+  return static_cast<::UnityEngine::EventSystems::ISubmitHandler*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::UnityEngine::EventSystems::ICancelHandler"
 constexpr UnityEngine::EventSystems::EventTrigger::operator ::UnityEngine::EventSystems::ICancelHandler*() noexcept {
+  return static_cast<::UnityEngine::EventSystems::ICancelHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::ICancelHandler"
+constexpr ::UnityEngine::EventSystems::ICancelHandler* UnityEngine::EventSystems::EventTrigger::i___UnityEngine__EventSystems__ICancelHandler() noexcept {
   return static_cast<::UnityEngine::EventSystems::ICancelHandler*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__EventTrigger__Entry*>*& UnityEngine::EventSystems::EventTrigger::__get_m_Delegates() {

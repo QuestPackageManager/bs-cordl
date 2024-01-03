@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(BaseChannel)
 namespace LiteNetLib {
 class NetPacket;
 }
-namespace System::Collections::Generic {
-template <typename T> class Queue_1;
-}
 namespace LiteNetLib {
 class NetPeer;
+}
+namespace System::Collections::Generic {
+template <typename T> class Queue_1;
 }
 // Forward declare root types
 namespace LiteNetLib {

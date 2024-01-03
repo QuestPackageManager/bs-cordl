@@ -8,11 +8,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVREnumerable_1)
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class IEnumerator;
+namespace GlobalNamespace {
+template <typename T> struct __OVREnumerable_1__Enumerator__CollectionType;
 }
 namespace GlobalNamespace {
 template <typename T> struct __OVREnumerable_1__Enumerator;
@@ -23,23 +20,26 @@ template <typename T> class IEnumerable_1;
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System {
-class IDisposable;
-}
-namespace GlobalNamespace {
-template <typename T> struct __OVREnumerable_1__Enumerator__CollectionType;
-}
 namespace System::Collections::Generic {
-template <typename T> struct __Queue_1__Enumerator;
+template <typename T> class IReadOnlyList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> struct __HashSet_1__Enumerator;
 }
+namespace System::Collections::Generic {
+template <typename T> struct __Queue_1__Enumerator;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class IDisposable;
+}
 namespace System {
 class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -61,7 +61,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8104)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8104), inst: 1019 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8104), inst: 1019 }), TypeDefinitionIndex(TypeDefinitionIndex(8104))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8104))
 // CS Name: ::OVREnumerable`1::Enumerator::CollectionType<T>
 struct CORDL_TYPE __OVREnumerable_1__Enumerator__CollectionType {
@@ -121,9 +121,9 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3852), inst: 1018 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8104), inst: 1018 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14314), inst: 1018 }), TypeDefinitionIndex(TypeDefinitionIndex(8104)), TypeDefinitionIndex(TypeDefinitionIndex(14314)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3852))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8105)) CS Name: ::OVREnumerable`1::Enumerator<T>
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14314)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3852), inst: 1018 }), GenericInstantiation(GenericInstantiation
+// { tdi: TypeDefinitionIndex(8104), inst: 1018 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14314), inst: 1018 }), TypeDefinitionIndex(TypeDefinitionIndex(3852)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8104))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8105)) CS Name: ::OVREnumerable`1::Enumerator<T>
 struct CORDL_TYPE __OVREnumerable_1__Enumerator {
 public:
   // Declarations
@@ -136,11 +136,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<T>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<T>* i___System__Collections__Generic__IEnumerator_1_T_();
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*();
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator();
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<T>* enumerable);
@@ -225,8 +234,14 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<T>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>* i___System__Collections__Generic__IEnumerable_1_T_();
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<T>* enumerable);

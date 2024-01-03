@@ -10,10 +10,10 @@ namespace Org::BouncyCastle::Apache::Bzip2 {
 class CRC;
 }
 namespace System::IO {
-class Stream;
+struct SeekOrigin;
 }
 namespace System::IO {
-struct SeekOrigin;
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Apache::Bzip2 {

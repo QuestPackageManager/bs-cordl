@@ -10,8 +10,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScrollView)
-namespace UnityEngine::EventSystems {
-class PointerEventData;
+namespace GlobalNamespace {
+class IVRPlatformHelper;
+}
+namespace HMUI {
+class ButtonBinder;
+}
+namespace HMUI {
+class EventSystemListener;
+}
+namespace HMUI {
+class ItemForFocussedScrolling;
+}
+namespace HMUI {
+class VerticalScrollIndicator;
+}
+namespace HMUI {
+struct __ScrollView__ScrollDirection;
+}
+namespace HMUI {
+struct __ScrollView__ScrollType;
+}
+namespace HMUI {
+struct __ScrollView__ScrollViewDirection;
 }
 namespace HMUI {
 class __ScrollView____c;
@@ -22,53 +43,32 @@ class __ScrollView____c__DisplayClass55_0;
 namespace HMUI {
 class __ScrollView____c__DisplayClass56_0;
 }
-namespace GlobalNamespace {
-class IVRPlatformHelper;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace HMUI {
-class ButtonBinder;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace HMUI {
-class EventSystemListener;
-}
-namespace HMUI {
-class ItemForFocussedScrolling;
-}
-namespace UnityEngine::UI {
-class Button;
-}
 namespace HMUI {
 class __ScrollView____c__DisplayClass61_0;
 }
 namespace HMUI {
-struct __ScrollView__ScrollViewDirection;
+class __ScrollView____c__DisplayClass61_1;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace UnityEngine::UI {
+class Button;
 }
 namespace UnityEngine {
 class RectTransform;
 }
 namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
 struct Vector3;
-}
-namespace HMUI {
-class __ScrollView____c__DisplayClass61_1;
-}
-namespace HMUI {
-struct __ScrollView__ScrollType;
-}
-namespace HMUI {
-struct __ScrollView__ScrollDirection;
-}
-namespace HMUI {
-class VerticalScrollIndicator;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace HMUI {
@@ -548,7 +548,7 @@ static_assert(offsetof(::HMUI::__ScrollView____c__DisplayClass61_1, ___threshold
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13641)), TypeDefinitionIndex(TypeDefinitionIndex(13640)), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13640)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(13641)),
 // TypeDefinitionIndex(TypeDefinitionIndex(13642))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13648)) CS Name: ::HMUI::ScrollView*
 class CORDL_TYPE ScrollView : public ::UnityEngine::MonoBehaviour {
 public:

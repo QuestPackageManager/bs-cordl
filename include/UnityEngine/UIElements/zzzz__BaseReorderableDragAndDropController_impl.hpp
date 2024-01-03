@@ -1,15 +1,15 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseReorderableDragAndDropController_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IListDragAndDropArgs_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ICollectionDragAndDropController_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IReorderable_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IDragAndDropController_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StartDragArgs_def.hpp"
-#include "UnityEngine/UIElements/zzzz__BaseVerticalCollectionView_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseVerticalCollectionView_def.hpp"
 #include "UnityEngine/UIElements/zzzz__DragVisualMode_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ICollectionDragAndDropController_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IDragAndDropController_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IListDragAndDropArgs_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IReorderable_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StartDragArgs_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::BaseReorderableDragAndDropController._ctor
 template <>
 
@@ -18,7 +18,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x2e08b40;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseReorderableDragAndDropController*>::get(), ".ctor", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::BaseVerticalCollectionView*>::get() })));
@@ -33,7 +33,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2e08f94;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseReorderableDragAndDropController*>::get(),
                                                  "get_enableReordering", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -48,7 +48,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x2e08f9c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseReorderableDragAndDropController*>::get(), "set_enableReordering",
                                     std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
@@ -63,7 +63,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2e08fa8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseReorderableDragAndDropController*>::get(),
@@ -80,7 +80,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x5d4;
   constexpr static std::size_t addrs = 0x2e08fb0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseReorderableDragAndDropController*>::get(),
@@ -96,7 +96,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseReorderableDragAndDropController*>::get(),
@@ -112,7 +112,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseReorderableDragAndDropController*>::get(),
@@ -124,12 +124,26 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 constexpr UnityEngine::UIElements::BaseReorderableDragAndDropController::operator ::UnityEngine::UIElements::ICollectionDragAndDropController*() noexcept {
   return static_cast<::UnityEngine::UIElements::ICollectionDragAndDropController*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::UnityEngine::UIElements::ICollectionDragAndDropController"
+constexpr ::UnityEngine::UIElements::ICollectionDragAndDropController*
+UnityEngine::UIElements::BaseReorderableDragAndDropController::i___UnityEngine__UIElements__ICollectionDragAndDropController() noexcept {
+  return static_cast<::UnityEngine::UIElements::ICollectionDragAndDropController*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::UnityEngine::UIElements::IDragAndDropController_1<::UnityEngine::UIElements::IListDragAndDropArgs*>"
 constexpr UnityEngine::UIElements::BaseReorderableDragAndDropController::operator ::UnityEngine::UIElements::IDragAndDropController_1<::UnityEngine::UIElements::IListDragAndDropArgs*>*() noexcept {
   return static_cast<::UnityEngine::UIElements::IDragAndDropController_1<::UnityEngine::UIElements::IListDragAndDropArgs*>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::UnityEngine::UIElements::IDragAndDropController_1<::UnityEngine::UIElements::IListDragAndDropArgs*>"
+constexpr ::UnityEngine::UIElements::IDragAndDropController_1<::UnityEngine::UIElements::IListDragAndDropArgs*>*
+UnityEngine::UIElements::BaseReorderableDragAndDropController::i___UnityEngine__UIElements__IDragAndDropController_1___UnityEngine__UIElements__IListDragAndDropArgs__() noexcept {
+  return static_cast<::UnityEngine::UIElements::IDragAndDropController_1<::UnityEngine::UIElements::IListDragAndDropArgs*>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::UnityEngine::UIElements::IReorderable"
 constexpr UnityEngine::UIElements::BaseReorderableDragAndDropController::operator ::UnityEngine::UIElements::IReorderable*() noexcept {
+  return static_cast<::UnityEngine::UIElements::IReorderable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::UIElements::IReorderable"
+constexpr ::UnityEngine::UIElements::IReorderable* UnityEngine::UIElements::BaseReorderableDragAndDropController::i___UnityEngine__UIElements__IReorderable() noexcept {
   return static_cast<::UnityEngine::UIElements::IReorderable*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView*& UnityEngine::UIElements::BaseReorderableDragAndDropController::__get_m_View() {

@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(RecipientInformationStore)
 namespace Org::BouncyCastle::Cms {
 class RecipientID;
 }
+namespace Org::BouncyCastle::Cms {
+class RecipientInformation;
+}
 namespace System::Collections {
 class ICollection;
 }
 namespace System::Collections {
 class IDictionary;
-}
-namespace Org::BouncyCastle::Cms {
-class RecipientInformation;
 }
 namespace System::Collections {
 class IList;

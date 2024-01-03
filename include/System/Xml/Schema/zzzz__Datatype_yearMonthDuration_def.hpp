@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Datatype_yearMonthDuration)
-namespace System::Xml {
-class IXmlNamespaceResolver;
-}
 namespace System::Xml::Schema {
 struct XmlTypeCode;
+}
+namespace System::Xml {
+class IXmlNamespaceResolver;
 }
 namespace System::Xml {
 class XmlNameTable;
 }
 namespace System {
-class Object;
+class Exception;
 }
 namespace System {
-class Exception;
+class Object;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

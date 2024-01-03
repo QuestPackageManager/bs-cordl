@@ -14,50 +14,50 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRGLTFAnimatinonNode)
-namespace UnityEngine {
-struct Vector3;
+namespace GlobalNamespace {
+struct OVRBinaryChunk;
 }
 namespace GlobalNamespace {
-struct __OVRGLTFAnimatinonNode__ThumbstickDirection;
+class OVRGLTFAnimationNodeMorphTargetHandler;
 }
 namespace GlobalNamespace {
 struct OVRGLTFInputNode;
 }
 namespace GlobalNamespace {
+struct __OVRGLTFAnimatinonNode__InputNodeState;
+}
+namespace GlobalNamespace {
+struct __OVRGLTFAnimatinonNode__OVRGLTFTransformType;
+}
+namespace GlobalNamespace {
 struct __OVRGLTFAnimatinonNode__OVRInterpolationType;
 }
 namespace GlobalNamespace {
-struct OVRBinaryChunk;
+struct __OVRGLTFAnimatinonNode__ThumbstickDirection;
+}
+namespace OVRSimpleJSON {
+class JSONNode;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T1, typename T2> class Tuple_2;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
-struct Quaternion;
-}
-namespace OVRSimpleJSON {
-class JSONNode;
-}
-namespace GlobalNamespace {
-class OVRGLTFAnimationNodeMorphTargetHandler;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-struct __OVRGLTFAnimatinonNode__InputNodeState;
-}
-namespace System {
-template <typename T1, typename T2> class Tuple_2;
-}
-namespace GlobalNamespace {
-struct __OVRGLTFAnimatinonNode__OVRGLTFTransformType;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -474,8 +474,7 @@ public:
   inline void UpdatePose(bool down);
 
   /// @brief Method UpdatePose, addr 0x27209bc, size 0x448, virtual false, abstract: false, final false
-  /// @param applyDeadZone: bool (default: true)
-  inline void UpdatePose(float_t t, bool applyDeadZone = true);
+  inline void UpdatePose(float_t t, bool applyDeadZone);
 
   /// @brief Method UpdatePose, addr 0x2720e04, size 0x34c, virtual false, abstract: false, final false
   inline void UpdatePose(::UnityEngine::Vector2 joystick);

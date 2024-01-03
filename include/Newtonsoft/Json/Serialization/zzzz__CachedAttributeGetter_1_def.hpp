@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CachedAttributeGetter_1)
-namespace System {
-class Object;
-}
 namespace Newtonsoft::Json::Utilities {
 template <typename TKey, typename TValue> class ThreadSafeStore_2;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {

@@ -6,25 +6,25 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PosesSerializer)
 namespace GlobalNamespace {
-class PosesRecordingInfoSaveData;
-}
-namespace GlobalNamespace {
-class __PosesRecordingData__TransformsKeyframe;
+class IBeatSaberLogger;
 }
 namespace GlobalNamespace {
 class IPosesSerializer;
 }
 namespace GlobalNamespace {
-class IBeatSaberLogger;
-}
-namespace GlobalNamespace {
 class PosesRecordingData;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace GlobalNamespace {
+class PosesRecordingInfoSaveData;
 }
 namespace GlobalNamespace {
 class RecordingConverter;
+}
+namespace GlobalNamespace {
+class __PosesRecordingData__TransformsKeyframe;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -50,6 +50,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IPosesSerializer"
   constexpr operator ::GlobalNamespace::IPosesSerializer*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IPosesSerializer"
+  constexpr ::GlobalNamespace::IPosesSerializer* i___GlobalNamespace__IPosesSerializer() noexcept;
 
   constexpr ::GlobalNamespace::IBeatSaberLogger*& __get__logger();
 

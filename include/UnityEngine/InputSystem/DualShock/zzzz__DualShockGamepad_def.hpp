@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/zzzz__Gamepad_def.hpp"
 CORDL_MODULE_EXPORT(DualShockGamepad)
+namespace UnityEngine::InputSystem::Controls {
+class ButtonControl;
+}
 namespace UnityEngine::InputSystem::DualShock {
 class IDualShockHaptics;
 }
 namespace UnityEngine::InputSystem::Haptics {
 class IDualMotorRumble;
-}
-namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
 }
 namespace UnityEngine::InputSystem::Haptics {
 class IHaptics;
@@ -86,11 +86,20 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::DualShock::IDualShockHaptics"
   constexpr operator ::UnityEngine::InputSystem::DualShock::IDualShockHaptics*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::InputSystem::DualShock::IDualShockHaptics"
+  constexpr ::UnityEngine::InputSystem::DualShock::IDualShockHaptics* i___UnityEngine__InputSystem__DualShock__IDualShockHaptics() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::InputSystem::Haptics::IDualMotorRumble"
   constexpr operator ::UnityEngine::InputSystem::Haptics::IDualMotorRumble*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::InputSystem::Haptics::IDualMotorRumble"
+  constexpr ::UnityEngine::InputSystem::Haptics::IDualMotorRumble* i___UnityEngine__InputSystem__Haptics__IDualMotorRumble() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::InputSystem::Haptics::IHaptics"
   constexpr operator ::UnityEngine::InputSystem::Haptics::IHaptics*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::InputSystem::Haptics::IHaptics"
+  constexpr ::UnityEngine::InputSystem::Haptics::IHaptics* i___UnityEngine__InputSystem__Haptics__IHaptics() noexcept;
 
   constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__touchpadButton_k__BackingField();
 

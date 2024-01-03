@@ -38,8 +38,7 @@ public:
   static inline ::UnityEngine::Bindings::NotNullAttribute* New_ctor(::StringW exception);
 
   /// @brief Method .ctor, addr 0x2d18880, size 0x28, virtual false, abstract: false, final false
-  /// @param exception: ::StringW (default: u"ArgumentNullException")
-  inline void _ctor(::StringW exception = u"ArgumentNullException");
+  inline void _ctor(::StringW exception);
 
   // Ctor Parameters [CppParam { name: "", ty: "NotNullAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

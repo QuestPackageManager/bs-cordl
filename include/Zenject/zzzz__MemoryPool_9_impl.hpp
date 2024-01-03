@@ -1,17 +1,24 @@
 #pragma once
 #include "Zenject/zzzz__MemoryPoolBase_1_impl.hpp"
 #include "Zenject/zzzz__MemoryPool_9_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-#include "Zenject/zzzz__IMemoryPool_def.hpp"
-#include "Zenject/zzzz__IFactory_def.hpp"
-#include "Zenject/zzzz__IFactory_9_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__IDespawnableMemoryPool_1_def.hpp"
+#include "Zenject/zzzz__IFactory_9_def.hpp"
+#include "Zenject/zzzz__IFactory_def.hpp"
 #include "Zenject/zzzz__IMemoryPool_9_def.hpp"
+#include "Zenject/zzzz__IMemoryPool_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 /// @brief Convert operator to "::Zenject::IMemoryPool_9<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TValue>"
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TValue>
 constexpr Zenject::MemoryPool_9<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TValue>::operator ::Zenject::IMemoryPool_9<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6,
                                                                                                                                                    TParam7, TParam8, TValue>*() noexcept {
+  return static_cast<::Zenject::IMemoryPool_9<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TValue>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::IMemoryPool_9<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TValue>"
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TValue>
+constexpr ::Zenject::IMemoryPool_9<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TValue>*
+Zenject::MemoryPool_9<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8,
+                      TValue>::i___Zenject__IMemoryPool_9_TParam1_TParam2_TParam3_TParam4_TParam5_TParam6_TParam7_TParam8_TValue_() noexcept {
   return static_cast<::Zenject::IMemoryPool_9<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TValue>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::Zenject::IDespawnableMemoryPool_1<TValue>"
@@ -19,9 +26,20 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TParam4
 constexpr Zenject::MemoryPool_9<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TValue>::operator ::Zenject::IDespawnableMemoryPool_1<TValue>*() noexcept {
   return static_cast<::Zenject::IDespawnableMemoryPool_1<TValue>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::Zenject::IDespawnableMemoryPool_1<TValue>"
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TValue>
+constexpr ::Zenject::IDespawnableMemoryPool_1<TValue>*
+Zenject::MemoryPool_9<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TValue>::i___Zenject__IDespawnableMemoryPool_1_TValue_() noexcept {
+  return static_cast<::Zenject::IDespawnableMemoryPool_1<TValue>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::Zenject::IMemoryPool"
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TValue>
 constexpr Zenject::MemoryPool_9<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TValue>::operator ::Zenject::IMemoryPool*() noexcept {
+  return static_cast<::Zenject::IMemoryPool*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::IMemoryPool"
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TValue>
+constexpr ::Zenject::IMemoryPool* Zenject::MemoryPool_9<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TValue>::i___Zenject__IMemoryPool() noexcept {
   return static_cast<::Zenject::IMemoryPool*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::Zenject::IFactory_9<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TValue>"
@@ -30,9 +48,21 @@ constexpr Zenject::MemoryPool_9<TParam1, TParam2, TParam3, TParam4, TParam5, TPa
                                                                                                                                                 TParam7, TParam8, TValue>*() noexcept {
   return static_cast<::Zenject::IFactory_9<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TValue>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::Zenject::IFactory_9<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TValue>"
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TValue>
+constexpr ::Zenject::IFactory_9<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TValue>*
+Zenject::MemoryPool_9<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8,
+                      TValue>::i___Zenject__IFactory_9_TParam1_TParam2_TParam3_TParam4_TParam5_TParam6_TParam7_TParam8_TValue_() noexcept {
+  return static_cast<::Zenject::IFactory_9<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TValue>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::Zenject::IFactory"
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TValue>
 constexpr Zenject::MemoryPool_9<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TValue>::operator ::Zenject::IFactory*() noexcept {
+  return static_cast<::Zenject::IFactory*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::IFactory"
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TValue>
+constexpr ::Zenject::IFactory* Zenject::MemoryPool_9<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TValue>::i___Zenject__IFactory() noexcept {
   return static_cast<::Zenject::IFactory*>(static_cast<void*>(this));
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TValue>

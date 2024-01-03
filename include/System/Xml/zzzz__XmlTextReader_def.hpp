@@ -5,20 +5,14 @@ CORDL_MODULE_INIT
 #include "System/Xml/zzzz__XmlReader_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlTextReader)
-namespace System::Xml {
-class XmlResolver;
-}
-namespace System::Xml {
-class XmlNameTable;
-}
-namespace System::Xml {
-class IDtdInfo;
-}
 namespace System::IO {
 class TextReader;
 }
 namespace System::Xml {
-struct XmlNodeType;
+struct EntityHandling;
+}
+namespace System::Xml {
+class IDtdInfo;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;
@@ -27,10 +21,16 @@ namespace System::Xml {
 struct ReadState;
 }
 namespace System::Xml {
-class XmlTextReaderImpl;
+class XmlNameTable;
 }
 namespace System::Xml {
-struct EntityHandling;
+struct XmlNodeType;
+}
+namespace System::Xml {
+class XmlResolver;
+}
+namespace System::Xml {
+class XmlTextReaderImpl;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -87,6 +87,9 @@ public:
 
   /// @brief Convert operator to "::System::Xml::IXmlNamespaceResolver"
   constexpr operator ::System::Xml::IXmlNamespaceResolver*() noexcept;
+
+  /// @brief Convert to "::System::Xml::IXmlNamespaceResolver"
+  constexpr ::System::Xml::IXmlNamespaceResolver* i___System__Xml__IXmlNamespaceResolver() noexcept;
 
   constexpr ::System::Xml::XmlTextReaderImpl*& __get_impl();
 

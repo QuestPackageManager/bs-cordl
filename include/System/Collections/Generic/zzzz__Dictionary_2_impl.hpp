@@ -2,29 +2,29 @@
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyDictionary_2_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/Collections/Generic/zzzz__InsertionBehavior_def.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
-#include "System/zzzz__Array_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyDictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__InsertionBehavior_def.hpp"
+#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
+#include "System/Collections/zzzz__DictionaryEntry_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
-#include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__Array_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/zzzz__DictionaryEntry_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 // Ctor Parameters [CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "next", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "key", ty: "TKey", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "value", ty: "TValue", modifiers: "", def_value: Some("nullptr") }]
 template <typename TKey, typename TValue>
@@ -42,16 +42,35 @@ constexpr System::Collections::Generic::__Dictionary_2__Enumerator<TKey,
                                                                    TValue>::operator ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
+System::Collections::Generic::__Dictionary_2__Enumerator<TKey, TValue>::i___System__Collections__Generic__IEnumerator_1___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::IDisposable"
 template <typename TKey, typename TValue> constexpr System::Collections::Generic::__Dictionary_2__Enumerator<TKey, TValue>::operator ::System::IDisposable*() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename TKey, typename TValue> constexpr ::System::IDisposable* System::Collections::Generic::__Dictionary_2__Enumerator<TKey, TValue>::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 template <typename TKey, typename TValue> constexpr System::Collections::Generic::__Dictionary_2__Enumerator<TKey, TValue>::operator ::System::Collections::IEnumerator*() {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Collections::IEnumerator"
+template <typename TKey, typename TValue> constexpr ::System::Collections::IEnumerator* System::Collections::Generic::__Dictionary_2__Enumerator<TKey, TValue>::i___System__Collections__IEnumerator() {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::Collections::IDictionaryEnumerator"
 template <typename TKey, typename TValue> constexpr System::Collections::Generic::__Dictionary_2__Enumerator<TKey, TValue>::operator ::System::Collections::IDictionaryEnumerator*() {
+  return static_cast<::System::Collections::IDictionaryEnumerator*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::Collections::IDictionaryEnumerator"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::IDictionaryEnumerator* System::Collections::Generic::__Dictionary_2__Enumerator<TKey, TValue>::i___System__Collections__IDictionaryEnumerator() {
   return static_cast<::System::Collections::IDictionaryEnumerator*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename TKey, typename TValue>
@@ -132,12 +151,26 @@ template <typename TKey, typename TValue> constexpr ::System::Collections::Gener
 template <typename TKey, typename TValue> constexpr GlobalNamespace::__Dictionary_2__KeyCollection__Enumerator<TKey, TValue>::operator ::System::Collections::Generic::IEnumerator_1<TKey>*() {
   return static_cast<::System::Collections::Generic::IEnumerator_1<TKey>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TKey>"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::IEnumerator_1<TKey>* GlobalNamespace::__Dictionary_2__KeyCollection__Enumerator<TKey, TValue>::i___System__Collections__Generic__IEnumerator_1_TKey_() {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<TKey>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::IDisposable"
 template <typename TKey, typename TValue> constexpr GlobalNamespace::__Dictionary_2__KeyCollection__Enumerator<TKey, TValue>::operator ::System::IDisposable*() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::IDisposable"
+template <typename TKey, typename TValue> constexpr ::System::IDisposable* GlobalNamespace::__Dictionary_2__KeyCollection__Enumerator<TKey, TValue>::i___System__IDisposable() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 template <typename TKey, typename TValue> constexpr GlobalNamespace::__Dictionary_2__KeyCollection__Enumerator<TKey, TValue>::operator ::System::Collections::IEnumerator*() {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::__Dictionary_2__KeyCollection__Enumerator<TKey, TValue>::i___System__Collections__IEnumerator() {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename TKey, typename TValue>
@@ -195,22 +228,50 @@ template <typename TKey, typename TValue>
 constexpr System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>::operator ::System::Collections::Generic::ICollection_1<TKey>*() noexcept {
   return static_cast<::System::Collections::Generic::ICollection_1<TKey>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::ICollection_1<TKey>"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::ICollection_1<TKey>*
+System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>::i___System__Collections__Generic__ICollection_1_TKey_() noexcept {
+  return static_cast<::System::Collections::Generic::ICollection_1<TKey>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TKey>"
 template <typename TKey, typename TValue>
 constexpr System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>::operator ::System::Collections::Generic::IEnumerable_1<TKey>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<TKey>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TKey>"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::IEnumerable_1<TKey>*
+System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>::i___System__Collections__Generic__IEnumerable_1_TKey_() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<TKey>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename TKey, typename TValue> constexpr System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>::operator ::System::Collections::IEnumerable*() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::IEnumerable* System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::ICollection"
 template <typename TKey, typename TValue> constexpr System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>::operator ::System::Collections::ICollection*() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::ICollection"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::ICollection* System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>::i___System__Collections__ICollection() noexcept {
   return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<TKey>"
 template <typename TKey, typename TValue>
 constexpr System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>::operator ::System::Collections::Generic::IReadOnlyCollection_1<TKey>*() noexcept {
+  return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<TKey>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<TKey>"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::IReadOnlyCollection_1<TKey>*
+System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>::i___System__Collections__Generic__IReadOnlyCollection_1_TKey_() noexcept {
   return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<TKey>*>(static_cast<void*>(this));
 }
 template <typename TKey, typename TValue>
@@ -331,12 +392,26 @@ template <typename TKey, typename TValue> constexpr ::System::Collections::Gener
 template <typename TKey, typename TValue> constexpr GlobalNamespace::__Dictionary_2__ValueCollection__Enumerator<TKey, TValue>::operator ::System::Collections::Generic::IEnumerator_1<TValue>*() {
   return static_cast<::System::Collections::Generic::IEnumerator_1<TValue>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TValue>"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::IEnumerator_1<TValue>* GlobalNamespace::__Dictionary_2__ValueCollection__Enumerator<TKey, TValue>::i___System__Collections__Generic__IEnumerator_1_TValue_() {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<TValue>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::IDisposable"
 template <typename TKey, typename TValue> constexpr GlobalNamespace::__Dictionary_2__ValueCollection__Enumerator<TKey, TValue>::operator ::System::IDisposable*() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::IDisposable"
+template <typename TKey, typename TValue> constexpr ::System::IDisposable* GlobalNamespace::__Dictionary_2__ValueCollection__Enumerator<TKey, TValue>::i___System__IDisposable() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 template <typename TKey, typename TValue> constexpr GlobalNamespace::__Dictionary_2__ValueCollection__Enumerator<TKey, TValue>::operator ::System::Collections::IEnumerator*() {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::__Dictionary_2__ValueCollection__Enumerator<TKey, TValue>::i___System__Collections__IEnumerator() {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename TKey, typename TValue>
@@ -394,22 +469,50 @@ template <typename TKey, typename TValue>
 constexpr System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>::operator ::System::Collections::Generic::ICollection_1<TValue>*() noexcept {
   return static_cast<::System::Collections::Generic::ICollection_1<TValue>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::ICollection_1<TValue>"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::ICollection_1<TValue>*
+System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>::i___System__Collections__Generic__ICollection_1_TValue_() noexcept {
+  return static_cast<::System::Collections::Generic::ICollection_1<TValue>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TValue>"
 template <typename TKey, typename TValue>
 constexpr System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>::operator ::System::Collections::Generic::IEnumerable_1<TValue>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<TValue>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TValue>"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::IEnumerable_1<TValue>*
+System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>::i___System__Collections__Generic__IEnumerable_1_TValue_() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<TValue>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename TKey, typename TValue> constexpr System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>::operator ::System::Collections::IEnumerable*() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::IEnumerable* System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::ICollection"
 template <typename TKey, typename TValue> constexpr System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>::operator ::System::Collections::ICollection*() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::ICollection"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::ICollection* System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>::i___System__Collections__ICollection() noexcept {
   return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<TValue>"
 template <typename TKey, typename TValue>
 constexpr System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>::operator ::System::Collections::Generic::IReadOnlyCollection_1<TValue>*() noexcept {
+  return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<TValue>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<TValue>"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::IReadOnlyCollection_1<TValue>*
+System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>::i___System__Collections__Generic__IReadOnlyCollection_1_TValue_() noexcept {
   return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<TValue>*>(static_cast<void*>(this));
 }
 template <typename TKey, typename TValue>
@@ -533,9 +636,21 @@ template <typename TKey, typename TValue> constexpr ::System::Collections::Gener
 template <typename TKey, typename TValue> constexpr System::Collections::Generic::Dictionary_2<TKey, TValue>::operator ::System::Collections::Generic::IDictionary_2<TKey, TValue>*() noexcept {
   return static_cast<::System::Collections::Generic::IDictionary_2<TKey, TValue>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IDictionary_2<TKey,TValue>"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::IDictionary_2<TKey, TValue>*
+System::Collections::Generic::Dictionary_2<TKey, TValue>::i___System__Collections__Generic__IDictionary_2_TKey_TValue_() noexcept {
+  return static_cast<::System::Collections::Generic::IDictionary_2<TKey, TValue>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
 template <typename TKey, typename TValue>
 constexpr System::Collections::Generic::Dictionary_2<TKey, TValue>::operator ::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept {
+  return static_cast<::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
+System::Collections::Generic::Dictionary_2<TKey, TValue>::i___System__Collections__Generic__ICollection_1___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() noexcept {
   return static_cast<::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
@@ -543,20 +658,44 @@ template <typename TKey, typename TValue>
 constexpr System::Collections::Generic::Dictionary_2<TKey, TValue>::operator ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
+System::Collections::Generic::Dictionary_2<TKey, TValue>::i___System__Collections__Generic__IEnumerable_1___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename TKey, typename TValue> constexpr System::Collections::Generic::Dictionary_2<TKey, TValue>::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename TKey, typename TValue> constexpr ::System::Collections::IEnumerable* System::Collections::Generic::Dictionary_2<TKey, TValue>::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IDictionary"
 template <typename TKey, typename TValue> constexpr System::Collections::Generic::Dictionary_2<TKey, TValue>::operator ::System::Collections::IDictionary*() noexcept {
   return static_cast<::System::Collections::IDictionary*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::IDictionary"
+template <typename TKey, typename TValue> constexpr ::System::Collections::IDictionary* System::Collections::Generic::Dictionary_2<TKey, TValue>::i___System__Collections__IDictionary() noexcept {
+  return static_cast<::System::Collections::IDictionary*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::ICollection"
 template <typename TKey, typename TValue> constexpr System::Collections::Generic::Dictionary_2<TKey, TValue>::operator ::System::Collections::ICollection*() noexcept {
   return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::ICollection"
+template <typename TKey, typename TValue> constexpr ::System::Collections::ICollection* System::Collections::Generic::Dictionary_2<TKey, TValue>::i___System__Collections__ICollection() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyDictionary_2<TKey,TValue>"
 template <typename TKey, typename TValue> constexpr System::Collections::Generic::Dictionary_2<TKey, TValue>::operator ::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>*() noexcept {
+  return static_cast<::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IReadOnlyDictionary_2<TKey,TValue>"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>*
+System::Collections::Generic::Dictionary_2<TKey, TValue>::i___System__Collections__Generic__IReadOnlyDictionary_2_TKey_TValue_() noexcept {
   return static_cast<::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
@@ -565,12 +704,29 @@ constexpr System::Collections::Generic::Dictionary_2<TKey,
                                                      TValue>::operator ::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept {
   return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
+System::Collections::Generic::Dictionary_2<TKey, TValue>::i___System__Collections__Generic__IReadOnlyCollection_1___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() noexcept {
+  return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
 template <typename TKey, typename TValue> constexpr System::Collections::Generic::Dictionary_2<TKey, TValue>::operator ::System::Runtime::Serialization::ISerializable*() noexcept {
   return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+template <typename TKey, typename TValue>
+constexpr ::System::Runtime::Serialization::ISerializable* System::Collections::Generic::Dictionary_2<TKey, TValue>::i___System__Runtime__Serialization__ISerializable() noexcept {
+  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
 template <typename TKey, typename TValue> constexpr System::Collections::Generic::Dictionary_2<TKey, TValue>::operator ::System::Runtime::Serialization::IDeserializationCallback*() noexcept {
+  return static_cast<::System::Runtime::Serialization::IDeserializationCallback*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
+template <typename TKey, typename TValue>
+constexpr ::System::Runtime::Serialization::IDeserializationCallback*
+System::Collections::Generic::Dictionary_2<TKey, TValue>::i___System__Runtime__Serialization__IDeserializationCallback() noexcept {
   return static_cast<::System::Runtime::Serialization::IDeserializationCallback*>(static_cast<void*>(this));
 }
 template <typename TKey, typename TValue> constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& System::Collections::Generic::Dictionary_2<TKey, TValue>::__get__buckets() {

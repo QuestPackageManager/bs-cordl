@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Task_WhenAllPromise_1)
 namespace System::Threading::Tasks {
-class Task;
+class ITaskCompletionAction;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace System::Threading::Tasks {
-class ITaskCompletionAction;
+class Task;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
@@ -27,7 +27,7 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 5134 }), TypeDefinitionIndex(TypeDefinitionIndex(2773))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 5134 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2785))
 // CS Name: ::Task::WhenAllPromise`1<T>*
 class CORDL_TYPE __Task__WhenAllPromise_1 : public ::System::Threading::Tasks::Task_1<::ArrayW<T, ::Array<T>*>> {
@@ -45,6 +45,9 @@ public:
 
   /// @brief Convert operator to "::System::Threading::Tasks::ITaskCompletionAction"
   constexpr operator ::System::Threading::Tasks::ITaskCompletionAction*() noexcept;
+
+  /// @brief Convert to "::System::Threading::Tasks::ITaskCompletionAction"
+  constexpr ::System::Threading::Tasks::ITaskCompletionAction* i___System__Threading__Tasks__ITaskCompletionAction() noexcept;
 
   constexpr ::ArrayW<::System::Threading::Tasks::Task_1<T>*, ::Array<::System::Threading::Tasks::Task_1<T>*>*>& __get_m_tasks();
 

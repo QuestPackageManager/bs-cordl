@@ -9,25 +9,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PermissionSet)
 namespace System::Collections {
+class ArrayList;
+}
+namespace System::Collections {
 class ICollection;
 }
 namespace System::Collections {
-class ArrayList;
-}
-namespace System {
-class Array;
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
 }
+namespace System::Runtime::Serialization {
+class IDeserializationCallback;
+}
 namespace System::Security::Permissions {
 struct PermissionState;
-}
-namespace System::Security {
-class SecurityElement;
-}
-namespace System {
-class Object;
 }
 namespace System::Security {
 class IPermission;
@@ -35,11 +32,14 @@ class IPermission;
 namespace System::Security {
 class ISecurityEncodable;
 }
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
+namespace System::Security {
+class SecurityElement;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System {
+class Array;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Security {
@@ -51,7 +51,7 @@ MARK_REF_PTR_T(::System::Security::PermissionSet);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2902))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2902)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2884))
 // CS Name: ::System.Security::PermissionSet*
 class CORDL_TYPE PermissionSet : public ::System::Object {
@@ -84,14 +84,26 @@ public:
   /// @brief Convert operator to "::System::Security::ISecurityEncodable"
   constexpr operator ::System::Security::ISecurityEncodable*() noexcept;
 
+  /// @brief Convert to "::System::Security::ISecurityEncodable"
+  constexpr ::System::Security::ISecurityEncodable* i___System__Security__ISecurityEncodable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
+
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
   constexpr operator ::System::Runtime::Serialization::IDeserializationCallback*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
+  constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback() noexcept;
 
   constexpr ::System::Security::Permissions::PermissionState& __get_state();
 

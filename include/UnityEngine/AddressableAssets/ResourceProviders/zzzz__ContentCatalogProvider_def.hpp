@@ -11,47 +11,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ContentCatalogProvider)
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine {
-class AssetBundleCreateRequest;
-}
-namespace UnityEngine {
-class AssetBundleRequest;
-}
-namespace UnityEngine::ResourceManagement {
-class WebRequestQueueOperation;
-}
-namespace UnityEngine::Networking {
-class UnityWebRequestAsyncOperation;
-}
-namespace UnityEngine::AddressableAssets::ResourceLocators {
-class ContentCatalogData;
-}
-namespace UnityEngine {
-class AssetBundle;
-}
-namespace UnityEngine {
-class AsyncOperation;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct ProvideHandle;
-}
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
-}
-namespace UnityEngine::AddressableAssets::ResourceProviders {
-struct __ContentCatalogProvider__DependencyHashIndex;
-}
-namespace System {
-class Object;
-}
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
-}
-namespace UnityEngine::AddressableAssets::ResourceProviders {
-class __ContentCatalogProvider__InternalOp;
+namespace GlobalNamespace {
+class __ContentCatalogProvider__InternalOp__BundledCatalog;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -59,11 +20,50 @@ template <typename TKey, typename TValue> class Dictionary_2;
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::AddressableAssets::ResourceLocators {
+class ContentCatalogData;
+}
+namespace UnityEngine::AddressableAssets::ResourceProviders {
+struct __ContentCatalogProvider__DependencyHashIndex;
+}
+namespace UnityEngine::AddressableAssets::ResourceProviders {
+class __ContentCatalogProvider__InternalOp;
+}
+namespace UnityEngine::Networking {
+class UnityWebRequestAsyncOperation;
+}
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> struct AsyncOperationHandle_1;
 }
-namespace GlobalNamespace {
-class __ContentCatalogProvider__InternalOp__BundledCatalog;
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct ProvideHandle;
+}
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
+}
+namespace UnityEngine::ResourceManagement {
+class WebRequestQueueOperation;
+}
+namespace UnityEngine {
+class AssetBundleCreateRequest;
+}
+namespace UnityEngine {
+class AssetBundleRequest;
+}
+namespace UnityEngine {
+class AssetBundle;
+}
+namespace UnityEngine {
+class AsyncOperation;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets::ResourceProviders {
@@ -256,8 +256,7 @@ public:
   static inline ::GlobalNamespace::__ContentCatalogProvider__InternalOp__BundledCatalog* New_ctor(::StringW bundlePath, int32_t webRequestTimeout);
 
   /// @brief Method .ctor, addr 0x2a2bb20, size 0x128, virtual false, abstract: false, final false
-  /// @param webRequestTimeout: int32_t (default: static_cast<int32_t>(0x0))
-  inline void _ctor(::StringW bundlePath, int32_t webRequestTimeout = static_cast<int32_t>(0x0));
+  inline void _ctor(::StringW bundlePath, int32_t webRequestTimeout);
 
   /// @brief Method Finalize, addr 0x2a2c90c, size 0xa8, virtual true, abstract: false, final false
   inline void Finalize();
@@ -357,9 +356,9 @@ static_assert(offsetof(::GlobalNamespace::__ContentCatalogProvider__InternalOp__
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 115, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14002)), TypeDefinitionIndex(TypeDefinitionIndex(14033)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst:
-// 296 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14111))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14106)) CS Name:
-// ::ContentCatalogProvider::InternalOp*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14111)), TypeDefinitionIndex(TypeDefinitionIndex(14002)), TypeDefinitionIndex(TypeDefinitionIndex(14033)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 296 }), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14106)) CS
+// Name: ::ContentCatalogProvider::InternalOp*
 class CORDL_TYPE __ContentCatalogProvider__InternalOp : public ::System::Object {
 public:
   // Declarations
@@ -480,9 +479,8 @@ public:
   inline ::StringW GetTransformedInternalId(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc);
 
   /// @brief Method DetermineIdToLoad, addr 0x2a2abb8, size 0x748, virtual false, abstract: false, final false
-  /// @param disableCatalogUpdateOnStart: bool (default: false)
   inline ::StringW DetermineIdToLoad(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Collections::Generic::IList_1<::System::Object*>* dependencyObjects,
-                                     bool disableCatalogUpdateOnStart = false);
+                                     bool disableCatalogUpdateOnStart);
 
   /// @brief Method OnCatalogLoaded, addr 0x2a2c06c, size 0x7c0, virtual false, abstract: false, final false
   inline void OnCatalogLoaded(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* ccd);

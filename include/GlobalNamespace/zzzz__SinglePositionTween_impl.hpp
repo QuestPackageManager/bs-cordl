@@ -3,12 +3,12 @@
 #include "UnityEngine/zzzz__ExposedReference_1_impl.hpp"
 #include "UnityEngine/zzzz__Transform_impl.hpp"
 #include "GlobalNamespace/zzzz__SinglePositionTween_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
-#include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
-#include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
 #include "GlobalNamespace/zzzz__CustomTweenBehaviour_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
+#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SinglePositionTween.get_clipCaps
 template <>
 
@@ -17,7 +17,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2317b2c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SinglePositionTween*>::get(), "get_clipCaps",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c4;
   constexpr static std::size_t addrs = 0x2317b34;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SinglePositionTween*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SinglePositionTween*>::get(), 6));
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2317cf8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SinglePositionTween*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -53,6 +53,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
 constexpr GlobalNamespace::SinglePositionTween::operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept {
+  return static_cast<::UnityEngine::Timeline::ITimelineClipAsset*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
+constexpr ::UnityEngine::Timeline::ITimelineClipAsset* GlobalNamespace::SinglePositionTween::i___UnityEngine__Timeline__ITimelineClipAsset() noexcept {
   return static_cast<::UnityEngine::Timeline::ITimelineClipAsset*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::ExposedReference_1<::UnityEngine::Transform*>& GlobalNamespace::SinglePositionTween::__get_transformReference() {

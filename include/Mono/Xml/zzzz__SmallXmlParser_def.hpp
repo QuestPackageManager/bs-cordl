@@ -8,10 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SmallXmlParser)
 namespace Mono::Xml {
-class __SmallXmlParser__IContentHandler;
+class __SmallXmlParser__AttrListImpl;
 }
 namespace Mono::Xml {
 class __SmallXmlParser__IAttrList;
+}
+namespace Mono::Xml {
+class __SmallXmlParser__IContentHandler;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Collections {
 class Stack;
@@ -19,17 +25,11 @@ class Stack;
 namespace System::IO {
 class TextReader;
 }
-namespace Mono::Xml {
-class __SmallXmlParser__AttrListImpl;
-}
-namespace System {
-class Exception;
-}
 namespace System::Text {
 class StringBuilder;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace Mono::Xml {
@@ -162,6 +162,9 @@ public:
 
   /// @brief Convert operator to "::Mono::Xml::__SmallXmlParser__IAttrList"
   constexpr operator ::Mono::Xml::__SmallXmlParser__IAttrList*() noexcept;
+
+  /// @brief Convert to "::Mono::Xml::__SmallXmlParser__IAttrList"
+  constexpr ::Mono::Xml::__SmallXmlParser__IAttrList* i___Mono__Xml____SmallXmlParser__IAttrList() noexcept;
 
   constexpr ::System::Collections::Generic::List_1<::StringW>*& __get_attrNames();
 

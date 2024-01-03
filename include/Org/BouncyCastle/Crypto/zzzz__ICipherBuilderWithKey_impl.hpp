@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherBuilderWithKey_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherBuilder_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey.get_Key
 template <>
 
@@ -10,7 +10,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::ICipherBuilderWithKey*>::get(),
@@ -20,6 +20,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherBuilder"
 constexpr Org::BouncyCastle::Crypto::ICipherBuilderWithKey::operator ::Org::BouncyCastle::Crypto::ICipherBuilder*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::ICipherBuilder*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherBuilder"
+constexpr ::Org::BouncyCastle::Crypto::ICipherBuilder* Org::BouncyCastle::Crypto::ICipherBuilderWithKey::i___Org__BouncyCastle__Crypto__ICipherBuilder() noexcept {
   return static_cast<::Org::BouncyCastle::Crypto::ICipherBuilder*>(static_cast<void*>(this));
 }
 inline ::Org::BouncyCastle::Crypto::ICipherParameters* Org::BouncyCastle::Crypto::ICipherBuilderWithKey::get_Key() {

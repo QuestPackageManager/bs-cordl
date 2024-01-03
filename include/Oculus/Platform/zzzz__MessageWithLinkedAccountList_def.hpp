@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithLinkedAccountList);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13262)), TypeDefinitionIndex(TypeDefinitionIndex(13452)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst:
-// 4593 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13300)) CS Name: ::Oculus.Platform::MessageWithLinkedAccountList*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13262)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 4593 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(13452))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13300)) CS Name: ::Oculus.Platform::MessageWithLinkedAccountList*
 class CORDL_TYPE MessageWithLinkedAccountList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LinkedAccountList*> {
 public:
   // Declarations

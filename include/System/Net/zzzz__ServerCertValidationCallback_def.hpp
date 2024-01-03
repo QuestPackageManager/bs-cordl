@@ -5,11 +5,8 @@ CORDL_MODULE_INIT
 #include "System/Net/Security/zzzz__SslPolicyErrors_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ServerCertValidationCallback)
-namespace System::Security::Cryptography::X509Certificates {
-class X509Chain;
-}
-namespace System::Threading {
-class ExecutionContext;
+namespace System::Net::Security {
+class RemoteCertificateValidationCallback;
 }
 namespace System::Net::Security {
 struct SslPolicyErrors;
@@ -17,14 +14,17 @@ struct SslPolicyErrors;
 namespace System::Net {
 class __ServerCertValidationCallback__CallbackContext;
 }
-namespace System {
-class Object;
-}
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
 }
-namespace System::Net::Security {
-class RemoteCertificateValidationCallback;
+namespace System::Security::Cryptography::X509Certificates {
+class X509Chain;
+}
+namespace System::Threading {
+class ExecutionContext;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Net {

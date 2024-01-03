@@ -9,7 +9,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Vector3)
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class IFormatProvider;
@@ -18,7 +18,7 @@ namespace System {
 class IFormattable;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -77,8 +77,14 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Vector3>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Vector3>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Vector3>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Vector3>* i___System__IEquatable_1___UnityEngine__Vector3_();
+
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
+
+  /// @brief Convert to "::System::IFormattable"
+  constexpr ::System::IFormattable* i___System__IFormattable();
 
   static inline void setStaticF_zeroVector(::UnityEngine::Vector3 value);
 

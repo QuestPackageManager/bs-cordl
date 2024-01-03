@@ -6,6 +6,10 @@
 template <typename T> constexpr UnityEngine::UIElements::NavigationEventBase_1<T>::operator ::UnityEngine::UIElements::INavigationEvent*() noexcept {
   return static_cast<::UnityEngine::UIElements::INavigationEvent*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::UnityEngine::UIElements::INavigationEvent"
+template <typename T> constexpr ::UnityEngine::UIElements::INavigationEvent* UnityEngine::UIElements::NavigationEventBase_1<T>::i___UnityEngine__UIElements__INavigationEvent() noexcept {
+  return static_cast<::UnityEngine::UIElements::INavigationEvent*>(static_cast<void*>(this));
+}
 template <typename T> inline ::UnityEngine::UIElements::NavigationEventBase_1<T>* UnityEngine::UIElements::NavigationEventBase_1<T>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::UIElements::NavigationEventBase_1<T>*>());
 }

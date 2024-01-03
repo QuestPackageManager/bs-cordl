@@ -10,8 +10,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRSceneLoader)
-namespace UnityEngine {
-class AsyncOperation;
+namespace GlobalNamespace {
+struct __OVRSceneLoader__SceneInfo;
+}
+namespace GlobalNamespace {
+class __OVRSceneLoader___DelayCanvasPosUpdate_d__24;
+}
+namespace GlobalNamespace {
+class __OVRSceneLoader___onCheckSceneCoroutine_d__25;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -19,8 +28,11 @@ template <typename T> class List_1;
 namespace System::Collections {
 class IEnumerator;
 }
-namespace GlobalNamespace {
-class __OVRSceneLoader___DelayCanvasPosUpdate_d__24;
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
 }
 namespace UnityEngine::UI {
 class Text;
@@ -29,22 +41,10 @@ namespace UnityEngine {
 class AssetBundle;
 }
 namespace UnityEngine {
+class AsyncOperation;
+}
+namespace UnityEngine {
 class Canvas;
-}
-namespace GlobalNamespace {
-class __OVRSceneLoader___onCheckSceneCoroutine_d__25;
-}
-namespace GlobalNamespace {
-struct __OVRSceneLoader__SceneInfo;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -130,11 +130,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -235,11 +244,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

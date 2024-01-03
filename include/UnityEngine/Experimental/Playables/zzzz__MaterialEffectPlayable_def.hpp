@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Playables/zzzz__PlayableHandle_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(MaterialEffectPlayable)
-namespace UnityEngine::Playables {
-class IPlayable;
-}
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace UnityEngine::Playables {
+class IPlayable;
 }
 namespace UnityEngine::Playables {
 struct PlayableHandle;
@@ -33,8 +33,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
+  /// @brief Convert to "::UnityEngine::Playables::IPlayable"
+  constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Experimental::Playables::MaterialEffectPlayable>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Experimental::Playables::MaterialEffectPlayable>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Experimental::Playables::MaterialEffectPlayable>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Experimental::Playables::MaterialEffectPlayable>* i___System__IEquatable_1___UnityEngine__Experimental__Playables__MaterialEffectPlayable_();
 
   /// @brief Method GetHandle, addr 0x2cf472c, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();

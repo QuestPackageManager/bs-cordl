@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::RaycastHit);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12181))
 // CS Name: ::UnityEngine.ProBuilder::RaycastHit*
 class CORDL_TYPE RaycastHit : public ::System::Object {

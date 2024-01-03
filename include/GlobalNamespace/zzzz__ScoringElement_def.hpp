@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScoringElement)
 namespace GlobalNamespace {
-template <typename T> class __ScoringElement__Pool_1;
-}
-namespace System {
-template <typename T> class IComparable_1;
-}
-namespace GlobalNamespace {
 class NoteData;
 }
 namespace GlobalNamespace {
 struct __ScoreMultiplierCounter__MultiplierEventType;
+}
+namespace GlobalNamespace {
+template <typename T> class __ScoringElement__Pool_1;
+}
+namespace System {
+template <typename T> class IComparable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -113,6 +113,9 @@ public:
 
   /// @brief Convert operator to "::System::IComparable_1<::GlobalNamespace::ScoringElement*>"
   constexpr operator ::System::IComparable_1<::GlobalNamespace::ScoringElement*>*() noexcept;
+
+  /// @brief Convert to "::System::IComparable_1<::GlobalNamespace::ScoringElement*>"
+  constexpr ::System::IComparable_1<::GlobalNamespace::ScoringElement*>* i___System__IComparable_1___GlobalNamespace__ScoringElement__() noexcept;
 
   constexpr ::GlobalNamespace::NoteData*& __get__noteData_k__BackingField();
 

@@ -3,7 +3,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__IntPtr_def.hpp"
-#include "UnityEngine/Rendering/zzzz__MeshUpdateFlags_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
@@ -12,53 +11,44 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Mesh)
-namespace UnityEngine {
-struct Bounds;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
-namespace UnityEngine {
-struct __Mesh__MeshData;
+namespace System {
+class Array;
 }
-namespace UnityEngine {
-struct MeshTopology;
+namespace System {
+class IDisposable;
+}
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
+}
+namespace UnityEngine::Rendering {
+struct IndexFormat;
+}
+namespace UnityEngine::Rendering {
+struct MeshUpdateFlags;
+}
+namespace UnityEngine::Rendering {
+struct SubMeshDescriptor;
 }
 namespace UnityEngine::Rendering {
 struct VertexAttributeDescriptor;
 }
 namespace UnityEngine::Rendering {
-struct MeshUpdateFlags;
-}
-namespace UnityEngine {
-struct __Mesh__MeshDataArray;
+struct VertexAttributeFormat;
 }
 namespace UnityEngine::Rendering {
 struct VertexAttribute;
 }
-namespace UnityEngine::Rendering {
-struct IndexFormat;
+namespace UnityEngine {
+struct BoneWeight1;
 }
 namespace UnityEngine {
-struct Vector4;
+struct BoneWeight;
 }
 namespace UnityEngine {
-struct __GraphicsBuffer__Target;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine {
-class GraphicsBuffer;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine::Rendering {
-struct VertexAttributeFormat;
-}
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+struct Bounds;
 }
 namespace UnityEngine {
 struct Color32;
@@ -67,25 +57,34 @@ namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
-struct BoneWeight1;
-}
-namespace System {
-class Array;
-}
-namespace UnityEngine {
 struct CombineInstance;
 }
 namespace UnityEngine {
-struct BoneWeight;
+class GraphicsBuffer;
 }
 namespace UnityEngine {
 struct Matrix4x4;
 }
-namespace UnityEngine::Rendering {
-struct SubMeshDescriptor;
+namespace UnityEngine {
+struct MeshTopology;
 }
-namespace System {
-class IDisposable;
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace UnityEngine {
+struct __GraphicsBuffer__Target;
+}
+namespace UnityEngine {
+struct __Mesh__MeshDataArray;
+}
+namespace UnityEngine {
+struct __Mesh__MeshData;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -118,6 +117,9 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
+
   /// @brief Method get_Length, addr 0x2cace50, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
@@ -134,12 +136,10 @@ public:
   inline void ApplyToMeshesAndDispose(::ArrayW<::UnityEngine::Mesh*, ::Array<::UnityEngine::Mesh*>*> meshes, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method .ctor, addr 0x2ca8d7c, size 0x248, virtual false, abstract: false, final false
-  /// @param checkReadWrite: bool (default: true)
-  inline void _ctor(::UnityEngine::Mesh* mesh, bool checkReadWrite = true);
+  inline void _ctor(::UnityEngine::Mesh* mesh, bool checkReadWrite);
 
   /// @brief Method .ctor, addr 0x2ca9060, size 0x338, virtual false, abstract: false, final false
-  /// @param checkReadWrite: bool (default: true)
-  inline void _ctor(::ArrayW<::UnityEngine::Mesh*, ::Array<::UnityEngine::Mesh*>*> meshes, int32_t meshesCount, bool checkReadWrite = true);
+  inline void _ctor(::ArrayW<::UnityEngine::Mesh*, ::Array<::UnityEngine::Mesh*>*> meshes, int32_t meshesCount, bool checkReadWrite);
 
   /// @brief Method .ctor, addr 0x2ca94a0, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(int32_t meshesCount);
@@ -193,7 +193,7 @@ static_assert(offsetof(::UnityEngine::__Mesh__MeshDataArray, m_Length) == 0x8, "
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(10329))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10069))
 // CS Name: ::Mesh::MeshData
 struct CORDL_TYPE __Mesh__MeshData {
@@ -207,8 +207,7 @@ public:
   inline int32_t get_vertexBufferCount();
 
   /// @brief Method GetVertexData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param stream: int32_t (default: static_cast<int32_t>(0x0))
-  template <typename T> inline ::Unity::Collections::NativeArray_1<T> GetVertexData(int32_t stream = static_cast<int32_t>(0x0));
+  template <typename T> inline ::Unity::Collections::NativeArray_1<T> GetVertexData(int32_t stream);
 
   /// @brief Method SetVertexBufferParams, addr 0x2cad13c, size 0x54, virtual false, abstract: false, final false
   inline void SetVertexBufferParams(int32_t vertexCount, ::ArrayW<::UnityEngine::Rendering::VertexAttributeDescriptor, ::Array<::UnityEngine::Rendering::VertexAttributeDescriptor>*> attributes);
@@ -223,8 +222,7 @@ public:
   inline void set_subMeshCount(int32_t value);
 
   /// @brief Method SetSubMesh, addr 0x2cad314, size 0x74, virtual false, abstract: false, final false
-  /// @param flags: ::UnityEngine::Rendering::MeshUpdateFlags (default: static_cast<int32_t>(0x0))
-  inline void SetSubMesh(int32_t index, ::UnityEngine::Rendering::SubMeshDescriptor desc, ::UnityEngine::Rendering::MeshUpdateFlags flags = static_cast<int32_t>(0x0));
+  inline void SetSubMesh(int32_t index, ::UnityEngine::Rendering::SubMeshDescriptor desc, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method GetVertexBufferCount, addr 0x2cad100, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetVertexBufferCount(void* self);
@@ -282,7 +280,7 @@ static_assert(offsetof(::UnityEngine::__Mesh__MeshData, m_Ptr) == 0x0, "Offset m
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10329)), TypeDefinitionIndex(TypeDefinitionIndex(10200))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10200))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10070))
 // CS Name: ::UnityEngine::Mesh*
 class CORDL_TYPE Mesh : public ::UnityEngine::Object {
@@ -592,20 +590,17 @@ public:
   inline void set_subMeshCount(int32_t value);
 
   /// @brief Method SetSubMesh, addr 0x2ca5dd8, size 0x5c, virtual false, abstract: false, final false
-  /// @param flags: ::UnityEngine::Rendering::MeshUpdateFlags (default: static_cast<int32_t>(0x0))
-  inline void SetSubMesh(int32_t index, ::UnityEngine::Rendering::SubMeshDescriptor desc, ::UnityEngine::Rendering::MeshUpdateFlags flags = static_cast<int32_t>(0x0));
+  inline void SetSubMesh(int32_t index, ::UnityEngine::Rendering::SubMeshDescriptor desc, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method GetSubMesh, addr 0x2ca5e90, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::SubMeshDescriptor GetSubMesh(int32_t index);
 
   /// @brief Method SetAllSubMeshesAtOnceFromArray, addr 0x2ca5f60, size 0x6c, virtual false, abstract: false, final false
-  /// @param flags: ::UnityEngine::Rendering::MeshUpdateFlags (default: static_cast<int32_t>(0x0))
   inline void SetAllSubMeshesAtOnceFromArray(::ArrayW<::UnityEngine::Rendering::SubMeshDescriptor, ::Array<::UnityEngine::Rendering::SubMeshDescriptor>*> desc, int32_t start, int32_t count,
-                                             ::UnityEngine::Rendering::MeshUpdateFlags flags = static_cast<int32_t>(0x0));
+                                             ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method SetAllSubMeshesAtOnceFromNativeArray, addr 0x2ca5fcc, size 0x6c, virtual false, abstract: false, final false
-  /// @param flags: ::UnityEngine::Rendering::MeshUpdateFlags (default: static_cast<int32_t>(0x0))
-  inline void SetAllSubMeshesAtOnceFromNativeArray(void* desc, int32_t start, int32_t count, ::UnityEngine::Rendering::MeshUpdateFlags flags = static_cast<int32_t>(0x0));
+  inline void SetAllSubMeshesAtOnceFromNativeArray(void* desc, int32_t start, int32_t count, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method get_bounds, addr 0x2ca6038, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_bounds();
@@ -680,15 +675,12 @@ public:
                                             int32_t valuesArrayLength, int32_t valuesStart, int32_t valuesCount, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method SetArrayForChannel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param flags: ::UnityEngine::Rendering::MeshUpdateFlags (default: static_cast<int32_t>(0x0))
   template <typename T>
   inline void SetArrayForChannel(::UnityEngine::Rendering::VertexAttribute channel, ::UnityEngine::Rendering::VertexAttributeFormat format, int32_t dim, ::ArrayW<T, ::Array<T>*> values,
-                                 ::UnityEngine::Rendering::MeshUpdateFlags flags = static_cast<int32_t>(0x0));
+                                 ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method SetArrayForChannel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param flags: ::UnityEngine::Rendering::MeshUpdateFlags (default: static_cast<int32_t>(0x0))
-  template <typename T>
-  inline void SetArrayForChannel(::UnityEngine::Rendering::VertexAttribute channel, ::ArrayW<T, ::Array<T>*> values, ::UnityEngine::Rendering::MeshUpdateFlags flags = static_cast<int32_t>(0x0));
+  template <typename T> inline void SetArrayForChannel(::UnityEngine::Rendering::VertexAttribute channel, ::ArrayW<T, ::Array<T>*> values, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method SetListForChannel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
@@ -1028,25 +1020,18 @@ public:
   inline void SetVertexBufferParams(int32_t vertexCount, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VertexAttributeDescriptor> attributes);
 
   /// @brief Method SetVertexBufferData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param stream: int32_t (default: static_cast<int32_t>(0x0))
-  /// @param flags: ::UnityEngine::Rendering::MeshUpdateFlags (default: static_cast<int32_t>(0x0))
   template <typename T>
-  inline void SetVertexBufferData(::Unity::Collections::NativeArray_1<T> data, int32_t dataStart, int32_t meshBufferStart, int32_t count, int32_t stream = static_cast<int32_t>(0x0),
-                                  ::UnityEngine::Rendering::MeshUpdateFlags flags = static_cast<int32_t>(0x0));
+  inline void SetVertexBufferData(::Unity::Collections::NativeArray_1<T> data, int32_t dataStart, int32_t meshBufferStart, int32_t count, int32_t stream,
+                                  ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method SetVertexBufferData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param stream: int32_t (default: static_cast<int32_t>(0x0))
-  /// @param flags: ::UnityEngine::Rendering::MeshUpdateFlags (default: static_cast<int32_t>(0x0))
   template <typename T>
-  inline void SetVertexBufferData(::ArrayW<T, ::Array<T>*> data, int32_t dataStart, int32_t meshBufferStart, int32_t count, int32_t stream = static_cast<int32_t>(0x0),
-                                  ::UnityEngine::Rendering::MeshUpdateFlags flags = static_cast<int32_t>(0x0));
+  inline void SetVertexBufferData(::ArrayW<T, ::Array<T>*> data, int32_t dataStart, int32_t meshBufferStart, int32_t count, int32_t stream, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method SetVertexBufferData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param stream: int32_t (default: static_cast<int32_t>(0x0))
-  /// @param flags: ::UnityEngine::Rendering::MeshUpdateFlags (default: static_cast<int32_t>(0x0))
   template <typename T>
-  inline void SetVertexBufferData(::System::Collections::Generic::List_1<T>* data, int32_t dataStart, int32_t meshBufferStart, int32_t count, int32_t stream = static_cast<int32_t>(0x0),
-                                  ::UnityEngine::Rendering::MeshUpdateFlags flags = static_cast<int32_t>(0x0));
+  inline void SetVertexBufferData(::System::Collections::Generic::List_1<T>* data, int32_t dataStart, int32_t meshBufferStart, int32_t count, int32_t stream,
+                                  ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method AcquireReadOnlyMeshData, addr 0x2ca8d50, size 0x2c, virtual false, abstract: false, final false
   static inline ::UnityEngine::__Mesh__MeshDataArray AcquireReadOnlyMeshData(::UnityEngine::Mesh* mesh);
@@ -1061,18 +1046,15 @@ public:
   static inline ::UnityEngine::__Mesh__MeshDataArray AllocateWritableMeshData(int32_t meshCount);
 
   /// @brief Method ApplyAndDisposeWritableMeshData, addr 0x2ca9608, size 0x188, virtual false, abstract: false, final false
-  /// @param flags: ::UnityEngine::Rendering::MeshUpdateFlags (default: static_cast<int32_t>(0x0))
-  static inline void ApplyAndDisposeWritableMeshData(::UnityEngine::__Mesh__MeshDataArray data, ::UnityEngine::Mesh* mesh, ::UnityEngine::Rendering::MeshUpdateFlags flags = static_cast<int32_t>(0x0));
+  static inline void ApplyAndDisposeWritableMeshData(::UnityEngine::__Mesh__MeshDataArray data, ::UnityEngine::Mesh* mesh, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method ApplyAndDisposeWritableMeshData, addr 0x2ca98b4, size 0x160, virtual false, abstract: false, final false
-  /// @param flags: ::UnityEngine::Rendering::MeshUpdateFlags (default: static_cast<int32_t>(0x0))
   static inline void ApplyAndDisposeWritableMeshData(::UnityEngine::__Mesh__MeshDataArray data, ::ArrayW<::UnityEngine::Mesh*, ::Array<::UnityEngine::Mesh*>*> meshes,
-                                                     ::UnityEngine::Rendering::MeshUpdateFlags flags = static_cast<int32_t>(0x0));
+                                                     ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method ApplyAndDisposeWritableMeshData, addr 0x2ca9c58, size 0x1bc, virtual false, abstract: false, final false
-  /// @param flags: ::UnityEngine::Rendering::MeshUpdateFlags (default: static_cast<int32_t>(0x0))
   static inline void ApplyAndDisposeWritableMeshData(::UnityEngine::__Mesh__MeshDataArray data, ::System::Collections::Generic::List_1<::UnityEngine::Mesh*>* meshes,
-                                                     ::UnityEngine::Rendering::MeshUpdateFlags flags = static_cast<int32_t>(0x0));
+                                                     ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method GetVertexBuffer, addr 0x2ca9e14, size 0xd4, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* GetVertexBuffer(int32_t index);
@@ -1111,8 +1093,7 @@ public:
   inline void GetTriangles(::System::Collections::Generic::List_1<int32_t>* triangles, int32_t submesh, bool applyBaseVertex);
 
   /// @brief Method GetTriangles, addr 0x2caa604, size 0x1bc, virtual false, abstract: false, final false
-  /// @param applyBaseVertex: bool (default: true)
-  inline void GetTriangles(::System::Collections::Generic::List_1<uint16_t>* triangles, int32_t submesh, bool applyBaseVertex = true);
+  inline void GetTriangles(::System::Collections::Generic::List_1<uint16_t>* triangles, int32_t submesh, bool applyBaseVertex);
 
   /// @brief Method GetIndices, addr 0x2caa7c0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> GetIndices(int32_t submesh);
@@ -1127,25 +1108,18 @@ public:
   inline void GetIndices(::System::Collections::Generic::List_1<int32_t>* indices, int32_t submesh, bool applyBaseVertex);
 
   /// @brief Method GetIndices, addr 0x2caaad8, size 0x19c, virtual false, abstract: false, final false
-  /// @param applyBaseVertex: bool (default: true)
-  inline void GetIndices(::System::Collections::Generic::List_1<uint16_t>* indices, int32_t submesh, bool applyBaseVertex = true);
+  inline void GetIndices(::System::Collections::Generic::List_1<uint16_t>* indices, int32_t submesh, bool applyBaseVertex);
 
   /// @brief Method SetIndexBufferData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param flags: ::UnityEngine::Rendering::MeshUpdateFlags (default: static_cast<int32_t>(0x0))
   template <typename T>
-  inline void SetIndexBufferData(::Unity::Collections::NativeArray_1<T> data, int32_t dataStart, int32_t meshBufferStart, int32_t count,
-                                 ::UnityEngine::Rendering::MeshUpdateFlags flags = static_cast<int32_t>(0x0));
+  inline void SetIndexBufferData(::Unity::Collections::NativeArray_1<T> data, int32_t dataStart, int32_t meshBufferStart, int32_t count, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method SetIndexBufferData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param flags: ::UnityEngine::Rendering::MeshUpdateFlags (default: static_cast<int32_t>(0x0))
-  template <typename T>
-  inline void SetIndexBufferData(::ArrayW<T, ::Array<T>*> data, int32_t dataStart, int32_t meshBufferStart, int32_t count, ::UnityEngine::Rendering::MeshUpdateFlags flags = static_cast<int32_t>(0x0));
+  template <typename T> inline void SetIndexBufferData(::ArrayW<T, ::Array<T>*> data, int32_t dataStart, int32_t meshBufferStart, int32_t count, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method SetIndexBufferData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param flags: ::UnityEngine::Rendering::MeshUpdateFlags (default: static_cast<int32_t>(0x0))
   template <typename T>
-  inline void SetIndexBufferData(::System::Collections::Generic::List_1<T>* data, int32_t dataStart, int32_t meshBufferStart, int32_t count,
-                                 ::UnityEngine::Rendering::MeshUpdateFlags flags = static_cast<int32_t>(0x0));
+  inline void SetIndexBufferData(::System::Collections::Generic::List_1<T>* data, int32_t dataStart, int32_t meshBufferStart, int32_t count, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method GetIndexStart, addr 0x2caac74, size 0xc4, virtual false, abstract: false, final false
   inline uint32_t GetIndexStart(int32_t submesh);
@@ -1173,21 +1147,13 @@ public:
   inline void SetTriangles(::ArrayW<int32_t, ::Array<int32_t>*> triangles, int32_t submesh, bool calculateBounds, int32_t baseVertex);
 
   /// @brief Method SetTriangles, addr 0x2cab09c, size 0x8c, virtual false, abstract: false, final false
-  /// @param calculateBounds: bool (default: true)
-  /// @param baseVertex: int32_t (default: static_cast<int32_t>(0x0))
-  inline void SetTriangles(::ArrayW<int32_t, ::Array<int32_t>*> triangles, int32_t trianglesStart, int32_t trianglesLength, int32_t submesh, bool calculateBounds = true,
-                           int32_t baseVertex = static_cast<int32_t>(0x0));
+  inline void SetTriangles(::ArrayW<int32_t, ::Array<int32_t>*> triangles, int32_t trianglesStart, int32_t trianglesLength, int32_t submesh, bool calculateBounds, int32_t baseVertex);
 
   /// @brief Method SetTriangles, addr 0x2cab128, size 0x58, virtual false, abstract: false, final false
-  /// @param calculateBounds: bool (default: true)
-  /// @param baseVertex: int32_t (default: static_cast<int32_t>(0x0))
-  inline void SetTriangles(::ArrayW<uint16_t, ::Array<uint16_t>*> triangles, int32_t submesh, bool calculateBounds = true, int32_t baseVertex = static_cast<int32_t>(0x0));
+  inline void SetTriangles(::ArrayW<uint16_t, ::Array<uint16_t>*> triangles, int32_t submesh, bool calculateBounds, int32_t baseVertex);
 
   /// @brief Method SetTriangles, addr 0x2cab180, size 0x8c, virtual false, abstract: false, final false
-  /// @param calculateBounds: bool (default: true)
-  /// @param baseVertex: int32_t (default: static_cast<int32_t>(0x0))
-  inline void SetTriangles(::ArrayW<uint16_t, ::Array<uint16_t>*> triangles, int32_t trianglesStart, int32_t trianglesLength, int32_t submesh, bool calculateBounds = true,
-                           int32_t baseVertex = static_cast<int32_t>(0x0));
+  inline void SetTriangles(::ArrayW<uint16_t, ::Array<uint16_t>*> triangles, int32_t trianglesStart, int32_t trianglesLength, int32_t submesh, bool calculateBounds, int32_t baseVertex);
 
   /// @brief Method SetTriangles, addr 0x2cab20c, size 0xc, virtual false, abstract: false, final false
   inline void SetTriangles(::System::Collections::Generic::List_1<int32_t>* triangles, int32_t submesh);
@@ -1199,21 +1165,13 @@ public:
   inline void SetTriangles(::System::Collections::Generic::List_1<int32_t>* triangles, int32_t submesh, bool calculateBounds, int32_t baseVertex);
 
   /// @brief Method SetTriangles, addr 0x2cab2ac, size 0xd0, virtual false, abstract: false, final false
-  /// @param calculateBounds: bool (default: true)
-  /// @param baseVertex: int32_t (default: static_cast<int32_t>(0x0))
-  inline void SetTriangles(::System::Collections::Generic::List_1<int32_t>* triangles, int32_t trianglesStart, int32_t trianglesLength, int32_t submesh, bool calculateBounds = true,
-                           int32_t baseVertex = static_cast<int32_t>(0x0));
+  inline void SetTriangles(::System::Collections::Generic::List_1<int32_t>* triangles, int32_t trianglesStart, int32_t trianglesLength, int32_t submesh, bool calculateBounds, int32_t baseVertex);
 
   /// @brief Method SetTriangles, addr 0x2cab37c, size 0x88, virtual false, abstract: false, final false
-  /// @param calculateBounds: bool (default: true)
-  /// @param baseVertex: int32_t (default: static_cast<int32_t>(0x0))
-  inline void SetTriangles(::System::Collections::Generic::List_1<uint16_t>* triangles, int32_t submesh, bool calculateBounds = true, int32_t baseVertex = static_cast<int32_t>(0x0));
+  inline void SetTriangles(::System::Collections::Generic::List_1<uint16_t>* triangles, int32_t submesh, bool calculateBounds, int32_t baseVertex);
 
   /// @brief Method SetTriangles, addr 0x2cab404, size 0xd0, virtual false, abstract: false, final false
-  /// @param calculateBounds: bool (default: true)
-  /// @param baseVertex: int32_t (default: static_cast<int32_t>(0x0))
-  inline void SetTriangles(::System::Collections::Generic::List_1<uint16_t>* triangles, int32_t trianglesStart, int32_t trianglesLength, int32_t submesh, bool calculateBounds = true,
-                           int32_t baseVertex = static_cast<int32_t>(0x0));
+  inline void SetTriangles(::System::Collections::Generic::List_1<uint16_t>* triangles, int32_t trianglesStart, int32_t trianglesLength, int32_t submesh, bool calculateBounds, int32_t baseVertex);
 
   /// @brief Method SetIndices, addr 0x2cab4d4, size 0x64, virtual false, abstract: false, final false
   inline void SetIndices(::ArrayW<int32_t, ::Array<int32_t>*> indices, ::UnityEngine::MeshTopology topology, int32_t submesh);
@@ -1225,88 +1183,56 @@ public:
   inline void SetIndices(::ArrayW<int32_t, ::Array<int32_t>*> indices, ::UnityEngine::MeshTopology topology, int32_t submesh, bool calculateBounds, int32_t baseVertex);
 
   /// @brief Method SetIndices, addr 0x2cab614, size 0xd4, virtual false, abstract: false, final false
-  /// @param calculateBounds: bool (default: true)
-  /// @param baseVertex: int32_t (default: static_cast<int32_t>(0x0))
-  inline void SetIndices(::ArrayW<int32_t, ::Array<int32_t>*> indices, int32_t indicesStart, int32_t indicesLength, ::UnityEngine::MeshTopology topology, int32_t submesh, bool calculateBounds = true,
-                         int32_t baseVertex = static_cast<int32_t>(0x0));
+  inline void SetIndices(::ArrayW<int32_t, ::Array<int32_t>*> indices, int32_t indicesStart, int32_t indicesLength, ::UnityEngine::MeshTopology topology, int32_t submesh, bool calculateBounds,
+                         int32_t baseVertex);
 
   /// @brief Method SetIndices, addr 0x2cab6e8, size 0x74, virtual false, abstract: false, final false
-  /// @param calculateBounds: bool (default: true)
-  /// @param baseVertex: int32_t (default: static_cast<int32_t>(0x0))
-  inline void SetIndices(::ArrayW<uint16_t, ::Array<uint16_t>*> indices, ::UnityEngine::MeshTopology topology, int32_t submesh, bool calculateBounds = true,
-                         int32_t baseVertex = static_cast<int32_t>(0x0));
+  inline void SetIndices(::ArrayW<uint16_t, ::Array<uint16_t>*> indices, ::UnityEngine::MeshTopology topology, int32_t submesh, bool calculateBounds, int32_t baseVertex);
 
   /// @brief Method SetIndices, addr 0x2cab75c, size 0xd4, virtual false, abstract: false, final false
-  /// @param calculateBounds: bool (default: true)
-  /// @param baseVertex: int32_t (default: static_cast<int32_t>(0x0))
-  inline void SetIndices(::ArrayW<uint16_t, ::Array<uint16_t>*> indices, int32_t indicesStart, int32_t indicesLength, ::UnityEngine::MeshTopology topology, int32_t submesh,
-                         bool calculateBounds = true, int32_t baseVertex = static_cast<int32_t>(0x0));
+  inline void SetIndices(::ArrayW<uint16_t, ::Array<uint16_t>*> indices, int32_t indicesStart, int32_t indicesLength, ::UnityEngine::MeshTopology topology, int32_t submesh, bool calculateBounds,
+                         int32_t baseVertex);
 
   /// @brief Method SetIndices, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param calculateBounds: bool (default: true)
-  /// @param baseVertex: int32_t (default: static_cast<int32_t>(0x0))
-  template <typename T>
-  inline void SetIndices(::Unity::Collections::NativeArray_1<T> indices, ::UnityEngine::MeshTopology topology, int32_t submesh, bool calculateBounds = true,
-                         int32_t baseVertex = static_cast<int32_t>(0x0));
+  template <typename T> inline void SetIndices(::Unity::Collections::NativeArray_1<T> indices, ::UnityEngine::MeshTopology topology, int32_t submesh, bool calculateBounds, int32_t baseVertex);
 
   /// @brief Method SetIndices, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param calculateBounds: bool (default: true)
-  /// @param baseVertex: int32_t (default: static_cast<int32_t>(0x0))
   template <typename T>
-  inline void SetIndices(::Unity::Collections::NativeArray_1<T> indices, int32_t indicesStart, int32_t indicesLength, ::UnityEngine::MeshTopology topology, int32_t submesh,
-                         bool calculateBounds = true, int32_t baseVertex = static_cast<int32_t>(0x0));
+  inline void SetIndices(::Unity::Collections::NativeArray_1<T> indices, int32_t indicesStart, int32_t indicesLength, ::UnityEngine::MeshTopology topology, int32_t submesh, bool calculateBounds,
+                         int32_t baseVertex);
 
   /// @brief Method SetIndices, addr 0x2cab830, size 0xa4, virtual false, abstract: false, final false
-  /// @param calculateBounds: bool (default: true)
-  /// @param baseVertex: int32_t (default: static_cast<int32_t>(0x0))
-  inline void SetIndices(::System::Collections::Generic::List_1<int32_t>* indices, ::UnityEngine::MeshTopology topology, int32_t submesh, bool calculateBounds = true,
-                         int32_t baseVertex = static_cast<int32_t>(0x0));
+  inline void SetIndices(::System::Collections::Generic::List_1<int32_t>* indices, ::UnityEngine::MeshTopology topology, int32_t submesh, bool calculateBounds, int32_t baseVertex);
 
   /// @brief Method SetIndices, addr 0x2cab8d4, size 0x110, virtual false, abstract: false, final false
-  /// @param calculateBounds: bool (default: true)
-  /// @param baseVertex: int32_t (default: static_cast<int32_t>(0x0))
   inline void SetIndices(::System::Collections::Generic::List_1<int32_t>* indices, int32_t indicesStart, int32_t indicesLength, ::UnityEngine::MeshTopology topology, int32_t submesh,
-                         bool calculateBounds = true, int32_t baseVertex = static_cast<int32_t>(0x0));
+                         bool calculateBounds, int32_t baseVertex);
 
   /// @brief Method SetIndices, addr 0x2cab9e4, size 0xa4, virtual false, abstract: false, final false
-  /// @param calculateBounds: bool (default: true)
-  /// @param baseVertex: int32_t (default: static_cast<int32_t>(0x0))
-  inline void SetIndices(::System::Collections::Generic::List_1<uint16_t>* indices, ::UnityEngine::MeshTopology topology, int32_t submesh, bool calculateBounds = true,
-                         int32_t baseVertex = static_cast<int32_t>(0x0));
+  inline void SetIndices(::System::Collections::Generic::List_1<uint16_t>* indices, ::UnityEngine::MeshTopology topology, int32_t submesh, bool calculateBounds, int32_t baseVertex);
 
   /// @brief Method SetIndices, addr 0x2caba88, size 0x110, virtual false, abstract: false, final false
-  /// @param calculateBounds: bool (default: true)
-  /// @param baseVertex: int32_t (default: static_cast<int32_t>(0x0))
   inline void SetIndices(::System::Collections::Generic::List_1<uint16_t>* indices, int32_t indicesStart, int32_t indicesLength, ::UnityEngine::MeshTopology topology, int32_t submesh,
-                         bool calculateBounds = true, int32_t baseVertex = static_cast<int32_t>(0x0));
+                         bool calculateBounds, int32_t baseVertex);
 
   /// @brief Method SetSubMeshes, addr 0x2cabb98, size 0x2dc, virtual false, abstract: false, final false
-  /// @param flags: ::UnityEngine::Rendering::MeshUpdateFlags (default: static_cast<int32_t>(0x0))
   inline void SetSubMeshes(::ArrayW<::UnityEngine::Rendering::SubMeshDescriptor, ::Array<::UnityEngine::Rendering::SubMeshDescriptor>*> desc, int32_t start, int32_t count,
-                           ::UnityEngine::Rendering::MeshUpdateFlags flags = static_cast<int32_t>(0x0));
+                           ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method SetSubMeshes, addr 0x2cabe74, size 0x2c, virtual false, abstract: false, final false
-  /// @param flags: ::UnityEngine::Rendering::MeshUpdateFlags (default: static_cast<int32_t>(0x0))
-  inline void SetSubMeshes(::ArrayW<::UnityEngine::Rendering::SubMeshDescriptor, ::Array<::UnityEngine::Rendering::SubMeshDescriptor>*> desc,
-                           ::UnityEngine::Rendering::MeshUpdateFlags flags = static_cast<int32_t>(0x0));
+  inline void SetSubMeshes(::ArrayW<::UnityEngine::Rendering::SubMeshDescriptor, ::Array<::UnityEngine::Rendering::SubMeshDescriptor>*> desc, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method SetSubMeshes, addr 0x2cabea0, size 0x80, virtual false, abstract: false, final false
-  /// @param flags: ::UnityEngine::Rendering::MeshUpdateFlags (default: static_cast<int32_t>(0x0))
-  inline void SetSubMeshes(::System::Collections::Generic::List_1<::UnityEngine::Rendering::SubMeshDescriptor>* desc, int32_t start, int32_t count,
-                           ::UnityEngine::Rendering::MeshUpdateFlags flags = static_cast<int32_t>(0x0));
+  inline void SetSubMeshes(::System::Collections::Generic::List_1<::UnityEngine::Rendering::SubMeshDescriptor>* desc, int32_t start, int32_t count, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method SetSubMeshes, addr 0x2cabf20, size 0x90, virtual false, abstract: false, final false
-  /// @param flags: ::UnityEngine::Rendering::MeshUpdateFlags (default: static_cast<int32_t>(0x0))
-  inline void SetSubMeshes(::System::Collections::Generic::List_1<::UnityEngine::Rendering::SubMeshDescriptor>* desc, ::UnityEngine::Rendering::MeshUpdateFlags flags = static_cast<int32_t>(0x0));
+  inline void SetSubMeshes(::System::Collections::Generic::List_1<::UnityEngine::Rendering::SubMeshDescriptor>* desc, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method SetSubMeshes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param flags: ::UnityEngine::Rendering::MeshUpdateFlags (default: static_cast<int32_t>(0x0))
-  template <typename T>
-  inline void SetSubMeshes(::Unity::Collections::NativeArray_1<T> desc, int32_t start, int32_t count, ::UnityEngine::Rendering::MeshUpdateFlags flags = static_cast<int32_t>(0x0));
+  template <typename T> inline void SetSubMeshes(::Unity::Collections::NativeArray_1<T> desc, int32_t start, int32_t count, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method SetSubMeshes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param flags: ::UnityEngine::Rendering::MeshUpdateFlags (default: static_cast<int32_t>(0x0))
-  template <typename T> inline void SetSubMeshes(::Unity::Collections::NativeArray_1<T> desc, ::UnityEngine::Rendering::MeshUpdateFlags flags = static_cast<int32_t>(0x0));
+  template <typename T> inline void SetSubMeshes(::Unity::Collections::NativeArray_1<T> desc, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method GetBindposes, addr 0x2cabfb0, size 0x134, virtual false, abstract: false, final false
   inline void GetBindposes(::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* bindposes);
@@ -1345,12 +1271,10 @@ public:
   inline void RecalculateTangents(::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method RecalculateUVDistributionMetric, addr 0x2cac63c, size 0x108, virtual false, abstract: false, final false
-  /// @param uvAreaThreshold: float_t (default: 0.000000001)
-  inline void RecalculateUVDistributionMetric(int32_t uvSetIndex, float_t uvAreaThreshold = 0.000000001);
+  inline void RecalculateUVDistributionMetric(int32_t uvSetIndex, float_t uvAreaThreshold);
 
   /// @brief Method RecalculateUVDistributionMetrics, addr 0x2cac744, size 0x100, virtual false, abstract: false, final false
-  /// @param uvAreaThreshold: float_t (default: 0.000000001)
-  inline void RecalculateUVDistributionMetrics(float_t uvAreaThreshold = 0.000000001);
+  inline void RecalculateUVDistributionMetrics(float_t uvAreaThreshold);
 
   /// @brief Method MarkDynamic, addr 0x2cac844, size 0x74, virtual false, abstract: false, final false
   inline void MarkDynamic();
@@ -1386,8 +1310,7 @@ public:
   inline void GetVertexAttribute_Injected(int32_t index, ByRef<::UnityEngine::Rendering::VertexAttributeDescriptor> ret);
 
   /// @brief Method SetSubMesh_Injected, addr 0x2ca5e34, size 0x5c, virtual false, abstract: false, final false
-  /// @param flags: ::UnityEngine::Rendering::MeshUpdateFlags (default: static_cast<int32_t>(0x0))
-  inline void SetSubMesh_Injected(int32_t index, ByRef<::UnityEngine::Rendering::SubMeshDescriptor> desc, ::UnityEngine::Rendering::MeshUpdateFlags flags = static_cast<int32_t>(0x0));
+  inline void SetSubMesh_Injected(int32_t index, ByRef<::UnityEngine::Rendering::SubMeshDescriptor> desc, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method GetSubMesh_Injected, addr 0x2ca5f0c, size 0x54, virtual false, abstract: false, final false
   inline void GetSubMesh_Injected(int32_t index, ByRef<::UnityEngine::Rendering::SubMeshDescriptor> ret);

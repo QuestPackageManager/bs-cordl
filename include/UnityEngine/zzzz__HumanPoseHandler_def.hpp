@@ -13,19 +13,19 @@ namespace System {
 class IDisposable;
 }
 namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-struct Vector3;
+class Avatar;
 }
 namespace UnityEngine {
 struct HumanPose;
 }
 namespace UnityEngine {
-class Avatar;
+struct Quaternion;
 }
 namespace UnityEngine {
-struct Quaternion;
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::UnityEngine::HumanPoseHandler);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14885))
 // CS Name: ::UnityEngine::HumanPoseHandler*
 class CORDL_TYPE HumanPoseHandler : public ::System::Object {
@@ -48,6 +48,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr void*& __get_m_Ptr();
 

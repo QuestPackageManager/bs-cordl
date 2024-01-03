@@ -125,15 +125,13 @@ public:
   static inline ::GlobalNamespace::DrawIfAttribute* New_ctor(::StringW propertyName, ::System::Object* value, ::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType);
 
   /// @brief Method .ctor, addr 0x2101038, size 0x3c, virtual false, abstract: false, final false
-  /// @param disablingType: ::GlobalNamespace::__DrawIfAttribute__DisablingType (default: static_cast<int32_t>(0x1))
-  inline void _ctor(::StringW propertyName, ::System::Object* value, ::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType = static_cast<int32_t>(0x1));
+  inline void _ctor(::StringW propertyName, ::System::Object* value, ::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType);
 
   static inline ::GlobalNamespace::DrawIfAttribute* New_ctor(::StringW propertyName, ::System::Object* value, ::System::Object* orValue,
                                                              ::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType);
 
   /// @brief Method .ctor, addr 0x2101074, size 0x44, virtual false, abstract: false, final false
-  /// @param disablingType: ::GlobalNamespace::__DrawIfAttribute__DisablingType (default: static_cast<int32_t>(0x1))
-  inline void _ctor(::StringW propertyName, ::System::Object* value, ::System::Object* orValue, ::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType = static_cast<int32_t>(0x1));
+  inline void _ctor(::StringW propertyName, ::System::Object* value, ::System::Object* orValue, ::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType);
 
   // Ctor Parameters [CppParam { name: "", ty: "DrawIfAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

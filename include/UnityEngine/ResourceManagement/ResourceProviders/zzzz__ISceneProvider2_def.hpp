@@ -3,20 +3,20 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ISceneProvider2)
-namespace UnityEngine::SceneManagement {
-struct UnloadSceneOptions;
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> struct AsyncOperationHandle_1;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 class ISceneProvider;
 }
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
-}
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct SceneInstance;
 }
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> struct AsyncOperationHandle_1;
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
+}
+namespace UnityEngine::SceneManagement {
+struct UnloadSceneOptions;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {
@@ -36,6 +36,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider"
   constexpr operator ::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider"
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider* i___UnityEngine__ResourceManagement__ResourceProviders__ISceneProvider() noexcept;
 
   /// @brief Method ReleaseScene, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>

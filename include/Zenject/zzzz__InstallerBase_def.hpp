@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(InstallerBase)
+namespace System {
+class Object;
+}
 namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
 class IInstaller;
 }
-namespace System {
-class Object;
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -41,6 +41,9 @@ public:
 
   /// @brief Convert operator to "::Zenject::IInstaller"
   constexpr operator ::Zenject::IInstaller*() noexcept;
+
+  /// @brief Convert to "::Zenject::IInstaller"
+  constexpr ::Zenject::IInstaller* i___Zenject__IInstaller() noexcept;
 
   constexpr ::Zenject::DiContainer*& __get__container();
 

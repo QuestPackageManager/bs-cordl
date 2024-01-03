@@ -9,17 +9,17 @@ CORDL_MODULE_EXPORT(CharEnumerator)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class ICloneable;
 }
 namespace System {
-class Object;
+class IDisposable;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System {
@@ -53,14 +53,26 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<char16_t>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<char16_t>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<char16_t>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<char16_t>* i___System__Collections__Generic__IEnumerator_1_char16_t_() noexcept;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
+
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
   constexpr ::StringW& __get__str();
 

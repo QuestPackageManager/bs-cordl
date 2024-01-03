@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(INetSerializable)
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+class NetDataReader;
 }
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class NetDataWriter;
 }
 // Forward declare root types
 namespace LiteNetLib::Utils {

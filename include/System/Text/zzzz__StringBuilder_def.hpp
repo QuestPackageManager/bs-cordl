@@ -12,17 +12,11 @@ CORDL_MODULE_EXPORT(StringBuilder)
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
-namespace System {
-template <typename T> struct Span_1;
-}
-namespace System {
-struct ParamsArray;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System {
 class IFormatProvider;
@@ -30,8 +24,14 @@ class IFormatProvider;
 namespace System {
 class Object;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+namespace System {
+struct ParamsArray;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
+template <typename T> struct Span_1;
 }
 // Forward declare root types
 namespace System::Text {
@@ -76,6 +76,9 @@ public:
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
   constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get_m_ChunkChars();
 

@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IConnectionRequestHandler)
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+class NetDataReader;
 }
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NaccacheSternKeyPairGenerator)
-namespace System::Collections {
-class IList;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class NaccacheSternKeyGenerationParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricCipherKeyPair;
 }
 namespace Org::BouncyCastle::Crypto {
-class KeyGenerationParameters;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class NaccacheSternKeyGenerationParameters;
+class IAsymmetricCipherKeyPairGenerator;
 }
 namespace Org::BouncyCastle::Crypto {
-class IAsymmetricCipherKeyPairGenerator;
+class KeyGenerationParameters;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {
@@ -51,6 +51,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
   constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
+  constexpr ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator* i___Org__BouncyCastle__Crypto__IAsymmetricCipherKeyPairGenerator() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters*& __get_param();
 

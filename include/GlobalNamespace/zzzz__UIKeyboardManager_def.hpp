@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(UIKeyboardManager)
 namespace HMUI {
-class UIKeyboard;
+class InputFieldView;
 }
 namespace HMUI {
-class InputFieldView;
+class ModalView;
+}
+namespace HMUI {
+class UIKeyboard;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine {
 class RectTransform;
-}
-namespace HMUI {
-class ModalView;
 }
 namespace UnityEngine {
 class Transform;

@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "Newtonsoft/Json/Serialization/zzzz__JsonContract_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__PrimitiveTypeCode_def.hpp"
 CORDL_MODULE_EXPORT(JsonPrimitiveContract)
-namespace System {
-class Type;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace Newtonsoft::Json::Utilities {
+struct PrimitiveTypeCode;
 }
 namespace Newtonsoft::Json {
 struct ReadType;
 }
-namespace Newtonsoft::Json::Utilities {
-struct PrimitiveTypeCode;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::JsonPrimitiveContract);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11943)), TypeDefinitionIndex(TypeDefinitionIndex(11870))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11870)), TypeDefinitionIndex(TypeDefinitionIndex(11943))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11915))
 // CS Name: ::Newtonsoft.Json.Serialization::JsonPrimitiveContract*
 class CORDL_TYPE JsonPrimitiveContract : public ::Newtonsoft::Json::Serialization::JsonContract {

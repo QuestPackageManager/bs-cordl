@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__MultiplayerAvatarsData_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(StaticAvatarVisualDataProvider)
-namespace GlobalNamespace {
-struct MultiplayerAvatarsData;
-}
 namespace BeatSaber::AvatarCore {
 class IAvatarVisualDataProvider;
+}
+namespace GlobalNamespace {
+struct MultiplayerAvatarsData;
 }
 // Forward declare root types
 namespace BeatSaber::Multiplayer::TimelineMock {
@@ -34,6 +34,9 @@ public:
 
   /// @brief Convert operator to "::BeatSaber::AvatarCore::IAvatarVisualDataProvider"
   constexpr operator ::BeatSaber::AvatarCore::IAvatarVisualDataProvider*() noexcept;
+
+  /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarVisualDataProvider"
+  constexpr ::BeatSaber::AvatarCore::IAvatarVisualDataProvider* i___BeatSaber__AvatarCore__IAvatarVisualDataProvider() noexcept;
 
   constexpr ::GlobalNamespace::MultiplayerAvatarsData& __get__avatarsData();
 

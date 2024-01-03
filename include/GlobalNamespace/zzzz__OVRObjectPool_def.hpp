@@ -6,32 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(OVRObjectPool)
-namespace System::Collections::Generic {
-template <typename T> class Queue_1;
-}
-namespace GlobalNamespace {
-template <typename T> struct __OVRObjectPool__ListScope_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class Stack_1;
-}
-namespace GlobalNamespace {
-template <typename T> class __OVRObjectPool__Storage_1;
-}
 namespace GlobalNamespace {
 template <typename TKey, typename TValue> struct __OVRObjectPool__DictionaryScope_2;
-}
-namespace GlobalNamespace {
-template <typename T> struct __OVRObjectPool__StackScope_1;
 }
 namespace GlobalNamespace {
 template <typename T> struct __OVRObjectPool__HashSetScope_1;
@@ -40,7 +16,31 @@ namespace GlobalNamespace {
 template <typename T> struct __OVRObjectPool__ItemScope_1;
 }
 namespace GlobalNamespace {
+template <typename T> struct __OVRObjectPool__ListScope_1;
+}
+namespace GlobalNamespace {
 template <typename T> struct __OVRObjectPool__QueueScope_1;
+}
+namespace GlobalNamespace {
+template <typename T> struct __OVRObjectPool__StackScope_1;
+}
+namespace GlobalNamespace {
+template <typename T> class __OVRObjectPool__Storage_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class Queue_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class Stack_1;
 }
 namespace System {
 class IDisposable;
@@ -131,6 +131,9 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
+
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(ByRef<::System::Collections::Generic::List_1<T>*> list);
 
@@ -168,6 +171,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(ByRef<::System::Collections::Generic::Dictionary_2<TKey, TValue>*> dictionary);
@@ -207,6 +213,9 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
+
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(ByRef<::System::Collections::Generic::HashSet_1<T>*> set);
 
@@ -244,6 +253,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(ByRef<::System::Collections::Generic::Stack_1<T>*> stack);
@@ -283,6 +295,9 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
+
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(ByRef<::System::Collections::Generic::Queue_1<T>*> queue);
 
@@ -320,6 +335,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(ByRef<T> item);

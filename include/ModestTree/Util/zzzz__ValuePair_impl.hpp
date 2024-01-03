@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "ModestTree/Util/zzzz__ValuePair_def.hpp"
-#include "ModestTree/Util/zzzz__ValuePair_4_def.hpp"
-#include "ModestTree/Util/zzzz__ValuePair_3_def.hpp"
 #include "ModestTree/Util/zzzz__ValuePair_2_def.hpp"
+#include "ModestTree/Util/zzzz__ValuePair_3_def.hpp"
+#include "ModestTree/Util/zzzz__ValuePair_4_def.hpp"
 template <typename T1, typename T2> inline ::ModestTree::Util::ValuePair_2<T1, T2>* ModestTree::Util::ValuePair::New(T1 first, T2 second) {
   static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::Util::ValuePair*>::get(), "New",

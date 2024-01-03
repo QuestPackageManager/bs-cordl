@@ -67,8 +67,7 @@ public:
   static inline ::GlobalNamespace::__AutomaticSFXVolume__InitData* New_ctor(float_t volumeOffset, bool adaptiveSfx, float_t maxVolume);
 
   /// @brief Method .ctor, addr 0x222c538, size 0x3c, virtual false, abstract: false, final false
-  /// @param maxVolume: float_t (default: INFINITY)
-  inline void _ctor(float_t volumeOffset, bool adaptiveSfx, float_t maxVolume = INFINITY);
+  inline void _ctor(float_t volumeOffset, bool adaptiveSfx, float_t maxVolume);
 
   // Ctor Parameters [CppParam { name: "", ty: "__AutomaticSFXVolume__InitData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

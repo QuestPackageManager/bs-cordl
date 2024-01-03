@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DerBitString)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerOutputStream;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {

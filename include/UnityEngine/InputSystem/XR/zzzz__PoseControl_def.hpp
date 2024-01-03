@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/zzzz__InputControl_1_def.hpp"
 CORDL_MODULE_EXPORT(PoseControl)
 namespace UnityEngine::InputSystem::Controls {
+class ButtonControl;
+}
+namespace UnityEngine::InputSystem::Controls {
 class IntegerControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class QuaternionControl;
-}
-namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class Vector3Control;
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::XR::PoseControl);
 // SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 288, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst: 3894 }), TypeDefinitionIndex(TypeDefinitionIndex(6216)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6216)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst: 3894 }),
 // TypeDefinitionIndex(TypeDefinitionIndex(6322))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6323)) CS Name: ::UnityEngine.InputSystem.XR::PoseControl*
 class CORDL_TYPE PoseControl : public ::UnityEngine::InputSystem::InputControl_1<::UnityEngine::InputSystem::XR::PoseState> {
 public:

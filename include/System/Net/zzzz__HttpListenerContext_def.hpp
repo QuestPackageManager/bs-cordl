@@ -12,9 +12,6 @@ struct AuthenticationSchemes;
 namespace System::Net {
 class HttpConnection;
 }
-namespace System::Security::Principal {
-class IPrincipal;
-}
 namespace System::Net {
 class HttpListenerRequest;
 }
@@ -23,6 +20,9 @@ class HttpListenerResponse;
 }
 namespace System::Net {
 class HttpListener;
+}
+namespace System::Security::Principal {
+class IPrincipal;
 }
 // Forward declare root types
 namespace System::Net {

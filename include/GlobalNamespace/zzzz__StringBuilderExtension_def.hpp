@@ -31,8 +31,7 @@ public:
   static inline void AppendNumber(::System::Text::StringBuilder* sb, int32_t number);
 
   /// @brief Method AppendNumber, addr 0xe25bcc, size 0xa4, virtual false, abstract: false, final false
-  /// @param isNegative: bool (default: false)
-  static inline void AppendNumber(::System::Text::StringBuilder* sb, uint32_t uNumber, bool isNegative = false);
+  static inline void AppendNumber(::System::Text::StringBuilder* sb, uint32_t uNumber, bool isNegative);
 
   // Ctor Parameters [CppParam { name: "", ty: "StringBuilderExtension", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

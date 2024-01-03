@@ -9,9 +9,6 @@ CORDL_MODULE_EXPORT(DnsEndPoint)
 namespace BGNet::Core {
 class ITaskUtility;
 }
-namespace System {
-class Object;
-}
 namespace System::Net {
 class IPEndPoint;
 }
@@ -20,6 +17,9 @@ template <typename TResult> class Task_1;
 }
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -50,6 +50,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::DnsEndPoint*>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::DnsEndPoint*>*() noexcept;
+
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::DnsEndPoint*>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::DnsEndPoint*>* i___System__IEquatable_1___GlobalNamespace__DnsEndPoint__() noexcept;
 
   constexpr ::StringW& __get_hostName();
 

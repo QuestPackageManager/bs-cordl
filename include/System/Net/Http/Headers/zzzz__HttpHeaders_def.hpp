@@ -13,40 +13,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HttpHeaders)
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Net::Http::Headers {
-class __HttpHeaders__HeaderBucket;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
-}
-namespace System::Net::Http::Headers {
-struct HttpHeaderKind;
-}
-namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace System::Net::Http::Headers {
-class HeaderInfo;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Net::Http::Headers {
-template <typename T> class HttpHeaderValueCollection_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System::Net::Http::Headers {
-class __HttpHeaders___GetEnumerator_d__19;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct KeyValuePair_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -54,8 +33,29 @@ class IEnumerable;
 namespace System::Collections {
 class IEnumerator;
 }
+namespace System::Net::Http::Headers {
+class HeaderInfo;
+}
+namespace System::Net::Http::Headers {
+struct HttpHeaderKind;
+}
+namespace System::Net::Http::Headers {
+template <typename T> class HttpHeaderValueCollection_1;
+}
+namespace System::Net::Http::Headers {
+class __HttpHeaders__HeaderBucket;
+}
+namespace System::Net::Http::Headers {
+class __HttpHeaders___GetEnumerator_d__19;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -168,10 +168,10 @@ static_assert(offsetof(::System::Net::Http::Headers::__HttpHeaders__HeaderBucket
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14675)), TypeDefinitionIndex(TypeDefinitionIndex(3819)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3819), inst:
-// 1455 }), TypeDefinitionIndex(TypeDefinitionIndex(3841)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3832)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3841), inst: 3942 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3832), inst: 397 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14676)) CS
-// Name: ::HttpHeaders::<GetEnumerator>d__19*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3819), inst: 1455 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3841)), TypeDefinitionIndex(TypeDefinitionIndex(3832)), TypeDefinitionIndex(TypeDefinitionIndex(14675)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3832), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(3819)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 3942 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(14676)) CS Name: ::HttpHeaders::<GetEnumerator>d__19*
 class CORDL_TYPE __HttpHeaders___GetEnumerator_d__19 : public ::System::Object {
 public:
   // Declarations
@@ -199,11 +199,21 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Collections::Generic::IEnumerable_1<::StringW>*>>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Collections::Generic::IEnumerable_1<::StringW>*>>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Collections::Generic::IEnumerable_1<::StringW>*>>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Collections::Generic::IEnumerable_1<::StringW>*>>*
+  i___System__Collections__Generic__IEnumerator_1___System__Collections__Generic__KeyValuePair_2___StringW___System__Collections__Generic__IEnumerable_1___StringW____() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -298,9 +308,8 @@ static_assert(offsetof(::System::Net::Http::Headers::__HttpHeaders___GetEnumerat
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14673)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14677)) CS Name:
-// ::System.Net.Http.Headers::HttpHeaders*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14673)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105
+// }), TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14677)) CS Name: ::System.Net.Http.Headers::HttpHeaders*
 class CORDL_TYPE HttpHeaders : public ::System::Object {
 public:
   // Declarations
@@ -327,8 +336,15 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Collections::Generic::IEnumerable_1<::StringW>*>>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Collections::Generic::IEnumerable_1<::StringW>*>>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Collections::Generic::IEnumerable_1<::StringW>*>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Collections::Generic::IEnumerable_1<::StringW>*>>*
+  i___System__Collections__Generic__IEnumerable_1___System__Collections__Generic__KeyValuePair_2___StringW___System__Collections__Generic__IEnumerable_1___StringW____() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::Http::Headers::__HttpHeaders__HeaderBucket*>*& __get_headers();
 
@@ -396,8 +412,7 @@ public:
   inline ::StringW ToString();
 
   /// @brief Method AddOrRemove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param converter: ::System::Func_2<::System::Object*,::StringW>* (default: nullptr)
-  template <typename T> inline void AddOrRemove(::StringW name, T value, ::System::Func_2<::System::Object*, ::StringW>* converter = nullptr);
+  template <typename T> inline void AddOrRemove(::StringW name, T value, ::System::Func_2<::System::Object*, ::StringW>* converter);
 
   /// @brief Method GetAllHeaderValues, addr 0x283bf04, size 0x1cc, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* GetAllHeaderValues(::System::Net::Http::Headers::__HttpHeaders__HeaderBucket* bucket, ::System::Net::Http::Headers::HeaderInfo* headerInfo);
@@ -412,8 +427,7 @@ public:
   template <typename T> inline ::System::Net::Http::Headers::HttpHeaderValueCollection_1<T>* GetValues(::StringW name);
 
   /// @brief Method SetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param toStringConverter: ::System::Func_2<::System::Object*,::StringW>* (default: nullptr)
-  template <typename T> inline void SetValue(::StringW name, T value, ::System::Func_2<::System::Object*, ::StringW>* toStringConverter = nullptr);
+  template <typename T> inline void SetValue(::StringW name, T value, ::System::Func_2<::System::Object*, ::StringW>* toStringConverter);
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpHeaders", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

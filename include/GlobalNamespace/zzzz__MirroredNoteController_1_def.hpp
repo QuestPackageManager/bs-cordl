@@ -6,10 +6,16 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MirroredNoteController_1)
 namespace GlobalNamespace {
+template <typename T> class ILazyCopyHashSet_1;
+}
+namespace GlobalNamespace {
 class INoteControllerDidInitEvent;
 }
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+class INoteControllerNoteDidPassJumpThreeQuartersEvent;
+}
+namespace GlobalNamespace {
+class INoteControllerNoteDidStartDissolvingEvent;
 }
 namespace GlobalNamespace {
 template <typename T> class LazyCopyHashSet_1;
@@ -20,14 +26,8 @@ class NoteControllerBase;
 namespace GlobalNamespace {
 class NoteData;
 }
-namespace GlobalNamespace {
-class INoteControllerNoteDidPassJumpThreeQuartersEvent;
-}
-namespace GlobalNamespace {
-template <typename T> class ILazyCopyHashSet_1;
-}
-namespace GlobalNamespace {
-class INoteControllerNoteDidStartDissolvingEvent;
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -80,8 +80,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent"
   constexpr operator ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent"
+  constexpr ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent* i___GlobalNamespace__INoteControllerNoteDidStartDissolvingEvent() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent"
   constexpr operator ::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent"
+  constexpr ::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent* i___GlobalNamespace__INoteControllerNoteDidPassJumpThreeQuartersEvent() noexcept;
 
   constexpr ::UnityEngine::Transform*& __get__noteTransform();
 

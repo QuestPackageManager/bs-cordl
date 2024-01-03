@@ -9,16 +9,16 @@ namespace Newtonsoft::Json::Converters {
 class IXmlDocument;
 }
 namespace Newtonsoft::Json::Converters {
-class IXmlNode;
+class IXmlElement;
 }
-namespace System::Xml::Linq {
-class XDocument;
+namespace Newtonsoft::Json::Converters {
+class IXmlNode;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace Newtonsoft::Json::Converters {
-class IXmlElement;
+namespace System::Xml::Linq {
+class XDocument;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -45,8 +45,14 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlDocument"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlDocument*() noexcept;
 
+  /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlDocument"
+  constexpr ::Newtonsoft::Json::Converters::IXmlDocument* i___Newtonsoft__Json__Converters__IXmlDocument() noexcept;
+
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept;
+
+  /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
+  constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
 
   /// @brief Method get_Document, addr 0x26bb098, size 0x78, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XDocument* get_Document();

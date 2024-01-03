@@ -25,6 +25,9 @@ public:
   /// @brief Convert operator to "::System::Security::ISecurityEncodable"
   constexpr operator ::System::Security::ISecurityEncodable*() noexcept;
 
+  /// @brief Convert to "::System::Security::ISecurityEncodable"
+  constexpr ::System::Security::ISecurityEncodable* i___System__Security__ISecurityEncodable() noexcept;
+
   /// @brief Method Demand, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Demand();
 

@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DecoratorToChoiceFromBinder_1)
 namespace Zenject {
-class FactoryBindInfo;
-}
-namespace Zenject {
 class BindInfo;
 }
 namespace Zenject {
 class DiContainer;
+}
+namespace Zenject {
+class FactoryBindInfo;
 }
 namespace Zenject {
 template <typename TParam1, typename TContract> class FactoryFromBinder_2;

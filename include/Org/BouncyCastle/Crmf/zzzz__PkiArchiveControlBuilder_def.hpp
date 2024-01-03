@@ -4,14 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(PkiArchiveControlBuilder)
-namespace Org::BouncyCastle::Cms {
-class RecipientInfoGenerator;
+namespace Org::BouncyCastle::Asn1::Pkcs {
+class PrivateKeyInfo;
 }
-namespace Org::BouncyCastle::Crypto {
-class ICipherBuilderWithKey;
-}
-namespace Org::BouncyCastle::Crmf {
-class PkiArchiveControl;
+namespace Org::BouncyCastle::Asn1::X509 {
+class GeneralName;
 }
 namespace Org::BouncyCastle::Cms {
 class CmsEnvelopedDataGenerator;
@@ -19,11 +16,14 @@ class CmsEnvelopedDataGenerator;
 namespace Org::BouncyCastle::Cms {
 class CmsProcessableByteArray;
 }
-namespace Org::BouncyCastle::Asn1::Pkcs {
-class PrivateKeyInfo;
+namespace Org::BouncyCastle::Cms {
+class RecipientInfoGenerator;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralName;
+namespace Org::BouncyCastle::Crmf {
+class PkiArchiveControl;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherBuilderWithKey;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {

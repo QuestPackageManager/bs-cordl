@@ -10,10 +10,10 @@ namespace System {
 template <typename T> class IComparable_1;
 }
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -36,8 +36,14 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::InternedString>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::InternedString>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::InternedString>"
+  constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::InternedString>* i___System__IEquatable_1___UnityEngine__InputSystem__Utilities__InternedString_();
+
   /// @brief Convert operator to "::System::IComparable_1<::UnityEngine::InputSystem::Utilities::InternedString>"
   constexpr operator ::System::IComparable_1<::UnityEngine::InputSystem::Utilities::InternedString>*();
+
+  /// @brief Convert to "::System::IComparable_1<::UnityEngine::InputSystem::Utilities::InternedString>"
+  constexpr ::System::IComparable_1<::UnityEngine::InputSystem::Utilities::InternedString>* i___System__IComparable_1___UnityEngine__InputSystem__Utilities__InternedString_();
 
   /// @brief Method get_length, addr 0x2b0fec4, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_length();

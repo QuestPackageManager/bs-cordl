@@ -14,37 +14,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRMeshJobs)
 namespace GlobalNamespace {
-struct __OVRMeshJobs__TransformToUnitySpaceJob;
+template <typename T> struct __OVRMeshJobs__NativeArrayHelper_1;
 }
 namespace GlobalNamespace {
-template <typename T> struct __OVRMeshJobs__NativeArrayHelper_1;
+struct __OVRMeshJobs__TransformToUnitySpaceJob;
 }
 namespace GlobalNamespace {
 struct __OVRMeshJobs__TransformTrianglesJob;
 }
-namespace System {
-class IDisposable;
-}
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
-}
-namespace System::Runtime::InteropServices {
-struct GCHandle;
-}
 namespace GlobalNamespace {
 struct __OVRPlugin__Vector2f;
 }
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace Unity::Jobs {
-class IJobParallelFor;
-}
-namespace UnityEngine {
-struct BoneWeight;
+namespace GlobalNamespace {
+struct __OVRPlugin__Vector3f;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__Vector4f;
@@ -52,8 +34,26 @@ struct __OVRPlugin__Vector4f;
 namespace GlobalNamespace {
 struct __OVRPlugin__Vector4s;
 }
-namespace GlobalNamespace {
-struct __OVRPlugin__Vector3f;
+namespace System::Runtime::InteropServices {
+struct GCHandle;
+}
+namespace System {
+class IDisposable;
+}
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
+}
+namespace Unity::Jobs {
+class IJobParallelFor;
+}
+namespace UnityEngine {
+struct BoneWeight;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -77,17 +77,21 @@ MARK_VAL_T(::GlobalNamespace::__OVRMeshJobs__TransformTrianglesJob);
 // SizeInfo { instance_size: 144, native_size: 144, calculated_instance_size: 144, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 411 }), TypeDefinitionIndex(TypeDefinitionIndex(7724)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(9999), inst: 761 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 760 }), TypeDefinitionIndex(TypeDefinitionIndex(7721)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 739 }), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(7722)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7723)), TypeDefinitionIndex(TypeDefinitionIndex(10134)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 759 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10243)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 762 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(9999), inst: 412 }), TypeDefinitionIndex(TypeDefinitionIndex(9999))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8124)) CS Name: ::OVRMeshJobs::TransformToUnitySpaceJob
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10134)), TypeDefinitionIndex(TypeDefinitionIndex(7723)), TypeDefinitionIndex(TypeDefinitionIndex(7722)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 739 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 759 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(7724)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 762 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 761 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 760 }), TypeDefinitionIndex(TypeDefinitionIndex(7721)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(9999), inst: 412 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 411 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(8124)) CS Name:
+// ::OVRMeshJobs::TransformToUnitySpaceJob
 struct CORDL_TYPE __OVRMeshJobs__TransformToUnitySpaceJob {
 public:
   // Declarations
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
+
+  /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
+  constexpr ::Unity::Jobs::IJobParallelFor* i___Unity__Jobs__IJobParallelFor();
 
   /// @brief Method Execute, addr 0x27b13d0, size 0x180, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
@@ -170,13 +174,16 @@ static_assert(offsetof(::GlobalNamespace::__OVRMeshJobs__TransformToUnitySpaceJo
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 753 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(9999), inst: 745 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(8125)) CS Name: ::OVRMeshJobs::TransformTrianglesJob
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 745 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 753 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(9999))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8125)) CS Name: ::OVRMeshJobs::TransformTrianglesJob
 struct CORDL_TYPE __OVRMeshJobs__TransformTrianglesJob {
 public:
   // Declarations
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
+
+  /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
+  constexpr ::Unity::Jobs::IJobParallelFor* i___Unity__Jobs__IJobParallelFor();
 
   /// @brief Method Execute, addr 0x27b1550, size 0x20, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
@@ -219,13 +226,16 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 4693 }), TypeDefinitionIndex(TypeDefinitionIndex(3336)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9999))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8126)) CS Name: ::OVRMeshJobs::NativeArrayHelper`1<T>
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 4693 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3336))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8126)) CS Name: ::OVRMeshJobs::NativeArrayHelper`1<T>
 struct CORDL_TYPE __OVRMeshJobs__NativeArrayHelper_1 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<T, ::Array<T>*> ovrArray, int32_t length);

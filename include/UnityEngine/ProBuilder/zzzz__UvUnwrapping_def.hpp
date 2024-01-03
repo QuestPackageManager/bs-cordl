@@ -4,21 +4,38 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UvUnwrapping)
-namespace UnityEngine::ProBuilder {
-class Bounds2D;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine::ProBuilder {
+struct AutoUnwrapSettings;
+}
+namespace UnityEngine::ProBuilder {
+class Bounds2D;
+}
+namespace UnityEngine::ProBuilder {
+class Face;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
+}
+namespace UnityEngine::ProBuilder {
+struct __AutoUnwrapSettings__Anchor;
 }
 namespace UnityEngine::ProBuilder {
 struct __UvUnwrapping__UVTransform;
@@ -26,26 +43,11 @@ struct __UvUnwrapping__UVTransform;
 namespace UnityEngine::ProBuilder {
 class __UvUnwrapping____c;
 }
-namespace UnityEngine::ProBuilder {
-class Face;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine::ProBuilder {
-struct __AutoUnwrapSettings__Anchor;
-}
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
-namespace UnityEngine::ProBuilder {
-struct AutoUnwrapSettings;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -162,7 +164,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::__UvUnw
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12214))
 // CS Name: ::UnityEngine.ProBuilder::UvUnwrapping*
 class CORDL_TYPE UvUnwrapping : public ::System::Object {
@@ -220,8 +222,7 @@ public:
                                                       ::UnityEngine::Vector2 center, float_t rotation);
 
   /// @brief Method Unwrap, addr 0x2b7576c, size 0x140, virtual false, abstract: false, final false
-  /// @param projection: ::UnityEngine::Vector3 (default: {})
-  static inline void Unwrap(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face, ::UnityEngine::Vector3 projection = {});
+  static inline void Unwrap(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face, ::UnityEngine::Vector3 projection);
 
   /// @brief Method CopyUVs, addr 0x2b758ac, size 0xbc, virtual false, abstract: false, final false
   static inline void CopyUVs(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* source, ::UnityEngine::ProBuilder::Face* dest);

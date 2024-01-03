@@ -2,9 +2,9 @@
 #include "Zenject/zzzz__ProviderBindingFinalizer_impl.hpp"
 #include "Zenject/zzzz__MemoryPoolBindingFinalizer_1_def.hpp"
 #include "Zenject/zzzz__BindInfo_def.hpp"
-#include "Zenject/zzzz__MemoryPoolBindInfo_def.hpp"
-#include "Zenject/zzzz__FactoryBindInfo_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__FactoryBindInfo_def.hpp"
+#include "Zenject/zzzz__MemoryPoolBindInfo_def.hpp"
 template <typename TContract> constexpr ::Zenject::MemoryPoolBindInfo*& Zenject::MemoryPoolBindingFinalizer_1<TContract>::__get__poolBindInfo() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____poolBindInfo;

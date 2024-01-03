@@ -12,26 +12,26 @@ CORDL_MODULE_EXPORT(AddressablesLoader)
 namespace BGLib::AsyncInitialization {
 template <typename TInstantiate, typename TReturn> struct __AddressablesLoader___InstantiateFromAddressableToContainer_d__0_2;
 }
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
+}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace UnityEngine::AddressableAssets {
 class AssetReferenceGameObject;
 }
-namespace Zenject {
-class DiContainer;
-}
 namespace UnityEngine {
 class GameObject;
 }
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace BGLib::AsyncInitialization {
@@ -49,14 +49,17 @@ namespace BGLib::AsyncInitialization {
 // cpp template
 template <typename TInstantiate, typename TReturn>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 311 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10196)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 863 }), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(15162)) CS Name: ::AddressablesLoader::<InstantiateFromAddressableToContainer>d__0`2<TInstantiate,TReturn>
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 311 }), TypeDefinitionIndex(TypeDefinitionIndex(10196)), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(3402), inst: 863 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15162))
+// CS Name: ::AddressablesLoader::<InstantiateFromAddressableToContainer>d__0`2<TInstantiate,TReturn>
 struct CORDL_TYPE __AddressablesLoader___InstantiateFromAddressableToContainer_d__0_2 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();

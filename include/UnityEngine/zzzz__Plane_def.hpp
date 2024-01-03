@@ -10,16 +10,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Plane)
 namespace System {
-class IFormattable;
+class IFormatProvider;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace System {
+class IFormattable;
 }
 namespace UnityEngine {
 struct Ray;
 }
-namespace System {
-class IFormatProvider;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -43,6 +43,9 @@ public:
 
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
+
+  /// @brief Convert to "::System::IFormattable"
+  constexpr ::System::IFormattable* i___System__IFormattable();
 
   /// @brief Method get_normal, addr 0x2cc96ac, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_normal();

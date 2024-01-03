@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(WingedEdgeEnumerator)
-namespace System {
-class Object;
-}
-namespace System {
-class IDisposable;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
 }
 namespace UnityEngine::ProBuilder {
 class WingedEdge;
@@ -48,11 +48,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::ProBuilder::WingedEdge*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::ProBuilder::WingedEdge*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::ProBuilder::WingedEdge*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::ProBuilder::WingedEdge*>* i___System__Collections__Generic__IEnumerator_1___UnityEngine__ProBuilder__WingedEdge__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::UnityEngine::ProBuilder::WingedEdge*& __get_m_Start();
 

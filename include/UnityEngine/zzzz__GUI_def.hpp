@@ -11,35 +11,35 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GUI)
-namespace UnityEngine {
-class __GUI__WindowFunction;
+namespace System {
+struct DateTime;
 }
-namespace UnityEngine {
-class GUIStyle;
+namespace System {
+class Object;
+}
+namespace UnityEngineInternal {
+class GenericStack;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
+class GUIContent;
+}
+namespace UnityEngine {
 class GUISkin;
+}
+namespace UnityEngine {
+class GUIStyle;
+}
+namespace UnityEngine {
+struct Matrix4x4;
 }
 namespace UnityEngine {
 struct Rect;
 }
 namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngineInternal {
-class GenericStack;
-}
-namespace System {
-struct DateTime;
-}
-namespace UnityEngine {
-class GUIContent;
-}
-namespace System {
-class Object;
+class __GUI__WindowFunction;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -93,7 +93,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::__GUI__WindowFuncti
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(10165))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14595))
 // CS Name: ::UnityEngine::GUI*
 class CORDL_TYPE GUI : public ::System::Object {

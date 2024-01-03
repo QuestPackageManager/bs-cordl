@@ -6,41 +6,41 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IAsyncOperation)
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct DownloadStatus;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationStatus;
-}
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
-}
-namespace System {
-class Type;
-}
-namespace System {
-class Exception;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
-}
 namespace GlobalNamespace {
 template <typename T> class DelegateList_1;
-}
-namespace System {
-class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+class Exception;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationStatus;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct DownloadStatus;
+}
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::AsyncOperations {

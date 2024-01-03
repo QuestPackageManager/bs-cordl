@@ -40,6 +40,9 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Math::Field::IFiniteField"
   constexpr operator ::Org::BouncyCastle::Math::Field::IFiniteField*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Math::Field::IFiniteField"
+  constexpr ::Org::BouncyCastle::Math::Field::IFiniteField* i___Org__BouncyCastle__Math__Field__IFiniteField() noexcept;
+
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_characteristic();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_characteristic() const;

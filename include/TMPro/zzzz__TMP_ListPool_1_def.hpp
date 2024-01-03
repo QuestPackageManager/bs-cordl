@@ -8,10 +8,10 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace TMPro {
-template <typename T> class __TMP_ListPool_1____c;
+template <typename T> class TMP_ObjectPool_1;
 }
 namespace TMPro {
-template <typename T> class TMP_ObjectPool_1;
+template <typename T> class __TMP_ListPool_1____c;
 }
 // Forward declare root types
 namespace TMPro {

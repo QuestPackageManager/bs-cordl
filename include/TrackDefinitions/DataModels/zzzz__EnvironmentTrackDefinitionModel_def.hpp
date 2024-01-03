@@ -8,62 +8,62 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EnvironmentTrackDefinitionModel)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace TrackDefinitions::DataModels {
-struct TrackToolbarType;
-}
-namespace TrackDefinitions {
-class __EnvironmentTracksDefinitionSO__BasicEventTrackInfo;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class IReadOnlyDictionary_2;
-}
-namespace TrackDefinitions {
-struct __EnvironmentTracksDefinitionSO__BasicEventTrackPage;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace TrackDefinitions::DataModels {
-class __EnvironmentTrackDefinitionModel____c;
-}
-namespace TrackDefinitions {
-class __EnvironmentTracksDefinitionSO__EventBoxGroupTrackInfo;
-}
-namespace TrackDefinitions {
-class EventTrackDefinitionSO;
-}
-namespace TrackDefinitions::DataModels {
-class __EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTrack;
-}
-namespace TrackDefinitions {
-class EnvironmentTracksDefinitionSO;
-}
-namespace TrackDefinitions {
-class __EnvironmentTracksDefinitionSO__EventBoxGroupPageInfo;
-}
 namespace GlobalNamespace {
 struct BasicBeatmapEventType;
-}
-namespace TrackDefinitions::DataModels {
-class __EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTypeTrack;
 }
 namespace GlobalNamespace {
 class LightGroupSO;
 }
 namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class IReadOnlyDictionary_2;
+}
+namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
-namespace TrackDefinitions::DataModels {
-struct EventBoxGroupType;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Linq {
+template <typename TKey, typename TElement> class IGrouping_2;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace System::Linq {
-template <typename TKey, typename TElement> class IGrouping_2;
+namespace TrackDefinitions::DataModels {
+struct EventBoxGroupType;
+}
+namespace TrackDefinitions::DataModels {
+struct TrackToolbarType;
+}
+namespace TrackDefinitions::DataModels {
+class __EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTrack;
+}
+namespace TrackDefinitions::DataModels {
+class __EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTypeTrack;
+}
+namespace TrackDefinitions::DataModels {
+class __EnvironmentTrackDefinitionModel____c;
+}
+namespace TrackDefinitions {
+class EnvironmentTracksDefinitionSO;
+}
+namespace TrackDefinitions {
+class EventTrackDefinitionSO;
+}
+namespace TrackDefinitions {
+class __EnvironmentTracksDefinitionSO__BasicEventTrackInfo;
+}
+namespace TrackDefinitions {
+struct __EnvironmentTracksDefinitionSO__BasicEventTrackPage;
+}
+namespace TrackDefinitions {
+class __EnvironmentTracksDefinitionSO__EventBoxGroupPageInfo;
+}
+namespace TrackDefinitions {
+class __EnvironmentTracksDefinitionSO__EventBoxGroupTrackInfo;
 }
 // Forward declare root types
 namespace TrackDefinitions::DataModels {
@@ -87,7 +87,7 @@ MARK_REF_PTR_T(::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TrackDefinitions::DataModels {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(16072))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16072)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16066))
 // CS Name: ::EnvironmentTrackDefinitionModel::SpawnableEventBoxGroupTypeTrack*
 class CORDL_TYPE __EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTypeTrack : public ::System::Object {

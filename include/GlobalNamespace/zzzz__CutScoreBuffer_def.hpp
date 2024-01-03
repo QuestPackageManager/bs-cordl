@@ -9,34 +9,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CutScoreBuffer)
 namespace GlobalNamespace {
-class SaberSwingRatingCounter;
-}
-namespace GlobalNamespace {
-class IReadonlyCutScoreBuffer;
-}
-namespace GlobalNamespace {
-class ISaberSwingRatingCounterDidFinishReceiver;
+class ICutScoreBufferDidChangeReceiver;
 }
 namespace GlobalNamespace {
 class ICutScoreBufferDidFinishReceiver;
 }
 namespace GlobalNamespace {
+class IReadonlyCutScoreBuffer;
+}
+namespace GlobalNamespace {
 class ISaberSwingRatingCounterDidChangeReceiver;
 }
 namespace GlobalNamespace {
-struct NoteCutInfo;
+class ISaberSwingRatingCounterDidFinishReceiver;
 }
 namespace GlobalNamespace {
 class ISaberSwingRatingCounter;
 }
 namespace GlobalNamespace {
-class __ScoreModel__NoteScoreDefinition;
-}
-namespace GlobalNamespace {
 template <typename T> class LazyCopyHashSet_1;
 }
 namespace GlobalNamespace {
-class ICutScoreBufferDidChangeReceiver;
+struct NoteCutInfo;
+}
+namespace GlobalNamespace {
+class SaberSwingRatingCounter;
+}
+namespace GlobalNamespace {
+class __ScoreModel__NoteScoreDefinition;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -48,7 +48,7 @@ MARK_REF_PTR_T(::GlobalNamespace::CutScoreBuffer);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15025))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15025)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5315))
 // CS Name: ::CutScoreBuffer*
 class CORDL_TYPE CutScoreBuffer : public ::System::Object {
@@ -109,11 +109,20 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IReadonlyCutScoreBuffer"
   constexpr operator ::GlobalNamespace::IReadonlyCutScoreBuffer*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IReadonlyCutScoreBuffer"
+  constexpr ::GlobalNamespace::IReadonlyCutScoreBuffer* i___GlobalNamespace__IReadonlyCutScoreBuffer() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver"
   constexpr operator ::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver"
+  constexpr ::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* i___GlobalNamespace__ISaberSwingRatingCounterDidChangeReceiver() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver"
   constexpr operator ::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver"
+  constexpr ::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* i___GlobalNamespace__ISaberSwingRatingCounterDidFinishReceiver() noexcept;
 
   constexpr ::GlobalNamespace::SaberSwingRatingCounter*& __get__saberSwingRatingCounter();
 

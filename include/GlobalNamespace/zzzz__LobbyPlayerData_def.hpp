@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__LevelGameplaySetupData_def.hpp"
 CORDL_MODULE_EXPORT(LobbyPlayerData)
 namespace GlobalNamespace {
-class ILobbyPlayerData;
+class ILevelGameplaySetupData;
 }
 namespace GlobalNamespace {
-class ILevelGameplaySetupData;
+class ILobbyPlayerData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -49,8 +49,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ILobbyPlayerData"
   constexpr operator ::GlobalNamespace::ILobbyPlayerData*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::ILobbyPlayerData"
+  constexpr ::GlobalNamespace::ILobbyPlayerData* i___GlobalNamespace__ILobbyPlayerData() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::ILevelGameplaySetupData"
   constexpr operator ::GlobalNamespace::ILevelGameplaySetupData*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::ILevelGameplaySetupData"
+  constexpr ::GlobalNamespace::ILevelGameplaySetupData* i___GlobalNamespace__ILevelGameplaySetupData() noexcept;
 
   constexpr bool& __get__isPartyOwner_k__BackingField();
 

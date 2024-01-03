@@ -12,11 +12,11 @@ class CountdownElementController;
 namespace GlobalNamespace {
 class ITimeProvider;
 }
-namespace UnityEngine {
-class AudioSource;
-}
 namespace System::Collections::Generic {
 template <typename T> class Queue_1;
+}
+namespace UnityEngine {
+class AudioSource;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -8,31 +8,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IgnoranceServer)
 namespace IgnoranceCore {
-struct IgnoranceIncomingPacket;
-}
-namespace System {
-class Object;
-}
-namespace IgnoranceCore {
 struct IgnoranceCommandPacket;
 }
 namespace IgnoranceCore {
-struct IgnoranceOutgoingPacket;
-}
-namespace System::Threading {
-class Thread;
-}
-namespace IgnoranceThirdparty {
-template <typename T> class RingBuffer_1;
+struct IgnoranceConnectionEvent;
 }
 namespace IgnoranceCore {
-struct IgnoranceConnectionEvent;
+struct IgnoranceIncomingPacket;
+}
+namespace IgnoranceCore {
+struct IgnoranceOutgoingPacket;
 }
 namespace IgnoranceCore {
 struct IgnoranceServerStats;
 }
 namespace IgnoranceCore {
 struct __IgnoranceServer__ThreadParamInfo;
+}
+namespace IgnoranceThirdparty {
+template <typename T> class RingBuffer_1;
+}
+namespace System::Threading {
+class Thread;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace IgnoranceCore {

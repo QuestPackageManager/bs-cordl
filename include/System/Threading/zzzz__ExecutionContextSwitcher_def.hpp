@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(ExecutionContextSwitcher)
 namespace System::Threading {
+class Thread;
+}
+namespace System::Threading {
 struct __ExecutionContext__Reader;
 }
 namespace System {
 class Object;
-}
-namespace System::Threading {
-class Thread;
 }
 // Forward declare root types
 namespace System::Threading {

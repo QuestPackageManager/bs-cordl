@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(LevelStatsView)
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace GlobalNamespace {
 class PlayerData;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 // Forward declare root types
 namespace GlobalNamespace {

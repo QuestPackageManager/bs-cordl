@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsyncReadManagerMetricsFilters)
 namespace Unity::IO::LowLevel::Unsafe {
-struct Priority;
+struct AssetLoadingSubsystem;
 }
 namespace Unity::IO::LowLevel::Unsafe {
 struct FileReadType;
 }
 namespace Unity::IO::LowLevel::Unsafe {
-struct ProcessingState;
+struct Priority;
 }
 namespace Unity::IO::LowLevel::Unsafe {
-struct AssetLoadingSubsystem;
+struct ProcessingState;
 }
 // Forward declare root types
 namespace Unity::IO::LowLevel::Unsafe {

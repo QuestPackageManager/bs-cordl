@@ -9,29 +9,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CustomAttributeData)
-namespace System {
-class RuntimeType;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace System::Reflection {
-class __CustomAttributeData__LazyCAttrData;
+class Assembly;
+}
+namespace System::Reflection {
+class ConstructorInfo;
+}
+namespace System::Reflection {
+struct CustomAttributeNamedArgument;
 }
 namespace System::Reflection {
 struct CustomAttributeTypedArgument;
 }
 namespace System::Reflection {
-class ConstructorInfo;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class Type;
-}
-namespace System::Reflection {
 class MemberInfo;
-}
-namespace System::Reflection {
-class Assembly;
 }
 namespace System::Reflection {
 class Module;
@@ -39,11 +33,17 @@ class Module;
 namespace System::Reflection {
 class ParameterInfo;
 }
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
 namespace System::Reflection {
-struct CustomAttributeNamedArgument;
+class __CustomAttributeData__LazyCAttrData;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class RuntimeType;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Reflection {

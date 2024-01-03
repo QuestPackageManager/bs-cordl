@@ -7,17 +7,17 @@ CORDL_MODULE_EXPORT(ProtectedPart)
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiBody;
 }
+namespace Org::BouncyCastle::Asn1::Cmp {
+class PkiHeader;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiHeader;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {

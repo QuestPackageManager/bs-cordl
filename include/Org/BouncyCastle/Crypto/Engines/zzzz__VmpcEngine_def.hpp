@@ -49,6 +49,9 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IStreamCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IStreamCipher*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IStreamCipher"
+  constexpr ::Org::BouncyCastle::Crypto::IStreamCipher* i___Org__BouncyCastle__Crypto__IStreamCipher() noexcept;
+
   constexpr uint8_t& __get_n();
 
   constexpr uint8_t const& __get_n() const;

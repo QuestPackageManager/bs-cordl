@@ -33,6 +33,9 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+
   static inline ::System::UriFormatException* New_ctor();
 
   /// @brief Method .ctor, addr 0x2949a8c, size 0x8, virtual false, abstract: false, final false

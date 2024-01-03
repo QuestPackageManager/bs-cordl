@@ -64,6 +64,9 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
+  constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* i___Org__BouncyCastle__Crypto__IAsymmetricBlockCipher() noexcept;
+
   constexpr ::Org::BouncyCastle::Security::SecureRandom*& __get_random();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __get_random() const;

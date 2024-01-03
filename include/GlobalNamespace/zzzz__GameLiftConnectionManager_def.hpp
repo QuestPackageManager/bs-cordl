@@ -4,7 +4,6 @@
 CORDL_MODULE_INIT
 #include "BGNet/Core/GameLift/zzzz__PlayerSessionInfo_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
-#include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
 #include "GlobalNamespace/zzzz__GameLiftConnectionManager_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
 #include "GlobalNamespace/zzzz__IAuthenticationTokenProvider_def.hpp"
@@ -16,116 +15,116 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameLiftConnectionManager)
+namespace BGNet::Core::GameLift {
+class IGameLiftPlayerSessionProvider;
+}
+namespace BGNet::Core::GameLift {
+class PlayerSessionInfo;
+}
+namespace BGNet::Core {
+struct DeliveryMethod;
+}
 namespace BGNet::Core {
 class ITaskUtility;
-}
-namespace GlobalNamespace {
-struct BeatmapLevelSelectionMask;
 }
 namespace BGNet::Core {
 class ITimeProvider;
 }
 namespace GlobalNamespace {
-template <typename T> class IConnectionInitParams_1;
-}
-namespace System {
-class IDisposable;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class IConnection;
-}
-namespace GlobalNamespace {
-struct DisconnectedReason;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace GlobalNamespace {
-class IAuthenticationTokenProvider;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace GlobalNamespace {
-struct PublicServerInfo;
-}
-namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
-}
-namespace GlobalNamespace {
-class ICertificateValidator;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace GlobalNamespace {
-class IPollable;
-}
-namespace System::Threading {
-class CancellationTokenSource;
-}
-namespace GlobalNamespace {
-struct __GameLiftConnectionManager__ConnectionState;
+struct BeatmapLevelSelectionMask;
 }
 namespace GlobalNamespace {
 struct ConnectionFailedReason;
 }
 namespace GlobalNamespace {
+struct DisconnectedReason;
+}
+namespace GlobalNamespace {
 class GameLiftClientConnectionRequestHandler;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace GlobalNamespace {
-class __GameLiftConnectionManager__StartClientParams;
-}
-namespace BGNet::Core::GameLift {
-class IGameLiftPlayerSessionProvider;
-}
-namespace GlobalNamespace {
-class __GameLiftConnectionManager__GameLiftConnectionManagerParamsBase;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace GlobalNamespace {
-class __GameLiftConnectionManager__ConnectToServerParams;
-}
-namespace BGNet::Core {
-struct DeliveryMethod;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-class IConnectionManager;
 }
 namespace GlobalNamespace {
 struct GameplayServerConfiguration;
 }
 namespace GlobalNamespace {
+class IAuthenticationTokenProvider;
+}
+namespace GlobalNamespace {
+class ICertificateValidator;
+}
+namespace GlobalNamespace {
+template <typename T> class IConnectionInitParams_1;
+}
+namespace GlobalNamespace {
+class IConnectionManager;
+}
+namespace GlobalNamespace {
+class IConnection;
+}
+namespace GlobalNamespace {
+class IPollable;
+}
+namespace GlobalNamespace {
+struct PublicServerInfo;
+}
+namespace GlobalNamespace {
+class __GameLiftConnectionManager__ConnectToServerParams;
+}
+namespace GlobalNamespace {
+struct __GameLiftConnectionManager__ConnectionState;
+}
+namespace GlobalNamespace {
+class __GameLiftConnectionManager__GameLiftConnectionManagerParamsBase;
+}
+namespace GlobalNamespace {
+class __GameLiftConnectionManager__StartClientParams;
+}
+namespace GlobalNamespace {
 struct __GameLiftConnectionManager___GameLiftConnectToServer_d__81;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
-}
-namespace BGNet::Core::GameLift {
-class PlayerSessionInfo;
-}
-namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace System {
+template <typename T1, typename T2, typename T3> class Action_3;
+}
+namespace System {
+class Action;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -236,6 +235,10 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::GameLiftConnectionManager*>"
   constexpr operator ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::GameLiftConnectionManager*>*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::GameLiftConnectionManager*>"
+  constexpr ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::GameLiftConnectionManager*>*
+  i___GlobalNamespace__IConnectionInitParams_1___GlobalNamespace__GameLiftConnectionManager__() noexcept;
 
   constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>*& __get_authenticationTokenProviderTask();
 
@@ -408,14 +411,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameLiftConne
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 897 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3394), inst: 885 }), TypeDefinitionIndex(TypeDefinitionIndex(12775)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(13013)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3400))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12736)) CS Name: ::GameLiftConnectionManager::<GameLiftConnectToServer>d__81
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 885 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 897 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(12775)), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13013))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12736)) CS Name: ::GameLiftConnectionManager::<GameLiftConnectToServer>d__81
 struct CORDL_TYPE __GameLiftConnectionManager___GameLiftConnectToServer_d__81 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0xe38ccc, size 0x60c, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -492,8 +498,8 @@ static_assert(offsetof(::GlobalNamespace::__GameLiftConnectionManager___GameLift
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12732)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12758)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12720)), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12737)) CS Name: ::GameLiftConnectionManager*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12732)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12758))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12737)) CS Name: ::GameLiftConnectionManager*
 class CORDL_TYPE GameLiftConnectionManager : public ::System::Object {
 public:
   // Declarations
@@ -599,11 +605,20 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IConnectionManager"
   constexpr operator ::GlobalNamespace::IConnectionManager*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IConnectionManager"
+  constexpr ::GlobalNamespace::IConnectionManager* i___GlobalNamespace__IConnectionManager() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IPollable"
   constexpr operator ::GlobalNamespace::IPollable*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IPollable"
+  constexpr ::GlobalNamespace::IPollable* i___GlobalNamespace__IPollable() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::BGNet::Core::ITimeProvider*& __get__timeProvider();
 
@@ -838,8 +853,7 @@ public:
   inline void Dispose();
 
   /// @brief Method Disconnect, addr 0xe38390, size 0x8, virtual true, abstract: false, final true
-  /// @param disconnectedReason: ::GlobalNamespace::DisconnectedReason (default: static_cast<int32_t>(0x2))
-  inline void Disconnect(::GlobalNamespace::DisconnectedReason disconnectedReason = static_cast<int32_t>(0x2));
+  inline void Disconnect(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
   /// @brief Method DisconnectInternal, addr 0xe385fc, size 0xc, virtual false, abstract: false, final false
   inline void DisconnectInternal(::GlobalNamespace::ConnectionFailedReason connectionFailedReason);
@@ -873,11 +887,9 @@ public:
                                            ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration);
 
   /// @brief Method GetPublicServers, addr 0xe38bd0, size 0x64, virtual false, abstract: false, final false
-  /// @param offset: int32_t (default: static_cast<int32_t>(0x0))
-  /// @param count: int32_t (default: static_cast<int32_t>(0x14))
   inline void GetPublicServers(::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PublicServerInfo>*>* onSuccess,
                                ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* onFailure, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask,
-                               ::GlobalNamespace::GameplayServerConfiguration configuration, int32_t offset = static_cast<int32_t>(0x0), int32_t count = static_cast<int32_t>(0x14));
+                               ::GlobalNamespace::GameplayServerConfiguration configuration, int32_t offset, int32_t count);
 
   // Ctor Parameters [CppParam { name: "", ty: "GameLiftConnectionManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

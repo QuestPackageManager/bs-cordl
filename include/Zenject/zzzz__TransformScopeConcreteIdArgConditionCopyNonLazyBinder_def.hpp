@@ -5,8 +5,8 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__ScopeConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(TransformScopeConcreteIdArgConditionCopyNonLazyBinder)
-namespace Zenject {
-class ScopeConcreteIdArgConditionCopyNonLazyBinder;
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine {
 class Transform;
@@ -15,13 +15,13 @@ namespace Zenject {
 class BindInfo;
 }
 namespace Zenject {
+class GameObjectCreationParameters;
+}
+namespace Zenject {
 class InjectContext;
 }
 namespace Zenject {
-class GameObjectCreationParameters;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
+class ScopeConcreteIdArgConditionCopyNonLazyBinder;
 }
 // Forward declare root types
 namespace Zenject {

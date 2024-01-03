@@ -11,100 +11,100 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_GeneralUtility)
 namespace HoudiniEngineUnity {
+struct HAPI_AssetInfo;
+}
+namespace HoudiniEngineUnity {
 struct HAPI_AttributeInfo;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_AttributeOwner;
 }
-namespace System {
-class Type;
+namespace HoudiniEngineUnity {
+struct HAPI_Transform;
+}
+namespace HoudiniEngineUnity {
+class HEU_Handle;
+}
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAssetRoot;
+}
+namespace HoudiniEngineUnity {
+class HEU_OutputAttribute;
+}
+namespace HoudiniEngineUnity {
+class HEU_Parameters;
 }
 namespace HoudiniEngineUnity {
 class HEU_SessionBase;
 }
 namespace HoudiniEngineUnity {
-class HEU_HoudiniAssetRoot;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine {
-class Texture2D;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_Transform;
+struct TransformData;
 }
 namespace HoudiniEngineUnity {
 template <typename T> class __HEU_GeneralUtility__GetArray1ArgDel_1;
 }
-namespace UnityEngine {
-class Material;
-}
-namespace HoudiniEngineUnity {
-template <typename T> class __HEU_GeneralUtility__SetAttributeArrayFunc_1;
-}
-namespace HoudiniEngineUnity {
-template <typename ARG3, typename ARG2, typename T> class __HEU_GeneralUtility__GetArray3ArgDel_3;
-}
-namespace UnityEngine {
-class Object;
-}
 namespace HoudiniEngineUnity {
 template <typename ARG2, typename T> class __HEU_GeneralUtility__GetArray2ArgDel_2;
 }
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
-struct Color;
-}
 namespace HoudiniEngineUnity {
-class HEU_Parameters;
-}
-namespace UnityEngine {
-class Texture;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace HoudiniEngineUnity {
-class HEU_OutputAttribute;
-}
-namespace UnityEngine {
-class MeshCollider;
+template <typename ARG3, typename ARG2, typename T> class __HEU_GeneralUtility__GetArray3ArgDel_3;
 }
 namespace HoudiniEngineUnity {
 template <typename T> class __HEU_GeneralUtility__GetAttributeArrayInputFunc_1;
 }
 namespace HoudiniEngineUnity {
-struct TransformData;
+template <typename T> class __HEU_GeneralUtility__SetAttributeArrayFunc_1;
 }
-namespace UnityEngine {
-struct Rect;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_AssetInfo;
-}
-namespace HoudiniEngineUnity {
-class HEU_Handle;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace System {
-class IAsyncResult;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System {
+class IAsyncResult;
+}
+namespace System {
 class Object;
+}
+namespace System {
+class Type;
+}
+namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+class MeshCollider;
+}
+namespace UnityEngine {
+class Object;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine {
+class Texture2D;
+}
+namespace UnityEngine {
+class Texture;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -520,9 +520,7 @@ public:
   template <typename T> static inline void DestroyComponent(::UnityEngine::GameObject* gameObject);
 
   /// @brief Method DestroyImmediate, addr 0x21b4ee8, size 0x44, virtual false, abstract: false, final false
-  /// @param bAllowDestroyingAssets: bool (default: false)
-  /// @param bRegisterUndo: bool (default: false)
-  static inline void DestroyImmediate(::UnityEngine::Object* obj, bool bAllowDestroyingAssets = false, bool bRegisterUndo = false);
+  static inline void DestroyImmediate(::UnityEngine::Object* obj, bool bAllowDestroyingAssets, bool bRegisterUndo);
 
   /// @brief Method DestroyBakedGameObjects, addr 0x21b4f2c, size 0x8, virtual false, abstract: false, final false
   static inline void DestroyBakedGameObjects(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* gameObjectsToDestroy);

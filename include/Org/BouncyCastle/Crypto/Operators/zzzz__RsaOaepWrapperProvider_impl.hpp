@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Operators/zzzz__RsaOaepWrapperProvider_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/Operators/zzzz__WrapperProvider_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "Org/BouncyCastle/Crypto/Operators/zzzz__WrapperProvider_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Operators::RsaOaepWrapperProvider._ctor
 template <>
 
@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0xf29074;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
         ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Operators::RsaOaepWrapperProvider*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::DerObjectIdentifier*>::get() })));
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0xf2978c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Operators::RsaOaepWrapperProvider*>::get(),
                                                  "Org.BouncyCastle.Crypto.Operators.WrapperProvider.CreateWrapper", std::vector<Il2CppClass*>{},
@@ -40,6 +40,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 };
 /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Operators::WrapperProvider"
 constexpr Org::BouncyCastle::Crypto::Operators::RsaOaepWrapperProvider::operator ::Org::BouncyCastle::Crypto::Operators::WrapperProvider*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::Operators::WrapperProvider*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Crypto::Operators::WrapperProvider"
+constexpr ::Org::BouncyCastle::Crypto::Operators::WrapperProvider* Org::BouncyCastle::Crypto::Operators::RsaOaepWrapperProvider::i___Org__BouncyCastle__Crypto__Operators__WrapperProvider() noexcept {
   return static_cast<::Org::BouncyCastle::Crypto::Operators::WrapperProvider*>(static_cast<void*>(this));
 }
 constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& Org::BouncyCastle::Crypto::Operators::RsaOaepWrapperProvider::__get_digestOid() {

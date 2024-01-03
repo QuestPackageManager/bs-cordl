@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(Interp)
-namespace UnityEngine {
-struct Vector3;
-}
 namespace RootMotion {
 struct InterpolationMode;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion {

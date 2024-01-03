@@ -8,19 +8,19 @@ namespace Mono::Net::Security {
 class MobileTlsContext;
 }
 namespace Mono::Net::Security {
+class MobileTlsProvider;
+}
+namespace Mono::Net::Security {
 class MonoSslAuthenticationOptions;
+}
+namespace Mono::Security::Interface {
+class MonoTlsSettings;
 }
 namespace System::IO {
 class Stream;
 }
 namespace System::Net::Security {
 class SslStream;
-}
-namespace Mono::Security::Interface {
-class MonoTlsSettings;
-}
-namespace Mono::Net::Security {
-class MobileTlsProvider;
 }
 // Forward declare root types
 namespace Mono::Unity {

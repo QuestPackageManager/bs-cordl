@@ -4,32 +4,32 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(XmlSchemaSet)
-namespace System::Xml {
-class XmlNameTable;
-}
-namespace System {
-class Object;
-}
-namespace System::Xml::Schema {
-class ValidationEventHandler;
+namespace System::Collections {
+class Hashtable;
 }
 namespace System::Collections {
 class SortedList;
 }
 namespace System::Xml::Schema {
+class SchemaInfo;
+}
+namespace System::Xml::Schema {
+class ValidationEventArgs;
+}
+namespace System::Xml::Schema {
+class ValidationEventHandler;
+}
+namespace System::Xml::Schema {
 class XmlSchemaCompilationSettings;
+}
+namespace System::Xml {
+class XmlNameTable;
 }
 namespace System::Xml {
 class XmlReaderSettings;
 }
-namespace System::Xml::Schema {
-class SchemaInfo;
-}
-namespace System::Collections {
-class Hashtable;
-}
-namespace System::Xml::Schema {
-class ValidationEventArgs;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

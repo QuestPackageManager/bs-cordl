@@ -78,7 +78,7 @@ static_assert(offsetof(::Unity::XR::Oculus::__Development__UserDeveloperModeSett
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15129))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15129)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15130))
 // CS Name: ::Unity.XR.Oculus::Development*
 class CORDL_TYPE Development : public ::System::Object {

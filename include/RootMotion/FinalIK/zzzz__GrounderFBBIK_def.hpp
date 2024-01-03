@@ -10,22 +10,22 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(GrounderFBBIK)
 namespace RootMotion::FinalIK {
-class __Grounding__Leg;
+struct FullBodyBipedEffector;
 }
 namespace RootMotion::FinalIK {
 class FullBodyBipedIK;
 }
 namespace RootMotion::FinalIK {
-class __GrounderFBBIK__SpineEffector;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace RootMotion::FinalIK {
 class IKEffector;
 }
 namespace RootMotion::FinalIK {
-struct FullBodyBipedEffector;
+class __GrounderFBBIK__SpineEffector;
+}
+namespace RootMotion::FinalIK {
+class __Grounding__Leg;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -123,7 +123,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__GrounderFBBIK__SpineEffector, __
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 109, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12518))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12518)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12521))
 // CS Name: ::RootMotion.FinalIK::GrounderFBBIK*
 class CORDL_TYPE GrounderFBBIK : public ::RootMotion::FinalIK::Grounder {

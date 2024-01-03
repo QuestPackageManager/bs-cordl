@@ -1,15 +1,23 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Generic/zzzz__Comparer_1_def.hpp"
-#include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
+#include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 /// @brief Convert operator to "::System::Collections::IComparer"
 template <typename T> constexpr System::Collections::Generic::Comparer_1<T>::operator ::System::Collections::IComparer*() noexcept {
   return static_cast<::System::Collections::IComparer*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::IComparer"
+template <typename T> constexpr ::System::Collections::IComparer* System::Collections::Generic::Comparer_1<T>::i___System__Collections__IComparer() noexcept {
+  return static_cast<::System::Collections::IComparer*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<T>"
 template <typename T> constexpr System::Collections::Generic::Comparer_1<T>::operator ::System::Collections::Generic::IComparer_1<T>*() noexcept {
+  return static_cast<::System::Collections::Generic::IComparer_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IComparer_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::IComparer_1<T>* System::Collections::Generic::Comparer_1<T>::i___System__Collections__Generic__IComparer_1_T_() noexcept {
   return static_cast<::System::Collections::Generic::IComparer_1<T>*>(static_cast<void*>(this));
 }
 template <typename T> inline void System::Collections::Generic::Comparer_1<T>::setStaticF_defaultComparer(::System::Collections::Generic::Comparer_1<T>* value) {

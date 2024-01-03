@@ -3,10 +3,10 @@
 #include "UnityEngine/Animations/zzzz__AnimationPlayableOutput_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableGraph_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__AnimationPreviewUpdateCallback_def.hpp"
-#include "UnityEngine/Timeline/zzzz__ITimelineEvaluateCallback_def.hpp"
-#include "UnityEngine/Animations/zzzz__IAnimationWindowPreview_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/Animations/zzzz__AnimationPlayableOutput_def.hpp"
+#include "UnityEngine/Animations/zzzz__IAnimationWindowPreview_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ITimelineEvaluateCallback_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Timeline::AnimationPreviewUpdateCallback._ctor
 template <>
 
@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc8;
   constexpr static std::size_t addrs = 0x2c50918;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::AnimationPreviewUpdateCallback*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Animations::AnimationPlayableOutput>::get() })));
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1d4;
   constexpr static std::size_t addrs = 0x2c509e0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::AnimationPreviewUpdateCallback*>::get(),
                                                                                "Evaluate", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x124;
   constexpr static std::size_t addrs = 0x2c50bb4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::AnimationPreviewUpdateCallback*>::get(),
                                                                                "FetchPreviewComponents", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -52,6 +52,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineEvaluateCallback"
 constexpr UnityEngine::Timeline::AnimationPreviewUpdateCallback::operator ::UnityEngine::Timeline::ITimelineEvaluateCallback*() noexcept {
+  return static_cast<::UnityEngine::Timeline::ITimelineEvaluateCallback*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::Timeline::ITimelineEvaluateCallback"
+constexpr ::UnityEngine::Timeline::ITimelineEvaluateCallback* UnityEngine::Timeline::AnimationPreviewUpdateCallback::i___UnityEngine__Timeline__ITimelineEvaluateCallback() noexcept {
   return static_cast<::UnityEngine::Timeline::ITimelineEvaluateCallback*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::Animations::AnimationPlayableOutput& UnityEngine::Timeline::AnimationPreviewUpdateCallback::__get_m_Output() {

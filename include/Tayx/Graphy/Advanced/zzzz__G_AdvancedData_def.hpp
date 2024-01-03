@@ -8,35 +8,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(G_AdvancedData)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Text {
+class StringBuilder;
+}
 namespace Tayx::Graphy::UI {
 class IModifiableState;
-}
-namespace UnityEngine::UI {
-class Image;
 }
 namespace Tayx::Graphy::UI {
 class IMovable;
 }
 namespace Tayx::Graphy {
-struct __GraphyManager__ModulePosition;
+class GraphyManager;
 }
-namespace System::Text {
-class StringBuilder;
+namespace Tayx::Graphy {
+struct __GraphyManager__ModulePosition;
 }
 namespace Tayx::Graphy {
 struct __GraphyManager__ModuleState;
 }
-namespace UnityEngine {
-class RectTransform;
+namespace UnityEngine::UI {
+class Image;
 }
 namespace UnityEngine::UI {
 class Text;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace Tayx::Graphy {
-class GraphyManager;
+namespace UnityEngine {
+class RectTransform;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Advanced {
@@ -48,7 +48,7 @@ MARK_REF_PTR_T(::Tayx::Graphy::Advanced::G_AdvancedData);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Advanced {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15064))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15064)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15090))
 // CS Name: ::Tayx.Graphy.Advanced::G_AdvancedData*
 class CORDL_TYPE G_AdvancedData : public ::UnityEngine::MonoBehaviour {
@@ -108,8 +108,14 @@ public:
   /// @brief Convert operator to "::Tayx::Graphy::UI::IMovable"
   constexpr operator ::Tayx::Graphy::UI::IMovable*() noexcept;
 
+  /// @brief Convert to "::Tayx::Graphy::UI::IMovable"
+  constexpr ::Tayx::Graphy::UI::IMovable* i___Tayx__Graphy__UI__IMovable() noexcept;
+
   /// @brief Convert operator to "::Tayx::Graphy::UI::IModifiableState"
   constexpr operator ::Tayx::Graphy::UI::IModifiableState*() noexcept;
+
+  /// @brief Convert to "::Tayx::Graphy::UI::IModifiableState"
+  constexpr ::Tayx::Graphy::UI::IModifiableState* i___Tayx__Graphy__UI__IModifiableState() noexcept;
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>*& __get_m_backgroundImages();
 
@@ -223,8 +229,7 @@ public:
   inline void SetPosition(::Tayx::Graphy::__GraphyManager__ModulePosition newModulePosition);
 
   /// @brief Method SetState, addr 0x2a02044, size 0x78, virtual true, abstract: false, final true
-  /// @param silentUpdate: bool (default: false)
-  inline void SetState(::Tayx::Graphy::__GraphyManager__ModuleState state, bool silentUpdate = false);
+  inline void SetState(::Tayx::Graphy::__GraphyManager__ModuleState state, bool silentUpdate);
 
   /// @brief Method RestorePreviousState, addr 0x2a03614, size 0xc, virtual false, abstract: false, final false
   inline void RestorePreviousState();

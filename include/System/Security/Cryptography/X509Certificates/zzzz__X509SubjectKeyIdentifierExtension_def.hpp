@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509SubjectKeyIdentifierExtension)
-namespace System::Security::Cryptography {
-class AsnEncodedData;
-}
 namespace System::Security::Cryptography::X509Certificates {
 class PublicKey;
+}
+namespace System::Security::Cryptography::X509Certificates {
+struct X509SubjectKeyIdentifierHashAlgorithm;
 }
 namespace System::Security::Cryptography {
 struct AsnDecodeStatus;
 }
-namespace System::Security::Cryptography::X509Certificates {
-struct X509SubjectKeyIdentifierHashAlgorithm;
+namespace System::Security::Cryptography {
+class AsnEncodedData;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509SubjectKe
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8976)), TypeDefinitionIndex(TypeDefinitionIndex(9011))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9011)), TypeDefinitionIndex(TypeDefinitionIndex(8976))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9017))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509SubjectKeyIdentifierExtension*
 class CORDL_TYPE X509SubjectKeyIdentifierExtension : public ::System::Security::Cryptography::X509Certificates::X509Extension {

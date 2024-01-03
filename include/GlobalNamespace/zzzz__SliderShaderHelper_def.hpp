@@ -10,10 +10,10 @@ namespace GlobalNamespace {
 class SliderController;
 }
 namespace UnityEngine {
-class MaterialPropertyBlock;
+struct Color;
 }
 namespace UnityEngine {
-struct Color;
+class MaterialPropertyBlock;
 }
 namespace UnityEngine {
 struct Vector3;

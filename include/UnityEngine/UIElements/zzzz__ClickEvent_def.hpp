@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ClickEvent);
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 234, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7198)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7198), inst: 4833 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7198), inst: 4833 }), TypeDefinitionIndex(TypeDefinitionIndex(7198))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7204))
 // CS Name: ::UnityEngine.UIElements::ClickEvent*
 class CORDL_TYPE ClickEvent : public ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::ClickEvent*> {

@@ -6,40 +6,40 @@ CORDL_MODULE_INIT
 #include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
 CORDL_MODULE_EXPORT(VectorImageManager)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace UnityEngine::UIElements::UIR {
-class GradientRemapPool;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 class IDisposable;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine {
-class Texture2D;
-}
-namespace UnityEngine::UIElements {
-class AtlasBase;
+namespace UnityEngine::UIElements::UIR {
+class GradientRemapPool;
 }
 namespace UnityEngine::UIElements::UIR {
 class GradientRemap;
-}
-namespace UnityEngine::UIElements {
-class VectorImage;
-}
-namespace UnityEngine::UIElements::UIR {
-class VectorImageRenderInfoPool;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
 }
 namespace UnityEngine::UIElements::UIR {
 class GradientSettingsAtlas;
 }
 namespace UnityEngine::UIElements::UIR {
+class VectorImageRenderInfoPool;
+}
+namespace UnityEngine::UIElements::UIR {
 class VectorImageRenderInfo;
+}
+namespace UnityEngine::UIElements {
+class AtlasBase;
+}
+namespace UnityEngine::UIElements {
+class VectorImage;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -95,6 +95,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::UnityEngine::UIElements::AtlasBase*& __get_m_Atlas();
 

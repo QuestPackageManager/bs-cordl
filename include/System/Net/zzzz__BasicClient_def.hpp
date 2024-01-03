@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BasicClient)
 namespace System::Net {
-class WebRequest;
-}
-namespace System::Net {
-class ICredentials;
+class Authorization;
 }
 namespace System::Net {
 class IAuthenticationModule;
 }
 namespace System::Net {
-class Authorization;
+class ICredentials;
+}
+namespace System::Net {
+class WebRequest;
 }
 // Forward declare root types
 namespace System::Net {
@@ -39,6 +39,9 @@ public:
 
   /// @brief Convert operator to "::System::Net::IAuthenticationModule"
   constexpr operator ::System::Net::IAuthenticationModule*() noexcept;
+
+  /// @brief Convert to "::System::Net::IAuthenticationModule"
+  constexpr ::System::Net::IAuthenticationModule* i___System__Net__IAuthenticationModule() noexcept;
 
   /// @brief Method Authenticate, addr 0x29bb96c, size 0xac, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);

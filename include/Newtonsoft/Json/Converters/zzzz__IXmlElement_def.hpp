@@ -28,6 +28,9 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept;
 
+  /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
+  constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
+
   /// @brief Method SetAttributeNode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetAttributeNode(::Newtonsoft::Json::Converters::IXmlNode* attribute);
 

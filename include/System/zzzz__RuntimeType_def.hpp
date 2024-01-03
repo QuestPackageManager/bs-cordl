@@ -10,125 +10,125 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeType)
-namespace System::Reflection {
-class RuntimeModule;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::Reflection {
-class MethodInfo;
-}
-namespace System {
-template <typename T> struct __RuntimeType__ListBuilder_1;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System {
-class Type;
-}
-namespace System::Threading {
-struct StackCrawlMark;
-}
-namespace System::Reflection {
-class EventInfo;
-}
-namespace System::Reflection {
-class Binder;
-}
-namespace System {
-struct TypeCode;
-}
-namespace System::Reflection {
-struct BindingFlags;
-}
-namespace System {
-class Object;
-}
-namespace System::Reflection {
-class RuntimeAssembly;
-}
-namespace System::Reflection {
-class Module;
-}
-namespace System {
-class Array;
-}
-namespace System {
-struct Guid;
-}
-namespace System::Reflection {
-struct ParameterModifier;
-}
-namespace System {
-class ICloneable;
-}
-namespace System {
-struct __RuntimeType__MemberListType;
-}
-namespace System::Reflection {
-struct GenericParameterAttributes;
-}
-namespace System::Reflection {
-class RuntimePropertyInfo;
-}
-namespace System::Reflection {
-class RuntimeFieldInfo;
-}
 namespace System::Globalization {
 class CultureInfo;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Reflection {
-struct TypeAttributes;
-}
-namespace System::Reflection {
-class RuntimeEventInfo;
-}
-namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
-}
-namespace System::Reflection {
-class RuntimeMethodInfo;
-}
-namespace System::Reflection {
-struct CallingConventions;
-}
-namespace System {
-struct TypeNameKind;
-}
-namespace System::Reflection {
-class ConstructorInfo;
-}
-namespace System::Reflection {
-class RuntimeConstructorInfo;
-}
-namespace System {
-struct RuntimeTypeHandle;
-}
-namespace System::Reflection {
-class MemberInfo;
-}
-namespace System::Reflection {
-class FieldInfo;
-}
-namespace System::Reflection {
-class PropertyInfo;
-}
-namespace System::Reflection {
-class MethodBase;
 }
 namespace System::Reflection {
 class Assembly;
 }
 namespace System::Reflection {
+class Binder;
+}
+namespace System::Reflection {
+struct BindingFlags;
+}
+namespace System::Reflection {
+struct CallingConventions;
+}
+namespace System::Reflection {
+class ConstructorInfo;
+}
+namespace System::Reflection {
+class EventInfo;
+}
+namespace System::Reflection {
+class FieldInfo;
+}
+namespace System::Reflection {
+struct GenericParameterAttributes;
+}
+namespace System::Reflection {
+class MemberInfo;
+}
+namespace System::Reflection {
 struct MemberTypes;
+}
+namespace System::Reflection {
+class MethodBase;
+}
+namespace System::Reflection {
+class MethodInfo;
+}
+namespace System::Reflection {
+class Module;
+}
+namespace System::Reflection {
+struct ParameterModifier;
+}
+namespace System::Reflection {
+class PropertyInfo;
+}
+namespace System::Reflection {
+class RuntimeAssembly;
+}
+namespace System::Reflection {
+class RuntimeConstructorInfo;
+}
+namespace System::Reflection {
+class RuntimeEventInfo;
+}
+namespace System::Reflection {
+class RuntimeFieldInfo;
+}
+namespace System::Reflection {
+class RuntimeMethodInfo;
+}
+namespace System::Reflection {
+class RuntimeModule;
+}
+namespace System::Reflection {
+class RuntimePropertyInfo;
+}
+namespace System::Reflection {
+struct TypeAttributes;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Threading {
+struct StackCrawlMark;
+}
+namespace System {
+class Array;
+}
+namespace System {
+template <typename T1, typename T2, typename TResult> class Func_3;
+}
+namespace System {
+struct Guid;
+}
+namespace System {
+class ICloneable;
 }
 namespace System {
 class MonoTypeInfo;
+}
+namespace System {
+class Object;
+}
+namespace System {
+struct RuntimeTypeHandle;
+}
+namespace System {
+struct TypeCode;
+}
+namespace System {
+struct TypeNameKind;
+}
+namespace System {
+class Type;
+}
+namespace System {
+template <typename T> struct __RuntimeType__ListBuilder_1;
+}
+namespace System {
+struct __RuntimeType__MemberListType;
 }
 // Forward declare root types
 namespace System {
@@ -365,8 +365,14 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
+
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
   constexpr ::System::MonoTypeInfo*& __get_type_info();
 

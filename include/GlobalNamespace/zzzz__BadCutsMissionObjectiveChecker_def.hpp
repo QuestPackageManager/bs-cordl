@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(BadCutsMissionObjectiveChecker)
 namespace GlobalNamespace {
-class NoteController;
+class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
-class BeatmapObjectManager;
+class NoteController;
 }
 namespace GlobalNamespace {
 struct NoteCutInfo;

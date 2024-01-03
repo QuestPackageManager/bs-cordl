@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__MenuDestination_def.hpp"
 CORDL_MODULE_EXPORT(SelectLevelDestination)
 namespace GlobalNamespace {
-class IBeatmapLevelPack;
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+class IBeatmapLevelPack;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;

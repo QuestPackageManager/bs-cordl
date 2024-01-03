@@ -2,9 +2,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/zzzz__SystemDependencyProvider_def.hpp"
 #include "Mono/zzzz__ISystemCertificateProvider_def.hpp"
-#include "Mono/zzzz__X509PalImpl_def.hpp"
-#include "Mono/zzzz__SystemCertificateProvider_def.hpp"
 #include "Mono/zzzz__ISystemDependencyProvider_def.hpp"
+#include "Mono/zzzz__SystemCertificateProvider_def.hpp"
+#include "Mono/zzzz__X509PalImpl_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Mono::SystemDependencyProvider.get_Instance
 template <>
@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x2816b90;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::SystemDependencyProvider*>::get(), "get_Instance",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x154;
   constexpr static std::size_t addrs = 0x2816bec;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::SystemDependencyProvider*>::get(), "Initialize",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -40,7 +40,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2816dd8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::SystemDependencyProvider*>::get(),
                                                  "Mono.ISystemDependencyProvider.get_CertificateProvider", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -55,7 +55,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2816de0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::SystemDependencyProvider*>::get(),
                                                                                "get_CertificateProvider", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -68,7 +68,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x2816de8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::SystemDependencyProvider*>::get(), "get_X509Pal",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -81,7 +81,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x2816d40;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::SystemDependencyProvider*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -89,6 +89,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::Mono::ISystemDependencyProvider"
 constexpr Mono::SystemDependencyProvider::operator ::Mono::ISystemDependencyProvider*() noexcept {
+  return static_cast<::Mono::ISystemDependencyProvider*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Mono::ISystemDependencyProvider"
+constexpr ::Mono::ISystemDependencyProvider* Mono::SystemDependencyProvider::i___Mono__ISystemDependencyProvider() noexcept {
   return static_cast<::Mono::ISystemDependencyProvider*>(static_cast<void*>(this));
 }
 constexpr ::Mono::SystemCertificateProvider*& Mono::SystemDependencyProvider::__get__CertificateProvider_k__BackingField() {

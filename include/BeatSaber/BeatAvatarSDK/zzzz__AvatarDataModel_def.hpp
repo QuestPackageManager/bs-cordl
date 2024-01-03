@@ -14,11 +14,11 @@ class AvatarPartsModel;
 namespace BeatSaber::BeatAvatarSDK {
 class AvatarSaveData;
 }
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
 class ISaveData;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace BeatSaber::BeatAvatarSDK {

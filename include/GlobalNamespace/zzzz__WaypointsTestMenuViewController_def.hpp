@@ -11,49 +11,43 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(WaypointsTestMenuViewController)
 namespace GlobalNamespace {
-class LevelCompletionResults;
-}
-namespace GlobalNamespace {
-class ICoroutineStarter;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
-namespace HMUI {
-class ButtonBinder;
+namespace GlobalNamespace {
+struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
-class __WaypointsTestMenuViewController___CheckBeatmaps_d__14;
-}
-namespace GlobalNamespace {
-class StandardLevelScenesTransitionSetupDataSO;
+class BeatmapLevelSO;
 }
 namespace GlobalNamespace {
 class GameScenesManager;
 }
 namespace GlobalNamespace {
-class PlayerDataModel;
-}
-namespace UnityEngine::UI {
-class Button;
+class ICoroutineStarter;
 }
 namespace GlobalNamespace {
-class BeatmapLevelSO;
+class LevelCompletionResults;
 }
-namespace TMPro {
-class TextMeshProUGUI;
+namespace GlobalNamespace {
+class PlayerDataModel;
+}
+namespace GlobalNamespace {
+class StandardLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class __WaypointsTestMenuViewController___CheckBeatmaps_d__14;
+}
+namespace HMUI {
+class ButtonBinder;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Collections {
 class IEnumerator;
-}
-namespace GlobalNamespace {
-struct BeatmapDifficulty;
 }
 namespace System {
 class IDisposable;
@@ -61,8 +55,14 @@ class IDisposable;
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -78,9 +78,9 @@ MARK_REF_PTR_T(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatm
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 156, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 284 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1689 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4375)), TypeDefinitionIndex(TypeDefinitionIndex(4241)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1688 })} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4241)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4375)), TypeDefinitionIndex(TypeDefinitionIndex(3842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1688 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 284 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1689 })} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(3998)) CS Name: ::WaypointsTestMenuViewController::<CheckBeatmaps>d__14*
 class CORDL_TYPE __WaypointsTestMenuViewController___CheckBeatmaps_d__14 : public ::System::Object {
 public:
@@ -129,11 +129,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

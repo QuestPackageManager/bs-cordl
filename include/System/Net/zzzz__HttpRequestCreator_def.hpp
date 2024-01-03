@@ -32,6 +32,9 @@ public:
   /// @brief Convert operator to "::System::Net::IWebRequestCreate"
   constexpr operator ::System::Net::IWebRequestCreate*() noexcept;
 
+  /// @brief Convert to "::System::Net::IWebRequestCreate"
+  constexpr ::System::Net::IWebRequestCreate* i___System__Net__IWebRequestCreate() noexcept;
+
   static inline ::System::Net::HttpRequestCreator* New_ctor();
 
   /// @brief Method .ctor, addr 0x29cb7b8, size 0x8, virtual false, abstract: false, final false

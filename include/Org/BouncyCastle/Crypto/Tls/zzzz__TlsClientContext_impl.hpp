@@ -5,5 +5,9 @@
 constexpr Org::BouncyCastle::Crypto::Tls::TlsClientContext::operator ::Org::BouncyCastle::Crypto::Tls::TlsContext*() noexcept {
   return static_cast<::Org::BouncyCastle::Crypto::Tls::TlsContext*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsContext"
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext* Org::BouncyCastle::Crypto::Tls::TlsClientContext::i___Org__BouncyCastle__Crypto__Tls__TlsContext() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::Tls::TlsContext*>(static_cast<void*>(this));
+}
 #ifndef CORDL_NO_IMPL_INCLUDE
 #endif

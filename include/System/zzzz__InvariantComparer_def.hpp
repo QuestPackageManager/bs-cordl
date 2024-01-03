@@ -39,6 +39,9 @@ public:
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IComparer"
+  constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
+
   constexpr ::System::Globalization::CompareInfo*& __get_m_compareInfo();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CompareInfo*> const& __get_m_compareInfo() const;

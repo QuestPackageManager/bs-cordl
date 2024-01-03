@@ -1,12 +1,12 @@
 #pragma once
 #include "Zenject/zzzz__SubContainerCreatorByMethodBase_impl.hpp"
 #include "Zenject/zzzz__SubContainerCreatorByMethod_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__InjectContext_def.hpp"
 #include "Zenject/zzzz__SubContainerCreatorBindInfo_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "Zenject/zzzz__InjectContext_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: ::Zenject::SubContainerCreatorByMethod._ctor
 template <>
 
@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x2f0b7cc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByMethod*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get(),
@@ -33,7 +33,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x2f0b808;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByMethod*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByMethod*>::get(), 5));

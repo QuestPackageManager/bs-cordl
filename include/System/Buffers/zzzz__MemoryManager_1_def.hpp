@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MemoryManager_1)
-namespace System {
-template <typename T> struct Span_1;
+namespace System::Buffers {
+struct MemoryHandle;
 }
 namespace System {
 template <typename T> struct ArraySegment_1;
 }
-namespace System::Buffers {
-struct MemoryHandle;
+namespace System {
+template <typename T> struct Span_1;
 }
 // Forward declare root types
 namespace System::Buffers {
@@ -37,8 +37,7 @@ public:
   inline ::System::Span_1<T> GetSpan();
 
   /// @brief Method Pin, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  /// @param elementIndex: int32_t (default: static_cast<int32_t>(0x0))
-  inline ::System::Buffers::MemoryHandle Pin(int32_t elementIndex = static_cast<int32_t>(0x0));
+  inline ::System::Buffers::MemoryHandle Pin(int32_t elementIndex);
 
   /// @brief Method TryGetArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool TryGetArray(ByRef<::System::ArraySegment_1<T>> segment);

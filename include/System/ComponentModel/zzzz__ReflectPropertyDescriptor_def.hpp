@@ -8,29 +8,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReflectPropertyDescriptor)
-namespace System {
-class Attribute;
+namespace System::Collections {
+class IList;
+}
+namespace System::ComponentModel {
+class EventDescriptor;
 }
 namespace System::ComponentModel {
 class IExtenderProvider;
 }
-namespace System::Reflection {
-class PropertyInfo;
-}
-namespace System::Reflection {
-class MethodInfo;
+namespace System::ComponentModel {
+class PropertyDescriptor;
 }
 namespace System::Diagnostics {
 class TraceSwitch;
 }
+namespace System::Reflection {
+class MethodInfo;
+}
+namespace System::Reflection {
+class PropertyInfo;
+}
 namespace System {
-class Type;
-}
-namespace System::ComponentModel {
-class PropertyDescriptor;
-}
-namespace System::Collections {
-class IList;
+class Attribute;
 }
 namespace System {
 class EventArgs;
@@ -38,8 +38,8 @@ class EventArgs;
 namespace System {
 class Object;
 }
-namespace System::ComponentModel {
-class EventDescriptor;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::ComponentModel {

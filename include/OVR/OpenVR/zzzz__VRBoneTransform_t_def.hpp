@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(VRBoneTransform_t)
 namespace OVR::OpenVR {
-struct HmdVector4_t;
+struct HmdQuaternionf_t;
 }
 namespace OVR::OpenVR {
-struct HmdQuaternionf_t;
+struct HmdVector4_t;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -22,7 +22,7 @@ MARK_VAL_T(::OVR::OpenVR::VRBoneTransform_t);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8648)), TypeDefinitionIndex(TypeDefinitionIndex(8652))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8652)), TypeDefinitionIndex(TypeDefinitionIndex(8648))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8699))
 // CS Name: ::OVR.OpenVR::VRBoneTransform_t
 struct CORDL_TYPE VRBoneTransform_t {

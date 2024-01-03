@@ -9,44 +9,44 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IndexFilter)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace GlobalNamespace {
+struct __IndexFilter__IndexFilterLimitAlsoAffectType;
 }
 namespace GlobalNamespace {
 struct __IndexFilter__IndexFilterRandomType;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections {
-class IEnumerator;
+namespace GlobalNamespace {
+class __IndexFilter___GetEnumerator_d__23;
 }
 namespace GlobalNamespace {
 class __IndexFilter___GetValues_d__24;
 }
-namespace GlobalNamespace {
-class __IndexFilter___GetEnumerator_d__23;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
-namespace System {
-template <typename T1, typename T2, typename T3> struct ValueTuple_3;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace GlobalNamespace {
-struct __IndexFilter__IndexFilterLimitAlsoAffectType;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class IDisposable;
 }
 namespace System {
+class Object;
+}
+namespace System {
 template <typename T1, typename T2> struct ValueTuple_2;
 }
 namespace System {
-class Object;
+template <typename T1, typename T2, typename T3> struct ValueTuple_3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -219,11 +219,21 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_3<int32_t,int32_t,int32_t>>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_3<int32_t, int32_t, int32_t>>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_3<int32_t,int32_t,int32_t>>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_3<int32_t, int32_t, int32_t>>*
+  i___System__Collections__Generic__IEnumerator_1___System__ValueTuple_3_int32_t_int32_t_int32_t__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -392,17 +402,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<int32_t>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<int32_t>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<int32_t>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<int32_t>* i___System__Collections__Generic__IEnumerable_1_int32_t_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<int32_t>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<int32_t>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<int32_t>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<int32_t>* i___System__Collections__Generic__IEnumerator_1_int32_t_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -520,7 +545,7 @@ static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetValues_d__24, ____i
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4315)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4316))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4316)), TypeDefinitionIndex(TypeDefinitionIndex(4315))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4319))
 // CS Name: ::IndexFilter*
 class CORDL_TYPE IndexFilter : public ::System::Object {
@@ -574,11 +599,22 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<::System::ValueTuple_3<int32_t,int32_t,int32_t>>"
   constexpr operator ::System::Collections::Generic::IReadOnlyCollection_1<::System::ValueTuple_3<int32_t, int32_t, int32_t>>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<::System::ValueTuple_3<int32_t,int32_t,int32_t>>"
+  constexpr ::System::Collections::Generic::IReadOnlyCollection_1<::System::ValueTuple_3<int32_t, int32_t, int32_t>>*
+  i___System__Collections__Generic__IReadOnlyCollection_1___System__ValueTuple_3_int32_t_int32_t_int32_t__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_3<int32_t,int32_t,int32_t>>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_3<int32_t, int32_t, int32_t>>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_3<int32_t,int32_t,int32_t>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_3<int32_t, int32_t, int32_t>>*
+  i___System__Collections__Generic__IEnumerable_1___System__ValueTuple_3_int32_t_int32_t_int32_t__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::GlobalNamespace::__IndexFilter__IndexFilterRandomType& __get__random();
 

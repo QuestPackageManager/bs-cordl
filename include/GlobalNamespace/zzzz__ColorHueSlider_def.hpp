@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ColorHueSlider)
-namespace UnityEngine::EventSystems {
-class IPointerUpHandler;
-}
 namespace GlobalNamespace {
 struct ColorChangeUIEventType;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
 }
 namespace HMUI {
 class CircleSlider;
 }
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
 namespace System {
 template <typename T1, typename T2, typename T3> class Action_3;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerUpHandler;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -53,8 +53,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerUpHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerUpHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerUpHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerUpHandler* i___UnityEngine__EventSystems__IPointerUpHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
 
   constexpr ::UnityEngine::Color& __get__darkColor();
 

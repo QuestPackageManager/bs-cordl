@@ -3,9 +3,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IVisualTreeUpdater)
-namespace UnityEngine::UIElements {
-struct VersionChangeType;
-}
 namespace System {
 class IDisposable;
 }
@@ -14,6 +11,9 @@ struct ProfilerMarker;
 }
 namespace UnityEngine::UIElements {
 class BaseVisualElementPanel;
+}
+namespace UnityEngine::UIElements {
+struct VersionChangeType;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -40,6 +40,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// @brief Method set_panel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_panel(::UnityEngine::UIElements::BaseVisualElementPanel* value);

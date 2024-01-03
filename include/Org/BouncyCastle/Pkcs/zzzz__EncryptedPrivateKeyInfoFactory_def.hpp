@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EncryptedPrivateKeyInfoFactory)
 namespace Org::BouncyCastle::Asn1::Pkcs {
-class PrivateKeyInfo;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+class EncryptedPrivateKeyInfo;
 }
 namespace Org::BouncyCastle::Asn1::Pkcs {
-class EncryptedPrivateKeyInfo;
+class PrivateKeyInfo;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;

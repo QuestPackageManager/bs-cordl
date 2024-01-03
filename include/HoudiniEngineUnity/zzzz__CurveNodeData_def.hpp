@@ -9,10 +9,10 @@ namespace HoudiniEngineUnity {
 template <typename T> class IEquivable_1;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::CurveNodeData);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9619))
 // CS Name: ::HoudiniEngineUnity::CurveNodeData*
 class CORDL_TYPE CurveNodeData : public ::System::Object {
@@ -41,6 +41,9 @@ public:
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::CurveNodeData*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::CurveNodeData*>*() noexcept;
+
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::CurveNodeData*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::CurveNodeData*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__CurveNodeData__() noexcept;
 
   constexpr ::UnityEngine::Vector3& __get_position();
 

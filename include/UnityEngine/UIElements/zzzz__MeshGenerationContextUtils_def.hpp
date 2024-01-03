@@ -22,8 +22,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MeshGenerationContextUtils)
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::UIElements {
+struct ColorPage;
+}
+namespace UnityEngine::UIElements {
+struct ContextType;
+}
+namespace UnityEngine::UIElements {
+struct FontDefinition;
+}
+namespace UnityEngine::UIElements {
+class IPanel;
 }
 namespace UnityEngine::UIElements {
 class ITextHandle;
@@ -32,13 +41,28 @@ namespace UnityEngine::UIElements {
 struct Length;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine {
-struct Rect;
+class MeshGenerationContext;
 }
 namespace UnityEngine::UIElements {
-class MeshGenerationContext;
+struct OverflowInternal;
+}
+namespace UnityEngine::UIElements {
+struct TextNativeSettings;
+}
+namespace UnityEngine::UIElements {
+struct TextOverflowPosition;
+}
+namespace UnityEngine::UIElements {
+struct TextOverflow;
+}
+namespace UnityEngine::UIElements {
+class VectorImage;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+struct __MeshGenerationContextUtils__BorderParams;
 }
 namespace UnityEngine::UIElements {
 struct __MeshGenerationContextUtils__RectangleParams;
@@ -47,67 +71,43 @@ namespace UnityEngine::UIElements {
 struct __MeshGenerationContextUtils__TextParams;
 }
 namespace UnityEngine::UIElements {
-struct __MeshGenerationContextUtils__BorderParams;
+struct __MeshGenerationContext__MeshFlags;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+struct FontStyle;
+}
+namespace UnityEngine {
+class Font;
 }
 namespace UnityEngine {
 class Material;
 }
 namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine::UIElements {
-struct ColorPage;
+struct Rect;
 }
 namespace UnityEngine {
 struct ScaleMode;
 }
 namespace UnityEngine {
-class Texture;
+struct SpritePackingRotation;
 }
 namespace UnityEngine {
 class Sprite;
 }
-namespace UnityEngine::UIElements {
-class VectorImage;
-}
-namespace UnityEngine::UIElements {
-struct __MeshGenerationContext__MeshFlags;
-}
-namespace UnityEngine::UIElements {
-struct ContextType;
-}
-namespace UnityEngine {
-struct SpritePackingRotation;
-}
-namespace UnityEngine {
-struct Vector4;
-}
 namespace UnityEngine {
 struct TextAnchor;
 }
-namespace UnityEngine::UIElements {
-struct TextNativeSettings;
-}
-namespace UnityEngine::UIElements {
-struct TextOverflowPosition;
+namespace UnityEngine {
+class Texture;
 }
 namespace UnityEngine {
-class Font;
-}
-namespace UnityEngine::UIElements {
-struct FontDefinition;
+struct Vector2;
 }
 namespace UnityEngine {
-struct FontStyle;
-}
-namespace UnityEngine::UIElements {
-struct TextOverflow;
-}
-namespace UnityEngine::UIElements {
-struct OverflowInternal;
-}
-namespace UnityEngine::UIElements {
-class IPanel;
+struct Vector4;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -131,8 +131,8 @@ MARK_VAL_T(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10165)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7332))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7333)) CS Name: ::MeshGenerationContextUtils::BorderParams
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(7332)), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10243))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7333)) CS Name: ::MeshGenerationContextUtils::BorderParams
 struct CORDL_TYPE __MeshGenerationContextUtils__BorderParams {
 public:
   // Declarations
@@ -265,8 +265,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 196, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(7332)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7337)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(14596))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7332)), TypeDefinitionIndex(TypeDefinitionIndex(14596)), TypeDefinitionIndex(TypeDefinitionIndex(7337)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10243))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(7334)) CS Name: ::MeshGenerationContextUtils::RectangleParams
 struct CORDL_TYPE __MeshGenerationContextUtils__RectangleParams {
 public:
@@ -448,9 +448,9 @@ static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(7313)), TypeDefinitionIndex(TypeDefinitionIndex(7284)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6887)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(6893)), TypeDefinitionIndex(TypeDefinitionIndex(6894)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15896)), TypeDefinitionIndex(TypeDefinitionIndex(15901))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7335)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(7284)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15896)), TypeDefinitionIndex(TypeDefinitionIndex(6894)), TypeDefinitionIndex(TypeDefinitionIndex(7313)), TypeDefinitionIndex(TypeDefinitionIndex(6887)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15901)), TypeDefinitionIndex(TypeDefinitionIndex(6893))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7335)) CS Name:
 // ::MeshGenerationContextUtils::TextParams
 struct CORDL_TYPE __MeshGenerationContextUtils__TextParams {
 public:

@@ -5,32 +5,32 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MergeElements)
-namespace UnityEngine::ProBuilder::MeshOperations {
-class __MergeElements____c;
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine::ProBuilder::MeshOperations {
+class __MergeElements____c;
+}
+namespace UnityEngine::ProBuilder::MeshOperations {
+class __MergeElements____c__DisplayClass0_0;
+}
+namespace UnityEngine::ProBuilder {
+class Face;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
 namespace UnityEngine::ProBuilder {
 template <typename T1, typename T2> struct SimpleTuple_2;
-}
-namespace UnityEngine::ProBuilder {
-class Face;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::ProBuilder::MeshOperations {
-class __MergeElements____c__DisplayClass0_0;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::MeshOperations {
@@ -166,11 +166,10 @@ public:
   using __c__DisplayClass0_0 = ::UnityEngine::ProBuilder::MeshOperations::__MergeElements____c__DisplayClass0_0;
 
   /// @brief Method MergePairs, addr 0x2bb87dc, size 0x6b0, virtual false, abstract: false, final false
-  /// @param collapseCoincidentVertices: bool (default: true)
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*
   MergePairs(::UnityEngine::ProBuilder::ProBuilderMesh* target,
              ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Face*>>* pairs,
-             bool collapseCoincidentVertices = true);
+             bool collapseCoincidentVertices);
 
   /// @brief Method Merge, addr 0x2bb9354, size 0x3d0, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Face* Merge(::UnityEngine::ProBuilder::ProBuilderMesh* target, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);

@@ -9,6 +9,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ListViewDraggerAnimated)
 namespace UnityEngine::UIElements {
+class BaseVerticalCollectionView;
+}
+namespace UnityEngine::UIElements {
 struct DragVisualMode;
 }
 namespace UnityEngine::UIElements {
@@ -20,14 +23,11 @@ class StartDragArgs;
 namespace UnityEngine::UIElements {
 struct __ListViewDragger__DragPosition;
 }
-namespace UnityEngine::UIElements {
-class BaseVerticalCollectionView;
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine {
-struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ListViewDraggerAnimated);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(6959))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6959)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6961))
 // CS Name: ::UnityEngine.UIElements::ListViewDraggerAnimated*
 class CORDL_TYPE ListViewDraggerAnimated : public ::UnityEngine::UIElements::ListViewDragger {

@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509CrlParser)
-namespace System::IO {
-class Stream;
-}
-namespace Org::BouncyCastle::X509 {
-class PemParser;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
+namespace Org::BouncyCastle::Asn1::X509 {
+class CertificateList;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1InputStream;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class CertificateList;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Set;
+}
+namespace Org::BouncyCastle::X509 {
+class PemParser;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Crl;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {

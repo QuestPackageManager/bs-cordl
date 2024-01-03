@@ -27,6 +27,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPacketPool"
   constexpr operator ::GlobalNamespace::IPacketPool*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IPacketPool"
+  constexpr ::GlobalNamespace::IPacketPool* i___GlobalNamespace__IPacketPool() noexcept;
+
   /// @brief Method Obtain, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T Obtain();
 

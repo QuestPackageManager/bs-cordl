@@ -4,32 +4,32 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ILobbyPlayersDataModel)
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System::Collections {
-class IEnumerable;
-}
 namespace GlobalNamespace {
 class GameplayModifiers;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
-}
 namespace GlobalNamespace {
 class ILobbyPlayerData;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class IReadOnlyDictionary_2;
 }
 namespace GlobalNamespace {
 class PreviewDifficultyBeatmap;
 }
 namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class IReadOnlyCollection_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class IReadOnlyDictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct KeyValuePair_2;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -54,14 +54,29 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyDictionary_2<::StringW,::GlobalNamespace::ILobbyPlayerData*>"
   constexpr operator ::System::Collections::Generic::IReadOnlyDictionary_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IReadOnlyDictionary_2<::StringW,::GlobalNamespace::ILobbyPlayerData*>"
+  constexpr ::System::Collections::Generic::IReadOnlyDictionary_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>*
+  i___System__Collections__Generic__IReadOnlyDictionary_2___StringW___GlobalNamespace__ILobbyPlayerData__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::GlobalNamespace::ILobbyPlayerData*>>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::GlobalNamespace::ILobbyPlayerData*>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>>*
+  i___System__Collections__Generic__IEnumerable_1___System__Collections__Generic__KeyValuePair_2___StringW___GlobalNamespace__ILobbyPlayerData___() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::GlobalNamespace::ILobbyPlayerData*>>"
   constexpr operator ::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::GlobalNamespace::ILobbyPlayerData*>>"
+  constexpr ::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>>*
+  i___System__Collections__Generic__IReadOnlyCollection_1___System__Collections__Generic__KeyValuePair_2___StringW___GlobalNamespace__ILobbyPlayerData___() noexcept;
 
   /// @brief Method add_didChangeEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_didChangeEvent(::System::Action_1<::StringW>* value);

@@ -11,40 +11,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRHand)
 namespace GlobalNamespace {
-class __OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider;
-}
-namespace GlobalNamespace {
-struct __OVRHand__Hand;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace GlobalNamespace {
-struct __OVRMesh__MeshType;
-}
-namespace GlobalNamespace {
-struct __OVRSkeleton__SkeletonPoseData;
-}
-namespace GlobalNamespace {
-class __OVRSkeleton__IOVRSkeletonDataProvider;
-}
-namespace GlobalNamespace {
-struct __OVRSkeletonRenderer__SkeletonRendererData;
-}
-namespace GlobalNamespace {
 struct __OVRHand__HandFinger;
 }
 namespace GlobalNamespace {
-class __OVRMeshRenderer__IOVRMeshRendererDataProvider;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Step;
+struct __OVRHand__Hand;
 }
 namespace GlobalNamespace {
 struct __OVRHand__TrackingConfidence;
 }
 namespace GlobalNamespace {
-struct __OVRSkeleton__SkeletonType;
+class __OVRMeshRenderer__IOVRMeshRendererDataProvider;
 }
 namespace GlobalNamespace {
 struct __OVRMeshRenderer__MeshRendererData;
@@ -52,8 +28,32 @@ struct __OVRMeshRenderer__MeshRendererData;
 namespace GlobalNamespace {
 class __OVRMesh__IOVRMeshDataProvider;
 }
+namespace GlobalNamespace {
+struct __OVRMesh__MeshType;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Step;
+}
+namespace GlobalNamespace {
+class __OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider;
+}
+namespace GlobalNamespace {
+struct __OVRSkeletonRenderer__SkeletonRendererData;
+}
+namespace GlobalNamespace {
+class __OVRSkeleton__IOVRSkeletonDataProvider;
+}
+namespace GlobalNamespace {
+struct __OVRSkeleton__SkeletonPoseData;
+}
+namespace GlobalNamespace {
+struct __OVRSkeleton__SkeletonType;
+}
 namespace UnityEngine {
 class GameObject;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -247,8 +247,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRHand__TrackingConfidence, value__
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 201, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(8115)), TypeDefinitionIndex(TypeDefinitionIndex(8113)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7603)), TypeDefinitionIndex(TypeDefinitionIndex(7771))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8116)) CS Name: ::OVRHand*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7771)), TypeDefinitionIndex(TypeDefinitionIndex(8115)), TypeDefinitionIndex(TypeDefinitionIndex(8113)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7603)), TypeDefinitionIndex(TypeDefinitionIndex(10225))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8116)) CS Name: ::OVRHand*
 class CORDL_TYPE OVRHand : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -321,14 +321,26 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::__OVRSkeleton__IOVRSkeletonDataProvider"
   constexpr operator ::GlobalNamespace::__OVRSkeleton__IOVRSkeletonDataProvider*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::__OVRSkeleton__IOVRSkeletonDataProvider"
+  constexpr ::GlobalNamespace::__OVRSkeleton__IOVRSkeletonDataProvider* i___GlobalNamespace____OVRSkeleton__IOVRSkeletonDataProvider() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider"
   constexpr operator ::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider"
+  constexpr ::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider* i___GlobalNamespace____OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider() noexcept;
 
   /// @brief Convert operator to "::GlobalNamespace::__OVRMesh__IOVRMeshDataProvider"
   constexpr operator ::GlobalNamespace::__OVRMesh__IOVRMeshDataProvider*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::__OVRMesh__IOVRMeshDataProvider"
+  constexpr ::GlobalNamespace::__OVRMesh__IOVRMeshDataProvider* i___GlobalNamespace____OVRMesh__IOVRMeshDataProvider() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::__OVRMeshRenderer__IOVRMeshRendererDataProvider"
   constexpr operator ::GlobalNamespace::__OVRMeshRenderer__IOVRMeshRendererDataProvider*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::__OVRMeshRenderer__IOVRMeshRendererDataProvider"
+  constexpr ::GlobalNamespace::__OVRMeshRenderer__IOVRMeshRendererDataProvider* i___GlobalNamespace____OVRMeshRenderer__IOVRMeshRendererDataProvider() noexcept;
 
   constexpr ::GlobalNamespace::__OVRHand__Hand& __get_HandType();
 

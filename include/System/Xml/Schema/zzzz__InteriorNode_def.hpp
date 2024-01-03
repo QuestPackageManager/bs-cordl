@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__SyntaxTreeNode_def.hpp"
 CORDL_MODULE_EXPORT(InteriorNode)
 namespace System::Xml::Schema {
-class SyntaxTreeNode;
-}
-namespace System::Xml::Schema {
 class Positions;
 }
 namespace System::Xml::Schema {
 class SymbolsDictionary;
+}
+namespace System::Xml::Schema {
+class SyntaxTreeNode;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

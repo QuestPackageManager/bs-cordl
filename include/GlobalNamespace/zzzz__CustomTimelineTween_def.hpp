@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(CustomTimelineTween)
 namespace UnityEngine {
-struct Vector3;
+class Transform;
 }
 namespace UnityEngine {
-class Transform;
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {

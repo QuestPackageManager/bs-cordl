@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Ocsp/zzzz__CertificateStatus_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RevokedStatus)
-namespace System {
-struct DateTime;
-}
 namespace Org::BouncyCastle::Asn1::Ocsp {
 class RevokedInfo;
+}
+namespace System {
+struct DateTime;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Ocsp {

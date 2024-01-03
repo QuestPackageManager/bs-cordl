@@ -13,10 +13,46 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputFieldView)
 namespace HMUI {
-class __InputFieldView___BlinkingCaretCoroutine_d__43;
+class ButtonBinder;
 }
 namespace HMUI {
 class ImageView;
+}
+namespace HMUI {
+class UIKeyboard;
+}
+namespace HMUI {
+class __InputFieldView__InputFieldChanged;
+}
+namespace HMUI {
+struct __InputFieldView__SelectionState;
+}
+namespace HMUI {
+class __InputFieldView___BlinkingCaretCoroutine_d__43;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace UnityEngine::UI {
+struct __Selectable__SelectionState;
 }
 namespace UnityEngine {
 class CanvasGroup;
@@ -27,44 +63,8 @@ class GameObject;
 namespace UnityEngine {
 struct Vector3;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace HMUI {
-class __InputFieldView__InputFieldChanged;
-}
-namespace UnityEngine::UI {
-class Button;
-}
-namespace HMUI {
-class ButtonBinder;
-}
 namespace UnityEngine {
 class YieldInstruction;
-}
-namespace UnityEngine::UI {
-struct __Selectable__SelectionState;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace HMUI {
-class UIKeyboard;
-}
-namespace HMUI {
-struct __InputFieldView__SelectionState;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace HMUI {
@@ -150,7 +150,7 @@ static_assert(offsetof(::HMUI::__InputFieldView__SelectionState, value__) == 0x0
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13119)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(13629))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(13629)), TypeDefinitionIndex(TypeDefinitionIndex(13119))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13632))
 // CS Name: ::HMUI::InputFieldView*
 class CORDL_TYPE InputFieldView : public ::UnityEngine::UI::Selectable {
@@ -511,7 +511,7 @@ static_assert(offsetof(::HMUI::InputFieldView, ____blinkWaitYieldInstruction) ==
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13632)), TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10465)), TypeDefinitionIndex(TypeDefinitionIndex(13632)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst:
 // 331 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13630)) CS Name: ::InputFieldView::InputFieldChanged*
 class CORDL_TYPE __InputFieldView__InputFieldChanged : public ::UnityEngine::Events::UnityEvent_1<::HMUI::InputFieldView*> {
 public:
@@ -567,11 +567,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

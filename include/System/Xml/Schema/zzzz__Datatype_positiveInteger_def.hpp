@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__Datatype_nonNegativeInteger_def.hpp"
 CORDL_MODULE_EXPORT(Datatype_positiveInteger)
 namespace System::Xml::Schema {
-struct XmlTypeCode;
+class FacetsChecker;
 }
 namespace System::Xml::Schema {
-class FacetsChecker;
+struct XmlTypeCode;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

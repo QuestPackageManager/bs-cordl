@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(G_FpsMonitor)
-namespace Tayx::Graphy::Fps {
-class __G_FpsMonitor____c;
-}
 namespace System {
 template <typename T> class Comparison_1;
+}
+namespace Tayx::Graphy::Fps {
+class __G_FpsMonitor____c;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Fps {

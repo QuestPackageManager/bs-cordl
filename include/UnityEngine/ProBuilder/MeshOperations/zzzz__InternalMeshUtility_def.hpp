@@ -6,35 +6,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(InternalMeshUtility)
-namespace UnityEngine::ProBuilder {
-class SharedVertex;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
-namespace UnityEngine {
-class Transform;
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine::ProBuilder::MeshOperations {
 class __InternalMeshUtility____c;
 }
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
-namespace UnityEngine {
-class Mesh;
+namespace UnityEngine::ProBuilder {
+class SharedVertex;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
+class Mesh;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
 struct Vector2;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::MeshOperations {

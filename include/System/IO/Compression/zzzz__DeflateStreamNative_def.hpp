@@ -10,9 +10,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DeflateStreamNative)
-namespace System {
-class Exception;
-}
 namespace System::IO::Compression {
 struct CompressionMode;
 }
@@ -24,6 +21,9 @@ class __DeflateStreamNative__UnmanagedReadOrWrite;
 }
 namespace System::IO {
 class Stream;
+}
+namespace System {
+class Exception;
 }
 namespace System {
 class Object;
@@ -127,7 +127,7 @@ static_assert(::cordl_internals::size_check_v<::System::IO::Compression::__Defla
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO::Compression {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3336)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3336))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9553))
 // CS Name: ::System.IO.Compression::DeflateStreamNative*
 class CORDL_TYPE DeflateStreamNative : public ::System::Object {

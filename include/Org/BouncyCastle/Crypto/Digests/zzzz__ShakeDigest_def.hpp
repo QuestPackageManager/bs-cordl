@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ShakeDigest)
 namespace Org::BouncyCastle::Crypto {
+class IDigest;
+}
+namespace Org::BouncyCastle::Crypto {
 class IXof;
 }
 namespace Org::BouncyCastle::Utilities {
 class IMemoable;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Digests {
@@ -37,8 +37,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IXof"
   constexpr operator ::Org::BouncyCastle::Crypto::IXof*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IXof"
+  constexpr ::Org::BouncyCastle::Crypto::IXof* i___Org__BouncyCastle__Crypto__IXof() noexcept;
+
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDigest"
   constexpr operator ::Org::BouncyCastle::Crypto::IDigest*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"
+  constexpr ::Org::BouncyCastle::Crypto::IDigest* i___Org__BouncyCastle__Crypto__IDigest() noexcept;
 
   /// @brief Method CheckBitLength, addr 0xea5408, size 0xa8, virtual false, abstract: false, final false
   static inline int32_t CheckBitLength(int32_t bitLength);

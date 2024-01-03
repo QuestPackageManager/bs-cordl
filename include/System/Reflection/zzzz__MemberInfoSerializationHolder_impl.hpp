@@ -2,14 +2,14 @@
 #include "System/Reflection/zzzz__MemberTypes_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Reflection/zzzz__MemberInfoSerializationHolder_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/zzzz__RuntimeType_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__IObjectReference_def.hpp"
 #include "System/Reflection/zzzz__MemberTypes_def.hpp"
-#include "System/zzzz__Type_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IObjectReference_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__RuntimeType_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::Reflection::MemberInfoSerializationHolder.GetSerializationInfo
 template <>
 
@@ -19,7 +19,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x24edeec;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::MemberInfoSerializationHolder*>::get(), "GetSerializationInfo", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationInfo*>::get(),
@@ -38,7 +38,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x314;
   constexpr static std::size_t addrs = 0x24edefc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::MemberInfoSerializationHolder*>::get(), "GetSerializationInfo", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationInfo*>::get(),
@@ -57,7 +57,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x324;
   constexpr static std::size_t addrs = 0x24ee210;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::MemberInfoSerializationHolder*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationInfo*>::get(),
@@ -73,7 +73,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0x24ee534;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::MemberInfoSerializationHolder*>::get(),
@@ -89,7 +89,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x808;
   constexpr static std::size_t addrs = 0x24ee594;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::MemberInfoSerializationHolder*>::get(),
@@ -101,8 +101,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 constexpr System::Reflection::MemberInfoSerializationHolder::operator ::System::Runtime::Serialization::ISerializable*() noexcept {
   return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+constexpr ::System::Runtime::Serialization::ISerializable* System::Reflection::MemberInfoSerializationHolder::i___System__Runtime__Serialization__ISerializable() noexcept {
+  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Runtime::Serialization::IObjectReference"
 constexpr System::Reflection::MemberInfoSerializationHolder::operator ::System::Runtime::Serialization::IObjectReference*() noexcept {
+  return static_cast<::System::Runtime::Serialization::IObjectReference*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Serialization::IObjectReference"
+constexpr ::System::Runtime::Serialization::IObjectReference* System::Reflection::MemberInfoSerializationHolder::i___System__Runtime__Serialization__IObjectReference() noexcept {
   return static_cast<::System::Runtime::Serialization::IObjectReference*>(static_cast<void*>(this));
 }
 constexpr ::StringW& System::Reflection::MemberInfoSerializationHolder::__get_m_memberName() {

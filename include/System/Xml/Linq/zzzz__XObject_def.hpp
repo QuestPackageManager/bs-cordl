@@ -4,8 +4,8 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(XObject)
-namespace System::Xml {
-struct XmlNodeType;
+namespace System::Xml::Linq {
+struct SaveOptions;
 }
 namespace System::Xml::Linq {
 class XContainer;
@@ -16,14 +16,14 @@ class XElement;
 namespace System::Xml::Linq {
 class XObjectChangeEventArgs;
 }
-namespace System {
-class Type;
+namespace System::Xml {
+struct XmlNodeType;
 }
 namespace System {
 class Object;
 }
-namespace System::Xml::Linq {
-struct SaveOptions;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Xml::Linq {

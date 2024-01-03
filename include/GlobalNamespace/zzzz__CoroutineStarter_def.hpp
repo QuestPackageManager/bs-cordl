@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(CoroutineStarter)
-namespace System::Collections {
-class IEnumerator;
-}
 namespace GlobalNamespace {
 class ICoroutineStarter;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace UnityEngine {
 class Coroutine;
@@ -31,6 +31,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::GlobalNamespace::ICoroutineStarter"
   constexpr operator ::GlobalNamespace::ICoroutineStarter*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::ICoroutineStarter"
+  constexpr ::GlobalNamespace::ICoroutineStarter* i___GlobalNamespace__ICoroutineStarter() noexcept;
 
   /// @brief Method ICoroutineStarter.StartCoroutine, addr 0xe27308, size 0xd4, virtual true, abstract: false, final true
   inline ::UnityEngine::Coroutine* ICoroutineStarter_StartCoroutine(::System::Collections::IEnumerator* routine);

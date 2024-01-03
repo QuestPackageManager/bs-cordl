@@ -4,32 +4,32 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(SignerInfo)
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Asn1::Cms {
 class Attributes;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
+namespace Org::BouncyCastle::Asn1::Cms {
+class SignerIdentifier;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+class Asn1OctetString;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Set;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class SignerIdentifier;
-}
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class DerInteger;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {

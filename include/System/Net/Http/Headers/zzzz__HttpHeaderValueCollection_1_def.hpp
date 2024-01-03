@@ -10,17 +10,8 @@ CORDL_MODULE_EXPORT(HttpHeaderValueCollection_1)
 namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
 }
-namespace System {
-template <typename T> class Predicate_1;
-}
-namespace System::Net::Http::Headers {
-class HeaderInfo;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class IEnumerator;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
@@ -28,11 +19,20 @@ template <typename T> class IEnumerator_1;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Net::Http::Headers {
+class HeaderInfo;
 }
 namespace System::Net::Http::Headers {
 class HttpHeaders;
+}
+namespace System {
+template <typename T> class Predicate_1;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -73,11 +73,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<T>"
   constexpr operator ::System::Collections::Generic::ICollection_1<T>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::ICollection_1<T>"
+  constexpr ::System::Collections::Generic::ICollection_1<T>* i___System__Collections__Generic__ICollection_1_T_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>* i___System__Collections__Generic__IEnumerable_1_T_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::System::Collections::Generic::List_1<T>*& __get_list();
 

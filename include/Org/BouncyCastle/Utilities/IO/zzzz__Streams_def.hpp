@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Streams)
 namespace System::IO {
-class Stream;
+class MemoryStream;
 }
 namespace System::IO {
-class MemoryStream;
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::IO {

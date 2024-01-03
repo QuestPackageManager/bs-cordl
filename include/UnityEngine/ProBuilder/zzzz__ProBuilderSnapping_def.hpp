@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ProBuilderSnapping)
-namespace UnityEngine::ProBuilder {
-struct Vector3Mask;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
+}
+namespace UnityEngine::ProBuilder {
+struct Vector3Mask;
 }
 namespace UnityEngine {
 struct Ray;

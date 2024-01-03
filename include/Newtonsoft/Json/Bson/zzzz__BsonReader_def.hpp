@@ -14,29 +14,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BsonReader)
+namespace Newtonsoft::Json::Bson {
+struct BsonBinaryType;
+}
+namespace Newtonsoft::Json::Bson {
+struct BsonType;
+}
+namespace Newtonsoft::Json::Bson {
+struct __BsonReader__BsonReaderState;
+}
+namespace Newtonsoft::Json::Bson {
+class __BsonReader__ContainerContext;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::IO {
 class BinaryReader;
 }
-namespace Newtonsoft::Json::Bson {
-struct BsonBinaryType;
-}
-namespace Newtonsoft::Json::Bson {
-struct __BsonReader__BsonReaderState;
-}
-namespace Newtonsoft::Json::Bson {
-struct BsonType;
-}
 namespace System::IO {
 class Stream;
 }
 namespace System {
 struct DateTimeKind;
-}
-namespace Newtonsoft::Json::Bson {
-class __BsonReader__ContainerContext;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Bson {
@@ -134,7 +134,7 @@ static_assert(offsetof(::Newtonsoft::Json::Bson::__BsonReader__BsonReaderState, 
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12082))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12082)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12072))
 // CS Name: ::BsonReader::ContainerContext*
 class CORDL_TYPE __BsonReader__ContainerContext : public ::System::Object {
@@ -211,8 +211,8 @@ static_assert(offsetof(::Newtonsoft::Json::Bson::__BsonReader__ContainerContext,
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11833)), TypeDefinitionIndex(TypeDefinitionIndex(12082)), TypeDefinitionIndex(TypeDefinitionIndex(2369)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12071))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12073)) CS Name: ::Newtonsoft.Json.Bson::BsonReader*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12082)), TypeDefinitionIndex(TypeDefinitionIndex(11833)), TypeDefinitionIndex(TypeDefinitionIndex(12071)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2369))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12073)) CS Name: ::Newtonsoft.Json.Bson::BsonReader*
 class CORDL_TYPE BsonReader : public ::Newtonsoft::Json::JsonReader {
 public:
   // Declarations

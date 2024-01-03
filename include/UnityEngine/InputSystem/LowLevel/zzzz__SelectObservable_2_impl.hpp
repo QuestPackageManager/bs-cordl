@@ -1,14 +1,19 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__SelectObservable_2_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__IObservable_1_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__SelectObservable_2_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__IObserver_1_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__SelectObservable_2_def.hpp"
 /// @brief Convert operator to "::System::IObserver_1<TSource>"
 template <typename TSource, typename TResult> constexpr UnityEngine::InputSystem::LowLevel::__SelectObservable_2__Select<TSource, TResult>::operator ::System::IObserver_1<TSource>*() noexcept {
+  return static_cast<::System::IObserver_1<TSource>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IObserver_1<TSource>"
+template <typename TSource, typename TResult>
+constexpr ::System::IObserver_1<TSource>* UnityEngine::InputSystem::LowLevel::__SelectObservable_2__Select<TSource, TResult>::i___System__IObserver_1_TSource_() noexcept {
   return static_cast<::System::IObserver_1<TSource>*>(static_cast<void*>(this));
 }
 template <typename TSource, typename TResult>
@@ -79,6 +84,11 @@ template <typename TSource, typename TResult> inline void UnityEngine::InputSyst
 template <typename TSource, typename TResult> constexpr ::UnityEngine::InputSystem::LowLevel::__SelectObservable_2__Select<TSource, TResult>::__SelectObservable_2__Select() {}
 /// @brief Convert operator to "::System::IObservable_1<TResult>"
 template <typename TSource, typename TResult> constexpr UnityEngine::InputSystem::LowLevel::SelectObservable_2<TSource, TResult>::operator ::System::IObservable_1<TResult>*() noexcept {
+  return static_cast<::System::IObservable_1<TResult>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IObservable_1<TResult>"
+template <typename TSource, typename TResult>
+constexpr ::System::IObservable_1<TResult>* UnityEngine::InputSystem::LowLevel::SelectObservable_2<TSource, TResult>::i___System__IObservable_1_TResult_() noexcept {
   return static_cast<::System::IObservable_1<TResult>*>(static_cast<void*>(this));
 }
 template <typename TSource, typename TResult> constexpr ::System::IObservable_1<TSource>*& UnityEngine::InputSystem::LowLevel::SelectObservable_2<TSource, TResult>::__get_m_Source() {

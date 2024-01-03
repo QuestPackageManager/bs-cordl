@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IDragAndDrop)
 namespace UnityEngine::UIElements {
-class StartDragArgs;
+class IDragAndDropData;
 }
 namespace UnityEngine::UIElements {
-class IDragAndDropData;
+class StartDragArgs;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

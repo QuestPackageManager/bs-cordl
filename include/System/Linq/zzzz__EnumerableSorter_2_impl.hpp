@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Linq/zzzz__EnumerableSorter_1_impl.hpp"
 #include "System/Linq/zzzz__EnumerableSorter_2_def.hpp"
-#include "System/Linq/zzzz__EnumerableSorter_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
+#include "System/Linq/zzzz__EnumerableSorter_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 template <typename TElement, typename TKey> constexpr ::System::Func_2<TElement, TKey>*& System::Linq::EnumerableSorter_2<TElement, TKey>::__get_keySelector() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

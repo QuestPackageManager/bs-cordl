@@ -10,13 +10,13 @@ namespace System {
 class Object;
 }
 namespace UnityEngine::UIElements {
-class IListDragAndDropArgs;
-}
-namespace UnityEngine::UIElements {
 struct DragAndDropPosition;
 }
 namespace UnityEngine::UIElements {
 class IDragAndDropData;
+}
+namespace UnityEngine::UIElements {
+class IListDragAndDropArgs;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -44,6 +44,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::UIElements::IListDragAndDropArgs"
   constexpr operator ::UnityEngine::UIElements::IListDragAndDropArgs*();
+
+  /// @brief Convert to "::UnityEngine::UIElements::IListDragAndDropArgs"
+  constexpr ::UnityEngine::UIElements::IListDragAndDropArgs* i___UnityEngine__UIElements__IListDragAndDropArgs();
 
   /// @brief Method set_target, addr 0x2e0994c, size 0x8, virtual false, abstract: false, final false
   inline void set_target(::System::Object* value);

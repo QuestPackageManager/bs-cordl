@@ -37,6 +37,9 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
+
   constexpr ::StringW& __get__logicalCallID();
 
   constexpr ::StringW const& __get__logicalCallID() const;

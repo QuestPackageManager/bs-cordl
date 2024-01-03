@@ -2,35 +2,36 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/zzzz__RenderTextureMemoryless_def.hpp"
 #include "UnityEngine/zzzz__Texture_def.hpp"
-#include "UnityEngine/zzzz__VRTextureUsage_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RenderTexture)
 namespace UnityEngine::Experimental::Rendering {
 struct DefaultFormat;
 }
-namespace UnityEngine {
-struct RenderTextureReadWrite;
-}
-namespace UnityEngine::Rendering {
-struct TextureDimension;
-}
 namespace UnityEngine::Experimental::Rendering {
 struct GraphicsFormat;
 }
-namespace UnityEngine {
-struct VRTextureUsage;
+namespace UnityEngine::Rendering {
+struct TextureDimension;
 }
 namespace UnityEngine {
 struct RenderBuffer;
 }
 namespace UnityEngine {
+struct RenderTextureDescriptor;
+}
+namespace UnityEngine {
 struct RenderTextureFormat;
 }
 namespace UnityEngine {
-struct RenderTextureDescriptor;
+struct RenderTextureMemoryless;
+}
+namespace UnityEngine {
+struct RenderTextureReadWrite;
+}
+namespace UnityEngine {
+struct VRTextureUsage;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -42,7 +43,7 @@ MARK_REF_PTR_T(::UnityEngine::RenderTexture);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10118)), TypeDefinitionIndex(TypeDefinitionIndex(10121)), TypeDefinitionIndex(TypeDefinitionIndex(10071))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10071))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10078))
 // CS Name: ::UnityEngine::RenderTexture*
 class CORDL_TYPE RenderTexture : public ::UnityEngine::Texture {
@@ -258,13 +259,9 @@ public:
   static inline ::UnityEngine::RenderTexture* GetTemporary(::UnityEngine::RenderTextureDescriptor desc);
 
   /// @brief Method GetTemporaryImpl, addr 0x2cb484c, size 0xb8, virtual false, abstract: false, final false
-  /// @param antiAliasing: int32_t (default: static_cast<int32_t>(0x1))
-  /// @param memorylessMode: ::UnityEngine::RenderTextureMemoryless (default: static_cast<int32_t>(0x0))
-  /// @param vrUsage: ::UnityEngine::VRTextureUsage (default: static_cast<int32_t>(0x0))
-  /// @param useDynamicScale: bool (default: false)
   static inline ::UnityEngine::RenderTexture* GetTemporaryImpl(int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat,
-                                                               int32_t antiAliasing = static_cast<int32_t>(0x1), ::UnityEngine::RenderTextureMemoryless memorylessMode = static_cast<int32_t>(0x0),
-                                                               ::UnityEngine::VRTextureUsage vrUsage = static_cast<int32_t>(0x0), bool useDynamicScale = false);
+                                                               int32_t antiAliasing, ::UnityEngine::RenderTextureMemoryless memorylessMode, ::UnityEngine::VRTextureUsage vrUsage,
+                                                               bool useDynamicScale);
 
   /// @brief Method GetTemporary, addr 0x2cb49dc, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityEngine::RenderTexture* GetTemporary(int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::RenderTextureFormat format,

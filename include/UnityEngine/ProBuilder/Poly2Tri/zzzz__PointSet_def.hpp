@@ -4,14 +4,8 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(PointSet)
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class TriangulationContext;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class DelaunayTriangle;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-struct TriangulationMode;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
@@ -20,13 +14,19 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
+class DelaunayTriangle;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
 class Triangulatable;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class TriangulationPoint;
+class TriangulationContext;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace UnityEngine::ProBuilder::Poly2Tri {
+struct TriangulationMode;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class TriangulationPoint;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {
@@ -60,6 +60,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::ProBuilder::Poly2Tri::Triangulatable"
   constexpr operator ::UnityEngine::ProBuilder::Poly2Tri::Triangulatable*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::ProBuilder::Poly2Tri::Triangulatable"
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::Triangulatable* i___UnityEngine__ProBuilder__Poly2Tri__Triangulatable() noexcept;
 
   constexpr ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*& __get__Points_k__BackingField();
 

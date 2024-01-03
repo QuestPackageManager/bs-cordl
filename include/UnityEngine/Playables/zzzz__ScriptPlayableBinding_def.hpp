@@ -5,9 +5,6 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ScriptPlayableBinding)
-namespace UnityEngine {
-class Object;
-}
 namespace System {
 class Type;
 }
@@ -19,6 +16,9 @@ struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
 struct PlayableOutput;
+}
+namespace UnityEngine {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {

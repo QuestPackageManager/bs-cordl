@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SerializationEvents)
-namespace System::Reflection {
-class MethodInfo;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System::Reflection {
+class MethodInfo;
 }
 namespace System::Runtime::Serialization {
 class SerializationEventHandler;
 }
-namespace System {
-class Object;
-}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class Type;

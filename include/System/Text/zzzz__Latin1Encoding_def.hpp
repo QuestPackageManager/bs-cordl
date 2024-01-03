@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Latin1Encoding)
-namespace System::Text {
-class EncoderNLS;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
 namespace System::Text {
 class DecoderNLS;
+}
+namespace System::Text {
+class EncoderNLS;
 }
 // Forward declare root types
 namespace System::Text {
@@ -45,6 +45,9 @@ public:
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
   static inline void setStaticF_s_default(::System::Text::Latin1Encoding* value);
 

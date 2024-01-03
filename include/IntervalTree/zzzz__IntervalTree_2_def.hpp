@@ -5,11 +5,32 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IntervalTree_2)
-namespace System::Collections {
-class IEnumerator;
+namespace IntervalTree {
+template <typename TKey, typename TValue> class IIntervalTree_2;
+}
+namespace IntervalTree {
+template <typename TKey, typename TValue> class IntervalTreeNode_2;
+}
+namespace IntervalTree {
+template <typename TKey, typename TValue> struct RangeValuePair_2;
+}
+namespace IntervalTree {
+template <typename TKey, typename TValue> class __IntervalTree_2____c__DisplayClass19_0;
 }
 namespace IntervalTree {
 template <typename TKey, typename TValue> class __IntervalTree_2____c__DisplayClass20_0;
+}
+namespace IntervalTree {
+template <typename TKey, typename TValue> class __IntervalTree_2____c__DisplayClass23_0;
+}
+namespace IntervalTree {
+template <typename TKey, typename TValue> class __IntervalTree_2____c__DisplayClass24_0;
+}
+namespace IntervalTree {
+template <typename TKey, typename TValue> class __IntervalTree_2____c;
+}
+namespace System::Collections::Generic {
+template <typename T> class IComparer_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -17,35 +38,14 @@ template <typename T> class IEnumerable_1;
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace IntervalTree {
-template <typename TKey, typename TValue> struct RangeValuePair_2;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace IntervalTree {
-template <typename TKey, typename TValue> class __IntervalTree_2____c;
-}
-namespace IntervalTree {
-template <typename TKey, typename TValue> class __IntervalTree_2____c__DisplayClass23_0;
-}
-namespace IntervalTree {
-template <typename TKey, typename TValue> class IntervalTreeNode_2;
-}
-namespace IntervalTree {
-template <typename TKey, typename TValue> class IIntervalTree_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class IComparer_1;
-}
-namespace IntervalTree {
-template <typename TKey, typename TValue> class __IntervalTree_2____c__DisplayClass24_0;
-}
-namespace IntervalTree {
-template <typename TKey, typename TValue> class __IntervalTree_2____c__DisplayClass19_0;
-}
 namespace System::Collections {
 class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -397,11 +397,21 @@ public:
   /// @brief Convert operator to "::IntervalTree::IIntervalTree_2<TKey,TValue>"
   constexpr operator ::IntervalTree::IIntervalTree_2<TKey, TValue>*() noexcept;
 
+  /// @brief Convert to "::IntervalTree::IIntervalTree_2<TKey,TValue>"
+  constexpr ::IntervalTree::IIntervalTree_2<TKey, TValue>* i___IntervalTree__IIntervalTree_2_TKey_TValue_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::IntervalTree::RangeValuePair_2<TKey,TValue>>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::IntervalTree::RangeValuePair_2<TKey,TValue>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*
+  i___System__Collections__Generic__IEnumerable_1___IntervalTree__RangeValuePair_2_TKey_TValue__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::IntervalTree::IntervalTreeNode_2<TKey, TValue>*& __get_root();
 

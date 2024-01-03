@@ -9,20 +9,20 @@ CORDL_MODULE_EXPORT(AnimatorOverrideController)
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
-namespace UnityEngine {
-class AnimationClip;
-}
-namespace UnityEngine {
-class __AnimatorOverrideController__OnOverrideControllerDirtyCallback;
-}
-namespace UnityEngine {
-class RuntimeAnimatorController;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
 namespace System {
 class Object;
+}
+namespace UnityEngine {
+class AnimationClip;
+}
+namespace UnityEngine {
+class RuntimeAnimatorController;
+}
+namespace UnityEngine {
+class __AnimatorOverrideController__OnOverrideControllerDirtyCallback;
 }
 // Forward declare root types
 namespace UnityEngine {

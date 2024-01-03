@@ -6,27 +6,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MemoryPoolBase_1)
-namespace System {
-class Object;
-}
-namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
-template <typename TValue> class IFactory_1;
-}
-namespace Zenject {
-class MemoryPoolSettings;
-}
-namespace Zenject {
-class IValidatable;
-}
-namespace Zenject {
-class IMemoryPool;
-}
-namespace Zenject {
-class DiContainer;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
@@ -34,10 +13,31 @@ namespace System::Collections::Generic {
 template <typename T> class Stack_1;
 }
 namespace System {
-class Type;
+class IDisposable;
 }
 namespace System {
-class IDisposable;
+class Object;
+}
+namespace System {
+class Type;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+template <typename TValue> class IFactory_1;
+}
+namespace Zenject {
+class IMemoryPool;
+}
+namespace Zenject {
+class IValidatable;
+}
+namespace Zenject {
+class InjectTypeInfo;
+}
+namespace Zenject {
+class MemoryPoolSettings;
 }
 // Forward declare root types
 namespace Zenject {
@@ -87,11 +87,20 @@ public:
   /// @brief Convert operator to "::Zenject::IValidatable"
   constexpr operator ::Zenject::IValidatable*() noexcept;
 
+  /// @brief Convert to "::Zenject::IValidatable"
+  constexpr ::Zenject::IValidatable* i___Zenject__IValidatable() noexcept;
+
   /// @brief Convert operator to "::Zenject::IMemoryPool"
   constexpr operator ::Zenject::IMemoryPool*() noexcept;
 
+  /// @brief Convert to "::Zenject::IMemoryPool"
+  constexpr ::Zenject::IMemoryPool* i___Zenject__IMemoryPool() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::System::Collections::Generic::Stack_1<TContract>*& __get__inactiveItems();
 

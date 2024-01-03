@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(HEU_TOPNetworkData)
 namespace HoudiniEngineUnity {
 class HEU_TOPNodeData;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace HoudiniEngineUnity {
 class TOPNodeTags;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

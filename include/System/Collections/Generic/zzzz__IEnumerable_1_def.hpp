@@ -3,11 +3,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IEnumerable_1)
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
@@ -29,6 +29,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IEnumerator_1<T>* GetEnumerator();

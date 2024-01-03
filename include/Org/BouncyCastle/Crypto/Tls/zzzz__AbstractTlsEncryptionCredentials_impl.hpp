@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::AbstractTlsEncryptionCredentials*>::get(),
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0xf5b55c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::AbstractTlsEncryptionCredentials*>::get(), ".ctor",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -38,8 +38,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 constexpr Org::BouncyCastle::Crypto::Tls::AbstractTlsEncryptionCredentials::operator ::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials*() noexcept {
   return static_cast<::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials"
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials*
+Org::BouncyCastle::Crypto::Tls::AbstractTlsEncryptionCredentials::i___Org__BouncyCastle__Crypto__Tls__TlsEncryptionCredentials() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCredentials"
 constexpr Org::BouncyCastle::Crypto::Tls::AbstractTlsEncryptionCredentials::operator ::Org::BouncyCastle::Crypto::Tls::TlsCredentials*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::Tls::TlsCredentials*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCredentials"
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCredentials* Org::BouncyCastle::Crypto::Tls::AbstractTlsEncryptionCredentials::i___Org__BouncyCastle__Crypto__Tls__TlsCredentials() noexcept {
   return static_cast<::Org::BouncyCastle::Crypto::Tls::TlsCredentials*>(static_cast<void*>(this));
 }
 inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crypto::Tls::AbstractTlsEncryptionCredentials::DecryptPreMasterSecret(::ArrayW<uint8_t, ::Array<uint8_t>*> encryptedPreMasterSecret) {

@@ -9,56 +9,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatAvatarEditorViewController)
-namespace UnityEngine::UI {
-class Button;
+namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
+class AvatarEditHistory;
 }
-namespace UnityEngine::UI {
-class Image;
-}
-namespace GlobalNamespace {
-class NamedColorListController;
-}
-namespace BeatSaber::BeatAvatarSDK {
-class SkinColorSO;
-}
-namespace BeatSaber::BeatAvatarSDK {
-class AvatarPartsModel;
-}
-namespace System {
-class Action;
-}
-namespace BeatSaber::BeatAvatarSDK {
-class AvatarDataModel;
-}
-namespace HMUI {
-class CurvedTextMeshPro;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace GlobalNamespace {
-class ColorPickerButtonController;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4> class Action_4;
+namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
+class __BeatAvatarEditorViewController____c__DisplayClass62_0;
 }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 template <typename T> class __BeatAvatarEditorViewController____c__DisplayClass63_0_1;
 }
-namespace System {
-template <typename TResult> class Func_1;
+namespace BeatSaber::BeatAvatarSDK {
+class AvatarDataModel;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace BeatSaber::BeatAvatarSDK {
+template <typename T> class AvatarPartCollection_1;
 }
 namespace BeatSaber::BeatAvatarSDK {
 struct AvatarPart;
 }
-namespace HMUI {
-class ButtonBinder;
+namespace BeatSaber::BeatAvatarSDK {
+class AvatarPartsModel;
 }
-namespace HMUI {
-template <typename T> class ValueChangedBinder_1;
+namespace BeatSaber::BeatAvatarSDK {
+class SkinColorSO;
+}
+namespace GlobalNamespace {
+class ColorPickerButtonController;
+}
+namespace GlobalNamespace {
+class NamedColorListController;
 }
 namespace GlobalNamespace {
 class NamedIntListController;
@@ -66,17 +45,38 @@ class NamedIntListController;
 namespace GlobalNamespace {
 class __NamedColorListController__ColorValuePair;
 }
-namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
-class AvatarEditHistory;
-}
-namespace BeatSaber::BeatAvatarSDK {
-template <typename T> class AvatarPartCollection_1;
-}
-namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
-class __BeatAvatarEditorViewController____c__DisplayClass62_0;
-}
 namespace GlobalNamespace {
 class __NamedIntListController__TextValuePair;
+}
+namespace HMUI {
+class ButtonBinder;
+}
+namespace HMUI {
+class CurvedTextMeshPro;
+}
+namespace HMUI {
+template <typename T> class ValueChangedBinder_1;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4> class Action_4;
+}
+namespace System {
+class Action;
+}
+namespace System {
+template <typename TResult> class Func_1;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace UnityEngine::UI {
+class Image;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
@@ -96,7 +96,7 @@ MARK_GEN_REF_PTR_T(::BeatSaber::BeatAvatarAdapter::AvatarEditor::__BeatAvatarEdi
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15683)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15683))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15266))
 // CS Name: ::BeatAvatarEditorViewController::<>c__DisplayClass62_0*
 class CORDL_TYPE __BeatAvatarEditorViewController____c__DisplayClass62_0 : public ::System::Object {
@@ -682,9 +682,8 @@ public:
   CreateColorValuePairsForAvatarPartCollection(::ArrayW<::BeatSaber::BeatAvatarSDK::SkinColorSO*, ::Array<::BeatSaber::BeatAvatarSDK::SkinColorSO*>*> colors);
 
   /// @brief Method SetupColorButton, addr 0xe16ec4, size 0xf8, virtual false, abstract: false, final false
-  /// @param uvSegment: int32_t (default: static_cast<int32_t>(0x0))
   inline void SetupColorButton(::UnityEngine::UI::Button* button, ::System::Action_1<::UnityEngine::Color>* colorSetter, ::System::Func_1<::UnityEngine::Color>* currentColor,
-                               ::BeatSaber::BeatAvatarSDK::AvatarPart avatarEditPart, int32_t uvSegment = static_cast<int32_t>(0x0));
+                               ::BeatSaber::BeatAvatarSDK::AvatarPart avatarEditPart, int32_t uvSegment);
 
   /// @brief Method SetupValuePicker, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>

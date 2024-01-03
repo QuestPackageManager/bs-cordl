@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Avatar)
-namespace Oculus::Platform {
-class AvatarEditorOptions;
-}
 namespace Oculus::Platform::Models {
 class AvatarEditorResult;
+}
+namespace Oculus::Platform {
+class AvatarEditorOptions;
 }
 namespace Oculus::Platform {
 template <typename T> class Request_1;
@@ -30,8 +30,7 @@ class CORDL_TYPE Avatar : public ::System::Object {
 public:
   // Declarations
   /// @brief Method LaunchAvatarEditor, addr 0x26fc8c4, size 0x1a0, virtual false, abstract: false, final false
-  /// @param options: ::Oculus::Platform::AvatarEditorOptions* (default: nullptr)
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AvatarEditorResult*>* LaunchAvatarEditor(::Oculus::Platform::AvatarEditorOptions* options = nullptr);
+  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AvatarEditorResult*>* LaunchAvatarEditor(::Oculus::Platform::AvatarEditorOptions* options);
 
   // Ctor Parameters [CppParam { name: "", ty: "Avatar", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

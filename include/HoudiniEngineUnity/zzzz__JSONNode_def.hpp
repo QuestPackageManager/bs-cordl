@@ -12,26 +12,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(JSONNode)
-namespace UnityEngine {
-struct Vector2;
-}
-namespace HoudiniEngineUnity {
-class __JSONNode___get_DeepChildren_d__42;
-}
-namespace HoudiniEngineUnity {
-struct __JSONNode__KeyEnumerator;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace HoudiniEngineUnity {
-struct JSONNodeType;
-}
-namespace HoudiniEngineUnity {
-struct __JSONNode__Enumerator;
-}
-namespace HoudiniEngineUnity {
-class JSONObject;
+namespace GlobalNamespace {
+struct __JSONNode__Enumerator__Type;
 }
 namespace HoudiniEngineUnity {
 class JSONArray;
@@ -39,65 +21,83 @@ class JSONArray;
 namespace HoudiniEngineUnity {
 struct JSONContainerType;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace System {
-class Object;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-struct Matrix4x4;
+namespace HoudiniEngineUnity {
+struct JSONNodeType;
 }
 namespace HoudiniEngineUnity {
-class __JSONNode___get_Children_d__40;
+class JSONObject;
 }
 namespace HoudiniEngineUnity {
 struct JSONTextMode;
 }
-namespace UnityEngine {
-struct Rect;
+namespace HoudiniEngineUnity {
+struct __JSONNode__Enumerator;
+}
+namespace HoudiniEngineUnity {
+struct __JSONNode__KeyEnumerator;
+}
+namespace HoudiniEngineUnity {
+class __JSONNode__LinqEnumerator;
 }
 namespace HoudiniEngineUnity {
 struct __JSONNode__ValueEnumerator;
 }
 namespace HoudiniEngineUnity {
-class __JSONNode__LinqEnumerator;
+class __JSONNode___get_Children_d__40;
 }
-namespace UnityEngine {
-class RectOffset;
+namespace HoudiniEngineUnity {
+class __JSONNode___get_DeepChildren_d__42;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace System::Collections {
-class IEnumerable;
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
-namespace System {
-class IDisposable;
-}
-namespace GlobalNamespace {
-struct __JSONNode__Enumerator__Type;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct __Dictionary_2__Enumerator;
 }
 namespace System::Collections::Generic {
 template <typename T> struct __List_1__Enumerator;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct __Dictionary_2__Enumerator;
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+class RectOffset;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -191,7 +191,7 @@ static_assert(offsetof(::GlobalNamespace::__JSONNode__Enumerator__Type, value__)
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9881)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9881))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9869))
 // CS Name: ::HoudiniEngineUnity::JSONNode*
 class CORDL_TYPE JSONNode : public ::System::Object {
@@ -537,9 +537,7 @@ public:
   inline ::UnityEngine::Vector2 ReadVector2();
 
   /// @brief Method WriteVector2, addr 0x21d5cf4, size 0x130, virtual false, abstract: false, final false
-  /// @param aXName: ::StringW (default: u"x")
-  /// @param aYName: ::StringW (default: u"y")
-  inline ::HoudiniEngineUnity::JSONNode* WriteVector2(::UnityEngine::Vector2 aVec, ::StringW aXName = u"x", ::StringW aYName = u"y");
+  inline ::HoudiniEngineUnity::JSONNode* WriteVector2(::UnityEngine::Vector2 aVec, ::StringW aXName, ::StringW aYName);
 
   /// @brief Method ReadVector3, addr 0x21d70d4, size 0x1bc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ReadVector3(::UnityEngine::Vector3 aDefault);
@@ -551,10 +549,7 @@ public:
   inline ::UnityEngine::Vector3 ReadVector3();
 
   /// @brief Method WriteVector3, addr 0x21d5ee8, size 0x1a0, virtual false, abstract: false, final false
-  /// @param aXName: ::StringW (default: u"x")
-  /// @param aYName: ::StringW (default: u"y")
-  /// @param aZName: ::StringW (default: u"z")
-  inline ::HoudiniEngineUnity::JSONNode* WriteVector3(::UnityEngine::Vector3 aVec, ::StringW aXName = u"x", ::StringW aYName = u"y", ::StringW aZName = u"z");
+  inline ::HoudiniEngineUnity::JSONNode* WriteVector3(::UnityEngine::Vector3 aVec, ::StringW aXName, ::StringW aYName, ::StringW aZName);
 
   /// @brief Method ReadVector4, addr 0x21d73a8, size 0x230, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 ReadVector4(::UnityEngine::Vector4 aDefault);
@@ -627,9 +622,9 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::JSONNode, 0x
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9869)), TypeDefinitionIndex(TypeDefinitionIndex(3819)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3819), inst: 1428
-// }), TypeDefinitionIndex(TypeDefinitionIndex(9862)), TypeDefinitionIndex(TypeDefinitionIndex(3842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1690 })} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(9863)) CS Name: ::JSONNode::Enumerator
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3819), inst: 1428 }), TypeDefinitionIndex(TypeDefinitionIndex(9862)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3819)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1690 }), TypeDefinitionIndex(TypeDefinitionIndex(9869)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3842))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9863)) CS Name: ::JSONNode::Enumerator
 struct CORDL_TYPE __JSONNode__Enumerator {
 public:
   // Declarations
@@ -814,17 +809,34 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::HoudiniEngineUnity::JSONNode*>>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::HoudiniEngineUnity::JSONNode*>>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::HoudiniEngineUnity::JSONNode*>>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::HoudiniEngineUnity::JSONNode*>>*
+  i___System__Collections__Generic__IEnumerator_1___System__Collections__Generic__KeyValuePair_2___StringW___HoudiniEngineUnity__JSONNode___() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::HoudiniEngineUnity::JSONNode*>>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::HoudiniEngineUnity::JSONNode*>>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::HoudiniEngineUnity::JSONNode*>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::HoudiniEngineUnity::JSONNode*>>*
+  i___System__Collections__Generic__IEnumerable_1___System__Collections__Generic__KeyValuePair_2___StringW___HoudiniEngineUnity__JSONNode___() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::HoudiniEngineUnity::JSONNode*& __get_m_Node();
 
@@ -922,17 +934,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>* i___System__Collections__Generic__IEnumerable_1___HoudiniEngineUnity__JSONNode__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>* i___System__Collections__Generic__IEnumerator_1___HoudiniEngineUnity__JSONNode__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -1050,17 +1077,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>* i___System__Collections__Generic__IEnumerable_1___HoudiniEngineUnity__JSONNode__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>* i___System__Collections__Generic__IEnumerator_1___HoudiniEngineUnity__JSONNode__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

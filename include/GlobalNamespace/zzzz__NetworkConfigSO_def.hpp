@@ -93,6 +93,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INetworkConfig"
   constexpr operator ::GlobalNamespace::INetworkConfig*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::INetworkConfig"
+  constexpr ::GlobalNamespace::INetworkConfig* i___GlobalNamespace__INetworkConfig() noexcept;
+
   constexpr int32_t& __get__maxPartySize();
 
   constexpr int32_t const& __get__maxPartySize() const;

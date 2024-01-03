@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(StartMiddleEndButtonBackgroundController)
-namespace UnityEngine {
-class Sprite;
-}
 namespace HMUI {
 class ImageView;
+}
+namespace UnityEngine {
+class Sprite;
 }
 // Forward declare root types
 namespace GlobalNamespace {

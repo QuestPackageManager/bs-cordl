@@ -8,10 +8,10 @@ namespace Oculus::Platform::Models {
 class UserAccountAgeCategory;
 }
 namespace Oculus::Platform {
-template <typename T> class Request_1;
+struct AppAgeCategory;
 }
 namespace Oculus::Platform {
-struct AppAgeCategory;
+template <typename T> class Request_1;
 }
 namespace Oculus::Platform {
 class Request;

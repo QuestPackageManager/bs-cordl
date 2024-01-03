@@ -2,36 +2,29 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IConnectionManager)
-namespace System {
-template <typename T> class Action_1;
+namespace BGNet::Core {
+struct DeliveryMethod;
 }
-namespace LiteNetLib::Utils {
-class NetDataReader;
+namespace GlobalNamespace {
+struct ConnectionFailedReason;
+}
+namespace GlobalNamespace {
+struct DisconnectedReason;
+}
+namespace GlobalNamespace {
+template <typename T> class IConnectionInitParams_1;
 }
 namespace GlobalNamespace {
 class IConnection;
 }
 namespace GlobalNamespace {
-struct ConnectionFailedReason;
+class IPollable;
 }
-namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
-}
-namespace GlobalNamespace {
-template <typename T> class IConnectionInitParams_1;
-}
-namespace System {
-class Action;
-}
-namespace System {
-class IDisposable;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
@@ -39,14 +32,20 @@ class NetDataWriter;
 namespace System::Threading::Tasks {
 class Task;
 }
-namespace BGNet::Core {
-struct DeliveryMethod;
+namespace System {
+template <typename T> class Action_1;
 }
-namespace GlobalNamespace {
-struct DisconnectedReason;
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
-namespace GlobalNamespace {
-class IPollable;
+namespace System {
+template <typename T1, typename T2, typename T3> class Action_3;
+}
+namespace System {
+class Action;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -58,7 +57,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IConnectionManager);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12720))}
+// Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12780))
 // CS Name: ::IConnectionManager*
 class CORDL_TYPE IConnectionManager {
@@ -83,8 +82,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPollable"
   constexpr operator ::GlobalNamespace::IPollable*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IPollable"
+  constexpr ::GlobalNamespace::IPollable* i___GlobalNamespace__IPollable() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// @brief Method add_onInitializedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_onInitializedEvent(::System::Action* value);
@@ -162,8 +167,7 @@ public:
   template <typename T> inline bool Init(::GlobalNamespace::IConnectionInitParams_1<T>* initParams);
 
   /// @brief Method Disconnect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  /// @param disconnectedReason: ::GlobalNamespace::DisconnectedReason (default: static_cast<int32_t>(0x2))
-  inline void Disconnect(::GlobalNamespace::DisconnectedReason disconnectedReason = static_cast<int32_t>(0x2));
+  inline void Disconnect(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
   /// @brief Method GetConnection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::IConnection* GetConnection(int32_t index);

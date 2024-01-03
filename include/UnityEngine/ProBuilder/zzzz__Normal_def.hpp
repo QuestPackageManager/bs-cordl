@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(Normal)
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace UnityEngine {
-struct Vector3;
-}
 namespace System {
 class Object;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 struct Vector4;
@@ -43,6 +43,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::ProBuilder::Normal>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::ProBuilder::Normal>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ProBuilder::Normal>"
+  constexpr ::System::IEquatable_1<::UnityEngine::ProBuilder::Normal>* i___System__IEquatable_1___UnityEngine__ProBuilder__Normal_();
 
   /// @brief Method get_normal, addr 0x2b54a9c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_normal();

@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/zzzz__InputProcessor_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputProcessor_1)
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
 namespace System {
 class Object;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {

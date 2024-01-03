@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(TMP_TextElement)
 namespace TMPro {
 class TMP_Asset;
 }
-namespace UnityEngine::TextCore {
-class Glyph;
-}
 namespace TMPro {
 struct TextElementType;
+}
+namespace UnityEngine::TextCore {
+class Glyph;
 }
 // Forward declare root types
 namespace TMPro {

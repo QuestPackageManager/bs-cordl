@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Spectrogram)
 namespace GlobalNamespace {
-class MaterialPropertyBlockController;
+class BasicSpectrogramData;
 }
-namespace UnityEngine {
-class MeshRenderer;
+namespace GlobalNamespace {
+class MaterialPropertyBlockController;
 }
 namespace UnityEngine {
 class MaterialPropertyBlock;
 }
-namespace GlobalNamespace {
-class BasicSpectrogramData;
+namespace UnityEngine {
+class MeshRenderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {

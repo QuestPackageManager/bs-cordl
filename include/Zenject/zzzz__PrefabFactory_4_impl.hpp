@@ -3,16 +3,25 @@
 #include "Zenject/zzzz__PrefabFactory_4_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-#include "Zenject/zzzz__IFactory_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__IFactory_5_def.hpp"
+#include "Zenject/zzzz__IFactory_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 /// @brief Convert operator to "::Zenject::IFactory_5<::UnityEngine::Object*,P1,P2,P3,T>"
 template <typename P1, typename P2, typename P3, typename T> constexpr Zenject::PrefabFactory_4<P1, P2, P3, T>::operator ::Zenject::IFactory_5<::UnityEngine::Object*, P1, P2, P3, T>*() noexcept {
   return static_cast<::Zenject::IFactory_5<::UnityEngine::Object*, P1, P2, P3, T>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::Zenject::IFactory_5<::UnityEngine::Object*,P1,P2,P3,T>"
+template <typename P1, typename P2, typename P3, typename T>
+constexpr ::Zenject::IFactory_5<::UnityEngine::Object*, P1, P2, P3, T>* Zenject::PrefabFactory_4<P1, P2, P3, T>::i___Zenject__IFactory_5___UnityEngine__Object__P1_P2_P3_T_() noexcept {
+  return static_cast<::Zenject::IFactory_5<::UnityEngine::Object*, P1, P2, P3, T>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::Zenject::IFactory"
 template <typename P1, typename P2, typename P3, typename T> constexpr Zenject::PrefabFactory_4<P1, P2, P3, T>::operator ::Zenject::IFactory*() noexcept {
+  return static_cast<::Zenject::IFactory*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::IFactory"
+template <typename P1, typename P2, typename P3, typename T> constexpr ::Zenject::IFactory* Zenject::PrefabFactory_4<P1, P2, P3, T>::i___Zenject__IFactory() noexcept {
   return static_cast<::Zenject::IFactory*>(static_cast<void*>(this));
 }
 template <typename P1, typename P2, typename P3, typename T> constexpr ::Zenject::DiContainer*& Zenject::PrefabFactory_4<P1, P2, P3, T>::__get__container() {

@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(NclUtilities)
+namespace System::Net {
+class IPAddress;
+}
+namespace System::Net {
+class IPHostEntry;
+}
 namespace System {
 class Exception;
 }
 namespace System {
 class Object;
-}
-namespace System::Net {
-class IPHostEntry;
-}
-namespace System::Net {
-class IPAddress;
 }
 // Forward declare root types
 namespace System::Net {

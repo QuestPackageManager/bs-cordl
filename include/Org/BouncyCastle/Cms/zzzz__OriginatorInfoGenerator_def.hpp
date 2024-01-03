@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(OriginatorInfoGenerator)
 namespace Org::BouncyCastle::Asn1::Cms {
 class OriginatorInfo;
 }
-namespace System::Collections {
-class IList;
+namespace Org::BouncyCastle::X509::Store {
+class IX509Store;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
-namespace Org::BouncyCastle::X509::Store {
-class IX509Store;
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

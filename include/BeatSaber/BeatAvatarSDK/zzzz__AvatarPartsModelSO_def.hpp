@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(AvatarPartsModelSO)
 namespace BeatSaber::BeatAvatarSDK {
-class AvatarSpritePartSO;
+class AvatarMeshPartSO;
 }
 namespace BeatSaber::BeatAvatarSDK {
-class AvatarMeshPartSO;
+class AvatarSpritePartSO;
 }
 // Forward declare root types
 namespace BeatSaber::BeatAvatarSDK {

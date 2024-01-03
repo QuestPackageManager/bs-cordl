@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(PoolWrapperFactory_2)
-namespace Zenject {
-class IFactory;
-}
-namespace Zenject {
-template <typename TParam1, typename TValue> class IMemoryPool_2;
-}
 namespace System {
 class Object;
 }
 namespace Zenject {
 template <typename TParam1, typename TValue> class IFactory_2;
+}
+namespace Zenject {
+class IFactory;
+}
+namespace Zenject {
+template <typename TParam1, typename TValue> class IMemoryPool_2;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -44,8 +44,14 @@ public:
   /// @brief Convert operator to "::Zenject::IFactory_2<TParam1,TValue>"
   constexpr operator ::Zenject::IFactory_2<TParam1, TValue>*() noexcept;
 
+  /// @brief Convert to "::Zenject::IFactory_2<TParam1,TValue>"
+  constexpr ::Zenject::IFactory_2<TParam1, TValue>* i___Zenject__IFactory_2_TParam1_TValue_() noexcept;
+
   /// @brief Convert operator to "::Zenject::IFactory"
   constexpr operator ::Zenject::IFactory*() noexcept;
+
+  /// @brief Convert to "::Zenject::IFactory"
+  constexpr ::Zenject::IFactory* i___Zenject__IFactory() noexcept;
 
   constexpr ::Zenject::IMemoryPool_2<TParam1, TValue>*& __get__pool();
 

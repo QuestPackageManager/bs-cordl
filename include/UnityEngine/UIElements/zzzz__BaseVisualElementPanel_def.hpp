@@ -3,112 +3,114 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/UIElements/zzzz__DispatchMode_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PanelClearSettings_def.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseVisualElementPanel)
-namespace UnityEngine::UIElements {
-struct VisualTreeUpdatePhase;
-}
-namespace UnityEngine::UIElements {
-struct VersionChangeType;
-}
-namespace UnityEngine::UIElements {
-struct HierarchyChangeType;
-}
-namespace UnityEngine {
-class ScriptableObject;
-}
-namespace UnityEngine::UIElements {
-class GetViewDataDictionary;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine::UIElements {
-class ICursorManager;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine::UIElements {
-class IStylePropertyAnimationSystem;
+namespace System {
+template <typename T> class Action_1;
 }
-namespace UnityEngine::UIElements {
-class RepaintData;
-}
-namespace UnityEngine::UIElements {
-class FocusController;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
+namespace System {
+class Action;
 }
 namespace System {
 class IDisposable;
 }
 namespace UnityEngine::UIElements {
-class IMGUIContainer;
-}
-namespace UnityEngine::UIElements {
-class EventDispatcher;
+class AtlasBase;
 }
 namespace UnityEngine::UIElements {
 struct ContextType;
 }
 namespace UnityEngine::UIElements {
-class EventBase;
+class ContextualMenuManager;
 }
 namespace UnityEngine::UIElements {
-class AtlasBase;
+struct DispatchMode;
 }
 namespace UnityEngine::UIElements {
 class ElementUnderPointer;
 }
-namespace UnityEngine {
-struct EventInterests;
+namespace UnityEngine::UIElements {
+class EventBase;
 }
 namespace UnityEngine::UIElements {
-struct PanelClearSettings;
-}
-namespace UnityEngine {
-class Event;
+class EventDispatcher;
 }
 namespace UnityEngine::UIElements {
-class IPanel;
+class FocusController;
 }
 namespace UnityEngine::UIElements {
-class SavePersistentViewData;
+class GetViewDataDictionary;
+}
+namespace UnityEngine::UIElements {
+struct HierarchyChangeType;
 }
 namespace UnityEngine::UIElements {
 class HierarchyEvent;
 }
 namespace UnityEngine::UIElements {
-class IScheduler;
-}
-namespace UnityEngine {
-class Shader;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine::Yoga {
-class YogaConfig;
+class ICursorManager;
 }
 namespace UnityEngine::UIElements {
-class ContextualMenuManager;
+class IGroupBox;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::UIElements {
+class IMGUIContainer;
+}
+namespace UnityEngine::UIElements {
+class IPanel;
+}
+namespace UnityEngine::UIElements {
+class IScheduler;
+}
+namespace UnityEngine::UIElements {
+class IStylePropertyAnimationSystem;
 }
 namespace UnityEngine::UIElements {
 class IVisualTreeUpdater;
 }
+namespace UnityEngine::UIElements {
+struct PanelClearSettings;
+}
+namespace UnityEngine::UIElements {
+class RepaintData;
+}
+namespace UnityEngine::UIElements {
+class SavePersistentViewData;
+}
+namespace UnityEngine::UIElements {
+struct VersionChangeType;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+struct VisualTreeUpdatePhase;
+}
+namespace UnityEngine::Yoga {
+class YogaConfig;
+}
+namespace UnityEngine {
+struct EventInterests;
+}
+namespace UnityEngine {
+class Event;
+}
 namespace UnityEngine {
 class Material;
 }
-namespace UnityEngine::UIElements {
-class IGroupBox;
+namespace UnityEngine {
+class ScriptableObject;
+}
+namespace UnityEngine {
+class Shader;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -120,7 +122,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::BaseVisualElementPanel);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6911)), TypeDefinitionIndex(TypeDefinitionIndex(6866))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6866)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6870))
 // CS Name: ::UnityEngine.UIElements::BaseVisualElementPanel*
 class CORDL_TYPE BaseVisualElementPanel : public ::System::Object {
@@ -233,11 +235,20 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IPanel"
   constexpr operator ::UnityEngine::UIElements::IPanel*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::UIElements::IPanel"
+  constexpr ::UnityEngine::UIElements::IPanel* i___UnityEngine__UIElements__IPanel() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::UIElements::IGroupBox"
   constexpr operator ::UnityEngine::UIElements::IGroupBox*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UIElements::IGroupBox"
+  constexpr ::UnityEngine::UIElements::IGroupBox* i___UnityEngine__UIElements__IGroupBox() noexcept;
 
   constexpr ::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>*& __get_panelDisposed();
 
@@ -467,8 +478,7 @@ public:
   inline void set_dispatcher(::UnityEngine::UIElements::EventDispatcher* value);
 
   /// @brief Method SendEvent, addr 0x2dc8f68, size 0xc4, virtual false, abstract: false, final false
-  /// @param dispatchMode: ::UnityEngine::UIElements::DispatchMode (default: static_cast<int32_t>(0x1))
-  inline void SendEvent(::UnityEngine::UIElements::EventBase* e, ::UnityEngine::UIElements::DispatchMode dispatchMode = static_cast<int32_t>(0x1));
+  inline void SendEvent(::UnityEngine::UIElements::EventBase* e, ::UnityEngine::UIElements::DispatchMode dispatchMode);
 
   /// @brief Method get_scheduler, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::IScheduler* get_scheduler();

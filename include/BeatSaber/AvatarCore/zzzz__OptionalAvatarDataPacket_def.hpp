@@ -6,12 +6,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OptionalAvatarDataPacket)
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
 namespace BeatSaber::AvatarCore {
 struct OptionalAvatarData;
 }
@@ -21,11 +15,17 @@ class ByteArrayNetSerializable;
 namespace GlobalNamespace {
 class IPoolablePacket;
 }
+namespace GlobalNamespace {
+template <typename T> class PacketPool_1;
+}
 namespace LiteNetLib::Utils {
 class INetSerializable;
 }
-namespace GlobalNamespace {
-template <typename T> class PacketPool_1;
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {
@@ -52,8 +52,14 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IPoolablePacket"
   constexpr operator ::GlobalNamespace::IPoolablePacket*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
+  constexpr ::GlobalNamespace::IPoolablePacket* i___GlobalNamespace__IPoolablePacket() noexcept;
 
   constexpr uint32_t& __get_dataType();
 

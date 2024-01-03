@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Generic/zzzz__LowLevelDictionary_2_def.hpp"
-#include "System/Collections/Generic/zzzz__LowLevelDictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
+#include "System/Collections/Generic/zzzz__LowLevelDictionary_2_def.hpp"
 template <typename TKey, typename TValue> constexpr TKey& System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>::__get__key() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____key;
@@ -58,6 +58,12 @@ template <typename TKey, typename TValue> constexpr ::System::Collections::Gener
 /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<T>"
 template <typename TKey, typename TValue, typename T>
 constexpr System::Collections::Generic::__LowLevelDictionary_2__DefaultComparer_1<TKey, TValue, T>::operator ::System::Collections::Generic::IEqualityComparer_1<T>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEqualityComparer_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<T>"
+template <typename TKey, typename TValue, typename T>
+constexpr ::System::Collections::Generic::IEqualityComparer_1<T>*
+System::Collections::Generic::__LowLevelDictionary_2__DefaultComparer_1<TKey, TValue, T>::i___System__Collections__Generic__IEqualityComparer_1_T_() noexcept {
   return static_cast<::System::Collections::Generic::IEqualityComparer_1<T>*>(static_cast<void*>(this));
 }
 template <typename TKey, typename TValue, typename T> inline bool System::Collections::Generic::__LowLevelDictionary_2__DefaultComparer_1<TKey, TValue, T>::Equals(T x, T y) {

@@ -7,32 +7,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UQueryBuilder_1)
-namespace UnityEngine::UIElements {
-class VisualElement;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace UnityEngine::UIElements {
-template <typename T> struct UQueryState_1;
-}
-namespace UnityEngine::UIElements {
-struct StyleSelectorRelationship;
-}
-namespace System {
-template <typename T> class IEquatable_1;
+struct RuleMatcher;
 }
 namespace UnityEngine::UIElements {
 struct StyleSelectorPart;
 }
 namespace UnityEngine::UIElements {
+struct StyleSelectorRelationship;
+}
+namespace UnityEngine::UIElements {
 class StyleSelector;
 }
 namespace UnityEngine::UIElements {
-struct RuleMatcher;
+template <typename T> struct UQueryState_1;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -59,6 +59,9 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::UQueryBuilder_1<T>>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::UQueryBuilder_1<T>>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::UQueryBuilder_1<T>>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::UQueryBuilder_1<T>>* i___System__IEquatable_1___UnityEngine__UIElements__UQueryBuilder_1_T__();
+
   /// @brief Method get_styleSelectors, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSelector*>* get_styleSelectors();
 
@@ -75,9 +78,7 @@ public:
   inline ::UnityEngine::UIElements::UQueryBuilder_1<T> Name(::StringW id);
 
   /// @brief Method OfType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param name: ::StringW (default: nullptr)
-  /// @param className: ::StringW (default: nullptr)
-  template <typename T2> inline ::UnityEngine::UIElements::UQueryBuilder_1<T2> OfType(::StringW name = nullptr, ::StringW className = nullptr);
+  template <typename T2> inline ::UnityEngine::UIElements::UQueryBuilder_1<T2> OfType(::StringW name, ::StringW className);
 
   /// @brief Method SingleBaseType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UQueryBuilder_1<T> SingleBaseType();

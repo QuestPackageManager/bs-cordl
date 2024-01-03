@@ -11,14 +11,14 @@ CORDL_MODULE_EXPORT(Pose)
 namespace System {
 template <typename T> class IEquatable_1;
 }
+namespace System {
+class Object;
+}
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -43,6 +43,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Pose>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Pose>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Pose>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Pose>* i___System__IEquatable_1___UnityEngine__Pose_();
 
   static inline void setStaticF_k_Identity(::UnityEngine::Pose value);
 

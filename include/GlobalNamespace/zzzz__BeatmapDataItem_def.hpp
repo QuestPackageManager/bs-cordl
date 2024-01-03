@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapDataItem)
-namespace System {
-template <typename T> class IComparable_1;
-}
 namespace GlobalNamespace {
 struct __BeatmapDataItem__BeatmapDataItemType;
+}
+namespace System {
+template <typename T> class IComparable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -106,6 +106,9 @@ public:
 
   /// @brief Convert operator to "::System::IComparable_1<::GlobalNamespace::BeatmapDataItem*>"
   constexpr operator ::System::IComparable_1<::GlobalNamespace::BeatmapDataItem*>*() noexcept;
+
+  /// @brief Convert to "::System::IComparable_1<::GlobalNamespace::BeatmapDataItem*>"
+  constexpr ::System::IComparable_1<::GlobalNamespace::BeatmapDataItem*>* i___System__IComparable_1___GlobalNamespace__BeatmapDataItem__() noexcept;
 
   constexpr float_t& __get__time_k__BackingField();
 

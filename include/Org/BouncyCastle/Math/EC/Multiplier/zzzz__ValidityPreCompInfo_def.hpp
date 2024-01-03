@@ -39,6 +39,9 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo"
   constexpr operator ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo"
+  constexpr ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* i___Org__BouncyCastle__Math__EC__Multiplier__PreCompInfo() noexcept;
+
   constexpr bool& __get_failed();
 
   constexpr bool const& __get_failed() const;

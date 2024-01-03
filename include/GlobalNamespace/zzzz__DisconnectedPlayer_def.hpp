@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DisconnectedPlayer)
 namespace GlobalNamespace {
+struct DisconnectedReason;
+}
+namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 struct MultiplayerAvatarsData;
-}
-namespace GlobalNamespace {
-struct DisconnectedReason;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -73,6 +73,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IConnectedPlayer"
   constexpr operator ::GlobalNamespace::IConnectedPlayer*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IConnectedPlayer"
+  constexpr ::GlobalNamespace::IConnectedPlayer* i___GlobalNamespace__IConnectedPlayer() noexcept;
 
   constexpr ::StringW& __get__userId_k__BackingField();
 

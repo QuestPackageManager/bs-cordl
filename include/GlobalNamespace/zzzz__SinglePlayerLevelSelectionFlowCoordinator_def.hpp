@@ -7,20 +7,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SinglePlayerLevelSelectionFlowCoordinator)
-namespace HMUI {
-struct __ViewController__AnimationType;
-}
 namespace GlobalNamespace {
-class __SinglePlayerLevelSelectionFlowCoordinator____c__DisplayClass37_0;
-}
-namespace GlobalNamespace {
-class SafeAreaFocusedSimpleDialogPromptViewController;
+class AppStaticSettingsSO;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
-namespace System {
-class Action;
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class GameplaySetupViewController;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelPack;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
 class IVRPlatformHelper;
@@ -29,43 +35,37 @@ namespace GlobalNamespace {
 class LeaderboardViewController;
 }
 namespace GlobalNamespace {
-class IReadonlyBeatmapData;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
-class GameplaySetupViewController;
-}
-namespace System {
-template <typename T> class Action_1;
+class LevelCompletionResults;
 }
 namespace GlobalNamespace {
 class MenuTransitionsHelper;
 }
 namespace GlobalNamespace {
-class LevelCompletionResults;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelPack;
-}
-namespace GlobalNamespace {
-class StandardLevelScenesTransitionSetupDataSO;
+class PlayerSpecificSettings;
 }
 namespace GlobalNamespace {
 class PracticeViewController;
 }
 namespace GlobalNamespace {
-class PlayerSpecificSettings;
+class SafeAreaFocusedSimpleDialogPromptViewController;
 }
 namespace GlobalNamespace {
-class AppStaticSettingsSO;
+class StandardLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
+class __SinglePlayerLevelSelectionFlowCoordinator____c__DisplayClass37_0;
 }
 namespace HMUI {
 class ViewController;
+}
+namespace HMUI {
+struct __ViewController__AnimationType;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -11,29 +11,29 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GradientImage)
-namespace UnityEngine {
-struct Color;
+namespace HMUI {
+class CurvedCanvasSettingsHelper;
+}
+namespace UnityEngine::UI {
+class VertexHelper;
 }
 namespace UnityEngine {
 struct Color32;
 }
 namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
 struct Rect;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace HMUI {
-class CurvedCanvasSettingsHelper;
 }
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine::UI {
-class VertexHelper;
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 // Forward declare root types
 namespace HMUI {
@@ -45,8 +45,8 @@ MARK_REF_PTR_T(::HMUI::GradientImage);
 // SizeInfo { instance_size: 304, native_size: -1, calculated_instance_size: 304, calculated_native_size: 304, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13055)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(10243))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13625)) CS Name: ::HMUI::GradientImage*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13055)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13625)) CS Name: ::HMUI::GradientImage*
 class CORDL_TYPE GradientImage : public ::UnityEngine::UI::Image {
 public:
   // Declarations

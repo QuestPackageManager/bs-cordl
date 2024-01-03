@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Ed448KeyPairGenerator)
 namespace Org::BouncyCastle::Crypto {
-class KeyGenerationParameters;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+class AsymmetricCipherKeyPair;
 }
 namespace Org::BouncyCastle::Crypto {
 class IAsymmetricCipherKeyPairGenerator;
 }
 namespace Org::BouncyCastle::Crypto {
-class AsymmetricCipherKeyPair;
+class KeyGenerationParameters;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {
@@ -37,6 +37,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
   constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
+  constexpr ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator* i___Org__BouncyCastle__Crypto__IAsymmetricCipherKeyPairGenerator() noexcept;
 
   constexpr ::Org::BouncyCastle::Security::SecureRandom*& __get_random();
 

@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(BuiltinRuntimeReflectionSystem)
-namespace UnityEngine::Experimental::Rendering {
-class IScriptableRuntimeReflectionSystem;
-}
 namespace System {
 class IDisposable;
+}
+namespace UnityEngine::Experimental::Rendering {
+class IScriptableRuntimeReflectionSystem;
 }
 // Forward declare root types
 namespace UnityEngine::Experimental::Rendering {
@@ -29,8 +29,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem"
   constexpr operator ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem"
+  constexpr ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* i___UnityEngine__Experimental__Rendering__IScriptableRuntimeReflectionSystem() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// @brief Method TickRealtimeProbes, addr 0x2cf4670, size 0x28, virtual true, abstract: false, final true
   inline bool TickRealtimeProbes();

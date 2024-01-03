@@ -57,6 +57,9 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IBlockCipher*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
+  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* i___Org__BouncyCastle__Crypto__IBlockCipher() noexcept;
+
   constexpr int32_t& __get__noRounds();
 
   constexpr int32_t const& __get__noRounds() const;

@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(TileBase)
 namespace UnityEngine::Tilemaps {
+class ITilemap;
+}
+namespace UnityEngine::Tilemaps {
 struct TileAnimationData;
+}
+namespace UnityEngine::Tilemaps {
+struct TileData;
 }
 namespace UnityEngine {
 class GameObject;
 }
-namespace UnityEngine::Tilemaps {
-class ITilemap;
-}
 namespace UnityEngine {
 struct Vector3Int;
-}
-namespace UnityEngine::Tilemaps {
-struct TileData;
 }
 // Forward declare root types
 namespace UnityEngine::Tilemaps {

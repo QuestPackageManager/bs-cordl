@@ -9,8 +9,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(BinaryFormatter)
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::IO {
+class Stream;
+}
 namespace System::Runtime::Remoting::Messaging {
 class HeaderHandler;
+}
+namespace System::Runtime::Remoting::Messaging {
+class Header;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class TypeInformation;
+}
+namespace System::Runtime::Serialization::Formatters {
+struct FormatterAssemblyStyle;
 }
 namespace System::Runtime::Serialization {
 class IFormatter;
@@ -18,32 +33,17 @@ class IFormatter;
 namespace System::Runtime::Serialization {
 class ISurrogateSelector;
 }
-namespace System::Runtime::Serialization::Formatters::Binary {
-class TypeInformation;
+namespace System::Runtime::Serialization {
+class SerializationBinder;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System::Runtime::Remoting::Messaging {
-class Header;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace System {
 class Object;
 }
-namespace System::Runtime::Serialization {
-class SerializationBinder;
-}
-namespace System::IO {
-class Stream;
-}
 namespace System {
 class Type;
-}
-namespace System::Runtime::Serialization::Formatters {
-struct FormatterAssemblyStyle;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -55,8 +55,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::BinaryForma
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3240)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3241)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3235)), TypeDefinitionIndex(TypeDefinitionIndex(3242))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3278)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3242)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3235)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3240)), TypeDefinitionIndex(TypeDefinitionIndex(3241))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3278)) CS Name:
 // ::System.Runtime.Serialization.Formatters.Binary::BinaryFormatter*
 class CORDL_TYPE BinaryFormatter : public ::System::Object {
 public:
@@ -95,6 +95,9 @@ public:
 
   /// @brief Convert operator to "::System::Runtime::Serialization::IFormatter"
   constexpr operator ::System::Runtime::Serialization::IFormatter*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::IFormatter"
+  constexpr ::System::Runtime::Serialization::IFormatter* i___System__Runtime__Serialization__IFormatter() noexcept;
 
   constexpr ::System::Runtime::Serialization::ISurrogateSelector*& __get_m_surrogates();
 

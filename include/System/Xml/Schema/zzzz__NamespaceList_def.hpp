@@ -11,11 +11,11 @@ CORDL_MODULE_EXPORT(NamespaceList)
 namespace System::Collections {
 class Hashtable;
 }
-namespace System::Xml::Schema {
-struct __NamespaceList__ListType;
-}
 namespace System::Collections {
 class ICollection;
+}
+namespace System::Xml::Schema {
+struct __NamespaceList__ListType;
 }
 namespace System::Xml {
 class XmlQualifiedName;

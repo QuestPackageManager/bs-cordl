@@ -32,6 +32,9 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::ECLookupTable"
   constexpr operator ::Org::BouncyCastle::Math::EC::ECLookupTable*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Math::EC::ECLookupTable"
+  constexpr ::Org::BouncyCastle::Math::EC::ECLookupTable* i___Org__BouncyCastle__Math__EC__ECLookupTable() noexcept;
+
   /// @brief Method Lookup, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Lookup(int32_t index);
 

@@ -6,25 +6,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CenterStageScreenController)
 namespace GlobalNamespace {
-class ILobbyGameStateController;
-}
-namespace GlobalNamespace {
 class BeatmapSelectionView;
 }
 namespace GlobalNamespace {
-class ModifiersSelectionView;
-}
-namespace GlobalNamespace {
-class MenuLightsManager;
+class CountdownController;
 }
 namespace GlobalNamespace {
 class ILevelGameplaySetupData;
 }
 namespace GlobalNamespace {
+class ILobbyGameStateController;
+}
+namespace GlobalNamespace {
+class MenuLightsManager;
+}
+namespace GlobalNamespace {
 class MenuLightsPresetSO;
 }
 namespace GlobalNamespace {
-class CountdownController;
+class ModifiersSelectionView;
 }
 namespace GlobalNamespace {
 class MultiplayerLobbyCenterScreenLayoutAnimator;
@@ -166,19 +166,16 @@ public:
   inline void ShowCountdown(int64_t countdownEndTime);
 
   /// @brief Method HideCountdown, addr 0x22ccdb0, size 0x44, virtual false, abstract: false, final false
-  /// @param instant: bool (default: false)
-  inline void HideCountdown(bool instant = false);
+  inline void HideCountdown(bool instant);
 
   /// @brief Method SetCountdownEndTime, addr 0x22cce30, size 0x58, virtual false, abstract: false, final false
   inline void SetCountdownEndTime(int64_t countdownEndTime);
 
   /// @brief Method ShowCountdownColorPreset, addr 0x22cce88, size 0x2c, virtual false, abstract: false, final false
-  /// @param animated: bool (default: true)
-  inline void ShowCountdownColorPreset(bool animated = true);
+  inline void ShowCountdownColorPreset(bool animated);
 
   /// @brief Method ShowLobbyColorPreset, addr 0x22ccb18, size 0x2c, virtual false, abstract: false, final false
-  /// @param animated: bool (default: true)
-  inline void ShowLobbyColorPreset(bool animated = true);
+  inline void ShowLobbyColorPreset(bool animated);
 
   /// @brief Method HandleLobbyGameStateControllerSelectedLevelGameplaySetupDataChanged, addr 0x22cceb4, size 0x4, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateControllerSelectedLevelGameplaySetupDataChanged(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);

@@ -8,23 +8,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ResourceReader)
-namespace System::IO {
-class UnmanagedMemoryStream;
-}
-namespace System::Resources {
-class __ResourceReader__ResourceEnumerator;
-}
-namespace System::Resources {
-class IResourceReader;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections {
+struct DictionaryEntry;
+}
+namespace System::Collections {
+class IDictionaryEnumerator;
+}
+namespace System::Collections {
 class IEnumerable;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::IO {
 class BinaryReader;
@@ -32,8 +29,11 @@ class BinaryReader;
 namespace System::IO {
 class Stream;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System::IO {
+class UnmanagedMemoryStream;
+}
+namespace System::Resources {
+class IResourceReader;
 }
 namespace System::Resources {
 struct ResourceLocator;
@@ -41,20 +41,20 @@ struct ResourceLocator;
 namespace System::Resources {
 struct ResourceTypeCode;
 }
+namespace System::Resources {
+class __ResourceReader__ResourceEnumerator;
+}
 namespace System::Runtime::Serialization::Formatters::Binary {
 class BinaryFormatter;
 }
-namespace System::Collections {
-class IDictionaryEnumerator;
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
 }
 namespace System {
 class RuntimeType;
-}
-namespace System::Collections {
-struct DictionaryEntry;
 }
 // Forward declare root types
 namespace System::Resources {
@@ -101,8 +101,14 @@ public:
   /// @brief Convert operator to "::System::Collections::IDictionaryEnumerator"
   constexpr operator ::System::Collections::IDictionaryEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IDictionaryEnumerator"
+  constexpr ::System::Collections::IDictionaryEnumerator* i___System__Collections__IDictionaryEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr ::System::Resources::ResourceReader*& __get__reader();
 
@@ -251,11 +257,20 @@ public:
   /// @brief Convert operator to "::System::Resources::IResourceReader"
   constexpr operator ::System::Resources::IResourceReader*() noexcept;
 
+  /// @brief Convert to "::System::Resources::IResourceReader"
+  constexpr ::System::Resources::IResourceReader* i___System__Resources__IResourceReader() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::System::IO::BinaryReader*& __get__store();
 

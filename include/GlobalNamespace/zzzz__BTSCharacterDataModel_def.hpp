@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BTSCharacterDataModel)
 namespace GlobalNamespace {
-class __BTSCharacterDataModel__PrefabWithId;
+class __BTSCharacterDataModel__AnimationClipWithId;
 }
 namespace GlobalNamespace {
-class __BTSCharacterDataModel__AnimationClipWithId;
+class __BTSCharacterDataModel__PrefabWithId;
 }
 namespace UnityEngine::AddressableAssets {
 class AssetReference;

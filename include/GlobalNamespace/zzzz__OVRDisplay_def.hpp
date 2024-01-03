@@ -10,8 +10,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRDisplay)
-namespace UnityEngine {
-struct Vector3;
+namespace GlobalNamespace {
+struct __OVRDisplay__EyeFov;
 }
 namespace GlobalNamespace {
 struct __OVRDisplay__EyeRenderDesc;
@@ -25,11 +25,11 @@ class Action;
 namespace UnityEngine::XR {
 struct XRNode;
 }
-namespace GlobalNamespace {
-struct __OVRDisplay__EyeFov;
-}
 namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {

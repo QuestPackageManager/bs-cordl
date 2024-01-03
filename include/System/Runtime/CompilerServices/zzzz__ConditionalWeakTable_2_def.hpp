@@ -10,35 +10,35 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConditionalWeakTable_2)
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue> class __ConditionalWeakTable_2__Enumerator;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue> class __ConditionalWeakTable_2__CreateValueCallback;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct KeyValuePair_2;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System {
-class Object;
-}
 namespace System::Runtime::CompilerServices {
 struct Ephemeron;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
+namespace System::Runtime::CompilerServices {
+template <typename TKey, typename TValue> class __ConditionalWeakTable_2__CreateValueCallback;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TKey, typename TValue> class __ConditionalWeakTable_2__Enumerator;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
@@ -98,7 +98,7 @@ namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3841)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 1113 }),
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 1113 }), TypeDefinitionIndex(TypeDefinitionIndex(3841)),
 // TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3421)) CS Name: ::ConditionalWeakTable`2::Enumerator<TKey,TValue>*
 class CORDL_TYPE __ConditionalWeakTable_2__Enumerator : public ::System::Object {
 public:
@@ -119,11 +119,21 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
+  i___System__Collections__Generic__IEnumerator_1___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr ::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>*& __get__table();
 
@@ -221,8 +231,15 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
+  i___System__Collections__Generic__IEnumerable_1___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::ArrayW<::System::Runtime::CompilerServices::Ephemeron, ::Array<::System::Runtime::CompilerServices::Ephemeron>*>& __get_data();
 

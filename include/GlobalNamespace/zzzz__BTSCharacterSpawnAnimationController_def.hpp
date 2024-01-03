@@ -6,25 +6,25 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BTSCharacterSpawnAnimationController)
 namespace GlobalNamespace {
-class SongSpeedData;
-}
-namespace UnityEngine::Playables {
-class PlayableDirector;
-}
-namespace GlobalNamespace {
 class BTSCharacter;
-}
-namespace GlobalNamespace {
-class MaterialPropertyBlockColorSetter;
-}
-namespace UnityEngine::Timeline {
-class ActivationTrack;
 }
 namespace GlobalNamespace {
 class JumpReceiver;
 }
 namespace GlobalNamespace {
+class MaterialPropertyBlockColorSetter;
+}
+namespace GlobalNamespace {
 class MaterialPropertyBlockFloatAnimator;
+}
+namespace GlobalNamespace {
+class SongSpeedData;
+}
+namespace UnityEngine::Playables {
+class PlayableDirector;
+}
+namespace UnityEngine::Timeline {
+class ActivationTrack;
 }
 // Forward declare root types
 namespace GlobalNamespace {

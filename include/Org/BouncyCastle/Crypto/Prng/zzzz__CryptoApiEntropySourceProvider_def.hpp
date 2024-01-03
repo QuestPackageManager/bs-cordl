@@ -12,11 +12,11 @@ class __CryptoApiEntropySourceProvider__CryptoApiEntropySource;
 namespace Org::BouncyCastle::Crypto {
 class IEntropySourceProvider;
 }
-namespace System::Security::Cryptography {
-class RandomNumberGenerator;
-}
 namespace Org::BouncyCastle::Crypto {
 class IEntropySource;
+}
+namespace System::Security::Cryptography {
+class RandomNumberGenerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Prng {
@@ -53,6 +53,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IEntropySource"
   constexpr operator ::Org::BouncyCastle::Crypto::IEntropySource*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IEntropySource"
+  constexpr ::Org::BouncyCastle::Crypto::IEntropySource* i___Org__BouncyCastle__Crypto__IEntropySource() noexcept;
 
   constexpr ::System::Security::Cryptography::RandomNumberGenerator*& __get_mRng();
 
@@ -142,6 +145,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IEntropySourceProvider"
   constexpr operator ::Org::BouncyCastle::Crypto::IEntropySourceProvider*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IEntropySourceProvider"
+  constexpr ::Org::BouncyCastle::Crypto::IEntropySourceProvider* i___Org__BouncyCastle__Crypto__IEntropySourceProvider() noexcept;
 
   constexpr ::System::Security::Cryptography::RandomNumberGenerator*& __get_mRng();
 

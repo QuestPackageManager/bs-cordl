@@ -12,13 +12,13 @@ namespace HoudiniEngineUnity {
 class HEU_DetailPrototype;
 }
 namespace HoudiniEngineUnity {
+class HEU_PartData;
+}
+namespace HoudiniEngineUnity {
 template <typename T> class IEquivable_1;
 }
 namespace UnityEngine {
 class TerrainLayer;
-}
-namespace HoudiniEngineUnity {
-class HEU_PartData;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_VolumeLayer);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9951)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9951))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9952))
 // CS Name: ::HoudiniEngineUnity::HEU_VolumeLayer*
 class CORDL_TYPE HEU_VolumeLayer : public ::System::Object {
@@ -71,6 +71,9 @@ public:
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer*>*() noexcept;
+
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_VolumeLayer__() noexcept;
 
   constexpr ::StringW& __get__layerName();
 

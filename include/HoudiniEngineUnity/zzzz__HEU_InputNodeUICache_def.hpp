@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(HEU_InputNodeUICache)
 namespace HoudiniEngineUnity {
 class __HEU_InputNodeUICache__HEU_InputAssetUICache;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace HoudiniEngineUnity {
 class __HEU_InputNodeUICache__HEU_InputObjectUICache;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

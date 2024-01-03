@@ -5,29 +5,29 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TbsCertificateStructure)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class SubjectPublicKeyInfo;
-}
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
+class SubjectPublicKeyInfo;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class Time;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerBitString;
@@ -35,8 +35,8 @@ class DerBitString;
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {

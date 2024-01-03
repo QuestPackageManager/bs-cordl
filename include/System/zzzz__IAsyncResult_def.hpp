@@ -3,11 +3,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IAsyncResult)
-namespace System {
-class Object;
-}
 namespace System::Threading {
 class WaitHandle;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System {

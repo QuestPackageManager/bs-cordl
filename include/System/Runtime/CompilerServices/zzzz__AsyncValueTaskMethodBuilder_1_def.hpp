@@ -6,8 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(AsyncValueTaskMethodBuilder_1)
-namespace System {
-class Exception;
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -15,8 +15,8 @@ class IAsyncStateMachine;
 namespace System::Threading::Tasks {
 template <typename TResult> struct ValueTask_1;
 }
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {

@@ -1,14 +1,14 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BitMaskSparse_def.hpp"
-#include "System/Collections/Generic/zzzz__SortedSet_1_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "GlobalNamespace/zzzz__BitMaskSparse_def.hpp"
 #include "GlobalNamespace/zzzz__IBitMask_1_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "System/Collections/Generic/zzzz__SortedSet_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__BitMaskSparse____c._ctor
 template <>
 
@@ -16,7 +16,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x12a2080;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BitMaskSparse____c*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x12a2088;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BitMaskSparse____c*>::get(), "<ToString>b__8_0",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
@@ -74,7 +74,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x12a1d5c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BitMaskSparse*>::get(), "get_bitCount",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -87,7 +87,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x12a0478;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BitMaskSparse*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
@@ -102,7 +102,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x12a1d64;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BitMaskSparse*>::get(), "Equals", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BitMaskSparse*>::get() })));
@@ -117,7 +117,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x12a1dd0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BitMaskSparse*>::get(), "SetBits", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get() })));
@@ -131,7 +131,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x12a1e60;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BitMaskSparse*>::get(), "GetBits", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
@@ -145,7 +145,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x124;
   constexpr static std::size_t addrs = 0x12a1ef8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BitMaskSparse*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BitMaskSparse*>::get(), 3));
@@ -160,7 +160,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x194;
   constexpr static std::size_t addrs = 0x12a0818;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BitMaskSparse*>::get(), "Serialize", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::Utils::NetDataWriter*>::get() })));
@@ -175,7 +175,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x12a09c4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BitMaskSparse*>::get(), "Deserialize", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::Utils::NetDataReader*>::get() })));
@@ -186,12 +186,24 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 constexpr GlobalNamespace::BitMaskSparse::operator ::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskSparse*>*() noexcept {
   return static_cast<::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskSparse*>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskSparse*>"
+constexpr ::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskSparse*>* GlobalNamespace::BitMaskSparse::i___GlobalNamespace__IBitMask_1___GlobalNamespace__BitMaskSparse__() noexcept {
+  return static_cast<::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskSparse*>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::BitMaskSparse*>"
 constexpr GlobalNamespace::BitMaskSparse::operator ::System::IEquatable_1<::GlobalNamespace::BitMaskSparse*>*() noexcept {
   return static_cast<::System::IEquatable_1<::GlobalNamespace::BitMaskSparse*>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::BitMaskSparse*>"
+constexpr ::System::IEquatable_1<::GlobalNamespace::BitMaskSparse*>* GlobalNamespace::BitMaskSparse::i___System__IEquatable_1___GlobalNamespace__BitMaskSparse__() noexcept {
+  return static_cast<::System::IEquatable_1<::GlobalNamespace::BitMaskSparse*>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
 constexpr GlobalNamespace::BitMaskSparse::operator ::LiteNetLib::Utils::INetSerializable*() noexcept {
+  return static_cast<::LiteNetLib::Utils::INetSerializable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+constexpr ::LiteNetLib::Utils::INetSerializable* GlobalNamespace::BitMaskSparse::i___LiteNetLib__Utils__INetSerializable() noexcept {
   return static_cast<::LiteNetLib::Utils::INetSerializable*>(static_cast<void*>(this));
 }
 constexpr int32_t& GlobalNamespace::BitMaskSparse::__get__bitCount_k__BackingField() {

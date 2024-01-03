@@ -4,38 +4,38 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/zzzz__Touchscreen_def.hpp"
 CORDL_MODULE_EXPORT(FastTouchscreen)
-namespace UnityEngine::InputSystem::Utilities {
-struct InternedString;
-}
-namespace UnityEngine::InputSystem::Controls {
-class Vector2Control;
-}
-namespace UnityEngine::InputSystem::Controls {
-class TouchControl;
-}
-namespace UnityEngine::InputSystem::Controls {
-class DeltaControl;
-}
 namespace UnityEngine::InputSystem::Controls {
 class AxisControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
 }
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
 namespace UnityEngine::InputSystem::Controls {
-class IntegerControl;
-}
-namespace UnityEngine::InputSystem::Controls {
-class TouchPhaseControl;
+class DeltaControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class DoubleControl;
 }
 namespace UnityEngine::InputSystem::Controls {
+class IntegerControl;
+}
+namespace UnityEngine::InputSystem::Controls {
+class TouchControl;
+}
+namespace UnityEngine::InputSystem::Controls {
+class TouchPhaseControl;
+}
+namespace UnityEngine::InputSystem::Controls {
 class TouchPressControl;
+}
+namespace UnityEngine::InputSystem::Controls {
+class Vector2Control;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct InternedString;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {

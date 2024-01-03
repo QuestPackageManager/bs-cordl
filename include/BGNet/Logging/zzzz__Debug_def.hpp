@@ -5,9 +5,6 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Debug)
-namespace System {
-class Object;
-}
 namespace BGNet::Logging {
 class __Debug__ILogger;
 }
@@ -16,6 +13,9 @@ class __Debug__LoggerLinkedList;
 }
 namespace System {
 class Exception;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace BGNet::Logging {
@@ -172,8 +172,7 @@ public:
   static inline void LogError(::StringW message);
 
   /// @brief Method LogException, addr 0xe61a68, size 0x100, virtual false, abstract: false, final false
-  /// @param message: ::StringW (default: nullptr)
-  static inline void LogException(::System::Exception* exception, ::StringW message = nullptr);
+  static inline void LogException(::System::Exception* exception, ::StringW message);
 
   /// @brief Method LogWarning, addr 0xe61b68, size 0xf8, virtual false, abstract: false, final false
   static inline void LogWarning(::StringW message);

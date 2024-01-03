@@ -10,17 +10,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(XHashtable_1)
-namespace System::Xml::Linq {
-template <typename TValue> class __XHashtable_1__XHashtableState;
+namespace GlobalNamespace {
+template <typename TValue> struct __XHashtable_1__XHashtableState__Entry;
 }
 namespace System::Xml::Linq {
 template <typename TValue> class __XHashtable_1__ExtractKeyDelegate;
 }
+namespace System::Xml::Linq {
+template <typename TValue> class __XHashtable_1__XHashtableState;
+}
 namespace System {
 class Object;
-}
-namespace GlobalNamespace {
-template <typename TValue> struct __XHashtable_1__XHashtableState__Entry;
 }
 // Forward declare root types
 namespace System::Xml::Linq {

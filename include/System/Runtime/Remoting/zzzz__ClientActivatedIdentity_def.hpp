@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ClientActivatedIdentity)
 namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+class IMessageCtrl;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMessageCtrl;
+class IMessage;
 }
 namespace System {
 class MarshalByRefObject;

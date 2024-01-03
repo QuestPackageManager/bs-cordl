@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Stack)
 namespace System::Collections {
-class __Stack__StackDebugView;
+class ICollection;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System {
-class ICloneable;
-}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System::Collections {
+class __Stack__StackDebugView;
 }
 namespace System::Collections {
 class __Stack__StackEnumerator;
@@ -25,10 +25,10 @@ namespace System {
 class Array;
 }
 namespace System {
-class Object;
+class ICloneable;
 }
-namespace System::Collections {
-class ICollection;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Collections {
@@ -71,8 +71,14 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
+
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
   constexpr ::System::Collections::Stack*& __get__stack();
 
@@ -220,11 +226,20 @@ public:
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
 
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
+
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
   constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __get__array();
 

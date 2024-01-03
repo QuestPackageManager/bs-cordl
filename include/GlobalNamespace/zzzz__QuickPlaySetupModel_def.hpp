@@ -12,8 +12,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(QuickPlaySetupModel)
-namespace System::Threading {
-struct CancellationToken;
+namespace GlobalNamespace {
+class INetworkConfig;
 }
 namespace GlobalNamespace {
 class IQuickPlaySetupModel;
@@ -27,17 +27,8 @@ class __QuickPlaySetupModel__QuickPlaySetupDataFB;
 namespace GlobalNamespace {
 struct __QuickPlaySetupModel___GetQuickPlaySetupInternal_d__10;
 }
-namespace GlobalNamespace {
-class INetworkConfig;
-}
 namespace System::Net::Http {
 class HttpClient;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System {
-class UriBuilder;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
@@ -47,6 +38,15 @@ class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
+class UriBuilder;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -115,14 +115,17 @@ static_assert(offsetof(::GlobalNamespace::__QuickPlaySetupModel__QuickPlaySetupD
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 898 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4480)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 898 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4480)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(4482)) CS Name: ::QuickPlaySetupModel::<GetQuickPlaySetupInternal>d__10
 struct CORDL_TYPE __QuickPlaySetupModel___GetQuickPlaySetupInternal_d__10 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x2353fec, size 0x7fc, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -205,6 +208,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IQuickPlaySetupModel"
   constexpr operator ::GlobalNamespace::IQuickPlaySetupModel*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IQuickPlaySetupModel"
+  constexpr ::GlobalNamespace::IQuickPlaySetupModel* i___GlobalNamespace__IQuickPlaySetupModel() noexcept;
 
   constexpr ::GlobalNamespace::INetworkConfig*& __get__networkConfig();
 

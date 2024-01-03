@@ -1,16 +1,25 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleEnum_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleKeyword_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IStyleValue_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IStyleValue_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleKeyword_def.hpp"
 /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<T>"
 template <typename T> constexpr UnityEngine::UIElements::StyleEnum_1<T>::operator ::UnityEngine::UIElements::IStyleValue_1<T>*() {
   return static_cast<::UnityEngine::UIElements::IStyleValue_1<T>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<T>"
+template <typename T> constexpr ::UnityEngine::UIElements::IStyleValue_1<T>* UnityEngine::UIElements::StyleEnum_1<T>::i___UnityEngine__UIElements__IStyleValue_1_T_() {
+  return static_cast<::UnityEngine::UIElements::IStyleValue_1<T>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleEnum_1<T>>"
 template <typename T> constexpr UnityEngine::UIElements::StyleEnum_1<T>::operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleEnum_1<T>>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::StyleEnum_1<T>>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleEnum_1<T>>"
+template <typename T>
+constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleEnum_1<T>>* UnityEngine::UIElements::StyleEnum_1<T>::i___System__IEquatable_1___UnityEngine__UIElements__StyleEnum_1_T__() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::StyleEnum_1<T>>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename T> inline T UnityEngine::UIElements::StyleEnum_1<T>::get_value() {

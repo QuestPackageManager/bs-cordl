@@ -9,26 +9,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SongPackMask)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace System {
-template <typename T> class IEquatable_1;
+namespace GlobalNamespace {
+struct BitMask256;
 }
 namespace LiteNetLib::Utils {
 template <typename T> class INetImmutableSerializable_1;
 }
 namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace LiteNetLib::Utils {
 class NetDataWriter;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
-}
-namespace GlobalNamespace {
-struct BitMask256;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -49,8 +49,14 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::SongPackMask>"
   constexpr operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::SongPackMask>*();
 
+  /// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::SongPackMask>"
+  constexpr ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::SongPackMask>* i___LiteNetLib__Utils__INetImmutableSerializable_1___GlobalNamespace__SongPackMask_();
+
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::SongPackMask>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::SongPackMask>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::SongPackMask>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::SongPackMask>* i___System__IEquatable_1___GlobalNamespace__SongPackMask_();
 
   /// @brief Method .ctor, addr 0x12a97c0, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW packId);
@@ -119,8 +125,7 @@ public:
   static inline ::GlobalNamespace::SongPackMask Parse(::StringW stringSerializedMask);
 
   /// @brief Method FromBytes, addr 0x12a9ec8, size 0x74, virtual false, abstract: false, final false
-  /// @param offset: int32_t (default: static_cast<int32_t>(0x0))
-  static inline ::GlobalNamespace::SongPackMask FromBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t offset = static_cast<int32_t>(0x0));
+  static inline ::GlobalNamespace::SongPackMask FromBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t offset);
 
   // Ctor Parameters [CppParam { name: "_bloomFilter", ty: "::GlobalNamespace::BitMask256", modifiers: "", def_value: None }]
   constexpr SongPackMask(::GlobalNamespace::BitMask256 _bloomFilter) noexcept;

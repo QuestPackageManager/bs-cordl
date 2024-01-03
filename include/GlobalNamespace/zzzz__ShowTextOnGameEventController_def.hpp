@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ShowTextOnGameEventController)
 namespace GlobalNamespace {
-class __ShowTextOnGameEventController__EventTextBinding;
+class Signal;
 }
 namespace GlobalNamespace {
 class TextFadeTransitions;
 }
 namespace GlobalNamespace {
-class Signal;
+class __ShowTextOnGameEventController__EventTextBinding;
 }
 // Forward declare root types
 namespace GlobalNamespace {

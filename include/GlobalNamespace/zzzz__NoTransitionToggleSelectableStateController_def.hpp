@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::GlobalNamespace::NoTransitionToggleSelectableStateController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5457), inst: 4966 }), TypeDefinitionIndex(TypeDefinitionIndex(13637)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13637)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5457), inst: 4966 }),
 // TypeDefinitionIndex(TypeDefinitionIndex(5457))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5459)) CS Name: ::NoTransitionToggleSelectableStateController*
 class CORDL_TYPE NoTransitionToggleSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::HMUI::NoTransitionsToggle*> {
 public:
@@ -33,8 +33,7 @@ public:
   inline void HandleNoTransitionToggleSelectionStateDidChange(::HMUI::UISelectionState state);
 
   /// @brief Method ResolveSelectionState, addr 0x227f8e8, size 0xec, virtual false, abstract: false, final false
-  /// @param animated: bool (default: true)
-  inline void ResolveSelectionState(::HMUI::UISelectionState state, bool animated = true);
+  inline void ResolveSelectionState(::HMUI::UISelectionState state, bool animated);
 
   static inline ::GlobalNamespace::NoTransitionToggleSelectableStateController* New_ctor();
 

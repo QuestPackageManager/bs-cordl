@@ -6,28 +6,28 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(VectorConverter)
 namespace Newtonsoft::Json {
-class JsonWriter;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace Newtonsoft::Json {
 class JsonReader;
 }
 namespace Newtonsoft::Json {
 class JsonSerializer;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace Newtonsoft::Json {
+class JsonWriter;
 }
 namespace System {
-class Type;
+template <typename T> struct Nullable_1;
 }
 namespace System {
 class Object;
 }
+namespace System {
+class Type;
+}
 namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 struct Vector4;

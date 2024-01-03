@@ -7,7 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Attribute)
 namespace System::Reflection {
-class ParameterInfo;
+class Assembly;
+}
+namespace System::Reflection {
+class EventInfo;
 }
 namespace System::Reflection {
 class MemberInfo;
@@ -15,20 +18,17 @@ class MemberInfo;
 namespace System::Reflection {
 class Module;
 }
-namespace System {
-class Type;
+namespace System::Reflection {
+class ParameterInfo;
+}
+namespace System::Reflection {
+class PropertyInfo;
 }
 namespace System {
 class Object;
 }
-namespace System::Reflection {
-class EventInfo;
-}
-namespace System::Reflection {
-class Assembly;
-}
-namespace System::Reflection {
-class PropertyInfo;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System {

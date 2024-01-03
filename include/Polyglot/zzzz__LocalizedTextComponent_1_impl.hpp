@@ -1,12 +1,16 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Polyglot/zzzz__LocalizedTextComponent_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "Polyglot/zzzz__ILocalize_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Polyglot/zzzz__LanguageDirection_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 /// @brief Convert operator to "::Polyglot::ILocalize"
 template <typename T> constexpr Polyglot::LocalizedTextComponent_1<T>::operator ::Polyglot::ILocalize*() noexcept {
+  return static_cast<::Polyglot::ILocalize*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Polyglot::ILocalize"
+template <typename T> constexpr ::Polyglot::ILocalize* Polyglot::LocalizedTextComponent_1<T>::i___Polyglot__ILocalize() noexcept {
   return static_cast<::Polyglot::ILocalize*>(static_cast<void*>(this));
 }
 template <typename T> constexpr T& Polyglot::LocalizedTextComponent_1<T>::__get_localizedComponent() {

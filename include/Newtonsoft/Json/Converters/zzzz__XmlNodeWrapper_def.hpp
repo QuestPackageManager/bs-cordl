@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlNodeWrapper)
-namespace System::Xml {
-struct XmlNodeType;
+namespace Newtonsoft::Json::Converters {
+class IXmlNode;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System {
-class Object;
+namespace System::Xml {
+struct XmlNodeType;
 }
 namespace System::Xml {
 class XmlNode;
 }
-namespace Newtonsoft::Json::Converters {
-class IXmlNode;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -63,6 +63,9 @@ public:
 
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept;
+
+  /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
+  constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
 
   constexpr ::System::Xml::XmlNode*& __get__node();
 

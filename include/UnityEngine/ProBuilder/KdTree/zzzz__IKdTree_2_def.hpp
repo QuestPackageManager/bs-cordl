@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(IKdTree_2)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace UnityEngine::ProBuilder::KdTree {
-template <typename TKey, typename TValue> class KdTreeNode_2;
-}
 namespace System::Collections {
 class IEnumerable;
+}
+namespace UnityEngine::ProBuilder::KdTree {
+template <typename TKey, typename TValue> class KdTreeNode_2;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::KdTree {
@@ -38,8 +38,15 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey,TValue>*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey,TValue>*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*
+  i___System__Collections__Generic__IEnumerable_1___UnityEngine__ProBuilder__KdTree__KdTreeNode_2_TKey_TValue___() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Add(::ArrayW<TKey, ::Array<TKey>*> point, TValue value);
@@ -67,9 +74,8 @@ public:
   inline void Clear();
 
   /// @brief Method GetNearestNeighbours, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  /// @param count: int32_t (default: static_cast<int32_t>(0x7fffffff))
   inline ::ArrayW<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*, ::Array<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*>
-  GetNearestNeighbours(::ArrayW<TKey, ::Array<TKey>*> point, int32_t count = static_cast<int32_t>(0x7fffffff));
+  GetNearestNeighbours(::ArrayW<TKey, ::Array<TKey>*> point, int32_t count);
 
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_Count();

@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DecimalConverter)
-namespace System {
-class Object;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
 namespace System::ComponentModel {
 class ITypeDescriptorContext;
 }
 namespace System::Globalization {
+class CultureInfo;
+}
+namespace System::Globalization {
 class NumberFormatInfo;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class Type;

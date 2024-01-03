@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(VREvent_t_Packed)
 namespace OVR::OpenVR {
-struct VREvent_t;
+struct VREvent_Data_t;
 }
 namespace OVR::OpenVR {
-struct VREvent_Data_t;
+struct VREvent_t;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

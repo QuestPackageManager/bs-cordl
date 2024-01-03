@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MockScoreSyncStateSender)
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class IConnectedPlayer;
 }
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
 class StandardScoreSyncStateNetSerializable;
 }
-namespace GlobalNamespace {
-class IConnectedPlayer;
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -38,6 +38,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __get__multiplayerSessionManager();
 

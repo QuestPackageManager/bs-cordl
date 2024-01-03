@@ -8,34 +8,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Stack_1)
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System {
-class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
+}
+namespace System::Collections::Generic {
 template <typename T> struct __Stack_1__Enumerator;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class Array;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
@@ -66,11 +66,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<T>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<T>* i___System__Collections__Generic__IEnumerator_1_T_();
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*();
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::Stack_1<T>* stack);
@@ -155,14 +164,26 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>* i___System__Collections__Generic__IEnumerable_1_T_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
 
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
   constexpr operator ::System::Collections::Generic::IReadOnlyCollection_1<T>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
+  constexpr ::System::Collections::Generic::IReadOnlyCollection_1<T>* i___System__Collections__Generic__IReadOnlyCollection_1_T_() noexcept;
 
   constexpr ::ArrayW<T, ::Array<T>*>& __get__array();
 

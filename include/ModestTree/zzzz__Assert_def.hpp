@@ -7,14 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(Assert)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
 namespace System {
-template <typename TResult> class Func_1;
+class Action;
 }
 namespace System {
 class Exception;
 }
-namespace Zenject {
-class ZenjectException;
+namespace System {
+template <typename TResult> class Func_1;
 }
 namespace System {
 class Object;
@@ -22,14 +28,8 @@ class Object;
 namespace System {
 class Type;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System {
-class Action;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
+namespace Zenject {
+class ZenjectException;
 }
 // Forward declare root types
 namespace ModestTree {
@@ -84,8 +84,7 @@ public:
   static inline void IsEqual(::System::Object* left, ::System::Object* right, ::System::Func_1<::StringW>* messageGenerator);
 
   /// @brief Method IsApproximately, addr 0x2ebb184, size 0x13c, virtual false, abstract: false, final false
-  /// @param epsilon: float_t (default: 0.00001)
-  static inline void IsApproximately(float_t left, float_t right, float_t epsilon = 0.00001);
+  static inline void IsApproximately(float_t left, float_t right, float_t epsilon);
 
   /// @brief Method IsEqual, addr 0x2ebaf4c, size 0x10c, virtual false, abstract: false, final false
   static inline void IsEqual(::System::Object* left, ::System::Object* right, ::StringW message);
@@ -118,8 +117,7 @@ public:
   static inline void IsNotNull(::System::Object* val, ::StringW message, ::System::Object* p1, ::System::Object* p2);
 
   /// @brief Method IsNotEmpty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param message: ::StringW (default: u"")
-  template <typename T> static inline void IsNotEmpty(::System::Collections::Generic::IEnumerable_1<T>* val, ::StringW message = u"");
+  template <typename T> static inline void IsNotEmpty(::System::Collections::Generic::IEnumerable_1<T>* val, ::StringW message);
 
   /// @brief Method IsNotEqual, addr 0x2ebb318, size 0xdc, virtual false, abstract: false, final false
   static inline void IsNotEqual(::System::Object* left, ::System::Object* right, ::StringW message);

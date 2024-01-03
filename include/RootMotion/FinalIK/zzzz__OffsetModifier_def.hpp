@@ -13,28 +13,28 @@ namespace RootMotion::FinalIK {
 class FullBodyBipedIK;
 }
 namespace RootMotion::FinalIK {
-class __OffsetModifier___Initiate_d__8;
+class IKEffector;
 }
 namespace RootMotion::FinalIK {
 class __OffsetModifier__OffsetLimits;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace RootMotion::FinalIK {
-class IKEffector;
+class __OffsetModifier___Initiate_d__8;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System {
-class Object;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -274,11 +274,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

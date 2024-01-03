@@ -9,10 +9,10 @@ namespace System {
 class AsyncCallback;
 }
 namespace System {
-class Object;
+class IAsyncResult;
 }
 namespace System {
-class IAsyncResult;
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {

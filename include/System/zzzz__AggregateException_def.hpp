@@ -6,8 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AggregateException)
-namespace System {
-class Exception;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
@@ -18,14 +18,14 @@ template <typename T> class ReadOnlyCollection_1;
 namespace System::Runtime::ExceptionServices {
 class ExceptionDispatchInfo;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace System {

@@ -8,17 +8,17 @@ CORDL_MODULE_EXPORT(Test_Material_Extensions)
 namespace HoudiniEngineUnity {
 class Test_Material;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace HoudiniEngineUnity {
 class __Test_Material_Extensions____c;
 }
-namespace UnityEngine {
-class Material;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 template <typename TInput, typename TOutput> class Converter_2;
+}
+namespace UnityEngine {
+class Material;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

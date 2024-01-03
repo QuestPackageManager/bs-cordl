@@ -11,14 +11,14 @@ CORDL_MODULE_EXPORT(TouchState)
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateTypeInfo;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
 }
 namespace UnityEngine::InputSystem {
 struct TouchPhase;
 }
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -97,6 +97,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
+
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo();
 
   constexpr int32_t& __get_touchId();
 

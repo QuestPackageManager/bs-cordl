@@ -30,6 +30,9 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayableOutput"
   constexpr operator ::UnityEngine::Playables::IPlayableOutput*();
 
+  /// @brief Convert to "::UnityEngine::Playables::IPlayableOutput"
+  constexpr ::UnityEngine::Playables::IPlayableOutput* i___UnityEngine__Playables__IPlayableOutput();
+
   /// @brief Method GetHandle, addr 0x2cf48b4, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableOutputHandle GetHandle();
 

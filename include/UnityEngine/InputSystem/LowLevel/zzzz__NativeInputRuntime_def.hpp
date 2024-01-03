@@ -7,38 +7,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeInputRuntime)
-namespace UnityEngine::InputSystem::LowLevel {
-class InputUpdateDelegate;
+namespace System {
+template <typename T> class Action_1;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-class __NativeInputRuntime____c__DisplayClass10_0;
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace System {
+class Action;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
-class Action;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputUpdateType;
-}
-namespace System {
 class Object;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEvent;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace UnityEngine {
-struct ScreenOrientation;
-}
-namespace System {
-template <typename T> class Action_1;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputRuntime;
@@ -47,16 +29,34 @@ namespace UnityEngine::InputSystem::LowLevel {
 struct InputDeviceCommand;
 }
 namespace UnityEngine::InputSystem::LowLevel {
+struct InputEvent;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class InputUpdateDelegate;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputUpdateType;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class __NativeInputRuntime____c__DisplayClass10_0;
+}
+namespace UnityEngine::InputSystem::LowLevel {
 class __NativeInputRuntime____c__DisplayClass13_0;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class __NativeInputRuntime____c__DisplayClass7_0;
 }
 namespace UnityEngineInternal::Input {
-struct NativeInputUpdateType;
+struct NativeInputEventBuffer;
 }
 namespace UnityEngineInternal::Input {
-struct NativeInputEventBuffer;
+struct NativeInputUpdateType;
+}
+namespace UnityEngine {
+struct ScreenOrientation;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -306,6 +306,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputRuntime"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputRuntime*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputRuntime"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputRuntime* i___UnityEngine__InputSystem__LowLevel__IInputRuntime() noexcept;
 
   constexpr ::System::Action*& __get_m_ShutdownMethod();
 

@@ -5,8 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ConventionBindInfo)
-namespace Zenject {
-class __ConventionBindInfo____c__DisplayClass7_0;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -14,26 +17,23 @@ template <typename T> class List_1;
 namespace System::Reflection {
 class Assembly;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace Zenject {
-class __ConventionBindInfo____c__DisplayClass6_0;
+namespace System {
+class Object;
 }
 namespace System {
 class Type;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace Zenject {
 class InjectTypeInfo;
 }
-namespace System {
-class Object;
+namespace Zenject {
+class __ConventionBindInfo____c__DisplayClass6_0;
+}
+namespace Zenject {
+class __ConventionBindInfo____c__DisplayClass7_0;
 }
 // Forward declare root types
 namespace Zenject {

@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__TimeSpan_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RegisteredWaitHandle)
-namespace System {
-struct TimeSpan;
-}
-namespace System {
-class Object;
-}
 namespace System::Threading {
-class WaitOrTimerCallback;
+class ManualResetEvent;
 }
 namespace System::Threading {
 class WaitHandle;
 }
 namespace System::Threading {
-class ManualResetEvent;
+class WaitOrTimerCallback;
+}
+namespace System {
+class Object;
+}
+namespace System {
+struct TimeSpan;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::System::Threading::RegisteredWaitHandle);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 78, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2605))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2605)), TypeDefinitionIndex(TypeDefinitionIndex(2484))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2746))
 // CS Name: ::System.Threading::RegisteredWaitHandle*
 class CORDL_TYPE RegisteredWaitHandle : public ::System::MarshalByRefObject {

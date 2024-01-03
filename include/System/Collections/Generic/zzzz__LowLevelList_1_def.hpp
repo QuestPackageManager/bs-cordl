@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LowLevelList_1)
-namespace System {
-template <typename T> class Predicate_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace System {
+template <typename T> class Predicate_1;
 }
 // Forward declare root types
 namespace System::Collections::Generic {

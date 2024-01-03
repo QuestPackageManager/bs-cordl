@@ -1,17 +1,22 @@
 #pragma once
 #include "Zenject/zzzz__PoolableMemoryPoolProviderBase_1_impl.hpp"
 #include "Zenject/zzzz__PoolableMemoryPoolProvider_7_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "Zenject/zzzz__IValidatable_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__IValidatable_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
 /// @brief Convert operator to "::Zenject::IValidatable"
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract, typename TMemoryPool>
 constexpr Zenject::PoolableMemoryPoolProvider_7<TParam1, TParam2, TParam3, TParam4, TParam5, TContract, TMemoryPool>::operator ::Zenject::IValidatable*() noexcept {
+  return static_cast<::Zenject::IValidatable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::IValidatable"
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract, typename TMemoryPool>
+constexpr ::Zenject::IValidatable* Zenject::PoolableMemoryPoolProvider_7<TParam1, TParam2, TParam3, TParam4, TParam5, TContract, TMemoryPool>::i___Zenject__IValidatable() noexcept {
   return static_cast<::Zenject::IValidatable*>(static_cast<void*>(this));
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract, typename TMemoryPool>

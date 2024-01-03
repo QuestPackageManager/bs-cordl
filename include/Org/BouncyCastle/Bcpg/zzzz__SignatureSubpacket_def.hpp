@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SignatureSubpacket)
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Bcpg {
 struct SignatureSubpacketTag;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::SignatureSubpacket);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(591)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(591))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(531))
 // CS Name: ::Org.BouncyCastle.Bcpg::SignatureSubpacket*
 class CORDL_TYPE SignatureSubpacket : public ::System::Object {

@@ -55,8 +55,7 @@ public:
   static inline ::UnityEngine::UIElements::ObjectPool_1<T>* New_ctor(int32_t maxSize);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param maxSize: int32_t (default: static_cast<int32_t>(0x64))
-  inline void _ctor(int32_t maxSize = static_cast<int32_t>(0x64));
+  inline void _ctor(int32_t maxSize);
 
   /// @brief Method Size, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t Size();

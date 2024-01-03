@@ -9,17 +9,17 @@ CORDL_MODULE_EXPORT(DtlsProtocol)
 namespace Org::BouncyCastle::Crypto::Tls {
 class Certificate;
 }
-namespace System::Collections {
-class IList;
+namespace Org::BouncyCastle::Crypto::Tls {
+class DtlsRecordLayer;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
-namespace Org::BouncyCastle::Crypto::Tls {
-class DtlsRecordLayer;
-}
 namespace System::Collections {
 class IDictionary;
+}
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

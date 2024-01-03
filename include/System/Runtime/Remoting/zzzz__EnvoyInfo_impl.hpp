@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x2485038;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::EnvoyInfo*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Messaging::IMessageSink*>::get() })));
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2485060;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::EnvoyInfo*>::get(), "get_EnvoySinks",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -34,6 +34,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::System::Runtime::Remoting::IEnvoyInfo"
 constexpr System::Runtime::Remoting::EnvoyInfo::operator ::System::Runtime::Remoting::IEnvoyInfo*() noexcept {
+  return static_cast<::System::Runtime::Remoting::IEnvoyInfo*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Remoting::IEnvoyInfo"
+constexpr ::System::Runtime::Remoting::IEnvoyInfo* System::Runtime::Remoting::EnvoyInfo::i___System__Runtime__Remoting__IEnvoyInfo() noexcept {
   return static_cast<::System::Runtime::Remoting::IEnvoyInfo*>(static_cast<void*>(this));
 }
 constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& System::Runtime::Remoting::EnvoyInfo::__get_envoySinks() {

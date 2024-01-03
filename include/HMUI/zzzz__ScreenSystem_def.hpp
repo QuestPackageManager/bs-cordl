@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(ScreenSystem)
 namespace HMUI {
+class ButtonBinder;
+}
+namespace HMUI {
 class Screen;
 }
 namespace HMUI {
 class TitleViewController;
 }
-namespace UnityEngine::UI {
-class Button;
-}
-namespace HMUI {
-class ButtonBinder;
-}
 namespace System {
 class Action;
+}
+namespace UnityEngine::UI {
+class Button;
 }
 // Forward declare root types
 namespace HMUI {

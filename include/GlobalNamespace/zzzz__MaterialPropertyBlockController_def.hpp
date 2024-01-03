@@ -10,10 +10,10 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine {
-class Renderer;
+class MaterialPropertyBlock;
 }
 namespace UnityEngine {
-class MaterialPropertyBlock;
+class Renderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {

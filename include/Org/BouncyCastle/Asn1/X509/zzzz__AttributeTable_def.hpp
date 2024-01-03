@@ -7,20 +7,20 @@ CORDL_MODULE_EXPORT(AttributeTable)
 namespace Org::BouncyCastle::Asn1::X509 {
 class AttributeX509;
 }
-namespace System::Collections {
-class IDictionary;
-}
-namespace System::Collections {
-class Hashtable;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1EncodableVector;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Set;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace System::Collections {
+class Hashtable;
+}
+namespace System::Collections {
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {

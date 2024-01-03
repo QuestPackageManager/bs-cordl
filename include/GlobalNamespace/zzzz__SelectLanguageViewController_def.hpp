@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 CORDL_MODULE_EXPORT(SelectLanguageViewController)
-namespace UnityEngine::UI {
-class Button;
-}
 namespace GlobalNamespace {
 class LanguageSettingsController;
 }
 namespace System {
 class Action;
+}
+namespace UnityEngine::UI {
+class Button;
 }
 // Forward declare root types
 namespace GlobalNamespace {

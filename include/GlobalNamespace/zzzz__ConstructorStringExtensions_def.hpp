@@ -9,10 +9,10 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Pose;
 }
 namespace UnityEngine {
-struct Pose;
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;

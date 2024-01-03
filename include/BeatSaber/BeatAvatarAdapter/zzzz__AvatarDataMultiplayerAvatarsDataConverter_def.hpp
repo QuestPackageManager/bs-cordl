@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(AvatarDataMultiplayerAvatarsDataConverter)
-namespace GlobalNamespace {
-struct MultiplayerAvatarData;
-}
 namespace BeatSaber::BeatAvatarSDK {
 class AvatarData;
+}
+namespace GlobalNamespace {
+struct MultiplayerAvatarData;
 }
 // Forward declare root types
 namespace BeatSaber::BeatAvatarAdapter {

@@ -11,17 +11,17 @@ CORDL_MODULE_EXPORT(MiscPemGenerator)
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
 }
-namespace Org::BouncyCastle::Utilities::IO::Pem {
-class PemObjectGenerator;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Utilities::IO::Pem {
+class PemObjectGenerator;
 }
 namespace Org::BouncyCastle::Utilities::IO::Pem {
 class PemObject;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::OpenSsl {
@@ -53,6 +53,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator"
   constexpr operator ::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator"
+  constexpr ::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator* i___Org__BouncyCastle__Utilities__IO__Pem__PemObjectGenerator() noexcept;
 
   constexpr ::System::Object*& __get_obj();
 

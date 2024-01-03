@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Test_HAPI_NodeInfo)
 namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
+struct HAPI_NodeInfo;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_NodeInfo;
+template <typename T> class IEquivable_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -32,6 +32,9 @@ public:
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_NodeInfo*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_NodeInfo*>*() noexcept;
+
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_NodeInfo*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_NodeInfo*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_HAPI_NodeInfo__() noexcept;
 
   constexpr ::HoudiniEngineUnity::HAPI_NodeInfo& __get_self();
 

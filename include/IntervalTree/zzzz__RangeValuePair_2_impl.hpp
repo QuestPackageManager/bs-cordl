@@ -1,9 +1,15 @@
 #pragma once
 #include "IntervalTree/zzzz__RangeValuePair_2_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 /// @brief Convert operator to "::System::IEquatable_1<::IntervalTree::RangeValuePair_2<TKey,TValue>>"
 template <typename TKey, typename TValue> constexpr IntervalTree::RangeValuePair_2<TKey, TValue>::operator ::System::IEquatable_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*() {
+  return static_cast<::System::IEquatable_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::IntervalTree::RangeValuePair_2<TKey,TValue>>"
+template <typename TKey, typename TValue>
+constexpr ::System::IEquatable_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*
+IntervalTree::RangeValuePair_2<TKey, TValue>::i___System__IEquatable_1___IntervalTree__RangeValuePair_2_TKey_TValue__() {
   return static_cast<::System::IEquatable_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename TKey, typename TValue> inline TKey IntervalTree::RangeValuePair_2<TKey, TValue>::get_From() {

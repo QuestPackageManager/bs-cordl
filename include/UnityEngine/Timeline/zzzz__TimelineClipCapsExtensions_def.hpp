@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(TimelineClipCapsExtensions)
 namespace UnityEngine::Timeline {
-class TimelineClip;
+struct ClipCaps;
 }
 namespace UnityEngine::Timeline {
-struct ClipCaps;
+class TimelineClip;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

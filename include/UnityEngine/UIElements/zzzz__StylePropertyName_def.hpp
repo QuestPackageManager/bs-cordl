@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StylePropertyName)
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 namespace UnityEngine::UIElements::StyleSheets {
 struct StylePropertyId;
@@ -38,6 +38,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StylePropertyName>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StylePropertyName>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StylePropertyName>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StylePropertyName>* i___System__IEquatable_1___UnityEngine__UIElements__StylePropertyName_();
 
   /// @brief Method get_id, addr 0x2dbacd8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::StylePropertyId get_id();

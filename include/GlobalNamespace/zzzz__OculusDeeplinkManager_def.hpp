@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(OculusDeeplinkManager)
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
 class Deeplink;
 }
 namespace GlobalNamespace {
 class IDeeplinkManager;
 }
-namespace Oculus::Platform {
-template <typename T> class Message_1;
+namespace Oculus::Platform::Models {
+class GroupPresenceJoinIntent;
 }
 namespace Oculus::Platform::Models {
 class LaunchDetails;
 }
-namespace Oculus::Platform::Models {
-class GroupPresenceJoinIntent;
+namespace Oculus::Platform {
+template <typename T> class Message_1;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -52,6 +52,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IDeeplinkManager"
   constexpr operator ::GlobalNamespace::IDeeplinkManager*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IDeeplinkManager"
+  constexpr ::GlobalNamespace::IDeeplinkManager* i___GlobalNamespace__IDeeplinkManager() noexcept;
 
   constexpr ::System::Action_1<::GlobalNamespace::Deeplink*>*& __get_didReceiveDeeplinkEvent();
 

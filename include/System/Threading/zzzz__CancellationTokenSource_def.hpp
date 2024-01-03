@@ -6,56 +6,56 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CancellationTokenSource)
-namespace System {
-class Object;
-}
-namespace System::Threading {
-class __CancellationTokenSource__LinkedNCancellationTokenSource;
-}
-namespace System::Threading {
-class TimerCallback;
-}
-namespace System::Threading {
-class ExecutionContext;
-}
-namespace System::Threading {
-class Timer;
-}
 namespace System::Threading {
 struct CancellationCallbackCoreWorkArguments;
-}
-namespace System::Threading {
-class __CancellationTokenSource__Linked2CancellationTokenSource;
-}
-namespace System::Threading {
-class SynchronizationContext;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Threading {
-class ManualResetEvent;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System::Threading {
-struct CancellationTokenRegistration;
 }
 namespace System::Threading {
 class CancellationCallbackInfo;
 }
 namespace System::Threading {
-template <typename T> class SparselyPopulatedArray_1;
+struct CancellationTokenRegistration;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace System {
-struct TimeSpan;
+namespace System::Threading {
+class ExecutionContext;
+}
+namespace System::Threading {
+class ManualResetEvent;
+}
+namespace System::Threading {
+template <typename T> class SparselyPopulatedArray_1;
+}
+namespace System::Threading {
+class SynchronizationContext;
+}
+namespace System::Threading {
+class TimerCallback;
+}
+namespace System::Threading {
+class Timer;
 }
 namespace System::Threading {
 class __CancellationTokenSource__Linked1CancellationTokenSource;
+}
+namespace System::Threading {
+class __CancellationTokenSource__Linked2CancellationTokenSource;
+}
+namespace System::Threading {
+class __CancellationTokenSource__LinkedNCancellationTokenSource;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace System {
+struct TimeSpan;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -178,6 +178,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::System::Threading::ManualResetEvent*& __get__kernelEvent();
 

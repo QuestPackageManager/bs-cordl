@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(BeatmapEventDataBoxGroupProcessor)
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class LinkedListNode_1;
+namespace GlobalNamespace {
+class BeatmapEventDataBoxGroup;
 }
 namespace GlobalNamespace {
 template <typename T> class ISortedListItemProcessor_1;
 }
 namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class IReadOnlyCollection_1;
 }
-namespace GlobalNamespace {
-class BeatmapEventDataBoxGroup;
+namespace System::Collections::Generic {
+template <typename T> class LinkedListNode_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -42,6 +42,10 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>"
   constexpr operator ::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>"
+  constexpr ::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*
+  i___GlobalNamespace__ISortedListItemProcessor_1___GlobalNamespace__BeatmapEventDataBoxGroup__() noexcept;
 
   constexpr ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*& __get__dirtyBoxGroups();
 

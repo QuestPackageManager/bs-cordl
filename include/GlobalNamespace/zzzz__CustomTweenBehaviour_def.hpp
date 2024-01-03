@@ -10,26 +10,26 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CustomTweenBehaviour)
-namespace UnityEngine::Playables {
-struct FrameData;
-}
 namespace GlobalNamespace {
 class __CustomTweenBehaviour____c;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 class Object;
 }
 namespace UnityEngine::Playables {
-struct Playable;
+struct FrameData;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::Playables {
+struct Playable;
 }
 namespace UnityEngine {
 class Transform;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -97,7 +97,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__CustomTweenBe
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10425))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10425)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(16090))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6012))
 // CS Name: ::CustomTweenBehaviour*
 class CORDL_TYPE CustomTweenBehaviour : public ::UnityEngine::Playables::PlayableBehaviour {

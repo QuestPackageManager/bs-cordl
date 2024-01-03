@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CmsProcessableInputStream)
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Cms {
+class CmsProcessable;
 }
 namespace Org::BouncyCastle::Cms {
 class CmsReadable;
 }
-namespace Org::BouncyCastle::Cms {
-class CmsProcessable;
+namespace System::IO {
+class Stream;
 }
 namespace System {
 class Object;
@@ -41,8 +41,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsProcessable"
   constexpr operator ::Org::BouncyCastle::Cms::CmsProcessable*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Cms::CmsProcessable"
+  constexpr ::Org::BouncyCastle::Cms::CmsProcessable* i___Org__BouncyCastle__Cms__CmsProcessable() noexcept;
+
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsReadable"
   constexpr operator ::Org::BouncyCastle::Cms::CmsReadable*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Cms::CmsReadable"
+  constexpr ::Org::BouncyCastle::Cms::CmsReadable* i___Org__BouncyCastle__Cms__CmsReadable() noexcept;
 
   constexpr ::System::IO::Stream*& __get_input();
 

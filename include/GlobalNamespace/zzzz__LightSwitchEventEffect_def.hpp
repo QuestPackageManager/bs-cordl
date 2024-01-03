@@ -9,37 +9,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightSwitchEventEffect)
 namespace GlobalNamespace {
-class LightWithIdManager;
-}
-namespace GlobalNamespace {
 class BasicBeatmapEventData;
-}
-namespace Tweening {
-class ColorTween;
 }
 namespace GlobalNamespace {
 struct BasicBeatmapEventType;
 }
 namespace GlobalNamespace {
-class ColorBoostBeatmapEventData;
-}
-namespace UnityEngine {
-struct Color;
+class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+class BeatmapDataCallbackWrapper;
+}
+namespace GlobalNamespace {
+class ColorBoostBeatmapEventData;
+}
+namespace GlobalNamespace {
+class ColorManager;
 }
 namespace GlobalNamespace {
 class ColorSO;
 }
 namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
+class LightWithIdManager;
+}
+namespace Tweening {
+class ColorTween;
 }
 namespace Tweening {
 class SongTimeTweeningManager;
 }
-namespace GlobalNamespace {
-class ColorManager;
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {

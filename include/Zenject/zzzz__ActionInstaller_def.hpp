@@ -12,10 +12,10 @@ namespace System {
 class Object;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class DiContainer;
 }
 namespace Zenject {
-class DiContainer;
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::Zenject::ActionInstaller);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11131)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11131), inst: 3902 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11131), inst: 3902 }), TypeDefinitionIndex(TypeDefinitionIndex(11131))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11346))
 // CS Name: ::Zenject::ActionInstaller*
 class CORDL_TYPE ActionInstaller : public ::Zenject::Installer_1<::Zenject::ActionInstaller*> {

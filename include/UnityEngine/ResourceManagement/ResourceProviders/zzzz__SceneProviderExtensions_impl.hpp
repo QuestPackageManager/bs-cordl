@@ -4,8 +4,8 @@
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ISceneProvider_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__SceneInstance_def.hpp"
-#include "UnityEngine/SceneManagement/zzzz__UnloadSceneOptions_def.hpp"
 #include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
+#include "UnityEngine/SceneManagement/zzzz__UnloadSceneOptions_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceProviders::SceneProviderExtensions.ReleaseScene
 template <>
 
@@ -17,7 +17,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x1f8;
   constexpr static std::size_t addrs = 0x2bd753c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::SceneProviderExtensions*>::get(), "ReleaseScene", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider*>::get(),

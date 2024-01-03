@@ -3,11 +3,11 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IX509Store)
-namespace System::Collections {
-class ICollection;
-}
 namespace Org::BouncyCastle::X509::Store {
 class IX509Selector;
+}
+namespace System::Collections {
+class ICollection;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509::Store {

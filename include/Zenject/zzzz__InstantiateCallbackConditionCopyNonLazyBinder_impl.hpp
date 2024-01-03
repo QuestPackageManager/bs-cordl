@@ -2,13 +2,13 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__ConditionCopyNonLazyBinder_impl.hpp"
 #include "Zenject/zzzz__InstantiateCallbackConditionCopyNonLazyBinder_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__BindInfo_def.hpp"
 #include "Zenject/zzzz__ConditionCopyNonLazyBinder_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
-#include "Zenject/zzzz__InstantiateCallbackConditionCopyNonLazyBinder_def.hpp"
-#include "Zenject/zzzz__BindInfo_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "Zenject/zzzz__InstantiateCallbackConditionCopyNonLazyBinder_def.hpp"
 template <typename T> constexpr ::System::Action_2<::Zenject::InjectContext*, T>*& Zenject::__InstantiateCallbackConditionCopyNonLazyBinder____c__DisplayClass2_0_1<T>::__get_callback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
@@ -64,7 +64,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2edb1f0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::InstantiateCallbackConditionCopyNonLazyBinder*>::get(), ".ctor",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::BindInfo*>::get() })));
@@ -80,7 +80,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x2edb1f8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::InstantiateCallbackConditionCopyNonLazyBinder*>::get(), "OnInstantiated", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::Zenject::InjectContext*, ::System::Object*>*>::get() })));

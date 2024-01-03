@@ -9,23 +9,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SendMouseEvents)
-namespace UnityEngine {
-class Camera;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
 namespace System {
 template <typename TResult> class Func_1;
+}
+namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
 struct __SendMouseEvents__HitInfo;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
-}
-namespace UnityEngine {
-class GameObject;
 }
 // Forward declare root types
 namespace UnityEngine {

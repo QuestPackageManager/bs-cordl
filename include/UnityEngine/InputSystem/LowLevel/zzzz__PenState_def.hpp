@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PenState)
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateTypeInfo;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
 }
 namespace UnityEngine::InputSystem {
 struct PenButton;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -61,6 +61,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
+
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo();
 
   constexpr ::UnityEngine::Vector2& __get_position();
 
@@ -108,8 +111,7 @@ public:
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Format();
 
   /// @brief Method WithButton, addr 0x2ae8ab8, size 0x34, virtual false, abstract: false, final false
-  /// @param state: bool (default: true)
-  inline ::UnityEngine::InputSystem::LowLevel::PenState WithButton(::UnityEngine::InputSystem::PenButton button, bool state = true);
+  inline ::UnityEngine::InputSystem::LowLevel::PenState WithButton(::UnityEngine::InputSystem::PenButton button, bool state);
 
   /// @brief Method get_format, addr 0x2ae8aec, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();

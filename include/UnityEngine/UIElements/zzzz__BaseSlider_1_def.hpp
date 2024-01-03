@@ -11,16 +11,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseSlider_1)
 namespace UnityEngine::UIElements {
-class FocusOutEvent;
-}
-namespace UnityEngine::UIElements {
 template <typename T> class ChangeEvent_1;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class ClampedDragger_1;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+class EventBase;
+}
+namespace UnityEngine::UIElements {
+class FocusOutEvent;
+}
+namespace UnityEngine::UIElements {
+class GeometryChangedEvent;
+}
+namespace UnityEngine::UIElements {
+class KeyDownEvent;
 }
 namespace UnityEngine::UIElements {
 struct SliderDirection;
@@ -29,16 +35,10 @@ namespace UnityEngine::UIElements {
 class TextField;
 }
 namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
 template <typename TValueType> struct __BaseSlider_1__SliderKey;
-}
-namespace UnityEngine::UIElements {
-class KeyDownEvent;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
-}
-namespace UnityEngine::UIElements {
-class GeometryChangedEvent;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -56,7 +56,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7100)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7100), inst: 2686 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7100), inst: 2686 }), TypeDefinitionIndex(TypeDefinitionIndex(7100))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7100))
 // CS Name: ::BaseSlider`1::SliderKey<TValueType>
 struct CORDL_TYPE __BaseSlider_1__SliderKey {
@@ -124,9 +124,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7099)), TypeDefinitionIndex(TypeDefinitionIndex(7130)), TypeDefinitionIndex(TypeDefinitionIndex(10165)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7130), inst: 918 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7101)) CS Name:
-// ::UnityEngine.UIElements::BaseSlider`1<TValueType>*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7130)), TypeDefinitionIndex(TypeDefinitionIndex(7099)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7130), inst: 918
+// }), TypeDefinitionIndex(TypeDefinitionIndex(10165))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7101)) CS Name: ::UnityEngine.UIElements::BaseSlider`1<TValueType>*
 class CORDL_TYPE BaseSlider_1 : public ::UnityEngine::UIElements::BaseField_1<TValueType> {
 public:
   // Declarations
@@ -440,9 +439,7 @@ public:
                                                                               float_t pageSize);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param direction: ::UnityEngine::UIElements::SliderDirection (default: static_cast<int32_t>(0x0))
-  /// @param pageSize: float_t (default: 0.0)
-  inline void _ctor(::StringW label, TValueType start, TValueType end, ::UnityEngine::UIElements::SliderDirection direction = static_cast<int32_t>(0x0), float_t pageSize = 0.0);
+  inline void _ctor(::StringW label, TValueType start, TValueType end, ::UnityEngine::UIElements::SliderDirection direction, float_t pageSize);
 
   /// @brief Method GetClosestPowerOfTen, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline float_t GetClosestPowerOfTen(float_t positiveNumber);

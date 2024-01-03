@@ -9,55 +9,55 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LevelCollectionTableView)
 namespace GlobalNamespace {
-class LevelListTableCell;
+class BeatmapLevelsPromoDataSO;
 }
 namespace GlobalNamespace {
 class IAdditionalContentModel;
 }
-namespace HMUI {
-class __TableView__IDataSource;
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
-class PlayerDataModel;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-class BeatmapLevelsPromoDataSO;
-}
-namespace HMUI {
-class TableView;
+class LevelListTableCell;
 }
 namespace GlobalNamespace {
 class LevelPackHeaderTableCell;
 }
-namespace UnityEngine {
-class Sprite;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace HMUI {
-class TableCell;
+class PlayerDataModel;
 }
 namespace GlobalNamespace {
 class __LevelCollectionTableView____c;
 }
-namespace System {
-template <typename T> class Action_1;
-}
 namespace HMUI {
 class AlphabetScrollbar;
+}
+namespace HMUI {
+class TableCell;
+}
+namespace HMUI {
+class TableView;
+}
+namespace HMUI {
+class __TableView__IDataSource;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine {
+class Sprite;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -200,6 +200,9 @@ public:
 
   /// @brief Convert operator to "::HMUI::__TableView__IDataSource"
   constexpr operator ::HMUI::__TableView__IDataSource*() noexcept;
+
+  /// @brief Convert to "::HMUI::__TableView__IDataSource"
+  constexpr ::HMUI::__TableView__IDataSource* i___HMUI____TableView__IDataSource() noexcept;
 
   constexpr ::HMUI::TableView*& __get__tableView();
 

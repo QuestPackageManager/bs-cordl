@@ -4,6 +4,12 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(CrlValidatedID)
+namespace Org::BouncyCastle::Asn1::Esf {
+class CrlIdentifier;
+}
+namespace Org::BouncyCastle::Asn1::Esf {
+class OtherHash;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
@@ -12,12 +18,6 @@ class Asn1Sequence;
 }
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Asn1::Esf {
-class OtherHash;
-}
-namespace Org::BouncyCastle::Asn1::Esf {
-class CrlIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Esf {

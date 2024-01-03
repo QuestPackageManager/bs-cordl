@@ -15,13 +15,13 @@ namespace GlobalNamespace {
 class BloomPrePassBackgroundColorsGradient;
 }
 namespace GlobalNamespace {
+class EnvironmentColorManager;
+}
+namespace GlobalNamespace {
 class __BloomPrePassBackgroundColorsGradientFromColorSchemeColors__Element;
 }
 namespace GlobalNamespace {
 struct __BloomPrePassBackgroundColorsGradientFromColorSchemeColors__EnvironmentColor;
-}
-namespace GlobalNamespace {
-class EnvironmentColorManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {

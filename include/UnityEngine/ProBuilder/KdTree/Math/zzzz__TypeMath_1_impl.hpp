@@ -6,6 +6,11 @@
 template <typename T> constexpr UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<T>::operator ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>*() noexcept {
   return static_cast<::UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>"
+template <typename T>
+constexpr ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>* UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<T>::i___UnityEngine__ProBuilder__KdTree__ITypeMath_1_T_() noexcept {
+  return static_cast<::UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>*>(static_cast<void*>(this));
+}
 template <typename T> inline int32_t UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<T>::Compare(T a, T b) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

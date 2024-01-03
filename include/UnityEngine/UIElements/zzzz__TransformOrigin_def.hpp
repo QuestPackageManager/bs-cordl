@@ -42,6 +42,9 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::TransformOrigin>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::TransformOrigin>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::TransformOrigin>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::TransformOrigin>* i___System__IEquatable_1___UnityEngine__UIElements__TransformOrigin_();
+
   /// @brief Method .ctor, addr 0x2e75844, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Length x, ::UnityEngine::UIElements::Length y, float_t z);
 

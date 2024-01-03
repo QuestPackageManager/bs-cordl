@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameplayModifierMaskExtensions)
 namespace GlobalNamespace {
-class GameplayModifiers;
+struct GameplayModifierMask;
 }
 namespace GlobalNamespace {
-struct GameplayModifierMask;
+class GameplayModifiers;
 }
 // Forward declare root types
 namespace GlobalNamespace {

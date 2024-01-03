@@ -13,59 +13,41 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ServicePointScheduler)
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace GlobalNamespace {
+class __ServicePointScheduler__AsyncManualResetEvent____c;
 }
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class LinkedList_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Net {
-class __ServicePointScheduler__AsyncManualResetEvent;
-}
-namespace System::Net {
-struct __ServicePointScheduler___RunScheduler_d__32;
-}
-namespace System {
-template <typename T1, typename T2> struct ValueTuple_2;
+class ServicePoint;
 }
 namespace System::Net {
 class WebConnection;
-}
-namespace System {
-template <typename T1, typename T2, typename T3> struct ValueTuple_3;
 }
 namespace System::Net {
 class WebOperation;
 }
 namespace System::Net {
+class __ServicePointScheduler__AsyncManualResetEvent;
+}
+namespace System::Net {
 class __ServicePointScheduler__ConnectionGroup;
+}
+namespace System::Net {
+struct __ServicePointScheduler___RunScheduler_d__32;
 }
 namespace System::Net {
 struct __ServicePointScheduler___WaitAsync_d__46;
 }
-namespace System::Net {
-class ServicePoint;
-}
-namespace System::Collections::Generic {
-template <typename T> class LinkedList_1;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace GlobalNamespace {
-class __ServicePointScheduler__AsyncManualResetEvent____c;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class TaskCompletionSource_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
@@ -76,11 +58,29 @@ class IAsyncStateMachine;
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+namespace System::Threading::Tasks {
+template <typename TResult> class TaskCompletionSource_1;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace System::Threading {
 class CancellationTokenSource;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+class Object;
+}
+namespace System {
+template <typename T1, typename T2> struct ValueTuple_2;
+}
+namespace System {
+template <typename T1, typename T2, typename T3> struct ValueTuple_3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -365,13 +365,16 @@ static_assert(offsetof(::System::Net::__ServicePointScheduler__AsyncManualResetE
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(2787)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 400 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9206)) CS Name: ::ServicePointScheduler::<RunScheduler>d__32
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 400
+// }), TypeDefinitionIndex(TypeDefinitionIndex(2787))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9206)) CS Name: ::ServicePointScheduler::<RunScheduler>d__32
 struct CORDL_TYPE __ServicePointScheduler___RunScheduler_d__32 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x29dbb44, size 0xaf4, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -465,14 +468,17 @@ static_assert(offsetof(::System::Net::__ServicePointScheduler___RunScheduler_d__
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 400 }), TypeDefinitionIndex(TypeDefinitionIndex(2787))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2787)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 400 })} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(9207)) CS Name: ::ServicePointScheduler::<WaitAsync>d__46
 struct CORDL_TYPE __ServicePointScheduler___WaitAsync_d__46 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x29dc644, size 0x44c, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -542,7 +548,7 @@ static_assert(offsetof(::System::Net::__ServicePointScheduler___WaitAsync_d__46,
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9208))
 // CS Name: ::System.Net::ServicePointScheduler*
 class CORDL_TYPE ServicePointScheduler : public ::System::Object {

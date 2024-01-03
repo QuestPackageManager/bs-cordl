@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Tables1kGcmExponentiator)
-namespace System::Collections {
-class IList;
-}
 namespace Org::BouncyCastle::Crypto::Modes::Gcm {
 class IGcmExponentiator;
+}
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Modes::Gcm {
@@ -33,6 +33,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator"
   constexpr operator ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator"
+  constexpr ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator* i___Org__BouncyCastle__Crypto__Modes__Gcm__IGcmExponentiator() noexcept;
 
   constexpr ::System::Collections::IList*& __get_lookupPowX2();
 

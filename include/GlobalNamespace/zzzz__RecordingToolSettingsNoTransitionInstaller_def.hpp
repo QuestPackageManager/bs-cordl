@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(RecordingToolSettingsNoTransitionInstaller)
 namespace GlobalNamespace {
 class RecordingToolSceneSetupData;
 }
-namespace Zenject {
-class DiContainer;
-}
 namespace GlobalNamespace {
 class RecordingToolScenesTransitionSetupDataSO;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace GlobalNamespace {

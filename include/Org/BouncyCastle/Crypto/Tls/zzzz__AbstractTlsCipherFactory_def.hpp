@@ -9,10 +9,10 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCipherFactory;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
+class TlsCipher;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipher;
+class TlsContext;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -32,6 +32,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* i___Org__BouncyCastle__Crypto__Tls__TlsCipherFactory() noexcept;
 
   /// @brief Method CreateCipher, addr 0xf5a310, size 0x44, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsCipher* CreateCipher(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, int32_t encryptionAlgorithm, int32_t macAlgorithm);

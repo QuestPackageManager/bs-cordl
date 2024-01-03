@@ -11,29 +11,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CertificateData)
-namespace System::Security::Cryptography {
-class DerSequenceReader;
+namespace Internal::Cryptography::Pal {
+struct GeneralNameType;
+}
+namespace Internal::Cryptography::Pal {
+struct __CertificateData__AlgorithmIdentifier;
+}
+namespace Internal::Cryptography::Pal {
+class __CertificateData___ReadReverseRdns_d__21;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class Stack_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -41,26 +44,23 @@ class IEnumerator;
 namespace System::Security::Cryptography::X509Certificates {
 class X500DistinguishedName;
 }
-namespace Internal::Cryptography::Pal {
-class __CertificateData___ReadReverseRdns_d__21;
+namespace System::Security::Cryptography::X509Certificates {
+class X509Extension;
 }
 namespace System::Security::Cryptography::X509Certificates {
 struct X509NameType;
 }
-namespace System::Security::Cryptography::X509Certificates {
-class X509Extension;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System::Security::Cryptography {
+class DerSequenceReader;
 }
 namespace System {
 struct DateTime;
 }
-namespace Internal::Cryptography::Pal {
-struct __CertificateData__AlgorithmIdentifier;
+namespace System {
+class IDisposable;
 }
-namespace Internal::Cryptography::Pal {
-struct GeneralNameType;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Internal::Cryptography::Pal {
@@ -117,8 +117,8 @@ static_assert(offsetof(::Internal::Cryptography::Pal::__CertificateData__Algorit
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Internal::Cryptography::Pal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3841)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 608
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(8857)) CS Name: ::CertificateData::<ReadReverseRdns>d__21*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3841)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 608 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8857)) CS Name: ::CertificateData::<ReadReverseRdns>d__21*
 class CORDL_TYPE __CertificateData___ReadReverseRdns_d__21 : public ::System::Object {
 public:
   // Declarations
@@ -151,17 +151,34 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::StringW>>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::StringW>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>>*
+  i___System__Collections__Generic__IEnumerable_1___System__Collections__Generic__KeyValuePair_2___StringW___StringW__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::StringW>>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::StringW>>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>>*
+  i___System__Collections__Generic__IEnumerator_1___System__Collections__Generic__KeyValuePair_2___StringW___StringW__() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr int32_t& __get___1__state();
 

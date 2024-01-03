@@ -7,25 +7,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScoreModel)
 namespace GlobalNamespace {
-class __ScoreModel__NoteScoreDefinition;
-}
-namespace GlobalNamespace {
-struct __NoteData__ScoringType;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace GlobalNamespace {
-class __ScoreModel__MaxScoreCounterElement;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
 class ScoreMultiplierCounter;
 }
 namespace GlobalNamespace {
-class IReadonlyBeatmapData;
+struct __NoteData__ScoringType;
+}
+namespace GlobalNamespace {
+class __ScoreModel__MaxScoreCounterElement;
+}
+namespace GlobalNamespace {
+class __ScoreModel__NoteScoreDefinition;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 namespace System {
 template <typename T> class IComparable_1;
@@ -192,6 +192,9 @@ public:
 
   /// @brief Convert operator to "::System::IComparable_1<::GlobalNamespace::__ScoreModel__MaxScoreCounterElement*>"
   constexpr operator ::System::IComparable_1<::GlobalNamespace::__ScoreModel__MaxScoreCounterElement*>*() noexcept;
+
+  /// @brief Convert to "::System::IComparable_1<::GlobalNamespace::__ScoreModel__MaxScoreCounterElement*>"
+  constexpr ::System::IComparable_1<::GlobalNamespace::__ScoreModel__MaxScoreCounterElement*>* i___System__IComparable_1___GlobalNamespace____ScoreModel__MaxScoreCounterElement__() noexcept;
 
   constexpr ::GlobalNamespace::__ScoreModel__NoteScoreDefinition*& __get_noteScoreDefinition();
 

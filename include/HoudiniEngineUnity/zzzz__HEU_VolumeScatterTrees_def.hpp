@@ -13,14 +13,14 @@ class HEU_TreePrototypeInfo;
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivable_1;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine {
 struct Color32;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -67,6 +67,9 @@ public:
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>*() noexcept;
+
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_VolumeScatterTrees__() noexcept;
 
   constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>*& __get__treePrototypInfos();
 

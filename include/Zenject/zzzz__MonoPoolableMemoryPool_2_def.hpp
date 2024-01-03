@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MemoryPool_2_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MonoPoolableMemoryPool_2)
-namespace Zenject {
-class InjectTypeInfo;
+namespace System {
+class Object;
 }
 namespace UnityEngine {
 class Transform;
 }
-namespace System {
-class Object;
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {

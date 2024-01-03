@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(RoomAdjustSettingsViewController)
 namespace GlobalNamespace {
-class Vector3SO;
+class FloatSO;
 }
 namespace GlobalNamespace {
 class StepValuePicker;
 }
 namespace GlobalNamespace {
-class FloatSO;
+class Vector3SO;
 }
 namespace UnityEngine::UI {
 class Button;

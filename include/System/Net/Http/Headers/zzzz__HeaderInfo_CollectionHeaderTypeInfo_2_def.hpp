@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HeaderInfo_CollectionHeaderTypeInfo_2)
-namespace System {
-class Object;
+namespace System::Net::Http::Headers {
+struct HttpHeaderKind;
 }
 namespace System::Net::Http::Headers {
 template <typename T> class TryParseListDelegate_1;
 }
-namespace System::Net::Http::Headers {
-struct HttpHeaderKind;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {

@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(VisualElementListPool)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace UnityEngine::UIElements {
 template <typename T> class ObjectPool_1;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -42,8 +42,7 @@ public:
   static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* Copy(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* elements);
 
   /// @brief Method Get, addr 0x2dc3850, size 0xe0, virtual false, abstract: false, final false
-  /// @param initialCapacity: int32_t (default: static_cast<int32_t>(0x0))
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* Get(int32_t initialCapacity = static_cast<int32_t>(0x0));
+  static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* Get(int32_t initialCapacity);
 
   /// @brief Method Release, addr 0x2dc3930, size 0xb4, virtual false, abstract: false, final false
   static inline void Release(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* elements);

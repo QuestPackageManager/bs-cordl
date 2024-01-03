@@ -1,11 +1,15 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__LazyCopyHashSet_1_def.hpp"
+#include "GlobalNamespace/zzzz__ILazyCopyHashSet_1_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__ILazyCopyHashSet_1_def.hpp"
 /// @brief Convert operator to "::GlobalNamespace::ILazyCopyHashSet_1<T>"
 template <typename T> constexpr GlobalNamespace::LazyCopyHashSet_1<T>::operator ::GlobalNamespace::ILazyCopyHashSet_1<T>*() noexcept {
+  return static_cast<::GlobalNamespace::ILazyCopyHashSet_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::ILazyCopyHashSet_1<T>"
+template <typename T> constexpr ::GlobalNamespace::ILazyCopyHashSet_1<T>* GlobalNamespace::LazyCopyHashSet_1<T>::i___GlobalNamespace__ILazyCopyHashSet_1_T_() noexcept {
   return static_cast<::GlobalNamespace::ILazyCopyHashSet_1<T>*>(static_cast<void*>(this));
 }
 template <typename T> constexpr ::System::Collections::Generic::List_1<T>*& GlobalNamespace::LazyCopyHashSet_1<T>::__get__itemsCopy() {

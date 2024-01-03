@@ -12,52 +12,43 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ViewController)
 namespace HMUI {
-class __ViewController__DidActivateDelegate;
-}
-namespace HMUI {
-struct __ViewController__AnimationType;
-}
-namespace HMUI {
-class __ViewController__DidDeactivateDelegate;
-}
-namespace HMUI {
-class __ViewController___ReplaceViewControllerCoroutine_d__60;
+class ButtonBinder;
 }
 namespace HMUI {
 class ContainerViewController;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace HMUI {
 class Screen;
 }
 namespace HMUI {
-class __ViewController___DismissViewControllerCoroutine_d__62;
-}
-namespace UnityEngine {
-class CanvasGroup;
-}
-namespace HMUI {
-class ButtonBinder;
-}
-namespace UnityEngine::EventSystems {
-class BaseRaycaster;
-}
-namespace HMUI {
 struct __ViewController__AnimationDirection;
+}
+namespace HMUI {
+struct __ViewController__AnimationType;
+}
+namespace HMUI {
+class __ViewController__DidActivateDelegate;
+}
+namespace HMUI {
+class __ViewController__DidDeactivateDelegate;
+}
+namespace HMUI {
+class __ViewController___DismissViewControllerCoroutine_d__62;
 }
 namespace HMUI {
 class __ViewController___PresentViewControllerCoroutine_d__58;
 }
+namespace HMUI {
+class __ViewController___ReplaceViewControllerCoroutine_d__60;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System {
 class Action;
-}
-namespace UnityEngine {
-class RectTransform;
-}
-namespace System {
-class Object;
 }
 namespace System {
 class AsyncCallback;
@@ -65,11 +56,20 @@ class AsyncCallback;
 namespace System {
 class IAsyncResult;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::EventSystems {
+class BaseRaycaster;
+}
+namespace UnityEngine {
+class CanvasGroup;
+}
+namespace UnityEngine {
+class RectTransform;
 }
 // Forward declare root types
 namespace HMUI {
@@ -301,7 +301,7 @@ static_assert(offsetof(::HMUI::__ViewController__AnimationDirection, value__) ==
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13601)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13601))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13602))
 // CS Name: ::ViewController::<PresentViewControllerCoroutine>d__58*
 class CORDL_TYPE __ViewController___PresentViewControllerCoroutine_d__58 : public ::System::Object {
@@ -335,11 +335,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -462,7 +471,7 @@ static_assert(offsetof(::HMUI::__ViewController___PresentViewControllerCoroutine
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13601)), TypeDefinitionIndex(TypeDefinitionIndex(13600))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13601)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13600))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13603))
 // CS Name: ::ViewController::<ReplaceViewControllerCoroutine>d__60*
 class CORDL_TYPE __ViewController___ReplaceViewControllerCoroutine_d__60 : public ::System::Object {
@@ -496,11 +505,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -657,11 +675,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -784,7 +811,7 @@ static_assert(offsetof(::HMUI::__ViewController___DismissViewControllerCoroutine
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(13601))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13605))
 // CS Name: ::HMUI::ViewController*
 class CORDL_TYPE ViewController : public ::UnityEngine::MonoBehaviour {
@@ -1023,28 +1050,22 @@ public:
   inline void __ResetViewController();
 
   /// @brief Method __PresentViewController, addr 0x212d48c, size 0x24, virtual false, abstract: false, final false
-  /// @param animationDirection: ::HMUI::__ViewController__AnimationDirection (default: static_cast<int32_t>(0x0))
-  /// @param immediately: bool (default: false)
-  inline void __PresentViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback,
-                                      ::HMUI::__ViewController__AnimationDirection animationDirection = static_cast<int32_t>(0x0), bool immediately = false);
+  inline void __PresentViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback, ::HMUI::__ViewController__AnimationDirection animationDirection, bool immediately);
 
   /// @brief Method PresentViewControllerCoroutine, addr 0x212d4b0, size 0x98, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* PresentViewControllerCoroutine(::HMUI::ViewController* newViewController, ::System::Action* finishedCallback,
                                                                             ::HMUI::__ViewController__AnimationDirection animationDirection, bool immediately);
 
   /// @brief Method __ReplaceViewController, addr 0x212d570, size 0x20, virtual false, abstract: false, final false
-  /// @param animationDirection: ::HMUI::__ViewController__AnimationDirection (default: static_cast<int32_t>(0x0))
   inline void __ReplaceViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback, ::HMUI::__ViewController__AnimationType animationType,
-                                      ::HMUI::__ViewController__AnimationDirection animationDirection = static_cast<int32_t>(0x0));
+                                      ::HMUI::__ViewController__AnimationDirection animationDirection);
 
   /// @brief Method ReplaceViewControllerCoroutine, addr 0x212d590, size 0x90, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ReplaceViewControllerCoroutine(::HMUI::ViewController* newViewController, ::System::Action* finishedCallback,
                                                                             ::HMUI::__ViewController__AnimationType animationType, ::HMUI::__ViewController__AnimationDirection animationDirection);
 
   /// @brief Method __DismissViewController, addr 0x212d648, size 0x24, virtual false, abstract: false, final false
-  /// @param animationDirection: ::HMUI::__ViewController__AnimationDirection (default: static_cast<int32_t>(0x0))
-  /// @param immediately: bool (default: false)
-  inline void __DismissViewController(::System::Action* finishedCallback, ::HMUI::__ViewController__AnimationDirection animationDirection = static_cast<int32_t>(0x0), bool immediately = false);
+  inline void __DismissViewController(::System::Action* finishedCallback, ::HMUI::__ViewController__AnimationDirection animationDirection, bool immediately);
 
   /// @brief Method DismissViewControllerCoroutine, addr 0x212d66c, size 0x94, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DismissViewControllerCoroutine(::System::Action* finishedCallback, ::HMUI::__ViewController__AnimationDirection animationDirection, bool immediately);

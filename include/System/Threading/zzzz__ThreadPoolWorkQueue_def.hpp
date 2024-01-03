@@ -9,19 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ThreadPoolWorkQueue)
 namespace System::Threading {
-template <typename T> class __ThreadPoolWorkQueue__SparseArray_1;
+class IThreadPoolWorkItem;
 }
 namespace System::Threading {
 class ThreadPoolWorkQueueThreadLocals;
 }
 namespace System::Threading {
-class __ThreadPoolWorkQueue__WorkStealingQueue;
-}
-namespace System::Threading {
 class __ThreadPoolWorkQueue__QueueSegment;
 }
 namespace System::Threading {
-class IThreadPoolWorkItem;
+template <typename T> class __ThreadPoolWorkQueue__SparseArray_1;
+}
+namespace System::Threading {
+class __ThreadPoolWorkQueue__WorkStealingQueue;
 }
 // Forward declare root types
 namespace System::Threading {

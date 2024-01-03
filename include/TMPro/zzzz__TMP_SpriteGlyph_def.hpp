@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_SpriteGlyph)
-namespace UnityEngine {
-class Sprite;
-}
 namespace UnityEngine::TextCore {
 struct GlyphMetrics;
 }
 namespace UnityEngine::TextCore {
 struct GlyphRect;
+}
+namespace UnityEngine {
+class Sprite;
 }
 // Forward declare root types
 namespace TMPro {

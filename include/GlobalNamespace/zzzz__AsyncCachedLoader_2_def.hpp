@@ -12,43 +12,43 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsyncCachedLoader_2)
 namespace GlobalNamespace {
-template <typename TKey, typename TValue> struct __AsyncCachedLoader_2__ScheduledTask;
+template <typename K, typename V> class HMCache_2;
 }
 namespace GlobalNamespace {
-template <typename TKey, typename TValue> struct __AsyncCachedLoader_2___LoadAsync_d__7;
+template <typename TKey, typename TValue> struct __AsyncCachedLoader_2__ScheduledTask;
 }
 namespace GlobalNamespace {
 template <typename TKey, typename TValue> struct __AsyncCachedLoader_2___LoadAllAsync_d__8;
 }
+namespace GlobalNamespace {
+template <typename TKey, typename TValue> struct __AsyncCachedLoader_2___LoadAsync_d__7;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace GlobalNamespace {
-template <typename K, typename V> class HMCache_2;
-}
-namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class TaskCompletionSource_1;
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
-}
-namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class TaskCompletionSource_1;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
+template <typename T1, typename T2, typename TResult> class Func_3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -115,14 +115,17 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 864 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3402), inst: 864 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5907)) CS
-// Name: ::AsyncCachedLoader`2::<LoadAsync>d__7<TKey,TValue>
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 864 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 864 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(5907)) CS Name: ::AsyncCachedLoader`2::<LoadAsync>d__7<TKey,TValue>
 struct CORDL_TYPE __AsyncCachedLoader_2___LoadAsync_d__7 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -173,14 +176,17 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5056 }), TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(5906), inst: 84 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(5906))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5908)) CS
-// Name: ::AsyncCachedLoader`2::<LoadAllAsync>d__8<TKey,TValue>
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5056 }), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
+// TypeDefinitionIndex(TypeDefinitionIndex(5906)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5906), inst: 84 }), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(5908)) CS Name: ::AsyncCachedLoader`2::<LoadAllAsync>d__8<TKey,TValue>
 struct CORDL_TYPE __AsyncCachedLoader_2___LoadAllAsync_d__8 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();

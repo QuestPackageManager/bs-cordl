@@ -34,6 +34,9 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockResult"
   constexpr operator ::Org::BouncyCastle::Crypto::IBlockResult*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockResult"
+  constexpr ::Org::BouncyCastle::Crypto::IBlockResult* i___Org__BouncyCastle__Crypto__IBlockResult() noexcept;
+
   constexpr ::Org::BouncyCastle::Crypto::IMac*& __get_mac();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IMac*> const& __get_mac() const;

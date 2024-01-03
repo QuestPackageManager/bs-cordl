@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Pkcs8Generator)
-namespace Org::BouncyCastle::Utilities::IO::Pem {
-class PemObject;
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
 namespace Org::BouncyCastle::Utilities::IO::Pem {
 class PemObjectGenerator;
+}
+namespace Org::BouncyCastle::Utilities::IO::Pem {
+class PemObject;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::OpenSsl {
@@ -76,6 +76,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator"
   constexpr operator ::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator"
+  constexpr ::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator* i___Org__BouncyCastle__Utilities__IO__Pem__PemObjectGenerator() noexcept;
 
   constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get_password();
 

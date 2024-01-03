@@ -29,8 +29,7 @@ public:
   inline ::UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong();
 
   /// @brief Method StartSong, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  /// @param offsetTime: float_t (default: 0.0)
-  inline void StartSong(float_t offsetTime = 0.0);
+  inline void StartSong(float_t offsetTime);
 
   /// @brief Method SeekTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SeekTo(float_t songTime);

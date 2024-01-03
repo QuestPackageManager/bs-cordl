@@ -7,25 +7,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlName)
 namespace System::Xml::Schema {
-class XmlSchemaType;
+class IXmlSchemaInfo;
+}
+namespace System::Xml::Schema {
+class XmlSchemaAttribute;
+}
+namespace System::Xml::Schema {
+class XmlSchemaElement;
 }
 namespace System::Xml::Schema {
 class XmlSchemaSimpleType;
 }
 namespace System::Xml::Schema {
-class XmlSchemaAttribute;
+class XmlSchemaType;
 }
 namespace System::Xml::Schema {
 struct XmlSchemaValidity;
 }
 namespace System::Xml {
 class XmlDocument;
-}
-namespace System::Xml::Schema {
-class IXmlSchemaInfo;
-}
-namespace System::Xml::Schema {
-class XmlSchemaElement;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -92,6 +92,9 @@ public:
 
   /// @brief Convert operator to "::System::Xml::Schema::IXmlSchemaInfo"
   constexpr operator ::System::Xml::Schema::IXmlSchemaInfo*() noexcept;
+
+  /// @brief Convert to "::System::Xml::Schema::IXmlSchemaInfo"
+  constexpr ::System::Xml::Schema::IXmlSchemaInfo* i___System__Xml__Schema__IXmlSchemaInfo() noexcept;
 
   constexpr ::StringW& __get_prefix();
 

@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(Lerp)
-namespace UnityEngine {
-struct Color;
-}
 namespace UnityEngine::UIElements::Experimental {
 struct StyleValues;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::Experimental {

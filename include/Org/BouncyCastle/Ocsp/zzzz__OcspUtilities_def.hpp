@@ -8,17 +8,17 @@ CORDL_MODULE_EXPORT(OcspUtilities)
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
-namespace System::Collections {
-class IDictionary;
-}
-namespace System::Collections {
-class IEnumerable;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Ocsp {

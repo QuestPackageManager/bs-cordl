@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
 CORDL_MODULE_EXPORT(ObstacleSaberSparkleEffect)
 namespace UnityEngine {
-class ParticleSystem;
+struct Color;
 }
 namespace UnityEngine {
-struct Color;
+class ParticleSystem;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ObstacleSaberSparkleEffect);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15883))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15883)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4958))
 // CS Name: ::ObstacleSaberSparkleEffect*
 class CORDL_TYPE ObstacleSaberSparkleEffect : public ::UnityEngine::MonoBehaviour {

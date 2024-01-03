@@ -32,6 +32,9 @@ public:
   /// @brief Convert operator to "::System::Xml::IDtdParserAdapter"
   constexpr operator ::System::Xml::IDtdParserAdapter*() noexcept;
 
+  /// @brief Convert to "::System::Xml::IDtdParserAdapter"
+  constexpr ::System::Xml::IDtdParserAdapter* i___System__Xml__IDtdParserAdapter() noexcept;
+
   /// @brief Method get_DtdValidation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_DtdValidation();
 

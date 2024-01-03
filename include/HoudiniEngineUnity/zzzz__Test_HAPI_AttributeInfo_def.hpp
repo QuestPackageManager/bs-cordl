@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Test_HAPI_AttributeInfo)
 namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
+struct HAPI_AttributeInfo;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_AttributeInfo;
+template <typename T> class IEquivable_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_HAPI_AttributeInfo);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9741))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9741)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9898))
 // CS Name: ::HoudiniEngineUnity::Test_HAPI_AttributeInfo*
 class CORDL_TYPE Test_HAPI_AttributeInfo : public ::System::Object {
@@ -32,6 +32,9 @@ public:
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_AttributeInfo*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_AttributeInfo*>*() noexcept;
+
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_AttributeInfo*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_AttributeInfo*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_HAPI_AttributeInfo__() noexcept;
 
   constexpr ::HoudiniEngineUnity::HAPI_AttributeInfo& __get_self();
 

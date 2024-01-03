@@ -11,14 +11,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomPrePassBackgroundNonLightInstancedGroupRenderer)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine {
-class RenderTexture;
+namespace GlobalNamespace {
+class BloomPrePassBackgroundNonLightRenderer;
 }
 namespace GlobalNamespace {
 struct __BloomPrePassBackgroundNonLightInstancedGroupRenderer__PropertyType;
+}
+namespace GlobalNamespace {
+class __BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine::Rendering {
 class CommandBuffer;
@@ -27,16 +30,13 @@ namespace UnityEngine {
 class MaterialPropertyBlock;
 }
 namespace UnityEngine {
-struct Vector4;
-}
-namespace GlobalNamespace {
-class BloomPrePassBackgroundNonLightRenderer;
-}
-namespace GlobalNamespace {
-class __BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty;
+struct Matrix4x4;
 }
 namespace UnityEngine {
-struct Matrix4x4;
+class RenderTexture;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -114,7 +114,7 @@ static_assert(offsetof(::GlobalNamespace::__BloomPrePassBackgroundNonLightInstan
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14462))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14462)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14461))
 // CS Name: ::BloomPrePassBackgroundNonLightInstancedGroupRenderer::SupportedProperty*
 class CORDL_TYPE __BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty : public ::System::Object {

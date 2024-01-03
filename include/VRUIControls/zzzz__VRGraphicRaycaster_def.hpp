@@ -12,8 +12,38 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(VRGraphicRaycaster)
+namespace HMUI {
+class CurvedCanvasSettingsHelper;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T> class Comparison_1;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace UnityEngine::EventSystems {
+struct RaycastResult;
+}
+namespace UnityEngine::UI {
+class Graphic;
+}
+namespace UnityEngine {
+class Camera;
+}
 namespace UnityEngine {
 class Canvas;
+}
+namespace UnityEngine {
+struct Ray;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace VRUIControls {
 class PhysicsRaycasterWithCache;
@@ -21,38 +51,8 @@ class PhysicsRaycasterWithCache;
 namespace VRUIControls {
 struct __VRGraphicRaycaster__VRGraphicRaycastResult;
 }
-namespace HMUI {
-class CurvedCanvasSettingsHelper;
-}
 namespace VRUIControls {
 class __VRGraphicRaycaster____c;
-}
-namespace UnityEngine {
-class Camera;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine {
-struct Ray;
-}
-namespace UnityEngine::EventSystems {
-struct RaycastResult;
-}
-namespace System {
-template <typename T> class Comparison_1;
-}
-namespace UnityEngine::UI {
-class Graphic;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 // Forward declare root types
 namespace VRUIControls {
@@ -72,7 +72,7 @@ MARK_VAL_T(::VRUIControls::__VRGraphicRaycaster__VRGraphicRaycastResult);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace VRUIControls {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15673))
 // CS Name: ::VRGraphicRaycaster::VRGraphicRaycastResult
 struct CORDL_TYPE __VRGraphicRaycaster__VRGraphicRaycastResult {
@@ -176,7 +176,7 @@ static_assert(::cordl_internals::size_check_v<::VRUIControls::__VRGraphicRaycast
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace VRUIControls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(13209))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13209)), TypeDefinitionIndex(TypeDefinitionIndex(10204))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15675))
 // CS Name: ::VRUIControls::VRGraphicRaycaster*
 class CORDL_TYPE VRGraphicRaycaster : public ::UnityEngine::EventSystems::BaseRaycaster {

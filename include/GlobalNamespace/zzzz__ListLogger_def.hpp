@@ -9,22 +9,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ListLogger)
 namespace GlobalNamespace {
-struct __ListLogger__LogType;
-}
-namespace System {
-class Object;
+class IBeatSaberLogger;
 }
 namespace GlobalNamespace {
 class __ListLogger__LogMessage;
 }
 namespace GlobalNamespace {
-class IBeatSaberLogger;
+struct __ListLogger__LogType;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 class Exception;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -102,7 +102,7 @@ static_assert(offsetof(::GlobalNamespace::__ListLogger__LogType, value__) == 0x0
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5878)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5878))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5879))
 // CS Name: ::ListLogger::LogMessage*
 class CORDL_TYPE __ListLogger__LogMessage : public ::System::Object {
@@ -199,6 +199,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IBeatSaberLogger"
   constexpr operator ::GlobalNamespace::IBeatSaberLogger*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IBeatSaberLogger"
+  constexpr ::GlobalNamespace::IBeatSaberLogger* i___GlobalNamespace__IBeatSaberLogger() noexcept;
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__ListLogger__LogMessage*>*& __get__messages();
 

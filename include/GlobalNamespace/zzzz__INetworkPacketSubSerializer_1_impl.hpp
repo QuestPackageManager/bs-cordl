@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__INetworkPacketSubSerializer_1_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 template <typename TData> inline void GlobalNamespace::INetworkPacketSubSerializer_1<TData>::Deserialize(::LiteNetLib::Utils::NetDataReader* reader, int32_t length, TData data) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

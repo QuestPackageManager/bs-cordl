@@ -6,8 +6,8 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PackLevelListHeaderTableCell)
-namespace UnityEngine::UI {
-class Image;
+namespace HMUI {
+struct __SelectableCell__TransitionType;
 }
 namespace System::Threading {
 class CancellationTokenSource;
@@ -15,8 +15,8 @@ class CancellationTokenSource;
 namespace TMPro {
 class TextMeshProUGUI;
 }
-namespace HMUI {
-struct __SelectableCell__TransitionType;
+namespace UnityEngine::UI {
+class Image;
 }
 // Forward declare root types
 namespace GlobalNamespace {

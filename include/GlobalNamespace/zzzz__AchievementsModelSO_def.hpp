@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AchievementsModelSO)
 namespace GlobalNamespace {
-class IPlatformAchievementsHandler;
-}
-namespace GlobalNamespace {
 class AchievementSO;
 }
 namespace GlobalNamespace {
-struct __IPlatformAchievementsHandler__GetUnlockedAchievementsResult;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+class IPlatformAchievementsHandler;
 }
 namespace GlobalNamespace {
 class __AchievementsModelSO____c__DisplayClass4_0;
 }
 namespace GlobalNamespace {
+struct __IPlatformAchievementsHandler__GetUnlockedAchievementsResult;
+}
+namespace GlobalNamespace {
 struct __IPlatformAchievementsHandler__UnlockAchievementResult;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

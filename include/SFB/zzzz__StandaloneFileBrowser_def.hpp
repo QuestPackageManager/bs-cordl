@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(StandaloneFileBrowser)
 namespace SFB {
 struct ExtensionFilter;
 }
-namespace System {
-template <typename T> class Action_1;
-}
 namespace SFB {
 class IStandaloneFileBrowser;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace SFB {

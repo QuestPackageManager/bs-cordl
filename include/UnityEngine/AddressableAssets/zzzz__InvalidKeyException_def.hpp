@@ -8,19 +8,31 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(InvalidKeyException)
 namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System {
-class Object;
-}
-namespace System {
-template <typename T> struct Nullable_1;
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+namespace System {
+class Exception;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class Type;
@@ -28,20 +40,8 @@ class Type;
 namespace UnityEngine::AddressableAssets {
 class AddressablesImpl;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
 namespace UnityEngine::AddressableAssets {
 struct __Addressables__MergeMode;
-}
-namespace System {
-class Exception;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets {
@@ -53,9 +53,8 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::InvalidKeyException);
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2561)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4763 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14049)), TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14048)) CS Name:
-// ::UnityEngine.AddressableAssets::InvalidKeyException*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14049)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst:
+// 4763 }), TypeDefinitionIndex(TypeDefinitionIndex(2561))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14048)) CS Name: ::UnityEngine.AddressableAssets::InvalidKeyException*
 class CORDL_TYPE InvalidKeyException : public ::System::Exception {
 public:
   // Declarations

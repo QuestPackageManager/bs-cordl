@@ -69,6 +69,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IOVRSceneComponent"
   constexpr operator ::GlobalNamespace::IOVRSceneComponent*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IOVRSceneComponent"
+  constexpr ::GlobalNamespace::IOVRSceneComponent* i___GlobalNamespace__IOVRSceneComponent() noexcept;
+
   constexpr float_t& __get__Width_k__BackingField();
 
   constexpr float_t const& __get__Width_k__BackingField() const;

@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(VectorImage)
 namespace UnityEngine::UIElements {
 struct GradientSettings;
 }
-namespace UnityEngine {
-class Texture2D;
-}
 namespace UnityEngine::UIElements {
 struct VectorImageVertex;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

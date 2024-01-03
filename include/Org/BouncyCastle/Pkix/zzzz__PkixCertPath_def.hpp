@@ -7,8 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PkixCertPath)
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IList;
@@ -16,20 +28,8 @@ class IList;
 namespace System::IO {
 class Stream;
 }
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {

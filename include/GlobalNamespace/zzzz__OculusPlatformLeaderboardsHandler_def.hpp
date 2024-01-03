@@ -7,59 +7,59 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OculusPlatformLeaderboardsHandler)
-namespace Oculus::Platform {
-class Message;
+namespace GlobalNamespace {
+class GameplayModifiersModelSO;
 }
 namespace GlobalNamespace {
-class __PlatformLeaderboardsModel__GetScoresCompletionHandler;
+class HMAsyncRequest;
 }
 namespace GlobalNamespace {
-class __OculusPlatformLeaderboardsHandler____c;
-}
-namespace GlobalNamespace {
-class __LeaderboardScoreUploader__ScoreData;
-}
-namespace GlobalNamespace {
-class __OculusPlatformLeaderboardsHandler____c__DisplayClass4_0;
+class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 class LeaderboardIdsModelSO;
 }
 namespace GlobalNamespace {
-class GameplayModifiersModelSO;
+class __LeaderboardScoreUploader__ScoreData;
+}
+namespace GlobalNamespace {
+class __OculusPlatformLeaderboardsHandler____c;
+}
+namespace GlobalNamespace {
+class __OculusPlatformLeaderboardsHandler____c__DisplayClass4_0;
+}
+namespace GlobalNamespace {
+class __OculusPlatformLeaderboardsHandler____c__DisplayClass6_0;
 }
 namespace GlobalNamespace {
 class __OculusPlatformLeaderboardsHandler____c__DisplayClass7_0;
 }
 namespace GlobalNamespace {
-class __PlatformLeaderboardsModel__UploadScoreCompletionHandler;
-}
-namespace GlobalNamespace {
-class __OculusPlatformLeaderboardsHandler____c__DisplayClass6_0;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace GlobalNamespace {
-class HMAsyncRequest;
-}
-namespace Oculus::Platform {
-class Request;
+class __PlatformLeaderboardsModel__GetScoresCompletionHandler;
 }
 namespace GlobalNamespace {
 struct __PlatformLeaderboardsModel__ScoresScope;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace Oculus::Platform {
-template <typename T> class Message_1;
+class __PlatformLeaderboardsModel__UploadScoreCompletionHandler;
 }
 namespace Oculus::Platform::Models {
 class LeaderboardEntryList;
 }
 namespace Oculus::Platform {
+template <typename T> class Message_1;
+}
+namespace Oculus::Platform {
+class Message;
+}
+namespace Oculus::Platform {
+class Request;
+}
+namespace Oculus::Platform {
 template <typename T> class __Message_1__Callback;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

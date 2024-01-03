@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IValueTupleInternal)
-namespace System::Runtime::CompilerServices {
-class ITuple;
-}
 namespace System::Collections {
 class IEqualityComparer;
+}
+namespace System::Runtime::CompilerServices {
+class ITuple;
 }
 // Forward declare root types
 namespace System {
@@ -29,6 +29,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::ITuple"
   constexpr operator ::System::Runtime::CompilerServices::ITuple*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::ITuple"
+  constexpr ::System::Runtime::CompilerServices::ITuple* i___System__Runtime__CompilerServices__ITuple() noexcept;
 
   /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetHashCode(::System::Collections::IEqualityComparer* comparer);

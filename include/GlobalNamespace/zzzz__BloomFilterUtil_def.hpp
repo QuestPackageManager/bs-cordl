@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomFilterUtil)
 namespace GlobalNamespace {
-template <typename T> class __BloomFilterUtil____c__DisplayClass2_0_1;
+template <typename T> class __BloomFilterUtil____c__DisplayClass1_0_1;
 }
 namespace GlobalNamespace {
-template <typename T> class __BloomFilterUtil____c__DisplayClass1_0_1;
+template <typename T> class __BloomFilterUtil____c__DisplayClass2_0_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -168,41 +168,25 @@ public:
   template <typename T> using __c__DisplayClass1_0_1 = ::GlobalNamespace::__BloomFilterUtil____c__DisplayClass1_0_1<T>;
 
   /// @brief Method ToBloomFilter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param hashCount: int32_t (default: static_cast<int32_t>(0x3))
-  /// @param hashBits: int32_t (default: static_cast<int32_t>(0x8))
-  template <typename T> static inline T ToBloomFilter(::StringW value, int32_t hashCount = static_cast<int32_t>(0x3), int32_t hashBits = static_cast<int32_t>(0x8));
+  template <typename T> static inline T ToBloomFilter(::StringW value, int32_t hashCount, int32_t hashBits);
 
   /// @brief Method ToBloomFilter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param hashCount: int32_t (default: static_cast<int32_t>(0x3))
-  /// @param hashBits: int32_t (default: static_cast<int32_t>(0x8))
-  template <typename T>
-  static inline T ToBloomFilter(::System::Collections::Generic::IEnumerable_1<::StringW>* strings, int32_t hashCount = static_cast<int32_t>(0x3), int32_t hashBits = static_cast<int32_t>(0x8));
+  template <typename T> static inline T ToBloomFilter(::System::Collections::Generic::IEnumerable_1<::StringW>* strings, int32_t hashCount, int32_t hashBits);
 
   /// @brief Method ToBloomFilter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param hashCount: int32_t (default: static_cast<int32_t>(0x3))
-  /// @param hashBits: int32_t (default: static_cast<int32_t>(0x8))
-  template <typename T>
-  static inline T ToBloomFilter(::System::Collections::Generic::IEnumerable_1<uint32_t>* hashes, int32_t hashCount = static_cast<int32_t>(0x3), int32_t hashBits = static_cast<int32_t>(0x8));
+  template <typename T> static inline T ToBloomFilter(::System::Collections::Generic::IEnumerable_1<uint32_t>* hashes, int32_t hashCount, int32_t hashBits);
 
   /// @brief Method AddBloomFilterEntry, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param hashCount: int32_t (default: static_cast<int32_t>(0x3))
-  /// @param hashBits: int32_t (default: static_cast<int32_t>(0x8))
-  template <typename T> static inline T AddBloomFilterEntry(T bitMask, ::StringW value, int32_t hashCount = static_cast<int32_t>(0x3), int32_t hashBits = static_cast<int32_t>(0x8));
+  template <typename T> static inline T AddBloomFilterEntry(T bitMask, ::StringW value, int32_t hashCount, int32_t hashBits);
 
   /// @brief Method AddBloomFilterEntryHash, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param hashCount: int32_t (default: static_cast<int32_t>(0x3))
-  /// @param hashBits: int32_t (default: static_cast<int32_t>(0x8))
-  template <typename T> static inline T AddBloomFilterEntryHash(T bitMask, uint32_t hash, int32_t hashCount = static_cast<int32_t>(0x3), int32_t hashBits = static_cast<int32_t>(0x8));
+  template <typename T> static inline T AddBloomFilterEntryHash(T bitMask, uint32_t hash, int32_t hashCount, int32_t hashBits);
 
   /// @brief Method ContainsBloomFilterEntry, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param hashCount: int32_t (default: static_cast<int32_t>(0x3))
-  /// @param hashBits: int32_t (default: static_cast<int32_t>(0x8))
-  template <typename T> static inline bool ContainsBloomFilterEntry(T bitMask, ::StringW value, int32_t hashCount = static_cast<int32_t>(0x3), int32_t hashBits = static_cast<int32_t>(0x8));
+  template <typename T> static inline bool ContainsBloomFilterEntry(T bitMask, ::StringW value, int32_t hashCount, int32_t hashBits);
 
   /// @brief Method ContainsBloomFilterEntryHash, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param hashCount: int32_t (default: static_cast<int32_t>(0x3))
-  /// @param hashBits: int32_t (default: static_cast<int32_t>(0x8))
-  template <typename T> static inline bool ContainsBloomFilterEntryHash(T bitMask, uint32_t hash, int32_t hashCount = static_cast<int32_t>(0x3), int32_t hashBits = static_cast<int32_t>(0x8));
+  template <typename T> static inline bool ContainsBloomFilterEntryHash(T bitMask, uint32_t hash, int32_t hashCount, int32_t hashBits);
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomFilterUtil", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

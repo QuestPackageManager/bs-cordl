@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ReflectionAttributeProvider)
-namespace System {
-class Type;
+namespace Newtonsoft::Json::Serialization {
+class IAttributeProvider;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
-namespace Newtonsoft::Json::Serialization {
-class IAttributeProvider;
+namespace System {
+class Attribute;
 }
 namespace System {
 class Object;
 }
 namespace System {
-class Attribute;
+class Type;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -40,6 +40,9 @@ public:
 
   /// @brief Convert operator to "::Newtonsoft::Json::Serialization::IAttributeProvider"
   constexpr operator ::Newtonsoft::Json::Serialization::IAttributeProvider*() noexcept;
+
+  /// @brief Convert to "::Newtonsoft::Json::Serialization::IAttributeProvider"
+  constexpr ::Newtonsoft::Json::Serialization::IAttributeProvider* i___Newtonsoft__Json__Serialization__IAttributeProvider() noexcept;
 
   constexpr ::System::Object*& __get__attributeProvider();
 

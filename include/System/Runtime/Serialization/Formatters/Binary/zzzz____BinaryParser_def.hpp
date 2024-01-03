@@ -9,29 +9,41 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(__BinaryParser)
-namespace System {
-struct TimeSpan;
-}
-namespace System {
-class Object;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class ObjectReader;
+namespace System::IO {
+class BinaryReader;
 }
 namespace System::IO {
 class Stream;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryAssemblyInfo;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryCrossAppDomainString;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+struct BinaryHeaderEnum;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
 class BinaryObjectString;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryObjectWithMapTyped;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class BinaryObjectWithMap;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryObject;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+struct InternalPrimitiveTypeE;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
 class MemberPrimitiveTyped;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class ObjectNull;
+class MemberPrimitiveUnTyped;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class MemberReference;
@@ -39,50 +51,38 @@ class MemberReference;
 namespace System::Runtime::Serialization::Formatters::Binary {
 class MessageEnd;
 }
-namespace System {
-struct Decimal;
-}
 namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryObjectWithMapTyped;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-struct BinaryHeaderEnum;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-struct InternalPrimitiveTypeE;
+class ObjectNull;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class ObjectProgress;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryAssemblyInfo;
-}
-namespace System::Text {
-class Encoding;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryCrossAppDomainString;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class MemberPrimitiveUnTyped;
+class ObjectReader;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class ParseRecord;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class SizedArray;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
 class SerStack;
 }
-namespace System::IO {
-class BinaryReader;
-}
 namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryObject;
+class SizedArray;
+}
+namespace System::Text {
+class Encoding;
 }
 namespace System {
 struct DateTime;
+}
+namespace System {
+struct Decimal;
+}
+namespace System {
+class Object;
+}
+namespace System {
+struct TimeSpan;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -94,7 +94,7 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::__BinaryPar
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3244))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3244)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3290))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::__BinaryParser*
 class CORDL_TYPE __BinaryParser : public ::System::Object {

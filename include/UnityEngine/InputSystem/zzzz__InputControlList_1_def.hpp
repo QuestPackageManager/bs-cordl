@@ -10,44 +10,44 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputControlList_1)
-namespace UnityEngine::InputSystem {
-template <typename TControl> struct __InputControlList_1__Enumerator;
-}
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template <typename T> class ICollection_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace System {
-class IDisposable;
-}
-namespace Unity::Collections {
-struct Allocator;
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
+template <typename T> class IReadOnlyList_1;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace Unity::Collections {
+struct Allocator;
 }
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
 }
-namespace System {
-class Object;
+namespace UnityEngine::InputSystem {
+template <typename TControl> struct __InputControlList_1__Enumerator;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -78,11 +78,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TControl>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<TControl>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TControl>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<TControl>* i___System__Collections__Generic__IEnumerator_1_TControl_();
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*();
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator();
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::InputControlList_1<TControl> list);
@@ -132,8 +141,8 @@ namespace UnityEngine::InputSystem {
 // cpp template
 template <typename TControl>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 407 }), TypeDefinitionIndex(TypeDefinitionIndex(10003)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9999))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6226)) CS Name: ::UnityEngine.InputSystem::InputControlList`1<TControl>
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(10003)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 407
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6226)) CS Name: ::UnityEngine.InputSystem::InputControlList`1<TControl>
 struct CORDL_TYPE InputControlList_1 {
 public:
   // Declarations
@@ -150,23 +159,44 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IList_1<TControl>"
   constexpr operator ::System::Collections::Generic::IList_1<TControl>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IList_1<TControl>"
+  constexpr ::System::Collections::Generic::IList_1<TControl>* i___System__Collections__Generic__IList_1_TControl_();
+
   /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<TControl>"
   constexpr operator ::System::Collections::Generic::ICollection_1<TControl>*();
+
+  /// @brief Convert to "::System::Collections::Generic::ICollection_1<TControl>"
+  constexpr ::System::Collections::Generic::ICollection_1<TControl>* i___System__Collections__Generic__ICollection_1_TControl_();
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TControl>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TControl>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TControl>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<TControl>* i___System__Collections__Generic__IEnumerable_1_TControl_();
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable();
 
   /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyList_1<TControl>"
   constexpr operator ::System::Collections::Generic::IReadOnlyList_1<TControl>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IReadOnlyList_1<TControl>"
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<TControl>* i___System__Collections__Generic__IReadOnlyList_1_TControl_();
+
   /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<TControl>"
   constexpr operator ::System::Collections::Generic::IReadOnlyCollection_1<TControl>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<TControl>"
+  constexpr ::System::Collections::Generic::IReadOnlyCollection_1<TControl>* i___System__Collections__Generic__IReadOnlyCollection_1_TControl_();
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_Count();
@@ -187,12 +217,10 @@ public:
   inline void set_Item(int32_t index, TControl value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param initialCapacity: int32_t (default: static_cast<int32_t>(0x0))
-  inline void _ctor(::Unity::Collections::Allocator allocator, int32_t initialCapacity = static_cast<int32_t>(0x0));
+  inline void _ctor(::Unity::Collections::Allocator allocator, int32_t initialCapacity);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param allocator: ::Unity::Collections::Allocator (default: static_cast<int32_t>(0x4))
-  inline void _ctor(::System::Collections::Generic::IEnumerable_1<TControl>* values, ::Unity::Collections::Allocator allocator = static_cast<int32_t>(0x4));
+  inline void _ctor(::System::Collections::Generic::IEnumerable_1<TControl>* values, ::Unity::Collections::Allocator allocator);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<TControl, ::Array<TControl>*> values);
@@ -204,16 +232,10 @@ public:
   inline void Add(TControl item);
 
   /// @brief Method AddSlice, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param count: int32_t (default: static_cast<int32_t>(0xffffffff))
-  /// @param destinationIndex: int32_t (default: static_cast<int32_t>(0xffffffff))
-  /// @param sourceIndex: int32_t (default: static_cast<int32_t>(0x0))
-  template <typename TList>
-  inline void AddSlice(TList list, int32_t count = static_cast<int32_t>(0xffffffff), int32_t destinationIndex = static_cast<int32_t>(0xffffffff), int32_t sourceIndex = static_cast<int32_t>(0x0));
+  template <typename TList> inline void AddSlice(TList list, int32_t count, int32_t destinationIndex, int32_t sourceIndex);
 
   /// @brief Method AddRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param count: int32_t (default: static_cast<int32_t>(0xffffffff))
-  /// @param destinationIndex: int32_t (default: static_cast<int32_t>(0xffffffff))
-  inline void AddRange(::System::Collections::Generic::IEnumerable_1<TControl>* list, int32_t count = static_cast<int32_t>(0xffffffff), int32_t destinationIndex = static_cast<int32_t>(0xffffffff));
+  inline void AddRange(::System::Collections::Generic::IEnumerable_1<TControl>* list, int32_t count, int32_t destinationIndex);
 
   /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Remove(TControl item);
@@ -228,8 +250,7 @@ public:
   inline int32_t IndexOf(TControl item);
 
   /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param count: int32_t (default: static_cast<int32_t>(0xffffffff))
-  inline int32_t IndexOf(TControl item, int32_t startIndex, int32_t count = static_cast<int32_t>(0xffffffff));
+  inline int32_t IndexOf(TControl item, int32_t startIndex, int32_t count);
 
   /// @brief Method Insert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Insert(int32_t index, TControl item);
@@ -241,8 +262,7 @@ public:
   inline bool Contains(TControl item);
 
   /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param count: int32_t (default: static_cast<int32_t>(0xffffffff))
-  inline bool Contains(TControl item, int32_t startIndex, int32_t count = static_cast<int32_t>(0xffffffff));
+  inline bool Contains(TControl item, int32_t startIndex, int32_t count);
 
   /// @brief Method SwapElements, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SwapElements(int32_t index1, int32_t index2);
@@ -251,8 +271,7 @@ public:
   template <typename TCompare> inline void Sort(int32_t startIndex, int32_t count, TCompare comparer);
 
   /// @brief Method ToArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param dispose: bool (default: false)
-  inline ::ArrayW<TControl, ::Array<TControl>*> ToArray(bool dispose = false);
+  inline ::ArrayW<TControl, ::Array<TControl>*> ToArray(bool dispose);
 
   /// @brief Method AppendTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AppendTo(ByRef<::ArrayW<TControl, ::Array<TControl>*>> array, ByRef<int32_t> count);

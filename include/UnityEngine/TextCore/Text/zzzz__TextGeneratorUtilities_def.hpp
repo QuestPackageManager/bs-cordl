@@ -10,11 +10,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextGeneratorUtilities)
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::TextCore::Text {
 struct FontStyles;
+}
+namespace UnityEngine::TextCore::Text {
+struct TextAlignment;
+}
+namespace UnityEngine::TextCore::Text {
+class TextGenerationSettings;
+}
+namespace UnityEngine::TextCore::Text {
+class TextInfo;
 }
 namespace UnityEngine::TextCore::Text {
 template <typename T> struct TextProcessingStack_1;
@@ -22,11 +28,8 @@ template <typename T> struct TextProcessingStack_1;
 namespace UnityEngine::TextCore::Text {
 class TextStyle;
 }
-namespace UnityEngine::TextCore::Text {
-struct TextAlignment;
-}
-namespace UnityEngine::TextCore::Text {
-class TextGenerationSettings;
+namespace UnityEngine {
+struct Color32;
 }
 namespace UnityEngine {
 struct FontStyle;
@@ -35,10 +38,7 @@ namespace UnityEngine {
 struct TextAnchor;
 }
 namespace UnityEngine {
-struct Color32;
-}
-namespace UnityEngine::TextCore::Text {
-class TextInfo;
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {

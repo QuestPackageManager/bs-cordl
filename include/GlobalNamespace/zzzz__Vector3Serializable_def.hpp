@@ -12,17 +12,17 @@ class INetSerializable;
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
 namespace System {
 class Object;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -43,8 +43,14 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*();
 
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable();
+
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::Vector3Serializable>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::Vector3Serializable>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::Vector3Serializable>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::Vector3Serializable>* i___System__IEquatable_1___GlobalNamespace__Vector3Serializable_();
 
   /// @brief Method Serialize, addr 0x12a45d0, size 0x54, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);

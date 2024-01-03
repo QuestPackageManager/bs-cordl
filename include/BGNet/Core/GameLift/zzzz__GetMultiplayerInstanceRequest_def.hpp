@@ -10,20 +10,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GetMultiplayerInstanceRequest)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace GlobalNamespace {
+struct BeatmapLevelSelectionMask;
 }
 namespace GlobalNamespace {
 struct GameplayServerConfiguration;
-}
-namespace GlobalNamespace {
-struct BeatmapLevelSelectionMask;
 }
 namespace GlobalNamespace {
 struct ServiceEnvironment;
 }
 namespace GlobalNamespace {
 struct __AuthenticationToken__Platform;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace BGNet::Core::GameLift {
@@ -35,18 +35,16 @@ MARK_VAL_T(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGNet::Core::GameLift {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12681)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12740)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12740)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12681)),
 // TypeDefinitionIndex(TypeDefinitionIndex(12758))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13010)) CS Name: ::BGNet.Core.GameLift::GetMultiplayerInstanceRequest
 struct CORDL_TYPE GetMultiplayerInstanceRequest {
 public:
   // Declarations
   /// @brief Method .ctor, addr 0xe6060c, size 0x5c, virtual false, abstract: false, final false
-  /// @param ticketId: ::StringW (default: nullptr)
-  /// @param placementId: ::StringW (default: nullptr)
   inline void _ctor(::StringW version, ::GlobalNamespace::ServiceEnvironment serviceEnvironment, ::StringW userId, ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask,
                     ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration, ::GlobalNamespace::__AuthenticationToken__Platform platform, ::StringW authUserId,
                     ::StringW singleUseAuthToken, ::StringW privateGameSecret, ::StringW privateGameCode, ::System::Collections::Generic::Dictionary_2<::StringW, int64_t>* gameliftRegionLatencies,
-                    ::StringW ticketId = nullptr, ::StringW placementId = nullptr);
+                    ::StringW ticketId, ::StringW placementId);
 
   // Ctor Parameters [CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "serviceEnvironment", ty: "::GlobalNamespace::ServiceEnvironment", modifiers: "",
   // def_value: None }, CppParam { name: "singleUseAuthToken", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "beatmapLevelSelectionMask", ty:

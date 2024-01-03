@@ -2,12 +2,12 @@
 #include "GlobalNamespace/zzzz__CustomPreviewBeatmapLevel_impl.hpp"
 #include "GlobalNamespace/zzzz__CustomBeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelData_def.hpp"
-#include "GlobalNamespace/zzzz__CustomPreviewBeatmapLevel_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevelData_def.hpp"
 #include "GlobalNamespace/zzzz__ColorScheme_def.hpp"
-#include "GlobalNamespace/zzzz__IFilePathSongAudioClipProvider_def.hpp"
+#include "GlobalNamespace/zzzz__CustomPreviewBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapLevelData_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__IFilePathSongAudioClipProvider_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CustomBeatmapLevel.get_beatmapLevelData
 template <>
 
@@ -16,7 +16,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23473c4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomBeatmapLevel*>::get(),
                                                                                "get_beatmapLevelData", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x23473cc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomBeatmapLevel*>::get(),
                                                                                "get_songAudioClipPath", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc8;
   constexpr static std::size_t addrs = 0x2347440;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomBeatmapLevel*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::CustomPreviewBeatmapLevel*>::get() })));
@@ -59,7 +59,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2347600;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomBeatmapLevel*>::get(), "SetBeatmapLevelData", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelData*>::get() })));
@@ -74,7 +74,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x2347608;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomBeatmapLevel*>::get(), "GetBeatmapLevelColorScheme",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
@@ -85,12 +85,24 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 constexpr GlobalNamespace::CustomBeatmapLevel::operator ::GlobalNamespace::IBeatmapLevel*() noexcept {
   return static_cast<::GlobalNamespace::IBeatmapLevel*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::GlobalNamespace::IBeatmapLevel"
+constexpr ::GlobalNamespace::IBeatmapLevel* GlobalNamespace::CustomBeatmapLevel::i___GlobalNamespace__IBeatmapLevel() noexcept {
+  return static_cast<::GlobalNamespace::IBeatmapLevel*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::GlobalNamespace::IPreviewBeatmapLevel"
 constexpr GlobalNamespace::CustomBeatmapLevel::operator ::GlobalNamespace::IPreviewBeatmapLevel*() noexcept {
   return static_cast<::GlobalNamespace::IPreviewBeatmapLevel*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::GlobalNamespace::IPreviewBeatmapLevel"
+constexpr ::GlobalNamespace::IPreviewBeatmapLevel* GlobalNamespace::CustomBeatmapLevel::i___GlobalNamespace__IPreviewBeatmapLevel() noexcept {
+  return static_cast<::GlobalNamespace::IPreviewBeatmapLevel*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::GlobalNamespace::IFilePathSongAudioClipProvider"
 constexpr GlobalNamespace::CustomBeatmapLevel::operator ::GlobalNamespace::IFilePathSongAudioClipProvider*() noexcept {
+  return static_cast<::GlobalNamespace::IFilePathSongAudioClipProvider*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IFilePathSongAudioClipProvider"
+constexpr ::GlobalNamespace::IFilePathSongAudioClipProvider* GlobalNamespace::CustomBeatmapLevel::i___GlobalNamespace__IFilePathSongAudioClipProvider() noexcept {
   return static_cast<::GlobalNamespace::IFilePathSongAudioClipProvider*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::BeatmapLevelData*& GlobalNamespace::CustomBeatmapLevel::__get__beatmapLevelData() {

@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileStatus)
+namespace GlobalNamespace {
+struct __Interop__Sys__FileStatus;
+}
 namespace System::IO {
 struct FileAttributes;
 }
 namespace System {
 struct DateTimeOffset;
-}
-namespace GlobalNamespace {
-struct __Interop__Sys__FileStatus;
 }
 namespace System {
 template <typename T> struct ReadOnlySpan_1;
@@ -47,8 +47,7 @@ public:
   static inline void Initialize(ByRef<::System::IO::FileStatus> status, bool isDirectory);
 
   /// @brief Method IsReadOnly, addr 0x250e208, size 0xf0, virtual false, abstract: false, final false
-  /// @param continueOnError: bool (default: false)
-  inline bool IsReadOnly(::System::ReadOnlySpan_1<char16_t> path, bool continueOnError = false);
+  inline bool IsReadOnly(::System::ReadOnlySpan_1<char16_t> path, bool continueOnError);
 
   /// @brief Method GetAttributes, addr 0x250e3b4, size 0xe8, virtual false, abstract: false, final false
   inline ::System::IO::FileAttributes GetAttributes(::System::ReadOnlySpan_1<char16_t> path, ::System::ReadOnlySpan_1<char16_t> fileName);
@@ -57,22 +56,19 @@ public:
   inline bool GetExists(::System::ReadOnlySpan_1<char16_t> path);
 
   /// @brief Method GetLastWriteTime, addr 0x250e674, size 0x9c, virtual false, abstract: false, final false
-  /// @param continueOnError: bool (default: false)
-  inline ::System::DateTimeOffset GetLastWriteTime(::System::ReadOnlySpan_1<char16_t> path, bool continueOnError = false);
+  inline ::System::DateTimeOffset GetLastWriteTime(::System::ReadOnlySpan_1<char16_t> path, bool continueOnError);
 
   /// @brief Method UnixTimeToDateTimeOffset, addr 0x250e710, size 0xb4, virtual false, abstract: false, final false
   inline ::System::DateTimeOffset UnixTimeToDateTimeOffset(int64_t seconds, int64_t nanoseconds);
 
   /// @brief Method GetLength, addr 0x250e7c4, size 0x1c, virtual false, abstract: false, final false
-  /// @param continueOnError: bool (default: false)
-  inline int64_t GetLength(::System::ReadOnlySpan_1<char16_t> path, bool continueOnError = false);
+  inline int64_t GetLength(::System::ReadOnlySpan_1<char16_t> path, bool continueOnError);
 
   /// @brief Method Refresh, addr 0x250e4e0, size 0x194, virtual false, abstract: false, final false
   inline void Refresh(::System::ReadOnlySpan_1<char16_t> path);
 
   /// @brief Method EnsureStatInitialized, addr 0x250e2f8, size 0xbc, virtual false, abstract: false, final false
-  /// @param continueOnError: bool (default: false)
-  inline void EnsureStatInitialized(::System::ReadOnlySpan_1<char16_t> path, bool continueOnError = false);
+  inline void EnsureStatInitialized(::System::ReadOnlySpan_1<char16_t> path, bool continueOnError);
 
   // Ctor Parameters [CppParam { name: "_fileStatus", ty: "::GlobalNamespace::__Interop__Sys__FileStatus", modifiers: "", def_value: None }, CppParam { name: "_fileStatusInitialized", ty: "int32_t",
   // modifiers: "", def_value: None }, CppParam { name: "_InitiallyDirectory_k__BackingField", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_isDirectory", ty: "bool", modifiers: "",

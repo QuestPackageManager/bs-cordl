@@ -9,17 +9,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IMECompositionEvent)
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEvent;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputEventTypeInfo;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct IMECompositionString;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEvent;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -49,6 +49,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo*();
+
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputEventTypeInfo();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent& __get_baseEvent();
 

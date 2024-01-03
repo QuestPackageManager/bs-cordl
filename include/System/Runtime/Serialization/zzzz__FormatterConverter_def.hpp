@@ -11,10 +11,10 @@ namespace System::Runtime::Serialization {
 class IFormatterConverter;
 }
 namespace System {
-class Type;
+class Object;
 }
 namespace System {
-class Object;
+class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -34,6 +34,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::Serialization::IFormatterConverter"
   constexpr operator ::System::Runtime::Serialization::IFormatterConverter*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::IFormatterConverter"
+  constexpr ::System::Runtime::Serialization::IFormatterConverter* i___System__Runtime__Serialization__IFormatterConverter() noexcept;
 
   /// @brief Method Convert, addr 0x24b4a90, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Object* Convert(::System::Object* value, ::System::Type* type);

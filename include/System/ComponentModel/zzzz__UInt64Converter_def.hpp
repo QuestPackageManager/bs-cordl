@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UInt64Converter)
+namespace System::Globalization {
+class NumberFormatInfo;
+}
 namespace System {
 class Object;
 }
 namespace System {
 class Type;
-}
-namespace System::Globalization {
-class NumberFormatInfo;
 }
 // Forward declare root types
 namespace System::ComponentModel {

@@ -9,29 +9,29 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_SpriteAnimator)
-namespace TMPro {
-class __TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7;
-}
-namespace TMPro {
-class TMP_Text;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace TMPro {
-class TMP_SpriteAsset;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+class IDisposable;
 }
 namespace System {
-class IDisposable;
+class Object;
+}
+namespace TMPro {
+class TMP_SpriteAsset;
+}
+namespace TMPro {
+class TMP_Text;
+}
+namespace TMPro {
+class __TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7;
 }
 // Forward declare root types
 namespace TMPro {
@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7);
 // SizeInfo { instance_size: 552, native_size: -1, calculated_instance_size: 552, calculated_native_size: 548, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12405)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12332))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12332)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12405))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12418))
 // CS Name: ::TMP_SpriteAnimator::<DoSpriteAnimationInternal>d__7*
 class CORDL_TYPE __TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7 : public ::System::Object {
@@ -108,11 +108,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

@@ -14,25 +14,25 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
 class DTSweepDebugContext;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
+class DelaunayTriangle;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class Triangulatable;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+struct TriangulationAlgorithm;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
 class TriangulationConstraint;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class DelaunayTriangle;
+class TriangulationDebugContext;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 struct TriangulationMode;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class TriangulationPoint;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-struct TriangulationAlgorithm;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class TriangulationDebugContext;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class Triangulatable;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {
@@ -44,7 +44,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 61, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15343))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15343)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15341))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::TriangulationContext*
 class CORDL_TYPE TriangulationContext : public ::System::Object {

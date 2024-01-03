@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Gost28147Engine)
-namespace System::Collections {
-class IDictionary;
+namespace Org::BouncyCastle::Crypto {
+class IBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
-namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
+namespace System::Collections {
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -74,6 +74,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IBlockCipher*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
+  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* i___Org__BouncyCastle__Crypto__IBlockCipher() noexcept;
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_workingKey();
 

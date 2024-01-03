@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 CORDL_MODULE_EXPORT(EditAvatarColorViewController)
-namespace UnityEngine {
-struct Color;
-}
-namespace HMUI {
-class ButtonBinder;
-}
-namespace GlobalNamespace {
-class PreviousColorPanelController;
-}
 namespace GlobalNamespace {
 struct ColorChangeUIEventType;
 }
 namespace GlobalNamespace {
 class HSVPanelController;
 }
+namespace GlobalNamespace {
+class PreviousColorPanelController;
+}
+namespace HMUI {
+class ButtonBinder;
+}
 namespace System {
 template <typename T> class Action_1;
 }
 namespace UnityEngine::UI {
 class Button;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorView
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13605))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15270))
 // CS Name: ::BeatSaber.BeatAvatarAdapter.AvatarEditor::EditAvatarColorViewController*
 class CORDL_TYPE EditAvatarColorViewController : public ::HMUI::ViewController {

@@ -11,10 +11,10 @@ namespace HoudiniEngineUnity {
 struct HAPI_AttributeOwner;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_PartType;
+struct HAPI_GroupType;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_GroupType;
+struct HAPI_PartType;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

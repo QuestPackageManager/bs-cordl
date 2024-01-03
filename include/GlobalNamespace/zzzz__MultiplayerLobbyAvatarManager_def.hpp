@@ -9,31 +9,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerLobbyAvatarManager)
 namespace GlobalNamespace {
-class MultiplayerLobbyAvatarController;
-}
-namespace System::Collections {
-class IEnumerator;
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 class ILobbyStateDataModel;
 }
 namespace GlobalNamespace {
-class __MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+class MultiplayerLobbyAvatarController;
 }
 namespace GlobalNamespace {
 class __MultiplayerLobbyAvatarController__Factory;
 }
+namespace GlobalNamespace {
+class __MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13;
+}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace GlobalNamespace {
-class IConnectedPlayer;
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class IDisposable;
@@ -83,11 +83,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

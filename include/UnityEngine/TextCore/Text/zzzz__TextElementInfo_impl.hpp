@@ -5,15 +5,15 @@
 #include "UnityEngine/zzzz__Color32_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextElementInfo_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TextElement_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TextVertex_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TextElementType_def.hpp"
-#include "UnityEngine/zzzz__Color32_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__FontAsset_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__FontStyles_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__SpriteAsset_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__FontAsset_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextElementType_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextElement_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextVertex_def.hpp"
+#include "UnityEngine/zzzz__Color32_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 // Ctor Parameters [CppParam { name: "character", ty: "char16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
 // name: "elementType", ty: "::UnityEngine::TextCore::Text::TextElementType", modifiers: "", def_value: Some("{}") }, CppParam { name: "textElement", ty: "::UnityEngine::TextCore::Text::TextElement*",
 // modifiers: "", def_value: Some("nullptr") }, CppParam { name: "fontAsset", ty: "::UnityEngine::TextCore::Text::FontAsset*", modifiers: "", def_value: Some("nullptr") }, CppParam { name:

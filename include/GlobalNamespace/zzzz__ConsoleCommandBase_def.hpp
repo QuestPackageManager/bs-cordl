@@ -8,31 +8,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConsoleCommandBase)
 namespace GlobalNamespace {
-struct __DebugConsoleController__ConsoleMessage;
-}
-namespace GlobalNamespace {
-class __ConsoleCommandBase____c__DisplayClass14_0;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class ArgumentBase;
 }
 namespace GlobalNamespace {
 class __ConsoleCommandBase____c;
 }
+namespace GlobalNamespace {
+class __ConsoleCommandBase____c__DisplayClass14_0;
+}
+namespace GlobalNamespace {
+struct __DebugConsoleController__ConsoleMessage;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Threading::Tasks {
 class Task;
 }
 namespace System {
-template <typename T> class IComparable_1;
-}
-namespace GlobalNamespace {
-class ArgumentBase;
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+template <typename T> class IComparable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -173,6 +173,9 @@ public:
 
   /// @brief Convert operator to "::System::IComparable_1<::GlobalNamespace::ConsoleCommandBase*>"
   constexpr operator ::System::IComparable_1<::GlobalNamespace::ConsoleCommandBase*>*() noexcept;
+
+  /// @brief Convert to "::System::IComparable_1<::GlobalNamespace::ConsoleCommandBase*>"
+  constexpr ::System::IComparable_1<::GlobalNamespace::ConsoleCommandBase*>* i___System__IComparable_1___GlobalNamespace__ConsoleCommandBase__() noexcept;
 
   constexpr ::ArrayW<::GlobalNamespace::ArgumentBase*, ::Array<::GlobalNamespace::ArgumentBase*>*>& __get__arguments();
 

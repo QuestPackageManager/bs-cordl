@@ -9,47 +9,47 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Marshal)
-namespace System {
-class Array;
-}
-namespace System::Runtime::InteropServices {
-class __Marshal____c;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace System::Security {
-class SecureString;
-}
-namespace System {
-class Exception;
-}
-namespace System {
-class Delegate;
+namespace System::Collections::Generic {
+template <typename T> class IEqualityComparer_1;
 }
 namespace System::Runtime::InteropServices {
 class ICustomMarshaler;
 }
 namespace System::Runtime::InteropServices {
+class __Marshal__MarshalerInstanceKeyComparer;
+}
+namespace System::Runtime::InteropServices {
 class __Marshal__SecureStringAllocator;
+}
+namespace System::Runtime::InteropServices {
+class __Marshal____c;
+}
+namespace System::Security {
+class SecureString;
+}
+namespace System {
+class Array;
+}
+namespace System {
+class Delegate;
+}
+namespace System {
+class Exception;
+}
+namespace System {
+template <typename TResult> class Func_1;
 }
 namespace System {
 class Object;
-}
-namespace System::Runtime::InteropServices {
-class __Marshal__MarshalerInstanceKeyComparer;
 }
 namespace System {
 class Type;
 }
 namespace System {
 template <typename T1, typename T2> struct ValueTuple_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
-}
-namespace System {
-template <typename TResult> class Func_1;
 }
 // Forward declare root types
 namespace System::Runtime::InteropServices {
@@ -119,6 +119,10 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::System::ValueTuple_2<::System::Type*,::StringW>>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::System::ValueTuple_2<::System::Type*, ::StringW>>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::System::ValueTuple_2<::System::Type*,::StringW>>"
+  constexpr ::System::Collections::Generic::IEqualityComparer_1<::System::ValueTuple_2<::System::Type*, ::StringW>>*
+  i___System__Collections__Generic__IEqualityComparer_1___System__ValueTuple_2___System__Type____StringW__() noexcept;
 
   /// @brief Method Equals, addr 0x24da318, size 0x74, virtual true, abstract: false, final true
   inline bool Equals(::System::ValueTuple_2<::System::Type*, ::StringW> lhs, ::System::ValueTuple_2<::System::Type*, ::StringW> rhs);

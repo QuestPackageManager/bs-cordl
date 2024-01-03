@@ -9,10 +9,10 @@ namespace RootMotion::FinalIK {
 struct FullBodyBipedChain;
 }
 namespace RootMotion::FinalIK {
-class __IKMapping__BoneMap;
+class FullBodyBipedIK;
 }
 namespace RootMotion::FinalIK {
-class FullBodyBipedIK;
+class __IKMapping__BoneMap;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {

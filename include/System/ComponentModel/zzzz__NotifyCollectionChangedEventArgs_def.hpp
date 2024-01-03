@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NotifyCollectionChangedEventArgs)
-namespace System::ComponentModel {
-struct NotifyCollectionChangedAction;
-}
 namespace System::Collections {
 class IList;
+}
+namespace System::ComponentModel {
+struct NotifyCollectionChangedAction;
 }
 namespace System {
 class Object;
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::System::ComponentModel::NotifyCollectionChangedEventArgs);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11789)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11789))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11790))
 // CS Name: ::System.ComponentModel::NotifyCollectionChangedEventArgs*
 class CORDL_TYPE NotifyCollectionChangedEventArgs : public ::System::Object {

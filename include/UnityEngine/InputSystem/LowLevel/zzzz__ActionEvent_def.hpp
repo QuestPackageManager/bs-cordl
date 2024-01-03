@@ -17,14 +17,14 @@ struct InputEventPtr;
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEvent;
 }
-namespace UnityEngine::InputSystem {
-struct InputActionPhase;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 struct __ActionEvent___m_ValueData_e__FixedBuffer;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
+}
+namespace UnityEngine::InputSystem {
+struct InputActionPhase;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -73,7 +73,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__ActionEvent___m_V
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 37, calculated_native_size: 53, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6530)), TypeDefinitionIndex(TypeDefinitionIndex(6518))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6518)), TypeDefinitionIndex(TypeDefinitionIndex(6530))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6519))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::ActionEvent
 #pragma pack(push, 0)
@@ -126,6 +126,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo*();
+
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputEventTypeInfo();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent& __get_baseEvent();
 

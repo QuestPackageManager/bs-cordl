@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PublicServerInfo)
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+class NetDataReader;
 }
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {

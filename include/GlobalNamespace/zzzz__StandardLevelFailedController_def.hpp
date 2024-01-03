@@ -7,28 +7,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StandardLevelFailedController)
 namespace GlobalNamespace {
-class __StandardLevelFailedController___LevelFailedCoroutine_d__13;
-}
-namespace GlobalNamespace {
-class __StandardLevelFailedController__InitData;
-}
-namespace GlobalNamespace {
 class BeatmapObjectManager;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace GlobalNamespace {
-class GameSongController;
-}
-namespace GlobalNamespace {
-class StandardLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
 class BeatmapObjectSpawnController;
 }
 namespace GlobalNamespace {
+class EnvironmentSpawnRotation;
+}
+namespace GlobalNamespace {
+class GameSongController;
+}
+namespace GlobalNamespace {
 class ILevelEndActions;
+}
+namespace GlobalNamespace {
+class LevelCompletionResults;
 }
 namespace GlobalNamespace {
 class LevelFailedTextEffect;
@@ -37,19 +31,25 @@ namespace GlobalNamespace {
 class PrepareLevelCompletionResults;
 }
 namespace GlobalNamespace {
-class EnvironmentSpawnRotation;
+class StandardLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class __StandardLevelFailedController__InitData;
+}
+namespace GlobalNamespace {
+class __StandardLevelFailedController___LevelFailedCoroutine_d__13;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class IDisposable;
 }
 namespace System {
 class Object;
-}
-namespace GlobalNamespace {
-class LevelCompletionResults;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -143,11 +143,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

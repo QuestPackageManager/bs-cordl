@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OidEnumerator)
-namespace System::Security::Cryptography {
-class OidCollection;
-}
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System {
-class Object;
+namespace System::Security::Cryptography {
+class OidCollection;
 }
 namespace System::Security::Cryptography {
 class Oid;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {
@@ -45,6 +45,9 @@ public:
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr ::System::Security::Cryptography::OidCollection*& __get__oids();
 

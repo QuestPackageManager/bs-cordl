@@ -2,8 +2,8 @@
 #include "UnityEngine/Timeline/zzzz__Marker_impl.hpp"
 #include "UnityEngine/zzzz__PropertyName_impl.hpp"
 #include "GlobalNamespace/zzzz__TimelinePauseMarker_def.hpp"
-#include "UnityEngine/zzzz__PropertyName_def.hpp"
 #include "UnityEngine/Playables/zzzz__INotification_def.hpp"
+#include "UnityEngine/zzzz__PropertyName_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TimelinePauseMarker.get_id
 template <>
 
@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x20f5d1c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimelinePauseMarker*>::get(), "get_id",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -25,7 +25,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x20f5d24;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimelinePauseMarker*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -33,6 +33,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::UnityEngine::Playables::INotification"
 constexpr GlobalNamespace::TimelinePauseMarker::operator ::UnityEngine::Playables::INotification*() noexcept {
+  return static_cast<::UnityEngine::Playables::INotification*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::Playables::INotification"
+constexpr ::UnityEngine::Playables::INotification* GlobalNamespace::TimelinePauseMarker::i___UnityEngine__Playables__INotification() noexcept {
   return static_cast<::UnityEngine::Playables::INotification*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::PropertyName& GlobalNamespace::TimelinePauseMarker::__get__id_k__BackingField() {

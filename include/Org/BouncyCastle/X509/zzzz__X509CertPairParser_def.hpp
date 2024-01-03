@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509CertPairParser)
-namespace System::Collections {
-class ICollection;
-}
 namespace Org::BouncyCastle::X509 {
 class X509CertificatePair;
+}
+namespace System::Collections {
+class ICollection;
 }
 namespace System::IO {
 class Stream;

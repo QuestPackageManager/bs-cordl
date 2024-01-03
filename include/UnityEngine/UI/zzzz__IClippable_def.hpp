@@ -7,13 +7,13 @@ namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine {
-struct Vector2;
+class RectTransform;
 }
 namespace UnityEngine {
 struct Rect;
 }
 namespace UnityEngine {
-class RectTransform;
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UI {

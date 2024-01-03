@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/UIR/zzzz__GfxUpdateBufferRange_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Page)
-namespace UnityEngine::UIElements::UIR {
-template <typename T> class __Page__DataSet_1;
-}
-namespace UnityEngine::UIElements {
-struct Vertex;
-}
 namespace System {
 class IDisposable;
+}
+namespace UnityEngine::UIElements::UIR {
+class GPUBufferAllocator;
+}
+namespace UnityEngine::UIElements::UIR {
+template <typename T> class __Page__DataSet_1;
 }
 namespace UnityEngine::UIElements::UIR {
 struct __Utility__GPUBufferType;
@@ -22,8 +22,8 @@ struct __Utility__GPUBufferType;
 namespace UnityEngine::UIElements::UIR {
 template <typename T> class __Utility__GPUBuffer_1;
 }
-namespace UnityEngine::UIElements::UIR {
-class GPUBufferAllocator;
+namespace UnityEngine::UIElements {
+struct Vertex;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -41,9 +41,9 @@ namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15379)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 744 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 2550 })} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(7438)) CS Name: ::Page::DataSet`1<T>*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 2550 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(9999), inst: 744 }), TypeDefinitionIndex(TypeDefinitionIndex(15379)), TypeDefinitionIndex(TypeDefinitionIndex(9999))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7438))
+// CS Name: ::Page::DataSet`1<T>*
 class CORDL_TYPE __Page__DataSet_1 : public ::System::Object {
 public:
   // Declarations
@@ -87,6 +87,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr bool& __get__disposed_k__BackingField();
 
@@ -283,6 +286,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr bool& __get__disposed_k__BackingField();
 

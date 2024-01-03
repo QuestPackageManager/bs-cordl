@@ -34,6 +34,9 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Activation::IActivator"
   constexpr operator ::System::Runtime::Remoting::Activation::IActivator*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Remoting::Activation::IActivator"
+  constexpr ::System::Runtime::Remoting::Activation::IActivator* i___System__Runtime__Remoting__Activation__IActivator() noexcept;
+
   /// @brief Method get_NextActivator, addr 0x24a4f84, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
 

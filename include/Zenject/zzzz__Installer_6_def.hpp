@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__InstallerBase_def.hpp"
 CORDL_MODULE_EXPORT(Installer_6)
 namespace Zenject {
-class InjectTypeInfo;
+class DiContainer;
 }
 namespace Zenject {
-class DiContainer;
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {

@@ -5,20 +5,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(DisposeBlock)
-namespace Zenject {
-struct __DisposeBlock__SpawnedObjectPoolPair;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TValue> class IMemoryPool_3;
-}
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TValue> class IMemoryPool_4;
-}
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TValue> class IMemoryPool_6;
-}
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TValue> class IMemoryPool_8;
+template <typename TValue> class IDespawnableMemoryPool_1;
 }
 namespace Zenject {
 template <typename TValue> class IMemoryPool_1;
@@ -27,34 +30,31 @@ namespace Zenject {
 template <typename TParam1, typename TValue> class IMemoryPool_2;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue> class IMemoryPool_7;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
+template <typename TParam1, typename TParam2, typename TValue> class IMemoryPool_3;
 }
 namespace Zenject {
-template <typename TValue> class IDespawnableMemoryPool_1;
+template <typename TParam1, typename TParam2, typename TParam3, typename TValue> class IMemoryPool_4;
 }
-namespace System {
-class IDisposable;
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TValue> class IMemoryPool_5;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TValue> class IMemoryPool_6;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue> class IMemoryPool_7;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TValue> class IMemoryPool_8;
+}
+namespace Zenject {
+class IMemoryPool;
 }
 namespace Zenject {
 template <typename TValue> class StaticMemoryPool_1;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TValue> class IMemoryPool_5;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System {
-class Object;
-}
-namespace Zenject {
-class IMemoryPool;
+struct __DisposeBlock__SpawnedObjectPoolPair;
 }
 // Forward declare root types
 namespace Zenject {
@@ -125,6 +125,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::System::Collections::Generic::List_1<::System::IDisposable*>*& __get__disposables();
 

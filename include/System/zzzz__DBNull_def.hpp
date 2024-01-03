@@ -7,35 +7,35 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DBNull)
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
 namespace System {
 struct DateTime;
+}
+namespace System {
+struct Decimal;
+}
+namespace System {
+class IConvertible;
+}
+namespace System {
+class IFormatProvider;
 }
 namespace System {
 class Object;
 }
 namespace System {
-class Type;
-}
-namespace System {
-class IConvertible;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System {
 struct TypeCode;
 }
 namespace System {
-struct Decimal;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System {
-class IFormatProvider;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+class Type;
 }
 // Forward declare root types
 namespace System {
@@ -59,8 +59,14 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+
   /// @brief Convert operator to "::System::IConvertible"
   constexpr operator ::System::IConvertible*() noexcept;
+
+  /// @brief Convert to "::System::IConvertible"
+  constexpr ::System::IConvertible* i___System__IConvertible() noexcept;
 
   static inline void setStaticF_Value(::System::DBNull* value);
 

@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "Newtonsoft/Json/zzzz__JsonException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(JsonSerializationException)
-namespace System {
-class Exception;
+namespace Newtonsoft::Json {
+class IJsonLineInfo;
 }
 namespace Newtonsoft::Json {
 class JsonReader;
 }
-namespace Newtonsoft::Json {
-class IJsonLineInfo;
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {

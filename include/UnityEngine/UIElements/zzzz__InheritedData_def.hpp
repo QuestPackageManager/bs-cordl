@@ -15,20 +15,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InheritedData)
-namespace UnityEngine {
-struct Color;
+namespace System {
+template <typename T> class IEquatable_1;
 }
-namespace UnityEngine::UIElements {
-struct TextShadow;
+namespace System {
+class Object;
 }
 namespace UnityEngine::UIElements {
 struct FontDefinition;
 }
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace UnityEngine::UIElements {
 template <typename T> class IStyleDataGroup_1;
+}
+namespace UnityEngine::UIElements {
+struct Length;
+}
+namespace UnityEngine::UIElements {
+struct TextShadow;
 }
 namespace UnityEngine::UIElements {
 struct Visibility;
@@ -36,20 +39,17 @@ struct Visibility;
 namespace UnityEngine::UIElements {
 struct WhiteSpace;
 }
-namespace UnityEngine::UIElements {
-struct Length;
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine {
 struct FontStyle;
 }
-namespace System {
-class Object;
+namespace UnityEngine {
+class Font;
 }
 namespace UnityEngine {
 struct TextAnchor;
-}
-namespace UnityEngine {
-class Font;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -61,17 +61,23 @@ MARK_VAL_T(::UnityEngine::UIElements::InheritedData);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 156, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6896)), TypeDefinitionIndex(TypeDefinitionIndex(15896)), TypeDefinitionIndex(TypeDefinitionIndex(6897)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15901)), TypeDefinitionIndex(TypeDefinitionIndex(7313)), TypeDefinitionIndex(TypeDefinitionIndex(7284)), TypeDefinitionIndex(TypeDefinitionIndex(6790)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10251))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7356)) CS Name: ::UnityEngine.UIElements::InheritedData
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7313)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(6790)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6897)), TypeDefinitionIndex(TypeDefinitionIndex(6896)), TypeDefinitionIndex(TypeDefinitionIndex(15896)), TypeDefinitionIndex(TypeDefinitionIndex(15901)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7284))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7356)) CS Name: ::UnityEngine.UIElements::InheritedData
 struct CORDL_TYPE InheritedData {
 public:
   // Declarations
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>"
   constexpr operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>*();
 
+  /// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>"
+  constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__InheritedData_();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::InheritedData>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::InheritedData>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::InheritedData>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::InheritedData>* i___System__IEquatable_1___UnityEngine__UIElements__InheritedData_();
 
   /// @brief Method Copy, addr 0x2e83514, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::InheritedData Copy();

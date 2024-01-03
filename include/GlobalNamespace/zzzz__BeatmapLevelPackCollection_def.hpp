@@ -36,6 +36,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBeatmapLevelPackCollection"
   constexpr operator ::GlobalNamespace::IBeatmapLevelPackCollection*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IBeatmapLevelPackCollection"
+  constexpr ::GlobalNamespace::IBeatmapLevelPackCollection* i___GlobalNamespace__IBeatmapLevelPackCollection() noexcept;
+
   constexpr ::ArrayW<::GlobalNamespace::IBeatmapLevelPack*, ::Array<::GlobalNamespace::IBeatmapLevelPack*>*>& __get__beatmapLevelPacks();
 
   constexpr ::ArrayW<::GlobalNamespace::IBeatmapLevelPack*, ::Array<::GlobalNamespace::IBeatmapLevelPack*>*> const& __get__beatmapLevelPacks() const;

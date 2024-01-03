@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__BindSignalToBinder_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(BindSignalIdToBinder_1)
-namespace Zenject {
-template <typename TSignal> class BindSignalToBinder_1;
+namespace System {
+class Object;
 }
 namespace Zenject {
-class InjectTypeInfo;
+template <typename TSignal> class BindSignalToBinder_1;
 }
 namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-class SignalBindingBindInfo;
+class InjectTypeInfo;
 }
-namespace System {
-class Object;
+namespace Zenject {
+class SignalBindingBindInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -32,7 +32,7 @@ namespace Zenject {
 // cpp template
 template <typename TSignal>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10647), inst: 960 }), TypeDefinitionIndex(TypeDefinitionIndex(10647))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10647)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10647), inst: 960 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10640))
 // CS Name: ::Zenject::BindSignalIdToBinder`1<TSignal>*
 class CORDL_TYPE BindSignalIdToBinder_1 : public ::Zenject::BindSignalToBinder_1<TSignal> {

@@ -32,6 +32,9 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IEventDispatchingStrategy"
   constexpr operator ::UnityEngine::UIElements::IEventDispatchingStrategy*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::UIElements::IEventDispatchingStrategy"
+  constexpr ::UnityEngine::UIElements::IEventDispatchingStrategy* i___UnityEngine__UIElements__IEventDispatchingStrategy() noexcept;
+
   /// @brief Method CanDispatchEvent, addr 0x2e4cd5c, size 0x78, virtual true, abstract: false, final true
   inline bool CanDispatchEvent(::UnityEngine::UIElements::EventBase* evt);
 

@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(RotateBySpawnRotation)
 namespace GlobalNamespace {
+class BeatmapCallbacksController;
+}
+namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
 class SpawnRotationBeatmapEventData;
-}
-namespace GlobalNamespace {
-class BeatmapCallbacksController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

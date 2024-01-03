@@ -2,9 +2,9 @@
 #include "System/Collections/zzzz__Hashtable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/ComponentModel/zzzz__WeakHashtable_def.hpp"
+#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
 #include "System/ComponentModel/zzzz__WeakHashtable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::__WeakHashtable__WeakKeyComparer.System_Collections_IEqualityComparer_Equals
 template <>
 
@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x15c;
   constexpr static std::size_t addrs = 0x293a970;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__WeakHashtable__WeakKeyComparer*>::get(),
                                                  "System.Collections.IEqualityComparer.Equals", std::vector<Il2CppClass*>{},
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x293aacc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__WeakHashtable__WeakKeyComparer*>::get(), "System.Collections.IEqualityComparer.GetHashCode",
         std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x293a968;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__WeakHashtable__WeakKeyComparer*>::get(), ".ctor",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -54,6 +54,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::System::Collections::IEqualityComparer"
 constexpr System::ComponentModel::__WeakHashtable__WeakKeyComparer::operator ::System::Collections::IEqualityComparer*() noexcept {
+  return static_cast<::System::Collections::IEqualityComparer*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEqualityComparer"
+constexpr ::System::Collections::IEqualityComparer* System::ComponentModel::__WeakHashtable__WeakKeyComparer::i___System__Collections__IEqualityComparer() noexcept {
   return static_cast<::System::Collections::IEqualityComparer*>(static_cast<void*>(this));
 }
 inline bool System::ComponentModel::__WeakHashtable__WeakKeyComparer::System_Collections_IEqualityComparer_Equals(::System::Object* x, ::System::Object* y) {
@@ -86,7 +90,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x293a87c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::WeakHashtable*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -99,7 +103,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x293a8e0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::WeakHashtable*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::WeakHashtable*>::get(), 24));
@@ -114,7 +118,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x293a8e8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::WeakHashtable*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::WeakHashtable*>::get(), 39));

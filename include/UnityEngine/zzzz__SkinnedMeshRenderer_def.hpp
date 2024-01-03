@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SkinnedMeshRenderer)
 namespace UnityEngine {
-struct SkinQuality;
-}
-namespace UnityEngine {
-struct __GraphicsBuffer__Target;
-}
-namespace UnityEngine {
 class GraphicsBuffer;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace UnityEngine {
+struct SkinQuality;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
-class Mesh;
+struct __GraphicsBuffer__Target;
 }
 // Forward declare root types
 namespace UnityEngine {

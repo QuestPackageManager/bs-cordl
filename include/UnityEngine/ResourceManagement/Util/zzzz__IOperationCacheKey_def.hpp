@@ -25,6 +25,9 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>*() noexcept;
 
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>"
+  constexpr ::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>* i___System__IEquatable_1___UnityEngine__ResourceManagement__Util__IOperationCacheKey__() noexcept;
+
   // Ctor Parameters [CppParam { name: "", ty: "IOperationCacheKey", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IOperationCacheKey(IOperationCacheKey&&) = delete;

@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ValidationUtil)
-namespace Zenject {
-class __ValidationUtil____c;
-}
-namespace System {
-class Type;
-}
-namespace Zenject {
-struct TypeValuePair;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 class Object;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+class Type;
 }
 namespace Zenject {
 class InjectTypeInfo;
+}
+namespace Zenject {
+struct TypeValuePair;
+}
+namespace Zenject {
+class __ValidationUtil____c;
 }
 // Forward declare root types
 namespace Zenject {

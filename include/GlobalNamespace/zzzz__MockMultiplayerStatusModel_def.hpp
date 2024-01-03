@@ -5,6 +5,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MockMultiplayerStatusModel)
 namespace GlobalNamespace {
+class IMultiplayerStatusModel;
+}
+namespace GlobalNamespace {
 class MultiplayerStatusData;
 }
 namespace System::Threading::Tasks {
@@ -12,9 +15,6 @@ template <typename TResult> class Task_1;
 }
 namespace System::Threading {
 struct CancellationToken;
-}
-namespace GlobalNamespace {
-class IMultiplayerStatusModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -37,6 +37,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IMultiplayerStatusModel"
   constexpr operator ::GlobalNamespace::IMultiplayerStatusModel*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IMultiplayerStatusModel"
+  constexpr ::GlobalNamespace::IMultiplayerStatusModel* i___GlobalNamespace__IMultiplayerStatusModel() noexcept;
 
   constexpr ::GlobalNamespace::MultiplayerStatusData*& __get__multiplayerStatusData();
 

@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Cms/zzzz__RecipientInformation_def.hpp"
 CORDL_MODULE_EXPORT(KekRecipientInformation)
+namespace Org::BouncyCastle::Asn1::Cms {
+class KekRecipientInfo;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsSecureReadable;
+}
 namespace Org::BouncyCastle::Cms {
 class CmsTypedStream;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
-}
-namespace Org::BouncyCastle::Cms {
-class CmsSecureReadable;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class KekRecipientInfo;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

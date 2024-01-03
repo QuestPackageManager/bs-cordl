@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__TreeInstance_def.hpp"
 CORDL_MODULE_EXPORT(Test_TreeInstance)
-namespace UnityEngine {
-struct TreeInstance;
-}
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivable_1;
+}
+namespace UnityEngine {
+struct TreeInstance;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -32,6 +32,9 @@ public:
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TreeInstance*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TreeInstance*>*() noexcept;
+
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TreeInstance*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TreeInstance*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_TreeInstance__() noexcept;
 
   constexpr ::UnityEngine::TreeInstance& __get_self();
 

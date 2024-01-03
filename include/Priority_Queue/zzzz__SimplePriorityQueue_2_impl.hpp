@@ -2,17 +2,17 @@
 #include "Priority_Queue/zzzz__GenericPriorityQueueNode_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Priority_Queue/zzzz__SimplePriorityQueue_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "Priority_Queue/zzzz__SimplePriorityQueue_2_def.hpp"
 #include "Priority_Queue/zzzz__GenericPriorityQueue_2_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "Priority_Queue/zzzz__IPriorityQueue_2_def.hpp"
+#include "Priority_Queue/zzzz__SimplePriorityQueue_2_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
-#include "Priority_Queue/zzzz__IPriorityQueue_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
 template <typename TItem, typename TPriority> constexpr TItem& Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>::__get__Data_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -54,12 +54,26 @@ template <typename TItem, typename TPriority> constexpr ::Priority_Queue::__Simp
 template <typename TItem, typename TPriority> constexpr Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::operator ::Priority_Queue::IPriorityQueue_2<TItem, TPriority>*() noexcept {
   return static_cast<::Priority_Queue::IPriorityQueue_2<TItem, TPriority>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::Priority_Queue::IPriorityQueue_2<TItem,TPriority>"
+template <typename TItem, typename TPriority>
+constexpr ::Priority_Queue::IPriorityQueue_2<TItem, TPriority>* Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::i___Priority_Queue__IPriorityQueue_2_TItem_TPriority_() noexcept {
+  return static_cast<::Priority_Queue::IPriorityQueue_2<TItem, TPriority>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TItem>"
 template <typename TItem, typename TPriority> constexpr Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::operator ::System::Collections::Generic::IEnumerable_1<TItem>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<TItem>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TItem>"
+template <typename TItem, typename TPriority>
+constexpr ::System::Collections::Generic::IEnumerable_1<TItem>* Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::i___System__Collections__Generic__IEnumerable_1_TItem_() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<TItem>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename TItem, typename TPriority> constexpr Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename TItem, typename TPriority> constexpr ::System::Collections::IEnumerable* Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 template <typename TItem, typename TPriority>

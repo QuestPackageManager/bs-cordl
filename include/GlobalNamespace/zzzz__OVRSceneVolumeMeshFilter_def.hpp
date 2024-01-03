@@ -13,7 +13,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRSceneVolumeMeshFilter)
 namespace GlobalNamespace {
-struct __OVRSceneVolumeMeshFilter__PopulateMeshDataJob;
+class OVRSceneAnchor;
+}
+namespace GlobalNamespace {
+struct OVRSpace;
+}
+namespace GlobalNamespace {
+struct __OVRSceneVolumeMeshFilter__BakeMeshJob;
 }
 namespace GlobalNamespace {
 struct __OVRSceneVolumeMeshFilter__GetTriangleMeshCountsJob;
@@ -21,47 +27,41 @@ struct __OVRSceneVolumeMeshFilter__GetTriangleMeshCountsJob;
 namespace GlobalNamespace {
 struct __OVRSceneVolumeMeshFilter__GetTriangleMeshJob;
 }
+namespace GlobalNamespace {
+struct __OVRSceneVolumeMeshFilter__PopulateMeshDataJob;
+}
+namespace GlobalNamespace {
+class __OVRSceneVolumeMeshFilter___CreateVolumeMesh_d__7;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace System::Collections {
 class IEnumerator;
 }
-namespace GlobalNamespace {
-struct __OVRSceneVolumeMeshFilter__BakeMeshJob;
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
+}
+namespace Unity::Jobs {
+class IJob;
 }
 namespace Unity::Jobs {
 struct JobHandle;
 }
 namespace UnityEngine {
-class Mesh;
+class MeshCollider;
 }
 namespace UnityEngine {
 class MeshFilter;
 }
-namespace GlobalNamespace {
-class __OVRSceneVolumeMeshFilter___CreateVolumeMesh_d__7;
-}
-namespace System {
-class IDisposable;
-}
 namespace UnityEngine {
-class MeshCollider;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace GlobalNamespace {
-class OVRSceneAnchor;
-}
-namespace System {
-class Object;
-}
-namespace Unity::Jobs {
-class IJob;
-}
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
-}
-namespace GlobalNamespace {
-struct OVRSpace;
+class Mesh;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -99,13 +99,16 @@ MARK_VAL_T(::GlobalNamespace::__OVRSceneVolumeMeshFilter__PopulateMeshDataJob);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7991)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(9999))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7983)) CS Name: ::OVRSceneVolumeMeshFilter::GetTriangleMeshCountsJob
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(9999)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7991))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7983)) CS Name: ::OVRSceneVolumeMeshFilter::GetTriangleMeshCountsJob
 struct CORDL_TYPE __OVRSceneVolumeMeshFilter__GetTriangleMeshCountsJob {
 public:
   // Declarations
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
+
+  /// @brief Convert to "::Unity::Jobs::IJob"
+  constexpr ::Unity::Jobs::IJob* i___Unity__Jobs__IJob();
 
   /// @brief Method Execute, addr 0x278b6c8, size 0x98, virtual true, abstract: false, final true
   inline void Execute();
@@ -141,14 +144,17 @@ static_assert(offsetof(::GlobalNamespace::__OVRSceneVolumeMeshFilter__GetTriangl
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 412 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(7991))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7984))
-// CS Name: ::OVRSceneVolumeMeshFilter::GetTriangleMeshJob
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7991)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 412 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10249)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(9999))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(7984)) CS Name: ::OVRSceneVolumeMeshFilter::GetTriangleMeshJob
 struct CORDL_TYPE __OVRSceneVolumeMeshFilter__GetTriangleMeshJob {
 public:
   // Declarations
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
+
+  /// @brief Convert to "::Unity::Jobs::IJob"
+  constexpr ::Unity::Jobs::IJob* i___Unity__Jobs__IJob();
 
   /// @brief Method Execute, addr 0x278b760, size 0x7c, virtual true, abstract: false, final true
   inline void Execute();
@@ -191,14 +197,17 @@ static_assert(offsetof(::GlobalNamespace::__OVRSceneVolumeMeshFilter__GetTriangl
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10069)), TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 412 })} Self:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 412 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10069)), TypeDefinitionIndex(TypeDefinitionIndex(9999))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(7985)) CS Name: ::OVRSceneVolumeMeshFilter::PopulateMeshDataJob
 struct CORDL_TYPE __OVRSceneVolumeMeshFilter__PopulateMeshDataJob {
 public:
   // Declarations
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
+
+  /// @brief Convert to "::Unity::Jobs::IJob"
+  constexpr ::Unity::Jobs::IJob* i___Unity__Jobs__IJob();
 
   /// @brief Method Execute, addr 0x278b7dc, size 0x220, virtual true, abstract: false, final true
   inline void Execute();
@@ -249,6 +258,9 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
+  /// @brief Convert to "::Unity::Jobs::IJob"
+  constexpr ::Unity::Jobs::IJob* i___Unity__Jobs__IJob();
+
   /// @brief Method Execute, addr 0x278b9fc, size 0x14, virtual true, abstract: false, final true
   inline void Execute();
 
@@ -282,9 +294,9 @@ static_assert(offsetof(::GlobalNamespace::__OVRSceneVolumeMeshFilter__BakeMeshJo
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9977)), TypeDefinitionIndex(TypeDefinitionIndex(10068)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7987)) CS
-// Name: ::OVRSceneVolumeMeshFilter::<CreateVolumeMesh>d__7*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10068)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98
+// }), TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(9977))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7987)) CS Name:
+// ::OVRSceneVolumeMeshFilter::<CreateVolumeMesh>d__7*
 class CORDL_TYPE __OVRSceneVolumeMeshFilter___CreateVolumeMesh_d__7 : public ::System::Object {
 public:
   // Declarations
@@ -322,11 +334,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(AnnotatedBeatmapLevelCollectionsGridViewAnimator)
 namespace Tweening {
 class TimeTweeningManager;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace Tweening {
+class Vector2Tween;
 }
 namespace UnityEngine {
 class RectTransform;
 }
-namespace Tweening {
-class Vector2Tween;
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimat
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(16090))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5769))
 // CS Name: ::AnnotatedBeatmapLevelCollectionsGridViewAnimator*
 class CORDL_TYPE AnnotatedBeatmapLevelCollectionsGridViewAnimator : public ::UnityEngine::MonoBehaviour {

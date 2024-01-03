@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ExceptionHelper)
-namespace System {
-class NotSupportedException;
-}
 namespace System::Net {
 class WebException;
 }
 namespace System {
 class NotImplementedException;
+}
+namespace System {
+class NotSupportedException;
 }
 // Forward declare root types
 namespace System::Net {

@@ -26,6 +26,9 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::ILayoutController"
   constexpr operator ::UnityEngine::UI::ILayoutController*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::UI::ILayoutController"
+  constexpr ::UnityEngine::UI::ILayoutController* i___UnityEngine__UI__ILayoutController() noexcept;
+
   /// @brief Method SetLayoutHorizontal, addr 0x227c728, size 0xe8, virtual true, abstract: false, final true
   inline void SetLayoutHorizontal();
 

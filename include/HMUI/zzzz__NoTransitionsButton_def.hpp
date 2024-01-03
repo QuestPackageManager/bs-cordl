@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoTransitionsButton)
-namespace System {
-template <typename T> class Action_1;
-}
 namespace HMUI {
 struct __NoTransitionsButton__SelectionState;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace UnityEngine::UI {
 struct __Selectable__SelectionState;

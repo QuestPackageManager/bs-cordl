@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SchemaEntity)
 namespace System::Xml {
-class XmlQualifiedName;
+class IDtdEntityInfo;
 }
 namespace System::Xml {
-class IDtdEntityInfo;
+class XmlQualifiedName;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -117,6 +117,9 @@ public:
 
   /// @brief Convert operator to "::System::Xml::IDtdEntityInfo"
   constexpr operator ::System::Xml::IDtdEntityInfo*() noexcept;
+
+  /// @brief Convert to "::System::Xml::IDtdEntityInfo"
+  constexpr ::System::Xml::IDtdEntityInfo* i___System__Xml__IDtdEntityInfo() noexcept;
 
   constexpr ::System::Xml::XmlQualifiedName*& __get_qname();
 

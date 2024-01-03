@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundTextureGradient_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomPrePassBackgroundGradient)
-namespace UnityEngine {
-class Gradient;
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
 }
 namespace UnityEngine {
 struct Color32;
 }
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+namespace UnityEngine {
+class Gradient;
 }
 // Forward declare root types
 namespace GlobalNamespace {

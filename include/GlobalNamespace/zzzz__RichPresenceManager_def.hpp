@@ -9,7 +9,43 @@ namespace GlobalNamespace {
 class BrowsingMenusRichPresenceData;
 }
 namespace GlobalNamespace {
+class GameScenesManager;
+}
+namespace GlobalNamespace {
 class IRichPresenceData;
+}
+namespace GlobalNamespace {
+class IRichPresencePlatformHandler;
+}
+namespace GlobalNamespace {
+class IUnifiedNetworkPlayerModel;
+}
+namespace GlobalNamespace {
+class InMultiplayerRichPresenceData;
+}
+namespace GlobalNamespace {
+class LobbyGameStateModel;
+}
+namespace GlobalNamespace {
+class LobbyPlayerPermissionsModel;
+}
+namespace GlobalNamespace {
+class MenuScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class MissionLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+struct MultiplayerGameState;
+}
+namespace GlobalNamespace {
+class MultiplayerLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class PlayingCampaignRichPresenceData;
+}
+namespace GlobalNamespace {
+class PlayingTutorialPresenceData;
 }
 namespace GlobalNamespace {
 class ScenesTransitionSetupDataSO;
@@ -17,44 +53,8 @@ class ScenesTransitionSetupDataSO;
 namespace GlobalNamespace {
 class StandardLevelScenesTransitionSetupDataSO;
 }
-namespace GlobalNamespace {
-class IUnifiedNetworkPlayerModel;
-}
-namespace GlobalNamespace {
-class PlayingCampaignRichPresenceData;
-}
-namespace GlobalNamespace {
-class LobbyPlayerPermissionsModel;
-}
-namespace GlobalNamespace {
-class InMultiplayerRichPresenceData;
-}
-namespace GlobalNamespace {
-struct MultiplayerGameState;
-}
 namespace Zenject {
 class DiContainer;
-}
-namespace GlobalNamespace {
-class PlayingTutorialPresenceData;
-}
-namespace GlobalNamespace {
-class IRichPresencePlatformHandler;
-}
-namespace GlobalNamespace {
-class MissionLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class MultiplayerLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class MenuScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class GameScenesManager;
-}
-namespace GlobalNamespace {
-class LobbyGameStateModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {

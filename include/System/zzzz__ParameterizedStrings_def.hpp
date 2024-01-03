@@ -10,13 +10,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ParameterizedStrings)
 namespace System {
+class Object;
+}
+namespace System {
 struct __ParameterizedStrings__FormatParam;
 }
 namespace System {
 class __ParameterizedStrings__LowLevelStack;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace System {

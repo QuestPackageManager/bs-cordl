@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "TMPro/zzzz__TMP_ScrollbarEventHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IDeselectHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__ISelectHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IDeselectHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__ISelectHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 //  Writing Method size for method: ::TMPro::TMP_ScrollbarEventHandler.OnPointerClick
 template <>
 
@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x2c3f998;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ScrollbarEventHandler*>::get(), "OnPointerClick", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::PointerEventData*>::get() })));
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0x2c3fa00;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ScrollbarEventHandler*>::get(), "OnSelect", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::BaseEventData*>::get() })));
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x2c3fa78;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ScrollbarEventHandler*>::get(), "OnDeselect", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::BaseEventData*>::get() })));
@@ -59,7 +59,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2c3faec;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ScrollbarEventHandler*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -69,16 +69,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 constexpr TMPro::TMP_ScrollbarEventHandler::operator ::UnityEngine::EventSystems::IPointerClickHandler*() noexcept {
   return static_cast<::UnityEngine::EventSystems::IPointerClickHandler*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::UnityEngine::EventSystems::IPointerClickHandler"
+constexpr ::UnityEngine::EventSystems::IPointerClickHandler* TMPro::TMP_ScrollbarEventHandler::i___UnityEngine__EventSystems__IPointerClickHandler() noexcept {
+  return static_cast<::UnityEngine::EventSystems::IPointerClickHandler*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
 constexpr TMPro::TMP_ScrollbarEventHandler::operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept {
+  return static_cast<::UnityEngine::EventSystems::IEventSystemHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+constexpr ::UnityEngine::EventSystems::IEventSystemHandler* TMPro::TMP_ScrollbarEventHandler::i___UnityEngine__EventSystems__IEventSystemHandler() noexcept {
   return static_cast<::UnityEngine::EventSystems::IEventSystemHandler*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::UnityEngine::EventSystems::ISelectHandler"
 constexpr TMPro::TMP_ScrollbarEventHandler::operator ::UnityEngine::EventSystems::ISelectHandler*() noexcept {
   return static_cast<::UnityEngine::EventSystems::ISelectHandler*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::UnityEngine::EventSystems::ISelectHandler"
+constexpr ::UnityEngine::EventSystems::ISelectHandler* TMPro::TMP_ScrollbarEventHandler::i___UnityEngine__EventSystems__ISelectHandler() noexcept {
+  return static_cast<::UnityEngine::EventSystems::ISelectHandler*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::UnityEngine::EventSystems::IDeselectHandler"
 constexpr TMPro::TMP_ScrollbarEventHandler::operator ::UnityEngine::EventSystems::IDeselectHandler*() noexcept {
+  return static_cast<::UnityEngine::EventSystems::IDeselectHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::IDeselectHandler"
+constexpr ::UnityEngine::EventSystems::IDeselectHandler* TMPro::TMP_ScrollbarEventHandler::i___UnityEngine__EventSystems__IDeselectHandler() noexcept {
   return static_cast<::UnityEngine::EventSystems::IDeselectHandler*>(static_cast<void*>(this));
 }
 constexpr bool& TMPro::TMP_ScrollbarEventHandler::__get_isSelected() {

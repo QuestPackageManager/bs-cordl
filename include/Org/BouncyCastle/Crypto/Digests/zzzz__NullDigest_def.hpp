@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NullDigest)
-namespace System::IO {
-class MemoryStream;
-}
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
+}
+namespace System::IO {
+class MemoryStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Digests {
@@ -36,6 +36,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDigest"
   constexpr operator ::Org::BouncyCastle::Crypto::IDigest*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"
+  constexpr ::Org::BouncyCastle::Crypto::IDigest* i___Org__BouncyCastle__Crypto__IDigest() noexcept;
 
   constexpr ::System::IO::MemoryStream*& __get_bOut();
 

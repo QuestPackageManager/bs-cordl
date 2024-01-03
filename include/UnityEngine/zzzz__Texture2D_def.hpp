@@ -9,41 +9,41 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Texture2D)
-namespace UnityEngine {
-struct Color;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+class Array;
 }
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
 }
-namespace UnityEngine {
-struct TextureFormat;
+namespace UnityEngine::Experimental::Rendering {
+struct DefaultFormat;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine {
-struct Rect;
+namespace UnityEngine::Experimental::Rendering {
+struct GraphicsFormat;
 }
 namespace UnityEngine::Experimental::Rendering {
 struct TextureCreationFlags;
 }
 namespace UnityEngine {
-struct Vector2;
-}
-namespace System {
-class Array;
-}
-namespace UnityEngine::Experimental::Rendering {
-struct GraphicsFormat;
-}
-namespace UnityEngine {
 struct Color32;
 }
 namespace UnityEngine {
-struct __Texture2D__EXRFlags;
+struct Color;
 }
-namespace UnityEngine::Experimental::Rendering {
-struct DefaultFormat;
+namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine {
+struct TextureFormat;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct __Texture2D__EXRFlags;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -232,12 +232,10 @@ public:
   inline bool LoadRawTextureDataImplArray(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   /// @brief Method SetPixelDataImplArray, addr 0x2cae9d0, size 0x74, virtual false, abstract: false, final false
-  /// @param sourceDataStartIndex: int32_t (default: static_cast<int32_t>(0x0))
-  inline bool SetPixelDataImplArray(::System::Array* data, int32_t mipLevel, int32_t elementSize, int32_t dataArraySize, int32_t sourceDataStartIndex = static_cast<int32_t>(0x0));
+  inline bool SetPixelDataImplArray(::System::Array* data, int32_t mipLevel, int32_t elementSize, int32_t dataArraySize, int32_t sourceDataStartIndex);
 
   /// @brief Method SetPixelDataImpl, addr 0x2caea44, size 0x74, virtual false, abstract: false, final false
-  /// @param sourceDataStartIndex: int32_t (default: static_cast<int32_t>(0x0))
-  inline bool SetPixelDataImpl(void* data, int32_t mipLevel, int32_t elementSize, int32_t dataArraySize, int32_t sourceDataStartIndex = static_cast<int32_t>(0x0));
+  inline bool SetPixelDataImpl(void* data, int32_t mipLevel, int32_t elementSize, int32_t dataArraySize, int32_t sourceDataStartIndex);
 
   /// @brief Method GetWritableImageData, addr 0x2caeab8, size 0x44, virtual false, abstract: false, final false
   inline void* GetWritableImageData(int32_t frame);
@@ -431,12 +429,10 @@ public:
   template <typename T> inline void LoadRawTextureData(::Unity::Collections::NativeArray_1<T> data);
 
   /// @brief Method SetPixelData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param sourceDataStartIndex: int32_t (default: static_cast<int32_t>(0x0))
-  template <typename T> inline void SetPixelData(::ArrayW<T, ::Array<T>*> data, int32_t mipLevel, int32_t sourceDataStartIndex = static_cast<int32_t>(0x0));
+  template <typename T> inline void SetPixelData(::ArrayW<T, ::Array<T>*> data, int32_t mipLevel, int32_t sourceDataStartIndex);
 
   /// @brief Method SetPixelData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param sourceDataStartIndex: int32_t (default: static_cast<int32_t>(0x0))
-  template <typename T> inline void SetPixelData(::Unity::Collections::NativeArray_1<T> data, int32_t mipLevel, int32_t sourceDataStartIndex = static_cast<int32_t>(0x0));
+  template <typename T> inline void SetPixelData(::Unity::Collections::NativeArray_1<T> data, int32_t mipLevel, int32_t sourceDataStartIndex);
 
   /// @brief Method GetPixelData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Unity::Collections::NativeArray_1<T> GetPixelData(int32_t mipLevel);

@@ -1,29 +1,44 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/zzzz__Lookup_2_def.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Linq/zzzz__IGrouping_2_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
 #include "System/Linq/zzzz__Lookup_2_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TElement>"
 template <typename TKey, typename TElement>
 constexpr GlobalNamespace::__Lookup_2__Grouping___GetEnumerator_d__7<TKey, TElement>::operator ::System::Collections::Generic::IEnumerator_1<TElement>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<TElement>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TElement>"
+template <typename TKey, typename TElement>
+constexpr ::System::Collections::Generic::IEnumerator_1<TElement>*
+GlobalNamespace::__Lookup_2__Grouping___GetEnumerator_d__7<TKey, TElement>::i___System__Collections__Generic__IEnumerator_1_TElement_() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<TElement>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
 template <typename TKey, typename TElement> constexpr GlobalNamespace::__Lookup_2__Grouping___GetEnumerator_d__7<TKey, TElement>::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::IDisposable"
+template <typename TKey, typename TElement> constexpr ::System::IDisposable* GlobalNamespace::__Lookup_2__Grouping___GetEnumerator_d__7<TKey, TElement>::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 template <typename TKey, typename TElement> constexpr GlobalNamespace::__Lookup_2__Grouping___GetEnumerator_d__7<TKey, TElement>::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+template <typename TKey, typename TElement>
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::__Lookup_2__Grouping___GetEnumerator_d__7<TKey, TElement>::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 template <typename TKey, typename TElement> constexpr int32_t& GlobalNamespace::__Lookup_2__Grouping___GetEnumerator_d__7<TKey, TElement>::__get___1__state() {
@@ -124,20 +139,44 @@ template <typename TKey, typename TElement> constexpr ::GlobalNamespace::__Looku
 template <typename TKey, typename TElement> constexpr System::Linq::__Lookup_2__Grouping<TKey, TElement>::operator ::System::Linq::IGrouping_2<TKey, TElement>*() noexcept {
   return static_cast<::System::Linq::IGrouping_2<TKey, TElement>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Linq::IGrouping_2<TKey,TElement>"
+template <typename TKey, typename TElement>
+constexpr ::System::Linq::IGrouping_2<TKey, TElement>* System::Linq::__Lookup_2__Grouping<TKey, TElement>::i___System__Linq__IGrouping_2_TKey_TElement_() noexcept {
+  return static_cast<::System::Linq::IGrouping_2<TKey, TElement>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TElement>"
 template <typename TKey, typename TElement> constexpr System::Linq::__Lookup_2__Grouping<TKey, TElement>::operator ::System::Collections::Generic::IEnumerable_1<TElement>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<TElement>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TElement>"
+template <typename TKey, typename TElement>
+constexpr ::System::Collections::Generic::IEnumerable_1<TElement>* System::Linq::__Lookup_2__Grouping<TKey, TElement>::i___System__Collections__Generic__IEnumerable_1_TElement_() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<TElement>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename TKey, typename TElement> constexpr System::Linq::__Lookup_2__Grouping<TKey, TElement>::operator ::System::Collections::IEnumerable*() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename TKey, typename TElement> constexpr ::System::Collections::IEnumerable* System::Linq::__Lookup_2__Grouping<TKey, TElement>::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::Generic::IList_1<TElement>"
 template <typename TKey, typename TElement> constexpr System::Linq::__Lookup_2__Grouping<TKey, TElement>::operator ::System::Collections::Generic::IList_1<TElement>*() noexcept {
   return static_cast<::System::Collections::Generic::IList_1<TElement>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IList_1<TElement>"
+template <typename TKey, typename TElement>
+constexpr ::System::Collections::Generic::IList_1<TElement>* System::Linq::__Lookup_2__Grouping<TKey, TElement>::i___System__Collections__Generic__IList_1_TElement_() noexcept {
+  return static_cast<::System::Collections::Generic::IList_1<TElement>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<TElement>"
 template <typename TKey, typename TElement> constexpr System::Linq::__Lookup_2__Grouping<TKey, TElement>::operator ::System::Collections::Generic::ICollection_1<TElement>*() noexcept {
+  return static_cast<::System::Collections::Generic::ICollection_1<TElement>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::ICollection_1<TElement>"
+template <typename TKey, typename TElement>
+constexpr ::System::Collections::Generic::ICollection_1<TElement>* System::Linq::__Lookup_2__Grouping<TKey, TElement>::i___System__Collections__Generic__ICollection_1_TElement_() noexcept {
   return static_cast<::System::Collections::Generic::ICollection_1<TElement>*>(static_cast<void*>(this));
 }
 template <typename TKey, typename TElement> constexpr TKey& System::Linq::__Lookup_2__Grouping<TKey, TElement>::__get_key() {
@@ -327,12 +366,27 @@ template <typename TKey, typename TElement>
 constexpr System::Linq::__Lookup_2___GetEnumerator_d__12<TKey, TElement>::operator ::System::Collections::Generic::IEnumerator_1<::System::Linq::IGrouping_2<TKey, TElement>*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Linq::IGrouping_2<TKey, TElement>*>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Linq::IGrouping_2<TKey,TElement>*>"
+template <typename TKey, typename TElement>
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Linq::IGrouping_2<TKey, TElement>*>*
+System::Linq::__Lookup_2___GetEnumerator_d__12<TKey, TElement>::i___System__Collections__Generic__IEnumerator_1___System__Linq__IGrouping_2_TKey_TElement___() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Linq::IGrouping_2<TKey, TElement>*>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::IDisposable"
 template <typename TKey, typename TElement> constexpr System::Linq::__Lookup_2___GetEnumerator_d__12<TKey, TElement>::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::IDisposable"
+template <typename TKey, typename TElement> constexpr ::System::IDisposable* System::Linq::__Lookup_2___GetEnumerator_d__12<TKey, TElement>::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 template <typename TKey, typename TElement> constexpr System::Linq::__Lookup_2___GetEnumerator_d__12<TKey, TElement>::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+template <typename TKey, typename TElement>
+constexpr ::System::Collections::IEnumerator* System::Linq::__Lookup_2___GetEnumerator_d__12<TKey, TElement>::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 template <typename TKey, typename TElement> constexpr int32_t& System::Linq::__Lookup_2___GetEnumerator_d__12<TKey, TElement>::__get___1__state() {
@@ -435,8 +489,18 @@ template <typename TKey, typename TElement>
 constexpr System::Linq::Lookup_2<TKey, TElement>::operator ::System::Collections::Generic::IEnumerable_1<::System::Linq::IGrouping_2<TKey, TElement>*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Linq::IGrouping_2<TKey, TElement>*>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Linq::IGrouping_2<TKey,TElement>*>"
+template <typename TKey, typename TElement>
+constexpr ::System::Collections::Generic::IEnumerable_1<::System::Linq::IGrouping_2<TKey, TElement>*>*
+System::Linq::Lookup_2<TKey, TElement>::i___System__Collections__Generic__IEnumerable_1___System__Linq__IGrouping_2_TKey_TElement___() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Linq::IGrouping_2<TKey, TElement>*>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename TKey, typename TElement> constexpr System::Linq::Lookup_2<TKey, TElement>::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename TKey, typename TElement> constexpr ::System::Collections::IEnumerable* System::Linq::Lookup_2<TKey, TElement>::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 template <typename TKey, typename TElement> constexpr ::System::Collections::Generic::IEqualityComparer_1<TKey>*& System::Linq::Lookup_2<TKey, TElement>::__get_comparer() {

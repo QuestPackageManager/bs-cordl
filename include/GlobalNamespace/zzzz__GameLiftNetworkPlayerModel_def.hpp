@@ -6,8 +6,29 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__NetworkPlayerModel_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(GameLiftNetworkPlayerModel)
+namespace BGNet::Core::GameLift {
+class IGameLiftPlayerSessionProvider;
+}
+namespace GlobalNamespace {
+struct BeatmapLevelSelectionMask;
+}
+namespace GlobalNamespace {
+struct ConnectionFailedReason;
+}
+namespace GlobalNamespace {
+class GameLiftConnectionManager;
+}
+namespace GlobalNamespace {
+struct GameplayServerConfiguration;
+}
+namespace GlobalNamespace {
+template <typename T> class IConnectionInitParams_1;
+}
 namespace GlobalNamespace {
 struct PublicServerInfo;
+}
+namespace GlobalNamespace {
+class __GameLiftConnectionManager__ConnectToServerParams;
 }
 namespace GlobalNamespace {
 class __GameLiftConnectionManager__StartClientParams;
@@ -15,29 +36,8 @@ class __GameLiftConnectionManager__StartClientParams;
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
-namespace GlobalNamespace {
-struct ConnectionFailedReason;
-}
-namespace GlobalNamespace {
-struct BeatmapLevelSelectionMask;
-}
-namespace GlobalNamespace {
-class GameLiftConnectionManager;
-}
-namespace GlobalNamespace {
-template <typename T> class IConnectionInitParams_1;
-}
-namespace GlobalNamespace {
-struct GameplayServerConfiguration;
-}
-namespace BGNet::Core::GameLift {
-class IGameLiftPlayerSessionProvider;
-}
 namespace System {
 template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class __GameLiftConnectionManager__ConnectToServerParams;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -49,8 +49,8 @@ MARK_REF_PTR_T(::GlobalNamespace::GameLiftNetworkPlayerModel);
 // SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12737)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14962), inst: 2746 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14962))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14941)) CS Name: ::GameLiftNetworkPlayerModel*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14962)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14962), inst: 2746 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(12737))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14941)) CS Name: ::GameLiftNetworkPlayerModel*
 class CORDL_TYPE GameLiftNetworkPlayerModel : public ::GlobalNamespace::NetworkPlayerModel_1<::GlobalNamespace::GameLiftConnectionManager*> {
 public:
   // Declarations
@@ -116,11 +116,8 @@ public:
                                    ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* onFailure);
 
   /// @brief Method GetConnectToServerParams, addr 0x2636db0, size 0xe8, virtual true, abstract: false, final false
-  /// @param secret: ::StringW (default: nullptr)
-  /// @param code: ::StringW (default: nullptr)
-  inline ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::GameLiftConnectionManager*>* GetConnectToServerParams(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask,
-                                                                                                                             ::GlobalNamespace::GameplayServerConfiguration configuration,
-                                                                                                                             ::StringW secret = nullptr, ::StringW code = nullptr);
+  inline ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::GameLiftConnectionManager*>*
+  GetConnectToServerParams(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration, ::StringW secret, ::StringW code);
 
   /// @brief Method GetStartClientParams, addr 0x2636e98, size 0xd0, virtual true, abstract: false, final false
   inline ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::GameLiftConnectionManager*>* GetStartClientParams(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask,

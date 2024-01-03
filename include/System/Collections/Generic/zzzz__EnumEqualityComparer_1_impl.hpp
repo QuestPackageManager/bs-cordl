@@ -9,6 +9,10 @@
 template <typename T> constexpr System::Collections::Generic::EnumEqualityComparer_1<T>::operator ::System::Runtime::Serialization::ISerializable*() noexcept {
   return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+template <typename T> constexpr ::System::Runtime::Serialization::ISerializable* System::Collections::Generic::EnumEqualityComparer_1<T>::i___System__Runtime__Serialization__ISerializable() noexcept {
+  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
+}
 template <typename T> inline bool System::Collections::Generic::EnumEqualityComparer_1<T>::Equals(T x, T y) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

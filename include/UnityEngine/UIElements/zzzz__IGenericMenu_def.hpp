@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IGenericMenu)
-namespace UnityEngine {
-struct Rect;
+namespace System {
+class Action;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
-namespace System {
-class Action;
+namespace UnityEngine {
+struct Rect;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -33,9 +33,7 @@ public:
   inline void AddItem(::StringW itemName, bool isChecked, ::System::Action* action);
 
   /// @brief Method DropDown, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  /// @param targetElement: ::UnityEngine::UIElements::VisualElement* (default: nullptr)
-  /// @param anchored: bool (default: false)
-  inline void DropDown(::UnityEngine::Rect position, ::UnityEngine::UIElements::VisualElement* targetElement = nullptr, bool anchored = false);
+  inline void DropDown(::UnityEngine::Rect position, ::UnityEngine::UIElements::VisualElement* targetElement, bool anchored);
 
   // Ctor Parameters [CppParam { name: "", ty: "IGenericMenu", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

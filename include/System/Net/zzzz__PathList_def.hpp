@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PathList)
-namespace System {
-class Object;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Net {
-class __PathList__PathListComparer;
-}
-namespace System::Collections {
-class SortedList;
-}
 namespace System::Collections {
 class ICollection;
 }
 namespace System::Collections {
 class IComparer;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
+class SortedList;
+}
+namespace System::Net {
+class __PathList__PathListComparer;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Net {
@@ -49,6 +49,9 @@ public:
 
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IComparer"
+  constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
 
   static inline void setStaticF_StaticInstance(::System::Net::__PathList__PathListComparer* value);
 

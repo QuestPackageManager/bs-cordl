@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CombineInstance)
 namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace UnityEngine {
 class Mesh;
 }
 namespace UnityEngine {
 struct Vector4;
-}
-namespace UnityEngine {
-struct Matrix4x4;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -26,7 +26,7 @@ MARK_VAL_T(::UnityEngine::CombineInstance);
 // SizeInfo { instance_size: 104, native_size: 104, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(10245))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(10246))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10136))
 // CS Name: ::UnityEngine::CombineInstance
 struct CORDL_TYPE CombineInstance {

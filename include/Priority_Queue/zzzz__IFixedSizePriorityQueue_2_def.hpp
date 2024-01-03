@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(IFixedSizePriorityQueue_2)
 namespace Priority_Queue {
 template <typename TItem, typename TPriority> class IPriorityQueue_2;
 }
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace Priority_Queue {
@@ -36,11 +36,20 @@ public:
   /// @brief Convert operator to "::Priority_Queue::IPriorityQueue_2<TItem,TPriority>"
   constexpr operator ::Priority_Queue::IPriorityQueue_2<TItem, TPriority>*() noexcept;
 
+  /// @brief Convert to "::Priority_Queue::IPriorityQueue_2<TItem,TPriority>"
+  constexpr ::Priority_Queue::IPriorityQueue_2<TItem, TPriority>* i___Priority_Queue__IPriorityQueue_2_TItem_TPriority_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TItem>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TItem>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TItem>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<TItem>* i___System__Collections__Generic__IEnumerable_1_TItem_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Resize(int32_t maxNodes);

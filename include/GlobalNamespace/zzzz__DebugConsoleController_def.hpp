@@ -14,82 +14,82 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DebugConsoleController)
 namespace GlobalNamespace {
-struct __DebugConsoleController___ReadInputLoopAsync_d__21;
-}
-namespace GlobalNamespace {
-struct __DebugConsoleController___TryExecuteCommand_d__8;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace System::Collections::Generic {
-template <typename T> class Queue_1;
-}
-namespace GlobalNamespace {
 class ConsoleCommandBase;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
-struct __DebugConsoleController___ExecuteCommands_d__6;
-}
-namespace Zenject {
-class ITickable;
-}
-namespace GlobalNamespace {
-struct __DebugConsoleController___StartConsoleReadTask_d__20;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace GlobalNamespace {
-struct __DebugConsoleController___ExecuteCommandsAsync_d__7;
-}
-namespace System {
-class Type;
 }
 namespace GlobalNamespace {
 struct __DebugConsoleController__ConsoleMessage;
 }
+namespace GlobalNamespace {
+struct __DebugConsoleController___ExecuteCommandsAsync_d__7;
+}
+namespace GlobalNamespace {
+struct __DebugConsoleController___ExecuteCommands_d__6;
+}
+namespace GlobalNamespace {
+struct __DebugConsoleController___ReadInputLoopAsync_d__21;
+}
+namespace GlobalNamespace {
+struct __DebugConsoleController___StartConsoleReadTask_d__20;
+}
+namespace GlobalNamespace {
+struct __DebugConsoleController___TryExecuteCommand_d__8;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace Zenject {
-class IInitializable;
+namespace System::Collections::Generic {
+template <typename T> class Queue_1;
 }
-namespace UnityEngine {
-struct LogType;
+namespace System::IO {
+class StreamReader;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace System::IO {
+class Stream;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
+struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
+struct TaskAwaiter;
+}
+namespace System::Runtime::CompilerServices {
 struct ValueTaskAwaiter;
 }
-namespace System::IO {
-class Stream;
-}
-namespace System::IO {
-class StreamReader;
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class Type;
+}
+namespace UnityEngine {
+struct LogType;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class IInitializable;
+}
+namespace Zenject {
+class ITickable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -132,8 +132,7 @@ struct CORDL_TYPE __DebugConsoleController__ConsoleMessage {
 public:
   // Declarations
   /// @brief Method .ctor, addr 0x230f0e8, size 0xc, virtual false, abstract: false, final false
-  /// @param type: ::UnityEngine::LogType (default: static_cast<int32_t>(0x3))
-  inline void _ctor(::StringW message, ::UnityEngine::LogType type = static_cast<int32_t>(0x3));
+  inline void _ctor(::StringW message, ::UnityEngine::LogType type);
 
   /// @brief Method op_Implicit, addr 0x230df7c, size 0x8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__DebugConsoleController__ConsoleMessage op_Implicit___GlobalNamespace____DebugConsoleController__ConsoleMessage(::StringW message);
@@ -168,7 +167,7 @@ static_assert(offsetof(::GlobalNamespace::__DebugConsoleController__ConsoleMessa
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3400))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5993))
 // CS Name: ::DebugConsoleController::<ExecuteCommands>d__6
 struct CORDL_TYPE __DebugConsoleController___ExecuteCommands_d__6 {
@@ -176,6 +175,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x2313264, size 0x2fc, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -234,6 +236,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x231356c, size 0x3e0, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -300,6 +305,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x2313958, size 0x3f8, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -373,6 +381,9 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+
   /// @brief Method MoveNext, addr 0x2313d5c, size 0x270, virtual true, abstract: false, final true
   inline void MoveNext();
 
@@ -417,13 +428,17 @@ static_assert(offsetof(::GlobalNamespace::__DebugConsoleController___StartConsol
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 397
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3390))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5997)) CS Name: ::DebugConsoleController::<ReadInputLoopAsync>d__21
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 397 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3401))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5997)) CS Name:
+// ::DebugConsoleController::<ReadInputLoopAsync>d__21
 struct CORDL_TYPE __DebugConsoleController___ReadInputLoopAsync_d__21 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x2313fd8, size 0x844, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -534,8 +549,14 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
+  /// @brief Convert to "::Zenject::IInitializable"
+  constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
+
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
+
+  /// @brief Convert to "::Zenject::ITickable"
+  constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
   constexpr ::Zenject::DiContainer*& __get__container();
 

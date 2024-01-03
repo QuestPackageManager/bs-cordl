@@ -9,8 +9,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CacheControlHeaderValue)
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace System::Net::Http::Headers {
 class NameValueHeaderValue;
+}
+namespace System {
+class ICloneable;
 }
 namespace System {
 template <typename T> struct Nullable_1;
@@ -20,15 +29,6 @@ class Object;
 }
 namespace System {
 struct TimeSpan;
-}
-namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-class ICloneable;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -40,8 +40,8 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::CacheControlHeaderValue);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2711 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14659)) CS Name:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2711 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2484))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14659)) CS Name:
 // ::System.Net.Http.Headers::CacheControlHeaderValue*
 class CORDL_TYPE CacheControlHeaderValue : public ::System::Object {
 public:
@@ -128,6 +128,9 @@ public:
 
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
+
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
   constexpr ::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>*& __get_extensions();
 

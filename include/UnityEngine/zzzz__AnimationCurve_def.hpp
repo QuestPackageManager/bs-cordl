@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AnimationCurve)
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 namespace UnityEngine {
 struct Keyframe;
@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::UnityEngine::AnimationCurve);
 // SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10043))
 // CS Name: ::UnityEngine::AnimationCurve*
 class CORDL_TYPE AnimationCurve : public ::System::Object {
@@ -42,6 +42,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::AnimationCurve*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::AnimationCurve*>*() noexcept;
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::AnimationCurve*>"
+  constexpr ::System::IEquatable_1<::UnityEngine::AnimationCurve*>* i___System__IEquatable_1___UnityEngine__AnimationCurve__() noexcept;
 
   constexpr void*& __get_m_Ptr();
 

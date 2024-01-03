@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(JTokenReader)
-namespace Newtonsoft::Json {
-struct JsonToken;
+namespace Newtonsoft::Json::Linq {
+class JContainer;
 }
 namespace Newtonsoft::Json::Linq {
 class JToken;
+}
+namespace Newtonsoft::Json {
+class IJsonLineInfo;
+}
+namespace Newtonsoft::Json {
+struct JsonToken;
 }
 namespace System {
 template <typename T> struct Nullable_1;
 }
 namespace System {
 class Object;
-}
-namespace Newtonsoft::Json::Linq {
-class JContainer;
-}
-namespace Newtonsoft::Json {
-class IJsonLineInfo;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {
@@ -62,6 +62,9 @@ public:
 
   /// @brief Convert operator to "::Newtonsoft::Json::IJsonLineInfo"
   constexpr operator ::Newtonsoft::Json::IJsonLineInfo*() noexcept;
+
+  /// @brief Convert to "::Newtonsoft::Json::IJsonLineInfo"
+  constexpr ::Newtonsoft::Json::IJsonLineInfo* i___Newtonsoft__Json__IJsonLineInfo() noexcept;
 
   constexpr ::Newtonsoft::Json::Linq::JToken*& __get__root();
 

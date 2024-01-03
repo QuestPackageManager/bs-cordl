@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(InputActionReference)
 namespace UnityEngine::InputSystem {
-class InputAction;
+class InputActionAsset;
 }
 namespace UnityEngine::InputSystem {
-class InputActionAsset;
+class InputAction;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {

@@ -8,32 +8,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeSlice_1)
-namespace Unity::Collections {
-template <typename T> struct __NativeSlice_1__Enumerator;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System {
-template <typename T> class IEquatable_1;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
+class Object;
+}
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
+}
+namespace Unity::Collections {
+template <typename T> struct __NativeSlice_1__Enumerator;
 }
 // Forward declare root types
 namespace Unity::Collections {
@@ -68,11 +68,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<T>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>* i___System__Collections__Generic__IEnumerable_1_T_();
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
 
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable();
+
   /// @brief Convert operator to "::System::IEquatable_1<::Unity::Collections::NativeSlice_1<T>>"
   constexpr operator ::System::IEquatable_1<::Unity::Collections::NativeSlice_1<T>>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::Unity::Collections::NativeSlice_1<T>>"
+  constexpr ::System::IEquatable_1<::Unity::Collections::NativeSlice_1<T>>* i___System__IEquatable_1___Unity__Collections__NativeSlice_1_T__();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeSlice_1<T> slice, int32_t start, int32_t length);
@@ -155,7 +164,7 @@ namespace Unity::Collections {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 3161 }), TypeDefinitionIndex(TypeDefinitionIndex(9994))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9994)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 3161 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9993))
 // CS Name: ::NativeSlice`1::Enumerator<T>
 struct CORDL_TYPE __NativeSlice_1__Enumerator {
@@ -168,11 +177,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<T>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<T>* i___System__Collections__Generic__IEnumerator_1_T_();
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*();
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator();
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(ByRef<::Unity::Collections::NativeSlice_1<T>> array);

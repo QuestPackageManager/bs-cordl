@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(AvatarColorBehaviour)
-namespace UnityEngine::Playables {
-struct Playable;
-}
-namespace UnityEngine::Playables {
-struct FrameData;
-}
 namespace BeatSaber::AvatarCore {
 class AvatarVisualController;
 }
 namespace System {
 class Object;
+}
+namespace UnityEngine::Playables {
+struct FrameData;
+}
+namespace UnityEngine::Playables {
+struct Playable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::GlobalNamespace::AvatarColorBehaviour);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10425))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10425)), TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6004))
 // CS Name: ::AvatarColorBehaviour*
 class CORDL_TYPE AvatarColorBehaviour : public ::UnityEngine::Playables::PlayableBehaviour {

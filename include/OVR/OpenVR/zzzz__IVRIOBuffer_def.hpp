@@ -8,35 +8,35 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IVRIOBuffer)
-namespace System {
-class IAsyncResult;
-}
 namespace OVR::OpenVR {
 struct EIOBufferError;
-}
-namespace System {
-class AsyncCallback;
-}
-namespace System {
-class Object;
 }
 namespace OVR::OpenVR {
 struct EIOBufferMode;
 }
 namespace OVR::OpenVR {
-class __IVRIOBuffer___Write;
+class __IVRIOBuffer___Close;
+}
+namespace OVR::OpenVR {
+class __IVRIOBuffer___Open;
 }
 namespace OVR::OpenVR {
 class __IVRIOBuffer___PropertyContainer;
 }
 namespace OVR::OpenVR {
-class __IVRIOBuffer___Close;
-}
-namespace OVR::OpenVR {
 class __IVRIOBuffer___Read;
 }
 namespace OVR::OpenVR {
-class __IVRIOBuffer___Open;
+class __IVRIOBuffer___Write;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

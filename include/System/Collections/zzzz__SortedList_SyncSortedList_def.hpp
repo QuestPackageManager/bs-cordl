@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/Collections/zzzz__SortedList_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SortedList_SyncSortedList)
-namespace System {
-class Object;
+namespace System::Collections {
+class IDictionaryEnumerator;
 }
 namespace System::Collections {
 class IList;
-}
-namespace System::Collections {
-class IDictionaryEnumerator;
 }
 namespace System::Collections {
 class SortedList;
 }
 namespace System {
 class Array;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Collections {

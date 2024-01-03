@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BuiltinMaterials)
 namespace UnityEngine {
-class Shader;
+class Material;
 }
 namespace UnityEngine {
-class Material;
+class Shader;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::BuiltinMaterials);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12106))
 // CS Name: ::UnityEngine.ProBuilder::BuiltinMaterials*
 class CORDL_TYPE BuiltinMaterials : public ::System::Object {

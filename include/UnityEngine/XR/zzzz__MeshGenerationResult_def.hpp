@@ -10,29 +10,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MeshGenerationResult)
-namespace UnityEngine {
-class MeshCollider;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace System {
-class Object;
-}
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace UnityEngine::XR {
-struct MeshId;
-}
-namespace UnityEngine {
-class Mesh;
+namespace System {
+class Object;
 }
 namespace UnityEngine::XR {
 struct MeshGenerationStatus;
 }
 namespace UnityEngine::XR {
+struct MeshId;
+}
+namespace UnityEngine::XR {
 struct MeshVertexAttributes;
+}
+namespace UnityEngine {
+class MeshCollider;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -47,8 +47,8 @@ MARK_VAL_T(::UnityEngine::XR::MeshGenerationResult);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15633)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(15634)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15637)), TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15636)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15637)), TypeDefinitionIndex(TypeDefinitionIndex(15634)), TypeDefinitionIndex(TypeDefinitionIndex(15633)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15636)) CS Name:
 // ::UnityEngine.XR::MeshGenerationResult
 struct CORDL_TYPE MeshGenerationResult {
 public:
@@ -71,6 +71,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>"
+  constexpr ::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>* i___System__IEquatable_1___UnityEngine__XR__MeshGenerationResult_();
 
   /// @brief Method get_MeshId, addr 0x2eb3928, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::MeshId get_MeshId();

@@ -9,15 +9,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(WarningHeaderValue)
-namespace System {
-class ICloneable;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace System {
-struct DateTimeOffset;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
@@ -26,6 +17,15 @@ class Lexer;
 }
 namespace System::Net::Http::Headers {
 struct Token;
+}
+namespace System {
+struct DateTimeOffset;
+}
+namespace System {
+class ICloneable;
+}
+namespace System {
+template <typename T> struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -40,8 +40,8 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::WarningHeaderValue);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2702 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2370)), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14711)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2370)), TypeDefinitionIndex(TypeDefinitionIndex(2448)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2702 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14711)) CS Name:
 // ::System.Net.Http.Headers::WarningHeaderValue*
 class CORDL_TYPE WarningHeaderValue : public ::System::Object {
 public:
@@ -68,6 +68,9 @@ public:
 
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
+
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
   constexpr ::StringW& __get__Agent_k__BackingField();
 

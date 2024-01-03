@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LinqExtensions)
 namespace ModestTree {
-template <typename T> class __LinqExtensions____c__8_1;
+template <typename T> class __LinqExtensions___Yield_d__0_1;
 }
 namespace ModestTree {
-template <typename T> class __LinqExtensions___Yield_d__0_1;
+template <typename T> class __LinqExtensions____c__8_1;
 }
 namespace ModestTree {
 template <typename T> class __LinqExtensions____c__DisplayClass10_0_1;
@@ -18,16 +18,10 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-class IDisposable;
-}
-namespace System {
-class Object;
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template <typename T> class List_1;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -40,6 +34,12 @@ template <typename TKey, typename TElement> class IGrouping_2;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace ModestTree {
@@ -93,17 +93,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>* i___System__Collections__Generic__IEnumerable_1_T_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<T>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<T>* i___System__Collections__Generic__IEnumerator_1_T_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

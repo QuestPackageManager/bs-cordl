@@ -9,46 +9,49 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RecordingToolConfigurationProcessor)
 namespace GlobalNamespace {
-class __RecordingToolConfigurationProcessor__PlaybackScreenshot;
-}
-namespace UnityEngine {
-struct LayerMask;
-}
-namespace GlobalNamespace {
-class __RecordingToolConfigurationProcessor__RecordingToolConfiguration;
-}
-namespace GlobalNamespace {
-class MenuDestination;
-}
-namespace GlobalNamespace {
-class RecordingToolResourceContainerSO;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-class IPosesSerializer;
-}
-namespace GlobalNamespace {
-class RecordingSettings;
-}
-namespace GlobalNamespace {
-class RecordingToolSettings;
-}
-namespace GlobalNamespace {
-class __RecordingToolConfigurationProcessor__RecordingConfiguration;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelPack;
+class BeatmapCharacteristicCollection;
 }
 namespace GlobalNamespace {
 class IBeatSaberLogger;
 }
 namespace GlobalNamespace {
+class IBeatmapLevelPack;
+}
+namespace GlobalNamespace {
+class IPosesSerializer;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+class MenuDestination;
+}
+namespace GlobalNamespace {
+class ProgramArguments;
+}
+namespace GlobalNamespace {
+class RecordingSettings;
+}
+namespace GlobalNamespace {
+class RecordingToolResourceContainerSO;
+}
+namespace GlobalNamespace {
+class RecordingToolSettings;
+}
+namespace GlobalNamespace {
 class __ObjectsMovementRecorder__InitData;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicCollection;
+class __RecordingToolConfigurationProcessor__ColorSaveData;
+}
+namespace GlobalNamespace {
+class __RecordingToolConfigurationProcessor__PlaybackScreenshot;
+}
+namespace GlobalNamespace {
+class __RecordingToolConfigurationProcessor__RecordingConfiguration;
+}
+namespace GlobalNamespace {
+class __RecordingToolConfigurationProcessor__RecordingToolConfiguration;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -56,11 +59,8 @@ template <typename T> class IEnumerable_1;
 namespace System {
 template <typename T1, typename T2> struct ValueTuple_2;
 }
-namespace GlobalNamespace {
-class ProgramArguments;
-}
-namespace GlobalNamespace {
-class __RecordingToolConfigurationProcessor__ColorSaveData;
+namespace UnityEngine {
+struct LayerMask;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -784,8 +784,7 @@ public:
   inline ::GlobalNamespace::__ObjectsMovementRecorder__InitData* CreateObjectsMovementRecorderInitDataFromConfiguration(::GlobalNamespace::RecordingSettings* recordingSettings);
 
   /// @brief Method CreateMenuDestinationFromConfiguration, addr 0x2307b04, size 0x380, virtual false, abstract: false, final false
-  /// @param quitAppAfterRun: bool (default: false)
-  inline ::GlobalNamespace::MenuDestination* CreateMenuDestinationFromConfiguration(::GlobalNamespace::RecordingSettings* recordingSettings, bool quitAppAfterRun = false);
+  inline ::GlobalNamespace::MenuDestination* CreateMenuDestinationFromConfiguration(::GlobalNamespace::RecordingSettings* recordingSettings, bool quitAppAfterRun);
 
   // Ctor Parameters [CppParam { name: "", ty: "RecordingToolConfigurationProcessor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

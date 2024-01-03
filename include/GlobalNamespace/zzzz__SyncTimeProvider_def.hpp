@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SyncTimeProvider)
 namespace GlobalNamespace {
-class ITimeProvider;
+class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class ITimeProvider;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,6 +34,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::ITimeProvider"
   constexpr operator ::GlobalNamespace::ITimeProvider*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::ITimeProvider"
+  constexpr ::GlobalNamespace::ITimeProvider* i___GlobalNamespace__ITimeProvider() noexcept;
 
   constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __get__multiplayerSessionManager();
 

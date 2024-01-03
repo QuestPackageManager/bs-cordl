@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::GlobalNamespace::DIContainerSignal);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11166)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14394), inst: 301 }),
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14394), inst: 301 }), TypeDefinitionIndex(TypeDefinitionIndex(11166)),
 // TypeDefinitionIndex(TypeDefinitionIndex(14394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14392)) CS Name: ::DIContainerSignal*
 class CORDL_TYPE DIContainerSignal : public ::GlobalNamespace::GenericSignal_1<::Zenject::DiContainer*> {
 public:

@@ -1,17 +1,17 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonSerializerInternalBase_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__JsonContract_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__JsonSerializerInternalBase_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__ITraceWriter_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ErrorContext_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__ITraceWriter_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonContract_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonSerializerInternalBase_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonSerializerProxy_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__BidirectionalDictionary_2_def.hpp"
 #include "Newtonsoft/Json/zzzz__IJsonLineInfo_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
 #include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Serialization::__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer.System_Collections_Generic_IEqualityComparer_System_Object__Equals
 template <>
 
@@ -21,7 +21,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x267b804;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer*>::get(),
                                     "System.Collections.Generic.IEqualityComparer<System.Object>.Equals", std::vector<Il2CppClass*>{},
@@ -39,7 +39,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x267b810;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer*>::get(),
                                     "System.Collections.Generic.IEqualityComparer<System.Object>.GetHashCode", std::vector<Il2CppClass*>{},
@@ -55,7 +55,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x267b304;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer*>::get(),
                                     ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -64,6 +64,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::System::Object*>"
 constexpr Newtonsoft::Json::Serialization::__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer::operator ::System::Collections::Generic::IEqualityComparer_1<::System::Object*>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEqualityComparer_1<::System::Object*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::System::Object*>"
+constexpr ::System::Collections::Generic::IEqualityComparer_1<::System::Object*>*
+Newtonsoft::Json::Serialization::__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer::i___System__Collections__Generic__IEqualityComparer_1___System__Object__() noexcept {
   return static_cast<::System::Collections::Generic::IEqualityComparer_1<::System::Object*>*>(static_cast<void*>(this));
 }
 inline bool Newtonsoft::Json::Serialization::__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer::System_Collections_Generic_IEqualityComparer_System_Object__Equals(::System::Object* x,
@@ -103,7 +108,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0x267b27c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::JsonSerializerInternalBase*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonSerializer*>::get() })));
@@ -118,7 +123,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x110;
   constexpr static std::size_t addrs = 0x266e8cc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::JsonSerializerInternalBase*>::get(),
                                                  "get_DefaultReferenceMappings", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -134,7 +139,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xec;
   constexpr static std::size_t addrs = 0x267b30c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::JsonSerializerInternalBase*>::get(), "GetErrorContext", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
@@ -151,7 +156,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x267b3f8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::JsonSerializerInternalBase*>::get(), "ClearErrorContext",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -167,7 +172,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x3a8;
   constexpr static std::size_t addrs = 0x267b45c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::JsonSerializerInternalBase*>::get(), "IsErrorHandled", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{

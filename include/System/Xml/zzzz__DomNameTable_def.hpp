@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DomNameTable)
-namespace System::Xml {
-class XmlNameTable;
-}
 namespace System::Xml::Schema {
 class IXmlSchemaInfo;
 }
 namespace System::Xml {
-class XmlName;
+class XmlDocument;
 }
 namespace System::Xml {
-class XmlDocument;
+class XmlNameTable;
+}
+namespace System::Xml {
+class XmlName;
 }
 // Forward declare root types
 namespace System::Xml {

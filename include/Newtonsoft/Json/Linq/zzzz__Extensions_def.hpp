@@ -5,41 +5,29 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Extensions)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace Newtonsoft::Json::Linq {
-class JToken;
-}
-namespace System {
-class Object;
+template <typename T> class IJEnumerable_1;
 }
 namespace Newtonsoft::Json::Linq {
 class JObject;
 }
 namespace Newtonsoft::Json::Linq {
-class __Extensions____c;
-}
-namespace Newtonsoft::Json::Linq {
 class JProperty;
 }
 namespace Newtonsoft::Json::Linq {
-template <typename T> class __Extensions____c__3_1;
-}
-namespace Newtonsoft::Json::Linq {
-template <typename T> class __Extensions____c__2_1;
-}
-namespace Newtonsoft::Json::Linq {
-template <typename T> class IJEnumerable_1;
+class JToken;
 }
 namespace Newtonsoft::Json::Linq {
 template <typename T, typename U> class __Extensions___Convert_d__14_2;
 }
 namespace Newtonsoft::Json::Linq {
-template <typename T> class __Extensions____c__0_1;
+template <typename T, typename U> class __Extensions___Values_d__11_2;
 }
 namespace Newtonsoft::Json::Linq {
-template <typename T, typename U> class __Extensions___Values_d__11_2;
+class __Extensions____c;
+}
+namespace Newtonsoft::Json::Linq {
+template <typename T> class __Extensions____c__0_1;
 }
 namespace Newtonsoft::Json::Linq {
 template <typename T, typename U> class __Extensions____c__13_2;
@@ -47,20 +35,32 @@ template <typename T, typename U> class __Extensions____c__13_2;
 namespace Newtonsoft::Json::Linq {
 template <typename T> class __Extensions____c__1_1;
 }
+namespace Newtonsoft::Json::Linq {
+template <typename T> class __Extensions____c__2_1;
+}
+namespace Newtonsoft::Json::Linq {
+template <typename T> class __Extensions____c__3_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 class IDisposable;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+class Object;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {
@@ -411,17 +411,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<U>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<U>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<U>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<U>* i___System__Collections__Generic__IEnumerable_1_U_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<U>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<U>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<U>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<U>* i___System__Collections__Generic__IEnumerator_1_U_() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -652,17 +667,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<U>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<U>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<U>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<U>* i___System__Collections__Generic__IEnumerable_1_U_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<U>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<U>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<U>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<U>* i___System__Collections__Generic__IEnumerator_1_U_() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr int32_t& __get___1__state();
 

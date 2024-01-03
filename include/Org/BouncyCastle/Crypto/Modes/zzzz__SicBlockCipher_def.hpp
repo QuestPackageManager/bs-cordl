@@ -51,6 +51,9 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IBlockCipher*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
+  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* i___Org__BouncyCastle__Crypto__IBlockCipher() noexcept;
+
   constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& __get_cipher();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBlockCipher*> const& __get_cipher() const;

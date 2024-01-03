@@ -10,35 +10,35 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScenesTransitionSetupDataSO)
-namespace Zenject {
-class DiContainer;
-}
 namespace GlobalNamespace {
-struct __ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10;
+class SceneInfo;
 }
 namespace GlobalNamespace {
 class SceneSetupData;
 }
 namespace GlobalNamespace {
-struct __ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d;
-}
-namespace System::Threading::Tasks {
-class Task;
+struct __ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10;
 }
 namespace GlobalNamespace {
-class SceneInfo;
+struct __ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
-}
-namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
+struct TaskAwaiter;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -66,6 +66,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0xe2383c, size 0x250, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -123,7 +126,7 @@ static_assert(offsetof(::GlobalNamespace::__ScenesTransitionSetupDataSO___Before
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15416))
 // CS Name: ::ScenesTransitionSetupDataSO::<<BeforeScenesWillBeActivated>b__10_0>d
 struct CORDL_TYPE __ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d {
@@ -131,6 +134,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0xe23a98, size 0x180, virtual true, abstract: false, final true
   inline void MoveNext();

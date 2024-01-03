@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayerLoopSystemInternal)
-namespace UnityEngine::LowLevel {
-class __PlayerLoopSystem__UpdateFunction;
-}
 namespace System {
 class Type;
+}
+namespace UnityEngine::LowLevel {
+class __PlayerLoopSystem__UpdateFunction;
 }
 // Forward declare root types
 namespace UnityEngine::LowLevel {

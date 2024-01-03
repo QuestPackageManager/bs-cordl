@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScriptableRenderContext)
-namespace System {
-class Type;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace UnityEngine {
-class Camera;
-}
 namespace System {
 class Object;
+}
+namespace System {
+class Type;
+}
+namespace UnityEngine {
+class Camera;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -44,6 +44,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::ScriptableRenderContext>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::ScriptableRenderContext>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::ScriptableRenderContext>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Rendering::ScriptableRenderContext>* i___System__IEquatable_1___UnityEngine__Rendering__ScriptableRenderContext_();
 
   static inline void setStaticF_kRenderTypeTag(::UnityEngine::Rendering::ShaderTagId value);
 

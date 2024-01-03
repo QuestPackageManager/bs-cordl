@@ -9,32 +9,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AppDomain)
-namespace System {
-class ResolveEventHandler;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace System::Reflection {
-class MethodInfo;
-}
-namespace System::Security::Policy {
-class Evidence;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Reflection {
 class Assembly;
 }
-namespace System {
-class Object;
-}
-namespace System {
-class AssemblyLoadEventHandler;
+namespace System::Reflection {
+class MethodInfo;
 }
 namespace System::Runtime::ExceptionServices {
 class FirstChanceExceptionEventArgs;
 }
-namespace System {
-class UnhandledExceptionEventHandler;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace System::Runtime::Remoting::Contexts {
+class Context;
 }
 namespace System::Runtime::Remoting::Messaging {
 class CADMethodCallMessage;
@@ -42,20 +33,29 @@ class CADMethodCallMessage;
 namespace System::Runtime::Remoting::Messaging {
 class CADMethodReturnMessage;
 }
+namespace System::Security::Policy {
+class Evidence;
+}
+namespace System::Threading {
+struct StackCrawlMark;
+}
+namespace System {
+class AssemblyLoadEventHandler;
+}
 namespace System {
 template <typename TEventArgs> class EventHandler_1;
 }
 namespace System {
 class EventHandler;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System {
+class Object;
 }
-namespace System::Runtime::Remoting::Contexts {
-class Context;
+namespace System {
+class ResolveEventHandler;
 }
-namespace System::Threading {
-struct StackCrawlMark;
+namespace System {
+class UnhandledExceptionEventHandler;
 }
 // Forward declare root types
 namespace System {

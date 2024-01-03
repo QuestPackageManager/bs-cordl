@@ -10,10 +10,7 @@ namespace UnityEngine::Yoga {
 struct YogaAlign;
 }
 namespace UnityEngine::Yoga {
-struct YogaWrap;
-}
-namespace UnityEngine::Yoga {
-struct YogaOverflow;
+struct YogaDirection;
 }
 namespace UnityEngine::Yoga {
 struct YogaDisplay;
@@ -25,19 +22,22 @@ namespace UnityEngine::Yoga {
 struct YogaFlexDirection;
 }
 namespace UnityEngine::Yoga {
-class YogaNode;
-}
-namespace UnityEngine::Yoga {
-struct YogaPositionType;
-}
-namespace UnityEngine::Yoga {
-struct YogaDirection;
+struct YogaJustify;
 }
 namespace UnityEngine::Yoga {
 struct YogaMeasureMode;
 }
 namespace UnityEngine::Yoga {
-struct YogaJustify;
+class YogaNode;
+}
+namespace UnityEngine::Yoga {
+struct YogaOverflow;
+}
+namespace UnityEngine::Yoga {
+struct YogaPositionType;
+}
+namespace UnityEngine::Yoga {
+struct YogaWrap;
 }
 // Forward declare root types
 namespace UnityEngine::Yoga {

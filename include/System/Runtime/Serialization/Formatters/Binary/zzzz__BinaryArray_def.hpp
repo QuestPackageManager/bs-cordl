@@ -10,22 +10,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BinaryArray)
 namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryParser;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
 struct BinaryArrayTypeEnum;
 }
-namespace System {
-class Object;
+namespace System::Runtime::Serialization::Formatters::Binary {
+struct BinaryHeaderEnum;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct BinaryTypeEnum;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryWriter;
+class __BinaryParser;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-struct BinaryHeaderEnum;
+class __BinaryWriter;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {

@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayableAsset)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace UnityEngine::Playables {
 class IPlayableAsset;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace UnityEngine::Playables {
+struct PlayableBinding;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
-struct PlayableBinding;
+struct Playable;
 }
 namespace UnityEngine {
 class GameObject;
-}
-namespace UnityEngine::Playables {
-struct Playable;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {
@@ -46,6 +46,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayableAsset"
   constexpr operator ::UnityEngine::Playables::IPlayableAsset*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::Playables::IPlayableAsset"
+  constexpr ::UnityEngine::Playables::IPlayableAsset* i___UnityEngine__Playables__IPlayableAsset() noexcept;
 
   /// @brief Method CreatePlayable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* owner);

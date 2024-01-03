@@ -9,28 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SharedVertex)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine::ProBuilder {
-class __SharedVertex____c;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
@@ -39,10 +27,22 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template <typename T> class List_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine::ProBuilder {
+class __SharedVertex____c;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -132,11 +132,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<int32_t>"
   constexpr operator ::System::Collections::Generic::ICollection_1<int32_t>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::ICollection_1<int32_t>"
+  constexpr ::System::Collections::Generic::ICollection_1<int32_t>* i___System__Collections__Generic__ICollection_1_int32_t_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<int32_t>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<int32_t>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<int32_t>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<int32_t>* i___System__Collections__Generic__IEnumerable_1_int32_t_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_m_Vertices();
 

@@ -5,17 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SignalDeclarationAsyncInitializer)
-namespace Zenject {
-class SignalDeclaration;
-}
-namespace Zenject {
-class TickableManager;
-}
-namespace Zenject {
-template <typename T> class LazyInject_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System {
+class Object;
 }
 namespace Zenject {
 class IInitializable;
@@ -23,8 +17,14 @@ class IInitializable;
 namespace Zenject {
 class InjectTypeInfo;
 }
-namespace System {
-class Object;
+namespace Zenject {
+template <typename T> class LazyInject_1;
+}
+namespace Zenject {
+class SignalDeclaration;
+}
+namespace Zenject {
+class TickableManager;
 }
 // Forward declare root types
 namespace Zenject {
@@ -50,6 +50,9 @@ public:
 
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
+
+  /// @brief Convert to "::Zenject::IInitializable"
+  constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
 
   constexpr ::Zenject::LazyInject_1<::Zenject::TickableManager*>*& __get__tickManager();
 

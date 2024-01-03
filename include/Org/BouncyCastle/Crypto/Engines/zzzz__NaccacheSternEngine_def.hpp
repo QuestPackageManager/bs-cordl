@@ -11,13 +11,13 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 class NaccacheSternKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto {
+class IAsymmetricBlockCipher;
+}
+namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
-}
-namespace Org::BouncyCastle::Crypto {
-class IAsymmetricBlockCipher;
 }
 namespace System::Collections {
 class IList;
@@ -53,6 +53,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
+  constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* i___Org__BouncyCastle__Crypto__IAsymmetricBlockCipher() noexcept;
 
   constexpr bool& __get_forEncryption();
 

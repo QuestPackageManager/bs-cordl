@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__EventArgs_def.hpp"
 CORDL_MODULE_EXPORT(ErrorEventArgs)
-namespace System {
-class Object;
-}
 namespace Newtonsoft::Json::Serialization {
 class ErrorContext;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {

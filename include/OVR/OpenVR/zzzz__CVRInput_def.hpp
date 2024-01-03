@@ -17,34 +17,34 @@ namespace OVR::OpenVR {
 struct EVRInputError;
 }
 namespace OVR::OpenVR {
+struct EVRSkeletalMotionRange;
+}
+namespace OVR::OpenVR {
 struct EVRSkeletalTransformSpace;
+}
+namespace OVR::OpenVR {
+struct InputAnalogActionData_t;
+}
+namespace OVR::OpenVR {
+struct InputDigitalActionData_t;
+}
+namespace OVR::OpenVR {
+struct InputOriginInfo_t;
+}
+namespace OVR::OpenVR {
+struct InputPoseActionData_t;
 }
 namespace OVR::OpenVR {
 struct InputSkeletalActionData_t;
 }
 namespace OVR::OpenVR {
-struct InputOriginInfo_t;
+struct VRActiveActionSet_t;
 }
 namespace OVR::OpenVR {
 struct VRBoneTransform_t;
 }
 namespace System::Text {
 class StringBuilder;
-}
-namespace OVR::OpenVR {
-struct InputDigitalActionData_t;
-}
-namespace OVR::OpenVR {
-struct EVRSkeletalMotionRange;
-}
-namespace OVR::OpenVR {
-struct VRActiveActionSet_t;
-}
-namespace OVR::OpenVR {
-struct InputPoseActionData_t;
-}
-namespace OVR::OpenVR {
-struct InputAnalogActionData_t;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

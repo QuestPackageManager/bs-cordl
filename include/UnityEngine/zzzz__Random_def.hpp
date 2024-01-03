@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Random)
 namespace UnityEngine {
-struct Quaternion;
+struct Color;
 }
 namespace UnityEngine {
-struct Color;
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;

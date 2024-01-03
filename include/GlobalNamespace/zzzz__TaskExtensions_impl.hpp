@@ -5,12 +5,12 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__TaskExtensions_def.hpp"
 #include "GlobalNamespace/zzzz__TaskExtensions_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__TaskCompletionSource_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
+#include "System/Threading/Tasks/zzzz__TaskCompletionSource_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 template <typename T> constexpr ::System::Threading::Tasks::TaskCompletionSource_1<T>*& GlobalNamespace::__TaskExtensions____c__DisplayClass0_0_1<T>::__get_tcs() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tcs;
@@ -55,6 +55,11 @@ template <typename T> inline void GlobalNamespace::__TaskExtensions____c__Displa
 template <typename T> constexpr ::GlobalNamespace::__TaskExtensions____c__DisplayClass0_0_1<T>::__TaskExtensions____c__DisplayClass0_0_1() {}
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 template <typename T> constexpr GlobalNamespace::__TaskExtensions___WaitForTask_d__1_1<T>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+template <typename T>
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::__TaskExtensions___WaitForTask_d__1_1<T>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename T> inline void GlobalNamespace::__TaskExtensions___WaitForTask_d__1_1<T>::MoveNext() {

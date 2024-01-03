@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteTrailParticleSystem);
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15889)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15889))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4872))
 // CS Name: ::NoteTrailParticleSystem*
 class CORDL_TYPE NoteTrailParticleSystem : public ::UnityEngine::MonoBehaviour {

@@ -5,14 +5,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RemoteProcedureCall)
-namespace LiteNetLib::Utils {
-class INetSerializable;
-}
 namespace GlobalNamespace {
 class IPoolablePacket;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
 }
 namespace GlobalNamespace {
 class IRemoteProcedureCall;
@@ -21,7 +15,13 @@ namespace GlobalNamespace {
 template <typename T> class __RemoteProcedureCall__TypeWrapper_1;
 }
 namespace LiteNetLib::Utils {
+class INetSerializable;
+}
+namespace LiteNetLib::Utils {
 class NetDataReader;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -125,11 +125,20 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IRemoteProcedureCall"
   constexpr operator ::GlobalNamespace::IRemoteProcedureCall*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IRemoteProcedureCall"
+  constexpr ::GlobalNamespace::IRemoteProcedureCall* i___GlobalNamespace__IRemoteProcedureCall() noexcept;
+
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IPoolablePacket"
   constexpr operator ::GlobalNamespace::IPoolablePacket*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
+  constexpr ::GlobalNamespace::IPoolablePacket* i___GlobalNamespace__IPoolablePacket() noexcept;
 
   constexpr int64_t& __get__syncTime_k__BackingField();
 

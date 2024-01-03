@@ -5,6 +5,18 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__FactoryToChoiceBinder_5_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(FactoryArgumentsToChoiceBinder_5)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System {
+class Object;
+}
+namespace Zenject {
+class BindInfo;
+}
+namespace Zenject {
+class DiContainer;
+}
 namespace Zenject {
 class FactoryBindInfo;
 }
@@ -12,19 +24,7 @@ namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract> class FactoryToChoiceBinder_5;
 }
 namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
 struct TypeValuePair;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace Zenject {
-class BindInfo;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace Zenject {

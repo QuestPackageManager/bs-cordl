@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CompatibleComparer)
 namespace System::Collections {
-class IHashCodeProvider;
-}
-namespace System::Collections {
 class IComparer;
 }
 namespace System::Collections {
 class IEqualityComparer;
+}
+namespace System::Collections {
+class IHashCodeProvider;
 }
 namespace System {
 class Object;
@@ -51,6 +51,9 @@ public:
 
   /// @brief Convert operator to "::System::Collections::IEqualityComparer"
   constexpr operator ::System::Collections::IEqualityComparer*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEqualityComparer"
+  constexpr ::System::Collections::IEqualityComparer* i___System__Collections__IEqualityComparer() noexcept;
 
   constexpr ::System::Collections::IComparer*& __get__comparer();
 

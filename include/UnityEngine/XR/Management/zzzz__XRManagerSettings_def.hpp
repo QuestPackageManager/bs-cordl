@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XRManagerSettings)
-namespace UnityEngine::XR::Management {
-class XRLoader;
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -23,17 +23,17 @@ template <typename T> class List_1;
 namespace System::Collections {
 class IEnumerator;
 }
-namespace UnityEngine::XR::Management {
-class __XRManagerSettings___InitializeLoader_d__24;
-}
 namespace System {
 class IDisposable;
 }
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace UnityEngine::XR::Management {
+class XRLoader;
+}
+namespace UnityEngine::XR::Management {
+class __XRManagerSettings___InitializeLoader_d__24;
 }
 // Forward declare root types
 namespace UnityEngine::XR::Management {
@@ -49,9 +49,8 @@ MARK_REF_PTR_T(::UnityEngine::XR::Management::__XRManagerSettings___InitializeLo
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR::Management {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3842)), TypeDefinitionIndex(TypeDefinitionIndex(16035)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1697 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(16039)) CS Name:
-// ::XRManagerSettings::<InitializeLoader>d__24*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1697
+// }), TypeDefinitionIndex(TypeDefinitionIndex(16035))} Self: TypeDefinitionIndex(TypeDefinitionIndex(16039)) CS Name: ::XRManagerSettings::<InitializeLoader>d__24*
 class CORDL_TYPE __XRManagerSettings___InitializeLoader_d__24 : public ::System::Object {
 public:
   // Declarations
@@ -74,11 +73,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -295,8 +303,7 @@ public:
   inline ::System::Collections::IEnumerator* InitializeLoader();
 
   /// @brief Method TryAddLoader, addr 0x2c76824, size 0x194, virtual false, abstract: false, final false
-  /// @param index: int32_t (default: static_cast<int32_t>(0xffffffff))
-  inline bool TryAddLoader(::UnityEngine::XR::Management::XRLoader* loader, int32_t index = static_cast<int32_t>(0xffffffff));
+  inline bool TryAddLoader(::UnityEngine::XR::Management::XRLoader* loader, int32_t index);
 
   /// @brief Method TryRemoveLoader, addr 0x2c769b8, size 0x94, virtual false, abstract: false, final false
   inline bool TryRemoveLoader(::UnityEngine::XR::Management::XRLoader* loader);

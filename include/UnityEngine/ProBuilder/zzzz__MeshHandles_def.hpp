@@ -7,6 +7,27 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MeshHandles)
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine::ProBuilder {
+struct Edge;
+}
+namespace UnityEngine::ProBuilder {
+class Face;
+}
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
@@ -16,32 +37,11 @@ class __MeshHandles____c;
 namespace UnityEngine {
 class Mesh;
 }
-namespace UnityEngine::ProBuilder {
-class Face;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine::ProBuilder {
-struct Edge;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
-}
 namespace UnityEngine {
 struct Vector3;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace UnityEngine {
+struct Vector4;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

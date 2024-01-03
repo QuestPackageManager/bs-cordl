@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StrongNameKeyPair)
 namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System {
-class Object;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+class IDeserializationCallback;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
 namespace System::Runtime::Serialization {
-class IDeserializationCallback;
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -53,8 +53,14 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
   constexpr operator ::System::Runtime::Serialization::IDeserializationCallback*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
+  constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback() noexcept;
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__publicKey();
 

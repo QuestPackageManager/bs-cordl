@@ -15,32 +15,8 @@ CORDL_MODULE_EXPORT(AvatarSystemCollection)
 namespace BeatSaber::AvatarCore {
 struct AvatarSystemIdentifier;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace BeatSaber::AvatarCore {
-class __AvatarSystemCollection____c;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace BeatSaber::AvatarCore {
 class IAvatarSystemMetadata;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace BeatSaber::AvatarCore {
-struct __AvatarSystemCollection___GetMultiplayerAvatarsData_d__16;
-}
-namespace GlobalNamespace {
-struct MultiplayerAvatarsData;
 }
 namespace BeatSaber::AvatarCore {
 class IAvatarSystem;
@@ -48,20 +24,44 @@ class IAvatarSystem;
 namespace BeatSaber::AvatarCore {
 class IOptionalAvatarDataProvider;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace BeatSaber::AvatarCore {
+struct __AvatarSystemCollection___GetMultiplayerAvatarsData_d__16;
+}
+namespace BeatSaber::AvatarCore {
+class __AvatarSystemCollection____c;
 }
 namespace GlobalNamespace {
 struct MultiplayerAvatarData;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace GlobalNamespace {
+struct MultiplayerAvatarsData;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {
@@ -133,15 +133,17 @@ static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::__AvatarS
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5062 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 893 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(15020)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(15021)), TypeDefinitionIndex(TypeDefinitionIndex(3394))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15181))
-// CS Name: ::AvatarSystemCollection::<GetMultiplayerAvatarsData>d__16
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5062 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(15020)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 893 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15021))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15181)) CS Name: ::AvatarSystemCollection::<GetMultiplayerAvatarsData>d__16
 struct CORDL_TYPE __AvatarSystemCollection___GetMultiplayerAvatarsData_d__16 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0xe0de98, size 0x89c, virtual true, abstract: false, final true
   inline void MoveNext();

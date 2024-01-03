@@ -9,26 +9,44 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PSVR2Helper)
-namespace UnityEngine::XR {
-struct XRNode;
-}
-namespace System {
-class Action;
-}
 namespace GlobalNamespace {
 class IVRPlatformHelper;
 }
-namespace UnityEngine {
-struct Pose;
+namespace GlobalNamespace {
+class UnityXRController;
+}
+namespace GlobalNamespace {
+struct VRPlatformSDK;
+}
+namespace GlobalNamespace {
+struct __PSVR2Helper__HeadsetHapticFrequencyLimit;
+}
+namespace GlobalNamespace {
+class __UnityXRController__Configuration;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+class Action;
+}
 namespace UnityEngine::InputSystem::XR {
 class XRControllerWithRumble;
 }
+namespace UnityEngine::InputSystem {
+struct InputDeviceChange;
+}
+namespace UnityEngine::InputSystem {
+class InputDevice;
+}
+namespace UnityEngine::XR {
+struct XRNode;
+}
 namespace UnityEngine {
-struct Vector3;
+struct Pose;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -36,26 +54,8 @@ struct Quaternion;
 namespace UnityEngine {
 struct Vector2;
 }
-namespace GlobalNamespace {
-struct VRPlatformSDK;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
-namespace GlobalNamespace {
-class UnityXRController;
-}
-namespace GlobalNamespace {
-class __UnityXRController__Configuration;
-}
-namespace GlobalNamespace {
-struct __PSVR2Helper__HeadsetHapticFrequencyLimit;
-}
-namespace UnityEngine::InputSystem {
-struct InputDeviceChange;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -110,7 +110,7 @@ static_assert(offsetof(::GlobalNamespace::__PSVR2Helper__HeadsetHapticFrequencyL
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10057)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10057))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14429))
 // CS Name: ::PSVR2Helper*
 class CORDL_TYPE PSVR2Helper : public ::UnityEngine::MonoBehaviour {
@@ -185,6 +185,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IVRPlatformHelper"
   constexpr operator ::GlobalNamespace::IVRPlatformHelper*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IVRPlatformHelper"
+  constexpr ::GlobalNamespace::IVRPlatformHelper* i___GlobalNamespace__IVRPlatformHelper() noexcept;
 
   constexpr ::GlobalNamespace::__UnityXRController__Configuration*& __get__leftController();
 

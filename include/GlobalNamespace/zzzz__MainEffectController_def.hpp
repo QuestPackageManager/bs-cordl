@@ -7,17 +7,17 @@ CORDL_MODULE_EXPORT(MainEffectController)
 namespace GlobalNamespace {
 class FloatSO;
 }
+namespace GlobalNamespace {
+class ImageEffectController;
+}
+namespace GlobalNamespace {
+class MainEffectContainerSO;
+}
 namespace System {
 template <typename T> class Action_1;
 }
 namespace UnityEngine {
 class RenderTexture;
-}
-namespace GlobalNamespace {
-class MainEffectContainerSO;
-}
-namespace GlobalNamespace {
-class ImageEffectController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

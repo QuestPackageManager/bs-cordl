@@ -4,35 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ReflectionTypeInfo)
-namespace Zenject::Internal {
-class __ReflectionTypeInfo__InjectMethodInfo;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace Zenject::Internal {
-class __ReflectionTypeInfo__InjectConstructorInfo;
-}
-namespace Zenject::Internal {
-class __ReflectionTypeInfo__InjectParameterInfo;
-}
-namespace Zenject::Internal {
-class __ReflectionTypeInfo__InjectFieldInfo;
-}
-namespace System {
-class Type;
-}
-namespace Zenject::Internal {
-class __ReflectionTypeInfo__InjectPropertyInfo;
 }
 namespace System::Reflection {
 class ConstructorInfo;
 }
 namespace System::Reflection {
 class FieldInfo;
-}
-namespace Zenject {
-class InjectableInfo;
 }
 namespace System::Reflection {
 class MethodInfo;
@@ -42,6 +21,27 @@ class ParameterInfo;
 }
 namespace System::Reflection {
 class PropertyInfo;
+}
+namespace System {
+class Type;
+}
+namespace Zenject::Internal {
+class __ReflectionTypeInfo__InjectConstructorInfo;
+}
+namespace Zenject::Internal {
+class __ReflectionTypeInfo__InjectFieldInfo;
+}
+namespace Zenject::Internal {
+class __ReflectionTypeInfo__InjectMethodInfo;
+}
+namespace Zenject::Internal {
+class __ReflectionTypeInfo__InjectParameterInfo;
+}
+namespace Zenject::Internal {
+class __ReflectionTypeInfo__InjectPropertyInfo;
+}
+namespace Zenject {
+class InjectableInfo;
 }
 // Forward declare root types
 namespace Zenject::Internal {

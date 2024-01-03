@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(IChannelSender)
 namespace System::Runtime::Remoting::Channels {
 class IChannel;
 }
-namespace System {
-class Object;
-}
 namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Channels {
@@ -32,6 +32,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::Remoting::Channels::IChannel"
   constexpr operator ::System::Runtime::Remoting::Channels::IChannel*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Remoting::Channels::IChannel"
+  constexpr ::System::Runtime::Remoting::Channels::IChannel* i___System__Runtime__Remoting__Channels__IChannel() noexcept;
 
   /// @brief Method CreateMessageSink, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Runtime::Remoting::Messaging::IMessageSink* CreateMessageSink(::StringW url, ::System::Object* remoteChannelData, ByRef<::StringW> objectURI);

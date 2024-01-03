@@ -17,13 +17,13 @@ namespace System::Collections {
 class ArrayList;
 }
 namespace System::Security::Cryptography {
+class AsymmetricAlgorithm;
+}
+namespace System::Security::Cryptography {
 struct DSAParameters;
 }
 namespace System::Security::Cryptography {
 class DSA;
-}
-namespace System::Security::Cryptography {
-class AsymmetricAlgorithm;
 }
 namespace System::Security::Cryptography {
 class RSA;

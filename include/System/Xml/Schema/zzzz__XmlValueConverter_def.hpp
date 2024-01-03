@@ -7,15 +7,6 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlValueConverter)
-namespace System {
-class Object;
-}
-namespace System {
-struct DateTime;
-}
-namespace System {
-class Type;
-}
 namespace System::Xml {
 class IXmlNamespaceResolver;
 }
@@ -23,7 +14,16 @@ namespace System {
 struct DateTimeOffset;
 }
 namespace System {
+struct DateTime;
+}
+namespace System {
 struct Decimal;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

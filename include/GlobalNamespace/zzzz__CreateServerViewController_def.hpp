@@ -7,17 +7,17 @@ CORDL_MODULE_EXPORT(CreateServerViewController)
 namespace GlobalNamespace {
 class CreateServerFormController;
 }
-namespace UnityEngine::UI {
-class Button;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
 namespace GlobalNamespace {
 struct CreateServerFormData;
 }
 namespace GlobalNamespace {
 class MultiplayerModeSettings;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace UnityEngine::UI {
+class Button;
 }
 // Forward declare root types
 namespace GlobalNamespace {

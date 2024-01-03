@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(JSONObject)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace HoudiniEngineUnity {
+struct JSONNodeType;
+}
+namespace HoudiniEngineUnity {
+class JSONNode;
 }
 namespace HoudiniEngineUnity {
 struct JSONTextMode;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace HoudiniEngineUnity {
-class JSONNode;
+struct __JSONNode__Enumerator;
 }
 namespace HoudiniEngineUnity {
 class __JSONObject____c__DisplayClass21_0;
@@ -26,23 +26,17 @@ class __JSONObject____c__DisplayClass21_0;
 namespace HoudiniEngineUnity {
 class __JSONObject___get_Children_d__23;
 }
-namespace HoudiniEngineUnity {
-struct __JSONNode__Enumerator;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace System::Text {
-class StringBuilder;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
-namespace HoudiniEngineUnity {
-struct JSONNodeType;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
-}
-namespace System {
-class IDisposable;
-}
-namespace System {
-class Object;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -50,8 +44,14 @@ class IEnumerable;
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System::Text {
+class StringBuilder;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -123,8 +123,8 @@ static_assert(offsetof(::HoudiniEngineUnity::__JSONObject____c__DisplayClass21_0
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9869)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3819), inst: 1428 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3819))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9873)) CS Name: ::JSONObject::<get_Children>d__23*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3819)), TypeDefinitionIndex(TypeDefinitionIndex(9869)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3819), inst: 1428
+// }), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9873)) CS Name: ::JSONObject::<get_Children>d__23*
 class CORDL_TYPE __JSONObject___get_Children_d__23 : public ::System::Object {
 public:
   // Declarations
@@ -152,17 +152,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>* i___System__Collections__Generic__IEnumerable_1___HoudiniEngineUnity__JSONNode__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>* i___System__Collections__Generic__IEnumerator_1___HoudiniEngineUnity__JSONNode__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

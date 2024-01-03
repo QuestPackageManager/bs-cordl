@@ -7,31 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AvatarSystem)
 namespace BeatSaber::AvatarCore {
+struct AvatarDisplayContext;
+}
+namespace BeatSaber::AvatarCore {
 class AvatarEditorFlowCoordinator;
-}
-namespace BeatSaber::AvatarCore {
-class IOptionalAvatarDataProvider;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace BeatSaber::AvatarCore {
-class Avatar;
-}
-namespace BeatSaber::AvatarCore {
-struct AvatarSystemIdentifier;
-}
-namespace Zenject {
-class DiContainer;
 }
 namespace BeatSaber::AvatarCore {
 class AvatarSelectionView;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
+namespace BeatSaber::AvatarCore {
+struct AvatarSystemIdentifier;
 }
 namespace BeatSaber::AvatarCore {
-struct AvatarDisplayContext;
+class Avatar;
 }
 namespace BeatSaber::AvatarCore {
 class IAvatarSystemMetadata;
@@ -39,8 +27,20 @@ class IAvatarSystemMetadata;
 namespace BeatSaber::AvatarCore {
 class IAvatarSystem;
 }
+namespace BeatSaber::AvatarCore {
+class IOptionalAvatarDataProvider;
+}
 namespace GlobalNamespace {
 struct MultiplayerAvatarData;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {
@@ -89,8 +89,14 @@ public:
   /// @brief Convert operator to "::BeatSaber::AvatarCore::IAvatarSystem"
   constexpr operator ::BeatSaber::AvatarCore::IAvatarSystem*() noexcept;
 
+  /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarSystem"
+  constexpr ::BeatSaber::AvatarCore::IAvatarSystem* i___BeatSaber__AvatarCore__IAvatarSystem() noexcept;
+
   /// @brief Convert operator to "::BeatSaber::AvatarCore::IAvatarSystemMetadata"
   constexpr operator ::BeatSaber::AvatarCore::IAvatarSystemMetadata*() noexcept;
+
+  /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarSystemMetadata"
+  constexpr ::BeatSaber::AvatarCore::IAvatarSystemMetadata* i___BeatSaber__AvatarCore__IAvatarSystemMetadata() noexcept;
 
   constexpr ::BeatSaber::AvatarCore::AvatarSystemIdentifier& __get__typeIdentifier();
 
@@ -148,17 +154,14 @@ public:
   inline ::System::Threading::Tasks::Task_1<bool>* get_avatarCreated();
 
   /// @brief Method InstantiateAvatar, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  /// @param container: ::Zenject::DiContainer* (default: nullptr)
   inline ::System::Threading::Tasks::Task_1<::BeatSaber::AvatarCore::Avatar*>* InstantiateAvatar(::BeatSaber::AvatarCore::AvatarDisplayContext avatarDisplayContext, int32_t levelOfDetail,
-                                                                                                 ::Zenject::DiContainer* container = nullptr);
+                                                                                                 ::Zenject::DiContainer* container);
 
   /// @brief Method InstantiateAvatarEditorUI, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  /// @param container: ::Zenject::DiContainer* (default: nullptr)
-  inline ::System::Threading::Tasks::Task_1<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*>* InstantiateAvatarEditorUI(::Zenject::DiContainer* container = nullptr);
+  inline ::System::Threading::Tasks::Task_1<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*>* InstantiateAvatarEditorUI(::Zenject::DiContainer* container);
 
   /// @brief Method InstantiateAvatarSelectionView, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  /// @param container: ::Zenject::DiContainer* (default: nullptr)
-  inline ::System::Threading::Tasks::Task_1<::BeatSaber::AvatarCore::AvatarSelectionView*>* InstantiateAvatarSelectionView(::Zenject::DiContainer* container = nullptr);
+  inline ::System::Threading::Tasks::Task_1<::BeatSaber::AvatarCore::AvatarSelectionView*>* InstantiateAvatarSelectionView(::Zenject::DiContainer* container);
 
   /// @brief Method GetMultiplayerAvatarsData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerAvatarData>* GetMultiplayerAvatarsData();

@@ -9,17 +9,32 @@ CORDL_MODULE_EXPORT(SubContainerBindingFinalizer)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace Zenject {
-class ISubContainerCreator;
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 class Object;
 }
+namespace System {
+class Type;
+}
 namespace Zenject {
 class BindInfo;
 }
-namespace System {
-class Type;
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class IProvider;
+}
+namespace Zenject {
+class ISubContainerCreator;
+}
+namespace Zenject {
+class InjectTypeInfo;
+}
+namespace Zenject {
+class SubContainerCreatorCached;
 }
 namespace Zenject {
 class __SubContainerBindingFinalizer____c__DisplayClass5_0;
@@ -28,25 +43,10 @@ namespace Zenject {
 class __SubContainerBindingFinalizer____c__DisplayClass5_1;
 }
 namespace Zenject {
-class __SubContainerBindingFinalizer____c__DisplayClass6_1;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
 class __SubContainerBindingFinalizer____c__DisplayClass6_0;
 }
 namespace Zenject {
-class IProvider;
-}
-namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
-class SubContainerCreatorCached;
+class __SubContainerBindingFinalizer____c__DisplayClass6_1;
 }
 // Forward declare root types
 namespace Zenject {

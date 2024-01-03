@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlStyleFactory);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6744)), TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(6973)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5286 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6972)) CS Name: ::UnityEngine.UIElements::UxmlStyleFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6973)), TypeDefinitionIndex(TypeDefinitionIndex(6744)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5286
+// }), TypeDefinitionIndex(TypeDefinitionIndex(6997))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6972)) CS Name: ::UnityEngine.UIElements::UxmlStyleFactory*
 class CORDL_TYPE UxmlStyleFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::UxmlStyleTraits*> {
 public:
   // Declarations

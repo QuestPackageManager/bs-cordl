@@ -6,32 +6,32 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__InjectSources_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(GetterProvider_2)
-namespace Zenject {
-struct InjectSources;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 class Action;
 }
 namespace System {
-class Type;
-}
-namespace System {
 template <typename T, typename TResult> class Func_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace Zenject {
-class DiContainer;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class Type;
+}
+namespace Zenject {
+class DiContainer;
 }
 namespace Zenject {
 class IProvider;
 }
 namespace Zenject {
 class InjectContext;
+}
+namespace Zenject {
+struct InjectSources;
 }
 namespace Zenject {
 struct TypeValuePair;
@@ -75,6 +75,9 @@ public:
 
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
+
+  /// @brief Convert to "::Zenject::IProvider"
+  constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
 
   constexpr ::Zenject::DiContainer*& __get__container();
 

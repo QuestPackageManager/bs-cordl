@@ -40,6 +40,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IGamePause"
   constexpr operator ::GlobalNamespace::IGamePause*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IGamePause"
+  constexpr ::GlobalNamespace::IGamePause* i___GlobalNamespace__IGamePause() noexcept;
+
   constexpr ::System::Action*& __get_didPauseEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_didPauseEvent() const;

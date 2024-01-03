@@ -12,16 +12,16 @@ namespace UnityEngine {
 class Object;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class DiContainer;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TValue> class IFactory_5;
 }
 namespace Zenject {
 class IFactory;
 }
 namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TValue> class IFactory_5;
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -49,8 +49,14 @@ public:
   /// @brief Convert operator to "::Zenject::IFactory_5<::UnityEngine::Object*,P1,P2,P3,T>"
   constexpr operator ::Zenject::IFactory_5<::UnityEngine::Object*, P1, P2, P3, T>*() noexcept;
 
+  /// @brief Convert to "::Zenject::IFactory_5<::UnityEngine::Object*,P1,P2,P3,T>"
+  constexpr ::Zenject::IFactory_5<::UnityEngine::Object*, P1, P2, P3, T>* i___Zenject__IFactory_5___UnityEngine__Object__P1_P2_P3_T_() noexcept;
+
   /// @brief Convert operator to "::Zenject::IFactory"
   constexpr operator ::Zenject::IFactory*() noexcept;
+
+  /// @brief Convert to "::Zenject::IFactory"
+  constexpr ::Zenject::IFactory* i___Zenject__IFactory() noexcept;
 
   constexpr ::Zenject::DiContainer*& __get__container();
 

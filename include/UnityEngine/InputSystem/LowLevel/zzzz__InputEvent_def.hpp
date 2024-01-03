@@ -9,14 +9,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputEvent)
-namespace UnityEngineInternal::Input {
-struct NativeInputEvent;
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventBuffer;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventBuffer;
+namespace UnityEngineInternal::Input {
+struct NativeInputEvent;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -95,8 +95,7 @@ public:
   inline void set_internalTime(double_t value);
 
   /// @brief Method .ctor, addr 0x2ae9a04, size 0x104, virtual false, abstract: false, final false
-  /// @param time: double_t (default: -1.0)
-  inline void _ctor(::UnityEngine::InputSystem::Utilities::FourCC type, int32_t sizeInBytes, int32_t deviceId, double_t time = -1.0);
+  inline void _ctor(::UnityEngine::InputSystem::Utilities::FourCC type, int32_t sizeInBytes, int32_t deviceId, double_t time);
 
   /// @brief Method get_handled, addr 0x2aea280, size 0xc, virtual false, abstract: false, final false
   inline bool get_handled();

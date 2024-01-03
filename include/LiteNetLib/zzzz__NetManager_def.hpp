@@ -2,9 +2,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "LiteNetLib/zzzz__DeliveryMethod_def.hpp"
-#include "LiteNetLib/zzzz__DisconnectReason_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketError_def.hpp"
 #include "System/Threading/zzzz__ThreadPriority_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
@@ -16,74 +13,23 @@ CORDL_MODULE_EXPORT(NetManager)
 namespace LiteNetLib::Layers {
 class PacketLayerBase;
 }
-namespace LiteNetLib {
-struct __NetManager__NetPeerEnumerator;
-}
-namespace System::Collections::Generic {
-template <typename T> class Stack_1;
-}
-namespace LiteNetLib {
-class NetEvent;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System {
-class Object;
-}
 namespace LiteNetLib::Utils {
 class NetDataWriter;
-}
-namespace LiteNetLib {
-class NetPeer;
-}
-namespace System::Collections::Generic {
-template <typename T> class Queue_1;
-}
-namespace LiteNetLib {
-class NatPunchModule;
-}
-namespace LiteNetLib {
-struct DisconnectReason;
-}
-namespace LiteNetLib {
-class NetPacket;
-}
-namespace LiteNetLib {
-class IDeliveryEventListener;
 }
 namespace LiteNetLib {
 class ConnectionRequest;
 }
 namespace LiteNetLib {
-class NetConnectRequestPacket;
-}
-namespace System::Net {
-class IPAddress;
-}
-namespace LiteNetLib {
 struct ConnectionState;
-}
-namespace System::Net {
-class IPEndPoint;
-}
-namespace LiteNetLib {
-struct __NetEvent__EType;
 }
 namespace LiteNetLib {
 struct DeliveryMethod;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace LiteNetLib {
+struct DisconnectReason;
 }
-namespace System::Threading {
-class ReaderWriterLockSlim;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace LiteNetLib {
+class IDeliveryEventListener;
 }
 namespace LiteNetLib {
 class INetEventListener;
@@ -91,17 +37,23 @@ class INetEventListener;
 namespace LiteNetLib {
 class INetSocketListener;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace LiteNetLib {
+class NatPunchModule;
 }
-namespace System::Threading {
-class Thread;
+namespace LiteNetLib {
+class NetConnectRequestPacket;
+}
+namespace LiteNetLib {
+class NetEvent;
 }
 namespace LiteNetLib {
 class NetPacketPool;
 }
-namespace System::Net::Sockets {
-struct SocketError;
+namespace LiteNetLib {
+class NetPacket;
+}
+namespace LiteNetLib {
+class NetPeer;
 }
 namespace LiteNetLib {
 class NetSocket;
@@ -110,16 +62,61 @@ namespace LiteNetLib {
 class NetStatistics;
 }
 namespace LiteNetLib {
+struct __NetEvent__EType;
+}
+namespace LiteNetLib {
 class __NetManager__IPEndPointComparer;
+}
+namespace LiteNetLib {
+struct __NetManager__NetPeerEnumerator;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEqualityComparer_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
+template <typename T> class Queue_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class Stack_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Net::Sockets {
+struct SocketError;
+}
+namespace System::Net {
+class IPAddress;
+}
+namespace System::Net {
+class IPEndPoint;
+}
+namespace System::Threading {
+class ReaderWriterLockSlim;
+}
+namespace System::Threading {
+class Thread;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace LiteNetLib {
@@ -147,6 +144,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::System::Net::IPEndPoint*>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::System::Net::IPEndPoint*>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::System::Net::IPEndPoint*>"
+  constexpr ::System::Collections::Generic::IEqualityComparer_1<::System::Net::IPEndPoint*>* i___System__Collections__Generic__IEqualityComparer_1___System__Net__IPEndPoint__() noexcept;
 
   /// @brief Method Equals, addr 0x2202a58, size 0x5c, virtual true, abstract: false, final true
   inline bool Equals(::System::Net::IPEndPoint* x, ::System::Net::IPEndPoint* y);
@@ -196,11 +196,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::LiteNetLib::NetPeer*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::LiteNetLib::NetPeer*>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::LiteNetLib::NetPeer*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::LiteNetLib::NetPeer*>* i___System__Collections__Generic__IEnumerator_1___LiteNetLib__NetPeer__();
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*();
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator();
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   /// @brief Method .ctor, addr 0x2202990, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::NetPeer* p);
@@ -251,8 +260,9 @@ static_assert(offsetof(::LiteNetLib::__NetManager__NetPeerEnumerator, _p) == 0x8
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 240, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9347)), TypeDefinitionIndex(TypeDefinitionIndex(2670)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14131)), TypeDefinitionIndex(TypeDefinitionIndex(14155))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14167)) CS Name: ::LiteNetLib::NetManager*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2670))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14167))
+// CS Name: ::LiteNetLib::NetManager*
 class CORDL_TYPE NetManager : public ::System::Object {
 public:
   // Declarations
@@ -395,11 +405,20 @@ public:
   /// @brief Convert operator to "::LiteNetLib::INetSocketListener"
   constexpr operator ::LiteNetLib::INetSocketListener*() noexcept;
 
+  /// @brief Convert to "::LiteNetLib::INetSocketListener"
+  constexpr ::LiteNetLib::INetSocketListener* i___LiteNetLib__INetSocketListener() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::LiteNetLib::NetPeer*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::LiteNetLib::NetPeer*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::LiteNetLib::NetPeer*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::LiteNetLib::NetPeer*>* i___System__Collections__Generic__IEnumerable_1___LiteNetLib__NetPeer__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::LiteNetLib::NetSocket*& __get__socket();
 
@@ -680,8 +699,7 @@ public:
   static inline ::LiteNetLib::NetManager* New_ctor(::LiteNetLib::INetEventListener* listener, ::LiteNetLib::Layers::PacketLayerBase* extraPacketLayer);
 
   /// @brief Method .ctor, addr 0x21fce10, size 0x3d0, virtual false, abstract: false, final false
-  /// @param extraPacketLayer: ::LiteNetLib::Layers::PacketLayerBase* (default: nullptr)
-  inline void _ctor(::LiteNetLib::INetEventListener* listener, ::LiteNetLib::Layers::PacketLayerBase* extraPacketLayer = nullptr);
+  inline void _ctor(::LiteNetLib::INetEventListener* listener, ::LiteNetLib::Layers::PacketLayerBase* extraPacketLayer);
 
   /// @brief Method ConnectionLatencyUpdated, addr 0x21fd2b0, size 0x40, virtual false, abstract: false, final false
   inline void ConnectionLatencyUpdated(::LiteNetLib::NetPeer* fromPeer, int32_t latency);
@@ -706,19 +724,9 @@ public:
                              ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t start, int32_t count, ::LiteNetLib::NetPacket* eventData);
 
   /// @brief Method CreateEvent, addr 0x21fd2f0, size 0x33c, virtual false, abstract: false, final false
-  /// @param peer: ::LiteNetLib::NetPeer* (default: nullptr)
-  /// @param remoteEndPoint: ::System::Net::IPEndPoint* (default: nullptr)
-  /// @param errorCode: ::System::Net::Sockets::SocketError (default: static_cast<int32_t>(0x0))
-  /// @param latency: int32_t (default: static_cast<int32_t>(0x0))
-  /// @param disconnectReason: ::LiteNetLib::DisconnectReason (default: static_cast<int32_t>(0x0))
-  /// @param connectionRequest: ::LiteNetLib::ConnectionRequest* (default: nullptr)
-  /// @param deliveryMethod: ::LiteNetLib::DeliveryMethod (default: static_cast<uint8_t>(0x4u))
-  /// @param readerSource: ::LiteNetLib::NetPacket* (default: nullptr)
-  /// @param userData: ::System::Object* (default: nullptr)
-  inline void CreateEvent(::LiteNetLib::__NetEvent__EType type, ::LiteNetLib::NetPeer* peer = nullptr, ::System::Net::IPEndPoint* remoteEndPoint = nullptr,
-                          ::System::Net::Sockets::SocketError errorCode = static_cast<int32_t>(0x0), int32_t latency = static_cast<int32_t>(0x0),
-                          ::LiteNetLib::DisconnectReason disconnectReason = static_cast<int32_t>(0x0), ::LiteNetLib::ConnectionRequest* connectionRequest = nullptr,
-                          ::LiteNetLib::DeliveryMethod deliveryMethod = static_cast<uint8_t>(0x4u), ::LiteNetLib::NetPacket* readerSource = nullptr, ::System::Object* userData = nullptr);
+  inline void CreateEvent(::LiteNetLib::__NetEvent__EType type, ::LiteNetLib::NetPeer* peer, ::System::Net::IPEndPoint* remoteEndPoint, ::System::Net::Sockets::SocketError errorCode, int32_t latency,
+                          ::LiteNetLib::DisconnectReason disconnectReason, ::LiteNetLib::ConnectionRequest* connectionRequest, ::LiteNetLib::DeliveryMethod deliveryMethod,
+                          ::LiteNetLib::NetPacket* readerSource, ::System::Object* userData);
 
   /// @brief Method ProcessEvent, addr 0x21fde7c, size 0x4d4, virtual false, abstract: false, final false
   inline void ProcessEvent(::LiteNetLib::NetEvent* evt);

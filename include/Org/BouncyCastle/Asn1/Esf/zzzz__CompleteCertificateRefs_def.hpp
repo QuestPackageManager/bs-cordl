@@ -9,16 +9,16 @@ namespace Org::BouncyCastle::Asn1::Esf {
 class OtherCertID;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace System {
-class Object;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Sequence;
 }
 namespace System::Collections {
 class IEnumerable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Esf {

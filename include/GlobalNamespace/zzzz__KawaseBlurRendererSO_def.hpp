@@ -14,17 +14,23 @@ CORDL_MODULE_EXPORT(KawaseBlurRendererSO)
 namespace GlobalNamespace {
 class __KawaseBlurRendererSO__BloomKernel;
 }
-namespace UnityEngine {
-class Material;
+namespace GlobalNamespace {
+struct __KawaseBlurRendererSO__KernelSize;
 }
 namespace GlobalNamespace {
 struct __KawaseBlurRendererSO__Pass;
 }
 namespace GlobalNamespace {
-struct __KawaseBlurRendererSO__KernelSize;
+struct __KawaseBlurRendererSO__WeightsType;
 }
 namespace UnityEngine::Rendering {
 class CommandBuffer;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+class RenderTexture;
 }
 namespace UnityEngine {
 class Shader;
@@ -32,14 +38,8 @@ class Shader;
 namespace UnityEngine {
 class Texture2D;
 }
-namespace GlobalNamespace {
-struct __KawaseBlurRendererSO__WeightsType;
-}
 namespace UnityEngine {
 class Texture;
-}
-namespace UnityEngine {
-class RenderTexture;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -515,8 +515,7 @@ public:
                          ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize kernelSize1, float_t boost1, float_t secondBlurAlpha, int32_t downsample, bool gammaCorrection);
 
   /// @brief Method Blur, addr 0x210d50c, size 0xbc, virtual false, abstract: false, final false
-  /// @param downsample: int32_t (default: static_cast<int32_t>(0x0))
-  inline ::UnityEngine::Texture2D* Blur(::UnityEngine::Texture* src, ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize kernelSize, int32_t downsample = static_cast<int32_t>(0x0));
+  inline ::UnityEngine::Texture2D* Blur(::UnityEngine::Texture* src, ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize kernelSize, int32_t downsample);
 
   /// @brief Method Blur, addr 0x210d5c8, size 0x88, virtual false, abstract: false, final false
   inline void Blur(::UnityEngine::Texture* src, ::UnityEngine::RenderTexture* dest, ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize kernelSize, float_t boost, int32_t downsample);

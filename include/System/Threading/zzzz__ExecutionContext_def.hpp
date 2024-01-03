@@ -8,62 +8,62 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ExecutionContext)
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Threading {
-class Thread;
-}
-namespace System::Threading {
-struct ExecutionContextSwitcher;
-}
-namespace System::Threading {
-struct __ExecutionContext__Flags;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Threading {
-class ContextCallback;
-}
-namespace System::Threading {
-struct __ExecutionContext__Reader;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System {
-class Object;
-}
-namespace System::Threading {
-struct __ExecutionContext__CaptureOptions;
-}
-namespace System::Threading {
-struct StackCrawlMark;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::Threading {
-class IAsyncLocal;
-}
 namespace System::Runtime::Remoting::Messaging {
 class IllogicalCallContext;
-}
-namespace System::Threading {
-class SynchronizationContext;
 }
 namespace System::Runtime::Remoting::Messaging {
 class LogicalCallContext;
 }
 namespace System::Runtime::Remoting::Messaging {
 struct __LogicalCallContext__Reader;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Threading {
+class ContextCallback;
+}
+namespace System::Threading {
+struct ExecutionContextSwitcher;
+}
+namespace System::Threading {
+class IAsyncLocal;
+}
+namespace System::Threading {
+struct StackCrawlMark;
+}
+namespace System::Threading {
+class SynchronizationContext;
+}
+namespace System::Threading {
+class Thread;
+}
+namespace System::Threading {
+struct __ExecutionContext__CaptureOptions;
+}
+namespace System::Threading {
+struct __ExecutionContext__Flags;
+}
+namespace System::Threading {
+struct __ExecutionContext__Reader;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -267,7 +267,7 @@ static_assert(offsetof(::System::Threading::__ExecutionContext__CaptureOptions, 
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2711))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2711)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2714))
 // CS Name: ::System.Threading::ExecutionContext*
 class CORDL_TYPE ExecutionContext : public ::System::Object {
@@ -324,8 +324,14 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
   constexpr ::System::Threading::SynchronizationContext*& __get__syncContext();
 

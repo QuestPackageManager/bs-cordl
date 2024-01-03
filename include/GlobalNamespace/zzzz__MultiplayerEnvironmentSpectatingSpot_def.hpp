@@ -9,17 +9,17 @@ CORDL_MODULE_EXPORT(MultiplayerEnvironmentSpectatingSpot)
 namespace GlobalNamespace {
 class IMultiplayerObservable;
 }
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
 class IMultiplayerSpectatingSpot;
 }
 namespace GlobalNamespace {
-class MultiplayerSpectatingSpotManager;
+class MultiplayerActivePlayersTimeOffsetAverage;
 }
 namespace GlobalNamespace {
-class MultiplayerActivePlayersTimeOffsetAverage;
+class MultiplayerSpectatingSpotManager;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace UnityEngine {
 class Transform;
@@ -67,6 +67,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IMultiplayerSpectatingSpot"
   constexpr operator ::GlobalNamespace::IMultiplayerSpectatingSpot*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IMultiplayerSpectatingSpot"
+  constexpr ::GlobalNamespace::IMultiplayerSpectatingSpot* i___GlobalNamespace__IMultiplayerSpectatingSpot() noexcept;
 
   constexpr bool& __get__preferredSpectatingSpot();
 

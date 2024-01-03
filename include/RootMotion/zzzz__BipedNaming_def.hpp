@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BipedNaming)
 namespace RootMotion {
-struct __BipedNaming__BoneType;
+struct __BipedNaming__BoneSide;
 }
 namespace RootMotion {
-struct __BipedNaming__BoneSide;
+struct __BipedNaming__BoneType;
 }
 namespace UnityEngine {
 class Transform;
@@ -159,7 +159,7 @@ static_assert(offsetof(::RootMotion::__BipedNaming__BoneSide, value__) == 0x0, "
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12485))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12486))
 // CS Name: ::RootMotion::BipedNaming*
 class CORDL_TYPE BipedNaming : public ::System::Object {
@@ -322,9 +322,8 @@ public:
   static inline ::RootMotion::__BipedNaming__BoneSide GetBoneSide(::StringW boneName);
 
   /// @brief Method GetBone, addr 0x12370b4, size 0x80, virtual false, abstract: false, final false
-  /// @param boneSide: ::RootMotion::__BipedNaming__BoneSide (default: static_cast<int32_t>(0x0))
   static inline ::UnityEngine::Transform* GetBone(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> transforms, ::RootMotion::__BipedNaming__BoneType boneType,
-                                                  ::RootMotion::__BipedNaming__BoneSide boneSide = static_cast<int32_t>(0x0),
+                                                  ::RootMotion::__BipedNaming__BoneSide boneSide,
                                                   ::ArrayW<::ArrayW<::StringW, ::Array<::StringW>*>, ::Array<::ArrayW<::StringW, ::Array<::StringW>*>>*> namings);
 
   /// @brief Method isLeft, addr 0x1236f0c, size 0xd4, virtual false, abstract: false, final false

@@ -10,46 +10,46 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MainMenuDestinationRequestController)
 namespace GlobalNamespace {
-struct __MainMenuDestinationRequestController___ProcessDestinationRequest_d__9;
+class GameScenesManager;
 }
 namespace GlobalNamespace {
 class IDestinationRequestManager;
 }
-namespace Zenject {
-class DiContainer;
-}
 namespace GlobalNamespace {
-class GameScenesManager;
+class MenuDestination;
 }
 namespace GlobalNamespace {
 class MenuScenesTransitionSetupDataSO;
 }
-namespace System {
-class IDisposable;
-}
-namespace GlobalNamespace {
-class MenuDestination;
-}
-namespace System::Threading {
-class CancellationTokenSource;
-}
 namespace GlobalNamespace {
 class ScenesTransitionSetupDataSO;
 }
-namespace Zenject {
-class IInitializable;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace GlobalNamespace {
+struct __MainMenuDestinationRequestController___ProcessDestinationRequest_d__9;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
+}
+namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
+class IDisposable;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class IInitializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -65,7 +65,7 @@ MARK_VAL_T(::GlobalNamespace::__MainMenuDestinationRequestController___ProcessDe
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3400))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4150))
 // CS Name: ::MainMenuDestinationRequestController::<ProcessDestinationRequest>d__9
 struct CORDL_TYPE __MainMenuDestinationRequestController___ProcessDestinationRequest_d__9 {
@@ -73,6 +73,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x223d848, size 0x4cc, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -162,8 +165,14 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
+  /// @brief Convert to "::Zenject::IInitializable"
+  constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::GlobalNamespace::IDestinationRequestManager*& __get__destinationRequestManager();
 

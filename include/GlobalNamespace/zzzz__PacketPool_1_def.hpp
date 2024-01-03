@@ -11,11 +11,11 @@ template <typename T> class IPacketPool_1;
 namespace GlobalNamespace {
 class IPacketPool;
 }
-namespace System::Collections::Concurrent {
-template <typename T> class ConcurrentBag_1;
-}
 namespace GlobalNamespace {
 class IPoolablePacket;
+}
+namespace System::Collections::Concurrent {
+template <typename T> class ConcurrentBag_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -41,8 +41,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPacketPool_1<T>"
   constexpr operator ::GlobalNamespace::IPacketPool_1<T>*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IPacketPool_1<T>"
+  constexpr ::GlobalNamespace::IPacketPool_1<T>* i___GlobalNamespace__IPacketPool_1_T_() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IPacketPool"
   constexpr operator ::GlobalNamespace::IPacketPool*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IPacketPool"
+  constexpr ::GlobalNamespace::IPacketPool* i___GlobalNamespace__IPacketPool() noexcept;
 
   constexpr ::System::Collections::Concurrent::ConcurrentBag_1<T>*& __get__bag();
 

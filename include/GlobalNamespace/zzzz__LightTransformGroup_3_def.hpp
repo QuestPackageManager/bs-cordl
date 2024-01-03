@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__LightGroupSubsystem_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightTransformGroup_3)
-namespace UnityEngine {
-class Transform;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {

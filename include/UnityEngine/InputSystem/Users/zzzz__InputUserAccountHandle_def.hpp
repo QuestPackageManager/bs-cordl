@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputUserAccountHandle)
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Users {
@@ -34,6 +34,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle>"
+  constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle>* i___System__IEquatable_1___UnityEngine__InputSystem__Users__InputUserAccountHandle_();
 
   /// @brief Method get_apiName, addr 0x2acf338, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_apiName();

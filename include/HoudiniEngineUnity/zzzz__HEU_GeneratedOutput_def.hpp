@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HEU_GeneratedOutput)
-namespace UnityEngine {
-class GameObject;
+namespace HoudiniEngineUnity {
+class HEU_GeneratedOutputData;
+}
+namespace HoudiniEngineUnity {
+template <typename T> class IEquivable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace HoudiniEngineUnity {
-class HEU_GeneratedOutputData;
+namespace UnityEngine {
+class GameObject;
 }
 namespace UnityEngine {
 class Material;
-}
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -50,6 +50,9 @@ public:
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>*() noexcept;
+
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_GeneratedOutput__() noexcept;
 
   constexpr ::HoudiniEngineUnity::HEU_GeneratedOutputData*& __get__outputData();
 

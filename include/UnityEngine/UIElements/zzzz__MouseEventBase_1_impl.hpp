@@ -3,20 +3,28 @@
 #include "UnityEngine/zzzz__EventModifiers_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseEventBase_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IMouseEvent_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
-#include "UnityEngine/zzzz__Event_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IEventHandler_def.hpp"
-#include "UnityEngine/zzzz__EventModifiers_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IPointerEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IMouseEventInternal_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IMouseEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IPointerEvent_def.hpp"
+#include "UnityEngine/zzzz__EventModifiers_def.hpp"
+#include "UnityEngine/zzzz__Event_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 /// @brief Convert operator to "::UnityEngine::UIElements::IMouseEvent"
 template <typename T> constexpr UnityEngine::UIElements::MouseEventBase_1<T>::operator ::UnityEngine::UIElements::IMouseEvent*() noexcept {
   return static_cast<::UnityEngine::UIElements::IMouseEvent*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::UnityEngine::UIElements::IMouseEvent"
+template <typename T> constexpr ::UnityEngine::UIElements::IMouseEvent* UnityEngine::UIElements::MouseEventBase_1<T>::i___UnityEngine__UIElements__IMouseEvent() noexcept {
+  return static_cast<::UnityEngine::UIElements::IMouseEvent*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::UnityEngine::UIElements::IMouseEventInternal"
 template <typename T> constexpr UnityEngine::UIElements::MouseEventBase_1<T>::operator ::UnityEngine::UIElements::IMouseEventInternal*() noexcept {
+  return static_cast<::UnityEngine::UIElements::IMouseEventInternal*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::UIElements::IMouseEventInternal"
+template <typename T> constexpr ::UnityEngine::UIElements::IMouseEventInternal* UnityEngine::UIElements::MouseEventBase_1<T>::i___UnityEngine__UIElements__IMouseEventInternal() noexcept {
   return static_cast<::UnityEngine::UIElements::IMouseEventInternal*>(static_cast<void*>(this));
 }
 template <typename T> constexpr ::UnityEngine::EventModifiers& UnityEngine::UIElements::MouseEventBase_1<T>::__get__modifiers_k__BackingField() {

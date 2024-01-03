@@ -12,10 +12,10 @@ namespace GlobalNamespace {
 template <typename T> class __RemoteProcedureCall__TypeWrapper_1;
 }
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+class NetDataReader;
 }
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {

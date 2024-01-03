@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BeatmapObjectAvoidancePathEvaluator)
 namespace GlobalNamespace {
-class PlayerTransforms;
-}
-namespace UnityEngine {
-struct Vector3;
+class BezierSplineEvaluator;
 }
 namespace GlobalNamespace {
 class IAudioTimeSource;
 }
 namespace GlobalNamespace {
-class BezierSplineEvaluator;
+class PlayerTransforms;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {

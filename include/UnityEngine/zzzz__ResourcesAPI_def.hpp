@@ -13,10 +13,10 @@ namespace UnityEngine {
 class Object;
 }
 namespace UnityEngine {
-class Shader;
+class ResourceRequest;
 }
 namespace UnityEngine {
-class ResourceRequest;
+class Shader;
 }
 // Forward declare root types
 namespace UnityEngine {

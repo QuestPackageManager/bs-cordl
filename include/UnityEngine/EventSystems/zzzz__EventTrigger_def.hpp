@@ -8,17 +8,50 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Events/zzzz__UnityEvent_1_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(EventTrigger)
-namespace UnityEngine::EventSystems {
-class ISubmitHandler;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::EventSystems {
-class IPointerUpHandler;
+class AxisEventData;
+}
+namespace UnityEngine::EventSystems {
+class BaseEventData;
+}
+namespace UnityEngine::EventSystems {
+struct EventTriggerType;
+}
+namespace UnityEngine::EventSystems {
+class IBeginDragHandler;
+}
+namespace UnityEngine::EventSystems {
+class ICancelHandler;
+}
+namespace UnityEngine::EventSystems {
+class IDeselectHandler;
+}
+namespace UnityEngine::EventSystems {
+class IDragHandler;
 }
 namespace UnityEngine::EventSystems {
 class IDropHandler;
+}
+namespace UnityEngine::EventSystems {
+class IEndDragHandler;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine::EventSystems {
+class IInitializePotentialDragHandler;
+}
+namespace UnityEngine::EventSystems {
+class IMoveHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerClickHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerDownHandler;
 }
 namespace UnityEngine::EventSystems {
 class IPointerEnterHandler;
@@ -27,61 +60,28 @@ namespace UnityEngine::EventSystems {
 class IPointerExitHandler;
 }
 namespace UnityEngine::EventSystems {
+class IPointerUpHandler;
+}
+namespace UnityEngine::EventSystems {
 class IScrollHandler;
-}
-namespace UnityEngine::EventSystems {
-class IDeselectHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerDownHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerClickHandler;
-}
-namespace UnityEngine::EventSystems {
-class IBeginDragHandler;
-}
-namespace UnityEngine::EventSystems {
-class IInitializePotentialDragHandler;
 }
 namespace UnityEngine::EventSystems {
 class ISelectHandler;
 }
 namespace UnityEngine::EventSystems {
-class IEndDragHandler;
+class ISubmitHandler;
 }
 namespace UnityEngine::EventSystems {
-class ICancelHandler;
+class IUpdateSelectedHandler;
 }
 namespace UnityEngine::EventSystems {
-class IMoveHandler;
-}
-namespace UnityEngine::EventSystems {
-class IDragHandler;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+class PointerEventData;
 }
 namespace UnityEngine::EventSystems {
 class __EventTrigger__Entry;
 }
 namespace UnityEngine::EventSystems {
 class __EventTrigger__TriggerEvent;
-}
-namespace UnityEngine::EventSystems {
-class AxisEventData;
-}
-namespace UnityEngine::EventSystems {
-struct EventTriggerType;
-}
-namespace UnityEngine::EventSystems {
-class BaseEventData;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine::EventSystems {
-class IUpdateSelectedHandler;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -101,8 +101,8 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::__EventTrigger__TriggerEvent);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10465)), TypeDefinitionIndex(TypeDefinitionIndex(13165)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst:
-// 5235 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13192)) CS Name: ::EventTrigger::TriggerEvent*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 5235 }), TypeDefinitionIndex(TypeDefinitionIndex(10465)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13165))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13192)) CS Name: ::EventTrigger::TriggerEvent*
 class CORDL_TYPE __EventTrigger__TriggerEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::EventSystems::BaseEventData*> {
 public:
   // Declarations
@@ -135,7 +135,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::__Eve
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13195))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13195)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13193))
 // CS Name: ::EventTrigger::Entry*
 class CORDL_TYPE __EventTrigger__Entry : public ::System::Object {
@@ -218,56 +218,110 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerEnterHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerEnterHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerEnterHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerEnterHandler* i___UnityEngine__EventSystems__IPointerEnterHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerExitHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerExitHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerExitHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerExitHandler* i___UnityEngine__EventSystems__IPointerExitHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerDownHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerDownHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerDownHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerDownHandler* i___UnityEngine__EventSystems__IPointerDownHandler() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerUpHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerUpHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerUpHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerUpHandler* i___UnityEngine__EventSystems__IPointerUpHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerClickHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerClickHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerClickHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerClickHandler* i___UnityEngine__EventSystems__IPointerClickHandler() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IInitializePotentialDragHandler"
   constexpr operator ::UnityEngine::EventSystems::IInitializePotentialDragHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IInitializePotentialDragHandler"
+  constexpr ::UnityEngine::EventSystems::IInitializePotentialDragHandler* i___UnityEngine__EventSystems__IInitializePotentialDragHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IBeginDragHandler"
   constexpr operator ::UnityEngine::EventSystems::IBeginDragHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IBeginDragHandler"
+  constexpr ::UnityEngine::EventSystems::IBeginDragHandler* i___UnityEngine__EventSystems__IBeginDragHandler() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IDragHandler"
   constexpr operator ::UnityEngine::EventSystems::IDragHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IDragHandler"
+  constexpr ::UnityEngine::EventSystems::IDragHandler* i___UnityEngine__EventSystems__IDragHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEndDragHandler"
   constexpr operator ::UnityEngine::EventSystems::IEndDragHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IEndDragHandler"
+  constexpr ::UnityEngine::EventSystems::IEndDragHandler* i___UnityEngine__EventSystems__IEndDragHandler() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IDropHandler"
   constexpr operator ::UnityEngine::EventSystems::IDropHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IDropHandler"
+  constexpr ::UnityEngine::EventSystems::IDropHandler* i___UnityEngine__EventSystems__IDropHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IScrollHandler"
   constexpr operator ::UnityEngine::EventSystems::IScrollHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IScrollHandler"
+  constexpr ::UnityEngine::EventSystems::IScrollHandler* i___UnityEngine__EventSystems__IScrollHandler() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IUpdateSelectedHandler"
   constexpr operator ::UnityEngine::EventSystems::IUpdateSelectedHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IUpdateSelectedHandler"
+  constexpr ::UnityEngine::EventSystems::IUpdateSelectedHandler* i___UnityEngine__EventSystems__IUpdateSelectedHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::ISelectHandler"
   constexpr operator ::UnityEngine::EventSystems::ISelectHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::ISelectHandler"
+  constexpr ::UnityEngine::EventSystems::ISelectHandler* i___UnityEngine__EventSystems__ISelectHandler() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IDeselectHandler"
   constexpr operator ::UnityEngine::EventSystems::IDeselectHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IDeselectHandler"
+  constexpr ::UnityEngine::EventSystems::IDeselectHandler* i___UnityEngine__EventSystems__IDeselectHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IMoveHandler"
   constexpr operator ::UnityEngine::EventSystems::IMoveHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IMoveHandler"
+  constexpr ::UnityEngine::EventSystems::IMoveHandler* i___UnityEngine__EventSystems__IMoveHandler() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::ISubmitHandler"
   constexpr operator ::UnityEngine::EventSystems::ISubmitHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::ISubmitHandler"
+  constexpr ::UnityEngine::EventSystems::ISubmitHandler* i___UnityEngine__EventSystems__ISubmitHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::ICancelHandler"
   constexpr operator ::UnityEngine::EventSystems::ICancelHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::ICancelHandler"
+  constexpr ::UnityEngine::EventSystems::ICancelHandler* i___UnityEngine__EventSystems__ICancelHandler() noexcept;
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__EventTrigger__Entry*>*& __get_m_Delegates();
 

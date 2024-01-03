@@ -30,6 +30,9 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
+  /// @brief Convert to "::Unity::Jobs::IJob"
+  constexpr ::Unity::Jobs::IJob* i___Unity__Jobs__IJob();
+
   /// @brief Method Execute, addr 0x2c9e068, size 0x44, virtual true, abstract: false, final true
   inline void Execute();
 

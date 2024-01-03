@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(Evidence)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace Org::BouncyCastle::Asn1::Cms {
 class TimeStampTokenEvidence;
 }
 namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Choice;
@@ -48,6 +48,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept;
 
   constexpr ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*& __get_tstEvidence();
 

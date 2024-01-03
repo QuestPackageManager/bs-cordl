@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LongEnumEqualityComparer_1)
 namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System {
-class Object;
+class ISerializable;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-class ISerializable;
+struct StreamingContext;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
@@ -37,6 +37,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(T x, T y);

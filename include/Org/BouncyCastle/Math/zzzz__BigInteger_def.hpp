@@ -11,17 +11,17 @@ CORDL_MODULE_EXPORT(BigInteger)
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
-namespace System {
-class Object;
-}
 namespace System::Collections {
 class IList;
 }
-namespace System {
-class Random;
-}
 namespace System::Text {
 class StringBuilder;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Random;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math {

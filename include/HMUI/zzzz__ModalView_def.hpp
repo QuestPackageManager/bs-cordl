@@ -8,34 +8,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ModalView)
 namespace HMUI {
+class PanelAnimationSO;
+}
+namespace HMUI {
 class ViewController;
 }
 namespace HMUI {
 class __ModalView____c__DisplayClass17_0;
 }
+namespace HMUI {
+class __ModalView____c__DisplayClass21_0;
+}
 namespace System {
 class Action;
 }
-namespace HMUI {
-class PanelAnimationSO;
-}
-namespace UnityEngine {
-class Transform;
-}
 namespace UnityEngine {
 class CanvasGroup;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace HMUI {
-class __ModalView____c__DisplayClass21_0;
 }
 namespace UnityEngine {
 class Canvas;
 }
 namespace UnityEngine {
 class GameObject;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace HMUI {
@@ -321,13 +321,10 @@ public:
   inline void SetupView(::UnityEngine::Transform* screenTransform);
 
   /// @brief Method Hide, addr 0x2141b34, size 0x214, virtual false, abstract: false, final false
-  /// @param finishedCallback: ::System::Action* (default: nullptr)
-  inline void Hide(bool animated, ::System::Action* finishedCallback = nullptr);
+  inline void Hide(bool animated, ::System::Action* finishedCallback);
 
   /// @brief Method Show, addr 0x214205c, size 0x3e4, virtual false, abstract: false, final false
-  /// @param moveToCenter: bool (default: false)
-  /// @param finishedCallback: ::System::Action* (default: nullptr)
-  inline void Show(bool animated, bool moveToCenter = false, ::System::Action* finishedCallback = nullptr);
+  inline void Show(bool animated, bool moveToCenter, ::System::Action* finishedCallback);
 
   /// @brief Method CreateBlocker, addr 0x2142540, size 0x45c, virtual false, abstract: false, final false
   inline ::UnityEngine::GameObject* CreateBlocker();

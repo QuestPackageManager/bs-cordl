@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ShaderInfoStorageRGBAFloat)
-namespace UnityEngine::UIElements::UIR {
-class __ShaderInfoStorageRGBAFloat____c;
-}
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine::UIElements::UIR {
+class __ShaderInfoStorageRGBAFloat____c;
 }
 namespace UnityEngine {
 struct Color;
@@ -75,8 +75,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7381), inst: 293 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7381))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7385)) CS Name: ::UnityEngine.UIElements.UIR::ShaderInfoStorageRGBAFloat*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7381)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7381), inst: 293
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7385)) CS Name: ::UnityEngine.UIElements.UIR::ShaderInfoStorageRGBAFloat*
 class CORDL_TYPE ShaderInfoStorageRGBAFloat : public ::UnityEngine::UIElements::UIR::ShaderInfoStorage_1<::UnityEngine::Color> {
 public:
   // Declarations
@@ -92,9 +92,7 @@ public:
   static inline ::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat* New_ctor(int32_t initialSize, int32_t maxSize);
 
   /// @brief Method .ctor, addr 0x2e892c8, size 0x94, virtual false, abstract: false, final false
-  /// @param initialSize: int32_t (default: static_cast<int32_t>(0x40))
-  /// @param maxSize: int32_t (default: static_cast<int32_t>(0x1000))
-  inline void _ctor(int32_t initialSize = static_cast<int32_t>(0x40), int32_t maxSize = static_cast<int32_t>(0x1000));
+  inline void _ctor(int32_t initialSize, int32_t maxSize);
 
   // Ctor Parameters [CppParam { name: "", ty: "ShaderInfoStorageRGBAFloat", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

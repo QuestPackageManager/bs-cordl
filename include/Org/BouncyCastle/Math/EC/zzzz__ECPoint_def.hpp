@@ -7,11 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ECPoint)
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class IPreCompCallback;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class PreCompInfo;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECCurve;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
@@ -19,20 +22,17 @@ class ECFieldElement;
 namespace Org::BouncyCastle::Math::EC {
 class __ECPoint__ValidityCallback;
 }
-namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace System::Collections {
 class IDictionary;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class IPreCompCallback;
-}
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class PreCompInfo;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC {
@@ -65,6 +65,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
   constexpr operator ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
+  constexpr ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback* i___Org__BouncyCastle__Math__EC__Multiplier__IPreCompCallback() noexcept;
 
   constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __get_m_outer();
 

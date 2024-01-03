@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(HEU_Vector3SerializationSurrogate)
 namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Runtime::Serialization {
 class ISerializationSurrogate;
 }
 namespace System::Runtime::Serialization {
 class ISurrogateSelector;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System {
 class Object;
@@ -37,6 +37,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializationSurrogate"
   constexpr operator ::System::Runtime::Serialization::ISerializationSurrogate*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializationSurrogate"
+  constexpr ::System::Runtime::Serialization::ISerializationSurrogate* i___System__Runtime__Serialization__ISerializationSurrogate() noexcept;
 
   /// @brief Method System.Runtime.Serialization.ISerializationSurrogate.GetObjectData, addr 0x21503c8, size 0xf4, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializationSurrogate_GetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* info,

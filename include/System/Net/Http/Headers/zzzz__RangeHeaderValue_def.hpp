@@ -10,17 +10,17 @@ CORDL_MODULE_EXPORT(RangeHeaderValue)
 namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Net::Http::Headers {
+class RangeItemHeaderValue;
+}
 namespace System {
 class ICloneable;
 }
 namespace System {
 class Object;
-}
-namespace System::Net::Http::Headers {
-class RangeItemHeaderValue;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -50,6 +50,9 @@ public:
 
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
+
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
   constexpr ::System::Collections::Generic::List_1<::System::Net::Http::Headers::RangeItemHeaderValue*>*& __get_ranges();
 

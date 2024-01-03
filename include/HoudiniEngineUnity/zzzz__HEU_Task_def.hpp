@@ -12,23 +12,23 @@ CORDL_MODULE_EXPORT(HEU_Task)
 namespace HoudiniEngineUnity {
 class __HEU_Task__TaskCallback;
 }
-namespace System {
-struct Guid;
+namespace HoudiniEngineUnity {
+struct __HEU_Task__TaskResult;
 }
 namespace HoudiniEngineUnity {
 struct __HEU_Task__TaskStatus;
 }
-namespace HoudiniEngineUnity {
-struct __HEU_Task__TaskResult;
+namespace System {
+class AsyncCallback;
 }
 namespace System {
-class Object;
+struct Guid;
 }
 namespace System {
 class IAsyncResult;
 }
 namespace System {
-class AsyncCallback;
+class Object;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -224,8 +224,8 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_Task__
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9798)), TypeDefinitionIndex(TypeDefinitionIndex(2406)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9797))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9800)) CS Name: ::HoudiniEngineUnity::HEU_Task*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9797)), TypeDefinitionIndex(TypeDefinitionIndex(9798)), TypeDefinitionIndex(TypeDefinitionIndex(2406)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9800)) CS Name: ::HoudiniEngineUnity::HEU_Task*
 class CORDL_TYPE HEU_Task : public ::System::Object {
 public:
   // Declarations

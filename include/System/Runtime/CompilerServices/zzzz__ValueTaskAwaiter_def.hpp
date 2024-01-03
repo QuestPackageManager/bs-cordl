@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(ValueTaskAwaiter)
-namespace System {
-class Object;
+namespace System::Runtime::CompilerServices {
+class ICriticalNotifyCompletion;
 }
-namespace System {
-class Action;
+namespace System::Runtime::CompilerServices {
+class INotifyCompletion;
 }
 namespace System::Runtime::CompilerServices {
 class __ValueTaskAwaiter____c;
@@ -21,11 +21,11 @@ struct ValueTask;
 namespace System {
 template <typename T> class Action_1;
 }
-namespace System::Runtime::CompilerServices {
-class ICriticalNotifyCompletion;
+namespace System {
+class Action;
 }
-namespace System::Runtime::CompilerServices {
-class INotifyCompletion;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
@@ -102,8 +102,14 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*();
 
+  /// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
+  constexpr ::System::Runtime::CompilerServices::ICriticalNotifyCompletion* i___System__Runtime__CompilerServices__ICriticalNotifyCompletion();
+
   /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::INotifyCompletion"
+  constexpr ::System::Runtime::CompilerServices::INotifyCompletion* i___System__Runtime__CompilerServices__INotifyCompletion();
 
   static inline void setStaticF_s_invokeActionDelegate(::System::Action_1<::System::Object*>* value);
 

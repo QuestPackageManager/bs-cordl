@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Asn1KeyWrapper)
 namespace Org::BouncyCastle::Crypto {
-class IKeyWrapper;
-}
-namespace Org::BouncyCastle::Crypto {
 class IBlockResult;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Crypto {
+class IKeyWrapper;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Operators {
@@ -45,6 +45,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IKeyWrapper"
   constexpr operator ::Org::BouncyCastle::Crypto::IKeyWrapper*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IKeyWrapper"
+  constexpr ::Org::BouncyCastle::Crypto::IKeyWrapper* i___Org__BouncyCastle__Crypto__IKeyWrapper() noexcept;
 
   constexpr ::StringW& __get_algorithm();
 

@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AudioSampleProvider)
-namespace UnityEngine::Experimental::Audio {
-class __AudioSampleProvider__SampleFramesHandler;
-}
 namespace System {
 class Object;
+}
+namespace UnityEngine::Experimental::Audio {
+class __AudioSampleProvider__SampleFramesHandler;
 }
 // Forward declare root types
 namespace UnityEngine::Experimental::Audio {

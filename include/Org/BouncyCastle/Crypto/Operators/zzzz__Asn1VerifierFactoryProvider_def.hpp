@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Asn1VerifierFactoryProvider)
 namespace Org::BouncyCastle::Crypto {
-class IVerifierFactoryProvider;
+class AsymmetricKeyParameter;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace Org::BouncyCastle::Crypto {
+class IVerifierFactoryProvider;
 }
 namespace Org::BouncyCastle::Crypto {
 class IVerifierFactory;
 }
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
 class Object;
@@ -42,6 +42,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IVerifierFactoryProvider"
   constexpr operator ::Org::BouncyCastle::Crypto::IVerifierFactoryProvider*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IVerifierFactoryProvider"
+  constexpr ::Org::BouncyCastle::Crypto::IVerifierFactoryProvider* i___Org__BouncyCastle__Crypto__IVerifierFactoryProvider() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __get_publicKey();
 

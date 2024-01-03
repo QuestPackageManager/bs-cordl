@@ -12,28 +12,28 @@ namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
-class VisualElementFocusRing;
-}
-namespace UnityEngine::UIElements {
-class Focusable;
-}
-namespace UnityEngine::UIElements {
-class __NavigateFocusRing__ChangeDirection;
+class FocusChangeDirection;
 }
 namespace UnityEngine::UIElements {
 class FocusController;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+class Focusable;
 }
 namespace UnityEngine::UIElements {
 class IFocusRing;
 }
 namespace UnityEngine::UIElements {
-struct __NavigateFocusRing__FocusableHierarchyTraversal;
+class VisualElementFocusRing;
 }
 namespace UnityEngine::UIElements {
-class FocusChangeDirection;
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+class __NavigateFocusRing__ChangeDirection;
+}
+namespace UnityEngine::UIElements {
+struct __NavigateFocusRing__FocusableHierarchyTraversal;
 }
 namespace UnityEngine {
 struct Rect;
@@ -116,8 +116,7 @@ public:
   inline int32_t TieBreaker(::UnityEngine::Rect ra, ::UnityEngine::Rect rb);
 
   /// @brief Method GetBestOverall, addr 0x2e18064, size 0x13c, virtual false, abstract: false, final false
-  /// @param bestSoFar: ::UnityEngine::UIElements::VisualElement* (default: nullptr)
-  inline ::UnityEngine::UIElements::VisualElement* GetBestOverall(::UnityEngine::UIElements::VisualElement* candidate, ::UnityEngine::UIElements::VisualElement* bestSoFar = nullptr);
+  inline ::UnityEngine::UIElements::VisualElement* GetBestOverall(::UnityEngine::UIElements::VisualElement* candidate, ::UnityEngine::UIElements::VisualElement* bestSoFar);
 
   // Ctor Parameters [CppParam { name: "currentFocusable", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }, CppParam { name: "validRect", ty: "::UnityEngine::Rect",
   // modifiers: "", def_value: None }, CppParam { name: "firstPass", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "direction", ty:
@@ -200,6 +199,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::UIElements::IFocusRing"
   constexpr operator ::UnityEngine::UIElements::IFocusRing*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UIElements::IFocusRing"
+  constexpr ::UnityEngine::UIElements::IFocusRing* i___UnityEngine__UIElements__IFocusRing() noexcept;
 
   constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_Root();
 

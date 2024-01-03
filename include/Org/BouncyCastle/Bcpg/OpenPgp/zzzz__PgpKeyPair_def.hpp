@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpKeyPair)
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpPrivateKey;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpPublicKey;
 }
 namespace Org::BouncyCastle::Bcpg {
@@ -14,14 +17,11 @@ struct PublicKeyAlgorithmTag;
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricCipherKeyPair;
 }
-namespace System {
-struct DateTime;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpPrivateKey;
-}
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
+}
+namespace System {
+struct DateTime;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {

@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BloomPrePassNonLightPass_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomPrePassBackgroundNonLightRendererCore)
-namespace UnityEngine {
-class Material;
+namespace UnityEngine::Rendering {
+class CommandBuffer;
 }
 namespace UnityEngine {
 class MaterialPropertyBlock;
+}
+namespace UnityEngine {
+class Material;
 }
 namespace UnityEngine {
 struct Matrix4x4;
 }
 namespace UnityEngine {
 class RenderTexture;
-}
-namespace UnityEngine::Rendering {
-class CommandBuffer;
 }
 namespace UnityEngine {
 class Renderer;

@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509Chain)
 namespace System::Security::Cryptography::X509Certificates {
-struct X509ChainStatus;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509ChainImpl;
-}
-namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate2;
-}
-namespace System {
-class IDisposable;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509ChainElementCollection;
 }
 namespace System::Security::Cryptography::X509Certificates {
+class X509ChainImpl;
+}
+namespace System::Security::Cryptography::X509Certificates {
 class X509ChainPolicy;
+}
+namespace System::Security::Cryptography::X509Certificates {
+struct X509ChainStatus;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -54,6 +54,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::System::Security::Cryptography::X509Certificates::X509ChainImpl*& __get_impl();
 

@@ -11,25 +11,25 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
 class ECMultiplier;
 }
 namespace Org::BouncyCastle::Math::EC {
-class __F2mCurve__DefaultF2mLookupTable;
-}
-namespace Org::BouncyCastle::Math::EC {
-class F2mPoint;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+class ECCurve;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
 }
 namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
+class ECLookupTable;
 }
 namespace Org::BouncyCastle::Math::EC {
-class ECLookupTable;
+class ECPoint;
+}
+namespace Org::BouncyCastle::Math::EC {
+class F2mPoint;
+}
+namespace Org::BouncyCastle::Math::EC {
+class __F2mCurve__DefaultF2mLookupTable;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC {

@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RevocationKey)
 namespace Org::BouncyCastle::Bcpg {
-struct RevocationKeyTag;
+struct PublicKeyAlgorithmTag;
 }
 namespace Org::BouncyCastle::Bcpg {
-struct PublicKeyAlgorithmTag;
+struct RevocationKeyTag;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {

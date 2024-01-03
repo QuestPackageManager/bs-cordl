@@ -10,7 +10,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XInput::IXboxOneRumble*>::get(),
@@ -22,8 +22,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 constexpr UnityEngine::InputSystem::XInput::IXboxOneRumble::operator ::UnityEngine::InputSystem::Haptics::IDualMotorRumble*() noexcept {
   return static_cast<::UnityEngine::InputSystem::Haptics::IDualMotorRumble*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::UnityEngine::InputSystem::Haptics::IDualMotorRumble"
+constexpr ::UnityEngine::InputSystem::Haptics::IDualMotorRumble* UnityEngine::InputSystem::XInput::IXboxOneRumble::i___UnityEngine__InputSystem__Haptics__IDualMotorRumble() noexcept {
+  return static_cast<::UnityEngine::InputSystem::Haptics::IDualMotorRumble*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::UnityEngine::InputSystem::Haptics::IHaptics"
 constexpr UnityEngine::InputSystem::XInput::IXboxOneRumble::operator ::UnityEngine::InputSystem::Haptics::IHaptics*() noexcept {
+  return static_cast<::UnityEngine::InputSystem::Haptics::IHaptics*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::InputSystem::Haptics::IHaptics"
+constexpr ::UnityEngine::InputSystem::Haptics::IHaptics* UnityEngine::InputSystem::XInput::IXboxOneRumble::i___UnityEngine__InputSystem__Haptics__IHaptics() noexcept {
   return static_cast<::UnityEngine::InputSystem::Haptics::IHaptics*>(static_cast<void*>(this));
 }
 inline void UnityEngine::InputSystem::XInput::IXboxOneRumble::SetMotorSpeeds(float_t lowFrequency, float_t highFrequency, float_t leftTrigger, float_t rightTrigger) {

@@ -1,8 +1,8 @@
 #pragma once
 #include "Oculus/Platform/zzzz__Request_impl.hpp"
 #include "Oculus/Platform/zzzz__Request_1_def.hpp"
-#include "Oculus/Platform/zzzz__Message_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
+#include "Oculus/Platform/zzzz__Message_def.hpp"
 template <typename T> constexpr ::Oculus::Platform::__Message_1__Callback<T>*& Oculus::Platform::Request_1<T>::__get_callback_() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback_;

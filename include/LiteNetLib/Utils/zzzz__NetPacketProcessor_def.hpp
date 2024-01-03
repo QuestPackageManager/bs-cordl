@@ -7,26 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetPacketProcessor)
-namespace LiteNetLib {
-class NetPeer;
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
 namespace LiteNetLib::Utils {
-template <typename T> class __NetPacketProcessor____c__DisplayClass30_0_1;
-}
-namespace LiteNetLib {
-struct DeliveryMethod;
-}
-namespace LiteNetLib {
-class NetManager;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System {
-template <typename TResult> class Func_1;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class __NetPacketProcessor____c__DisplayClass27_0_1;
+class NetDataWriter;
 }
 namespace LiteNetLib::Utils {
 class NetSerializer;
@@ -35,7 +20,16 @@ namespace LiteNetLib::Utils {
 template <typename T> class __NetPacketProcessor__HashCache_1;
 }
 namespace LiteNetLib::Utils {
+class __NetPacketProcessor__SubscribeDelegate;
+}
+namespace LiteNetLib::Utils {
+template <typename T> class __NetPacketProcessor____c__DisplayClass25_0_1;
+}
+namespace LiteNetLib::Utils {
 template <typename T, typename TUserData> class __NetPacketProcessor____c__DisplayClass26_0_2;
+}
+namespace LiteNetLib::Utils {
+template <typename T> class __NetPacketProcessor____c__DisplayClass27_0_1;
 }
 namespace LiteNetLib::Utils {
 template <typename T, typename TUserData> class __NetPacketProcessor____c__DisplayClass28_0_2;
@@ -43,41 +37,47 @@ template <typename T, typename TUserData> class __NetPacketProcessor____c__Displ
 namespace LiteNetLib::Utils {
 template <typename T, typename TUserData> class __NetPacketProcessor____c__DisplayClass29_0_2;
 }
-namespace System {
-class Object;
-}
 namespace LiteNetLib::Utils {
-template <typename T> class __NetPacketProcessor____c__DisplayClass32_0_1;
-}
-namespace LiteNetLib::Utils {
-class __NetPacketProcessor__SubscribeDelegate;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
+template <typename T> class __NetPacketProcessor____c__DisplayClass30_0_1;
 }
 namespace LiteNetLib::Utils {
 template <typename T, typename TUserData> class __NetPacketProcessor____c__DisplayClass31_0_2;
 }
 namespace LiteNetLib::Utils {
-template <typename T> class __NetPacketProcessor____c__DisplayClass25_0_1;
+template <typename T> class __NetPacketProcessor____c__DisplayClass32_0_1;
+}
+namespace LiteNetLib {
+struct DeliveryMethod;
+}
+namespace LiteNetLib {
+class NetManager;
+}
+namespace LiteNetLib {
+class NetPeer;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+template <typename T> class Action_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System {
+template <typename TResult> class Func_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
 class IAsyncResult;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace LiteNetLib::Utils {

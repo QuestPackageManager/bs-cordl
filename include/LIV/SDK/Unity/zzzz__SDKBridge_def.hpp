@@ -12,7 +12,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SDKBridge)
 namespace LIV::SDK::Unity {
-template <typename T> struct __SDKBridge__SDKInjection_1;
+struct SDKApplicationOutput;
 }
 namespace LIV::SDK::Unity {
 struct SDKInputFrame;
@@ -27,10 +27,10 @@ namespace LIV::SDK::Unity {
 struct SDKResolution;
 }
 namespace LIV::SDK::Unity {
-struct SDKApplicationOutput;
+struct SDKTexture;
 }
 namespace LIV::SDK::Unity {
-struct SDKTexture;
+template <typename T> struct __SDKBridge__SDKInjection_1;
 }
 namespace System {
 class Action;
@@ -85,9 +85,9 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15095), inst: 4947 }), GenericInstantiation(GenericInstantiation
-// { tdi: TypeDefinitionIndex(15095), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(15095)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15095), inst: 4946 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(15115)), TypeDefinitionIndex(TypeDefinitionIndex(15108))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15096)) CS Name: ::LIV.SDK.Unity::SDKBridge*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15095), inst: 4946 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15095), inst: 105 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(15095)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15095), inst: 4947 }), TypeDefinitionIndex(TypeDefinitionIndex(15108)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15115))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15096)) CS Name: ::LIV.SDK.Unity::SDKBridge*
 class CORDL_TYPE SDKBridge : public ::System::Object {
 public:
   // Declarations

@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__Datatype_float_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Datatype_floatXdr)
-namespace System {
-class Object;
+namespace System::Xml {
+class IXmlNamespaceResolver;
 }
 namespace System::Xml {
 class XmlNameTable;
 }
-namespace System::Xml {
-class IXmlNamespaceResolver;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

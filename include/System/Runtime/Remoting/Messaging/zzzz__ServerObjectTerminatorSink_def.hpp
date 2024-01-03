@@ -35,6 +35,9 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"
+  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* i___System__Runtime__Remoting__Messaging__IMessageSink() noexcept;
+
   constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __get__nextSink();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessageSink*> const& __get__nextSink() const;

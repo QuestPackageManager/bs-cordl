@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UxmlIntAttributeDescription)
+namespace System {
+template <typename T1, typename T2, typename TResult> class Func_3;
+}
 namespace UnityEngine::UIElements {
-class __UxmlIntAttributeDescription____c;
+struct CreationContext;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
-}
-namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
+class __UxmlIntAttributeDescription____c;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -96,7 +96,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__UxmlI
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6982)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6982), inst: 98 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6982), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(6982))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6988))
 // CS Name: ::UnityEngine.UIElements::UxmlIntAttributeDescription*
 class CORDL_TYPE UxmlIntAttributeDescription : public ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<int32_t> {

@@ -5,7 +5,7 @@ CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/XR/zzzz__XRController_def.hpp"
 CORDL_MODULE_EXPORT(OpenVRControllerWMR)
 namespace UnityEngine::InputSystem::Controls {
-class Vector3Control;
+class AxisControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
@@ -14,7 +14,7 @@ namespace UnityEngine::InputSystem::Controls {
 class Vector2Control;
 }
 namespace UnityEngine::InputSystem::Controls {
-class AxisControl;
+class Vector3Control;
 }
 // Forward declare root types
 namespace Unity::XR::OpenVR {

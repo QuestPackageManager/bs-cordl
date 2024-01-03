@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRSemanticLabels)
-namespace System {
-template <typename T> class IEquatable_1;
+namespace GlobalNamespace {
+template <typename T> class IOVRAnchorComponent_1;
 }
 namespace GlobalNamespace {
 struct OVRAnchor;
-}
-namespace System {
-class Object;
 }
 namespace GlobalNamespace {
 template <typename TResult> struct OVRTask_1;
 }
 namespace GlobalNamespace {
-template <typename T> class IOVRAnchorComponent_1;
-}
-namespace GlobalNamespace {
 struct __OVRPlugin__SpaceComponentType;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -61,8 +61,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRSemanticLabels>"
   constexpr operator ::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRSemanticLabels>*();
 
+  /// @brief Convert to "::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRSemanticLabels>"
+  constexpr ::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRSemanticLabels>* i___GlobalNamespace__IOVRAnchorComponent_1___GlobalNamespace__OVRSemanticLabels_();
+
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::OVRSemanticLabels>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::OVRSemanticLabels>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::OVRSemanticLabels>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::OVRSemanticLabels>* i___System__IEquatable_1___GlobalNamespace__OVRSemanticLabels_();
 
   static inline void setStaticF_Null(::GlobalNamespace::OVRSemanticLabels value);
 

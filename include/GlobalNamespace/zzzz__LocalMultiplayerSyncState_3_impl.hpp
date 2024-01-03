@@ -2,9 +2,9 @@
 #include "GlobalNamespace/zzzz__MultiplayerSyncState_3_impl.hpp"
 #include "GlobalNamespace/zzzz__LocalMultiplayerSyncState_3_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
-#include "GlobalNamespace/zzzz__StateBuffer_3_def.hpp"
 #include "GlobalNamespace/zzzz__IPacketPool_1_def.hpp"
 #include "GlobalNamespace/zzzz__LocalStateBuffer_3_def.hpp"
+#include "GlobalNamespace/zzzz__StateBuffer_3_def.hpp"
 template <typename TStateTable, typename TType, typename TState>
 constexpr ::GlobalNamespace::IConnectedPlayer*& GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>::__get__player() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

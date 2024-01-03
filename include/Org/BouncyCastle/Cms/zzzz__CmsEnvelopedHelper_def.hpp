@@ -6,26 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsEnvelopedHelper)
-namespace System::Collections {
-class IList;
+namespace Org::BouncyCastle::Asn1::Cms {
+class RecipientInfo;
 }
-namespace Org::BouncyCastle::Crypto {
-class IWrapper;
-}
-namespace Org::BouncyCastle::Cms {
-class __CmsEnvelopedHelper__CmsEnvelopedSecureReadable;
-}
-namespace Org::BouncyCastle::Cms {
-class __CmsEnvelopedHelper__CmsAuthenticatedSecureReadable;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace Org::BouncyCastle::Crypto {
-class IBufferedCipher;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Set;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsReadable;
 }
 namespace Org::BouncyCastle::Cms {
 class CmsSecureReadable;
@@ -33,20 +24,29 @@ class CmsSecureReadable;
 namespace Org::BouncyCastle::Cms {
 class RecipientInformationStore;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class RecipientInfo;
+namespace Org::BouncyCastle::Cms {
+class __CmsEnvelopedHelper__CmsAuthenticatedSecureReadable;
+}
+namespace Org::BouncyCastle::Cms {
+class __CmsEnvelopedHelper__CmsEnvelopedSecureReadable;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
 }
 namespace Org::BouncyCastle::Crypto {
+class IBufferedCipher;
+}
+namespace Org::BouncyCastle::Crypto {
 class IMac;
 }
-namespace Org::BouncyCastle::Cms {
-class CmsReadable;
+namespace Org::BouncyCastle::Crypto {
+class IWrapper;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace System::Collections {
+class IDictionary;
+}
+namespace System::Collections {
+class IList;
 }
 namespace System {
 class Object;
@@ -90,6 +90,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsSecureReadable"
   constexpr operator ::Org::BouncyCastle::Cms::CmsSecureReadable*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Cms::CmsSecureReadable"
+  constexpr ::Org::BouncyCastle::Cms::CmsSecureReadable* i___Org__BouncyCastle__Cms__CmsSecureReadable() noexcept;
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_algorithm();
 
@@ -184,6 +187,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsSecureReadable"
   constexpr operator ::Org::BouncyCastle::Cms::CmsSecureReadable*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Cms::CmsSecureReadable"
+  constexpr ::Org::BouncyCastle::Cms::CmsSecureReadable* i___Org__BouncyCastle__Cms__CmsSecureReadable() noexcept;
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_algorithm();
 

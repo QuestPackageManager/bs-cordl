@@ -1,15 +1,24 @@
 #pragma once
 #include "System/Linq/zzzz__IOrderedEnumerable_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TElement>"
 template <typename TElement> constexpr System::Linq::IOrderedEnumerable_1<TElement>::operator ::System::Collections::Generic::IEnumerable_1<TElement>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<TElement>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TElement>"
+template <typename TElement>
+constexpr ::System::Collections::Generic::IEnumerable_1<TElement>* System::Linq::IOrderedEnumerable_1<TElement>::i___System__Collections__Generic__IEnumerable_1_TElement_() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<TElement>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename TElement> constexpr System::Linq::IOrderedEnumerable_1<TElement>::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename TElement> constexpr ::System::Collections::IEnumerable* System::Linq::IOrderedEnumerable_1<TElement>::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 template <typename TElement>

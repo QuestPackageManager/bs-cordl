@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DefaultTlsDHVerifier)
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DHParameters;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsDHVerifier;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DHParameters;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -49,6 +49,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* i___Org__BouncyCastle__Crypto__Tls__TlsDHVerifier() noexcept;
 
   constexpr ::System::Collections::IList*& __get_mGroups();
 

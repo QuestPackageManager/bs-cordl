@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ContentCatalogDataEntry)
-namespace System {
-class Object;
-}
-namespace System {
-class Type;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets::ResourceLocators {
@@ -141,10 +141,8 @@ public:
                                                                                                       ::System::Object* extraData);
 
   /// @brief Method .ctor, addr 0x2a2d040, size 0x108, virtual false, abstract: false, final false
-  /// @param dependencies: ::System::Collections::Generic::IEnumerable_1<::System::Object*>* (default: nullptr)
-  /// @param extraData: ::System::Object* (default: nullptr)
   inline void _ctor(::System::Type* type, ::StringW internalId, ::StringW provider, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* keys,
-                    ::System::Collections::Generic::IEnumerable_1<::System::Object*>* dependencies = nullptr, ::System::Object* extraData = nullptr);
+                    ::System::Collections::Generic::IEnumerable_1<::System::Object*>* dependencies, ::System::Object* extraData);
 
   // Ctor Parameters [CppParam { name: "", ty: "ContentCatalogDataEntry", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

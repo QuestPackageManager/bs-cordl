@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(AbstractECMultiplier)
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class ECMultiplier;
+}
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
-}
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class ECMultiplier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Multiplier {
@@ -31,6 +31,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier"
   constexpr operator ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier"
+  constexpr ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* i___Org__BouncyCastle__Math__EC__Multiplier__ECMultiplier() noexcept;
 
   /// @brief Method Multiply, addr 0x1035ba8, size 0xdc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Multiply(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);

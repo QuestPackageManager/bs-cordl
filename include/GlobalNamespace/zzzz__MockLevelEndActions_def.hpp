@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MockLevelEndActions)
-namespace System {
-class Action;
-}
 namespace GlobalNamespace {
 class ILevelEndActions;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,6 +34,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::ILevelEndActions"
   constexpr operator ::GlobalNamespace::ILevelEndActions*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::ILevelEndActions"
+  constexpr ::GlobalNamespace::ILevelEndActions* i___GlobalNamespace__ILevelEndActions() noexcept;
 
   constexpr ::System::Action*& __get_levelFailedEvent();
 

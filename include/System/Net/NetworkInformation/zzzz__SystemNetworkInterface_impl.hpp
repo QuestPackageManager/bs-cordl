@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__SystemNetworkInterface_def.hpp"
-#include "System/Net/NetworkInformation/zzzz__NetworkInterface_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__NetworkInterfaceFactory_def.hpp"
+#include "System/Net/NetworkInformation/zzzz__NetworkInterface_def.hpp"
 //  Writing Method size for method: ::System::Net::NetworkInformation::SystemNetworkInterface.GetNetworkInterfaces
 template <>
 
@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0xfc;
   constexpr static std::size_t addrs = 0x29eb7d4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::SystemNetworkInterface*>::get(), "GetNetworkInterfaces",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));

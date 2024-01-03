@@ -61,6 +61,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ILightGroup"
   constexpr operator ::GlobalNamespace::ILightGroup*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::ILightGroup"
+  constexpr ::GlobalNamespace::ILightGroup* i___GlobalNamespace__ILightGroup() noexcept;
+
   constexpr ::StringW& __get__groupName();
 
   constexpr ::StringW const& __get__groupName() const;

@@ -15,80 +15,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ResourceManager)
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class IResourceProvider;
-}
-namespace UnityEngine::ResourceManagement {
-struct __ResourceManager__DeferredCallbackRegisterRequest;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class IInstanceProvider;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::SceneManagement {
-struct LoadSceneMode;
-}
-namespace UnityEngine::ResourceManagement {
-struct __ResourceManager__DiagnosticEventContext;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class ISceneProvider;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-class GroupOperation;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> class AsyncOperationBase_1;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> struct AsyncOperationHandle_1;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace UnityEngine::ResourceManagement {
-template <typename TObject> class __ResourceManager____c__DisplayClass92_0_1;
-}
-namespace UnityEngine::ResourceManagement {
-class __ResourceManager__InstanceOperation;
+namespace GlobalNamespace {
+template <typename T> class DelegateList_1;
 }
 namespace GlobalNamespace {
 template <typename T> class ListWithEvents_1;
 }
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct SceneInstance;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct InstantiationParameters;
-}
-namespace UnityEngine::Networking {
-class CertificateHandler;
-}
-namespace System {
-class Exception;
-}
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
-}
-namespace UnityEngine::ResourceManagement {
-class IUpdateReceiver;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
@@ -96,11 +30,26 @@ template <typename T> class HashSet_1;
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
-namespace UnityEngine::SceneManagement {
-struct Scene;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace System {
 template <typename T1, typename T2, typename T3, typename T4> class Action_4;
+}
+namespace System {
+class Exception;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -108,32 +57,83 @@ class Object;
 namespace System {
 class Type;
 }
-namespace UnityEngine::ResourceManagement::Util {
-class IAllocationStrategy;
+namespace UnityEngine::Networking {
+class CertificateHandler;
 }
 namespace UnityEngine::Networking {
 class UnityWebRequest;
 }
-namespace UnityEngine::ResourceManagement {
-struct __ResourceManager__DiagnosticEventType;
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> class AsyncOperationBase_1;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> struct AsyncOperationHandle_1;
 }
-namespace GlobalNamespace {
-template <typename T> class DelegateList_1;
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
 }
-namespace UnityEngine::ResourceManagement {
-template <typename TObject> class __ResourceManager__CompletedOperation_1;
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct DownloadStatus;
 }
-namespace UnityEngine::ResourceManagement::Util {
-class IOperationCacheKey;
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+class GroupOperation;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 class IAsyncOperation;
 }
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct DownloadStatus;
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class IInstanceProvider;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class IResourceProvider;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class ISceneProvider;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct InstantiationParameters;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct SceneInstance;
+}
+namespace UnityEngine::ResourceManagement::Util {
+class IAllocationStrategy;
+}
+namespace UnityEngine::ResourceManagement::Util {
+class IOperationCacheKey;
+}
+namespace UnityEngine::ResourceManagement {
+class IUpdateReceiver;
+}
+namespace UnityEngine::ResourceManagement {
+template <typename TObject> class __ResourceManager__CompletedOperation_1;
+}
+namespace UnityEngine::ResourceManagement {
+struct __ResourceManager__DeferredCallbackRegisterRequest;
+}
+namespace UnityEngine::ResourceManagement {
+struct __ResourceManager__DiagnosticEventContext;
+}
+namespace UnityEngine::ResourceManagement {
+struct __ResourceManager__DiagnosticEventType;
+}
+namespace UnityEngine::ResourceManagement {
+class __ResourceManager__InstanceOperation;
+}
+namespace UnityEngine::ResourceManagement {
+template <typename TObject> class __ResourceManager____c__DisplayClass92_0_1;
+}
+namespace UnityEngine::SceneManagement {
+struct LoadSceneMode;
+}
+namespace UnityEngine::SceneManagement {
+struct Scene;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement {
@@ -272,11 +272,8 @@ public:
   inline ::StringW get_Error();
 
   /// @brief Method .ctor, addr 0x2bce65c, size 0x104, virtual false, abstract: false, final false
-  /// @param eventValue: int32_t (default: static_cast<int32_t>(0x0))
-  /// @param error: ::StringW (default: nullptr)
-  /// @param context: ::System::Object* (default: nullptr)
-  inline void _ctor(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op, ::UnityEngine::ResourceManagement::__ResourceManager__DiagnosticEventType type,
-                    int32_t eventValue = static_cast<int32_t>(0x0), ::StringW error = nullptr, ::System::Object* context = nullptr);
+  inline void _ctor(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op, ::UnityEngine::ResourceManagement::__ResourceManager__DiagnosticEventType type, int32_t eventValue,
+                    ::StringW error, ::System::Object* context);
 
   // Ctor Parameters [CppParam { name: "_OperationHandle_k__BackingField", ty: "::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle", modifiers: "", def_value: None }, CppParam {
   // name: "_Type_k__BackingField", ty: "::UnityEngine::ResourceManagement::__ResourceManager__DiagnosticEventType", modifiers: "", def_value: None }, CppParam { name: "_EventValue_k__BackingField",
@@ -374,7 +371,7 @@ namespace UnityEngine::ResourceManagement {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 791 }), TypeDefinitionIndex(TypeDefinitionIndex(14032))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 791 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13954))
 // CS Name: ::ResourceManager::CompletedOperation`1<TObject>*
 class CORDL_TYPE __ResourceManager__CompletedOperation_1 : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject> {
@@ -415,12 +412,10 @@ public:
   inline void _ctor();
 
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param releaseDependenciesOnFailure: bool (default: true)
-  inline void Init(TObject result, bool success, ::StringW errorMsg, bool releaseDependenciesOnFailure = true);
+  inline void Init(TObject result, bool success, ::StringW errorMsg, bool releaseDependenciesOnFailure);
 
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param releaseDependenciesOnFailure: bool (default: true)
-  inline void Init(TObject result, bool success, ::System::Exception* exception, bool releaseDependenciesOnFailure = true);
+  inline void Init(TObject result, bool success, ::System::Exception* exception, bool releaseDependenciesOnFailure);
 
   /// @brief Method get_DebugName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW get_DebugName();
@@ -462,9 +457,10 @@ public:
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 236, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 311 }), TypeDefinitionIndex(TypeDefinitionIndex(10196)), GenericInstantiation(GenericInstantiation
-// { tdi: TypeDefinitionIndex(14033), inst: 311 }), TypeDefinitionIndex(TypeDefinitionIndex(14032)), TypeDefinitionIndex(TypeDefinitionIndex(13998)), TypeDefinitionIndex(TypeDefinitionIndex(14033)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10380))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13955)) CS Name: ::ResourceManager::InstanceOperation*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13998)), TypeDefinitionIndex(TypeDefinitionIndex(14033)), TypeDefinitionIndex(TypeDefinitionIndex(10196)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 311 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 311 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10380)), TypeDefinitionIndex(TypeDefinitionIndex(14032))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13955)) CS Name:
+// ::ResourceManager::InstanceOperation*
 class CORDL_TYPE __ResourceManager__InstanceOperation : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<::UnityEngine::GameObject*> {
 public:
   // Declarations
@@ -820,6 +816,9 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   constexpr bool& __get_postProfilerEvents();
 
   constexpr bool const& __get_postProfilerEvents() const;
@@ -1048,8 +1047,7 @@ public:
   static inline ::UnityEngine::ResourceManagement::ResourceManager* New_ctor(::UnityEngine::ResourceManagement::Util::IAllocationStrategy* alloc);
 
   /// @brief Method .ctor, addr 0x2bc9f40, size 0x48c, virtual false, abstract: false, final false
-  /// @param alloc: ::UnityEngine::ResourceManagement::Util::IAllocationStrategy* (default: nullptr)
-  inline void _ctor(::UnityEngine::ResourceManagement::Util::IAllocationStrategy* alloc = nullptr);
+  inline void _ctor(::UnityEngine::ResourceManagement::Util::IAllocationStrategy* alloc);
 
   /// @brief Method OnObjectAdded, addr 0x2bca5a4, size 0x74, virtual false, abstract: false, final false
   inline void OnObjectAdded(::System::Object* obj);
@@ -1087,14 +1085,11 @@ public:
   inline ::System::Type* GetDefaultTypeForLocation(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc);
 
   /// @brief Method CalculateLocationsHash, addr 0x2bcafbc, size 0x450, virtual false, abstract: false, final false
-  /// @param t: ::System::Type* (default: nullptr)
-  inline int32_t CalculateLocationsHash(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations, ::System::Type* t = nullptr);
+  inline int32_t CalculateLocationsHash(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations, ::System::Type* t);
 
   /// @brief Method ProvideResource, addr 0x2bcb40c, size 0x7d0, virtual false, abstract: false, final false
-  /// @param desiredType: ::System::Type* (default: nullptr)
-  /// @param releaseDependenciesOnFailure: bool (default: true)
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle ProvideResource(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
-                                                                                                  ::System::Type* desiredType = nullptr, bool releaseDependenciesOnFailure = true);
+                                                                                                  ::System::Type* desiredType, bool releaseDependenciesOnFailure);
 
   /// @brief Method ProvideResource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TObject>
@@ -1143,10 +1138,9 @@ public:
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> CreateCompletedOperationWithException(TObject result, ::System::Exception* exception);
 
   /// @brief Method CreateCompletedOperationInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param releaseDependenciesOnFailure: bool (default: true)
   template <typename TObject>
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> CreateCompletedOperationInternal(TObject result, bool success, ::System::Exception* exception,
-                                                                                                                              bool releaseDependenciesOnFailure = true);
+                                                                                                                              bool releaseDependenciesOnFailure);
 
   /// @brief Method Release, addr 0x2bccc4c, size 0x8, virtual false, abstract: false, final false
   inline void Release(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle);
@@ -1168,29 +1162,24 @@ public:
   CreateGroupOperation(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations, bool allowFailedDependencies);
 
   /// @brief Method CreateGenericGroupOperation, addr 0x2bccf28, size 0x19c, virtual false, abstract: false, final false
-  /// @param releasedCachedOpOnComplete: bool (default: false)
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
-  CreateGenericGroupOperation(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* operations, bool releasedCachedOpOnComplete = false);
+  CreateGenericGroupOperation(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* operations, bool releasedCachedOpOnComplete);
 
   /// @brief Method ProvideResourceGroupCached, addr 0x2bcbdc8, size 0x77c, virtual false, abstract: false, final false
-  /// @param releaseDependenciesOnFailure: bool (default: true)
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
   ProvideResourceGroupCached(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations, int32_t groupHash,
-                             ::System::Type* desiredType, ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* callback,
-                             bool releaseDependenciesOnFailure = true);
+                             ::System::Type* desiredType, ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* callback, bool releaseDependenciesOnFailure);
 
   /// @brief Method ProvideResources, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param callback: ::System::Action_1<TObject>* (default: nullptr)
   template <typename TObject>
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<TObject>*>
-  ProvideResources(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations, ::System::Action_1<TObject>* callback = nullptr);
+  ProvideResources(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations, ::System::Action_1<TObject>* callback);
 
   /// @brief Method ProvideResources, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param callback: ::System::Action_1<TObject>* (default: nullptr)
   template <typename TObject>
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<TObject>*>
   ProvideResources(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations, bool releaseDependenciesOnFailure,
-                   ::System::Action_1<TObject>* callback = nullptr);
+                   ::System::Action_1<TObject>* callback);
 
   /// @brief Method CreateChainOperation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TObject, typename TObjectDependency>
@@ -1206,21 +1195,19 @@ public:
       ::System::Func_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* callback);
 
   /// @brief Method CreateChainOperation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param releaseDependenciesOnFailure: bool (default: true)
   template <typename TObject, typename TObjectDependency>
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>
   CreateChainOperation(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObjectDependency> dependentOp,
                        ::System::Func_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObjectDependency>,
                                         ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* callback,
-                       bool releaseDependenciesOnFailure = true);
+                       bool releaseDependenciesOnFailure);
 
   /// @brief Method CreateChainOperation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param releaseDependenciesOnFailure: bool (default: true)
   template <typename TObject>
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> CreateChainOperation(
       ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dependentOp,
       ::System::Func_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* callback,
-      bool releaseDependenciesOnFailure = true);
+      bool releaseDependenciesOnFailure);
 
   /// @brief Method ProvideScene, addr 0x2bcd330, size 0x140, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
@@ -1244,8 +1231,7 @@ public:
   inline void ExecuteDeferredCallbacks();
 
   /// @brief Method RegisterForDeferredCallback, addr 0x2bcde40, size 0x210, virtual false, abstract: false, final false
-  /// @param incrementRefCount: bool (default: true)
-  inline void RegisterForDeferredCallback(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, bool incrementRefCount = true);
+  inline void RegisterForDeferredCallback(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, bool incrementRefCount);
 
   /// @brief Method Update, addr 0x2bce050, size 0x414, virtual false, abstract: false, final false
   inline void Update(float_t unscaledDeltaTime);

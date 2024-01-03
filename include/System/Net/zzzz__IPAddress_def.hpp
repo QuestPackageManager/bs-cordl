@@ -11,11 +11,11 @@ CORDL_MODULE_EXPORT(IPAddress)
 namespace System::Net::Sockets {
 struct AddressFamily;
 }
-namespace System {
-class Object;
-}
 namespace System::Net {
 class __IPAddress__ReadOnlyIPAddress;
+}
+namespace System {
+class Object;
 }
 namespace System {
 template <typename T> struct ReadOnlySpan_1;

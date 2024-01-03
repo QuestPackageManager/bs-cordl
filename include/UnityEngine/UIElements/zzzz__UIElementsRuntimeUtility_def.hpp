@@ -10,26 +10,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UIElementsRuntimeUtility)
-namespace UnityEngine::UIElements {
-class PanelSettings;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
-namespace UnityEngine::UIElements {
-class __UIElementsRuntimeUtility__CreateRuntimePanelDelegate;
+namespace System {
+template <typename T> class Action_1;
 }
-namespace UnityEngine {
+namespace System {
+template <typename T> class Comparison_1;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace System {
 class Object;
-}
-namespace UnityEngine {
-struct Vector2;
 }
 namespace UnityEngine::UIElements {
 class BaseRuntimePanel;
-}
-namespace UnityEngine {
-class Event;
-}
-namespace UnityEngine::UIElements {
-class Panel;
 }
 namespace UnityEngine::UIElements {
 class DefaultEventSystem;
@@ -37,29 +34,32 @@ class DefaultEventSystem;
 namespace UnityEngine::UIElements {
 class EventBase;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace UnityEngine::UIElements {
+class IPanel;
+}
+namespace UnityEngine::UIElements {
+class PanelSettings;
+}
+namespace UnityEngine::UIElements {
+class Panel;
+}
+namespace UnityEngine::UIElements {
+class __UIElementsRuntimeUtility__CreateRuntimePanelDelegate;
 }
 namespace UnityEngine::UIElements {
 class __UIElementsRuntimeUtility____c;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine {
+class Event;
 }
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace UnityEngine::UIElements {
-class IPanel;
+namespace UnityEngine {
+class Object;
 }
 namespace UnityEngine {
 class ScriptableObject;
 }
-namespace System {
-class Object;
-}
-namespace System {
-template <typename T> class Comparison_1;
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

@@ -8,19 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MessageDictionary)
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-class Array;
-}
-namespace System::Runtime::Remoting::Messaging {
-class __MessageDictionary__DictionaryEnumerator;
-}
-namespace System {
-class Object;
+struct DictionaryEntry;
 }
 namespace System::Collections {
 class ICollection;
@@ -28,14 +16,26 @@ class ICollection;
 namespace System::Collections {
 class IDictionaryEnumerator;
 }
-namespace System::Runtime::Remoting::Messaging {
-class IMethodMessage;
-}
 namespace System::Collections {
 class IDictionary;
 }
 namespace System::Collections {
-struct DictionaryEntry;
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMethodMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class __MessageDictionary__DictionaryEnumerator;
+}
+namespace System {
+class Array;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -77,8 +77,14 @@ public:
   /// @brief Convert operator to "::System::Collections::IDictionaryEnumerator"
   constexpr operator ::System::Collections::IDictionaryEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IDictionaryEnumerator"
+  constexpr ::System::Collections::IDictionaryEnumerator* i___System__Collections__IDictionaryEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr ::System::Runtime::Remoting::Messaging::MessageDictionary*& __get__methodDictionary();
 
@@ -203,11 +209,20 @@ public:
   /// @brief Convert operator to "::System::Collections::IDictionary"
   constexpr operator ::System::Collections::IDictionary*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IDictionary"
+  constexpr ::System::Collections::IDictionary* i___System__Collections__IDictionary() noexcept;
+
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
 
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::System::Collections::IDictionary*& __get__internalProperties();
 

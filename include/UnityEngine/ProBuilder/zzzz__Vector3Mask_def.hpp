@@ -51,6 +51,9 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::ProBuilder::Vector3Mask>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::ProBuilder::Vector3Mask>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ProBuilder::Vector3Mask>"
+  constexpr ::System::IEquatable_1<::UnityEngine::ProBuilder::Vector3Mask>* i___System__IEquatable_1___UnityEngine__ProBuilder__Vector3Mask_();
+
   static inline void setStaticF_XYZ(::UnityEngine::ProBuilder::Vector3Mask value);
 
   static inline ::UnityEngine::ProBuilder::Vector3Mask getStaticF_XYZ();
@@ -65,8 +68,7 @@ public:
   inline float_t get_z();
 
   /// @brief Method .ctor, addr 0x2b80798, size 0x34, virtual false, abstract: false, final false
-  /// @param epsilon: float_t (default: 0.000000000000000000000000000000000000000000001)
-  inline void _ctor(::UnityEngine::Vector3 v, float_t epsilon = 0.000000000000000000000000000000000000000000001);
+  inline void _ctor(::UnityEngine::Vector3 v, float_t epsilon);
 
   /// @brief Method .ctor, addr 0x2b807cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint8_t mask);

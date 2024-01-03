@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509Extension)
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetString;
+}
+namespace Org::BouncyCastle::Asn1 {
 class DerBoolean;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {

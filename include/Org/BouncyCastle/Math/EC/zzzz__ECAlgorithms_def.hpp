@@ -6,29 +6,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ECAlgorithms)
-namespace Org::BouncyCastle::Math::Field {
-class IFiniteField;
+namespace Org::BouncyCastle::Math::EC::Endo {
+class ECEndomorphism;
+}
+namespace Org::BouncyCastle::Math::EC::Endo {
+class GlvEndomorphism;
+}
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class WNafPreCompInfo;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECCurve;
 }
 namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
+class ECFieldElement;
 }
 namespace Org::BouncyCastle::Math::EC {
-class ECFieldElement;
+class ECPoint;
+}
+namespace Org::BouncyCastle::Math::Field {
+class IFiniteField;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
-}
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class WNafPreCompInfo;
-}
-namespace Org::BouncyCastle::Math::EC::Endo {
-class GlvEndomorphism;
-}
-namespace Org::BouncyCastle::Math::EC::Endo {
-class ECEndomorphism;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC {

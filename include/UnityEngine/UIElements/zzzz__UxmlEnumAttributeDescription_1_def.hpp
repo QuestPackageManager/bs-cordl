@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UxmlEnumAttributeDescription_1)
+namespace System {
+template <typename T1, typename T2, typename TResult> class Func_3;
+}
+namespace UnityEngine::UIElements {
+struct CreationContext;
+}
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class __UxmlEnumAttributeDescription_1____c;
-}
-namespace UnityEngine::UIElements {
-struct CreationContext;
-}
-namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

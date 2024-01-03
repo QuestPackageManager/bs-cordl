@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Threading/Tasks/zzzz__Task_impl.hpp"
 #include "System/Threading/Tasks/zzzz__ContinuationTaskFromTask_def.hpp"
-#include "System/zzzz__Delegate_def.hpp"
+#include "System/Threading/Tasks/zzzz__InternalTaskOptions_def.hpp"
 #include "System/Threading/Tasks/zzzz__TaskCreationOptions_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/zzzz__Delegate_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Threading/Tasks/zzzz__InternalTaskOptions_def.hpp"
 //  Writing Method size for method: ::System::Threading::Tasks::ContinuationTaskFromTask._ctor
 template <>
 
@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x2628018;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::ContinuationTaskFromTask*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task*>::get(),
@@ -34,7 +34,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xd0;
   constexpr static std::size_t addrs = 0x262b3f0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::ContinuationTaskFromTask*>::get(),

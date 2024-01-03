@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Test_Terrain)
 namespace HoudiniEngineUnity {
+template <typename T> class IEquivableWrapperClass_1;
+}
+namespace HoudiniEngineUnity {
 template <typename T> class IEquivable_1;
 }
 namespace UnityEngine {
 class Terrain;
-}
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivableWrapperClass_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -35,8 +35,14 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Terrain*>"
   constexpr operator ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Terrain*>*() noexcept;
 
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Terrain*>"
+  constexpr ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Terrain*>* i___HoudiniEngineUnity__IEquivableWrapperClass_1___HoudiniEngineUnity__Test_Terrain__() noexcept;
+
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Terrain*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Terrain*>*() noexcept;
+
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Terrain*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Terrain*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_Terrain__() noexcept;
 
   constexpr ::UnityEngine::Terrain*& __get_self();
 

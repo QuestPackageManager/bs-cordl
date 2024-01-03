@@ -8,25 +8,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BerOctetString)
 namespace Org::BouncyCastle::Asn1 {
-class DerOutputStream;
+class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerOctetString;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerOutputStream;
+}
+namespace Org::BouncyCastle::Asn1 {
+class __BerOctetString__ChunkEnumerator;
 }
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
-}
-namespace Org::BouncyCastle::Asn1 {
-class __BerOctetString__ChunkEnumerator;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerOctetString;
 }
 namespace System {
 class Object;
@@ -67,6 +67,9 @@ public:
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_octets();
 
@@ -169,6 +172,9 @@ public:
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr int32_t& __get_chunkSize();
 

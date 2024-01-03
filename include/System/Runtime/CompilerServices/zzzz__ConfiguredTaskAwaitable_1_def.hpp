@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(ConfiguredTaskAwaitable_1)
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
-}
-namespace System {
-class Action;
-}
 namespace System::Runtime::CompilerServices {
 class ICriticalNotifyCompletion;
 }
 namespace System::Runtime::CompilerServices {
 class INotifyCompletion;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
@@ -47,8 +47,14 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*();
 
+  /// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
+  constexpr ::System::Runtime::CompilerServices::ICriticalNotifyCompletion* i___System__Runtime__CompilerServices__ICriticalNotifyCompletion();
+
   /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::INotifyCompletion"
+  constexpr ::System::Runtime::CompilerServices::INotifyCompletion* i___System__Runtime__CompilerServices__INotifyCompletion();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Task_1<TResult>* task, bool continueOnCapturedContext);
@@ -92,7 +98,7 @@ namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TResult>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 1121 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 1121 }), TypeDefinitionIndex(TypeDefinitionIndex(3397))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3398))
 // CS Name: ::System.Runtime.CompilerServices::ConfiguredTaskAwaitable`1<TResult>
 struct CORDL_TYPE ConfiguredTaskAwaitable_1 {

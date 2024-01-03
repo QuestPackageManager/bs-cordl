@@ -11,14 +11,11 @@ CORDL_MODULE_EXPORT(OVRPhysicsRaycaster)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace System {
+template <typename T> class Comparison_1;
+}
 namespace UnityEngine::EventSystems {
 class PointerEventData;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class Camera;
 }
 namespace UnityEngine::EventSystems {
 struct RaycastResult;
@@ -27,16 +24,19 @@ namespace UnityEngine::EventSystems {
 class __OVRPhysicsRaycaster____c;
 }
 namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine {
 struct LayerMask;
+}
+namespace UnityEngine {
+struct RaycastHit;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
-struct RaycastHit;
-}
-namespace System {
-template <typename T> class Comparison_1;
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {

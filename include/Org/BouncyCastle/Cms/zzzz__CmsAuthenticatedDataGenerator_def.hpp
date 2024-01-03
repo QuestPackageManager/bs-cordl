@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Cms/zzzz__CmsAuthenticatedGenerator_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CmsAuthenticatedDataGenerator)
-namespace Org::BouncyCastle::Crypto {
-class CipherKeyGenerator;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Cms {
 class CmsAuthenticatedData;
 }
 namespace Org::BouncyCastle::Cms {
 class CmsProcessable;
+}
+namespace Org::BouncyCastle::Crypto {
+class CipherKeyGenerator;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

@@ -8,9 +8,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleScale)
-namespace UnityEngine::UIElements {
-struct StyleKeyword;
-}
 namespace System {
 template <typename T> class IEquatable_1;
 }
@@ -18,10 +15,13 @@ namespace System {
 class Object;
 }
 namespace UnityEngine::UIElements {
+template <typename T> class IStyleValue_1;
+}
+namespace UnityEngine::UIElements {
 struct Scale;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class IStyleValue_1;
+struct StyleKeyword;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -33,7 +33,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleScale);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7318)), TypeDefinitionIndex(TypeDefinitionIndex(7300))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7300)), TypeDefinitionIndex(TypeDefinitionIndex(7318))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7283))
 // CS Name: ::UnityEngine.UIElements::StyleScale
 struct CORDL_TYPE StyleScale {
@@ -46,8 +46,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Scale>"
   constexpr operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Scale>*();
 
+  /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Scale>"
+  constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Scale>* i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__Scale_();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleScale>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleScale>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleScale>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleScale>* i___System__IEquatable_1___UnityEngine__UIElements__StyleScale_();
 
   /// @brief Method get_value, addr 0x2e6ca58, size 0x34, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::Scale get_value();

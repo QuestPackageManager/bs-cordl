@@ -10,17 +10,17 @@ CORDL_MODULE_EXPORT(CertificateID)
 namespace Org::BouncyCastle::Asn1::Ocsp {
 class CertID;
 }
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 namespace System {
 class Object;

@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ActivatedClientTypeEntry)
-namespace System {
-class Type;
-}
 namespace System::Runtime::Remoting::Contexts {
 class IContextAttribute;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {

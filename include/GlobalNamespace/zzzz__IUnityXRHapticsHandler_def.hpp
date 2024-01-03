@@ -26,6 +26,9 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Method TriggerHapticPulse, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void TriggerHapticPulse(float_t strength, float_t duration);
 

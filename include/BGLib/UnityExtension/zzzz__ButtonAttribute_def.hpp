@@ -33,8 +33,7 @@ public:
   static inline ::BGLib::UnityExtension::ButtonAttribute* New_ctor(::StringW title);
 
   /// @brief Method .ctor, addr 0xe28e18, size 0x28, virtual false, abstract: false, final false
-  /// @param title: ::StringW (default: nullptr)
-  inline void _ctor(::StringW title = nullptr);
+  inline void _ctor(::StringW title);
 
   // Ctor Parameters [CppParam { name: "", ty: "ButtonAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

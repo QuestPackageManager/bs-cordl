@@ -8,31 +8,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnitySerializationHolder)
 namespace System::Reflection {
+class MethodBase;
+}
+namespace System::Reflection {
 class RuntimeAssembly;
 }
 namespace System::Runtime::Serialization {
 class IObjectReference;
 }
 namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System {
 class Object;
 }
 namespace System {
-class Type;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::Reflection {
-class MethodBase;
-}
-namespace System {
 class RuntimeType;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System {
@@ -77,8 +77,14 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Serialization::IObjectReference"
   constexpr operator ::System::Runtime::Serialization::IObjectReference*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::IObjectReference"
+  constexpr ::System::Runtime::Serialization::IObjectReference* i___System__Runtime__Serialization__IObjectReference() noexcept;
 
   constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __get_m_instantiation();
 

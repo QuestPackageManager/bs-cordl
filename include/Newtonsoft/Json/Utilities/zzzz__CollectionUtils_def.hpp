@@ -9,11 +9,26 @@ CORDL_MODULE_EXPORT(CollectionUtils)
 namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEqualityComparer_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
 namespace System::Collections {
 class IEqualityComparer;
 }
-namespace System {
-class Type;
+namespace System::Collections {
+class IList;
 }
 namespace System::Reflection {
 class ConstructorInfo;
@@ -21,29 +36,14 @@ class ConstructorInfo;
 namespace System {
 class Array;
 }
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
-}
 namespace System {
 template <typename T, typename TResult> class Func_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Collections {
-class IList;
 }
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {

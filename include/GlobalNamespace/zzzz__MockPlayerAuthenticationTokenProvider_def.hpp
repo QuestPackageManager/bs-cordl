@@ -7,25 +7,25 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MockPlayerAuthenticationTokenProvider)
 namespace GlobalNamespace {
-struct __AuthenticationToken__Platform;
+struct AuthenticationToken;
 }
 namespace GlobalNamespace {
-class XPlatformAccessTokenData;
+class IAuthenticationTokenProvider;
 }
 namespace GlobalNamespace {
 struct PlatformEnvironment;
 }
 namespace GlobalNamespace {
-class IAuthenticationTokenProvider;
-}
-namespace System::Threading {
-struct CancellationToken;
+class XPlatformAccessTokenData;
 }
 namespace GlobalNamespace {
-struct AuthenticationToken;
+struct __AuthenticationToken__Platform;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -66,6 +66,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IAuthenticationTokenProvider"
   constexpr operator ::GlobalNamespace::IAuthenticationTokenProvider*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IAuthenticationTokenProvider"
+  constexpr ::GlobalNamespace::IAuthenticationTokenProvider* i___GlobalNamespace__IAuthenticationTokenProvider() noexcept;
 
   constexpr ::StringW& __get__userId();
 
@@ -118,8 +121,7 @@ public:
   inline ::GlobalNamespace::__AuthenticationToken__Platform GetTokenPlatform(::GlobalNamespace::PlatformEnvironment tokenPlatformEnvironment);
 
   /// @brief Method GetXPlatformAccessToken, addr 0x23e6fd8, size 0xb4, virtual true, abstract: false, final true
-  /// @param skipCache: bool (default: false)
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData*>* GetXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken, bool skipCache = false);
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData*>* GetXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken, bool skipCache);
 
   // Ctor Parameters [CppParam { name: "", ty: "MockPlayerAuthenticationTokenProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

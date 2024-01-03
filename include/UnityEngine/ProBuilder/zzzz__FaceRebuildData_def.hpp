@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FaceRebuildData)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template <typename T> class List_1;
 }
 namespace UnityEngine::ProBuilder {
 class Face;
 }
 namespace UnityEngine::ProBuilder {
-class Vertex;
+class ProBuilderMesh;
 }
 namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+class Vertex;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -92,18 +92,13 @@ public:
   inline ::StringW ToString();
 
   /// @brief Method Apply, addr 0x2b41d30, size 0x184, virtual false, abstract: false, final false
-  /// @param vertices: ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* (default: nullptr)
-  /// @param faces: ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* (default: nullptr)
   static inline void Apply(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::FaceRebuildData*>* newFaces, ::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
-                           ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices = nullptr,
-                           ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* faces = nullptr);
+                           ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* faces);
 
   /// @brief Method Apply, addr 0x2b41eb4, size 0x590, virtual false, abstract: false, final false
-  /// @param sharedTextureLookup: ::System::Collections::Generic::Dictionary_2<int32_t,int32_t>* (default: nullptr)
   static inline void Apply(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::FaceRebuildData*>* newFaces,
                            ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* faces,
-                           ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* sharedVertexLookup,
-                           ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* sharedTextureLookup = nullptr);
+                           ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* sharedVertexLookup, ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* sharedTextureLookup);
 
   static inline ::UnityEngine::ProBuilder::FaceRebuildData* New_ctor();
 

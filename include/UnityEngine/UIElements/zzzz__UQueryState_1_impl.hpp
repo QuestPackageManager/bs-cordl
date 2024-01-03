@@ -1,19 +1,19 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__UQuery_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UQueryState_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__RuleMatcher_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/UIElements/zzzz__RuleMatcher_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UQueryState_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UQuery_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 template <typename T, typename TElement>
 constexpr ::System::Collections::Generic::List_1<TElement>*& UnityEngine::UIElements::__UQueryState_1__ListQueryMatcher_1<T, TElement>::__get__matches_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -109,12 +109,24 @@ template <typename T> constexpr ::UnityEngine::UIElements::__UQueryState_1__Acti
 template <typename T> constexpr UnityEngine::UIElements::__UQueryState_1__Enumerator<T>::operator ::System::Collections::Generic::IEnumerator_1<T>*() {
   return static_cast<::System::Collections::Generic::IEnumerator_1<T>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::IEnumerator_1<T>* UnityEngine::UIElements::__UQueryState_1__Enumerator<T>::i___System__Collections__Generic__IEnumerator_1_T_() {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<T>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 template <typename T> constexpr UnityEngine::UIElements::__UQueryState_1__Enumerator<T>::operator ::System::Collections::IEnumerator*() {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Collections::IEnumerator"
+template <typename T> constexpr ::System::Collections::IEnumerator* UnityEngine::UIElements::__UQueryState_1__Enumerator<T>::i___System__Collections__IEnumerator() {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::IDisposable"
 template <typename T> constexpr UnityEngine::UIElements::__UQueryState_1__Enumerator<T>::operator ::System::IDisposable*() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename T> constexpr ::System::IDisposable* UnityEngine::UIElements::__UQueryState_1__Enumerator<T>::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename T> inline void UnityEngine::UIElements::__UQueryState_1__Enumerator<T>::_ctor(::UnityEngine::UIElements::UQueryState_1<T> queryState) {
@@ -162,12 +174,25 @@ template <typename T> constexpr ::UnityEngine::UIElements::__UQueryState_1__Enum
 template <typename T> constexpr UnityEngine::UIElements::UQueryState_1<T>::operator ::System::Collections::Generic::IEnumerable_1<T>*() {
   return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::IEnumerable_1<T>* UnityEngine::UIElements::UQueryState_1<T>::i___System__Collections__Generic__IEnumerable_1_T_() {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename T> constexpr UnityEngine::UIElements::UQueryState_1<T>::operator ::System::Collections::IEnumerable*() {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename T> constexpr ::System::Collections::IEnumerable* UnityEngine::UIElements::UQueryState_1<T>::i___System__Collections__IEnumerable() {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::UQueryState_1<T>>"
 template <typename T> constexpr UnityEngine::UIElements::UQueryState_1<T>::operator ::System::IEquatable_1<::UnityEngine::UIElements::UQueryState_1<T>>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::UQueryState_1<T>>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::UQueryState_1<T>>"
+template <typename T>
+constexpr ::System::IEquatable_1<::UnityEngine::UIElements::UQueryState_1<T>>* UnityEngine::UIElements::UQueryState_1<T>::i___System__IEquatable_1___UnityEngine__UIElements__UQueryState_1_T__() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::UQueryState_1<T>>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename T> inline void UnityEngine::UIElements::UQueryState_1<T>::setStaticF_s_Action(::UnityEngine::UIElements::__UQueryState_1__ActionQueryMatcher<T>* value) {

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__CachedAttributeGetter_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__ThreadSafeStore_2_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 template <typename T>
 inline void Newtonsoft::Json::Serialization::CachedAttributeGetter_1<T>::setStaticF_TypeAttributeCache(::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Object*, T>* value) {
   ::cordl_internals::setStaticField<::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Object*, T>*, "TypeAttributeCache",

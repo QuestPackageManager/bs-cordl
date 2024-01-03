@@ -12,23 +12,23 @@ CORDL_MODULE_EXPORT(PlayerStateHash)
 namespace GlobalNamespace {
 struct BitMask128;
 }
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+namespace LiteNetLib::Utils {
+template <typename T> class INetImmutableSerializable_1;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
-namespace System {
-class Object;
-}
 namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
-namespace LiteNetLib::Utils {
-template <typename T> class INetImmutableSerializable_1;
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -49,8 +49,14 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::PlayerStateHash>"
   constexpr operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::PlayerStateHash>*();
 
+  /// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::PlayerStateHash>"
+  constexpr ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::PlayerStateHash>* i___LiteNetLib__Utils__INetImmutableSerializable_1___GlobalNamespace__PlayerStateHash_();
+
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::PlayerStateHash>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::PlayerStateHash>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::PlayerStateHash>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::PlayerStateHash>* i___System__IEquatable_1___GlobalNamespace__PlayerStateHash_();
 
   /// @brief Method .ctor, addr 0xe530e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BitMask128 bloomFilter);
@@ -101,8 +107,7 @@ public:
   static inline ::GlobalNamespace::PlayerStateHash Parse(::StringW stringSerializedMask);
 
   /// @brief Method FromBytes, addr 0xe53610, size 0x58, virtual false, abstract: false, final false
-  /// @param offset: int32_t (default: static_cast<int32_t>(0x0))
-  static inline ::GlobalNamespace::PlayerStateHash FromBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t offset = static_cast<int32_t>(0x0));
+  static inline ::GlobalNamespace::PlayerStateHash FromBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t offset);
 
   // Ctor Parameters [CppParam { name: "_bloomFilter", ty: "::GlobalNamespace::BitMask128", modifiers: "", def_value: None }]
   constexpr PlayerStateHash(::GlobalNamespace::BitMask128 _bloomFilter) noexcept;

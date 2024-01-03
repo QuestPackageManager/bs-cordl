@@ -10,9 +10,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_DefaultControls)
-namespace UnityEngine {
-struct Vector2;
-}
 namespace TMPro {
 class TMP_Text;
 }
@@ -27,6 +24,9 @@ class GameObject;
 }
 namespace UnityEngine {
 class Sprite;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace TMPro {
@@ -107,7 +107,7 @@ static_assert(offsetof(::TMPro::__TMP_DefaultControls__Resources, mask) == 0x30,
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12346))
 // CS Name: ::TMPro::TMP_DefaultControls*
 class CORDL_TYPE TMP_DefaultControls : public ::System::Object {

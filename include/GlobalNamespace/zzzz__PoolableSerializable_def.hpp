@@ -5,8 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PoolableSerializable)
-namespace System {
-class Type;
+namespace GlobalNamespace {
+class IPoolableSerializable;
+}
+namespace LiteNetLib::Utils {
+class INetSerializable;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
@@ -20,11 +23,8 @@ template <typename T> class ConcurrentBag_1;
 namespace System::Collections::Concurrent {
 template <typename TKey, typename TValue> class ConcurrentDictionary_2;
 }
-namespace GlobalNamespace {
-class IPoolableSerializable;
-}
-namespace LiteNetLib::Utils {
-class INetSerializable;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -52,8 +52,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPoolableSerializable"
   constexpr operator ::GlobalNamespace::IPoolableSerializable*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IPoolableSerializable"
+  constexpr ::GlobalNamespace::IPoolableSerializable* i___GlobalNamespace__IPoolableSerializable() noexcept;
+
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
+
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
 
   constexpr int32_t& __get__referenceCount();
 

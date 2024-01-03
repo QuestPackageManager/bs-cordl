@@ -8,38 +8,38 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OrderedSet_1)
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
-class IEnumerable;
-}
 namespace GlobalNamespace {
 template <typename T> class __OrderedSet_1__Node;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace GlobalNamespace {
-template <typename T> class __OrderedSet_1___GetEnumerator_d__23;
 }
 namespace GlobalNamespace {
 template <typename T> struct __OrderedSet_1__ProcessOrder;
 }
-namespace System {
-template <typename T> class Comparison_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace GlobalNamespace {
+template <typename T> class __OrderedSet_1___GetEnumerator_d__23;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System {
-class Object;
+template <typename T> class Comparison_1;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -65,7 +65,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12903)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12903), inst: 4869 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12903), inst: 4869 }), TypeDefinitionIndex(TypeDefinitionIndex(12903))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12903))
 // CS Name: ::OrderedSet`1::ProcessOrder<T>
 struct CORDL_TYPE __OrderedSet_1__ProcessOrder {
@@ -237,11 +237,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<T>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<T>* i___System__Collections__Generic__IEnumerator_1_T_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -323,7 +332,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12903)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12903), inst:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12903)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12903), inst:
 // 1036 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(12906)) CS Name: ::OrderedSet`1<T>*
 class CORDL_TYPE OrderedSet_1 : public ::System::Object {
 public:
@@ -357,8 +366,14 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>* i___System__Collections__Generic__IEnumerable_1_T_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::System::Comparison_1<T>*& __get__comparison();
 
@@ -402,8 +417,7 @@ public:
   static inline ::GlobalNamespace::OrderedSet_1<T>* New_ctor(::System::Comparison_1<T>* comparison, ::GlobalNamespace::__OrderedSet_1__ProcessOrder<T> processOrder);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param processOrder: ::GlobalNamespace::__OrderedSet_1__ProcessOrder<T> (default: static_cast<int32_t>(0x2))
-  inline void _ctor(::System::Comparison_1<T>* comparison, ::GlobalNamespace::__OrderedSet_1__ProcessOrder<T> processOrder = static_cast<int32_t>(0x2));
+  inline void _ctor(::System::Comparison_1<T>* comparison, ::GlobalNamespace::__OrderedSet_1__ProcessOrder<T> processOrder);
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Add(T item);

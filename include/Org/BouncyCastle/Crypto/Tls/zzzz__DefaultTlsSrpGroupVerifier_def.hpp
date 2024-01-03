@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DefaultTlsSrpGroupVerifier)
+namespace Org::BouncyCastle::Crypto::Parameters {
+class Srp6GroupParameters;
+}
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSrpGroupVerifier;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class Srp6GroupParameters;
 }
 namespace System::Collections {
 class IList;
@@ -40,6 +40,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier* i___Org__BouncyCastle__Crypto__Tls__TlsSrpGroupVerifier() noexcept;
 
   constexpr ::System::Collections::IList*& __get_mGroups();
 

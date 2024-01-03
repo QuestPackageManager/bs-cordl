@@ -10,17 +10,17 @@ CORDL_MODULE_EXPORT(G_RamGraph)
 namespace Tayx::Graphy::Ram {
 class G_RamMonitor;
 }
-namespace UnityEngine {
-class Shader;
-}
-namespace UnityEngine::UI {
-class Image;
+namespace Tayx::Graphy {
+class G_GraphShader;
 }
 namespace Tayx::Graphy {
 class GraphyManager;
 }
-namespace Tayx::Graphy {
-class G_GraphShader;
+namespace UnityEngine::UI {
+class Image;
+}
+namespace UnityEngine {
+class Shader;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Ram {

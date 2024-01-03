@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReverseCompare)
-namespace System {
-class Object;
-}
 namespace System::Collections {
 class IComparer;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -29,6 +29,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IComparer"
+  constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
 
   /// @brief Method Compare, addr 0x21b90a8, size 0x78, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* x, ::System::Object* y);

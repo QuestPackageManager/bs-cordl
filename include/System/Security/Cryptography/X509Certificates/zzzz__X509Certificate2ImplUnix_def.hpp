@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509Certificate2ImplUnix)
-namespace System::Security::Cryptography::X509Certificates {
-class X500DistinguishedName;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Extension;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System::Security::Cryptography::X509Certificates {
+class X500DistinguishedName;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Extension;
+}
+namespace System::Security::Cryptography::X509Certificates {
 struct X509NameType;
+}
+namespace System::Text {
+class StringBuilder;
 }
 namespace System {
 struct DateTime;
@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509Certifica
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8858)), TypeDefinitionIndex(TypeDefinitionIndex(8996))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8996)), TypeDefinitionIndex(TypeDefinitionIndex(8858))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8998))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509Certificate2ImplUnix*
 class CORDL_TYPE X509Certificate2ImplUnix : public ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl {

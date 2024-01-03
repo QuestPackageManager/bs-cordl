@@ -34,6 +34,9 @@ public:
   /// @brief Convert operator to "::BGNet::Core::ITimeProvider"
   constexpr operator ::BGNet::Core::ITimeProvider*() noexcept;
 
+  /// @brief Convert to "::BGNet::Core::ITimeProvider"
+  constexpr ::BGNet::Core::ITimeProvider* i___BGNet__Core__ITimeProvider() noexcept;
+
   static inline void setStaticF__epoch(::System::DateTime value);
 
   static inline ::System::DateTime getStaticF__epoch();

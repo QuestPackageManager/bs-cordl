@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextResourceManager)
-namespace UnityEngine::TextCore::Text {
-class FontAsset;
-}
-namespace UnityEngine::TextCore::Text {
-struct __TextResourceManager__FontAssetRef;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine::TextCore::Text {
+class FontAsset;
+}
+namespace UnityEngine::TextCore::Text {
+struct __TextResourceManager__FontAssetRef;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {

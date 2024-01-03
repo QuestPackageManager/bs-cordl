@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(StandaloneThreadContext)
 namespace GlobalNamespace {
-class IStandaloneThreadRunner;
+class IStandaloneThreadRunnable;
 }
 namespace GlobalNamespace {
-class IStandaloneThreadRunnable;
+class IStandaloneThreadRunner;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -31,6 +31,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IStandaloneThreadRunner"
   constexpr operator ::GlobalNamespace::IStandaloneThreadRunner*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IStandaloneThreadRunner"
+  constexpr ::GlobalNamespace::IStandaloneThreadRunner* i___GlobalNamespace__IStandaloneThreadRunner() noexcept;
 
   static inline void setStaticF_instance(::GlobalNamespace::StandaloneThreadContext* value);
 

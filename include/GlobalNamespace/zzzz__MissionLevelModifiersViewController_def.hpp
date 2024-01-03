@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MissionLevelModifiersViewController)
-namespace TMPro {
-class TextMeshProUGUI;
+namespace GlobalNamespace {
+class GameplayModifierInfoListItem;
 }
 namespace GlobalNamespace {
 class GameplayModifierInfoListItemsList;
 }
-namespace UnityEngine {
-class GameObject;
+namespace GlobalNamespace {
+class GameplayModifierParamsSO;
 }
 namespace GlobalNamespace {
 class GameplayModifiersModelSO;
@@ -27,11 +27,11 @@ class __MissionLevelModifiersViewController____c__DisplayClass7_0;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace GlobalNamespace {
-class GameplayModifierInfoListItem;
+namespace TMPro {
+class TextMeshProUGUI;
 }
-namespace GlobalNamespace {
-class GameplayModifierParamsSO;
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IInputActionCollection2)
-namespace UnityEngine::InputSystem {
-class InputAction;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::InputSystem {
-struct InputBinding;
 }
 namespace System::Collections {
 class IEnumerable;
 }
 namespace UnityEngine::InputSystem {
 class IInputActionCollection;
+}
+namespace UnityEngine::InputSystem {
+class InputAction;
+}
+namespace UnityEngine::InputSystem {
+struct InputBinding;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -42,18 +42,27 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::IInputActionCollection"
   constexpr operator ::UnityEngine::InputSystem::IInputActionCollection*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::InputSystem::IInputActionCollection"
+  constexpr ::UnityEngine::InputSystem::IInputActionCollection* i___UnityEngine__InputSystem__IInputActionCollection() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputAction*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputAction*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputAction*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputAction*>*
+  i___System__Collections__Generic__IEnumerable_1___UnityEngine__InputSystem__InputAction__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Method get_bindings, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputBinding>* get_bindings();
 
   /// @brief Method FindAction, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  /// @param throwIfNotFound: bool (default: false)
-  inline ::UnityEngine::InputSystem::InputAction* FindAction(::StringW actionNameOrId, bool throwIfNotFound = false);
+  inline ::UnityEngine::InputSystem::InputAction* FindAction(::StringW actionNameOrId, bool throwIfNotFound);
 
   /// @brief Method FindBinding, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t FindBinding(::UnityEngine::InputSystem::InputBinding mask, ByRef<::UnityEngine::InputSystem::InputAction*> action);

@@ -9,8 +9,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(EventBase)
-namespace UnityEngine::UIElements {
-struct PropagationPhase;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+class IDisposable;
 }
 namespace UnityEngine::UIElements {
 class IEventHandler;
@@ -18,14 +21,11 @@ class IEventHandler;
 namespace UnityEngine::UIElements {
 class IPanel;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::UIElements {
+class PropagationPaths;
 }
-namespace UnityEngine {
-class Event;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::UIElements {
+struct PropagationPhase;
 }
 namespace UnityEngine::UIElements {
 struct __EventBase__EventPropagation;
@@ -33,11 +33,11 @@ struct __EventBase__EventPropagation;
 namespace UnityEngine::UIElements {
 struct __EventBase__LifeCycleStatus;
 }
-namespace UnityEngine::UIElements {
-class PropagationPaths;
+namespace UnityEngine {
+class Event;
 }
-namespace System {
-class IDisposable;
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -213,8 +213,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__EventBase__LifeCycleStatus, 
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7178)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7177)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7256)), TypeDefinitionIndex(TypeDefinitionIndex(10243))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7179)) CS Name: ::UnityEngine.UIElements::EventBase*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7256)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7177)), TypeDefinitionIndex(TypeDefinitionIndex(7178))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7179)) CS Name: ::UnityEngine.UIElements::EventBase*
 class CORDL_TYPE EventBase : public ::System::Object {
 public:
   // Declarations
@@ -329,6 +329,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int64_t& __get__timestamp_k__BackingField();
 

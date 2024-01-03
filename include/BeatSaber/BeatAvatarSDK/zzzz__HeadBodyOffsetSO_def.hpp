@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15696))
 // CS Name: ::BeatSaber.BeatAvatarSDK::HeadBodyOffsetSO*
 class CORDL_TYPE HeadBodyOffsetSO : public ::GlobalNamespace::PersistentScriptableObject {

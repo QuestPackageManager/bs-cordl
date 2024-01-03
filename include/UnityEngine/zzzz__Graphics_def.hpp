@@ -7,41 +7,41 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Graphics)
-namespace UnityEngine {
-class Material;
-}
 namespace UnityEngine::Rendering {
 class CommandBuffer;
 }
-namespace UnityEngine {
-struct CubemapFace;
+namespace UnityEngine::Rendering {
+struct GraphicsTier;
 }
-namespace UnityEngine {
-struct RenderBuffer;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-struct Matrix4x4;
+namespace UnityEngine::Rendering {
+struct LightProbeUsage;
 }
 namespace UnityEngine::Rendering {
 struct ShadowCastingMode;
 }
 namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine {
+struct CubemapFace;
+}
+namespace UnityEngine {
 class LightProbeProxyVolume;
 }
 namespace UnityEngine {
-class Transform;
+class MaterialPropertyBlock;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+struct Matrix4x4;
 }
 namespace UnityEngine {
 class Mesh;
 }
-namespace UnityEngine::Rendering {
-struct LightProbeUsage;
-}
 namespace UnityEngine {
-class MaterialPropertyBlock;
+struct RenderBuffer;
 }
 namespace UnityEngine {
 class RenderTexture;
@@ -50,10 +50,10 @@ namespace UnityEngine {
 class Texture;
 }
 namespace UnityEngine {
-class Camera;
+class Transform;
 }
-namespace UnityEngine::Rendering {
-struct GraphicsTier;
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine {

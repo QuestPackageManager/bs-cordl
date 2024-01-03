@@ -10,28 +10,28 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
+class Action;
+}
+namespace System {
 class Object;
-}
-namespace Zenject {
-struct InjectSources;
-}
-namespace Zenject {
-class IProvider;
 }
 namespace System {
 class Type;
 }
 namespace Zenject {
-struct TypeValuePair;
-}
-namespace System {
-class Action;
-}
-namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
+class IProvider;
+}
+namespace Zenject {
 class InjectContext;
+}
+namespace Zenject {
+struct InjectSources;
+}
+namespace Zenject {
+struct TypeValuePair;
 }
 // Forward declare root types
 namespace Zenject {
@@ -73,6 +73,9 @@ public:
 
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
+
+  /// @brief Convert to "::Zenject::IProvider"
+  constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
 
   constexpr ::System::Object*& __get__identifier();
 

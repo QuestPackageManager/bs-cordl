@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IMonoHttpClientHandler)
 namespace System::Net::Http {
-class HttpResponseMessage;
+class HttpRequestMessage;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace System::Net::Http {
+class HttpResponseMessage;
 }
 namespace System::Net::Security {
 class SslClientAuthenticationOptions;
@@ -15,11 +15,11 @@ class SslClientAuthenticationOptions;
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
+namespace System::Threading {
+struct CancellationToken;
+}
 namespace System {
 class IDisposable;
-}
-namespace System::Net::Http {
-class HttpRequestMessage;
 }
 namespace System {
 struct TimeSpan;
@@ -44,6 +44,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// @brief Method get_SslOptions, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Net::Security::SslClientAuthenticationOptions* get_SslOptions();

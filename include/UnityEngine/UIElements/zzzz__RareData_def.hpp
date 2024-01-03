@@ -12,26 +12,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RareData)
-namespace UnityEngine::UIElements {
-struct Cursor;
-}
-namespace UnityEngine::UIElements {
-struct TextOverflowPosition;
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
 }
 namespace UnityEngine::UIElements {
-struct TextOverflow;
+struct Cursor;
 }
-namespace System {
-template <typename T> class IEquatable_1;
+namespace UnityEngine::UIElements {
+template <typename T> class IStyleDataGroup_1;
 }
 namespace UnityEngine::UIElements {
 struct OverflowClipBox;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class IStyleDataGroup_1;
+struct TextOverflowPosition;
+}
+namespace UnityEngine::UIElements {
+struct TextOverflow;
 }
 namespace UnityEngine {
 struct Color;
@@ -49,8 +49,8 @@ MARK_VAL_T(::UnityEngine::UIElements::RareData);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6808)), TypeDefinitionIndex(TypeDefinitionIndex(6894)), TypeDefinitionIndex(TypeDefinitionIndex(14596)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6888)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(6893))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7358))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6808)), TypeDefinitionIndex(TypeDefinitionIndex(14596)), TypeDefinitionIndex(TypeDefinitionIndex(6888)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6894)), TypeDefinitionIndex(TypeDefinitionIndex(6893)), TypeDefinitionIndex(TypeDefinitionIndex(10251))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7358))
 // CS Name: ::UnityEngine.UIElements::RareData
 struct CORDL_TYPE RareData {
 public:
@@ -58,8 +58,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>"
   constexpr operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>*();
 
+  /// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>"
+  constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__RareData_();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::RareData>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::RareData>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::RareData>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::RareData>* i___System__IEquatable_1___UnityEngine__UIElements__RareData_();
 
   /// @brief Method Copy, addr 0x2e8408c, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::RareData Copy();

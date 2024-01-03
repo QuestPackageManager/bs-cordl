@@ -7,8 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(IntroTutorialRing)
+namespace GlobalNamespace {
+class ColorManager;
+}
+namespace GlobalNamespace {
+struct SaberType;
+}
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
+}
+namespace UnityEngine::UI {
+class Image;
 }
 namespace UnityEngine {
 class CanvasGroup;
@@ -16,17 +25,8 @@ class CanvasGroup;
 namespace UnityEngine {
 class Collider;
 }
-namespace GlobalNamespace {
-class ColorManager;
-}
 namespace UnityEngine {
 class ParticleSystem;
-}
-namespace UnityEngine::UI {
-class Image;
-}
-namespace GlobalNamespace {
-struct SaberType;
 }
 // Forward declare root types
 namespace GlobalNamespace {

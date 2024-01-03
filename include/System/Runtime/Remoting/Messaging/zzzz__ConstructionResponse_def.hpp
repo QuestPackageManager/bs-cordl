@@ -4,26 +4,20 @@
 CORDL_MODULE_INIT
 #include "System/Runtime/Remoting/Messaging/zzzz__MethodResponse_def.hpp"
 CORDL_MODULE_EXPORT(ConstructionResponse)
-namespace System::Runtime::Remoting::Messaging {
-class IMethodMessage;
+namespace System::Collections {
+class IDictionary;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+namespace System::Runtime::Remoting::Activation {
+class IConstructionReturnMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMethodCallMessage;
 }
-namespace System {
-class Exception;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace System {
-class Object;
+namespace System::Runtime::Remoting::Messaging {
+class IMethodMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMethodReturnMessage;
@@ -31,11 +25,17 @@ class IMethodReturnMessage;
 namespace System::Runtime::Remoting::Messaging {
 class LogicalCallContext;
 }
-namespace System::Runtime::Remoting::Activation {
-class IConstructionReturnMessage;
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System {
+class Exception;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -58,14 +58,26 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Activation::IConstructionReturnMessage"
   constexpr operator ::System::Runtime::Remoting::Activation::IConstructionReturnMessage*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Remoting::Activation::IConstructionReturnMessage"
+  constexpr ::System::Runtime::Remoting::Activation::IConstructionReturnMessage* i___System__Runtime__Remoting__Activation__IConstructionReturnMessage() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodReturnMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMethodReturnMessage*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodReturnMessage"
+  constexpr ::System::Runtime::Remoting::Messaging::IMethodReturnMessage* i___System__Runtime__Remoting__Messaging__IMethodReturnMessage() noexcept;
 
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMethodMessage*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodMessage"
+  constexpr ::System::Runtime::Remoting::Messaging::IMethodMessage* i___System__Runtime__Remoting__Messaging__IMethodMessage() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessage*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessage"
+  constexpr ::System::Runtime::Remoting::Messaging::IMessage* i___System__Runtime__Remoting__Messaging__IMessage() noexcept;
 
   static inline ::System::Runtime::Remoting::Messaging::ConstructionResponse* New_ctor(::System::Object* resultObject, ::System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx,
                                                                                        ::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg);

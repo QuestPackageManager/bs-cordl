@@ -10,10 +10,10 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObjectParser;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1TaggedObjectParser;
 }
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Convertible;
@@ -51,8 +51,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser"
   constexpr operator ::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser"
+  constexpr ::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser* i___Org__BouncyCastle__Asn1__Asn1TaggedObjectParser() noexcept;
+
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible* i___Org__BouncyCastle__Asn1__IAsn1Convertible() noexcept;
 
   constexpr int32_t& __get_tagNo();
 

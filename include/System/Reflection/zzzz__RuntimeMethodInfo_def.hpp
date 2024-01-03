@@ -9,74 +9,74 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeMethodInfo)
-namespace System::Reflection {
-struct PInvokeAttributes;
-}
-namespace System::Reflection {
-class CustomAttributeData;
-}
-namespace System {
-class Type;
-}
-namespace System::Reflection {
-class Module;
-}
-namespace System::Reflection {
-class RuntimeModule;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Reflection {
-struct MethodAttributes;
-}
-namespace System {
-class Delegate;
-}
-namespace System::Reflection {
-class MethodInfo;
-}
-namespace System {
-class RuntimeType;
-}
-namespace System::Reflection {
-struct MethodImplAttributes;
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace System::Reflection {
 class Binder;
 }
-namespace System {
-class Object;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System {
-struct RuntimeTypeHandle;
-}
 namespace System::Reflection {
 struct BindingFlags;
 }
-namespace System {
-class Exception;
+namespace System::Reflection {
+struct CallingConventions;
+}
+namespace System::Reflection {
+class CustomAttributeData;
+}
+namespace System::Reflection {
+struct MethodAttributes;
 }
 namespace System::Reflection {
 class MethodBase;
 }
 namespace System::Reflection {
-struct CallingConventions;
+struct MethodImplAttributes;
 }
-namespace System {
-struct RuntimeMethodHandle;
+namespace System::Reflection {
+class MethodInfo;
+}
+namespace System::Reflection {
+class Module;
+}
+namespace System::Reflection {
+struct PInvokeAttributes;
+}
+namespace System::Reflection {
+class ParameterInfo;
+}
+namespace System::Reflection {
+class RuntimeModule;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
-namespace System::Reflection {
-class ParameterInfo;
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System {
+class Delegate;
+}
+namespace System {
+class Exception;
+}
+namespace System {
+class Object;
+}
+namespace System {
+struct RuntimeMethodHandle;
+}
+namespace System {
+struct RuntimeTypeHandle;
+}
+namespace System {
+class RuntimeType;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -137,6 +137,9 @@ public:
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
   constexpr void*& __get_mhandle();
 

@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(GameObjectTestExceptionsSO)
 namespace GlobalNamespace {
+class EnvironmentInfoSO;
+}
+namespace GlobalNamespace {
 class __GameObjectTestExceptionsSO__GameObjectTestException;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
-class EnvironmentInfoSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

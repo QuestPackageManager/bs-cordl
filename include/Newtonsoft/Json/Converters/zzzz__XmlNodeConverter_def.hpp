@@ -6,38 +6,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlNodeConverter)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace Newtonsoft::Json::Converters {
 class IXmlDocument;
 }
 namespace Newtonsoft::Json::Converters {
+class IXmlElement;
+}
+namespace Newtonsoft::Json::Converters {
 class IXmlNode;
-}
-namespace System {
-class Object;
-}
-namespace Newtonsoft::Json {
-class JsonSerializer;
 }
 namespace Newtonsoft::Json {
 class JsonReader;
 }
 namespace Newtonsoft::Json {
+class JsonSerializer;
+}
+namespace Newtonsoft::Json {
 class JsonWriter;
 }
-namespace System {
-class Type;
-}
-namespace Newtonsoft::Json::Converters {
-class IXmlElement;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Xml {
 class XmlNamespaceManager;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {

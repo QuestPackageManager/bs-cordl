@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerLobbyController)
-namespace GlobalNamespace {
-class MultiplayerLobbyAvatarManager;
-}
-namespace GlobalNamespace {
-class MultiplayerLobbyCenterStageManager;
-}
-namespace GlobalNamespace {
-class MenuEnvironmentManager;
-}
 namespace BeatSaber::AvatarCore {
 class OptionalAvatarDataSender;
 }
 namespace GlobalNamespace {
+class MenuEnvironmentManager;
+}
+namespace GlobalNamespace {
+class MultiplayerLobbyAvatarManager;
+}
+namespace GlobalNamespace {
 class MultiplayerLobbyAvatarPlaceManager;
+}
+namespace GlobalNamespace {
+class MultiplayerLobbyCenterStageManager;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;

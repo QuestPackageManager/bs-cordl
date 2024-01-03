@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__INodePoseSyncStateManager_5_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerSyncState_3_def.hpp"
 #include "GlobalNamespace/zzzz__LocalMultiplayerSyncState_3_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerSyncState_3_def.hpp"
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
 inline int64_t GlobalNamespace::INodePoseSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::get_syncTime() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(

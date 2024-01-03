@@ -7,46 +7,46 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MultiplayerLevelScenesTransitionSetupDataSO)
 namespace GlobalNamespace {
-class PracticeSettings;
-}
-namespace GlobalNamespace {
-class ColorScheme;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class MultiplayerResultsData;
-}
-namespace GlobalNamespace {
-class EnvironmentInfoSO;
-}
-namespace GlobalNamespace {
-class MainSettingsModelSO;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace GlobalNamespace {
-struct DisconnectedReason;
-}
-namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
+class ColorScheme;
+}
+namespace GlobalNamespace {
+struct DisconnectedReason;
+}
+namespace GlobalNamespace {
+class EnvironmentInfoSO;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+class MainSettingsModelSO;
+}
+namespace GlobalNamespace {
+class MultiplayerResultsData;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettings;
+}
+namespace GlobalNamespace {
+class PracticeSettings;
+}
+namespace GlobalNamespace {
 class SceneInfo;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -58,7 +58,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(6067))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6067)), TypeDefinitionIndex(TypeDefinitionIndex(14717))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6076))
 // CS Name: ::MultiplayerLevelScenesTransitionSetupDataSO*
 class CORDL_TYPE MultiplayerLevelScenesTransitionSetupDataSO : public ::GlobalNamespace::LevelScenesTransitionSetupDataSO {
@@ -255,11 +255,10 @@ public:
   inline void set_colorScheme(::GlobalNamespace::ColorScheme* value);
 
   /// @brief Method Init, addr 0x231e9c4, size 0x3b0, virtual false, abstract: false, final false
-  /// @param useTestNoteCutSoundEffects: bool (default: false)
   inline void Init(::StringW gameMode, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
                    ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::ColorScheme* overrideColorScheme,
                    ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings,
-                   bool useTestNoteCutSoundEffects = false);
+                   bool useTestNoteCutSoundEffects);
 
   /// @brief Method Finish, addr 0x231ff30, size 0x28, virtual false, abstract: false, final false
   inline void Finish(::GlobalNamespace::MultiplayerResultsData* resultsData);

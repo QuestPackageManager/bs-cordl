@@ -10,34 +10,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseRuntimePanel)
 namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
-class Event;
-}
-namespace UnityEngine {
-class RenderTexture;
-}
-namespace System {
 class Action;
 }
-namespace UnityEngine {
-class Shader;
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine::UIElements {
+class EventDispatcher;
 }
 namespace UnityEngine::UIElements {
 class __BaseRuntimePanel____c;
 }
 namespace UnityEngine {
+class Event;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class RenderTexture;
+}
+namespace UnityEngine {
 class ScriptableObject;
 }
-namespace UnityEngine::UIElements {
-class EventDispatcher;
+namespace UnityEngine {
+class Shader;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -98,7 +98,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__BaseR
 // SizeInfo { instance_size: 472, native_size: -1, calculated_instance_size: 472, calculated_native_size: 472, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6875)), TypeDefinitionIndex(TypeDefinitionIndex(10245))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(6875))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6877))
 // CS Name: ::UnityEngine.UIElements::BaseRuntimePanel*
 class CORDL_TYPE BaseRuntimePanel : public ::UnityEngine::UIElements::Panel {
@@ -248,8 +248,7 @@ public:
   static inline ::UnityEngine::UIElements::BaseRuntimePanel* New_ctor(::UnityEngine::ScriptableObject* ownerObject, ::UnityEngine::UIElements::EventDispatcher* dispatcher);
 
   /// @brief Method .ctor, addr 0x2df8f5c, size 0x110, virtual false, abstract: false, final false
-  /// @param dispatcher: ::UnityEngine::UIElements::EventDispatcher* (default: nullptr)
-  inline void _ctor(::UnityEngine::ScriptableObject* ownerObject, ::UnityEngine::UIElements::EventDispatcher* dispatcher = nullptr);
+  inline void _ctor(::UnityEngine::ScriptableObject* ownerObject, ::UnityEngine::UIElements::EventDispatcher* dispatcher);
 
   /// @brief Method Dispose, addr 0x2df906c, size 0x58, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
@@ -288,9 +287,8 @@ public:
   inline ::UnityEngine::Vector2 ScreenToPanel(::UnityEngine::Vector2 screen);
 
   /// @brief Method ScreenToPanel, addr 0x2df95e8, size 0x104, virtual false, abstract: false, final false
-  /// @param allowOutside: bool (default: false)
   inline bool ScreenToPanel(::UnityEngine::Vector2 screenPosition, ::UnityEngine::Vector2 screenDelta, ByRef<::UnityEngine::Vector2> panelPosition, ByRef<::UnityEngine::Vector2> panelDelta,
-                            bool allowOutside = false);
+                            bool allowOutside);
 
   /// @brief Method AssignPanelToComponents, addr 0x2df8994, size 0x32c, virtual false, abstract: false, final false
   inline void AssignPanelToComponents(::UnityEngine::UIElements::BaseRuntimePanel* panel);

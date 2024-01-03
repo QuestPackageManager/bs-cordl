@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GarbageCollector)
-namespace UnityEngine::Scripting {
-struct __GarbageCollector__Mode;
-}
 namespace System {
 template <typename T> class Action_1;
+}
+namespace UnityEngine::Scripting {
+struct __GarbageCollector__Mode;
 }
 // Forward declare root types
 namespace UnityEngine::Scripting {

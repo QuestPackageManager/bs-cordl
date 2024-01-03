@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CompletionActionInvoker)
 namespace System::Threading::Tasks {
+class ITaskCompletionAction;
+}
+namespace System::Threading::Tasks {
 class Task;
 }
 namespace System::Threading {
 class IThreadPoolWorkItem;
-}
-namespace System::Threading::Tasks {
-class ITaskCompletionAction;
 }
 namespace System::Threading {
 class ThreadAbortException;
@@ -40,6 +40,9 @@ public:
 
   /// @brief Convert operator to "::System::Threading::IThreadPoolWorkItem"
   constexpr operator ::System::Threading::IThreadPoolWorkItem*() noexcept;
+
+  /// @brief Convert to "::System::Threading::IThreadPoolWorkItem"
+  constexpr ::System::Threading::IThreadPoolWorkItem* i___System__Threading__IThreadPoolWorkItem() noexcept;
 
   constexpr ::System::Threading::Tasks::ITaskCompletionAction*& __get_m_action();
 

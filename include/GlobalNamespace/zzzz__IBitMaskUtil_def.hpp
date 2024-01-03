@@ -40,8 +40,7 @@ public:
   template <typename T> static inline bool TryParse(::StringW stringSerializedMask, int32_t offset, int32_t length, ByRef<T> bitMask);
 
   /// @brief Method FromBytes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param offset: int32_t (default: static_cast<int32_t>(0x0))
-  template <typename T> static inline T FromBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t offset = static_cast<int32_t>(0x0));
+  template <typename T> static inline T FromBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t offset);
 
   /// @brief Method GetHexDigit, addr 0x12a2b78, size 0x50, virtual false, abstract: false, final false
   static inline uint32_t GetHexDigit(char16_t c);

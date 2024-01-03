@@ -13,11 +13,11 @@ class ArrayList;
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
 }
-namespace System {
-class Object;
-}
 namespace System::Runtime::Remoting::Messaging {
 class IMethodCallMessage;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {

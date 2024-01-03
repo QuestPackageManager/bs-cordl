@@ -9,16 +9,16 @@ namespace System::Runtime::Remoting::Contexts {
 class DynamicPropertyCollection;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;
 }
-namespace System {
-class Type;
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
 }
 namespace System::Runtime::Remoting {
 class ObjRef;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {

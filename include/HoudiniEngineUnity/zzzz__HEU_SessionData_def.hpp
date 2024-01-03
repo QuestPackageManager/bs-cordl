@@ -10,19 +10,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_SessionData)
 namespace HoudiniEngineUnity {
-struct SessionMode;
+struct HAPI_SessionType;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionSyncData;
 }
 namespace HoudiniEngineUnity {
 struct SessionConnectionState;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_SessionType;
+struct SessionMode;
 }
 namespace System {
 class Type;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionSyncData;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_SessionData);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9783)), TypeDefinitionIndex(TypeDefinitionIndex(9782)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9728))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9784)) CS Name: ::HoudiniEngineUnity::HEU_SessionData*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9728)), TypeDefinitionIndex(TypeDefinitionIndex(9783)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9782))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9784)) CS Name: ::HoudiniEngineUnity::HEU_SessionData*
 class CORDL_TYPE HEU_SessionData : public ::System::Object {
 public:
   // Declarations

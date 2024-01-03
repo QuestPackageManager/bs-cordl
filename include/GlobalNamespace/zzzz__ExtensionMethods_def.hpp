@@ -3,46 +3,48 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/zzzz__TextureFormat_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ExtensionMethods)
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace UnityEngine {
-class RenderTexture;
-}
-namespace UnityEngine {
-class Transform;
-}
 namespace System::Collections {
 class IEnumerator;
 }
-namespace UnityEngine {
-struct LayerMask;
+namespace System {
+template <typename TResult> class Func_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine {
 class Coroutine;
 }
 namespace UnityEngine {
-class Texture2D;
+struct LayerMask;
 }
 namespace UnityEngine {
 class MonoBehaviour;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
 struct Quaternion;
 }
-namespace System {
-template <typename TResult> class Func_1;
+namespace UnityEngine {
+class RenderTexture;
+}
+namespace UnityEngine {
+class Texture2D;
+}
+namespace UnityEngine {
+struct TextureFormat;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -54,7 +56,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ExtensionMethods);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10115)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15852))
 // CS Name: ::ExtensionMethods*
 class CORDL_TYPE ExtensionMethods : public ::System::Object {
@@ -88,8 +90,7 @@ public:
   static inline ::UnityEngine::Quaternion Reflect(::UnityEngine::Quaternion source, ::UnityEngine::Vector3 normal);
 
   /// @brief Method CreateTexture2D, addr 0xe27930, size 0x148, virtual false, abstract: false, final false
-  /// @param textureFormat: ::UnityEngine::TextureFormat (default: static_cast<int32_t>(0x3))
-  static inline ::UnityEngine::Texture2D* CreateTexture2D(::UnityEngine::RenderTexture* renderTexture, ::UnityEngine::TextureFormat textureFormat = static_cast<int32_t>(0x3));
+  static inline ::UnityEngine::Texture2D* CreateTexture2D(::UnityEngine::RenderTexture* renderTexture, ::UnityEngine::TextureFormat textureFormat);
 
   /// @brief Method Rotate, addr 0xe27a78, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 Rotate(::UnityEngine::Vector2 vector, float_t rads);

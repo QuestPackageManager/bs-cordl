@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CsvReader)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace Polyglot {
 struct __CsvReader__ParsingMode;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace Polyglot {

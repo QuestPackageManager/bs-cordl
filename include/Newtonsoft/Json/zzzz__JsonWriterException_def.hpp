@@ -9,13 +9,13 @@ namespace Newtonsoft::Json {
 class JsonWriter;
 }
 namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System {
 class Exception;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {

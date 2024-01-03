@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::LeaderboardEntryList);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13430)), TypeDefinitionIndex(TypeDefinitionIndex(13449)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13430), inst:
-// 1176 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13450)) CS Name: ::Oculus.Platform.Models::LeaderboardEntryList*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13430), inst: 1176 }), TypeDefinitionIndex(TypeDefinitionIndex(13430)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13449))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13450)) CS Name: ::Oculus.Platform.Models::LeaderboardEntryList*
 class CORDL_TYPE LeaderboardEntryList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::LeaderboardEntry*> {
 public:
   // Declarations

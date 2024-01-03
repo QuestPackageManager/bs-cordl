@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(ArmoredInputStream)
 namespace Org::BouncyCastle::Bcpg {
 class Crc24;
 }
-namespace System::IO {
-class Stream;
-}
 namespace System::Collections {
 class IList;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {

@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectPool_1)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace System {
 template <typename T> class Action_1;
 }
 namespace System {
-class IDisposable;
+template <typename TResult> class Func_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System {
+class IDisposable;
 }
 namespace UnityEngine::Pool {
 template <typename T> class IObjectPool_1;
-}
-namespace System {
-template <typename TResult> class Func_1;
 }
 namespace UnityEngine::Pool {
 template <typename T> struct PooledObject_1;
@@ -73,8 +73,14 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::Pool::IObjectPool_1<T>"
   constexpr operator ::UnityEngine::Pool::IObjectPool_1<T>*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::Pool::IObjectPool_1<T>"
+  constexpr ::UnityEngine::Pool::IObjectPool_1<T>* i___UnityEngine__Pool__IObjectPool_1_T_() noexcept;
 
   constexpr ::System::Collections::Generic::List_1<T>*& __get_m_List();
 
@@ -137,14 +143,8 @@ public:
                                                                ::System::Action_1<T>* actionOnDestroy, bool collectionCheck, int32_t defaultCapacity, int32_t maxSize);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param actionOnGet: ::System::Action_1<T>* (default: nullptr)
-  /// @param actionOnRelease: ::System::Action_1<T>* (default: nullptr)
-  /// @param actionOnDestroy: ::System::Action_1<T>* (default: nullptr)
-  /// @param collectionCheck: bool (default: true)
-  /// @param defaultCapacity: int32_t (default: static_cast<int32_t>(0xa))
-  /// @param maxSize: int32_t (default: static_cast<int32_t>(0x2710))
-  inline void _ctor(::System::Func_1<T>* createFunc, ::System::Action_1<T>* actionOnGet = nullptr, ::System::Action_1<T>* actionOnRelease = nullptr, ::System::Action_1<T>* actionOnDestroy = nullptr,
-                    bool collectionCheck = true, int32_t defaultCapacity = static_cast<int32_t>(0xa), int32_t maxSize = static_cast<int32_t>(0x2710));
+  inline void _ctor(::System::Func_1<T>* createFunc, ::System::Action_1<T>* actionOnGet, ::System::Action_1<T>* actionOnRelease, ::System::Action_1<T>* actionOnDestroy, bool collectionCheck,
+                    int32_t defaultCapacity, int32_t maxSize);
 
   /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T Get();

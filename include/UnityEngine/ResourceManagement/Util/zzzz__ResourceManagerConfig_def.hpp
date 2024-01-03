@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ResourceManagerConfig)
-namespace System {
-class Type;
-}
 namespace System::Collections {
 class IList;
 }
 namespace System {
-class Object;
+class Array;
 }
-namespace UnityEngine {
+namespace System {
 class Object;
 }
 namespace System {
-class Array;
+class Type;
+}
+namespace UnityEngine {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {

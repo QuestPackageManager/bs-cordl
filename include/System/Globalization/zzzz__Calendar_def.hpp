@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Calendar)
 namespace System {
-struct DayOfWeek;
+struct DateTime;
 }
 namespace System {
-struct DateTime;
+struct DayOfWeek;
 }
 namespace System {
 class ICloneable;
@@ -60,6 +60,9 @@ public:
 
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
+
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
   constexpr int32_t& __get_m_currentEraValue();
 

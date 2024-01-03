@@ -2,23 +2,19 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Unity/Collections/zzzz__Allocator_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputEventBuffer)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace System::Collections {
 class IEnumerable;
-}
-namespace System {
-class Object;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEvent;
-}
-namespace System {
-class IDisposable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -26,20 +22,26 @@ class IEnumerator;
 namespace System {
 class ICloneable;
 }
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace Unity::Collections {
+struct Allocator;
+}
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEvent;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct __InputEventBuffer__Enumerator;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -68,11 +70,21 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*
+  i___System__Collections__Generic__IEnumerator_1___UnityEngine__InputSystem__LowLevel__InputEventPtr_();
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*();
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator();
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   /// @brief Method .ctor, addr 0x2aeaf5c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::LowLevel::InputEventBuffer buffer);
@@ -135,8 +147,9 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__InputEventBuffer_
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 45, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10003))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6532)) CS Name: ::UnityEngine.InputSystem.LowLevel::InputEventBuffer
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6532))
+// CS Name: ::UnityEngine.InputSystem.LowLevel::InputEventBuffer
 struct CORDL_TYPE InputEventBuffer {
 public:
   // Declarations
@@ -155,14 +168,27 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*
+  i___System__Collections__Generic__IEnumerable_1___UnityEngine__InputSystem__LowLevel__InputEventPtr_();
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable();
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
+
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*();
+
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable();
 
   /// @brief Method get_eventCount, addr 0x2aea6f8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_eventCount();
@@ -180,27 +206,16 @@ public:
   inline ::UnityEngine::InputSystem::LowLevel::InputEventPtr get_bufferPtr();
 
   /// @brief Method .ctor, addr 0x2aea7bc, size 0x1c0, virtual false, abstract: false, final false
-  /// @param sizeInBytes: int32_t (default: static_cast<int32_t>(0xffffffff))
-  /// @param capacityInBytes: int32_t (default: static_cast<int32_t>(0xffffffff))
-  inline void _ctor(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> eventPtr, int32_t eventCount, int32_t sizeInBytes = static_cast<int32_t>(0xffffffff),
-                    int32_t capacityInBytes = static_cast<int32_t>(0xffffffff));
+  inline void _ctor(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> eventPtr, int32_t eventCount, int32_t sizeInBytes, int32_t capacityInBytes);
 
   /// @brief Method .ctor, addr 0x2aea97c, size 0x14c, virtual false, abstract: false, final false
-  /// @param sizeInBytes: int32_t (default: static_cast<int32_t>(0xffffffff))
-  /// @param transferNativeArrayOwnership: bool (default: false)
-  inline void _ctor(::Unity::Collections::NativeArray_1<uint8_t> buffer, int32_t eventCount, int32_t sizeInBytes = static_cast<int32_t>(0xffffffff), bool transferNativeArrayOwnership = false);
+  inline void _ctor(::Unity::Collections::NativeArray_1<uint8_t> buffer, int32_t eventCount, int32_t sizeInBytes, bool transferNativeArrayOwnership);
 
   /// @brief Method AppendEvent, addr 0x2aeaac8, size 0x80, virtual false, abstract: false, final false
-  /// @param capacityIncrementInBytes: int32_t (default: static_cast<int32_t>(0x800))
-  /// @param allocator: ::Unity::Collections::Allocator (default: static_cast<int32_t>(0x4))
-  inline void AppendEvent(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> eventPtr, int32_t capacityIncrementInBytes = static_cast<int32_t>(0x800),
-                          ::Unity::Collections::Allocator allocator = static_cast<int32_t>(0x4));
+  inline void AppendEvent(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> eventPtr, int32_t capacityIncrementInBytes, ::Unity::Collections::Allocator allocator);
 
   /// @brief Method AllocateEvent, addr 0x2aeab48, size 0x2c8, virtual false, abstract: false, final false
-  /// @param capacityIncrementInBytes: int32_t (default: static_cast<int32_t>(0x800))
-  /// @param allocator: ::Unity::Collections::Allocator (default: static_cast<int32_t>(0x4))
-  inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> AllocateEvent(int32_t sizeInBytes, int32_t capacityIncrementInBytes = static_cast<int32_t>(0x800),
-                                                                                                ::Unity::Collections::Allocator allocator = static_cast<int32_t>(0x4));
+  inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> AllocateEvent(int32_t sizeInBytes, int32_t capacityIncrementInBytes, ::Unity::Collections::Allocator allocator);
 
   /// @brief Method Contains, addr 0x2aea61c, size 0x88, virtual false, abstract: false, final false
   inline bool Contains(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> eventPtr);

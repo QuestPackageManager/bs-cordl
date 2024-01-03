@@ -2,20 +2,20 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
-#include "System/zzzz__Predicate_1_def.hpp"
-#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Predicate_1_def.hpp"
 // Ctor Parameters [CppParam { name: "uniqueCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "unfoundCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 template <typename T> constexpr ::System::Collections::Generic::__HashSet_1__ElementCount<T>::__HashSet_1__ElementCount(int32_t uniqueCount, int32_t unfoundCount) noexcept {
   this->uniqueCount = uniqueCount;
@@ -36,12 +36,24 @@ template <typename T> constexpr ::System::Collections::Generic::__HashSet_1__Slo
 template <typename T> constexpr System::Collections::Generic::__HashSet_1__Enumerator<T>::operator ::System::Collections::Generic::IEnumerator_1<T>*() {
   return static_cast<::System::Collections::Generic::IEnumerator_1<T>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::IEnumerator_1<T>* System::Collections::Generic::__HashSet_1__Enumerator<T>::i___System__Collections__Generic__IEnumerator_1_T_() {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<T>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::IDisposable"
 template <typename T> constexpr System::Collections::Generic::__HashSet_1__Enumerator<T>::operator ::System::IDisposable*() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::IDisposable"
+template <typename T> constexpr ::System::IDisposable* System::Collections::Generic::__HashSet_1__Enumerator<T>::i___System__IDisposable() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 template <typename T> constexpr System::Collections::Generic::__HashSet_1__Enumerator<T>::operator ::System::Collections::IEnumerator*() {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+template <typename T> constexpr ::System::Collections::IEnumerator* System::Collections::Generic::__HashSet_1__Enumerator<T>::i___System__Collections__IEnumerator() {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename T> inline void System::Collections::Generic::__HashSet_1__Enumerator<T>::_ctor(::System::Collections::Generic::HashSet_1<T>* set) {
@@ -91,24 +103,50 @@ template <typename T> constexpr ::System::Collections::Generic::__HashSet_1__Enu
 template <typename T> constexpr System::Collections::Generic::HashSet_1<T>::operator ::System::Collections::Generic::ICollection_1<T>*() noexcept {
   return static_cast<::System::Collections::Generic::ICollection_1<T>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::ICollection_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::ICollection_1<T>* System::Collections::Generic::HashSet_1<T>::i___System__Collections__Generic__ICollection_1_T_() noexcept {
+  return static_cast<::System::Collections::Generic::ICollection_1<T>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
 template <typename T> constexpr System::Collections::Generic::HashSet_1<T>::operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::IEnumerable_1<T>* System::Collections::Generic::HashSet_1<T>::i___System__Collections__Generic__IEnumerable_1_T_() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename T> constexpr System::Collections::Generic::HashSet_1<T>::operator ::System::Collections::IEnumerable*() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename T> constexpr ::System::Collections::IEnumerable* System::Collections::Generic::HashSet_1<T>::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
 template <typename T> constexpr System::Collections::Generic::HashSet_1<T>::operator ::System::Collections::Generic::IReadOnlyCollection_1<T>*() noexcept {
+  return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
+template <typename T>
+constexpr ::System::Collections::Generic::IReadOnlyCollection_1<T>* System::Collections::Generic::HashSet_1<T>::i___System__Collections__Generic__IReadOnlyCollection_1_T_() noexcept {
   return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<T>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
 template <typename T> constexpr System::Collections::Generic::HashSet_1<T>::operator ::System::Runtime::Serialization::ISerializable*() noexcept {
   return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+template <typename T> constexpr ::System::Runtime::Serialization::ISerializable* System::Collections::Generic::HashSet_1<T>::i___System__Runtime__Serialization__ISerializable() noexcept {
+  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
 template <typename T> constexpr System::Collections::Generic::HashSet_1<T>::operator ::System::Runtime::Serialization::IDeserializationCallback*() noexcept {
+  return static_cast<::System::Runtime::Serialization::IDeserializationCallback*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
+template <typename T>
+constexpr ::System::Runtime::Serialization::IDeserializationCallback* System::Collections::Generic::HashSet_1<T>::i___System__Runtime__Serialization__IDeserializationCallback() noexcept {
   return static_cast<::System::Runtime::Serialization::IDeserializationCallback*>(static_cast<void*>(this));
 }
 template <typename T> constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& System::Collections::Generic::HashSet_1<T>::__get__buckets() {

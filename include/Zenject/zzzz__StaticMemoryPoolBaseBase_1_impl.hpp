@@ -1,23 +1,35 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__StaticMemoryPoolBaseBase_1_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "Zenject/zzzz__IDespawnableMemoryPool_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__IMemoryPool_def.hpp"
 #include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "Zenject/zzzz__IDespawnableMemoryPool_1_def.hpp"
+#include "Zenject/zzzz__IMemoryPool_def.hpp"
 /// @brief Convert operator to "::Zenject::IDespawnableMemoryPool_1<TValue>"
 template <typename TValue> constexpr Zenject::StaticMemoryPoolBaseBase_1<TValue>::operator ::Zenject::IDespawnableMemoryPool_1<TValue>*() noexcept {
+  return static_cast<::Zenject::IDespawnableMemoryPool_1<TValue>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::IDespawnableMemoryPool_1<TValue>"
+template <typename TValue> constexpr ::Zenject::IDespawnableMemoryPool_1<TValue>* Zenject::StaticMemoryPoolBaseBase_1<TValue>::i___Zenject__IDespawnableMemoryPool_1_TValue_() noexcept {
   return static_cast<::Zenject::IDespawnableMemoryPool_1<TValue>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::Zenject::IMemoryPool"
 template <typename TValue> constexpr Zenject::StaticMemoryPoolBaseBase_1<TValue>::operator ::Zenject::IMemoryPool*() noexcept {
   return static_cast<::Zenject::IMemoryPool*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::Zenject::IMemoryPool"
+template <typename TValue> constexpr ::Zenject::IMemoryPool* Zenject::StaticMemoryPoolBaseBase_1<TValue>::i___Zenject__IMemoryPool() noexcept {
+  return static_cast<::Zenject::IMemoryPool*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::IDisposable"
 template <typename TValue> constexpr Zenject::StaticMemoryPoolBaseBase_1<TValue>::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename TValue> constexpr ::System::IDisposable* Zenject::StaticMemoryPoolBaseBase_1<TValue>::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 template <typename TValue> constexpr ::System::Collections::Generic::Stack_1<TValue>*& Zenject::StaticMemoryPoolBaseBase_1<TValue>::__get__stack() {

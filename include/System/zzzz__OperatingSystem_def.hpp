@@ -7,25 +7,25 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(OperatingSystem)
 namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System {
-class Object;
-}
-namespace System::Runtime::Serialization {
 class ISerializable;
 }
-namespace System {
-struct PlatformID;
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System {
 class ICloneable;
 }
 namespace System {
-class Version;
+class Object;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+namespace System {
+struct PlatformID;
+}
+namespace System {
+class Version;
 }
 // Forward declare root types
 namespace System {
@@ -62,8 +62,14 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
+
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
   constexpr ::System::Version*& __get__version();
 

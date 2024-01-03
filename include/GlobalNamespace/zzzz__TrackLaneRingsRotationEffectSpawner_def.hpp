@@ -10,19 +10,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TrackLaneRingsRotationEffectSpawner)
 namespace GlobalNamespace {
-struct __TrackLaneRingsRotationEffectSpawner__RotationStepType;
-}
-namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
-}
-namespace GlobalNamespace {
 class BasicBeatmapEventData;
 }
 namespace GlobalNamespace {
 class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
+}
+namespace GlobalNamespace {
 class TrackLaneRingsRotationEffect;
+}
+namespace GlobalNamespace {
+struct __TrackLaneRingsRotationEffectSpawner__RotationStepType;
 }
 // Forward declare root types
 namespace GlobalNamespace {

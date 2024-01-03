@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StackedController)
-namespace System {
-class Action;
+namespace HMUI {
+class ViewController;
 }
 namespace HMUI {
 class __StackedController____c__DisplayClass5_0;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace HMUI {
-class ViewController;
+template <typename T> class HashSet_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+template <typename T> class List_1;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace HMUI {
@@ -107,18 +107,13 @@ public:
   inline void LayoutViewControllers(::System::Collections::Generic::List_1<::HMUI::ViewController*>* viewControllers);
 
   /// @brief Method PushViewController, addr 0x212cacc, size 0xac, virtual false, abstract: false, final false
-  /// @param immediately: bool (default: false)
-  inline void PushViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback, bool immediately = false);
+  inline void PushViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback, bool immediately);
 
   /// @brief Method PopViewController, addr 0x212cb78, size 0x14, virtual false, abstract: false, final false
-  /// @param finishedCallback: ::System::Action* (default: nullptr)
-  /// @param immediately: bool (default: false)
-  inline void PopViewController(::System::Action* finishedCallback = nullptr, bool immediately = false);
+  inline void PopViewController(::System::Action* finishedCallback, bool immediately);
 
   /// @brief Method PopViewControllers, addr 0x212cb8c, size 0x1b4, virtual false, abstract: false, final false
-  /// @param finishedCallback: ::System::Action* (default: nullptr)
-  /// @param immediately: bool (default: false)
-  inline void PopViewControllers(int32_t numberOfViewControllersToPop, ::System::Action* finishedCallback = nullptr, bool immediately = false);
+  inline void PopViewControllers(int32_t numberOfViewControllersToPop, ::System::Action* finishedCallback, bool immediately);
 
   /// @brief Method SetupViewControllerRect, addr 0x212ca80, size 0x28, virtual false, abstract: false, final false
   static inline void SetupViewControllerRect(::HMUI::ViewController* viewController, int32_t index);

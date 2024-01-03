@@ -11,10 +11,10 @@ namespace GlobalNamespace {
 class MaterialPropertyBlockController;
 }
 namespace UnityEngine {
-struct Vector3;
+class MeshRenderer;
 }
 namespace UnityEngine {
-class MeshRenderer;
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {

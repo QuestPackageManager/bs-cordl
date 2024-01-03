@@ -10,20 +10,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IKMapping)
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class Transform;
-}
 namespace RootMotion::FinalIK {
-class __IKMapping__BoneMap;
+class IKSolverFullBody;
 }
 namespace RootMotion::FinalIK {
 class IKSolver;
 }
 namespace RootMotion::FinalIK {
-class IKSolverFullBody;
+class __IKMapping__BoneMap;
+}
+namespace RootMotion::FinalIK {
+class __IKSolver__Node;
 }
 namespace RootMotion {
 class __Warning__Logger;
@@ -31,8 +28,11 @@ class __Warning__Logger;
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace RootMotion::FinalIK {
-class __IKSolver__Node;
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -48,7 +48,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__IKMapping__BoneMap);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12553))
 // CS Name: ::IKMapping::BoneMap*
 class CORDL_TYPE __IKMapping__BoneMap : public ::System::Object {
@@ -301,8 +301,7 @@ public:
   inline void SetToIKPosition();
 
   /// @brief Method FixToNode, addr 0x125b880, size 0xc0, virtual false, abstract: false, final false
-  /// @param fixNode: ::RootMotion::FinalIK::__IKSolver__Node* (default: nullptr)
-  inline void FixToNode(::RootMotion::FinalIK::IKSolverFullBody* solver, float_t weight, ::RootMotion::FinalIK::__IKSolver__Node* fixNode = nullptr);
+  inline void FixToNode(::RootMotion::FinalIK::IKSolverFullBody* solver, float_t weight, ::RootMotion::FinalIK::__IKSolver__Node* fixNode);
 
   /// @brief Method GetPlanePosition, addr 0x125b940, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPlanePosition(::RootMotion::FinalIK::IKSolverFullBody* solver);
@@ -488,8 +487,7 @@ public:
   inline void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
   /// @brief Method BoneIsValid, addr 0x125afa4, size 0x13c, virtual false, abstract: false, final false
-  /// @param logger: ::RootMotion::__Warning__Logger* (default: nullptr)
-  inline bool BoneIsValid(::UnityEngine::Transform* bone, ::RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message, ::RootMotion::__Warning__Logger* logger = nullptr);
+  inline bool BoneIsValid(::UnityEngine::Transform* bone, ::RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message, ::RootMotion::__Warning__Logger* logger);
 
   /// @brief Method SolveFABRIKJoint, addr 0x125b0e0, size 0x114, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 SolveFABRIKJoint(::UnityEngine::Vector3 pos1, ::UnityEngine::Vector3 pos2, float_t length);

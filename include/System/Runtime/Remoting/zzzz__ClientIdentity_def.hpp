@@ -9,13 +9,13 @@ namespace System::Runtime::Remoting {
 class ObjRef;
 }
 namespace System {
-class WeakReference;
+class MarshalByRefObject;
 }
 namespace System {
 class Type;
 }
 namespace System {
-class MarshalByRefObject;
+class WeakReference;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {

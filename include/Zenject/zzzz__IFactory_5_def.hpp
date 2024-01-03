@@ -27,6 +27,9 @@ public:
   /// @brief Convert operator to "::Zenject::IFactory"
   constexpr operator ::Zenject::IFactory*() noexcept;
 
+  /// @brief Convert to "::Zenject::IFactory"
+  constexpr ::Zenject::IFactory* i___Zenject__IFactory() noexcept;
+
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TValue Create(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4);
 

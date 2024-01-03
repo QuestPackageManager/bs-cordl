@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(Activator)
-namespace System {
-class Type;
-}
 namespace System::Globalization {
 class CultureInfo;
+}
+namespace System::Reflection {
+class Binder;
 }
 namespace System::Reflection {
 struct BindingFlags;
@@ -17,8 +17,8 @@ struct BindingFlags;
 namespace System {
 class Object;
 }
-namespace System::Reflection {
-class Binder;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System {

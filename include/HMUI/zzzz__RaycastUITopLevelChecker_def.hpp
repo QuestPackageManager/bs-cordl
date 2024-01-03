@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(RaycastUITopLevelChecker)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace UnityEngine::EventSystems {
 struct RaycastResult;
 }
 namespace UnityEngine {
 class Canvas;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 // Forward declare root types
 namespace HMUI {

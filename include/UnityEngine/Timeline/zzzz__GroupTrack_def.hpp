@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/Timeline/zzzz__TrackAsset_def.hpp"
 CORDL_MODULE_EXPORT(GroupTrack)
-namespace UnityEngine::Playables {
-struct PlayableBinding;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine::Playables {
+struct PlayableBinding;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

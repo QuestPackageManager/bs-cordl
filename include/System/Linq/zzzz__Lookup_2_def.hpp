@@ -6,14 +6,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Lookup_2)
+namespace GlobalNamespace {
+template <typename TKey, typename TElement> class __Lookup_2__Grouping___GetEnumerator_d__7;
+}
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class IEqualityComparer_1;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -21,32 +33,20 @@ class IEnumerator;
 namespace System::Linq {
 template <typename TKey, typename TElement> class IGrouping_2;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
+namespace System::Linq {
+template <typename TKey, typename TElement> class __Lookup_2__Grouping;
 }
 namespace System::Linq {
 template <typename TKey, typename TElement> class __Lookup_2___GetEnumerator_d__12;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System {
+class IDisposable;
 }
-namespace System::Linq {
-template <typename TKey, typename TElement> class __Lookup_2__Grouping;
-}
-namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
-}
-namespace GlobalNamespace {
-template <typename TKey, typename TElement> class __Lookup_2__Grouping___GetEnumerator_d__7;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -97,11 +97,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TElement>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<TElement>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TElement>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<TElement>* i___System__Collections__Generic__IEnumerator_1_TElement_() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -220,17 +229,32 @@ public:
   /// @brief Convert operator to "::System::Linq::IGrouping_2<TKey,TElement>"
   constexpr operator ::System::Linq::IGrouping_2<TKey, TElement>*() noexcept;
 
+  /// @brief Convert to "::System::Linq::IGrouping_2<TKey,TElement>"
+  constexpr ::System::Linq::IGrouping_2<TKey, TElement>* i___System__Linq__IGrouping_2_TKey_TElement_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TElement>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TElement>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TElement>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<TElement>* i___System__Collections__Generic__IEnumerable_1_TElement_() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::IList_1<TElement>"
   constexpr operator ::System::Collections::Generic::IList_1<TElement>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IList_1<TElement>"
+  constexpr ::System::Collections::Generic::IList_1<TElement>* i___System__Collections__Generic__IList_1_TElement_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<TElement>"
   constexpr operator ::System::Collections::Generic::ICollection_1<TElement>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::ICollection_1<TElement>"
+  constexpr ::System::Collections::Generic::ICollection_1<TElement>* i___System__Collections__Generic__ICollection_1_TElement_() noexcept;
 
   constexpr TKey& __get_key();
 
@@ -389,11 +413,21 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Linq::IGrouping_2<TKey,TElement>*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Linq::IGrouping_2<TKey, TElement>*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Linq::IGrouping_2<TKey,TElement>*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Linq::IGrouping_2<TKey, TElement>*>*
+  i___System__Collections__Generic__IEnumerator_1___System__Linq__IGrouping_2_TKey_TElement___() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -501,8 +535,15 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Linq::IGrouping_2<TKey,TElement>*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::System::Linq::IGrouping_2<TKey, TElement>*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Linq::IGrouping_2<TKey,TElement>*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::System::Linq::IGrouping_2<TKey, TElement>*>*
+  i___System__Collections__Generic__IEnumerable_1___System__Linq__IGrouping_2_TKey_TElement___() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::System::Collections::Generic::IEqualityComparer_1<TKey>*& __get_comparer();
 

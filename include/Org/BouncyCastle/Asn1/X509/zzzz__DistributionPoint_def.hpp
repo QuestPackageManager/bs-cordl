@@ -5,8 +5,8 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(DistributionPoint)
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1::X509 {
+class DistributionPointName;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralNames;
@@ -14,20 +14,20 @@ class GeneralNames;
 namespace Org::BouncyCastle::Asn1::X509 {
 class ReasonFlags;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class DistributionPointName;
-}
-namespace System::Text {
-class StringBuilder;
-}
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1TaggedObject;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {

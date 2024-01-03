@@ -9,11 +9,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextNativeHandle)
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::UIElements {
-struct __MeshGenerationContextUtils__TextParams;
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
 }
 namespace UnityEngine::TextCore::Text {
 class TextInfo;
@@ -27,8 +24,11 @@ class ITextHandle;
 namespace UnityEngine::UIElements {
 struct TextVertex;
 }
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+namespace UnityEngine::UIElements {
+struct __MeshGenerationContextUtils__TextParams;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -40,9 +40,8 @@ MARK_VAL_T(::UnityEngine::UIElements::TextNativeHandle);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 749 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(15377))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7146)) CS Name:
-// ::UnityEngine.UIElements::TextNativeHandle
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 749
+// }), TypeDefinitionIndex(TypeDefinitionIndex(15377))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7146)) CS Name: ::UnityEngine.UIElements::TextNativeHandle
 struct CORDL_TYPE TextNativeHandle {
 public:
   // Declarations
@@ -52,6 +51,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::UIElements::ITextHandle"
   constexpr operator ::UnityEngine::UIElements::ITextHandle*();
+
+  /// @brief Convert to "::UnityEngine::UIElements::ITextHandle"
+  constexpr ::UnityEngine::UIElements::ITextHandle* i___UnityEngine__UIElements__ITextHandle();
 
   /// @brief Method get_MeasuredSizes, addr 0x2e46424, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 get_MeasuredSizes();

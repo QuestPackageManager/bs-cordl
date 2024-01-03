@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CodeAccessPermission)
-namespace System::Security {
-class IPermission;
-}
-namespace System {
-class Object;
-}
 namespace System::Security::Permissions {
 struct PermissionState;
 }
-namespace System {
-class Type;
+namespace System::Security {
+class IPermission;
+}
+namespace System::Security {
+class ISecurityEncodable;
 }
 namespace System::Security {
 class SecurityElement;
 }
-namespace System::Security {
-class ISecurityEncodable;
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Security {
@@ -43,8 +43,14 @@ public:
   /// @brief Convert operator to "::System::Security::IPermission"
   constexpr operator ::System::Security::IPermission*() noexcept;
 
+  /// @brief Convert to "::System::Security::IPermission"
+  constexpr ::System::Security::IPermission* i___System__Security__IPermission() noexcept;
+
   /// @brief Convert operator to "::System::Security::ISecurityEncodable"
   constexpr operator ::System::Security::ISecurityEncodable*() noexcept;
+
+  /// @brief Convert to "::System::Security::ISecurityEncodable"
+  constexpr ::System::Security::ISecurityEncodable* i___System__Security__ISecurityEncodable() noexcept;
 
   static inline ::System::Security::CodeAccessPermission* New_ctor();
 

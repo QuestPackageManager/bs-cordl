@@ -17,19 +17,19 @@ namespace Org::BouncyCastle::Crypto {
 class IAsymmetricBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto {
 class IDigest;
+}
+namespace Org::BouncyCastle::Crypto {
+class IRsa;
 }
 namespace Org::BouncyCastle::Crypto {
 class ISigner;
 }
 namespace System::Collections {
 class IDictionary;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
-namespace Org::BouncyCastle::Crypto {
-class IRsa;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -66,6 +66,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ISigner"
   constexpr operator ::Org::BouncyCastle::Crypto::ISigner*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::ISigner"
+  constexpr ::Org::BouncyCastle::Crypto::ISigner* i___Org__BouncyCastle__Crypto__ISigner() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*& __get_rsaEngine();
 

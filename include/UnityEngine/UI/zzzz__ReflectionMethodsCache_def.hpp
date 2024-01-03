@@ -9,24 +9,6 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReflectionMethodsCache)
-namespace UnityEngine::UI {
-class __ReflectionMethodsCache__Raycast3DCallback;
-}
-namespace UnityEngine::UI {
-class __ReflectionMethodsCache__RaycastAllCallback;
-}
-namespace UnityEngine::UI {
-class __ReflectionMethodsCache__GetRaycastNonAllocCallback;
-}
-namespace UnityEngine::UI {
-class __ReflectionMethodsCache__Raycast2DCallback;
-}
-namespace UnityEngine::UI {
-class __ReflectionMethodsCache__GetRayIntersectionAllCallback;
-}
-namespace UnityEngine::UI {
-class __ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback;
-}
 namespace System {
 class AsyncCallback;
 }
@@ -35,6 +17,24 @@ class IAsyncResult;
 }
 namespace System {
 class Object;
+}
+namespace UnityEngine::UI {
+class __ReflectionMethodsCache__GetRayIntersectionAllCallback;
+}
+namespace UnityEngine::UI {
+class __ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback;
+}
+namespace UnityEngine::UI {
+class __ReflectionMethodsCache__GetRaycastNonAllocCallback;
+}
+namespace UnityEngine::UI {
+class __ReflectionMethodsCache__Raycast2DCallback;
+}
+namespace UnityEngine::UI {
+class __ReflectionMethodsCache__Raycast3DCallback;
+}
+namespace UnityEngine::UI {
+class __ReflectionMethodsCache__RaycastAllCallback;
 }
 namespace UnityEngine {
 struct Ray;

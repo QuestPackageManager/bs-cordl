@@ -14,28 +14,28 @@ namespace HMUI {
 class ViewController;
 }
 namespace HMUI {
-class __NavigationController____c__DisplayClass10_0;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace HMUI {
 struct __NavigationController__Alignment;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace System {
-class Action;
 }
 namespace HMUI {
 struct __NavigationController__Orientation;
 }
 namespace HMUI {
+class __NavigationController____c__DisplayClass10_0;
+}
+namespace HMUI {
 class __NavigationController____c__DisplayClass8_0;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+class Action;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace HMUI {
@@ -419,8 +419,7 @@ public:
   inline void LayoutViewControllers(::System::Collections::Generic::List_1<::HMUI::ViewController*>* viewControllers);
 
   /// @brief Method PushViewController, addr 0x212b24c, size 0xe0, virtual false, abstract: false, final false
-  /// @param immediately: bool (default: false)
-  inline void PushViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback, bool immediately = false);
+  inline void PushViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback, bool immediately);
 
   /// @brief Method PopViewController, addr 0x212b334, size 0x14, virtual false, abstract: false, final false
   inline void PopViewController(::System::Action* finishedCallback, bool immediately);
@@ -435,11 +434,8 @@ public:
   inline void SetupViewControllerRect(::HMUI::ViewController* viewController);
 
   /// @brief Method GetNewPositionsForViewControllers, addr 0x212ad0c, size 0x4f4, virtual false, abstract: false, final false
-  /// @param fixedViewControllers: ::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>* (default: nullptr)
-  /// @param fixedEndPos: float_t (default: 0.0)
   inline ::ArrayW<float_t, ::Array<float_t>*> GetNewPositionsForViewControllers(::System::Collections::Generic::List_1<::HMUI::ViewController*>* viewControllers,
-                                                                                ::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>* fixedViewControllers = nullptr,
-                                                                                float_t fixedEndPos = 0.0);
+                                                                                ::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>* fixedViewControllers, float_t fixedEndPos);
 
   static inline ::HMUI::NavigationController* New_ctor();
 

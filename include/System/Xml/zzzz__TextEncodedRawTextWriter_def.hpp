@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(TextEncodedRawTextWriter)
 namespace System::IO {
 class Stream;
 }
-namespace System::Xml {
-struct XmlStandalone;
-}
 namespace System::IO {
 class TextWriter;
+}
+namespace System::Xml {
+struct XmlStandalone;
 }
 namespace System::Xml {
 class XmlWriterSettings;

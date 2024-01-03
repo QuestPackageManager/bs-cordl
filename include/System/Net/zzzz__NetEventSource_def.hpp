@@ -12,10 +12,10 @@ namespace System::Net {
 class __NetEventSource__Keywords;
 }
 namespace System {
-class Object;
+class FormattableString;
 }
 namespace System {
-class FormattableString;
+class Object;
 }
 // Forward declare root types
 namespace System::Net {
@@ -86,62 +86,49 @@ public:
   static inline ::System::Net::NetEventSource* getStaticF_Log();
 
   /// @brief Method Enter, addr 0x2988e74, size 0xf0, virtual false, abstract: false, final false
-  /// @param formattableString: ::System::FormattableString* (default: nullptr)
-  /// @param memberName: ::StringW (default: nullptr)
-  static inline void Enter(::System::Object* thisOrContextObject, ::System::FormattableString* formattableString = nullptr, ::StringW memberName = nullptr);
+  static inline void Enter(::System::Object* thisOrContextObject, ::System::FormattableString* formattableString, ::StringW memberName);
 
   /// @brief Method Enter, addr 0x298940c, size 0xe8, virtual false, abstract: false, final false
-  /// @param memberName: ::StringW (default: nullptr)
-  static inline void Enter(::System::Object* thisOrContextObject, ::System::Object* arg0, ::StringW memberName = nullptr);
+  static inline void Enter(::System::Object* thisOrContextObject, ::System::Object* arg0, ::StringW memberName);
 
   /// @brief Method Enter, addr 0x29898d4, size 0x11c, virtual false, abstract: false, final false
-  /// @param memberName: ::StringW (default: nullptr)
-  static inline void Enter(::System::Object* thisOrContextObject, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2, ::StringW memberName = nullptr);
+  static inline void Enter(::System::Object* thisOrContextObject, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2, ::StringW memberName);
 
   /// @brief Method Enter, addr 0x2989390, size 0x7c, virtual false, abstract: false, final false
   inline void Enter(::StringW thisOrContextObject, ::StringW memberName, ::StringW parameters);
 
   /// @brief Method Exit, addr 0x29899f0, size 0xf0, virtual false, abstract: false, final false
-  /// @param formattableString: ::System::FormattableString* (default: nullptr)
-  /// @param memberName: ::StringW (default: nullptr)
-  static inline void Exit(::System::Object* thisOrContextObject, ::System::FormattableString* formattableString = nullptr, ::StringW memberName = nullptr);
+  static inline void Exit(::System::Object* thisOrContextObject, ::System::FormattableString* formattableString, ::StringW memberName);
 
   /// @brief Method Exit, addr 0x2989b5c, size 0xd0, virtual false, abstract: false, final false
-  /// @param memberName: ::StringW (default: nullptr)
-  static inline void Exit(::System::Object* thisOrContextObject, ::System::Object* arg0, ::StringW memberName = nullptr);
+  static inline void Exit(::System::Object* thisOrContextObject, ::System::Object* arg0, ::StringW memberName);
 
   /// @brief Method Exit, addr 0x2989ae0, size 0x7c, virtual false, abstract: false, final false
   inline void Exit(::StringW thisOrContextObject, ::StringW memberName, ::StringW result);
 
   /// @brief Method Info, addr 0x2987fe0, size 0xf0, virtual false, abstract: false, final false
-  /// @param formattableString: ::System::FormattableString* (default: nullptr)
-  /// @param memberName: ::StringW (default: nullptr)
-  static inline void Info(::System::Object* thisOrContextObject, ::System::FormattableString* formattableString = nullptr, ::StringW memberName = nullptr);
+  static inline void Info(::System::Object* thisOrContextObject, ::System::FormattableString* formattableString, ::StringW memberName);
 
   /// @brief Method Info, addr 0x29880d0, size 0xd0, virtual false, abstract: false, final false
-  /// @param memberName: ::StringW (default: nullptr)
-  static inline void Info(::System::Object* thisOrContextObject, ::System::Object* message, ::StringW memberName = nullptr);
+  static inline void Info(::System::Object* thisOrContextObject, ::System::Object* message, ::StringW memberName);
 
   /// @brief Method Info, addr 0x2989c2c, size 0x7c, virtual false, abstract: false, final false
   inline void Info(::StringW thisOrContextObject, ::StringW memberName, ::StringW message);
 
   /// @brief Method Error, addr 0x2989ca8, size 0xd0, virtual false, abstract: false, final false
-  /// @param memberName: ::StringW (default: nullptr)
-  static inline void Error(::System::Object* thisOrContextObject, ::System::Object* message, ::StringW memberName = nullptr);
+  static inline void Error(::System::Object* thisOrContextObject, ::System::Object* message, ::StringW memberName);
 
   /// @brief Method ErrorMessage, addr 0x2989d78, size 0x7c, virtual false, abstract: false, final false
   inline void ErrorMessage(::StringW thisOrContextObject, ::StringW memberName, ::StringW message);
 
   /// @brief Method Fail, addr 0x29879f0, size 0xd0, virtual false, abstract: false, final false
-  /// @param memberName: ::StringW (default: nullptr)
-  static inline void Fail(::System::Object* thisOrContextObject, ::System::Object* message, ::StringW memberName = nullptr);
+  static inline void Fail(::System::Object* thisOrContextObject, ::System::Object* message, ::StringW memberName);
 
   /// @brief Method CriticalFailure, addr 0x2989df4, size 0x7c, virtual false, abstract: false, final false
   inline void CriticalFailure(::StringW thisOrContextObject, ::StringW memberName, ::StringW message);
 
   /// @brief Method Associate, addr 0x2989e70, size 0xd0, virtual false, abstract: false, final false
-  /// @param memberName: ::StringW (default: nullptr)
-  static inline void Associate(::System::Object* first, ::System::Object* second, ::StringW memberName = nullptr);
+  static inline void Associate(::System::Object* first, ::System::Object* second, ::StringW memberName);
 
   /// @brief Method Associate, addr 0x2989f40, size 0x88, virtual false, abstract: false, final false
   inline void Associate(::StringW thisOrContextObject, ::StringW memberName, ::StringW first, ::StringW second);

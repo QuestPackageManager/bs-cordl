@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__ExposedReference_1_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ArrayPositionTween)
-namespace UnityEngine {
-class GameObject;
+namespace GlobalNamespace {
+class CustomTweenBehaviour;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
 struct Playable;
 }
 namespace UnityEngine::Timeline {
-class ITimelineClipAsset;
-}
-namespace UnityEngine::Timeline {
 struct ClipCaps;
 }
-namespace UnityEngine::Playables {
-struct PlayableGraph;
+namespace UnityEngine::Timeline {
+class ITimelineClipAsset;
 }
-namespace GlobalNamespace {
-class CustomTweenBehaviour;
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ArrayPositionTween);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6019)), TypeDefinitionIndex(TypeDefinitionIndex(10422)), TypeDefinitionIndex(TypeDefinitionIndex(10046)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10046), inst: 1763 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6002)) CS Name: ::ArrayPositionTween*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10422)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10046), inst: 1763 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6019)), TypeDefinitionIndex(TypeDefinitionIndex(10046))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6002)) CS Name: ::ArrayPositionTween*
 class CORDL_TYPE ArrayPositionTween : public ::UnityEngine::Playables::PlayableAsset {
 public:
   // Declarations
@@ -53,6 +53,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
+  constexpr ::UnityEngine::Timeline::ITimelineClipAsset* i___UnityEngine__Timeline__ITimelineClipAsset() noexcept;
 
   constexpr ::UnityEngine::ExposedReference_1<::GlobalNamespace::TimelineArrayReference*>& __get_arrayReference();
 

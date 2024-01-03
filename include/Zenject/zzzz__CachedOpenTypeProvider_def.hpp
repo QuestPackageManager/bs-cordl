@@ -7,41 +7,41 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CachedOpenTypeProvider)
-namespace Zenject {
-class IProvider;
-}
-namespace Zenject {
-class CachedProvider;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System {
-class Action;
-}
-namespace System {
-class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
+class Action;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+class Object;
+}
+namespace System {
 class Type;
 }
 namespace Zenject {
-struct TypeValuePair;
+class CachedProvider;
+}
+namespace Zenject {
+class IProvider;
 }
 namespace Zenject {
 class InjectContext;
 }
 namespace Zenject {
-class __CachedOpenTypeProvider____c;
-}
-namespace Zenject {
 class InjectTypeInfo;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace Zenject {
+struct TypeValuePair;
+}
+namespace Zenject {
+class __CachedOpenTypeProvider____c;
 }
 // Forward declare root types
 namespace Zenject {
@@ -137,6 +137,9 @@ public:
 
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
+
+  /// @brief Convert to "::Zenject::IProvider"
+  constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
 
   constexpr ::Zenject::IProvider*& __get__creator();
 

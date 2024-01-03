@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CertificateHelper)
 namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateCollection;
+class X509Certificate2Collection;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate2;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2Collection;
+class X509CertificateCollection;
 }
 // Forward declare root types
 namespace System::Net::Security {

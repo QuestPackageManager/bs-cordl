@@ -7,29 +7,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRBounded3D)
-namespace UnityEngine {
-struct Bounds;
+namespace GlobalNamespace {
+template <typename T> class IOVRAnchorComponent_1;
+}
+namespace GlobalNamespace {
+struct OVRAnchor;
+}
+namespace GlobalNamespace {
+template <typename TResult> struct OVRTask_1;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__Boundsf;
 }
 namespace GlobalNamespace {
-template <typename T> class IOVRAnchorComponent_1;
-}
-namespace GlobalNamespace {
 struct __OVRPlugin__SpaceComponentType;
-}
-namespace GlobalNamespace {
-struct OVRAnchor;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace GlobalNamespace {
-template <typename TResult> struct OVRTask_1;
-}
 namespace System {
 class Object;
+}
+namespace UnityEngine {
+struct Bounds;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -67,8 +67,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRBounded3D>"
   constexpr operator ::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRBounded3D>*();
 
+  /// @brief Convert to "::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRBounded3D>"
+  constexpr ::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRBounded3D>* i___GlobalNamespace__IOVRAnchorComponent_1___GlobalNamespace__OVRBounded3D_();
+
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::OVRBounded3D>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::OVRBounded3D>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::OVRBounded3D>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::OVRBounded3D>* i___System__IEquatable_1___GlobalNamespace__OVRBounded3D_();
 
   static inline void setStaticF_Null(::GlobalNamespace::OVRBounded3D value);
 

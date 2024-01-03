@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(CertificationRequestInfo)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class SubjectPublicKeyInfo;
 }
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
+}
 namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
@@ -19,8 +19,8 @@ class Asn1Sequence;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Set;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
 }
 namespace System {
 class Object;

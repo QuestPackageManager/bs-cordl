@@ -6,29 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(AsyncMethodBuilderCore)
-namespace System {
-class Action;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
-namespace System::Threading {
-class ContextCallback;
+namespace System::Runtime::CompilerServices {
+class __AsyncMethodBuilderCore__ContinuationWrapper;
 }
-namespace System::Threading {
-class ExecutionContext;
-}
-namespace System {
-class Object;
-}
-namespace System::Threading {
-class WaitCallback;
-}
-namespace System::Threading {
-class SendOrPostCallback;
+namespace System::Runtime::CompilerServices {
+class __AsyncMethodBuilderCore__MoveNextRunner;
 }
 namespace System::Runtime::CompilerServices {
 class __AsyncMethodBuilderCore____c;
@@ -36,17 +21,32 @@ class __AsyncMethodBuilderCore____c;
 namespace System::Runtime::CompilerServices {
 class __AsyncMethodBuilderCore____c__DisplayClass5_0;
 }
-namespace System {
-class Exception;
+namespace System::Threading::Tasks {
+class Task;
 }
-namespace System::Runtime::CompilerServices {
-class __AsyncMethodBuilderCore__MoveNextRunner;
+namespace System::Threading {
+class ContextCallback;
+}
+namespace System::Threading {
+class ExecutionContext;
+}
+namespace System::Threading {
+class SendOrPostCallback;
 }
 namespace System::Threading {
 class SynchronizationContext;
 }
-namespace System::Runtime::CompilerServices {
-class __AsyncMethodBuilderCore__ContinuationWrapper;
+namespace System::Threading {
+class WaitCallback;
+}
+namespace System {
+class Action;
+}
+namespace System {
+class Exception;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
@@ -392,8 +392,7 @@ public:
   static inline void ThrowAsync(::System::Exception* exception, ::System::Threading::SynchronizationContext* targetContext);
 
   /// @brief Method CreateContinuationWrapper, addr 0x24dceec, size 0xc4, virtual false, abstract: false, final false
-  /// @param innerTask: ::System::Threading::Tasks::Task* (default: nullptr)
-  static inline ::System::Action* CreateContinuationWrapper(::System::Action* continuation, ::System::Action* invokeAction, ::System::Threading::Tasks::Task* innerTask = nullptr);
+  static inline ::System::Action* CreateContinuationWrapper(::System::Action* continuation, ::System::Action* invokeAction, ::System::Threading::Tasks::Task* innerTask);
 
   /// @brief Method TryGetContinuationTask, addr 0x24dd150, size 0x1094, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* TryGetContinuationTask(::System::Action* action);

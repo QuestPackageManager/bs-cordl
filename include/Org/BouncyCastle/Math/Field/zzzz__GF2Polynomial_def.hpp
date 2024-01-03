@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GF2Polynomial)
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Math::Field {
 class IPolynomial;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::Field {
@@ -35,6 +35,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Math::Field::IPolynomial"
   constexpr operator ::Org::BouncyCastle::Math::Field::IPolynomial*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Math::Field::IPolynomial"
+  constexpr ::Org::BouncyCastle::Math::Field::IPolynomial* i___Org__BouncyCastle__Math__Field__IPolynomial() noexcept;
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_exponents();
 

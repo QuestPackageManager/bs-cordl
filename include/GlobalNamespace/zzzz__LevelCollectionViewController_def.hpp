@@ -12,31 +12,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LevelCollectionViewController)
 namespace GlobalNamespace {
-class __LevelCollectionViewController____c__DisplayClass24_0;
-}
-namespace GlobalNamespace {
-class SongPreviewPlayer;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelCollection;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace Zenject {
-class DiContainer;
+class AudioClipAsyncLoader;
 }
 namespace GlobalNamespace {
 class IAdditionalContentModel;
 }
-namespace UnityEngine {
-class Sprite;
-}
 namespace GlobalNamespace {
-struct __LevelCollectionViewController___SongPlayerCrossfadeToLevelAsync_d__24;
-}
-namespace UnityEngine {
-class GameObject;
+class IBeatmapLevelCollection;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
@@ -44,32 +26,50 @@ class IPreviewBeatmapLevel;
 namespace GlobalNamespace {
 class LevelCollectionTableView;
 }
-namespace UnityEngine {
-class RectTransform;
-}
 namespace GlobalNamespace {
 class PerceivedLoudnessPerLevelModel;
 }
 namespace GlobalNamespace {
-class AudioClipAsyncLoader;
-}
-namespace GlobalNamespace {
 class PlayerDataModel;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace GlobalNamespace {
+class SongPreviewPlayer;
 }
-namespace UnityEngine {
-class AudioClip;
+namespace GlobalNamespace {
+struct __LevelCollectionViewController___SongPlayerCrossfadeToLevelAsync_d__24;
+}
+namespace GlobalNamespace {
+class __LevelCollectionViewController____c__DisplayClass24_0;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace UnityEngine {
+class AudioClip;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine {
+class Sprite;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -155,7 +155,7 @@ static_assert(offsetof(::GlobalNamespace::__LevelCollectionViewController____c__
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15594)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(15594)), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
 // GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 276 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5659)) CS Name:
 // ::LevelCollectionViewController::<SongPlayerCrossfadeToLevelAsync>d__24
 struct CORDL_TYPE __LevelCollectionViewController___SongPlayerCrossfadeToLevelAsync_d__24 {
@@ -163,6 +163,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x22bc3f8, size 0x768, virtual true, abstract: false, final true
   inline void MoveNext();

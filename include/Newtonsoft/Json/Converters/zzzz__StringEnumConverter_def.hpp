@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 CORDL_MODULE_EXPORT(StringEnumConverter)
-namespace System {
-class Type;
-}
-namespace System {
-class Object;
+namespace Newtonsoft::Json {
+class JsonReader;
 }
 namespace Newtonsoft::Json {
 class JsonSerializer;
 }
 namespace Newtonsoft::Json {
-class JsonReader;
-}
-namespace Newtonsoft::Json {
 class JsonWriter;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {

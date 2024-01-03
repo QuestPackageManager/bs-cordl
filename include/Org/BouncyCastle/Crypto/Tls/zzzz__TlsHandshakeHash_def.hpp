@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsHandshakeHash)
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -29,6 +29,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDigest"
   constexpr operator ::Org::BouncyCastle::Crypto::IDigest*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"
+  constexpr ::Org::BouncyCastle::Crypto::IDigest* i___Org__BouncyCastle__Crypto__IDigest() noexcept;
 
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Init(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);

@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/Runtime/ConstrainedExecution/zzzz__CriticalFinalizerObject_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReaderWriterLock)
-namespace System::Threading {
-class LockQueue;
-}
 namespace System::Collections {
 class Hashtable;
+}
+namespace System::Threading {
+class LockQueue;
 }
 // Forward declare root types
 namespace System::Threading {

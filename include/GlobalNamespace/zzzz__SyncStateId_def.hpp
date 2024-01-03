@@ -17,10 +17,10 @@ namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -41,8 +41,14 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::SyncStateId>"
   constexpr operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::SyncStateId>*();
 
+  /// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::SyncStateId>"
+  constexpr ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::SyncStateId>* i___LiteNetLib__Utils__INetImmutableSerializable_1___GlobalNamespace__SyncStateId_();
+
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::SyncStateId>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::SyncStateId>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::SyncStateId>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::SyncStateId>* i___System__IEquatable_1___GlobalNamespace__SyncStateId_();
 
   /// @brief Method .ctor, addr 0xe5ac3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint8_t id);

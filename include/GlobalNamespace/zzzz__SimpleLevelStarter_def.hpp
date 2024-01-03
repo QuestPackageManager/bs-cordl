@@ -6,12 +6,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SimpleLevelStarter)
-namespace UnityEngine::UI {
-class Button;
-}
-namespace HMUI {
-class ButtonBinder;
-}
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
@@ -19,25 +13,31 @@ namespace GlobalNamespace {
 class BeatmapLevelSO;
 }
 namespace GlobalNamespace {
-class ScenesTransitionSetupDataSO;
+class GameScenesManager;
 }
 namespace GlobalNamespace {
 class GameplayModifiers;
 }
 namespace GlobalNamespace {
-class StandardLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class GameScenesManager;
-}
-namespace GlobalNamespace {
 class LevelCompletionResults;
+}
+namespace GlobalNamespace {
+class MenuTransitionsHelper;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
 }
 namespace GlobalNamespace {
-class MenuTransitionsHelper;
+class ScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class StandardLevelScenesTransitionSetupDataSO;
+}
+namespace HMUI {
+class ButtonBinder;
+}
+namespace UnityEngine::UI {
+class Button;
 }
 namespace UnityEngine {
 class Component;
@@ -58,7 +58,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SimpleLevelStarter);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14717))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6085))
 // CS Name: ::SimpleLevelStarter*
 class CORDL_TYPE SimpleLevelStarter : public ::UnityEngine::MonoBehaviour {

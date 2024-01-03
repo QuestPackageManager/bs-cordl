@@ -7,14 +7,8 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(VRIKCalibrator)
-namespace UnityEngine {
-class Transform;
-}
-namespace RootMotion::FinalIK {
-class __VRIKCalibrator__Settings;
-}
-namespace RootMotion::FinalIK {
-class __VRIKCalibrator__CalibrationData;
+namespace GlobalNamespace {
+class __VRIKCalibrator__CalibrationData__Target;
 }
 namespace RootMotion::FinalIK {
 class VRIK;
@@ -22,11 +16,17 @@ class VRIK;
 namespace RootMotion::FinalIK {
 class __IKSolverVR__Leg;
 }
+namespace RootMotion::FinalIK {
+class __VRIKCalibrator__CalibrationData;
+}
+namespace RootMotion::FinalIK {
+class __VRIKCalibrator__Settings;
+}
+namespace UnityEngine {
+class Transform;
+}
 namespace UnityEngine {
 struct Vector3;
-}
-namespace GlobalNamespace {
-class __VRIKCalibrator__CalibrationData__Target;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -50,7 +50,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__VRIKCalibrator__Settings);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12669))
 // CS Name: ::VRIKCalibrator::Settings*
 class CORDL_TYPE __VRIKCalibrator__Settings : public ::System::Object {
@@ -309,7 +309,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__VRIKCalibrator__Settings, ___pel
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12670))
 // CS Name: ::VRIKCalibrator::CalibrationData::Target*
 class CORDL_TYPE __VRIKCalibrator__CalibrationData__Target : public ::System::Object {
@@ -389,7 +389,7 @@ static_assert(offsetof(::GlobalNamespace::__VRIKCalibrator__CalibrationData__Tar
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12671))
 // CS Name: ::VRIKCalibrator::CalibrationData*
 class CORDL_TYPE __VRIKCalibrator__CalibrationData : public ::System::Object {
@@ -608,29 +608,19 @@ public:
   static inline void RecalibrateScale(::RootMotion::FinalIK::VRIK* ik, ::RootMotion::FinalIK::__VRIKCalibrator__Settings* settings);
 
   /// @brief Method Calibrate, addr 0x129ab94, size 0x123c, virtual false, abstract: false, final false
-  /// @param bodyTracker: ::UnityEngine::Transform* (default: nullptr)
-  /// @param leftHandTracker: ::UnityEngine::Transform* (default: nullptr)
-  /// @param rightHandTracker: ::UnityEngine::Transform* (default: nullptr)
-  /// @param leftFootTracker: ::UnityEngine::Transform* (default: nullptr)
-  /// @param rightFootTracker: ::UnityEngine::Transform* (default: nullptr)
   static inline ::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData* Calibrate(::RootMotion::FinalIK::VRIK* ik, ::RootMotion::FinalIK::__VRIKCalibrator__Settings* settings,
-                                                                                    ::UnityEngine::Transform* headTracker, ::UnityEngine::Transform* bodyTracker = nullptr,
-                                                                                    ::UnityEngine::Transform* leftHandTracker = nullptr, ::UnityEngine::Transform* rightHandTracker = nullptr,
-                                                                                    ::UnityEngine::Transform* leftFootTracker = nullptr, ::UnityEngine::Transform* rightFootTracker = nullptr);
+                                                                                    ::UnityEngine::Transform* headTracker, ::UnityEngine::Transform* bodyTracker,
+                                                                                    ::UnityEngine::Transform* leftHandTracker, ::UnityEngine::Transform* rightHandTracker,
+                                                                                    ::UnityEngine::Transform* leftFootTracker, ::UnityEngine::Transform* rightFootTracker);
 
   /// @brief Method CalibrateLeg, addr 0x129bdd8, size 0x6b8, virtual false, abstract: false, final false
   static inline void CalibrateLeg(::RootMotion::FinalIK::__VRIKCalibrator__Settings* settings, ::UnityEngine::Transform* tracker, ::RootMotion::FinalIK::__IKSolverVR__Leg* leg,
                                   ::UnityEngine::Transform* lastBone, ::UnityEngine::Vector3 rootForward, bool isLeft);
 
   /// @brief Method Calibrate, addr 0x129c704, size 0x8f4, virtual false, abstract: false, final false
-  /// @param bodyTracker: ::UnityEngine::Transform* (default: nullptr)
-  /// @param leftHandTracker: ::UnityEngine::Transform* (default: nullptr)
-  /// @param rightHandTracker: ::UnityEngine::Transform* (default: nullptr)
-  /// @param leftFootTracker: ::UnityEngine::Transform* (default: nullptr)
-  /// @param rightFootTracker: ::UnityEngine::Transform* (default: nullptr)
   static inline void Calibrate(::RootMotion::FinalIK::VRIK* ik, ::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData* data, ::UnityEngine::Transform* headTracker,
-                               ::UnityEngine::Transform* bodyTracker = nullptr, ::UnityEngine::Transform* leftHandTracker = nullptr, ::UnityEngine::Transform* rightHandTracker = nullptr,
-                               ::UnityEngine::Transform* leftFootTracker = nullptr, ::UnityEngine::Transform* rightFootTracker = nullptr);
+                               ::UnityEngine::Transform* bodyTracker, ::UnityEngine::Transform* leftHandTracker, ::UnityEngine::Transform* rightHandTracker, ::UnityEngine::Transform* leftFootTracker,
+                               ::UnityEngine::Transform* rightFootTracker);
 
   /// @brief Method CalibrateLeg, addr 0x129d054, size 0x24c, virtual false, abstract: false, final false
   static inline void CalibrateLeg(::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData* data, ::UnityEngine::Transform* tracker, ::RootMotion::FinalIK::__IKSolverVR__Leg* leg,

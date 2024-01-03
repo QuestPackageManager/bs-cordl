@@ -12,14 +12,14 @@ CORDL_MODULE_EXPORT(SongPackMasksModel)
 namespace GlobalNamespace {
 struct SongPackMask;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace GlobalNamespace {
+class SongPackMasksModelSO;
 }
 namespace GlobalNamespace {
 struct __SongPackMasksModel__LocalizedText;
 }
-namespace GlobalNamespace {
-class SongPackMasksModelSO;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -81,7 +81,7 @@ static_assert(offsetof(::GlobalNamespace::__SongPackMasksModel__LocalizedText, i
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15047)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15554))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15554)), TypeDefinitionIndex(TypeDefinitionIndex(15047))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4519))
 // CS Name: ::SongPackMasksModel*
 class CORDL_TYPE SongPackMasksModel : public ::System::Object {

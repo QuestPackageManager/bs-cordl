@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsProcessableByteArray)
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Cms {
-class CmsReadable;
+class CmsProcessable;
 }
 namespace Org::BouncyCastle::Cms {
-class CmsProcessable;
+class CmsReadable;
+}
+namespace System::IO {
+class Stream;
 }
 namespace System {
 class Object;
@@ -48,8 +48,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsProcessable"
   constexpr operator ::Org::BouncyCastle::Cms::CmsProcessable*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Cms::CmsProcessable"
+  constexpr ::Org::BouncyCastle::Cms::CmsProcessable* i___Org__BouncyCastle__Cms__CmsProcessable() noexcept;
+
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsReadable"
   constexpr operator ::Org::BouncyCastle::Cms::CmsReadable*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Cms::CmsReadable"
+  constexpr ::Org::BouncyCastle::Cms::CmsReadable* i___Org__BouncyCastle__Cms__CmsReadable() noexcept;
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __get_type();
 

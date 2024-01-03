@@ -7,16 +7,16 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__AsyncCachedLoader_2_def.hpp"
 #include "GlobalNamespace/zzzz__AsyncCachedLoader_2_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "GlobalNamespace/zzzz__HMCache_2_def.hpp"
-#include "System/zzzz__Func_3_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__TaskCompletionSource_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__TaskCompletionSource_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/zzzz__Func_3_def.hpp"
 template <typename TKey, typename TValue>
 inline void GlobalNamespace::__AsyncCachedLoader_2__ScheduledTask<TKey, TValue>::_ctor(TKey keyId, ::System::Threading::Tasks::TaskCompletionSource_1<TValue>* taskCompletionSource,
                                                                                        ::System::Threading::CancellationToken cancellationToken) {
@@ -42,6 +42,11 @@ constexpr ::GlobalNamespace::__AsyncCachedLoader_2__ScheduledTask<TKey, TValue>:
 template <typename TKey, typename TValue> constexpr ::GlobalNamespace::__AsyncCachedLoader_2__ScheduledTask<TKey, TValue>::__AsyncCachedLoader_2__ScheduledTask() {}
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 template <typename TKey, typename TValue> constexpr GlobalNamespace::__AsyncCachedLoader_2___LoadAsync_d__7<TKey, TValue>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+template <typename TKey, typename TValue>
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::__AsyncCachedLoader_2___LoadAsync_d__7<TKey, TValue>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename TKey, typename TValue> inline void GlobalNamespace::__AsyncCachedLoader_2___LoadAsync_d__7<TKey, TValue>::MoveNext() {
@@ -77,6 +82,12 @@ constexpr ::GlobalNamespace::__AsyncCachedLoader_2___LoadAsync_d__7<TKey, TValue
 template <typename TKey, typename TValue> constexpr ::GlobalNamespace::__AsyncCachedLoader_2___LoadAsync_d__7<TKey, TValue>::__AsyncCachedLoader_2___LoadAsync_d__7() {}
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 template <typename TKey, typename TValue> constexpr GlobalNamespace::__AsyncCachedLoader_2___LoadAllAsync_d__8<TKey, TValue>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+template <typename TKey, typename TValue>
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+GlobalNamespace::__AsyncCachedLoader_2___LoadAllAsync_d__8<TKey, TValue>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename TKey, typename TValue> inline void GlobalNamespace::__AsyncCachedLoader_2___LoadAllAsync_d__8<TKey, TValue>::MoveNext() {

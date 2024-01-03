@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DerUniversalString)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerOutputStream;

@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(VisualElementExtensions)
+namespace UnityEngine::UIElements {
+class IManipulator;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
 namespace UnityEngine {
 struct Rect;
 }
 namespace UnityEngine {
 struct Vector2;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-class IManipulator;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

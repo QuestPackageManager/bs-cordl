@@ -11,22 +11,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DlcPromoPanelDataSO)
 namespace GlobalNamespace {
-class __DlcPromoPanelDataSO__MusicPackPromoInfo;
-}
-namespace GlobalNamespace {
-class PreviewBeatmapLevelPackSO;
-}
-namespace UnityEngine {
-class Sprite;
-}
-namespace GlobalNamespace {
-struct PlayerSensitivityFlag;
+class BeatmapLevelSO;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
-class BeatmapLevelSO;
+struct PlayerSensitivityFlag;
+}
+namespace GlobalNamespace {
+class PreviewBeatmapLevelPackSO;
+}
+namespace GlobalNamespace {
+class __DlcPromoPanelDataSO__MusicPackPromoInfo;
+}
+namespace UnityEngine {
+class Sprite;
 }
 // Forward declare root types
 namespace GlobalNamespace {

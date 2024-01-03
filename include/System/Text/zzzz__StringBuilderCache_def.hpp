@@ -33,8 +33,7 @@ public:
   static inline ::System::Text::StringBuilder* getStaticF_t_cachedInstance();
 
   /// @brief Method Acquire, addr 0x285e154, size 0xc8, virtual false, abstract: false, final false
-  /// @param capacity: int32_t (default: static_cast<int32_t>(0x10))
-  static inline ::System::Text::StringBuilder* Acquire(int32_t capacity = static_cast<int32_t>(0x10));
+  static inline ::System::Text::StringBuilder* Acquire(int32_t capacity);
 
   /// @brief Method Release, addr 0x28619f0, size 0x78, virtual false, abstract: false, final false
   static inline void Release(::System::Text::StringBuilder* sb);

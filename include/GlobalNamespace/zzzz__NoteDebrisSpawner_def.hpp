@@ -7,28 +7,28 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(NoteDebrisSpawner)
 namespace GlobalNamespace {
-class __NoteDebris__Pool;
-}
-namespace UnityEngine {
-struct Vector3;
+struct ColorType;
 }
 namespace GlobalNamespace {
 class INoteDebrisDidFinishEvent;
 }
 namespace GlobalNamespace {
+class NoteDebris;
+}
+namespace GlobalNamespace {
 struct __NoteData__GameplayType;
 }
 namespace GlobalNamespace {
-class NoteDebris;
+class __NoteDebris__Pool;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace GlobalNamespace {
-struct ColorType;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -78,6 +78,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::INoteDebrisDidFinishEvent"
   constexpr operator ::GlobalNamespace::INoteDebrisDidFinishEvent*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::INoteDebrisDidFinishEvent"
+  constexpr ::GlobalNamespace::INoteDebrisDidFinishEvent* i___GlobalNamespace__INoteDebrisDidFinishEvent() noexcept;
 
   constexpr float_t& __get__rotation();
 

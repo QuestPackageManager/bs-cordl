@@ -14,20 +14,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LevelSearchViewController)
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace System::Threading {
-class CancellationTokenSource;
+namespace GlobalNamespace {
+class BeatmapCharacteristicCollection;
 }
 namespace GlobalNamespace {
-class PlayerDataModel;
-}
-namespace GlobalNamespace {
-struct __LevelSearchViewController___UpdateBeatmapLevelPackCollectionAsync_d__31;
-}
-namespace UnityEngine {
-class GameObject;
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
 class IAdditionalContentModel;
@@ -36,19 +27,7 @@ namespace GlobalNamespace {
 class IAnnotatedBeatmapLevelCollection;
 }
 namespace GlobalNamespace {
-class __LevelSearchViewController__BeatmapLevelPackCollection;
-}
-namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine::UI {
-class Button;
+class IBeatmapLevelCollection;
 }
 namespace GlobalNamespace {
 class IBeatmapLevelPack;
@@ -57,31 +36,52 @@ namespace GlobalNamespace {
 struct LevelFilter;
 }
 namespace GlobalNamespace {
+class PlayerDataModel;
+}
+namespace GlobalNamespace {
 class SongPackMasksModel;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicCollection;
+class __LevelSearchViewController__BeatmapLevelPackCollection;
 }
-namespace TMPro {
-class TextMeshProUGUI;
+namespace GlobalNamespace {
+struct __LevelSearchViewController___UpdateBeatmapLevelPackCollectionAsync_d__31;
 }
 namespace HMUI {
 class InputFieldView;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelCollection;
-}
-namespace UnityEngine {
-class Sprite;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace System {
+template <typename T1, typename T2, typename T3> class Action_3;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class Sprite;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -121,6 +121,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IAnnotatedBeatmapLevelCollection"
   constexpr operator ::GlobalNamespace::IAnnotatedBeatmapLevelCollection*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IAnnotatedBeatmapLevelCollection"
+  constexpr ::GlobalNamespace::IAnnotatedBeatmapLevelCollection* i___GlobalNamespace__IAnnotatedBeatmapLevelCollection() noexcept;
 
   constexpr ::GlobalNamespace::IBeatmapLevelCollection*& __get__beatmapLevelCollection_k__BackingField();
 
@@ -177,7 +180,7 @@ static_assert(offsetof(::GlobalNamespace::__LevelSearchViewController__BeatmapLe
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4344)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(4344)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
 // GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 888 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5671)) CS Name:
 // ::LevelSearchViewController::<UpdateBeatmapLevelPackCollectionAsync>d__31
 struct CORDL_TYPE __LevelSearchViewController___UpdateBeatmapLevelPackCollectionAsync_d__31 {
@@ -185,6 +188,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x22c2018, size 0x88c, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -236,7 +242,7 @@ static_assert(offsetof(::GlobalNamespace::__LevelSearchViewController___UpdateBe
 // SizeInfo { instance_size: 328, native_size: -1, calculated_instance_size: 328, calculated_native_size: 328, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605)), TypeDefinitionIndex(TypeDefinitionIndex(4402))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4402)), TypeDefinitionIndex(TypeDefinitionIndex(13605))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5672))
 // CS Name: ::LevelSearchViewController*
 class CORDL_TYPE LevelSearchViewController : public ::HMUI::ViewController {

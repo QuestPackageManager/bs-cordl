@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BezierPoint)
-namespace UnityEngine::ProBuilder {
-struct BezierTangentMode;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace UnityEngine::ProBuilder {
 struct BezierTangentDirection;
 }
+namespace UnityEngine::ProBuilder {
+struct BezierTangentMode;
+}
 namespace UnityEngine {
 struct Quaternion;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
 }
 namespace UnityEngine {
 struct Vector3;

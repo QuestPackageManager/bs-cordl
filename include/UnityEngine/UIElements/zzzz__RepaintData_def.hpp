@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::RepaintData);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10165)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6867)) CS Name: ::UnityEngine.UIElements::RepaintData*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10165))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6867)) CS Name: ::UnityEngine.UIElements::RepaintData*
 class CORDL_TYPE RepaintData : public ::System::Object {
 public:
   // Declarations

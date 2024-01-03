@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MockComboController)
-namespace System {
-class Action;
+namespace GlobalNamespace {
+class IComboController;
 }
 namespace System {
 template <typename T> class Action_1;
 }
-namespace GlobalNamespace {
-class IComboController;
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -38,6 +38,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IComboController"
   constexpr operator ::GlobalNamespace::IComboController*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IComboController"
+  constexpr ::GlobalNamespace::IComboController* i___GlobalNamespace__IComboController() noexcept;
 
   constexpr ::System::Action_1<int32_t>*& __get_comboDidChangeEvent();
 

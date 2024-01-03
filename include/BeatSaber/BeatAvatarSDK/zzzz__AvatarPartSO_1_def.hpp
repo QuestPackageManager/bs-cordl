@@ -46,6 +46,9 @@ public:
   /// @brief Convert operator to "::BeatSaber::BeatAvatarSDK::IAvatarPart"
   constexpr operator ::BeatSaber::BeatAvatarSDK::IAvatarPart*() noexcept;
 
+  /// @brief Convert to "::BeatSaber::BeatAvatarSDK::IAvatarPart"
+  constexpr ::BeatSaber::BeatAvatarSDK::IAvatarPart* i___BeatSaber__BeatAvatarSDK__IAvatarPart() noexcept;
+
   constexpr ::StringW& __get__id();
 
   constexpr ::StringW const& __get__id() const;

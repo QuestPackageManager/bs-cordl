@@ -19,80 +19,101 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AddressablesImpl)
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class ResourceLocationBase;
-}
-namespace UnityEngine::SceneManagement {
-struct UnloadSceneOptions;
-}
-namespace System {
-class Type;
-}
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl__LoadResourceLocationKeyOp;
-}
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl__ResourceLocatorInfo;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace System::Collections::Generic {
+template <typename T> class IEqualityComparer_1;
 }
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass140_0;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass114_0;
-}
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct SceneInstance;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> struct AsyncOperationHandle_1;
+namespace System {
+template <typename T> class Action_1;
 }
-namespace UnityEngine::AddressableAssets {
-template <typename TObject> class __AddressablesImpl____c__DisplayClass111_0_1;
+namespace System {
+class Exception;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass97_0;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::AddressableAssets {
-template <typename TObject> class __AddressablesImpl____c__DisplayClass77_0_1;
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 class Object;
 }
 namespace System {
-class Exception;
+class Type;
 }
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class ISceneProvider;
+namespace UnityEngine::AddressableAssets::ResourceLocators {
+class IResourceLocator;
 }
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct InstantiationParameters;
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl__LoadResourceLocationKeyOp;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl__LoadResourceLocationKeysOp;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl__ResourceLocatorInfo;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl____c;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl____c__DisplayClass100_0;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl____c__DisplayClass104_0;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl____c__DisplayClass106_0;
+}
+namespace UnityEngine::AddressableAssets {
+template <typename TObject> class __AddressablesImpl____c__DisplayClass111_0_1;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl____c__DisplayClass113_0;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl____c__DisplayClass114_0;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl____c__DisplayClass115_0;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl____c__DisplayClass120_0;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl____c__DisplayClass122_0;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl____c__DisplayClass125_0;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl____c__DisplayClass131_0;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl____c__DisplayClass132_0;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl____c__DisplayClass136_0;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl____c__DisplayClass140_0;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl____c__DisplayClass145_0;
 }
 namespace UnityEngine::AddressableAssets {
 class __AddressablesImpl____c__DisplayClass146_0;
@@ -101,58 +122,19 @@ namespace UnityEngine::AddressableAssets {
 class __AddressablesImpl____c__DisplayClass62_0;
 }
 namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl__LoadResourceLocationKeysOp;
+class __AddressablesImpl____c__DisplayClass71_0;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::AddressableAssets {
+template <typename TObject> class __AddressablesImpl____c__DisplayClass77_0_1;
 }
-namespace UnityEngine {
-class Transform;
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl____c__DisplayClass81_0;
 }
 namespace UnityEngine::AddressableAssets {
 class __AddressablesImpl____c__DisplayClass83_0;
 }
 namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass100_0;
-}
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
-}
-namespace UnityEngine::AddressableAssets::ResourceLocators {
-class IResourceLocator;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class IInstanceProvider;
-}
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass106_0;
-}
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass122_0;
-}
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass136_0;
-}
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass115_0;
-}
-namespace UnityEngine::AddressableAssets {
 template <typename TObject> class __AddressablesImpl____c__DisplayClass86_0_1;
-}
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass145_0;
-}
-namespace UnityEngine::Networking {
-class UnityWebRequest;
-}
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass113_0;
-}
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass81_0;
 }
 namespace UnityEngine::AddressableAssets {
 template <typename TObject> class __AddressablesImpl____c__DisplayClass88_0_1;
@@ -161,46 +143,67 @@ namespace UnityEngine::AddressableAssets {
 class __AddressablesImpl____c__DisplayClass96_0;
 }
 namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass132_0;
-}
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass71_0;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass125_0;
-}
-namespace UnityEngine::SceneManagement {
-struct Scene;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine::ResourceManagement::Util {
-class IAllocationStrategy;
+class __AddressablesImpl____c__DisplayClass97_0;
 }
 namespace UnityEngine::AddressableAssets {
 struct __Addressables__MergeMode;
 }
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass131_0;
+namespace UnityEngine::Networking {
+class UnityWebRequest;
 }
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass120_0;
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> struct AsyncOperationHandle_1;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class ResourceLocationBase;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class IAssetBundleResource;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class IInstanceProvider;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class ISceneProvider;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct InstantiationParameters;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct SceneInstance;
+}
+namespace UnityEngine::ResourceManagement::Util {
+class IAllocationStrategy;
+}
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
+}
+namespace UnityEngine::SceneManagement {
+struct LoadSceneMode;
+}
+namespace UnityEngine::SceneManagement {
+struct Scene;
+}
+namespace UnityEngine::SceneManagement {
+struct UnloadSceneOptions;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
+namespace UnityEngine {
+class Transform;
 }
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass104_0;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class IAssetBundleResource;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets {
@@ -468,8 +471,8 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::__AddressablesImpl__Res
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14032)), TypeDefinitionIndex(TypeDefinitionIndex(14021)), TypeDefinitionIndex(TypeDefinitionIndex(3835)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 3200 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 793 })} Self:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 793 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 3200 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(14021)), TypeDefinitionIndex(TypeDefinitionIndex(14032)), TypeDefinitionIndex(TypeDefinitionIndex(3835))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(14052)) CS Name: ::AddressablesImpl::LoadResourceLocationKeyOp*
 class CORDL_TYPE __AddressablesImpl__LoadResourceLocationKeyOp : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<
                                                                      ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> {
@@ -574,10 +577,9 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::__AddressablesImpl__Loa
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3835)), TypeDefinitionIndex(TypeDefinitionIndex(14021)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst:
-// 793 }), TypeDefinitionIndex(TypeDefinitionIndex(14049)), TypeDefinitionIndex(TypeDefinitionIndex(14032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 3200 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14053))
-// CS Name: ::AddressablesImpl::LoadResourceLocationKeysOp*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14021)), TypeDefinitionIndex(TypeDefinitionIndex(3835)), TypeDefinitionIndex(TypeDefinitionIndex(14049)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 3200 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(14032), inst: 793 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14053)) CS Name: ::AddressablesImpl::LoadResourceLocationKeysOp*
 class CORDL_TYPE __AddressablesImpl__LoadResourceLocationKeysOp : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<
                                                                       ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> {
 public:
@@ -992,7 +994,7 @@ public:
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14049)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14049))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14058))
 // CS Name: ::AddressablesImpl::<>c__DisplayClass81_0*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass81_0 : public ::System::Object {
@@ -1170,7 +1172,7 @@ namespace UnityEngine::AddressableAssets {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14049)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14049))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14060))
 // CS Name: ::AddressablesImpl::<>c__DisplayClass86_0`1<TObject>*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass86_0_1 : public ::System::Object {
@@ -2008,7 +2010,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::__AddressablesImpl____c
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13998)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13998))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14071))
 // CS Name: ::AddressablesImpl::<>c__DisplayClass120_0*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass120_0 : public ::System::Object {
@@ -2089,7 +2091,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::__AddressablesImpl____c
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13998))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13998)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14072))
 // CS Name: ::AddressablesImpl::<>c__DisplayClass122_0*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass122_0 : public ::System::Object {
@@ -2279,7 +2281,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::__AddressablesImpl____c
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10378)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10378))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14074))
 // CS Name: ::AddressablesImpl::<>c__DisplayClass131_0*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass131_0 : public ::System::Object {
@@ -2360,7 +2362,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::__AddressablesImpl____c
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10378))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10378)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14075))
 // CS Name: ::AddressablesImpl::<>c__DisplayClass132_0*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass132_0 : public ::System::Object {
@@ -2589,9 +2591,9 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::__AddressablesImpl____c
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 792 }), TypeDefinitionIndex(TypeDefinitionIndex(14033)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3835)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 275 }), TypeDefinitionIndex(TypeDefinitionIndex(14034)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14078)) CS Name: ::AddressablesImpl::<>c__DisplayClass145_0*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3835)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14033)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 275 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 792 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(14034))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14078)) CS Name: ::AddressablesImpl::<>c__DisplayClass145_0*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass145_0 : public ::System::Object {
 public:
   // Declarations
@@ -2757,12 +2759,11 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::__AddressablesImpl____c
 // SizeInfo { instance_size: 232, native_size: -1, calculated_instance_size: 232, calculated_native_size: 225, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3843), inst: 796 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3843), inst: 397 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 795 }), TypeDefinitionIndex(TypeDefinitionIndex(14033)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(14033), inst: 794 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14112)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(14033), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3843)), TypeDefinitionIndex(TypeDefinitionIndex(10375)), TypeDefinitionIndex(TypeDefinitionIndex(10378)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 796 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14080)) CS Name:
-// ::UnityEngine.AddressableAssets::AddressablesImpl*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 795 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3843)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3843), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(14112)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 796 }), TypeDefinitionIndex(TypeDefinitionIndex(14033)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(14033), inst: 794 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3843), inst: 796 }), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(14080)) CS Name: ::UnityEngine.AddressableAssets::AddressablesImpl*
 class CORDL_TYPE AddressablesImpl : public ::System::Object {
 public:
   // Declarations
@@ -2913,6 +2914,10 @@ public:
 
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>"
+  constexpr ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*
+  i___System__Collections__Generic__IEqualityComparer_1___UnityEngine__ResourceManagement__ResourceLocations__IResourceLocation__() noexcept;
 
   constexpr ::UnityEngine::ResourceManagement::ResourceManager*& __get_m_ResourceManager();
 
@@ -3106,10 +3111,8 @@ public:
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>* get_ResourceLocators();
 
   /// @brief Method AddResourceLocator, addr 0x2a1ad60, size 0x100, virtual false, abstract: false, final false
-  /// @param localCatalogHash: ::StringW (default: nullptr)
-  /// @param remoteCatalogLocation: ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* (default: nullptr)
-  inline void AddResourceLocator(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* loc, ::StringW localCatalogHash = nullptr,
-                                 ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* remoteCatalogLocation = nullptr);
+  inline void AddResourceLocator(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* loc, ::StringW localCatalogHash,
+                                 ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* remoteCatalogLocation);
 
   /// @brief Method RemoveResourceLocator, addr 0x2a1aef8, size 0xdc, virtual false, abstract: false, final false
   inline void RemoveResourceLocator(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* loc);
@@ -3126,10 +3129,8 @@ public:
                                    ByRef<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> locations);
 
   /// @brief Method InitializeAsync, addr 0x2a1cfc4, size 0x470, virtual false, abstract: false, final false
-  /// @param providerSuffix: ::StringW (default: nullptr)
-  /// @param autoReleaseHandle: bool (default: true)
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>
-  InitializeAsync(::StringW runtimeDataPath, ::StringW providerSuffix = nullptr, bool autoReleaseHandle = true);
+  InitializeAsync(::StringW runtimeDataPath, ::StringW providerSuffix, bool autoReleaseHandle);
 
   /// @brief Method InitializeAsync, addr 0x2a143a8, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> InitializeAsync();
@@ -3144,10 +3145,8 @@ public:
   inline void QueueEditorUpdateIfNeeded();
 
   /// @brief Method LoadContentCatalogAsync, addr 0x2a146c8, size 0x1f8, virtual false, abstract: false, final false
-  /// @param autoReleaseHandle: bool (default: true)
-  /// @param providerSuffix: ::StringW (default: nullptr)
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>
-  LoadContentCatalogAsync(::StringW catalogPath, bool autoReleaseHandle = true, ::StringW providerSuffix = nullptr);
+  LoadContentCatalogAsync(::StringW catalogPath, bool autoReleaseHandle, ::StringW providerSuffix);
 
   /// @brief Method TrackHandle, addr 0x2a1e5ac, size 0xb4, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
@@ -3181,18 +3180,16 @@ public:
                                  ::UnityEngine::AddressableAssets::__Addressables__MergeMode mode, ::System::Type* type);
 
   /// @brief Method LoadResourceLocationsAsync, addr 0x2a14b04, size 0x154, virtual false, abstract: false, final false
-  /// @param type: ::System::Type* (default: nullptr)
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>
-  LoadResourceLocationsAsync(::System::Collections::IEnumerable* keys, ::UnityEngine::AddressableAssets::__Addressables__MergeMode mode, ::System::Type* type = nullptr);
+  LoadResourceLocationsAsync(::System::Collections::IEnumerable* keys, ::UnityEngine::AddressableAssets::__Addressables__MergeMode mode, ::System::Type* type);
 
   /// @brief Method LoadResourceLocationsWithChain, addr 0x2a1e894, size 0x138, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>
   LoadResourceLocationsWithChain(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dep, ::System::Object* key, ::System::Type* type);
 
   /// @brief Method LoadResourceLocationsAsync, addr 0x2a14e70, size 0x148, virtual false, abstract: false, final false
-  /// @param type: ::System::Type* (default: nullptr)
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>
-  LoadResourceLocationsAsync(::System::Object* key, ::System::Type* type = nullptr);
+  LoadResourceLocationsAsync(::System::Object* key, ::System::Type* type);
 
   /// @brief Method LoadAssetsAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TObject>
@@ -3265,8 +3262,7 @@ public:
   GatherDependenciesFromLocations(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations);
 
   /// @brief Method DownloadDependenciesAsync, addr 0x2a16798, size 0x27c, virtual false, abstract: false, final false
-  /// @param autoReleaseHandle: bool (default: false)
-  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle DownloadDependenciesAsync(::System::Object* key, bool autoReleaseHandle = false);
+  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle DownloadDependenciesAsync(::System::Object* key, bool autoReleaseHandle);
 
   /// @brief Method DownloadDependenciesAsyncWithChain, addr 0x2a1fa9c, size 0x1a0, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle
@@ -3274,9 +3270,8 @@ public:
                                      ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations, bool autoReleaseHandle);
 
   /// @brief Method DownloadDependenciesAsync, addr 0x2a16ae0, size 0x140, virtual false, abstract: false, final false
-  /// @param autoReleaseHandle: bool (default: false)
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle
-  DownloadDependenciesAsync(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations, bool autoReleaseHandle = false);
+  DownloadDependenciesAsync(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations, bool autoReleaseHandle);
 
   /// @brief Method DownloadDependenciesAsyncWithChain, addr 0x2a1fc44, size 0x1b0, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle DownloadDependenciesAsyncWithChain(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dep,
@@ -3285,9 +3280,8 @@ public:
                                                                                                                      bool autoReleaseHandle);
 
   /// @brief Method DownloadDependenciesAsync, addr 0x2a16cf8, size 0x28c, virtual false, abstract: false, final false
-  /// @param autoReleaseHandle: bool (default: false)
-  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle
-  DownloadDependenciesAsync(::System::Collections::IEnumerable* keys, ::UnityEngine::AddressableAssets::__Addressables__MergeMode mode, bool autoReleaseHandle = false);
+  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle DownloadDependenciesAsync(::System::Collections::IEnumerable* keys,
+                                                                                                            ::UnityEngine::AddressableAssets::__Addressables__MergeMode mode, bool autoReleaseHandle);
 
   /// @brief Method ClearDependencyCacheForKey, addr 0x2a1fdfc, size 0x6b8, virtual false, abstract: false, final false
   inline bool ClearDependencyCacheForKey(::System::Object* key);
@@ -3316,105 +3310,70 @@ public:
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> ClearDependencyCacheAsync(::System::Collections::IEnumerable* keys, bool autoReleaseHandle);
 
   /// @brief Method InstantiateAsync, addr 0x2a2055c, size 0x88, virtual false, abstract: false, final false
-  /// @param parent: ::UnityEngine::Transform* (default: nullptr)
-  /// @param instantiateInWorldSpace: bool (default: false)
-  /// @param trackHandle: bool (default: true)
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*>
-  InstantiateAsync(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::Transform* parent = nullptr, bool instantiateInWorldSpace = false,
-                   bool trackHandle = true);
+  InstantiateAsync(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::Transform* parent, bool instantiateInWorldSpace, bool trackHandle);
 
   /// @brief Method InstantiateAsync, addr 0x2a18fe4, size 0x80, virtual false, abstract: false, final false
-  /// @param parent: ::UnityEngine::Transform* (default: nullptr)
-  /// @param trackHandle: bool (default: true)
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*>
   InstantiateAsync(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation,
-                   ::UnityEngine::Transform* parent = nullptr, bool trackHandle = true);
+                   ::UnityEngine::Transform* parent, bool trackHandle);
 
   /// @brief Method InstantiateAsync, addr 0x2a19064, size 0x88, virtual false, abstract: false, final false
-  /// @param parent: ::UnityEngine::Transform* (default: nullptr)
-  /// @param instantiateInWorldSpace: bool (default: false)
-  /// @param trackHandle: bool (default: true)
-  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*> InstantiateAsync(::System::Object* key, ::UnityEngine::Transform* parent = nullptr,
-                                                                                                                                 bool instantiateInWorldSpace = false, bool trackHandle = true);
+  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*> InstantiateAsync(::System::Object* key, ::UnityEngine::Transform* parent,
+                                                                                                                                 bool instantiateInWorldSpace, bool trackHandle);
 
   /// @brief Method InstantiateAsync, addr 0x2a190ec, size 0x80, virtual false, abstract: false, final false
-  /// @param parent: ::UnityEngine::Transform* (default: nullptr)
-  /// @param trackHandle: bool (default: true)
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*>
-  InstantiateAsync(::System::Object* key, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parent = nullptr, bool trackHandle = true);
+  InstantiateAsync(::System::Object* key, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parent, bool trackHandle);
 
   /// @brief Method InstantiateWithChain, addr 0x2a205e4, size 0x180, virtual false, abstract: false, final false
-  /// @param trackHandle: bool (default: true)
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*>
   InstantiateWithChain(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dep, ::System::Object* key,
-                       ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters, bool trackHandle = true);
+                       ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters, bool trackHandle);
 
   /// @brief Method InstantiateAsync, addr 0x2a1916c, size 0x440, virtual false, abstract: false, final false
-  /// @param trackHandle: bool (default: true)
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*>
-  InstantiateAsync(::System::Object* key, ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters, bool trackHandle = true);
+  InstantiateAsync(::System::Object* key, ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters, bool trackHandle);
 
   /// @brief Method InstantiateWithChain, addr 0x2a2076c, size 0x180, virtual false, abstract: false, final false
-  /// @param trackHandle: bool (default: true)
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*>
   InstantiateWithChain(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dep, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
-                       ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters, bool trackHandle = true);
+                       ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters, bool trackHandle);
 
   /// @brief Method InstantiateAsync, addr 0x2a18ebc, size 0x128, virtual false, abstract: false, final false
-  /// @param trackHandle: bool (default: true)
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*>
   InstantiateAsync(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
-                   ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters, bool trackHandle = true);
+                   ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters, bool trackHandle);
 
   /// @brief Method ReleaseInstance, addr 0x2a15160, size 0xfc, virtual false, abstract: false, final false
   inline bool ReleaseInstance(::UnityEngine::GameObject* instance);
 
   /// @brief Method LoadSceneWithChain, addr 0x2a208f4, size 0x16c, virtual false, abstract: false, final false
-  /// @param loadMode: ::UnityEngine::SceneManagement::LoadSceneMode (default: static_cast<int32_t>(0x0))
-  /// @param activateOnLoad: bool (default: true)
-  /// @param priority: int32_t (default: static_cast<int32_t>(0x64))
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
-  LoadSceneWithChain(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dep, ::System::Object* key,
-                     ::UnityEngine::SceneManagement::LoadSceneMode loadMode = static_cast<int32_t>(0x0), bool activateOnLoad = true, int32_t priority = static_cast<int32_t>(0x64));
+  LoadSceneWithChain(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dep, ::System::Object* key, ::UnityEngine::SceneManagement::LoadSceneMode loadMode, bool activateOnLoad,
+                     int32_t priority);
 
   /// @brief Method LoadSceneAsync, addr 0x2a1989c, size 0x260, virtual false, abstract: false, final false
-  /// @param loadMode: ::UnityEngine::SceneManagement::LoadSceneMode (default: static_cast<int32_t>(0x0))
-  /// @param activateOnLoad: bool (default: true)
-  /// @param priority: int32_t (default: static_cast<int32_t>(0x64))
-  /// @param trackHandle: bool (default: true)
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
-  LoadSceneAsync(::System::Object* key, ::UnityEngine::SceneManagement::LoadSceneMode loadMode = static_cast<int32_t>(0x0), bool activateOnLoad = true, int32_t priority = static_cast<int32_t>(0x64),
-                 bool trackHandle = true);
+  LoadSceneAsync(::System::Object* key, ::UnityEngine::SceneManagement::LoadSceneMode loadMode, bool activateOnLoad, int32_t priority, bool trackHandle);
 
   /// @brief Method LoadSceneAsync, addr 0x2a19afc, size 0xb0, virtual false, abstract: false, final false
-  /// @param loadMode: ::UnityEngine::SceneManagement::LoadSceneMode (default: static_cast<int32_t>(0x0))
-  /// @param activateOnLoad: bool (default: true)
-  /// @param priority: int32_t (default: static_cast<int32_t>(0x64))
-  /// @param trackHandle: bool (default: true)
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
-  LoadSceneAsync(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::SceneManagement::LoadSceneMode loadMode = static_cast<int32_t>(0x0),
-                 bool activateOnLoad = true, int32_t priority = static_cast<int32_t>(0x64), bool trackHandle = true);
+  LoadSceneAsync(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::SceneManagement::LoadSceneMode loadMode, bool activateOnLoad, int32_t priority,
+                 bool trackHandle);
 
   /// @brief Method UnloadSceneAsync, addr 0x2a1a0e0, size 0x220, virtual false, abstract: false, final false
-  /// @param unloadOptions: ::UnityEngine::SceneManagement::UnloadSceneOptions (default: static_cast<int32_t>(0x0))
-  /// @param autoReleaseHandle: bool (default: true)
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
-  UnloadSceneAsync(::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance scene, ::UnityEngine::SceneManagement::UnloadSceneOptions unloadOptions = static_cast<int32_t>(0x0),
-                   bool autoReleaseHandle = true);
+  UnloadSceneAsync(::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance scene, ::UnityEngine::SceneManagement::UnloadSceneOptions unloadOptions, bool autoReleaseHandle);
 
   /// @brief Method UnloadSceneAsync, addr 0x2a1a3f4, size 0x154, virtual false, abstract: false, final false
-  /// @param unloadOptions: ::UnityEngine::SceneManagement::UnloadSceneOptions (default: static_cast<int32_t>(0x0))
-  /// @param autoReleaseHandle: bool (default: true)
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
-  UnloadSceneAsync(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle, ::UnityEngine::SceneManagement::UnloadSceneOptions unloadOptions = static_cast<int32_t>(0x0),
-                   bool autoReleaseHandle = true);
+  UnloadSceneAsync(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle, ::UnityEngine::SceneManagement::UnloadSceneOptions unloadOptions, bool autoReleaseHandle);
 
   /// @brief Method UnloadSceneAsync, addr 0x2a1a628, size 0xc8, virtual false, abstract: false, final false
-  /// @param unloadOptions: ::UnityEngine::SceneManagement::UnloadSceneOptions (default: static_cast<int32_t>(0x0))
-  /// @param autoReleaseHandle: bool (default: true)
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
   UnloadSceneAsync(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> handle,
-                   ::UnityEngine::SceneManagement::UnloadSceneOptions unloadOptions = static_cast<int32_t>(0x0), bool autoReleaseHandle = true);
+                   ::UnityEngine::SceneManagement::UnloadSceneOptions unloadOptions, bool autoReleaseHandle);
 
   /// @brief Method CreateUnloadSceneWithChain, addr 0x2a20a68, size 0x138, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
@@ -3434,8 +3393,7 @@ public:
   inline ::System::Object* EvaluateKey(::System::Object* obj);
 
   /// @brief Method CheckForCatalogUpdates, addr 0x2a1a7ac, size 0x140, virtual false, abstract: false, final false
-  /// @param autoReleaseHandle: bool (default: true)
-  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::List_1<::StringW>*> CheckForCatalogUpdates(bool autoReleaseHandle = true);
+  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::List_1<::StringW>*> CheckForCatalogUpdates(bool autoReleaseHandle);
 
   /// @brief Method CheckForCatalogUpdatesWithChain, addr 0x2a20da8, size 0x12c, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::List_1<::StringW>*> CheckForCatalogUpdatesWithChain(bool autoReleaseHandle);
@@ -3447,11 +3405,8 @@ public:
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_CatalogsWithAvailableUpdates();
 
   /// @brief Method UpdateCatalogs, addr 0x2a1a9b4, size 0x228, virtual false, abstract: false, final false
-  /// @param catalogIds: ::System::Collections::Generic::IEnumerable_1<::StringW>* (default: nullptr)
-  /// @param autoReleaseHandle: bool (default: true)
-  /// @param autoCleanBundleCache: bool (default: false)
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*>
-  UpdateCatalogs(::System::Collections::Generic::IEnumerable_1<::StringW>* catalogIds = nullptr, bool autoReleaseHandle = true, bool autoCleanBundleCache = false);
+  UpdateCatalogs(::System::Collections::Generic::IEnumerable_1<::StringW>* catalogIds, bool autoReleaseHandle, bool autoCleanBundleCache);
 
   /// @brief Method Equals, addr 0x2a22044, size 0x2e0, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* x, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* y);

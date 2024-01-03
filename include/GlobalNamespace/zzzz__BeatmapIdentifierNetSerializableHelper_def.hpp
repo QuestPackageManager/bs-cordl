@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(BeatmapIdentifierNetSerializableHelper)
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class BeatmapCharacteristicCollection;
+}
+namespace GlobalNamespace {
+class BeatmapIdentifierNetSerializable;
 }
 namespace GlobalNamespace {
 class BeatmapLevelsModel;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicCollection;
-}
-namespace GlobalNamespace {
-class BeatmapIdentifierNetSerializable;
+class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 class PreviewDifficultyBeatmap;

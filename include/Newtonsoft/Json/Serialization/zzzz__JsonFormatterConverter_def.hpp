@@ -8,25 +8,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(JsonFormatterConverter)
 namespace Newtonsoft::Json::Serialization {
-class JsonProperty;
+class JsonISerializableContract;
 }
-namespace System::Runtime::Serialization {
-class IFormatterConverter;
+namespace Newtonsoft::Json::Serialization {
+class JsonProperty;
 }
 namespace Newtonsoft::Json::Serialization {
 class JsonSerializerInternalReader;
 }
+namespace System::Runtime::Serialization {
+class IFormatterConverter;
+}
 namespace System {
 struct DateTime;
 }
-namespace Newtonsoft::Json::Serialization {
-class JsonISerializableContract;
+namespace System {
+struct Decimal;
 }
 namespace System {
 class Object;
-}
-namespace System {
-struct Decimal;
 }
 namespace System {
 struct TypeCode;
@@ -61,6 +61,9 @@ public:
 
   /// @brief Convert operator to "::System::Runtime::Serialization::IFormatterConverter"
   constexpr operator ::System::Runtime::Serialization::IFormatterConverter*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::IFormatterConverter"
+  constexpr ::System::Runtime::Serialization::IFormatterConverter* i___System__Runtime__Serialization__IFormatterConverter() noexcept;
 
   constexpr ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*& __get__reader();
 

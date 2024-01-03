@@ -9,26 +9,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ThreadLocal_1)
-namespace System::Threading {
-template <typename T> class __ThreadLocal_1__LinkedSlot;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Threading {
-template <typename T> struct __ThreadLocal_1__LinkedSlotVolatile;
-}
-namespace System {
-class IDisposable;
+template <typename T> class __ThreadLocal_1__FinalizationHelper;
 }
 namespace System::Threading {
 template <typename T> class __ThreadLocal_1__IdManager;
 }
 namespace System::Threading {
-template <typename T> class __ThreadLocal_1__FinalizationHelper;
+template <typename T> struct __ThreadLocal_1__LinkedSlotVolatile;
+}
+namespace System::Threading {
+template <typename T> class __ThreadLocal_1__LinkedSlot;
 }
 namespace System {
 template <typename TResult> class Func_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -347,6 +347,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::System::Func_1<T>*& __get_m_valueFactory();
 

@@ -4,9 +4,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(UnhandledExceptionHandler)
-namespace UnityEngine {
-class __UnhandledExceptionHandler____c;
-}
 namespace System {
 class Object;
 }
@@ -15,6 +12,9 @@ class UnhandledExceptionEventArgs;
 }
 namespace System {
 class UnhandledExceptionEventHandler;
+}
+namespace UnityEngine {
+class __UnhandledExceptionHandler____c;
 }
 // Forward declare root types
 namespace UnityEngine {

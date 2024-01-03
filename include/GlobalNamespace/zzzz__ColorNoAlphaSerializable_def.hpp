@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ColorNoAlphaSerializable)
-namespace System {
-template <typename T> class IEquatable_1;
+namespace LiteNetLib::Utils {
+class INetSerializable;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
-namespace LiteNetLib::Utils {
-class INetSerializable;
+namespace System {
+class Object;
 }
 namespace UnityEngine {
 struct Color;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -44,8 +44,14 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*();
 
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable();
+
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::ColorNoAlphaSerializable>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::ColorNoAlphaSerializable>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::ColorNoAlphaSerializable>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::ColorNoAlphaSerializable>* i___System__IEquatable_1___GlobalNamespace__ColorNoAlphaSerializable_();
 
   /// @brief Method .ctor, addr 0x12a8d48, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color color);

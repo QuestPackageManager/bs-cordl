@@ -11,22 +11,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FontData)
 namespace UnityEngine {
-class ISerializationCallbackReceiver;
-}
-namespace UnityEngine {
-struct HorizontalWrapMode;
-}
-namespace UnityEngine {
-struct VerticalWrapMode;
+struct FontStyle;
 }
 namespace UnityEngine {
 class Font;
 }
 namespace UnityEngine {
+struct HorizontalWrapMode;
+}
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
+}
+namespace UnityEngine {
 struct TextAnchor;
 }
 namespace UnityEngine {
-struct FontStyle;
+struct VerticalWrapMode;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::UnityEngine::UI::FontData);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15903)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15902)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15896)), TypeDefinitionIndex(TypeDefinitionIndex(15901))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13040)) CS Name: ::UnityEngine.UI::FontData*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15896)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15902)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15903)), TypeDefinitionIndex(TypeDefinitionIndex(15901))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13040)) CS Name: ::UnityEngine.UI::FontData*
 class CORDL_TYPE FontData : public ::System::Object {
 public:
   // Declarations
@@ -105,6 +105,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
+  constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
   constexpr ::UnityEngine::Font*& __get_m_Font();
 

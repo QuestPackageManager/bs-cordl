@@ -8,28 +8,28 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ConfigHandler)
 namespace Mono::Xml {
-class __SmallXmlParser__IAttrList;
+class SmallXmlParser;
 }
 namespace Mono::Xml {
-class SmallXmlParser;
+class __SmallXmlParser__IAttrList;
 }
 namespace Mono::Xml {
 class __SmallXmlParser__IContentHandler;
 }
-namespace System {
-struct TimeSpan;
-}
 namespace System::Collections {
 class ArrayList;
-}
-namespace System::Runtime::Remoting {
-class ChannelData;
 }
 namespace System::Collections {
 class Stack;
 }
 namespace System::Runtime::Remoting {
+class ChannelData;
+}
+namespace System::Runtime::Remoting {
 class ProviderData;
+}
+namespace System {
+struct TimeSpan;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {
@@ -73,6 +73,9 @@ public:
 
   /// @brief Convert operator to "::Mono::Xml::__SmallXmlParser__IContentHandler"
   constexpr operator ::Mono::Xml::__SmallXmlParser__IContentHandler*() noexcept;
+
+  /// @brief Convert to "::Mono::Xml::__SmallXmlParser__IContentHandler"
+  constexpr ::Mono::Xml::__SmallXmlParser__IContentHandler* i___Mono__Xml____SmallXmlParser__IContentHandler() noexcept;
 
   constexpr ::System::Collections::ArrayList*& __get_typeEntries();
 

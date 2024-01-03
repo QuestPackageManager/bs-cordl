@@ -9,25 +9,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Matrix4x4)
 namespace System {
-class IFormatProvider;
-}
-namespace System {
-class Object;
-}
-namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace UnityEngine {
-struct Quaternion;
+namespace System {
+class IFormatProvider;
 }
 namespace System {
 class IFormattable;
 }
+namespace System {
+class Object;
+}
 namespace UnityEngine {
-struct Vector4;
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -66,8 +66,14 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Matrix4x4>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Matrix4x4>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Matrix4x4>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Matrix4x4>* i___System__IEquatable_1___UnityEngine__Matrix4x4_();
+
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
+
+  /// @brief Convert to "::System::IFormattable"
+  constexpr ::System::IFormattable* i___System__IFormattable();
 
   static inline void setStaticF_zeroMatrix(::UnityEngine::Matrix4x4 value);
 

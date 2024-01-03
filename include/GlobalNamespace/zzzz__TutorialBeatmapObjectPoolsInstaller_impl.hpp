@@ -2,9 +2,9 @@
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__TutorialBeatmapObjectPoolsInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__BombNoteController_def.hpp"
-#include "GlobalNamespace/zzzz__TutorialNoteController_def.hpp"
-#include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
 #include "GlobalNamespace/zzzz__NoteLineConnectionController_def.hpp"
+#include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
+#include "GlobalNamespace/zzzz__TutorialNoteController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TutorialBeatmapObjectPoolsInstaller.InstallBindings
 template <>
 
@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x18c;
   constexpr static std::size_t addrs = 0x227356c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TutorialBeatmapObjectPoolsInstaller*>::get(),
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x22736f8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TutorialBeatmapObjectPoolsInstaller*>::get(),
                                                                                ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;

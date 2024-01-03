@@ -8,29 +8,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DictionaryWrapper_2)
-namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
-}
-namespace Newtonsoft::Json::Utilities {
-template <typename TKey, typename TValue, typename TEnumeratorKey, typename TEnumeratorValue> struct __DictionaryWrapper_2__DictionaryEnumerator_2;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace Newtonsoft::Json::Utilities {
 class IWrappedDictionary;
 }
 namespace Newtonsoft::Json::Utilities {
+template <typename TKey, typename TValue, typename TEnumeratorKey, typename TEnumeratorValue> struct __DictionaryWrapper_2__DictionaryEnumerator_2;
+}
+namespace Newtonsoft::Json::Utilities {
 template <typename TKey, typename TValue> class __DictionaryWrapper_2____c;
 }
-namespace System::Collections {
-class ICollection;
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class IDictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
@@ -39,16 +33,22 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
 namespace System::Collections {
-class IEnumerator;
+struct DictionaryEntry;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
+class IDictionaryEnumerator;
+}
+namespace System::Collections {
+class IDictionary;
 }
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections {
-class IDictionaryEnumerator;
-}
-namespace System {
-class Object;
+class IEnumerator;
 }
 namespace System {
 class Array;
@@ -56,8 +56,8 @@ class Array;
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace System::Collections {
-struct DictionaryEntry;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
@@ -96,8 +96,14 @@ public:
   /// @brief Convert operator to "::System::Collections::IDictionaryEnumerator"
   constexpr operator ::System::Collections::IDictionaryEnumerator*();
 
+  /// @brief Convert to "::System::Collections::IDictionaryEnumerator"
+  constexpr ::System::Collections::IDictionaryEnumerator* i___System__Collections__IDictionaryEnumerator();
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*();
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>* e);
@@ -244,23 +250,46 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IDictionary_2<TKey,TValue>"
   constexpr operator ::System::Collections::Generic::IDictionary_2<TKey, TValue>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IDictionary_2<TKey,TValue>"
+  constexpr ::System::Collections::Generic::IDictionary_2<TKey, TValue>* i___System__Collections__Generic__IDictionary_2_TKey_TValue_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
   constexpr operator ::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
+  constexpr ::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
+  i___System__Collections__Generic__ICollection_1___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
+  i___System__Collections__Generic__IEnumerable_1___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::Newtonsoft::Json::Utilities::IWrappedDictionary"
   constexpr operator ::Newtonsoft::Json::Utilities::IWrappedDictionary*() noexcept;
 
+  /// @brief Convert to "::Newtonsoft::Json::Utilities::IWrappedDictionary"
+  constexpr ::Newtonsoft::Json::Utilities::IWrappedDictionary* i___Newtonsoft__Json__Utilities__IWrappedDictionary() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IDictionary"
   constexpr operator ::System::Collections::IDictionary*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IDictionary"
+  constexpr ::System::Collections::IDictionary* i___System__Collections__IDictionary() noexcept;
+
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
+
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
 
   constexpr ::System::Collections::IDictionary*& __get__dictionary();
 

@@ -10,13 +10,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StandaloneInputModule)
 namespace UnityEngine::EventSystems {
-struct __StandaloneInputModule__InputMode;
-}
-namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
 namespace UnityEngine::EventSystems {
 class __PointerInputModule__MouseButtonEventData;
+}
+namespace UnityEngine::EventSystems {
+struct __StandaloneInputModule__InputMode;
 }
 namespace UnityEngine {
 class GameObject;
@@ -88,7 +88,7 @@ static_assert(offsetof(::UnityEngine::EventSystems::__StandaloneInputModule__Inp
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 185, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13205))
 // CS Name: ::UnityEngine.EventSystems::StandaloneInputModule*
 class CORDL_TYPE StandaloneInputModule : public ::UnityEngine::EventSystems::PointerInputModule {

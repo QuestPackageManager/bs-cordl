@@ -11,68 +11,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StylePropertyReader)
-namespace UnityEngine::UIElements {
-class StyleProperty;
-}
-namespace UnityEngine::UIElements {
-struct TimeValue;
-}
-namespace UnityEngine::UIElements {
-class StyleComplexSelector;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine::UIElements {
-struct StyleValueType;
-}
-namespace UnityEngine::UIElements {
-struct Scale;
-}
-namespace UnityEngine {
-class Font;
-}
-namespace UnityEngine::UIElements {
-struct EasingFunction;
-}
-namespace UnityEngine::UIElements {
-class StyleVariableResolver;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-class __StylePropertyReader__GetCursorIdFunction;
-}
-namespace UnityEngine::UIElements {
-struct TransformOrigin;
-}
-namespace UnityEngine::UIElements {
-struct Rotate;
-}
-namespace UnityEngine::UIElements {
-struct FontDefinition;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct StylePropertyId;
-}
-namespace UnityEngine::UIElements {
-class StyleVariableContext;
-}
-namespace UnityEngine::UIElements {
-struct Translate;
-}
-namespace UnityEngine::UIElements {
-struct Cursor;
-}
-namespace UnityEngine::UIElements {
-struct Background;
-}
-namespace UnityEngine::UIElements {
-struct TextShadow;
-}
-namespace UnityEngine::UIElements {
-struct StylePropertyName;
-}
-namespace UnityEngine::UIElements {
-class StyleSheet;
+namespace System {
+class Object;
 }
 namespace UnityEngine::UIElements::StyleSheets {
 struct ImageSource;
@@ -81,25 +24,82 @@ namespace UnityEngine::UIElements::StyleSheets {
 struct StyleEnumType;
 }
 namespace UnityEngine::UIElements::StyleSheets {
+struct StylePropertyId;
+}
+namespace UnityEngine::UIElements::StyleSheets {
 struct StylePropertyValue;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+class __StylePropertyReader__GetCursorIdFunction;
+}
+namespace UnityEngine::UIElements {
+struct Angle;
+}
+namespace UnityEngine::UIElements {
+struct Background;
+}
+namespace UnityEngine::UIElements {
+struct Cursor;
+}
+namespace UnityEngine::UIElements {
+struct EasingFunction;
+}
+namespace UnityEngine::UIElements {
+struct FontDefinition;
+}
+namespace UnityEngine::UIElements {
+struct Length;
+}
+namespace UnityEngine::UIElements {
+struct Rotate;
+}
+namespace UnityEngine::UIElements {
+struct Scale;
+}
+namespace UnityEngine::UIElements {
+class StyleComplexSelector;
+}
+namespace UnityEngine::UIElements {
+struct StylePropertyName;
+}
+namespace UnityEngine::UIElements {
+class StyleProperty;
+}
+namespace UnityEngine::UIElements {
+class StyleSheet;
+}
+namespace UnityEngine::UIElements {
+struct StyleValueHandle;
 }
 namespace UnityEngine::UIElements {
 struct StyleValueKeyword;
 }
 namespace UnityEngine::UIElements {
-struct Length;
+struct StyleValueType;
+}
+namespace UnityEngine::UIElements {
+class StyleVariableContext;
+}
+namespace UnityEngine::UIElements {
+class StyleVariableResolver;
+}
+namespace UnityEngine::UIElements {
+struct TextShadow;
+}
+namespace UnityEngine::UIElements {
+struct TimeValue;
+}
+namespace UnityEngine::UIElements {
+struct TransformOrigin;
+}
+namespace UnityEngine::UIElements {
+struct Translate;
 }
 namespace UnityEngine {
 struct Color;
 }
-namespace UnityEngine::UIElements {
-struct Angle;
-}
-namespace System {
-class Object;
-}
-namespace UnityEngine::UIElements {
-struct StyleValueHandle;
+namespace UnityEngine {
+class Font;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {
@@ -153,7 +153,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSh
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7487)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7487))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7465))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::StylePropertyReader*
 class CORDL_TYPE StylePropertyReader : public ::System::Object {
@@ -310,15 +310,12 @@ public:
   inline void set_dpiScaling(float_t value);
 
   /// @brief Method SetContext, addr 0x2de60e4, size 0xb8, virtual false, abstract: false, final false
-  /// @param dpiScaling: float_t (default: 1.0)
   inline void SetContext(::UnityEngine::UIElements::StyleSheet* sheet, ::UnityEngine::UIElements::StyleComplexSelector* selector, ::UnityEngine::UIElements::StyleVariableContext* varContext,
-                         float_t dpiScaling = 1.0);
+                         float_t dpiScaling);
 
   /// @brief Method SetInlineContext, addr 0x2de6780, size 0x10, virtual false, abstract: false, final false
-  /// @param dpiScaling: float_t (default: 1.0)
   inline void SetInlineContext(::UnityEngine::UIElements::StyleSheet* sheet, ::ArrayW<::UnityEngine::UIElements::StyleProperty*, ::Array<::UnityEngine::UIElements::StyleProperty*>*> properties,
-                               ::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::Array<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*> propertyIds,
-                               float_t dpiScaling = 1.0);
+                               ::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::Array<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*> propertyIds, float_t dpiScaling);
 
   /// @brief Method MoveNextProperty, addr 0x2de6790, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::StylePropertyId MoveNextProperty();

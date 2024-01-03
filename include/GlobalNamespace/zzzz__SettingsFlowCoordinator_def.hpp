@@ -7,31 +7,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SettingsFlowCoordinator)
 namespace GlobalNamespace {
-class SettingsSubMenuInfo;
-}
-namespace GlobalNamespace {
-struct __SettingsNavigationController__FinishAction;
-}
-namespace GlobalNamespace {
-class SettingsNavigationController;
-}
-namespace GlobalNamespace {
 class ISaveData;
-}
-namespace HMUI {
-class ViewController;
 }
 namespace GlobalNamespace {
 class MainSettingsMenuViewController;
 }
 namespace GlobalNamespace {
+class MainSettingsModelSO;
+}
+namespace GlobalNamespace {
+class SettingsNavigationController;
+}
+namespace GlobalNamespace {
+class SettingsSubMenuInfo;
+}
+namespace GlobalNamespace {
 struct __SettingsFlowCoordinator__FinishAction;
+}
+namespace GlobalNamespace {
+struct __SettingsNavigationController__FinishAction;
+}
+namespace HMUI {
+class ViewController;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
-}
-namespace GlobalNamespace {
-class MainSettingsModelSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(SpawnLaserAnimation)
-namespace UnityEngine {
-class Transform;
-}
 namespace GlobalNamespace {
 class TubeBloomPrePassLight;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {

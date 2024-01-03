@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerConnectedPlayerObservable)
 namespace GlobalNamespace {
-class IMultiplayerObservable;
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class IMultiplayerObservable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -36,6 +36,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IMultiplayerObservable"
   constexpr operator ::GlobalNamespace::IMultiplayerObservable*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IMultiplayerObservable"
+  constexpr ::GlobalNamespace::IMultiplayerObservable* i___GlobalNamespace__IMultiplayerObservable() noexcept;
 
   constexpr ::GlobalNamespace::IConnectedPlayer*& __get__connectedPlayer();
 

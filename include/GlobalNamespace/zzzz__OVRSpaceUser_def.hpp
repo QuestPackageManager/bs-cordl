@@ -31,6 +31,9 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
+
   /// @brief Method get_Valid, addr 0x2792de0, size 0x28, virtual false, abstract: false, final false
   inline bool get_Valid();
 

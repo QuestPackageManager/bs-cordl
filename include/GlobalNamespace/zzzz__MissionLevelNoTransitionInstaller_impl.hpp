@@ -3,12 +3,12 @@
 #include "Zenject/zzzz__NoTransitionInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionLevelNoTransitionInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
-#include "GlobalNamespace/zzzz__ColorSchemeSO_def.hpp"
-#include "GlobalNamespace/zzzz__MissionObjective_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSO_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
+#include "GlobalNamespace/zzzz__ColorSchemeSO_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "GlobalNamespace/zzzz__MissionLevelScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__MissionObjective_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MissionLevelNoTransitionInstaller.InstallBindings
 template <>
@@ -18,7 +18,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc4;
   constexpr static std::size_t addrs = 0x231b0f0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelNoTransitionInstaller*>::get(),
@@ -34,7 +34,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x231b6e8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelNoTransitionInstaller*>::get(),
                                                                                ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;

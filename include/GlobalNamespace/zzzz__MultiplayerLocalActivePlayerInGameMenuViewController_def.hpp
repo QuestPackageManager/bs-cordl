@@ -9,25 +9,25 @@ namespace GlobalNamespace {
 class DisconnectPromptView;
 }
 namespace GlobalNamespace {
+class IConnectedPlayer;
+}
+namespace GlobalNamespace {
 class IVRPlatformHelper;
 }
 namespace GlobalNamespace {
-class MultiplayerLocalPlayerDisconnectHelper;
-}
-namespace GlobalNamespace {
 class LevelBar;
-}
-namespace Polyglot {
-class LocalizedTextMeshProUGUI;
 }
 namespace GlobalNamespace {
 class LocalPlayerInGameMenuInitData;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class MultiplayerLocalPlayerDisconnectHelper;
 }
 namespace HMUI {
 class ButtonBinder;
+}
+namespace Polyglot {
+class LocalizedTextMeshProUGUI;
 }
 namespace System {
 class Action;

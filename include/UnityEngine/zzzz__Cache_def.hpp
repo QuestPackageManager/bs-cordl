@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Cache)
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -40,6 +40,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Cache>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Cache>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Cache>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Cache>* i___System__IEquatable_1___UnityEngine__Cache_();
 
   /// @brief Method get_handle, addr 0x2cc6538, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_handle();

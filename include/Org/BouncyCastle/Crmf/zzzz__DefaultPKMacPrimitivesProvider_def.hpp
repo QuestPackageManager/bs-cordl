@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(DefaultPKMacPrimitivesProvider)
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
-namespace Org::BouncyCastle::Crypto {
-class IMac;
-}
 namespace Org::BouncyCastle::Crmf {
 class IPKMacPrimitivesProvider;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
+}
+namespace Org::BouncyCastle::Crypto {
+class IMac;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {
@@ -34,6 +34,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider"
   constexpr operator ::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider"
+  constexpr ::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider* i___Org__BouncyCastle__Crmf__IPKMacPrimitivesProvider() noexcept;
 
   /// @brief Method CreateDigest, addr 0x121075c, size 0x78, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IDigest* CreateDigest(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlg);

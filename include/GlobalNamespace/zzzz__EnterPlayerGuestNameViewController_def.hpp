@@ -8,32 +8,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EnterPlayerGuestNameViewController)
-namespace HMUI {
-class InputFieldView;
-}
 namespace GlobalNamespace {
-class __EnterPlayerGuestNameViewController____c__DisplayClass10_1;
+class GuestNameButtonsListItem;
 }
 namespace GlobalNamespace {
 class GuestNameButtonsListItemsList;
 }
 namespace GlobalNamespace {
-class __EnterPlayerGuestNameViewController____c__DisplayClass10_0;
+class PlayerDataModel;
+}
+namespace GlobalNamespace {
+class StringSignal;
 }
 namespace GlobalNamespace {
 class __EnterPlayerGuestNameViewController__FinishDelegate;
 }
 namespace GlobalNamespace {
-class StringSignal;
+class __EnterPlayerGuestNameViewController____c__DisplayClass10_0;
+}
+namespace GlobalNamespace {
+class __EnterPlayerGuestNameViewController____c__DisplayClass10_1;
+}
+namespace HMUI {
+class InputFieldView;
 }
 namespace HMUI {
 class UIKeyboard;
 }
-namespace GlobalNamespace {
-class PlayerDataModel;
-}
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 class AsyncCallback;
@@ -41,11 +44,8 @@ class AsyncCallback;
 namespace System {
 class IAsyncResult;
 }
-namespace GlobalNamespace {
-class GuestNameButtonsListItem;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {

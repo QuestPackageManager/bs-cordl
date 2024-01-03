@@ -12,17 +12,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HitReactionVRIK)
+namespace GlobalNamespace {
+class __HitReactionVRIK__PositionOffset__PositionOffsetLink;
+}
+namespace GlobalNamespace {
+class __HitReactionVRIK__RotationOffset__RotationOffsetLink;
+}
 namespace RootMotion::FinalIK {
 class VRIK;
 }
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-class Collider;
+namespace RootMotion::FinalIK {
+class __HitReactionVRIK__Offset;
 }
 namespace RootMotion::FinalIK {
 class __HitReactionVRIK__PositionOffset;
@@ -30,20 +30,20 @@ class __HitReactionVRIK__PositionOffset;
 namespace RootMotion::FinalIK {
 class __HitReactionVRIK__RotationOffset;
 }
-namespace RootMotion::FinalIK {
-class __HitReactionVRIK__Offset;
-}
 namespace UnityEngine {
 class AnimationCurve;
 }
-namespace GlobalNamespace {
-class __HitReactionVRIK__PositionOffset__PositionOffsetLink;
+namespace UnityEngine {
+class Collider;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine {
 class Rigidbody;
 }
-namespace GlobalNamespace {
-class __HitReactionVRIK__RotationOffset__RotationOffsetLink;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -297,7 +297,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__HitReactionVRIK__Offset, ___last
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12590)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12590))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12645))
 // CS Name: ::HitReactionVRIK::PositionOffset::PositionOffsetLink*
 class CORDL_TYPE __HitReactionVRIK__PositionOffset__PositionOffsetLink : public ::System::Object {
@@ -486,7 +486,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__HitReactionVRIK__PositionOffset,
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(12591)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(12591))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12647))
 // CS Name: ::HitReactionVRIK::RotationOffset::RotationOffsetLink*
 class CORDL_TYPE __HitReactionVRIK__RotationOffset__RotationOffsetLink : public ::System::Object {

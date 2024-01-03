@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileStreamAsyncResult)
 namespace System::Threading {
+class ManualResetEvent;
+}
+namespace System::Threading {
 class WaitHandle;
 }
 namespace System {
-class Object;
+class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
 }
 namespace System {
-class AsyncCallback;
-}
-namespace System::Threading {
-class ManualResetEvent;
+class Object;
 }
 // Forward declare root types
 namespace System::IO {
@@ -73,6 +73,9 @@ public:
 
   /// @brief Convert operator to "::System::IAsyncResult"
   constexpr operator ::System::IAsyncResult*() noexcept;
+
+  /// @brief Convert to "::System::IAsyncResult"
+  constexpr ::System::IAsyncResult* i___System__IAsyncResult() noexcept;
 
   constexpr ::System::Object*& __get_state();
 

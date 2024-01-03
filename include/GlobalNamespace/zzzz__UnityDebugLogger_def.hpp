@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UnityDebugLogger)
-namespace System {
-class Exception;
-}
 namespace GlobalNamespace {
 class IBeatSaberLogger;
+}
+namespace System {
+class Exception;
 }
 namespace System {
 class Object;
@@ -32,6 +32,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::GlobalNamespace::IBeatSaberLogger"
   constexpr operator ::GlobalNamespace::IBeatSaberLogger*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IBeatSaberLogger"
+  constexpr ::GlobalNamespace::IBeatSaberLogger* i___GlobalNamespace__IBeatSaberLogger() noexcept;
 
   /// @brief Method Log, addr 0x22f9dfc, size 0x58, virtual true, abstract: false, final true
   inline void Log(::StringW message);

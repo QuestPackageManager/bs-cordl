@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 CORDL_MODULE_EXPORT(RecordingToolLoggingViewController)
-namespace HMUI {
-class TextPageScrollView;
-}
 namespace GlobalNamespace {
 class ListLogger;
+}
+namespace HMUI {
+class TextPageScrollView;
 }
 // Forward declare root types
 namespace GlobalNamespace {

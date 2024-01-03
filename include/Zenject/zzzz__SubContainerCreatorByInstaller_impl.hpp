@@ -1,14 +1,14 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__SubContainerCreatorByInstaller_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__ISubContainerCreator_def.hpp"
+#include "Zenject/zzzz__InjectContext_def.hpp"
 #include "Zenject/zzzz__SubContainerCreatorBindInfo_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "Zenject/zzzz__ISubContainerCreator_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "Zenject/zzzz__InjectContext_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 //  Writing Method size for method: ::Zenject::SubContainerCreatorByInstaller._ctor
 template <>
 
@@ -18,7 +18,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xf0;
   constexpr static std::size_t addrs = 0x2f0afec;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByInstaller*>::get(), ".ctor", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get(),
@@ -36,7 +36,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xa0;
   constexpr static std::size_t addrs = 0x2f0b0dc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByInstaller*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get(),
@@ -54,7 +54,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x1a8;
   constexpr static std::size_t addrs = 0x2f0b17c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByInstaller*>::get(), "CreateSubContainer", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*>::get(),
@@ -64,6 +64,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 };
 /// @brief Convert operator to "::Zenject::ISubContainerCreator"
 constexpr Zenject::SubContainerCreatorByInstaller::operator ::Zenject::ISubContainerCreator*() noexcept {
+  return static_cast<::Zenject::ISubContainerCreator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::ISubContainerCreator"
+constexpr ::Zenject::ISubContainerCreator* Zenject::SubContainerCreatorByInstaller::i___Zenject__ISubContainerCreator() noexcept {
   return static_cast<::Zenject::ISubContainerCreator*>(static_cast<void*>(this));
 }
 constexpr ::System::Type*& Zenject::SubContainerCreatorByInstaller::__get__installerType() {

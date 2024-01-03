@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReadOnlyMemory_1)
 namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
 }
 // Forward declare root types
 namespace System {
@@ -41,6 +41,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::System::ReadOnlyMemory_1<T>>"
   constexpr operator ::System::IEquatable_1<::System::ReadOnlyMemory_1<T>>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::System::ReadOnlyMemory_1<T>>"
+  constexpr ::System::IEquatable_1<::System::ReadOnlyMemory_1<T>>* i___System__IEquatable_1___System__ReadOnlyMemory_1_T__();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<T, ::Array<T>*> array);

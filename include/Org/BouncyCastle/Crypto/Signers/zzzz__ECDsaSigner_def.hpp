@@ -7,17 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ECDsaSigner)
-namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECKeyParameters;
 }
-namespace Org::BouncyCastle::Math::EC {
-class ECFieldElement;
+namespace Org::BouncyCastle::Crypto::Signers {
+class IDsaKCalculator;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDsaExt;
@@ -25,17 +22,20 @@ class IDsaExt;
 namespace Org::BouncyCastle::Crypto {
 class IDsa;
 }
-namespace Org::BouncyCastle::Crypto::Signers {
-class IDsaKCalculator;
-}
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class ECMultiplier;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECFieldElement;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -72,8 +72,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDsaExt"
   constexpr operator ::Org::BouncyCastle::Crypto::IDsaExt*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IDsaExt"
+  constexpr ::Org::BouncyCastle::Crypto::IDsaExt* i___Org__BouncyCastle__Crypto__IDsaExt() noexcept;
+
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDsa"
   constexpr operator ::Org::BouncyCastle::Crypto::IDsa*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IDsa"
+  constexpr ::Org::BouncyCastle::Crypto::IDsa* i___Org__BouncyCastle__Crypto__IDsa() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*& __get_kCalculator();
 

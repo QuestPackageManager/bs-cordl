@@ -7,56 +7,56 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MatchCollection)
-namespace System {
-class Object;
-}
-namespace System::Text::RegularExpressions {
-class Match;
-}
 namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Text::RegularExpressions {
-class Regex;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System::Text::RegularExpressions {
-class __MatchCollection__Enumerator;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Collections {
-class IEnumerable;
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System {
-class Array;
-}
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+template <typename T> class IList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyCollection_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename T> class IReadOnlyList_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections {
 class IList;
 }
+namespace System::Text::RegularExpressions {
+class Match;
+}
+namespace System::Text::RegularExpressions {
+class Regex;
+}
+namespace System::Text::RegularExpressions {
+class __MatchCollection__Enumerator;
+}
+namespace System {
+class Array;
+}
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {
@@ -91,11 +91,21 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Text::RegularExpressions::Match*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Text::RegularExpressions::Match*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Text::RegularExpressions::Match*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Text::RegularExpressions::Match*>*
+  i___System__Collections__Generic__IEnumerator_1___System__Text__RegularExpressions__Match__() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr ::System::Text::RegularExpressions::MatchCollection*& __get__collection();
 
@@ -215,26 +225,54 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IList_1<::System::Text::RegularExpressions::Match*>"
   constexpr operator ::System::Collections::Generic::IList_1<::System::Text::RegularExpressions::Match*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IList_1<::System::Text::RegularExpressions::Match*>"
+  constexpr ::System::Collections::Generic::IList_1<::System::Text::RegularExpressions::Match*>* i___System__Collections__Generic__IList_1___System__Text__RegularExpressions__Match__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<::System::Text::RegularExpressions::Match*>"
   constexpr operator ::System::Collections::Generic::ICollection_1<::System::Text::RegularExpressions::Match*>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::ICollection_1<::System::Text::RegularExpressions::Match*>"
+  constexpr ::System::Collections::Generic::ICollection_1<::System::Text::RegularExpressions::Match*>*
+  i___System__Collections__Generic__ICollection_1___System__Text__RegularExpressions__Match__() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Text::RegularExpressions::Match*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::System::Text::RegularExpressions::Match*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Text::RegularExpressions::Match*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::System::Text::RegularExpressions::Match*>*
+  i___System__Collections__Generic__IEnumerable_1___System__Text__RegularExpressions__Match__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyList_1<::System::Text::RegularExpressions::Match*>"
   constexpr operator ::System::Collections::Generic::IReadOnlyList_1<::System::Text::RegularExpressions::Match*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IReadOnlyList_1<::System::Text::RegularExpressions::Match*>"
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::System::Text::RegularExpressions::Match*>*
+  i___System__Collections__Generic__IReadOnlyList_1___System__Text__RegularExpressions__Match__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<::System::Text::RegularExpressions::Match*>"
   constexpr operator ::System::Collections::Generic::IReadOnlyCollection_1<::System::Text::RegularExpressions::Match*>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<::System::Text::RegularExpressions::Match*>"
+  constexpr ::System::Collections::Generic::IReadOnlyCollection_1<::System::Text::RegularExpressions::Match*>*
+  i___System__Collections__Generic__IReadOnlyCollection_1___System__Text__RegularExpressions__Match__() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IList"
   constexpr operator ::System::Collections::IList*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IList"
+  constexpr ::System::Collections::IList* i___System__Collections__IList() noexcept;
+
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
+
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
 
   constexpr ::System::Text::RegularExpressions::Regex*& __get__regex();
 

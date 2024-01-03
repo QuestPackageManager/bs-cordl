@@ -9,28 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IVRSpatialAnchors)
 namespace OVR::OpenVR {
+struct ETrackingUniverseOrigin;
+}
+namespace OVR::OpenVR {
 struct EVRSpatialAnchorError;
-}
-namespace System {
-class IAsyncResult;
-}
-namespace System {
-class AsyncCallback;
-}
-namespace System {
-class Object;
 }
 namespace OVR::OpenVR {
 struct SpatialAnchorPose_t;
-}
-namespace OVR::OpenVR {
-struct ETrackingUniverseOrigin;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace OVR::OpenVR {
-class __IVRSpatialAnchors___GetSpatialAnchorDescriptor;
 }
 namespace OVR::OpenVR {
 class __IVRSpatialAnchors___CreateSpatialAnchorFromDescriptor;
@@ -39,7 +24,22 @@ namespace OVR::OpenVR {
 class __IVRSpatialAnchors___CreateSpatialAnchorFromPose;
 }
 namespace OVR::OpenVR {
+class __IVRSpatialAnchors___GetSpatialAnchorDescriptor;
+}
+namespace OVR::OpenVR {
 class __IVRSpatialAnchors___GetSpatialAnchorPose;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

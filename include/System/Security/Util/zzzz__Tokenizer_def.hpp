@@ -9,6 +9,12 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Tokenizer)
+namespace System::IO {
+class StreamReader;
+}
+namespace System::Security::Util {
+class TokenizerStream;
+}
 namespace System::Security::Util {
 class __Tokenizer__ITokenReader;
 }
@@ -16,19 +22,13 @@ namespace System::Security::Util {
 class __Tokenizer__StreamTokenReader;
 }
 namespace System::Security::Util {
-class TokenizerStream;
+class __Tokenizer__StringMaker;
 }
 namespace System::Security::Util {
 struct __Tokenizer__TokenSource;
 }
 namespace System::Text {
 class Encoding;
-}
-namespace System::Security::Util {
-class __Tokenizer__StringMaker;
-}
-namespace System::IO {
-class StreamReader;
 }
 namespace System::Text {
 class StringBuilder;
@@ -301,6 +301,9 @@ public:
 
   /// @brief Convert operator to "::System::Security::Util::__Tokenizer__ITokenReader"
   constexpr operator ::System::Security::Util::__Tokenizer__ITokenReader*() noexcept;
+
+  /// @brief Convert to "::System::Security::Util::__Tokenizer__ITokenReader"
+  constexpr ::System::Security::Util::__Tokenizer__ITokenReader* i___System__Security__Util____Tokenizer__ITokenReader() noexcept;
 
   constexpr ::System::IO::StreamReader*& __get__in();
 

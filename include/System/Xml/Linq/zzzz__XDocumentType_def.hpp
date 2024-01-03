@@ -9,10 +9,10 @@ namespace System::Xml::Linq {
 class XNode;
 }
 namespace System::Xml {
-class XmlWriter;
+struct XmlNodeType;
 }
 namespace System::Xml {
-struct XmlNodeType;
+class XmlWriter;
 }
 // Forward declare root types
 namespace System::Xml::Linq {

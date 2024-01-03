@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__XmlSchemaSimpleTypeContent_def.hpp"
 CORDL_MODULE_EXPORT(XmlSchemaSimpleTypeList)
-namespace System::Xml {
-class XmlQualifiedName;
-}
 namespace System::Xml::Schema {
 class XmlSchemaSimpleType;
+}
+namespace System::Xml {
+class XmlQualifiedName;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

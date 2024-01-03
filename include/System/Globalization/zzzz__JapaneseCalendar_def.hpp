@@ -12,6 +12,9 @@ namespace System::Globalization {
 class Calendar;
 }
 namespace System::Globalization {
+class EraInfo;
+}
+namespace System::Globalization {
 class GregorianCalendarHelper;
 }
 namespace System {
@@ -19,9 +22,6 @@ struct DateTime;
 }
 namespace System {
 struct DayOfWeek;
-}
-namespace System::Globalization {
-class EraInfo;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::System::Globalization::JapaneseCalendar);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3696)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(3696))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3703))
 // CS Name: ::System.Globalization::JapaneseCalendar*
 class CORDL_TYPE JapaneseCalendar : public ::System::Globalization::Calendar {

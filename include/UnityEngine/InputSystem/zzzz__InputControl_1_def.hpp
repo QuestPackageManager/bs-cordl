@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputControl_1)
 namespace System {
+class Object;
+}
+namespace System {
 class Type;
 }
 namespace UnityEngine::InputSystem {
 template <typename TValue> class InputProcessor_1;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -29,8 +29,8 @@ namespace UnityEngine::InputSystem {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6215)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3865 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(6236), inst: 3898 }), TypeDefinitionIndex(TypeDefinitionIndex(6236)), TypeDefinitionIndex(TypeDefinitionIndex(6669))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6216))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3865 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6236), inst: 3898 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6669)), TypeDefinitionIndex(TypeDefinitionIndex(6215)), TypeDefinitionIndex(TypeDefinitionIndex(6236))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6216))
 // CS Name: ::UnityEngine.InputSystem::InputControl`1<TValue>*
 class CORDL_TYPE InputControl_1 : public ::UnityEngine::InputSystem::InputControl {
 public:

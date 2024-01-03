@@ -6,17 +6,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(GMNamedCurves)
-namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
+namespace Org::BouncyCastle::Asn1::GM {
+class __GMNamedCurves__SM2P256V1Holder;
 }
 namespace Org::BouncyCastle::Asn1::GM {
 class __GMNamedCurves__WapiP192V1Holder;
 }
-namespace System::Collections {
-class IDictionary;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Asn1::X9 {
+class X9ECParametersHolder;
 }
 namespace Org::BouncyCastle::Asn1::X9 {
 class X9ECParameters;
@@ -24,17 +21,20 @@ class X9ECParameters;
 namespace Org::BouncyCastle::Asn1::X9 {
 class X9ECPoint;
 }
-namespace Org::BouncyCastle::Asn1::X9 {
-class X9ECParametersHolder;
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECCurve;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace System::Collections {
+class IDictionary;
 }
 namespace System::Collections {
 class IEnumerable;
-}
-namespace Org::BouncyCastle::Asn1::GM {
-class __GMNamedCurves__SM2P256V1Holder;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::GM {

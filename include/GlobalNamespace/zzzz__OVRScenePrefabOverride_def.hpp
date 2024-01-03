@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRScenePrefabOverride)
+namespace GlobalNamespace {
+class OVRSceneAnchor;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine {
 class ISerializationCallbackReceiver;
-}
-namespace GlobalNamespace {
-class OVRSceneAnchor;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -42,6 +42,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
+  constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
   constexpr ::GlobalNamespace::OVRSceneAnchor*& __get_Prefab();
 

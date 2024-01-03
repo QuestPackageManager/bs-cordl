@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/Playables/zzzz__PlayableAsset_def.hpp"
 CORDL_MODULE_EXPORT(ActivationPlayableAsset)
-namespace UnityEngine::Timeline {
-class ITimelineClipAsset;
-}
-namespace UnityEngine::Timeline {
-struct ClipCaps;
+namespace UnityEngine::Playables {
+struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
 struct Playable;
 }
-namespace UnityEngine::Playables {
-struct PlayableGraph;
+namespace UnityEngine::Timeline {
+struct ClipCaps;
+}
+namespace UnityEngine::Timeline {
+class ITimelineClipAsset;
 }
 namespace UnityEngine {
 class GameObject;
@@ -39,6 +39,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
+  constexpr ::UnityEngine::Timeline::ITimelineClipAsset* i___UnityEngine__Timeline__ITimelineClipAsset() noexcept;
 
   /// @brief Method get_clipCaps, addr 0x2c4ec98, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();

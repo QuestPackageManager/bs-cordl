@@ -5,9 +5,6 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnmodifiableList)
-namespace System {
-class Object;
-}
 namespace System::Collections {
 class ICollection;
 }
@@ -15,13 +12,16 @@ namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
 class IList;
 }
 namespace System {
 class Array;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Collections {
@@ -54,11 +54,20 @@ public:
   /// @brief Convert operator to "::System::Collections::IList"
   constexpr operator ::System::Collections::IList*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IList"
+  constexpr ::System::Collections::IList* i___System__Collections__IList() noexcept;
+
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
 
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   static inline ::Org::BouncyCastle::Utilities::Collections::UnmodifiableList* New_ctor();
 

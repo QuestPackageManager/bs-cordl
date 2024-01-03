@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsSignedDataParser)
-namespace System::Collections {
-class IDictionary;
+namespace Org::BouncyCastle::Asn1::Cms {
+class SignedDataParser;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+class Asn1SetParser;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Set;
 }
-namespace Org::BouncyCastle::X509::Store {
-class IX509Store;
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Cms {
 class CmsSignedHelper;
@@ -25,20 +25,20 @@ class CmsSignedHelper;
 namespace Org::BouncyCastle::Cms {
 class CmsTypedStream;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class SignedDataParser;
+namespace Org::BouncyCastle::Cms {
+class SignerInformationStore;
 }
 namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
 }
+namespace Org::BouncyCastle::X509::Store {
+class IX509Store;
+}
+namespace System::Collections {
+class IDictionary;
+}
 namespace System::IO {
 class Stream;
-}
-namespace Org::BouncyCastle::Cms {
-class SignerInformationStore;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1SetParser;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(LoadingControl)
+namespace HMUI {
+class ButtonBinder;
+}
 namespace System {
 class Action;
 }
 namespace TMPro {
 class TextMeshProUGUI;
 }
-namespace HMUI {
-class ButtonBinder;
-}
-namespace UnityEngine {
-class GameObject;
+namespace UnityEngine::UI {
+class Button;
 }
 namespace UnityEngine::UI {
 class Image;
 }
-namespace UnityEngine::UI {
-class Button;
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -148,8 +148,7 @@ public:
   inline void OnDestroy();
 
   /// @brief Method ShowLoading, addr 0x227c0bc, size 0x8c, virtual false, abstract: false, final false
-  /// @param text: ::StringW (default: u"")
-  inline void ShowLoading(::StringW text = u"");
+  inline void ShowLoading(::StringW text);
 
   /// @brief Method ShowText, addr 0x227c148, size 0xb0, virtual false, abstract: false, final false
   inline void ShowText(::StringW text, bool showRefreshButton);

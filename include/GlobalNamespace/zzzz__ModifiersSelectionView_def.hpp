@@ -7,28 +7,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ModifiersSelectionView)
 namespace GlobalNamespace {
-class __ModifiersSelectionView____c__DisplayClass3_0;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
+class GameplayModifierInfoListItem;
 }
 namespace GlobalNamespace {
 class GameplayModifierInfoListItemsList;
 }
-namespace TMPro {
-class TextMeshProUGUI;
+namespace GlobalNamespace {
+class GameplayModifierParamsSO;
 }
 namespace GlobalNamespace {
 class GameplayModifiersModelSO;
 }
 namespace GlobalNamespace {
-class GameplayModifierInfoListItem;
+class GameplayModifiers;
 }
 namespace GlobalNamespace {
-class GameplayModifierParamsSO;
+class __ModifiersSelectionView____c__DisplayClass3_0;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 // Forward declare root types
 namespace GlobalNamespace {

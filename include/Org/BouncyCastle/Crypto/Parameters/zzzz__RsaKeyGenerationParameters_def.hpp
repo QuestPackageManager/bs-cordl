@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(RsaKeyGenerationParameters)
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {

@@ -7,10 +7,7 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(AbstractProgressBar)
 namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-class Label;
+struct CreationContext;
 }
 namespace UnityEngine::UIElements {
 class GeometryChangedEvent;
@@ -19,19 +16,22 @@ namespace UnityEngine::UIElements {
 template <typename T> class INotifyValueChanged_1;
 }
 namespace UnityEngine::UIElements {
-class __AbstractProgressBar__UxmlTraits;
-}
-namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-class UxmlStringAttributeDescription;
+class Label;
 }
 namespace UnityEngine::UIElements {
 class UxmlFloatAttributeDescription;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class UxmlStringAttributeDescription;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+class __AbstractProgressBar__UxmlTraits;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -195,6 +195,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::UIElements::INotifyValueChanged_1<float_t>"
   constexpr operator ::UnityEngine::UIElements::INotifyValueChanged_1<float_t>*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UIElements::INotifyValueChanged_1<float_t>"
+  constexpr ::UnityEngine::UIElements::INotifyValueChanged_1<float_t>* i___UnityEngine__UIElements__INotifyValueChanged_1_float_t_() noexcept;
 
   constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_Background();
 

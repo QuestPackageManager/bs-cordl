@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__CustomizableEnvironmentCommandLineArgsProviderSO_def.hpp"
-#include "GlobalNamespace/zzzz__ICommandLineArgsProvider_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentCommandLineArgsProvider_def.hpp"
+#include "GlobalNamespace/zzzz__ICommandLineArgsProvider_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO.GetCommandLineArgs
 template <>
 
@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x174;
   constexpr static std::size_t addrs = 0x2304f68;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO*>::get(),
                                                  "GetCommandLineArgs", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23050e4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO*>::get(), ".ctor",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -35,6 +35,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::GlobalNamespace::ICommandLineArgsProvider"
 constexpr GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::operator ::GlobalNamespace::ICommandLineArgsProvider*() noexcept {
+  return static_cast<::GlobalNamespace::ICommandLineArgsProvider*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::ICommandLineArgsProvider"
+constexpr ::GlobalNamespace::ICommandLineArgsProvider* GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::i___GlobalNamespace__ICommandLineArgsProvider() noexcept {
   return static_cast<::GlobalNamespace::ICommandLineArgsProvider*>(static_cast<void*>(this));
 }
 constexpr bool& GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::__get__useCustomCommandLineArgs() {

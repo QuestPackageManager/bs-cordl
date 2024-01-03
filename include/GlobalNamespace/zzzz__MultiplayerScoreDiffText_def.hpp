@@ -10,12 +10,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerScoreDiffText)
-namespace Tweening {
-class FloatTween;
-}
-namespace Tweening {
-class TimeTweeningManager;
-}
 namespace GlobalNamespace {
 class IConnectedPlayer;
 }
@@ -23,16 +17,22 @@ namespace GlobalNamespace {
 class MultiplayerLeadPlayerProvider;
 }
 namespace GlobalNamespace {
-struct __MultiplayerScoreDiffText__State;
-}
-namespace UnityEngine {
-class SpriteRenderer;
+struct __MultiplayerScoreDiffText__HorizontalPosition;
 }
 namespace GlobalNamespace {
-struct __MultiplayerScoreDiffText__HorizontalPosition;
+struct __MultiplayerScoreDiffText__State;
 }
 namespace TMPro {
 class TextMeshPro;
+}
+namespace Tweening {
+class FloatTween;
+}
+namespace Tweening {
+class TimeTweeningManager;
+}
+namespace UnityEngine {
+class SpriteRenderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -160,7 +160,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerScoreDiffText__State, val
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(5131))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5131)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5132))
 // CS Name: ::MultiplayerScoreDiffText*
 class CORDL_TYPE MultiplayerScoreDiffText : public ::UnityEngine::MonoBehaviour {

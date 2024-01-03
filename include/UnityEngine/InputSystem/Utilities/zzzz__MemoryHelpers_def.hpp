@@ -99,8 +99,7 @@ public:
   static inline void MemCpyBitRegion(::cordl_internals::Ptr<void> destination, ::cordl_internals::Ptr<void> source, uint32_t bitOffset, uint32_t bitCount);
 
   /// @brief Method MemCmpBitRegion, addr 0x2b134c0, size 0x14c, virtual false, abstract: false, final false
-  /// @param mask: ::cordl_internals::Ptr<void> (default: nullptr)
-  static inline bool MemCmpBitRegion(::cordl_internals::Ptr<void> ptr1, ::cordl_internals::Ptr<void> ptr2, uint32_t bitOffset, uint32_t bitCount, ::cordl_internals::Ptr<void> mask = nullptr);
+  static inline bool MemCmpBitRegion(::cordl_internals::Ptr<void> ptr1, ::cordl_internals::Ptr<void> ptr2, uint32_t bitOffset, uint32_t bitCount, ::cordl_internals::Ptr<void> mask);
 
   /// @brief Method MemSet, addr 0x2b13738, size 0x64, virtual false, abstract: false, final false
   static inline void MemSet(::cordl_internals::Ptr<void> destination, int32_t numBytes, uint8_t value);

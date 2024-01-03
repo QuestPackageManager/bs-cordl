@@ -11,58 +11,58 @@ namespace GlobalNamespace {
 class FireworksController;
 }
 namespace GlobalNamespace {
-class SongPreviewPlayer;
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
 class LevelBar;
 }
 namespace GlobalNamespace {
-class ResultsEnvironmentManager;
-}
-namespace GlobalNamespace {
-class __ResultsViewController___StartFireworksAfterDelay_d__33;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace UnityEngine {
-class AudioClip;
-}
-namespace UnityEngine::UI {
-class Button;
-}
-namespace GlobalNamespace {
-class IReadonlyBeatmapData;
-}
-namespace UnityEngine {
-class Coroutine;
-}
-namespace GlobalNamespace {
 class LevelCompletionResults;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace GlobalNamespace {
 class MenuDestination;
 }
-namespace UnityEngine {
-class GameObject;
+namespace GlobalNamespace {
+class ResultsEnvironmentManager;
 }
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class SongPreviewPlayer;
+}
+namespace GlobalNamespace {
+class __ResultsViewController___StartFireworksAfterDelay_d__33;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+class IDisposable;
+}
 namespace System {
 class Object;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace UnityEngine {
+class AudioClip;
+}
+namespace UnityEngine {
+class Coroutine;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -103,11 +103,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

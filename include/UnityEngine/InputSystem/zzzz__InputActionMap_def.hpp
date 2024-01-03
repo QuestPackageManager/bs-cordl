@@ -15,113 +15,113 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputActionMap)
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionMap__WriteMapJson;
-}
-namespace UnityEngine::InputSystem {
-class InputActionState;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionMap__WriteActionJson;
-}
-namespace UnityEngine::InputSystem {
-struct InputBinding;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace System {
-struct Guid;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionMap__ReadFileJson;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionMap__DeviceArray;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionMap__WriteFileJson;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct ReadOnlyArray_1;
-}
-namespace UnityEngine::InputSystem {
-struct __InputAction__CallbackContext;
-}
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionMap__BindingOverrideListJson;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionMap__BindingJson;
-}
-namespace UnityEngine::InputSystem {
-class InputAction;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionMap__Flags;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace UnityEngine::InputSystem {
-class IInputActionCollection2;
-}
-namespace System {
-class Object;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine::InputSystem {
-class IInputActionCollection;
-}
-namespace System {
-class ICloneable;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionMap__ReadActionJson;
-}
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionMap__BindingOverrideJson;
-}
-namespace UnityEngine::InputSystem {
-class InputActionAsset;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionRebindingExtensions__ParameterOverride;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace UnityEngine::InputSystem {
-struct InputControlScheme;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionMap__ReadMapJson;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+struct Guid;
+}
+namespace System {
+class ICloneable;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> struct ReadOnlyArray_1;
+}
+namespace UnityEngine::InputSystem {
+class IInputActionCollection2;
+}
+namespace UnityEngine::InputSystem {
+class IInputActionCollection;
+}
+namespace UnityEngine::InputSystem {
+class InputActionAsset;
+}
+namespace UnityEngine::InputSystem {
+class InputActionState;
+}
+namespace UnityEngine::InputSystem {
+class InputAction;
+}
+namespace UnityEngine::InputSystem {
+struct InputBinding;
+}
+namespace UnityEngine::InputSystem {
+struct InputControlScheme;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
+namespace UnityEngine::InputSystem {
+class InputDevice;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionMap__BindingJson;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionMap__BindingOverrideJson;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionMap__BindingOverrideListJson;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionMap__DeviceArray;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionMap__Flags;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionMap__ReadActionJson;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionMap__ReadFileJson;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionMap__ReadMapJson;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionMap__WriteActionJson;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionMap__WriteFileJson;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionMap__WriteMapJson;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionRebindingExtensions__ParameterOverride;
+}
+namespace UnityEngine::InputSystem {
+struct __InputAction__CallbackContext;
+}
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -465,8 +465,7 @@ struct CORDL_TYPE __InputActionMap__ReadActionJson {
 public:
   // Declarations
   /// @brief Method ToAction, addr 0x2a3ddd0, size 0x25c, virtual false, abstract: false, final false
-  /// @param actionName: ::StringW (default: nullptr)
-  inline ::UnityEngine::InputSystem::InputAction* ToAction(::StringW actionName = nullptr);
+  inline ::UnityEngine::InputSystem::InputAction* ToAction(::StringW actionName);
 
   // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "id", ty:
   // "::StringW", modifiers: "", def_value: None }, CppParam { name: "expectedControlType", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "expectedControlLayout", ty:
@@ -795,10 +794,11 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__ReadFileJso
 // SizeInfo { instance_size: 320, native_size: -1, calculated_instance_size: 320, calculated_native_size: 320, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6141)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3105
-// }), TypeDefinitionIndex(TypeDefinitionIndex(6660)), TypeDefinitionIndex(TypeDefinitionIndex(6142)), TypeDefinitionIndex(TypeDefinitionIndex(6187)), TypeDefinitionIndex(TypeDefinitionIndex(2323)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 424 }), TypeDefinitionIndex(TypeDefinitionIndex(6133)), TypeDefinitionIndex(TypeDefinitionIndex(2448)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 989 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6152)) CS Name: ::UnityEngine.InputSystem::InputActionMap*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3105 }), TypeDefinitionIndex(TypeDefinitionIndex(6141)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6187)), TypeDefinitionIndex(TypeDefinitionIndex(6142)), TypeDefinitionIndex(TypeDefinitionIndex(6133)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 424 }), TypeDefinitionIndex(TypeDefinitionIndex(2323)), TypeDefinitionIndex(TypeDefinitionIndex(6660)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 989 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6152)) CS
+// Name: ::UnityEngine.InputSystem::InputActionMap*
 class CORDL_TYPE InputActionMap : public ::System::Object {
 public:
   // Declarations
@@ -923,23 +923,45 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
+  constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::IInputActionCollection2"
   constexpr operator ::UnityEngine::InputSystem::IInputActionCollection2*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::InputSystem::IInputActionCollection2"
+  constexpr ::UnityEngine::InputSystem::IInputActionCollection2* i___UnityEngine__InputSystem__IInputActionCollection2() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::InputSystem::IInputActionCollection"
   constexpr operator ::UnityEngine::InputSystem::IInputActionCollection*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::InputSystem::IInputActionCollection"
+  constexpr ::UnityEngine::InputSystem::IInputActionCollection* i___UnityEngine__InputSystem__IInputActionCollection() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputAction*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputAction*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputAction*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputAction*>*
+  i___System__Collections__Generic__IEnumerable_1___UnityEngine__InputSystem__InputAction__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::StringW& __get_m_Name();
 
@@ -1130,8 +1152,7 @@ public:
   inline int32_t FindActionIndex(::System::Guid id);
 
   /// @brief Method FindAction, addr 0x2a38d54, size 0x11c, virtual true, abstract: false, final true
-  /// @param throwIfNotFound: bool (default: false)
-  inline ::UnityEngine::InputSystem::InputAction* FindAction(::StringW actionNameOrId, bool throwIfNotFound = false);
+  inline ::UnityEngine::InputSystem::InputAction* FindAction(::StringW actionNameOrId, bool throwIfNotFound);
 
   /// @brief Method FindAction, addr 0x2a39358, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* FindAction(::System::Guid id);
@@ -1206,8 +1227,7 @@ public:
   inline void OnBindingModified();
 
   /// @brief Method ClearCachedActionData, addr 0x2a3cac4, size 0x28, virtual false, abstract: false, final false
-  /// @param onlyControls: bool (default: false)
-  inline void ClearCachedActionData(bool onlyControls = false);
+  inline void ClearCachedActionData(bool onlyControls);
 
   /// @brief Method GenerateId, addr 0x2a3b784, size 0x34, virtual false, abstract: false, final false
   inline void GenerateId();

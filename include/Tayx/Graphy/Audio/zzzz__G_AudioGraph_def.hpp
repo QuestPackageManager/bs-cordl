@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(G_AudioGraph)
-namespace Tayx::Graphy {
-class GraphyManager;
+namespace Tayx::Graphy::Audio {
+class G_AudioMonitor;
 }
 namespace Tayx::Graphy {
 class G_GraphShader;
+}
+namespace Tayx::Graphy {
+class GraphyManager;
 }
 namespace UnityEngine::UI {
 class Image;
 }
 namespace UnityEngine {
 class Shader;
-}
-namespace Tayx::Graphy::Audio {
-class G_AudioMonitor;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Audio {

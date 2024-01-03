@@ -11,13 +11,13 @@ namespace System {
 class Type;
 }
 namespace UnityEngine {
-class Object;
+class AssetBundleCreateRequest;
 }
 namespace UnityEngine {
 class AssetBundleRequest;
 }
 namespace UnityEngine {
-class AssetBundleCreateRequest;
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine {

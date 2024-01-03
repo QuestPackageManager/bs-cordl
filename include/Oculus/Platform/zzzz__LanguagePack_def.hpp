@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(LanguagePack)
 namespace Oculus::Platform::Models {
 class AssetDetails;
 }
-namespace Oculus::Platform {
-template <typename T> class Request_1;
-}
 namespace Oculus::Platform::Models {
 class AssetFileDownloadResult;
+}
+namespace Oculus::Platform {
+template <typename T> class Request_1;
 }
 // Forward declare root types
 namespace Oculus::Platform {

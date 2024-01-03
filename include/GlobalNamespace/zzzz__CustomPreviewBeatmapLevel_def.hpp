@@ -15,52 +15,52 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CustomPreviewBeatmapLevel)
 namespace GlobalNamespace {
-struct PlayerSensitivityFlag;
-}
-namespace GlobalNamespace {
 class ColorScheme;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace GlobalNamespace {
-class StandardLevelInfoSaveData;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-struct __CustomPreviewBeatmapLevel___GetCoverImageAsync_d__69;
-}
-namespace GlobalNamespace {
-class IFilePathSongPreviewAudioClipProvider;
-}
-namespace GlobalNamespace {
-class ISpriteAsyncLoader;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace UnityEngine {
-class Sprite;
 }
 namespace GlobalNamespace {
 class EnvironmentInfoSO;
 }
 namespace GlobalNamespace {
+class IFilePathSongPreviewAudioClipProvider;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+class ISpriteAsyncLoader;
+}
+namespace GlobalNamespace {
+struct PlayerSensitivityFlag;
+}
+namespace GlobalNamespace {
 class PreviewDifficultyBeatmapSet;
 }
+namespace GlobalNamespace {
+class StandardLevelInfoSaveData;
+}
+namespace GlobalNamespace {
+struct __CustomPreviewBeatmapLevel___GetCoverImageAsync_d__69;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace UnityEngine {
+class Sprite;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -76,14 +76,17 @@ MARK_VAL_T(::GlobalNamespace::__CustomPreviewBeatmapLevel___GetCoverImageAsync_d
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10291)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 777 }), GenericInstantiation(GenericInstantiation { tdi:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 777 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10291)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi:
 // TypeDefinitionIndex(3394), inst: 777 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4384)) CS Name: ::CustomPreviewBeatmapLevel::<GetCoverImageAsync>d__69
 struct CORDL_TYPE __CustomPreviewBeatmapLevel___GetCoverImageAsync_d__69 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x23477f8, size 0x38c, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -273,8 +276,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPreviewBeatmapLevel"
   constexpr operator ::GlobalNamespace::IPreviewBeatmapLevel*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IPreviewBeatmapLevel"
+  constexpr ::GlobalNamespace::IPreviewBeatmapLevel* i___GlobalNamespace__IPreviewBeatmapLevel() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IFilePathSongPreviewAudioClipProvider"
   constexpr operator ::GlobalNamespace::IFilePathSongPreviewAudioClipProvider*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IFilePathSongPreviewAudioClipProvider"
+  constexpr ::GlobalNamespace::IFilePathSongPreviewAudioClipProvider* i___GlobalNamespace__IFilePathSongPreviewAudioClipProvider() noexcept;
 
   constexpr ::GlobalNamespace::ISpriteAsyncLoader*& __get__spriteAsyncLoader_k__BackingField();
 

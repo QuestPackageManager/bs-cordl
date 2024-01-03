@@ -15,10 +15,10 @@ namespace System {
 class Object;
 }
 namespace UnityEngine::UIElements {
-struct __Angle__Unit;
+struct AngleUnit;
 }
 namespace UnityEngine::UIElements {
-struct AngleUnit;
+struct __Angle__Unit;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -108,6 +108,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Angle>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Angle>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Angle>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Angle>* i___System__IEquatable_1___UnityEngine__UIElements__Angle_();
 
   /// @brief Method None, addr 0x2e71a38, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Angle None();

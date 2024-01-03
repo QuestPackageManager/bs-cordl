@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NodePoseSyncState)
 namespace GlobalNamespace {
-struct __NodePoseSyncState__NodePose;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace GlobalNamespace {
 template <typename T> class IEquatableByReference_1;
 }
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class IStateTable_3;
 }
+namespace GlobalNamespace {
+struct PoseSerializable;
+}
+namespace GlobalNamespace {
+struct __NodePoseSyncState__NodePose;
+}
 namespace LiteNetLib::Utils {
 class INetSerializable;
 }
-namespace GlobalNamespace {
-struct PoseSerializable;
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
@@ -111,11 +111,21 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IStateTable_3<::GlobalNamespace::NodePoseSyncState,::GlobalNamespace::__NodePoseSyncState__NodePose,::GlobalNamespace::PoseSerializable>"
   constexpr operator ::GlobalNamespace::IStateTable_3<::GlobalNamespace::NodePoseSyncState, ::GlobalNamespace::__NodePoseSyncState__NodePose, ::GlobalNamespace::PoseSerializable>*();
 
+  /// @brief Convert to "::GlobalNamespace::IStateTable_3<::GlobalNamespace::NodePoseSyncState,::GlobalNamespace::__NodePoseSyncState__NodePose,::GlobalNamespace::PoseSerializable>"
+  constexpr ::GlobalNamespace::IStateTable_3<::GlobalNamespace::NodePoseSyncState, ::GlobalNamespace::__NodePoseSyncState__NodePose, ::GlobalNamespace::PoseSerializable>*
+  i___GlobalNamespace__IStateTable_3___GlobalNamespace__NodePoseSyncState___GlobalNamespace____NodePoseSyncState__NodePose___GlobalNamespace__PoseSerializable_();
+
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*();
 
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable();
+
   /// @brief Convert operator to "::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::NodePoseSyncState>"
   constexpr operator ::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::NodePoseSyncState>*();
+
+  /// @brief Convert to "::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::NodePoseSyncState>"
+  constexpr ::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::NodePoseSyncState>* i___GlobalNamespace__IEquatableByReference_1___GlobalNamespace__NodePoseSyncState_();
 
   /// @brief Method Serialize, addr 0xe596e4, size 0x40, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);

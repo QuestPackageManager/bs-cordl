@@ -6,22 +6,22 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BaseBoolField)
 namespace UnityEngine::UIElements {
-class Label;
-}
-namespace UnityEngine::UIElements {
 class Clickable;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-class KeyDownEvent;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
+class KeyDownEvent;
+}
+namespace UnityEngine::UIElements {
+class Label;
+}
+namespace UnityEngine::UIElements {
 class NavigationSubmitEvent;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::BaseBoolField);
 // SizeInfo { instance_size: 1064, native_size: -1, calculated_instance_size: 1064, calculated_native_size: 1064, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7130)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7130), inst: 105 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7130), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(7130))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7067))
 // CS Name: ::UnityEngine.UIElements::BaseBoolField*
 class CORDL_TYPE BaseBoolField : public ::UnityEngine::UIElements::BaseField_1<bool> {

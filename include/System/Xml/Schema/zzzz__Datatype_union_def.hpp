@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__Datatype_anySimpleType_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(Datatype_union)
-namespace System {
-class Type;
-}
 namespace System::Xml::Schema {
 class XmlSchemaSimpleType;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

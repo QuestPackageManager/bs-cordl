@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(ObstacleMaterialSetter)
 namespace GlobalNamespace {
+class BoolSO;
+}
+namespace GlobalNamespace {
 class ObstaclesQualitySO;
+}
+namespace GlobalNamespace {
+struct ObstaclesQuality;
 }
 namespace UnityEngine {
 class Material;
 }
 namespace UnityEngine {
 class Renderer;
-}
-namespace GlobalNamespace {
-struct ObstaclesQuality;
-}
-namespace GlobalNamespace {
-class BoolSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

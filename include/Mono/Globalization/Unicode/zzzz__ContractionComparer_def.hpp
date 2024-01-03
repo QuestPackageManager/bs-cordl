@@ -33,6 +33,10 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::Mono::Globalization::Unicode::Contraction*>"
   constexpr operator ::System::Collections::Generic::IComparer_1<::Mono::Globalization::Unicode::Contraction*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IComparer_1<::Mono::Globalization::Unicode::Contraction*>"
+  constexpr ::System::Collections::Generic::IComparer_1<::Mono::Globalization::Unicode::Contraction*>*
+  i___System__Collections__Generic__IComparer_1___Mono__Globalization__Unicode__Contraction__() noexcept;
+
   static inline void setStaticF_Instance(::Mono::Globalization::Unicode::ContractionComparer* value);
 
   static inline ::Mono::Globalization::Unicode::ContractionComparer* getStaticF_Instance();

@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__ColorNoAlphaSerializable_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(ColorSchemeNetSerializable)
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace LiteNetLib::Utils {
-class INetSerializable;
-}
 namespace GlobalNamespace {
 struct ColorNoAlphaSerializable;
 }
 namespace LiteNetLib::Utils {
+class INetSerializable;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace LiteNetLib::Utils {
 class NetDataWriter;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -38,6 +38,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*();
+
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable();
 
   /// @brief Method .ctor, addr 0xe2a7b8, size 0x180, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color obstaclesColor, ::UnityEngine::Color environmentColor0,

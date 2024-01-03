@@ -37,6 +37,9 @@ public:
   /// @brief Convert operator to "::BeatSaber::AvatarCore::IAvatarVisualDataProvider"
   constexpr operator ::BeatSaber::AvatarCore::IAvatarVisualDataProvider*() noexcept;
 
+  /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarVisualDataProvider"
+  constexpr ::BeatSaber::AvatarCore::IAvatarVisualDataProvider* i___BeatSaber__AvatarCore__IAvatarVisualDataProvider() noexcept;
+
   constexpr ::GlobalNamespace::IConnectedPlayer*& __get__connectedPlayer();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __get__connectedPlayer() const;

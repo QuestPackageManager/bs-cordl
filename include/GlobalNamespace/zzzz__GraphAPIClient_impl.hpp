@@ -8,19 +8,19 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__GraphAPIClient_def.hpp"
 #include "GlobalNamespace/zzzz__GraphAPIClient_def.hpp"
-#include "System/Net/Http/zzzz__HttpContent_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
 #include "System/Net/Http/zzzz__HttpClient_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
-#include "System/zzzz__UriBuilder_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
+#include "System/Net/Http/zzzz__HttpContent_def.hpp"
 #include "System/Net/Http/zzzz__HttpRequestMessage_def.hpp"
 #include "System/Net/Http/zzzz__HttpResponseMessage_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/zzzz__UriBuilder_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
 // Ctor Parameters [CppParam { name: "MaxRetries", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "MinWaitTimeForRetryMs", ty: "int32_t", modifiers: "", def_value: Some("{}")
 // }, CppParam { name: "WithExponentialBackoff", ty: "bool", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__GraphAPIClient__PostOptions::__GraphAPIClient__PostOptions(int32_t MaxRetries, int32_t MinWaitTimeForRetryMs, bool WithExponentialBackoff) noexcept {
@@ -32,6 +32,11 @@ constexpr ::GlobalNamespace::__GraphAPIClient__PostOptions::__GraphAPIClient__Po
 constexpr ::GlobalNamespace::__GraphAPIClient__PostOptions::__GraphAPIClient__PostOptions() {}
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 template <typename TRequest, typename TResponse> constexpr GlobalNamespace::__GraphAPIClient___Post_d__4_2<TRequest, TResponse>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+template <typename TRequest, typename TResponse>
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::__GraphAPIClient___Post_d__4_2<TRequest, TResponse>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename TRequest, typename TResponse> inline void GlobalNamespace::__GraphAPIClient___Post_d__4_2<TRequest, TResponse>::MoveNext() {
@@ -82,6 +87,11 @@ template <typename TRequest, typename TResponse> constexpr ::GlobalNamespace::__
 template <typename TResponse> constexpr GlobalNamespace::__GraphAPIClient___Post_d__5_1<TResponse>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+template <typename TResponse>
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::__GraphAPIClient___Post_d__5_1<TResponse>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 template <typename TResponse> inline void GlobalNamespace::__GraphAPIClient___Post_d__5_1<TResponse>::MoveNext() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GraphAPIClient___Post_d__5_1<TResponse>>::get(), "MoveNext",
@@ -127,7 +137,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0xe3c254;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GraphAPIClient*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::INetworkConfig*>::get() })));
@@ -142,7 +152,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0xe3c2d0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GraphAPIClient*>::get(), "CalculateDelayMsBeforeRetry", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),

@@ -23,8 +23,7 @@ class CORDL_TYPE StringExtensions : public ::System::Object {
 public:
   // Declarations
   /// @brief Method Truncate, addr 0xe25c70, size 0xc8, virtual false, abstract: false, final false
-  /// @param appendEllipsis: bool (default: false)
-  static inline ::StringW Truncate(::StringW s, int32_t length, bool appendEllipsis = false);
+  static inline ::StringW Truncate(::StringW s, int32_t length, bool appendEllipsis);
 
   // Ctor Parameters [CppParam { name: "", ty: "StringExtensions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

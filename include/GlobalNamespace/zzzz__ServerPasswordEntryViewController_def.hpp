@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ServerPasswordEntryViewController)
-namespace HMUI {
-class UIKeyboard;
-}
 namespace GlobalNamespace {
 class INetworkPlayer;
 }
 namespace HMUI {
 class InputFieldView;
+}
+namespace HMUI {
+class UIKeyboard;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
@@ -76,8 +76,7 @@ public:
   inline void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>* value);
 
   /// @brief Method Setup, addr 0x22d080c, size 0x8, virtual false, abstract: false, final false
-  /// @param selectedPlayer: ::GlobalNamespace::INetworkPlayer* (default: nullptr)
-  inline void Setup(::GlobalNamespace::INetworkPlayer* selectedPlayer = nullptr);
+  inline void Setup(::GlobalNamespace::INetworkPlayer* selectedPlayer);
 
   /// @brief Method DidActivate, addr 0x22d0814, size 0xc4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

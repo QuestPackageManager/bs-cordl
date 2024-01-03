@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ExtensionDataGetter)
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
 namespace System {
 class AsyncCallback;

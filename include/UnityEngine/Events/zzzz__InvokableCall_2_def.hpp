@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(InvokableCall_2)
 namespace System::Reflection {
 class MethodInfo;
 }
-namespace UnityEngine::Events {
-template <typename T0, typename T1> class UnityAction_2;
-}
 namespace System {
 class Object;
+}
+namespace UnityEngine::Events {
+template <typename T0, typename T1> class UnityAction_2;
 }
 // Forward declare root types
 namespace UnityEngine::Events {

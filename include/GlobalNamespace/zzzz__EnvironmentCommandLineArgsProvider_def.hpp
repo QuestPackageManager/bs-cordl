@@ -28,6 +28,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ICommandLineArgsProvider"
   constexpr operator ::GlobalNamespace::ICommandLineArgsProvider*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::ICommandLineArgsProvider"
+  constexpr ::GlobalNamespace::ICommandLineArgsProvider* i___GlobalNamespace__ICommandLineArgsProvider() noexcept;
+
   /// @brief Method GetCommandLineArgs, addr 0x23050dc, size 0x8, virtual true, abstract: false, final true
   inline ::ArrayW<::StringW, ::Array<::StringW>*> GetCommandLineArgs();
 

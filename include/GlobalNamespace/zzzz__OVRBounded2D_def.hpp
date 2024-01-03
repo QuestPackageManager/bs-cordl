@@ -11,8 +11,8 @@ CORDL_MODULE_EXPORT(OVRBounded2D)
 namespace GlobalNamespace {
 template <typename T> class IOVRAnchorComponent_1;
 }
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+namespace GlobalNamespace {
+struct OVRAnchor;
 }
 namespace GlobalNamespace {
 template <typename TResult> struct OVRTask_1;
@@ -20,20 +20,20 @@ template <typename TResult> struct OVRTask_1;
 namespace GlobalNamespace {
 struct __OVRPlugin__Rectf;
 }
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace UnityEngine {
-struct Rect;
-}
 namespace GlobalNamespace {
 struct __OVRPlugin__SpaceComponentType;
 }
 namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
 class Object;
 }
-namespace GlobalNamespace {
-struct OVRAnchor;
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
+}
+namespace UnityEngine {
+struct Rect;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -74,8 +74,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRBounded2D>"
   constexpr operator ::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRBounded2D>*();
 
+  /// @brief Convert to "::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRBounded2D>"
+  constexpr ::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRBounded2D>* i___GlobalNamespace__IOVRAnchorComponent_1___GlobalNamespace__OVRBounded2D_();
+
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::OVRBounded2D>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::OVRBounded2D>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::OVRBounded2D>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::OVRBounded2D>* i___System__IEquatable_1___GlobalNamespace__OVRBounded2D_();
 
   static inline void setStaticF_Null(::GlobalNamespace::OVRBounded2D value);
 

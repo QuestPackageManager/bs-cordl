@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(NoPauseGamePause)
-namespace System {
-class Action;
-}
 namespace GlobalNamespace {
 class IGamePause;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -42,6 +42,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IGamePause"
   constexpr operator ::GlobalNamespace::IGamePause*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IGamePause"
+  constexpr ::GlobalNamespace::IGamePause* i___GlobalNamespace__IGamePause() noexcept;
 
   constexpr ::System::Action*& __get_didPauseEvent();
 

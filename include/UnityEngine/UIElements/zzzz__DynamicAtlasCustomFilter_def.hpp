@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(DynamicAtlasCustomFilter)
 namespace System {
 class Object;
 }
-namespace UnityEngine {
-class Texture2D;
-}
 namespace UnityEngine::UIElements {
 struct DynamicAtlasFilters;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

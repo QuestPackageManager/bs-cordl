@@ -10,41 +10,41 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SocketAsyncResult)
-namespace System::Net {
-class IPAddress;
-}
-namespace System {
-template <typename T> struct ArraySegment_1;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace System::Net::Sockets {
 struct SocketError;
 }
-namespace System {
-class AsyncCallback;
-}
-namespace System::Net {
-class EndPoint;
+namespace System::Net::Sockets {
+struct SocketOperation;
 }
 namespace System::Net::Sockets {
 class Socket;
 }
 namespace System::Net::Sockets {
-struct SocketOperation;
+class __SocketAsyncResult____c;
+}
+namespace System::Net {
+class EndPoint;
+}
+namespace System::Net {
+class IPAddress;
+}
+namespace System::Threading {
+class WaitCallback;
 }
 namespace System {
-class Object;
+template <typename T> struct ArraySegment_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
+namespace System {
+class AsyncCallback;
 }
 namespace System {
 class Exception;
 }
-namespace System::Net::Sockets {
-class __SocketAsyncResult____c;
-}
-namespace System::Threading {
-class WaitCallback;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Net::Sockets {
@@ -113,7 +113,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::__SocketAs
 namespace System::Net::Sockets {
 // Is value type: false
 // Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2437), inst: 741 }), TypeDefinitionIndex(TypeDefinitionIndex(2437)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9360)), TypeDefinitionIndex(TypeDefinitionIndex(9348)), TypeDefinitionIndex(TypeDefinitionIndex(8895))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9359))
+// TypeDefinitionIndex(TypeDefinitionIndex(8895)), TypeDefinitionIndex(TypeDefinitionIndex(9360)), TypeDefinitionIndex(TypeDefinitionIndex(9348))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9359))
 // CS Name: ::System.Net.Sockets::SocketAsyncResult*
 class CORDL_TYPE SocketAsyncResult : public ::System::IOAsyncResult {
 public:

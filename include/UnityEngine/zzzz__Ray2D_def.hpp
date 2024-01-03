@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(Ray2D)
 namespace System {
-class IFormattable;
+class IFormatProvider;
 }
 namespace System {
-class IFormatProvider;
+class IFormattable;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -38,6 +38,9 @@ public:
 
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
+
+  /// @brief Convert to "::System::IFormattable"
+  constexpr ::System::IFormattable* i___System__IFormattable();
 
   /// @brief Method .ctor, addr 0x2ccae54, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 origin, ::UnityEngine::Vector2 direction);

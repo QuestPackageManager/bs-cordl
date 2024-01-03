@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleInt)
-namespace UnityEngine::UIElements {
-template <typename T> class IStyleValue_1;
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
 }
-namespace System {
-template <typename T> class IEquatable_1;
+namespace UnityEngine::UIElements {
+template <typename T> class IStyleValue_1;
 }
 namespace UnityEngine::UIElements {
 struct StyleKeyword;
@@ -42,8 +42,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<int32_t>"
   constexpr operator ::UnityEngine::UIElements::IStyleValue_1<int32_t>*();
 
+  /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<int32_t>"
+  constexpr ::UnityEngine::UIElements::IStyleValue_1<int32_t>* i___UnityEngine__UIElements__IStyleValue_1_int32_t_();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleInt>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleInt>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleInt>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleInt>* i___System__IEquatable_1___UnityEngine__UIElements__StyleInt_();
 
   /// @brief Method get_value, addr 0x2e746a4, size 0x18, virtual true, abstract: false, final true
   inline int32_t get_value();

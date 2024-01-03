@@ -9,10 +9,10 @@ namespace Org::BouncyCastle::Asn1::Ocsp {
 class RevokedInfo;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
@@ -51,6 +51,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept;
 
   constexpr int32_t& __get_tagNo();
 

@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(VROverlayIntersectionMaskPrimitive_Data_t)
 namespace OVR::OpenVR {
-struct IntersectionMaskRectangle_t;
+struct IntersectionMaskCircle_t;
 }
 namespace OVR::OpenVR {
-struct IntersectionMaskCircle_t;
+struct IntersectionMaskRectangle_t;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

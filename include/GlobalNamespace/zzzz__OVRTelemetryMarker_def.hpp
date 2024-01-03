@@ -9,19 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRTelemetryMarker)
 namespace GlobalNamespace {
+struct __OVRPlugin__Qpl__ResultType;
+}
+namespace GlobalNamespace {
 struct __OVRTelemetryMarker__OVRTelemetryMarkerState;
+}
+namespace GlobalNamespace {
+struct __OVRTelemetry__MarkerPoint;
 }
 namespace GlobalNamespace {
 class __OVRTelemetry__TelemetryClient;
 }
-namespace GlobalNamespace {
-struct __OVRPlugin__Qpl__ResultType;
-}
 namespace System {
 class IDisposable;
-}
-namespace GlobalNamespace {
-struct __OVRTelemetry__MarkerPoint;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -114,6 +114,9 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
+
   /// @brief Method get_State, addr 0x27935fc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRTelemetryMarker__OVRTelemetryMarkerState get_State();
 
@@ -133,15 +136,10 @@ public:
   inline int32_t get_InstanceKey();
 
   /// @brief Method .ctor, addr 0x2792f90, size 0x9c, virtual false, abstract: false, final false
-  /// @param instanceKey: int32_t (default: static_cast<int32_t>(0x0))
-  /// @param timestampMs: int64_t (default: static_cast<int64_t>(0xffffffffffffffff))
-  inline void _ctor(int32_t markerId, int32_t instanceKey = static_cast<int32_t>(0x0), int64_t timestampMs = static_cast<int64_t>(0xffffffffffffffff));
+  inline void _ctor(int32_t markerId, int32_t instanceKey, int64_t timestampMs);
 
   /// @brief Method .ctor, addr 0x2793634, size 0x40, virtual false, abstract: false, final false
-  /// @param instanceKey: int32_t (default: static_cast<int32_t>(0x0))
-  /// @param timestampMs: int64_t (default: static_cast<int64_t>(0xffffffffffffffff))
-  inline void _ctor(::GlobalNamespace::__OVRTelemetry__TelemetryClient* client, int32_t markerId, int32_t instanceKey = static_cast<int32_t>(0x0),
-                    int64_t timestampMs = static_cast<int64_t>(0xffffffffffffffff));
+  inline void _ctor(::GlobalNamespace::__OVRTelemetry__TelemetryClient* client, int32_t markerId, int32_t instanceKey, int64_t timestampMs);
 
   /// @brief Method SetResult, addr 0x27930e4, size 0x28, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTelemetryMarker SetResult(::GlobalNamespace::__OVRPlugin__Qpl__ResultType result);

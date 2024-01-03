@@ -5,32 +5,44 @@
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__DownloadStatus_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__ProviderOperation_1_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__DownloadStatus_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__Action_4_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__ICachable_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
-#include "UnityEngine/ResourceManagement/Util/zzzz__IOperationCacheKey_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__IGenericProviderOperation_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "System/zzzz__Action_4_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__DownloadStatus_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__ICachable_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__IGenericProviderOperation_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__IResourceProvider_def.hpp"
+#include "UnityEngine/ResourceManagement/Util/zzzz__IOperationCacheKey_def.hpp"
+#include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
 /// @brief Convert operator to "::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation"
 template <typename TObject>
 constexpr UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::operator ::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*() noexcept {
   return static_cast<::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation"
+template <typename TObject>
+constexpr ::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*
+UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::i___UnityEngine__ResourceManagement__AsyncOperations__IGenericProviderOperation() noexcept {
+  return static_cast<::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::UnityEngine::ResourceManagement::AsyncOperations::ICachable"
 template <typename TObject>
 constexpr UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::operator ::UnityEngine::ResourceManagement::AsyncOperations::ICachable*() noexcept {
+  return static_cast<::UnityEngine::ResourceManagement::AsyncOperations::ICachable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::ResourceManagement::AsyncOperations::ICachable"
+template <typename TObject>
+constexpr ::UnityEngine::ResourceManagement::AsyncOperations::ICachable*
+UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::i___UnityEngine__ResourceManagement__AsyncOperations__ICachable() noexcept {
   return static_cast<::UnityEngine::ResourceManagement::AsyncOperations::ICachable*>(static_cast<void*>(this));
 }
 template <typename TObject> constexpr bool& UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__get_m_ReleaseDependenciesOnFailure() {

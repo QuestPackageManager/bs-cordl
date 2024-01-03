@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::GlobalNamespace::LightColorBaseData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14754)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14728))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14728)), TypeDefinitionIndex(TypeDefinitionIndex(14754)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4321))
 // CS Name: ::LightColorBaseData*
 class CORDL_TYPE LightColorBaseData : public ::System::Object {

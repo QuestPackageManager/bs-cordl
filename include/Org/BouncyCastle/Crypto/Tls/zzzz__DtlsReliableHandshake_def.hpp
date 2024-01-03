@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DtlsReliableHandshake)
 namespace Org::BouncyCastle::Crypto::Tls {
-class DtlsRecordLayer;
+class DtlsHandshakeRetransmit;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class __DtlsReliableHandshake__Message;
-}
-namespace System::Collections {
-class IList;
+class DtlsRecordLayer;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class Timeout;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
+class TlsContext;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
 class TlsHandshakeHash;
 }
-namespace System::Collections {
-class IDictionary;
+namespace Org::BouncyCastle::Crypto::Tls {
+class __DtlsReliableHandshake__Message;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class __DtlsReliableHandshake__RecordLayerBuffer;
@@ -31,11 +31,11 @@ class __DtlsReliableHandshake__RecordLayerBuffer;
 namespace Org::BouncyCastle::Crypto::Tls {
 class __DtlsReliableHandshake__Retransmit;
 }
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
+namespace System::Collections {
+class IDictionary;
 }
-namespace Org::BouncyCastle::Crypto::Tls {
-class DtlsHandshakeRetransmit;
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -200,6 +200,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::DtlsHandshakeRetransmit"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::DtlsHandshakeRetransmit*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::DtlsHandshakeRetransmit"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::DtlsHandshakeRetransmit* i___Org__BouncyCastle__Crypto__Tls__DtlsHandshakeRetransmit() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake*& __get_mOuter();
 

@@ -6,14 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(TextUtilities)
-namespace UnityEngine {
-class Font;
+namespace UnityEngine::TextCore::Text {
+class FontAsset;
 }
-namespace UnityEngine::UIElements {
-struct __VisualElement__MeasureMode;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
+namespace UnityEngine::UIElements::UIR {
+struct TextCoreSettings;
 }
 namespace UnityEngine::UIElements {
 class ITextHandle;
@@ -21,20 +18,23 @@ class ITextHandle;
 namespace UnityEngine::UIElements {
 class PanelTextSettings;
 }
-namespace UnityEngine::TextCore::Text {
-class FontAsset;
-}
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
 struct __MeshGenerationContextUtils__TextParams;
 }
-namespace UnityEngine::UIElements::UIR {
-struct TextCoreSettings;
+namespace UnityEngine::UIElements {
+struct __VisualElement__MeasureMode;
+}
+namespace UnityEngine {
+class Font;
 }
 namespace UnityEngine {
 struct Matrix4x4;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

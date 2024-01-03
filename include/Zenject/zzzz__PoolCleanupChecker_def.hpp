@@ -5,29 +5,29 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(PoolCleanupChecker)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
+}
 namespace Zenject {
 class ILateDisposable;
 }
 namespace Zenject {
 class IMemoryPool;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace Zenject {
 class InjectTypeInfo;
 }
-namespace System {
-class Type;
-}
 namespace Zenject {
 class __PoolCleanupChecker____c;
-}
-namespace System {
-class Object;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace Zenject {
@@ -117,6 +117,9 @@ public:
 
   /// @brief Convert operator to "::Zenject::ILateDisposable"
   constexpr operator ::Zenject::ILateDisposable*() noexcept;
+
+  /// @brief Convert to "::Zenject::ILateDisposable"
+  constexpr ::Zenject::ILateDisposable* i___Zenject__ILateDisposable() noexcept;
 
   constexpr ::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>*& __get__poolFactories();
 

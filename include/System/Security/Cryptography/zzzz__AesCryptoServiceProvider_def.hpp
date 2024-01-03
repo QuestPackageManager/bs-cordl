@@ -10,10 +10,10 @@ namespace System::Security::Cryptography {
 struct CipherMode;
 }
 namespace System::Security::Cryptography {
-struct PaddingMode;
+class ICryptoTransform;
 }
 namespace System::Security::Cryptography {
-class ICryptoTransform;
+struct PaddingMode;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {

@@ -10,6 +10,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_MeshInfo)
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
 namespace TMPro {
 struct VertexSortingOrder;
 }
@@ -17,22 +20,19 @@ namespace UnityEngine {
 struct Color32;
 }
 namespace UnityEngine {
-class Mesh;
+class Material;
 }
 namespace UnityEngine {
-struct Vector4;
+class Mesh;
 }
 namespace UnityEngine {
 struct Vector2;
 }
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace UnityEngine {
-class Material;
-}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 // Forward declare root types
 namespace TMPro {

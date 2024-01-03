@@ -6,53 +6,53 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NameObjectCollectionBase)
-namespace System {
-class StringComparer;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System {
-class DBNull;
-}
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
 namespace System::Collections::Specialized {
 class __NameObjectCollectionBase__NameObjectEntry;
 }
-namespace System::Collections {
-class IEqualityComparer;
-}
 namespace System::Collections::Specialized {
 class __NameObjectCollectionBase__NameObjectKeysEnumerator;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
 }
 namespace System::Collections {
 class ArrayList;
 }
 namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
 class Hashtable;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System {
-class Object;
+namespace System::Collections {
+class ICollection;
 }
 namespace System::Collections {
 class IEnumerable;
 }
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
+class IEqualityComparer;
+}
+namespace System::Runtime::Serialization {
+class IDeserializationCallback;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
 namespace System {
 class Array;
+}
+namespace System {
+class DBNull;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class StringComparer;
 }
 // Forward declare root types
 namespace System::Collections::Specialized {
@@ -154,6 +154,9 @@ public:
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr int32_t& __get__pos();
 
@@ -274,14 +277,26 @@ public:
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
 
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
   constexpr operator ::System::Runtime::Serialization::IDeserializationCallback*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
+  constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback() noexcept;
 
   constexpr bool& __get__readOnly();
 

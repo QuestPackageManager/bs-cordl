@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/ComponentModel/zzzz__ReferenceConverter_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ComponentConverter)
-namespace System {
-class Attribute;
+namespace System::ComponentModel {
+class ITypeDescriptorContext;
 }
 namespace System::ComponentModel {
 class PropertyDescriptorCollection;
 }
 namespace System {
-class Type;
+class Attribute;
 }
 namespace System {
 class Object;
 }
-namespace System::ComponentModel {
-class ITypeDescriptorContext;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::ComponentModel {

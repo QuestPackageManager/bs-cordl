@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Empty)
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class ISerializable;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-class ISerializable;
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System {
@@ -35,6 +35,9 @@ public:
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
   static inline void setStaticF_Value(::System::Empty* value);
 

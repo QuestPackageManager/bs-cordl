@@ -6,15 +6,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(KdfDoublePipelineIterationBytesGenerator)
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::Crypto {
-class IMac;
-}
-namespace Org::BouncyCastle::Crypto {
-class IMacDerivationFunction;
-}
 namespace Org::BouncyCastle::Crypto {
 class IDerivationFunction;
 }
@@ -23,6 +14,15 @@ class IDerivationParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
+}
+namespace Org::BouncyCastle::Crypto {
+class IMacDerivationFunction;
+}
+namespace Org::BouncyCastle::Crypto {
+class IMac;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {
@@ -78,8 +78,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IMacDerivationFunction"
   constexpr operator ::Org::BouncyCastle::Crypto::IMacDerivationFunction*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IMacDerivationFunction"
+  constexpr ::Org::BouncyCastle::Crypto::IMacDerivationFunction* i___Org__BouncyCastle__Crypto__IMacDerivationFunction() noexcept;
+
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDerivationFunction"
   constexpr operator ::Org::BouncyCastle::Crypto::IDerivationFunction*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationFunction"
+  constexpr ::Org::BouncyCastle::Crypto::IDerivationFunction* i___Org__BouncyCastle__Crypto__IDerivationFunction() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::IMac*& __get_prf();
 

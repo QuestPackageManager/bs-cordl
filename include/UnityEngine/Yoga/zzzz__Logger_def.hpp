@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Logger)
-namespace UnityEngine::Yoga {
-class YogaNode;
-}
-namespace UnityEngine::Yoga {
-class YogaConfig;
-}
 namespace System {
 class Object;
 }
 namespace UnityEngine::Yoga {
+class YogaConfig;
+}
+namespace UnityEngine::Yoga {
 struct YogaLogLevel;
+}
+namespace UnityEngine::Yoga {
+class YogaNode;
 }
 // Forward declare root types
 namespace UnityEngine::Yoga {

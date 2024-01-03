@@ -9,59 +9,59 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Shader)
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine {
-class Texture;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine {
-class RenderTexture;
-}
-namespace UnityEngine {
-struct DisableBatchingType;
-}
-namespace UnityEngine::Rendering {
-struct ShaderPropertyFlags;
-}
-namespace UnityEngine {
-struct Vector4;
-}
 namespace UnityEngine::Rendering {
 struct GlobalKeyword;
-}
-namespace UnityEngine {
-class ComputeBuffer;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::Rendering {
-struct RenderTextureSubElement;
-}
-namespace UnityEngine {
-class GraphicsBuffer;
-}
-namespace UnityEngine::Rendering {
-struct ShaderTagId;
-}
-namespace UnityEngine::Rendering {
-struct ShaderPropertyType;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine::Rendering {
-struct TextureDimension;
 }
 namespace UnityEngine::Rendering {
 struct LocalKeywordSpace;
 }
 namespace UnityEngine::Rendering {
+struct RenderTextureSubElement;
+}
+namespace UnityEngine::Rendering {
 struct ShaderHardwareTier;
+}
+namespace UnityEngine::Rendering {
+struct ShaderPropertyFlags;
+}
+namespace UnityEngine::Rendering {
+struct ShaderPropertyType;
+}
+namespace UnityEngine::Rendering {
+struct ShaderTagId;
+}
+namespace UnityEngine::Rendering {
+struct TextureDimension;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+class ComputeBuffer;
+}
+namespace UnityEngine {
+struct DisableBatchingType;
+}
+namespace UnityEngine {
+class GraphicsBuffer;
+}
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace UnityEngine {
+class RenderTexture;
+}
+namespace UnityEngine {
+class Texture;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 // Forward declare root types
 namespace UnityEngine {

@@ -3,14 +3,14 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IResourceReader)
-namespace System {
-class IDisposable;
+namespace System::Collections {
+class IDictionaryEnumerator;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Collections {
-class IDictionaryEnumerator;
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Resources {
@@ -31,8 +31,14 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// @brief Method Close, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Close();

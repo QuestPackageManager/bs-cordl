@@ -10,17 +10,8 @@ CORDL_MODULE_EXPORT(EmptyBeatmapLevel)
 namespace GlobalNamespace {
 class EnvironmentInfoSO;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
 namespace GlobalNamespace {
-struct PlayerSensitivityFlag;
-}
-namespace UnityEngine {
-class Sprite;
-}
-namespace GlobalNamespace {
-class PreviewDifficultyBeatmapSet;
+class IBeatmapLevelData;
 }
 namespace GlobalNamespace {
 class IBeatmapLevel;
@@ -28,17 +19,26 @@ class IBeatmapLevel;
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace GlobalNamespace {
+struct PlayerSensitivityFlag;
+}
+namespace GlobalNamespace {
+class PreviewDifficultyBeatmapSet;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
-namespace GlobalNamespace {
-class IBeatmapLevelData;
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace UnityEngine {
 class AudioClip;
+}
+namespace UnityEngine {
+class Sprite;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -98,8 +98,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBeatmapLevel"
   constexpr operator ::GlobalNamespace::IBeatmapLevel*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IBeatmapLevel"
+  constexpr ::GlobalNamespace::IBeatmapLevel* i___GlobalNamespace__IBeatmapLevel() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IPreviewBeatmapLevel"
   constexpr operator ::GlobalNamespace::IPreviewBeatmapLevel*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IPreviewBeatmapLevel"
+  constexpr ::GlobalNamespace::IPreviewBeatmapLevel* i___GlobalNamespace__IPreviewBeatmapLevel() noexcept;
 
   constexpr ::GlobalNamespace::IBeatmapLevelData*& __get__beatmapLevelData_k__BackingField();
 

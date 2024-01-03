@@ -17,73 +17,94 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapLevelsModel)
 namespace GlobalNamespace {
-class __BeatmapLevelsModel__InitData;
-}
-namespace GlobalNamespace {
-class IBeatmapLevel;
-}
-namespace GlobalNamespace {
 class AudioClipAsyncLoader;
-}
-namespace GlobalNamespace {
-struct __BeatmapLevelsModel___ReloadCustomLevelPackCollectionAsync_d__33;
-}
-namespace GlobalNamespace {
-template <typename K, typename V> class HMCache_2;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-struct __BeatmapLevelsModel__LevelDownloadingUpdate;
-}
-namespace GlobalNamespace {
-class IAdditionalContentModel;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelPackCollection;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace GlobalNamespace {
-class __BeatmapLevelsModel____c;
-}
-namespace GlobalNamespace {
-class BeatmapLevelPackCollectionSO;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelPack;
-}
-namespace GlobalNamespace {
-struct LevelDataAssetDownloadUpdate;
 }
 namespace GlobalNamespace {
 class BeatmapLevelDataLoader;
 }
 namespace GlobalNamespace {
-struct __BeatmapLevelsModel___GetBeatmapLevelAsync_d__39;
-}
-namespace GlobalNamespace {
 class BeatmapLevelLoader;
-}
-namespace GlobalNamespace {
-class __BeatmapLevelsModel____c__DisplayClass36_0;
-}
-namespace GlobalNamespace {
-struct __BeatmapLevelsModel__GetBeatmapLevelResult;
 }
 namespace GlobalNamespace {
 class BeatmapLevelPackCollectionContainerSO;
 }
 namespace GlobalNamespace {
+class BeatmapLevelPackCollectionSO;
+}
+namespace GlobalNamespace {
+struct EntitlementStatus;
+}
+namespace GlobalNamespace {
+template <typename K, typename V> class HMCache_2;
+}
+namespace GlobalNamespace {
+class IAdditionalContentModel;
+}
+namespace GlobalNamespace {
 class IBeatmapDataAssetFileModel;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelPackCollection;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelPack;
+}
+namespace GlobalNamespace {
+class IBeatmapLevel;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+struct LevelDataAssetDownloadUpdate;
+}
+namespace GlobalNamespace {
+struct __BeatmapLevelLoader__LoadBeatmapLevelResult;
+}
+namespace GlobalNamespace {
+struct __BeatmapLevelsModel__GetBeatmapLevelResult;
+}
+namespace GlobalNamespace {
+class __BeatmapLevelsModel__InitData;
+}
+namespace GlobalNamespace {
+struct __BeatmapLevelsModel__LevelDownloadingUpdate;
+}
+namespace GlobalNamespace {
+struct __BeatmapLevelsModel__LevelDownloadingUpdate__DownloadingState;
+}
+namespace GlobalNamespace {
+struct __BeatmapLevelsModel___GetBeatmapLevelAsync_d__39;
+}
+namespace GlobalNamespace {
+struct __BeatmapLevelsModel___ReloadCustomLevelPackCollectionAsync_d__33;
+}
+namespace GlobalNamespace {
+class __BeatmapLevelsModel____c;
+}
+namespace GlobalNamespace {
+class __BeatmapLevelsModel____c__DisplayClass36_0;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -91,29 +112,8 @@ template <typename T> class Action_1;
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace GlobalNamespace {
-struct __BeatmapLevelsModel__LevelDownloadingUpdate__DownloadingState;
-}
-namespace GlobalNamespace {
-struct __BeatmapLevelLoader__LoadBeatmapLevelResult;
-}
-namespace GlobalNamespace {
-struct EntitlementStatus;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
-}
 namespace UnityEngine {
 class AudioClip;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -354,14 +354,17 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelsModel__LevelDownloading
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 889 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 889 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(4352)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4361))
-// CS Name: ::BeatmapLevelsModel::<ReloadCustomLevelPackCollectionAsync>d__33
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 889 }), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(3394), inst: 889 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(4352))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4361)) CS
+// Name: ::BeatmapLevelsModel::<ReloadCustomLevelPackCollectionAsync>d__33
 struct CORDL_TYPE __BeatmapLevelsModel___ReloadCustomLevelPackCollectionAsync_d__33 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x2343fa0, size 0x20c, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -514,16 +517,19 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapLevels
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(4339)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880
-// }), TypeDefinitionIndex(TypeDefinitionIndex(4358)), TypeDefinitionIndex(TypeDefinitionIndex(15594)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 904 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 906 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 276 }), TypeDefinitionIndex(TypeDefinitionIndex(16270))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4364)) CS
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880
+// }), TypeDefinitionIndex(TypeDefinitionIndex(15594)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 904 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 906 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(4358)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 276 }), TypeDefinitionIndex(TypeDefinitionIndex(4339))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4364)) CS
 // Name: ::BeatmapLevelsModel::<GetBeatmapLevelAsync>d__39
 struct CORDL_TYPE __BeatmapLevelsModel___GetBeatmapLevelAsync_d__39 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x2344430, size 0x728, virtual true, abstract: false, final true
   inline void MoveNext();

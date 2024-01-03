@@ -9,10 +9,10 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System::Security::Claims {
-class ClaimsIdentity;
+class Claim;
 }
 namespace System::Security::Claims {
-class Claim;
+class ClaimsIdentity;
 }
 // Forward declare root types
 namespace System::Security::Principal {

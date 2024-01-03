@@ -9,7 +9,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputInteractionContext)
 namespace UnityEngine::InputSystem {
-struct __InputInteractionContext__Flags;
+struct InputActionPhase;
 }
 namespace UnityEngine::InputSystem {
 class InputActionState;
@@ -24,7 +24,7 @@ namespace UnityEngine::InputSystem {
 struct __InputActionState__TriggerState;
 }
 namespace UnityEngine::InputSystem {
-struct InputActionPhase;
+struct __InputInteractionContext__Flags;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -86,7 +86,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputInteractionContext__Fl
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6205)), TypeDefinitionIndex(TypeDefinitionIndex(6176))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6176)), TypeDefinitionIndex(TypeDefinitionIndex(6205))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6206))
 // CS Name: ::UnityEngine.InputSystem::InputInteractionContext
 struct CORDL_TYPE InputInteractionContext {
@@ -149,8 +149,7 @@ public:
   inline float_t ComputeMagnitude();
 
   /// @brief Method ControlIsActuated, addr 0x2a5dbc8, size 0xc, virtual false, abstract: false, final false
-  /// @param threshold: float_t (default: 0.0)
-  inline bool ControlIsActuated(float_t threshold = 0.0);
+  inline bool ControlIsActuated(float_t threshold);
 
   /// @brief Method Started, addr 0x2a5dbd4, size 0x38, virtual false, abstract: false, final false
   inline void Started();

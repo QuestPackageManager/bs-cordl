@@ -6,41 +6,41 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SP800SecureRandomBuilder)
-namespace Org::BouncyCastle::Crypto::Prng {
-class __SP800SecureRandomBuilder__HMacDrbgProvider;
-}
-namespace Org::BouncyCastle::Crypto::Prng {
-class __SP800SecureRandomBuilder__CtrDrbgProvider;
-}
-namespace Org::BouncyCastle::Crypto {
-class IEntropySourceProvider;
-}
-namespace Org::BouncyCastle::Crypto::Prng {
-class __SP800SecureRandomBuilder__HashDrbgProvider;
-}
-namespace Org::BouncyCastle::Crypto::Prng {
-class SP800SecureRandom;
-}
-namespace Org::BouncyCastle::Crypto {
-class IMac;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
-}
-namespace Org::BouncyCastle::Crypto {
-class IEntropySource;
-}
 namespace Org::BouncyCastle::Crypto::Prng::Drbg {
 class ISP80090Drbg;
 }
 namespace Org::BouncyCastle::Crypto::Prng {
 class IDrbgProvider;
+}
+namespace Org::BouncyCastle::Crypto::Prng {
+class SP800SecureRandom;
+}
+namespace Org::BouncyCastle::Crypto::Prng {
+class __SP800SecureRandomBuilder__CtrDrbgProvider;
+}
+namespace Org::BouncyCastle::Crypto::Prng {
+class __SP800SecureRandomBuilder__HMacDrbgProvider;
+}
+namespace Org::BouncyCastle::Crypto::Prng {
+class __SP800SecureRandomBuilder__HashDrbgProvider;
+}
+namespace Org::BouncyCastle::Crypto {
+class IBlockCipher;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
+}
+namespace Org::BouncyCastle::Crypto {
+class IEntropySourceProvider;
+}
+namespace Org::BouncyCastle::Crypto {
+class IEntropySource;
+}
+namespace Org::BouncyCastle::Crypto {
+class IMac;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Prng {
@@ -84,6 +84,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::IDrbgProvider"
   constexpr operator ::Org::BouncyCastle::Crypto::Prng::IDrbgProvider*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::IDrbgProvider"
+  constexpr ::Org::BouncyCastle::Crypto::Prng::IDrbgProvider* i___Org__BouncyCastle__Crypto__Prng__IDrbgProvider() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::IDigest*& __get_mDigest();
 
@@ -182,6 +185,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::IDrbgProvider"
   constexpr operator ::Org::BouncyCastle::Crypto::Prng::IDrbgProvider*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::IDrbgProvider"
+  constexpr ::Org::BouncyCastle::Crypto::Prng::IDrbgProvider* i___Org__BouncyCastle__Crypto__Prng__IDrbgProvider() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::IMac*& __get_mHMac();
 
@@ -283,6 +289,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::IDrbgProvider"
   constexpr operator ::Org::BouncyCastle::Crypto::Prng::IDrbgProvider*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::IDrbgProvider"
+  constexpr ::Org::BouncyCastle::Crypto::Prng::IDrbgProvider* i___Org__BouncyCastle__Crypto__Prng__IDrbgProvider() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& __get_mBlockCipher();
 

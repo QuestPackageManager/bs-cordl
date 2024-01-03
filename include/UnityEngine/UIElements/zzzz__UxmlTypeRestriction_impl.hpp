@@ -10,7 +10,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x2e0e688;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlTypeRestriction*>::get(),
@@ -25,7 +25,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2e0e694;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlTypeRestriction*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -33,6 +33,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::UxmlTypeRestriction*>"
 constexpr UnityEngine::UIElements::UxmlTypeRestriction::operator ::System::IEquatable_1<::UnityEngine::UIElements::UxmlTypeRestriction*>*() noexcept {
+  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::UxmlTypeRestriction*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::UxmlTypeRestriction*>"
+constexpr ::System::IEquatable_1<::UnityEngine::UIElements::UxmlTypeRestriction*>*
+UnityEngine::UIElements::UxmlTypeRestriction::i___System__IEquatable_1___UnityEngine__UIElements__UxmlTypeRestriction__() noexcept {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::UxmlTypeRestriction*>*>(static_cast<void*>(this));
 }
 inline bool UnityEngine::UIElements::UxmlTypeRestriction::Equals(::UnityEngine::UIElements::UxmlTypeRestriction* other) {

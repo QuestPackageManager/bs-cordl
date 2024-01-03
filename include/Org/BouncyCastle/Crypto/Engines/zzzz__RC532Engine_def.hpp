@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RC532Engine)
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -50,6 +50,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IBlockCipher*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
+  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* i___Org__BouncyCastle__Crypto__IBlockCipher() noexcept;
 
   constexpr int32_t& __get__noRounds();
 

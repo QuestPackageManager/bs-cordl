@@ -10,13 +10,13 @@ namespace Org::BouncyCastle::Asn1::X509 {
 class AttributeX509;
 }
 namespace Org::BouncyCastle::Asn1 {
+class Asn1EncodableVector;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1EncodableVector;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {

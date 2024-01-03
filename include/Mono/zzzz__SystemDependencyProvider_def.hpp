@@ -8,13 +8,13 @@ namespace Mono {
 class ISystemCertificateProvider;
 }
 namespace Mono {
-class X509PalImpl;
+class ISystemDependencyProvider;
 }
 namespace Mono {
 class SystemCertificateProvider;
 }
 namespace Mono {
-class ISystemDependencyProvider;
+class X509PalImpl;
 }
 namespace System {
 class Object;
@@ -52,6 +52,9 @@ public:
 
   /// @brief Convert operator to "::Mono::ISystemDependencyProvider"
   constexpr operator ::Mono::ISystemDependencyProvider*() noexcept;
+
+  /// @brief Convert to "::Mono::ISystemDependencyProvider"
+  constexpr ::Mono::ISystemDependencyProvider* i___Mono__ISystemDependencyProvider() noexcept;
 
   constexpr ::Mono::SystemCertificateProvider*& __get__CertificateProvider_k__BackingField();
 

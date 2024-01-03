@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BinaryConverter)
-namespace Newtonsoft::Json {
-class JsonSerializer;
-}
-namespace System {
-class Type;
+namespace Newtonsoft::Json::Utilities {
+class ReflectionObject;
 }
 namespace Newtonsoft::Json {
 class JsonReader;
 }
-namespace Newtonsoft::Json::Utilities {
-class ReflectionObject;
+namespace Newtonsoft::Json {
+class JsonSerializer;
 }
 namespace Newtonsoft::Json {
 class JsonWriter;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {

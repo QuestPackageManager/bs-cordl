@@ -11,25 +11,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HologramRays)
 namespace GlobalNamespace {
-class TubeBloomPrePassLight;
-}
-namespace UnityEngine {
-class MeshRenderer;
-}
-namespace GlobalNamespace {
 struct EaseType;
 }
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-class MaterialPropertyBlock;
-}
-namespace UnityEngine {
-class Mesh;
+namespace GlobalNamespace {
+class TubeBloomPrePassLight;
 }
 namespace GlobalNamespace {
 class __HologramRays___FadingCoroutine_d__28;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
 }
 namespace Tweening {
 class FloatTween;
@@ -37,17 +37,17 @@ class FloatTween;
 namespace Tweening {
 class TimeTweeningManager;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace UnityEngine {
+class MaterialPropertyBlock;
 }
-namespace System {
-class Object;
+namespace UnityEngine {
+class MeshRenderer;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace UnityEngine {
+class Mesh;
 }
-namespace System {
-class IDisposable;
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -94,11 +94,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -210,7 +219,7 @@ static_assert(offsetof(::GlobalNamespace::__HologramRays___FadingCoroutine_d__28
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 157, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5115))
 // CS Name: ::HologramRays*
 class CORDL_TYPE HologramRays : public ::UnityEngine::MonoBehaviour {

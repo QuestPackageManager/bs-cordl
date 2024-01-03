@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MissionGameplaySceneSetupData)
 namespace GlobalNamespace {
-struct BeatmapDifficulty;
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
 class GameplayModifiers;
 }
 namespace GlobalNamespace {
-class MissionObjective;
+class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+class MissionObjective;
 }
 // Forward declare root types
 namespace GlobalNamespace {

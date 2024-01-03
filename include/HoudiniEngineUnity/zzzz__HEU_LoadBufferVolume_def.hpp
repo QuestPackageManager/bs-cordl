@@ -12,16 +12,16 @@ namespace HoudiniEngineUnity {
 class HEU_DetailProperties;
 }
 namespace HoudiniEngineUnity {
-class HEU_VolumeScatterTrees;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class HEU_DetailPrototype;
 }
 namespace HoudiniEngineUnity {
 class HEU_LoadBufferVolumeLayer;
 }
 namespace HoudiniEngineUnity {
-class HEU_DetailPrototype;
+class HEU_VolumeScatterTrees;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

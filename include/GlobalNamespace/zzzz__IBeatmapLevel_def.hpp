@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IBeatmapLevel)
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class IBeatmapLevelData;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelData;
+class IPreviewBeatmapLevel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,6 +29,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IPreviewBeatmapLevel"
   constexpr operator ::GlobalNamespace::IPreviewBeatmapLevel*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IPreviewBeatmapLevel"
+  constexpr ::GlobalNamespace::IPreviewBeatmapLevel* i___GlobalNamespace__IPreviewBeatmapLevel() noexcept;
 
   /// @brief Method get_beatmapLevelData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();

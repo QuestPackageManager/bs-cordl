@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(MultiplayerCenterResizeController)
 namespace GlobalNamespace {
 class MultiplayerLayoutProvider;
 }
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
 struct MultiplayerPlayerLayout;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

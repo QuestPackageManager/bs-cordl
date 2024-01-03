@@ -2,7 +2,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__OVRSpace_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -10,47 +9,47 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRAnchor)
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__SpaceComponentType;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace System {
-class Object;
-}
-namespace System {
-struct Guid;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__SpaceQueryInfo;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace GlobalNamespace {
 template <typename TResult> struct OVRTask_1;
 }
 namespace GlobalNamespace {
+struct __OVRDeserialize__SpaceQueryCompleteData;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__SpaceComponentType;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__SpaceQueryInfo;
+}
+namespace GlobalNamespace {
 struct __OVRSpace__StorageLocation;
 }
-namespace UnityEngine {
-class Camera;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
-namespace GlobalNamespace {
-struct __OVRDeserialize__SpaceQueryCompleteData;
+namespace System {
+struct Guid;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine {
+class Camera;
 }
 namespace UnityEngine {
 struct Pose;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -62,7 +61,7 @@ MARK_VAL_T(::GlobalNamespace::OVRAnchor);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7990)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7510))
 // CS Name: ::OVRAnchor
 struct CORDL_TYPE OVRAnchor {
@@ -78,8 +77,14 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::OVRAnchor>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::OVRAnchor>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::OVRAnchor>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::OVRAnchor>* i___System__IEquatable_1___GlobalNamespace__OVRAnchor_();
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   static inline void setStaticF_Null(::GlobalNamespace::OVRAnchor value);
 
@@ -94,29 +99,19 @@ public:
                                                                             ::GlobalNamespace::__OVRSpace__StorageLocation location, double_t timeout);
 
   /// @brief Method FetchAnchorsAsync, addr 0x2710fa8, size 0xdc, virtual false, abstract: false, final false
-  /// @param location: ::GlobalNamespace::__OVRSpace__StorageLocation (default: static_cast<int32_t>(0x0))
-  /// @param maxResults: int32_t (default: static_cast<int32_t>(0x400))
-  /// @param timeout: double_t (default: 0.0)
   static inline ::GlobalNamespace::OVRTask_1<bool> FetchAnchorsAsync(::GlobalNamespace::__OVRPlugin__SpaceComponentType type,
                                                                      ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>* anchors,
-                                                                     ::GlobalNamespace::__OVRSpace__StorageLocation location = static_cast<int32_t>(0x0),
-                                                                     int32_t maxResults = static_cast<int32_t>(0x400), double_t timeout = 0.0);
+                                                                     ::GlobalNamespace::__OVRSpace__StorageLocation location, int32_t maxResults, double_t timeout);
 
   /// @brief Method FetchAnchorsAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param location: ::GlobalNamespace::__OVRSpace__StorageLocation (default: static_cast<int32_t>(0x0))
-  /// @param maxResults: int32_t (default: static_cast<int32_t>(0x400))
-  /// @param timeout: double_t (default: 0.0)
   template <typename T>
   static inline ::GlobalNamespace::OVRTask_1<bool> FetchAnchorsAsync(::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>* anchors,
-                                                                     ::GlobalNamespace::__OVRSpace__StorageLocation location = static_cast<int32_t>(0x0),
-                                                                     int32_t maxResults = static_cast<int32_t>(0x400), double_t timeout = 0.0);
+                                                                     ::GlobalNamespace::__OVRSpace__StorageLocation location, int32_t maxResults, double_t timeout);
 
   /// @brief Method FetchAnchorsAsync, addr 0x2711254, size 0x14c, virtual false, abstract: false, final false
-  /// @param location: ::GlobalNamespace::__OVRSpace__StorageLocation (default: static_cast<int32_t>(0x0))
-  /// @param timeout: double_t (default: 0.0)
   static inline ::GlobalNamespace::OVRTask_1<bool> FetchAnchorsAsync(::System::Collections::Generic::IEnumerable_1<::System::Guid>* uuids,
                                                                      ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>* anchors,
-                                                                     ::GlobalNamespace::__OVRSpace__StorageLocation location = static_cast<int32_t>(0x0), double_t timeout = 0.0);
+                                                                     ::GlobalNamespace::__OVRSpace__StorageLocation location, double_t timeout);
 
   /// @brief Method FetchAnchors, addr 0x2711084, size 0x1d0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<bool> FetchAnchors(::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>* anchors,

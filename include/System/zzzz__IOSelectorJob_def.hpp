@@ -5,9 +5,6 @@ CORDL_MODULE_INIT
 #include "System/zzzz__IOOperation_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(IOSelectorJob)
-namespace System {
-struct IOOperation;
-}
 namespace System::Threading {
 class IThreadPoolWorkItem;
 }
@@ -15,10 +12,13 @@ namespace System::Threading {
 class ThreadAbortException;
 }
 namespace System {
+class IOAsyncCallback;
+}
+namespace System {
 class IOAsyncResult;
 }
 namespace System {
-class IOAsyncCallback;
+struct IOOperation;
 }
 // Forward declare root types
 namespace System {
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::System::IOSelectorJob);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8893)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8893))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8896))
 // CS Name: ::System::IOSelectorJob*
 class CORDL_TYPE IOSelectorJob : public ::System::Object {
@@ -47,6 +47,9 @@ public:
 
   /// @brief Convert operator to "::System::Threading::IThreadPoolWorkItem"
   constexpr operator ::System::Threading::IThreadPoolWorkItem*() noexcept;
+
+  /// @brief Convert to "::System::Threading::IThreadPoolWorkItem"
+  constexpr ::System::Threading::IThreadPoolWorkItem* i___System__Threading__IThreadPoolWorkItem() noexcept;
 
   constexpr ::System::IOOperation& __get_operation();
 

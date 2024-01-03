@@ -8,16 +8,16 @@ namespace GlobalNamespace {
 class FireworksController;
 }
 namespace GlobalNamespace {
-class MainMenuViewController;
-}
-namespace GlobalNamespace {
-struct __MainMenuViewController__MenuButton;
-}
-namespace GlobalNamespace {
 class IBeatmapLevelPack;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+class MainMenuViewController;
+}
+namespace GlobalNamespace {
+struct __MainMenuViewController__MenuButton;
 }
 // Forward declare root types
 namespace GlobalNamespace {

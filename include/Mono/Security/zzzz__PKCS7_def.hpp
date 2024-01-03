@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PKCS7)
-namespace Mono::Security {
-class __PKCS7__SignedData;
+namespace Mono::Security::X509 {
+class X509CertificateCollection;
 }
 namespace Mono::Security {
-class __PKCS7__SignerInfo;
+class ASN1;
 }
 namespace Mono::Security {
 class __PKCS7__ContentInfo;
@@ -20,10 +20,10 @@ namespace Mono::Security {
 class __PKCS7__EncryptedData;
 }
 namespace Mono::Security {
-class ASN1;
+class __PKCS7__SignedData;
 }
-namespace Mono::Security::X509 {
-class X509CertificateCollection;
+namespace Mono::Security {
+class __PKCS7__SignerInfo;
 }
 namespace System::Collections {
 class ArrayList;

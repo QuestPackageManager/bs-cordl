@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__LightGroupSubsystem_impl.hpp"
 #include "GlobalNamespace/zzzz__LightTransformGroup_3_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 template <typename TX, typename TY, typename TZ> constexpr bool& GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>::__get__mirrorX() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirrorX;

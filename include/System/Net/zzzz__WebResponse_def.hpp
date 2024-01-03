@@ -4,11 +4,8 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__MarshalByRefObject_def.hpp"
 CORDL_MODULE_EXPORT(WebResponse)
-namespace System {
-class Uri;
-}
-namespace System {
-class IDisposable;
+namespace System::IO {
+class Stream;
 }
 namespace System::Net {
 class WebHeaderCollection;
@@ -19,11 +16,14 @@ class ISerializable;
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
-namespace System::IO {
-class Stream;
-}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Uri;
 }
 // Forward declare root types
 namespace System::Net {
@@ -53,8 +53,14 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr bool& __get_m_IsFromCache();
 

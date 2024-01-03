@@ -12,20 +12,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Finger)
-namespace UnityEngine {
-class Transform;
-}
 namespace RootMotion::FinalIK {
 class IKSolverLimb;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace RootMotion::FinalIK {
+struct __Finger__DOF;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace RootMotion::FinalIK {
-struct __Finger__DOF;
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -91,8 +91,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__Finger__DOF, value__) == 0x0, "O
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12514)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10252)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12515)) CS Name: ::RootMotion.FinalIK::Finger*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12514))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12515)) CS Name: ::RootMotion.FinalIK::Finger*
 class CORDL_TYPE Finger : public ::System::Object {
 public:
   // Declarations

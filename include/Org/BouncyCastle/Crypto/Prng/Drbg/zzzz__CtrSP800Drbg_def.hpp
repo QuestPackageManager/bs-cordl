@@ -10,10 +10,10 @@ namespace Org::BouncyCastle::Crypto::Prng::Drbg {
 class ISP80090Drbg;
 }
 namespace Org::BouncyCastle::Crypto {
-class IEntropySource;
+class IBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
+class IEntropySource;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Prng::Drbg {
@@ -77,6 +77,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg"
   constexpr operator ::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg"
+  constexpr ::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg* i___Org__BouncyCastle__Crypto__Prng__Drbg__ISP80090Drbg() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::IEntropySource*& __get_mEntropySource();
 

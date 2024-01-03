@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DownloadHandlerAssetBundle)
 namespace UnityEngine {
-struct CachedAssetBundle;
+class AssetBundle;
 }
 namespace UnityEngine {
-class AssetBundle;
+struct CachedAssetBundle;
 }
 namespace UnityEngine {
 struct Hash128;

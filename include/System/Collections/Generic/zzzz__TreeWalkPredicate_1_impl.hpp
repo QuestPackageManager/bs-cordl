@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Collections/Generic/zzzz__TreeWalkPredicate_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Collections/Generic/zzzz__SortedSet_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 template <typename T> inline ::System::Collections::Generic::TreeWalkPredicate_1<T>* System::Collections::Generic::TreeWalkPredicate_1<T>::New_ctor(::System::Object* object, void* method) {
   return THROW_UNLESS(::il2cpp_utils::New<::System::Collections::Generic::TreeWalkPredicate_1<T>*>(object, method));
 }

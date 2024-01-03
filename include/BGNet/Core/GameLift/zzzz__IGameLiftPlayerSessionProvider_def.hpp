@@ -4,26 +4,26 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IGameLiftPlayerSessionProvider)
-namespace GlobalNamespace {
-class IPollable;
-}
-namespace GlobalNamespace {
-struct BeatmapLevelSelectionMask;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace GlobalNamespace {
-struct GameplayServerConfiguration;
-}
 namespace BGNet::Core::GameLift {
 class PlayerSessionInfo;
 }
 namespace GlobalNamespace {
+struct BeatmapLevelSelectionMask;
+}
+namespace GlobalNamespace {
+struct GameplayServerConfiguration;
+}
+namespace GlobalNamespace {
 class IAuthenticationTokenProvider;
+}
+namespace GlobalNamespace {
+class IPollable;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 // Forward declare root types
 namespace BGNet::Core::GameLift {
@@ -43,6 +43,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::GlobalNamespace::IPollable"
   constexpr operator ::GlobalNamespace::IPollable*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IPollable"
+  constexpr ::GlobalNamespace::IPollable* i___GlobalNamespace__IPollable() noexcept;
 
   /// @brief Method GetGameLiftPlayerSessionInfo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::BGNet::Core::GameLift::PlayerSessionInfo*>*

@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/Remoting/Activation/zzzz__RemoteActivationAttribute_def.hpp"
-#include "System/Runtime/Remoting/Contexts/zzzz__Context_def.hpp"
-#include "System/Runtime/Remoting/Activation/zzzz__IConstructionCallMessage_def.hpp"
-#include "System/Runtime/Remoting/Contexts/zzzz__IContextAttribute_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
+#include "System/Runtime/Remoting/Activation/zzzz__IConstructionCallMessage_def.hpp"
+#include "System/Runtime/Remoting/Contexts/zzzz__Context_def.hpp"
+#include "System/Runtime/Remoting/Contexts/zzzz__IContextAttribute_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Activation::RemoteActivationAttribute._ctor
 template <>
 
@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x24a53b8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Activation::RemoteActivationAttribute*>::get(), ".ctor",
                                     std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::IList*>::get() })));
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x24a53e0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Activation::RemoteActivationAttribute*>::get(), "IsContextOK", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Contexts::Context*>::get(),
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x3e8;
   constexpr static std::size_t addrs = 0x24a53e8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Activation::RemoteActivationAttribute*>::get(), "GetPropertiesForNewContext", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Activation::IConstructionCallMessage*>::get() })));
@@ -54,6 +54,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::System::Runtime::Remoting::Contexts::IContextAttribute"
 constexpr System::Runtime::Remoting::Activation::RemoteActivationAttribute::operator ::System::Runtime::Remoting::Contexts::IContextAttribute*() noexcept {
+  return static_cast<::System::Runtime::Remoting::Contexts::IContextAttribute*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Remoting::Contexts::IContextAttribute"
+constexpr ::System::Runtime::Remoting::Contexts::IContextAttribute*
+System::Runtime::Remoting::Activation::RemoteActivationAttribute::i___System__Runtime__Remoting__Contexts__IContextAttribute() noexcept {
   return static_cast<::System::Runtime::Remoting::Contexts::IContextAttribute*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::IList*& System::Runtime::Remoting::Activation::RemoteActivationAttribute::__get__contextProperties() {

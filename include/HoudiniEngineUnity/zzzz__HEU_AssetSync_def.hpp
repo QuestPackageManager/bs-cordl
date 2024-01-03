@@ -8,34 +8,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_AssetSync)
 namespace HoudiniEngineUnity {
+class HEU_SessionBase;
+}
+namespace HoudiniEngineUnity {
 class HEU_ThreadedTaskLoadGeo;
 }
 namespace HoudiniEngineUnity {
 class __HEU_AssetSync__AssetSyncCallback;
 }
 namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
-namespace UnityEngine {
-struct Vector3;
+class __HEU_ThreadedTaskLoadGeo__HEU_LoadCallback;
 }
 namespace HoudiniEngineUnity {
 class __HEU_ThreadedTaskLoadGeo__HEU_LoadData;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace HoudiniEngineUnity {
-class __HEU_ThreadedTaskLoadGeo__HEU_LoadCallback;
-}
-namespace System {
-class IAsyncResult;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System {
+class IAsyncResult;
+}
+namespace System {
 class Object;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

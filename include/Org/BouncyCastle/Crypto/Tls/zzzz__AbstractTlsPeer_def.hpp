@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AbstractTlsPeer)
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsPeer;
+class TlsCipher;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCloseable;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCompression;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipher;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCloseable;
+class TlsPeer;
 }
 namespace System {
 class Exception;
@@ -42,6 +42,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsPeer"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsPeer*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsPeer"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsPeer* i___Org__BouncyCastle__Crypto__Tls__TlsPeer() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCloseable*& __get_mCloseHandle();
 

@@ -6,9 +6,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(RemotingProxy)
-namespace System::Runtime::Remoting {
-class Identity;
-}
 namespace System::Reflection {
 class MethodInfo;
 }
@@ -18,23 +15,26 @@ class ConstructionCall;
 namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;
 }
-namespace System {
-class Type;
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMethodMessage;
 }
-namespace System {
-class Object;
+namespace System::Runtime::Remoting {
+class ClientIdentity;
 }
 namespace System::Runtime::Remoting {
 class IRemotingTypeInfo;
 }
 namespace System::Runtime::Remoting {
-class ClientIdentity;
+class Identity;
 }
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Proxies {
@@ -71,6 +71,9 @@ public:
 
   /// @brief Convert operator to "::System::Runtime::Remoting::IRemotingTypeInfo"
   constexpr operator ::System::Runtime::Remoting::IRemotingTypeInfo*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Remoting::IRemotingTypeInfo"
+  constexpr ::System::Runtime::Remoting::IRemotingTypeInfo* i___System__Runtime__Remoting__IRemotingTypeInfo() noexcept;
 
   constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __get__sink();
 

@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ParsingInfo)
-namespace System {
-struct __DateTimeParse__TM;
-}
 namespace System::Globalization {
 class Calendar;
 }
 namespace System {
 class __DateTimeParse__MatchNumberDelegate;
+}
+namespace System {
+struct __DateTimeParse__TM;
 }
 // Forward declare root types
 namespace System {

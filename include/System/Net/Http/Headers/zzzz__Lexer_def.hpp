@@ -9,17 +9,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Lexer)
+namespace System::Net::Http::Headers {
+struct Token;
+}
 namespace System {
-struct TimeSpan;
+struct DateTimeOffset;
 }
 namespace System {
 template <typename T> struct Nullable_1;
 }
 namespace System {
-struct DateTimeOffset;
-}
-namespace System::Net::Http::Headers {
-struct Token;
+struct TimeSpan;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -138,8 +138,7 @@ public:
   inline bool ScanCommentOptional(ByRef<::StringW> value, ByRef<::System::Net::Http::Headers::Token> readToken);
 
   /// @brief Method Scan, addr 0x2834d6c, size 0x2f4, virtual false, abstract: false, final false
-  /// @param recognizeDash: bool (default: false)
-  inline ::System::Net::Http::Headers::Token Scan(bool recognizeDash = false);
+  inline ::System::Net::Http::Headers::Token Scan(bool recognizeDash);
 
   // Ctor Parameters [CppParam { name: "", ty: "Lexer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

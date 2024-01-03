@@ -7,29 +7,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MobileTlsProvider)
-namespace System::Net::Security {
-class SslStream;
-}
 namespace Mono::Net::Security {
 class ChainValidationHelper;
+}
+namespace Mono::Net::Security {
+class MobileAuthenticatedStream;
 }
 namespace Mono::Security::Interface {
 class MonoTlsSettings;
 }
+namespace System::IO {
+class Stream;
+}
 namespace System::Net::Security {
 struct SslPolicyErrors;
 }
-namespace System::Security::Cryptography::X509Certificates {
-class X509Chain;
+namespace System::Net::Security {
+class SslStream;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateCollection;
 }
-namespace System::IO {
-class Stream;
-}
-namespace Mono::Net::Security {
-class MobileAuthenticatedStream;
+namespace System::Security::Cryptography::X509Certificates {
+class X509Chain;
 }
 // Forward declare root types
 namespace Mono::Net::Security {

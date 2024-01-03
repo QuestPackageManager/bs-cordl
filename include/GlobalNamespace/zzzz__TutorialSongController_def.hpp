@@ -13,22 +13,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TutorialSongController)
 namespace GlobalNamespace {
-class __TutorialSongController__TutorialJumpingNoteSpawnData;
-}
-namespace GlobalNamespace {
-class Signal;
-}
-namespace GlobalNamespace {
-class __TutorialSongController__TutorialObjectSpawnData;
-}
-namespace GlobalNamespace {
-class ObstacleController;
-}
-namespace GlobalNamespace {
-class __TutorialSongController__TutorialBombNoteSpawnData;
-}
-namespace GlobalNamespace {
-class ObstacleData;
+class AudioTimeSyncController;
 }
 namespace GlobalNamespace {
 class BeatmapData;
@@ -37,34 +22,49 @@ namespace GlobalNamespace {
 class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
-class AudioTimeSyncController;
-}
-namespace GlobalNamespace {
-class __TutorialSongController__InitData;
+struct ColorType;
 }
 namespace GlobalNamespace {
 class NoteController;
 }
 namespace GlobalNamespace {
-class NoteData;
+struct NoteCutDirection;
 }
 namespace GlobalNamespace {
 struct NoteCutInfo;
 }
 namespace GlobalNamespace {
-class __TutorialSongController__TutorialObstacleSpawnData;
-}
-namespace GlobalNamespace {
-class __TutorialSongController__TutorialBasicNoteSpawnData;
+class NoteData;
 }
 namespace GlobalNamespace {
 struct NoteLineLayer;
 }
 namespace GlobalNamespace {
-struct NoteCutDirection;
+class ObstacleController;
 }
 namespace GlobalNamespace {
-struct ColorType;
+class ObstacleData;
+}
+namespace GlobalNamespace {
+class Signal;
+}
+namespace GlobalNamespace {
+class __TutorialSongController__InitData;
+}
+namespace GlobalNamespace {
+class __TutorialSongController__TutorialBasicNoteSpawnData;
+}
+namespace GlobalNamespace {
+class __TutorialSongController__TutorialBombNoteSpawnData;
+}
+namespace GlobalNamespace {
+class __TutorialSongController__TutorialJumpingNoteSpawnData;
+}
+namespace GlobalNamespace {
+class __TutorialSongController__TutorialObjectSpawnData;
+}
+namespace GlobalNamespace {
+class __TutorialSongController__TutorialObstacleSpawnData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -304,7 +304,7 @@ static_assert(offsetof(::GlobalNamespace::__TutorialSongController__TutorialJump
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14752)), TypeDefinitionIndex(TypeDefinitionIndex(14755)), TypeDefinitionIndex(TypeDefinitionIndex(5346))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14755)), TypeDefinitionIndex(TypeDefinitionIndex(5346)), TypeDefinitionIndex(TypeDefinitionIndex(14752))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5347))
 // CS Name: ::TutorialSongController::TutorialBasicNoteSpawnData*
 class CORDL_TYPE __TutorialSongController__TutorialBasicNoteSpawnData : public ::GlobalNamespace::__TutorialSongController__TutorialJumpingNoteSpawnData {
@@ -406,7 +406,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__TutorialSongC
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(5345))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5345)), TypeDefinitionIndex(TypeDefinitionIndex(14760))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5349))
 // CS Name: ::TutorialSongController::TutorialObstacleSpawnData*
 class CORDL_TYPE __TutorialSongController__TutorialObstacleSpawnData : public ::GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData {
@@ -725,8 +725,7 @@ public:
   inline void OnDestroy();
 
   /// @brief Method StartSong, addr 0x226a38c, size 0x5c, virtual false, abstract: false, final false
-  /// @param startTimeOffset: float_t (default: 0.0)
-  inline void StartSong(float_t startTimeOffset = 0.0);
+  inline void StartSong(float_t startTimeOffset);
 
   /// @brief Method StopSong, addr 0x226b9dc, size 0x28, virtual true, abstract: false, final false
   inline void StopSong();

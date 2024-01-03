@@ -7,12 +7,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PreviewBeatmapLevelPackSO)
 namespace GlobalNamespace {
-class PreviewBeatmapLevelCollectionSO;
-}
-namespace UnityEngine {
-class Sprite;
-}
-namespace GlobalNamespace {
 class IAnnotatedBeatmapLevelCollection;
 }
 namespace GlobalNamespace {
@@ -23,6 +17,12 @@ class IBeatmapLevelPack;
 }
 namespace GlobalNamespace {
 struct PlayerSensitivityFlag;
+}
+namespace GlobalNamespace {
+class PreviewBeatmapLevelCollectionSO;
+}
+namespace UnityEngine {
+class Sprite;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -80,8 +80,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBeatmapLevelPack"
   constexpr operator ::GlobalNamespace::IBeatmapLevelPack*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IBeatmapLevelPack"
+  constexpr ::GlobalNamespace::IBeatmapLevelPack* i___GlobalNamespace__IBeatmapLevelPack() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IAnnotatedBeatmapLevelCollection"
   constexpr operator ::GlobalNamespace::IAnnotatedBeatmapLevelCollection*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IAnnotatedBeatmapLevelCollection"
+  constexpr ::GlobalNamespace::IAnnotatedBeatmapLevelCollection* i___GlobalNamespace__IAnnotatedBeatmapLevelCollection() noexcept;
 
   constexpr ::StringW& __get__packID();
 

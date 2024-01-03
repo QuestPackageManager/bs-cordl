@@ -8,23 +8,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScrollViewItemsVisibilityController)
-namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine {
-struct Vector3;
-}
 namespace HMUI {
 class ScrollViewItemForVisibilityController;
-}
-namespace System {
-template <typename T1, typename T2> class Tuple_2;
 }
 namespace HMUI {
 class __ScrollViewItemsVisibilityController____c;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+template <typename T1, typename T2> class Tuple_2;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace HMUI {

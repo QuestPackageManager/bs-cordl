@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TraceInternal)
-namespace System {
-class Object;
-}
 namespace System::Diagnostics {
 class TraceListenerCollection;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Diagnostics {

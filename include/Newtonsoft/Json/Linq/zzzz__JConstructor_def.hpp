@@ -7,26 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(JConstructor)
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace Newtonsoft::Json {
-class JsonWriter;
-}
 namespace Newtonsoft::Json::Linq {
-class JsonMergeSettings;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+struct JTokenType;
 }
 namespace Newtonsoft::Json::Linq {
 class JToken;
 }
-namespace System {
-class Object;
+namespace Newtonsoft::Json::Linq {
+class JsonLoadSettings;
 }
 namespace Newtonsoft::Json::Linq {
-struct JTokenType;
+class JsonMergeSettings;
 }
 namespace Newtonsoft::Json {
 class JsonConverter;
@@ -34,8 +25,17 @@ class JsonConverter;
 namespace Newtonsoft::Json {
 class JsonReader;
 }
-namespace Newtonsoft::Json::Linq {
-class JsonLoadSettings;
+namespace Newtonsoft::Json {
+class JsonWriter;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {

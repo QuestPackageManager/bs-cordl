@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ICertificatePolicy)
 namespace System::Net {
+class ServicePoint;
+}
+namespace System::Net {
 class WebRequest;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
-}
-namespace System::Net {
-class ServicePoint;
 }
 // Forward declare root types
 namespace System::Net {

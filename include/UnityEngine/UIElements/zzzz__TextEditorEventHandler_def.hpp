@@ -8,10 +8,10 @@ namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
-class TextEditorEngine;
+class ITextInputField;
 }
 namespace UnityEngine::UIElements {
-class ITextInputField;
+class TextEditorEngine;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

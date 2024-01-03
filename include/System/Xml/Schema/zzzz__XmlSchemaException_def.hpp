@@ -7,8 +7,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlSchemaException)
-namespace System {
-class Exception;
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
@@ -16,8 +16,8 @@ struct StreamingContext;
 namespace System::Xml::Schema {
 class XmlSchemaObject;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

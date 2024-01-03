@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleMatchingContext)
-namespace UnityEngine::UIElements {
-class StyleSheet;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::UIElements::StyleSheets {
+struct MatchResultInfo;
+}
+namespace UnityEngine::UIElements {
+class StyleSheet;
 }
 namespace UnityEngine::UIElements {
 class StyleVariableContext;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct MatchResultInfo;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

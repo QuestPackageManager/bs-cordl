@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AvatarSyncMessageCounterManager)
-namespace System {
-struct TimeSpan;
+namespace GlobalNamespace {
+class AvatarSyncMessageCounter;
 }
 namespace GlobalNamespace {
 struct __AvatarSyncMessageCounterManager__MessageType;
 }
-namespace GlobalNamespace {
-class AvatarSyncMessageCounter;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System {
+struct TimeSpan;
 }
 // Forward declare root types
 namespace GlobalNamespace {

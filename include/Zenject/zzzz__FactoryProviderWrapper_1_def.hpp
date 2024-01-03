@@ -12,9 +12,6 @@ namespace Zenject {
 template <typename TValue> class IFactory_1;
 }
 namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
 class IFactory;
 }
 namespace Zenject {
@@ -22,6 +19,9 @@ class IProvider;
 }
 namespace Zenject {
 class InjectContext;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -50,8 +50,14 @@ public:
   /// @brief Convert operator to "::Zenject::IFactory_1<TContract>"
   constexpr operator ::Zenject::IFactory_1<TContract>*() noexcept;
 
+  /// @brief Convert to "::Zenject::IFactory_1<TContract>"
+  constexpr ::Zenject::IFactory_1<TContract>* i___Zenject__IFactory_1_TContract_() noexcept;
+
   /// @brief Convert operator to "::Zenject::IFactory"
   constexpr operator ::Zenject::IFactory*() noexcept;
+
+  /// @brief Convert to "::Zenject::IFactory"
+  constexpr ::Zenject::IFactory* i___Zenject__IFactory() noexcept;
 
   constexpr ::Zenject::IProvider*& __get__provider();
 

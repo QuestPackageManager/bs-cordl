@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DesEdeWrapEngine)
+namespace Org::BouncyCastle::Crypto::Modes {
+class CbcBlockCipher;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
+}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ParametersWithIV;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
-}
-namespace Org::BouncyCastle::Crypto {
 class IWrapper;
-}
-namespace Org::BouncyCastle::Crypto::Modes {
-class CbcBlockCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -69,6 +69,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IWrapper"
   constexpr operator ::Org::BouncyCastle::Crypto::IWrapper*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IWrapper"
+  constexpr ::Org::BouncyCastle::Crypto::IWrapper* i___Org__BouncyCastle__Crypto__IWrapper() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher*& __get_engine();
 

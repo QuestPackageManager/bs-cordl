@@ -9,44 +9,53 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Task)
-namespace System::Threading {
-class ContextCallback;
-}
-namespace System {
-class Action;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System {
-struct TimeSpan;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System {
-template <typename T> class Predicate_1;
+namespace System::Collections::Generic {
+template <typename T> class LowLevelListWithIList_1;
 }
-namespace System::Threading {
-class ThreadAbortException;
+namespace System::Collections::ObjectModel {
+template <typename T> class ReadOnlyCollection_1;
 }
-namespace System::Threading::Tasks {
-class __Task__DelayPromise;
+namespace System::Runtime::CompilerServices {
+struct ConfiguredTaskAwaitable;
 }
-namespace System::Threading::Tasks {
-template <typename T> class __Task__WhenAllPromise_1;
+namespace System::Runtime::CompilerServices {
+struct TaskAwaiter;
 }
-namespace System::Threading::Tasks {
-class __Task____c;
+namespace System::Runtime::CompilerServices {
+struct YieldAwaitable;
 }
-namespace System::Threading {
-class WaitHandle;
-}
-namespace System {
-template <typename TResult> class Func_1;
+namespace System::Runtime::ExceptionServices {
+class ExceptionDispatchInfo;
 }
 namespace System::Threading::Tasks {
-class __Task__ContingentProperties;
+class ITaskCompletionAction;
+}
+namespace System::Threading::Tasks {
+struct InternalTaskOptions;
+}
+namespace System::Threading::Tasks {
+class StackGuard;
+}
+namespace System::Threading::Tasks {
+struct TaskContinuationOptions;
+}
+namespace System::Threading::Tasks {
+class TaskContinuation;
+}
+namespace System::Threading::Tasks {
+struct TaskCreationOptions;
+}
+namespace System::Threading::Tasks {
+class TaskExceptionHolder;
+}
+namespace System::Threading::Tasks {
+class TaskFactory;
 }
 namespace System::Threading::Tasks {
 class TaskScheduler;
@@ -54,98 +63,89 @@ class TaskScheduler;
 namespace System::Threading::Tasks {
 struct TaskStatus;
 }
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Threading {
-class ExecutionContext;
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace System::Threading::Tasks {
-class TaskFactory;
+class __Task__ContingentProperties;
 }
-namespace System::Threading {
-class ManualResetEventSlim;
+namespace System::Threading::Tasks {
+class __Task__DelayPromise;
 }
-namespace System::Collections::ObjectModel {
-template <typename T> class ReadOnlyCollection_1;
+namespace System::Threading::Tasks {
+class __Task__SetOnInvokeMres;
+}
+namespace System::Threading::Tasks {
+template <typename T> class __Task__WhenAllPromise_1;
 }
 namespace System::Threading::Tasks {
 class __Task__WhenAllPromise;
 }
 namespace System::Threading::Tasks {
-struct TaskCreationOptions;
+class __Task____c;
 }
-namespace System::Threading::Tasks {
-struct InternalTaskOptions;
+namespace System::Threading {
+struct CancellationToken;
 }
-namespace System::Threading::Tasks {
-class TaskContinuation;
+namespace System::Threading {
+class ContextCallback;
 }
-namespace System::Threading::Tasks {
-class ITaskCompletionAction;
-}
-namespace System {
-class IAsyncResult;
-}
-namespace System::Threading::Tasks {
-class StackGuard;
+namespace System::Threading {
+class ExecutionContext;
 }
 namespace System::Threading {
 class IThreadPoolWorkItem;
 }
-namespace System {
-class IDisposable;
+namespace System::Threading {
+class ManualResetEventSlim;
 }
-namespace System::Threading::Tasks {
-class __Task__SetOnInvokeMres;
+namespace System::Threading {
+class ThreadAbortException;
 }
-namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
+namespace System::Threading {
+class TimerCallback;
 }
-namespace System {
-class AggregateException;
-}
-namespace System::Runtime::CompilerServices {
-struct ConfiguredTaskAwaitable;
-}
-namespace System::Runtime::CompilerServices {
-struct YieldAwaitable;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace System::Threading {
+class WaitHandle;
 }
 namespace System {
-class Exception;
-}
-namespace System::Threading::Tasks {
-struct TaskContinuationOptions;
+template <typename T> class Action_1;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace System {
-class OperationCanceledException;
+class Action;
 }
-namespace System::Runtime::ExceptionServices {
-class ExceptionDispatchInfo;
+namespace System {
+class AggregateException;
 }
 namespace System {
 class Delegate;
 }
 namespace System {
+class Exception;
+}
+namespace System {
+template <typename TResult> class Func_1;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
 class Object;
 }
-namespace System::Threading::Tasks {
-class TaskExceptionHolder;
+namespace System {
+class OperationCanceledException;
 }
-namespace System::Collections::Generic {
-template <typename T> class LowLevelListWithIList_1;
+namespace System {
+template <typename T> class Predicate_1;
 }
-namespace System::Threading {
-class TimerCallback;
+namespace System {
+struct TimeSpan;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
@@ -333,6 +333,9 @@ public:
 
   /// @brief Convert operator to "::System::Threading::Tasks::ITaskCompletionAction"
   constexpr operator ::System::Threading::Tasks::ITaskCompletionAction*() noexcept;
+
+  /// @brief Convert to "::System::Threading::Tasks::ITaskCompletionAction"
+  constexpr ::System::Threading::Tasks::ITaskCompletionAction* i___System__Threading__Tasks__ITaskCompletionAction() noexcept;
 
   static inline ::System::Threading::Tasks::__Task__SetOnInvokeMres* New_ctor();
 
@@ -579,11 +582,20 @@ public:
   /// @brief Convert operator to "::System::Threading::IThreadPoolWorkItem"
   constexpr operator ::System::Threading::IThreadPoolWorkItem*() noexcept;
 
+  /// @brief Convert to "::System::Threading::IThreadPoolWorkItem"
+  constexpr ::System::Threading::IThreadPoolWorkItem* i___System__Threading__IThreadPoolWorkItem() noexcept;
+
   /// @brief Convert operator to "::System::IAsyncResult"
   constexpr operator ::System::IAsyncResult*() noexcept;
 
+  /// @brief Convert to "::System::IAsyncResult"
+  constexpr ::System::IAsyncResult* i___System__IAsyncResult() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get_m_taskId();
 

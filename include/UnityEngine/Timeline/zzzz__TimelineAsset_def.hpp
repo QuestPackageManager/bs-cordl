@@ -13,95 +13,95 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimelineAsset)
-namespace UnityEngine::Timeline {
-struct __TimelineAsset__MediaType;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
-namespace UnityEngine::Timeline {
-class TrackAsset;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
-}
-namespace UnityEngine::Timeline {
-struct ClipCaps;
-}
-namespace UnityEngine::Playables {
-struct Playable;
-}
-namespace UnityEngine::Timeline {
-struct DiscreteTime;
-}
-namespace UnityEngine::Playables {
-class PlayableDirector;
-}
-namespace UnityEngine::Timeline {
-class IPropertyCollector;
-}
-namespace UnityEngine::Timeline {
-class TimelineClip;
-}
-namespace UnityEngine::Timeline {
-class __TimelineAsset__TimelineAssetUpgrade;
-}
-namespace UnityEngine::Timeline {
-class MarkerTrack;
-}
-namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
-namespace UnityEngine {
-class ScriptableObject;
-}
-namespace UnityEngine::Timeline {
-class __TimelineAsset___get_outputs_d__27;
-}
-namespace UnityEngine::Timeline {
-struct __TimelineAsset__Versions;
-}
-namespace UnityEngine::Timeline {
-struct __TimelineAsset__DurationMode;
-}
-namespace UnityEngine::Timeline {
-class IPropertyPreview;
-}
-namespace UnityEngine::Playables {
-struct PlayableBinding;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::Timeline {
-class __TimelineAsset__EditorSettings;
-}
-namespace System {
-class Type;
-}
-namespace UnityEngine::Timeline {
-class ITimelineClipAsset;
-}
-namespace UnityEngine::Timeline {
-struct StandardFrameRates;
-}
-namespace System {
-class IDisposable;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
+class IDisposable;
+}
+namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class Type;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace UnityEngine::Playables {
+struct PlayableBinding;
+}
+namespace UnityEngine::Playables {
+class PlayableDirector;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
+namespace UnityEngine::Playables {
+struct Playable;
+}
+namespace UnityEngine::Timeline {
+struct ClipCaps;
+}
+namespace UnityEngine::Timeline {
+struct DiscreteTime;
+}
+namespace UnityEngine::Timeline {
+class IPropertyCollector;
+}
+namespace UnityEngine::Timeline {
+class IPropertyPreview;
+}
+namespace UnityEngine::Timeline {
+class ITimelineClipAsset;
+}
+namespace UnityEngine::Timeline {
+class MarkerTrack;
+}
+namespace UnityEngine::Timeline {
+struct StandardFrameRates;
+}
+namespace UnityEngine::Timeline {
+class TimelineClip;
+}
+namespace UnityEngine::Timeline {
+class TrackAsset;
+}
+namespace UnityEngine::Timeline {
+struct __TimelineAsset__DurationMode;
+}
+namespace UnityEngine::Timeline {
+class __TimelineAsset__EditorSettings;
+}
+namespace UnityEngine::Timeline {
+struct __TimelineAsset__MediaType;
+}
+namespace UnityEngine::Timeline {
+class __TimelineAsset__TimelineAssetUpgrade;
+}
+namespace UnityEngine::Timeline {
+struct __TimelineAsset__Versions;
+}
+namespace UnityEngine::Timeline {
+class __TimelineAsset___get_outputs_d__27;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
+}
+namespace UnityEngine {
+class ScriptableObject;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -444,7 +444,7 @@ static_assert(offsetof(::UnityEngine::Timeline::__TimelineAsset__EditorSettings,
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10431)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10431))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13855))
 // CS Name: ::TimelineAsset::<get_outputs>d__27*
 class CORDL_TYPE __TimelineAsset___get_outputs_d__27 : public ::System::Object {
@@ -476,17 +476,34 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>*
+  i___System__Collections__Generic__IEnumerable_1___UnityEngine__Playables__PlayableBinding_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding>*
+  i___System__Collections__Generic__IEnumerator_1___UnityEngine__Playables__PlayableBinding_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -682,11 +699,20 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
+  constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
+  constexpr ::UnityEngine::Timeline::ITimelineClipAsset* i___UnityEngine__Timeline__ITimelineClipAsset() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::Timeline::IPropertyPreview"
   constexpr operator ::UnityEngine::Timeline::IPropertyPreview*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::Timeline::IPropertyPreview"
+  constexpr ::UnityEngine::Timeline::IPropertyPreview* i___UnityEngine__Timeline__IPropertyPreview() noexcept;
 
   constexpr int32_t& __get_m_Version();
 

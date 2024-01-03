@@ -9,38 +9,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ParticleSystemEmitEventEffect)
-namespace UnityEngine {
-class Transform;
-}
-namespace Zenject {
-class DiContainer;
-}
 namespace GlobalNamespace {
-class __ParticleSystemEmitEventEffect__BeatmapEditorParticleSystemEmitBehavior;
-}
-namespace GlobalNamespace {
-class __ParticleSystemEmitEventEffect__GameplayParticleSystemEmitBehavior;
-}
-namespace GlobalNamespace {
-class __ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior;
-}
-namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
-namespace GlobalNamespace {
-class __ParticleSystemEventController__Pool;
-}
-namespace Zenject {
-class ITickable;
-}
-namespace Zenject {
-class TickableManager;
+class BasicBeatmapEventData;
 }
 namespace GlobalNamespace {
 struct BasicBeatmapEventType;
 }
 namespace GlobalNamespace {
+class BeatmapCallbacksController;
+}
+namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
+}
+namespace GlobalNamespace {
 class IAudioTimeSource;
+}
+namespace GlobalNamespace {
+template <typename T> class MemoryPoolContainer_1;
 }
 namespace GlobalNamespace {
 class ParticleSystemEventController;
@@ -52,16 +37,31 @@ namespace GlobalNamespace {
 class SongSpeedData;
 }
 namespace GlobalNamespace {
-class BasicBeatmapEventData;
+class __ParticleSystemEmitEventEffect__BeatmapEditorParticleSystemEmitBehavior;
 }
 namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
+class __ParticleSystemEmitEventEffect__GameplayParticleSystemEmitBehavior;
+}
+namespace GlobalNamespace {
+class __ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior;
+}
+namespace GlobalNamespace {
+class __ParticleSystemEventController__Pool;
 }
 namespace System {
 class IDisposable;
 }
-namespace GlobalNamespace {
-template <typename T> class MemoryPoolContainer_1;
+namespace UnityEngine {
+class Transform;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class ITickable;
+}
+namespace Zenject {
+class TickableManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -113,6 +113,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::GlobalNamespace::IAudioTimeSource*& __get__audioTimeSource();
 
@@ -236,6 +239,9 @@ public:
 
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
+
+  /// @brief Convert to "::Zenject::ITickable"
+  constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
   constexpr ::Zenject::TickableManager*& __get__tickableManager();
 
@@ -370,7 +376,7 @@ static_assert(offsetof(::GlobalNamespace::__ParticleSystemEmitEventEffect__Gamep
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(4982)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(4982))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4963))
 // CS Name: ::ParticleSystemEmitEventEffect*
 class CORDL_TYPE ParticleSystemEmitEventEffect : public ::UnityEngine::MonoBehaviour {

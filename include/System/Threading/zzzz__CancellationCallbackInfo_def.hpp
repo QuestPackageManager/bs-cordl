@@ -5,22 +5,22 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CancellationCallbackInfo)
 namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace System::Threading {
 class ContextCallback;
 }
 namespace System::Threading {
-class CancellationTokenSource;
+class ExecutionContext;
 }
 namespace System::Threading {
 class __CancellationCallbackInfo__WithSyncContext;
 }
 namespace System {
-class Object;
-}
-namespace System {
 template <typename T> class Action_1;
 }
-namespace System::Threading {
-class ExecutionContext;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Threading {

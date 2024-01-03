@@ -17,10 +17,10 @@ namespace RootMotion::FinalIK {
 class __IKSolver__Point;
 }
 namespace UnityEngine {
-struct Vector3;
+class Transform;
 }
 namespace UnityEngine {
-class Transform;
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IKSolverHeuristic);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12564))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12564)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12574))
 // CS Name: ::RootMotion.FinalIK::IKSolverHeuristic*
 class CORDL_TYPE IKSolverHeuristic : public ::RootMotion::FinalIK::IKSolver {

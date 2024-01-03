@@ -8,38 +8,38 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(VertexEditing)
-namespace UnityEngine::ProBuilder {
-class Vertex;
-}
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace UnityEngine::ProBuilder {
-template <typename T1, typename T2> struct SimpleTuple_2;
-}
-namespace UnityEngine::ProBuilder {
-class FaceRebuildData;
-}
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
-namespace UnityEngine::ProBuilder {
-class WingedEdge;
-}
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template <typename T> class List_1;
 }
 namespace UnityEngine::ProBuilder {
 struct EdgeLookup;
 }
 namespace UnityEngine::ProBuilder {
 struct Edge;
+}
+namespace UnityEngine::ProBuilder {
+class FaceRebuildData;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
+}
+namespace UnityEngine::ProBuilder {
+template <typename T1, typename T2> struct SimpleTuple_2;
+}
+namespace UnityEngine::ProBuilder {
+class Vertex;
+}
+namespace UnityEngine::ProBuilder {
+class WingedEdge;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::MeshOperations {
@@ -58,8 +58,7 @@ class CORDL_TYPE VertexEditing : public ::System::Object {
 public:
   // Declarations
   /// @brief Method MergeVertices, addr 0x2bc68b4, size 0x32c, virtual false, abstract: false, final false
-  /// @param collapseToFirst: bool (default: false)
-  static inline int32_t MergeVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<int32_t, ::Array<int32_t>*> indexes, bool collapseToFirst = false);
+  static inline int32_t MergeVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<int32_t, ::Array<int32_t>*> indexes, bool collapseToFirst);
 
   /// @brief Method SplitVertices, addr 0x2bc6be0, size 0x88, virtual false, abstract: false, final false
   static inline void SplitVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Edge edge);

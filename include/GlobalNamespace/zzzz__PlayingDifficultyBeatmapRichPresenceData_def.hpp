@@ -40,6 +40,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IRichPresenceData"
   constexpr operator ::GlobalNamespace::IRichPresenceData*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IRichPresenceData"
+  constexpr ::GlobalNamespace::IRichPresenceData* i___GlobalNamespace__IRichPresenceData() noexcept;
+
   constexpr ::StringW& __get__apiName_k__BackingField();
 
   constexpr ::StringW const& __get__apiName_k__BackingField() const;

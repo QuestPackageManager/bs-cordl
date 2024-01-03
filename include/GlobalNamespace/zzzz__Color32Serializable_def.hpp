@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Color32Serializable)
-namespace System {
-class Object;
-}
 namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace UnityEngine {
-struct Color32;
+class INetSerializable;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace LiteNetLib::Utils {
-class INetSerializable;
+namespace System {
+class Object;
+}
+namespace UnityEngine {
+struct Color32;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -44,8 +44,14 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*();
 
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable();
+
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::Color32Serializable>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::Color32Serializable>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::Color32Serializable>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::Color32Serializable>* i___System__IEquatable_1___GlobalNamespace__Color32Serializable_();
 
   /// @brief Method .ctor, addr 0x12a8b0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color32 color);

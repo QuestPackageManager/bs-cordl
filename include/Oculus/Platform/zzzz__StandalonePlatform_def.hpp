@@ -10,26 +10,26 @@ CORDL_MODULE_EXPORT(StandalonePlatform)
 namespace Oculus::Platform::Models {
 class PlatformInitialize;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace Oculus::Platform {
-class __StandalonePlatform__UnityLogDelegate;
+struct InitConfigOptions;
 }
 namespace Oculus::Platform {
 template <typename T> class Request_1;
 }
 namespace Oculus::Platform {
-struct InitConfigOptions;
+class __StandalonePlatform__UnityLogDelegate;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
-class Object;
+class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
 }
 namespace System {
-class AsyncCallback;
+class Object;
 }
 // Forward declare root types
 namespace Oculus::Platform {

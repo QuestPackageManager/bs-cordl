@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CullingGroup)
-namespace UnityEngine {
-class __CullingGroup__StateChanged;
-}
 namespace System {
 class Object;
 }
 namespace UnityEngine {
 struct CullingGroupEvent;
+}
+namespace UnityEngine {
+class __CullingGroup__StateChanged;
 }
 // Forward declare root types
 namespace UnityEngine {

@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ProfileBlock)
-namespace System {
-class Object;
-}
 namespace System::Text::RegularExpressions {
 class Regex;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Zenject {
@@ -36,6 +36,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   static inline void setStaticF__ProfilePattern_k__BackingField(::System::Text::RegularExpressions::Regex* value);
 

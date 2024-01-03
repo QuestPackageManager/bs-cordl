@@ -9,61 +9,61 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayerSettingsPanelController)
 namespace GlobalNamespace {
-class PlayerHeightSettingsController;
-}
-namespace HMUI {
-class ToggleBinder;
-}
-namespace GlobalNamespace {
-class IRefreshable;
-}
-namespace GlobalNamespace {
 class ArcVisibilityTypeSettingsDropdown;
 }
 namespace GlobalNamespace {
 struct ArcVisibilityType;
 }
-namespace UnityEngine::UI {
-class Toggle;
-}
 namespace GlobalNamespace {
-class EventBinder;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
-class CanvasGroup;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-struct __PlayerSettingsPanelController__PlayerSettingsPanelLayout;
-}
-namespace GlobalNamespace {
-class NoteJumpStartBeatOffsetDropdown;
+class EnvironmentEffectsFilterPresetDropdown;
 }
 namespace GlobalNamespace {
 struct EnvironmentEffectsFilterPreset;
 }
 namespace GlobalNamespace {
-struct NoteJumpDurationTypeSettings;
-}
-namespace GlobalNamespace {
-class EnvironmentEffectsFilterPresetDropdown;
-}
-namespace GlobalNamespace {
-class NoteJumpDurationTypeSettingsDropdown;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
+class EventBinder;
 }
 namespace GlobalNamespace {
 class FormattedFloatListSettingsController;
 }
 namespace GlobalNamespace {
+class IRefreshable;
+}
+namespace GlobalNamespace {
+class NoteJumpDurationTypeSettingsDropdown;
+}
+namespace GlobalNamespace {
+struct NoteJumpDurationTypeSettings;
+}
+namespace GlobalNamespace {
+class NoteJumpStartBeatOffsetDropdown;
+}
+namespace GlobalNamespace {
 class PlayerData;
+}
+namespace GlobalNamespace {
+class PlayerHeightSettingsController;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettings;
+}
+namespace GlobalNamespace {
+struct __PlayerSettingsPanelController__PlayerSettingsPanelLayout;
+}
+namespace HMUI {
+class ToggleBinder;
+}
+namespace System {
+class Action;
+}
+namespace UnityEngine::UI {
+class Toggle;
+}
+namespace UnityEngine {
+class CanvasGroup;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -133,7 +133,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSettingsPanelController__Playe
 // SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4606)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(4606))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5642))
 // CS Name: ::PlayerSettingsPanelController*
 class CORDL_TYPE PlayerSettingsPanelController : public ::UnityEngine::MonoBehaviour {
@@ -252,6 +252,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IRefreshable"
   constexpr operator ::GlobalNamespace::IRefreshable*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IRefreshable"
+  constexpr ::GlobalNamespace::IRefreshable* i___GlobalNamespace__IRefreshable() noexcept;
 
   constexpr ::UnityEngine::UI::Toggle*& __get__leftHandedToggle();
 

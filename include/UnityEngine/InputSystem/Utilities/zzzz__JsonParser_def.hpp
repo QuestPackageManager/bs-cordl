@@ -12,11 +12,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(JsonParser)
+namespace GlobalNamespace {
+class __JsonParser__JsonValue____c;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct Substring;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct __JsonParser__JsonString;
@@ -26,24 +44,6 @@ struct __JsonParser__JsonValueType;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct __JsonParser__JsonValue;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct Substring;
-}
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
-class __JsonParser__JsonValue____c;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -153,6 +153,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::__JsonParser__JsonString>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::__JsonParser__JsonString>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::__JsonParser__JsonString>"
+  constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::__JsonParser__JsonString>* i___System__IEquatable_1___UnityEngine__InputSystem__Utilities____JsonParser__JsonString_();
 
   /// @brief Method ToString, addr 0x2b11b0c, size 0xf4, virtual true, abstract: false, final false
   inline ::StringW ToString();
@@ -281,6 +284,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue>"
+  constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue>* i___System__IEquatable_1___UnityEngine__InputSystem__Utilities____JsonParser__JsonValue_();
 
   /// @brief Method ToBoolean, addr 0x2b11ef8, size 0x140, virtual false, abstract: false, final false
   inline bool ToBoolean();

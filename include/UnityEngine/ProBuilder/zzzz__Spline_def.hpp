@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Spline)
-namespace UnityEngine {
-struct Quaternion;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
 }
 namespace UnityEngine::ProBuilder {
 struct BezierPoint;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -43,13 +43,8 @@ class CORDL_TYPE Spline : public ::System::Object {
 public:
   // Declarations
   /// @brief Method Extrude, addr 0x2b7978c, size 0x24, virtual false, abstract: false, final false
-  /// @param radius: float_t (default: 0.5)
-  /// @param columns: int32_t (default: static_cast<int32_t>(0x20))
-  /// @param rows: int32_t (default: static_cast<int32_t>(0x10))
-  /// @param closeLoop: bool (default: false)
-  /// @param smooth: bool (default: true)
-  static inline ::UnityEngine::ProBuilder::ProBuilderMesh* Extrude(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>* points, float_t radius = 0.5,
-                                                                   int32_t columns = static_cast<int32_t>(0x20), int32_t rows = static_cast<int32_t>(0x10), bool closeLoop = false, bool smooth = true);
+  static inline ::UnityEngine::ProBuilder::ProBuilderMesh* Extrude(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>* points, float_t radius, int32_t columns,
+                                                                   int32_t rows, bool closeLoop, bool smooth);
 
   /// @brief Method Extrude, addr 0x2b797b0, size 0xd8, virtual false, abstract: false, final false
   static inline void Extrude(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>* bezierPoints, float_t radius, int32_t columns, int32_t rows, bool closeLoop, bool smooth,
@@ -61,9 +56,8 @@ public:
                                                                                                  ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* rotations);
 
   /// @brief Method Extrude, addr 0x2b79da8, size 0x95c, virtual false, abstract: false, final false
-  /// @param pointRotations: ::System::Collections::Generic::IList_1<::UnityEngine::Quaternion>* (default: nullptr)
   static inline void Extrude(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* points, float_t radius, int32_t radiusRows, bool closeLoop, bool smooth,
-                             ByRef<::UnityEngine::ProBuilder::ProBuilderMesh*> target, ::System::Collections::Generic::IList_1<::UnityEngine::Quaternion>* pointRotations = nullptr);
+                             ByRef<::UnityEngine::ProBuilder::ProBuilderMesh*> target, ::System::Collections::Generic::IList_1<::UnityEngine::Quaternion>* pointRotations);
 
   /// @brief Method GetRingRotation, addr 0x2b7a704, size 0x890, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion GetRingRotation(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* points, int32_t i, bool closeLoop, ByRef<float_t> secant);

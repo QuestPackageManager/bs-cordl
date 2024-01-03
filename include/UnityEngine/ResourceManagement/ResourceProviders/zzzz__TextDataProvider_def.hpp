@@ -9,29 +9,29 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextDataProvider)
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct ProvideHandle;
+namespace System {
+class Exception;
 }
 namespace System {
 class Object;
 }
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class __TextDataProvider__InternalOp;
-}
 namespace System {
 class Type;
 }
-namespace System {
-class Exception;
+namespace UnityEngine::Networking {
+class UnityWebRequestAsyncOperation;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct ProvideHandle;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class __TextDataProvider__InternalOp;
 }
 namespace UnityEngine::ResourceManagement {
 class WebRequestQueueOperation;
 }
 namespace UnityEngine {
 class AsyncOperation;
-}
-namespace UnityEngine::Networking {
-class UnityWebRequestAsyncOperation;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {

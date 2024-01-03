@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SceneContextRegistryAdderAndRemover)
-namespace Zenject {
-class SceneContextRegistry;
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
 }
 namespace Zenject {
 class IInitializable;
 }
-namespace System {
-class IDisposable;
-}
-namespace Zenject {
-class SceneContext;
-}
 namespace Zenject {
 class InjectTypeInfo;
 }
-namespace System {
-class Object;
+namespace Zenject {
+class SceneContextRegistry;
+}
+namespace Zenject {
+class SceneContext;
 }
 // Forward declare root types
 namespace Zenject {
@@ -48,8 +48,14 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
+  /// @brief Convert to "::Zenject::IInitializable"
+  constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::Zenject::SceneContextRegistry*& __get__registry();
 

@@ -10,7 +10,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
 #include "UnityEngine/InputSystem/Users/zzzz__InputUserAccountHandle_def.hpp"
 #include "UnityEngine/InputSystem/Users/zzzz__InputUserChange_def.hpp"
-#include "UnityEngine/InputSystem/Users/zzzz__InputUserPairingOptions_def.hpp"
 #include "UnityEngine/InputSystem/Users/zzzz__InputUser_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__CallbackArray_1_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
@@ -23,101 +22,101 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputUser)
-namespace UnityEngine::InputSystem::Utilities {
-template <typename T> class __SavedStructState_1__TypedRestore;
-}
-namespace System {
-class Action;
+namespace System::Collections::Generic {
+template <typename T> class IComparer_1;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
-}
-namespace UnityEngine::InputSystem::Utilities {
-class ISavedState;
-}
-namespace UnityEngine::InputSystem::Users {
-struct __InputUser__UserFlags;
-}
-namespace System {
-class Object;
-}
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace UnityEngine::InputSystem {
-class InputDevice;
 }
 namespace System {
 template <typename T1, typename T2, typename T3> class Action_3;
 }
 namespace System {
+class Action;
+}
+namespace System {
+template <typename T1, typename T2, typename TResult> class Func_3;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
 template <typename T> struct Nullable_1;
 }
-namespace UnityEngine::InputSystem {
-class IInputActionCollection;
+namespace System {
+class Object;
 }
-namespace UnityEngine::InputSystem {
-struct InputControlScheme;
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
 }
 namespace UnityEngine::InputSystem::Users {
-struct __InputUser__GlobalState;
+struct InputUserAccountHandle;
+}
+namespace UnityEngine::InputSystem::Users {
+struct InputUserChange;
+}
+namespace UnityEngine::InputSystem::Users {
+struct InputUserPairingOptions;
 }
 namespace UnityEngine::InputSystem::Users {
 struct __InputUser__CompareDevicesByUserAccount;
 }
 namespace UnityEngine::InputSystem::Users {
-struct __InputUser__UserData;
+struct __InputUser__ControlSchemeChangeSyntax;
+}
+namespace UnityEngine::InputSystem::Users {
+struct __InputUser__GlobalState;
 }
 namespace UnityEngine::InputSystem::Users {
 struct __InputUser__OngoingAccountSelection;
 }
-namespace UnityEngine::InputSystem {
-struct __InputControlScheme__MatchResult;
+namespace UnityEngine::InputSystem::Users {
+struct __InputUser__UserData;
 }
 namespace UnityEngine::InputSystem::Users {
-struct InputUserChange;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct ReadOnlyArray_1;
-}
-namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
-}
-namespace UnityEngine::InputSystem {
-template <typename TControl> struct InputControlList_1;
-}
-namespace UnityEngine::InputSystem::Users {
-struct InputUserPairingOptions;
-}
-namespace UnityEngine::InputSystem {
-struct InputActionChange;
-}
-namespace UnityEngine::InputSystem::Users {
-struct __InputUser__ControlSchemeChangeSyntax;
+struct __InputUser__UserFlags;
 }
 namespace UnityEngine::InputSystem::Users {
 class __InputUser____c;
 }
-namespace UnityEngine::InputSystem::Users {
-struct InputUserAccountHandle;
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TDelegate> struct CallbackArray_1;
 }
-namespace UnityEngine::InputSystem {
-struct InputDeviceChange;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
-}
-namespace System::Collections::Generic {
-template <typename T> class IComparer_1;
+namespace UnityEngine::InputSystem::Utilities {
+class ISavedState;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> struct InlinedArray_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
-template <typename TDelegate> struct CallbackArray_1;
+template <typename TValue> struct ReadOnlyArray_1;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename T> class __SavedStructState_1__TypedRestore;
+}
+namespace UnityEngine::InputSystem {
+class IInputActionCollection;
+}
+namespace UnityEngine::InputSystem {
+struct InputActionChange;
+}
+namespace UnityEngine::InputSystem {
+template <typename TControl> struct InputControlList_1;
+}
+namespace UnityEngine::InputSystem {
+struct InputControlScheme;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
+namespace UnityEngine::InputSystem {
+struct InputDeviceChange;
+}
+namespace UnityEngine::InputSystem {
+class InputDevice;
+}
+namespace UnityEngine::InputSystem {
+struct __InputControlScheme__MatchResult;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Users {
@@ -241,9 +240,9 @@ static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__UserFlags
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 196, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Users {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3107 }), TypeDefinitionIndex(TypeDefinitionIndex(6365)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(6358)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3305 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6204)), TypeDefinitionIndex(TypeDefinitionIndex(6199))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6359)) CS Name: ::InputUser::UserData
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3305 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6204)), TypeDefinitionIndex(TypeDefinitionIndex(6199)), TypeDefinitionIndex(TypeDefinitionIndex(6365)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 3107 }), TypeDefinitionIndex(TypeDefinitionIndex(6358))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6359)) CS Name: ::InputUser::UserData
 struct CORDL_TYPE __InputUser__UserData {
 public:
   // Declarations
@@ -341,6 +340,9 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::UnityEngine::InputSystem::InputDevice*>"
   constexpr operator ::System::Collections::Generic::IComparer_1<::UnityEngine::InputSystem::InputDevice*>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IComparer_1<::UnityEngine::InputSystem::InputDevice*>"
+  constexpr ::System::Collections::Generic::IComparer_1<::UnityEngine::InputSystem::InputDevice*>* i___System__Collections__Generic__IComparer_1___UnityEngine__InputSystem__InputDevice__();
+
   /// @brief Method Compare, addr 0x2acf1dc, size 0x3c, virtual true, abstract: false, final true
   inline int32_t Compare(::UnityEngine::InputSystem::InputDevice* x, ::UnityEngine::InputSystem::InputDevice* y);
 
@@ -409,7 +411,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__OngoingAc
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Users {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6367)), TypeDefinitionIndex(TypeDefinitionIndex(6362))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6362))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6364))
 // CS Name: ::UnityEngine.InputSystem.Users::InputUser
 struct CORDL_TYPE InputUser {
@@ -458,6 +460,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::Users::InputUser>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::Users::InputUser>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::Users::InputUser>"
+  constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::Users::InputUser>* i___System__IEquatable_1___UnityEngine__InputSystem__Users__InputUser_();
 
   static inline void setStaticF_s_GlobalState(::UnityEngine::InputSystem::Users::__InputUser__GlobalState value);
 
@@ -577,10 +582,8 @@ public:
   static inline ::UnityEngine::InputSystem::Users::InputUser CreateUserWithoutPairedDevices();
 
   /// @brief Method PerformPairingWithDevice, addr 0x2abffe8, size 0x1c4, virtual false, abstract: false, final false
-  /// @param user: ::UnityEngine::InputSystem::Users::InputUser (default: {})
-  /// @param options: ::UnityEngine::InputSystem::Users::InputUserPairingOptions (default: static_cast<int32_t>(0x0))
-  static inline ::UnityEngine::InputSystem::Users::InputUser PerformPairingWithDevice(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::Users::InputUser user = {},
-                                                                                      ::UnityEngine::InputSystem::Users::InputUserPairingOptions options = static_cast<int32_t>(0x0));
+  static inline ::UnityEngine::InputSystem::Users::InputUser PerformPairingWithDevice(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::Users::InputUser user,
+                                                                                      ::UnityEngine::InputSystem::Users::InputUserPairingOptions options);
 
   /// @brief Method InitiateUserAccountSelection, addr 0x2acc690, size 0x118, virtual false, abstract: false, final false
   static inline bool InitiateUserAccountSelection(int32_t userIndex, ::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::Users::InputUserPairingOptions options);
@@ -619,17 +622,13 @@ public:
   static inline int32_t TryFindUserIndex(::UnityEngine::InputSystem::InputDevice* device);
 
   /// @brief Method AddDeviceToUser, addr 0x2acc7a8, size 0x40c, virtual false, abstract: false, final false
-  /// @param asLostDevice: bool (default: false)
-  /// @param dontUpdateControlScheme: bool (default: false)
-  static inline void AddDeviceToUser(int32_t userIndex, ::UnityEngine::InputSystem::InputDevice* device, bool asLostDevice = false, bool dontUpdateControlScheme = false);
+  static inline void AddDeviceToUser(int32_t userIndex, ::UnityEngine::InputSystem::InputDevice* device, bool asLostDevice, bool dontUpdateControlScheme);
 
   /// @brief Method RemoveDeviceFromUser, addr 0x2acb85c, size 0x460, virtual false, abstract: false, final false
-  /// @param asLostDevice: bool (default: false)
-  static inline void RemoveDeviceFromUser(int32_t userIndex, ::UnityEngine::InputSystem::InputDevice* device, bool asLostDevice = false);
+  static inline void RemoveDeviceFromUser(int32_t userIndex, ::UnityEngine::InputSystem::InputDevice* device, bool asLostDevice);
 
   /// @brief Method UpdateControlSchemeMatch, addr 0x2acaf08, size 0x828, virtual false, abstract: false, final false
-  /// @param autoPairMissing: bool (default: false)
-  static inline void UpdateControlSchemeMatch(int32_t userIndex, bool autoPairMissing = false);
+  static inline void UpdateControlSchemeMatch(int32_t userIndex, bool autoPairMissing);
 
   /// @brief Method UpdatePlatformUserAccount, addr 0x2accbb4, size 0x36c, virtual false, abstract: false, final false
   static inline int64_t UpdatePlatformUserAccount(int32_t userIndex, ::UnityEngine::InputSystem::InputDevice* device);
@@ -649,8 +648,7 @@ public:
   static inline void OnDeviceChange(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::InputDeviceChange change);
 
   /// @brief Method FindLostDevice, addr 0x2acd990, size 0xb8, virtual false, abstract: false, final false
-  /// @param startIndex: int32_t (default: static_cast<int32_t>(0x0))
-  static inline int32_t FindLostDevice(::UnityEngine::InputSystem::InputDevice* device, int32_t startIndex = static_cast<int32_t>(0x0));
+  static inline int32_t FindLostDevice(::UnityEngine::InputSystem::InputDevice* device, int32_t startIndex);
 
   /// @brief Method OnEvent, addr 0x2acda48, size 0x4bc, virtual false, abstract: false, final false
   static inline void OnEvent(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, ::UnityEngine::InputSystem::InputDevice* device);
@@ -710,13 +708,13 @@ static_assert(offsetof(::UnityEngine::InputSystem::Users::InputUser, m_Id) == 0x
 // SizeInfo { instance_size: 360, native_size: -1, calculated_instance_size: 360, calculated_native_size: 376, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Users {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 997 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 991 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2324), inst: 526 }), TypeDefinitionIndex(TypeDefinitionIndex(6536)), TypeDefinitionIndex(TypeDefinitionIndex(2324)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 999 }), TypeDefinitionIndex(TypeDefinitionIndex(6364)), TypeDefinitionIndex(TypeDefinitionIndex(6366)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6669)), TypeDefinitionIndex(TypeDefinitionIndex(6660)), TypeDefinitionIndex(TypeDefinitionIndex(6361)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(6669), inst: 3871 }), TypeDefinitionIndex(TypeDefinitionIndex(2325)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2325), inst: 647 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2333), inst: 2487 }), TypeDefinitionIndex(TypeDefinitionIndex(6215)), TypeDefinitionIndex(TypeDefinitionIndex(2333)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6239))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6362)) CS Name: ::InputUser::GlobalState
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6239)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 999 }), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(2325), inst: 647 }), TypeDefinitionIndex(TypeDefinitionIndex(6364)), TypeDefinitionIndex(TypeDefinitionIndex(6366)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2333), inst: 2487 }), TypeDefinitionIndex(TypeDefinitionIndex(6361)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 991 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 997 }), TypeDefinitionIndex(TypeDefinitionIndex(2333)), TypeDefinitionIndex(TypeDefinitionIndex(6536)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2324)), TypeDefinitionIndex(TypeDefinitionIndex(6669)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3871 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2324), inst: 526 }), TypeDefinitionIndex(TypeDefinitionIndex(2325)), TypeDefinitionIndex(TypeDefinitionIndex(6215)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6660))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6362)) CS Name: ::InputUser::GlobalState
 struct CORDL_TYPE __InputUser__GlobalState {
 public:
   // Declarations

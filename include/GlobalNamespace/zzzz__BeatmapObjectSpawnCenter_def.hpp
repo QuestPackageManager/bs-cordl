@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapObjectSpawnCenter)
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
 class __BeatmapObjectSpawnCenter__PlayerCountToDistance;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

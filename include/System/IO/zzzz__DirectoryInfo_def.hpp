@@ -6,12 +6,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(DirectoryInfo)
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::IO {
-class FileSystemInfo;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
@@ -19,10 +13,16 @@ namespace System::IO {
 class EnumerationOptions;
 }
 namespace System::IO {
+class FileSystemInfo;
+}
+namespace System::IO {
 struct SearchTarget;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::IO {
@@ -48,16 +48,10 @@ public:
   static inline ::System::IO::DirectoryInfo* New_ctor(::StringW originalPath, ::StringW fullPath, ::StringW fileName, bool isNormalized);
 
   /// @brief Method .ctor, addr 0x250a324, size 0x48, virtual false, abstract: false, final false
-  /// @param fullPath: ::StringW (default: nullptr)
-  /// @param fileName: ::StringW (default: nullptr)
-  /// @param isNormalized: bool (default: false)
-  inline void _ctor(::StringW originalPath, ::StringW fullPath = nullptr, ::StringW fileName = nullptr, bool isNormalized = false);
+  inline void _ctor(::StringW originalPath, ::StringW fullPath, ::StringW fileName, bool isNormalized);
 
   /// @brief Method Init, addr 0x250adcc, size 0x290, virtual false, abstract: false, final false
-  /// @param fullPath: ::StringW (default: nullptr)
-  /// @param fileName: ::StringW (default: nullptr)
-  /// @param isNormalized: bool (default: false)
-  inline void Init(::StringW originalPath, ::StringW fullPath = nullptr, ::StringW fileName = nullptr, bool isNormalized = false);
+  inline void Init(::StringW originalPath, ::StringW fullPath, ::StringW fileName, bool isNormalized);
 
   /// @brief Method GetDirectories, addr 0x250b05c, size 0xa8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::IO::DirectoryInfo*, ::Array<::System::IO::DirectoryInfo*>*> GetDirectories();

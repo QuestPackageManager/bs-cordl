@@ -34,8 +34,14 @@ public:
   /// @brief Convert operator to "::System::Xml::IDtdParserAdapterWithValidation"
   constexpr operator ::System::Xml::IDtdParserAdapterWithValidation*() noexcept;
 
+  /// @brief Convert to "::System::Xml::IDtdParserAdapterWithValidation"
+  constexpr ::System::Xml::IDtdParserAdapterWithValidation* i___System__Xml__IDtdParserAdapterWithValidation() noexcept;
+
   /// @brief Convert operator to "::System::Xml::IDtdParserAdapter"
   constexpr operator ::System::Xml::IDtdParserAdapter*() noexcept;
+
+  /// @brief Convert to "::System::Xml::IDtdParserAdapter"
+  constexpr ::System::Xml::IDtdParserAdapter* i___System__Xml__IDtdParserAdapter() noexcept;
 
   /// @brief Method get_V1CompatibilityMode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_V1CompatibilityMode();

@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(FiniteFields)
 namespace Org::BouncyCastle::Math::Field {
 class IFiniteField;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Math::Field {
 class IPolynomialExtensionField;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::Field {

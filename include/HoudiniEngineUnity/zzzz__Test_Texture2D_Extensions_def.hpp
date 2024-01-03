@@ -14,11 +14,11 @@ class __Test_Texture2D_Extensions____c;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine {
-class Texture2D;
-}
 namespace System {
 template <typename TInput, typename TOutput> class Converter_2;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

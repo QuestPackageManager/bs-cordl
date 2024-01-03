@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IX509AttributeCertificate)
-namespace Org::BouncyCastle::X509 {
-class X509Attribute;
-}
-namespace Org::BouncyCastle::X509 {
-class IX509Extension;
-}
-namespace System {
-struct DateTime;
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::X509 {
 class AttributeCertificateHolder;
 }
 namespace Org::BouncyCastle::X509 {
 class AttributeCertificateIssuer;
+}
+namespace Org::BouncyCastle::X509 {
+class IX509Extension;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Attribute;
+}
+namespace System {
+struct DateTime;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {
@@ -59,6 +59,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::X509::IX509Extension"
   constexpr operator ::Org::BouncyCastle::X509::IX509Extension*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::X509::IX509Extension"
+  constexpr ::Org::BouncyCastle::X509::IX509Extension* i___Org__BouncyCastle__X509__IX509Extension() noexcept;
 
   /// @brief Method get_Version, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_Version();

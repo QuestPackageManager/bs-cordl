@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SignerInfoGeneratorBuilder)
+namespace Org::BouncyCastle::Asn1::Cms {
+class SignerIdentifier;
+}
 namespace Org::BouncyCastle::Cms {
 class CmsAttributeTableGenerator;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class SignerIdentifier;
+namespace Org::BouncyCastle::Cms {
+class SignerInfoGenerator;
 }
 namespace Org::BouncyCastle::Crypto {
 class ISignatureFactory;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
-}
-namespace Org::BouncyCastle::Cms {
-class SignerInfoGenerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

@@ -4,23 +4,23 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(WhereObservable_1)
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> class __WhereObservable_1__Where;
+namespace System {
+class Exception;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
-template <typename T> class IObservable_1;
+class IDisposable;
 }
 namespace System {
-class IDisposable;
+template <typename T> class IObservable_1;
 }
 namespace System {
 template <typename T> class IObserver_1;
 }
-namespace System {
-class Exception;
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> class __WhereObservable_1__Where;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -52,6 +52,9 @@ public:
 
   /// @brief Convert operator to "::System::IObserver_1<TValue>"
   constexpr operator ::System::IObserver_1<TValue>*() noexcept;
+
+  /// @brief Convert to "::System::IObserver_1<TValue>"
+  constexpr ::System::IObserver_1<TValue>* i___System__IObserver_1_TValue_() noexcept;
 
   constexpr ::UnityEngine::InputSystem::Utilities::WhereObservable_1<TValue>*& __get_m_Observable();
 
@@ -126,6 +129,9 @@ public:
 
   /// @brief Convert operator to "::System::IObservable_1<TValue>"
   constexpr operator ::System::IObservable_1<TValue>*() noexcept;
+
+  /// @brief Convert to "::System::IObservable_1<TValue>"
+  constexpr ::System::IObservable_1<TValue>* i___System__IObservable_1_TValue_() noexcept;
 
   constexpr ::System::IObservable_1<TValue>*& __get_m_Source();
 

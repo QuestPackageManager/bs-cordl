@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ProductHeaderValue)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace System::Net::Http::Headers {
 class Lexer;
 }
 namespace System::Net::Http::Headers {
 struct Token;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 namespace System {
 class ICloneable;
@@ -50,6 +50,9 @@ public:
 
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
+
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
   constexpr ::StringW& __get__Name_k__BackingField();
 

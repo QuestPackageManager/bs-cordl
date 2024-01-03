@@ -9,17 +9,8 @@ CORDL_MODULE_EXPORT(FactoryFromBinder5Extensions)
 namespace System {
 template <typename T> class Action_1;
 }
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract> class FactoryFromBinder_6;
-}
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TValue> class IFactory_6;
-}
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract> class __FactoryFromBinder5Extensions____c__3_6;
-}
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract> class __FactoryFromBinder5Extensions____c__DisplayClass0_0_6;
+namespace System {
+class Object;
 }
 namespace Zenject {
 class ArgConditionCopyNonLazyBinder;
@@ -28,29 +19,38 @@ namespace Zenject {
 template <typename TContract> class ConcreteBinderGeneric_1;
 }
 namespace Zenject {
-template <typename TContract> class MemoryPoolInitialSizeMaxSizeBinder_1;
+class DiContainer;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract, typename TMemoryPool> class __FactoryFromBinder5Extensions____c__5_7;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract> class FactoryFromBinder_6;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract, typename TMemoryPool>
-class __FactoryFromBinder5Extensions____c__DisplayClass6_0_7;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TValue> class IFactory_6;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract> class __FactoryFromBinder5Extensions____c__1_6;
-}
-namespace System {
-class Object;
+class IProvider;
 }
 namespace Zenject {
 class InjectTypeInfo;
 }
 namespace Zenject {
-class DiContainer;
+template <typename TContract> class MemoryPoolInitialSizeMaxSizeBinder_1;
 }
 namespace Zenject {
-class IProvider;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract> class __FactoryFromBinder5Extensions____c__1_6;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract> class __FactoryFromBinder5Extensions____c__3_6;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract, typename TMemoryPool> class __FactoryFromBinder5Extensions____c__5_7;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract> class __FactoryFromBinder5Extensions____c__DisplayClass0_0_6;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract, typename TMemoryPool>
+class __FactoryFromBinder5Extensions____c__DisplayClass6_0_7;
 }
 // Forward declare root types
 namespace Zenject {
@@ -315,7 +315,7 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract, typename TMemoryPool>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10770))
 // CS Name: ::FactoryFromBinder5Extensions::<>c__DisplayClass6_0`7<TParam1,TParam2,TParam3,TParam4,TParam5,TContract,TMemoryPool>*
 class CORDL_TYPE __FactoryFromBinder5Extensions____c__DisplayClass6_0_7 : public ::System::Object {

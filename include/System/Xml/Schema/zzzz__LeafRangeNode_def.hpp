@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::LeafRangeNode);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11600)), TypeDefinitionIndex(TypeDefinitionIndex(2655))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2655)), TypeDefinitionIndex(TypeDefinitionIndex(11600))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11609))
 // CS Name: ::System.Xml.Schema::LeafRangeNode*
 class CORDL_TYPE LeafRangeNode : public ::System::Xml::Schema::LeafNode {

@@ -7,38 +7,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HttpListenerResponse)
-namespace System::Text {
-class Encoding;
+namespace System::IO {
+class MemoryStream;
 }
 namespace System::IO {
 class Stream;
 }
 namespace System::Net {
-class Cookie;
+class CookieCollection;
 }
 namespace System::Net {
-class WebHeaderCollection;
-}
-namespace System::IO {
-class MemoryStream;
+class Cookie;
 }
 namespace System::Net {
 class HttpListenerContext;
 }
-namespace System {
-class IDisposable;
+namespace System::Net {
+class ResponseStream;
 }
 namespace System::Net {
-class CookieCollection;
+class WebHeaderCollection;
+}
+namespace System::Text {
+class Encoding;
 }
 namespace System {
-class Version;
+class IDisposable;
 }
 namespace System {
 class Object;
 }
-namespace System::Net {
-class ResponseStream;
+namespace System {
+class Version;
 }
 // Forward declare root types
 namespace System::Net {
@@ -131,6 +131,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr bool& __get_disposed();
 

@@ -9,35 +9,26 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(JValue)
-namespace System {
-class Object;
+namespace Newtonsoft::Json::Linq {
+struct JTokenType;
 }
-namespace System {
-struct Decimal;
+namespace Newtonsoft::Json::Linq {
+class JToken;
 }
 namespace Newtonsoft::Json {
 class JsonConverter;
-}
-namespace System {
-class Type;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace System {
-struct DateTimeOffset;
 }
 namespace Newtonsoft::Json {
 class JsonWriter;
 }
 namespace System {
-struct TimeSpan;
+struct DateTimeOffset;
 }
 namespace System {
-class IConvertible;
+struct DateTime;
 }
-namespace Newtonsoft::Json::Linq {
-class JToken;
+namespace System {
+struct Decimal;
 }
 namespace System {
 struct Guid;
@@ -45,23 +36,32 @@ struct Guid;
 namespace System {
 class IComparable;
 }
-namespace Newtonsoft::Json::Linq {
-struct JTokenType;
+namespace System {
+class IConvertible;
 }
 namespace System {
-struct TypeCode;
+class IFormatProvider;
 }
 namespace System {
 class IFormattable;
 }
 namespace System {
-struct DateTime;
+template <typename T> struct Nullable_1;
+}
+namespace System {
+class Object;
+}
+namespace System {
+struct TimeSpan;
+}
+namespace System {
+struct TypeCode;
+}
+namespace System {
+class Type;
 }
 namespace System {
 class Uri;
-}
-namespace System {
-class IFormatProvider;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {
@@ -73,7 +73,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JValue);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12002)), TypeDefinitionIndex(TypeDefinitionIndex(12006))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12006)), TypeDefinitionIndex(TypeDefinitionIndex(12002))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12007))
 // CS Name: ::Newtonsoft.Json.Linq::JValue*
 class CORDL_TYPE JValue : public ::Newtonsoft::Json::Linq::JToken {
@@ -94,11 +94,20 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*() noexcept;
 
+  /// @brief Convert to "::System::IFormattable"
+  constexpr ::System::IFormattable* i___System__IFormattable() noexcept;
+
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*() noexcept;
 
+  /// @brief Convert to "::System::IComparable"
+  constexpr ::System::IComparable* i___System__IComparable() noexcept;
+
   /// @brief Convert operator to "::System::IConvertible"
   constexpr operator ::System::IConvertible*() noexcept;
+
+  /// @brief Convert to "::System::IConvertible"
+  constexpr ::System::IConvertible* i___System__IConvertible() noexcept;
 
   constexpr ::Newtonsoft::Json::Linq::JTokenType& __get__valueType();
 

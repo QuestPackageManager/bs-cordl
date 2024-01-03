@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::TrackColorAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13864))
 // CS Name: ::UnityEngine.Timeline::TrackColorAttribute*
 class CORDL_TYPE TrackColorAttribute : public ::System::Attribute {

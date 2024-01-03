@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_Platform)
-namespace System {
-class Object;
-}
 namespace System::Text {
 class StringBuilder;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -88,8 +88,7 @@ public:
   static inline ::StringW GetFileNameWithoutExtension(::StringW path);
 
   /// @brief Method GetFolderPath, addr 0x2189d68, size 0x11c, virtual false, abstract: false, final false
-  /// @param bRemoveDirectorySeparatorAtEnd: bool (default: false)
-  static inline ::StringW GetFolderPath(::StringW path, bool bRemoveDirectorySeparatorAtEnd = false);
+  static inline ::StringW GetFolderPath(::StringW path, bool bRemoveDirectorySeparatorAtEnd);
 
   /// @brief Method get_DirectorySeparator, addr 0x2189e84, size 0x8, virtual false, abstract: false, final false
   static inline char16_t get_DirectorySeparator();

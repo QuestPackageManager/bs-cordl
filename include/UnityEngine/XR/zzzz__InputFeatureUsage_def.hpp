@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputFeatureUsage)
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 namespace UnityEngine::XR {
 struct InputFeatureType;
@@ -38,6 +38,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage>"
+  constexpr ::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage>* i___System__IEquatable_1___UnityEngine__XR__InputFeatureUsage_();
 
   /// @brief Method get_name, addr 0x2eb2030, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();

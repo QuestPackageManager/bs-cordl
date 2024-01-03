@@ -11,83 +11,83 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MockPlayerInstance)
-namespace GlobalNamespace {
-class IStandaloneMonobehavior;
-}
-namespace GlobalNamespace {
-class ConnectedPlayerManager;
-}
-namespace GlobalNamespace {
-struct __MockPlayerInstance___RunAsync_d__18;
-}
-namespace GlobalNamespace {
-class IStandaloneThreadRunner;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace GlobalNamespace {
-class IMockBeatmapDataProvider;
-}
-namespace GlobalNamespace {
-struct ConnectionFailedReason;
-}
-namespace GlobalNamespace {
-class MultiplayerSessionManager;
+namespace BGNet::Core {
+class ITaskUtility;
 }
 namespace BGNet::Core {
 class ITimeProvider;
 }
 namespace GlobalNamespace {
-class IConnectionManager;
+class ConnectedPlayerManager;
+}
+namespace GlobalNamespace {
+struct ConnectionFailedReason;
 }
 namespace GlobalNamespace {
 struct DisconnectedReason;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace GlobalNamespace {
+template <typename T> class IConnectionInitParams_1;
 }
 namespace GlobalNamespace {
-template <typename T> class __MockPlayerInstance____c__DisplayClass17_0_1;
+class IConnectionManager;
 }
 namespace GlobalNamespace {
-struct __MockPlayerInstance___Stop_d__21;
+class IMockBeatmapDataProvider;
 }
 namespace GlobalNamespace {
-struct __MockPlayerInstance___DisposeAsync_d__22;
+class IStandaloneMonobehavior;
 }
-namespace System {
-class IDisposable;
-}
-namespace BGNet::Core {
-class ITaskUtility;
+namespace GlobalNamespace {
+class IStandaloneThreadRunner;
 }
 namespace GlobalNamespace {
 class MockPlayerFiniteStateMachine;
 }
 namespace GlobalNamespace {
-template <typename T> class IConnectionInitParams_1;
+class MultiplayerSessionManager;
 }
-namespace System {
-template <typename TResult> class Func_1;
+namespace GlobalNamespace {
+struct __MockPlayerInstance___DisposeAsync_d__22;
 }
-namespace System::Threading {
-class CancellationTokenSource;
+namespace GlobalNamespace {
+struct __MockPlayerInstance___RunAsync_d__18;
 }
-namespace System {
-class Action;
+namespace GlobalNamespace {
+struct __MockPlayerInstance___Stop_d__21;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace GlobalNamespace {
+template <typename T> class __MockPlayerInstance____c__DisplayClass17_0_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
+struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+struct TaskAwaiter;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
+class Action;
+}
+namespace System {
+template <typename TResult> class Func_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -177,7 +177,7 @@ public:
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(2677))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15518))
 // CS Name: ::MockPlayerInstance::<RunAsync>d__18
 struct CORDL_TYPE __MockPlayerInstance___RunAsync_d__18 {
@@ -185,6 +185,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x23eb820, size 0x218, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -247,7 +250,7 @@ static_assert(offsetof(::GlobalNamespace::__MockPlayerInstance___RunAsync_d__18,
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3400))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15519))
 // CS Name: ::MockPlayerInstance::<Stop>d__21
 struct CORDL_TYPE __MockPlayerInstance___Stop_d__21 {
@@ -255,6 +258,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x23eba44, size 0x178, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -305,7 +311,7 @@ static_assert(offsetof(::GlobalNamespace::__MockPlayerInstance___Stop_d__21, __u
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15520))
 // CS Name: ::MockPlayerInstance::<DisposeAsync>d__22
 struct CORDL_TYPE __MockPlayerInstance___DisposeAsync_d__22 {
@@ -313,6 +319,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x23ebbc8, size 0x20c, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -413,8 +422,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IStandaloneMonobehavior"
   constexpr operator ::GlobalNamespace::IStandaloneMonobehavior*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IStandaloneMonobehavior"
+  constexpr ::GlobalNamespace::IStandaloneMonobehavior* i___GlobalNamespace__IStandaloneMonobehavior() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::StringW& __get__id();
 

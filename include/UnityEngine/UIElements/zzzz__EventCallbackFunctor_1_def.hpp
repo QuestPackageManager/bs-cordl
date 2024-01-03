@@ -3,23 +3,25 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__EventCallbackFunctorBase_def.hpp"
-#include "UnityEngine/UIElements/zzzz__InvokePolicy_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EventCallbackFunctor_1)
-namespace UnityEngine::UIElements {
-template <typename TEventType> class EventCallback_1;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
+namespace System {
+class Delegate;
 }
 namespace UnityEngine::UIElements {
 struct CallbackPhase;
 }
 namespace UnityEngine::UIElements {
-struct PropagationPhase;
+class EventBase;
 }
-namespace System {
-class Delegate;
+namespace UnityEngine::UIElements {
+template <typename TEventType> class EventCallback_1;
+}
+namespace UnityEngine::UIElements {
+struct InvokePolicy;
+}
+namespace UnityEngine::UIElements {
+struct PropagationPhase;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -33,7 +35,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TEventType>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7164)), TypeDefinitionIndex(TypeDefinitionIndex(7183))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7183))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7184))
 // CS Name: ::UnityEngine.UIElements::EventCallbackFunctor`1<TEventType>*
 class CORDL_TYPE EventCallbackFunctor_1 : public ::UnityEngine::UIElements::EventCallbackFunctorBase {
@@ -61,9 +63,7 @@ public:
                                                                                         ::UnityEngine::UIElements::CallbackPhase phase, ::UnityEngine::UIElements::InvokePolicy invokePolicy);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param invokePolicy: ::UnityEngine::UIElements::InvokePolicy (default: static_cast<int32_t>(0x0))
-  inline void _ctor(::UnityEngine::UIElements::EventCallback_1<TEventType>* callback, ::UnityEngine::UIElements::CallbackPhase phase,
-                    ::UnityEngine::UIElements::InvokePolicy invokePolicy = static_cast<int32_t>(0x0));
+  inline void _ctor(::UnityEngine::UIElements::EventCallback_1<TEventType>* callback, ::UnityEngine::UIElements::CallbackPhase phase, ::UnityEngine::UIElements::InvokePolicy invokePolicy);
 
   /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::PropagationPhase propagationPhase);

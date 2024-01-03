@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ButtonState)
-namespace VRUIControls {
-class MouseButtonEventData;
-}
 namespace UnityEngine::EventSystems {
 struct __PointerEventData__InputButton;
+}
+namespace VRUIControls {
+class MouseButtonEventData;
 }
 // Forward declare root types
 namespace VRUIControls {
@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::VRUIControls::ButtonState);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace VRUIControls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13166)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15668))
 // CS Name: ::VRUIControls::ButtonState*
 class CORDL_TYPE ButtonState : public ::System::Object {

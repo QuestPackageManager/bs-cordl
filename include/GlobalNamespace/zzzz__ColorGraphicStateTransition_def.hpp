@@ -5,8 +5,8 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BaseStateTransition_1_def.hpp"
 #include "UnityEngine/UI/zzzz__Graphic_def.hpp"
 CORDL_MODULE_EXPORT(ColorGraphicStateTransition)
-namespace UnityEngine {
-struct Color;
+namespace GlobalNamespace {
+class BaseTransitionSO;
 }
 namespace GlobalNamespace {
 class ColorTransitionSO;
@@ -14,8 +14,8 @@ class ColorTransitionSO;
 namespace Tweening {
 class ColorTween;
 }
-namespace GlobalNamespace {
-class BaseTransitionSO;
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorGraphicStateTransition);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5442), inst: 923 }), TypeDefinitionIndex(TypeDefinitionIndex(5442)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13042))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5446)) CS Name: ::ColorGraphicStateTransition*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13042)), TypeDefinitionIndex(TypeDefinitionIndex(5442)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5442), inst: 923
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5446)) CS Name: ::ColorGraphicStateTransition*
 class CORDL_TYPE ColorGraphicStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityEngine::UI::Graphic*> {
 public:
   // Declarations

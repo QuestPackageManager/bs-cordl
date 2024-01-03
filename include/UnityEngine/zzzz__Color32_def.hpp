@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Color32)
 namespace System {
+class IFormatProvider;
+}
+namespace System {
 class IFormattable;
 }
 namespace UnityEngine {
 struct Color;
-}
-namespace System {
-class IFormatProvider;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -51,6 +51,9 @@ public:
 
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
+
+  /// @brief Convert to "::System::IFormattable"
+  constexpr ::System::IFormattable* i___System__IFormattable();
 
   constexpr int32_t& __get_rgba();
 

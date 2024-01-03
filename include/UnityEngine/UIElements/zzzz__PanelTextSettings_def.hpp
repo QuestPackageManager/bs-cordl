@@ -5,14 +5,8 @@ CORDL_MODULE_INIT
 #include "UnityEngine/TextCore/Text/zzzz__TextSettings_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PanelTextSettings)
-namespace UnityEngine {
-struct SystemLanguage;
-}
 namespace System {
 template <typename TResult> class Func_1;
-}
-namespace UnityEngine {
-class Object;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -22,6 +16,12 @@ class FontAsset;
 }
 namespace UnityEngine {
 class Font;
+}
+namespace UnityEngine {
+class Object;
+}
+namespace UnityEngine {
+struct SystemLanguage;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

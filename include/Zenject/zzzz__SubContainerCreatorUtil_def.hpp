@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SubContainerCreatorUtil)
 namespace Zenject {
-class SubContainerCreatorBindInfo;
+class DiContainer;
 }
 namespace Zenject {
-class DiContainer;
+class SubContainerCreatorBindInfo;
 }
 // Forward declare root types
 namespace Zenject {

@@ -43,6 +43,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IAudioTimeSource"
   constexpr operator ::GlobalNamespace::IAudioTimeSource*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IAudioTimeSource"
+  constexpr ::GlobalNamespace::IAudioTimeSource* i___GlobalNamespace__IAudioTimeSource() noexcept;
+
   constexpr float_t& __get__songTime_k__BackingField();
 
   constexpr float_t const& __get__songTime_k__BackingField() const;

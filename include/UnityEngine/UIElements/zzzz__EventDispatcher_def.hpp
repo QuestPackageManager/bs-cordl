@@ -10,8 +10,29 @@ CORDL_MODULE_EXPORT(EventDispatcher)
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class Queue_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class Stack_1;
+}
+namespace UnityEngine::UIElements {
+class ClickDetector;
+}
 namespace UnityEngine::UIElements {
 struct DispatchMode;
+}
+namespace UnityEngine::UIElements {
+class EventBase;
+}
+namespace UnityEngine::UIElements {
+class IEventDispatchingStrategy;
+}
+namespace UnityEngine::UIElements {
+class IPanel;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class ObjectPool_1;
@@ -19,32 +40,11 @@ template <typename T> class ObjectPool_1;
 namespace UnityEngine::UIElements {
 class PointerDispatchState;
 }
-namespace System::Collections::Generic {
-template <typename T> class Queue_1;
-}
 namespace UnityEngine::UIElements {
 struct __EventDispatcher__DispatchContext;
 }
 namespace UnityEngine::UIElements {
-class EventBase;
-}
-namespace UnityEngine::UIElements {
 struct __EventDispatcher__EventRecord;
-}
-namespace UnityEngine::UIElements {
-class ClickDetector;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::UIElements {
-class IPanel;
-}
-namespace System::Collections::Generic {
-template <typename T> class Stack_1;
-}
-namespace UnityEngine::UIElements {
-class IEventDispatchingStrategy;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleFloat)
-namespace UnityEngine::UIElements {
-struct StyleKeyword;
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
 }
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace UnityEngine::UIElements {
 template <typename T> class IStyleValue_1;
+}
+namespace UnityEngine::UIElements {
+struct StyleKeyword;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -43,8 +43,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<float_t>"
   constexpr operator ::UnityEngine::UIElements::IStyleValue_1<float_t>*();
 
+  /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<float_t>"
+  constexpr ::UnityEngine::UIElements::IStyleValue_1<float_t>* i___UnityEngine__UIElements__IStyleValue_1_float_t_();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleFloat>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleFloat>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleFloat>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleFloat>* i___System__IEquatable_1___UnityEngine__UIElements__StyleFloat_();
 
   /// @brief Method get_value, addr 0x2e70994, size 0x18, virtual true, abstract: false, final true
   inline float_t get_value();

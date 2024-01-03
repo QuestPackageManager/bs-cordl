@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(LobbyPlayerPermissionsModel)
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class IMenuRpcManager;
 }
 namespace GlobalNamespace {
-class IMenuRpcManager;
+class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
 class PlayersLobbyPermissionConfigurationNetSerializable;

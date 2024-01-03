@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SecurityParser)
 namespace Mono::Xml {
-class __SmallXmlParser__IContentHandler;
-}
-namespace System::Security {
-class SecurityElement;
-}
-namespace System::Collections {
-class Stack;
-}
-namespace Mono::Xml {
 class SmallXmlParser;
 }
 namespace Mono::Xml {
 class __SmallXmlParser__IAttrList;
+}
+namespace Mono::Xml {
+class __SmallXmlParser__IContentHandler;
+}
+namespace System::Collections {
+class Stack;
+}
+namespace System::Security {
+class SecurityElement;
 }
 // Forward declare root types
 namespace Mono::Xml {
@@ -47,6 +47,9 @@ public:
 
   /// @brief Convert operator to "::Mono::Xml::__SmallXmlParser__IContentHandler"
   constexpr operator ::Mono::Xml::__SmallXmlParser__IContentHandler*() noexcept;
+
+  /// @brief Convert to "::Mono::Xml::__SmallXmlParser__IContentHandler"
+  constexpr ::Mono::Xml::__SmallXmlParser__IContentHandler* i___Mono__Xml____SmallXmlParser__IContentHandler() noexcept;
 
   constexpr ::System::Security::SecurityElement*& __get_root();
 

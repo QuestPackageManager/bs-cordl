@@ -10,10 +10,13 @@ namespace System::Xml::Schema {
 class IXmlSchemaInfo;
 }
 namespace System::Xml::Schema {
-class XmlSchemaSimpleType;
+class XmlSchemaAttribute;
 }
-namespace System::Xml {
-class XmlDocument;
+namespace System::Xml::Schema {
+class XmlSchemaElement;
+}
+namespace System::Xml::Schema {
+class XmlSchemaSimpleType;
 }
 namespace System::Xml::Schema {
 class XmlSchemaType;
@@ -21,17 +24,14 @@ class XmlSchemaType;
 namespace System::Xml::Schema {
 struct XmlSchemaValidity;
 }
-namespace System {
-class Object;
-}
-namespace System::Xml::Schema {
-class XmlSchemaElement;
+namespace System::Xml {
+class XmlDocument;
 }
 namespace System::Xml {
 class XmlName;
 }
-namespace System::Xml::Schema {
-class XmlSchemaAttribute;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Xml {

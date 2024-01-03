@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__NoTransitionInstaller_def.hpp"
 CORDL_MODULE_EXPORT(HealthWarningNoTransitionInstaller)
 namespace GlobalNamespace {
+class HealthWarningSceneSetupData;
+}
+namespace GlobalNamespace {
 class HealthWarningScenesTransitionSetupDataSO;
 }
 namespace Zenject {
 class DiContainer;
-}
-namespace GlobalNamespace {
-class HealthWarningSceneSetupData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

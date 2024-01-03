@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/UIR/zzzz__GradientRemap_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPool_1_def.hpp"
 CORDL_MODULE_EXPORT(GradientRemapPool)
-namespace UnityEngine::UIElements::UIR {
-class __GradientRemapPool____c;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System {
 template <typename TResult> class Func_1;
 }
-namespace System {
-template <typename T> class Action_1;
-}
 namespace UnityEngine::UIElements::UIR {
 class GradientRemap;
+}
+namespace UnityEngine::UIElements::UIR {
+class __GradientRemapPool____c;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -94,8 +94,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7400), inst: 313 }), TypeDefinitionIndex(TypeDefinitionIndex(7422)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7400))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7421)) CS Name: ::UnityEngine.UIElements.UIR::GradientRemapPool*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7400), inst: 313 }), TypeDefinitionIndex(TypeDefinitionIndex(7400)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7422))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7421)) CS Name: ::UnityEngine.UIElements.UIR::GradientRemapPool*
 class CORDL_TYPE GradientRemapPool : public ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::GradientRemap*> {
 public:
   // Declarations

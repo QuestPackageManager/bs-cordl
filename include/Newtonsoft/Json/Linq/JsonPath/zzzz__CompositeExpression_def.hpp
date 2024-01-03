@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__QueryExpression_def.hpp"
 CORDL_MODULE_EXPORT(CompositeExpression)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace Newtonsoft::Json::Linq::JsonPath {
+class QueryExpression;
 }
 namespace Newtonsoft::Json::Linq {
 class JToken;
 }
-namespace Newtonsoft::Json::Linq::JsonPath {
-class QueryExpression;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq::JsonPath {

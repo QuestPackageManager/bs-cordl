@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleDataRef_1_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleDataRef_1_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 template <typename T> constexpr int32_t& UnityEngine::UIElements::__StyleDataRef_1__RefCounted<T>::__get_m_RefCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RefCount;
@@ -79,6 +79,11 @@ template <typename T> inline ::UnityEngine::UIElements::__StyleDataRef_1__RefCou
 template <typename T> constexpr ::UnityEngine::UIElements::__StyleDataRef_1__RefCounted<T>::__StyleDataRef_1__RefCounted() {}
 /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleDataRef_1<T>>"
 template <typename T> constexpr UnityEngine::UIElements::StyleDataRef_1<T>::operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleDataRef_1<T>>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::StyleDataRef_1<T>>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleDataRef_1<T>>"
+template <typename T>
+constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleDataRef_1<T>>* UnityEngine::UIElements::StyleDataRef_1<T>::i___System__IEquatable_1___UnityEngine__UIElements__StyleDataRef_1_T__() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::StyleDataRef_1<T>>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename T> inline ::UnityEngine::UIElements::StyleDataRef_1<T> UnityEngine::UIElements::StyleDataRef_1<T>::Acquire() {

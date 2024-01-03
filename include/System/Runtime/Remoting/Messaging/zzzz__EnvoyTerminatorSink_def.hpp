@@ -8,10 +8,10 @@ namespace System::Runtime::Remoting::Messaging {
 class IMessageCtrl;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+class IMessageSink;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
+class IMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -34,6 +34,9 @@ public:
 
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"
+  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* i___System__Runtime__Remoting__Messaging__IMessageSink() noexcept;
 
   static inline void setStaticF_Instance(::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink* value);
 

@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PCAppInit)
 namespace GlobalNamespace {
+class DefaultScenesTransitionsFromInit;
+}
+namespace GlobalNamespace {
 class MainSystemInit;
 }
 namespace System::Threading::Tasks {
 class Task;
-}
-namespace GlobalNamespace {
-class DefaultScenesTransitionsFromInit;
 }
 // Forward declare root types
 namespace GlobalNamespace {

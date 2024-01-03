@@ -11,17 +11,26 @@ CORDL_MODULE_INIT
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UpdateCatalogsOperation)
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
-namespace UnityEngine::AddressableAssets {
-class __UpdateCatalogsOperation____c;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 class IResourceLocator;
 }
 namespace UnityEngine::AddressableAssets {
+class AddressablesImpl;
+}
+namespace UnityEngine::AddressableAssets {
 class __AddressablesImpl__ResourceLocatorInfo;
+}
+namespace UnityEngine::AddressableAssets {
+class __UpdateCatalogsOperation____c;
 }
 namespace UnityEngine::AddressableAssets {
 class __UpdateCatalogsOperation____c__DisplayClass11_0;
@@ -29,17 +38,8 @@ class __UpdateCatalogsOperation____c__DisplayClass11_0;
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> struct AsyncOperationHandle_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::AddressableAssets {
-class AddressablesImpl;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 class IResourceProvider;
@@ -180,11 +180,11 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::__UpdateCatalogsOperati
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 217, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14034)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 792 }), TypeDefinitionIndex(TypeDefinitionIndex(14033)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 275 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 794 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3843), inst: 796 }), TypeDefinitionIndex(TypeDefinitionIndex(3843)), TypeDefinitionIndex(TypeDefinitionIndex(14112)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3835))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14096)) CS Name: ::UnityEngine.AddressableAssets::UpdateCatalogsOperation*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3843), inst: 796 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3843)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 792 }), TypeDefinitionIndex(TypeDefinitionIndex(14034)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 794 }), TypeDefinitionIndex(TypeDefinitionIndex(3835)), TypeDefinitionIndex(TypeDefinitionIndex(14032)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14112)), TypeDefinitionIndex(TypeDefinitionIndex(14033)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 275 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(14096)) CS Name: ::UnityEngine.AddressableAssets::UpdateCatalogsOperation*
 class CORDL_TYPE UpdateCatalogsOperation
     : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*> {
 public:

@@ -7,29 +7,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MemberInfoSerializationHolder)
+namespace System::Reflection {
+struct MemberTypes;
+}
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class IObjectReference;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
-}
-namespace System {
-class RuntimeType;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-class IObjectReference;
-}
-namespace System::Reflection {
-struct MemberTypes;
-}
-namespace System {
-class Type;
+struct StreamingContext;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class RuntimeType;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::System::Reflection::MemberInfoSerializationHolder);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3475))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3475)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3509))
 // CS Name: ::System.Reflection::MemberInfoSerializationHolder*
 class CORDL_TYPE MemberInfoSerializationHolder : public ::System::Object {
@@ -68,8 +68,14 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Serialization::IObjectReference"
   constexpr operator ::System::Runtime::Serialization::IObjectReference*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::IObjectReference"
+  constexpr ::System::Runtime::Serialization::IObjectReference* i___System__Runtime__Serialization__IObjectReference() noexcept;
 
   constexpr ::StringW& __get_m_memberName();
 

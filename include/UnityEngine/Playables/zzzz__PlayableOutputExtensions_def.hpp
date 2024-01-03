@@ -9,17 +9,17 @@ CORDL_MODULE_EXPORT(PlayableOutputExtensions)
 namespace System {
 class Object;
 }
-namespace UnityEngine {
-class Object;
-}
 namespace UnityEngine::Playables {
-struct Playable;
+class INotificationReceiver;
 }
 namespace UnityEngine::Playables {
 class INotification;
 }
 namespace UnityEngine::Playables {
-class INotificationReceiver;
+struct Playable;
+}
+namespace UnityEngine {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {
@@ -56,9 +56,7 @@ public:
   template <typename U> static inline void SetWeight(U output, float_t value);
 
   /// @brief Method PushNotification, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param context: ::System::Object* (default: nullptr)
-  template <typename U>
-  static inline void PushNotification(U output, ::UnityEngine::Playables::Playable origin, ::UnityEngine::Playables::INotification* notification, ::System::Object* context = nullptr);
+  template <typename U> static inline void PushNotification(U output, ::UnityEngine::Playables::Playable origin, ::UnityEngine::Playables::INotification* notification, ::System::Object* context);
 
   /// @brief Method AddNotificationReceiver, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename U> static inline void AddNotificationReceiver(U output, ::UnityEngine::Playables::INotificationReceiver* receiver);

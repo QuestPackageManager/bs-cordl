@@ -8,14 +8,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(WTauNafMultiplier)
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class __WTauNafMultiplier__WTauNafCallback;
-}
 namespace Org::BouncyCastle::Math::EC::Abc {
 class ZTauElement;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class IPreCompCallback;
+}
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class PreCompInfo;
+}
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class __WTauNafMultiplier__WTauNafCallback;
 }
 namespace Org::BouncyCastle::Math::EC {
 class AbstractF2mPoint;
@@ -23,11 +26,8 @@ class AbstractF2mPoint;
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class PreCompInfo;
-}
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class IPreCompCallback;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Multiplier {
@@ -57,6 +57,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
   constexpr operator ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
+  constexpr ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback* i___Org__BouncyCastle__Math__EC__Multiplier__IPreCompCallback() noexcept;
 
   constexpr ::Org::BouncyCastle::Math::EC::AbstractF2mPoint*& __get_m_p();
 

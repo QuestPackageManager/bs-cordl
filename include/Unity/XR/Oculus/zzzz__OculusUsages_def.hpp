@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::Unity::XR::Oculus::OculusUsages);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15620), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(15620)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15151)) CS Name: ::Unity.XR.Oculus::OculusUsages*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15620), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15620))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15151)) CS Name: ::Unity.XR.Oculus::OculusUsages*
 class CORDL_TYPE OculusUsages : public ::System::Object {
 public:
   // Declarations

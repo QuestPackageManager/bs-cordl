@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Crypto/zzzz__KeyGenerationParameters_def.hpp"
 CORDL_MODULE_EXPORT(ECKeyGenerationParameters)
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECDomainParameters;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECDomainParameters;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;

@@ -9,8 +9,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(WebRequest)
-namespace System {
-class IAsyncResult;
+namespace System::Collections {
+class ArrayList;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System::Net::Cache {
+class RequestCacheBinding;
 }
 namespace System::Net::Cache {
 class RequestCachePolicy;
@@ -19,25 +25,22 @@ namespace System::Net::Cache {
 class RequestCacheProtocol;
 }
 namespace System::Net {
-class __WebRequest____c__DisplayClass79_0;
+class ICredentials;
 }
-namespace System {
-class Object;
+namespace System::Net {
+class IWebProxy;
+}
+namespace System::Net {
+class IWebRequestCreate;
 }
 namespace System::Net {
 class WebHeaderCollection;
 }
 namespace System::Net {
-class ICredentials;
+class WebResponse;
 }
-namespace System::Net::Cache {
-class RequestCacheBinding;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::IO {
-class Stream;
+namespace System::Net {
+class __TimerThread__Queue;
 }
 namespace System::Net {
 class __WebRequest__DesignerWebRequestCreate;
@@ -46,37 +49,34 @@ namespace System::Net {
 class __WebRequest____c__DisplayClass78_0;
 }
 namespace System::Net {
-class WebResponse;
-}
-namespace System {
-class Uri;
-}
-namespace System {
-class AsyncCallback;
-}
-namespace System::Net {
-class IWebProxy;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Security::Principal {
-class WindowsIdentity;
+class __WebRequest____c__DisplayClass79_0;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
-namespace System::Collections {
-class ArrayList;
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
-namespace System::Net {
-class __TimerThread__Queue;
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Security::Principal {
+class WindowsIdentity;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
-namespace System::Net {
-class IWebRequestCreate;
+namespace System {
+class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Uri;
 }
 // Forward declare root types
 namespace System::Net {
@@ -108,6 +108,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Net::IWebRequestCreate"
   constexpr operator ::System::Net::IWebRequestCreate*() noexcept;
+
+  /// @brief Convert to "::System::Net::IWebRequestCreate"
+  constexpr ::System::Net::IWebRequestCreate* i___System__Net__IWebRequestCreate() noexcept;
 
   /// @brief Method Create, addr 0x29a4668, size 0x54, virtual true, abstract: false, final true
   inline ::System::Net::WebRequest* Create(::System::Uri* uri);
@@ -273,7 +276,7 @@ static_assert(offsetof(::System::Net::__WebRequest____c__DisplayClass79_0, _____
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2997)), TypeDefinitionIndex(TypeDefinitionIndex(2605)), TypeDefinitionIndex(TypeDefinitionIndex(9365))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9365)), TypeDefinitionIndex(TypeDefinitionIndex(2605)), TypeDefinitionIndex(TypeDefinitionIndex(2997))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9096))
 // CS Name: ::System.Net::WebRequest*
 class CORDL_TYPE WebRequest : public ::System::MarshalByRefObject {
@@ -344,6 +347,9 @@ public:
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
   constexpr ::System::Net::Security::AuthenticationLevel& __get_m_AuthenticationLevel();
 

@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(WebProxy)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace System::Collections {
 class ArrayList;
 }
@@ -14,31 +17,28 @@ namespace System::Collections {
 class Hashtable;
 }
 namespace System::Net {
-class IWebProxy;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Text::RegularExpressions {
-class Regex;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System {
-class Uri;
+class AutoWebProxyScriptEngine;
 }
 namespace System::Net {
 class ICredentials;
 }
 namespace System::Net {
-class AutoWebProxyScriptEngine;
+class IWebProxy;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System::Text::RegularExpressions {
+class Regex;
+}
+namespace System {
+class Uri;
 }
 // Forward declare root types
 namespace System::Net {
@@ -93,8 +93,14 @@ public:
   /// @brief Convert operator to "::System::Net::IWebProxy"
   constexpr operator ::System::Net::IWebProxy*() noexcept;
 
+  /// @brief Convert to "::System::Net::IWebProxy"
+  constexpr ::System::Net::IWebProxy* i___System__Net__IWebProxy() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
   constexpr bool& __get__UseRegistry();
 

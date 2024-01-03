@@ -14,8 +14,44 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(InlineStyleAccess)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct StylePropertyId;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+class StylePropertyReader;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct StyleValueManaged;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct StyleValue;
+}
 namespace UnityEngine::UIElements {
-class VisualElement;
+struct ComputedStyle;
+}
+namespace UnityEngine::UIElements {
+struct DisplayStyle;
+}
+namespace UnityEngine::UIElements {
+struct FlexDirection;
+}
+namespace UnityEngine::UIElements {
+class IStyle;
+}
+namespace UnityEngine::UIElements {
+struct Position;
+}
+namespace UnityEngine::UIElements {
+struct StyleColor;
+}
+namespace UnityEngine::UIElements {
+struct StyleCursor;
+}
+namespace UnityEngine::UIElements {
+template <typename T> struct StyleEnum_1;
 }
 namespace UnityEngine::UIElements {
 struct StyleFloat;
@@ -24,70 +60,34 @@ namespace UnityEngine::UIElements {
 struct StyleLength;
 }
 namespace UnityEngine::UIElements {
-class StyleSheet;
-}
-namespace UnityEngine::UIElements {
 struct StyleRotate;
-}
-namespace UnityEngine::UIElements {
-struct DisplayStyle;
-}
-namespace UnityEngine::UIElements {
-struct ComputedStyle;
-}
-namespace UnityEngine::UIElements {
-struct StyleScale;
-}
-namespace UnityEngine::UIElements {
-struct StyleTranslate;
-}
-namespace UnityEngine::UIElements {
-struct StyleColor;
-}
-namespace UnityEngine::UIElements {
-struct StyleTextShadow;
-}
-namespace UnityEngine::UIElements {
-template <typename T> struct StyleEnum_1;
 }
 namespace UnityEngine::UIElements {
 class StyleRule;
 }
 namespace UnityEngine::UIElements {
-struct Position;
+struct StyleScale;
 }
 namespace UnityEngine::UIElements {
-struct FlexDirection;
+class StyleSheet;
+}
+namespace UnityEngine::UIElements {
+struct StyleTextShadow;
+}
+namespace UnityEngine::UIElements {
+struct StyleTransformOrigin;
+}
+namespace UnityEngine::UIElements {
+struct StyleTranslate;
 }
 namespace UnityEngine::UIElements {
 struct Visibility;
 }
-namespace UnityEngine::UIElements::StyleSheets {
-struct StyleValue;
-}
 namespace UnityEngine::UIElements {
-class IStyle;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct StyleValueManaged;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct StylePropertyId;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-class StylePropertyReader;
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
 struct __InlineStyleAccess__InlineRule;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::UIElements {
-struct StyleCursor;
-}
-namespace UnityEngine::UIElements {
-struct StyleTransformOrigin;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -147,9 +147,9 @@ static_assert(offsetof(::UnityEngine::UIElements::__InlineStyleAccess__InlineRul
 // SizeInfo { instance_size: 256, native_size: -1, calculated_instance_size: 256, calculated_native_size: 256, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7309)), TypeDefinitionIndex(TypeDefinitionIndex(7291)), TypeDefinitionIndex(TypeDefinitionIndex(7319)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7292)), TypeDefinitionIndex(TypeDefinitionIndex(7283)), TypeDefinitionIndex(TypeDefinitionIndex(7308)), TypeDefinitionIndex(TypeDefinitionIndex(7320)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7316))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7310)) CS Name: ::UnityEngine.UIElements::InlineStyleAccess*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7319)), TypeDefinitionIndex(TypeDefinitionIndex(7316)), TypeDefinitionIndex(TypeDefinitionIndex(7292)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7320)), TypeDefinitionIndex(TypeDefinitionIndex(7309)), TypeDefinitionIndex(TypeDefinitionIndex(7308)), TypeDefinitionIndex(TypeDefinitionIndex(7283)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7291))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7310)) CS Name: ::UnityEngine.UIElements::InlineStyleAccess*
 class CORDL_TYPE InlineStyleAccess : public ::UnityEngine::UIElements::StyleValueCollection {
 public:
   // Declarations
@@ -301,6 +301,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyle"
   constexpr operator ::UnityEngine::UIElements::IStyle*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UIElements::IStyle"
+  constexpr ::UnityEngine::UIElements::IStyle* i___UnityEngine__UIElements__IStyle() noexcept;
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StyleValueManaged>*& __get_m_ValuesManaged();
 

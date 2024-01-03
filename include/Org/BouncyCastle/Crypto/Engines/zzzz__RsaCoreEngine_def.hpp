@@ -12,11 +12,11 @@ class RsaKeyParameters;
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Crypto {
 class IRsa;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -45,6 +45,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IRsa"
   constexpr operator ::Org::BouncyCastle::Crypto::IRsa*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IRsa"
+  constexpr ::Org::BouncyCastle::Crypto::IRsa* i___Org__BouncyCastle__Crypto__IRsa() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*& __get_key();
 

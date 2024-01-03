@@ -8,26 +8,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(WrapperUtilities)
-namespace Org::BouncyCastle::Security {
-struct __WrapperUtilities__WrapAlgorithm;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Crypto {
-class IWrapper;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace Org::BouncyCastle::Security {
-class __WrapperUtilities__BufferedCipherWrapper;
 }
 namespace Org::BouncyCastle::Crypto {
 class IBufferedCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class IWrapper;
+}
+namespace Org::BouncyCastle::Security {
+class __WrapperUtilities__BufferedCipherWrapper;
+}
+namespace Org::BouncyCastle::Security {
+struct __WrapperUtilities__WrapAlgorithm;
+}
+namespace System::Collections {
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Security {
@@ -137,6 +137,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IWrapper"
   constexpr operator ::Org::BouncyCastle::Crypto::IWrapper*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IWrapper"
+  constexpr ::Org::BouncyCastle::Crypto::IWrapper* i___Org__BouncyCastle__Crypto__IWrapper() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::IBufferedCipher*& __get_cipher();
 

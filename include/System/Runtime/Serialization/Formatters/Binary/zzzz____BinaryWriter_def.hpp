@@ -9,83 +9,83 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(__BinaryWriter)
-namespace System {
-struct DateTime;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryAssembly;
-}
-namespace System {
-class Array;
-}
-namespace System {
-class Object;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class ObjectWriter;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class MemberPrimitiveTyped;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryArray;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-struct InternalPrimitiveTypeE;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryObjectWithMapTyped;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class MemberReference;
-}
-namespace System::Runtime::Serialization::Formatters {
-struct FormatterTypeStyle;
-}
-namespace System::IO {
-class BinaryWriter;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class WriteObjectInfo;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryObjectString;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class ObjectNull;
-}
 namespace System::Collections {
 class Hashtable;
 }
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryMethodReturn;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class MemberPrimitiveUnTyped;
-}
-namespace System {
-struct TimeSpan;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class NameInfo;
+namespace System::IO {
+class BinaryWriter;
 }
 namespace System::IO {
 class Stream;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryArray;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryAssembly;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
 class BinaryMethodCall;
 }
-namespace System {
-class Type;
+namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryMethodReturn;
 }
-namespace System {
-struct Decimal;
+namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryObjectString;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryObjectWithMapTyped;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class BinaryObjectWithMap;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class BinaryObject;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+struct InternalPrimitiveTypeE;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class MemberPrimitiveTyped;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class MemberPrimitiveUnTyped;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class MemberReference;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class NameInfo;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class ObjectNull;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class ObjectWriter;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class WriteObjectInfo;
+}
+namespace System::Runtime::Serialization::Formatters {
+struct FormatterTypeStyle;
+}
+namespace System {
+class Array;
+}
+namespace System {
+struct DateTime;
+}
+namespace System {
+struct Decimal;
+}
+namespace System {
+class Object;
+}
+namespace System {
+struct TimeSpan;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {

@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseShaderInfoStorage)
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-class Texture2D;
-}
 namespace System {
 class IDisposable;
 }
 namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
 struct RectInt;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -56,6 +56,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr bool& __get__disposed_k__BackingField();
 

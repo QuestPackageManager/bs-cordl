@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EventBase_1)
 namespace UnityEngine::UIElements {
-template <typename T> class ObjectPool_1;
+class EventBase;
 }
 namespace UnityEngine::UIElements {
-class EventBase;
+template <typename T> class ObjectPool_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputActionProperty)
-namespace UnityEngine::InputSystem {
-class InputAction;
-}
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace System {
+class Object;
 }
 namespace UnityEngine::InputSystem {
 class InputActionReference;
 }
-namespace System {
-class Object;
+namespace UnityEngine::InputSystem {
+class InputAction;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -40,11 +40,20 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::InputActionProperty>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::InputActionProperty>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::InputActionProperty>"
+  constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::InputActionProperty>* i___System__IEquatable_1___UnityEngine__InputSystem__InputActionProperty_();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::InputAction*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::InputAction*>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::InputAction*>"
+  constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::InputAction*>* i___System__IEquatable_1___UnityEngine__InputSystem__InputAction__();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::InputActionReference*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::InputActionReference*>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::InputActionReference*>"
+  constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::InputActionReference*>* i___System__IEquatable_1___UnityEngine__InputSystem__InputActionReference__();
 
   /// @brief Method get_action, addr 0x2a469c4, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* get_action();

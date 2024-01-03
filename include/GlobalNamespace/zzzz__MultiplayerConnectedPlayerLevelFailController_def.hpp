@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(MultiplayerConnectedPlayerLevelFailController)
 namespace GlobalNamespace {
+class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class BeatmapObjectManager;
+class VFXController;
 }
 namespace System {
 class Action;
-}
-namespace GlobalNamespace {
-class VFXController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

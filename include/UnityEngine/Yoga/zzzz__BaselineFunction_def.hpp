@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaselineFunction)
-namespace UnityEngine::Yoga {
-class YogaNode;
-}
 namespace System {
 class Object;
+}
+namespace UnityEngine::Yoga {
+class YogaNode;
 }
 // Forward declare root types
 namespace UnityEngine::Yoga {

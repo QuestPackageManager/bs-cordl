@@ -9,34 +9,34 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CertificateRequest;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsKeyExchange;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class NewSessionTicket;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCredentials;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsServerContext;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsPeer;
-}
-namespace System::Collections {
-class IList;
+class CertificateStatus;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class Certificate;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class CertificateStatus;
+class NewSessionTicket;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class ProtocolVersion;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCredentials;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsKeyExchange;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsPeer;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsServerContext;
 }
 namespace System::Collections {
 class IDictionary;
 }
-namespace Org::BouncyCastle::Crypto::Tls {
-class ProtocolVersion;
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -56,6 +56,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsPeer"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsPeer*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsPeer"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsPeer* i___Org__BouncyCastle__Crypto__Tls__TlsPeer() noexcept;
 
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Init(::Org::BouncyCastle::Crypto::Tls::TlsServerContext* context);

@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__ThreadLocal_1_def.hpp"
-#include "System/Threading/zzzz__ThreadLocal_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Threading/zzzz__ThreadLocal_1_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 // Ctor Parameters [CppParam { name: "Value", ty: "::System::Threading::__ThreadLocal_1__LinkedSlot<T>*", modifiers: "", def_value: Some("nullptr") }]
 template <typename T> constexpr ::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>::__ThreadLocal_1__LinkedSlotVolatile(::System::Threading::__ThreadLocal_1__LinkedSlot<T>* Value) noexcept {
   this->Value = Value;
@@ -182,6 +182,10 @@ template <typename T> inline void System::Threading::__ThreadLocal_1__Finalizati
 template <typename T> constexpr ::System::Threading::__ThreadLocal_1__FinalizationHelper<T>::__ThreadLocal_1__FinalizationHelper() {}
 /// @brief Convert operator to "::System::IDisposable"
 template <typename T> constexpr System::Threading::ThreadLocal_1<T>::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename T> constexpr ::System::IDisposable* System::Threading::ThreadLocal_1<T>::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 template <typename T> constexpr ::System::Func_1<T>*& System::Threading::ThreadLocal_1<T>::__get_m_valueFactory() {

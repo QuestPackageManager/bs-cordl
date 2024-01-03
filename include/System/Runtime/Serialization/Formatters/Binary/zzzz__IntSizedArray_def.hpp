@@ -39,6 +39,9 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
+
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_objects();
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_objects() const;

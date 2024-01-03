@@ -9,22 +9,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Text)
 namespace UnityEngine::UI {
+class FontData;
+}
+namespace UnityEngine::UI {
 class ILayoutElement;
 }
+namespace UnityEngine::UI {
+class VertexHelper;
+}
 namespace UnityEngine {
-struct VerticalWrapMode;
+struct FontStyle;
+}
+namespace UnityEngine {
+class Font;
 }
 namespace UnityEngine {
 struct HorizontalWrapMode;
 }
 namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+struct TextAnchor;
+}
+namespace UnityEngine {
 struct TextGenerationSettings;
 }
 namespace UnityEngine {
-class Material;
+class TextGenerator;
 }
-namespace UnityEngine::UI {
-class VertexHelper;
+namespace UnityEngine {
+class Texture;
 }
 namespace UnityEngine {
 struct UIVertex;
@@ -32,23 +47,8 @@ struct UIVertex;
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine::UI {
-class FontData;
-}
 namespace UnityEngine {
-struct TextAnchor;
-}
-namespace UnityEngine {
-class Font;
-}
-namespace UnityEngine {
-struct FontStyle;
-}
-namespace UnityEngine {
-class Texture;
-}
-namespace UnityEngine {
-class TextGenerator;
+struct VerticalWrapMode;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -137,6 +137,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::UI::ILayoutElement"
   constexpr operator ::UnityEngine::UI::ILayoutElement*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UI::ILayoutElement"
+  constexpr ::UnityEngine::UI::ILayoutElement* i___UnityEngine__UI__ILayoutElement() noexcept;
 
   constexpr ::UnityEngine::UI::FontData*& __get_m_FontData();
 

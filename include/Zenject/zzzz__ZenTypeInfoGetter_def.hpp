@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(ZenTypeInfoGetter)
 namespace System {
 class AsyncCallback;
 }
-namespace Zenject {
-class InjectTypeInfo;
+namespace System {
+class IAsyncResult;
 }
 namespace System {
 class Object;
 }
-namespace System {
-class IAsyncResult;
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {

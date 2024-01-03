@@ -1,18 +1,26 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__PrefabFactory_2_def.hpp"
-#include "Zenject/zzzz__IFactory_3_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "Zenject/zzzz__IFactory_def.hpp"
-#include "UnityEngine/zzzz__Object_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__IFactory_3_def.hpp"
+#include "Zenject/zzzz__IFactory_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 /// @brief Convert operator to "::Zenject::IFactory_3<::UnityEngine::Object*,P1,T>"
 template <typename P1, typename T> constexpr Zenject::PrefabFactory_2<P1, T>::operator ::Zenject::IFactory_3<::UnityEngine::Object*, P1, T>*() noexcept {
   return static_cast<::Zenject::IFactory_3<::UnityEngine::Object*, P1, T>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::Zenject::IFactory_3<::UnityEngine::Object*,P1,T>"
+template <typename P1, typename T> constexpr ::Zenject::IFactory_3<::UnityEngine::Object*, P1, T>* Zenject::PrefabFactory_2<P1, T>::i___Zenject__IFactory_3___UnityEngine__Object__P1_T_() noexcept {
+  return static_cast<::Zenject::IFactory_3<::UnityEngine::Object*, P1, T>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::Zenject::IFactory"
 template <typename P1, typename T> constexpr Zenject::PrefabFactory_2<P1, T>::operator ::Zenject::IFactory*() noexcept {
+  return static_cast<::Zenject::IFactory*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::IFactory"
+template <typename P1, typename T> constexpr ::Zenject::IFactory* Zenject::PrefabFactory_2<P1, T>::i___Zenject__IFactory() noexcept {
   return static_cast<::Zenject::IFactory*>(static_cast<void*>(this));
 }
 template <typename P1, typename T> constexpr ::Zenject::DiContainer*& Zenject::PrefabFactory_2<P1, T>::__get__container() {

@@ -8,55 +8,55 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(TutorialBeatmapObjectManager)
 namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__NoteSpawnData;
-}
-namespace GlobalNamespace {
-class SliderController;
-}
-namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__ObstacleSpawnData;
-}
-namespace GlobalNamespace {
-class TutorialNoteController;
-}
-namespace GlobalNamespace {
-class __ObstacleController__Pool;
-}
-namespace GlobalNamespace {
 class BombNoteController;
-}
-namespace GlobalNamespace {
-class SliderData;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 template <typename T> class MemoryPoolContainer_1;
 }
 namespace GlobalNamespace {
-class __TutorialNoteController__Pool;
-}
-namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__SliderSpawnData;
-}
-namespace GlobalNamespace {
-class ObstacleController;
-}
-namespace GlobalNamespace {
-class __TutorialBeatmapObjectManager__InitData;
-}
-namespace GlobalNamespace {
-class __BombNoteController__Pool;
-}
-namespace GlobalNamespace {
-class ObstacleData;
+class NoteController;
 }
 namespace GlobalNamespace {
 class NoteData;
 }
 namespace GlobalNamespace {
-class NoteController;
+class ObstacleController;
+}
+namespace GlobalNamespace {
+class ObstacleData;
+}
+namespace GlobalNamespace {
+class SliderController;
+}
+namespace GlobalNamespace {
+class SliderData;
+}
+namespace GlobalNamespace {
+class TutorialNoteController;
+}
+namespace GlobalNamespace {
+struct __BeatmapObjectSpawnMovementData__NoteSpawnData;
+}
+namespace GlobalNamespace {
+struct __BeatmapObjectSpawnMovementData__ObstacleSpawnData;
+}
+namespace GlobalNamespace {
+struct __BeatmapObjectSpawnMovementData__SliderSpawnData;
+}
+namespace GlobalNamespace {
+class __BombNoteController__Pool;
+}
+namespace GlobalNamespace {
+class __ObstacleController__Pool;
+}
+namespace GlobalNamespace {
+class __TutorialBeatmapObjectManager__InitData;
+}
+namespace GlobalNamespace {
+class __TutorialNoteController__Pool;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

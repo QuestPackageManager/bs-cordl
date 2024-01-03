@@ -30,6 +30,9 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<T>"
   constexpr operator ::System::IEquatable_1<T>*() noexcept;
 
+  /// @brief Convert to "::System::IEquatable_1<T>"
+  constexpr ::System::IEquatable_1<T>* i___System__IEquatable_1_T_() noexcept;
+
   /// @brief Method get_bitCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_bitCount();
 

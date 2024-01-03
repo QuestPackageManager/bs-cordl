@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(NetworkPlayersViewController)
 namespace GlobalNamespace {
-class NetworkPlayersTableView;
-}
-namespace System {
-template <typename T> class Action_1;
+class INetworkPlayerModel;
 }
 namespace GlobalNamespace {
 class INetworkPlayer;
 }
 namespace GlobalNamespace {
-class INetworkPlayerModel;
+class NetworkPlayersTableView;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

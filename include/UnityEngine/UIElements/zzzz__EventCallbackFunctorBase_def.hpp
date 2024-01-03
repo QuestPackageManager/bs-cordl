@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__InvokePolicy_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EventCallbackFunctorBase)
-namespace UnityEngine::UIElements {
-class EventBase;
+namespace System {
+class Delegate;
 }
 namespace UnityEngine::UIElements {
 struct CallbackPhase;
 }
 namespace UnityEngine::UIElements {
-struct InvokePolicy;
+class EventBase;
 }
-namespace System {
-class Delegate;
+namespace UnityEngine::UIElements {
+struct InvokePolicy;
 }
 namespace UnityEngine::UIElements {
 struct PropagationPhase;
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::EventCallbackFunctorBase);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7164)), TypeDefinitionIndex(TypeDefinitionIndex(7163))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7163)), TypeDefinitionIndex(TypeDefinitionIndex(7164))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7183))
 // CS Name: ::UnityEngine.UIElements::EventCallbackFunctorBase*
 class CORDL_TYPE EventCallbackFunctorBase : public ::System::Object {

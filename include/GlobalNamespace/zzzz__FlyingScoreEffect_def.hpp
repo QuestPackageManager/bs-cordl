@@ -8,17 +8,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FlyingScoreEffect)
-namespace UnityEngine {
-class SpriteRenderer;
-}
-namespace UnityEngine {
-struct Color;
+namespace GlobalNamespace {
+class CutScoreBuffer;
 }
 namespace GlobalNamespace {
 class ICutScoreBufferDidChangeReceiver;
 }
-namespace UnityEngine {
-class AnimationCurve;
+namespace GlobalNamespace {
+class ICutScoreBufferDidFinishReceiver;
 }
 namespace GlobalNamespace {
 class IReadonlyCutScoreBuffer;
@@ -26,17 +23,20 @@ class IReadonlyCutScoreBuffer;
 namespace GlobalNamespace {
 class __FlyingScoreEffect__Pool;
 }
-namespace GlobalNamespace {
-class ICutScoreBufferDidFinishReceiver;
-}
 namespace TMPro {
 class TextMeshPro;
 }
 namespace UnityEngine {
-struct Vector3;
+class AnimationCurve;
 }
-namespace GlobalNamespace {
-class CutScoreBuffer;
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+class SpriteRenderer;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -84,8 +84,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ICutScoreBufferDidChangeReceiver"
   constexpr operator ::GlobalNamespace::ICutScoreBufferDidChangeReceiver*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::ICutScoreBufferDidChangeReceiver"
+  constexpr ::GlobalNamespace::ICutScoreBufferDidChangeReceiver* i___GlobalNamespace__ICutScoreBufferDidChangeReceiver() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::ICutScoreBufferDidFinishReceiver"
   constexpr operator ::GlobalNamespace::ICutScoreBufferDidFinishReceiver*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::ICutScoreBufferDidFinishReceiver"
+  constexpr ::GlobalNamespace::ICutScoreBufferDidFinishReceiver* i___GlobalNamespace__ICutScoreBufferDidFinishReceiver() noexcept;
 
   constexpr ::UnityEngine::AnimationCurve*& __get__fadeAnimationCurve();
 
@@ -211,7 +217,7 @@ static_assert(offsetof(::GlobalNamespace::FlyingScoreEffect, ____cutScoreBuffer)
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4854)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), TypeDefinitionIndex(TypeDefinitionIndex(4854)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
 // 2811 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4853)) CS Name: ::FlyingScoreEffect::Pool*
 class CORDL_TYPE __FlyingScoreEffect__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::FlyingScoreEffect*> {
 public:

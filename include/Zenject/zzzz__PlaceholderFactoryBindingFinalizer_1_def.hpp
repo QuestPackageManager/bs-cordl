@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__ProviderBindingFinalizer_def.hpp"
 CORDL_MODULE_EXPORT(PlaceholderFactoryBindingFinalizer_1)
 namespace Zenject {
-class FactoryBindInfo;
-}
-namespace Zenject {
 class BindInfo;
 }
 namespace Zenject {
 class DiContainer;
+}
+namespace Zenject {
+class FactoryBindInfo;
 }
 // Forward declare root types
 namespace Zenject {

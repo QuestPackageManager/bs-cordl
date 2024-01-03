@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CombinedHash)
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsHandshakeHash;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -46,8 +46,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* i___Org__BouncyCastle__Crypto__Tls__TlsHandshakeHash() noexcept;
+
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDigest"
   constexpr operator ::Org::BouncyCastle::Crypto::IDigest*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"
+  constexpr ::Org::BouncyCastle::Crypto::IDigest* i___Org__BouncyCastle__Crypto__IDigest() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext*& __get_mContext();
 

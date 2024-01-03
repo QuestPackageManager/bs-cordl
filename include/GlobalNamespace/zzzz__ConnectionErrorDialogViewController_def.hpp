@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConnectionErrorDialogViewController)
 namespace GlobalNamespace {
+struct DisconnectedReason;
+}
+namespace GlobalNamespace {
 class __ConnectionErrorDialogViewController____c__DisplayClass0_0;
 }
 namespace System {
 class Action;
-}
-namespace GlobalNamespace {
-struct DisconnectedReason;
 }
 // Forward declare root types
 namespace GlobalNamespace {

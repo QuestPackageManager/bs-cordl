@@ -9,14 +9,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Display)
+namespace System {
+class Object;
+}
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
 class __Display__DisplaysUpdatedDelegate;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -70,7 +70,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::__Display__Displays
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10129))
 // CS Name: ::UnityEngine::Display*
 class CORDL_TYPE Display : public ::System::Object {

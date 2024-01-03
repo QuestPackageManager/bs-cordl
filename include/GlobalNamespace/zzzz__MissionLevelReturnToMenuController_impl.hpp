@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionLevelReturnToMenuController_def.hpp"
-#include "GlobalNamespace/zzzz__PrepareLevelCompletionResults_def.hpp"
+#include "GlobalNamespace/zzzz__IReturnToMenuController_def.hpp"
 #include "GlobalNamespace/zzzz__MissionLevelScenesTransitionSetupDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__MissionObjectiveCheckersManager_def.hpp"
-#include "GlobalNamespace/zzzz__IReturnToMenuController_def.hpp"
+#include "GlobalNamespace/zzzz__PrepareLevelCompletionResults_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MissionLevelReturnToMenuController.ReturnToMenu
 template <>
 
@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x23c9b14;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelReturnToMenuController*>::get(),
                                                                                "ReturnToMenu", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23c9bc4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelReturnToMenuController*>::get(),
                                                                                ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -35,6 +35,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::GlobalNamespace::IReturnToMenuController"
 constexpr GlobalNamespace::MissionLevelReturnToMenuController::operator ::GlobalNamespace::IReturnToMenuController*() noexcept {
+  return static_cast<::GlobalNamespace::IReturnToMenuController*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IReturnToMenuController"
+constexpr ::GlobalNamespace::IReturnToMenuController* GlobalNamespace::MissionLevelReturnToMenuController::i___GlobalNamespace__IReturnToMenuController() noexcept {
   return static_cast<::GlobalNamespace::IReturnToMenuController*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*& GlobalNamespace::MissionLevelReturnToMenuController::__get__missionLevelSceneSetupData() {

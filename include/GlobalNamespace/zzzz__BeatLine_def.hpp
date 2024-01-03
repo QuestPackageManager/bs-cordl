@@ -8,26 +8,26 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstddef>
 CORDL_MODULE_EXPORT(BeatLine)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace GlobalNamespace {
+class TubeBloomPrePassLight;
 }
 namespace GlobalNamespace {
 struct __BeatLine__HighlightData;
+}
+namespace GlobalNamespace {
+class __BeatLine__Pool;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+class AnimationCurve;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
-class AnimationCurve;
-}
-namespace GlobalNamespace {
-class __BeatLine__Pool;
-}
-namespace UnityEngine {
 struct Vector3;
-}
-namespace GlobalNamespace {
-class TubeBloomPrePassLight;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -220,8 +220,8 @@ static_assert(offsetof(::GlobalNamespace::BeatLine, ____rotation) == 0x68, "Offs
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 2809 }), TypeDefinitionIndex(TypeDefinitionIndex(4700)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11050))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4698)) CS Name: ::BeatLine::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), TypeDefinitionIndex(TypeDefinitionIndex(4700)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// 2809 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4698)) CS Name: ::BeatLine::Pool*
 class CORDL_TYPE __BeatLine__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::BeatLine*> {
 public:
   // Declarations

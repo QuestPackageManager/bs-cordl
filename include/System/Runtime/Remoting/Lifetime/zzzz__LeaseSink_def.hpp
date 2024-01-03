@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(LeaseSink)
 namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+class IMessageCtrl;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMessageCtrl;
+class IMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Lifetime {
@@ -34,6 +34,9 @@ public:
 
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"
+  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* i___System__Runtime__Remoting__Messaging__IMessageSink() noexcept;
 
   constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __get__nextSink();
 

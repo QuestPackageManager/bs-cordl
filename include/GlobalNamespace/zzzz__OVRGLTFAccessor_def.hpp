@@ -11,17 +11,8 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRGLTFAccessor)
-namespace OVRSimpleJSON {
-class JSONNode;
-}
 namespace GlobalNamespace {
 struct OVRBinaryChunk;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-struct Color;
 }
 namespace GlobalNamespace {
 struct OVRGLTFComponentType;
@@ -29,14 +20,23 @@ struct OVRGLTFComponentType;
 namespace GlobalNamespace {
 struct OVRGLTFType;
 }
+namespace OVRSimpleJSON {
+class JSONNode;
+}
+namespace UnityEngine {
+struct Color;
+}
 namespace UnityEngine {
 struct Matrix4x4;
 }
 namespace UnityEngine {
-struct Vector4;
+struct Vector2;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -48,7 +48,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRGLTFAccessor);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7551)), TypeDefinitionIndex(TypeDefinitionIndex(7552)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7551)), TypeDefinitionIndex(TypeDefinitionIndex(7552))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7553))
 // CS Name: ::OVRGLTFAccessor*
 class CORDL_TYPE OVRGLTFAccessor : public ::System::Object {
@@ -138,8 +138,7 @@ public:
   static inline ::GlobalNamespace::OVRGLTFAccessor* New_ctor(::OVRSimpleJSON::JSONNode* node, ::OVRSimpleJSON::JSONNode* root, bool bufferViewOnly);
 
   /// @brief Method .ctor, addr 0x271d820, size 0x340, virtual false, abstract: false, final false
-  /// @param bufferViewOnly: bool (default: false)
-  inline void _ctor(::OVRSimpleJSON::JSONNode* node, ::OVRSimpleJSON::JSONNode* root, bool bufferViewOnly = false);
+  inline void _ctor(::OVRSimpleJSON::JSONNode* node, ::OVRSimpleJSON::JSONNode* root, bool bufferViewOnly);
 
   /// @brief Method GetDataCount, addr 0x271dcc4, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetDataCount();

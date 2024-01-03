@@ -8,53 +8,53 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MissionLevelGameplayManager)
-namespace System::Collections {
-class IEnumerator;
-}
 namespace GlobalNamespace {
-class ILevelStartController;
-}
-namespace GlobalNamespace {
-class __MissionLevelGameplayManager__InitData;
-}
-namespace GlobalNamespace {
-class ILevelEndActions;
-}
-namespace GlobalNamespace {
-class GameSongController;
-}
-namespace GlobalNamespace {
-class PauseController;
-}
-namespace System {
-class Action;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class __MissionLevelGameplayManager___Start_d__23;
-}
-namespace GlobalNamespace {
-struct __MissionLevelGameplayManager__GameState;
+class GameEnergyCounter;
 }
 namespace GlobalNamespace {
 class GameScenesManager;
 }
 namespace GlobalNamespace {
-class GameEnergyCounter;
+class GameSongController;
+}
+namespace GlobalNamespace {
+class ILevelEndActions;
+}
+namespace GlobalNamespace {
+class ILevelStartController;
 }
 namespace GlobalNamespace {
 class MissionObjectiveCheckersManager;
 }
-namespace System {
-class Object;
+namespace GlobalNamespace {
+class PauseController;
+}
+namespace GlobalNamespace {
+struct __MissionLevelGameplayManager__GameState;
+}
+namespace GlobalNamespace {
+class __MissionLevelGameplayManager__InitData;
+}
+namespace GlobalNamespace {
+class __MissionLevelGameplayManager___Start_d__23;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+class Action;
+}
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -211,11 +211,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -294,7 +303,7 @@ static_assert(offsetof(::GlobalNamespace::__MissionLevelGameplayManager___Start_
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5019)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(5019))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5021))
 // CS Name: ::MissionLevelGameplayManager*
 class CORDL_TYPE MissionLevelGameplayManager : public ::UnityEngine::MonoBehaviour {
@@ -345,8 +354,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ILevelEndActions"
   constexpr operator ::GlobalNamespace::ILevelEndActions*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::ILevelEndActions"
+  constexpr ::GlobalNamespace::ILevelEndActions* i___GlobalNamespace__ILevelEndActions() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::ILevelStartController"
   constexpr operator ::GlobalNamespace::ILevelStartController*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::ILevelStartController"
+  constexpr ::GlobalNamespace::ILevelStartController* i___GlobalNamespace__ILevelStartController() noexcept;
 
   constexpr ::GlobalNamespace::MissionObjectiveCheckersManager*& __get__missionObjectiveCheckersManager();
 

@@ -9,11 +9,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DatatypeImplementation)
+namespace System::Collections {
+class Hashtable;
+}
+namespace System::Xml::Schema {
+class FacetsChecker;
+}
 namespace System::Xml::Schema {
 class RestrictionFacets;
 }
 namespace System::Xml::Schema {
-class __DatatypeImplementation__SchemaDatatypeMap;
+struct XmlSchemaDatatypeVariety;
+}
+namespace System::Xml::Schema {
+class XmlSchemaDatatype;
+}
+namespace System::Xml::Schema {
+class XmlSchemaSimpleType;
 }
 namespace System::Xml::Schema {
 class XmlSchemaType;
@@ -24,44 +36,32 @@ struct XmlSchemaWhiteSpace;
 namespace System::Xml::Schema {
 struct XmlTypeCode;
 }
-namespace System::Collections {
-class Hashtable;
-}
-namespace System::Xml {
-class XmlNameTable;
-}
-namespace System {
-class Type;
-}
-namespace System::Xml::Schema {
-class XmlSchemaDatatype;
-}
-namespace System::Xml::Schema {
-class XmlSchemaSimpleType;
-}
-namespace System::Xml {
-struct XmlTokenizedType;
-}
-namespace System::Xml {
-class XmlQualifiedName;
-}
 namespace System::Xml::Schema {
 class XmlValueConverter;
 }
 namespace System::Xml::Schema {
-class FacetsChecker;
-}
-namespace System {
-class Object;
+class __DatatypeImplementation__SchemaDatatypeMap;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;
 }
-namespace System::Xml::Schema {
-struct XmlSchemaDatatypeVariety;
+namespace System::Xml {
+class XmlNameTable;
+}
+namespace System::Xml {
+class XmlQualifiedName;
+}
+namespace System::Xml {
+struct XmlTokenizedType;
 }
 namespace System {
 class IComparable;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -98,6 +98,9 @@ public:
 
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*() noexcept;
+
+  /// @brief Convert to "::System::IComparable"
+  constexpr ::System::IComparable* i___System__IComparable() noexcept;
 
   constexpr ::StringW& __get_name();
 
@@ -178,7 +181,7 @@ static_assert(offsetof(::System::Xml::Schema::__DatatypeImplementation__SchemaDa
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11723)), TypeDefinitionIndex(TypeDefinitionIndex(11615))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11615)), TypeDefinitionIndex(TypeDefinitionIndex(11723))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11621))
 // CS Name: ::System.Xml.Schema::DatatypeImplementation*
 class CORDL_TYPE DatatypeImplementation : public ::System::Xml::Schema::XmlSchemaDatatype {

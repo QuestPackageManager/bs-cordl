@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509CertificateImpl)
-namespace System {
-class IDisposable;
+namespace System::Security::Cryptography {
+class DSA;
 }
 namespace System::Security::Cryptography {
 class RSA;
 }
-namespace System::Security::Cryptography {
-class DSA;
-}
 namespace System {
 struct DateTime;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -64,6 +64,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// @brief Method get_IsValid, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsValid();

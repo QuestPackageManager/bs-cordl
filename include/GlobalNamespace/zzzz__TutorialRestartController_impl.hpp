@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TutorialRestartController_def.hpp"
-#include "GlobalNamespace/zzzz__TutorialScenesTransitionSetupDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__ILevelRestartController_def.hpp"
+#include "GlobalNamespace/zzzz__TutorialScenesTransitionSetupDataSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TutorialRestartController.RestartLevel
 template <>
 
@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x23cb018;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TutorialRestartController*>::get(),
                                                                                "RestartLevel", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -24,7 +24,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23cb038;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TutorialRestartController*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -32,6 +32,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::GlobalNamespace::ILevelRestartController"
 constexpr GlobalNamespace::TutorialRestartController::operator ::GlobalNamespace::ILevelRestartController*() noexcept {
+  return static_cast<::GlobalNamespace::ILevelRestartController*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::ILevelRestartController"
+constexpr ::GlobalNamespace::ILevelRestartController* GlobalNamespace::TutorialRestartController::i___GlobalNamespace__ILevelRestartController() noexcept {
   return static_cast<::GlobalNamespace::ILevelRestartController*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::TutorialScenesTransitionSetupDataSO*& GlobalNamespace::TutorialRestartController::__get__tutorialSceneSetupData() {

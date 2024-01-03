@@ -10,20 +10,20 @@ class Task;
 namespace System::Threading::Tasks {
 class __TaskToApm__TaskWrapperAsyncResult;
 }
+namespace System::Threading::Tasks {
+class __TaskToApm____c__DisplayClass3_0;
+}
+namespace System::Threading {
+class WaitHandle;
+}
 namespace System {
 class AsyncCallback;
 }
 namespace System {
-class Object;
-}
-namespace System::Threading::Tasks {
-class __TaskToApm____c__DisplayClass3_0;
-}
-namespace System {
 class IAsyncResult;
 }
-namespace System::Threading {
-class WaitHandle;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
@@ -68,6 +68,9 @@ public:
 
   /// @brief Convert operator to "::System::IAsyncResult"
   constexpr operator ::System::IAsyncResult*() noexcept;
+
+  /// @brief Convert to "::System::IAsyncResult"
+  constexpr ::System::IAsyncResult* i___System__IAsyncResult() noexcept;
 
   constexpr ::System::Threading::Tasks::Task*& __get_Task();
 

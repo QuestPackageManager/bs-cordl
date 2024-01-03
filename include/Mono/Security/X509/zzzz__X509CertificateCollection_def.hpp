@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509CertificateCollection)
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
-class IEnumerable;
+namespace Mono::Security::X509 {
+class X509Certificate;
 }
 namespace Mono::Security::X509 {
 class __X509CertificateCollection__X509CertificateEnumerator;
 }
-namespace Mono::Security::X509 {
-class X509Certificate;
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class Object;
@@ -51,6 +51,9 @@ public:
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr ::System::Collections::IEnumerator*& __get_enumerator();
 
@@ -119,6 +122,9 @@ public:
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   static inline ::Mono::Security::X509::X509CertificateCollection* New_ctor();
 

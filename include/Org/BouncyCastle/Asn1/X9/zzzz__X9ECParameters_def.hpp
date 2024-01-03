@@ -6,14 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X9ECParameters)
-namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
+namespace Org::BouncyCastle::Asn1::X9 {
+class X9Curve;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class X9ECPoint;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class X9FieldID;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+namespace Org::BouncyCastle::Math::EC {
+class ECCurve;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
@@ -23,15 +32,6 @@ class BigInteger;
 }
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class X9Curve;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class X9ECPoint;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class X9FieldID;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X9 {

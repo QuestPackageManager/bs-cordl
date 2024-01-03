@@ -10,43 +10,43 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerLobbyConnectionController)
 namespace GlobalNamespace {
+struct BeatmapDifficultyMask;
+}
+namespace GlobalNamespace {
 struct ConnectionFailedReason;
-}
-namespace GlobalNamespace {
-class __UnifiedNetworkPlayerModel__JoinMatchmakingPartyConfig;
-}
-namespace GlobalNamespace {
-struct __MultiplayerLobbyConnectionController__LobbyConnectionType;
-}
-namespace System {
-class Action;
 }
 namespace GlobalNamespace {
 struct CreateServerFormData;
 }
 namespace GlobalNamespace {
-struct __MultiplayerLobbyConnectionController__LobbyConnectionState;
-}
-namespace GlobalNamespace {
-class IUnifiedNetworkPlayerModel;
-}
-namespace GlobalNamespace {
 class IMultiplayerSessionManager;
-}
-namespace GlobalNamespace {
-class SelectMultiplayerLobbyDestination;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
 }
 namespace GlobalNamespace {
 class INetworkPlayer;
 }
 namespace GlobalNamespace {
-struct BeatmapDifficultyMask;
+class IUnifiedNetworkPlayerModel;
+}
+namespace GlobalNamespace {
+class SelectMultiplayerLobbyDestination;
 }
 namespace GlobalNamespace {
 struct SongPackMask;
+}
+namespace GlobalNamespace {
+struct __MultiplayerLobbyConnectionController__LobbyConnectionState;
+}
+namespace GlobalNamespace {
+struct __MultiplayerLobbyConnectionController__LobbyConnectionType;
+}
+namespace GlobalNamespace {
+class __UnifiedNetworkPlayerModel__JoinMatchmakingPartyConfig;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -182,8 +182,8 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerLobbyConnectionController
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4511)), TypeDefinitionIndex(TypeDefinitionIndex(4512)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12708))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4513)) CS Name: ::MultiplayerLobbyConnectionController*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4512)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12708)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4511))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4513)) CS Name: ::MultiplayerLobbyConnectionController*
 class CORDL_TYPE MultiplayerLobbyConnectionController : public ::System::Object {
 public:
   // Declarations
@@ -323,8 +323,7 @@ public:
   inline void CreateOrConnectToDestinationParty(::GlobalNamespace::SelectMultiplayerLobbyDestination* lobbyDestination);
 
   /// @brief Method ConnectToServer, addr 0x2362584, size 0x23c, virtual false, abstract: false, final false
-  /// @param password: ::StringW (default: nullptr)
-  inline void ConnectToServer(::GlobalNamespace::INetworkPlayer* server, ::StringW password = nullptr);
+  inline void ConnectToServer(::GlobalNamespace::INetworkPlayer* server, ::StringW password);
 
   /// @brief Method ConnectToMatchmaking, addr 0x23627c0, size 0x334, virtual false, abstract: false, final false
   inline void ConnectToMatchmaking(::GlobalNamespace::BeatmapDifficultyMask beatmapDifficultyMask, ::GlobalNamespace::SongPackMask songPackMask, bool allowSongSelection);

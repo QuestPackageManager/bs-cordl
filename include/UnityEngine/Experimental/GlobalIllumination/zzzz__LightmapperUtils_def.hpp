@@ -7,28 +7,19 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(LightmapperUtils)
 namespace UnityEngine::Experimental::GlobalIllumination {
-struct LightMode;
-}
-namespace UnityEngine {
-class Light;
-}
-namespace UnityEngine {
-struct LightmapBakeType;
-}
-namespace UnityEngine::Experimental::GlobalIllumination {
-struct DiscLight;
-}
-namespace UnityEngine::Experimental::GlobalIllumination {
 struct Cookie;
 }
 namespace UnityEngine::Experimental::GlobalIllumination {
 struct DirectionalLight;
 }
-namespace UnityEngine {
-struct Color;
+namespace UnityEngine::Experimental::GlobalIllumination {
+struct DiscLight;
 }
 namespace UnityEngine::Experimental::GlobalIllumination {
-struct SpotLight;
+struct LightMode;
+}
+namespace UnityEngine::Experimental::GlobalIllumination {
+struct LinearColor;
 }
 namespace UnityEngine::Experimental::GlobalIllumination {
 struct PointLight;
@@ -37,7 +28,16 @@ namespace UnityEngine::Experimental::GlobalIllumination {
 struct RectangleLight;
 }
 namespace UnityEngine::Experimental::GlobalIllumination {
-struct LinearColor;
+struct SpotLight;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+class Light;
+}
+namespace UnityEngine {
+struct LightmapBakeType;
 }
 // Forward declare root types
 namespace UnityEngine::Experimental::GlobalIllumination {

@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(AsyncRequest)
 namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+class IMessageSink;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
+class IMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Channels {

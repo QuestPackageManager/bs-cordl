@@ -34,6 +34,9 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::IEnvoyInfo"
   constexpr operator ::System::Runtime::Remoting::IEnvoyInfo*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Remoting::IEnvoyInfo"
+  constexpr ::System::Runtime::Remoting::IEnvoyInfo* i___System__Runtime__Remoting__IEnvoyInfo() noexcept;
+
   constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __get_envoySinks();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessageSink*> const& __get_envoySinks() const;

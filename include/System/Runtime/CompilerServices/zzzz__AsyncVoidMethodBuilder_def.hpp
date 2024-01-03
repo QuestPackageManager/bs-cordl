@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(AsyncVoidMethodBuilder)
 namespace System::Runtime::CompilerServices {
 struct AsyncMethodBuilderCore;
 }
-namespace System::Threading::Tasks {
-class Task;
-}
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace System::Threading {
 class SynchronizationContext;

@@ -9,23 +9,23 @@ CORDL_MODULE_EXPORT(ActivationMixerPlayable)
 namespace System {
 class Object;
 }
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
-namespace UnityEngine::Timeline {
-struct __ActivationTrack__PostPlaybackState;
-}
 namespace UnityEngine::Playables {
 struct FrameData;
 }
 namespace UnityEngine::Playables {
-template <typename T> struct ScriptPlayable_1;
+struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
 struct Playable;
+}
+namespace UnityEngine::Playables {
+template <typename T> struct ScriptPlayable_1;
+}
+namespace UnityEngine::Timeline {
+struct __ActivationTrack__PostPlaybackState;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::ActivationMixerPlayable);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10425)), TypeDefinitionIndex(TypeDefinitionIndex(13827))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13827)), TypeDefinitionIndex(TypeDefinitionIndex(10425))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13825))
 // CS Name: ::UnityEngine.Timeline::ActivationMixerPlayable*
 class CORDL_TYPE ActivationMixerPlayable : public ::UnityEngine::Playables::PlayableBehaviour {

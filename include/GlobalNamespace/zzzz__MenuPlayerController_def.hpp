@@ -8,13 +8,13 @@ namespace GlobalNamespace {
 class VRController;
 }
 namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine {
-struct Quaternion;
 }
 // Forward declare root types
 namespace GlobalNamespace {

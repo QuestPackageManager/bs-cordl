@@ -3,14 +3,14 @@
 #include "GlobalNamespace/zzzz__LightAxis_impl.hpp"
 #include "GlobalNamespace/zzzz__LightRotationBeatmapEventDataBox_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
-#include "GlobalNamespace/zzzz__EaseType_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "GlobalNamespace/zzzz__LightRotationBaseData_def.hpp"
-#include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatToTimeConvertor_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__EaseType_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatToTimeConvertor_def.hpp"
+#include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
 #include "GlobalNamespace/zzzz__LightAxis_def.hpp"
+#include "GlobalNamespace/zzzz__LightRotationBaseData_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LightRotationBeatmapEventDataBox.get_subtypeIdentifier
 template <>
 
@@ -19,7 +19,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x233cd90;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightRotationBeatmapEventDataBox*>::get(),
@@ -35,7 +35,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x233cd98;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightRotationBeatmapEventDataBox*>::get(),
@@ -53,7 +53,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x234;
   constexpr static std::size_t addrs = 0x233cda0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightRotationBeatmapEventDataBox*>::get(), ".ctor", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{
@@ -76,7 +76,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x584;
   constexpr static std::size_t addrs = 0x233cfd4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightRotationBeatmapEventDataBox*>::get(),

@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "LiteNetLib/zzzz__BaseChannel_def.hpp"
 CORDL_MODULE_EXPORT(SimpleChannel)
 namespace LiteNetLib {
-class NetPeer;
+class NetPacket;
 }
 namespace LiteNetLib {
-class NetPacket;
+class NetPeer;
 }
 // Forward declare root types
 namespace LiteNetLib {

@@ -11,11 +11,11 @@ class InfoTypeAndValue;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {

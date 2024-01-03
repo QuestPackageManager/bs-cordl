@@ -6,38 +6,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ExpiringDictionary_2)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace BGNet::Core {
 class ITimeProvider;
 }
-namespace System {
-class IDisposable;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace GlobalNamespace {
-template <typename TKey, typename TValue> class __ExpiringDictionary_2___Enumerate_d__14;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template <typename T> class OrderedSet_1;
 }
 namespace GlobalNamespace {
 template <typename TKey, typename TValue> class __ExpiringDictionary_2__Entry;
 }
 namespace GlobalNamespace {
-template <typename T> class OrderedSet_1;
+template <typename TKey, typename TValue> class __ExpiringDictionary_2___Enumerate_d__14;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -79,6 +79,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr TKey& __get_key();
 
@@ -164,11 +167,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TValue>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<TValue>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TValue>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<TValue>* i___System__Collections__Generic__IEnumerator_1_TValue_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -287,11 +299,20 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TValue>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TValue>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TValue>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<TValue>* i___System__Collections__Generic__IEnumerable_1_TValue_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::BGNet::Core::ITimeProvider*& __get__timeProvider();
 

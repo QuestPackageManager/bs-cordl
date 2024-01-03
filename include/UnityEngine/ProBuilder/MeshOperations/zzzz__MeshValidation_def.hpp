@@ -12,47 +12,47 @@ CORDL_MODULE_EXPORT(MeshValidation)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine::ProBuilder::MeshOperations {
+struct __MeshValidation__AttributeValidationStrategy;
+}
 namespace UnityEngine::ProBuilder::MeshOperations {
 class __MeshValidation____c;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine::ProBuilder {
-class Face;
 }
 namespace UnityEngine::ProBuilder::MeshOperations {
 class __MeshValidation____c__DisplayClass10_0;
 }
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
+namespace UnityEngine::ProBuilder::MeshOperations {
+class __MeshValidation____c__DisplayClass5_0;
 }
 namespace UnityEngine::ProBuilder {
-struct Triangle;
+struct Edge;
+}
+namespace UnityEngine::ProBuilder {
+class Face;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
 namespace UnityEngine::ProBuilder {
-struct Edge;
-}
-namespace UnityEngine::ProBuilder::MeshOperations {
-struct __MeshValidation__AttributeValidationStrategy;
+struct Triangle;
 }
 namespace UnityEngine {
 struct Vector2;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 struct Vector4;
-}
-namespace UnityEngine::ProBuilder::MeshOperations {
-class __MeshValidation____c__DisplayClass5_0;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::MeshOperations {
@@ -205,7 +205,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOpe
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12209))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12209)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12276))
 // CS Name: ::MeshValidation::<>c__DisplayClass5_0*
 class CORDL_TYPE __MeshValidation____c__DisplayClass5_0 : public ::System::Object {
@@ -323,7 +323,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__MeshValidati
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12274)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12278))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::MeshValidation*
 class CORDL_TYPE MeshValidation : public ::System::Object {
@@ -358,12 +358,10 @@ public:
                                                                                                                                                         ::UnityEngine::ProBuilder::Face* face);
 
   /// @brief Method RemoveDegenerateTriangles, addr 0x2bbca54, size 0x954, virtual false, abstract: false, final false
-  /// @param removed: ::System::Collections::Generic::List_1<int32_t>* (default: nullptr)
-  static inline bool RemoveDegenerateTriangles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::List_1<int32_t>* removed = nullptr);
+  static inline bool RemoveDegenerateTriangles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::List_1<int32_t>* removed);
 
   /// @brief Method RemoveUnusedVertices, addr 0x2bb9724, size 0x32c, virtual false, abstract: false, final false
-  /// @param removed: ::System::Collections::Generic::List_1<int32_t>* (default: nullptr)
-  static inline bool RemoveUnusedVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::List_1<int32_t>* removed = nullptr);
+  static inline bool RemoveUnusedVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::List_1<int32_t>* removed);
 
   /// @brief Method RebuildIndexes, addr 0x2bbd3a8, size 0x41c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<int32_t>* RebuildIndexes(::System::Collections::Generic::IEnumerable_1<int32_t>* indices,
@@ -391,18 +389,14 @@ public:
   static inline void EnsureRealNumbers(::System::Collections::Generic::IList_1<::UnityEngine::Vector4>* attribute);
 
   /// @brief Method EnsureArraySize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param strategy: ::UnityEngine::ProBuilder::MeshOperations::__MeshValidation__AttributeValidationStrategy (default: static_cast<int32_t>(0x1))
-  /// @param fill: T (default: nullptr)
   template <typename T>
   static inline void EnsureArraySize(ByRef<::ArrayW<T, ::Array<T>*>> attribute, int32_t expectedVertexCount,
-                                     ::UnityEngine::ProBuilder::MeshOperations::__MeshValidation__AttributeValidationStrategy strategy = static_cast<int32_t>(0x1), T fill = nullptr);
+                                     ::UnityEngine::ProBuilder::MeshOperations::__MeshValidation__AttributeValidationStrategy strategy, T fill);
 
   /// @brief Method EnsureListSize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param strategy: ::UnityEngine::ProBuilder::MeshOperations::__MeshValidation__AttributeValidationStrategy (default: static_cast<int32_t>(0x1))
-  /// @param fill: T (default: nullptr)
   template <typename T>
   static inline void EnsureListSize(ByRef<::System::Collections::Generic::List_1<T>*> attribute, int32_t expectedVertexCount,
-                                    ::UnityEngine::ProBuilder::MeshOperations::__MeshValidation__AttributeValidationStrategy strategy = static_cast<int32_t>(0x1), T fill = nullptr);
+                                    ::UnityEngine::ProBuilder::MeshOperations::__MeshValidation__AttributeValidationStrategy strategy, T fill);
 
   /// @brief Method EnsureValidAttributes, addr 0x2bbdf80, size 0x218, virtual false, abstract: false, final false
   static inline void EnsureValidAttributes(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);

@@ -3,8 +3,8 @@
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/zzzz__ModifiableContactPair_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 // Ctor Parameters [CppParam { name: "actor", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name: "otherActor", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "shape", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name: "otherShape", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name: "rotation", ty:
 // "::UnityEngine::Quaternion", modifiers: "", def_value: Some("{}") }, CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name:

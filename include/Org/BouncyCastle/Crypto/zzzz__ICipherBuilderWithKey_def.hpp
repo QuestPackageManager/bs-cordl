@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ICipherBuilderWithKey)
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class ICipherBuilder;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherBuilder;
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto {
@@ -29,6 +29,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherBuilder"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherBuilder*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherBuilder"
+  constexpr ::Org::BouncyCastle::Crypto::ICipherBuilder* i___Org__BouncyCastle__Crypto__ICipherBuilder() noexcept;
 
   /// @brief Method get_Key, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* get_Key();

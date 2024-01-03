@@ -2,32 +2,34 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Threading/zzzz__ThreadPriority_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetSocket)
-namespace System::Net {
-class IPEndPoint;
+namespace LiteNetLib {
+class INetSocketListener;
 }
 namespace System::Net::Sockets {
 struct SocketError;
 }
-namespace System::Net {
-class IPAddress;
-}
-namespace LiteNetLib {
-class INetSocketListener;
-}
-namespace System {
-class Object;
-}
 namespace System::Net::Sockets {
 class Socket;
 }
+namespace System::Net {
+class IPAddress;
+}
+namespace System::Net {
+class IPEndPoint;
+}
+namespace System::Threading {
+struct ThreadPriority;
+}
 namespace System::Threading {
 class Thread;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace LiteNetLib {
@@ -39,7 +41,7 @@ MARK_REF_PTR_T(::LiteNetLib::NetSocket);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 61, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2670)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14180))
 // CS Name: ::LiteNetLib::NetSocket*
 class CORDL_TYPE NetSocket : public ::System::Object {
@@ -150,9 +152,7 @@ public:
   inline void ReceiveLogic(::System::Object* state);
 
   /// @brief Method Bind, addr 0x2200e44, size 0x404, virtual false, abstract: false, final false
-  /// @param priority: ::System::Threading::ThreadPriority (default: static_cast<int32_t>(0x2))
-  inline bool Bind(::System::Net::IPAddress* addressIPv4, ::System::Net::IPAddress* addressIPv6, int32_t port, bool reuseAddress, bool ipv6,
-                   ::System::Threading::ThreadPriority priority = static_cast<int32_t>(0x2));
+  inline bool Bind(::System::Net::IPAddress* addressIPv4, ::System::Net::IPAddress* addressIPv6, int32_t port, bool reuseAddress, bool ipv6, ::System::Threading::ThreadPriority priority);
 
   /// @brief Method BindSocket, addr 0x220555c, size 0x6bc, virtual false, abstract: false, final false
   inline bool BindSocket(::System::Net::Sockets::Socket* socket, ::System::Net::IPEndPoint* ep, bool reuseAddress);

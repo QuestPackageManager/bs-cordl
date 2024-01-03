@@ -12,25 +12,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_PluginStorage)
 namespace HoudiniEngineUnity {
-struct __HEU_PluginStorage__DataType;
+class HEU_SessionBase;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace HoudiniEngineUnity {
+class HEU_SessionData;
+}
+namespace HoudiniEngineUnity {
+struct __HEU_PluginStorage__DataType;
 }
 namespace HoudiniEngineUnity {
 template <typename T> class __HEU_PluginStorage__StoreDataArray_1;
 }
 namespace HoudiniEngineUnity {
-class HEU_SessionData;
+class __HEU_PluginStorage__StoreData;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace HoudiniEngineUnity {
-class __HEU_PluginStorage__StoreData;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -116,7 +116,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_PluginStorage__DataType, valu
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9677)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9677))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9678))
 // CS Name: ::HEU_PluginStorage::StoreData*
 class CORDL_TYPE __HEU_PluginStorage__StoreData : public ::System::Object {
@@ -308,8 +308,7 @@ public:
   inline void Set(::StringW key, ::StringW value);
 
   /// @brief Method Set, addr 0x218ce2c, size 0x154, virtual false, abstract: false, final false
-  /// @param delimiter: char16_t (default: u';')
-  inline void Set(::StringW key, ::System::Collections::Generic::List_1<::StringW>* values, char16_t delimiter = u';');
+  inline void Set(::StringW key, ::System::Collections::Generic::List_1<::StringW>* values, char16_t delimiter);
 
   /// @brief Method Get, addr 0x218ac68, size 0xf4, virtual false, abstract: false, final false
   inline bool Get(::StringW key, ByRef<bool> value, bool defaultValue);
@@ -327,8 +326,7 @@ public:
   inline bool Get(::StringW key, ByRef<::StringW> value, ::StringW defaultValue);
 
   /// @brief Method Get, addr 0x218cc08, size 0x1cc, virtual false, abstract: false, final false
-  /// @param delimiter: char16_t (default: u';')
-  inline bool Get(::StringW key, ByRef<::System::Collections::Generic::List_1<::StringW>*> values, char16_t delimiter = u';');
+  inline bool Get(::StringW key, ByRef<::System::Collections::Generic::List_1<::StringW>*> values, char16_t delimiter);
 
   /// @brief Method MarkDirtyForSave, addr 0x218f278, size 0x4, virtual false, abstract: false, final false
   inline void MarkDirtyForSave();

@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConstructedOctetStream)
 namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetStringParser;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1StreamParser;
 }
 namespace System::IO {
 class Stream;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetStringParser;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {

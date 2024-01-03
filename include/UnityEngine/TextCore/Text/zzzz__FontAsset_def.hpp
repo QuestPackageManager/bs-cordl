@@ -15,14 +15,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FontAsset)
-namespace UnityEngine::TextCore {
-struct GlyphRect;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace UnityEngine::TextCore {
-struct FaceInfo;
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
-namespace UnityEngine {
-class Texture2D;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine::TextCore::LowLevel {
+struct FontEngineError;
 }
 namespace UnityEngine::TextCore::LowLevel {
 struct GlyphRenderMode;
@@ -31,40 +37,34 @@ namespace UnityEngine::TextCore::Text {
 struct AtlasPopulationMode;
 }
 namespace UnityEngine::TextCore::Text {
-class __FontAsset____c;
-}
-namespace UnityEngine::TextCore::Text {
-class FontFeatureTable;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace UnityEngine {
-class Font;
-}
-namespace UnityEngine::TextCore {
-class Glyph;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::TextCore::Text {
-struct FontWeightPair;
-}
-namespace UnityEngine::TextCore::Text {
 class Character;
 }
 namespace UnityEngine::TextCore::Text {
 struct FontAssetCreationEditorSettings;
 }
-namespace UnityEngine::TextCore::LowLevel {
-struct FontEngineError;
+namespace UnityEngine::TextCore::Text {
+class FontFeatureTable;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace UnityEngine::TextCore::Text {
+struct FontWeightPair;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace UnityEngine::TextCore::Text {
+class __FontAsset____c;
+}
+namespace UnityEngine::TextCore {
+struct FaceInfo;
+}
+namespace UnityEngine::TextCore {
+struct GlyphRect;
+}
+namespace UnityEngine::TextCore {
+class Glyph;
+}
+namespace UnityEngine {
+class Font;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -142,8 +142,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::__F
 // SizeInfo { instance_size: 480, native_size: -1, calculated_instance_size: 480, calculated_native_size: 480, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13724)), TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(15526)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15534)), TypeDefinitionIndex(TypeDefinitionIndex(13679)), TypeDefinitionIndex(TypeDefinitionIndex(13680))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(13724)), TypeDefinitionIndex(TypeDefinitionIndex(13680)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15534)), TypeDefinitionIndex(TypeDefinitionIndex(15526)), TypeDefinitionIndex(TypeDefinitionIndex(13679))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(13682)) CS Name: ::UnityEngine.TextCore.Text::FontAsset*
 class CORDL_TYPE FontAsset : public ::UnityEngine::TextCore::Text::TextAsset {
 public:
@@ -877,35 +877,25 @@ public:
   inline void set_tabMultiple(uint8_t value);
 
   /// @brief Method CreateFontAsset, addr 0x2d380c0, size 0x274, virtual false, abstract: false, final false
-  /// @param pointSize: int32_t (default: static_cast<int32_t>(0x5a))
-  static inline ::UnityEngine::TextCore::Text::FontAsset* CreateFontAsset(::StringW familyName, ::StringW styleName, int32_t pointSize = static_cast<int32_t>(0x5a));
+  static inline ::UnityEngine::TextCore::Text::FontAsset* CreateFontAsset(::StringW familyName, ::StringW styleName, int32_t pointSize);
 
   /// @brief Method CreateFontAsset, addr 0x2d38334, size 0x17c, virtual false, abstract: false, final false
-  /// @param atlasPopulationMode: ::UnityEngine::TextCore::Text::AtlasPopulationMode (default: static_cast<int32_t>(0x2))
-  /// @param enableMultiAtlasSupport: bool (default: true)
   static inline ::UnityEngine::TextCore::Text::FontAsset* CreateFontAsset(::StringW fontFilePath, int32_t faceIndex, int32_t samplingPointSize, int32_t atlasPadding,
                                                                           ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, int32_t atlasWidth, int32_t atlasHeight,
-                                                                          ::UnityEngine::TextCore::Text::AtlasPopulationMode atlasPopulationMode = static_cast<int32_t>(0x2),
-                                                                          bool enableMultiAtlasSupport = true);
+                                                                          ::UnityEngine::TextCore::Text::AtlasPopulationMode atlasPopulationMode, bool enableMultiAtlasSupport);
 
   /// @brief Method CreateFontAsset, addr 0x2d3890c, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::Text::FontAsset* CreateFontAsset(::UnityEngine::Font* font);
 
   /// @brief Method CreateFontAsset, addr 0x2d38988, size 0xc0, virtual false, abstract: false, final false
-  /// @param atlasPopulationMode: ::UnityEngine::TextCore::Text::AtlasPopulationMode (default: static_cast<int32_t>(0x1))
-  /// @param enableMultiAtlasSupport: bool (default: true)
   static inline ::UnityEngine::TextCore::Text::FontAsset* CreateFontAsset(::UnityEngine::Font* font, int32_t samplingPointSize, int32_t atlasPadding,
                                                                           ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, int32_t atlasWidth, int32_t atlasHeight,
-                                                                          ::UnityEngine::TextCore::Text::AtlasPopulationMode atlasPopulationMode = static_cast<int32_t>(0x1),
-                                                                          bool enableMultiAtlasSupport = true);
+                                                                          ::UnityEngine::TextCore::Text::AtlasPopulationMode atlasPopulationMode, bool enableMultiAtlasSupport);
 
   /// @brief Method CreateFontAsset, addr 0x2d38a48, size 0x214, virtual false, abstract: false, final false
-  /// @param atlasPopulationMode: ::UnityEngine::TextCore::Text::AtlasPopulationMode (default: static_cast<int32_t>(0x1))
-  /// @param enableMultiAtlasSupport: bool (default: true)
   static inline ::UnityEngine::TextCore::Text::FontAsset* CreateFontAsset(::UnityEngine::Font* font, int32_t faceIndex, int32_t samplingPointSize, int32_t atlasPadding,
                                                                           ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, int32_t atlasWidth, int32_t atlasHeight,
-                                                                          ::UnityEngine::TextCore::Text::AtlasPopulationMode atlasPopulationMode = static_cast<int32_t>(0x1),
-                                                                          bool enableMultiAtlasSupport = true);
+                                                                          ::UnityEngine::TextCore::Text::AtlasPopulationMode atlasPopulationMode, bool enableMultiAtlasSupport);
 
   /// @brief Method CreateFontAssetInstance, addr 0x2d384b0, size 0x45c, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::Text::FontAsset* CreateFontAssetInstance(::UnityEngine::Font* font, int32_t atlasPadding, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode,
@@ -937,8 +927,7 @@ public:
   inline void AddSynthesizedCharactersAndFaceMetrics();
 
   /// @brief Method AddSynthesizedCharacter, addr 0x2d39708, size 0x254, virtual false, abstract: false, final false
-  /// @param addImmediately: bool (default: false)
-  inline void AddSynthesizedCharacter(uint32_t unicode, bool isFontFaceLoaded, bool addImmediately = false);
+  inline void AddSynthesizedCharacter(uint32_t unicode, bool isFontFaceLoaded, bool addImmediately);
 
   /// @brief Method AddCharacterToLookupCache, addr 0x2d399bc, size 0x68, virtual false, abstract: false, final false
   inline void AddCharacterToLookupCache(uint32_t unicode, ::UnityEngine::TextCore::Text::Character* character);
@@ -962,22 +951,16 @@ public:
   inline bool HasCharacter(int32_t character);
 
   /// @brief Method HasCharacter, addr 0x2d39f28, size 0x31c, virtual false, abstract: false, final false
-  /// @param searchFallbacks: bool (default: false)
-  /// @param tryAddCharacter: bool (default: false)
-  inline bool HasCharacter(char16_t character, bool searchFallbacks = false, bool tryAddCharacter = false);
+  inline bool HasCharacter(char16_t character, bool searchFallbacks, bool tryAddCharacter);
 
   /// @brief Method HasCharacter_Internal, addr 0x2d3adb8, size 0x224, virtual false, abstract: false, final false
-  /// @param searchFallbacks: bool (default: false)
-  /// @param tryAddCharacter: bool (default: false)
-  inline bool HasCharacter_Internal(uint32_t character, bool searchFallbacks = false, bool tryAddCharacter = false);
+  inline bool HasCharacter_Internal(uint32_t character, bool searchFallbacks, bool tryAddCharacter);
 
   /// @brief Method HasCharacters, addr 0x2d3afdc, size 0x1a8, virtual false, abstract: false, final false
   inline bool HasCharacters(::StringW text, ByRef<::System::Collections::Generic::List_1<char16_t>*> missingCharacters);
 
   /// @brief Method HasCharacters, addr 0x2d3b184, size 0x440, virtual false, abstract: false, final false
-  /// @param searchFallbacks: bool (default: false)
-  /// @param tryAddCharacter: bool (default: false)
-  inline bool HasCharacters(::StringW text, ByRef<::ArrayW<uint32_t, ::Array<uint32_t>*>> missingCharacters, bool searchFallbacks = false, bool tryAddCharacter = false);
+  inline bool HasCharacters(::StringW text, ByRef<::ArrayW<uint32_t, ::Array<uint32_t>*>> missingCharacters, bool searchFallbacks, bool tryAddCharacter);
 
   /// @brief Method HasCharacters, addr 0x2d3b5c4, size 0xb4, virtual false, abstract: false, final false
   inline bool HasCharacters(::StringW text);
@@ -1007,28 +990,22 @@ public:
   static inline void UpdateFontAssetInUpdateQueue();
 
   /// @brief Method TryAddCharacters, addr 0x2d3c214, size 0x20, virtual false, abstract: false, final false
-  /// @param includeFontFeatures: bool (default: false)
-  inline bool TryAddCharacters(::ArrayW<uint32_t, ::Array<uint32_t>*> unicodes, bool includeFontFeatures = false);
+  inline bool TryAddCharacters(::ArrayW<uint32_t, ::Array<uint32_t>*> unicodes, bool includeFontFeatures);
 
   /// @brief Method TryAddCharacters, addr 0x2d3c234, size 0xbf4, virtual false, abstract: false, final false
-  /// @param includeFontFeatures: bool (default: false)
-  inline bool TryAddCharacters(::ArrayW<uint32_t, ::Array<uint32_t>*> unicodes, ByRef<::ArrayW<uint32_t, ::Array<uint32_t>*>> missingUnicodes, bool includeFontFeatures = false);
+  inline bool TryAddCharacters(::ArrayW<uint32_t, ::Array<uint32_t>*> unicodes, ByRef<::ArrayW<uint32_t, ::Array<uint32_t>*>> missingUnicodes, bool includeFontFeatures);
 
   /// @brief Method TryAddCharacters, addr 0x2d3d2f4, size 0x20, virtual false, abstract: false, final false
-  /// @param includeFontFeatures: bool (default: false)
-  inline bool TryAddCharacters(::StringW characters, bool includeFontFeatures = false);
+  inline bool TryAddCharacters(::StringW characters, bool includeFontFeatures);
 
   /// @brief Method TryAddCharacters, addr 0x2d3d314, size 0xbac, virtual false, abstract: false, final false
-  /// @param includeFontFeatures: bool (default: false)
-  inline bool TryAddCharacters(::StringW characters, ByRef<::StringW> missingCharacters, bool includeFontFeatures = false);
+  inline bool TryAddCharacters(::StringW characters, ByRef<::StringW> missingCharacters, bool includeFontFeatures);
 
   /// @brief Method TryAddCharacterInternal, addr 0x2d3a244, size 0xb74, virtual false, abstract: false, final false
-  /// @param shouldGetFontFeatures: bool (default: false)
-  inline bool TryAddCharacterInternal(uint32_t unicode, ByRef<::UnityEngine::TextCore::Text::Character*> character, bool shouldGetFontFeatures = false);
+  inline bool TryAddCharacterInternal(uint32_t unicode, ByRef<::UnityEngine::TextCore::Text::Character*> character, bool shouldGetFontFeatures);
 
   /// @brief Method TryGetCharacter_and_QueueRenderToTexture, addr 0x2d3e1c8, size 0x574, virtual false, abstract: false, final false
-  /// @param shouldGetFontFeatures: bool (default: false)
-  inline bool TryGetCharacter_and_QueueRenderToTexture(uint32_t unicode, ByRef<::UnityEngine::TextCore::Text::Character*> character, bool shouldGetFontFeatures = false);
+  inline bool TryGetCharacter_and_QueueRenderToTexture(uint32_t unicode, ByRef<::UnityEngine::TextCore::Text::Character*> character, bool shouldGetFontFeatures);
 
   /// @brief Method TryAddGlyphsToAtlasTextures, addr 0x2d3e73c, size 0x4, virtual false, abstract: false, final false
   inline void TryAddGlyphsToAtlasTextures();
@@ -1058,8 +1035,7 @@ public:
   template <typename T> inline void CopyListDataToArray(::System::Collections::Generic::List_1<T>* srcList, ByRef<::ArrayW<T, ::Array<T>*>> dstArray);
 
   /// @brief Method ClearFontAssetData, addr 0x2d3ecb0, size 0x30, virtual false, abstract: false, final false
-  /// @param setAtlasSizeToZero: bool (default: false)
-  inline void ClearFontAssetData(bool setAtlasSizeToZero = false);
+  inline void ClearFontAssetData(bool setAtlasSizeToZero);
 
   /// @brief Method ClearFontAssetDataInternal, addr 0x2d3f0cc, size 0x1c, virtual false, abstract: false, final false
   inline void ClearFontAssetDataInternal();
@@ -1071,8 +1047,7 @@ public:
   inline void ClearFontAssetTables();
 
   /// @brief Method ClearAtlasTextures, addr 0x2d3eed8, size 0x1f4, virtual false, abstract: false, final false
-  /// @param setAtlasSizeToZero: bool (default: false)
-  inline void ClearAtlasTextures(bool setAtlasSizeToZero = false);
+  inline void ClearAtlasTextures(bool setAtlasSizeToZero);
 
   /// @brief Method DestroyAtlasTextures, addr 0x2d38cc4, size 0xc4, virtual false, abstract: false, final false
   inline void DestroyAtlasTextures();

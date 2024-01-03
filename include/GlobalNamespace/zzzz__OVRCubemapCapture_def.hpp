@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRCubemapCapture)
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
 class Camera;
 }
 namespace UnityEngine {
 class Cubemap;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -91,16 +91,13 @@ public:
   inline void Update();
 
   /// @brief Method TriggerCubemapCapture, addr 0x27a7cb0, size 0x2b0, virtual false, abstract: false, final false
-  /// @param cubemapSize: int32_t (default: static_cast<int32_t>(0x800))
-  /// @param pathName: ::StringW (default: nullptr)
-  static inline void TriggerCubemapCapture(::UnityEngine::Vector3 capturePos, int32_t cubemapSize = static_cast<int32_t>(0x800), ::StringW pathName = nullptr);
+  static inline void TriggerCubemapCapture(::UnityEngine::Vector3 capturePos, int32_t cubemapSize, ::StringW pathName);
 
   /// @brief Method RenderIntoCubemap, addr 0x27a7f60, size 0x580, virtual false, abstract: false, final false
   static inline void RenderIntoCubemap(::UnityEngine::Camera* ownerCamera, ::UnityEngine::Cubemap* outCubemap);
 
   /// @brief Method SaveCubemapCapture, addr 0x27a84e0, size 0x774, virtual false, abstract: false, final false
-  /// @param pathName: ::StringW (default: nullptr)
-  static inline bool SaveCubemapCapture(::UnityEngine::Cubemap* cubemap, ::StringW pathName = nullptr);
+  static inline bool SaveCubemapCapture(::UnityEngine::Cubemap* cubemap, ::StringW pathName);
 
   static inline ::GlobalNamespace::OVRCubemapCapture* New_ctor();
 

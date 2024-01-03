@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/Configuration/zzzz__ConfigurationSection_def.hpp"
 CORDL_MODULE_EXPORT(DefaultProxySection)
 namespace System::Configuration {
-class ConfigurationPropertyCollection;
+class ConfigurationElement;
 }
 namespace System::Configuration {
-class ConfigurationElement;
+class ConfigurationPropertyCollection;
 }
 // Forward declare root types
 namespace System::Net::Configuration {

@@ -17,148 +17,148 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRInput)
 namespace GlobalNamespace {
-class __OVRInput__OVRControllerGamepadPC;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Step;
-}
-namespace GlobalNamespace {
-struct __OVRInput__InteractionProfile;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-class __OVRInput__OVRControllerLTouch;
-}
-namespace GlobalNamespace {
-struct __OVRInput__ControllerInHandState;
-}
-namespace GlobalNamespace {
-struct __OVRInput__HapticsLocation;
-}
-namespace GlobalNamespace {
-struct __OVRInput__NearTouch;
-}
-namespace GlobalNamespace {
-class __OVRInput__OVRControllerTouch;
-}
-namespace GlobalNamespace {
-struct __OVRInput__RawButton;
-}
-namespace GlobalNamespace {
-class __OVRInput__OVRControllerRHand;
-}
-namespace GlobalNamespace {
-class __OVRInput__OVRControllerHands;
-}
-namespace OVR::OpenVR {
-struct ETrackedDeviceProperty;
-}
-namespace UnityEngine::XR {
-struct XRNode;
-}
-namespace GlobalNamespace {
-struct __OVRInput__Controller;
-}
-namespace GlobalNamespace {
-struct __OVRInput__Touch;
-}
-namespace GlobalNamespace {
-class __OVRInput__OVRControllerRTouch;
-}
-namespace GlobalNamespace {
-struct __OVRInput__RawNearTouch;
-}
-namespace GlobalNamespace {
-class __OVRInput__HapticInfo;
-}
-namespace GlobalNamespace {
-struct __OVRInput__RawAxis2D;
-}
-namespace GlobalNamespace {
 struct __OVRInput__Axis1D;
-}
-namespace GlobalNamespace {
-struct __OVRInput__RawTouch;
-}
-namespace GlobalNamespace {
-struct __OVRInput__InputDeviceShowState;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-struct __OVRInput__Hand;
-}
-namespace GlobalNamespace {
-struct __OVRInput__HapticsPcmVibration;
-}
-namespace GlobalNamespace {
-class __OVRInput__OVRControllerRemote;
-}
-namespace GlobalNamespace {
-struct __OVRInput__OpenVRControllerDetails;
-}
-namespace System {
-class Version;
 }
 namespace GlobalNamespace {
 struct __OVRInput__Axis2D;
 }
 namespace GlobalNamespace {
-class __OVRInput__OVRControllerLHand;
-}
-namespace UnityEngine {
-struct Quaternion;
+struct __OVRInput__Button;
 }
 namespace GlobalNamespace {
-class __OVRInput__OVRControllerGamepadAndroid;
+struct __OVRInput__ControllerInHandState;
 }
 namespace GlobalNamespace {
-struct __OVRInput__HapticsAmplitudeEnvelopeVibration;
+struct __OVRInput__Controller;
+}
+namespace GlobalNamespace {
+struct __OVRInput__Hand;
 }
 namespace GlobalNamespace {
 struct __OVRInput__Handedness;
 }
 namespace GlobalNamespace {
-struct __OVRInput__Button;
+class __OVRInput__HapticInfo;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace GlobalNamespace {
+struct __OVRInput__HapticsAmplitudeEnvelopeVibration;
+}
+namespace GlobalNamespace {
+struct __OVRInput__HapticsLocation;
+}
+namespace GlobalNamespace {
+struct __OVRInput__HapticsPcmVibration;
+}
+namespace GlobalNamespace {
+struct __OVRInput__InputDeviceShowState;
+}
+namespace GlobalNamespace {
+struct __OVRInput__InteractionProfile;
+}
+namespace GlobalNamespace {
+struct __OVRInput__NearTouch;
 }
 namespace GlobalNamespace {
 class __OVRInput__OVRControllerBase;
 }
 namespace GlobalNamespace {
-struct __OVRInput__OpenVRController;
-}
-namespace GlobalNamespace {
-struct __OVRInput__OpenVRButton;
-}
-namespace GlobalNamespace {
-struct __OVRInput__RawAxis1D;
+class __OVRInput__OVRControllerBase__VirtualAxis1DMap;
 }
 namespace GlobalNamespace {
 class __OVRInput__OVRControllerBase__VirtualAxis2DMap;
 }
 namespace GlobalNamespace {
-class __OVRInput__OVRControllerBase__VirtualAxis1DMap;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__ControllerState6;
-}
-namespace GlobalNamespace {
 class __OVRInput__OVRControllerBase__VirtualButtonMap;
+}
+namespace GlobalNamespace {
+class __OVRInput__OVRControllerBase__VirtualNearTouchMap;
 }
 namespace GlobalNamespace {
 class __OVRInput__OVRControllerBase__VirtualTouchMap;
 }
 namespace GlobalNamespace {
-class __OVRInput__OVRControllerBase__VirtualNearTouchMap;
+class __OVRInput__OVRControllerGamepadAndroid;
+}
+namespace GlobalNamespace {
+class __OVRInput__OVRControllerGamepadPC;
+}
+namespace GlobalNamespace {
+class __OVRInput__OVRControllerHands;
+}
+namespace GlobalNamespace {
+class __OVRInput__OVRControllerLHand;
+}
+namespace GlobalNamespace {
+class __OVRInput__OVRControllerLTouch;
+}
+namespace GlobalNamespace {
+class __OVRInput__OVRControllerRHand;
+}
+namespace GlobalNamespace {
+class __OVRInput__OVRControllerRTouch;
+}
+namespace GlobalNamespace {
+class __OVRInput__OVRControllerRemote;
+}
+namespace GlobalNamespace {
+class __OVRInput__OVRControllerTouch;
+}
+namespace GlobalNamespace {
+struct __OVRInput__OpenVRButton;
+}
+namespace GlobalNamespace {
+struct __OVRInput__OpenVRControllerDetails;
+}
+namespace GlobalNamespace {
+struct __OVRInput__OpenVRController;
+}
+namespace GlobalNamespace {
+struct __OVRInput__RawAxis1D;
+}
+namespace GlobalNamespace {
+struct __OVRInput__RawAxis2D;
+}
+namespace GlobalNamespace {
+struct __OVRInput__RawButton;
+}
+namespace GlobalNamespace {
+struct __OVRInput__RawNearTouch;
+}
+namespace GlobalNamespace {
+struct __OVRInput__RawTouch;
+}
+namespace GlobalNamespace {
+struct __OVRInput__Touch;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__ControllerState6;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Step;
+}
+namespace OVR::OpenVR {
+struct ETrackedDeviceProperty;
 }
 namespace OVR::OpenVR {
 struct VRControllerState_t;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+class Version;
+}
+namespace UnityEngine::XR {
+struct XRNode;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -1965,8 +1965,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRInput__OpenVRController, value__)
 // SizeInfo { instance_size: 104, native_size: 104, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(8696)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7607))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7608)) CS Name: ::OVRInput::OpenVRControllerDetails
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(7607)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8696))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7608)) CS Name: ::OVRInput::OpenVRControllerDetails
 struct CORDL_TYPE __OVRInput__OpenVRControllerDetails {
 public:
   // Declarations
@@ -2951,7 +2951,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__Virtual
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7594)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7594))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7613))
 // CS Name: ::OVRInput::OVRControllerBase::VirtualAxis1DMap*
 class CORDL_TYPE __OVRInput__OVRControllerBase__VirtualAxis1DMap : public ::System::Object {
@@ -4014,7 +4014,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__OVR
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7709)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7598))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7709)), TypeDefinitionIndex(TypeDefinitionIndex(7598)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7625))
 // CS Name: ::OVRInput*
 class CORDL_TYPE OVRInput : public ::System::Object {
@@ -4281,127 +4281,105 @@ public:
   static inline ::GlobalNamespace::__OVRInput__Handedness GetDominantHand();
 
   /// @brief Method Get, addr 0x27330e4, size 0x68, virtual false, abstract: false, final false
-  /// @param controllerMask: ::GlobalNamespace::__OVRInput__Controller (default: static_cast<int32_t>(0x80000000))
-  static inline bool Get(::GlobalNamespace::__OVRInput__Button virtualMask, ::GlobalNamespace::__OVRInput__Controller controllerMask = static_cast<int32_t>(0x80000000));
+  static inline bool Get(::GlobalNamespace::__OVRInput__Button virtualMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method Get, addr 0x27310cc, size 0x68, virtual false, abstract: false, final false
-  /// @param controllerMask: ::GlobalNamespace::__OVRInput__Controller (default: static_cast<int32_t>(0x80000000))
-  static inline bool Get(::GlobalNamespace::__OVRInput__RawButton rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask = static_cast<int32_t>(0x80000000));
+  static inline bool Get(::GlobalNamespace::__OVRInput__RawButton rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method GetResolvedButton, addr 0x273314c, size 0x148, virtual false, abstract: false, final false
   static inline bool GetResolvedButton(::GlobalNamespace::__OVRInput__Button virtualMask, ::GlobalNamespace::__OVRInput__RawButton rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method GetDown, addr 0x27332f8, size 0x68, virtual false, abstract: false, final false
-  /// @param controllerMask: ::GlobalNamespace::__OVRInput__Controller (default: static_cast<int32_t>(0x80000000))
-  static inline bool GetDown(::GlobalNamespace::__OVRInput__Button virtualMask, ::GlobalNamespace::__OVRInput__Controller controllerMask = static_cast<int32_t>(0x80000000));
+  static inline bool GetDown(::GlobalNamespace::__OVRInput__Button virtualMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method GetDown, addr 0x27334c0, size 0x68, virtual false, abstract: false, final false
-  /// @param controllerMask: ::GlobalNamespace::__OVRInput__Controller (default: static_cast<int32_t>(0x80000000))
-  static inline bool GetDown(::GlobalNamespace::__OVRInput__RawButton rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask = static_cast<int32_t>(0x80000000));
+  static inline bool GetDown(::GlobalNamespace::__OVRInput__RawButton rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method GetResolvedButtonDown, addr 0x2733360, size 0x160, virtual false, abstract: false, final false
   static inline bool GetResolvedButtonDown(::GlobalNamespace::__OVRInput__Button virtualMask, ::GlobalNamespace::__OVRInput__RawButton rawMask,
                                            ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method GetUp, addr 0x2733528, size 0x68, virtual false, abstract: false, final false
-  /// @param controllerMask: ::GlobalNamespace::__OVRInput__Controller (default: static_cast<int32_t>(0x80000000))
-  static inline bool GetUp(::GlobalNamespace::__OVRInput__Button virtualMask, ::GlobalNamespace::__OVRInput__Controller controllerMask = static_cast<int32_t>(0x80000000));
+  static inline bool GetUp(::GlobalNamespace::__OVRInput__Button virtualMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method GetUp, addr 0x27336f0, size 0x68, virtual false, abstract: false, final false
-  /// @param controllerMask: ::GlobalNamespace::__OVRInput__Controller (default: static_cast<int32_t>(0x80000000))
-  static inline bool GetUp(::GlobalNamespace::__OVRInput__RawButton rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask = static_cast<int32_t>(0x80000000));
+  static inline bool GetUp(::GlobalNamespace::__OVRInput__RawButton rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method GetResolvedButtonUp, addr 0x2733590, size 0x160, virtual false, abstract: false, final false
   static inline bool GetResolvedButtonUp(::GlobalNamespace::__OVRInput__Button virtualMask, ::GlobalNamespace::__OVRInput__RawButton rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method Get, addr 0x2733758, size 0x68, virtual false, abstract: false, final false
-  /// @param controllerMask: ::GlobalNamespace::__OVRInput__Controller (default: static_cast<int32_t>(0x80000000))
-  static inline bool Get(::GlobalNamespace::__OVRInput__Touch virtualMask, ::GlobalNamespace::__OVRInput__Controller controllerMask = static_cast<int32_t>(0x80000000));
+  static inline bool Get(::GlobalNamespace::__OVRInput__Touch virtualMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method Get, addr 0x2731134, size 0x68, virtual false, abstract: false, final false
-  /// @param controllerMask: ::GlobalNamespace::__OVRInput__Controller (default: static_cast<int32_t>(0x80000000))
-  static inline bool Get(::GlobalNamespace::__OVRInput__RawTouch rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask = static_cast<int32_t>(0x80000000));
+  static inline bool Get(::GlobalNamespace::__OVRInput__RawTouch rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method GetResolvedTouch, addr 0x27337c0, size 0x148, virtual false, abstract: false, final false
   static inline bool GetResolvedTouch(::GlobalNamespace::__OVRInput__Touch virtualMask, ::GlobalNamespace::__OVRInput__RawTouch rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method GetDown, addr 0x2733920, size 0x68, virtual false, abstract: false, final false
-  /// @param controllerMask: ::GlobalNamespace::__OVRInput__Controller (default: static_cast<int32_t>(0x80000000))
-  static inline bool GetDown(::GlobalNamespace::__OVRInput__Touch virtualMask, ::GlobalNamespace::__OVRInput__Controller controllerMask = static_cast<int32_t>(0x80000000));
+  static inline bool GetDown(::GlobalNamespace::__OVRInput__Touch virtualMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method GetDown, addr 0x2733ae8, size 0x68, virtual false, abstract: false, final false
-  /// @param controllerMask: ::GlobalNamespace::__OVRInput__Controller (default: static_cast<int32_t>(0x80000000))
-  static inline bool GetDown(::GlobalNamespace::__OVRInput__RawTouch rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask = static_cast<int32_t>(0x80000000));
+  static inline bool GetDown(::GlobalNamespace::__OVRInput__RawTouch rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method GetResolvedTouchDown, addr 0x2733988, size 0x160, virtual false, abstract: false, final false
   static inline bool GetResolvedTouchDown(::GlobalNamespace::__OVRInput__Touch virtualMask, ::GlobalNamespace::__OVRInput__RawTouch rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method GetUp, addr 0x2733b50, size 0x68, virtual false, abstract: false, final false
-  /// @param controllerMask: ::GlobalNamespace::__OVRInput__Controller (default: static_cast<int32_t>(0x80000000))
-  static inline bool GetUp(::GlobalNamespace::__OVRInput__Touch virtualMask, ::GlobalNamespace::__OVRInput__Controller controllerMask = static_cast<int32_t>(0x80000000));
+  static inline bool GetUp(::GlobalNamespace::__OVRInput__Touch virtualMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method GetUp, addr 0x2733d18, size 0x68, virtual false, abstract: false, final false
-  /// @param controllerMask: ::GlobalNamespace::__OVRInput__Controller (default: static_cast<int32_t>(0x80000000))
-  static inline bool GetUp(::GlobalNamespace::__OVRInput__RawTouch rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask = static_cast<int32_t>(0x80000000));
+  static inline bool GetUp(::GlobalNamespace::__OVRInput__RawTouch rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method GetResolvedTouchUp, addr 0x2733bb8, size 0x160, virtual false, abstract: false, final false
   static inline bool GetResolvedTouchUp(::GlobalNamespace::__OVRInput__Touch virtualMask, ::GlobalNamespace::__OVRInput__RawTouch rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method Get, addr 0x2733d80, size 0x68, virtual false, abstract: false, final false
-  /// @param controllerMask: ::GlobalNamespace::__OVRInput__Controller (default: static_cast<int32_t>(0x80000000))
-  static inline bool Get(::GlobalNamespace::__OVRInput__NearTouch virtualMask, ::GlobalNamespace::__OVRInput__Controller controllerMask = static_cast<int32_t>(0x80000000));
+  static inline bool Get(::GlobalNamespace::__OVRInput__NearTouch virtualMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method Get, addr 0x2733f30, size 0x68, virtual false, abstract: false, final false
-  /// @param controllerMask: ::GlobalNamespace::__OVRInput__Controller (default: static_cast<int32_t>(0x80000000))
-  static inline bool Get(::GlobalNamespace::__OVRInput__RawNearTouch rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask = static_cast<int32_t>(0x80000000));
+  static inline bool Get(::GlobalNamespace::__OVRInput__RawNearTouch rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method GetResolvedNearTouch, addr 0x2733de8, size 0x148, virtual false, abstract: false, final false
   static inline bool GetResolvedNearTouch(::GlobalNamespace::__OVRInput__NearTouch virtualMask, ::GlobalNamespace::__OVRInput__RawNearTouch rawMask,
                                           ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method GetDown, addr 0x2733fb0, size 0x68, virtual false, abstract: false, final false
-  /// @param controllerMask: ::GlobalNamespace::__OVRInput__Controller (default: static_cast<int32_t>(0x80000000))
-  static inline bool GetDown(::GlobalNamespace::__OVRInput__NearTouch virtualMask, ::GlobalNamespace::__OVRInput__Controller controllerMask = static_cast<int32_t>(0x80000000));
+  static inline bool GetDown(::GlobalNamespace::__OVRInput__NearTouch virtualMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method GetDown, addr 0x2734178, size 0x68, virtual false, abstract: false, final false
-  /// @param controllerMask: ::GlobalNamespace::__OVRInput__Controller (default: static_cast<int32_t>(0x80000000))
-  static inline bool GetDown(::GlobalNamespace::__OVRInput__RawNearTouch rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask = static_cast<int32_t>(0x80000000));
+  static inline bool GetDown(::GlobalNamespace::__OVRInput__RawNearTouch rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method GetResolvedNearTouchDown, addr 0x2734018, size 0x160, virtual false, abstract: false, final false
   static inline bool GetResolvedNearTouchDown(::GlobalNamespace::__OVRInput__NearTouch virtualMask, ::GlobalNamespace::__OVRInput__RawNearTouch rawMask,
                                               ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method GetUp, addr 0x27341e0, size 0x68, virtual false, abstract: false, final false
-  /// @param controllerMask: ::GlobalNamespace::__OVRInput__Controller (default: static_cast<int32_t>(0x80000000))
-  static inline bool GetUp(::GlobalNamespace::__OVRInput__NearTouch virtualMask, ::GlobalNamespace::__OVRInput__Controller controllerMask = static_cast<int32_t>(0x80000000));
+  static inline bool GetUp(::GlobalNamespace::__OVRInput__NearTouch virtualMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method GetUp, addr 0x27343a8, size 0x68, virtual false, abstract: false, final false
-  /// @param controllerMask: ::GlobalNamespace::__OVRInput__Controller (default: static_cast<int32_t>(0x80000000))
-  static inline bool GetUp(::GlobalNamespace::__OVRInput__RawNearTouch rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask = static_cast<int32_t>(0x80000000));
+  static inline bool GetUp(::GlobalNamespace::__OVRInput__RawNearTouch rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method GetResolvedNearTouchUp, addr 0x2734248, size 0x160, virtual false, abstract: false, final false
   static inline bool GetResolvedNearTouchUp(::GlobalNamespace::__OVRInput__NearTouch virtualMask, ::GlobalNamespace::__OVRInput__RawNearTouch rawMask,
                                             ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method Get, addr 0x2734410, size 0x68, virtual false, abstract: false, final false
-  /// @param controllerMask: ::GlobalNamespace::__OVRInput__Controller (default: static_cast<int32_t>(0x80000000))
-  static inline float_t Get(::GlobalNamespace::__OVRInput__Axis1D virtualMask, ::GlobalNamespace::__OVRInput__Controller controllerMask = static_cast<int32_t>(0x80000000));
+  static inline float_t Get(::GlobalNamespace::__OVRInput__Axis1D virtualMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method Get, addr 0x2734af4, size 0x68, virtual false, abstract: false, final false
-  /// @param controllerMask: ::GlobalNamespace::__OVRInput__Controller (default: static_cast<int32_t>(0x80000000))
-  static inline float_t Get(::GlobalNamespace::__OVRInput__RawAxis1D rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask = static_cast<int32_t>(0x80000000));
+  static inline float_t Get(::GlobalNamespace::__OVRInput__RawAxis1D rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method GetResolvedAxis1D, addr 0x2734478, size 0x67c, virtual false, abstract: false, final false
   static inline float_t GetResolvedAxis1D(::GlobalNamespace::__OVRInput__Axis1D virtualMask, ::GlobalNamespace::__OVRInput__RawAxis1D rawMask,
                                           ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method Get, addr 0x2734be8, size 0x68, virtual false, abstract: false, final false
-  /// @param controllerMask: ::GlobalNamespace::__OVRInput__Controller (default: static_cast<int32_t>(0x80000000))
-  static inline ::UnityEngine::Vector2 Get(::GlobalNamespace::__OVRInput__Axis2D virtualMask, ::GlobalNamespace::__OVRInput__Controller controllerMask = static_cast<int32_t>(0x80000000));
+  static inline ::UnityEngine::Vector2 Get(::GlobalNamespace::__OVRInput__Axis2D virtualMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method Get, addr 0x2734fa0, size 0x68, virtual false, abstract: false, final false
-  /// @param controllerMask: ::GlobalNamespace::__OVRInput__Controller (default: static_cast<int32_t>(0x80000000))
-  static inline ::UnityEngine::Vector2 Get(::GlobalNamespace::__OVRInput__RawAxis2D rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask = static_cast<int32_t>(0x80000000));
+  static inline ::UnityEngine::Vector2 Get(::GlobalNamespace::__OVRInput__RawAxis2D rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method GetResolvedAxis2D, addr 0x2734c50, size 0x350, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 GetResolvedAxis2D(::GlobalNamespace::__OVRInput__Axis2D virtualMask, ::GlobalNamespace::__OVRInput__RawAxis2D rawMask,
@@ -4423,8 +4401,7 @@ public:
   static inline void SetOpenVRLocalPose(::UnityEngine::Vector3 leftPos, ::UnityEngine::Vector3 rightPos, ::UnityEngine::Quaternion leftRot, ::UnityEngine::Quaternion rightRot);
 
   /// @brief Method GetOpenVRStringProperty, addr 0x27354a8, size 0x150, virtual false, abstract: false, final false
-  /// @param deviceId: uint32_t (default: static_cast<uint32_t>(0xffffff00u))
-  static inline ::StringW GetOpenVRStringProperty(::OVR::OpenVR::ETrackedDeviceProperty prop, uint32_t deviceId = static_cast<uint32_t>(0xffffff00u));
+  static inline ::StringW GetOpenVRStringProperty(::OVR::OpenVR::ETrackedDeviceProperty prop, uint32_t deviceId);
 
   /// @brief Method UpdateXRControllerNodeIds, addr 0x2730b50, size 0x398, virtual false, abstract: false, final false
   static inline void UpdateXRControllerNodeIds();
@@ -4442,31 +4419,23 @@ public:
   static inline bool IsValidOpenVRDevice(uint32_t deviceId);
 
   /// @brief Method SetControllerVibration, addr 0x2735728, size 0x1dc, virtual false, abstract: false, final false
-  /// @param controllerMask: ::GlobalNamespace::__OVRInput__Controller (default: static_cast<int32_t>(0x80000000))
-  static inline void SetControllerVibration(float_t frequency, float_t amplitude, ::GlobalNamespace::__OVRInput__Controller controllerMask = static_cast<int32_t>(0x80000000));
+  static inline void SetControllerVibration(float_t frequency, float_t amplitude, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method SetControllerLocalizedVibration, addr 0x2735904, size 0x1dc, virtual false, abstract: false, final false
-  /// @param controllerMask: ::GlobalNamespace::__OVRInput__Controller (default: static_cast<int32_t>(0x80000000))
   static inline void SetControllerLocalizedVibration(::GlobalNamespace::__OVRInput__HapticsLocation hapticsLocationMask, float_t frequency, float_t amplitude,
-                                                     ::GlobalNamespace::__OVRInput__Controller controllerMask = static_cast<int32_t>(0x80000000));
+                                                     ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method SetControllerHapticsAmplitudeEnvelope, addr 0x2735ae0, size 0x150, virtual false, abstract: false, final false
-  /// @param controllerMask: ::GlobalNamespace::__OVRInput__Controller (default: static_cast<int32_t>(0x80000000))
-  static inline void SetControllerHapticsAmplitudeEnvelope(::GlobalNamespace::__OVRInput__HapticsAmplitudeEnvelopeVibration hapticsVibration,
-                                                           ::GlobalNamespace::__OVRInput__Controller controllerMask = static_cast<int32_t>(0x80000000));
+  static inline void SetControllerHapticsAmplitudeEnvelope(::GlobalNamespace::__OVRInput__HapticsAmplitudeEnvelopeVibration hapticsVibration, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method SetControllerHapticsPcm, addr 0x2735c30, size 0x15c, virtual false, abstract: false, final false
-  /// @param controllerMask: ::GlobalNamespace::__OVRInput__Controller (default: static_cast<int32_t>(0x80000000))
-  static inline int32_t SetControllerHapticsPcm(::GlobalNamespace::__OVRInput__HapticsPcmVibration hapticsVibration,
-                                                ::GlobalNamespace::__OVRInput__Controller controllerMask = static_cast<int32_t>(0x80000000));
+  static inline int32_t SetControllerHapticsPcm(::GlobalNamespace::__OVRInput__HapticsPcmVibration hapticsVibration, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method GetControllerSampleRateHz, addr 0x2735d8c, size 0x128, virtual false, abstract: false, final false
-  /// @param controllerMask: ::GlobalNamespace::__OVRInput__Controller (default: static_cast<int32_t>(0x80000000))
-  static inline float_t GetControllerSampleRateHz(::GlobalNamespace::__OVRInput__Controller controllerMask = static_cast<int32_t>(0x80000000));
+  static inline float_t GetControllerSampleRateHz(::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method GetControllerBatteryPercentRemaining, addr 0x2735eb4, size 0x128, virtual false, abstract: false, final false
-  /// @param controllerMask: ::GlobalNamespace::__OVRInput__Controller (default: static_cast<int32_t>(0x80000000))
-  static inline uint8_t GetControllerBatteryPercentRemaining(::GlobalNamespace::__OVRInput__Controller controllerMask = static_cast<int32_t>(0x80000000));
+  static inline uint8_t GetControllerBatteryPercentRemaining(::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   /// @brief Method CalculateAbsMax, addr 0x2735158, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 CalculateAbsMax(::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b);

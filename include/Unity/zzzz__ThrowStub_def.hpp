@@ -15,12 +15,12 @@ MARK_REF_PTR_T(::Unity::ThrowStub);
 namespace Unity {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2453))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16265))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15461))
 // CS Name: ::Unity::ThrowStub*
 class CORDL_TYPE ThrowStub : public ::System::ObjectDisposedException {
 public:
   // Declarations
-  /// @brief Method ThrowNotSupportedException, addr 0x280cca4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ThrowNotSupportedException, addr 0x2861a68, size 0x40, virtual false, abstract: false, final false
   static inline void ThrowNotSupportedException();
 
   // Ctor Parameters [CppParam { name: "", ty: "ThrowStub", modifiers: "&&", def_value: None }]

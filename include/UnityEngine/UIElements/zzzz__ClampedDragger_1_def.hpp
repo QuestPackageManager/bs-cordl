@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ClampedDragger_1)
-namespace UnityEngine {
-struct Vector2;
-}
 namespace System {
 class Action;
-}
-namespace UnityEngine::UIElements {
-template <typename T> struct __ClampedDragger_1__DragDirection;
 }
 namespace UnityEngine::UIElements {
 template <typename TValueType> class BaseSlider_1;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
+}
+namespace UnityEngine::UIElements {
+template <typename T> struct __ClampedDragger_1__DragDirection;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -39,7 +39,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6788)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6788), inst: 1562 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6788), inst: 1562 }), TypeDefinitionIndex(TypeDefinitionIndex(6788))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6788))
 // CS Name: ::ClampedDragger`1::DragDirection<T>
 struct CORDL_TYPE __ClampedDragger_1__DragDirection {
@@ -95,8 +95,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6788), inst: 920 }), TypeDefinitionIndex(TypeDefinitionIndex(6788)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6807)), TypeDefinitionIndex(TypeDefinitionIndex(10243))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6789)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6807)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(6788)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6788), inst: 920 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6789)) CS Name:
 // ::UnityEngine.UIElements::ClampedDragger`1<T>*
 class CORDL_TYPE ClampedDragger_1 : public ::UnityEngine::UIElements::Clickable {
 public:

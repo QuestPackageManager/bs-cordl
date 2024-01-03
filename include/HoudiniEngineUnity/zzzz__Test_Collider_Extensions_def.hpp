@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(Test_Collider_Extensions)
 namespace HoudiniEngineUnity {
-class __Test_Collider_Extensions____c;
-}
-namespace HoudiniEngineUnity {
 class Test_Collider;
 }
-namespace UnityEngine {
-class Collider;
+namespace HoudiniEngineUnity {
+class __Test_Collider_Extensions____c;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
 template <typename TInput, typename TOutput> class Converter_2;
+}
+namespace UnityEngine {
+class Collider;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

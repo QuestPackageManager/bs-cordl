@@ -9,13 +9,13 @@ namespace GlobalNamespace {
 class MissionNodeVisualController;
 }
 namespace GlobalNamespace {
+class MissionNode;
+}
+namespace GlobalNamespace {
 class MissionNodesManager;
 }
 namespace System {
 template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class MissionNode;
 }
 // Forward declare root types
 namespace GlobalNamespace {

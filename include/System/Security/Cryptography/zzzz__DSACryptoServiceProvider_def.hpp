@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DSACryptoServiceProvider)
-namespace System {
-class EventArgs;
+namespace Mono::Security::Cryptography {
+class DSAManaged;
 }
 namespace Mono::Security::Cryptography {
 class KeyPairPersistence;
 }
-namespace System {
-class Object;
-}
-namespace Mono::Security::Cryptography {
-class DSAManaged;
-}
 namespace System::Security::Cryptography {
 struct DSAParameters;
+}
+namespace System {
+class EventArgs;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {

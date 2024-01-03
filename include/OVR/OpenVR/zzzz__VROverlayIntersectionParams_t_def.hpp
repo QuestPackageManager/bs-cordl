@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(VROverlayIntersectionParams_t)
 namespace OVR::OpenVR {
-struct HmdVector3_t;
+struct ETrackingUniverseOrigin;
 }
 namespace OVR::OpenVR {
-struct ETrackingUniverseOrigin;
+struct HmdVector3_t;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -22,7 +22,7 @@ MARK_VAL_T(::OVR::OpenVR::VROverlayIntersectionParams_t);
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8586)), TypeDefinitionIndex(TypeDefinitionIndex(8647))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8647)), TypeDefinitionIndex(TypeDefinitionIndex(8586))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8706))
 // CS Name: ::OVR.OpenVR::VROverlayIntersectionParams_t
 struct CORDL_TYPE VROverlayIntersectionParams_t {

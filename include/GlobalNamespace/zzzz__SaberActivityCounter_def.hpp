@@ -7,7 +7,7 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(SaberActivityCounter)
 namespace GlobalNamespace {
-class Saber;
+class AveragingValueRecorder;
 }
 namespace GlobalNamespace {
 class MovementHistoryRecorder;
@@ -15,11 +15,11 @@ class MovementHistoryRecorder;
 namespace GlobalNamespace {
 class SaberManager;
 }
+namespace GlobalNamespace {
+class Saber;
+}
 namespace System {
 template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class AveragingValueRecorder;
 }
 // Forward declare root types
 namespace GlobalNamespace {

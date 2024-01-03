@@ -9,10 +9,31 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HttpClientHandler)
 namespace System::Net::Http {
+struct ClientCertificateOption;
+}
+namespace System::Net::Http {
+class HttpRequestMessage;
+}
+namespace System::Net::Http {
+class HttpResponseMessage;
+}
+namespace System::Net::Http {
+class IMonoHttpClientHandler;
+}
+namespace System::Net::Http {
 class __HttpClientHandler____c;
+}
+namespace System::Net::Security {
+class LocalCertificateSelectionCallback;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateCollection;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace System::Threading {
 struct CancellationToken;
@@ -20,29 +41,8 @@ struct CancellationToken;
 namespace System {
 class Object;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
-}
-namespace System::Net::Http {
-class HttpRequestMessage;
-}
-namespace System::Net::Http {
-struct ClientCertificateOption;
-}
-namespace System::Net::Http {
-class IMonoHttpClientHandler;
-}
 namespace System {
 struct TimeSpan;
-}
-namespace System::Net::Http {
-class HttpResponseMessage;
-}
-namespace System::Net::Security {
-class LocalCertificateSelectionCallback;
 }
 // Forward declare root types
 namespace System::Net::Http {

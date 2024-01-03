@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(SliderParticleInteractionEffect)
 namespace GlobalNamespace {
+class ColorManager;
+}
+namespace GlobalNamespace {
 class SaberManager;
+}
+namespace GlobalNamespace {
+class Saber;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
 class ParticleSystem;
-}
-namespace GlobalNamespace {
-class Saber;
-}
-namespace GlobalNamespace {
-class ColorManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SliderParticleInteractionEffect);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4819)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(4819))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4825))
 // CS Name: ::SliderParticleInteractionEffect*
 class CORDL_TYPE SliderParticleInteractionEffect : public ::GlobalNamespace::SliderInteractionEffect {

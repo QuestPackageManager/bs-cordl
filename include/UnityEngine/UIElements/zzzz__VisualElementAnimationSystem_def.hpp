@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(VisualElementAnimationSystem)
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-struct VersionChangeType;
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine::UIElements::Experimental {
-class IValueAnimationUpdate;
-}
 namespace Unity::Profiling {
 struct ProfilerMarker;
 }
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+namespace UnityEngine::UIElements::Experimental {
+class IValueAnimationUpdate;
+}
+namespace UnityEngine::UIElements {
+struct VersionChangeType;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::VisualElementAnimationSystem);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6754)), TypeDefinitionIndex(TypeDefinitionIndex(9966))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(6754))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6771))
 // CS Name: ::UnityEngine.UIElements::VisualElementAnimationSystem*
 class CORDL_TYPE VisualElementAnimationSystem : public ::UnityEngine::UIElements::BaseVisualTreeUpdater {

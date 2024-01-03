@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IRemoteProcedureCall)
-namespace LiteNetLib::Utils {
-class INetSerializable;
-}
 namespace GlobalNamespace {
 class IPoolablePacket;
+}
+namespace LiteNetLib::Utils {
+class INetSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -31,8 +31,14 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IPoolablePacket"
   constexpr operator ::GlobalNamespace::IPoolablePacket*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
+  constexpr ::GlobalNamespace::IPoolablePacket* i___GlobalNamespace__IPoolablePacket() noexcept;
 
   /// @brief Method get_syncTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int64_t get_syncTime();

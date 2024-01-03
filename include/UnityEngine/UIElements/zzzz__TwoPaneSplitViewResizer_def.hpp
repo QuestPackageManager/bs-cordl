@@ -9,7 +9,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TwoPaneSplitViewResizer)
 namespace UnityEngine::UIElements {
-class TwoPaneSplitView;
+class PointerDownEvent;
 }
 namespace UnityEngine::UIElements {
 class PointerMoveEvent;
@@ -21,7 +21,7 @@ namespace UnityEngine::UIElements {
 struct TwoPaneSplitViewOrientation;
 }
 namespace UnityEngine::UIElements {
-class PointerDownEvent;
+class TwoPaneSplitView;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::TwoPaneSplitViewResizer);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7139)), TypeDefinitionIndex(TypeDefinitionIndex(6826)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(6826)), TypeDefinitionIndex(TypeDefinitionIndex(7139))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7126))
 // CS Name: ::UnityEngine.UIElements::TwoPaneSplitViewResizer*
 class CORDL_TYPE TwoPaneSplitViewResizer : public ::UnityEngine::UIElements::PointerManipulator {

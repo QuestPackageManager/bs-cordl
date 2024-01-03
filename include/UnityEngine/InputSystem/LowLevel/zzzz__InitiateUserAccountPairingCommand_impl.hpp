@@ -2,8 +2,8 @@
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceCommand_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InitiateUserAccountPairingCommand_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceCommand_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InitiateUserAccountPairingCommand_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceCommand_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::InputSystem::LowLevel::__InitiateUserAccountPairingCommand__Result::__InitiateUserAccountPairingCommand__Result(int32_t value__) noexcept {
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x2ae7630;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand>::get(), "get_Type",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -43,7 +43,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x2ae7660;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand>::get(),
                                                  "get_typeStatic", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -58,7 +58,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x34;
   constexpr static std::size_t addrs = 0x2ae7690;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand>::get(), "Create",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -67,6 +67,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
 constexpr UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand::operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*() {
+  return static_cast<::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
+constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*
+UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand::i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo() {
   return static_cast<::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand::__get_baseCommand() {

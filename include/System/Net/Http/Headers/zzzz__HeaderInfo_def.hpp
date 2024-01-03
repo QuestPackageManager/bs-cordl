@@ -8,32 +8,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HeaderInfo)
-namespace System::Net::Http::Headers {
-template <typename T> class TryParseDelegate_1;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace System::Net::Http::Headers {
-template <typename T, typename U> class __HeaderInfo__CollectionHeaderTypeInfo_2;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Net::Http::Headers {
 struct HttpHeaderKind;
-}
-namespace System {
-class Object;
 }
 namespace System::Net::Http::Headers {
 class HttpHeaders;
 }
 namespace System::Net::Http::Headers {
+template <typename T> class TryParseDelegate_1;
+}
+namespace System::Net::Http::Headers {
 template <typename T> class TryParseListDelegate_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System::Net::Http::Headers {
+template <typename T, typename U> class __HeaderInfo__CollectionHeaderTypeInfo_2;
 }
 namespace System::Net::Http::Headers {
 template <typename T, typename U> class __HeaderInfo__HeaderTypeInfo_2;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -101,18 +101,14 @@ public:
   inline void _ctor(::StringW name, ::System::Net::Http::Headers::HttpHeaderKind headerKind);
 
   /// @brief Method CreateSingle, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param toString: ::System::Func_2<::System::Object*,::StringW>* (default: nullptr)
   template <typename T>
   static inline ::System::Net::Http::Headers::HeaderInfo* CreateSingle(::StringW name, ::System::Net::Http::Headers::TryParseDelegate_1<T>* parser,
-                                                                       ::System::Net::Http::Headers::HttpHeaderKind headerKind, ::System::Func_2<::System::Object*, ::StringW>* toString = nullptr);
+                                                                       ::System::Net::Http::Headers::HttpHeaderKind headerKind, ::System::Func_2<::System::Object*, ::StringW>* toString);
 
   /// @brief Method CreateMulti, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param minimalCount: int32_t (default: static_cast<int32_t>(0x1))
-  /// @param separator: ::StringW (default: u", ")
   template <typename T>
   static inline ::System::Net::Http::Headers::HeaderInfo* CreateMulti(::StringW name, ::System::Net::Http::Headers::TryParseListDelegate_1<T>* elementParser,
-                                                                      ::System::Net::Http::Headers::HttpHeaderKind headerKind, int32_t minimalCount = static_cast<int32_t>(0x1),
-                                                                      ::StringW separator = u", ");
+                                                                      ::System::Net::Http::Headers::HttpHeaderKind headerKind, int32_t minimalCount, ::StringW separator);
 
   /// @brief Method CreateCollection, addr 0x2838f08, size 0x10, virtual false, abstract: false, final false
   inline ::System::Object* CreateCollection(::System::Net::Http::Headers::HttpHeaders* headers);

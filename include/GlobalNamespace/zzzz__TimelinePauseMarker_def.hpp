@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Timeline/zzzz__Marker_def.hpp"
 #include "UnityEngine/zzzz__PropertyName_def.hpp"
 CORDL_MODULE_EXPORT(TimelinePauseMarker)
-namespace UnityEngine {
-struct PropertyName;
-}
 namespace UnityEngine::Playables {
 class INotification;
+}
+namespace UnityEngine {
+struct PropertyName;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,6 +34,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::Playables::INotification"
   constexpr operator ::UnityEngine::Playables::INotification*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::Playables::INotification"
+  constexpr ::UnityEngine::Playables::INotification* i___UnityEngine__Playables__INotification() noexcept;
 
   constexpr ::UnityEngine::PropertyName& __get__id_k__BackingField();
 

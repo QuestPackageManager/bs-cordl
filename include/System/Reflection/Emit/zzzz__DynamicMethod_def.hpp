@@ -6,35 +6,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(DynamicMethod)
-namespace System {
-struct RuntimeMethodHandle;
-}
-namespace System::Reflection {
-class ParameterInfo;
-}
 namespace System::Globalization {
 class CultureInfo;
-}
-namespace System {
-class Object;
-}
-namespace System::Reflection {
-class MethodInfo;
 }
 namespace System::Reflection {
 class Binder;
 }
 namespace System::Reflection {
-struct MethodAttributes;
+struct BindingFlags;
 }
-namespace System {
-class Type;
+namespace System::Reflection {
+struct MethodAttributes;
 }
 namespace System::Reflection {
 struct MethodImplAttributes;
 }
 namespace System::Reflection {
-struct BindingFlags;
+class MethodInfo;
+}
+namespace System::Reflection {
+class ParameterInfo;
+}
+namespace System {
+class Object;
+}
+namespace System {
+struct RuntimeMethodHandle;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Reflection::Emit {

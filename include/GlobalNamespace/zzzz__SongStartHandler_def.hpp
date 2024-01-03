@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SongStartHandler)
 namespace GlobalNamespace {
-class PlayersSpecificSettingsAtGameStartModel;
+class IGameplayRpcManager;
 }
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+class PlayersSpecificSettingsAtGameStartModel;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
 namespace System {
 template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class IGameplayRpcManager;
 }
 namespace System {
 class IDisposable;
@@ -65,6 +65,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __get__multiplayerSessionManager();
 

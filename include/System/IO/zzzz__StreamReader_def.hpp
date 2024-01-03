@@ -16,31 +16,13 @@ namespace System::IO {
 class Stream;
 }
 namespace System::IO {
-struct __StreamReader___ReadLineAsyncInternal_d__61;
-}
-namespace System::Text {
-class Encoding;
-}
-namespace System::Text {
-class Decoder;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System {
-template <typename T> struct Span_1;
+class __StreamReader__NullStreamReader;
 }
 namespace System::IO {
 struct __StreamReader___ReadBufferAsync_d__69;
 }
 namespace System::IO {
-class __StreamReader__NullStreamReader;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct __ConfiguredValueTaskAwaitable_1__ConfiguredValueTaskAwaiter;
+struct __StreamReader___ReadLineAsyncInternal_d__61;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
@@ -51,8 +33,26 @@ class IAsyncStateMachine;
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct __ConfiguredValueTaskAwaitable_1__ConfiguredValueTaskAwaiter;
+}
+namespace System::Text {
+class Decoder;
+}
+namespace System::Text {
+class Encoding;
+}
 namespace System::Text {
 class StringBuilder;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System {
+template <typename T> struct Span_1;
 }
 // Forward declare root types
 namespace System::IO {
@@ -72,14 +72,17 @@ MARK_VAL_T(::System::IO::__StreamReader___ReadLineAsyncInternal_d__61);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3402), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3573)) CS Name:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 397 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3573)) CS Name:
 // ::StreamReader::<ReadLineAsyncInternal>d__61
 struct CORDL_TYPE __StreamReader___ReadLineAsyncInternal_d__61 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x2502e74, size 0x548, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -143,13 +146,17 @@ static_assert(offsetof(::System::IO::__StreamReader___ReadLineAsyncInternal_d__6
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3363), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3363))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3574)) CS Name: ::StreamReader::<ReadBufferAsync>d__69
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3363)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3363), inst: 98 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(3574)) CS
+// Name: ::StreamReader::<ReadBufferAsync>d__69
 struct CORDL_TYPE __StreamReader___ReadBufferAsync_d__69 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x2503414, size 0x5f8, virtual true, abstract: false, final true
   inline void MoveNext();

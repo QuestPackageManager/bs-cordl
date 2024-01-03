@@ -5,6 +5,9 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(Controls)
+namespace Org::BouncyCastle::Asn1::Crmf {
+class AttributeTypeAndValue;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
@@ -13,9 +16,6 @@ class Asn1Sequence;
 }
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Asn1::Crmf {
-class AttributeTypeAndValue;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Crmf {

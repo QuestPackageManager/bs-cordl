@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PriorityQueue_2)
 namespace UnityEngine::ProBuilder::KdTree {
-template <typename T> class ITypeMath_1;
+template <typename TItem, typename TPriority> class IPriorityQueue_2;
 }
 namespace UnityEngine::ProBuilder::KdTree {
-template <typename TItem, typename TPriority> class IPriorityQueue_2;
+template <typename T> class ITypeMath_1;
 }
 namespace UnityEngine::ProBuilder::KdTree {
 template <typename TItem, typename TPriority> struct ItemPriority_2;
@@ -51,6 +51,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem,TPriority>"
   constexpr operator ::UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem, TPriority>*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem,TPriority>"
+  constexpr ::UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem, TPriority>* i___UnityEngine__ProBuilder__KdTree__IPriorityQueue_2_TItem_TPriority_() noexcept;
 
   constexpr ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority>*& __get_priorityMath();
 

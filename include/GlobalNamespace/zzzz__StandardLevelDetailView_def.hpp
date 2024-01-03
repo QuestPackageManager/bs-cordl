@@ -11,46 +11,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StandardLevelDetailView)
 namespace GlobalNamespace {
-class LevelBar;
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicSegmentedControlController;
 }
-namespace TMPro {
-class TextMeshProUGUI;
+namespace GlobalNamespace {
+class BeatmapDifficultySegmentedControlController;
 }
 namespace GlobalNamespace {
-class LevelParamsPanel;
+struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
-struct __StandardLevelDetailView___SetContentForBeatmapDataAsync_d__34;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
+class IBeatmapDataBasicInfo;
 }
 namespace GlobalNamespace {
 class IBeatmapLevel;
 }
 namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class LevelBar;
+}
+namespace GlobalNamespace {
+class LevelParamsPanel;
+}
+namespace GlobalNamespace {
 class PlayerData;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace GlobalNamespace {
-struct BeatmapDifficulty;
-}
-namespace UnityEngine::UI {
-class Toggle;
-}
-namespace GlobalNamespace {
-class BeatmapDifficultySegmentedControlController;
-}
-namespace UnityEngine::UI {
-class Button;
+struct __StandardLevelDetailView___SetContentForBeatmapDataAsync_d__34;
 }
 namespace HMUI {
 class ToggleBinder;
@@ -64,8 +55,17 @@ class IAsyncStateMachine;
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
 }
-namespace GlobalNamespace {
-class IBeatmapDataBasicInfo;
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace UnityEngine::UI {
+class Toggle;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -81,14 +81,17 @@ MARK_VAL_T(::GlobalNamespace::__StandardLevelDetailView___SetContentForBeatmapDa
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4258)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 886 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5814)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4258)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 886 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5814)) CS Name:
 // ::StandardLevelDetailView::<SetContentForBeatmapDataAsync>d__34
 struct CORDL_TYPE __StandardLevelDetailView___SetContentForBeatmapDataAsync_d__34 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x22ea818, size 0x584, virtual true, abstract: false, final true
   inline void MoveNext();

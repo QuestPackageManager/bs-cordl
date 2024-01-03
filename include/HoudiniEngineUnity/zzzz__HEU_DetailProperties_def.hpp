@@ -40,6 +40,9 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailProperties*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailProperties*>*() noexcept;
 
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailProperties*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailProperties*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_DetailProperties__() noexcept;
+
   constexpr float_t& __get__detailDistance();
 
   constexpr float_t const& __get__detailDistance() const;

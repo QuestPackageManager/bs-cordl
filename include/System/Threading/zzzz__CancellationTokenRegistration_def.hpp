@@ -10,17 +10,17 @@ CORDL_MODULE_EXPORT(CancellationTokenRegistration)
 namespace System::Threading::Tasks {
 struct ValueTask;
 }
-namespace System {
-class IDisposable;
-}
-namespace System {
-class IAsyncDisposable;
+namespace System::Threading {
+class CancellationCallbackInfo;
 }
 namespace System::Threading {
 template <typename T> struct SparselyPopulatedArrayAddInfo_1;
 }
-namespace System::Threading {
-class CancellationCallbackInfo;
+namespace System {
+class IAsyncDisposable;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 template <typename T> class IEquatable_1;
@@ -38,7 +38,7 @@ MARK_VAL_T(::System::Threading::CancellationTokenRegistration);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2691)), TypeDefinitionIndex(TypeDefinitionIndex(2693)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2693), inst: 4999
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2693)), TypeDefinitionIndex(TypeDefinitionIndex(2691)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2693), inst: 4999
 // })} Self: TypeDefinitionIndex(TypeDefinitionIndex(2683)) CS Name: ::System.Threading::CancellationTokenRegistration
 struct CORDL_TYPE CancellationTokenRegistration {
 public:
@@ -46,11 +46,20 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>"
   constexpr operator ::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>"
+  constexpr ::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>* i___System__IEquatable_1___System__Threading__CancellationTokenRegistration_();
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
+
   /// @brief Convert operator to "::System::IAsyncDisposable"
   constexpr operator ::System::IAsyncDisposable*();
+
+  /// @brief Convert to "::System::IAsyncDisposable"
+  constexpr ::System::IAsyncDisposable* i___System__IAsyncDisposable();
 
   /// @brief Method .ctor, addr 0x26123f4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::CancellationCallbackInfo* callbackInfo, ::System::Threading::SparselyPopulatedArrayAddInfo_1<::System::Threading::CancellationCallbackInfo*> registrationInfo);

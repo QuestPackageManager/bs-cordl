@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstddef>
 CORDL_MODULE_EXPORT(TMP_GlyphValueRecord)
-namespace UnityEngine::TextCore::LowLevel {
-struct GlyphValueRecord;
-}
 namespace TMPro {
 struct GlyphValueRecord_Legacy;
+}
+namespace UnityEngine::TextCore::LowLevel {
+struct GlyphValueRecord;
 }
 // Forward declare root types
 namespace TMPro {

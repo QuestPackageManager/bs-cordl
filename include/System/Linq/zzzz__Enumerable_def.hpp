@@ -9,20 +9,26 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Enumerable)
-namespace System::Linq {
-template <typename TSource> class __Enumerable___DefaultIfEmptyIterator_d__95_1;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System::Linq {
-template <typename TSource, typename TResult> class __Enumerable__WhereSelectListIterator_2;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
-namespace System::Linq {
-template <typename TSource, typename TResult> class __Enumerable__WhereSelectEnumerableIterator_2;
+namespace System::Collections::Generic {
+template <typename T> class IEqualityComparer_1;
 }
-namespace System::Linq {
-template <typename TResult> class __Enumerable___OfTypeIterator_d__97_1;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Linq {
 template <typename TKey, typename TElement> class IGrouping_2;
@@ -31,37 +37,52 @@ namespace System::Linq {
 template <typename TElement> class IOrderedEnumerable_1;
 }
 namespace System::Linq {
-template <typename TSource> class __Enumerable___SkipIterator_d__31_1;
-}
-namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
+template <typename TElement> class Set_1;
 }
 namespace System::Linq {
-template <typename TSource> class __Enumerable___ConcatIterator_d__59_1;
+template <typename TSource> class __Enumerable__Iterator_1;
 }
 namespace System::Linq {
-template <typename TSource, typename TResult> class __Enumerable__WhereSelectArrayIterator_2;
-}
-namespace System::Linq {
-template <typename TSource> class __Enumerable___TakeIterator_d__25_1;
-}
-namespace System::Linq {
-class __Enumerable___RangeIterator_d__115;
-}
-namespace System::Linq {
-template <typename TSource, typename TMiddle, typename TResult> class __Enumerable____c__DisplayClass7_0_3;
-}
-namespace System::Linq {
-template <typename TSource> class __Enumerable___ExceptIterator_d__77_1;
+template <typename TSource> class __Enumerable__WhereArrayIterator_1;
 }
 namespace System::Linq {
 template <typename TSource> class __Enumerable__WhereEnumerableIterator_1;
 }
 namespace System::Linq {
-template <typename TSource> class __Enumerable__WhereArrayIterator_1;
+template <typename TSource> class __Enumerable__WhereListIterator_1;
+}
+namespace System::Linq {
+template <typename TSource, typename TResult> class __Enumerable__WhereSelectArrayIterator_2;
+}
+namespace System::Linq {
+template <typename TSource, typename TResult> class __Enumerable__WhereSelectEnumerableIterator_2;
+}
+namespace System::Linq {
+template <typename TSource, typename TResult> class __Enumerable__WhereSelectListIterator_2;
+}
+namespace System::Linq {
+template <typename TResult> class __Enumerable___CastIterator_d__99_1;
+}
+namespace System::Linq {
+template <typename TSource> class __Enumerable___ConcatIterator_d__59_1;
+}
+namespace System::Linq {
+template <typename TSource> class __Enumerable___DefaultIfEmptyIterator_d__95_1;
+}
+namespace System::Linq {
+template <typename TSource> class __Enumerable___DistinctIterator_d__68_1;
+}
+namespace System::Linq {
+template <typename TSource> class __Enumerable___ExceptIterator_d__77_1;
+}
+namespace System::Linq {
+template <typename TSource> class __Enumerable___IntersectIterator_d__74_1;
+}
+namespace System::Linq {
+template <typename TResult> class __Enumerable___OfTypeIterator_d__97_1;
+}
+namespace System::Linq {
+class __Enumerable___RangeIterator_d__115;
 }
 namespace System::Linq {
 template <typename TSource> class __Enumerable___ReverseIterator_d__79_1;
@@ -69,53 +90,32 @@ template <typename TSource> class __Enumerable___ReverseIterator_d__79_1;
 namespace System::Linq {
 template <typename TSource, typename TResult> class __Enumerable___SelectManyIterator_d__17_2;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace System::Linq {
+template <typename TSource> class __Enumerable___SkipIterator_d__31_1;
 }
 namespace System::Linq {
-template <typename TSource> class __Enumerable__WhereListIterator_1;
-}
-namespace System::Linq {
-template <typename TSource> class __Enumerable___IntersectIterator_d__74_1;
-}
-namespace System::Linq {
-template <typename TResult> class __Enumerable___CastIterator_d__99_1;
-}
-namespace System::Linq {
-template <typename TSource> class __Enumerable____c__DisplayClass6_0_1;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Linq {
-template <typename TSource> class __Enumerable__Iterator_1;
-}
-namespace System::Linq {
-template <typename TSource> class __Enumerable___DistinctIterator_d__68_1;
+template <typename TSource> class __Enumerable___TakeIterator_d__25_1;
 }
 namespace System::Linq {
 template <typename TSource> class __Enumerable___UnionIterator_d__71_1;
 }
-namespace System {
-class Object;
+namespace System::Linq {
+template <typename TSource> class __Enumerable____c__DisplayClass6_0_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System::Linq {
+template <typename TSource, typename TMiddle, typename TResult> class __Enumerable____c__DisplayClass7_0_3;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+template <typename T1, typename T2, typename TResult> class Func_3;
 }
 namespace System {
 class IDisposable;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Linq {
-template <typename TElement> class Set_1;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Linq {
@@ -239,17 +239,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TSource>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TSource>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TSource>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<TSource>* i___System__Collections__Generic__IEnumerable_1_TSource_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TSource>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<TSource>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TSource>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<TSource>* i___System__Collections__Generic__IEnumerator_1_TSource_() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr int32_t& __get_threadId();
 
@@ -337,7 +352,7 @@ namespace System::Linq {
 // cpp template
 template <typename TSource>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14255), inst: 3015 }), TypeDefinitionIndex(TypeDefinitionIndex(14255))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14255)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14255), inst: 3015 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14256))
 // CS Name: ::Enumerable::WhereEnumerableIterator`1<TSource>*
 class CORDL_TYPE __Enumerable__WhereEnumerableIterator_1 : public ::System::Linq::__Enumerable__Iterator_1<TSource> {
@@ -423,7 +438,7 @@ namespace System::Linq {
 // cpp template
 template <typename TSource>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14255), inst: 3014 }), TypeDefinitionIndex(TypeDefinitionIndex(14255))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14255)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14255), inst: 3014 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14257))
 // CS Name: ::Enumerable::WhereArrayIterator`1<TSource>*
 class CORDL_TYPE __Enumerable__WhereArrayIterator_1 : public ::System::Linq::__Enumerable__Iterator_1<TSource> {
@@ -506,8 +521,8 @@ namespace System::Linq {
 // cpp template
 template <typename TSource>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14255), inst: 1685 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1685 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14255)), TypeDefinitionIndex(TypeDefinitionIndex(3842))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14258)) CS Name:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1685 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14255), inst: 1685 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3842)), TypeDefinitionIndex(TypeDefinitionIndex(14255))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14258)) CS Name:
 // ::Enumerable::WhereListIterator`1<TSource>*
 class CORDL_TYPE __Enumerable__WhereListIterator_1 : public ::System::Linq::__Enumerable__Iterator_1<TSource> {
 public:
@@ -589,7 +604,7 @@ namespace System::Linq {
 // cpp template
 template <typename TSource, typename TResult>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14255), inst: 3042 }), TypeDefinitionIndex(TypeDefinitionIndex(14255))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14255)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14255), inst: 3042 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14259))
 // CS Name: ::Enumerable::WhereSelectEnumerableIterator`2<TSource,TResult>*
 class CORDL_TYPE __Enumerable__WhereSelectEnumerableIterator_2 : public ::System::Linq::__Enumerable__Iterator_1<TResult> {
@@ -784,7 +799,7 @@ namespace System::Linq {
 // cpp template
 template <typename TSource, typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14255), inst: 3043 }), GenericInstantiation(GenericInstantiation
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14255), inst: 3043 }), TypeDefinitionIndex(TypeDefinitionIndex(3842)), GenericInstantiation(GenericInstantiation
 // { tdi: TypeDefinitionIndex(3842), inst: 1686 }), TypeDefinitionIndex(TypeDefinitionIndex(14255))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14261)) CS Name:
 // ::Enumerable::WhereSelectListIterator`2<TSource,TResult>*
 class CORDL_TYPE __Enumerable__WhereSelectListIterator_2 : public ::System::Linq::__Enumerable__Iterator_1<TResult> {
@@ -1044,17 +1059,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TResult>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TResult>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TResult>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<TResult>* i___System__Collections__Generic__IEnumerable_1_TResult_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TResult>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<TResult>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TResult>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<TResult>* i___System__Collections__Generic__IEnumerator_1_TResult_() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -1230,17 +1260,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TSource>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TSource>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TSource>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<TSource>* i___System__Collections__Generic__IEnumerable_1_TSource_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TSource>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<TSource>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TSource>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<TSource>* i___System__Collections__Generic__IEnumerator_1_TSource_() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -1404,17 +1449,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TSource>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TSource>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TSource>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<TSource>* i___System__Collections__Generic__IEnumerable_1_TSource_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TSource>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<TSource>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TSource>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<TSource>* i___System__Collections__Generic__IEnumerator_1_TSource_() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -1578,17 +1638,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TSource>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TSource>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TSource>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<TSource>* i___System__Collections__Generic__IEnumerable_1_TSource_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TSource>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<TSource>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TSource>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<TSource>* i___System__Collections__Generic__IEnumerator_1_TSource_() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -1758,17 +1833,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TSource>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TSource>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TSource>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<TSource>* i___System__Collections__Generic__IEnumerable_1_TSource_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TSource>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<TSource>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TSource>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<TSource>* i___System__Collections__Generic__IEnumerator_1_TSource_() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -1950,17 +2040,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TSource>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TSource>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TSource>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<TSource>* i___System__Collections__Generic__IEnumerable_1_TSource_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TSource>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<TSource>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TSource>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<TSource>* i___System__Collections__Generic__IEnumerator_1_TSource_() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -2163,17 +2268,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TSource>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TSource>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TSource>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<TSource>* i___System__Collections__Generic__IEnumerable_1_TSource_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TSource>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<TSource>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TSource>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<TSource>* i___System__Collections__Generic__IEnumerator_1_TSource_() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -2373,17 +2493,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TSource>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TSource>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TSource>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<TSource>* i___System__Collections__Generic__IEnumerable_1_TSource_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TSource>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<TSource>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TSource>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<TSource>* i___System__Collections__Generic__IEnumerator_1_TSource_() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -2537,8 +2672,8 @@ namespace System::Linq {
 // cpp template
 template <typename TSource>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14295)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14295), inst:
-// 962 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14272)) CS Name: ::Enumerable::<ReverseIterator>d__79`1<TSource>*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14295), inst: 962 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(14295))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14272)) CS Name: ::Enumerable::<ReverseIterator>d__79`1<TSource>*
 class CORDL_TYPE __Enumerable___ReverseIterator_d__79_1 : public ::System::Object {
 public:
   // Declarations
@@ -2570,17 +2705,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TSource>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TSource>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TSource>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<TSource>* i___System__Collections__Generic__IEnumerable_1_TSource_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TSource>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<TSource>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TSource>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<TSource>* i___System__Collections__Generic__IEnumerator_1_TSource_() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -2732,17 +2882,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TSource>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TSource>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TSource>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<TSource>* i___System__Collections__Generic__IEnumerable_1_TSource_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TSource>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<TSource>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TSource>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<TSource>* i___System__Collections__Generic__IEnumerator_1_TSource_() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -2900,17 +3065,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TResult>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TResult>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TResult>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<TResult>* i___System__Collections__Generic__IEnumerable_1_TResult_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TResult>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<TResult>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TResult>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<TResult>* i___System__Collections__Generic__IEnumerator_1_TResult_() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -3050,17 +3230,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TResult>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TResult>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TResult>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<TResult>* i___System__Collections__Generic__IEnumerable_1_TResult_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TResult>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<TResult>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TResult>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<TResult>* i___System__Collections__Generic__IEnumerator_1_TResult_() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -3204,17 +3399,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<int32_t>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<int32_t>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<int32_t>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<int32_t>* i___System__Collections__Generic__IEnumerable_1_int32_t_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<int32_t>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<int32_t>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<int32_t>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<int32_t>* i___System__Collections__Generic__IEnumerator_1_int32_t_() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr int32_t& __get___1__state();
 

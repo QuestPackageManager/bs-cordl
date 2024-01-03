@@ -7,56 +7,56 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AppendElements)
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine::ProBuilder {
-class Vertex;
-}
-namespace UnityEngine {
-struct Vector4;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine::ProBuilder::MeshOperations {
+class __AppendElements____c;
+}
 namespace UnityEngine::ProBuilder::MeshOperations {
 class __AppendElements____c__DisplayClass17_0;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine::ProBuilder {
-class FaceRebuildData;
 }
 namespace UnityEngine::ProBuilder {
 class ActionResult;
 }
 namespace UnityEngine::ProBuilder {
-class Face;
+struct EdgeLookup;
 }
 namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+struct Edge;
+}
+namespace UnityEngine::ProBuilder {
+class FaceRebuildData;
+}
+namespace UnityEngine::ProBuilder {
+class Face;
 }
 namespace UnityEngine::ProBuilder {
 class PolyShape;
 }
 namespace UnityEngine::ProBuilder {
-struct Edge;
+class ProBuilderMesh;
 }
-namespace UnityEngine::ProBuilder::MeshOperations {
-class __AppendElements____c;
+namespace UnityEngine::ProBuilder {
+class Vertex;
 }
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine {
 struct Vector2;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace UnityEngine {
+struct Vector3;
 }
-namespace UnityEngine::ProBuilder {
-struct EdgeLookup;
+namespace UnityEngine {
+struct Vector4;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::MeshOperations {
@@ -255,10 +255,10 @@ public:
                                                                                 ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* points, float_t extrude, bool flipNormals);
 
   /// @brief Method CreateShapeFromPolygon, addr 0x2b96420, size 0xc, virtual false, abstract: false, final false
-  /// @param holePoints: ::System::Collections::Generic::IList_1<::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*>* (default: nullptr)
-  static inline ::UnityEngine::ProBuilder::ActionResult*
-  CreateShapeFromPolygon(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* points, float_t extrude, bool flipNormals,
-                         ::UnityEngine::Vector3 cameraLookAt, ::System::Collections::Generic::IList_1<::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*>* holePoints = nullptr);
+  static inline ::UnityEngine::ProBuilder::ActionResult* CreateShapeFromPolygon(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
+                                                                                ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* points, float_t extrude, bool flipNormals,
+                                                                                ::UnityEngine::Vector3 cameraLookAt,
+                                                                                ::System::Collections::Generic::IList_1<::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*>* holePoints);
 
   /// @brief Method CreateShapeFromPolygon, addr 0x2b95858, size 0xbc8, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::ActionResult* CreateShapeFromPolygon(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
@@ -266,8 +266,7 @@ public:
                                                                                 ::System::Collections::Generic::IList_1<::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*>* holePoints);
 
   /// @brief Method FaceWithVertices, addr 0x2b94900, size 0xcc, virtual false, abstract: false, final false
-  /// @param unordered: bool (default: true)
-  static inline ::UnityEngine::ProBuilder::FaceRebuildData* FaceWithVertices(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, bool unordered = true);
+  static inline ::UnityEngine::ProBuilder::FaceRebuildData* FaceWithVertices(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, bool unordered);
 
   /// @brief Method FaceWithVerticesAndHole, addr 0x2b95360, size 0x480, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::FaceRebuildData*
@@ -282,9 +281,8 @@ public:
   static inline void DuplicateAndFlip(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> faces);
 
   /// @brief Method Bridge, addr 0x2b96e40, size 0x1298, virtual false, abstract: false, final false
-  /// @param allowNonManifoldGeometry: bool (default: false)
   static inline ::UnityEngine::ProBuilder::Face* Bridge(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Edge a, ::UnityEngine::ProBuilder::Edge b,
-                                                        bool allowNonManifoldGeometry = false);
+                                                        bool allowNonManifoldGeometry);
 
   /// @brief Method AppendVerticesToFace, addr 0x2b983ac, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Face* AppendVerticesToFace(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face,

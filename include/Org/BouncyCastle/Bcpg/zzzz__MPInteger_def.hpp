@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgObject_def.hpp"
 CORDL_MODULE_EXPORT(MPInteger)
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgOutputStream;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {

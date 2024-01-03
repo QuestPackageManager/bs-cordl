@@ -6,32 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ProviderBindingFinalizer)
-namespace Zenject {
-class BindInfo;
-}
-namespace Zenject {
-struct ScopeTypes;
-}
-namespace System {
-class Type;
-}
-namespace Zenject {
-class IBindingFinalizer;
-}
-namespace Zenject {
-struct BindingInheritanceMethods;
-}
-namespace Zenject {
-class __ProviderBindingFinalizer____c;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-class IProvider;
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 template <typename T1, typename T2, typename TResult> class Func_3;
@@ -40,10 +19,31 @@ namespace System {
 class Object;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+class Type;
+}
+namespace Zenject {
+class BindInfo;
+}
+namespace Zenject {
+struct BindingInheritanceMethods;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class IBindingFinalizer;
+}
+namespace Zenject {
+class IProvider;
 }
 namespace Zenject {
 class InjectTypeInfo;
+}
+namespace Zenject {
+struct ScopeTypes;
+}
+namespace Zenject {
+class __ProviderBindingFinalizer____c;
 }
 // Forward declare root types
 namespace Zenject {
@@ -144,6 +144,9 @@ public:
 
   /// @brief Convert operator to "::Zenject::IBindingFinalizer"
   constexpr operator ::Zenject::IBindingFinalizer*() noexcept;
+
+  /// @brief Convert to "::Zenject::IBindingFinalizer"
+  constexpr ::Zenject::IBindingFinalizer* i___Zenject__IBindingFinalizer() noexcept;
 
   constexpr ::Zenject::BindInfo*& __get__BindInfo_k__BackingField();
 

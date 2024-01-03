@@ -7,34 +7,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ThreadPool)
 namespace System::Threading {
-class RegisteredWaitHandle;
+class IThreadPoolWorkItem;
 }
 namespace System::Threading {
-class WaitOrTimerCallback;
+class RegisteredWaitHandle;
 }
 namespace System::Threading {
 struct StackCrawlMark;
 }
 namespace System::Threading {
-template <typename TState> class __ThreadPool____c__DisplayClass17_0_1;
-}
-namespace System {
-class Object;
+class WaitCallback;
 }
 namespace System::Threading {
 class WaitHandle;
 }
-namespace System {
-struct TimeSpan;
+namespace System::Threading {
+class WaitOrTimerCallback;
+}
+namespace System::Threading {
+template <typename TState> class __ThreadPool____c__DisplayClass17_0_1;
 }
 namespace System {
 template <typename T> class Action_1;
 }
-namespace System::Threading {
-class IThreadPoolWorkItem;
+namespace System {
+class Object;
 }
-namespace System::Threading {
-class WaitCallback;
+namespace System {
+struct TimeSpan;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -134,9 +134,8 @@ public:
   template <typename TState> static inline bool QueueUserWorkItem(::System::Action_1<TState>* callBack, TState state, bool preferLocal);
 
   /// @brief Method QueueUserWorkItemHelper, addr 0x261c9e8, size 0x124, virtual false, abstract: false, final false
-  /// @param forceGlobal: bool (default: true)
   static inline bool QueueUserWorkItemHelper(::System::Threading::WaitCallback* callBack, ::System::Object* state, ByRef<::System::Threading::StackCrawlMark> stackMark, bool compressStack,
-                                             bool forceGlobal = true);
+                                             bool forceGlobal);
 
   /// @brief Method UnsafeQueueCustomWorkItem, addr 0x261cbcc, size 0x80, virtual false, abstract: false, final false
   static inline void UnsafeQueueCustomWorkItem(::System::Threading::IThreadPoolWorkItem* workItem, bool forceGlobal);

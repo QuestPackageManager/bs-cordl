@@ -10,35 +10,35 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SaberBurnMarkArea)
-namespace UnityEngine {
-class RenderTexture;
-}
-namespace UnityEngine {
-class LineRenderer;
-}
-namespace UnityEngine {
-class Shader;
-}
 namespace GlobalNamespace {
 class ColorManager;
-}
-namespace UnityEngine {
-class Renderer;
-}
-namespace GlobalNamespace {
-class Saber;
 }
 namespace GlobalNamespace {
 class SaberManager;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace GlobalNamespace {
+class Saber;
 }
 namespace UnityEngine {
 class Camera;
 }
 namespace UnityEngine {
+class LineRenderer;
+}
+namespace UnityEngine {
 class Material;
+}
+namespace UnityEngine {
+class RenderTexture;
+}
+namespace UnityEngine {
+class Renderer;
+}
+namespace UnityEngine {
+class Shader;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {

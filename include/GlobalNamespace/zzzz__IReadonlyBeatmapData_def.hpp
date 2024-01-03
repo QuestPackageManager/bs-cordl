@@ -4,11 +4,14 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IReadonlyBeatmapData)
-namespace System::Collections::Generic {
-template <typename T> class LinkedList_1;
+namespace GlobalNamespace {
+class BeatmapDataItem;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace GlobalNamespace {
+class BeatmapData;
+}
+namespace GlobalNamespace {
+class BeatmapEventData;
 }
 namespace GlobalNamespace {
 class IBeatmapDataBasicInfo;
@@ -16,23 +19,20 @@ class IBeatmapDataBasicInfo;
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
 namespace System::Collections::Generic {
 template <typename T> class LinkedListNode_1;
 }
-namespace GlobalNamespace {
-class BeatmapDataItem;
+namespace System::Collections::Generic {
+template <typename T> class LinkedList_1;
 }
 namespace System {
 template <typename T> class Action_1;
 }
-namespace GlobalNamespace {
-class BeatmapData;
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
-namespace GlobalNamespace {
-class BeatmapEventData;
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -56,6 +56,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IBeatmapDataBasicInfo"
   constexpr operator ::GlobalNamespace::IBeatmapDataBasicInfo*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IBeatmapDataBasicInfo"
+  constexpr ::GlobalNamespace::IBeatmapDataBasicInfo* i___GlobalNamespace__IBeatmapDataBasicInfo() noexcept;
 
   /// @brief Method get_allBeatmapDataItems, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::LinkedList_1<::GlobalNamespace::BeatmapDataItem*>* get_allBeatmapDataItems();

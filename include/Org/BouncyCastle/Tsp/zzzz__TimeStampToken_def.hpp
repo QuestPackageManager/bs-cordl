@@ -8,31 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimeStampToken)
 namespace Org::BouncyCastle::Asn1::Cms {
-class ContentInfo;
-}
-namespace Org::BouncyCastle::Tsp {
-class TimeStampTokenInfo;
-}
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
-}
-namespace Org::BouncyCastle::Tsp {
-class __TimeStampToken__CertID;
-}
-namespace Org::BouncyCastle::Cms {
-class SignerInformation;
-}
-namespace Org::BouncyCastle::Cms {
-class SignerID;
-}
-namespace Org::BouncyCastle::X509::Store {
-class IX509Store;
-}
-namespace Org::BouncyCastle::Cms {
-class CmsSignedData;
+class AttributeTable;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
-class AttributeTable;
+class ContentInfo;
+}
+namespace Org::BouncyCastle::Asn1::Ess {
+class EssCertID;
 }
 namespace Org::BouncyCastle::Asn1::Ess {
 class EssCertIDv2;
@@ -43,8 +25,26 @@ class AlgorithmIdentifier;
 namespace Org::BouncyCastle::Asn1::X509 {
 class IssuerSerial;
 }
-namespace Org::BouncyCastle::Asn1::Ess {
-class EssCertID;
+namespace Org::BouncyCastle::Cms {
+class CmsSignedData;
+}
+namespace Org::BouncyCastle::Cms {
+class SignerID;
+}
+namespace Org::BouncyCastle::Cms {
+class SignerInformation;
+}
+namespace Org::BouncyCastle::Tsp {
+class TimeStampTokenInfo;
+}
+namespace Org::BouncyCastle::Tsp {
+class __TimeStampToken__CertID;
+}
+namespace Org::BouncyCastle::X509::Store {
+class IX509Store;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Tsp {

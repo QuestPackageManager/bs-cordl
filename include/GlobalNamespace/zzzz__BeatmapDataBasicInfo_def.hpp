@@ -57,6 +57,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBeatmapDataBasicInfo"
   constexpr operator ::GlobalNamespace::IBeatmapDataBasicInfo*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IBeatmapDataBasicInfo"
+  constexpr ::GlobalNamespace::IBeatmapDataBasicInfo* i___GlobalNamespace__IBeatmapDataBasicInfo() noexcept;
+
   constexpr int32_t& __get__numberOfLines_k__BackingField();
 
   constexpr int32_t const& __get__numberOfLines_k__BackingField() const;

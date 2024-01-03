@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerSyncState_3)
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class StateBuffer_3;
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+template <typename TStateTable, typename TType, typename TState> class StateBuffer_3;
 }
 // Forward declare root types
 namespace GlobalNamespace {

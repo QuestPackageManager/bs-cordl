@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AttributeHelperEngine)
+namespace System {
+class Type;
+}
 namespace UnityEngine {
-class RequireComponent;
+class DisallowMultipleComponent;
 }
 namespace UnityEngine {
 class ExecuteInEditMode;
 }
 namespace UnityEngine {
-class DisallowMultipleComponent;
-}
-namespace System {
-class Type;
+class RequireComponent;
 }
 // Forward declare root types
 namespace UnityEngine {

@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpSignatureSubpacketVector)
 namespace Org::BouncyCastle::Bcpg::Sig {
+class Features;
+}
+namespace Org::BouncyCastle::Bcpg::Sig {
 class NotationData;
 }
 namespace Org::BouncyCastle::Bcpg {
-class SignatureSubpacket;
-}
-namespace Org::BouncyCastle::Bcpg::Sig {
-class Features;
+struct SignatureSubpacketTag;
 }
 namespace Org::BouncyCastle::Bcpg {
-struct SignatureSubpacketTag;
+class SignatureSubpacket;
 }
 namespace System {
 struct DateTime;

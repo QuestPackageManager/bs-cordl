@@ -13,17 +13,17 @@ class Stream;
 namespace System::Net {
 class WebOperation;
 }
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
 namespace System::Net {
 struct __ContentDecodeStream__Mode;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 // Forward declare root types
 namespace System::Net {

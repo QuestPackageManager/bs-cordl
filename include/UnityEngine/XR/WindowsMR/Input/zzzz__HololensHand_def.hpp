@@ -8,10 +8,10 @@ namespace UnityEngine::InputSystem::Controls {
 class AxisControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class Vector3Control;
+class ButtonControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
+class Vector3Control;
 }
 // Forward declare root types
 namespace UnityEngine::XR::WindowsMR::Input {

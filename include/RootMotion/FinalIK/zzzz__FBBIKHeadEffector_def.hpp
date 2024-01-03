@@ -12,25 +12,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FBBIKHeadEffector)
 namespace RootMotion::FinalIK {
-class __FBBIKHeadEffector__BendBone;
+class FullBodyBipedIK;
 }
 namespace RootMotion::FinalIK {
 class IKEffector;
 }
 namespace RootMotion::FinalIK {
+class __FBBIKHeadEffector__BendBone;
+}
+namespace RootMotion::FinalIK {
 class __IKSolver__UpdateDelegate;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace RootMotion::FinalIK {
-class FullBodyBipedIK;
+struct Quaternion;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -134,7 +134,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__FBBIKHeadEffector__BendBone, ___
 // SizeInfo { instance_size: 368, native_size: -1, calculated_instance_size: 368, calculated_native_size: 368, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12547))
 // CS Name: ::RootMotion.FinalIK::FBBIKHeadEffector*
 class CORDL_TYPE FBBIKHeadEffector : public ::UnityEngine::MonoBehaviour {

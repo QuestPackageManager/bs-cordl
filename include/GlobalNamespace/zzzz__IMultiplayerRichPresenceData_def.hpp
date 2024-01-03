@@ -34,6 +34,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IRichPresenceData"
   constexpr operator ::GlobalNamespace::IRichPresenceData*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IRichPresenceData"
+  constexpr ::GlobalNamespace::IRichPresenceData* i___GlobalNamespace__IRichPresenceData() noexcept;
+
   /// @brief Method get_multiplayerSecret, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_multiplayerSecret();
 

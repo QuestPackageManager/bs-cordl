@@ -9,6 +9,10 @@
 template <typename T> constexpr System::WeakReference_1<T>::operator ::System::Runtime::Serialization::ISerializable*() noexcept {
   return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+template <typename T> constexpr ::System::Runtime::Serialization::ISerializable* System::WeakReference_1<T>::i___System__Runtime__Serialization__ISerializable() noexcept {
+  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
+}
 template <typename T> constexpr ::System::Runtime::InteropServices::GCHandle& System::WeakReference_1<T>::__get_handle() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handle;

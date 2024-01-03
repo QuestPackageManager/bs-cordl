@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SpriteSwapGraphicViewStateTransition);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5442)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5442), inst: 924 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(13055))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5461)) CS Name: ::SpriteSwapGraphicViewStateTransition*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13055)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5442), inst: 924 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(5442))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5461)) CS Name: ::SpriteSwapGraphicViewStateTransition*
 class CORDL_TYPE SpriteSwapGraphicViewStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityEngine::UI::Image*> {
 public:
   // Declarations

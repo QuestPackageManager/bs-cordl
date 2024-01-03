@@ -6,47 +6,47 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__FactoryFromBinderBase_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(FactoryFromBinder_4)
-namespace Zenject {
-class BindInfo;
+namespace System {
+template <typename T> class Action_1;
 }
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TContract> class FactorySubContainerBinder_4;
-}
-namespace Zenject {
-class ConditionCopyNonLazyBinder;
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4, typename TResult> class Func_5;
 }
 namespace System {
 class Object;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TContract, typename TSubFactory> class __FactoryFromBinder_4____c__2_1;
+class BindInfo;
 }
 namespace Zenject {
-class FactoryBindInfo;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4, typename TResult> class Func_5;
+template <typename TContract> class ConcreteBinderGeneric_1;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TContract> class __FactoryFromBinder_4____c__DisplayClass1_0;
+class ConditionCopyNonLazyBinder;
 }
 namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
+class FactoryBindInfo;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TContract> class FactorySubContainerBinder_4;
+}
+namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue> class IFactory_4;
+}
+namespace Zenject {
+class IProvider;
 }
 namespace Zenject {
 class InjectTypeInfo;
 }
 namespace Zenject {
-template <typename TContract> class ConcreteBinderGeneric_1;
-}
-namespace System {
-template <typename T> class Action_1;
+template <typename TParam1, typename TParam2, typename TParam3, typename TContract, typename TSubFactory> class __FactoryFromBinder_4____c__2_1;
 }
 namespace Zenject {
-class IProvider;
+template <typename TParam1, typename TParam2, typename TParam3, typename TContract> class __FactoryFromBinder_4____c__DisplayClass1_0;
 }
 // Forward declare root types
 namespace Zenject {

@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BeatmapSelectionView_def.hpp"
 CORDL_MODULE_EXPORT(EditableBeatmapSelectionView)
+namespace GlobalNamespace {
+class PreviewDifficultyBeatmap;
+}
 namespace UnityEngine::UI {
 class Button;
 }
 namespace UnityEngine {
 class CanvasGroup;
-}
-namespace GlobalNamespace {
-class PreviewDifficultyBeatmap;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -2,26 +2,19 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TouchSimulation)
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
-namespace UnityEngine::InputSystem {
-struct InputDeviceChange;
-}
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
-namespace UnityEngine::InputSystem {
-class Touchscreen;
+namespace UnityEngine::InputSystem::Controls {
+class ButtonControl;
 }
-namespace UnityEngine::InputSystem {
-struct TouchPhase;
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputStateChangeMonitor;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
@@ -30,16 +23,22 @@ namespace UnityEngine::InputSystem {
 class InputControl;
 }
 namespace UnityEngine::InputSystem {
+struct InputDeviceChange;
+}
+namespace UnityEngine::InputSystem {
+class InputDevice;
+}
+namespace UnityEngine::InputSystem {
 class Pointer;
+}
+namespace UnityEngine::InputSystem {
+struct TouchPhase;
+}
+namespace UnityEngine::InputSystem {
+class Touchscreen;
 }
 namespace UnityEngine {
 struct Vector2;
-}
-namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputStateChangeMonitor;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::EnhancedTouch {
@@ -51,7 +50,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::EnhancedTouch {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(6536))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6422))
 // CS Name: ::UnityEngine.InputSystem.EnhancedTouch::TouchSimulation*
 class CORDL_TYPE TouchSimulation : public ::UnityEngine::MonoBehaviour {
@@ -94,6 +93,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* i___UnityEngine__InputSystem__LowLevel__IInputStateChangeMonitor() noexcept;
 
   constexpr ::UnityEngine::InputSystem::Touchscreen*& __get__simulatedTouchscreen_k__BackingField();
 
@@ -190,8 +192,7 @@ public:
   inline void OnDisable();
 
   /// @brief Method UpdateTouch, addr 0x2ae4278, size 0x388, virtual false, abstract: false, final false
-  /// @param eventPtr: ::UnityEngine::InputSystem::LowLevel::InputEventPtr (default: {})
-  inline void UpdateTouch(int32_t touchIndex, int32_t pointerIndex, ::UnityEngine::InputSystem::TouchPhase phase, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr = {});
+  inline void UpdateTouch(int32_t touchIndex, int32_t pointerIndex, ::UnityEngine::InputSystem::TouchPhase phase, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
   /// @brief Method UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyControlStateChanged, addr 0x2ae5664, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_InputSystem_LowLevel_IInputStateChangeMonitor_NotifyControlStateChanged(::UnityEngine::InputSystem::InputControl* control, double_t time,
@@ -201,16 +202,14 @@ public:
   inline void UnityEngine_InputSystem_LowLevel_IInputStateChangeMonitor_NotifyTimerExpired(::UnityEngine::InputSystem::InputControl* control, double_t time, int64_t monitorIndex, int32_t timerIndex);
 
   /// @brief Method InstallStateChangeMonitors, addr 0x2ae566c, size 0x4, virtual false, abstract: false, final false
-  /// @param startIndex: int32_t (default: static_cast<int32_t>(0x0))
-  inline void InstallStateChangeMonitors(int32_t startIndex = static_cast<int32_t>(0x0));
+  inline void InstallStateChangeMonitors(int32_t startIndex);
 
   /// @brief Method OnSourceControlChangedValue, addr 0x2ae5670, size 0x4, virtual false, abstract: false, final false
   inline void OnSourceControlChangedValue(::UnityEngine::InputSystem::InputControl* control, double_t time, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr,
                                           int64_t sourceDeviceAndButtonIndex);
 
   /// @brief Method UninstallStateChangeMonitors, addr 0x2ae5674, size 0x4, virtual false, abstract: false, final false
-  /// @param startIndex: int32_t (default: static_cast<int32_t>(0x0))
-  inline void UninstallStateChangeMonitors(int32_t startIndex = static_cast<int32_t>(0x0));
+  inline void UninstallStateChangeMonitors(int32_t startIndex);
 
   static inline ::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation* New_ctor();
 

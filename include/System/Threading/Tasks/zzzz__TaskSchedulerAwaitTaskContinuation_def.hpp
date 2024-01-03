@@ -8,9 +8,6 @@ CORDL_MODULE_EXPORT(TaskSchedulerAwaitTaskContinuation)
 namespace System::Threading::Tasks {
 class TaskScheduler;
 }
-namespace System {
-class Action;
-}
 namespace System::Threading::Tasks {
 class Task;
 }
@@ -18,10 +15,13 @@ namespace System::Threading::Tasks {
 class __TaskSchedulerAwaitTaskContinuation____c;
 }
 namespace System {
-class Object;
+template <typename T> class Action_1;
 }
 namespace System {
-template <typename T> class Action_1;
+class Action;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {

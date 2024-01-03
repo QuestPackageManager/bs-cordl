@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(TutorialNoTransitionInstaller)
 namespace GlobalNamespace {
 class PlayerSpecificSettings;
 }
-namespace Zenject {
-class DiContainer;
-}
 namespace GlobalNamespace {
 class TutorialScenesTransitionSetupDataSO;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace GlobalNamespace {

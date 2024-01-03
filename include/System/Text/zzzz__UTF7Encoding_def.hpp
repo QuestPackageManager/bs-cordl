@@ -11,35 +11,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UTF7Encoding)
-namespace System {
-class Object;
-}
 namespace System::Text {
-class __UTF7Encoding__Encoder;
-}
-namespace System::Text {
-class Encoder;
-}
-namespace System::Text {
-class Decoder;
+class DecoderFallbackBuffer;
 }
 namespace System::Text {
 class DecoderNLS;
 }
 namespace System::Text {
-class __UTF7Encoding__Decoder;
-}
-namespace System::Text {
-class __UTF7Encoding__DecoderUTF7FallbackBuffer;
+class Decoder;
 }
 namespace System::Text {
 class EncoderNLS;
 }
 namespace System::Text {
+class Encoder;
+}
+namespace System::Text {
+class __UTF7Encoding__DecoderUTF7FallbackBuffer;
+}
+namespace System::Text {
 class __UTF7Encoding__DecoderUTF7Fallback;
 }
 namespace System::Text {
-class DecoderFallbackBuffer;
+class __UTF7Encoding__Decoder;
+}
+namespace System::Text {
+class __UTF7Encoding__Encoder;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Text {

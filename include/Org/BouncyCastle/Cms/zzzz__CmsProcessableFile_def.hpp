@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsProcessableFile)
 namespace Org::BouncyCastle::Cms {
+class CmsProcessable;
+}
+namespace Org::BouncyCastle::Cms {
 class CmsReadable;
 }
 namespace System::IO {
 class FileInfo;
 }
-namespace Org::BouncyCastle::Cms {
-class CmsProcessable;
+namespace System::IO {
+class Stream;
 }
 namespace System {
 class Object;
-}
-namespace System::IO {
-class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -45,8 +45,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsProcessable"
   constexpr operator ::Org::BouncyCastle::Cms::CmsProcessable*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Cms::CmsProcessable"
+  constexpr ::Org::BouncyCastle::Cms::CmsProcessable* i___Org__BouncyCastle__Cms__CmsProcessable() noexcept;
+
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsReadable"
   constexpr operator ::Org::BouncyCastle::Cms::CmsReadable*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Cms::CmsReadable"
+  constexpr ::Org::BouncyCastle::Cms::CmsReadable* i___Org__BouncyCastle__Cms__CmsReadable() noexcept;
 
   constexpr ::System::IO::FileInfo*& __get__file();
 

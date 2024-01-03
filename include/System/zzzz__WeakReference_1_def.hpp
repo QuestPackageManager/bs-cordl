@@ -27,7 +27,7 @@ namespace System {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3336)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3336))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2643))
 // CS Name: ::System::WeakReference`1<T>*
 class CORDL_TYPE WeakReference_1 : public ::System::Object {
@@ -41,6 +41,9 @@ public:
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
   constexpr ::System::Runtime::InteropServices::GCHandle& __get_handle();
 

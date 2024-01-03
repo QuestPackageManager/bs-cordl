@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(RsaBlindingFactorGenerator)
 namespace Org::BouncyCastle::Crypto::Parameters {
 class RsaKeyParameters;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {

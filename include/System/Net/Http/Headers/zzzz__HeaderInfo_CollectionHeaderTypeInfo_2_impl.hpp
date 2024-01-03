@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Net/Http/Headers/zzzz__HeaderInfo_HeaderTypeInfo_2_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__HeaderInfo_CollectionHeaderTypeInfo_2_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Net/Http/Headers/zzzz__TryParseListDelegate_1_def.hpp"
 #include "System/Net/Http/Headers/zzzz__HttpHeaderKind_def.hpp"
+#include "System/Net/Http/Headers/zzzz__TryParseListDelegate_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 template <typename T, typename U> constexpr int32_t& System::Net::Http::Headers::__HeaderInfo__CollectionHeaderTypeInfo_2<T, U>::__get_minimalCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minimalCount;

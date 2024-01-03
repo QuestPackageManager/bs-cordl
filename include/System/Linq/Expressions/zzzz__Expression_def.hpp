@@ -5,32 +5,32 @@ CORDL_MODULE_INIT
 #include "System/Linq/Expressions/zzzz__ExpressionType_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Expression)
-namespace System::Reflection {
-class MethodInfo;
-}
-namespace System::Linq::Expressions {
-struct ExpressionType;
-}
-namespace System::Linq::Expressions {
-class __Expression__MemberExpressionProxy;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue> class ConditionalWeakTable_2;
-}
-namespace System::Linq::Expressions {
-class __Expression__UnaryExpressionProxy;
-}
 namespace System::Dynamic::Utils {
 template <typename TKey, typename TValue> class CacheDict_2;
 }
-namespace System {
-class Type;
+namespace System::Linq::Expressions {
+struct ExpressionType;
 }
 namespace System::Linq::Expressions {
 class __Expression__ExtensionInfo;
 }
 namespace System::Linq::Expressions {
 class __Expression__LambdaExpressionProxy;
+}
+namespace System::Linq::Expressions {
+class __Expression__MemberExpressionProxy;
+}
+namespace System::Linq::Expressions {
+class __Expression__UnaryExpressionProxy;
+}
+namespace System::Reflection {
+class MethodInfo;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TKey, typename TValue> class ConditionalWeakTable_2;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Linq::Expressions {
@@ -148,7 +148,7 @@ static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::__Exp
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14302))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14302)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14299))
 // CS Name: ::Expression::ExtensionInfo*
 class CORDL_TYPE __Expression__ExtensionInfo : public ::System::Object {

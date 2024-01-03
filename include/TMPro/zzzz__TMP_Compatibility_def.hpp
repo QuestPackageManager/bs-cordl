@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_Compatibility)
 namespace TMPro {
-struct __TMP_Compatibility__AnchorPositions;
+struct TextAlignmentOptions;
 }
 namespace TMPro {
-struct TextAlignmentOptions;
+struct __TMP_Compatibility__AnchorPositions;
 }
 // Forward declare root types
 namespace TMPro {

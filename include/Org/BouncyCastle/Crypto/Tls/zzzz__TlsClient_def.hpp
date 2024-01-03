@@ -6,31 +6,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsClient)
 namespace Org::BouncyCastle::Crypto::Tls {
+class NewSessionTicket;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class ProtocolVersion;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsAuthentication;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsClientContext;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
 class TlsKeyExchange;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsPeer;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsAuthentication;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class NewSessionTicket;
-}
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsClientContext;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSession;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class ProtocolVersion;
 }
 namespace System::Collections {
 class IDictionary;
+}
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -56,6 +56,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsPeer"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsPeer*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsPeer"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsPeer* i___Org__BouncyCastle__Crypto__Tls__TlsPeer() noexcept;
 
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Init(::Org::BouncyCastle::Crypto::Tls::TlsClientContext* context);

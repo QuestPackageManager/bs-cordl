@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GrounderIK)
-namespace UnityEngine {
-class Rigidbody;
-}
 namespace RootMotion::FinalIK {
 class IK;
 }
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace UnityEngine {
+class Rigidbody;
 }
 namespace UnityEngine {
 class Transform;

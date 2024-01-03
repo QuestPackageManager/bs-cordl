@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(RequestCacheManager)
 namespace System::Net::Cache {
-class RequestCachingSectionInternal;
+class RequestCacheBinding;
 }
 namespace System::Net::Cache {
-class RequestCacheBinding;
+class RequestCachingSectionInternal;
 }
 // Forward declare root types
 namespace System::Net::Cache {

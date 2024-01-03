@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PssSigner)
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Crypto {
 class IAsymmetricBlockCipher;
-}
-namespace Org::BouncyCastle::Crypto {
-class ISigner;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
+}
+namespace Org::BouncyCastle::Crypto {
+class ISigner;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -84,6 +84,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ISigner"
   constexpr operator ::Org::BouncyCastle::Crypto::ISigner*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::ISigner"
+  constexpr ::Org::BouncyCastle::Crypto::ISigner* i___Org__BouncyCastle__Crypto__ISigner() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::IDigest*& __get_contentDigest1();
 

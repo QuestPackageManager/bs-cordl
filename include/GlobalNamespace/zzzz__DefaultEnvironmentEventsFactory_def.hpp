@@ -5,6 +5,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DefaultEnvironmentEventsFactory)
 namespace GlobalNamespace {
+class BeatmapData;
+}
+namespace GlobalNamespace {
 class BeatmapEventDataBoxGroupLists;
 }
 namespace GlobalNamespace {
@@ -12,9 +15,6 @@ class DefaultEnvironmentEvents;
 }
 namespace GlobalNamespace {
 class IEnvironmentLightGroups;
-}
-namespace GlobalNamespace {
-class BeatmapData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

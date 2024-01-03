@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerPlayerResultsData)
-namespace System {
-class Object;
-}
 namespace GlobalNamespace {
 class IConnectedPlayer;
-}
-namespace System {
-class IComparable;
 }
 namespace GlobalNamespace {
 class MultiplayerBadgeAwardData;
 }
 namespace GlobalNamespace {
 class MultiplayerLevelCompletionResults;
+}
+namespace System {
+class IComparable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -48,6 +48,9 @@ public:
 
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*() noexcept;
+
+  /// @brief Convert to "::System::IComparable"
+  constexpr ::System::IComparable* i___System__IComparable() noexcept;
 
   constexpr ::GlobalNamespace::IConnectedPlayer*& __get_connectedPlayer();
 

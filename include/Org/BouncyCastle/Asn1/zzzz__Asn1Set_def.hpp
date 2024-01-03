@@ -8,41 +8,41 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Asn1Set)
-namespace System {
-class Object;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1EncodableVector;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1SetParser;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace Org::BouncyCastle::Asn1 {
-class __Asn1Set__DerComparer;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1 {
-class __Asn1Set__Asn1SetParserImpl;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1SetParser;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
 class IAsn1Convertible;
+}
+namespace Org::BouncyCastle::Asn1 {
+class __Asn1Set__Asn1SetParserImpl;
+}
+namespace Org::BouncyCastle::Asn1 {
+class __Asn1Set__DerComparer;
 }
 namespace System::Collections {
 class IComparer;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -80,8 +80,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::Asn1SetParser"
   constexpr operator ::Org::BouncyCastle::Asn1::Asn1SetParser*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::Asn1SetParser"
+  constexpr ::Org::BouncyCastle::Asn1::Asn1SetParser* i___Org__BouncyCastle__Asn1__Asn1SetParser() noexcept;
+
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible* i___Org__BouncyCastle__Asn1__IAsn1Convertible() noexcept;
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __get_outer();
 
@@ -160,6 +166,9 @@ public:
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IComparer"
+  constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
+
   /// @brief Method Compare, addr 0x11b9d54, size 0x180, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* x, ::System::Object* y);
 
@@ -213,6 +222,9 @@ public:
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*>& __get_elements();
 

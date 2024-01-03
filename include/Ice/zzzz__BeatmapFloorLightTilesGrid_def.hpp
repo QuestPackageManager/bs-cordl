@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapFloorLightTilesGrid)
-namespace Ice {
-class FloorLightTilesGrid;
-}
 namespace GlobalNamespace {
 class IBeatmapObjectSpawnController;
+}
+namespace Ice {
+class FloorLightTilesGrid;
 }
 // Forward declare root types
 namespace Ice {

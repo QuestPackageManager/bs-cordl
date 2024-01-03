@@ -12,22 +12,22 @@ namespace GlobalNamespace {
 class FlyingObjectEffect;
 }
 namespace GlobalNamespace {
-struct __FlyingScoreSpawner__SpawnPosition;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace GlobalNamespace {
 class IFlyingObjectEffectDidFinishEvent;
 }
 namespace GlobalNamespace {
-class __FlyingScoreSpawner__InitData;
+class IReadonlyCutScoreBuffer;
 }
 namespace GlobalNamespace {
 class __FlyingScoreEffect__Pool;
 }
 namespace GlobalNamespace {
-class IReadonlyCutScoreBuffer;
+class __FlyingScoreSpawner__InitData;
+}
+namespace GlobalNamespace {
+struct __FlyingScoreSpawner__SpawnPosition;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -97,7 +97,7 @@ static_assert(offsetof(::GlobalNamespace::__FlyingScoreSpawner__SpawnPosition, v
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4887)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4887))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4888))
 // CS Name: ::FlyingScoreSpawner::InitData*
 class CORDL_TYPE __FlyingScoreSpawner__InitData : public ::System::Object {
@@ -164,6 +164,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IFlyingObjectEffectDidFinishEvent"
   constexpr operator ::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IFlyingObjectEffectDidFinishEvent"
+  constexpr ::GlobalNamespace::IFlyingObjectEffectDidFinishEvent* i___GlobalNamespace__IFlyingObjectEffectDidFinishEvent() noexcept;
 
   constexpr ::GlobalNamespace::__FlyingScoreEffect__Pool*& __get__flyingScoreEffectPool();
 

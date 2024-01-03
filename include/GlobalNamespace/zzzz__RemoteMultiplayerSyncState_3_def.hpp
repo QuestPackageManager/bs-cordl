@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RemoteMultiplayerSyncState_3)
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__InterpolationDelegate;
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+template <typename TStateTable, typename TType, typename TState> class RemoteStateBuffer_3;
 }
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class StateBuffer_3;
 }
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class RemoteStateBuffer_3;
+template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__InterpolationDelegate;
 }
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__SmoothingDelegate;
@@ -32,7 +32,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14947), inst: 3836 }), TypeDefinitionIndex(TypeDefinitionIndex(14947))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14947)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14947), inst: 3836 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14949))
 // CS Name: ::RemoteMultiplayerSyncState`3<TStateTable,TType,TState>*
 class CORDL_TYPE RemoteMultiplayerSyncState_3 : public ::GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState> {
@@ -77,9 +77,8 @@ public:
            ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* smoother);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param smoother: ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable,TType,TState>* (default: nullptr)
   inline void _ctor(::GlobalNamespace::IConnectedPlayer* player, int32_t size, ::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* interpolator,
-                    ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* smoother = nullptr);
+                    ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* smoother);
 
   // Ctor Parameters [CppParam { name: "", ty: "RemoteMultiplayerSyncState_3", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

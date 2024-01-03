@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 CORDL_MODULE_EXPORT(MultiplayerBigAvatarInstaller)
 namespace GlobalNamespace {
-class __SaberManager__InitData;
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 class PlayersSpecificSettingsAtGameStartModel;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class __SaberManager__InitData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

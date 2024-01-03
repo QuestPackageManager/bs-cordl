@@ -11,16 +11,16 @@ namespace System {
 class Object;
 }
 namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
-class Texture2D;
+struct DetailRenderMode;
 }
 namespace UnityEngine {
-struct DetailRenderMode;
+class GameObject;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 // Forward declare root types
 namespace UnityEngine {

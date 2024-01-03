@@ -1,21 +1,31 @@
 #pragma once
 #include "UnityEngine/Playables/zzzz__PlayableHandle_impl.hpp"
 #include "UnityEngine/Playables/zzzz__ScriptPlayable_1_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableHandle_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
-#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
-#include "UnityEngine/Playables/zzzz__IPlayable_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/Playables/zzzz__IPlayableBehaviour_def.hpp"
+#include "UnityEngine/Playables/zzzz__IPlayable_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableHandle_def.hpp"
+#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
 /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
 template <typename T> constexpr UnityEngine::Playables::ScriptPlayable_1<T>::operator ::UnityEngine::Playables::IPlayable*() {
   return static_cast<::UnityEngine::Playables::IPlayable*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::UnityEngine::Playables::IPlayable"
+template <typename T> constexpr ::UnityEngine::Playables::IPlayable* UnityEngine::Playables::ScriptPlayable_1<T>::i___UnityEngine__Playables__IPlayable() {
+  return static_cast<::UnityEngine::Playables::IPlayable*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Playables::ScriptPlayable_1<T>>"
 template <typename T> constexpr UnityEngine::Playables::ScriptPlayable_1<T>::operator ::System::IEquatable_1<::UnityEngine::Playables::ScriptPlayable_1<T>>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::Playables::ScriptPlayable_1<T>>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::Playables::ScriptPlayable_1<T>>"
+template <typename T>
+constexpr ::System::IEquatable_1<::UnityEngine::Playables::ScriptPlayable_1<T>>*
+UnityEngine::Playables::ScriptPlayable_1<T>::i___System__IEquatable_1___UnityEngine__Playables__ScriptPlayable_1_T__() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Playables::ScriptPlayable_1<T>>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename T> inline void UnityEngine::Playables::ScriptPlayable_1<T>::setStaticF_m_NullPlayable(::UnityEngine::Playables::ScriptPlayable_1<T> value) {

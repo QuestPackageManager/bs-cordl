@@ -3,17 +3,17 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IJEnumerable_1)
-namespace System::Collections {
-class IEnumerable;
+namespace Newtonsoft::Json::Linq {
+class JToken;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
+namespace System::Collections {
+class IEnumerable;
+}
 namespace System {
 class Object;
-}
-namespace Newtonsoft::Json::Linq {
-class JToken;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {
@@ -38,8 +38,14 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>* i___System__Collections__Generic__IEnumerable_1_T_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* get_Item(::System::Object* key);

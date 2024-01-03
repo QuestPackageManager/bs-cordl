@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(FirstPersonFlyingController)
-namespace UnityEngine::SpatialTracking {
-class TrackedPoseDriver;
+namespace GlobalNamespace {
+class MouseLook;
 }
 namespace GlobalNamespace {
 class VRCenterAdjust;
 }
 namespace GlobalNamespace {
-class MouseLook;
+class VRController;
+}
+namespace UnityEngine::SpatialTracking {
+class TrackedPoseDriver;
 }
 namespace UnityEngine {
 class Camera;
 }
-namespace GlobalNamespace {
-class VRController;
+namespace UnityEngine {
+class GameObject;
 }
 namespace UnityEngine {
 class Transform;
-}
-namespace UnityEngine {
-class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {

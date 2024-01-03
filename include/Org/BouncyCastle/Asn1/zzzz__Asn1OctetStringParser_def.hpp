@@ -28,6 +28,9 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible* i___Org__BouncyCastle__Asn1__IAsn1Convertible() noexcept;
+
   /// @brief Method GetOctetStream, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::IO::Stream* GetOctetStream();
 

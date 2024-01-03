@@ -8,33 +8,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TypeConverter)
-namespace System::ComponentModel {
-class __TypeConverter__StandardValuesCollection;
-}
-namespace System {
-class Type;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System::ComponentModel {
-class __TypeConverter__SimplePropertyDescriptor;
-}
-namespace System::ComponentModel {
-class ITypeDescriptorContext;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class Exception;
-}
-namespace System {
-class Attribute;
-}
-namespace System::ComponentModel {
-class PropertyDescriptorCollection;
-}
 namespace System::Collections {
 class ICollection;
 }
@@ -42,13 +15,40 @@ namespace System::Collections {
 class IDictionary;
 }
 namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IEnumerator;
+}
+namespace System::ComponentModel {
+class ITypeDescriptorContext;
+}
+namespace System::ComponentModel {
+class PropertyDescriptorCollection;
+}
+namespace System::ComponentModel {
+class __TypeConverter__SimplePropertyDescriptor;
+}
+namespace System::ComponentModel {
+class __TypeConverter__StandardValuesCollection;
+}
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace System {
 class Array;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System {
+class Attribute;
+}
+namespace System {
+class Exception;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -179,8 +179,14 @@ public:
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
 
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::System::Collections::ICollection*& __get_values();
 

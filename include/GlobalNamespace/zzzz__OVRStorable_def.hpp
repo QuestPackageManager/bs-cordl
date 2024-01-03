@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRStorable)
 namespace GlobalNamespace {
+template <typename T> class IOVRAnchorComponent_1;
+}
+namespace GlobalNamespace {
 struct OVRAnchor;
+}
+namespace GlobalNamespace {
+template <typename TResult> struct OVRTask_1;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__SpaceComponentType;
 }
-namespace GlobalNamespace {
-template <typename T> class IOVRAnchorComponent_1;
-}
 namespace System {
 template <typename T> class IEquatable_1;
-}
-namespace GlobalNamespace {
-template <typename TResult> struct OVRTask_1;
 }
 namespace System {
 class Object;
@@ -59,8 +59,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRStorable>"
   constexpr operator ::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRStorable>*();
 
+  /// @brief Convert to "::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRStorable>"
+  constexpr ::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRStorable>* i___GlobalNamespace__IOVRAnchorComponent_1___GlobalNamespace__OVRStorable_();
+
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::OVRStorable>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::OVRStorable>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::OVRStorable>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::OVRStorable>* i___System__IEquatable_1___GlobalNamespace__OVRStorable_();
 
   static inline void setStaticF_Null(::GlobalNamespace::OVRStorable value);
 
@@ -82,8 +88,7 @@ public:
   inline bool get_IsEnabled();
 
   /// @brief Method SetEnabledAsync, addr 0x27130f8, size 0xdc, virtual true, abstract: false, final true
-  /// @param timeout: double_t (default: 0.0)
-  inline ::GlobalNamespace::OVRTask_1<bool> SetEnabledAsync(bool enabled, double_t timeout = 0.0);
+  inline ::GlobalNamespace::OVRTask_1<bool> SetEnabledAsync(bool enabled, double_t timeout);
 
   /// @brief Method Equals, addr 0x27131d4, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::OVRStorable other);

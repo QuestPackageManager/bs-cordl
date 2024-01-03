@@ -28,6 +28,9 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::System::TypeName*>"
   constexpr operator ::System::IEquatable_1<::System::TypeName*>*() noexcept;
 
+  /// @brief Convert to "::System::IEquatable_1<::System::TypeName*>"
+  constexpr ::System::IEquatable_1<::System::TypeName*>* i___System__IEquatable_1___System__TypeName__() noexcept;
+
   /// @brief Method get_DisplayName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_DisplayName();
 

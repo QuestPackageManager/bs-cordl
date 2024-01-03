@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ByteArrayNetSerializable)
 namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace LiteNetLib::Utils {
 class INetSerializable;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -57,6 +57,9 @@ public:
 
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
+
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__data();
 
@@ -106,16 +109,12 @@ public:
   static inline ::GlobalNamespace::ByteArrayNetSerializable* New_ctor(::StringW name, int32_t minLength, int32_t maxLength, bool allowEmpty);
 
   /// @brief Method .ctor, addr 0xe29e84, size 0x48, virtual false, abstract: false, final false
-  /// @param minLength: int32_t (default: static_cast<int32_t>(0x0))
-  /// @param maxLength: int32_t (default: static_cast<int32_t>(0x7fff))
-  /// @param allowEmpty: bool (default: false)
-  inline void _ctor(::StringW name, int32_t minLength = static_cast<int32_t>(0x0), int32_t maxLength = static_cast<int32_t>(0x7fff), bool allowEmpty = false);
+  inline void _ctor(::StringW name, int32_t minLength, int32_t maxLength, bool allowEmpty);
 
   static inline ::GlobalNamespace::ByteArrayNetSerializable* New_ctor(::StringW name, int32_t size, bool allowEmpty);
 
   /// @brief Method .ctor, addr 0xe29ecc, size 0x44, virtual false, abstract: false, final false
-  /// @param allowEmpty: bool (default: false)
-  inline void _ctor(::StringW name, int32_t size, bool allowEmpty = false);
+  inline void _ctor(::StringW name, int32_t size, bool allowEmpty);
 
   /// @brief Method SetData, addr 0xe29e5c, size 0x28, virtual false, abstract: false, final false
   inline void SetData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
@@ -124,8 +123,7 @@ public:
   inline void SetData(::ArrayW<uint8_t, ::Array<uint8_t>*> value, int32_t offset, int32_t length);
 
   /// @brief Method GetData, addr 0xe29d7c, size 0xdc, virtual false, abstract: false, final false
-  /// @param emptyAsNull: bool (default: false)
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetData(bool emptyAsNull = false);
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetData(bool emptyAsNull);
 
   /// @brief Method Serialize, addr 0xe2a260, size 0xf0, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);

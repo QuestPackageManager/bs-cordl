@@ -7,35 +7,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(SearchFilterParamsViewController)
-namespace System {
-template <typename T1, typename T2> class Action_2;
+namespace GlobalNamespace {
+class BeatmapCharacteristicsDropdown;
 }
 namespace GlobalNamespace {
 class BeatmapDifficultyDropdown;
 }
 namespace GlobalNamespace {
+class FormattedFloatListSettingsController;
+}
+namespace GlobalNamespace {
 struct LevelFilter;
 }
-namespace UnityEngine::UI {
-class Button;
-}
 namespace GlobalNamespace {
-class SongPacksDropdown;
-}
-namespace UnityEngine::UI {
-class Toggle;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicsDropdown;
+class PlayerDataModel;
 }
 namespace GlobalNamespace {
 class PlayerSensitivityDropdown;
 }
 namespace GlobalNamespace {
-class FormattedFloatListSettingsController;
+class SongPacksDropdown;
 }
-namespace GlobalNamespace {
-class PlayerDataModel;
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace UnityEngine::UI {
+class Toggle;
 }
 // Forward declare root types
 namespace GlobalNamespace {

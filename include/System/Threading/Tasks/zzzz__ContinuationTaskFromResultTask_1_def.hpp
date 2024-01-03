@@ -8,6 +8,9 @@ namespace System::Threading::Tasks {
 struct InternalTaskOptions;
 }
 namespace System::Threading::Tasks {
+struct TaskCreationOptions;
+}
+namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace System {
@@ -15,9 +18,6 @@ class Delegate;
 }
 namespace System {
 class Object;
-}
-namespace System::Threading::Tasks {
-struct TaskCreationOptions;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {

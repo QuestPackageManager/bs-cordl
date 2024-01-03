@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TraceListener)
 namespace System::Diagnostics {
-struct TraceOptions;
-}
-namespace System::Diagnostics {
 class TraceEventCache;
-}
-namespace System {
-class IDisposable;
 }
 namespace System::Diagnostics {
 struct TraceEventType;
 }
 namespace System::Diagnostics {
 class TraceFilter;
+}
+namespace System::Diagnostics {
+struct TraceOptions;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Diagnostics {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::System::Diagnostics::TraceListener);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2605)), TypeDefinitionIndex(TypeDefinitionIndex(8945))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8945)), TypeDefinitionIndex(TypeDefinitionIndex(2605))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8943))
 // CS Name: ::System.Diagnostics::TraceListener*
 class CORDL_TYPE TraceListener : public ::System::MarshalByRefObject {
@@ -70,6 +70,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get_indentLevel();
 

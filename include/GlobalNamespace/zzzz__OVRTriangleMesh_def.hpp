@@ -3,7 +3,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
-#include "Unity/Jobs/zzzz__JobHandle_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -11,8 +10,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRTriangleMesh)
-namespace System {
-class Object;
+namespace GlobalNamespace {
+template <typename T> class IOVRAnchorComponent_1;
+}
+namespace GlobalNamespace {
+struct OVRAnchor;
+}
+namespace GlobalNamespace {
+template <typename TResult> struct OVRTask_1;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__SpaceComponentType;
+}
+namespace GlobalNamespace {
+struct __OVRTriangleMesh__FlipTriangleWindingJob;
 }
 namespace GlobalNamespace {
 struct __OVRTriangleMesh__GetMeshJob;
@@ -21,40 +32,28 @@ namespace GlobalNamespace {
 struct __OVRTriangleMesh__NegateXJob;
 }
 namespace GlobalNamespace {
-template <typename T> class IOVRAnchorComponent_1;
-}
-namespace GlobalNamespace {
 struct __OVRTriangleMesh__Triangle;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__SpaceComponentType;
-}
-namespace GlobalNamespace {
-template <typename TResult> struct OVRTask_1;
-}
-namespace GlobalNamespace {
-struct OVRAnchor;
-}
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
-}
-namespace Unity::Jobs {
-struct JobHandle;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace GlobalNamespace {
-struct __OVRTriangleMesh__FlipTriangleWindingJob;
+namespace System {
+class Object;
+}
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
 }
 namespace Unity::Jobs {
 class IJobParallelFor;
 }
 namespace Unity::Jobs {
 class IJob;
+}
+namespace Unity::Jobs {
+struct JobHandle;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -82,13 +81,17 @@ MARK_VAL_T(::GlobalNamespace::__OVRTriangleMesh__Triangle);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(9999), inst: 412 }), TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7521)) CS Name: ::OVRTriangleMesh::GetMeshJob
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 412 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7521)) CS
+// Name: ::OVRTriangleMesh::GetMeshJob
 struct CORDL_TYPE __OVRTriangleMesh__GetMeshJob {
 public:
   // Declarations
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
+
+  /// @brief Convert to "::Unity::Jobs::IJob"
+  constexpr ::Unity::Jobs::IJob* i___Unity__Jobs__IJob();
 
   /// @brief Method Execute, addr 0x2715440, size 0xd4, virtual true, abstract: false, final true
   inline void Execute();
@@ -179,6 +182,9 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
+  /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
+  constexpr ::Unity::Jobs::IJobParallelFor* i___Unity__Jobs__IJobParallelFor();
+
   /// @brief Method Execute, addr 0x2715514, size 0x1c, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
@@ -207,13 +213,16 @@ static_assert(offsetof(::GlobalNamespace::__OVRTriangleMesh__FlipTriangleWinding
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 412 }), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9999))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7524)) CS Name: ::OVRTriangleMesh::NegateXJob
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 412
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7524)) CS Name: ::OVRTriangleMesh::NegateXJob
 struct CORDL_TYPE __OVRTriangleMesh__NegateXJob {
 public:
   // Declarations
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
+
+  /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
+  constexpr ::Unity::Jobs::IJobParallelFor* i___Unity__Jobs__IJobParallelFor();
 
   /// @brief Method Execute, addr 0x2715530, size 0x1c, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
@@ -243,7 +252,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRTriangleMesh__NegateXJob, Positio
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9977))}
+// Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7525))
 // CS Name: ::OVRTriangleMesh
 struct CORDL_TYPE OVRTriangleMesh {
@@ -275,8 +284,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRTriangleMesh>"
   constexpr operator ::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRTriangleMesh>*();
 
+  /// @brief Convert to "::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRTriangleMesh>"
+  constexpr ::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRTriangleMesh>* i___GlobalNamespace__IOVRAnchorComponent_1___GlobalNamespace__OVRTriangleMesh_();
+
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::OVRTriangleMesh>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::OVRTriangleMesh>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::OVRTriangleMesh>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::OVRTriangleMesh>* i___System__IEquatable_1___GlobalNamespace__OVRTriangleMesh_();
 
   static inline void setStaticF_Null(::GlobalNamespace::OVRTriangleMesh value);
 
@@ -337,9 +352,8 @@ public:
   inline bool TryGetMesh(::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> positions, ::Unity::Collections::NativeArray_1<int32_t> indices);
 
   /// @brief Method ScheduleGetMeshJob, addr 0x27152dc, size 0x160, virtual false, abstract: false, final false
-  /// @param dependencies: ::Unity::Jobs::JobHandle (default: {})
   inline ::Unity::Jobs::JobHandle ScheduleGetMeshJob(::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> positions, ::Unity::Collections::NativeArray_1<int32_t> indices,
-                                                     ::Unity::Jobs::JobHandle dependencies = {});
+                                                     ::Unity::Jobs::JobHandle dependencies);
 
   // Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: None }]
   constexpr OVRTriangleMesh(uint64_t _Handle_k__BackingField) noexcept;

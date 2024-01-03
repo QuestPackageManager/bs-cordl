@@ -7,49 +7,49 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AbstractTlsServer)
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipherFactory;
+class CertificateRequest;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCredentials;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsServer;
-}
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipher;
+class CertificateStatus;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class Certificate;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCompression;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsPeer;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
 class NewSessionTicket;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsServerContext;
+class ProtocolVersion;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class CertificateRequest;
+class TlsCipherFactory;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCipher;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCompression;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCredentials;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsKeyExchange;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class ProtocolVersion;
+class TlsPeer;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsServerContext;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsServer;
 }
 namespace System::Collections {
 class IDictionary;
 }
-namespace Org::BouncyCastle::Crypto::Tls {
-class CertificateStatus;
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -132,8 +132,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsServer"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsServer*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsServer"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsServer* i___Org__BouncyCastle__Crypto__Tls__TlsServer() noexcept;
+
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsPeer"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsPeer*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsPeer"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsPeer* i___Org__BouncyCastle__Crypto__Tls__TlsPeer() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory*& __get_mCipherFactory();
 

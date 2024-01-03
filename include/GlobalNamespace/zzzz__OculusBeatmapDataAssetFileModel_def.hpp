@@ -14,13 +14,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OculusBeatmapDataAssetFileModel)
 namespace GlobalNamespace {
+struct GetAssetBundleFileResult;
+}
+namespace GlobalNamespace {
+class IBeatmapDataAssetFileModel;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+struct LevelDataAssetDownloadUpdate;
+}
+namespace GlobalNamespace {
+class OculusPlatformAdditionalContentModel;
+}
+namespace GlobalNamespace {
+class __OculusBeatmapDataAssetFileModel__LevelDownloadingData;
+}
+namespace GlobalNamespace {
+struct __OculusBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__14;
+}
+namespace GlobalNamespace {
+struct __OculusBeatmapDataAssetFileModel___GetDownloadAssetBundleFileAsync_d__16;
+}
+namespace GlobalNamespace {
 struct __OculusBeatmapDataAssetFileModel___ReloadAssetDetailsForAllLevelsAsync_d__15;
-}
-namespace System::Threading {
-class SemaphoreSlim;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
 struct __OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForPreviewLevelAsync_d__13;
@@ -29,76 +47,58 @@ namespace GlobalNamespace {
 class __OculusBeatmapDataAssetFileModel____c__DisplayClass13_0;
 }
 namespace GlobalNamespace {
-class IBeatmapDataAssetFileModel;
-}
-namespace GlobalNamespace {
-struct __OculusBeatmapDataAssetFileModel___GetDownloadAssetBundleFileAsync_d__16;
-}
-namespace Oculus::Platform::Models {
-class AssetFileDownloadUpdate;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace Oculus::Platform::Models {
-class AssetDetails;
-}
-namespace GlobalNamespace {
-struct __OculusBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__14;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-struct GetAssetBundleFileResult;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class TaskCompletionSource_1;
-}
-namespace GlobalNamespace {
 class __OculusBeatmapDataAssetFileModel____c__DisplayClass15_0;
-}
-namespace GlobalNamespace {
-struct LevelDataAssetDownloadUpdate;
-}
-namespace GlobalNamespace {
-class OculusPlatformAdditionalContentModel;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace GlobalNamespace {
-class __OculusBeatmapDataAssetFileModel__LevelDownloadingData;
-}
-namespace Oculus::Platform {
-template <typename T> class Message_1;
 }
 namespace GlobalNamespace {
 class __OculusBeatmapDataAssetFileModel____c__DisplayClass16_0;
 }
 namespace Oculus::Platform::Models {
-class AssetFileDeleteResult;
+class AssetDetailsList;
 }
 namespace Oculus::Platform::Models {
-class AssetDetailsList;
+class AssetDetails;
+}
+namespace Oculus::Platform::Models {
+class AssetFileDeleteResult;
 }
 namespace Oculus::Platform::Models {
 class AssetFileDownloadResult;
 }
-namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
+namespace Oculus::Platform::Models {
+class AssetFileDownloadUpdate;
+}
+namespace Oculus::Platform {
+template <typename T> class Message_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System::Runtime::CompilerServices {
+struct TaskAwaiter;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class TaskCompletionSource_1;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Threading {
+class SemaphoreSlim;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -314,14 +314,17 @@ static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 })} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(4531)) CS Name: ::OculusBeatmapDataAssetFileModel::<TryDeleteAssetBundleFileForPreviewLevelAsync>d__13
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4531))
+// CS Name: ::OculusBeatmapDataAssetFileModel::<TryDeleteAssetBundleFileForPreviewLevelAsync>d__13
 struct CORDL_TYPE __OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForPreviewLevelAsync_d__13 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x2365760, size 0x564, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -399,15 +402,18 @@ static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___Tr
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4413)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 882 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3394), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3393)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 882 })} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 882 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 882 }), TypeDefinitionIndex(TypeDefinitionIndex(4413)), TypeDefinitionIndex(TypeDefinitionIndex(3393))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(4532)) CS Name: ::OculusBeatmapDataAssetFileModel::<GetAssetBundleFileForPreviewLevelAsync>d__14
 struct CORDL_TYPE __OculusBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__14 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x2365d38, size 0xa20, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -495,7 +501,7 @@ static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___Ge
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2677))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4533))
 // CS Name: ::OculusBeatmapDataAssetFileModel::<>c__DisplayClass15_0*
 class CORDL_TYPE __OculusBeatmapDataAssetFileModel____c__DisplayClass15_0 : public ::System::Object {
@@ -575,14 +581,17 @@ static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(4534)) CS Name: ::OculusBeatmapDataAssetFileModel::<ReloadAssetDetailsForAllLevelsAsync>d__15
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105
+// }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4534)) CS
+// Name: ::OculusBeatmapDataAssetFileModel::<ReloadAssetDetailsForAllLevelsAsync>d__15
 struct CORDL_TYPE __OculusBeatmapDataAssetFileModel___ReloadAssetDetailsForAllLevelsAsync_d__15 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x2366bb4, size 0x318, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -730,6 +739,9 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+
   /// @brief Method MoveNext, addr 0x2366ff8, size 0x760, virtual true, abstract: false, final true
   inline void MoveNext();
 
@@ -846,6 +858,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IBeatmapDataAssetFileModel"
   constexpr operator ::GlobalNamespace::IBeatmapDataAssetFileModel*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IBeatmapDataAssetFileModel"
+  constexpr ::GlobalNamespace::IBeatmapDataAssetFileModel* i___GlobalNamespace__IBeatmapDataAssetFileModel() noexcept;
 
   constexpr ::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>*& __get_levelDataAssetDownloadUpdateEvent();
 

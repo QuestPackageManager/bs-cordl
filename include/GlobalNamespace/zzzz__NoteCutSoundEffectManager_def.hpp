@@ -10,46 +10,46 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoteCutSoundEffectManager)
 namespace GlobalNamespace {
-class NoteData;
-}
-namespace GlobalNamespace {
-class __NoteCutSoundEffect__Pool;
+class AudioManagerSO;
 }
 namespace GlobalNamespace {
 class AudioTimeSyncController;
 }
 namespace GlobalNamespace {
-template <typename T> class MemoryPoolContainer_1;
-}
-namespace GlobalNamespace {
-struct NoteCutInfo;
-}
-namespace UnityEngine {
-class AudioClip;
+class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
 class INoteCutSoundEffectDidFinishEvent;
 }
 namespace GlobalNamespace {
-class __NoteCutSoundEffectManager__InitData;
+template <typename T> class MemoryPoolContainer_1;
 }
 namespace GlobalNamespace {
 class NoteController;
 }
 namespace GlobalNamespace {
-class SaberManager;
+struct NoteCutInfo;
 }
 namespace GlobalNamespace {
-class AudioManagerSO;
+class NoteCutSoundEffect;
 }
 namespace GlobalNamespace {
-class BeatmapObjectManager;
+class NoteData;
 }
 namespace GlobalNamespace {
 template <typename T> class RandomObjectPicker_1;
 }
 namespace GlobalNamespace {
-class NoteCutSoundEffect;
+class SaberManager;
+}
+namespace GlobalNamespace {
+class __NoteCutSoundEffectManager__InitData;
+}
+namespace GlobalNamespace {
+class __NoteCutSoundEffect__Pool;
+}
+namespace UnityEngine {
+class AudioClip;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -202,6 +202,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::INoteCutSoundEffectDidFinishEvent"
   constexpr operator ::GlobalNamespace::INoteCutSoundEffectDidFinishEvent*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::INoteCutSoundEffectDidFinishEvent"
+  constexpr ::GlobalNamespace::INoteCutSoundEffectDidFinishEvent* i___GlobalNamespace__INoteCutSoundEffectDidFinishEvent() noexcept;
 
   constexpr ::GlobalNamespace::AudioManagerSO*& __get__audioManager();
 

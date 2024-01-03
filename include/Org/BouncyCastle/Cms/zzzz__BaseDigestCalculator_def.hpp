@@ -31,6 +31,9 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::IDigestCalculator"
   constexpr operator ::Org::BouncyCastle::Cms::IDigestCalculator*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Cms::IDigestCalculator"
+  constexpr ::Org::BouncyCastle::Cms::IDigestCalculator* i___Org__BouncyCastle__Cms__IDigestCalculator() noexcept;
+
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_digest();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_digest() const;

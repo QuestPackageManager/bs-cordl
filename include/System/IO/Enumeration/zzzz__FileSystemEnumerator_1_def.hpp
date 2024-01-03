@@ -10,32 +10,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileSystemEnumerator_1)
+namespace GlobalNamespace {
+struct __Interop__ErrorInfo;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System::IO::Enumeration {
-struct FileSystemEntry;
-}
-namespace System {
-class Object;
-}
-namespace System::IO {
-class EnumerationOptions;
 }
 namespace System::Collections::Generic {
 template <typename T> class Queue_1;
 }
-namespace GlobalNamespace {
-struct __Interop__ErrorInfo;
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::IO::Enumeration {
+struct FileSystemEntry;
+}
+namespace System::IO {
+class EnumerationOptions;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
 }
 // Forward declare root types
 namespace System::IO::Enumeration {
@@ -49,7 +49,7 @@ namespace System::IO::Enumeration {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3354)), TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2214))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2214)), TypeDefinitionIndex(TypeDefinitionIndex(3354))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3655))
 // CS Name: ::System.IO.Enumeration::FileSystemEnumerator`1<TResult>*
 class CORDL_TYPE FileSystemEnumerator_1 : public ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject {
@@ -98,11 +98,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TResult>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<TResult>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TResult>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<TResult>* i___System__Collections__Generic__IEnumerator_1_TResult_() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr ::StringW& __get__originalRootDirectory();
 
@@ -179,12 +188,10 @@ public:
   static inline ::System::IO::Enumeration::FileSystemEnumerator_1<TResult>* New_ctor(::StringW directory, ::System::IO::EnumerationOptions* options);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param options: ::System::IO::EnumerationOptions* (default: nullptr)
-  inline void _ctor(::StringW directory, ::System::IO::EnumerationOptions* options = nullptr);
+  inline void _ctor(::StringW directory, ::System::IO::EnumerationOptions* options);
 
   /// @brief Method InternalContinueOnError, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param ignoreNotFound: bool (default: false)
-  inline bool InternalContinueOnError(::GlobalNamespace::__Interop__ErrorInfo info, bool ignoreNotFound = false);
+  inline bool InternalContinueOnError(::GlobalNamespace::__Interop__ErrorInfo info, bool ignoreNotFound);
 
   /// @brief Method IsDirectoryNotFound, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool IsDirectoryNotFound(::GlobalNamespace::__Interop__ErrorInfo info);
@@ -193,8 +200,7 @@ public:
   static inline bool IsAccessError(::GlobalNamespace::__Interop__ErrorInfo info);
 
   /// @brief Method CreateDirectoryHandle, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param ignoreNotFound: bool (default: false)
-  inline void* CreateDirectoryHandle(::StringW path, bool ignoreNotFound = false);
+  inline void* CreateDirectoryHandle(::StringW path, bool ignoreNotFound);
 
   /// @brief Method CloseDirectoryHandle, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CloseDirectoryHandle();

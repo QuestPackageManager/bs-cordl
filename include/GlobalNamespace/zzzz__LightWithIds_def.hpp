@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightWithIds)
 namespace GlobalNamespace {
+class ILightWithId;
+}
+namespace GlobalNamespace {
 class LightWithIdManager;
 }
 namespace GlobalNamespace {
@@ -18,9 +21,6 @@ template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine {
 struct Color;
-}
-namespace GlobalNamespace {
-class ILightWithId;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -62,6 +62,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::ILightWithId"
   constexpr operator ::GlobalNamespace::ILightWithId*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::ILightWithId"
+  constexpr ::GlobalNamespace::ILightWithId* i___GlobalNamespace__ILightWithId() noexcept;
 
   constexpr int32_t& __get__lightId();
 

@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DefaultReferenceResolver)
+namespace Newtonsoft::Json::Serialization {
+class IReferenceResolver;
+}
 namespace Newtonsoft::Json::Utilities {
 template <typename TFirst, typename TSecond> class BidirectionalDictionary_2;
 }
 namespace System {
 class Object;
-}
-namespace Newtonsoft::Json::Serialization {
-class IReferenceResolver;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -36,6 +36,9 @@ public:
 
   /// @brief Convert operator to "::Newtonsoft::Json::Serialization::IReferenceResolver"
   constexpr operator ::Newtonsoft::Json::Serialization::IReferenceResolver*() noexcept;
+
+  /// @brief Convert to "::Newtonsoft::Json::Serialization::IReferenceResolver"
+  constexpr ::Newtonsoft::Json::Serialization::IReferenceResolver* i___Newtonsoft__Json__Serialization__IReferenceResolver() noexcept;
 
   constexpr int32_t& __get__referenceCount();
 

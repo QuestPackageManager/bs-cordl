@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Navigation)
+namespace System {
+template <typename T> class IEquatable_1;
+}
 namespace UnityEngine::UI {
 class Selectable;
 }
 namespace UnityEngine::UI {
 struct __Navigation__Mode;
-}
-namespace System {
-template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -113,6 +113,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UI::Navigation>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UI::Navigation>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UI::Navigation>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UI::Navigation>* i___System__IEquatable_1___UnityEngine__UI__Navigation_();
 
   /// @brief Method get_mode, addr 0x2d7e02c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::__Navigation__Mode get_mode();

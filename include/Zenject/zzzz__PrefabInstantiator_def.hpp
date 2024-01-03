@@ -6,26 +6,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(PrefabInstantiator)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
 namespace System {
 class Action;
 }
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System {
+class Type;
 }
 namespace UnityEngine {
 class GameObject;
 }
-namespace Zenject {
-class InjectContext;
-}
 namespace UnityEngine {
 class Object;
-}
-namespace Zenject {
-class __PrefabInstantiator____c__DisplayClass15_0;
 }
 namespace Zenject {
 class DiContainer;
@@ -37,22 +40,19 @@ namespace Zenject {
 class IPrefabInstantiator;
 }
 namespace Zenject {
-struct TypeValuePair;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace Zenject {
 class IPrefabProvider;
 }
-namespace System {
-class Type;
+namespace Zenject {
+class InjectContext;
 }
 namespace Zenject {
 class InjectTypeInfo;
+}
+namespace Zenject {
+struct TypeValuePair;
+}
+namespace Zenject {
+class __PrefabInstantiator____c__DisplayClass15_0;
 }
 // Forward declare root types
 namespace Zenject {
@@ -219,6 +219,9 @@ public:
 
   /// @brief Convert operator to "::Zenject::IPrefabInstantiator"
   constexpr operator ::Zenject::IPrefabInstantiator*() noexcept;
+
+  /// @brief Convert to "::Zenject::IPrefabInstantiator"
+  constexpr ::Zenject::IPrefabInstantiator* i___Zenject__IPrefabInstantiator() noexcept;
 
   constexpr ::Zenject::IPrefabProvider*& __get__prefabProvider();
 

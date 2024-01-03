@@ -8,38 +8,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimeStampResponseGenerator)
-namespace System::Collections {
-class IList;
-}
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiStatusInfo;
-}
-namespace Org::BouncyCastle::Tsp {
-class __TimeStampResponseGenerator__FailInfo;
-}
-namespace Org::BouncyCastle::Tsp {
-class TimeStampRequest;
-}
-namespace System {
-struct DateTime;
-}
-namespace Org::BouncyCastle::Tsp {
-class TimeStampTokenGenerator;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1EncodableVector;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
 struct PkiStatus;
 }
+namespace Org::BouncyCastle::Asn1 {
+class Asn1EncodableVector;
+}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Tsp {
+class TimeStampRequest;
+}
+namespace Org::BouncyCastle::Tsp {
+class TimeStampResponse;
+}
+namespace Org::BouncyCastle::Tsp {
+class TimeStampTokenGenerator;
+}
+namespace Org::BouncyCastle::Tsp {
+class __TimeStampResponseGenerator__FailInfo;
 }
 namespace Org::BouncyCastle::Utilities::Date {
 class DateTimeObject;
 }
-namespace Org::BouncyCastle::Tsp {
-class TimeStampResponse;
+namespace System::Collections {
+class IList;
+}
+namespace System {
+struct DateTime;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Tsp {
@@ -90,7 +90,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Tsp::__TimeSt
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Tsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(41)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(41))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1768))
 // CS Name: ::Org.BouncyCastle.Tsp::TimeStampResponseGenerator*
 class CORDL_TYPE TimeStampResponseGenerator : public ::System::Object {

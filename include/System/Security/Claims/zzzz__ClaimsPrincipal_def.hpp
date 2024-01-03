@@ -8,26 +8,26 @@ CORDL_MODULE_EXPORT(ClaimsPrincipal)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System {
-template <typename TResult> class Func_1;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace System::Security::Claims {
-class ClaimsIdentity;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System::Security::Claims {
+class ClaimsIdentity;
 }
 namespace System::Security::Principal {
 class IPrincipal;
+}
+namespace System {
+template <typename TResult> class Func_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace System::Security::Claims {
@@ -64,6 +64,9 @@ public:
 
   /// @brief Convert operator to "::System::Security::Principal::IPrincipal"
   constexpr operator ::System::Security::Principal::IPrincipal*() noexcept;
+
+  /// @brief Convert to "::System::Security::Principal::IPrincipal"
+  constexpr ::System::Security::Principal::IPrincipal* i___System__Security__Principal__IPrincipal() noexcept;
 
   constexpr ::StringW& __get_m_version();
 

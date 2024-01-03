@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(SslConfiguration)
 namespace ENet {
 struct ENetSslConfiguration;
 }
-namespace System {
-class IDisposable;
-}
 namespace ENet {
 struct SslMode;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace ENet {
@@ -53,6 +53,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   /// @brief Method get_NativeSslConfiguration, addr 0x21efc74, size 0x10, virtual false, abstract: false, final false
   inline ::ENet::ENetSslConfiguration get_NativeSslConfiguration();

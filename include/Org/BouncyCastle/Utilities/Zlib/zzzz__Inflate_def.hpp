@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Inflate)
 namespace Org::BouncyCastle::Utilities::Zlib {
-class ZStream;
+class InfBlocks;
 }
 namespace Org::BouncyCastle::Utilities::Zlib {
-class InfBlocks;
+class ZStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Zlib {

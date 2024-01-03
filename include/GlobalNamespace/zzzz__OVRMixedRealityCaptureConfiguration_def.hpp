@@ -8,17 +8,8 @@ CORDL_MODULE_EXPORT(OVRMixedRealityCaptureConfiguration)
 namespace GlobalNamespace {
 struct __OVRManager__CameraDevice;
 }
-namespace UnityEngine {
-struct LayerMask;
-}
 namespace GlobalNamespace {
-struct __OVRManager__VirtualGreenScreenType;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace GlobalNamespace {
-struct __OVRManager__MrcActivationMode;
+struct __OVRManager__CompositionMethod;
 }
 namespace GlobalNamespace {
 struct __OVRManager__DepthQuality;
@@ -27,7 +18,16 @@ namespace GlobalNamespace {
 class __OVRManager__InstantiateMrcCameraDelegate;
 }
 namespace GlobalNamespace {
-struct __OVRManager__CompositionMethod;
+struct __OVRManager__MrcActivationMode;
+}
+namespace GlobalNamespace {
+struct __OVRManager__VirtualGreenScreenType;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+struct LayerMask;
 }
 // Forward declare root types
 namespace GlobalNamespace {

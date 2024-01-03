@@ -10,22 +10,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapDataCache)
 namespace GlobalNamespace {
-class PlayerSpecificSettings;
-}
-namespace GlobalNamespace {
-class IReadonlyBeatmapData;
-}
-namespace GlobalNamespace {
-struct __BeatmapDataCache___GetBeatmapData_d__4;
+class EnvironmentInfoSO;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class EnvironmentInfoSO;
+class IReadonlyBeatmapData;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+namespace GlobalNamespace {
+class PlayerSpecificSettings;
+}
+namespace GlobalNamespace {
+struct __BeatmapDataCache___GetBeatmapData_d__4;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
@@ -35,6 +32,9 @@ class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -58,6 +58,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x22eb1dc, size 0x474, virtual true, abstract: false, final true
   inline void MoveNext();

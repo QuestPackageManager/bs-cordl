@@ -1,41 +1,69 @@
 #pragma once
 #include "System/zzzz__ValueTuple_1_def.hpp"
+#include "System/Collections/zzzz__IComparer_def.hpp"
+#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
+#include "System/Collections/zzzz__IStructuralComparable_def.hpp"
+#include "System/Collections/zzzz__IStructuralEquatable_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ITuple_def.hpp"
 #include "System/zzzz__IComparable_1_def.hpp"
 #include "System/zzzz__IComparable_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
-#include "System/Collections/zzzz__IStructuralEquatable_def.hpp"
-#include "System/Collections/zzzz__IStructuralComparable_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__IValueTupleInternal_def.hpp"
-#include "System/Collections/zzzz__IComparer_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ITuple_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 /// @brief Convert operator to "::System::IEquatable_1<::System::ValueTuple_1<T1>>"
 template <typename T1> constexpr System::ValueTuple_1<T1>::operator ::System::IEquatable_1<::System::ValueTuple_1<T1>>*() {
+  return static_cast<::System::IEquatable_1<::System::ValueTuple_1<T1>>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::System::ValueTuple_1<T1>>"
+template <typename T1> constexpr ::System::IEquatable_1<::System::ValueTuple_1<T1>>* System::ValueTuple_1<T1>::i___System__IEquatable_1___System__ValueTuple_1_T1__() {
   return static_cast<::System::IEquatable_1<::System::ValueTuple_1<T1>>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 /// @brief Convert operator to "::System::Collections::IStructuralEquatable"
 template <typename T1> constexpr System::ValueTuple_1<T1>::operator ::System::Collections::IStructuralEquatable*() {
   return static_cast<::System::Collections::IStructuralEquatable*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Collections::IStructuralEquatable"
+template <typename T1> constexpr ::System::Collections::IStructuralEquatable* System::ValueTuple_1<T1>::i___System__Collections__IStructuralEquatable() {
+  return static_cast<::System::Collections::IStructuralEquatable*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::Collections::IStructuralComparable"
 template <typename T1> constexpr System::ValueTuple_1<T1>::operator ::System::Collections::IStructuralComparable*() {
+  return static_cast<::System::Collections::IStructuralComparable*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::Collections::IStructuralComparable"
+template <typename T1> constexpr ::System::Collections::IStructuralComparable* System::ValueTuple_1<T1>::i___System__Collections__IStructuralComparable() {
   return static_cast<::System::Collections::IStructuralComparable*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 /// @brief Convert operator to "::System::IComparable"
 template <typename T1> constexpr System::ValueTuple_1<T1>::operator ::System::IComparable*() {
   return static_cast<::System::IComparable*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::IComparable"
+template <typename T1> constexpr ::System::IComparable* System::ValueTuple_1<T1>::i___System__IComparable() {
+  return static_cast<::System::IComparable*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::IComparable_1<::System::ValueTuple_1<T1>>"
 template <typename T1> constexpr System::ValueTuple_1<T1>::operator ::System::IComparable_1<::System::ValueTuple_1<T1>>*() {
+  return static_cast<::System::IComparable_1<::System::ValueTuple_1<T1>>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::IComparable_1<::System::ValueTuple_1<T1>>"
+template <typename T1> constexpr ::System::IComparable_1<::System::ValueTuple_1<T1>>* System::ValueTuple_1<T1>::i___System__IComparable_1___System__ValueTuple_1_T1__() {
   return static_cast<::System::IComparable_1<::System::ValueTuple_1<T1>>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 /// @brief Convert operator to "::System::IValueTupleInternal"
 template <typename T1> constexpr System::ValueTuple_1<T1>::operator ::System::IValueTupleInternal*() {
   return static_cast<::System::IValueTupleInternal*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::IValueTupleInternal"
+template <typename T1> constexpr ::System::IValueTupleInternal* System::ValueTuple_1<T1>::i___System__IValueTupleInternal() {
+  return static_cast<::System::IValueTupleInternal*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::Runtime::CompilerServices::ITuple"
 template <typename T1> constexpr System::ValueTuple_1<T1>::operator ::System::Runtime::CompilerServices::ITuple*() {
+  return static_cast<::System::Runtime::CompilerServices::ITuple*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::ITuple"
+template <typename T1> constexpr ::System::Runtime::CompilerServices::ITuple* System::ValueTuple_1<T1>::i___System__Runtime__CompilerServices__ITuple() {
   return static_cast<::System::Runtime::CompilerServices::ITuple*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename T1> inline void System::ValueTuple_1<T1>::_ctor(T1 item1) {

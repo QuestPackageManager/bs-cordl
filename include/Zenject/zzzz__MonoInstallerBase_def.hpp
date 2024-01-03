@@ -8,13 +8,13 @@ namespace System {
 class Object;
 }
 namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
 class IInstaller;
 }
 namespace Zenject {
 class InjectTypeInfo;
-}
-namespace Zenject {
-class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -41,6 +41,9 @@ public:
 
   /// @brief Convert operator to "::Zenject::IInstaller"
   constexpr operator ::Zenject::IInstaller*() noexcept;
+
+  /// @brief Convert to "::Zenject::IInstaller"
+  constexpr ::Zenject::IInstaller* i___Zenject__IInstaller() noexcept;
 
   constexpr ::Zenject::DiContainer*& __get__Container_k__BackingField();
 

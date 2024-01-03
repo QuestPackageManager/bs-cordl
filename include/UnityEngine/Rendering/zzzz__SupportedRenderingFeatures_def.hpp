@@ -10,9 +10,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SupportedRenderingFeatures)
-namespace UnityEngine {
-struct LightmapsMode;
-}
 namespace UnityEngine::Rendering {
 struct __SupportedRenderingFeatures__LightmapMixedBakeModes;
 }
@@ -21,6 +18,9 @@ struct __SupportedRenderingFeatures__ReflectionProbeModes;
 }
 namespace UnityEngine {
 struct LightmapBakeType;
+}
+namespace UnityEngine {
+struct LightmapsMode;
 }
 namespace UnityEngine {
 struct MixedLightingMode;
@@ -151,8 +151,8 @@ static_assert(offsetof(::UnityEngine::Rendering::__SupportedRenderingFeatures__L
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10105)), TypeDefinitionIndex(TypeDefinitionIndex(10122)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10361)), TypeDefinitionIndex(TypeDefinitionIndex(10362))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10363)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10122)), TypeDefinitionIndex(TypeDefinitionIndex(10362)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10361)), TypeDefinitionIndex(TypeDefinitionIndex(10105))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10363)) CS Name:
 // ::UnityEngine.Rendering::SupportedRenderingFeatures*
 class CORDL_TYPE SupportedRenderingFeatures : public ::System::Object {
 public:

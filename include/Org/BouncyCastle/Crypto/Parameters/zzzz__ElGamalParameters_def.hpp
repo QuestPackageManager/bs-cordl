@@ -48,6 +48,9 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"
+  constexpr ::Org::BouncyCastle::Crypto::ICipherParameters* i___Org__BouncyCastle__Crypto__ICipherParameters() noexcept;
+
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_p();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_p() const;

@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(JoiningLobbyViewController)
-namespace UnityEngine::UI {
-class Button;
+namespace GlobalNamespace {
+class LoadingControl;
 }
 namespace System {
 class Action;
 }
-namespace GlobalNamespace {
-class LoadingControl;
+namespace UnityEngine::UI {
+class Button;
 }
 // Forward declare root types
 namespace GlobalNamespace {

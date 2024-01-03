@@ -6,8 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SongPackMasksModelSO)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace GlobalNamespace {
+class BeatmapLevelPackCollectionSO;
 }
 namespace GlobalNamespace {
 class SongPackMasksModelItem;
@@ -15,8 +15,8 @@ class SongPackMasksModelItem;
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
-namespace GlobalNamespace {
-class BeatmapLevelPackCollectionSO;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

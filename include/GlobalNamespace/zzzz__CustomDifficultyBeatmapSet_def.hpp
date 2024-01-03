@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(CustomDifficultyBeatmapSet)
 namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
 class CustomDifficultyBeatmap;
 }
 namespace GlobalNamespace {
@@ -16,9 +19,6 @@ class IDifficultyBeatmap;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -49,6 +49,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IDifficultyBeatmapSet"
   constexpr operator ::GlobalNamespace::IDifficultyBeatmapSet*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IDifficultyBeatmapSet"
+  constexpr ::GlobalNamespace::IDifficultyBeatmapSet* i___GlobalNamespace__IDifficultyBeatmapSet() noexcept;
 
   constexpr ::GlobalNamespace::BeatmapCharacteristicSO*& __get__beatmapCharacteristic();
 

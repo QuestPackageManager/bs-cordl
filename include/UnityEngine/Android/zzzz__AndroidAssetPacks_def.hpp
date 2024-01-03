@@ -8,35 +8,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AndroidAssetPacks)
-namespace UnityEngine::Android {
-class __AndroidAssetPacks__AssetPackManagerStatusQueryCallback;
-}
-namespace UnityEngine::Android {
-class __AndroidAssetPacks__AssetPackManagerMobileDataConfirmationCallback;
-}
-namespace UnityEngine::Android {
-class __AndroidAssetPacks__AssetPackManagerDownloadStatusCallback;
-}
-namespace UnityEngine {
-class AndroidJavaObject;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 template <typename T> class Action_1;
-}
-namespace UnityEngine::Android {
-class AndroidAssetPackInfo;
-}
-namespace UnityEngine::Android {
-class AndroidAssetPackUseMobileDataRequestResult;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace UnityEngine::Android {
+class AndroidAssetPackInfo;
+}
+namespace UnityEngine::Android {
 class AndroidAssetPackState;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::Android {
+class AndroidAssetPackUseMobileDataRequestResult;
+}
+namespace UnityEngine::Android {
+class __AndroidAssetPacks__AssetPackManagerDownloadStatusCallback;
+}
+namespace UnityEngine::Android {
+class __AndroidAssetPacks__AssetPackManagerMobileDataConfirmationCallback;
+}
+namespace UnityEngine::Android {
+class __AndroidAssetPacks__AssetPackManagerStatusQueryCallback;
+}
+namespace UnityEngine {
+class AndroidJavaObject;
 }
 // Forward declare root types
 namespace UnityEngine::Android {

@@ -6,8 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SignatureTypeExtensions)
-namespace System {
-class Type;
+namespace System::Reflection {
+class MethodInfo;
 }
 namespace System::Reflection {
 class ParameterInfo;
@@ -15,8 +15,8 @@ class ParameterInfo;
 namespace System::Reflection {
 class SignatureType;
 }
-namespace System::Reflection {
-class MethodInfo;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Reflection {

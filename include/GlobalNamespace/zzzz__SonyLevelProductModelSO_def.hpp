@@ -10,13 +10,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SonyLevelProductModelSO)
 namespace GlobalNamespace {
+class __SonyLevelProductModelSO__LevelPackProductData;
+}
+namespace GlobalNamespace {
 class __SonyLevelProductModelSO__LevelPackRedirectionData;
 }
 namespace GlobalNamespace {
 class __SonyLevelProductModelSO__LevelProductData;
-}
-namespace GlobalNamespace {
-class __SonyLevelProductModelSO__LevelPackProductData;
 }
 namespace System {
 template <typename T> class IComparable_1;
@@ -170,6 +170,10 @@ public:
 
   /// @brief Convert operator to "::System::IComparable_1<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>"
   constexpr operator ::System::IComparable_1<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>*() noexcept;
+
+  /// @brief Convert to "::System::IComparable_1<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>"
+  constexpr ::System::IComparable_1<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>*
+  i___System__IComparable_1___GlobalNamespace____SonyLevelProductModelSO__LevelPackProductData__() noexcept;
 
   constexpr ::StringW& __get__productLabel();
 

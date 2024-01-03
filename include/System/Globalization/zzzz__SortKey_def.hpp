@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SortKey)
-namespace System {
-class Object;
-}
 namespace System::Globalization {
 struct CompareOptions;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::Globalization::SortKey);
 // SizeInfo { instance_size: 40, native_size: 24, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3659)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3659))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3710))
 // CS Name: ::System.Globalization::SortKey*
 class CORDL_TYPE SortKey : public ::System::Object {

@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(EmptyEnumerable)
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Collections {
@@ -31,6 +31,9 @@ public:
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   static inline void setStaticF_Instance(::System::Collections::IEnumerable* value);
 

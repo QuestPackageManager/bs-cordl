@@ -6,23 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlListConverter)
-namespace System::Xml::Schema {
-class XmlValueConverter;
-}
-namespace System::Collections {
-class IList;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System {
-class Object;
-}
-namespace System::Xml {
-class IXmlNamespaceResolver;
+namespace System::Collections {
+class IList;
 }
 namespace System::Xml::Schema {
 class XmlBaseConverter;
@@ -30,8 +21,17 @@ class XmlBaseConverter;
 namespace System::Xml::Schema {
 class XmlSchemaType;
 }
+namespace System::Xml::Schema {
+class XmlValueConverter;
+}
+namespace System::Xml {
+class IXmlNamespaceResolver;
+}
 namespace System {
 class Exception;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class Type;

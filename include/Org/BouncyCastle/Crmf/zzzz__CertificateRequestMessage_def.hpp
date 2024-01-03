@@ -10,25 +10,25 @@ namespace Org::BouncyCastle::Asn1::Crmf {
 class AttributeTypeAndValue;
 }
 namespace Org::BouncyCastle::Asn1::Crmf {
-class Controls;
-}
-namespace Org::BouncyCastle::Asn1::Crmf {
 class CertReqMsg;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Asn1::Crmf {
 class CertTemplate;
 }
 namespace Org::BouncyCastle::Asn1::Crmf {
+class Controls;
+}
+namespace Org::BouncyCastle::Asn1::Crmf {
 class PopoSigningKey;
 }
-namespace Org::BouncyCastle::Crypto {
-class IVerifierFactoryProvider;
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Crmf {
 class IControl;
+}
+namespace Org::BouncyCastle::Crypto {
+class IVerifierFactoryProvider;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {

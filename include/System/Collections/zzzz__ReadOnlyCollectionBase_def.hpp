@@ -6,22 +6,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReadOnlyCollectionBase)
 namespace System::Collections {
-class IEnumerable;
+class ArrayList;
 }
 namespace System::Collections {
 class ICollection;
 }
-namespace System {
-class Object;
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class Array;
 }
-namespace System::Collections {
-class ArrayList;
-}
-namespace System::Collections {
-class IEnumerator;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Collections {
@@ -53,8 +53,14 @@ public:
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
 
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::System::Collections::ArrayList*& __get__list();
 

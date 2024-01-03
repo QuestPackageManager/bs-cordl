@@ -9,16 +9,16 @@ namespace HMUI {
 class HoverTextController;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+class IEventSystemHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerEnterHandler;
 }
 namespace UnityEngine::EventSystems {
 class IPointerExitHandler;
 }
 namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerEnterHandler;
+class PointerEventData;
 }
 // Forward declare root types
 namespace HMUI {
@@ -47,11 +47,20 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerEnterHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerEnterHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerEnterHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerEnterHandler* i___UnityEngine__EventSystems__IPointerEnterHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerExitHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerExitHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerExitHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerExitHandler* i___UnityEngine__EventSystems__IPointerExitHandler() noexcept;
 
   constexpr ::HMUI::HoverTextController*& __get__hoverTextController();
 

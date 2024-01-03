@@ -3,8 +3,8 @@
 #include "Org/BouncyCastle/Crypto/Prng/zzzz__CryptoApiEntropySourceProvider_def.hpp"
 #include "Org/BouncyCastle/Crypto/Prng/zzzz__CryptoApiEntropySourceProvider_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IEntropySourceProvider_def.hpp"
-#include "System/Security/Cryptography/zzzz__RandomNumberGenerator_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IEntropySource_def.hpp"
+#include "System/Security/Cryptography/zzzz__RandomNumberGenerator_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Prng::__CryptoApiEntropySourceProvider__CryptoApiEntropySource._ctor
 template <>
 
@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0xf41d68;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Prng::__CryptoApiEntropySourceProvider__CryptoApiEntropySource*>::get(), ".ctor",
         std::vector<Il2CppClass*>{},
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0xf41da8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Prng::__CryptoApiEntropySourceProvider__CryptoApiEntropySource*>::get(),
                                     "Org.BouncyCastle.Crypto.IEntropySource.get_IsPredictionResistant", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0xf41db0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Prng::__CryptoApiEntropySourceProvider__CryptoApiEntropySource*>::get(),
                                     "Org.BouncyCastle.Crypto.IEntropySource.GetEntropy", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -61,7 +61,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0xf41e38;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Prng::__CryptoApiEntropySourceProvider__CryptoApiEntropySource*>::get(),
                                     "Org.BouncyCastle.Crypto.IEntropySource.get_EntropySize", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -70,6 +70,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IEntropySource"
 constexpr Org::BouncyCastle::Crypto::Prng::__CryptoApiEntropySourceProvider__CryptoApiEntropySource::operator ::Org::BouncyCastle::Crypto::IEntropySource*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::IEntropySource*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Crypto::IEntropySource"
+constexpr ::Org::BouncyCastle::Crypto::IEntropySource*
+Org::BouncyCastle::Crypto::Prng::__CryptoApiEntropySourceProvider__CryptoApiEntropySource::i___Org__BouncyCastle__Crypto__IEntropySource() noexcept {
   return static_cast<::Org::BouncyCastle::Crypto::IEntropySource*>(static_cast<void*>(this));
 }
 constexpr ::System::Security::Cryptography::RandomNumberGenerator*& Org::BouncyCastle::Crypto::Prng::__CryptoApiEntropySourceProvider__CryptoApiEntropySource::__get_mRng() {
@@ -150,7 +155,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0xf41c40;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Prng::CryptoApiEntropySourceProvider*>::get(), ".ctor",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -165,7 +170,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0xf41c64;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Prng::CryptoApiEntropySourceProvider*>::get(), ".ctor", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Cryptography::RandomNumberGenerator*>::get(),
@@ -181,7 +186,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0xf41ce8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Prng::CryptoApiEntropySourceProvider*>::get(), "Get",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
@@ -190,6 +195,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IEntropySourceProvider"
 constexpr Org::BouncyCastle::Crypto::Prng::CryptoApiEntropySourceProvider::operator ::Org::BouncyCastle::Crypto::IEntropySourceProvider*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::IEntropySourceProvider*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Crypto::IEntropySourceProvider"
+constexpr ::Org::BouncyCastle::Crypto::IEntropySourceProvider* Org::BouncyCastle::Crypto::Prng::CryptoApiEntropySourceProvider::i___Org__BouncyCastle__Crypto__IEntropySourceProvider() noexcept {
   return static_cast<::Org::BouncyCastle::Crypto::IEntropySourceProvider*>(static_cast<void*>(this));
 }
 constexpr ::System::Security::Cryptography::RandomNumberGenerator*& Org::BouncyCastle::Crypto::Prng::CryptoApiEntropySourceProvider::__get_mRng() {

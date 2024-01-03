@@ -10,14 +10,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(JsonTextReader)
-namespace System {
-template <typename T> struct Nullable_1;
+namespace Newtonsoft::Json::Utilities {
+class PropertyNameTable;
 }
-namespace System {
-class Object;
+namespace Newtonsoft::Json {
+template <typename T> class IArrayPool_1;
+}
+namespace Newtonsoft::Json {
+class IJsonLineInfo;
 }
 namespace Newtonsoft::Json {
 class JsonReaderException;
+}
+namespace Newtonsoft::Json {
+struct ReadType;
+}
+namespace System::IO {
+class TextReader;
 }
 namespace System {
 struct DateTimeOffset;
@@ -25,23 +34,14 @@ struct DateTimeOffset;
 namespace System {
 struct DateTime;
 }
-namespace Newtonsoft::Json {
-struct ReadType;
-}
-namespace Newtonsoft::Json {
-class IJsonLineInfo;
-}
-namespace System::IO {
-class TextReader;
-}
-namespace Newtonsoft::Json {
-template <typename T> class IArrayPool_1;
-}
 namespace System {
 struct Decimal;
 }
-namespace Newtonsoft::Json::Utilities {
-class PropertyNameTable;
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {
@@ -53,7 +53,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonTextReader);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11866)), TypeDefinitionIndex(TypeDefinitionIndex(11833)), TypeDefinitionIndex(TypeDefinitionIndex(11890))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11833)), TypeDefinitionIndex(TypeDefinitionIndex(11890)), TypeDefinitionIndex(TypeDefinitionIndex(11866))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11824))
 // CS Name: ::Newtonsoft.Json::JsonTextReader*
 class CORDL_TYPE JsonTextReader : public ::Newtonsoft::Json::JsonReader {
@@ -100,6 +100,9 @@ public:
 
   /// @brief Convert operator to "::Newtonsoft::Json::IJsonLineInfo"
   constexpr operator ::Newtonsoft::Json::IJsonLineInfo*() noexcept;
+
+  /// @brief Convert to "::Newtonsoft::Json::IJsonLineInfo"
+  constexpr ::Newtonsoft::Json::IJsonLineInfo* i___Newtonsoft__Json__IJsonLineInfo() noexcept;
 
   constexpr ::System::IO::TextReader*& __get__reader();
 

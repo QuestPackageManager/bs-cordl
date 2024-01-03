@@ -7,29 +7,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ZenUtilInternal)
-namespace Zenject {
-class SceneContext;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
-namespace Zenject::Internal {
-class __ZenUtilInternal___GetAllSceneContexts_d__3;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class Delegate;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace Zenject::Internal {
-class __ZenUtilInternal____c;
-}
-namespace Zenject::Internal {
-class __ZenUtilInternal____c__DisplayClass10_0;
-}
 namespace System {
 class Type;
-}
-namespace System {
-class Delegate;
 }
 namespace UnityEngine::SceneManagement {
 struct Scene;
@@ -37,29 +43,23 @@ struct Scene;
 namespace UnityEngine {
 class GameObject;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace UnityEngine {
 class MonoBehaviour;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace Zenject::Internal {
+class __ZenUtilInternal___GetAllSceneContexts_d__3;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace Zenject::Internal {
+class __ZenUtilInternal____c;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-class IDisposable;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace Zenject::Internal {
+class __ZenUtilInternal____c__DisplayClass10_0;
 }
 namespace Zenject {
 class InjectTypeInfo;
+}
+namespace Zenject {
+class SceneContext;
 }
 // Forward declare root types
 namespace Zenject::Internal {
@@ -177,17 +177,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::Zenject::SceneContext*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::Zenject::SceneContext*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::Zenject::SceneContext*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::Zenject::SceneContext*>* i___System__Collections__Generic__IEnumerable_1___Zenject__SceneContext__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::Zenject::SceneContext*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::Zenject::SceneContext*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::Zenject::SceneContext*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::Zenject::SceneContext*>* i___System__Collections__Generic__IEnumerator_1___Zenject__SceneContext__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

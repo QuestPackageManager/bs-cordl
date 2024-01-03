@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(NullAllowedIf)
 namespace GlobalNamespace {
+struct ComparisonOperation;
+}
+namespace GlobalNamespace {
 struct __NullAllowed__Context;
 }
 namespace System {
 class Object;
-}
-namespace GlobalNamespace {
-struct ComparisonOperation;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::GlobalNamespace::NullAllowedIf);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16251)), TypeDefinitionIndex(TypeDefinitionIndex(16252)), TypeDefinitionIndex(TypeDefinitionIndex(16247))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16252)), TypeDefinitionIndex(TypeDefinitionIndex(16247))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16253))
 // CS Name: ::NullAllowedIf*
 class CORDL_TYPE NullAllowedIf : public ::GlobalNamespace::NullAllowed {
@@ -61,16 +61,13 @@ public:
   static inline ::GlobalNamespace::NullAllowedIf* New_ctor(::StringW propertyName, ::System::Object* equalsTo, ::GlobalNamespace::__NullAllowed__Context context);
 
   /// @brief Method .ctor, addr 0x21010fc, size 0x40, virtual false, abstract: false, final false
-  /// @param context: ::GlobalNamespace::__NullAllowed__Context (default: static_cast<int32_t>(0x0))
-  inline void _ctor(::StringW propertyName, ::System::Object* equalsTo, ::GlobalNamespace::__NullAllowed__Context context = static_cast<int32_t>(0x0));
+  inline void _ctor(::StringW propertyName, ::System::Object* equalsTo, ::GlobalNamespace::__NullAllowed__Context context);
 
   static inline ::GlobalNamespace::NullAllowedIf* New_ctor(::StringW propertyName, ::GlobalNamespace::ComparisonOperation comparisonOperation, ::System::Object* valueToCompare,
                                                            ::GlobalNamespace::__NullAllowed__Context context);
 
   /// @brief Method .ctor, addr 0x210113c, size 0x44, virtual false, abstract: false, final false
-  /// @param context: ::GlobalNamespace::__NullAllowed__Context (default: static_cast<int32_t>(0x0))
-  inline void _ctor(::StringW propertyName, ::GlobalNamespace::ComparisonOperation comparisonOperation, ::System::Object* valueToCompare,
-                    ::GlobalNamespace::__NullAllowed__Context context = static_cast<int32_t>(0x0));
+  inline void _ctor(::StringW propertyName, ::GlobalNamespace::ComparisonOperation comparisonOperation, ::System::Object* valueToCompare, ::GlobalNamespace::__NullAllowed__Context context);
 
   /// @brief Method IsNullAllowedFor, addr 0x2101180, size 0x108, virtual false, abstract: false, final false
   inline bool IsNullAllowedFor(::System::Object* value, ::GlobalNamespace::__NullAllowed__Context context);

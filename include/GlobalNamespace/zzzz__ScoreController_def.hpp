@@ -8,58 +8,58 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScoreController)
 namespace GlobalNamespace {
-class GameplayModifiersModelSO;
-}
-namespace GlobalNamespace {
-class __MissScoringElement__Pool;
-}
-namespace GlobalNamespace {
-class ScoreMultiplierCounter;
-}
-namespace GlobalNamespace {
 class AudioTimeSyncController;
 }
 namespace GlobalNamespace {
-class __BadCutScoringElement__Pool;
-}
-namespace GlobalNamespace {
-class PlayerHeadAndObstacleInteraction;
+class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
 class GameplayModifierParamsSO;
 }
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace GlobalNamespace {
-class __GoodCutScoringElement__Pool;
+class GameplayModifiersModelSO;
 }
 namespace GlobalNamespace {
 class GameplayModifiers;
 }
 namespace GlobalNamespace {
-class ScoringElement;
+class IGameEnergyCounter;
 }
 namespace GlobalNamespace {
 class IScoreController;
 }
 namespace GlobalNamespace {
+class NoteController;
+}
+namespace GlobalNamespace {
 struct NoteCutInfo;
+}
+namespace GlobalNamespace {
+class PlayerHeadAndObstacleInteraction;
+}
+namespace GlobalNamespace {
+class ScoreMultiplierCounter;
+}
+namespace GlobalNamespace {
+class ScoringElement;
+}
+namespace GlobalNamespace {
+class __BadCutScoringElement__Pool;
+}
+namespace GlobalNamespace {
+class __GoodCutScoringElement__Pool;
+}
+namespace GlobalNamespace {
+class __MissScoringElement__Pool;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 template <typename T> class Action_1;
 }
-namespace GlobalNamespace {
-class NoteController;
-}
-namespace GlobalNamespace {
-class IGameEnergyCounter;
-}
-namespace GlobalNamespace {
-class BeatmapObjectManager;
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -167,6 +167,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IScoreController"
   constexpr operator ::GlobalNamespace::IScoreController*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IScoreController"
+  constexpr ::GlobalNamespace::IScoreController* i___GlobalNamespace__IScoreController() noexcept;
 
   constexpr ::GlobalNamespace::GameplayModifiersModelSO*& __get__gameplayModifiersModel();
 

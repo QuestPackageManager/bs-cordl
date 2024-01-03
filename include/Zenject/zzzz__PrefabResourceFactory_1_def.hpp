@@ -6,8 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PrefabResourceFactory_1)
-namespace Zenject {
-class IFactory;
+namespace System {
+class Object;
 }
 namespace Zenject {
 class DiContainer;
@@ -16,10 +16,10 @@ namespace Zenject {
 template <typename TParam1, typename TValue> class IFactory_2;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class IFactory;
 }
-namespace System {
-class Object;
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -47,8 +47,14 @@ public:
   /// @brief Convert operator to "::Zenject::IFactory_2<::StringW,T>"
   constexpr operator ::Zenject::IFactory_2<::StringW, T>*() noexcept;
 
+  /// @brief Convert to "::Zenject::IFactory_2<::StringW,T>"
+  constexpr ::Zenject::IFactory_2<::StringW, T>* i___Zenject__IFactory_2___StringW_T_() noexcept;
+
   /// @brief Convert operator to "::Zenject::IFactory"
   constexpr operator ::Zenject::IFactory*() noexcept;
+
+  /// @brief Convert to "::Zenject::IFactory"
+  constexpr ::Zenject::IFactory* i___Zenject__IFactory() noexcept;
 
   constexpr ::Zenject::DiContainer*& __get__container();
 

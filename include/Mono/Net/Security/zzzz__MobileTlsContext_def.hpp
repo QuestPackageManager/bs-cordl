@@ -8,35 +8,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MobileTlsContext)
-namespace System::Security::Cryptography::X509Certificates {
-class X509Chain;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateCollection;
+namespace Mono::Net::Security {
+class ChainValidationHelper;
 }
 namespace Mono::Net::Security {
 class MobileAuthenticatedStream;
 }
-namespace System {
-template <typename T1, typename T2> struct ValueTuple_2;
-}
 namespace Mono::Net::Security {
 class MonoSslAuthenticationOptions;
 }
-namespace Mono::Net::Security {
-class ChainValidationHelper;
+namespace Mono::Security::Interface {
+class MonoTlsSettings;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate2;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509CertificateCollection;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
 }
-namespace Mono::Security::Interface {
-class MonoTlsSettings;
+namespace System::Security::Cryptography::X509Certificates {
+class X509Chain;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+template <typename T1, typename T2> struct ValueTuple_2;
 }
 // Forward declare root types
 namespace Mono::Net::Security {
@@ -110,6 +110,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::Mono::Net::Security::ChainValidationHelper*& __get_certificateValidator();
 

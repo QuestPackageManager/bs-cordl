@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UxmlEnumeration)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
 class UxmlTypeRestriction;

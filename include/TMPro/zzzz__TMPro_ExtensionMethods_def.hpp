@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMPro_ExtensionMethods)
-namespace UnityEngine {
-struct Color32;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine {
+struct Color32;
 }
 namespace UnityEngine {
 struct Color;

@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Resources)
-namespace UnityEngine {
-class Object;
-}
-namespace UnityEngine {
-class ResourceRequest;
-}
 namespace System {
 class Type;
 }
 namespace UnityEngine {
 class AsyncOperation;
+}
+namespace UnityEngine {
+class Object;
+}
+namespace UnityEngine {
+class ResourceRequest;
 }
 // Forward declare root types
 namespace UnityEngine {

@@ -1,13 +1,22 @@
 #pragma once
 #include "Zenject/zzzz__IMemoryPool_3_def.hpp"
-#include "Zenject/zzzz__IMemoryPool_def.hpp"
 #include "Zenject/zzzz__IDespawnableMemoryPool_1_def.hpp"
+#include "Zenject/zzzz__IMemoryPool_def.hpp"
 /// @brief Convert operator to "::Zenject::IDespawnableMemoryPool_1<TValue>"
 template <typename TParam1, typename TParam2, typename TValue> constexpr Zenject::IMemoryPool_3<TParam1, TParam2, TValue>::operator ::Zenject::IDespawnableMemoryPool_1<TValue>*() noexcept {
   return static_cast<::Zenject::IDespawnableMemoryPool_1<TValue>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::Zenject::IDespawnableMemoryPool_1<TValue>"
+template <typename TParam1, typename TParam2, typename TValue>
+constexpr ::Zenject::IDespawnableMemoryPool_1<TValue>* Zenject::IMemoryPool_3<TParam1, TParam2, TValue>::i___Zenject__IDespawnableMemoryPool_1_TValue_() noexcept {
+  return static_cast<::Zenject::IDespawnableMemoryPool_1<TValue>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::Zenject::IMemoryPool"
 template <typename TParam1, typename TParam2, typename TValue> constexpr Zenject::IMemoryPool_3<TParam1, TParam2, TValue>::operator ::Zenject::IMemoryPool*() noexcept {
+  return static_cast<::Zenject::IMemoryPool*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::IMemoryPool"
+template <typename TParam1, typename TParam2, typename TValue> constexpr ::Zenject::IMemoryPool* Zenject::IMemoryPool_3<TParam1, TParam2, TValue>::i___Zenject__IMemoryPool() noexcept {
   return static_cast<::Zenject::IMemoryPool*>(static_cast<void*>(this));
 }
 template <typename TParam1, typename TParam2, typename TValue> inline TValue Zenject::IMemoryPool_3<TParam1, TParam2, TValue>::Spawn(TParam1 param1, TParam2 param2) {

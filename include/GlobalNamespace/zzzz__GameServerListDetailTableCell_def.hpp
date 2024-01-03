@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "HMUI/zzzz__TableCell_def.hpp"
 CORDL_MODULE_EXPORT(GameServerListDetailTableCell)
-namespace UnityEngine::UI {
-class Button;
+namespace HMUI {
+class ButtonBinder;
 }
 namespace System {
 class Action;
 }
-namespace HMUI {
-class ButtonBinder;
+namespace UnityEngine::UI {
+class Button;
 }
 // Forward declare root types
 namespace GlobalNamespace {

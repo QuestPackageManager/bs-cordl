@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(X931Rng)
 namespace Org::BouncyCastle::Crypto {
-class IEntropySource;
+class IBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
+class IEntropySource;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Prng {

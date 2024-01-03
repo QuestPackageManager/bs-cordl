@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(TaskAwaiter_1)
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
 namespace System::Runtime::CompilerServices {
 class ICriticalNotifyCompletion;
 }
 namespace System::Runtime::CompilerServices {
 class INotifyCompletion;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace System {
 class Action;
@@ -39,8 +39,14 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*();
 
+  /// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
+  constexpr ::System::Runtime::CompilerServices::ICriticalNotifyCompletion* i___System__Runtime__CompilerServices__ICriticalNotifyCompletion();
+
   /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::INotifyCompletion"
+  constexpr ::System::Runtime::CompilerServices::INotifyCompletion* i___System__Runtime__CompilerServices__INotifyCompletion();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Task_1<TResult>* task);

@@ -10,29 +10,29 @@ CORDL_MODULE_EXPORT(SignalReceiver)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace UnityEngine::Playables {
-class INotificationReceiver;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 class Object;
-}
-namespace UnityEngine::Timeline {
-class SignalAsset;
 }
 namespace UnityEngine::Events {
 class UnityEvent;
 }
 namespace UnityEngine::Playables {
-class INotification;
+class INotificationReceiver;
 }
-namespace UnityEngine::Timeline {
-class __SignalReceiver__EventKeyValue;
+namespace UnityEngine::Playables {
+class INotification;
 }
 namespace UnityEngine::Playables {
 struct Playable;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::Timeline {
+class SignalAsset;
+}
+namespace UnityEngine::Timeline {
+class __SignalReceiver__EventKeyValue;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -146,6 +146,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::Playables::INotificationReceiver"
   constexpr operator ::UnityEngine::Playables::INotificationReceiver*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::Playables::INotificationReceiver"
+  constexpr ::UnityEngine::Playables::INotificationReceiver* i___UnityEngine__Playables__INotificationReceiver() noexcept;
 
   constexpr ::UnityEngine::Timeline::__SignalReceiver__EventKeyValue*& __get_m_Events();
 

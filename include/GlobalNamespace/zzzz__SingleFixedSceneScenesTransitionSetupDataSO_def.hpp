@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_def.hpp"
 CORDL_MODULE_EXPORT(SingleFixedSceneScenesTransitionSetupDataSO)
 namespace GlobalNamespace {
-class SceneSetupData;
+class SceneInfo;
 }
 namespace GlobalNamespace {
-class SceneInfo;
+class SceneSetupData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

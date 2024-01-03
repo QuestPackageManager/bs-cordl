@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Rect)
 namespace System {
-class IFormatProvider;
+template <typename T> class IEquatable_1;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace System {
+class IFormatProvider;
 }
 namespace System {
 class IFormattable;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -70,8 +70,14 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rect>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rect>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rect>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Rect>* i___System__IEquatable_1___UnityEngine__Rect_();
+
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
+
+  /// @brief Convert to "::System::IFormattable"
+  constexpr ::System::IFormattable* i___System__IFormattable();
 
   /// @brief Method .ctor, addr 0x2cca6f0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t x, float_t y, float_t width, float_t height);

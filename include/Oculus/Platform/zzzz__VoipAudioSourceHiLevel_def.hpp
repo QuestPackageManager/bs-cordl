@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(VoipAudioSourceHiLevel)
 namespace Oculus::Platform {
 class IVoipPCMSource;
 }
-namespace UnityEngine {
-class AudioSource;
-}
 namespace Oculus::Platform {
 struct VoipSampleRate;
 }
 namespace Oculus::Platform {
 class __VoipAudioSourceHiLevel__FilterReadDelegate;
+}
+namespace UnityEngine {
+class AudioSource;
 }
 // Forward declare root types
 namespace Oculus::Platform {

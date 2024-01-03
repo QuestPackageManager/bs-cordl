@@ -11,14 +11,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimeNotificationBehaviour)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T> class Comparison_1;
+}
 namespace UnityEngine::Playables {
 struct DirectorWrapMode;
+}
+namespace UnityEngine::Playables {
+struct FrameData;
 }
 namespace UnityEngine::Playables {
 class INotification;
 }
 namespace UnityEngine::Playables {
-struct FrameData;
+struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
 struct PlayableOutput;
@@ -30,22 +39,13 @@ namespace UnityEngine::Playables {
 template <typename T> struct ScriptPlayable_1;
 }
 namespace UnityEngine::Timeline {
-struct __TimeNotificationBehaviour__NotificationEntry;
+struct NotificationFlags;
 }
-namespace UnityEngine::Playables {
-struct PlayableGraph;
+namespace UnityEngine::Timeline {
+struct __TimeNotificationBehaviour__NotificationEntry;
 }
 namespace UnityEngine::Timeline {
 class __TimeNotificationBehaviour____c;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-template <typename T> class Comparison_1;
-}
-namespace UnityEngine::Timeline {
-struct NotificationFlags;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -181,7 +181,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::__TimeNot
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10428)), TypeDefinitionIndex(TypeDefinitionIndex(10425)), TypeDefinitionIndex(TypeDefinitionIndex(13906))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10425)), TypeDefinitionIndex(TypeDefinitionIndex(10428))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13912))
 // CS Name: ::UnityEngine.Timeline::TimeNotificationBehaviour*
 class CORDL_TYPE TimeNotificationBehaviour : public ::UnityEngine::Playables::PlayableBehaviour {
@@ -238,8 +238,7 @@ public:
                                                                                                                        ::UnityEngine::Playables::DirectorWrapMode loopMode);
 
   /// @brief Method AddNotification, addr 0x2c6d7b4, size 0xf8, virtual false, abstract: false, final false
-  /// @param flags: ::UnityEngine::Timeline::NotificationFlags (default: static_cast<int16_t>(0x2))
-  inline void AddNotification(double_t time, ::UnityEngine::Playables::INotification* payload, ::UnityEngine::Timeline::NotificationFlags flags = static_cast<int16_t>(0x2));
+  inline void AddNotification(double_t time, ::UnityEngine::Playables::INotification* payload, ::UnityEngine::Timeline::NotificationFlags flags);
 
   /// @brief Method OnGraphStart, addr 0x2c6d8ac, size 0x1c4, virtual true, abstract: false, final false
   inline void OnGraphStart(::UnityEngine::Playables::Playable playable);

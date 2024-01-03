@@ -10,29 +10,29 @@ CORDL_MODULE_EXPORT(FastPriorityQueue_1)
 namespace Priority_Queue {
 template <typename TItem, typename TPriority> class IFixedSizePriorityQueue_2;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
-class IEnumerable;
+namespace Priority_Queue {
+template <typename TItem, typename TPriority> class IPriorityQueue_2;
 }
 namespace Priority_Queue {
 template <typename T> class __FastPriorityQueue_1___GetEnumerator_d__22;
 }
-namespace Priority_Queue {
-template <typename TItem, typename TPriority> class IPriorityQueue_2;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Priority_Queue {
@@ -75,11 +75,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<T>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<T>* i___System__Collections__Generic__IEnumerator_1_T_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -184,14 +193,26 @@ public:
   /// @brief Convert operator to "::Priority_Queue::IFixedSizePriorityQueue_2<T,float_t>"
   constexpr operator ::Priority_Queue::IFixedSizePriorityQueue_2<T, float_t>*() noexcept;
 
+  /// @brief Convert to "::Priority_Queue::IFixedSizePriorityQueue_2<T,float_t>"
+  constexpr ::Priority_Queue::IFixedSizePriorityQueue_2<T, float_t>* i___Priority_Queue__IFixedSizePriorityQueue_2_T_float_t_() noexcept;
+
   /// @brief Convert operator to "::Priority_Queue::IPriorityQueue_2<T,float_t>"
   constexpr operator ::Priority_Queue::IPriorityQueue_2<T, float_t>*() noexcept;
+
+  /// @brief Convert to "::Priority_Queue::IPriorityQueue_2<T,float_t>"
+  constexpr ::Priority_Queue::IPriorityQueue_2<T, float_t>* i___Priority_Queue__IPriorityQueue_2_T_float_t_() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>* i___System__Collections__Generic__IEnumerable_1_T_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr int32_t& __get__numNodes();
 

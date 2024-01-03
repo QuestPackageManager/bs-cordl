@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MockBeatmapProvider)
 namespace GlobalNamespace {
-class IServerBeatmapProvider;
-}
-namespace GlobalNamespace {
 class BeatmapIdentifierNetSerializable;
 }
 namespace GlobalNamespace {
-struct SongPackMask;
+struct BeatmapLevelSelectionMask;
 }
 namespace GlobalNamespace {
-struct BeatmapLevelSelectionMask;
+class IServerBeatmapProvider;
+}
+namespace GlobalNamespace {
+struct SongPackMask;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -39,6 +39,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::GlobalNamespace::IServerBeatmapProvider"
   constexpr operator ::GlobalNamespace::IServerBeatmapProvider*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IServerBeatmapProvider"
+  constexpr ::GlobalNamespace::IServerBeatmapProvider* i___GlobalNamespace__IServerBeatmapProvider() noexcept;
 
   /// @brief Method VerifyBeatmapForSelectionMask, addr 0x23df858, size 0x8, virtual true, abstract: false, final true
   inline bool VerifyBeatmapForSelectionMask(::GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask);

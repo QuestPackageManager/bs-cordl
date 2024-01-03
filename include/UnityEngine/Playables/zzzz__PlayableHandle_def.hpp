@@ -8,29 +8,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayableHandle)
-namespace UnityEngine::Playables {
-struct PlayState;
+namespace System {
+template <typename T> class IEquatable_1;
 }
-namespace UnityEngine::Playables {
-struct Playable;
-}
-namespace UnityEngine::Playables {
-struct PlayableTraversalMode;
+namespace System {
+class Object;
 }
 namespace System {
 class Type;
 }
 namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
-namespace System {
-class Object;
-}
-namespace UnityEngine::Playables {
 struct DirectorWrapMode;
 }
-namespace System {
-template <typename T> class IEquatable_1;
+namespace UnityEngine::Playables {
+struct PlayState;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
+namespace UnityEngine::Playables {
+struct PlayableTraversalMode;
+}
+namespace UnityEngine::Playables {
+struct Playable;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {
@@ -53,6 +53,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Playables::PlayableHandle>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Playables::PlayableHandle>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Playables::PlayableHandle>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Playables::PlayableHandle>* i___System__IEquatable_1___UnityEngine__Playables__PlayableHandle_();
 
   static inline void setStaticF_m_Null(::UnityEngine::Playables::PlayableHandle value);
 

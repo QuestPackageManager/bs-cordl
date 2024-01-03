@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(LockHolder)
-namespace System {
-class IDisposable;
-}
 namespace System::Threading {
 class Lock;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -28,6 +28,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   /// @brief Method Hold, addr 0x2614158, size 0x24, virtual false, abstract: false, final false
   static inline ::System::Threading::LockHolder Hold(::System::Threading::Lock* l);

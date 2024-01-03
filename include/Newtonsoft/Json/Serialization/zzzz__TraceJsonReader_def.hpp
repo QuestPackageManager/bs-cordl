@@ -8,38 +8,38 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TraceJsonReader)
-namespace System {
-class Object;
-}
-namespace System {
-struct DateTimeOffset;
-}
-namespace System {
-struct Decimal;
-}
 namespace Newtonsoft::Json {
-class JsonTextWriter;
+class IJsonLineInfo;
 }
 namespace Newtonsoft::Json {
 class JsonReader;
 }
-namespace System {
-class Type;
-}
 namespace Newtonsoft::Json {
-class IJsonLineInfo;
-}
-namespace System {
-struct DateTime;
-}
-namespace System {
-template <typename T> struct Nullable_1;
+class JsonTextWriter;
 }
 namespace Newtonsoft::Json {
 struct JsonToken;
 }
 namespace System::IO {
 class StringWriter;
+}
+namespace System {
+struct DateTimeOffset;
+}
+namespace System {
+struct DateTime;
+}
+namespace System {
+struct Decimal;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -84,6 +84,9 @@ public:
 
   /// @brief Convert operator to "::Newtonsoft::Json::IJsonLineInfo"
   constexpr operator ::Newtonsoft::Json::IJsonLineInfo*() noexcept;
+
+  /// @brief Convert to "::Newtonsoft::Json::IJsonLineInfo"
+  constexpr ::Newtonsoft::Json::IJsonLineInfo* i___Newtonsoft__Json__IJsonLineInfo() noexcept;
 
   constexpr ::Newtonsoft::Json::JsonReader*& __get__innerReader();
 

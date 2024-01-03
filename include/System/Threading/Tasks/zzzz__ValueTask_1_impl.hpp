@@ -2,14 +2,14 @@
 #include "System/Threading/Tasks/zzzz__Task_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
-#include "System/Threading/Tasks/Sources/zzzz__IValueTaskSource_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredValueTaskAwaitable_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ValueTaskAwaiter_1_def.hpp"
+#include "System/Threading/Tasks/Sources/zzzz__IValueTaskSource_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 template <typename TResult>
 inline void GlobalNamespace::__ValueTask_1__ValueTaskSourceAsTask____c<TResult>::setStaticF___9(::GlobalNamespace::__ValueTask_1__ValueTaskSourceAsTask____c<TResult>* value) {
   ::cordl_internals::setStaticField<::GlobalNamespace::__ValueTask_1__ValueTaskSourceAsTask____c<TResult>*, "<>9",
@@ -90,6 +90,12 @@ inline void System::Threading::Tasks::__ValueTask_1__ValueTaskSourceAsTask<TResu
 template <typename TResult> constexpr ::System::Threading::Tasks::__ValueTask_1__ValueTaskSourceAsTask<TResult>::__ValueTask_1__ValueTaskSourceAsTask() {}
 /// @brief Convert operator to "::System::IEquatable_1<::System::Threading::Tasks::ValueTask_1<TResult>>"
 template <typename TResult> constexpr System::Threading::Tasks::ValueTask_1<TResult>::operator ::System::IEquatable_1<::System::Threading::Tasks::ValueTask_1<TResult>>*() {
+  return static_cast<::System::IEquatable_1<::System::Threading::Tasks::ValueTask_1<TResult>>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::System::Threading::Tasks::ValueTask_1<TResult>>"
+template <typename TResult>
+constexpr ::System::IEquatable_1<::System::Threading::Tasks::ValueTask_1<TResult>>*
+System::Threading::Tasks::ValueTask_1<TResult>::i___System__IEquatable_1___System__Threading__Tasks__ValueTask_1_TResult__() {
   return static_cast<::System::IEquatable_1<::System::Threading::Tasks::ValueTask_1<TResult>>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename TResult> inline void System::Threading::Tasks::ValueTask_1<TResult>::setStaticF_s_canceledTask(::System::Threading::Tasks::Task_1<TResult>* value) {

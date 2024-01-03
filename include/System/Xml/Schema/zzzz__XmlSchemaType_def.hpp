@@ -7,28 +7,28 @@ CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__XmlSchemaDerivationMethod_def.hpp"
 CORDL_MODULE_EXPORT(XmlSchemaType)
 namespace System::Xml::Schema {
-class XmlValueConverter;
-}
-namespace System::Xml::Schema {
-struct XmlTypeCode;
-}
-namespace System::Xml::Schema {
 class SchemaElementDecl;
 }
 namespace System::Xml::Schema {
-class XmlSchemaSimpleType;
+struct XmlSchemaContentType;
+}
+namespace System::Xml::Schema {
+class XmlSchemaDatatype;
 }
 namespace System::Xml::Schema {
 struct XmlSchemaDerivationMethod;
 }
 namespace System::Xml::Schema {
-struct XmlSchemaContentType;
+class XmlSchemaSimpleType;
+}
+namespace System::Xml::Schema {
+struct XmlTypeCode;
+}
+namespace System::Xml::Schema {
+class XmlValueConverter;
 }
 namespace System::Xml {
 class XmlQualifiedName;
-}
-namespace System::Xml::Schema {
-class XmlSchemaDatatype;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaType);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11714)), TypeDefinitionIndex(TypeDefinitionIndex(11724)), TypeDefinitionIndex(TypeDefinitionIndex(11722))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11714)), TypeDefinitionIndex(TypeDefinitionIndex(11722)), TypeDefinitionIndex(TypeDefinitionIndex(11724))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11742))
 // CS Name: ::System.Xml.Schema::XmlSchemaType*
 class CORDL_TYPE XmlSchemaType : public ::System::Xml::Schema::XmlSchemaAnnotated {

@@ -11,10 +11,10 @@ namespace Oculus::Platform::Models {
 class AchievementDefinitionList;
 }
 namespace Oculus::Platform::Models {
-class AchievementUpdate;
+class AchievementProgressList;
 }
 namespace Oculus::Platform::Models {
-class AchievementProgressList;
+class AchievementUpdate;
 }
 namespace Oculus::Platform {
 template <typename T> class Request_1;

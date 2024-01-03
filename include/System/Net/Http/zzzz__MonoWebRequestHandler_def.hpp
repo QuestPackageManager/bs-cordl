@@ -21,29 +21,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MonoWebRequestHandler)
-namespace System::Net {
-class ICredentials;
+namespace System::IO {
+class Stream;
 }
-namespace System {
-class IDisposable;
+namespace System::Net::Cache {
+class RequestCachePolicy;
+}
+namespace System::Net::Http::Headers {
+class HttpRequestHeaders;
+}
+namespace System::Net::Http {
+class HttpContent;
 }
 namespace System::Net::Http {
 class HttpMethod;
 }
-namespace System::Net {
-class HttpWebRequest;
-}
-namespace System::Net::Security {
-class SslClientAuthenticationOptions;
-}
 namespace System::Net::Http {
 class HttpRequestMessage;
 }
-namespace System::Net {
-class IWebProxy;
+namespace System::Net::Http {
+class HttpResponseMessage;
 }
-namespace System::Net {
-class CookieContainer;
+namespace System::Net::Http {
+class IMonoHttpClientHandler;
+}
+namespace System::Net::Http {
+struct __MonoWebRequestHandler___SendAsync_d__99;
 }
 namespace System::Net::Http {
 class __MonoWebRequestHandler____c;
@@ -51,44 +54,29 @@ class __MonoWebRequestHandler____c;
 namespace System::Net::Security {
 class RemoteCertificateValidationCallback;
 }
+namespace System::Net::Security {
+class SslClientAuthenticationOptions;
+}
+namespace System::Net {
+class CookieContainer;
+}
+namespace System::Net {
+class HttpWebRequest;
+}
 namespace System::Net {
 class HttpWebResponse;
 }
-namespace System::Net::Http {
-class IMonoHttpClientHandler;
+namespace System::Net {
+class ICredentials;
 }
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System::Net::Http {
-struct __MonoWebRequestHandler___SendAsync_d__99;
-}
-namespace System::Net::Http {
-class HttpResponseMessage;
-}
-namespace System::Net::Http::Headers {
-class HttpRequestHeaders;
-}
-namespace System {
-struct TimeSpan;
-}
-namespace System::Net::Cache {
-class RequestCachePolicy;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace System {
-class Object;
+namespace System::Net {
+class IWebProxy;
 }
 namespace System::Net {
 class WebResponse;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -97,22 +85,34 @@ namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
-struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
-}
-namespace System::Runtime::CompilerServices {
 template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
-namespace System::Net::Http {
-class HttpContent;
+namespace System::Runtime::CompilerServices {
+struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace System::Threading {
 struct CancellationTokenRegistration;
 }
-namespace System::IO {
-class Stream;
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace System {
+struct TimeSpan;
 }
 // Forward declare root types
 namespace System::Net::Http {
@@ -204,16 +204,19 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::__MonoWebRequ
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 883 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(14655)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3397), inst: 1125 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(9097)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 883 }), TypeDefinitionIndex(TypeDefinitionIndex(2683)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3397), inst: 899 }), TypeDefinitionIndex(TypeDefinitionIndex(3619))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14637)) CS Name: ::MonoWebRequestHandler::<SendAsync>d__99
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 899 }), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9097)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 1125 }), TypeDefinitionIndex(TypeDefinitionIndex(2683)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3619)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14655)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 883 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 883 }), TypeDefinitionIndex(TypeDefinitionIndex(3395))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14637)) CS Name: ::MonoWebRequestHandler::<SendAsync>d__99
 struct CORDL_TYPE __MonoWebRequestHandler___SendAsync_d__99 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x282ea64, size 0x1700, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -328,9 +331,9 @@ static_assert(offsetof(::System::Net::Http::__MonoWebRequestHandler___SendAsync_
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 177, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9365)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2711 }), TypeDefinitionIndex(TypeDefinitionIndex(9157)), TypeDefinitionIndex(TypeDefinitionIndex(2484)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2997))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14638)) CS Name: ::System.Net.Http::MonoWebRequestHandler*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2711 }), TypeDefinitionIndex(TypeDefinitionIndex(2484)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2997)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9157)), TypeDefinitionIndex(TypeDefinitionIndex(2448)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9365))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14638)) CS Name: ::System.Net.Http::MonoWebRequestHandler*
 class CORDL_TYPE MonoWebRequestHandler : public ::System::Object {
 public:
   // Declarations
@@ -423,8 +426,14 @@ public:
   /// @brief Convert operator to "::System::Net::Http::IMonoHttpClientHandler"
   constexpr operator ::System::Net::Http::IMonoHttpClientHandler*() noexcept;
 
+  /// @brief Convert to "::System::Net::Http::IMonoHttpClientHandler"
+  constexpr ::System::Net::Http::IMonoHttpClientHandler* i___System__Net__Http__IMonoHttpClientHandler() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr bool& __get_allowAutoRedirect();
 

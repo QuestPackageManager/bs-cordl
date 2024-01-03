@@ -9,10 +9,10 @@ namespace GlobalNamespace {
 struct OVRAnchor;
 }
 namespace GlobalNamespace {
-struct __OVRPlugin__SpaceComponentType;
+template <typename TResult> struct OVRTask_1;
 }
 namespace GlobalNamespace {
-template <typename TResult> struct OVRTask_1;
+struct __OVRPlugin__SpaceComponentType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -47,8 +47,7 @@ public:
   inline bool get_IsEnabled();
 
   /// @brief Method SetEnabledAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  /// @param timeout: double_t (default: 0.0)
-  inline ::GlobalNamespace::OVRTask_1<bool> SetEnabledAsync(bool enable, double_t timeout = 0.0);
+  inline ::GlobalNamespace::OVRTask_1<bool> SetEnabledAsync(bool enable, double_t timeout);
 
   /// @brief Method get_Type, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::__OVRPlugin__SpaceComponentType get_Type();

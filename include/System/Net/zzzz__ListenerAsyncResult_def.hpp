@@ -4,20 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ListenerAsyncResult)
-namespace System::Threading {
-class WaitCallback;
-}
-namespace System {
-class IAsyncResult;
-}
-namespace System::Threading {
-class WaitHandle;
-}
-namespace System {
-class Object;
+namespace System::Net {
+class HttpListenerContext;
 }
 namespace System::Threading {
 class ManualResetEvent;
+}
+namespace System::Threading {
+class WaitCallback;
+}
+namespace System::Threading {
+class WaitHandle;
 }
 namespace System {
 class AsyncCallback;
@@ -25,8 +22,11 @@ class AsyncCallback;
 namespace System {
 class Exception;
 }
-namespace System::Net {
-class HttpListenerContext;
+namespace System {
+class IAsyncResult;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Net {
@@ -90,6 +90,9 @@ public:
 
   /// @brief Convert operator to "::System::IAsyncResult"
   constexpr operator ::System::IAsyncResult*() noexcept;
+
+  /// @brief Convert to "::System::IAsyncResult"
+  constexpr ::System::IAsyncResult* i___System__IAsyncResult() noexcept;
 
   constexpr ::System::Threading::ManualResetEvent*& __get_handle();
 

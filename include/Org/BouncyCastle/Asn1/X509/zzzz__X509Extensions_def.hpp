@@ -5,41 +5,41 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(X509Extensions)
-namespace System::Collections {
-class IDictionary;
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extension;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+class Asn1Object;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace System::Collections {
-class Hashtable;
+class DerObjectIdentifier;
 }
 namespace System::Collections {
 class ArrayList;
 }
 namespace System::Collections {
-class IEnumerator;
+class Hashtable;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+namespace System::Collections {
+class IDictionary;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections {
 class IList;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extension;
 }
 namespace System {
 class Object;

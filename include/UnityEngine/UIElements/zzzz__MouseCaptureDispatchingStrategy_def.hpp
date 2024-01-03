@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MouseCaptureDispatchingStrategy)
 namespace UnityEngine::UIElements {
-class IEventDispatchingStrategy;
-}
-namespace UnityEngine::UIElements {
-struct __MouseCaptureDispatchingStrategy__EventBehavior;
-}
-namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
+class IEventDispatchingStrategy;
+}
+namespace UnityEngine::UIElements {
 class IPanel;
+}
+namespace UnityEngine::UIElements {
+struct __MouseCaptureDispatchingStrategy__EventBehavior;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -96,6 +96,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::UIElements::IEventDispatchingStrategy"
   constexpr operator ::UnityEngine::UIElements::IEventDispatchingStrategy*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UIElements::IEventDispatchingStrategy"
+  constexpr ::UnityEngine::UIElements::IEventDispatchingStrategy* i___UnityEngine__UIElements__IEventDispatchingStrategy() noexcept;
 
   /// @brief Method CanDispatchEvent, addr 0x2e4d1b8, size 0x7c, virtual true, abstract: false, final true
   inline bool CanDispatchEvent(::UnityEngine::UIElements::EventBase* evt);

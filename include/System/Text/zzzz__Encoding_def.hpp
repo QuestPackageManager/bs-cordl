@@ -9,59 +9,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Encoding)
-namespace System::Globalization {
-class CodePageDataItem;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class ICloneable;
-}
-namespace System::Text {
-class DecoderFallback;
-}
-namespace System::Text {
-class __Encoding__EncodingByteBuffer;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Text {
-class __Encoding__DefaultEncoder;
-}
-namespace System::Text {
-class __Encoding__DefaultDecoder;
-}
-namespace System {
-template <typename T> struct Span_1;
-}
-namespace System::Text {
-class EncoderNLS;
-}
-namespace System::Text {
-class __Encoding__EncodingCharBuffer;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace System::Text {
-class Decoder;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Text {
-class DecoderNLS;
-}
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System::Text {
-class EncoderFallback;
-}
-namespace System::Text {
-class Encoder;
+namespace System::Globalization {
+class CodePageDataItem;
 }
 namespace System::Runtime::Serialization {
 class IObjectReference;
@@ -69,11 +21,59 @@ class IObjectReference;
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Text {
+class DecoderFallbackBuffer;
+}
+namespace System::Text {
+class DecoderFallback;
+}
+namespace System::Text {
+class DecoderNLS;
+}
+namespace System::Text {
+class Decoder;
+}
 namespace System::Text {
 class EncoderFallbackBuffer;
 }
 namespace System::Text {
-class DecoderFallbackBuffer;
+class EncoderFallback;
+}
+namespace System::Text {
+class EncoderNLS;
+}
+namespace System::Text {
+class Encoder;
+}
+namespace System::Text {
+class __Encoding__DefaultDecoder;
+}
+namespace System::Text {
+class __Encoding__DefaultEncoder;
+}
+namespace System::Text {
+class __Encoding__EncodingByteBuffer;
+}
+namespace System::Text {
+class __Encoding__EncodingCharBuffer;
+}
+namespace System {
+class ICloneable;
+}
+namespace System {
+class Object;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
+template <typename T> struct Span_1;
 }
 // Forward declare root types
 namespace System::Text {
@@ -119,8 +119,14 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Serialization::IObjectReference"
   constexpr operator ::System::Runtime::Serialization::IObjectReference*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::IObjectReference"
+  constexpr ::System::Runtime::Serialization::IObjectReference* i___System__Runtime__Serialization__IObjectReference() noexcept;
 
   constexpr ::System::Text::Encoding*& __get_m_encoding();
 
@@ -222,8 +228,14 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Serialization::IObjectReference"
   constexpr operator ::System::Runtime::Serialization::IObjectReference*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::IObjectReference"
+  constexpr ::System::Runtime::Serialization::IObjectReference* i___System__Runtime__Serialization__IObjectReference() noexcept;
 
   constexpr ::System::Text::Encoding*& __get_m_encoding();
 
@@ -804,6 +816,9 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
+
   constexpr int32_t& __get_m_codePage();
 
   constexpr int32_t const& __get_m_codePage() const;
@@ -1038,8 +1053,7 @@ public:
   static inline ::System::Text::Encoding* CreateDefaultEncoding();
 
   /// @brief Method setReadOnly, addr 0x244d104, size 0xc, virtual false, abstract: false, final false
-  /// @param value: bool (default: true)
-  inline void setReadOnly(bool value = true);
+  inline void setReadOnly(bool value);
 
   /// @brief Method get_Default, addr 0x244af54, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* get_Default();

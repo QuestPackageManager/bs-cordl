@@ -9,38 +9,38 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TubeBloomPrePassLight)
-namespace UnityEngine {
-struct Vector3;
+namespace GlobalNamespace {
+class BoolSO;
 }
-namespace UnityEngine {
-struct Matrix4x4;
+namespace GlobalNamespace {
+class Parametric3SliceSpriteController;
 }
 namespace GlobalNamespace {
 class ParametricBoxController;
 }
 namespace GlobalNamespace {
-class Parametric3SliceSpriteController;
+struct __BloomPrePassLight__QuadData;
+}
+namespace System {
+class Action;
+}
+namespace UnityEngine {
+class AnimationCurve;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+struct Matrix4x4;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
 struct Vector4;
-}
-namespace GlobalNamespace {
-struct __BloomPrePassLight__QuadData;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace GlobalNamespace {
-class BoolSO;
-}
-namespace UnityEngine {
-class AnimationCurve;
-}
-namespace System {
-class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -52,7 +52,7 @@ MARK_REF_PTR_T(::GlobalNamespace::TubeBloomPrePassLight);
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14474))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14474)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14492))
 // CS Name: ::TubeBloomPrePassLight*
 class CORDL_TYPE TubeBloomPrePassLight : public ::GlobalNamespace::BloomPrePassLight {

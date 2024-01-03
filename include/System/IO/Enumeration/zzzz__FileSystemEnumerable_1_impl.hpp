@@ -4,12 +4,12 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/IO/Enumeration/zzzz__FileSystemEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/IO/zzzz__EnumerationOptions_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/IO/Enumeration/zzzz__FileSystemEnumerable_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/IO/Enumeration/zzzz__FileSystemEntry_def.hpp"
+#include "System/IO/Enumeration/zzzz__FileSystemEnumerable_1_def.hpp"
+#include "System/IO/zzzz__EnumerationOptions_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 template <typename TResult>
 inline ::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>* System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>::New_ctor(::System::Object* object,
@@ -100,8 +100,17 @@ template <typename TResult> constexpr ::System::IO::Enumeration::__FileSystemEnu
 template <typename TResult> constexpr System::IO::Enumeration::FileSystemEnumerable_1<TResult>::operator ::System::Collections::Generic::IEnumerable_1<TResult>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<TResult>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TResult>"
+template <typename TResult>
+constexpr ::System::Collections::Generic::IEnumerable_1<TResult>* System::IO::Enumeration::FileSystemEnumerable_1<TResult>::i___System__Collections__Generic__IEnumerable_1_TResult_() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<TResult>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename TResult> constexpr System::IO::Enumeration::FileSystemEnumerable_1<TResult>::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename TResult> constexpr ::System::Collections::IEnumerable* System::IO::Enumeration::FileSystemEnumerable_1<TResult>::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 template <typename TResult> constexpr ::System::IO::Enumeration::__FileSystemEnumerable_1__DelegateEnumerator<TResult>*& System::IO::Enumeration::FileSystemEnumerable_1<TResult>::__get__enumerator() {

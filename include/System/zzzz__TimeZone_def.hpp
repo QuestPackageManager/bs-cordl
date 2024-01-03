@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimeZone)
-namespace System {
-class Object;
+namespace System::Globalization {
+class DaylightTime;
 }
 namespace System {
 struct DateTime;
 }
 namespace System {
-struct TimeSpan;
+class Object;
 }
-namespace System::Globalization {
-class DaylightTime;
+namespace System {
+struct TimeSpan;
 }
 // Forward declare root types
 namespace System {

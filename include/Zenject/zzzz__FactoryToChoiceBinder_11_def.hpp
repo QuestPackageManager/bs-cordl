@@ -8,15 +8,15 @@ namespace Zenject {
 class BindInfo;
 }
 namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
 class FactoryBindInfo;
 }
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
           typename TContract>
 class FactoryFromBinder_11;
-}
-namespace Zenject {
-class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -33,7 +33,7 @@ namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
           typename TContract>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10735), inst: 1792 }), TypeDefinitionIndex(TypeDefinitionIndex(10735))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10735)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10735), inst: 1792 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10850))
 // CS Name: ::Zenject::FactoryToChoiceBinder`11<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10,TContract>*
 class CORDL_TYPE FactoryToChoiceBinder_11 : public ::Zenject::FactoryFromBinder_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract> {

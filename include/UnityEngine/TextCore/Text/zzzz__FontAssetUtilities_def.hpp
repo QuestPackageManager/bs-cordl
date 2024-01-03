@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FontAssetUtilities)
-namespace UnityEngine::TextCore::Text {
-struct TextFontWeight;
-}
-namespace UnityEngine::TextCore::Text {
-class SpriteCharacter;
-}
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine::TextCore::Text {
+class Character;
+}
+namespace UnityEngine::TextCore::Text {
+class FontAsset;
 }
 namespace UnityEngine::TextCore::Text {
 struct FontStyles;
@@ -25,10 +25,10 @@ namespace UnityEngine::TextCore::Text {
 class SpriteAsset;
 }
 namespace UnityEngine::TextCore::Text {
-class FontAsset;
+class SpriteCharacter;
 }
 namespace UnityEngine::TextCore::Text {
-class Character;
+struct TextFontWeight;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {

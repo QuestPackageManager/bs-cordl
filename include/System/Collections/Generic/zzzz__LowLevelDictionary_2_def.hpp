@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LowLevelDictionary_2)
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class __LowLevelDictionary_2__Entry;
-}
-namespace System::Collections::Generic {
 template <typename T> class IEqualityComparer_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue, typename T> class __LowLevelDictionary_2__DefaultComparer_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class __LowLevelDictionary_2__Entry;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
@@ -114,6 +114,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<T>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<T>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<T>"
+  constexpr ::System::Collections::Generic::IEqualityComparer_1<T>* i___System__Collections__Generic__IEqualityComparer_1_T_() noexcept;
 
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Equals(T x, T y);
@@ -216,8 +219,7 @@ public:
   inline void set_Item(TKey key, TValue value);
 
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param capacity: int32_t (default: static_cast<int32_t>(0x11))
-  inline void Clear(int32_t capacity = static_cast<int32_t>(0x11));
+  inline void Clear(int32_t capacity);
 
   /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool Remove(TKey key);
@@ -232,8 +234,7 @@ public:
   inline void ExpandBuckets();
 
   /// @brief Method GetBucket, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param numBuckets: int32_t (default: static_cast<int32_t>(0x0))
-  inline int32_t GetBucket(TKey key, int32_t numBuckets = static_cast<int32_t>(0x0));
+  inline int32_t GetBucket(TKey key, int32_t numBuckets);
 
   // Ctor Parameters [CppParam { name: "", ty: "LowLevelDictionary_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

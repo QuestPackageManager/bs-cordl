@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MemoryPool_4_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MonoPoolableMemoryPool_4)
-namespace Zenject {
-class InjectTypeInfo;
+namespace System {
+class Object;
 }
 namespace UnityEngine {
 class Transform;
 }
-namespace System {
-class Object;
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -26,7 +26,7 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11041), inst: 3509 }), TypeDefinitionIndex(TypeDefinitionIndex(11041))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11041)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11041), inst: 3509 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11059))
 // CS Name: ::Zenject::MonoPoolableMemoryPool`4<TParam1,TParam2,TParam3,TValue>*
 class CORDL_TYPE MonoPoolableMemoryPool_4 : public ::Zenject::MemoryPool_4<TParam1, TParam2, TParam3, TValue> {

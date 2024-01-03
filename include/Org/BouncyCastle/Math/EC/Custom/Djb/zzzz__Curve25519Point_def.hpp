@@ -6,9 +6,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Curve25519Point)
-namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
-}
 namespace Org::BouncyCastle::Math::EC::Custom::Djb {
 class Curve25519FieldElement;
 }
@@ -17,6 +14,9 @@ class ECCurve;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Custom::Djb {

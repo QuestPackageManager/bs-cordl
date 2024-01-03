@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GlyphMetrics)
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore {
@@ -40,6 +40,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::TextCore::GlyphMetrics>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::TextCore::GlyphMetrics>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::TextCore::GlyphMetrics>"
+  constexpr ::System::IEquatable_1<::UnityEngine::TextCore::GlyphMetrics>* i___System__IEquatable_1___UnityEngine__TextCore__GlyphMetrics_();
 
   /// @brief Method get_width, addr 0x2d207f4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_width();

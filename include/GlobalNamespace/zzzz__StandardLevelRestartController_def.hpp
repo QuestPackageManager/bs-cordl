@@ -8,10 +8,10 @@ namespace GlobalNamespace {
 class ILevelRestartController;
 }
 namespace GlobalNamespace {
-class StandardLevelScenesTransitionSetupDataSO;
+class PrepareLevelCompletionResults;
 }
 namespace GlobalNamespace {
-class PrepareLevelCompletionResults;
+class StandardLevelScenesTransitionSetupDataSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -37,6 +37,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::ILevelRestartController"
   constexpr operator ::GlobalNamespace::ILevelRestartController*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::ILevelRestartController"
+  constexpr ::GlobalNamespace::ILevelRestartController* i___GlobalNamespace__ILevelRestartController() noexcept;
 
   constexpr ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*& __get__standardLevelSceneSetupData();
 

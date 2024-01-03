@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(OVRControllerDrivenHandPosesSample)
-namespace UnityEngine::UI {
-class Button;
-}
 namespace GlobalNamespace {
 class OVRCameraRig;
+}
+namespace UnityEngine::UI {
+class Button;
 }
 namespace UnityEngine {
 class LineRenderer;

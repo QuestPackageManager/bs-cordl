@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(NoticeReference)
+namespace Org::BouncyCastle::Asn1::X509 {
+class DisplayText;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1EncodableVector;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
 }
 namespace System::Collections {
 class IList;
 }
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class DisplayText;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {

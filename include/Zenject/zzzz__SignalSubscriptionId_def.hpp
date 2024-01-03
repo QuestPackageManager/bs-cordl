@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(SignalSubscriptionId)
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace Zenject {
-struct BindingId;
-}
 namespace System {
 class Object;
+}
+namespace Zenject {
+struct BindingId;
 }
 // Forward declare root types
 namespace Zenject {
@@ -37,6 +37,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::Zenject::SignalSubscriptionId>"
   constexpr operator ::System::IEquatable_1<::Zenject::SignalSubscriptionId>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::Zenject::SignalSubscriptionId>"
+  constexpr ::System::IEquatable_1<::Zenject::SignalSubscriptionId>* i___System__IEquatable_1___Zenject__SignalSubscriptionId_();
 
   /// @brief Method .ctor, addr 0x2ec4290, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindingId signalId, ::System::Object* callback);

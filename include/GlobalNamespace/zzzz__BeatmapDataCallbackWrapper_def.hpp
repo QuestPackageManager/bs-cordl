@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapDataCallbackWrapper)
-namespace System {
-class Type;
-}
 namespace GlobalNamespace {
 class BeatmapDataItem;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace GlobalNamespace {

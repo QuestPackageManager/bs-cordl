@@ -12,22 +12,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerStatusModel)
 namespace GlobalNamespace {
-class __MultiplayerStatusModel__MultiplayerStatusDataFB;
-}
-namespace GlobalNamespace {
 class IMultiplayerStatusModel;
-}
-namespace GlobalNamespace {
-struct __MultiplayerStatusModel___GetMultiplayerStatusAsyncInternal_d__9;
 }
 namespace GlobalNamespace {
 class INetworkConfig;
 }
+namespace GlobalNamespace {
+class MultiplayerStatusData;
+}
+namespace GlobalNamespace {
+class __MultiplayerStatusModel__MultiplayerStatusDataFB;
+}
+namespace GlobalNamespace {
+struct __MultiplayerStatusModel___GetMultiplayerStatusAsyncInternal_d__9;
+}
 namespace System::Net::Http {
 class HttpClient;
 }
-namespace GlobalNamespace {
-class MultiplayerStatusData;
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
@@ -37,15 +46,6 @@ struct CancellationToken;
 }
 namespace System {
 class UriBuilder;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -114,14 +114,17 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerStatusModel__MultiplayerS
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(4472)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 894 })} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(4474)) CS Name: ::MultiplayerStatusModel::<GetMultiplayerStatusAsyncInternal>d__9
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 397
+// }), TypeDefinitionIndex(TypeDefinitionIndex(4472)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 894 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4474)) CS
+// Name: ::MultiplayerStatusModel::<GetMultiplayerStatusAsyncInternal>d__9
 struct CORDL_TYPE __MultiplayerStatusModel___GetMultiplayerStatusAsyncInternal_d__9 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x2353208, size 0x824, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -201,6 +204,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IMultiplayerStatusModel"
   constexpr operator ::GlobalNamespace::IMultiplayerStatusModel*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IMultiplayerStatusModel"
+  constexpr ::GlobalNamespace::IMultiplayerStatusModel* i___GlobalNamespace__IMultiplayerStatusModel() noexcept;
 
   constexpr ::GlobalNamespace::INetworkConfig*& __get__networkConfig();
 

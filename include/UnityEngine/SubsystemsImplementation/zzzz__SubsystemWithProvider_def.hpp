@@ -39,6 +39,9 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISubsystem"
   constexpr operator ::UnityEngine::ISubsystem*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::ISubsystem"
+  constexpr ::UnityEngine::ISubsystem* i___UnityEngine__ISubsystem() noexcept;
+
   constexpr bool& __get__running_k__BackingField();
 
   constexpr bool const& __get__running_k__BackingField() const;

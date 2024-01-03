@@ -9,22 +9,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FloatFxBeatmapEventDataBox)
 namespace GlobalNamespace {
-class IndexFilter;
+struct EaseType;
 }
 namespace GlobalNamespace {
 class FloatFxBaseData;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
 class FloatFxBeatmapEventData;
 }
 namespace GlobalNamespace {
-struct EaseType;
+class IndexFilter;
 }
 namespace GlobalNamespace {
 struct __BeatmapEventDataBox__DistributionParamType;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::GlobalNamespace::FloatFxBeatmapEventDataBox);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4309), inst: 2547 }), TypeDefinitionIndex(TypeDefinitionIndex(4309)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4314)), TypeDefinitionIndex(TypeDefinitionIndex(14732))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4311)) CS Name: ::FloatFxBeatmapEventDataBox*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14732)), TypeDefinitionIndex(TypeDefinitionIndex(4314)), TypeDefinitionIndex(TypeDefinitionIndex(4309)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4309), inst: 2547 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4311)) CS Name: ::FloatFxBeatmapEventDataBox*
 class CORDL_TYPE FloatFxBeatmapEventDataBox : public ::GlobalNamespace::FxBeatmapEventDataBox_2<::GlobalNamespace::FloatFxBaseData*, ::GlobalNamespace::FloatFxBeatmapEventData*> {
 public:
   // Declarations

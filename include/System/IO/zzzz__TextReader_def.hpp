@@ -9,13 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextReader)
 namespace System::IO {
-class __TextReader__SyncTextReader;
-}
-namespace System {
-class IDisposable;
+class __TextReader__NullTextReader;
 }
 namespace System::IO {
-class __TextReader__NullTextReader;
+class __TextReader__SyncTextReader;
 }
 namespace System::IO {
 class __TextReader____c;
@@ -25,6 +22,9 @@ template <typename TResult> class Task_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -112,6 +112,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   static inline void setStaticF_Null(::System::IO::TextReader* value);
 

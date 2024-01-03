@@ -6,41 +6,41 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MissionToggle)
-namespace UnityEngine::EventSystems {
-class BaseEventData;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine::EventSystems {
-class ISubmitHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerEnterHandler;
-}
-namespace UnityEngine::UI {
-class Image;
-}
-namespace UnityEngine::EventSystems {
-class IPointerExitHandler;
-}
 namespace GlobalNamespace {
 class Signal;
 }
 namespace HMUI {
 class Interactable;
 }
+namespace System {
+template <typename T> class Action_1;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace UnityEngine::EventSystems {
+class BaseEventData;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
 namespace UnityEngine::EventSystems {
 class IPointerClickHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerEnterHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerExitHandler;
+}
+namespace UnityEngine::EventSystems {
+class ISubmitHandler;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace UnityEngine::UI {
+class Image;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -117,17 +117,32 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerClickHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerClickHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerClickHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerClickHandler* i___UnityEngine__EventSystems__IPointerClickHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::ISubmitHandler"
   constexpr operator ::UnityEngine::EventSystems::ISubmitHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::ISubmitHandler"
+  constexpr ::UnityEngine::EventSystems::ISubmitHandler* i___UnityEngine__EventSystems__ISubmitHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerEnterHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerEnterHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerEnterHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerEnterHandler* i___UnityEngine__EventSystems__IPointerEnterHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerExitHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerExitHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerExitHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerExitHandler* i___UnityEngine__EventSystems__IPointerExitHandler() noexcept;
 
   constexpr ::GlobalNamespace::Signal*& __get__missionToggleWasPressedSignal();
 

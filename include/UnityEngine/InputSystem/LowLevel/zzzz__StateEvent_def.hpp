@@ -2,7 +2,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Unity/Collections/zzzz__Allocator_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEvent_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__StateEvent_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
@@ -10,26 +9,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StateEvent)
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
+namespace Unity::Collections {
+struct Allocator;
 }
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputEvent;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
-}
-namespace Unity::Collections {
-struct Allocator;
-}
-namespace UnityEngine::InputSystem::LowLevel {
 class IInputEventTypeInfo;
 }
 namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEvent;
+}
+namespace UnityEngine::InputSystem::LowLevel {
 struct __StateEvent___stateData_e__FixedBuffer;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
 }
 namespace UnityEngine::InputSystem {
 class InputDevice;
@@ -81,8 +80,9 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__StateEvent___stat
 // SizeInfo { instance_size: 25, native_size: 25, calculated_instance_size: 25, calculated_native_size: 41, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(1) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6530)), TypeDefinitionIndex(TypeDefinitionIndex(6667)), TypeDefinitionIndex(TypeDefinitionIndex(6545)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10003))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6546)) CS Name: ::UnityEngine.InputSystem.LowLevel::StateEvent
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6530)), TypeDefinitionIndex(TypeDefinitionIndex(6667)), TypeDefinitionIndex(TypeDefinitionIndex(6545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6546))
+// CS Name: ::UnityEngine.InputSystem.LowLevel::StateEvent
 #pragma pack(push, 1)
 struct CORDL_TYPE StateEvent {
 public:
@@ -106,6 +106,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo*();
+
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputEventTypeInfo();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent& __get_baseEvent();
 
@@ -153,14 +156,12 @@ public:
   static inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::StateEvent> FromUnchecked(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr);
 
   /// @brief Method From, addr 0x2af0458, size 0x8, virtual false, abstract: false, final false
-  /// @param allocator: ::Unity::Collections::Allocator (default: static_cast<int32_t>(0x2))
   static inline ::Unity::Collections::NativeArray_1<uint8_t> From(::UnityEngine::InputSystem::InputDevice* device, ByRef<::UnityEngine::InputSystem::LowLevel::InputEventPtr> eventPtr,
-                                                                  ::Unity::Collections::Allocator allocator = static_cast<int32_t>(0x2));
+                                                                  ::Unity::Collections::Allocator allocator);
 
   /// @brief Method FromDefaultStateFor, addr 0x2af0798, size 0x8, virtual false, abstract: false, final false
-  /// @param allocator: ::Unity::Collections::Allocator (default: static_cast<int32_t>(0x2))
   static inline ::Unity::Collections::NativeArray_1<uint8_t> FromDefaultStateFor(::UnityEngine::InputSystem::InputDevice* device, ByRef<::UnityEngine::InputSystem::LowLevel::InputEventPtr> eventPtr,
-                                                                                 ::Unity::Collections::Allocator allocator = static_cast<int32_t>(0x2));
+                                                                                 ::Unity::Collections::Allocator allocator);
 
   /// @brief Method From, addr 0x2af0460, size 0x338, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeArray_1<uint8_t> From(::UnityEngine::InputSystem::InputDevice* device, ByRef<::UnityEngine::InputSystem::LowLevel::InputEventPtr> eventPtr,

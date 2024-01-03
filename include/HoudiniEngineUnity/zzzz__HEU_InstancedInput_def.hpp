@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 CORDL_MODULE_EXPORT(HEU_InstancedInput)
-namespace UnityEngine {
-class GameObject;
-}
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivable_1;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -38,6 +38,9 @@ public:
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstancedInput*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstancedInput*>*() noexcept;
+
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstancedInput*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstancedInput*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_InstancedInput__() noexcept;
 
   constexpr ::UnityEngine::GameObject*& __get__instancedGameObject();
 

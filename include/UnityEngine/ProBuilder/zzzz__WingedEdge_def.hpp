@@ -9,43 +9,43 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(WingedEdge)
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System {
-class Object;
-}
-namespace UnityEngine::ProBuilder {
-struct Edge;
-}
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace UnityEngine::ProBuilder {
-class __WingedEdge____c;
-}
-namespace UnityEngine::ProBuilder {
-class __WingedEdge____c__DisplayClass32_0;
-}
-namespace UnityEngine::ProBuilder {
-struct EdgeLookup;
-}
-namespace UnityEngine::ProBuilder {
-class Face;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::ProBuilder {
+struct EdgeLookup;
+}
+namespace UnityEngine::ProBuilder {
+struct Edge;
+}
+namespace UnityEngine::ProBuilder {
+class Face;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
+}
+namespace UnityEngine::ProBuilder {
+class __WingedEdge____c;
+}
+namespace UnityEngine::ProBuilder {
+class __WingedEdge____c__DisplayClass32_0;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -222,6 +222,9 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::ProBuilder::WingedEdge*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::ProBuilder::WingedEdge*>*() noexcept;
 
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ProBuilder::WingedEdge*>"
+  constexpr ::System::IEquatable_1<::UnityEngine::ProBuilder::WingedEdge*>* i___System__IEquatable_1___UnityEngine__ProBuilder__WingedEdge__() noexcept;
+
   constexpr ::UnityEngine::ProBuilder::EdgeLookup& __get__edge_k__BackingField();
 
   constexpr ::UnityEngine::ProBuilder::EdgeLookup const& __get__edge_k__BackingField() const;
@@ -327,13 +330,11 @@ public:
                                                                                               ::System::Collections::Generic::HashSet_1<int32_t>* common);
 
   /// @brief Method GetWingedEdges, addr 0x2b8630c, size 0xf8, virtual false, abstract: false, final false
-  /// @param oneWingPerFace: bool (default: false)
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* GetWingedEdges(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, bool oneWingPerFace = false);
+  static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* GetWingedEdges(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, bool oneWingPerFace);
 
   /// @brief Method GetWingedEdges, addr 0x2b86404, size 0x744, virtual false, abstract: false, final false
-  /// @param oneWingPerFace: bool (default: false)
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*
-  GetWingedEdges(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, bool oneWingPerFace = false);
+  GetWingedEdges(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, bool oneWingPerFace);
 
   // Ctor Parameters [CppParam { name: "", ty: "WingedEdge", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

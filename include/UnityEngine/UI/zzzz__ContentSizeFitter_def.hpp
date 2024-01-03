@@ -12,13 +12,13 @@ namespace UnityEngine::UI {
 class ILayoutController;
 }
 namespace UnityEngine::UI {
+class ILayoutSelfController;
+}
+namespace UnityEngine::UI {
 struct __ContentSizeFitter__FitMode;
 }
 namespace UnityEngine {
 class RectTransform;
-}
-namespace UnityEngine::UI {
-class ILayoutSelfController;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -88,7 +88,7 @@ static_assert(offsetof(::UnityEngine::UI::__ContentSizeFitter__FitMode, value__)
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13076)), TypeDefinitionIndex(TypeDefinitionIndex(13214)), TypeDefinitionIndex(TypeDefinitionIndex(10278))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13214)), TypeDefinitionIndex(TypeDefinitionIndex(13076)), TypeDefinitionIndex(TypeDefinitionIndex(10278))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13077))
 // CS Name: ::UnityEngine.UI::ContentSizeFitter*
 class CORDL_TYPE ContentSizeFitter : public ::UnityEngine::EventSystems::UIBehaviour {
@@ -117,8 +117,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::ILayoutSelfController"
   constexpr operator ::UnityEngine::UI::ILayoutSelfController*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::UI::ILayoutSelfController"
+  constexpr ::UnityEngine::UI::ILayoutSelfController* i___UnityEngine__UI__ILayoutSelfController() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::UI::ILayoutController"
   constexpr operator ::UnityEngine::UI::ILayoutController*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UI::ILayoutController"
+  constexpr ::UnityEngine::UI::ILayoutController* i___UnityEngine__UI__ILayoutController() noexcept;
 
   constexpr ::UnityEngine::UI::__ContentSizeFitter__FitMode& __get_m_HorizontalFit();
 

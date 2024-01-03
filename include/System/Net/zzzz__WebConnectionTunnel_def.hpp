@@ -16,41 +16,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(WebConnectionTunnel)
-namespace System::Net {
-class HttpWebRequest;
+namespace System::IO {
+class MemoryStream;
 }
 namespace System::IO {
 class Stream;
 }
 namespace System::Net {
-struct __WebConnectionTunnel___ReadHeaders_d__43;
-}
-namespace System {
-class Version;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System {
-template <typename T1, typename T2, typename T3> struct ValueTuple_3;
-}
-namespace System {
-class Uri;
-}
-namespace System::Threading::Tasks {
-class Task;
+class HttpWebRequest;
 }
 namespace System::Net {
-struct __WebConnectionTunnel___Initialize_d__42;
+class WebHeaderCollection;
 }
 namespace System::Net {
 struct __WebConnectionTunnel__NtlmAuthState;
 }
 namespace System::Net {
-class WebHeaderCollection;
+struct __WebConnectionTunnel___Initialize_d__42;
+}
+namespace System::Net {
+struct __WebConnectionTunnel___ReadHeaders_d__43;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
@@ -64,11 +52,23 @@ template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAw
 namespace System::Runtime::CompilerServices {
 struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
-namespace System::IO {
-class MemoryStream;
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
+class Uri;
+}
+namespace System {
+template <typename T1, typename T2, typename T3> struct ValueTuple_3;
+}
+namespace System {
+class Version;
 }
 // Forward declare root types
 namespace System::Net {
@@ -146,15 +146,18 @@ static_assert(offsetof(::System::Net::__WebConnectionTunnel__NtlmAuthState, valu
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(2508)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 871 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2508), inst: 5332 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(9091)), TypeDefinitionIndex(TypeDefinitionIndex(3401))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9222))
-// CS Name: ::WebConnectionTunnel::<Initialize>d__42
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 871
+// }), TypeDefinitionIndex(TypeDefinitionIndex(2508)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2508), inst: 5332 }), TypeDefinitionIndex(TypeDefinitionIndex(3401)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(9091))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9222)) CS Name:
+// ::WebConnectionTunnel::<Initialize>d__42
 struct CORDL_TYPE __WebConnectionTunnel___Initialize_d__42 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x29e0940, size 0xdd4, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -234,15 +237,18 @@ static_assert(offsetof(::System::Net::__WebConnectionTunnel___Initialize_d__42, 
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 871 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(2508)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(9091)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2508), inst: 5332 })} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9091)), TypeDefinitionIndex(TypeDefinitionIndex(2508)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 871 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2508), inst: 5332 })} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(9223)) CS Name: ::WebConnectionTunnel::<ReadHeaders>d__43
 struct CORDL_TYPE __WebConnectionTunnel___ReadHeaders_d__43 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x29e1720, size 0x7bc, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -331,7 +337,7 @@ static_assert(offsetof(::System::Net::__WebConnectionTunnel___ReadHeaders_d__43,
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9221)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9221))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9224))
 // CS Name: ::System.Net::WebConnectionTunnel*
 class CORDL_TYPE WebConnectionTunnel : public ::System::Object {

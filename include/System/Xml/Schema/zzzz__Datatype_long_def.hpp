@@ -10,23 +10,23 @@ CORDL_MODULE_EXPORT(Datatype_long)
 namespace System::Xml::Schema {
 class FacetsChecker;
 }
-namespace System::Xml {
-class IXmlNamespaceResolver;
-}
-namespace System {
-class Exception;
-}
 namespace System::Xml::Schema {
 struct XmlTypeCode;
 }
-namespace System {
-class Type;
+namespace System::Xml {
+class IXmlNamespaceResolver;
 }
 namespace System::Xml {
 class XmlNameTable;
 }
 namespace System {
+class Exception;
+}
+namespace System {
 class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

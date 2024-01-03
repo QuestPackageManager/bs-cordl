@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MultiplayerConnectedPlayerSpectatingSpot)
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
-class MultiplayerSpectatingSpotManager;
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 class IMultiplayerObservable;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace UnityEngine {
-class Transform;
+class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
 class IMultiplayerSpectatingSpot;
 }
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class MultiplayerSpectatingSpotManager;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -71,6 +71,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IMultiplayerSpectatingSpot"
   constexpr operator ::GlobalNamespace::IMultiplayerSpectatingSpot*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IMultiplayerSpectatingSpot"
+  constexpr ::GlobalNamespace::IMultiplayerSpectatingSpot* i___GlobalNamespace__IMultiplayerSpectatingSpot() noexcept;
 
   constexpr ::GlobalNamespace::IConnectedPlayer*& __get__connectedPlayer();
 

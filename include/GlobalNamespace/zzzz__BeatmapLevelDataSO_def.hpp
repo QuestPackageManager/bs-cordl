@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(BeatmapLevelDataSO)
 namespace GlobalNamespace {
 class __BeatmapLevelDataSO__DifficultyBeatmapSet;
 }
-namespace UnityEngine {
-class AudioClip;
-}
 namespace GlobalNamespace {
 class __BeatmapLevelSO__DifficultyBeatmap;
+}
+namespace UnityEngine {
+class AudioClip;
 }
 // Forward declare root types
 namespace GlobalNamespace {

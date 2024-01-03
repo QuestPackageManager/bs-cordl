@@ -11,38 +11,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(WebReadStream)
-namespace System::Net {
-struct __WebReadStream___ReadAsync_d__28;
+namespace System::IO {
+struct SeekOrigin;
 }
 namespace System::IO {
 class Stream;
 }
-namespace System {
-class Object;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
 namespace System::Net {
 class WebOperation;
 }
-namespace System {
-class Exception;
+namespace System::Net {
+struct __WebReadStream___ReadAsync_d__28;
 }
-namespace System {
-class AsyncCallback;
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
-namespace System {
-class IAsyncResult;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System::IO {
-struct SeekOrigin;
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
@@ -50,11 +35,26 @@ template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAw
 namespace System::Runtime::CompilerServices {
 struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System {
+class Exception;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Net {
@@ -70,14 +70,17 @@ MARK_VAL_T(::System::Net::__WebReadStream___ReadAsync_d__28);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(3395)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3397))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9228)) CS Name: ::WebReadStream::<ReadAsync>d__28
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98
+// }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(3397))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(9228)) CS Name: ::WebReadStream::<ReadAsync>d__28
 struct CORDL_TYPE __WebReadStream___ReadAsync_d__28 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x29e3e60, size 0x584, virtual true, abstract: false, final true
   inline void MoveNext();

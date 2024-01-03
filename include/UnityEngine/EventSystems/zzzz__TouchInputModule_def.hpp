@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::TouchInputModule);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 121, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13206))
 // CS Name: ::UnityEngine.EventSystems::TouchInputModule*
 class CORDL_TYPE TouchInputModule : public ::UnityEngine::EventSystems::PointerInputModule {

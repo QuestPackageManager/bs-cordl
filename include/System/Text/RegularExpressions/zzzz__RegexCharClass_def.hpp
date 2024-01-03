@@ -9,23 +9,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RegexCharClass)
-namespace System::Text::RegularExpressions {
-struct __RegexCharClass__LowerCaseMapping;
-}
-namespace System::Globalization {
-struct UnicodeCategory;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace System::Text::RegularExpressions {
-class __RegexCharClass__SingleRangeComparer;
-}
-namespace System::Text::RegularExpressions {
-struct __RegexCharClass__SingleRange;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IComparer_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -33,8 +21,20 @@ template <typename T> class List_1;
 namespace System::Globalization {
 class CultureInfo;
 }
-namespace System::Collections::Generic {
-template <typename T> class IComparer_1;
+namespace System::Globalization {
+struct UnicodeCategory;
+}
+namespace System::Text::RegularExpressions {
+struct __RegexCharClass__LowerCaseMapping;
+}
+namespace System::Text::RegularExpressions {
+class __RegexCharClass__SingleRangeComparer;
+}
+namespace System::Text::RegularExpressions {
+struct __RegexCharClass__SingleRange;
+}
+namespace System::Text {
+class StringBuilder;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {
@@ -119,6 +119,10 @@ public:
 
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::System::Text::RegularExpressions::__RegexCharClass__SingleRange>"
   constexpr operator ::System::Collections::Generic::IComparer_1<::System::Text::RegularExpressions::__RegexCharClass__SingleRange>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::IComparer_1<::System::Text::RegularExpressions::__RegexCharClass__SingleRange>"
+  constexpr ::System::Collections::Generic::IComparer_1<::System::Text::RegularExpressions::__RegexCharClass__SingleRange>*
+  i___System__Collections__Generic__IComparer_1___System__Text__RegularExpressions____RegexCharClass__SingleRange_() noexcept;
 
   static inline void setStaticF_Instance(::System::Text::RegularExpressions::__RegexCharClass__SingleRangeComparer* value);
 

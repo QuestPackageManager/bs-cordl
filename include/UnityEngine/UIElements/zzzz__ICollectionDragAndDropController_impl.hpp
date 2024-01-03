@@ -7,8 +7,17 @@
 constexpr UnityEngine::UIElements::ICollectionDragAndDropController::operator ::UnityEngine::UIElements::IDragAndDropController_1<::UnityEngine::UIElements::IListDragAndDropArgs*>*() noexcept {
   return static_cast<::UnityEngine::UIElements::IDragAndDropController_1<::UnityEngine::UIElements::IListDragAndDropArgs*>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::UnityEngine::UIElements::IDragAndDropController_1<::UnityEngine::UIElements::IListDragAndDropArgs*>"
+constexpr ::UnityEngine::UIElements::IDragAndDropController_1<::UnityEngine::UIElements::IListDragAndDropArgs*>*
+UnityEngine::UIElements::ICollectionDragAndDropController::i___UnityEngine__UIElements__IDragAndDropController_1___UnityEngine__UIElements__IListDragAndDropArgs__() noexcept {
+  return static_cast<::UnityEngine::UIElements::IDragAndDropController_1<::UnityEngine::UIElements::IListDragAndDropArgs*>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::UnityEngine::UIElements::IReorderable"
 constexpr UnityEngine::UIElements::ICollectionDragAndDropController::operator ::UnityEngine::UIElements::IReorderable*() noexcept {
+  return static_cast<::UnityEngine::UIElements::IReorderable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::UIElements::IReorderable"
+constexpr ::UnityEngine::UIElements::IReorderable* UnityEngine::UIElements::ICollectionDragAndDropController::i___UnityEngine__UIElements__IReorderable() noexcept {
   return static_cast<::UnityEngine::UIElements::IReorderable*>(static_cast<void*>(this));
 }
 #ifndef CORDL_NO_IMPL_INCLUDE

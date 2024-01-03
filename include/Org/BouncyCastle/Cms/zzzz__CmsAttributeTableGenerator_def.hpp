@@ -3,11 +3,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(CmsAttributeTableGenerator)
-namespace System::Collections {
-class IDictionary;
-}
 namespace Org::BouncyCastle::Asn1::Cms {
 class AttributeTable;
+}
+namespace System::Collections {
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

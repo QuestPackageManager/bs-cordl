@@ -6,6 +6,10 @@
 template <typename T> constexpr BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>::operator ::BeatSaber::BeatAvatarSDK::IAvatarPart*() noexcept {
   return static_cast<::BeatSaber::BeatAvatarSDK::IAvatarPart*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::BeatSaber::BeatAvatarSDK::IAvatarPart"
+template <typename T> constexpr ::BeatSaber::BeatAvatarSDK::IAvatarPart* BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>::i___BeatSaber__BeatAvatarSDK__IAvatarPart() noexcept {
+  return static_cast<::BeatSaber::BeatAvatarSDK::IAvatarPart*>(static_cast<void*>(this));
+}
 template <typename T> constexpr ::StringW& BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>::__get__id() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____id;

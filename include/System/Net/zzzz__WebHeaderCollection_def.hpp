@@ -12,32 +12,32 @@ CORDL_MODULE_EXPORT(WebHeaderCollection)
 namespace System::Collections::Specialized {
 class NameValueCollection;
 }
-namespace System::Net {
-struct HttpRequestHeader;
-}
-namespace System {
-class Object;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Net {
 class HeaderInfoTable;
 }
 namespace System::Net {
+struct HttpRequestHeader;
+}
+namespace System::Net {
 struct WebHeaderCollectionType;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace System::Net {
 struct __WebHeaderCollection__RfcChar;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Net {
@@ -127,7 +127,7 @@ static_assert(offsetof(::System::Net::__WebHeaderCollection__RfcChar, value__) =
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 122, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9089)), TypeDefinitionIndex(TypeDefinitionIndex(9513))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9513)), TypeDefinitionIndex(TypeDefinitionIndex(9089))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9091))
 // CS Name: ::System.Net::WebHeaderCollection*
 class CORDL_TYPE WebHeaderCollection : public ::System::Collections::Specialized::NameValueCollection {
@@ -171,6 +171,9 @@ public:
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_m_CommonHeaders();
 

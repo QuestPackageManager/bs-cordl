@@ -14,20 +14,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScrollRect)
-namespace UnityEngine::UI {
-struct CanvasUpdate;
-}
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::EventSystems {
+class IBeginDragHandler;
 }
 namespace UnityEngine::EventSystems {
-class IInitializePotentialDragHandler;
+class IDragHandler;
+}
+namespace UnityEngine::EventSystems {
+class IEndDragHandler;
 }
 namespace UnityEngine::EventSystems {
 class IEventSystemHandler;
 }
 namespace UnityEngine::EventSystems {
+class IInitializePotentialDragHandler;
+}
+namespace UnityEngine::EventSystems {
 class IScrollHandler;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace UnityEngine::UI {
+struct CanvasUpdate;
 }
 namespace UnityEngine::UI {
 class ICanvasElement;
@@ -36,49 +45,40 @@ namespace UnityEngine::UI {
 class ILayoutController;
 }
 namespace UnityEngine::UI {
+class ILayoutElement;
+}
+namespace UnityEngine::UI {
 class ILayoutGroup;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
 }
 namespace UnityEngine::UI {
 class Scrollbar;
 }
-namespace UnityEngine {
-class Transform;
+namespace UnityEngine::UI {
+struct __ScrollRect__MovementType;
+}
+namespace UnityEngine::UI {
+class __ScrollRect__ScrollRectEvent;
 }
 namespace UnityEngine::UI {
 struct __ScrollRect__ScrollbarVisibility;
 }
 namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine {
 struct Bounds;
-}
-namespace UnityEngine::UI {
-class __ScrollRect__ScrollRectEvent;
-}
-namespace UnityEngine::EventSystems {
-class IDragHandler;
-}
-namespace UnityEngine::UI {
-class ILayoutElement;
-}
-namespace UnityEngine::UI {
-struct __ScrollRect__MovementType;
 }
 namespace UnityEngine {
 struct Matrix4x4;
 }
-namespace UnityEngine::EventSystems {
-class IBeginDragHandler;
+namespace UnityEngine {
+class RectTransform;
 }
-namespace UnityEngine::EventSystems {
-class IEndDragHandler;
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -244,8 +244,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__ScrollRect__S
 // SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13113)), TypeDefinitionIndex(TypeDefinitionIndex(10278)), TypeDefinitionIndex(TypeDefinitionIndex(13214)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13114)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10164))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13214)), TypeDefinitionIndex(TypeDefinitionIndex(13114)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13113)), TypeDefinitionIndex(TypeDefinitionIndex(10278)), TypeDefinitionIndex(TypeDefinitionIndex(10164))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(13116)) CS Name: ::UnityEngine.UI::ScrollRect*
 class CORDL_TYPE ScrollRect : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
@@ -432,32 +432,62 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IInitializePotentialDragHandler"
   constexpr operator ::UnityEngine::EventSystems::IInitializePotentialDragHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IInitializePotentialDragHandler"
+  constexpr ::UnityEngine::EventSystems::IInitializePotentialDragHandler* i___UnityEngine__EventSystems__IInitializePotentialDragHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IBeginDragHandler"
   constexpr operator ::UnityEngine::EventSystems::IBeginDragHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IBeginDragHandler"
+  constexpr ::UnityEngine::EventSystems::IBeginDragHandler* i___UnityEngine__EventSystems__IBeginDragHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEndDragHandler"
   constexpr operator ::UnityEngine::EventSystems::IEndDragHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IEndDragHandler"
+  constexpr ::UnityEngine::EventSystems::IEndDragHandler* i___UnityEngine__EventSystems__IEndDragHandler() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IDragHandler"
   constexpr operator ::UnityEngine::EventSystems::IDragHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IDragHandler"
+  constexpr ::UnityEngine::EventSystems::IDragHandler* i___UnityEngine__EventSystems__IDragHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IScrollHandler"
   constexpr operator ::UnityEngine::EventSystems::IScrollHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IScrollHandler"
+  constexpr ::UnityEngine::EventSystems::IScrollHandler* i___UnityEngine__EventSystems__IScrollHandler() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::UI::ICanvasElement"
   constexpr operator ::UnityEngine::UI::ICanvasElement*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::UI::ICanvasElement"
+  constexpr ::UnityEngine::UI::ICanvasElement* i___UnityEngine__UI__ICanvasElement() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::UI::ILayoutElement"
   constexpr operator ::UnityEngine::UI::ILayoutElement*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UI::ILayoutElement"
+  constexpr ::UnityEngine::UI::ILayoutElement* i___UnityEngine__UI__ILayoutElement() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::UI::ILayoutGroup"
   constexpr operator ::UnityEngine::UI::ILayoutGroup*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::UI::ILayoutGroup"
+  constexpr ::UnityEngine::UI::ILayoutGroup* i___UnityEngine__UI__ILayoutGroup() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::UI::ILayoutController"
   constexpr operator ::UnityEngine::UI::ILayoutController*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UI::ILayoutController"
+  constexpr ::UnityEngine::UI::ILayoutController* i___UnityEngine__UI__ILayoutController() noexcept;
 
   constexpr ::UnityEngine::RectTransform*& __get_m_Content();
 

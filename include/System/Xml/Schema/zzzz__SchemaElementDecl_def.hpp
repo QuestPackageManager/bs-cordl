@@ -5,14 +5,29 @@ CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__SchemaDeclBase_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SchemaElementDecl)
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Xml::Schema {
+class ContentValidator;
+}
+namespace System::Xml::Schema {
+class SchemaAttDef;
+}
 namespace System::Xml::Schema {
 class XmlSchemaAnyAttribute;
 }
 namespace System::Xml::Schema {
 class XmlSchemaDatatype;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
 }
 namespace System::Xml {
 class IDtdAttributeInfo;
@@ -23,23 +38,8 @@ class IDtdAttributeListInfo;
 namespace System::Xml {
 class IDtdDefaultAttributeInfo;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace System::Xml {
 class XmlQualifiedName;
-}
-namespace System::Xml::Schema {
-class SchemaAttDef;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Xml::Schema {
-class ContentValidator;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -106,6 +106,9 @@ public:
 
   /// @brief Convert operator to "::System::Xml::IDtdAttributeListInfo"
   constexpr operator ::System::Xml::IDtdAttributeListInfo*() noexcept;
+
+  /// @brief Convert to "::System::Xml::IDtdAttributeListInfo"
+  constexpr ::System::Xml::IDtdAttributeListInfo* i___System__Xml__IDtdAttributeListInfo() noexcept;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaAttDef*>*& __get_attdefs();
 

@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(WindowsConsoleDriver)
 namespace System {
-struct Handles;
+struct ConsoleKeyInfo;
 }
 namespace System {
 struct ConsoleScreenBufferInfo;
 }
 namespace System {
-class IConsoleDriver;
+struct Handles;
 }
 namespace System {
-struct ConsoleKeyInfo;
+class IConsoleDriver;
 }
 namespace System {
 struct InputRecord;
@@ -49,6 +49,9 @@ public:
 
   /// @brief Convert operator to "::System::IConsoleDriver"
   constexpr operator ::System::IConsoleDriver*() noexcept;
+
+  /// @brief Convert to "::System::IConsoleDriver"
+  constexpr ::System::IConsoleDriver* i___System__IConsoleDriver() noexcept;
 
   constexpr void*& __get_inputHandle();
 

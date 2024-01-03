@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithApplicationVersion);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13262)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 4576 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(13416))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13274)) CS Name: ::Oculus.Platform::MessageWithApplicationVersion*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13416)), TypeDefinitionIndex(TypeDefinitionIndex(13262)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst:
+// 4576 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13274)) CS Name: ::Oculus.Platform::MessageWithApplicationVersion*
 class CORDL_TYPE MessageWithApplicationVersion : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::ApplicationVersion*> {
 public:
   // Declarations

@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DerGeneralizedTime)
 namespace Org::BouncyCastle::Asn1 {
-class DerOutputStream;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerOutputStream;
 }
 namespace System {
 struct DateTime;
 }
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {

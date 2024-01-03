@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MaterialReferenceManager)
-namespace UnityEngine {
-class Material;
-}
-namespace TMPro {
-class TMP_SpriteAsset;
-}
-namespace TMPro {
-class TMP_ColorGradient;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace TMPro {
+class TMP_ColorGradient;
+}
+namespace TMPro {
 class TMP_FontAsset;
+}
+namespace TMPro {
+class TMP_SpriteAsset;
+}
+namespace UnityEngine {
+class Material;
 }
 // Forward declare root types
 namespace TMPro {

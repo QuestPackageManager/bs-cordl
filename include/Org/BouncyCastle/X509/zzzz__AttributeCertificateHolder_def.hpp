@@ -8,34 +8,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AttributeCertificateHolder)
 namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralNames;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
 }
-namespace System {
-class ICloneable;
-}
-namespace Org::BouncyCastle::X509::Store {
-class IX509Selector;
-}
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
+class GeneralNames;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class Holder;
 }
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::X509::Store {
+class IX509Selector;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace System {
+class ICloneable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {
@@ -67,8 +67,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::X509::Store::IX509Selector"
   constexpr operator ::Org::BouncyCastle::X509::Store::IX509Selector*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::X509::Store::IX509Selector"
+  constexpr ::Org::BouncyCastle::X509::Store::IX509Selector* i___Org__BouncyCastle__X509__Store__IX509Selector() noexcept;
+
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
+
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
   constexpr ::Org::BouncyCastle::Asn1::X509::Holder*& __get_holder();
 

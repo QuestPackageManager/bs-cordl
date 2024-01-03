@@ -5,32 +5,32 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(PrefabInstantiatorCached)
-namespace Zenject {
-class IPrefabInstantiator;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+class Action;
+}
+namespace System {
+class Type;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace UnityEngine {
 class Object;
 }
 namespace Zenject {
-class InjectContext;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace Zenject {
 class GameObjectCreationParameters;
 }
 namespace Zenject {
+class IPrefabInstantiator;
+}
+namespace Zenject {
+class InjectContext;
+}
+namespace Zenject {
 struct TypeValuePair;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace Zenject {
@@ -62,6 +62,9 @@ public:
 
   /// @brief Convert operator to "::Zenject::IPrefabInstantiator"
   constexpr operator ::Zenject::IPrefabInstantiator*() noexcept;
+
+  /// @brief Convert to "::Zenject::IPrefabInstantiator"
+  constexpr ::Zenject::IPrefabInstantiator* i___Zenject__IPrefabInstantiator() noexcept;
 
   constexpr ::Zenject::IPrefabInstantiator*& __get__subInstantiator();
 

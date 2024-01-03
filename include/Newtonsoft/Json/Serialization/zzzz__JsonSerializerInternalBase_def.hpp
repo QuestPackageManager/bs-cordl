@@ -6,29 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(JsonSerializerInternalBase)
-namespace Newtonsoft::Json {
-class JsonSerializer;
-}
 namespace Newtonsoft::Json::Serialization {
-class JsonContract;
-}
-namespace System {
-class Object;
-}
-namespace Newtonsoft::Json::Serialization {
-class __JsonSerializerInternalBase__ReferenceEqualsEqualityComparer;
+class ErrorContext;
 }
 namespace Newtonsoft::Json::Serialization {
 class ITraceWriter;
 }
 namespace Newtonsoft::Json::Serialization {
-class ErrorContext;
+class JsonContract;
 }
 namespace Newtonsoft::Json::Serialization {
 class JsonSerializerProxy;
 }
-namespace System {
-class Exception;
+namespace Newtonsoft::Json::Serialization {
+class __JsonSerializerInternalBase__ReferenceEqualsEqualityComparer;
 }
 namespace Newtonsoft::Json::Utilities {
 template <typename TFirst, typename TSecond> class BidirectionalDictionary_2;
@@ -36,8 +27,17 @@ template <typename TFirst, typename TSecond> class BidirectionalDictionary_2;
 namespace Newtonsoft::Json {
 class IJsonLineInfo;
 }
+namespace Newtonsoft::Json {
+class JsonSerializer;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEqualityComparer_1;
+}
+namespace System {
+class Exception;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -61,6 +61,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::System::Object*>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEqualityComparer_1<::System::Object*>* i___System__Collections__Generic__IEqualityComparer_1___System__Object__() noexcept;
 
   /// @brief Method System.Collections.Generic.IEqualityComparer<System.Object>.Equals, addr 0x267b804, size 0xc, virtual true, abstract: false, final true
   inline bool System_Collections_Generic_IEqualityComparer_System_Object__Equals(::System::Object* x, ::System::Object* y);

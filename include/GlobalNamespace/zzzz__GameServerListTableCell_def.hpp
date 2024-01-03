@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__TableCell_def.hpp"
 CORDL_MODULE_EXPORT(GameServerListTableCell)
 namespace GlobalNamespace {
+class INetworkPlayer;
+}
+namespace GlobalNamespace {
 class SongPackMasksModel;
 }
 namespace HMUI {
 class CurvedTextMeshPro;
-}
-namespace GlobalNamespace {
-class INetworkPlayer;
 }
 namespace UnityEngine {
 class GameObject;

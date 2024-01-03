@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Request)
 namespace Oculus::Platform {
-class __Message__Callback;
+class Message;
 }
 namespace Oculus::Platform {
-class Message;
+class __Message__Callback;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -65,8 +65,7 @@ public:
   inline void HandleMessage(::Oculus::Platform::Message* msg);
 
   /// @brief Method RunCallbacks, addr 0x26cfc5c, size 0x68, virtual false, abstract: false, final false
-  /// @param limit: uint32_t (default: static_cast<uint32_t>(0x4020000u))
-  static inline void RunCallbacks(uint32_t limit = static_cast<uint32_t>(0x4020000u));
+  static inline void RunCallbacks(uint32_t limit);
 
   // Ctor Parameters [CppParam { name: "", ty: "Request", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

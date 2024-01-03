@@ -8,29 +8,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BezierSpline)
-namespace UnityEngine {
-struct Vector3;
-}
 namespace GlobalNamespace {
-class __BezierSpline____c;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+struct BezierCurve;
 }
 namespace GlobalNamespace {
 struct __BezierSpline__ComputeControlPointsResults;
 }
 namespace GlobalNamespace {
-struct BezierCurve;
+class __BezierSpline____c;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T> class Comparison_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace System {
-template <typename T> class Comparison_1;
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {

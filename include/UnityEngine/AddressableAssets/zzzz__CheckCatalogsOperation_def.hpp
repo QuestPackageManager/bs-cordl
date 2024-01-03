@@ -12,13 +12,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CheckCatalogsOperation)
 namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine::AddressableAssets {
 class AddressablesImpl;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
 }
 namespace UnityEngine::AddressableAssets {
 class __AddressablesImpl__ResourceLocatorInfo;
@@ -26,17 +29,14 @@ class __AddressablesImpl__ResourceLocatorInfo;
 namespace UnityEngine::AddressableAssets {
 class __CheckCatalogsOperation____c;
 }
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> struct AsyncOperationHandle_1;
 }
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
+}
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 class IResourceProvider;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets {
@@ -104,10 +104,11 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 795 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 275 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3835)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3843), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(14033)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 792 }), TypeDefinitionIndex(TypeDefinitionIndex(3843)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14034))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14092)) CS Name: ::UnityEngine.AddressableAssets::CheckCatalogsOperation*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 275 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(14034)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3843), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(3843)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14033)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 795 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(14033), inst: 792 }), TypeDefinitionIndex(TypeDefinitionIndex(3835))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14092)) CS Name:
+// ::UnityEngine.AddressableAssets::CheckCatalogsOperation*
 class CORDL_TYPE CheckCatalogsOperation : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<::System::Collections::Generic::List_1<::StringW>*> {
 public:
   // Declarations

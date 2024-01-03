@@ -6,14 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AbstractTlsKeyExchange)
-namespace System::Collections {
-class IList;
-}
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
 class CertificateRequest;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class Certificate;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class DigitallySigned;
@@ -22,13 +19,16 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsKeyExchange;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCredentials;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class Certificate;
+class TlsKeyExchange;
+}
+namespace System::Collections {
+class IList;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -59,6 +59,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* i___Org__BouncyCastle__Crypto__Tls__TlsKeyExchange() noexcept;
 
   constexpr int32_t& __get_mKeyExchange();
 

@@ -10,25 +10,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OculusTestExperiment)
 namespace GlobalNamespace {
-class __OculusTestExperiment__ExperimentData;
-}
-namespace GlobalNamespace {
-struct __OculusTestExperiment___Init_d__3;
+class IExperimentData;
 }
 namespace GlobalNamespace {
 class IExperimentModel;
 }
 namespace GlobalNamespace {
-class IExperimentData;
+class __OculusTestExperiment__ExperimentData;
 }
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+namespace GlobalNamespace {
+struct __OculusTestExperiment___Init_d__3;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -61,6 +61,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IExperimentData"
   constexpr operator ::GlobalNamespace::IExperimentData*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IExperimentData"
+  constexpr ::GlobalNamespace::IExperimentData* i___GlobalNamespace__IExperimentData() noexcept;
 
   constexpr ::StringW& __get__experimentPlatformKey();
 
@@ -105,13 +108,16 @@ static_assert(offsetof(::GlobalNamespace::__OculusTestExperiment__ExperimentData
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4189)) CS Name: ::OculusTestExperiment::<Init>d__3
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4189)) CS Name: ::OculusTestExperiment::<Init>d__3
 struct CORDL_TYPE __OculusTestExperiment___Init_d__3 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x23232d4, size 0x470, virtual true, abstract: false, final true
   inline void MoveNext();

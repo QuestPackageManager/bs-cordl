@@ -5,9 +5,6 @@ CORDL_MODULE_INIT
 #include "RootMotion/FinalIK/zzzz__Grounder_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(GrounderVRIK)
-namespace UnityEngine {
-class Transform;
-}
 namespace RootMotion::FinalIK {
 class VRIK;
 }
@@ -16,6 +13,9 @@ class __Grounding__Leg;
 }
 namespace RootMotion::FinalIK {
 struct __IKSolverVR__PositionOffset;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {

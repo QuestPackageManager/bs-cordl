@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IConstructionReturnMessage)
 namespace System::Runtime::Remoting::Messaging {
-class IMethodMessage;
+class IMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+class IMethodMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMethodReturnMessage;
@@ -31,11 +31,20 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodReturnMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMethodReturnMessage*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodReturnMessage"
+  constexpr ::System::Runtime::Remoting::Messaging::IMethodReturnMessage* i___System__Runtime__Remoting__Messaging__IMethodReturnMessage() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMethodMessage*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodMessage"
+  constexpr ::System::Runtime::Remoting::Messaging::IMethodMessage* i___System__Runtime__Remoting__Messaging__IMethodMessage() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessage*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessage"
+  constexpr ::System::Runtime::Remoting::Messaging::IMessage* i___System__Runtime__Remoting__Messaging__IMessage() noexcept;
 
   // Ctor Parameters [CppParam { name: "", ty: "IConstructionReturnMessage", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

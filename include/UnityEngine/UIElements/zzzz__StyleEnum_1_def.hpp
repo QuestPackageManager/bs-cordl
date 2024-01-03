@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleEnum_1)
-namespace UnityEngine::UIElements {
-struct StyleKeyword;
-}
-namespace UnityEngine::UIElements {
-template <typename T> class IStyleValue_1;
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
 }
-namespace System {
-template <typename T> class IEquatable_1;
+namespace UnityEngine::UIElements {
+template <typename T> class IStyleValue_1;
+}
+namespace UnityEngine::UIElements {
+struct StyleKeyword;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -44,8 +44,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<T>"
   constexpr operator ::UnityEngine::UIElements::IStyleValue_1<T>*();
 
+  /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<T>"
+  constexpr ::UnityEngine::UIElements::IStyleValue_1<T>* i___UnityEngine__UIElements__IStyleValue_1_T_();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleEnum_1<T>>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleEnum_1<T>>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleEnum_1<T>>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleEnum_1<T>>* i___System__IEquatable_1___UnityEngine__UIElements__StyleEnum_1_T__();
 
   /// @brief Method get_value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T get_value();

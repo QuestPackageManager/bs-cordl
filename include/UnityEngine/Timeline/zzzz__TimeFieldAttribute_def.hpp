@@ -74,7 +74,7 @@ static_assert(offsetof(::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMod
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(13921))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13921)), TypeDefinitionIndex(TypeDefinitionIndex(10170))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13922))
 // CS Name: ::UnityEngine.Timeline::TimeFieldAttribute*
 class CORDL_TYPE TimeFieldAttribute : public ::UnityEngine::PropertyAttribute {
@@ -99,8 +99,7 @@ public:
   static inline ::UnityEngine::Timeline::TimeFieldAttribute* New_ctor(::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode useEditMode);
 
   /// @brief Method .ctor, addr 0x2c6e768, size 0x28, virtual false, abstract: false, final false
-  /// @param useEditMode: ::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode (default: static_cast<int32_t>(0x1))
-  inline void _ctor(::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode useEditMode = static_cast<int32_t>(0x1));
+  inline void _ctor(::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode useEditMode);
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeFieldAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

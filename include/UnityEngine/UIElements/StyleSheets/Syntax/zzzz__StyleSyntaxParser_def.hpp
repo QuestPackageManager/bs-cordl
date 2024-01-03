@@ -10,26 +10,26 @@ CORDL_MODULE_EXPORT(StyleSyntaxParser)
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace UnityEngine::UIElements::StyleSheets::Syntax {
-struct ExpressionMultiplier;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class Stack_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 struct ExpressionCombinator;
 }
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
+struct ExpressionMultiplier;
+}
+namespace UnityEngine::UIElements::StyleSheets::Syntax {
 class Expression;
 }
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
-class StyleSyntaxTokenizer;
+struct StyleSyntaxToken;
 }
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
-struct StyleSyntaxToken;
+class StyleSyntaxTokenizer;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets::Syntax {

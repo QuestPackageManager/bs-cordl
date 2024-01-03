@@ -10,10 +10,10 @@ namespace System::Security::AccessControl {
 struct AceFlags;
 }
 namespace System::Security::AccessControl {
-struct AceType;
+struct AceQualifier;
 }
 namespace System::Security::AccessControl {
-struct AceQualifier;
+struct AceType;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {

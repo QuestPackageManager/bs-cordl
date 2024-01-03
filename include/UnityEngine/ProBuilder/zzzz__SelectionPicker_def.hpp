@@ -6,35 +6,35 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SelectionPicker)
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
 namespace UnityEngine::ProBuilder {
 struct Edge;
 }
 namespace UnityEngine::ProBuilder {
 class Face;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::ProBuilder {
+struct PickerOptions;
 }
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
 namespace UnityEngine {
 class Camera;
 }
-namespace UnityEngine::ProBuilder {
-struct PickerOptions;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
 namespace UnityEngine {
 struct Rect;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -53,22 +53,19 @@ class CORDL_TYPE SelectionPicker : public ::System::Object {
 public:
   // Declarations
   /// @brief Method PickVerticesInRect, addr 0x2b63a48, size 0x63c, virtual false, abstract: false, final false
-  /// @param pixelsPerPoint: float_t (default: 1.0)
   static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::HashSet_1<int32_t>*>*
   PickVerticesInRect(::UnityEngine::Camera* cam, ::UnityEngine::Rect rect, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selectable,
-                     ::UnityEngine::ProBuilder::PickerOptions options, float_t pixelsPerPoint = 1.0);
+                     ::UnityEngine::ProBuilder::PickerOptions options, float_t pixelsPerPoint);
 
   /// @brief Method PickFacesInRect, addr 0x2b64a3c, size 0xf44, virtual false, abstract: false, final false
-  /// @param pixelsPerPoint: float_t (default: 1.0)
   static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*>*
   PickFacesInRect(::UnityEngine::Camera* cam, ::UnityEngine::Rect rect, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selectable,
-                  ::UnityEngine::ProBuilder::PickerOptions options, float_t pixelsPerPoint = 1.0);
+                  ::UnityEngine::ProBuilder::PickerOptions options, float_t pixelsPerPoint);
 
   /// @brief Method PickEdgesInRect, addr 0x2b65f64, size 0x848, virtual false, abstract: false, final false
-  /// @param pixelsPerPoint: float_t (default: 1.0)
   static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Edge>*>*
   PickEdgesInRect(::UnityEngine::Camera* cam, ::UnityEngine::Rect rect, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selectable,
-                  ::UnityEngine::ProBuilder::PickerOptions options, float_t pixelsPerPoint = 1.0);
+                  ::UnityEngine::ProBuilder::PickerOptions options, float_t pixelsPerPoint);
 
   /// @brief Method PickFace, addr 0x2b66f4c, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Face* PickFace(::UnityEngine::Camera* camera, ::UnityEngine::Vector3 mousePosition, ::UnityEngine::ProBuilder::ProBuilderMesh* pickable);

@@ -27,6 +27,9 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IGroupBox"
   constexpr operator ::UnityEngine::UIElements::IGroupBox*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::UIElements::IGroupBox"
+  constexpr ::UnityEngine::UIElements::IGroupBox* i___UnityEngine__UIElements__IGroupBox() noexcept;
+
   // Ctor Parameters [CppParam { name: "", ty: "IGroupBox_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IGroupBox_1(IGroupBox_1&&) = delete;

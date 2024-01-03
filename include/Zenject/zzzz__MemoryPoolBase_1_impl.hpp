@@ -1,27 +1,39 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__MemoryPoolBase_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-#include "Zenject/zzzz__IFactory_1_def.hpp"
-#include "Zenject/zzzz__MemoryPoolSettings_def.hpp"
-#include "Zenject/zzzz__IValidatable_def.hpp"
-#include "Zenject/zzzz__IMemoryPool_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__IFactory_1_def.hpp"
+#include "Zenject/zzzz__IMemoryPool_def.hpp"
+#include "Zenject/zzzz__IValidatable_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "Zenject/zzzz__MemoryPoolSettings_def.hpp"
 /// @brief Convert operator to "::Zenject::IValidatable"
 template <typename TContract> constexpr Zenject::MemoryPoolBase_1<TContract>::operator ::Zenject::IValidatable*() noexcept {
+  return static_cast<::Zenject::IValidatable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::IValidatable"
+template <typename TContract> constexpr ::Zenject::IValidatable* Zenject::MemoryPoolBase_1<TContract>::i___Zenject__IValidatable() noexcept {
   return static_cast<::Zenject::IValidatable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::Zenject::IMemoryPool"
 template <typename TContract> constexpr Zenject::MemoryPoolBase_1<TContract>::operator ::Zenject::IMemoryPool*() noexcept {
   return static_cast<::Zenject::IMemoryPool*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::Zenject::IMemoryPool"
+template <typename TContract> constexpr ::Zenject::IMemoryPool* Zenject::MemoryPoolBase_1<TContract>::i___Zenject__IMemoryPool() noexcept {
+  return static_cast<::Zenject::IMemoryPool*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::IDisposable"
 template <typename TContract> constexpr Zenject::MemoryPoolBase_1<TContract>::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename TContract> constexpr ::System::IDisposable* Zenject::MemoryPoolBase_1<TContract>::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 template <typename TContract> constexpr ::System::Collections::Generic::Stack_1<TContract>*& Zenject::MemoryPoolBase_1<TContract>::__get__inactiveItems() {

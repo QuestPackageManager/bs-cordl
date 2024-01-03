@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MonoBehaviour)
-namespace UnityEngine {
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
 class Object;
 }
 namespace UnityEngine {
 class Coroutine;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
+namespace UnityEngine {
 class Object;
 }
 // Forward declare root types

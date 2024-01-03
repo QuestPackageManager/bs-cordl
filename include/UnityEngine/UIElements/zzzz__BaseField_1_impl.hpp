@@ -3,18 +3,18 @@
 #include "UnityEngine/UIElements/zzzz__CustomStyleProperty_1_impl.hpp"
 #include "UnityEngine/zzzz__PropertyName_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseField_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Label_def.hpp"
-#include "UnityEngine/UIElements/zzzz__INotifyValueChanged_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__AttachToPanelEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__CustomStyleResolvedEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__GeometryChangedEvent_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseField_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CustomStyleResolvedEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__GeometryChangedEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__INotifyValueChanged_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Label_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlStringAttributeDescription_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
 template <typename TValueType> constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& UnityEngine::UIElements::__BaseField_1__UxmlTraits<TValueType>::__get_m_Label() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Label;
@@ -55,6 +55,11 @@ template <typename TValueType> inline ::System::Collections::Generic::List_1<::S
 template <typename TValueType> constexpr ::UnityEngine::UIElements::__BaseField_1__UxmlTraits<TValueType>::__BaseField_1__UxmlTraits() {}
 /// @brief Convert operator to "::UnityEngine::UIElements::INotifyValueChanged_1<TValueType>"
 template <typename TValueType> constexpr UnityEngine::UIElements::BaseField_1<TValueType>::operator ::UnityEngine::UIElements::INotifyValueChanged_1<TValueType>*() noexcept {
+  return static_cast<::UnityEngine::UIElements::INotifyValueChanged_1<TValueType>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::UIElements::INotifyValueChanged_1<TValueType>"
+template <typename TValueType>
+constexpr ::UnityEngine::UIElements::INotifyValueChanged_1<TValueType>* UnityEngine::UIElements::BaseField_1<TValueType>::i___UnityEngine__UIElements__INotifyValueChanged_1_TValueType_() noexcept {
   return static_cast<::UnityEngine::UIElements::INotifyValueChanged_1<TValueType>*>(static_cast<void*>(this));
 }
 template <typename TValueType> constexpr float_t& UnityEngine::UIElements::BaseField_1<TValueType>::__get_m_LabelWidthRatio() {

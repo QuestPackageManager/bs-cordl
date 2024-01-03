@@ -6,13 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(DataEntry)
 namespace Oculus::Platform::Models {
-class User;
+class AchievementDefinitionList;
 }
-namespace Oculus::Platform {
-template <typename T> class Message_1;
-}
-namespace UnityEngine::UI {
-class Text;
+namespace Oculus::Platform::Models {
+class AchievementProgressList;
 }
 namespace Oculus::Platform::Models {
 class LeaderboardEntryList;
@@ -21,16 +18,19 @@ namespace Oculus::Platform::Models {
 class UserList;
 }
 namespace Oculus::Platform::Models {
-class AchievementDefinitionList;
+class UserProof;
 }
 namespace Oculus::Platform::Models {
-class UserProof;
+class User;
+}
+namespace Oculus::Platform {
+template <typename T> class Message_1;
 }
 namespace Oculus::Platform {
 class Message;
 }
-namespace Oculus::Platform::Models {
-class AchievementProgressList;
+namespace UnityEngine::UI {
+class Text;
 }
 // Forward declare root types
 namespace Oculus::Platform::Samples::SimplePlatformSample {

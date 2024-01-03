@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(BloomPrePassEffectSO)
 namespace GlobalNamespace {
 class IBloomPrePassParams;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace GlobalNamespace {
+class TextureEffectSO;
 }
 namespace GlobalNamespace {
 struct ToneMapping;
 }
-namespace GlobalNamespace {
-class TextureEffectSO;
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassEffectSO);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14579)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(14579))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14470))
 // CS Name: ::BloomPrePassEffectSO*
 class CORDL_TYPE BloomPrePassEffectSO : public ::GlobalNamespace::TextureEffectSO {
@@ -61,6 +61,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IBloomPrePassParams"
   constexpr operator ::GlobalNamespace::IBloomPrePassParams*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IBloomPrePassParams"
+  constexpr ::GlobalNamespace::IBloomPrePassParams* i___GlobalNamespace__IBloomPrePassParams() noexcept;
 
   constexpr int32_t& __get__textureWidth();
 

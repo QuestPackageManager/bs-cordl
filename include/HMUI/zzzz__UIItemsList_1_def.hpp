@@ -6,29 +6,29 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UIItemsList_1)
-namespace UnityEngine {
-class Transform;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace HMUI {
 template <typename T> class __UIItemsList_1__DataCallback;
-}
-namespace Zenject {
-class DiContainer;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace HMUI {

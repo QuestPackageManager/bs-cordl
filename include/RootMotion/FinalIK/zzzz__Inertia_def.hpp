@@ -9,17 +9,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(Inertia)
+namespace GlobalNamespace {
+class __Inertia__Body__EffectorLink;
+}
+namespace RootMotion::FinalIK {
+class IKSolverFullBodyBiped;
+}
 namespace RootMotion::FinalIK {
 class __Inertia__Body;
 }
 namespace RootMotion::FinalIK {
 class __OffsetModifier__OffsetLimits;
-}
-namespace RootMotion::FinalIK {
-class IKSolverFullBodyBiped;
-}
-namespace GlobalNamespace {
-class __Inertia__Body__EffectorLink;
 }
 namespace UnityEngine {
 class Transform;
@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__Inertia__Body);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12571)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12571))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12650))
 // CS Name: ::Inertia::Body::EffectorLink*
 class CORDL_TYPE __Inertia__Body__EffectorLink : public ::System::Object {
@@ -105,7 +105,7 @@ static_assert(offsetof(::GlobalNamespace::__Inertia__Body__EffectorLink, ___weig
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12651))
 // CS Name: ::Inertia::Body*
 class CORDL_TYPE __Inertia__Body : public ::System::Object {

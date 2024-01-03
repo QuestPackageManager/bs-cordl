@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(ThreadHelper)
 namespace System::Threading {
 class ContextCallback;
 }
-namespace System {
-class Delegate;
-}
 namespace System::Threading {
 class ExecutionContext;
+}
+namespace System {
+class Delegate;
 }
 namespace System {
 class Object;

@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Runtime/CompilerServices/zzzz__YieldAwaitable_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__YieldAwaitable_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ICriticalNotifyCompletion_def.hpp"
-#include "System/Threading/zzzz__WaitCallback_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__INotifyCompletion_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__YieldAwaitable_def.hpp"
 #include "System/Threading/zzzz__SendOrPostCallback_def.hpp"
+#include "System/Threading/zzzz__WaitCallback_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__INotifyCompletion_def.hpp"
 //  Writing Method size for method: ::System::Runtime::CompilerServices::__YieldAwaitable__YieldAwaiter.get_IsCompleted
 template <>
 
@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x24de710;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__YieldAwaitable__YieldAwaiter>::get(), "get_IsCompleted",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x24de718;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__YieldAwaitable__YieldAwaiter>::get(), "OnCompleted",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x24dea10;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__YieldAwaitable__YieldAwaiter>::get(), "UnsafeOnCompleted",
                                     std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
@@ -60,7 +60,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x2a0;
   constexpr static std::size_t addrs = 0x24de770;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__YieldAwaitable__YieldAwaiter>::get(), "QueueContinuation", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
@@ -74,7 +74,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x24dea68;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__YieldAwaitable__YieldAwaiter>::get(), "RunAction",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
@@ -89,7 +89,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x24dead4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__YieldAwaitable__YieldAwaiter>::get(), "GetResult",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -100,8 +100,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 constexpr System::Runtime::CompilerServices::__YieldAwaitable__YieldAwaiter::operator ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*() {
   return static_cast<::System::Runtime::CompilerServices::ICriticalNotifyCompletion*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
+constexpr ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*
+System::Runtime::CompilerServices::__YieldAwaitable__YieldAwaiter::i___System__Runtime__CompilerServices__ICriticalNotifyCompletion() {
+  return static_cast<::System::Runtime::CompilerServices::ICriticalNotifyCompletion*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
 constexpr System::Runtime::CompilerServices::__YieldAwaitable__YieldAwaiter::operator ::System::Runtime::CompilerServices::INotifyCompletion*() {
+  return static_cast<::System::Runtime::CompilerServices::INotifyCompletion*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::INotifyCompletion"
+constexpr ::System::Runtime::CompilerServices::INotifyCompletion* System::Runtime::CompilerServices::__YieldAwaitable__YieldAwaiter::i___System__Runtime__CompilerServices__INotifyCompletion() {
   return static_cast<::System::Runtime::CompilerServices::INotifyCompletion*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 inline void System::Runtime::CompilerServices::__YieldAwaitable__YieldAwaiter::setStaticF_s_waitCallbackRunAction(::System::Threading::WaitCallback* value) {
@@ -168,7 +177,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x24de708;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable>::get(),
                                                                                "GetAwaiter", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;

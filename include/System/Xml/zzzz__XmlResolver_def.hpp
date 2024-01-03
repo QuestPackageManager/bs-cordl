@@ -12,10 +12,10 @@ namespace System {
 class Object;
 }
 namespace System {
-class Uri;
+class Type;
 }
 namespace System {
-class Type;
+class Uri;
 }
 // Forward declare root types
 namespace System::Xml {

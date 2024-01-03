@@ -26,6 +26,9 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::Haptics::IHaptics"
   constexpr operator ::UnityEngine::InputSystem::Haptics::IHaptics*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::InputSystem::Haptics::IHaptics"
+  constexpr ::UnityEngine::InputSystem::Haptics::IHaptics* i___UnityEngine__InputSystem__Haptics__IHaptics() noexcept;
+
   /// @brief Method SetMotorSpeeds, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetMotorSpeeds(float_t lowFrequency, float_t highFrequency);
 

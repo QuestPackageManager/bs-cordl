@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(CanvasUpdateRegistry)
 namespace System {
 template <typename T> class Comparison_1;
 }
-namespace UnityEngine {
-class Transform;
+namespace UnityEngine::UI::Collections {
+template <typename T> class IndexedSet_1;
 }
 namespace UnityEngine::UI {
 class ICanvasElement;
 }
-namespace UnityEngine::UI::Collections {
-template <typename T> class IndexedSet_1;
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace UnityEngine::UI {

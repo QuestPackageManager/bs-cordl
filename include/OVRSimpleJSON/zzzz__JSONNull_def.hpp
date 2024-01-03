@@ -10,16 +10,16 @@ namespace OVRSimpleJSON {
 struct JSONNodeType;
 }
 namespace OVRSimpleJSON {
-struct __JSONNode__Enumerator;
+struct JSONTextMode;
 }
-namespace System {
-class Object;
+namespace OVRSimpleJSON {
+struct __JSONNode__Enumerator;
 }
 namespace System::Text {
 class StringBuilder;
 }
-namespace OVRSimpleJSON {
-struct JSONTextMode;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace OVRSimpleJSON {

@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__JumpReceiver_def.hpp"
-#include "UnityEngine/Playables/zzzz__INotificationReceiver_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
+#include "UnityEngine/Playables/zzzz__INotificationReceiver_def.hpp"
 #include "UnityEngine/Playables/zzzz__INotification_def.hpp"
+#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::JumpReceiver.get_jumpToDestinationValid
 template <>
 
@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x20f5bc0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::JumpReceiver*>::get(),
                                                                                "get_jumpToDestinationValid", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -25,7 +25,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x20f5bc8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::JumpReceiver*>::get(), "set_jumpToDestinationValid",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
@@ -40,7 +40,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x140;
   constexpr static std::size_t addrs = 0x20f5bd4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::JumpReceiver*>::get(), "OnNotify", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Playables::Playable>::get(),
@@ -56,7 +56,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x20f5d14;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::JumpReceiver*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -64,6 +64,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::UnityEngine::Playables::INotificationReceiver"
 constexpr GlobalNamespace::JumpReceiver::operator ::UnityEngine::Playables::INotificationReceiver*() noexcept {
+  return static_cast<::UnityEngine::Playables::INotificationReceiver*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::Playables::INotificationReceiver"
+constexpr ::UnityEngine::Playables::INotificationReceiver* GlobalNamespace::JumpReceiver::i___UnityEngine__Playables__INotificationReceiver() noexcept {
   return static_cast<::UnityEngine::Playables::INotificationReceiver*>(static_cast<void*>(this));
 }
 constexpr bool& GlobalNamespace::JumpReceiver::__get__jumpToDestinationValid_k__BackingField() {

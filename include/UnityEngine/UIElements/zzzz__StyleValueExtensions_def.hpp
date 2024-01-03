@@ -5,32 +5,32 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(StyleValueExtensions)
-namespace UnityEngine::UIElements {
-struct Rotate;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class IStyleValue_1;
 }
 namespace UnityEngine::UIElements {
-struct StyleKeyword;
+struct Length;
 }
-namespace UnityEngine::Yoga {
-struct YogaValue;
+namespace UnityEngine::UIElements {
+struct Rotate;
+}
+namespace UnityEngine::UIElements {
+struct Scale;
+}
+namespace UnityEngine::UIElements {
+struct StyleKeyword;
 }
 namespace UnityEngine::UIElements {
 struct StyleLength;
 }
 namespace UnityEngine::UIElements {
-struct Scale;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::UIElements {
-struct Length;
-}
-namespace UnityEngine::UIElements {
 struct Translate;
+}
+namespace UnityEngine::Yoga {
+struct YogaValue;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

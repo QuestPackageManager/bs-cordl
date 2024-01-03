@@ -38,6 +38,9 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::HMAutoincrementedRequestId*>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::HMAutoincrementedRequestId*>*() noexcept;
 
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::HMAutoincrementedRequestId*>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::HMAutoincrementedRequestId*>* i___System__IEquatable_1___GlobalNamespace__HMAutoincrementedRequestId__() noexcept;
+
   constexpr uint64_t& __get__requestId();
 
   constexpr uint64_t const& __get__requestId() const;

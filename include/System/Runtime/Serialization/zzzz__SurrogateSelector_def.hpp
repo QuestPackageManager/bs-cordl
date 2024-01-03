@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(SurrogateSelector)
 namespace System::Runtime::Serialization {
+class ISerializationSurrogate;
+}
+namespace System::Runtime::Serialization {
 class ISurrogateSelector;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System {
-class Type;
-}
 namespace System::Runtime::Serialization {
 class SurrogateHashtable;
 }
-namespace System::Runtime::Serialization {
-class ISerializationSurrogate;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -44,6 +44,9 @@ public:
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISurrogateSelector"
   constexpr operator ::System::Runtime::Serialization::ISurrogateSelector*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISurrogateSelector"
+  constexpr ::System::Runtime::Serialization::ISurrogateSelector* i___System__Runtime__Serialization__ISurrogateSelector() noexcept;
 
   constexpr ::System::Runtime::Serialization::SurrogateHashtable*& __get_m_surrogates();
 

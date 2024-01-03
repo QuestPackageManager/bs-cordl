@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StylePropertyValueMatcher)
-namespace UnityEngine::UIElements::StyleSheets {
-struct StylePropertyValue;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct MatchResult;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 class Expression;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct MatchResult;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct StylePropertyValue;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {

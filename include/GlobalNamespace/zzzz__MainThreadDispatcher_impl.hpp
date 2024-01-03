@@ -1,14 +1,14 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MainThreadDispatcher_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "Zenject/zzzz__ITickable_def.hpp"
 #include "GlobalNamespace/zzzz__MainThreadDispatcher_def.hpp"
+#include "System/Collections/Concurrent/zzzz__ConcurrentQueue_1_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
 #include "System/zzzz__Action_3_def.hpp"
 #include "System/zzzz__Action_4_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "System/Collections/Concurrent/zzzz__ConcurrentQueue_1_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
+#include "Zenject/zzzz__ITickable_def.hpp"
 template <typename A> constexpr ::System::Action_1<A>*& GlobalNamespace::__MainThreadDispatcher____c__DisplayClass2_0_1<A>::__get_action() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___action;
@@ -259,7 +259,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x226ca44;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainThreadDispatcher*>::get(), "DispatchOnMainThread",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
@@ -273,7 +273,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x104;
   constexpr static std::size_t addrs = 0x226ca9c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainThreadDispatcher*>::get(), "Tick",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -286,7 +286,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x226cba0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainThreadDispatcher*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -294,6 +294,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::Zenject::ITickable"
 constexpr GlobalNamespace::MainThreadDispatcher::operator ::Zenject::ITickable*() noexcept {
+  return static_cast<::Zenject::ITickable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::ITickable"
+constexpr ::Zenject::ITickable* GlobalNamespace::MainThreadDispatcher::i___Zenject__ITickable() noexcept {
   return static_cast<::Zenject::ITickable*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::Concurrent::ConcurrentQueue_1<::System::Action*>*& GlobalNamespace::MainThreadDispatcher::__get__dispatchQueue() {

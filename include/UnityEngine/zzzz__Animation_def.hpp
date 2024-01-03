@@ -9,41 +9,41 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Animation)
-namespace UnityEngine {
-struct AnimationCullingType;
-}
-namespace UnityEngine {
-struct PlayMode;
-}
-namespace UnityEngine {
-struct Bounds;
-}
-namespace UnityEngine {
-class AnimationClip;
-}
-namespace UnityEngine {
-class __Animation__Enumerator;
-}
-namespace UnityEngine {
-struct WrapMode;
-}
 namespace System::Collections {
 class IEnumerable;
-}
-namespace UnityEngine {
-class AnimationState;
-}
-namespace UnityEngine {
-struct QueueMode;
-}
-namespace UnityEngine {
-struct AnimationPlayMode;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
 class Object;
+}
+namespace UnityEngine {
+class AnimationClip;
+}
+namespace UnityEngine {
+struct AnimationCullingType;
+}
+namespace UnityEngine {
+struct AnimationPlayMode;
+}
+namespace UnityEngine {
+class AnimationState;
+}
+namespace UnityEngine {
+struct Bounds;
+}
+namespace UnityEngine {
+struct PlayMode;
+}
+namespace UnityEngine {
+struct QueueMode;
+}
+namespace UnityEngine {
+struct WrapMode;
+}
+namespace UnityEngine {
+class __Animation__Enumerator;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -75,6 +75,9 @@ public:
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr ::UnityEngine::Animation*& __get_m_Outer();
 
@@ -164,6 +167,9 @@ public:
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Method get_clip, addr 0x2c8f1d0, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::AnimationClip* get_clip();

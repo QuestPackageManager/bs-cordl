@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
 CORDL_MODULE_EXPORT(CancellationTokenSource_LinkedNCancellationTokenSource)
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
 class __CancellationTokenSource__LinkedNCancellationTokenSource____c;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System {
 class Object;

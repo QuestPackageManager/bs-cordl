@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowCon
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4742), inst: 356 }), TypeDefinitionIndex(TypeDefinitionIndex(5137)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4742))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5135)) CS Name: ::MultiplayerConnectedPlayerDisappearingArrowController*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4742)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4742), inst: 356 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(5137))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5135)) CS Name: ::MultiplayerConnectedPlayerDisappearingArrowController*
 class CORDL_TYPE MultiplayerConnectedPlayerDisappearingArrowController : public ::GlobalNamespace::DisappearingArrowControllerBase_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*> {
 public:
   // Declarations

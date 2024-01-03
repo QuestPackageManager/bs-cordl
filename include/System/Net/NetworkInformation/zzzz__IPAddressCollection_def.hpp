@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IPAddressCollection)
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
-class IEnumerable;
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System::Net {
-class IPAddress;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::ObjectModel {
 template <typename T> class Collection_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System::Collections {
+class IEnumerable;
 }
-namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Net {
+class IPAddress;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {
@@ -53,11 +53,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<::System::Net::IPAddress*>"
   constexpr operator ::System::Collections::Generic::ICollection_1<::System::Net::IPAddress*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::ICollection_1<::System::Net::IPAddress*>"
+  constexpr ::System::Collections::Generic::ICollection_1<::System::Net::IPAddress*>* i___System__Collections__Generic__ICollection_1___System__Net__IPAddress__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Net::IPAddress*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::System::Net::IPAddress*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Net::IPAddress*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::System::Net::IPAddress*>* i___System__Collections__Generic__IEnumerable_1___System__Net__IPAddress__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::System::Collections::ObjectModel::Collection_1<::System::Net::IPAddress*>*& __get_addresses();
 

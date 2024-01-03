@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GL)
 namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
 struct Matrix4x4;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine {

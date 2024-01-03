@@ -7,20 +7,20 @@ CORDL_MODULE_EXPORT(PkixAttrCertPathBuilder)
 namespace Org::BouncyCastle::Pkix {
 class PkixBuilderParameters;
 }
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
+namespace Org::BouncyCastle::Pkix {
+class PkixCertPathBuilderResult;
 }
 namespace Org::BouncyCastle::X509 {
 class IX509AttributeCertificate;
 }
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
+}
+namespace System::Collections {
+class IList;
+}
 namespace System {
 class Exception;
-}
-namespace Org::BouncyCastle::Pkix {
-class PkixCertPathBuilderResult;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {

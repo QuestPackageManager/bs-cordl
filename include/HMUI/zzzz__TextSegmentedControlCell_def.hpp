@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(TextSegmentedControlCell)
-namespace UnityEngine {
-class GameObject;
-}
 namespace TMPro {
 class TextMeshProUGUI;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace HMUI {

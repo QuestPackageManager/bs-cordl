@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseNumberConverter)
-namespace System {
-class Object;
-}
 namespace System::ComponentModel {
 class ITypeDescriptorContext;
 }
-namespace System {
-class Type;
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace System::Globalization {
 class NumberFormatInfo;
 }
-namespace System::Globalization {
-class CultureInfo;
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::ComponentModel {

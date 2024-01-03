@@ -17,29 +17,53 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputEventTrace)
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
+namespace GlobalNamespace {
+class __InputEventTrace__ReplayController____c;
 }
-namespace System {
-template <typename T> class Comparison_1;
+namespace GlobalNamespace {
+class __InputEventTrace__ReplayController____c__DisplayClass43_0;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class __InputEventTrace__ReplayController;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::IO {
 class Stream;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+class Action;
+}
+namespace System {
+template <typename T> class Comparison_1;
+}
+namespace System {
+template <typename T1, typename T2, typename TResult> class Func_3;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct __InputEventTrace__DeviceInfo;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class __InputEventTrace__Enumerator;
@@ -47,41 +71,17 @@ class __InputEventTrace__Enumerator;
 namespace UnityEngine::InputSystem::LowLevel {
 struct __InputEventTrace__FileFlags;
 }
-namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace UnityEngine::InputSystem::LowLevel {
+class __InputEventTrace__ReplayController;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct __InputEventTrace__DeviceInfo;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> struct ReadOnlyArray_1;
 }
-namespace System {
-class Object;
-}
-namespace GlobalNamespace {
-class __InputEventTrace__ReplayController____c;
-}
-namespace System {
-class Action;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-class __InputEventTrace__ReplayController____c__DisplayClass43_0;
+namespace UnityEngine::InputSystem {
+class InputDevice;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -117,7 +117,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__InputEventTrace__DeviceInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6536))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6536)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6538))
 // CS Name: ::InputEventTrace::Enumerator*
 class CORDL_TYPE __InputEventTrace__Enumerator : public ::System::Object {
@@ -139,11 +139,21 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*
+  i___System__Collections__Generic__IEnumerator_1___UnityEngine__InputSystem__LowLevel__InputEventPtr_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputEventTrace*& __get_m_Trace();
 
@@ -372,9 +382,10 @@ static_assert(offsetof(::GlobalNamespace::__InputEventTrace__ReplayController___
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6239)), TypeDefinitionIndex(TypeDefinitionIndex(3841)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3057
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 2036 }), TypeDefinitionIndex(TypeDefinitionIndex(6669)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 533 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6542)) CS Name: ::InputEventTrace::ReplayController*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3841)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 533 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6239)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 2036 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6669)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3057 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6542)) CS
+// Name: ::InputEventTrace::ReplayController*
 class CORDL_TYPE __InputEventTrace__ReplayController : public ::System::Object {
 public:
   // Declarations
@@ -437,6 +448,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr bool& __get__finished_k__BackingField();
 
@@ -780,8 +794,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__InputEventTrace__
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 986 }), TypeDefinitionIndex(TypeDefinitionIndex(6660)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2323)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 330 }),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2323)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 986 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6660)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 330 }),
 // TypeDefinitionIndex(TypeDefinitionIndex(6536))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6544)) CS Name: ::UnityEngine.InputSystem.LowLevel::InputEventTrace*
 class CORDL_TYPE InputEventTrace : public ::System::Object {
 public:
@@ -876,11 +890,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*
+  i___System__Collections__Generic__IEnumerable_1___UnityEngine__InputSystem__LowLevel__InputEventPtr_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr int32_t& __get_m_ChangeCounter();
 
@@ -1034,22 +1058,12 @@ public:
                                                                                 int64_t maxBufferSizeInBytes, int64_t growIncrementSizeInBytes);
 
   /// @brief Method .ctor, addr 0x2aec69c, size 0xd8, virtual false, abstract: false, final false
-  /// @param bufferSizeInBytes: int64_t (default: static_cast<int64_t>(0x100000))
-  /// @param growBuffer: bool (default: false)
-  /// @param maxBufferSizeInBytes: int64_t (default: static_cast<int64_t>(0xffffffffffffffff))
-  /// @param growIncrementSizeInBytes: int64_t (default: static_cast<int64_t>(0xffffffffffffffff))
-  inline void _ctor(::UnityEngine::InputSystem::InputDevice* device, int64_t bufferSizeInBytes = static_cast<int64_t>(0x100000), bool growBuffer = false,
-                    int64_t maxBufferSizeInBytes = static_cast<int64_t>(0xffffffffffffffff), int64_t growIncrementSizeInBytes = static_cast<int64_t>(0xffffffffffffffff));
+  inline void _ctor(::UnityEngine::InputSystem::InputDevice* device, int64_t bufferSizeInBytes, bool growBuffer, int64_t maxBufferSizeInBytes, int64_t growIncrementSizeInBytes);
 
   static inline ::UnityEngine::InputSystem::LowLevel::InputEventTrace* New_ctor(int64_t bufferSizeInBytes, bool growBuffer, int64_t maxBufferSizeInBytes, int64_t growIncrementSizeInBytes);
 
   /// @brief Method .ctor, addr 0x2aec774, size 0x70, virtual false, abstract: false, final false
-  /// @param bufferSizeInBytes: int64_t (default: static_cast<int64_t>(0x100000))
-  /// @param growBuffer: bool (default: false)
-  /// @param maxBufferSizeInBytes: int64_t (default: static_cast<int64_t>(0xffffffffffffffff))
-  /// @param growIncrementSizeInBytes: int64_t (default: static_cast<int64_t>(0xffffffffffffffff))
-  inline void _ctor(int64_t bufferSizeInBytes = static_cast<int64_t>(0x100000), bool growBuffer = false, int64_t maxBufferSizeInBytes = static_cast<int64_t>(0xffffffffffffffff),
-                    int64_t growIncrementSizeInBytes = static_cast<int64_t>(0xffffffffffffffff));
+  inline void _ctor(int64_t bufferSizeInBytes, bool growBuffer, int64_t maxBufferSizeInBytes, int64_t growIncrementSizeInBytes);
 
   /// @brief Method WriteTo, addr 0x2aec7e4, size 0x1d4, virtual false, abstract: false, final false
   inline void WriteTo(::StringW filePath);
@@ -1073,8 +1087,7 @@ public:
   inline ::UnityEngine::InputSystem::LowLevel::__InputEventTrace__ReplayController* Replay();
 
   /// @brief Method Resize, addr 0x2aedf08, size 0x200, virtual false, abstract: false, final false
-  /// @param newMaxBufferSize: int64_t (default: static_cast<int64_t>(0xffffffffffffffff))
-  inline bool Resize(int64_t newBufferSize, int64_t newMaxBufferSize = static_cast<int64_t>(0xffffffffffffffff));
+  inline bool Resize(int64_t newBufferSize, int64_t newMaxBufferSize);
 
   /// @brief Method Clear, addr 0x2aee18c, size 0x1c, virtual false, abstract: false, final false
   inline void Clear();

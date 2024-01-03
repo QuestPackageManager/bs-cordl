@@ -2,8 +2,8 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataCallback_1_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 template <typename T> inline ::GlobalNamespace::BeatmapDataCallback_1<T>* GlobalNamespace::BeatmapDataCallback_1<T>::New_ctor(::System::Object* object, void* method) {
   return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::BeatmapDataCallback_1<T>*>(object, method));
 }

@@ -73,8 +73,7 @@ public:
   inline void AutoDetect();
 
   /// @brief Method AddFinger, addr 0x1243dcc, size 0x16c, virtual false, abstract: false, final false
-  /// @param target: ::UnityEngine::Transform* (default: nullptr)
-  inline void AddFinger(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3, ::UnityEngine::Transform* tip, ::UnityEngine::Transform* target = nullptr);
+  inline void AddFinger(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3, ::UnityEngine::Transform* tip, ::UnityEngine::Transform* target);
 
   /// @brief Method RemoveFinger, addr 0x1243f38, size 0x160, virtual false, abstract: false, final false
   inline void RemoveFinger(int32_t index);

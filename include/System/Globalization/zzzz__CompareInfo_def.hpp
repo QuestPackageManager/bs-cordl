@@ -7,35 +7,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CompareInfo)
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System::Globalization {
-class SortVersion;
-}
-namespace System::Globalization {
-class SortKey;
-}
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Globalization {
 struct CompareOptions;
 }
 namespace System::Globalization {
-class ISimpleCollator;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+class CultureInfo;
 }
 namespace System::Globalization {
-class CultureInfo;
+class ISimpleCollator;
+}
+namespace System::Globalization {
+class SortKey;
+}
+namespace System::Globalization {
+class SortVersion;
+}
+namespace System::Runtime::Serialization {
+class IDeserializationCallback;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System {
 class Object;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -84,6 +84,9 @@ public:
 
   /// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
   constexpr operator ::System::Runtime::Serialization::IDeserializationCallback*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
+  constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback() noexcept;
 
   constexpr ::StringW& __get_m_name();
 

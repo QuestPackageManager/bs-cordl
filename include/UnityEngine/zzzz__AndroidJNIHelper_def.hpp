@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AndroidJNIHelper)
 namespace System {
-class Object;
+class Array;
 }
-namespace UnityEngine {
-struct jvalue;
+namespace System {
+class Object;
 }
 namespace UnityEngine {
 class AndroidJavaProxy;
@@ -19,8 +19,8 @@ class AndroidJavaProxy;
 namespace UnityEngine {
 class AndroidJavaRunnable;
 }
-namespace System {
-class Array;
+namespace UnityEngine {
+struct jvalue;
 }
 // Forward declare root types
 namespace UnityEngine {

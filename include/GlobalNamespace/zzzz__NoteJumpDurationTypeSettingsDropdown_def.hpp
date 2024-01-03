@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__ValueDropdownController_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(NoteJumpDurationTypeSettingsDropdown)
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
 namespace GlobalNamespace {
 struct NoteJumpDurationTypeSettings;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 namespace System {
 template <typename T1, typename T2> class Tuple_2;
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5602), inst: 4748 }), TypeDefinitionIndex(TypeDefinitionIndex(4622)),
-// TypeDefinitionIndex(TypeDefinitionIndex(5602))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5606)) CS Name: ::NoteJumpDurationTypeSettingsDropdown*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5602)), TypeDefinitionIndex(TypeDefinitionIndex(4622)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5602), inst: 4748
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5606)) CS Name: ::NoteJumpDurationTypeSettingsDropdown*
 class CORDL_TYPE NoteJumpDurationTypeSettingsDropdown : public ::GlobalNamespace::ValueDropdownController_1<::GlobalNamespace::NoteJumpDurationTypeSettings> {
 public:
   // Declarations

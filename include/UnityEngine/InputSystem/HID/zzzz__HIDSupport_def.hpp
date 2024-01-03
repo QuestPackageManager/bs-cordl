@@ -11,14 +11,14 @@ CORDL_MODULE_EXPORT(HIDSupport)
 namespace UnityEngine::InputSystem::HID {
 struct __HIDSupport__HIDPageUsage;
 }
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct ReadOnlyArray_1;
-}
 namespace UnityEngine::InputSystem::HID {
 struct __HID__GenericDesktop;
 }
 namespace UnityEngine::InputSystem::HID {
 struct __HID__UsagePage;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> struct ReadOnlyArray_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::HID {

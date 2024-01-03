@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(Positions)
 namespace System::Collections {
 class ArrayList;
 }
-namespace System {
-class Object;
-}
 namespace System::Xml::Schema {
 struct Position;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

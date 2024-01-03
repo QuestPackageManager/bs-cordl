@@ -20,29 +20,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Touch)
-namespace UnityEngine::InputSystem::Utilities {
-template <typename T> class __SavedStructState_1__TypedRestore;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System {
 class Action;
 }
-namespace UnityEngine::InputSystem::Utilities {
-class ISavedState;
-}
-namespace UnityEngine::InputSystem::EnhancedTouch {
-struct __Touch__ExtraDataPerTouchState;
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct TouchState;
-}
-namespace UnityEngine::InputSystem::EnhancedTouch {
-class __Touch____c;
-}
 namespace UnityEngine::InputSystem::EnhancedTouch {
 class Finger;
+}
+namespace UnityEngine::InputSystem::EnhancedTouch {
+struct TouchHistory;
+}
+namespace UnityEngine::InputSystem::EnhancedTouch {
+struct __Touch__ExtraDataPerTouchState;
 }
 namespace UnityEngine::InputSystem::EnhancedTouch {
 struct __Touch__FingerAndTouchState;
@@ -50,44 +50,44 @@ struct __Touch__FingerAndTouchState;
 namespace UnityEngine::InputSystem::EnhancedTouch {
 struct __Touch__GlobalState;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::InputSystem::EnhancedTouch {
+class __Touch____c;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-template <typename TValue> struct __InputStateHistory_1__Record;
-}
-namespace UnityEngine::InputSystem {
-class Touchscreen;
-}
-namespace UnityEngine::InputSystem::EnhancedTouch {
-struct TouchHistory;
-}
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct ReadOnlyArray_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::InputSystem {
-struct TouchPhase;
-}
-namespace System {
-template <typename T> class Action_1;
+template <typename TValue> class InputStateHistory_1;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputUpdateType;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-template <typename TValue> class InputStateHistory_1;
+struct TouchState;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+template <typename TValue> struct __InputStateHistory_1__Record;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TDelegate> struct CallbackArray_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
+class ISavedState;
+}
+namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> struct InlinedArray_1;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> struct ReadOnlyArray_1;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename T> class __SavedStructState_1__TypedRestore;
+}
+namespace UnityEngine::InputSystem {
+struct TouchPhase;
+}
+namespace UnityEngine::InputSystem {
+class Touchscreen;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::EnhancedTouch {
@@ -224,10 +224,10 @@ static_assert(offsetof(::UnityEngine::InputSystem::EnhancedTouch::__Touch__Finge
 // SizeInfo { instance_size: 336, native_size: -1, calculated_instance_size: 336, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::EnhancedTouch {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 985 }), TypeDefinitionIndex(TypeDefinitionIndex(6288)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6660)), TypeDefinitionIndex(TypeDefinitionIndex(6669)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3129 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6414)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 306 }), TypeDefinitionIndex(TypeDefinitionIndex(2323)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6416))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6415)) CS Name: ::Touch::GlobalState
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3129 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 306 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6416)), TypeDefinitionIndex(TypeDefinitionIndex(6660)), TypeDefinitionIndex(TypeDefinitionIndex(2323)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(6660), inst: 985 }), TypeDefinitionIndex(TypeDefinitionIndex(6669)), TypeDefinitionIndex(TypeDefinitionIndex(6414)), TypeDefinitionIndex(TypeDefinitionIndex(6288))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(6415)) CS Name: ::Touch::GlobalState
 struct CORDL_TYPE __Touch__GlobalState {
 public:
   // Declarations
@@ -391,8 +391,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Enhanc
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::EnhancedTouch {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6576)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6576), inst: 3896 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6514)), TypeDefinitionIndex(TypeDefinitionIndex(6415))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6419)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6576)), TypeDefinitionIndex(TypeDefinitionIndex(6514)), TypeDefinitionIndex(TypeDefinitionIndex(6415)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6576), inst: 3896 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6419)) CS Name:
 // ::UnityEngine.InputSystem.EnhancedTouch::Touch
 struct CORDL_TYPE Touch {
 public:
@@ -456,6 +456,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>"
+  constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>* i___System__IEquatable_1___UnityEngine__InputSystem__EnhancedTouch__Touch_();
 
   static inline void setStaticF_s_GlobalState(::UnityEngine::InputSystem::EnhancedTouch::__Touch__GlobalState value);
 

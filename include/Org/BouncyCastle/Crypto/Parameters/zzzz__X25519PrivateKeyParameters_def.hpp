@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(X25519PrivateKeyParameters)
 namespace Org::BouncyCastle::Crypto::Parameters {
 class X25519PublicKeyParameters;
 }
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {

@@ -18,73 +18,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRTrackedKeyboard)
 namespace GlobalNamespace {
-struct __OVRTrackedKeyboard__KeyboardPresentation;
-}
-namespace GlobalNamespace {
 class OVRCameraRig;
 }
 namespace GlobalNamespace {
-struct __OVRPlugin__TrackedKeyboardQueryFlags;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-class Texture2D;
-}
-namespace GlobalNamespace {
-class __OVRTrackedKeyboard___Start_d__88;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace GlobalNamespace {
-struct __OVRKeyboard__TrackedKeyboardInfo;
-}
-namespace GlobalNamespace {
-struct __OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent;
-}
-namespace UnityEngine {
-class GameObject;
+class OVROverlay;
 }
 namespace GlobalNamespace {
 class OVRPassthroughLayer;
 }
 namespace GlobalNamespace {
-class __OVRTrackedKeyboard___StartKeyboardTrackingCoroutine_d__96;
+struct __OVRKeyboard__TrackedKeyboardInfo;
 }
 namespace GlobalNamespace {
-class OVROverlay;
+struct __OVRPlugin__TrackedKeyboardQueryFlags;
 }
-namespace UnityEngine {
-class MeshFilter;
-}
-namespace UnityEngine {
-class MeshRenderer;
+namespace GlobalNamespace {
+struct __OVRTrackedKeyboard__KeyboardPresentation;
 }
 namespace GlobalNamespace {
 struct __OVRTrackedKeyboard__TrackedKeyboardSetActiveEvent;
 }
-namespace UnityEngine {
-class Coroutine;
-}
-namespace UnityEngine {
-class BoxCollider;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-class __OVRTrackedKeyboard____c;
-}
-namespace UnityEngine {
-class Shader;
-}
 namespace GlobalNamespace {
 struct __OVRTrackedKeyboard__TrackedKeyboardState;
+}
+namespace GlobalNamespace {
+struct __OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent;
+}
+namespace GlobalNamespace {
+class __OVRTrackedKeyboard___InitializeHandPresenceData_d__89;
+}
+namespace GlobalNamespace {
+class __OVRTrackedKeyboard___StartKeyboardTrackingCoroutine_d__96;
+}
+namespace GlobalNamespace {
+class __OVRTrackedKeyboard___Start_d__88;
 }
 namespace GlobalNamespace {
 class __OVRTrackedKeyboard___UpdateKeyboardPose_d__98;
@@ -93,16 +60,49 @@ namespace GlobalNamespace {
 class __OVRTrackedKeyboard___UpdateTrackingStateCoroutine_d__95;
 }
 namespace GlobalNamespace {
-class __OVRTrackedKeyboard___InitializeHandPresenceData_d__89;
-}
-namespace System {
-class Object;
+class __OVRTrackedKeyboard____c;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+template <typename T> class Action_1;
+}
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine {
+class BoxCollider;
+}
+namespace UnityEngine {
+class Coroutine;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class MeshFilter;
+}
+namespace UnityEngine {
+class MeshRenderer;
+}
+namespace UnityEngine {
+class Shader;
+}
+namespace UnityEngine {
+class Texture2D;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -380,11 +380,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -485,11 +494,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -593,11 +611,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -709,11 +736,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -814,11 +850,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -959,11 +1004,11 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTrackedKey
 // SizeInfo { instance_size: 400, native_size: -1, calculated_instance_size: 400, calculated_native_size: 393, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8028)), TypeDefinitionIndex(TypeDefinitionIndex(7563)), TypeDefinitionIndex(TypeDefinitionIndex(7790)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3342 }), TypeDefinitionIndex(TypeDefinitionIndex(8029)), TypeDefinitionIndex(TypeDefinitionIndex(10252)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 412 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(7792)), TypeDefinitionIndex(TypeDefinitionIndex(8026))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8038))
-// CS Name: ::OVRTrackedKeyboard*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8026)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8028)), TypeDefinitionIndex(TypeDefinitionIndex(8029)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 3342 }), TypeDefinitionIndex(TypeDefinitionIndex(7563)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(7792)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 412 }), TypeDefinitionIndex(TypeDefinitionIndex(7790))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8038)) CS
+// Name: ::OVRTrackedKeyboard*
 class CORDL_TYPE OVRTrackedKeyboard : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations

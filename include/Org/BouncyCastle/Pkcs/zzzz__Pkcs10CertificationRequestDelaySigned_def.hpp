@@ -7,12 +7,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Pkcs10CertificationRequestDelaySigned)
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
 }
@@ -24,6 +18,12 @@ class Asn1Set;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerBitString;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkcs {

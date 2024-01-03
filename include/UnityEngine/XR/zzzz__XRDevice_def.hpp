@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(XRDevice)
 namespace System {
 template <typename T> class Action_1;
 }
-namespace UnityEngine {
-class Camera;
-}
 namespace UnityEngine::XR {
 struct TrackingSpaceType;
+}
+namespace UnityEngine {
+class Camera;
 }
 // Forward declare root types
 namespace UnityEngine::XR {

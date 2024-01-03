@@ -6,35 +6,35 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__SubContainerCreatorByNewPrefabDynamicContext_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SubContainerCreatorByNewPrefabMethod_5)
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5> class __SubContainerCreatorByNewPrefabMethod_5____c__DisplayClass2_0;
-}
-namespace Zenject {
-class GameObjectContext;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace Zenject {
-class IPrefabProvider;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-struct TypeValuePair;
-}
 namespace System {
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6> class Action_6;
-}
-namespace Zenject {
-class GameObjectCreationParameters;
 }
 namespace System {
 class Object;
 }
 namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class GameObjectContext;
+}
+namespace Zenject {
+class GameObjectCreationParameters;
+}
+namespace Zenject {
+class IPrefabProvider;
+}
+namespace Zenject {
 class InjectTypeInfo;
+}
+namespace Zenject {
+struct TypeValuePair;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5> class __SubContainerCreatorByNewPrefabMethod_5____c__DisplayClass2_0;
 }
 // Forward declare root types
 namespace Zenject {

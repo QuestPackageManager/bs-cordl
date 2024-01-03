@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ManifestBasedResourceGroveler)
+namespace System::Globalization {
+class CultureInfo;
+}
 namespace System::Reflection {
 class Assembly;
 }
@@ -15,9 +18,6 @@ class IResourceGroveler;
 }
 namespace System::Resources {
 struct UltimateResourceFallbackLocation;
-}
-namespace System::Globalization {
-class CultureInfo;
 }
 namespace System::Resources {
 class __ResourceManager__ResourceManagerMediator;
@@ -43,6 +43,9 @@ public:
 
   /// @brief Convert operator to "::System::Resources::IResourceGroveler"
   constexpr operator ::System::Resources::IResourceGroveler*() noexcept;
+
+  /// @brief Convert to "::System::Resources::IResourceGroveler"
+  constexpr ::System::Resources::IResourceGroveler* i___System__Resources__IResourceGroveler() noexcept;
 
   constexpr ::System::Resources::__ResourceManager__ResourceManagerMediator*& __get__mediator();
 

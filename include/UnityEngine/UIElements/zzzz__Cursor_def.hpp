@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(Cursor)
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace System {
+class Object;
 }
 namespace UnityEngine {
 class Texture2D;
 }
-namespace System {
-class Object;
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -43,6 +43,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Cursor>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Cursor>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Cursor>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Cursor>* i___System__IEquatable_1___UnityEngine__UIElements__Cursor_();
 
   /// @brief Method get_texture, addr 0x2dbf064, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Texture2D* get_texture();

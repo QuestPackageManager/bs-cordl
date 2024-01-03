@@ -12,38 +12,38 @@ CORDL_MODULE_EXPORT(Char)
 namespace System::Globalization {
 class CultureInfo;
 }
-namespace System {
-struct DateTime;
-}
-namespace System {
-class Object;
-}
 namespace System::Globalization {
 struct UnicodeCategory;
+}
+namespace System {
+struct DateTime;
 }
 namespace System {
 struct Decimal;
 }
 namespace System {
-class Type;
-}
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
 template <typename T> class IComparable_1;
-}
-namespace System {
-struct TypeCode;
-}
-namespace System {
-class IFormatProvider;
 }
 namespace System {
 class IComparable;
 }
 namespace System {
 class IConvertible;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
+class IFormatProvider;
+}
+namespace System {
+class Object;
+}
+namespace System {
+struct TypeCode;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System {
@@ -67,14 +67,26 @@ public:
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*();
 
+  /// @brief Convert to "::System::IComparable"
+  constexpr ::System::IComparable* i___System__IComparable();
+
   /// @brief Convert operator to "::System::IComparable_1<char16_t>"
   constexpr operator ::System::IComparable_1<char16_t>*();
+
+  /// @brief Convert to "::System::IComparable_1<char16_t>"
+  constexpr ::System::IComparable_1<char16_t>* i___System__IComparable_1_char16_t_();
 
   /// @brief Convert operator to "::System::IEquatable_1<char16_t>"
   constexpr operator ::System::IEquatable_1<char16_t>*();
 
+  /// @brief Convert to "::System::IEquatable_1<char16_t>"
+  constexpr ::System::IEquatable_1<char16_t>* i___System__IEquatable_1_char16_t_();
+
   /// @brief Convert operator to "::System::IConvertible"
   constexpr operator ::System::IConvertible*();
+
+  /// @brief Convert to "::System::IConvertible"
+  constexpr ::System::IConvertible* i___System__IConvertible();
 
   static inline void setStaticF_s_categoryForLatin1(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 

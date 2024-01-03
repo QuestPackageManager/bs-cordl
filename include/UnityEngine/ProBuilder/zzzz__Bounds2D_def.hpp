@@ -8,26 +8,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Bounds2D)
-namespace UnityEngine::ProBuilder {
-struct Edge;
-}
-namespace UnityEngine {
-struct Vector2;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine {
-struct Rect;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
+namespace UnityEngine::ProBuilder {
+struct Edge;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine {
+struct Vector2;
+}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

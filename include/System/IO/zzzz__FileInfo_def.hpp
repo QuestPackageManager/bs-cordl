@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileInfo)
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
 namespace System::IO {
 class FileStream;
+}
+namespace System::IO {
+class StreamWriter;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
-namespace System::IO {
-class StreamWriter;
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::IO {
@@ -51,10 +51,7 @@ public:
   static inline ::System::IO::FileInfo* New_ctor(::StringW originalPath, ::StringW fullPath, ::StringW fileName, bool isNormalized);
 
   /// @brief Method .ctor, addr 0x250dd80, size 0x128, virtual false, abstract: false, final false
-  /// @param fullPath: ::StringW (default: nullptr)
-  /// @param fileName: ::StringW (default: nullptr)
-  /// @param isNormalized: bool (default: false)
-  inline void _ctor(::StringW originalPath, ::StringW fullPath = nullptr, ::StringW fileName = nullptr, bool isNormalized = false);
+  inline void _ctor(::StringW originalPath, ::StringW fullPath, ::StringW fileName, bool isNormalized);
 
   /// @brief Method get_Length, addr 0x250dea8, size 0x88, virtual false, abstract: false, final false
   inline int64_t get_Length();

@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BaseNoteVisuals)
 namespace GlobalNamespace {
-class INoteControllerNoteDidStartDissolvingEvent;
+class CutoutAnimateEffect;
 }
 namespace GlobalNamespace {
 class INoteControllerDidInitEvent;
 }
 namespace GlobalNamespace {
-class CutoutAnimateEffect;
+class INoteControllerNoteDidStartDissolvingEvent;
 }
 namespace GlobalNamespace {
 class NoteControllerBase;
@@ -42,8 +42,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INoteControllerDidInitEvent"
   constexpr operator ::GlobalNamespace::INoteControllerDidInitEvent*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::INoteControllerDidInitEvent"
+  constexpr ::GlobalNamespace::INoteControllerDidInitEvent* i___GlobalNamespace__INoteControllerDidInitEvent() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent"
   constexpr operator ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent"
+  constexpr ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent* i___GlobalNamespace__INoteControllerNoteDidStartDissolvingEvent() noexcept;
 
   constexpr ::GlobalNamespace::NoteControllerBase*& __get__noteController();
 

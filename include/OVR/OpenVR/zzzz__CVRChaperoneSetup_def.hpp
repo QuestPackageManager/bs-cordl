@@ -10,17 +10,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CVRChaperoneSetup)
-namespace System::Text {
-class StringBuilder;
-}
 namespace OVR::OpenVR {
 struct EChaperoneConfigFile;
 }
 namespace OVR::OpenVR {
-struct HmdQuad_t;
+struct HmdMatrix34_t;
 }
 namespace OVR::OpenVR {
-struct HmdMatrix34_t;
+struct HmdQuad_t;
+}
+namespace System::Text {
+class StringBuilder;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

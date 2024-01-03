@@ -11,11 +11,11 @@ CORDL_MODULE_EXPORT(PosesRecordingData)
 namespace GlobalNamespace {
 class __PosesRecordingData__ExternalCameraCalibration;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace GlobalNamespace {
 class __PosesRecordingData__TransformsKeyframe;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine {
 class Camera;

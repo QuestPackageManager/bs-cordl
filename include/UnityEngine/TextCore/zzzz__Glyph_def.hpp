@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Glyph);
 // SizeInfo { instance_size: 72, native_size: 52, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15529)), TypeDefinitionIndex(TypeDefinitionIndex(15528)), TypeDefinitionIndex(TypeDefinitionIndex(15527)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15530)) CS Name: ::UnityEngine.TextCore::Glyph*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15528)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15527)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15529))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15530)) CS Name: ::UnityEngine.TextCore::Glyph*
 class CORDL_TYPE Glyph : public ::System::Object {
 public:
   // Declarations

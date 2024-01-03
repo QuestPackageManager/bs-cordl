@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(X509ChainImpl)
-namespace System {
-class IDisposable;
-}
 namespace System::Security::Cryptography::X509Certificates {
-class X509ChainPolicy;
+class X509Certificate2;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509ChainElementCollection;
 }
 namespace System::Security::Cryptography::X509Certificates {
-struct X509ChainStatus;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2;
+class X509ChainPolicy;
 }
 namespace System::Security::Cryptography::X509Certificates {
 struct X509ChainStatusFlags;
+}
+namespace System::Security::Cryptography::X509Certificates {
+struct X509ChainStatus;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -50,6 +50,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// @brief Method get_IsValid, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsValid();

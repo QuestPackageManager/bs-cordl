@@ -5,9 +5,6 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Observer_1)
 namespace System {
-template <typename T> class IObserver_1;
-}
-namespace System {
 template <typename T> class Action_1;
 }
 namespace System {
@@ -15,6 +12,9 @@ class Action;
 }
 namespace System {
 class Exception;
+}
+namespace System {
+template <typename T> class IObserver_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -43,6 +43,9 @@ public:
   /// @brief Convert operator to "::System::IObserver_1<TValue>"
   constexpr operator ::System::IObserver_1<TValue>*() noexcept;
 
+  /// @brief Convert to "::System::IObserver_1<TValue>"
+  constexpr ::System::IObserver_1<TValue>* i___System__IObserver_1_TValue_() noexcept;
+
   constexpr ::System::Action_1<TValue>*& __get_m_OnNext();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_1<TValue>*> const& __get_m_OnNext() const;
@@ -58,8 +61,7 @@ public:
   static inline ::UnityEngine::InputSystem::Utilities::Observer_1<TValue>* New_ctor(::System::Action_1<TValue>* onNext, ::System::Action* onCompleted);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param onCompleted: ::System::Action* (default: nullptr)
-  inline void _ctor(::System::Action_1<TValue>* onNext, ::System::Action* onCompleted = nullptr);
+  inline void _ctor(::System::Action_1<TValue>* onNext, ::System::Action* onCompleted);
 
   /// @brief Method OnCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void OnCompleted();

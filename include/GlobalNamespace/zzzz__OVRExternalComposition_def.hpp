@@ -8,35 +8,35 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRExternalComposition)
-namespace UnityEngine {
-class GameObject;
+namespace GlobalNamespace {
+class OVRMRAudioFilter;
 }
 namespace GlobalNamespace {
 class OVRMixedRealityCaptureConfiguration;
+}
+namespace GlobalNamespace {
+struct __OVRManager__CompositionMethod;
+}
+namespace GlobalNamespace {
+struct __OVRManager__TrackingOrigin;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine {
+class AudioListener;
 }
 namespace UnityEngine {
 class Camera;
 }
 namespace UnityEngine {
-class RenderTexture;
-}
-namespace GlobalNamespace {
-struct __OVRManager__TrackingOrigin;
+class GameObject;
 }
 namespace UnityEngine {
-class AudioListener;
-}
-namespace GlobalNamespace {
-class OVRMRAudioFilter;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-struct __OVRManager__CompositionMethod;
-}
-namespace System {
-class Object;
+class RenderTexture;
 }
 // Forward declare root types
 namespace GlobalNamespace {

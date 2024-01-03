@@ -6,20 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CertificateList)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerBitString;
-}
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class CrlEntry;
@@ -30,14 +18,26 @@ class TbsCertificateList;
 namespace Org::BouncyCastle::Asn1::X509 {
 class Time;
 }
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace Org::BouncyCastle::Asn1 {
+class DerBitString;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {

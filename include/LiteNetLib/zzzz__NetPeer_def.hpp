@@ -8,65 +8,65 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetPeer)
-namespace System::Diagnostics {
-class Stopwatch;
-}
-namespace LiteNetLib {
-class NetPacket;
-}
-namespace LiteNetLib {
-class NetManager;
-}
-namespace LiteNetLib {
-class __NetPeer__IncomingFragments;
-}
-namespace LiteNetLib {
-class NetStatistics;
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 namespace LiteNetLib {
 class BaseChannel;
 }
-namespace System::Collections::Generic {
-template <typename T> class Queue_1;
-}
 namespace LiteNetLib {
-class NetConnectAcceptPacket;
-}
-namespace System::Net {
-class IPEndPoint;
-}
-namespace LiteNetLib {
-struct DeliveryMethod;
-}
-namespace LiteNetLib {
-class NetPacketPool;
+struct ConnectRequestResult;
 }
 namespace LiteNetLib {
 struct ConnectionState;
 }
 namespace LiteNetLib {
-struct ShutdownResult;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
+struct DeliveryMethod;
 }
 namespace LiteNetLib {
 struct DisconnectResult;
 }
 namespace LiteNetLib {
+class NetConnectAcceptPacket;
+}
+namespace LiteNetLib {
 class NetConnectRequestPacket;
 }
 namespace LiteNetLib {
-struct ConnectRequestResult;
+class NetManager;
 }
-namespace System {
-class Object;
+namespace LiteNetLib {
+class NetPacketPool;
+}
+namespace LiteNetLib {
+class NetPacket;
+}
+namespace LiteNetLib {
+class NetStatistics;
+}
+namespace LiteNetLib {
+struct ShutdownResult;
+}
+namespace LiteNetLib {
+class __NetPeer__IncomingFragments;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class Queue_1;
+}
+namespace System::Diagnostics {
+class Stopwatch;
+}
+namespace System::Net {
+class IPEndPoint;
 }
 namespace System {
 struct DateTime;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace LiteNetLib {
@@ -173,7 +173,7 @@ static_assert(offsetof(::LiteNetLib::__NetPeer__IncomingFragments, ___ChannelId)
 // SizeInfo { instance_size: 328, native_size: -1, calculated_instance_size: 328, calculated_native_size: 328, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14173)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14173))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14178))
 // CS Name: ::LiteNetLib::NetPeer*
 class CORDL_TYPE NetPeer : public ::System::Object {

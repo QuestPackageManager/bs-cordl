@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PropertyName)
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -30,6 +30,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::PropertyName>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::PropertyName>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::PropertyName>"
+  constexpr ::System::IEquatable_1<::UnityEngine::PropertyName>* i___System__IEquatable_1___UnityEngine__PropertyName_();
 
   /// @brief Method .ctor, addr 0x2cc8668, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);

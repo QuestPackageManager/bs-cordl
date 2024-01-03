@@ -9,25 +9,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapObjectsInTimeRowProcessor)
 namespace GlobalNamespace {
+class BeatmapDataItem;
+}
+namespace GlobalNamespace {
+struct ColorType;
+}
+namespace GlobalNamespace {
 class NoteData;
+}
+namespace GlobalNamespace {
+class SliderData;
 }
 namespace GlobalNamespace {
 class __BeatmapObjectsInTimeRowProcessor__SliderTailData;
 }
 namespace GlobalNamespace {
-class SliderData;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+template <typename T> class __BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1;
 }
 namespace GlobalNamespace {
 class __BeatmapObjectsInTimeRowProcessor____c;
-}
-namespace GlobalNamespace {
-class BeatmapDataItem;
-}
-namespace GlobalNamespace {
-template <typename T> class __BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1;
 }
 namespace GlobalNamespace {
 class __BeatmapObjectsInTimeRowProcessor____c__DisplayClass17_0;
@@ -35,17 +35,17 @@ class __BeatmapObjectsInTimeRowProcessor____c__DisplayClass17_0;
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace GlobalNamespace {
-struct ColorType;
-}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
-namespace System {
-template <typename T1, typename T2> class Action_2;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 template <typename T> class Action_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

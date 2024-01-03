@@ -11,8 +11,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextureBlitter)
-namespace UnityEngine {
-class Material;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+class IDisposable;
 }
 namespace UnityEngine::UIElements::UIR {
 struct __TextureBlitter__BlitInfo;
@@ -20,29 +26,23 @@ struct __TextureBlitter__BlitInfo;
 namespace UnityEngine {
 struct Color;
 }
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace UnityEngine {
-struct Vector2Int;
-}
-namespace UnityEngine {
-class Texture;
-}
-namespace System {
-class IDisposable;
-}
 namespace UnityEngine {
 class MaterialPropertyBlock;
 }
 namespace UnityEngine {
-struct RectInt;
+class Material;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine {
+struct RectInt;
 }
 namespace UnityEngine {
 class RenderTexture;
+}
+namespace UnityEngine {
+class Texture;
+}
+namespace UnityEngine {
+struct Vector2Int;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -58,7 +58,7 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10244)), TypeDefinitionIndex(TypeDefinitionIndex(10162))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10162)), TypeDefinitionIndex(TypeDefinitionIndex(10244))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7386))
 // CS Name: ::TextureBlitter::BlitInfo
 struct CORDL_TYPE __TextureBlitter__BlitInfo {
@@ -111,7 +111,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInf
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10162)), TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(10162)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7387))
 // CS Name: ::UnityEngine.UIElements.UIR::TextureBlitter*
 class CORDL_TYPE TextureBlitter : public ::System::Object {
@@ -151,6 +151,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::ArrayW<::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo, ::Array<::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo>*>& __get_m_SingleBlit();
 
@@ -217,8 +220,7 @@ public:
   static inline ::UnityEngine::UIElements::UIR::TextureBlitter* New_ctor(int32_t capacity);
 
   /// @brief Method .ctor, addr 0x2e7d13c, size 0xb4, virtual false, abstract: false, final false
-  /// @param capacity: int32_t (default: static_cast<int32_t>(0x200))
-  inline void _ctor(int32_t capacity = static_cast<int32_t>(0x200));
+  inline void _ctor(int32_t capacity);
 
   /// @brief Method QueueBlit, addr 0x2e7d830, size 0x1a4, virtual false, abstract: false, final false
   inline void QueueBlit(::UnityEngine::Texture* src, ::UnityEngine::RectInt srcRect, ::UnityEngine::Vector2Int dstPos, bool addBorder, ::UnityEngine::Color tint);

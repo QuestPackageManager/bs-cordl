@@ -11,10 +11,10 @@ namespace System::Threading::Tasks {
 class Task;
 }
 namespace Zenject {
-class ScriptableObjectInstaller;
+class MonoInstaller;
 }
 namespace Zenject {
-class MonoInstaller;
+class ScriptableObjectInstaller;
 }
 // Forward declare root types
 namespace BGLib::AppFlow::Initialization {

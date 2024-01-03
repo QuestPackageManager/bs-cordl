@@ -10,22 +10,22 @@ namespace System {
 class IDisposable;
 }
 namespace UnityEngine::UIElements {
-class __VisualTreeUpdater__UpdaterArray;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-struct VersionChangeType;
-}
-namespace UnityEngine::UIElements {
 class BaseVisualElementPanel;
 }
 namespace UnityEngine::UIElements {
 class IVisualTreeUpdater;
 }
 namespace UnityEngine::UIElements {
+struct VersionChangeType;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
 struct VisualTreeUpdatePhase;
+}
+namespace UnityEngine::UIElements {
+class __VisualTreeUpdater__UpdaterArray;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -120,6 +120,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::UnityEngine::UIElements::BaseVisualElementPanel*& __get_m_Panel();
 

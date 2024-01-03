@@ -79,8 +79,7 @@ public:
   static inline ::UnityEngine::UIElements::UIR::LinkedPool_1<T>* New_ctor(::System::Func_1<T>* createFunc, ::System::Action_1<T>* resetAction, int32_t limit);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param limit: int32_t (default: static_cast<int32_t>(0x2710))
-  inline void _ctor(::System::Func_1<T>* createFunc, ::System::Action_1<T>* resetAction, int32_t limit = static_cast<int32_t>(0x2710));
+  inline void _ctor(::System::Func_1<T>* createFunc, ::System::Action_1<T>* resetAction, int32_t limit);
 
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Count();

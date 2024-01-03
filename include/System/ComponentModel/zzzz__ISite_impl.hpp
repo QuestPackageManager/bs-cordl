@@ -1,7 +1,7 @@
 #pragma once
 #include "System/ComponentModel/zzzz__ISite_def.hpp"
-#include "System/zzzz__IServiceProvider_def.hpp"
 #include "System/ComponentModel/zzzz__IContainer_def.hpp"
+#include "System/zzzz__IServiceProvider_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::ISite.get_Container
 template <>
 
@@ -10,7 +10,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ISite*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ISite*>::get(), 0));
@@ -24,7 +24,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ISite*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ISite*>::get(), 1));
@@ -38,7 +38,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ISite*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ISite*>::get(), 2));
@@ -47,6 +47,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::System::IServiceProvider"
 constexpr System::ComponentModel::ISite::operator ::System::IServiceProvider*() noexcept {
+  return static_cast<::System::IServiceProvider*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IServiceProvider"
+constexpr ::System::IServiceProvider* System::ComponentModel::ISite::i___System__IServiceProvider() noexcept {
   return static_cast<::System::IServiceProvider*>(static_cast<void*>(this));
 }
 inline ::System::ComponentModel::IContainer* System::ComponentModel::ISite::get_Container() {

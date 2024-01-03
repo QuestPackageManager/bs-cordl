@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BaseTransitionSO)
 namespace GlobalNamespace {
-class TransitionTimingSO;
+struct EaseType;
 }
 namespace GlobalNamespace {
-struct EaseType;
+class TransitionTimingSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

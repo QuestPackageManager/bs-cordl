@@ -5,29 +5,29 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(NtlmClient)
-namespace System::Net {
-class WebRequest;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue> class ConditionalWeakTable_2;
+namespace Mono::Http {
+class NtlmSession;
 }
 namespace Mono::Http {
 class __NtlmClient____c;
 }
 namespace System::Net {
-class IAuthenticationModule;
-}
-namespace Mono::Http {
-class NtlmSession;
+class Authorization;
 }
 namespace System::Net {
 class HttpWebRequest;
 }
 namespace System::Net {
+class IAuthenticationModule;
+}
+namespace System::Net {
 class ICredentials;
 }
 namespace System::Net {
-class Authorization;
+class WebRequest;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TKey, typename TValue> class ConditionalWeakTable_2;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TKey, typename TValue> class __ConditionalWeakTable_2__CreateValueCallback;
@@ -116,6 +116,9 @@ public:
 
   /// @brief Convert operator to "::System::Net::IAuthenticationModule"
   constexpr operator ::System::Net::IAuthenticationModule*() noexcept;
+
+  /// @brief Convert to "::System::Net::IAuthenticationModule"
+  constexpr ::System::Net::IAuthenticationModule* i___System__Net__IAuthenticationModule() noexcept;
 
   static inline void setStaticF_cache(::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Net::HttpWebRequest*, ::Mono::Http::NtlmSession*>* value);
 

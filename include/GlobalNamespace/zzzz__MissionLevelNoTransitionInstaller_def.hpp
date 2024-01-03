@@ -11,22 +11,22 @@ namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
-class ColorSchemeSO;
+class BeatmapLevelSO;
 }
 namespace GlobalNamespace {
-class MissionObjective;
+class ColorSchemeSO;
 }
 namespace GlobalNamespace {
 class GameplayModifiers;
 }
 namespace GlobalNamespace {
-class BeatmapLevelSO;
+class MissionLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class MissionObjective;
 }
 namespace GlobalNamespace {
 class PlayerSpecificSettings;
-}
-namespace GlobalNamespace {
-class MissionLevelScenesTransitionSetupDataSO;
 }
 namespace Zenject {
 class DiContainer;
@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionLevelNoTransitionInstaller);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11176)), TypeDefinitionIndex(TypeDefinitionIndex(14717))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(11176))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6039))
 // CS Name: ::MissionLevelNoTransitionInstaller*
 class CORDL_TYPE MissionLevelNoTransitionInstaller : public ::Zenject::NoTransitionInstaller {

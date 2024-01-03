@@ -8,31 +8,31 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerResultsPyramidView)
 namespace GlobalNamespace {
-class MultiplayerPlayerResultsData;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace GlobalNamespace {
-class __MultiplayerResultsPyramidViewAvatar__Factory;
+class MultiplayerOffsetPositionByLocalPlayerPosition;
+}
+namespace GlobalNamespace {
+class MultiplayerPlayerResultsData;
 }
 namespace GlobalNamespace {
 class MultiplayerResultsPyramidViewAvatar;
 }
 namespace GlobalNamespace {
-class MultiplayerOffsetPositionByLocalPlayerPosition;
+class __MultiplayerResultsPyramidViewAvatar__Factory;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 namespace UnityEngine {
 class GameObject;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {

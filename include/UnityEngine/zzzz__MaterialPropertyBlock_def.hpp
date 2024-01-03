@@ -14,16 +14,16 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine {
-class Texture;
+struct Color;
 }
 namespace UnityEngine {
 struct Matrix4x4;
 }
 namespace UnityEngine {
-struct Color;
+class Texture;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 // Forward declare root types
 namespace UnityEngine {

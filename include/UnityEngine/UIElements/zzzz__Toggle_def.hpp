@@ -9,10 +9,7 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Toggle)
 namespace UnityEngine::UIElements {
-class __Toggle__UxmlFactory;
-}
-namespace UnityEngine::UIElements {
-class __Toggle__UxmlTraits;
+struct CreationContext;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
@@ -21,10 +18,13 @@ namespace UnityEngine::UIElements {
 class UxmlStringAttributeDescription;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+class __Toggle__UxmlFactory;
+}
+namespace UnityEngine::UIElements {
+class __Toggle__UxmlTraits;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -184,8 +184,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Toggle,
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7092)), TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7093)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5281 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7091)) CS Name: ::Toggle::UxmlFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6997)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5281 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(7093)), TypeDefinitionIndex(TypeDefinitionIndex(7092))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7091)) CS Name: ::Toggle::UxmlFactory*
 class CORDL_TYPE __Toggle__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Toggle*, ::UnityEngine::UIElements::__Toggle__UxmlTraits*> {
 public:
   // Declarations

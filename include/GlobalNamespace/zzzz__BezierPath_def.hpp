@@ -14,16 +14,16 @@ namespace GlobalNamespace {
 struct __BezierPath__ControlMode;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template <typename T> class IReadOnlyList_1;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 class Action;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -97,7 +97,7 @@ static_assert(offsetof(::GlobalNamespace::__BezierPath__ControlMode, value__) ==
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5970)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5970))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5971))
 // CS Name: ::BezierPath*
 class CORDL_TYPE BezierPath : public ::System::Object {
@@ -184,8 +184,7 @@ public:
   static inline ::GlobalNamespace::BezierPath* New_ctor(::UnityEngine::Vector3 centre, bool initTwoSegments);
 
   /// @brief Method .ctor, addr 0x2309f14, size 0x544, virtual false, abstract: false, final false
-  /// @param initTwoSegments: bool (default: false)
-  inline void _ctor(::UnityEngine::Vector3 centre, bool initTwoSegments = false);
+  inline void _ctor(::UnityEngine::Vector3 centre, bool initTwoSegments);
 
   /// @brief Method UpdateByAnchorPoints, addr 0x230a458, size 0x608, virtual false, abstract: false, final false
   inline void UpdateByAnchorPoints(::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector3>* points);
@@ -200,8 +199,7 @@ public:
   inline ::UnityEngine::Vector3 GetPoint(int32_t i);
 
   /// @brief Method SetPoint, addr 0x230b1e8, size 0xc0, virtual false, abstract: false, final false
-  /// @param suppressPathModified: bool (default: false)
-  inline void SetPoint(int32_t i, ::UnityEngine::Vector3 localPosition, bool suppressPathModified = false);
+  inline void SetPoint(int32_t i, ::UnityEngine::Vector3 localPosition, bool suppressPathModified);
 
   /// @brief Method AddSegmentToEnd, addr 0x230aa60, size 0x510, virtual false, abstract: false, final false
   inline void AddSegmentToEnd(::UnityEngine::Vector3 anchorPos);

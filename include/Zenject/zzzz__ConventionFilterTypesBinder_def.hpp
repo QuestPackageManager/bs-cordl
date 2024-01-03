@@ -7,20 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ConventionFilterTypesBinder)
-namespace Zenject {
-class __ConventionFilterTypesBinder____c__DisplayClass18_0;
-}
-namespace Zenject {
-class __ConventionFilterTypesBinder____c__DisplayClass13_1;
-}
-namespace Zenject {
-class __ConventionFilterTypesBinder____c__DisplayClass2_0;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Text::RegularExpressions {
 struct RegexOptions;
-}
-namespace Zenject {
-class __ConventionFilterTypesBinder____c__DisplayClass15_0;
 }
 namespace System::Text::RegularExpressions {
 class Regex;
@@ -29,25 +20,37 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
+class Object;
+}
+namespace System {
 class Type;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace Zenject {
-class __ConventionFilterTypesBinder____c__DisplayClass4_0;
-}
-namespace Zenject {
-class __ConventionFilterTypesBinder____c__DisplayClass14_0;
-}
-namespace Zenject {
-class __ConventionFilterTypesBinder____c__DisplayClass13_0;
 }
 namespace Zenject {
 class ConventionBindInfo;
 }
 namespace Zenject {
-template <typename T> class __ConventionFilterTypesBinder____c__DisplayClass9_0_1;
+class InjectTypeInfo;
+}
+namespace Zenject {
+class __ConventionFilterTypesBinder____c__DisplayClass13_0;
+}
+namespace Zenject {
+class __ConventionFilterTypesBinder____c__DisplayClass13_1;
+}
+namespace Zenject {
+class __ConventionFilterTypesBinder____c__DisplayClass14_0;
+}
+namespace Zenject {
+class __ConventionFilterTypesBinder____c__DisplayClass15_0;
+}
+namespace Zenject {
+class __ConventionFilterTypesBinder____c__DisplayClass18_0;
+}
+namespace Zenject {
+class __ConventionFilterTypesBinder____c__DisplayClass2_0;
+}
+namespace Zenject {
+class __ConventionFilterTypesBinder____c__DisplayClass4_0;
 }
 namespace Zenject {
 class __ConventionFilterTypesBinder____c__DisplayClass6_0;
@@ -55,11 +58,8 @@ class __ConventionFilterTypesBinder____c__DisplayClass6_0;
 namespace Zenject {
 class __ConventionFilterTypesBinder____c__DisplayClass8_0;
 }
-namespace System {
-class Object;
-}
 namespace Zenject {
-class InjectTypeInfo;
+template <typename T> class __ConventionFilterTypesBinder____c__DisplayClass9_0_1;
 }
 // Forward declare root types
 namespace Zenject {

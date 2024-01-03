@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(EditableModifiersSelectionView)
 namespace GlobalNamespace {
 class GameplayModifiers;
 }
-namespace UnityEngine {
-class CanvasGroup;
-}
 namespace UnityEngine::UI {
 class Button;
+}
+namespace UnityEngine {
+class CanvasGroup;
 }
 // Forward declare root types
 namespace GlobalNamespace {

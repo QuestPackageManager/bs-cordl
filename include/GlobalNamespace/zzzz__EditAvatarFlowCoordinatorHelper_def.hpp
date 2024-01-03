@@ -9,44 +9,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(EditAvatarFlowCoordinatorHelper)
-namespace GlobalNamespace {
-struct __EditAvatarFlowCoordinatorHelper___Initialize_d__13;
-}
-namespace HMUI {
-class FlowCoordinator;
-}
-namespace BeatSaber::AvatarCore {
-struct __AvatarEditorFlowCoordinator__EditMode;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace BeatSaber::AvatarCore {
-struct __AvatarEditorFlowCoordinator__FinishAction;
-}
-namespace BeatSaber::AvatarCore {
-class AvatarSystemCollection;
-}
-namespace GlobalNamespace {
-class AvatarSystemSelectionFlowCoordinator;
-}
 namespace BeatSaber::AvatarCore {
 class AvatarEditorFlowCoordinator;
 }
-namespace GlobalNamespace {
-struct __EditAvatarFlowCoordinatorHelper___Show_d__12;
-}
-namespace GlobalNamespace {
-struct __EditAvatarFlowCoordinatorHelper__FinishAction;
-}
-namespace GlobalNamespace {
-struct __AvatarSystemSelectionFlowCoordinator__FinishAction;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
+namespace BeatSaber::AvatarCore {
+class AvatarSystemCollection;
 }
 namespace BeatSaber::AvatarCore {
 class IAvatarSystemMetadata;
@@ -54,14 +21,47 @@ class IAvatarSystemMetadata;
 namespace BeatSaber::AvatarCore {
 class IAvatarSystem;
 }
+namespace BeatSaber::AvatarCore {
+struct __AvatarEditorFlowCoordinator__EditMode;
+}
+namespace BeatSaber::AvatarCore {
+struct __AvatarEditorFlowCoordinator__FinishAction;
+}
+namespace GlobalNamespace {
+class AvatarSystemSelectionFlowCoordinator;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
+}
+namespace GlobalNamespace {
+struct __AvatarSystemSelectionFlowCoordinator__FinishAction;
+}
+namespace GlobalNamespace {
+struct __EditAvatarFlowCoordinatorHelper__FinishAction;
+}
+namespace GlobalNamespace {
+struct __EditAvatarFlowCoordinatorHelper___Initialize_d__13;
+}
+namespace GlobalNamespace {
+struct __EditAvatarFlowCoordinatorHelper___Show_d__12;
+}
+namespace HMUI {
+class FlowCoordinator;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncVoidMethodBuilder;
+}
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
 }
-namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -135,13 +135,16 @@ static_assert(offsetof(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper__Fin
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5491)) CS Name: ::EditAvatarFlowCoordinatorHelper::<Show>d__12
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5491)) CS Name: ::EditAvatarFlowCoordinatorHelper::<Show>d__12
 struct CORDL_TYPE __EditAvatarFlowCoordinatorHelper___Show_d__12 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x22882d8, size 0x2b0, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -215,7 +218,7 @@ static_assert(offsetof(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Sh
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15172)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15172)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
 // GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5064 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5492)) CS Name:
 // ::EditAvatarFlowCoordinatorHelper::<Initialize>d__13
 struct CORDL_TYPE __EditAvatarFlowCoordinatorHelper___Initialize_d__13 {
@@ -223,6 +226,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x2288698, size 0x494, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -370,18 +376,14 @@ public:
   inline bool get__hasOnlyOneAvatarSystem();
 
   /// @brief Method Show, addr 0x2287f80, size 0xc0, virtual false, abstract: false, final false
-  /// @param immediately: bool (default: false)
-  /// @param replaceTopViewController: bool (default: false)
-  inline void Show(::HMUI::FlowCoordinator* parentFlowCoordinator, bool backButtonVisible, bool immediately = false, bool replaceTopViewController = false);
+  inline void Show(::HMUI::FlowCoordinator* parentFlowCoordinator, bool backButtonVisible, bool immediately, bool replaceTopViewController);
 
   /// @brief Method Initialize, addr 0x2288040, size 0x90, virtual false, abstract: false, final false
   inline void Initialize();
 
   /// @brief Method PresentAvatarEditorFlowCoordinator, addr 0x22880d0, size 0xec, virtual false, abstract: false, final false
-  /// @param immediately: bool (default: false)
-  /// @param replaceTopViewController: bool (default: false)
   inline void PresentAvatarEditorFlowCoordinator(::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator* flowCoordinator, ::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__EditMode editMode,
-                                                 ::HMUI::FlowCoordinator* parentFlowCoordinator, bool immediately = false, bool replaceTopViewController = false);
+                                                 ::HMUI::FlowCoordinator* parentFlowCoordinator, bool immediately, bool replaceTopViewController);
 
   /// @brief Method HandleAvatarEditorFlowCoordinatorDidFinish, addr 0x22881bc, size 0xcc, virtual false, abstract: false, final false
   inline void HandleAvatarEditorFlowCoordinatorDidFinish(::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator* flowCoordinator, ::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystem,

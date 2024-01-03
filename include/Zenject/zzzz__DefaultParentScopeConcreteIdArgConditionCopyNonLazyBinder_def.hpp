@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder)
 namespace Zenject {
-class SubContainerCreatorBindInfo;
-}
-namespace Zenject {
 class BindInfo;
 }
 namespace Zenject {
 class ScopeConcreteIdArgConditionCopyNonLazyBinder;
+}
+namespace Zenject {
+class SubContainerCreatorBindInfo;
 }
 // Forward declare root types
 namespace Zenject {

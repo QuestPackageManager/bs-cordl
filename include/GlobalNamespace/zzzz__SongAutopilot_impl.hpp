@@ -4,15 +4,15 @@
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__SongAutopilot_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerVRControllersManager_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
-#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapObjectSpawnController_def.hpp"
-#include "UnityEngine/zzzz__Camera_def.hpp"
+#include "GlobalNamespace/zzzz__FloatSO_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapObjectSpawnController_def.hpp"
+#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerVRControllersManager_def.hpp"
 #include "GlobalNamespace/zzzz__SongAutopilot_def.hpp"
 #include "GlobalNamespace/zzzz__Vector3SO_def.hpp"
-#include "GlobalNamespace/zzzz__FloatSO_def.hpp"
+#include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/zzzz__Pose_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__SongAutopilot__Frame._ctor
 template <>
@@ -22,7 +22,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x226db90;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SongAutopilot__Frame>::get(), ".ctor", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Pose>::get() })));
@@ -49,7 +49,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x226db50;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongAutopilot*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;

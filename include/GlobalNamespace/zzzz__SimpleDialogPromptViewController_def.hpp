@@ -11,14 +11,14 @@ CORDL_MODULE_EXPORT(SimpleDialogPromptViewController)
 namespace GlobalNamespace {
 class __SimpleDialogPromptViewController____c__DisplayClass5_0;
 }
-namespace UnityEngine::UI {
-class Button;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace TMPro {
 class TextMeshProUGUI;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace UnityEngine::UI {
+class Button;
 }
 // Forward declare root types
 namespace GlobalNamespace {

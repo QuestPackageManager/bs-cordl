@@ -5,6 +5,11 @@
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue> constexpr Zenject::IFactory_4<TParam1, TParam2, TParam3, TValue>::operator ::Zenject::IFactory*() noexcept {
   return static_cast<::Zenject::IFactory*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::Zenject::IFactory"
+template <typename TParam1, typename TParam2, typename TParam3, typename TValue>
+constexpr ::Zenject::IFactory* Zenject::IFactory_4<TParam1, TParam2, TParam3, TValue>::i___Zenject__IFactory() noexcept {
+  return static_cast<::Zenject::IFactory*>(static_cast<void*>(this));
+}
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue>
 inline TValue Zenject::IFactory_4<TParam1, TParam2, TParam3, TValue>::Create(TParam1 param1, TParam2 param2, TParam3 param3) {
   auto* ___internal_method =

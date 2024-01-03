@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(BinaryReadWriteHelper)
 namespace System::IO {
+class BinaryReader;
+}
+namespace System::IO {
 class BinaryWriter;
 }
 namespace UnityEngine {
 struct Color;
-}
-namespace System::IO {
-class BinaryReader;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {

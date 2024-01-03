@@ -4,15 +4,6 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(PrefabControlPlayable)
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine::Playables {
-template <typename T> struct ScriptPlayable_1;
-}
 namespace UnityEngine::Playables {
 struct FrameData;
 }
@@ -21,6 +12,15 @@ struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
 struct Playable;
+}
+namespace UnityEngine::Playables {
+template <typename T> struct ScriptPlayable_1;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

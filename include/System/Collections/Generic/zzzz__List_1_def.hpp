@@ -8,64 +8,64 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(List_1)
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
-}
-namespace System {
-template <typename T> class Comparison_1;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class IList;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System {
-class Object;
-}
-namespace System {
-template <typename TInput, typename TOutput> class Converter_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections::ObjectModel {
-template <typename T> class ReadOnlyCollection_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-template <typename T> class Predicate_1;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace System {
-class Array;
-}
-namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
 }
 namespace System::Collections::Generic {
-template <typename T> struct __List_1__Enumerator;
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace System::Collections::Generic {
+template <typename T> struct __List_1__Enumerator;
+}
+namespace System::Collections::ObjectModel {
+template <typename T> class ReadOnlyCollection_1;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
+class IList;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+class Array;
+}
+namespace System {
+template <typename T> class Comparison_1;
+}
+namespace System {
+template <typename TInput, typename TOutput> class Converter_2;
+}
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace System {
+template <typename T> class Predicate_1;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
@@ -96,11 +96,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<T>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<T>* i___System__Collections__Generic__IEnumerator_1_T_();
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*();
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<T>* list);
@@ -200,26 +209,50 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IList_1<T>"
   constexpr operator ::System::Collections::Generic::IList_1<T>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IList_1<T>"
+  constexpr ::System::Collections::Generic::IList_1<T>* i___System__Collections__Generic__IList_1_T_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<T>"
   constexpr operator ::System::Collections::Generic::ICollection_1<T>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::ICollection_1<T>"
+  constexpr ::System::Collections::Generic::ICollection_1<T>* i___System__Collections__Generic__ICollection_1_T_() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>* i___System__Collections__Generic__IEnumerable_1_T_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IList"
   constexpr operator ::System::Collections::IList*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IList"
+  constexpr ::System::Collections::IList* i___System__Collections__IList() noexcept;
+
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
+
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyList_1<T>"
   constexpr operator ::System::Collections::Generic::IReadOnlyList_1<T>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IReadOnlyList_1<T>"
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<T>* i___System__Collections__Generic__IReadOnlyList_1_T_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
   constexpr operator ::System::Collections::Generic::IReadOnlyCollection_1<T>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
+  constexpr ::System::Collections::Generic::IReadOnlyCollection_1<T>* i___System__Collections__Generic__IReadOnlyCollection_1_T_() noexcept;
 
   constexpr ::ArrayW<T, ::Array<T>*>& __get__items();
 

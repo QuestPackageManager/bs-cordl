@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ITextInputField)
 namespace UnityEngine::UIElements {
-class TextEditorEngine;
-}
-namespace UnityEngine::UIElements {
 class IEventHandler;
 }
 namespace UnityEngine::UIElements {
 class ITextElement;
+}
+namespace UnityEngine::UIElements {
+class TextEditorEngine;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -46,8 +46,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IEventHandler"
   constexpr operator ::UnityEngine::UIElements::IEventHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::UIElements::IEventHandler"
+  constexpr ::UnityEngine::UIElements::IEventHandler* i___UnityEngine__UIElements__IEventHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::UIElements::ITextElement"
   constexpr operator ::UnityEngine::UIElements::ITextElement*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UIElements::ITextElement"
+  constexpr ::UnityEngine::UIElements::ITextElement* i___UnityEngine__UIElements__ITextElement() noexcept;
 
   /// @brief Method get_hasFocus, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_hasFocus();

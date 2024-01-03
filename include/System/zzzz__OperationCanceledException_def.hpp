@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::System::OperationCanceledException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2481)), TypeDefinitionIndex(TypeDefinitionIndex(2677))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2481))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2455))
 // CS Name: ::System::OperationCanceledException*
 class CORDL_TYPE OperationCanceledException : public ::System::SystemException {

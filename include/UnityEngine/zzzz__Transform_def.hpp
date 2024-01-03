@@ -9,6 +9,24 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Transform)
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+struct RotationOrder;
+}
 namespace UnityEngine {
 struct Space;
 }
@@ -16,25 +34,7 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
 class __Transform__Enumerator;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine {
-struct RotationOrder;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -66,6 +66,9 @@ public:
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr ::UnityEngine::Transform*& __get_outer();
 
@@ -181,6 +184,9 @@ public:
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   static inline ::UnityEngine::Transform* New_ctor();
 

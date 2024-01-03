@@ -11,14 +11,14 @@ CORDL_MODULE_EXPORT(BatchRendererCullingOutput)
 namespace Unity::Jobs {
 struct JobHandle;
 }
+namespace UnityEngine::Rendering {
+struct BatchVisibility;
+}
 namespace UnityEngine {
 struct Matrix4x4;
 }
 namespace UnityEngine {
 struct Plane;
-}
-namespace UnityEngine::Rendering {
-struct BatchVisibility;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {

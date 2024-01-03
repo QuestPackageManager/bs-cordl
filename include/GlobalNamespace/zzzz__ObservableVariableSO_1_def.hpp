@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(ObservableVariableSO_1)
 namespace GlobalNamespace {
 class IObservableChange;
 }
-namespace System {
-class Action;
-}
 namespace GlobalNamespace {
 template <typename T> class IValue_1;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -42,8 +42,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IValue_1<T>"
   constexpr operator ::GlobalNamespace::IValue_1<T>*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IValue_1<T>"
+  constexpr ::GlobalNamespace::IValue_1<T>* i___GlobalNamespace__IValue_1_T_() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IObservableChange"
   constexpr operator ::GlobalNamespace::IObservableChange*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IObservableChange"
+  constexpr ::GlobalNamespace::IObservableChange* i___GlobalNamespace__IObservableChange() noexcept;
 
   constexpr ::System::Action*& __get_didChangeEvent();
 

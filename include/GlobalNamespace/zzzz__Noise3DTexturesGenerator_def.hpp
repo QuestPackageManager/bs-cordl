@@ -9,20 +9,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Noise3DTexturesGenerator)
-namespace UnityEngine {
-struct Color32;
+namespace GlobalNamespace {
+struct __Noise3DTexturesGenerator__MaterialPropertyNameCouple;
 }
 namespace GlobalNamespace {
 struct __Noise3DTexturesGenerator__MaterialTextureParamsCouple;
 }
 namespace UnityEngine {
-class Texture3D;
-}
-namespace GlobalNamespace {
-struct __Noise3DTexturesGenerator__MaterialPropertyNameCouple;
+struct Color32;
 }
 namespace UnityEngine {
 class Material;
+}
+namespace UnityEngine {
+class Texture3D;
 }
 // Forward declare root types
 namespace GlobalNamespace {

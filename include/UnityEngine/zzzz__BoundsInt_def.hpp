@@ -7,32 +7,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BoundsInt)
-namespace UnityEngine {
-struct __BoundsInt__PositionEnumerator;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
-class Object;
+class IDisposable;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
+class IFormatProvider;
 }
 namespace System {
 class IFormattable;
 }
 namespace System {
-class IFormatProvider;
+class Object;
 }
 namespace UnityEngine {
 struct Vector3Int;
 }
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Collections {
-class IEnumerator;
+namespace UnityEngine {
+struct __BoundsInt__PositionEnumerator;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -61,11 +61,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::Vector3Int>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Vector3Int>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::Vector3Int>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Vector3Int>* i___System__Collections__Generic__IEnumerator_1___UnityEngine__Vector3Int_();
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*();
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator();
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   /// @brief Method .ctor, addr 0x2ccbbe8, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3Int min, ::UnityEngine::Vector3Int max);
@@ -155,8 +164,14 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::BoundsInt>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::BoundsInt>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::BoundsInt>"
+  constexpr ::System::IEquatable_1<::UnityEngine::BoundsInt>* i___System__IEquatable_1___UnityEngine__BoundsInt_();
+
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
+
+  /// @brief Convert to "::System::IFormattable"
+  constexpr ::System::IFormattable* i___System__IFormattable();
 
   /// @brief Method get_min, addr 0x2ccb254, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3Int get_min();

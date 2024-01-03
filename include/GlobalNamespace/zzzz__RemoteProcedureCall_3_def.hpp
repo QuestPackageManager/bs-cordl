@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(RemoteProcedureCall_3)
 namespace GlobalNamespace {
 class IRemoteProcedureCall;
 }
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
 namespace GlobalNamespace {
 template <typename T> class __RemoteProcedureCall__TypeWrapper_1;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;

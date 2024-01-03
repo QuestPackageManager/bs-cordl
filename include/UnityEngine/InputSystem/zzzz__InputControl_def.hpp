@@ -12,17 +12,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputControl)
-namespace UnityEngine::InputSystem::Utilities {
-struct InternedString;
-}
 namespace System {
 class Object;
+}
+namespace System {
+class Type;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputStateBlock;
 }
-namespace UnityEngine::InputSystem {
-struct __InputControl__ControlFlags;
+namespace UnityEngine::InputSystem::Utilities {
+struct InternedString;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> struct ReadOnlyArray_1;
@@ -30,8 +30,8 @@ template <typename TValue> struct ReadOnlyArray_1;
 namespace UnityEngine::InputSystem {
 class InputDevice;
 }
-namespace System {
-class Type;
+namespace UnityEngine::InputSystem {
+struct __InputControl__ControlFlags;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -117,8 +117,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputControl__ControlFlags,
 // SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 216, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6671)), TypeDefinitionIndex(TypeDefinitionIndex(6566)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6699)), TypeDefinitionIndex(TypeDefinitionIndex(6214))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6215)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6214)), TypeDefinitionIndex(TypeDefinitionIndex(6699)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6671)), TypeDefinitionIndex(TypeDefinitionIndex(6566))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6215)) CS Name:
 // ::UnityEngine.InputSystem::InputControl*
 class CORDL_TYPE InputControl : public ::System::Object {
 public:

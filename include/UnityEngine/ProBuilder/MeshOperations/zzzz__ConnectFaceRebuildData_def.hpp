@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConnectFaceRebuildData)
-namespace UnityEngine::ProBuilder {
-class FaceRebuildData;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine::ProBuilder {
+class FaceRebuildData;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::MeshOperations {

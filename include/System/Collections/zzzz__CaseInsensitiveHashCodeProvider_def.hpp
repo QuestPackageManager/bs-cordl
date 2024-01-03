@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CaseInsensitiveHashCodeProvider)
+namespace System::Collections {
+class IHashCodeProvider;
+}
 namespace System::Globalization {
 class CompareInfo;
-}
-namespace System {
-class Object;
 }
 namespace System::Globalization {
 class CultureInfo;
 }
-namespace System::Collections {
-class IHashCodeProvider;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Collections {
@@ -38,6 +38,9 @@ public:
 
   /// @brief Convert operator to "::System::Collections::IHashCodeProvider"
   constexpr operator ::System::Collections::IHashCodeProvider*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IHashCodeProvider"
+  constexpr ::System::Collections::IHashCodeProvider* i___System__Collections__IHashCodeProvider() noexcept;
 
   constexpr ::System::Globalization::CompareInfo*& __get__compareInfo();
 

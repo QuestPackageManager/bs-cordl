@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_GeoGroup)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace HoudiniEngineUnity {
+class HEU_MeshData;
 }
 namespace HoudiniEngineUnity {
 class HEU_VertexEntry;
 }
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace System {
 template <typename T> class IComparable_1;
-}
-namespace HoudiniEngineUnity {
-class HEU_MeshData;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -51,6 +51,9 @@ public:
 
   /// @brief Convert operator to "::System::IComparable_1<::HoudiniEngineUnity::HEU_GeoGroup*>"
   constexpr operator ::System::IComparable_1<::HoudiniEngineUnity::HEU_GeoGroup*>*() noexcept;
+
+  /// @brief Convert to "::System::IComparable_1<::HoudiniEngineUnity::HEU_GeoGroup*>"
+  constexpr ::System::IComparable_1<::HoudiniEngineUnity::HEU_GeoGroup*>* i___System__IComparable_1___HoudiniEngineUnity__HEU_GeoGroup__() noexcept;
 
   constexpr ::StringW& __get__groupName();
 

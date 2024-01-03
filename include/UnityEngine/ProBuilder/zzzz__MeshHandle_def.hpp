@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MeshHandle)
 namespace UnityEngine {
-class Transform;
+class Mesh;
 }
 namespace UnityEngine {
-class Mesh;
+class Transform;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

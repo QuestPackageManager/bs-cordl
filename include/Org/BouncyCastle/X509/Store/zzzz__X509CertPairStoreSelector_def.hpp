@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(X509CertPairStoreSelector)
+namespace Org::BouncyCastle::X509::Store {
+class IX509Selector;
+}
+namespace Org::BouncyCastle::X509::Store {
+class X509CertStoreSelector;
+}
+namespace Org::BouncyCastle::X509 {
+class X509CertificatePair;
+}
 namespace System {
 class ICloneable;
 }
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::X509::Store {
-class IX509Selector;
-}
-namespace Org::BouncyCastle::X509 {
-class X509CertificatePair;
-}
-namespace Org::BouncyCastle::X509::Store {
-class X509CertStoreSelector;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509::Store {
@@ -53,8 +53,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::X509::Store::IX509Selector"
   constexpr operator ::Org::BouncyCastle::X509::Store::IX509Selector*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::X509::Store::IX509Selector"
+  constexpr ::Org::BouncyCastle::X509::Store::IX509Selector* i___Org__BouncyCastle__X509__Store__IX509Selector() noexcept;
+
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
+
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
   constexpr ::Org::BouncyCastle::X509::X509CertificatePair*& __get_certPair();
 

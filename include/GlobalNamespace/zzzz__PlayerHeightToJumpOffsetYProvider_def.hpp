@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(PlayerHeightToJumpOffsetYProvider)
-namespace Zenject {
-class IInitializable;
-}
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class IJumpOffsetYProvider;
 }
 namespace GlobalNamespace {
 class PlayerHeightDetector;
 }
-namespace GlobalNamespace {
-class IJumpOffsetYProvider;
+namespace System {
+class IDisposable;
+}
+namespace Zenject {
+class IInitializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -44,11 +44,20 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IJumpOffsetYProvider"
   constexpr operator ::GlobalNamespace::IJumpOffsetYProvider*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IJumpOffsetYProvider"
+  constexpr ::GlobalNamespace::IJumpOffsetYProvider* i___GlobalNamespace__IJumpOffsetYProvider() noexcept;
+
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
+  /// @brief Convert to "::Zenject::IInitializable"
+  constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::GlobalNamespace::PlayerHeightDetector*& __get__playerHeightDetector();
 

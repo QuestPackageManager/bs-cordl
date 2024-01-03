@@ -10,34 +10,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BTSStarTextEventEffect)
 namespace GlobalNamespace {
+class BasicBeatmapEventData;
+}
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
+}
+namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
+}
+namespace GlobalNamespace {
 class IAudioTimeSource;
 }
 namespace GlobalNamespace {
 class __BTSStarTextEventEffect__StarTextSprite;
+}
+namespace GlobalNamespace {
+class __BTSStarTextEventEffect__StartTextPosition;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System {
+template <typename T1, typename T2, typename T3> class Action_3;
 }
 namespace UnityEngine {
 class Sprite;
 }
 namespace UnityEngine {
 class Transform;
-}
-namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
-}
-namespace GlobalNamespace {
-class __BTSStarTextEventEffect__StartTextPosition;
-}
-namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
-namespace GlobalNamespace {
-class BasicBeatmapEventData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -222,7 +222,7 @@ static_assert(offsetof(::GlobalNamespace::__BTSStarTextEventEffect__StartTextPos
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3985))
 // CS Name: ::BTSStarTextEventEffect*
 class CORDL_TYPE BTSStarTextEventEffect : public ::UnityEngine::MonoBehaviour {

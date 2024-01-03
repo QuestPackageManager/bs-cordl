@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/XR/zzzz__XRControllerWithRumble_def.hpp"
 CORDL_MODULE_EXPORT(OpenVROculusTouchController)
 namespace UnityEngine::InputSystem::Controls {
-class Vector2Control;
-}
-namespace UnityEngine::InputSystem::Controls {
-class Vector3Control;
+class AxisControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class AxisControl;
+class Vector2Control;
+}
+namespace UnityEngine::InputSystem::Controls {
+class Vector3Control;
 }
 // Forward declare root types
 namespace Unity::XR::OpenVR {

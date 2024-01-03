@@ -6,38 +6,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LayoutRebuilder)
-namespace UnityEngine {
-class Component;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 class Object;
 }
+namespace System {
+template <typename T> class Predicate_1;
+}
+namespace UnityEngine::Events {
+template <typename T0> class UnityAction_1;
+}
+namespace UnityEngine::Pool {
+template <typename T> class ObjectPool_1;
+}
 namespace UnityEngine::UI {
 struct CanvasUpdate;
 }
-namespace UnityEngine {
-class RectTransform;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::UI {
+class ICanvasElement;
 }
 namespace UnityEngine::UI {
 class __LayoutRebuilder____c;
 }
 namespace UnityEngine {
+class Component;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine {
 class Transform;
-}
-namespace UnityEngine::UI {
-class ICanvasElement;
-}
-namespace UnityEngine::Pool {
-template <typename T> class ObjectPool_1;
-}
-namespace UnityEngine::Events {
-template <typename T0> class UnityAction_1;
-}
-namespace System {
-template <typename T> class Predicate_1;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -172,6 +172,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::UI::ICanvasElement"
   constexpr operator ::UnityEngine::UI::ICanvasElement*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UI::ICanvasElement"
+  constexpr ::UnityEngine::UI::ICanvasElement* i___UnityEngine__UI__ICanvasElement() noexcept;
 
   constexpr ::UnityEngine::RectTransform*& __get_m_ToRebuild();
 

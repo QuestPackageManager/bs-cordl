@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BitMask256)
-namespace LiteNetLib::Utils {
-class NetDataWriter;
+namespace GlobalNamespace {
+template <typename T> class IBitMask_1;
 }
-namespace System {
-class Object;
+namespace LiteNetLib::Utils {
+template <typename T> class INetImmutableSerializable_1;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
-namespace GlobalNamespace {
-template <typename T> class IBitMask_1;
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace LiteNetLib::Utils {
-template <typename T> class INetImmutableSerializable_1;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -46,11 +46,20 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMask256>"
   constexpr operator ::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMask256>*();
 
+  /// @brief Convert to "::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMask256>"
+  constexpr ::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMask256>* i___GlobalNamespace__IBitMask_1___GlobalNamespace__BitMask256_();
+
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::BitMask256>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::BitMask256>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::BitMask256>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::BitMask256>* i___System__IEquatable_1___GlobalNamespace__BitMask256_();
+
   /// @brief Convert operator to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::BitMask256>"
   constexpr operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::BitMask256>*();
+
+  /// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::BitMask256>"
+  constexpr ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::BitMask256>* i___LiteNetLib__Utils__INetImmutableSerializable_1___GlobalNamespace__BitMask256_();
 
   /// @brief Method get_bitCount, addr 0x12a1000, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_bitCount();

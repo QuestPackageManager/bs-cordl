@@ -9,34 +9,34 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerConnectedPlayerGameNoteController)
 namespace GlobalNamespace {
-class INoteVisualModifierTypeProvider;
-}
-namespace GlobalNamespace {
 template <typename T> class ICubeNoteControllerInitializable_1;
 }
 namespace GlobalNamespace {
-class NoteMovement;
+class INoteMovementProvider;
 }
 namespace GlobalNamespace {
-struct __NoteData__GameplayType;
-}
-namespace GlobalNamespace {
-struct NoteVisualModifierType;
+class INoteVisualModifierTypeProvider;
 }
 namespace GlobalNamespace {
 class NoteData;
 }
 namespace GlobalNamespace {
-class INoteMovementProvider;
+class NoteMovement;
+}
+namespace GlobalNamespace {
+struct NoteVisualModifierType;
+}
+namespace GlobalNamespace {
+class __MultiplayerConnectedPlayerGameNoteController__Pool;
+}
+namespace GlobalNamespace {
+struct __NoteData__GameplayType;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace GlobalNamespace {
-class __MultiplayerConnectedPlayerGameNoteController__Pool;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -52,7 +52,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerConnectedPlayerGameNoteController
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5138)), TypeDefinitionIndex(TypeDefinitionIndex(4749)), TypeDefinitionIndex(TypeDefinitionIndex(14757))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5138)), TypeDefinitionIndex(TypeDefinitionIndex(14757)), TypeDefinitionIndex(TypeDefinitionIndex(4749))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5137))
 // CS Name: ::MultiplayerConnectedPlayerGameNoteController*
 class CORDL_TYPE MultiplayerConnectedPlayerGameNoteController : public ::GlobalNamespace::MultiplayerConnectedPlayerNoteController {
@@ -79,11 +79,21 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>"
   constexpr operator ::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>"
+  constexpr ::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>*
+  i___GlobalNamespace__ICubeNoteControllerInitializable_1___GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::INoteVisualModifierTypeProvider"
   constexpr operator ::GlobalNamespace::INoteVisualModifierTypeProvider*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::INoteVisualModifierTypeProvider"
+  constexpr ::GlobalNamespace::INoteVisualModifierTypeProvider* i___GlobalNamespace__INoteVisualModifierTypeProvider() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::INoteMovementProvider"
   constexpr operator ::GlobalNamespace::INoteMovementProvider*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::INoteMovementProvider"
+  constexpr ::GlobalNamespace::INoteMovementProvider* i___GlobalNamespace__INoteMovementProvider() noexcept;
 
   constexpr ::System::Action_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>*& __get_cubeNoteControllerDidInitEvent();
 
@@ -166,8 +176,8 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerGameNoteCont
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5137)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 356 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(11050))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5136)) CS Name: ::MultiplayerConnectedPlayerGameNoteController::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), TypeDefinitionIndex(TypeDefinitionIndex(5137)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// 356 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5136)) CS Name: ::MultiplayerConnectedPlayerGameNoteController::Pool*
 class CORDL_TYPE __MultiplayerConnectedPlayerGameNoteController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*> {
 public:
   // Declarations

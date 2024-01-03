@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AdvancedAbuseReportOptions)
 namespace Oculus::Platform {
-struct AbuseReportVideoMode;
+struct AbuseReportType;
 }
 namespace Oculus::Platform {
-struct AbuseReportType;
+struct AbuseReportVideoMode;
 }
 // Forward declare root types
 namespace Oculus::Platform {

@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__InternalPrimitiveTypeE_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MemberPrimitiveUnTyped)
-namespace System {
-class Object;
-}
 namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryWriter;
+struct InternalPrimitiveTypeE;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryParser;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-struct InternalPrimitiveTypeE;
+class __BinaryWriter;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {

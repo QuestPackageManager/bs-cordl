@@ -6,35 +6,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(InitializableManager)
-namespace Zenject {
-class __InitializableManager__InitializableInfo;
-}
-namespace Zenject {
-class __InitializableManager____c__DisplayClass2_0;
-}
-namespace Zenject {
-class __InitializableManager____c;
-}
-namespace Zenject {
-class InjectTypeInfo;
+namespace ModestTree::Util {
+template <typename T1, typename T2> class ValuePair_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace Zenject {
-class IInitializable;
-}
 namespace System {
-class Type;
-}
-namespace ModestTree::Util {
-template <typename T1, typename T2> class ValuePair_2;
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 class Object;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+class Type;
+}
+namespace Zenject {
+class IInitializable;
+}
+namespace Zenject {
+class InjectTypeInfo;
+}
+namespace Zenject {
+class __InitializableManager__InitializableInfo;
+}
+namespace Zenject {
+class __InitializableManager____c;
+}
+namespace Zenject {
+class __InitializableManager____c__DisplayClass2_0;
 }
 // Forward declare root types
 namespace Zenject {

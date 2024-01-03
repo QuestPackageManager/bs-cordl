@@ -13,50 +13,50 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TrackedDeviceRaycaster)
-namespace UnityEngine {
-struct Ray;
-}
-namespace UnityEngine {
-class Camera;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine::EventSystems {
-struct RaycastResult;
-}
-namespace UnityEngine {
-class RectTransform;
+namespace System {
+template <typename T> class Comparison_1;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct LayerMask;
-}
-namespace UnityEngine {
-class Canvas;
+namespace UnityEngine::EventSystems {
+struct RaycastResult;
 }
 namespace UnityEngine::InputSystem::UI {
-class __TrackedDeviceRaycaster____c;
+class ExtendedPointerEventData;
 }
 namespace UnityEngine::InputSystem::UI {
 struct __TrackedDeviceRaycaster__RaycastHitData;
 }
 namespace UnityEngine::InputSystem::UI {
-class ExtendedPointerEventData;
+class __TrackedDeviceRaycaster____c;
 }
-namespace System {
-template <typename T> class Comparison_1;
+namespace UnityEngine::UI {
+class Graphic;
+}
+namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine {
+class Canvas;
+}
+namespace UnityEngine {
+struct LayerMask;
+}
+namespace UnityEngine {
+struct Ray;
+}
+namespace UnityEngine {
+class RectTransform;
 }
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine::UI {
-class Graphic;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::UI {
@@ -76,7 +76,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::UI::__TrackedDeviceRaycaster__RaycastHitD
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::UI {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6381))
 // CS Name: ::TrackedDeviceRaycaster::RaycastHitData
 struct CORDL_TYPE __TrackedDeviceRaycaster__RaycastHitData {
@@ -201,8 +201,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::UI::__
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::UI {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3869 }), TypeDefinitionIndex(TypeDefinitionIndex(13209)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6669)), TypeDefinitionIndex(TypeDefinitionIndex(10204))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6383)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13209)), TypeDefinitionIndex(TypeDefinitionIndex(6669)), TypeDefinitionIndex(TypeDefinitionIndex(10204)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3869 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6383)) CS Name:
 // ::UnityEngine.InputSystem.UI::TrackedDeviceRaycaster*
 class CORDL_TYPE TrackedDeviceRaycaster : public ::UnityEngine::EventSystems::BaseRaycaster {
 public:

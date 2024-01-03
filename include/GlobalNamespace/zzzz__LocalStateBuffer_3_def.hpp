@@ -9,16 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LocalStateBuffer_3)
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> struct __StateBuffer_3__TimestampedStateTable;
+struct SyncStateId;
 }
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__InterpolationDelegate;
 }
 namespace GlobalNamespace {
-struct SyncStateId;
+template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__SmoothingDelegate;
 }
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__SmoothingDelegate;
+template <typename TStateTable, typename TType, typename TState> struct __StateBuffer_3__TimestampedStateTable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,8 +32,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12982)), TypeDefinitionIndex(TypeDefinitionIndex(12985)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12985), inst:
-// 3833 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12982), inst: 3833 }), TypeDefinitionIndex(TypeDefinitionIndex(12988))} Self:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12985), inst: 3833 }), TypeDefinitionIndex(TypeDefinitionIndex(12982)), GenericInstantiation(GenericInstantiation
+// { tdi: TypeDefinitionIndex(12982), inst: 3833 }), TypeDefinitionIndex(TypeDefinitionIndex(12985)), TypeDefinitionIndex(TypeDefinitionIndex(12988))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(12986)) CS Name: ::LocalStateBuffer`3<TStateTable,TType,TState>*
 class CORDL_TYPE LocalStateBuffer_3 : public ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState> {
 public:
@@ -129,9 +129,8 @@ public:
                                                                                             ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* smoother);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param smoother: ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable,TType,TState>* (default: nullptr)
   inline void _ctor(int64_t fullStateUpdateFrequency, int64_t deltaUpdateFrequency, int32_t size, ::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* interpolator,
-                    ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* smoother = nullptr);
+                    ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* smoother);
 
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Clear();

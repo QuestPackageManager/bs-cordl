@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__LocalizedAudioClipSO____c__DisplayClass4_0);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15554)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15554))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5869))
 // CS Name: ::LocalizedAudioClipSO::LocalizedAudioClipInfo*
 class CORDL_TYPE __LocalizedAudioClipSO__LocalizedAudioClipInfo : public ::System::Object {

@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(AsyncLocal_1)
-namespace System {
-class Object;
-}
 namespace System::Threading {
 template <typename T> struct AsyncLocalValueChangedArgs_1;
+}
+namespace System::Threading {
+class IAsyncLocal;
 }
 namespace System {
 template <typename T> class Action_1;
 }
-namespace System::Threading {
-class IAsyncLocal;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -41,6 +41,9 @@ public:
 
   /// @brief Convert operator to "::System::Threading::IAsyncLocal"
   constexpr operator ::System::Threading::IAsyncLocal*() noexcept;
+
+  /// @brief Convert to "::System::Threading::IAsyncLocal"
+  constexpr ::System::Threading::IAsyncLocal* i___System__Threading__IAsyncLocal() noexcept;
 
   constexpr ::System::Action_1<::System::Threading::AsyncLocalValueChangedArgs_1<T>>*& __get_m_valueChangedHandler();
 

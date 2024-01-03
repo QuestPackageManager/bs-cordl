@@ -11,10 +11,10 @@ namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
-struct __ParticleSystem__Particle;
+class ParticleSystem;
 }
 namespace UnityEngine {
-class ParticleSystem;
+struct __ParticleSystem__Particle;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ParticleSystemLightWithIds);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14552)), TypeDefinitionIndex(TypeDefinitionIndex(15882))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15882)), TypeDefinitionIndex(TypeDefinitionIndex(14552))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14549))
 // CS Name: ::ParticleSystemLightWithIds*
 class CORDL_TYPE ParticleSystemLightWithIds : public ::GlobalNamespace::RuntimeLightWithIds {

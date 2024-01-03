@@ -8,29 +8,29 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRSpectatorModeDomeTest)
-namespace UnityEngine {
-class Camera;
-}
 namespace GlobalNamespace {
 class __OVRSpectatorModeDomeTest___TimerCoroutine_d__20;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace System {
-class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class IDisposable;
+}
 namespace System {
 class Object;
+}
+namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -68,11 +68,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -151,7 +160,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRSpectatorModeDomeTest___TimerCoro
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7756)), TypeDefinitionIndex(TypeDefinitionIndex(7847))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7847)), TypeDefinitionIndex(TypeDefinitionIndex(7756))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8181))
 // CS Name: ::OVRSpectatorModeDomeTest*
 class CORDL_TYPE OVRSpectatorModeDomeTest : public ::UnityEngine::MonoBehaviour {

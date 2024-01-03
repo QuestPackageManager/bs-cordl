@@ -10,61 +10,61 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseNetworkPlayerModel)
 namespace GlobalNamespace {
-struct DisconnectedReason;
-}
-namespace GlobalNamespace {
-class __BaseNetworkPlayerModel___GetOtherPlayers_d__56;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace GlobalNamespace {
-template <typename T> class INetworkPlayerModelPartyConfig_1;
-}
-namespace GlobalNamespace {
-struct GameplayServerConfiguration;
-}
-namespace GlobalNamespace {
-class INetworkPlayerModel;
-}
-namespace GlobalNamespace {
-class __BaseNetworkPlayerModel__PartyConfig;
-}
-namespace System {
-template <typename T> class Action_1;
+struct BeatmapLevelSelectionMask;
 }
 namespace GlobalNamespace {
 class ConnectedPlayerManager;
 }
 namespace GlobalNamespace {
-struct BeatmapLevelSelectionMask;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+struct ConnectionFailedReason;
 }
 namespace GlobalNamespace {
-struct ConnectionFailedReason;
+struct DisconnectedReason;
+}
+namespace GlobalNamespace {
+struct GameplayServerConfiguration;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 template <typename T> class IConnectionInitParams_1;
 }
 namespace GlobalNamespace {
+template <typename T> class INetworkPlayerModelPartyConfig_1;
+}
+namespace GlobalNamespace {
+class INetworkPlayerModel;
+}
+namespace GlobalNamespace {
 class INetworkPlayer;
+}
+namespace GlobalNamespace {
+class __BaseNetworkPlayerModel__PartyConfig;
+}
+namespace GlobalNamespace {
+class __BaseNetworkPlayerModel___GetOtherPlayers_d__56;
 }
 namespace GlobalNamespace {
 class __BaseNetworkPlayerModel___GetPartyPlayers_d__55;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template <typename T> class IEnumerable_1;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -91,7 +91,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__BaseNetworkPlayerModel___GetPartyPlayers_d__
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12758)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12758))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14937))
 // CS Name: ::BaseNetworkPlayerModel::PartyConfig*
 class CORDL_TYPE __BaseNetworkPlayerModel__PartyConfig : public ::System::Object {
@@ -190,17 +190,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* i___System__Collections__Generic__IEnumerable_1___GlobalNamespace__INetworkPlayer__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>* i___System__Collections__Generic__IEnumerator_1___GlobalNamespace__INetworkPlayer__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -307,17 +322,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* i___System__Collections__Generic__IEnumerable_1___GlobalNamespace__INetworkPlayer__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>* i___System__Collections__Generic__IEnumerator_1___GlobalNamespace__INetworkPlayer__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -402,7 +432,7 @@ static_assert(offsetof(::GlobalNamespace::__BaseNetworkPlayerModel___GetOtherPla
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12758)), TypeDefinitionIndex(TypeDefinitionIndex(12966)), TypeDefinitionIndex(TypeDefinitionIndex(12686))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12966)), TypeDefinitionIndex(TypeDefinitionIndex(12758))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14940))
 // CS Name: ::BaseNetworkPlayerModel*
 class CORDL_TYPE BaseNetworkPlayerModel : public ::GlobalNamespace::StandaloneMonobehavior {
@@ -467,6 +497,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::INetworkPlayerModel"
   constexpr operator ::GlobalNamespace::INetworkPlayerModel*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::INetworkPlayerModel"
+  constexpr ::GlobalNamespace::INetworkPlayerModel* i___GlobalNamespace__INetworkPlayerModel() noexcept;
 
   constexpr ::GlobalNamespace::ConnectedPlayerManager*& __get__connectedPlayerManager();
 

@@ -8,44 +8,44 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerScoreProvider)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-class __MultiplayerScoreProvider____c;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
-class __MultiplayerScoreProvider____c__DisplayClass18_0;
-}
 namespace GlobalNamespace {
 class IScoreSyncStateManager;
-}
-namespace GlobalNamespace {
-class __MultiplayerScoreProvider__RankedPlayer;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace System {
-template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class MultiplayerSyncState_3;
 }
 namespace GlobalNamespace {
-struct __StandardScoreSyncState__Score;
-}
-namespace GlobalNamespace {
 struct StandardScoreSyncState;
 }
+namespace GlobalNamespace {
+class __MultiplayerScoreProvider__RankedPlayer;
+}
+namespace GlobalNamespace {
+class __MultiplayerScoreProvider____c;
+}
+namespace GlobalNamespace {
+class __MultiplayerScoreProvider____c__DisplayClass18_0;
+}
+namespace GlobalNamespace {
+struct __StandardScoreSyncState__Score;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace System {
-template <typename T> class IComparable_1;
+template <typename T> class Action_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+template <typename T> class IComparable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -105,6 +105,9 @@ public:
 
   /// @brief Convert operator to "::System::IComparable_1<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>"
   constexpr operator ::System::IComparable_1<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>*() noexcept;
+
+  /// @brief Convert to "::System::IComparable_1<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>"
+  constexpr ::System::IComparable_1<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>* i___System__IComparable_1___GlobalNamespace____MultiplayerScoreProvider__RankedPlayer__() noexcept;
 
   constexpr ::GlobalNamespace::MultiplayerSyncState_3<::GlobalNamespace::StandardScoreSyncState, ::GlobalNamespace::__StandardScoreSyncState__Score, int32_t>*& __get__multiplayerSyncState();
 

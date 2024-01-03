@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LocalizedTextComponent_1)
-namespace System {
-class Object;
-}
 namespace Polyglot {
 class ILocalize;
+}
+namespace Polyglot {
+struct LanguageDirection;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace Polyglot {
-struct LanguageDirection;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Polyglot {
@@ -57,6 +57,9 @@ public:
 
   /// @brief Convert operator to "::Polyglot::ILocalize"
   constexpr operator ::Polyglot::ILocalize*() noexcept;
+
+  /// @brief Convert to "::Polyglot::ILocalize"
+  constexpr ::Polyglot::ILocalize* i___Polyglot__ILocalize() noexcept;
 
   constexpr T& __get_localizedComponent();
 

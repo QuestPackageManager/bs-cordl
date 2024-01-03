@@ -1,15 +1,15 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PerformanceToolLauncher_impl.hpp"
-#include "System/zzzz__Nullable_1_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PerformanceToolLauncher_def.hpp"
+#include "GlobalNamespace/zzzz__BoolSO_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__IGamePause_def.hpp"
 #include "GlobalNamespace/zzzz__MainCamera_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
-#include "GlobalNamespace/zzzz__PerformanceToolLauncher_def.hpp"
 #include "GlobalNamespace/zzzz__PerformanceRecorder_def.hpp"
+#include "GlobalNamespace/zzzz__PerformanceToolLauncher_def.hpp"
 #include "GlobalNamespace/zzzz__PerformanceVisualizer_def.hpp"
-#include "GlobalNamespace/zzzz__BoolSO_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 // Ctor Parameters [CppParam { name: "visualizer", ty: "::GlobalNamespace::PerformanceVisualizer*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "recorder", ty:
 // "::GlobalNamespace::PerformanceRecorder*", modifiers: "", def_value: Some("nullptr") }]
 constexpr ::GlobalNamespace::__PerformanceToolLauncher__Assets::__PerformanceToolLauncher__Assets(::GlobalNamespace::PerformanceVisualizer* visualizer,
@@ -55,7 +55,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x27c;
   constexpr static std::size_t addrs = 0x2304c94;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceToolLauncher*>::get(), "Initialize", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MainCamera*>::get(),
@@ -72,7 +72,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2304f10;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceToolLauncher*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;

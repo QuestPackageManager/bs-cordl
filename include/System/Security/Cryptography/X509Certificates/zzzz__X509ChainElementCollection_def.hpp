@@ -6,31 +6,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509ChainElementCollection)
 namespace System::Collections {
-class ICollection;
+class ArrayList;
 }
 namespace System::Collections {
-class ArrayList;
+class ICollection;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Security::Cryptography::X509Certificates {
-class X509ChainElementEnumerator;
-}
-namespace System {
-class Array;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate2;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-class Object;
+namespace System::Security::Cryptography::X509Certificates {
+class X509ChainElementEnumerator;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509ChainElement;
+}
+namespace System {
+class Array;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -62,8 +62,14 @@ public:
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
 
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::System::Collections::ArrayList*& __get__list();
 

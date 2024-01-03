@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimeValue)
-namespace UnityEngine::UIElements {
-struct TimeUnit;
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
 }
-namespace System {
-template <typename T> class IEquatable_1;
+namespace UnityEngine::UIElements {
+struct TimeUnit;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -39,6 +39,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::TimeValue>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::TimeValue>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::TimeValue>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::TimeValue>* i___System__IEquatable_1___UnityEngine__UIElements__TimeValue_();
 
   /// @brief Method get_value, addr 0x2e7622c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();

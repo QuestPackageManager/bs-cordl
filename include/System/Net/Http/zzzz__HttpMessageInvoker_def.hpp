@@ -10,17 +10,17 @@ class HttpMessageHandler;
 namespace System::Net::Http {
 class HttpRequestMessage;
 }
-namespace System::Threading {
-struct CancellationToken;
-}
 namespace System::Net::Http {
 class HttpResponseMessage;
 }
-namespace System {
-class IDisposable;
-}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Net::Http {
@@ -46,6 +46,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::System::Net::Http::HttpMessageHandler*& __get_handler();
 

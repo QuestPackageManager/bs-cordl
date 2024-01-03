@@ -8,10 +8,10 @@ namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1Object;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
@@ -19,8 +19,8 @@ class Asn1TaggedObject;
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Crmf {

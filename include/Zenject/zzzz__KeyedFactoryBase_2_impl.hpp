@@ -1,19 +1,19 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__KeyedFactoryBase_2_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "Zenject/zzzz__KeyedFactoryBase_2_def.hpp"
-#include "Zenject/zzzz__IValidatable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "ModestTree/Util/zzzz__ValuePair_2_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__ConditionCopyNonLazyBinder_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__IValidatable_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "Zenject/zzzz__KeyedFactoryBase_2_def.hpp"
 template <typename TBase, typename TKey> inline void Zenject::__KeyedFactoryBase_2____c<TBase, TKey>::setStaticF___9(::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>* value) {
   ::cordl_internals::setStaticField<::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>*, "<>9",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>*>::get>(
@@ -80,6 +80,10 @@ template <typename TBase, typename TKey> inline ::Zenject::InjectTypeInfo* Zenje
 template <typename TBase, typename TKey> constexpr ::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>::__KeyedFactoryBase_2____c() {}
 /// @brief Convert operator to "::Zenject::IValidatable"
 template <typename TBase, typename TKey> constexpr Zenject::KeyedFactoryBase_2<TBase, TKey>::operator ::Zenject::IValidatable*() noexcept {
+  return static_cast<::Zenject::IValidatable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::IValidatable"
+template <typename TBase, typename TKey> constexpr ::Zenject::IValidatable* Zenject::KeyedFactoryBase_2<TBase, TKey>::i___Zenject__IValidatable() noexcept {
   return static_cast<::Zenject::IValidatable*>(static_cast<void*>(this));
 }
 template <typename TBase, typename TKey> constexpr ::Zenject::DiContainer*& Zenject::KeyedFactoryBase_2<TBase, TKey>::__get__container() {

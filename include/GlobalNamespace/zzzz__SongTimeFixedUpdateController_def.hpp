@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(SongTimeFixedUpdateController)
-namespace System {
-class Action;
-}
 namespace GlobalNamespace {
 class IAudioTimeSource;
 }
 namespace System {
 template <typename T> class Action_1;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {

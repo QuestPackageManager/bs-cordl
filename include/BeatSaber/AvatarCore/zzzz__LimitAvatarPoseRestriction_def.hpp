@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(LimitAvatarPoseRestriction)
-namespace UnityEngine {
-struct Vector3;
+namespace BeatSaber::AvatarCore {
+class IAvatarPoseRestriction;
 }
 namespace BeatSaber::AvatarCore {
 class __LimitAvatarPoseRestriction__Parameters;
 }
-namespace BeatSaber::AvatarCore {
-class IAvatarPoseRestriction;
-}
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {
@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15195))
 // CS Name: ::LimitAvatarPoseRestriction::Parameters*
 class CORDL_TYPE __LimitAvatarPoseRestriction__Parameters : public ::System::Object {
@@ -207,6 +207,9 @@ public:
 
   /// @brief Convert operator to "::BeatSaber::AvatarCore::IAvatarPoseRestriction"
   constexpr operator ::BeatSaber::AvatarCore::IAvatarPoseRestriction*() noexcept;
+
+  /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarPoseRestriction"
+  constexpr ::BeatSaber::AvatarCore::IAvatarPoseRestriction* i___BeatSaber__AvatarCore__IAvatarPoseRestriction() noexcept;
 
   constexpr ::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters*& __get__parameters();
 

@@ -15,110 +15,110 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseVerticalCollectionView)
-namespace UnityEngine::UIElements {
-class DetachFromPanelEvent;
-}
-namespace UnityEngine::UIElements {
-class ICollectionDragAndDropController;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace UnityEngine::UIElements {
-class ReusableCollectionItem;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
-namespace UnityEngine::UIElements {
-class CollectionViewController;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine::UIElements {
-class PointerMoveEvent;
+namespace System::Collections {
+class IList;
 }
-namespace UnityEngine::UIElements {
-class VisualElement;
+namespace System {
+template <typename T> class Action_1;
 }
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace System {
+class Action;
+}
+namespace System {
+template <typename TResult> class Func_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
-}
-namespace UnityEngine::UIElements {
-class KeyboardNavigationManipulator;
 }
 namespace System {
 class Object;
 }
 namespace UnityEngine::UIElements {
-struct SelectionType;
+struct AlternatingRowBackground;
 }
 namespace UnityEngine::UIElements {
-struct __BaseVerticalCollectionView____c__DisplayClass164_0;
+class AttachToPanelEvent;
+}
+namespace UnityEngine::UIElements {
+class CollectionViewController;
 }
 namespace UnityEngine::UIElements {
 class CollectionVirtualizationController;
 }
 namespace UnityEngine::UIElements {
-class PointerCancelEvent;
-}
-namespace UnityEngine::UIElements {
-class PointerUpEvent;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::UIElements {
-class GeometryChangedEvent;
+struct CollectionVirtualizationMethod;
 }
 namespace UnityEngine::UIElements {
 class CustomStyleResolvedEvent;
 }
 namespace UnityEngine::UIElements {
-struct CollectionVirtualizationMethod;
+class DetachFromPanelEvent;
 }
 namespace UnityEngine::UIElements {
-struct AlternatingRowBackground;
-}
-namespace System::Collections {
-class IList;
+class EventBase;
 }
 namespace UnityEngine::UIElements {
-class ScrollView;
-}
-namespace System {
-class Action;
+class GeometryChangedEvent;
 }
 namespace UnityEngine::UIElements {
-struct KeyboardNavigationOperation;
-}
-namespace UnityEngine::UIElements {
-class AttachToPanelEvent;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace System {
-template <typename TResult> class Func_1;
-}
-namespace UnityEngine::UIElements {
-class PointerDownEvent;
+class ICollectionDragAndDropController;
 }
 namespace UnityEngine::UIElements {
 class IPointerEvent;
 }
 namespace UnityEngine::UIElements {
+class KeyboardNavigationManipulator;
+}
+namespace UnityEngine::UIElements {
+struct KeyboardNavigationOperation;
+}
+namespace UnityEngine::UIElements {
 class ListViewDragger;
+}
+namespace UnityEngine::UIElements {
+class PointerCancelEvent;
+}
+namespace UnityEngine::UIElements {
+class PointerDownEvent;
+}
+namespace UnityEngine::UIElements {
+class PointerMoveEvent;
+}
+namespace UnityEngine::UIElements {
+class PointerUpEvent;
+}
+namespace UnityEngine::UIElements {
+class ReusableCollectionItem;
+}
+namespace UnityEngine::UIElements {
+class ScrollView;
+}
+namespace UnityEngine::UIElements {
+struct SelectionType;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+struct __BaseVerticalCollectionView____c__DisplayClass164_0;
+}
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -171,9 +171,9 @@ static_assert(offsetof(::UnityEngine::UIElements::__BaseVerticalCollectionView__
 // SizeInfo { instance_size: 1176, native_size: -1, calculated_instance_size: 1176, calculated_native_size: 1172, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7306), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(6885)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7140)), TypeDefinitionIndex(TypeDefinitionIndex(7141)), TypeDefinitionIndex(TypeDefinitionIndex(7306)), TypeDefinitionIndex(TypeDefinitionIndex(6801)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10243))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7143)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7141)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(7306)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6885)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7306), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7140)), TypeDefinitionIndex(TypeDefinitionIndex(6801))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7143)) CS Name:
 // ::UnityEngine.UIElements::BaseVerticalCollectionView*
 class CORDL_TYPE BaseVerticalCollectionView : public ::UnityEngine::UIElements::BindableElement {
 public:
@@ -355,6 +355,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
+  constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
   constexpr ::System::Action_1<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>*& __get_onItemsChosen();
 
@@ -669,8 +672,7 @@ public:
   inline ::UnityEngine::UIElements::CollectionVirtualizationController* get_virtualizationController();
 
   /// @brief Method ResolveItemHeight, addr 0x2e401bc, size 0xb8, virtual false, abstract: false, final false
-  /// @param height: float_t (default: -1.0)
-  inline float_t ResolveItemHeight(float_t height = -1.0);
+  inline float_t ResolveItemHeight(float_t height);
 
   /// @brief Method set_showBorder, addr 0x2e40274, size 0x80, virtual false, abstract: false, final false
   inline void set_showBorder(bool value);
@@ -765,8 +767,7 @@ public:
   inline void OnScroll(::UnityEngine::Vector2 offset);
 
   /// @brief Method Resize, addr 0x2e414f4, size 0xa0, virtual false, abstract: false, final false
-  /// @param layoutPass: int32_t (default: static_cast<int32_t>(0xffffffff))
-  inline void Resize(::UnityEngine::Vector2 size, int32_t layoutPass = static_cast<int32_t>(0xffffffff));
+  inline void Resize(::UnityEngine::Vector2 size, int32_t layoutPass);
 
   /// @brief Method OnAttachToPanel, addr 0x2e416b4, size 0x35c, virtual false, abstract: false, final false
   inline void OnAttachToPanel(::UnityEngine::UIElements::AttachToPanelEvent* evt);

@@ -11,25 +11,25 @@ namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerEnumerated;
-}
-namespace System {
-class Object;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerBitString;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class DerEnumerated;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class DerObjectIdentifier;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {

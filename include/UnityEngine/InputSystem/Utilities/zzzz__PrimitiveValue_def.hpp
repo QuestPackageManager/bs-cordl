@@ -9,28 +9,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PrimitiveValue)
 namespace System {
-class Object;
-}
-namespace System {
 struct DateTime;
 }
 namespace System {
 struct Decimal;
 }
 namespace System {
-class Type;
-}
-namespace System {
-class IFormatProvider;
-}
-namespace System {
-struct TypeCode;
+class IConvertible;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
-class IConvertible;
+class IFormatProvider;
+}
+namespace System {
+class Object;
+}
+namespace System {
+struct TypeCode;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -96,8 +96,14 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::PrimitiveValue>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::PrimitiveValue>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::PrimitiveValue>"
+  constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::PrimitiveValue>* i___System__IEquatable_1___UnityEngine__InputSystem__Utilities__PrimitiveValue_();
+
   /// @brief Convert operator to "::System::IConvertible"
   constexpr operator ::System::IConvertible*();
+
+  /// @brief Convert to "::System::IConvertible"
+  constexpr ::System::IConvertible* i___System__IConvertible();
 
   constexpr ::System::TypeCode& __get_m_Type();
 
@@ -250,48 +256,37 @@ public:
   inline ::System::TypeCode GetTypeCode();
 
   /// @brief Method ToBoolean, addr 0x2b167c0, size 0x158, virtual true, abstract: false, final true
-  /// @param provider: ::System::IFormatProvider* (default: nullptr)
-  inline bool ToBoolean(::System::IFormatProvider* provider = nullptr);
+  inline bool ToBoolean(::System::IFormatProvider* provider);
 
   /// @brief Method ToByte, addr 0x2b16964, size 0x10, virtual true, abstract: false, final true
-  /// @param provider: ::System::IFormatProvider* (default: nullptr)
-  inline uint8_t ToByte(::System::IFormatProvider* provider = nullptr);
+  inline uint8_t ToByte(::System::IFormatProvider* provider);
 
   /// @brief Method ToChar, addr 0x2b16918, size 0x38, virtual true, abstract: false, final true
-  /// @param provider: ::System::IFormatProvider* (default: nullptr)
-  inline char16_t ToChar(::System::IFormatProvider* provider = nullptr);
+  inline char16_t ToChar(::System::IFormatProvider* provider);
 
   /// @brief Method ToDateTime, addr 0x2b1786c, size 0x50, virtual true, abstract: false, final true
-  /// @param provider: ::System::IFormatProvider* (default: nullptr)
-  inline ::System::DateTime ToDateTime(::System::IFormatProvider* provider = nullptr);
+  inline ::System::DateTime ToDateTime(::System::IFormatProvider* provider);
 
   /// @brief Method ToDecimal, addr 0x2b178bc, size 0x4c, virtual true, abstract: false, final true
-  /// @param provider: ::System::IFormatProvider* (default: nullptr)
-  inline ::System::Decimal ToDecimal(::System::IFormatProvider* provider = nullptr);
+  inline ::System::Decimal ToDecimal(::System::IFormatProvider* provider);
 
   /// @brief Method ToDouble, addr 0x2b16b58, size 0xa8, virtual true, abstract: false, final true
-  /// @param provider: ::System::IFormatProvider* (default: nullptr)
-  inline double_t ToDouble(::System::IFormatProvider* provider = nullptr);
+  inline double_t ToDouble(::System::IFormatProvider* provider);
 
   /// @brief Method ToInt16, addr 0x2b169ac, size 0x10, virtual true, abstract: false, final true
-  /// @param provider: ::System::IFormatProvider* (default: nullptr)
-  inline int16_t ToInt16(::System::IFormatProvider* provider = nullptr);
+  inline int16_t ToInt16(::System::IFormatProvider* provider);
 
   /// @brief Method ToInt32, addr 0x2b169d0, size 0x10, virtual true, abstract: false, final true
-  /// @param provider: ::System::IFormatProvider* (default: nullptr)
-  inline int32_t ToInt32(::System::IFormatProvider* provider = nullptr);
+  inline int32_t ToInt32(::System::IFormatProvider* provider);
 
   /// @brief Method ToInt64, addr 0x2b169f4, size 0xa0, virtual true, abstract: false, final true
-  /// @param provider: ::System::IFormatProvider* (default: nullptr)
-  inline int64_t ToInt64(::System::IFormatProvider* provider = nullptr);
+  inline int64_t ToInt64(::System::IFormatProvider* provider);
 
   /// @brief Method ToSByte, addr 0x2b16988, size 0x10, virtual true, abstract: false, final true
-  /// @param provider: ::System::IFormatProvider* (default: nullptr)
-  inline int8_t ToSByte(::System::IFormatProvider* provider = nullptr);
+  inline int8_t ToSByte(::System::IFormatProvider* provider);
 
   /// @brief Method ToSingle, addr 0x2b09f58, size 0x14, virtual true, abstract: false, final true
-  /// @param provider: ::System::IFormatProvider* (default: nullptr)
-  inline float_t ToSingle(::System::IFormatProvider* provider = nullptr);
+  inline float_t ToSingle(::System::IFormatProvider* provider);
 
   /// @brief Method ToString, addr 0x2b17908, size 0x4, virtual true, abstract: false, final true
   inline ::StringW ToString(::System::IFormatProvider* provider);
@@ -300,16 +295,13 @@ public:
   inline ::System::Object* ToType(::System::Type* conversionType, ::System::IFormatProvider* provider);
 
   /// @brief Method ToUInt16, addr 0x2b1794c, size 0x10, virtual true, abstract: false, final true
-  /// @param provider: ::System::IFormatProvider* (default: nullptr)
-  inline uint16_t ToUInt16(::System::IFormatProvider* provider = nullptr);
+  inline uint16_t ToUInt16(::System::IFormatProvider* provider);
 
   /// @brief Method ToUInt32, addr 0x2b1795c, size 0x10, virtual true, abstract: false, final true
-  /// @param provider: ::System::IFormatProvider* (default: nullptr)
-  inline uint32_t ToUInt32(::System::IFormatProvider* provider = nullptr);
+  inline uint32_t ToUInt32(::System::IFormatProvider* provider);
 
   /// @brief Method ToUInt64, addr 0x2b16aac, size 0x94, virtual true, abstract: false, final true
-  /// @param provider: ::System::IFormatProvider* (default: nullptr)
-  inline uint64_t ToUInt64(::System::IFormatProvider* provider = nullptr);
+  inline uint64_t ToUInt64(::System::IFormatProvider* provider);
 
   /// @brief Method ToObject, addr 0x2b1585c, size 0x1b0, virtual false, abstract: false, final false
   inline ::System::Object* ToObject();

@@ -9,19 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Color)
 namespace System {
-class IFormatProvider;
+template <typename T> class IEquatable_1;
 }
-namespace UnityEngine {
-struct Vector4;
+namespace System {
+class IFormatProvider;
 }
 namespace System {
 class IFormattable;
 }
 namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
 class Object;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -50,8 +50,14 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Color>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Color>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Color>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Color>* i___System__IEquatable_1___UnityEngine__Color_();
+
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
+
+  /// @brief Convert to "::System::IFormattable"
+  constexpr ::System::IFormattable* i___System__IFormattable();
 
   /// @brief Method .ctor, addr 0x2cda778, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t r, float_t g, float_t b, float_t a);

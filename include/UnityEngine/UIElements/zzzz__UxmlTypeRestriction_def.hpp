@@ -26,6 +26,9 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::UxmlTypeRestriction*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::UxmlTypeRestriction*>*() noexcept;
 
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::UxmlTypeRestriction*>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::UxmlTypeRestriction*>* i___System__IEquatable_1___UnityEngine__UIElements__UxmlTypeRestriction__() noexcept;
+
   /// @brief Method Equals, addr 0x2e0e688, size 0xc, virtual true, abstract: false, final false
   inline bool Equals(::UnityEngine::UIElements::UxmlTypeRestriction* other);
 

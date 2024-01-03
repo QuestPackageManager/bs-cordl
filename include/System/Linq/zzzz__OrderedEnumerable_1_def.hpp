@@ -7,24 +7,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OrderedEnumerable_1)
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Linq {
-template <typename TElement> class EnumerableSorter_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Linq {
-template <typename TElement> class __OrderedEnumerable_1___GetEnumerator_d__1;
-}
-namespace System::Linq {
-template <typename TElement> class IOrderedEnumerable_1;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
 }
@@ -33,6 +15,24 @@ template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Linq {
+template <typename TElement> class EnumerableSorter_1;
+}
+namespace System::Linq {
+template <typename TElement> class IOrderedEnumerable_1;
+}
+namespace System::Linq {
+template <typename TElement> class __OrderedEnumerable_1___GetEnumerator_d__1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 class IDisposable;
@@ -56,7 +56,7 @@ namespace System::Linq {
 // cpp template
 template <typename TElement>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14295), inst: 963 }),
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14295), inst: 963 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
 // TypeDefinitionIndex(TypeDefinitionIndex(14295))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14290)) CS Name: ::OrderedEnumerable`1::<GetEnumerator>d__1<TElement>*
 class CORDL_TYPE __OrderedEnumerable_1___GetEnumerator_d__1 : public ::System::Object {
 public:
@@ -86,11 +86,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TElement>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<TElement>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TElement>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<TElement>* i___System__Collections__Generic__IEnumerator_1_TElement_() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -204,11 +213,20 @@ public:
   /// @brief Convert operator to "::System::Linq::IOrderedEnumerable_1<TElement>"
   constexpr operator ::System::Linq::IOrderedEnumerable_1<TElement>*() noexcept;
 
+  /// @brief Convert to "::System::Linq::IOrderedEnumerable_1<TElement>"
+  constexpr ::System::Linq::IOrderedEnumerable_1<TElement>* i___System__Linq__IOrderedEnumerable_1_TElement_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TElement>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TElement>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TElement>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<TElement>* i___System__Collections__Generic__IEnumerable_1_TElement_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::System::Collections::Generic::IEnumerable_1<TElement>*& __get_source();
 

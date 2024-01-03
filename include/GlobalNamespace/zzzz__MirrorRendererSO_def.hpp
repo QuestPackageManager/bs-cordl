@@ -11,53 +11,53 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MirrorRendererSO)
-namespace UnityEngine {
-struct Rect;
-}
 namespace GlobalNamespace {
 class BloomPrePassEffectSO;
 }
-namespace UnityEngine {
-class Texture;
+namespace GlobalNamespace {
+class BloomPrePassRendererSO;
 }
-namespace UnityEngine {
-struct Matrix4x4;
+namespace GlobalNamespace {
+struct __MirrorRendererSO__CameraTransformData;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace UnityEngine {
-struct LayerMask;
+namespace System {
+template <typename T> class IEquatable_1;
 }
-namespace UnityEngine {
-struct Vector4;
-}
-namespace GlobalNamespace {
-class BloomPrePassRendererSO;
+namespace System {
+class Object;
 }
 namespace UnityEngine {
 class Camera;
 }
 namespace UnityEngine {
-struct Vector3;
+struct LayerMask;
+}
+namespace UnityEngine {
+struct Matrix4x4;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
-class RenderTexture;
+struct Rect;
 }
-namespace GlobalNamespace {
-struct __MirrorRendererSO__CameraTransformData;
+namespace UnityEngine {
+class RenderTexture;
 }
 namespace UnityEngine {
 class Shader;
 }
-namespace System {
-class Object;
+namespace UnityEngine {
+class Texture;
 }
-namespace System {
-template <typename T> class IEquatable_1;
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -73,7 +73,7 @@ MARK_VAL_T(::GlobalNamespace::__MirrorRendererSO__CameraTransformData);
 // SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 49, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15297))
 // CS Name: ::MirrorRendererSO::CameraTransformData
 struct CORDL_TYPE __MirrorRendererSO__CameraTransformData {
@@ -81,6 +81,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>* i___System__IEquatable_1___GlobalNamespace____MirrorRendererSO__CameraTransformData_();
 
   /// @brief Method Equals, addr 0x280aacc, size 0xa4, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::__MirrorRendererSO__CameraTransformData other);
@@ -138,7 +141,7 @@ static_assert(offsetof(::GlobalNamespace::__MirrorRendererSO__CameraTransformDat
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(10204))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15298))
 // CS Name: ::MirrorRendererSO*
 class CORDL_TYPE MirrorRendererSO : public ::GlobalNamespace::PersistentScriptableObject {

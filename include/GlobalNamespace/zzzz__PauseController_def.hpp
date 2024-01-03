@@ -6,22 +6,7 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(PauseController)
 namespace GlobalNamespace {
-class PauseMenuManager;
-}
-namespace GlobalNamespace {
-class IReturnToMenuController;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
 class BeatmapObjectManager;
-}
-namespace GlobalNamespace {
-class IMenuButtonTrigger;
-}
-namespace GlobalNamespace {
-class __PauseController____c__DisplayClass25_0;
 }
 namespace GlobalNamespace {
 class IGamePause;
@@ -29,17 +14,32 @@ class IGamePause;
 namespace GlobalNamespace {
 class ILevelRestartController;
 }
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
 class ILevelStartController;
+}
+namespace GlobalNamespace {
+class IMenuButtonTrigger;
+}
+namespace GlobalNamespace {
+class IReturnToMenuController;
 }
 namespace GlobalNamespace {
 class IVRPlatformHelper;
 }
 namespace GlobalNamespace {
+class PauseMenuManager;
+}
+namespace GlobalNamespace {
 class __PauseController__InitData;
+}
+namespace GlobalNamespace {
+class __PauseController____c__DisplayClass25_0;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {

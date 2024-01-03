@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(TMP_StyleSheet)
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace TMPro {
-class TMP_Style;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace TMPro {
+class TMP_Style;
 }
 // Forward declare root types
 namespace TMPro {

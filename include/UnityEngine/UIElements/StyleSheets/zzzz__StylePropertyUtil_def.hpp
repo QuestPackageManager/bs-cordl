@@ -9,16 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StylePropertyUtil)
 namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace UnityEngine::UIElements::StyleSheets {
-struct StylePropertyId;
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 namespace UnityEngine::UIElements::StyleSheets {
 struct StyleEnumType;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct StylePropertyId;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {

@@ -10,10 +10,10 @@ namespace System::Text {
 class StringBuilder;
 }
 namespace System {
-class Type;
+class ModifierSpec;
 }
 namespace System {
-class ModifierSpec;
+class Type;
 }
 // Forward declare root types
 namespace System {
@@ -39,6 +39,9 @@ public:
 
   /// @brief Convert operator to "::System::ModifierSpec"
   constexpr operator ::System::ModifierSpec*() noexcept;
+
+  /// @brief Convert to "::System::ModifierSpec"
+  constexpr ::System::ModifierSpec* i___System__ModifierSpec() noexcept;
 
   constexpr int32_t& __get_dimensions();
 

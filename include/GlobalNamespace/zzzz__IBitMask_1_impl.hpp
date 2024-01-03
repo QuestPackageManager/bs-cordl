@@ -5,6 +5,10 @@
 template <typename T> constexpr GlobalNamespace::IBitMask_1<T>::operator ::System::IEquatable_1<T>*() noexcept {
   return static_cast<::System::IEquatable_1<T>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::IEquatable_1<T>"
+template <typename T> constexpr ::System::IEquatable_1<T>* GlobalNamespace::IBitMask_1<T>::i___System__IEquatable_1_T_() noexcept {
+  return static_cast<::System::IEquatable_1<T>*>(static_cast<void*>(this));
+}
 template <typename T> inline int32_t GlobalNamespace::IBitMask_1<T>::get_bitCount() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IBitMask_1<T>*>::get(), 0)));

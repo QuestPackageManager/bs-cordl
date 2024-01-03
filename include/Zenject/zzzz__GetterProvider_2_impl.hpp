@@ -2,18 +2,22 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__InjectSources_impl.hpp"
 #include "Zenject/zzzz__GetterProvider_2_def.hpp"
-#include "Zenject/zzzz__InjectSources_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__IProvider_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
+#include "Zenject/zzzz__InjectSources_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
 /// @brief Convert operator to "::Zenject::IProvider"
 template <typename TObj, typename TResult> constexpr Zenject::GetterProvider_2<TObj, TResult>::operator ::Zenject::IProvider*() noexcept {
+  return static_cast<::Zenject::IProvider*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::IProvider"
+template <typename TObj, typename TResult> constexpr ::Zenject::IProvider* Zenject::GetterProvider_2<TObj, TResult>::i___Zenject__IProvider() noexcept {
   return static_cast<::Zenject::IProvider*>(static_cast<void*>(this));
 }
 template <typename TObj, typename TResult> constexpr ::Zenject::DiContainer*& Zenject::GetterProvider_2<TObj, TResult>::__get__container() {

@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GetHapticCapabilitiesCommand)
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputDeviceCommand;
+class IInputDeviceCommandInfo;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-class IInputDeviceCommandInfo;
+struct InputDeviceCommand;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
@@ -53,6 +53,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
+
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& __get_baseCommand();
 

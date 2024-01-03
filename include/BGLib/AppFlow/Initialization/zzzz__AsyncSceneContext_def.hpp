@@ -17,38 +17,26 @@ CORDL_MODULE_EXPORT(AsyncSceneContext)
 namespace BGLib::AppFlow::Initialization {
 class AsyncInstallerRegistry;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace BGLib::AppFlow::Initialization {
-class __AsyncSceneContext____c__DisplayClass6_0;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace BGLib::AppFlow::Initialization {
-struct __AsyncSceneContext___RunAsync_d__5;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace BGLib::AppFlow::Initialization {
-struct __AsyncSceneContext___Run_d__4;
-}
-namespace BGLib::AppFlow::Initialization {
-struct __AsyncSceneContext___LoadInstallersAsync_d__6;
-}
 namespace BGLib::AppFlow::Initialization {
 class AsyncInstaller;
 }
 namespace BGLib::AppFlow::Initialization {
 struct __AsyncSceneContext__State;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace BGLib::AppFlow::Initialization {
+struct __AsyncSceneContext___LoadInstallersAsync_d__6;
 }
-namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
+namespace BGLib::AppFlow::Initialization {
+struct __AsyncSceneContext___RunAsync_d__5;
+}
+namespace BGLib::AppFlow::Initialization {
+struct __AsyncSceneContext___Run_d__4;
+}
+namespace BGLib::AppFlow::Initialization {
+class __AsyncSceneContext____c__DisplayClass6_0;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
@@ -57,10 +45,22 @@ namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
+struct AsyncVoidMethodBuilder;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+struct TaskAwaiter;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 // Forward declare root types
 namespace BGLib::AppFlow::Initialization {
@@ -155,6 +155,9 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+
   /// @brief Method MoveNext, addr 0xe242dc, size 0x178, virtual true, abstract: false, final true
   inline void MoveNext();
 
@@ -204,13 +207,16 @@ static_assert(offsetof(::BGLib::AppFlow::Initialization::__AsyncSceneContext___R
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::AppFlow::Initialization {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 874 }), TypeDefinitionIndex(TypeDefinitionIndex(15423)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15426)) CS Name: ::AsyncSceneContext::<RunAsync>d__5
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(15423)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 874 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(15426)) CS Name: ::AsyncSceneContext::<RunAsync>d__5
 struct CORDL_TYPE __AsyncSceneContext___RunAsync_d__5 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0xe24460, size 0x380, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -315,14 +321,16 @@ static_assert(offsetof(::BGLib::AppFlow::Initialization::__AsyncSceneContext____
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::AppFlow::Initialization {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(15423)), TypeDefinitionIndex(TypeDefinitionIndex(3393)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 874 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(15428)) CS Name:
-// ::AsyncSceneContext::<LoadInstallersAsync>d__6
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(15423)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 874
+// }), TypeDefinitionIndex(TypeDefinitionIndex(3393))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15428)) CS Name: ::AsyncSceneContext::<LoadInstallersAsync>d__6
 struct CORDL_TYPE __AsyncSceneContext___LoadInstallersAsync_d__6 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0xe2481c, size 0x334, virtual true, abstract: false, final true
   inline void MoveNext();

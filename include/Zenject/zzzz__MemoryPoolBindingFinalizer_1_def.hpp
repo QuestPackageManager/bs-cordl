@@ -8,13 +8,13 @@ namespace Zenject {
 class BindInfo;
 }
 namespace Zenject {
-class MemoryPoolBindInfo;
+class DiContainer;
 }
 namespace Zenject {
 class FactoryBindInfo;
 }
 namespace Zenject {
-class DiContainer;
+class MemoryPoolBindInfo;
 }
 // Forward declare root types
 namespace Zenject {

@@ -21,143 +21,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputControlLayout)
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct InternedString;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct NameAndParameters;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct NamedValue;
-}
-namespace UnityEngine::InputSystem::Layouts {
-struct InputDeviceMatcher;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct ReadOnlyArray_1;
-}
-namespace UnityEngine::InputSystem::Layouts {
-struct __InputControlLayout__ControlItem;
-}
-namespace UnityEngine::InputSystem::Layouts {
-struct __InputControlLayout__LayoutJson;
-}
-namespace UnityEngine::InputSystem::Layouts {
-struct __InputControlLayout__Cache;
-}
-namespace UnityEngine::InputSystem::Layouts {
-class __InputControlLayout__ControlItemJson;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace UnityEngine::InputSystem::Layouts {
-struct __InputControlLayout__Collection;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
-}
-namespace UnityEngine::InputSystem::Layouts {
-struct __InputControlLayout__Flags;
-}
-namespace UnityEngine::InputSystem::Layouts {
-struct __InputControlLayout__CacheRefInstance;
-}
-namespace UnityEngine::InputSystem::Layouts {
-struct __InputControlLayout__LayoutJsonNameAndDescriptorOnly;
-}
-namespace UnityEngine::InputSystem::Layouts {
-class InputControlAttribute;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::InputSystem::Layouts {
-class __InputControlLayout__Builder;
-}
-namespace UnityEngine::InputSystem::Layouts {
-class __InputControlLayout__LayoutNotFoundException;
-}
-namespace System::Reflection {
-class MemberInfo;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System {
-class Type;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct InlinedArray_1;
-}
-namespace UnityEngine::InputSystem::Layouts {
-class __InputControlLayout____c;
-}
 namespace GlobalNamespace {
 struct __InputControlLayout__Builder__ControlBuilder;
 }
 namespace GlobalNamespace {
-class __InputControlLayout__ControlItemJson____c;
-}
-namespace System {
-class Exception;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace GlobalNamespace {
 class __InputControlLayout__Builder__ControlBuilder____c;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct PrimitiveValue;
-}
-namespace System {
-template <typename TResult> class Func_1;
-}
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace GlobalNamespace {
-struct __InputControlLayout__Collection__PrecompiledLayout;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
 }
 namespace GlobalNamespace {
 struct __InputControlLayout__Collection__LayoutMatcher;
 }
 namespace GlobalNamespace {
+struct __InputControlLayout__Collection__PrecompiledLayout;
+}
+namespace GlobalNamespace {
 class __InputControlLayout__Collection___GetBaseLayouts_d__24;
 }
-namespace UnityEngine::InputSystem::Layouts {
-struct InputDeviceDescription;
+namespace GlobalNamespace {
+class __InputControlLayout__ControlItemJson____c;
 }
 namespace GlobalNamespace {
 struct __InputControlLayout__ControlItem__Flags;
@@ -165,8 +45,128 @@ struct __InputControlLayout__ControlItem__Flags;
 namespace GlobalNamespace {
 class __InputControlLayout__LayoutJson____c;
 }
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Reflection {
+class MemberInfo;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System {
+class Exception;
+}
+namespace System {
+template <typename TResult> class Func_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
+}
+namespace UnityEngine::InputSystem::Layouts {
+class InputControlAttribute;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct InputDeviceDescription;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct InputDeviceMatcher;
+}
+namespace UnityEngine::InputSystem::Layouts {
+class __InputControlLayout__Builder;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct __InputControlLayout__CacheRefInstance;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct __InputControlLayout__Cache;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct __InputControlLayout__Collection;
+}
+namespace UnityEngine::InputSystem::Layouts {
+class __InputControlLayout__ControlItemJson;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct __InputControlLayout__ControlItem;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct __InputControlLayout__Flags;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct __InputControlLayout__LayoutJsonNameAndDescriptorOnly;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct __InputControlLayout__LayoutJson;
+}
+namespace UnityEngine::InputSystem::Layouts {
+class __InputControlLayout__LayoutNotFoundException;
+}
+namespace UnityEngine::InputSystem::Layouts {
+class __InputControlLayout____c;
+}
 namespace UnityEngine::InputSystem::Layouts {
 struct __InputDeviceMatcher__MatcherJson;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> struct InlinedArray_1;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct InternedString;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct NameAndParameters;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct NamedValue;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct PrimitiveValue;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> struct ReadOnlyArray_1;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
+namespace UnityEngine::InputSystem {
+class InputDevice;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -316,10 +316,10 @@ static_assert(offsetof(::GlobalNamespace::__InputControlLayout__ControlItem__Fla
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6701), inst: 2598 }), TypeDefinitionIndex(TypeDefinitionIndex(6682)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6701)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6701), inst: 3113 }), TypeDefinitionIndex(TypeDefinitionIndex(6683)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6699)), TypeDefinitionIndex(TypeDefinitionIndex(6671)), TypeDefinitionIndex(TypeDefinitionIndex(6667)), TypeDefinitionIndex(TypeDefinitionIndex(6596)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6701), inst: 3114 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6597)) CS Name: ::InputControlLayout::ControlItem
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6699)), TypeDefinitionIndex(TypeDefinitionIndex(6667)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6701), inst: 3113
+// }), TypeDefinitionIndex(TypeDefinitionIndex(6683)), TypeDefinitionIndex(TypeDefinitionIndex(6671)), TypeDefinitionIndex(TypeDefinitionIndex(6682)), TypeDefinitionIndex(TypeDefinitionIndex(6701)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6596)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6701), inst: 2598 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(6701), inst: 3114 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6597)) CS Name: ::InputControlLayout::ControlItem
 struct CORDL_TYPE __InputControlLayout__ControlItem {
 public:
   // Declarations
@@ -815,8 +815,8 @@ static_assert(offsetof(::GlobalNamespace::__InputControlLayout__Builder__Control
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6667)), TypeDefinitionIndex(TypeDefinitionIndex(2448)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6600)) CS Name: ::InputControlLayout::Builder*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6667)), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6600)) CS Name: ::InputControlLayout::Builder*
 class CORDL_TYPE __InputControlLayout__Builder : public ::System::Object {
 public:
   // Declarations
@@ -1837,7 +1837,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6625)), TypeDefinitionIndex(TypeDefinitionIndex(6671))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6671)), TypeDefinitionIndex(TypeDefinitionIndex(6625))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6607))
 // CS Name: ::InputControlLayout::Collection::LayoutMatcher
 struct CORDL_TYPE __InputControlLayout__Collection__LayoutMatcher {
@@ -1940,10 +1940,9 @@ public:
   inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* TryLoadLayoutInternal(::UnityEngine::InputSystem::Utilities::InternedString name);
 
   /// @brief Method TryLoadLayout, addr 0x2b02190, size 0x38c, virtual false, abstract: false, final false
-  /// @param table: ::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString,::UnityEngine::InputSystem::Layouts::InputControlLayout*>* (default: nullptr)
   inline ::UnityEngine::InputSystem::Layouts::InputControlLayout*
   TryLoadLayout(::UnityEngine::InputSystem::Utilities::InternedString name,
-                ::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString, ::UnityEngine::InputSystem::Layouts::InputControlLayout*>* table = nullptr);
+                ::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString, ::UnityEngine::InputSystem::Layouts::InputControlLayout*>* table);
 
   /// @brief Method GetBaseLayoutName, addr 0x2b025d8, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString GetBaseLayoutName(::UnityEngine::InputSystem::Utilities::InternedString layoutName);
@@ -1969,9 +1968,8 @@ public:
   inline bool IsGeneratedLayout(::UnityEngine::InputSystem::Utilities::InternedString layout);
 
   /// @brief Method GetBaseLayouts, addr 0x2b02d38, size 0xac, virtual false, abstract: false, final false
-  /// @param includeSelf: bool (default: true)
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::InternedString>* GetBaseLayouts(::UnityEngine::InputSystem::Utilities::InternedString layout,
-                                                                                                                              bool includeSelf = true);
+                                                                                                                              bool includeSelf);
 
   /// @brief Method IsBasedOn, addr 0x2b02e18, size 0xb0, virtual false, abstract: false, final false
   inline bool IsBasedOn(::UnityEngine::InputSystem::Utilities::InternedString parentLayout, ::UnityEngine::InputSystem::Utilities::InternedString childLayout);
@@ -2064,7 +2062,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6671)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6610))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6610)), TypeDefinitionIndex(TypeDefinitionIndex(6671)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6609))
 // CS Name: ::InputControlLayout::Collection::<GetBaseLayouts>d__24*
 class CORDL_TYPE __InputControlLayout__Collection___GetBaseLayouts_d__24 : public ::System::Object {
@@ -2105,17 +2103,34 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::InternedString>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::InternedString>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::InternedString>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::InternedString>*
+  i___System__Collections__Generic__IEnumerable_1___UnityEngine__InputSystem__Utilities__InternedString_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::Utilities::InternedString>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::Utilities::InternedString>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::Utilities::InternedString>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::Utilities::InternedString>*
+  i___System__Collections__Generic__IEnumerator_1___UnityEngine__InputSystem__Utilities__InternedString_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -2352,8 +2367,7 @@ public:
   inline void Clear();
 
   /// @brief Method FindOrLoadLayout, addr 0x2b02928, size 0x12c, virtual false, abstract: false, final false
-  /// @param throwIfNotFound: bool (default: true)
-  inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* FindOrLoadLayout(::StringW name, bool throwIfNotFound = true);
+  inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* FindOrLoadLayout(::StringW name, bool throwIfNotFound);
 
   // Ctor Parameters [CppParam { name: "table", ty:
   // "::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString,::UnityEngine::InputSystem::Layouts::InputControlLayout*>*", modifiers: "", def_value: None }]
@@ -2390,6 +2404,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   /// @brief Method Dispose, addr 0x2b03468, size 0x98, virtual true, abstract: false, final true
   inline void Dispose();
@@ -2491,10 +2508,10 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layout
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 172, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6671)), TypeDefinitionIndex(TypeDefinitionIndex(6612)), TypeDefinitionIndex(TypeDefinitionIndex(6669)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6667)), TypeDefinitionIndex(TypeDefinitionIndex(6601)), TypeDefinitionIndex(TypeDefinitionIndex(6610)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(6669), inst: 2598 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(2448)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6615)) CS Name: ::UnityEngine.InputSystem.Layouts::InputControlLayout*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6671)), TypeDefinitionIndex(TypeDefinitionIndex(6601)), TypeDefinitionIndex(TypeDefinitionIndex(6610)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6612)), TypeDefinitionIndex(TypeDefinitionIndex(6667)), TypeDefinitionIndex(TypeDefinitionIndex(6669)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(6669), inst: 2598 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6615)) CS Name: ::UnityEngine.InputSystem.Layouts::InputControlLayout*
 class CORDL_TYPE InputControlLayout : public ::System::Object {
 public:
   // Declarations
@@ -2838,10 +2855,9 @@ public:
   inline void MergeLayout(::UnityEngine::InputSystem::Layouts::InputControlLayout* other);
 
   /// @brief Method CreateLookupTableForControls, addr 0x2afeae4, size 0x40c, virtual false, abstract: false, final false
-  /// @param variants: ::System::Collections::Generic::List_1<::StringW>* (default: nullptr)
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>* CreateLookupTableForControls(
       ::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*> controlItems,
-      ::System::Collections::Generic::List_1<::StringW>* variants = nullptr);
+      ::System::Collections::Generic::List_1<::StringW>* variants);
 
   /// @brief Method VariantsMatch, addr 0x2aff3bc, size 0x64, virtual false, abstract: false, final false
   static inline bool VariantsMatch(::UnityEngine::InputSystem::Utilities::InternedString expected, ::UnityEngine::InputSystem::Utilities::InternedString actual);

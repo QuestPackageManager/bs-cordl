@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_ObjectInstanceInfo)
 namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
+class HEU_InstancedInput;
 }
 namespace HoudiniEngineUnity {
-class HEU_InstancedInput;
+class HEU_PartData;
+}
+namespace HoudiniEngineUnity {
+template <typename T> class IEquivable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine {
 class GameObject;
-}
-namespace HoudiniEngineUnity {
-class HEU_PartData;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -54,6 +54,9 @@ public:
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>*() noexcept;
+
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_ObjectInstanceInfo__() noexcept;
 
   constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InstancedInput*>*& __get__instancedInputs();
 

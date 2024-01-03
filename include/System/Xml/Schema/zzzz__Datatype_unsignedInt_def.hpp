@@ -10,23 +10,23 @@ CORDL_MODULE_EXPORT(Datatype_unsignedInt)
 namespace System::Xml::Schema {
 class FacetsChecker;
 }
-namespace System {
-class Exception;
-}
 namespace System::Xml::Schema {
 struct XmlTypeCode;
+}
+namespace System::Xml {
+class IXmlNamespaceResolver;
+}
+namespace System::Xml {
+class XmlNameTable;
+}
+namespace System {
+class Exception;
 }
 namespace System {
 class Object;
 }
 namespace System {
 class Type;
-}
-namespace System::Xml {
-class XmlNameTable;
-}
-namespace System::Xml {
-class IXmlNamespaceResolver;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

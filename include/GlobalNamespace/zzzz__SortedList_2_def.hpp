@@ -5,9 +5,6 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SortedList_2)
-namespace System::Collections::Generic {
-template <typename T> class LinkedList_1;
-}
 namespace GlobalNamespace {
 template <typename T> class ISortedListItemProcessor_1;
 }
@@ -16,6 +13,9 @@ template <typename T> class ISortedList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class LinkedListNode_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class LinkedList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -50,6 +50,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::ISortedList_1<TBase>"
   constexpr operator ::GlobalNamespace::ISortedList_1<TBase>*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::ISortedList_1<TBase>"
+  constexpr ::GlobalNamespace::ISortedList_1<TBase>* i___GlobalNamespace__ISortedList_1_TBase_() noexcept;
 
   constexpr ::System::Collections::Generic::LinkedList_1<TBase>*& __get__items();
 

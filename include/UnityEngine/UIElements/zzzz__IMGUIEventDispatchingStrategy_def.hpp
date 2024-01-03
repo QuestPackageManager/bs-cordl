@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(IMGUIEventDispatchingStrategy)
 namespace UnityEngine::UIElements {
-class IEventDispatchingStrategy;
+class EventBase;
 }
 namespace UnityEngine::UIElements {
-class EventBase;
+class IEventDispatchingStrategy;
 }
 namespace UnityEngine::UIElements {
 class IPanel;
@@ -31,6 +31,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::UnityEngine::UIElements::IEventDispatchingStrategy"
   constexpr operator ::UnityEngine::UIElements::IEventDispatchingStrategy*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UIElements::IEventDispatchingStrategy"
+  constexpr ::UnityEngine::UIElements::IEventDispatchingStrategy* i___UnityEngine__UIElements__IEventDispatchingStrategy() noexcept;
 
   /// @brief Method CanDispatchEvent, addr 0x2e52a1c, size 0x78, virtual true, abstract: false, final true
   inline bool CanDispatchEvent(::UnityEngine::UIElements::EventBase* evt);

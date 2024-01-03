@@ -4,29 +4,29 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Attribute_def.hpp"
 CORDL_MODULE_EXPORT(ProxyAttribute)
+namespace System::Runtime::Remoting::Activation {
+class IConstructionCallMessage;
+}
 namespace System::Runtime::Remoting::Contexts {
 class Context;
 }
 namespace System::Runtime::Remoting::Contexts {
 class IContextAttribute;
 }
-namespace System {
-class Object;
+namespace System::Runtime::Remoting::Proxies {
+class RealProxy;
 }
 namespace System::Runtime::Remoting {
 class ObjRef;
 }
 namespace System {
-class Type;
-}
-namespace System::Runtime::Remoting::Activation {
-class IConstructionCallMessage;
-}
-namespace System::Runtime::Remoting::Proxies {
-class RealProxy;
+class MarshalByRefObject;
 }
 namespace System {
-class MarshalByRefObject;
+class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Proxies {
@@ -46,6 +46,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::Remoting::Contexts::IContextAttribute"
   constexpr operator ::System::Runtime::Remoting::Contexts::IContextAttribute*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Remoting::Contexts::IContextAttribute"
+  constexpr ::System::Runtime::Remoting::Contexts::IContextAttribute* i___System__Runtime__Remoting__Contexts__IContextAttribute() noexcept;
 
   /// @brief Method CreateInstance, addr 0x2496398, size 0x104, virtual true, abstract: false, final false
   inline ::System::MarshalByRefObject* CreateInstance(::System::Type* serverType);

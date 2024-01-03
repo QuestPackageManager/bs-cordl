@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Terrain)
 namespace UnityEngine {
-class TerrainData;
+class Material;
 }
 namespace UnityEngine {
-class Material;
+class TerrainData;
 }
 // Forward declare root types
 namespace UnityEngine {

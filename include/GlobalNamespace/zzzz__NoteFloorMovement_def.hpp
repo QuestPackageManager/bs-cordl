@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(NoteFloorMovement)
 namespace GlobalNamespace {
-class PlayerTransforms;
+class IAudioTimeSource;
 }
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+class PlayerTransforms;
 }
 namespace System {
 class Action;
 }
-namespace GlobalNamespace {
-class IAudioTimeSource;
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine {
-struct Quaternion;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteFloorMovement);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 132, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4777))
 // CS Name: ::NoteFloorMovement*
 class CORDL_TYPE NoteFloorMovement : public ::UnityEngine::MonoBehaviour {

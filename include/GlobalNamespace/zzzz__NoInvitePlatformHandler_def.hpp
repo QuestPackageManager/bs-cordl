@@ -28,6 +28,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IInvitePlatformHandler"
   constexpr operator ::GlobalNamespace::IInvitePlatformHandler*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IInvitePlatformHandler"
+  constexpr ::GlobalNamespace::IInvitePlatformHandler* i___GlobalNamespace__IInvitePlatformHandler() noexcept;
+
   /// @brief Method get_isSupported, addr 0x2355bfc, size 0x8, virtual true, abstract: false, final true
   inline bool get_isSupported();
 

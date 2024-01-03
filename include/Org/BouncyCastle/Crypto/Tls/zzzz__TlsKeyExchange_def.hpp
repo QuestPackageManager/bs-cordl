@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsKeyExchange)
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Crypto::Tls {
+class CertificateRequest;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class Certificate;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class CertificateRequest;
+class TlsContext;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCredentials;
 }
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

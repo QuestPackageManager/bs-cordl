@@ -11,10 +11,10 @@ namespace UnityEngine {
 class Camera;
 }
 namespace UnityEngine {
-struct Ray;
+class GameObject;
 }
 namespace UnityEngine {
-class GameObject;
+struct Ray;
 }
 // Forward declare root types
 namespace UnityEngine {

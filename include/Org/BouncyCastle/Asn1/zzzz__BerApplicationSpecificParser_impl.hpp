@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__BerApplicationSpecificParser_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Convertible_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1StreamParser_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1StreamParser_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__IAsn1ApplicationSpecificParser_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Convertible_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::BerApplicationSpecificParser._ctor
 template <>
 
@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x11b641c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::BerApplicationSpecificParser*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x11bbb98;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::BerApplicationSpecificParser*>::get(),
                                                                                "ReadObject", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -43,7 +43,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x11b644c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::BerApplicationSpecificParser*>::get(),
                                                                                "ToAsn1Object", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -53,8 +53,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 constexpr Org::BouncyCastle::Asn1::BerApplicationSpecificParser::operator ::Org::BouncyCastle::Asn1::IAsn1ApplicationSpecificParser*() noexcept {
   return static_cast<::Org::BouncyCastle::Asn1::IAsn1ApplicationSpecificParser*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1ApplicationSpecificParser"
+constexpr ::Org::BouncyCastle::Asn1::IAsn1ApplicationSpecificParser* Org::BouncyCastle::Asn1::BerApplicationSpecificParser::i___Org__BouncyCastle__Asn1__IAsn1ApplicationSpecificParser() noexcept {
+  return static_cast<::Org::BouncyCastle::Asn1::IAsn1ApplicationSpecificParser*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
 constexpr Org::BouncyCastle::Asn1::BerApplicationSpecificParser::operator ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept {
+  return static_cast<::Org::BouncyCastle::Asn1::IAsn1Convertible*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
+constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible* Org::BouncyCastle::Asn1::BerApplicationSpecificParser::i___Org__BouncyCastle__Asn1__IAsn1Convertible() noexcept {
   return static_cast<::Org::BouncyCastle::Asn1::IAsn1Convertible*>(static_cast<void*>(this));
 }
 constexpr int32_t& Org::BouncyCastle::Asn1::BerApplicationSpecificParser::__get_tag() {

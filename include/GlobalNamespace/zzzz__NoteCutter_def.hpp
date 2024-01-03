@@ -9,25 +9,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoteCutter)
 namespace GlobalNamespace {
-class __NoteCutter__CuttableBySaberSortParams;
-}
-namespace UnityEngine {
-class Collider;
-}
-namespace GlobalNamespace {
-class __NoteCutter__CuttableBySaberSortParamsComparer;
+class CuttableBySaber;
 }
 namespace GlobalNamespace {
 class Saber;
 }
 namespace GlobalNamespace {
-class CuttableBySaber;
+class __NoteCutter__CuttableBySaberSortParamsComparer;
+}
+namespace GlobalNamespace {
+class __NoteCutter__CuttableBySaberSortParams;
 }
 namespace System::Collections {
 class IComparer;
 }
 namespace System {
 class Object;
+}
+namespace UnityEngine {
+class Collider;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -132,6 +132,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IComparer"
+  constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
 
   /// @brief Method Compare, addr 0x22631d4, size 0x124, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* p0, ::System::Object* p1);

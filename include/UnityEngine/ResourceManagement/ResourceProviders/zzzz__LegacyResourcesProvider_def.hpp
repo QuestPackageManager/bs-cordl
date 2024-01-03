@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ResourceProviderBase_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(LegacyResourcesProvider)
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
-}
 namespace System {
 class Object;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct ProvideHandle;
@@ -20,10 +20,10 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
 class __LegacyResourcesProvider__InternalOp;
 }
 namespace UnityEngine {
-class ResourceRequest;
+class AsyncOperation;
 }
 namespace UnityEngine {
-class AsyncOperation;
+class ResourceRequest;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {

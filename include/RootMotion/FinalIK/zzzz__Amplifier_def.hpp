@@ -9,17 +9,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(Amplifier)
-namespace RootMotion::FinalIK {
-class __Amplifier__Body;
-}
-namespace UnityEngine {
-class Transform;
-}
 namespace GlobalNamespace {
 class __Amplifier__Body__EffectorLink;
 }
 namespace RootMotion::FinalIK {
 class IKSolverFullBodyBiped;
+}
+namespace RootMotion::FinalIK {
+class __Amplifier__Body;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -105,7 +105,7 @@ static_assert(offsetof(::GlobalNamespace::__Amplifier__Body__EffectorLink, ___we
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 77, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12634))
 // CS Name: ::Amplifier::Body*
 class CORDL_TYPE __Amplifier__Body : public ::System::Object {

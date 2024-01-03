@@ -8,44 +8,44 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(QuickPlaySongPacksDropdown)
-namespace HMUI {
-class SimpleTextDropdown;
+namespace GlobalNamespace {
+class SongPackMasksModel;
+}
+namespace GlobalNamespace {
+class __QuickPlaySetupData__QuickPlaySongPacksOverride;
+}
+namespace GlobalNamespace {
+class __QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName;
+}
+namespace GlobalNamespace {
+class __QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPack;
 }
 namespace GlobalNamespace {
 class __QuickPlaySetupData__QuickPlaySongPacksOverride__PredefinedPack;
-}
-namespace System {
-template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 class __QuickPlaySongPacksDropdown__SongPackMaskItem;
 }
 namespace GlobalNamespace {
-class __QuickPlaySetupData__QuickPlaySongPacksOverride;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
 class __QuickPlaySongPacksDropdown____c;
-}
-namespace HMUI {
-class DropdownWithTableView;
 }
 namespace GlobalNamespace {
 class __QuickPlaySongPacksDropdown____c__DisplayClass13_0;
 }
-namespace GlobalNamespace {
-class SongPackMasksModel;
+namespace HMUI {
+class DropdownWithTableView;
 }
-namespace GlobalNamespace {
-class __QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName;
+namespace HMUI {
+class SimpleTextDropdown;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
-}
-namespace GlobalNamespace {
-class __QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPack;
 }
 // Forward declare root types
 namespace GlobalNamespace {

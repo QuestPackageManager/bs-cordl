@@ -10,11 +10,11 @@ class IBeatmapLevelData;
 namespace GlobalNamespace {
 class IDifficultyBeatmapSet;
 }
-namespace UnityEngine {
-class AudioClip;
-}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
+}
+namespace UnityEngine {
+class AudioClip;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -45,6 +45,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IBeatmapLevelData"
   constexpr operator ::GlobalNamespace::IBeatmapLevelData*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IBeatmapLevelData"
+  constexpr ::GlobalNamespace::IBeatmapLevelData* i___GlobalNamespace__IBeatmapLevelData() noexcept;
 
   constexpr ::UnityEngine::AudioClip*& __get__audioClip();
 

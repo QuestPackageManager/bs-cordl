@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IDtdParserAdapter)
-namespace System::Xml {
-struct LineInfo;
-}
-namespace System {
-class Exception;
-}
 namespace System::Text {
 class StringBuilder;
 }
-namespace System {
-class Uri;
+namespace System::Xml {
+class IDtdEntityInfo;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;
 }
 namespace System::Xml {
-class XmlNameTable;
+struct LineInfo;
 }
 namespace System::Xml {
-class IDtdEntityInfo;
+class XmlNameTable;
+}
+namespace System {
+class Exception;
+}
+namespace System {
+class Uri;
 }
 // Forward declare root types
 namespace System::Xml {

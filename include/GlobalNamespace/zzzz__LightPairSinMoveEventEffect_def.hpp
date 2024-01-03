@@ -13,19 +13,19 @@ namespace GlobalNamespace {
 class BasicBeatmapEventData;
 }
 namespace GlobalNamespace {
-class __LightPairSinMoveEventEffect__MovementData;
-}
-namespace UnityEngine {
-class Transform;
+class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+class IAudioTimeSource;
 }
 namespace GlobalNamespace {
-class IAudioTimeSource;
+class __LightPairSinMoveEventEffect__MovementData;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -174,7 +174,7 @@ static_assert(offsetof(::GlobalNamespace::__LightPairSinMoveEventEffect__Movemen
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4952))
 // CS Name: ::LightPairSinMoveEventEffect*
 class CORDL_TYPE LightPairSinMoveEventEffect : public ::UnityEngine::MonoBehaviour {

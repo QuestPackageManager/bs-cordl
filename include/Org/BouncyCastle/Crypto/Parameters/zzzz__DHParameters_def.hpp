@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DHParameters)
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DHValidationParameters;
+}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DHValidationParameters;
 }
 namespace System {
 class Object;
@@ -70,6 +70,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"
+  constexpr ::Org::BouncyCastle::Crypto::ICipherParameters* i___Org__BouncyCastle__Crypto__ICipherParameters() noexcept;
 
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_p();
 

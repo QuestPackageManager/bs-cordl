@@ -9,14 +9,14 @@ CORDL_MODULE_EXPORT(MenuShockwave)
 namespace GlobalNamespace {
 class Signal;
 }
-namespace VRUIControls {
-class VRPointer;
-}
 namespace UnityEngine {
 class ParticleSystem;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace VRUIControls {
+class VRPointer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MenuShockwave);
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15889)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15889))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5478))
 // CS Name: ::MenuShockwave*
 class CORDL_TYPE MenuShockwave : public ::UnityEngine::MonoBehaviour {

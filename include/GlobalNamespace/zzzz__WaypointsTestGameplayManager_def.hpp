@@ -14,14 +14,14 @@ class BTSCharacterSpawnController;
 namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
 }
-namespace UnityEngine {
-class Transform;
-}
 namespace GlobalNamespace {
 class IAudioTimeSource;
 }
 namespace GlobalNamespace {
 class StandardGameplaySceneSetupData;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::GlobalNamespace::WaypointsTestGameplayManager);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 148, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10204))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5029))
 // CS Name: ::WaypointsTestGameplayManager*
 class CORDL_TYPE WaypointsTestGameplayManager : public ::UnityEngine::MonoBehaviour {

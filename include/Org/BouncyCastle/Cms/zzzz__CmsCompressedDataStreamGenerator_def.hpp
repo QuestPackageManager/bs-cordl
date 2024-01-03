@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsCompressedDataStreamGenerator)
-namespace Org::BouncyCastle::Cms {
-class __CmsCompressedDataStreamGenerator__CmsCompressedOutputStream;
-}
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Asn1 {
 class BerSequenceGenerator;
 }
+namespace Org::BouncyCastle::Cms {
+class __CmsCompressedDataStreamGenerator__CmsCompressedOutputStream;
+}
 namespace Org::BouncyCastle::Utilities::Zlib {
 class ZOutputStream;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

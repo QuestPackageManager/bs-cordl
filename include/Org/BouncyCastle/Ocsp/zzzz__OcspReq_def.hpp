@@ -7,35 +7,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OcspReq)
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
-}
 namespace Org::BouncyCastle::Asn1::Ocsp {
 class OcspRequest;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class GeneralName;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1InputStream;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Ocsp {
+class Req;
+}
+namespace Org::BouncyCastle::X509::Store {
+class IX509Store;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 namespace System::Collections {
 class IList;
 }
 namespace System::IO {
 class Stream;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1InputStream;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
-}
-namespace Org::BouncyCastle::Ocsp {
-class Req;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralName;
-}
-namespace Org::BouncyCastle::X509::Store {
-class IX509Store;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Ocsp {

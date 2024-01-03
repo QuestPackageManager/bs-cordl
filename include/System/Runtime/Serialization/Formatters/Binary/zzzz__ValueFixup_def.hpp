@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ValueFixup)
-namespace System {
-class Array;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class ReadObjectInfo;
+namespace System::Reflection {
+class MemberInfo;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class ParseRecord;
 }
+namespace System::Runtime::Serialization::Formatters::Binary {
+class ReadObjectInfo;
+}
+namespace System {
+class Array;
+}
 namespace System {
 class Object;
-}
-namespace System::Reflection {
-class MemberInfo;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {

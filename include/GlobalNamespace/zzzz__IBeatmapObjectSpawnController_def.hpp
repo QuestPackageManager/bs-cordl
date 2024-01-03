@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IBeatmapObjectSpawnController)
 namespace GlobalNamespace {
-struct NoteLineLayer;
-}
-namespace GlobalNamespace {
 class BeatmapObjectSpawnMovementData;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace GlobalNamespace {
+struct NoteLineLayer;
 }
 namespace System {
 class Action;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

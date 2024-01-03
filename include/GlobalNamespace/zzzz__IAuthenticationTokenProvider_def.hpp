@@ -7,20 +7,20 @@ CORDL_MODULE_EXPORT(IAuthenticationTokenProvider)
 namespace GlobalNamespace {
 struct AuthenticationToken;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
 namespace GlobalNamespace {
-struct __AuthenticationToken__Platform;
-}
-namespace System::Threading {
-struct CancellationToken;
+struct PlatformEnvironment;
 }
 namespace GlobalNamespace {
 class XPlatformAccessTokenData;
 }
 namespace GlobalNamespace {
-struct PlatformEnvironment;
+struct __AuthenticationToken__Platform;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -51,8 +51,7 @@ public:
   inline ::GlobalNamespace::__AuthenticationToken__Platform GetTokenPlatform(::GlobalNamespace::PlatformEnvironment tokenPlatformEnvironment);
 
   /// @brief Method GetXPlatformAccessToken, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  /// @param skipCache: bool (default: false)
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData*>* GetXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken, bool skipCache = false);
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData*>* GetXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken, bool skipCache);
 
   /// @brief Method get_hashedUserId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_hashedUserId();

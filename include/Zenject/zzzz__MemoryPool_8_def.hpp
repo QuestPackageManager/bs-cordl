@@ -9,22 +9,22 @@ namespace System {
 class Object;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TValue> class IMemoryPool_8;
-}
-namespace Zenject {
 template <typename TValue> class IDespawnableMemoryPool_1;
-}
-namespace Zenject {
-class IMemoryPool;
 }
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TValue> class IFactory_8;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class IFactory;
 }
 namespace Zenject {
-class IFactory;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TValue> class IMemoryPool_8;
+}
+namespace Zenject {
+class IMemoryPool;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -38,7 +38,7 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11049)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11049), inst: 2794 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11049), inst: 2794 }), TypeDefinitionIndex(TypeDefinitionIndex(11049))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11045))
 // CS Name: ::Zenject::MemoryPool`8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue>*
 class CORDL_TYPE MemoryPool_8 : public ::Zenject::MemoryPoolBase_1<TValue> {
@@ -47,17 +47,34 @@ public:
   /// @brief Convert operator to "::Zenject::IMemoryPool_8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue>"
   constexpr operator ::Zenject::IMemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>*() noexcept;
 
+  /// @brief Convert to "::Zenject::IMemoryPool_8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue>"
+  constexpr ::Zenject::IMemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>*
+  i___Zenject__IMemoryPool_8_TParam1_TParam2_TParam3_TParam4_TParam5_TParam6_TParam7_TValue_() noexcept;
+
   /// @brief Convert operator to "::Zenject::IDespawnableMemoryPool_1<TValue>"
   constexpr operator ::Zenject::IDespawnableMemoryPool_1<TValue>*() noexcept;
+
+  /// @brief Convert to "::Zenject::IDespawnableMemoryPool_1<TValue>"
+  constexpr ::Zenject::IDespawnableMemoryPool_1<TValue>* i___Zenject__IDespawnableMemoryPool_1_TValue_() noexcept;
 
   /// @brief Convert operator to "::Zenject::IMemoryPool"
   constexpr operator ::Zenject::IMemoryPool*() noexcept;
 
+  /// @brief Convert to "::Zenject::IMemoryPool"
+  constexpr ::Zenject::IMemoryPool* i___Zenject__IMemoryPool() noexcept;
+
   /// @brief Convert operator to "::Zenject::IFactory_8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue>"
   constexpr operator ::Zenject::IFactory_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>*() noexcept;
 
+  /// @brief Convert to "::Zenject::IFactory_8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue>"
+  constexpr ::Zenject::IFactory_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>*
+  i___Zenject__IFactory_8_TParam1_TParam2_TParam3_TParam4_TParam5_TParam6_TParam7_TValue_() noexcept;
+
   /// @brief Convert operator to "::Zenject::IFactory"
   constexpr operator ::Zenject::IFactory*() noexcept;
+
+  /// @brief Convert to "::Zenject::IFactory"
+  constexpr ::Zenject::IFactory* i___Zenject__IFactory() noexcept;
 
   /// @brief Method Spawn, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline TValue Spawn(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4, TParam5 param5, TParam6 param6, TParam7 param7);

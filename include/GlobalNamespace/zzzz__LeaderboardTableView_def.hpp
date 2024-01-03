@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LeaderboardTableView)
-namespace HMUI {
-class TableCell;
-}
 namespace GlobalNamespace {
 class LeaderboardTableCell;
-}
-namespace HMUI {
-class __TableView__IDataSource;
 }
 namespace GlobalNamespace {
 class __LeaderboardTableView__ScoreData;
 }
 namespace HMUI {
+class TableCell;
+}
+namespace HMUI {
 class TableView;
+}
+namespace HMUI {
+class __TableView__IDataSource;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -188,6 +188,9 @@ public:
 
   /// @brief Convert operator to "::HMUI::__TableView__IDataSource"
   constexpr operator ::HMUI::__TableView__IDataSource*() noexcept;
+
+  /// @brief Convert to "::HMUI::__TableView__IDataSource"
+  constexpr ::HMUI::__TableView__IDataSource* i___HMUI____TableView__IDataSource() noexcept;
 
   constexpr ::HMUI::TableView*& __get__tableView();
 

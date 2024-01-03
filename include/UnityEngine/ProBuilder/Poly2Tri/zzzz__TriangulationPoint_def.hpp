@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TriangulationPoint)
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class DTSweepConstraint;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class DTSweepConstraint;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {
@@ -83,8 +83,7 @@ public:
   static inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* New_ctor(double_t x, double_t y, int32_t index);
 
   /// @brief Method .ctor, addr 0x2b2f1a4, size 0x3c, virtual false, abstract: false, final false
-  /// @param index: int32_t (default: static_cast<int32_t>(0xffffffff))
-  inline void _ctor(double_t x, double_t y, int32_t index = static_cast<int32_t>(0xffffffff));
+  inline void _ctor(double_t x, double_t y, int32_t index);
 
   /// @brief Method ToString, addr 0x2b356e8, size 0x1a4, virtual true, abstract: false, final false
   inline ::StringW ToString();

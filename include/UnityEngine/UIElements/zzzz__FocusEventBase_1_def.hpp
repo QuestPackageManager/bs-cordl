@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__EventBase_1_def.hpp"
 CORDL_MODULE_EXPORT(FocusEventBase_1)
 namespace UnityEngine::UIElements {
-class Focusable;
+class FocusChangeDirection;
 }
 namespace UnityEngine::UIElements {
 class FocusController;
 }
 namespace UnityEngine::UIElements {
-class IEventHandler;
+class Focusable;
 }
 namespace UnityEngine::UIElements {
-class FocusChangeDirection;
+class IEventHandler;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -109,9 +109,8 @@ public:
   inline void LocalInit();
 
   /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param bIsFocusDelegated: bool (default: false)
   static inline T GetPooled(::UnityEngine::UIElements::IEventHandler* target, ::UnityEngine::UIElements::Focusable* relatedTarget, ::UnityEngine::UIElements::FocusChangeDirection* direction,
-                            ::UnityEngine::UIElements::FocusController* focusController, bool bIsFocusDelegated = false);
+                            ::UnityEngine::UIElements::FocusController* focusController, bool bIsFocusDelegated);
 
   static inline ::UnityEngine::UIElements::FocusEventBase_1<T>* New_ctor();
 

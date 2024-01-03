@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Vector4Serializable)
 namespace LiteNetLib::Utils {
+class INetSerializable;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace LiteNetLib::Utils {
 class NetDataWriter;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
 }
 namespace UnityEngine {
 struct Vector4;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace LiteNetLib::Utils {
-class INetSerializable;
-}
-namespace System {
-template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -43,8 +43,14 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*();
 
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable();
+
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::Vector4Serializable>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::Vector4Serializable>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::Vector4Serializable>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::Vector4Serializable>* i___System__IEquatable_1___GlobalNamespace__Vector4Serializable_();
 
   /// @brief Method Serialize, addr 0x12a7164, size 0x68, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);

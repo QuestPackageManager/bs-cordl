@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ReflectionExecutionDomainCallbacks)
 namespace System {
-class Type;
+class Exception;
 }
 namespace System {
-class Exception;
+class Type;
 }
 // Forward declare root types
 namespace Internal::Runtime::Augments {

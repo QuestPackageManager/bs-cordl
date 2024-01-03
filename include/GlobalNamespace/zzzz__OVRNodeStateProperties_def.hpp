@@ -5,14 +5,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(OVRNodeStateProperties)
-namespace UnityEngine::XR {
-struct XRNode;
-}
 namespace GlobalNamespace {
 struct NodeStatePropertyType;
-}
-namespace UnityEngine::XR {
-struct XRNodeState;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__Node;
@@ -20,14 +14,20 @@ struct __OVRPlugin__Node;
 namespace GlobalNamespace {
 struct __OVRPlugin__Step;
 }
-namespace UnityEngine {
-struct Vector3;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace UnityEngine::XR {
+struct XRNodeState;
+}
+namespace UnityEngine::XR {
+struct XRNode;
+}
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {

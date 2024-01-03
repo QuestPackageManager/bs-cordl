@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsPbeKey)
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -53,6 +53,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"
+  constexpr ::Org::BouncyCastle::Crypto::ICipherParameters* i___Org__BouncyCastle__Crypto__ICipherParameters() noexcept;
 
   constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get_password();
 

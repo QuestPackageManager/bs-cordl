@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(VisualElementFactoryRegistry)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
 class IUxmlFactory;

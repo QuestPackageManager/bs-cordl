@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UIRLayoutUpdater)
-namespace UnityEngine::UIElements {
-struct VersionChangeType;
-}
 namespace Unity::Profiling {
 struct ProfilerMarker;
+}
+namespace UnityEngine::UIElements {
+struct VersionChangeType;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -58,8 +58,7 @@ public:
   inline void Update();
 
   /// @brief Method UpdateSubTree, addr 0x2e78e1c, size 0x810, virtual false, abstract: false, final false
-  /// @param isDisplayed: bool (default: true)
-  inline void UpdateSubTree(::UnityEngine::UIElements::VisualElement* ve, int32_t currentLayoutPass, bool isDisplayed = true);
+  inline void UpdateSubTree(::UnityEngine::UIElements::VisualElement* ve, int32_t currentLayoutPass, bool isDisplayed);
 
   static inline ::UnityEngine::UIElements::UIRLayoutUpdater* New_ctor();
 

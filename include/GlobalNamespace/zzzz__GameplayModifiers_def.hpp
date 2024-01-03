@@ -3,29 +3,31 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameplayModifiers)
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
 namespace GlobalNamespace {
 struct __GameplayModifiers__EnabledObstacleType;
 }
-namespace LiteNetLib::Utils {
-template <typename T> class INetImmutableSerializable_1;
+namespace GlobalNamespace {
+struct __GameplayModifiers__EnergyType;
 }
 namespace GlobalNamespace {
 struct __GameplayModifiers__SongSpeed;
 }
 namespace LiteNetLib::Utils {
+template <typename T> class INetImmutableSerializable_1;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
-namespace GlobalNamespace {
-struct __GameplayModifiers__EnergyType;
+namespace System {
+template <typename T> struct Nullable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -211,10 +213,8 @@ static_assert(offsetof(::GlobalNamespace::__GameplayModifiers__SongSpeed, value_
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15000)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst:
-// 4766 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4765 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4767 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14999)), TypeDefinitionIndex(TypeDefinitionIndex(15001)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15002)) CS Name: ::GameplayModifiers*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15000)), TypeDefinitionIndex(TypeDefinitionIndex(15001)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14999))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15002)) CS Name: ::GameplayModifiers*
 class CORDL_TYPE GameplayModifiers : public ::System::Object {
 public:
   // Declarations
@@ -310,6 +310,10 @@ public:
 
   /// @brief Convert operator to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::GameplayModifiers*>"
   constexpr operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::GameplayModifiers*>*() noexcept;
+
+  /// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::GameplayModifiers*>"
+  constexpr ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::GameplayModifiers*>*
+  i___LiteNetLib__Utils__INetImmutableSerializable_1___GlobalNamespace__GameplayModifiers__() noexcept;
 
   constexpr ::GlobalNamespace::__GameplayModifiers__EnergyType& __get__energyType();
 
@@ -475,28 +479,13 @@ public:
                     ::GlobalNamespace::__GameplayModifiers__SongSpeed songSpeed, bool noArrows, bool ghostNotes, bool proMode, bool zenMode, bool smallCubes);
 
   /// @brief Method CopyWith, addr 0x12a2514, size 0x32c, virtual false, abstract: false, final false
-  /// @param energyType: ::System::Nullable_1<::GlobalNamespace::__GameplayModifiers__EnergyType> (default: {})
-  /// @param noFailOn0Energy: ::System::Nullable_1<bool> (default: {})
-  /// @param instaFail: ::System::Nullable_1<bool> (default: {})
-  /// @param failOnSaberClash: ::System::Nullable_1<bool> (default: {})
-  /// @param enabledObstacleType: ::System::Nullable_1<::GlobalNamespace::__GameplayModifiers__EnabledObstacleType> (default: {})
-  /// @param noBombs: ::System::Nullable_1<bool> (default: {})
-  /// @param fastNotes: ::System::Nullable_1<bool> (default: {})
-  /// @param strictAngles: ::System::Nullable_1<bool> (default: {})
-  /// @param disappearingArrows: ::System::Nullable_1<bool> (default: {})
-  /// @param songSpeed: ::System::Nullable_1<::GlobalNamespace::__GameplayModifiers__SongSpeed> (default: {})
-  /// @param noArrows: ::System::Nullable_1<bool> (default: {})
-  /// @param ghostNotes: ::System::Nullable_1<bool> (default: {})
-  /// @param proMode: ::System::Nullable_1<bool> (default: {})
-  /// @param zenMode: ::System::Nullable_1<bool> (default: {})
-  /// @param smallCubes: ::System::Nullable_1<bool> (default: {})
-  inline ::GlobalNamespace::GameplayModifiers* CopyWith(::System::Nullable_1<::GlobalNamespace::__GameplayModifiers__EnergyType> energyType = {}, ::System::Nullable_1<bool> noFailOn0Energy = {},
-                                                        ::System::Nullable_1<bool> instaFail = {}, ::System::Nullable_1<bool> failOnSaberClash = {},
-                                                        ::System::Nullable_1<::GlobalNamespace::__GameplayModifiers__EnabledObstacleType> enabledObstacleType = {},
-                                                        ::System::Nullable_1<bool> noBombs = {}, ::System::Nullable_1<bool> fastNotes = {}, ::System::Nullable_1<bool> strictAngles = {},
-                                                        ::System::Nullable_1<bool> disappearingArrows = {}, ::System::Nullable_1<::GlobalNamespace::__GameplayModifiers__SongSpeed> songSpeed = {},
-                                                        ::System::Nullable_1<bool> noArrows = {}, ::System::Nullable_1<bool> ghostNotes = {}, ::System::Nullable_1<bool> proMode = {},
-                                                        ::System::Nullable_1<bool> zenMode = {}, ::System::Nullable_1<bool> smallCubes = {});
+  inline ::GlobalNamespace::GameplayModifiers* CopyWith(::System::Nullable_1<::GlobalNamespace::__GameplayModifiers__EnergyType> energyType, ::System::Nullable_1<bool> noFailOn0Energy,
+                                                        ::System::Nullable_1<bool> instaFail, ::System::Nullable_1<bool> failOnSaberClash,
+                                                        ::System::Nullable_1<::GlobalNamespace::__GameplayModifiers__EnabledObstacleType> enabledObstacleType, ::System::Nullable_1<bool> noBombs,
+                                                        ::System::Nullable_1<bool> fastNotes, ::System::Nullable_1<bool> strictAngles, ::System::Nullable_1<bool> disappearingArrows,
+                                                        ::System::Nullable_1<::GlobalNamespace::__GameplayModifiers__SongSpeed> songSpeed, ::System::Nullable_1<bool> noArrows,
+                                                        ::System::Nullable_1<bool> ghostNotes, ::System::Nullable_1<bool> proMode, ::System::Nullable_1<bool> zenMode,
+                                                        ::System::Nullable_1<bool> smallCubes);
 
   /// @brief Method IsWithoutModifiers, addr 0x12a2840, size 0x88, virtual false, abstract: false, final false
   inline bool IsWithoutModifiers();

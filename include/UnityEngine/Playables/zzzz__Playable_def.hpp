@@ -9,17 +9,17 @@ CORDL_MODULE_EXPORT(Playable)
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace UnityEngine::Playables {
-class IPlayable;
-}
 namespace System {
 class Type;
 }
 namespace UnityEngine::Playables {
-struct PlayableHandle;
+class IPlayable;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
+}
+namespace UnityEngine::Playables {
+struct PlayableHandle;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {
@@ -43,8 +43,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
+  /// @brief Convert to "::UnityEngine::Playables::IPlayable"
+  constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Playables::Playable>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Playables::Playable>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Playables::Playable>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Playables::Playable>* i___System__IEquatable_1___UnityEngine__Playables__Playable_();
 
   static inline void setStaticF_m_NullPlayable(::UnityEngine::Playables::Playable value);
 
@@ -54,8 +60,7 @@ public:
   static inline ::UnityEngine::Playables::Playable get_Null();
 
   /// @brief Method Create, addr 0x2cf5c40, size 0x70, virtual false, abstract: false, final false
-  /// @param inputCount: int32_t (default: static_cast<int32_t>(0x0))
-  static inline ::UnityEngine::Playables::Playable Create(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount = static_cast<int32_t>(0x0));
+  static inline ::UnityEngine::Playables::Playable Create(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount);
 
   /// @brief Method .ctor, addr 0x2cf5d04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableHandle handle);

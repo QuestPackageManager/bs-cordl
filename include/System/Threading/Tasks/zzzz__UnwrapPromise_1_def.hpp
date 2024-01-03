@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnwrapPromise_1)
 namespace System::Threading::Tasks {
-template <typename TResult> class __UnwrapPromise_1____c;
-}
-namespace System::Threading::Tasks {
 class ITaskCompletionAction;
 }
 namespace System::Threading::Tasks {
 class Task;
 }
-namespace System {
-class Object;
+namespace System::Threading::Tasks {
+template <typename TResult> class __UnwrapPromise_1____c;
 }
 namespace System::Threading {
 class WaitCallback;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
@@ -89,7 +89,7 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 5111 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 5111 }), TypeDefinitionIndex(TypeDefinitionIndex(2773))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2797))
 // CS Name: ::System.Threading.Tasks::UnwrapPromise`1<TResult>*
 class CORDL_TYPE UnwrapPromise_1 : public ::System::Threading::Tasks::Task_1<TResult> {
@@ -107,6 +107,9 @@ public:
 
   /// @brief Convert operator to "::System::Threading::Tasks::ITaskCompletionAction"
   constexpr operator ::System::Threading::Tasks::ITaskCompletionAction*() noexcept;
+
+  /// @brief Convert to "::System::Threading::Tasks::ITaskCompletionAction"
+  constexpr ::System::Threading::Tasks::ITaskCompletionAction* i___System__Threading__Tasks__ITaskCompletionAction() noexcept;
 
   constexpr uint8_t& __get__state();
 

@@ -10,8 +10,8 @@ CORDL_MODULE_EXPORT(ICustomStyle)
 namespace UnityEngine::UIElements {
 template <typename T> struct CustomStyleProperty_1;
 }
-namespace UnityEngine {
-class Texture2D;
+namespace UnityEngine::UIElements {
+class VectorImage;
 }
 namespace UnityEngine {
 struct Color;
@@ -19,8 +19,8 @@ struct Color;
 namespace UnityEngine {
 class Sprite;
 }
-namespace UnityEngine::UIElements {
-class VectorImage;
+namespace UnityEngine {
+class Texture2D;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

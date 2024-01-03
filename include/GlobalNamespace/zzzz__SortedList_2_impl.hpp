@@ -1,12 +1,16 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__SortedList_2_def.hpp"
-#include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
 #include "GlobalNamespace/zzzz__ISortedListItemProcessor_1_def.hpp"
 #include "GlobalNamespace/zzzz__ISortedList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__LinkedListNode_1_def.hpp"
+#include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
 /// @brief Convert operator to "::GlobalNamespace::ISortedList_1<TBase>"
 template <typename T, typename TBase> constexpr GlobalNamespace::SortedList_2<T, TBase>::operator ::GlobalNamespace::ISortedList_1<TBase>*() noexcept {
+  return static_cast<::GlobalNamespace::ISortedList_1<TBase>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::ISortedList_1<TBase>"
+template <typename T, typename TBase> constexpr ::GlobalNamespace::ISortedList_1<TBase>* GlobalNamespace::SortedList_2<T, TBase>::i___GlobalNamespace__ISortedList_1_TBase_() noexcept {
   return static_cast<::GlobalNamespace::ISortedList_1<TBase>*>(static_cast<void*>(this));
 }
 template <typename T, typename TBase> constexpr ::System::Collections::Generic::LinkedList_1<TBase>*& GlobalNamespace::SortedList_2<T, TBase>::__get__items() {

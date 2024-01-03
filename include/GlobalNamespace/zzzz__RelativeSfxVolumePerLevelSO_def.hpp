@@ -9,22 +9,22 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(RelativeSfxVolumePerLevelSO)
 namespace GlobalNamespace {
-class __RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair;
-}
-namespace GlobalNamespace {
-class __RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair;
-}
-namespace GlobalNamespace {
-class PreviewBeatmapLevelSO;
-}
-namespace GlobalNamespace {
-class __RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair____c;
+class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 class PreviewBeatmapLevelCollectionSO;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class PreviewBeatmapLevelSO;
+}
+namespace GlobalNamespace {
+class __RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair;
+}
+namespace GlobalNamespace {
+class __RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair;
+}
+namespace GlobalNamespace {
+class __RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair____c;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

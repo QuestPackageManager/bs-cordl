@@ -5,22 +5,22 @@
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__BurstSliderGameNoteController_def.hpp"
-#include "GlobalNamespace/zzzz__INoteMirrorable_def.hpp"
+#include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
 #include "GlobalNamespace/zzzz__BoxCuttableBySaber_def.hpp"
+#include "GlobalNamespace/zzzz__BurstSliderGameNoteController_def.hpp"
 #include "GlobalNamespace/zzzz__ICubeNoteControllerInitializable_1_def.hpp"
 #include "GlobalNamespace/zzzz__IGameNoteMirrorable_def.hpp"
-#include "GlobalNamespace/zzzz__NoteVisualModifierType_def.hpp"
-#include "GlobalNamespace/zzzz__NoteData_def.hpp"
+#include "GlobalNamespace/zzzz__INoteMirrorable_def.hpp"
 #include "GlobalNamespace/zzzz__INoteMovementProvider_def.hpp"
 #include "GlobalNamespace/zzzz__INoteVisualModifierTypeProvider_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
+#include "GlobalNamespace/zzzz__NoteData_def.hpp"
+#include "GlobalNamespace/zzzz__NoteMovement_def.hpp"
+#include "GlobalNamespace/zzzz__NoteVisualModifierType_def.hpp"
 #include "GlobalNamespace/zzzz__Saber_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "GlobalNamespace/zzzz__BurstSliderGameNoteController_def.hpp"
-#include "GlobalNamespace/zzzz__NoteMovement_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BurstSliderGameNoteController.add_cubeNoteControllerDidInitEvent
 template <>
 
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x2383ef0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BurstSliderGameNoteController*>::get(), "add_cubeNoteControllerDidInitEvent", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::BurstSliderGameNoteController*>*>::get() })));
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x2383fa0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BurstSliderGameNoteController*>::get(), "remove_cubeNoteControllerDidInitEvent", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::BurstSliderGameNoteController*>*>::get() })));
@@ -59,7 +59,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2384050;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BurstSliderGameNoteController*>::get(),
                                                                                "get_noteMovement", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -73,7 +73,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2384058;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BurstSliderGameNoteController*>::get(),
                                                                                "get_noteVisualModifierType", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -87,7 +87,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2384060;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BurstSliderGameNoteController*>::get(),
                                                                                "get_gameplayType", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -102,7 +102,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x2a4;
   constexpr static std::size_t addrs = 0x2378b88;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BurstSliderGameNoteController*>::get(), "Init", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{
@@ -122,7 +122,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1a8;
   constexpr static std::size_t addrs = 0x2384068;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BurstSliderGameNoteController*>::get(),
@@ -138,7 +138,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1cc;
   constexpr static std::size_t addrs = 0x2384210;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BurstSliderGameNoteController*>::get(),
@@ -154,7 +154,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xbc;
   constexpr static std::size_t addrs = 0x23843dc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BurstSliderGameNoteController*>::get(),
@@ -170,7 +170,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb8;
   constexpr static std::size_t addrs = 0x2384498;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BurstSliderGameNoteController*>::get(),
@@ -186,7 +186,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x2384550;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BurstSliderGameNoteController*>::get(), "HandleBigWasCutBySaber", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{
@@ -203,7 +203,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x2384a4c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BurstSliderGameNoteController*>::get(), "HandleSmallWasCutBySaber", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{
@@ -220,7 +220,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4e4;
   constexpr static std::size_t addrs = 0x2384568;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BurstSliderGameNoteController*>::get(), "HandleCut", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Saber*>::get(),
@@ -238,7 +238,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc0;
   constexpr static std::size_t addrs = 0x2384a64;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BurstSliderGameNoteController*>::get(),
@@ -254,7 +254,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x2384b24;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BurstSliderGameNoteController*>::get(),
@@ -270,7 +270,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x2384b48;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BurstSliderGameNoteController*>::get(),
@@ -286,7 +286,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x2384b58;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BurstSliderGameNoteController*>::get(),
                                                                                ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -296,20 +296,41 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 constexpr GlobalNamespace::BurstSliderGameNoteController::operator ::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::BurstSliderGameNoteController*>*() noexcept {
   return static_cast<::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::BurstSliderGameNoteController*>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::BurstSliderGameNoteController*>"
+constexpr ::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::BurstSliderGameNoteController*>*
+GlobalNamespace::BurstSliderGameNoteController::i___GlobalNamespace__ICubeNoteControllerInitializable_1___GlobalNamespace__BurstSliderGameNoteController__() noexcept {
+  return static_cast<::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::BurstSliderGameNoteController*>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::GlobalNamespace::INoteVisualModifierTypeProvider"
 constexpr GlobalNamespace::BurstSliderGameNoteController::operator ::GlobalNamespace::INoteVisualModifierTypeProvider*() noexcept {
+  return static_cast<::GlobalNamespace::INoteVisualModifierTypeProvider*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::INoteVisualModifierTypeProvider"
+constexpr ::GlobalNamespace::INoteVisualModifierTypeProvider* GlobalNamespace::BurstSliderGameNoteController::i___GlobalNamespace__INoteVisualModifierTypeProvider() noexcept {
   return static_cast<::GlobalNamespace::INoteVisualModifierTypeProvider*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::GlobalNamespace::INoteMovementProvider"
 constexpr GlobalNamespace::BurstSliderGameNoteController::operator ::GlobalNamespace::INoteMovementProvider*() noexcept {
   return static_cast<::GlobalNamespace::INoteMovementProvider*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::GlobalNamespace::INoteMovementProvider"
+constexpr ::GlobalNamespace::INoteMovementProvider* GlobalNamespace::BurstSliderGameNoteController::i___GlobalNamespace__INoteMovementProvider() noexcept {
+  return static_cast<::GlobalNamespace::INoteMovementProvider*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::GlobalNamespace::IGameNoteMirrorable"
 constexpr GlobalNamespace::BurstSliderGameNoteController::operator ::GlobalNamespace::IGameNoteMirrorable*() noexcept {
   return static_cast<::GlobalNamespace::IGameNoteMirrorable*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::GlobalNamespace::IGameNoteMirrorable"
+constexpr ::GlobalNamespace::IGameNoteMirrorable* GlobalNamespace::BurstSliderGameNoteController::i___GlobalNamespace__IGameNoteMirrorable() noexcept {
+  return static_cast<::GlobalNamespace::IGameNoteMirrorable*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::GlobalNamespace::INoteMirrorable"
 constexpr GlobalNamespace::BurstSliderGameNoteController::operator ::GlobalNamespace::INoteMirrorable*() noexcept {
+  return static_cast<::GlobalNamespace::INoteMirrorable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::INoteMirrorable"
+constexpr ::GlobalNamespace::INoteMirrorable* GlobalNamespace::BurstSliderGameNoteController::i___GlobalNamespace__INoteMirrorable() noexcept {
   return static_cast<::GlobalNamespace::INoteMirrorable*>(static_cast<void*>(this));
 }
 constexpr ::ArrayW<::GlobalNamespace::BoxCuttableBySaber*, ::Array<::GlobalNamespace::BoxCuttableBySaber*>*>& GlobalNamespace::BurstSliderGameNoteController::__get__bigCuttableBySaberList() {
@@ -558,7 +579,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x48;
   constexpr static std::size_t addrs = 0x2384b5c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BurstSliderGameNoteController__Pool*>::get(),
                                                                                ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;

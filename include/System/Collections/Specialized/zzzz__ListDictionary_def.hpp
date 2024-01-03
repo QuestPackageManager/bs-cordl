@@ -5,29 +5,26 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ListDictionary)
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections {
-class IComparer;
-}
-namespace System {
-class Array;
+namespace GlobalNamespace {
+class __ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator;
 }
 namespace System::Collections::Specialized {
-class __ListDictionary__NodeKeyValueCollection;
+class __ListDictionary__DictionaryNode;
 }
 namespace System::Collections::Specialized {
 class __ListDictionary__NodeEnumerator;
 }
+namespace System::Collections::Specialized {
+class __ListDictionary__NodeKeyValueCollection;
+}
 namespace System::Collections {
-class IEnumerable;
+struct DictionaryEntry;
 }
 namespace System::Collections {
 class ICollection;
+}
+namespace System::Collections {
+class IComparer;
 }
 namespace System::Collections {
 class IDictionaryEnumerator;
@@ -35,14 +32,17 @@ class IDictionaryEnumerator;
 namespace System::Collections {
 class IDictionary;
 }
-namespace System::Collections::Specialized {
-class __ListDictionary__DictionaryNode;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
-struct DictionaryEntry;
+class IEnumerator;
 }
-namespace GlobalNamespace {
-class __ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator;
+namespace System {
+class Array;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -99,8 +99,14 @@ public:
   /// @brief Convert operator to "::System::Collections::IDictionaryEnumerator"
   constexpr operator ::System::Collections::IDictionaryEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IDictionaryEnumerator"
+  constexpr ::System::Collections::IDictionaryEnumerator* i___System__Collections__IDictionaryEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr ::System::Collections::Specialized::ListDictionary*& __get__list();
 
@@ -219,6 +225,9 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   constexpr ::System::Collections::Specialized::ListDictionary*& __get__list();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::ListDictionary*> const& __get__list() const;
@@ -335,8 +344,14 @@ public:
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
 
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::System::Collections::Specialized::ListDictionary*& __get__list();
 
@@ -527,11 +542,20 @@ public:
   /// @brief Convert operator to "::System::Collections::IDictionary"
   constexpr operator ::System::Collections::IDictionary*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IDictionary"
+  constexpr ::System::Collections::IDictionary* i___System__Collections__IDictionary() noexcept;
+
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
 
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::System::Collections::Specialized::__ListDictionary__DictionaryNode*& __get_head();
 

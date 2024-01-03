@@ -1,22 +1,30 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__PlaceholderFactoryBase_1_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__IPlaceholderFactory_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__IProvider_def.hpp"
 #include "Zenject/zzzz__IValidatable_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
-#include "Zenject/zzzz__IProvider_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 /// @brief Convert operator to "::Zenject::IPlaceholderFactory"
 template <typename TValue> constexpr Zenject::PlaceholderFactoryBase_1<TValue>::operator ::Zenject::IPlaceholderFactory*() noexcept {
   return static_cast<::Zenject::IPlaceholderFactory*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::Zenject::IPlaceholderFactory"
+template <typename TValue> constexpr ::Zenject::IPlaceholderFactory* Zenject::PlaceholderFactoryBase_1<TValue>::i___Zenject__IPlaceholderFactory() noexcept {
+  return static_cast<::Zenject::IPlaceholderFactory*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::Zenject::IValidatable"
 template <typename TValue> constexpr Zenject::PlaceholderFactoryBase_1<TValue>::operator ::Zenject::IValidatable*() noexcept {
+  return static_cast<::Zenject::IValidatable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::IValidatable"
+template <typename TValue> constexpr ::Zenject::IValidatable* Zenject::PlaceholderFactoryBase_1<TValue>::i___Zenject__IValidatable() noexcept {
   return static_cast<::Zenject::IValidatable*>(static_cast<void*>(this));
 }
 template <typename TValue> constexpr ::Zenject::IProvider*& Zenject::PlaceholderFactoryBase_1<TValue>::__get__provider() {

@@ -7,32 +7,56 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RpcHandler_1)
-namespace System {
-template <typename T1, typename T2> class Action_2;
+namespace GlobalNamespace {
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
-template <typename TType, typename T, typename T0, typename T1, typename T2> class __RpcHandler_1____c__DisplayClass13_0_4;
+class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-template <typename TType, typename T, typename T0> class __RpcHandler_1____c__DisplayClass16_0_2;
+template <typename TType, typename TData> class NetworkPacketSerializer_2;
+}
+namespace GlobalNamespace {
+struct __MultiplayerSessionManager__MessageType;
 }
 namespace GlobalNamespace {
 template <typename TType, typename T> class __RpcHandler_1____c__DisplayClass10_0_1;
 }
 namespace GlobalNamespace {
+template <typename TType, typename T, typename T0> class __RpcHandler_1____c__DisplayClass11_0_2;
+}
+namespace GlobalNamespace {
+template <typename TType, typename T, typename T0, typename T1> class __RpcHandler_1____c__DisplayClass12_0_3;
+}
+namespace GlobalNamespace {
+template <typename TType, typename T, typename T0, typename T1, typename T2> class __RpcHandler_1____c__DisplayClass13_0_4;
+}
+namespace GlobalNamespace {
 template <typename TType, typename T, typename T0, typename T1, typename T2, typename T3> class __RpcHandler_1____c__DisplayClass14_0_5;
+}
+namespace GlobalNamespace {
+template <typename TType, typename T> class __RpcHandler_1____c__DisplayClass15_0_1;
+}
+namespace GlobalNamespace {
+template <typename TType, typename T, typename T0> class __RpcHandler_1____c__DisplayClass16_0_2;
+}
+namespace GlobalNamespace {
+template <typename TType, typename T, typename T0, typename T1> class __RpcHandler_1____c__DisplayClass17_0_3;
 }
 namespace GlobalNamespace {
 template <typename TType, typename T, typename T0, typename T1, typename T2> class __RpcHandler_1____c__DisplayClass18_0_4;
 }
 namespace GlobalNamespace {
-template <typename TType, typename T> class __RpcHandler_1____c__DisplayClass20_0_1;
+template <typename TType, typename T, typename T0, typename T1, typename T2, typename T3> class __RpcHandler_1____c__DisplayClass19_0_5;
 }
 namespace GlobalNamespace {
-struct __MultiplayerSessionManager__MessageType;
+template <typename TType, typename T> class __RpcHandler_1____c__DisplayClass20_0_1;
 }
 namespace System {
 template <typename T> class Action_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace System {
 template <typename T1, typename T2, typename T3> class Action_3;
@@ -40,35 +64,11 @@ template <typename T1, typename T2, typename T3> class Action_3;
 namespace System {
 template <typename T1, typename T2, typename T3, typename T4> class Action_4;
 }
-namespace GlobalNamespace {
-template <typename TType, typename T, typename T0, typename T1> class __RpcHandler_1____c__DisplayClass17_0_3;
-}
-namespace GlobalNamespace {
-template <typename TType, typename T, typename T0> class __RpcHandler_1____c__DisplayClass11_0_2;
-}
 namespace System {
 template <typename T1, typename T2, typename T3, typename T4, typename T5> class Action_5;
 }
-namespace GlobalNamespace {
-template <typename TType, typename T, typename T0, typename T1, typename T2, typename T3> class __RpcHandler_1____c__DisplayClass19_0_5;
-}
-namespace GlobalNamespace {
-template <typename TType, typename TData> class NetworkPacketSerializer_2;
-}
 namespace System {
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6> class Action_6;
-}
-namespace GlobalNamespace {
-template <typename TType, typename T> class __RpcHandler_1____c__DisplayClass15_0_1;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace GlobalNamespace {
-template <typename TType, typename T, typename T0, typename T1> class __RpcHandler_1____c__DisplayClass12_0_3;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -676,7 +676,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TType>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12881)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12881))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12953))
 // CS Name: ::RpcHandler`1<TType>*
 class CORDL_TYPE RpcHandler_1 : public ::System::Object {

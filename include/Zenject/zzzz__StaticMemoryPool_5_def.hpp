@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__StaticMemoryPoolBase_1_def.hpp"
 CORDL_MODULE_EXPORT(StaticMemoryPool_5)
 namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
 template <typename T1, typename T2, typename T3, typename T4, typename T5> class Action_5;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TValue> class IMemoryPool_5;
-}
-namespace System {
-template <typename T> class Action_1;
+template <typename TValue> class IDespawnableMemoryPool_1;
 }
 namespace Zenject {
-template <typename TValue> class IDespawnableMemoryPool_1;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TValue> class IMemoryPool_5;
 }
 namespace Zenject {
 class IMemoryPool;
@@ -31,7 +31,7 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11085)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11085), inst: 187 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11085), inst: 187 }), TypeDefinitionIndex(TypeDefinitionIndex(11085))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11090))
 // CS Name: ::Zenject::StaticMemoryPool`5<TParam1,TParam2,TParam3,TParam4,TValue>*
 class CORDL_TYPE StaticMemoryPool_5 : public ::Zenject::StaticMemoryPoolBase_1<TValue> {
@@ -45,11 +45,20 @@ public:
   /// @brief Convert operator to "::Zenject::IMemoryPool_5<TParam1,TParam2,TParam3,TParam4,TValue>"
   constexpr operator ::Zenject::IMemoryPool_5<TParam1, TParam2, TParam3, TParam4, TValue>*() noexcept;
 
+  /// @brief Convert to "::Zenject::IMemoryPool_5<TParam1,TParam2,TParam3,TParam4,TValue>"
+  constexpr ::Zenject::IMemoryPool_5<TParam1, TParam2, TParam3, TParam4, TValue>* i___Zenject__IMemoryPool_5_TParam1_TParam2_TParam3_TParam4_TValue_() noexcept;
+
   /// @brief Convert operator to "::Zenject::IDespawnableMemoryPool_1<TValue>"
   constexpr operator ::Zenject::IDespawnableMemoryPool_1<TValue>*() noexcept;
 
+  /// @brief Convert to "::Zenject::IDespawnableMemoryPool_1<TValue>"
+  constexpr ::Zenject::IDespawnableMemoryPool_1<TValue>* i___Zenject__IDespawnableMemoryPool_1_TValue_() noexcept;
+
   /// @brief Convert operator to "::Zenject::IMemoryPool"
   constexpr operator ::Zenject::IMemoryPool*() noexcept;
+
+  /// @brief Convert to "::Zenject::IMemoryPool"
+  constexpr ::Zenject::IMemoryPool* i___Zenject__IMemoryPool() noexcept;
 
   constexpr ::System::Action_5<TParam1, TParam2, TParam3, TParam4, TValue>*& __get__onSpawnMethod();
 
@@ -61,8 +70,7 @@ public:
                                                                                                     ::System::Action_1<TValue>* onDespawnedMethod);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param onDespawnedMethod: ::System::Action_1<TValue>* (default: nullptr)
-  inline void _ctor(::System::Action_5<TParam1, TParam2, TParam3, TParam4, TValue>* onSpawnMethod, ::System::Action_1<TValue>* onDespawnedMethod = nullptr);
+  inline void _ctor(::System::Action_5<TParam1, TParam2, TParam3, TParam4, TValue>* onSpawnMethod, ::System::Action_1<TValue>* onDespawnedMethod);
 
   /// @brief Method set_OnSpawnMethod, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_OnSpawnMethod(::System::Action_5<TParam1, TParam2, TParam3, TParam4, TValue>* value);

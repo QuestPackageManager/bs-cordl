@@ -9,10 +9,10 @@ namespace GlobalNamespace {
 class __MultiplayerLobbyAvatarPlace__Pool;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {

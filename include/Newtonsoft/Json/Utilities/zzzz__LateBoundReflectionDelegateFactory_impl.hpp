@@ -2,19 +2,19 @@
 #include "Newtonsoft/Json/Utilities/zzzz__ReflectionDelegateFactory_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__LateBoundReflectionDelegateFactory_def.hpp"
-#include "Newtonsoft/Json/Utilities/zzzz__LateBoundReflectionDelegateFactory_def.hpp"
-#include "Newtonsoft/Json/Utilities/zzzz__ReflectionDelegateFactory_def.hpp"
-#include "System/Reflection/zzzz__FieldInfo_def.hpp"
-#include "Newtonsoft/Json/Utilities/zzzz__MethodCall_2_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ObjectConstructor_1_def.hpp"
+#include "Newtonsoft/Json/Utilities/zzzz__LateBoundReflectionDelegateFactory_def.hpp"
+#include "Newtonsoft/Json/Utilities/zzzz__MethodCall_2_def.hpp"
+#include "Newtonsoft/Json/Utilities/zzzz__ReflectionDelegateFactory_def.hpp"
+#include "System/Reflection/zzzz__ConstructorInfo_def.hpp"
+#include "System/Reflection/zzzz__FieldInfo_def.hpp"
+#include "System/Reflection/zzzz__MethodBase_def.hpp"
 #include "System/Reflection/zzzz__PropertyInfo_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Reflection/zzzz__MethodBase_def.hpp"
-#include "System/Reflection/zzzz__ConstructorInfo_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0._ctor
 template <>
 
@@ -23,7 +23,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x265a68c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0*>::get(), ".ctor",
                                     std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -39,7 +39,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x265a700;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0*>::get(),
                                     "<CreateParameterizedConstructor>b__0", std::vector<Il2CppClass*>{},
@@ -56,7 +56,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x265a71c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0*>::get(),
                                     "<CreateParameterizedConstructor>b__1", std::vector<Il2CppClass*>{},
@@ -368,7 +368,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x265a4e4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory*>::get(), "get_Instance",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -384,7 +384,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x150;
   constexpr static std::size_t addrs = 0x265a53c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory*>::get(),
@@ -400,7 +400,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x265a694;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory*>::get(), ".ctor",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));

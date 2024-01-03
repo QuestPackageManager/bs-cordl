@@ -10,86 +10,86 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IVRChaperoneSetup)
-namespace System {
-class IAsyncResult;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class AsyncCallback;
-}
 namespace OVR::OpenVR {
 struct EChaperoneConfigFile;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace OVR::OpenVR {
-struct HmdQuad_t;
 }
 namespace OVR::OpenVR {
 struct HmdMatrix34_t;
 }
 namespace OVR::OpenVR {
-class __IVRChaperoneSetup___SetWorkingCollisionBoundsTagsInfo;
-}
-namespace OVR::OpenVR {
-class __IVRChaperoneSetup___GetLivePhysicalBoundsInfo;
-}
-namespace OVR::OpenVR {
-class __IVRChaperoneSetup___ImportFromBufferToWorking;
+struct HmdQuad_t;
 }
 namespace OVR::OpenVR {
 class __IVRChaperoneSetup___CommitWorkingCopy;
 }
 namespace OVR::OpenVR {
-class __IVRChaperoneSetup___GetLiveSeatedZeroPoseToRawTrackingPose;
-}
-namespace OVR::OpenVR {
-class __IVRChaperoneSetup___GetWorkingStandingZeroPoseToRawTrackingPose;
-}
-namespace OVR::OpenVR {
-class __IVRChaperoneSetup___SetWorkingPlayAreaSize;
-}
-namespace OVR::OpenVR {
-class __IVRChaperoneSetup___GetWorkingPlayAreaSize;
-}
-namespace OVR::OpenVR {
-class __IVRChaperoneSetup___GetWorkingPlayAreaRect;
-}
-namespace OVR::OpenVR {
-class __IVRChaperoneSetup___SetWorkingCollisionBoundsInfo;
-}
-namespace OVR::OpenVR {
-class __IVRChaperoneSetup___SetWorkingSeatedZeroPoseToRawTrackingPose;
-}
-namespace OVR::OpenVR {
-class __IVRChaperoneSetup___ReloadFromDisk;
-}
-namespace OVR::OpenVR {
-class __IVRChaperoneSetup___GetWorkingCollisionBoundsInfo;
-}
-namespace OVR::OpenVR {
-class __IVRChaperoneSetup___GetLiveCollisionBoundsTagsInfo;
+class __IVRChaperoneSetup___ExportLiveToBuffer;
 }
 namespace OVR::OpenVR {
 class __IVRChaperoneSetup___GetLiveCollisionBoundsInfo;
 }
 namespace OVR::OpenVR {
-class __IVRChaperoneSetup___RevertWorkingCopy;
+class __IVRChaperoneSetup___GetLiveCollisionBoundsTagsInfo;
+}
+namespace OVR::OpenVR {
+class __IVRChaperoneSetup___GetLivePhysicalBoundsInfo;
+}
+namespace OVR::OpenVR {
+class __IVRChaperoneSetup___GetLiveSeatedZeroPoseToRawTrackingPose;
+}
+namespace OVR::OpenVR {
+class __IVRChaperoneSetup___GetWorkingCollisionBoundsInfo;
+}
+namespace OVR::OpenVR {
+class __IVRChaperoneSetup___GetWorkingPlayAreaRect;
+}
+namespace OVR::OpenVR {
+class __IVRChaperoneSetup___GetWorkingPlayAreaSize;
 }
 namespace OVR::OpenVR {
 class __IVRChaperoneSetup___GetWorkingSeatedZeroPoseToRawTrackingPose;
 }
 namespace OVR::OpenVR {
-class __IVRChaperoneSetup___ExportLiveToBuffer;
+class __IVRChaperoneSetup___GetWorkingStandingZeroPoseToRawTrackingPose;
+}
+namespace OVR::OpenVR {
+class __IVRChaperoneSetup___ImportFromBufferToWorking;
+}
+namespace OVR::OpenVR {
+class __IVRChaperoneSetup___ReloadFromDisk;
+}
+namespace OVR::OpenVR {
+class __IVRChaperoneSetup___RevertWorkingCopy;
+}
+namespace OVR::OpenVR {
+class __IVRChaperoneSetup___SetWorkingCollisionBoundsInfo;
+}
+namespace OVR::OpenVR {
+class __IVRChaperoneSetup___SetWorkingCollisionBoundsTagsInfo;
+}
+namespace OVR::OpenVR {
+class __IVRChaperoneSetup___SetWorkingPhysicalBoundsInfo;
+}
+namespace OVR::OpenVR {
+class __IVRChaperoneSetup___SetWorkingPlayAreaSize;
+}
+namespace OVR::OpenVR {
+class __IVRChaperoneSetup___SetWorkingSeatedZeroPoseToRawTrackingPose;
 }
 namespace OVR::OpenVR {
 class __IVRChaperoneSetup___SetWorkingStandingZeroPoseToRawTrackingPose;
 }
-namespace OVR::OpenVR {
-class __IVRChaperoneSetup___SetWorkingPhysicalBoundsInfo;
+namespace System::Text {
+class StringBuilder;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

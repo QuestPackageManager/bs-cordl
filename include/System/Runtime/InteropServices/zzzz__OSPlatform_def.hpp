@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OSPlatform)
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::InteropServices {
@@ -39,6 +39,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::System::Runtime::InteropServices::OSPlatform>"
   constexpr operator ::System::IEquatable_1<::System::Runtime::InteropServices::OSPlatform>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::System::Runtime::InteropServices::OSPlatform>"
+  constexpr ::System::IEquatable_1<::System::Runtime::InteropServices::OSPlatform>* i___System__IEquatable_1___System__Runtime__InteropServices__OSPlatform_();
 
   static inline void setStaticF__Linux_k__BackingField(::System::Runtime::InteropServices::OSPlatform value);
 

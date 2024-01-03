@@ -11,34 +11,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LeaderboardHelper)
 namespace GlobalNamespace {
-struct __LeaderboardHelper___CreateOculusLeaderboard_d__2;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
 class BeatmapLevelCollectionSO;
 }
 namespace GlobalNamespace {
 class LeaderboardIdsModelSO;
 }
-namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+namespace GlobalNamespace {
+struct __LeaderboardHelper___CreateOculusLeaderboard_d__2;
 }
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
-}
-namespace System::Net::Http {
-class HttpRequestMessage;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Net::Http {
 class HttpClient;
 }
 namespace System::Net::Http {
+class HttpRequestMessage;
+}
+namespace System::Net::Http {
 class HttpResponseMessage;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncVoidMethodBuilder;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -54,14 +54,17 @@ MARK_VAL_T(::GlobalNamespace::__LeaderboardHelper___CreateOculusLeaderboard_d__2
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 883 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(14655))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5849)) CS Name:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 883 }), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(14655))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5849)) CS Name:
 // ::LeaderboardHelper::<CreateOculusLeaderboard>d__2
 struct CORDL_TYPE __LeaderboardHelper___CreateOculusLeaderboard_d__2 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x22f4bb8, size 0xb48, virtual true, abstract: false, final true
   inline void MoveNext();

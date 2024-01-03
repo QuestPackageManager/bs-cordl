@@ -4,16 +4,16 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ISerializationSurrogate)
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class ISurrogateSelector;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
 namespace System {
 class Object;
-}
-namespace System::Runtime::Serialization {
-class ISurrogateSelector;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {

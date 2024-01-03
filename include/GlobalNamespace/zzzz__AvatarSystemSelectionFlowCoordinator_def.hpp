@@ -12,14 +12,11 @@ CORDL_MODULE_EXPORT(AvatarSystemSelectionFlowCoordinator)
 namespace BeatSaber::AvatarCore {
 class AvatarEditorFlowCoordinator;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+namespace BeatSaber::AvatarCore {
+class AvatarSystemCollection;
 }
-namespace GlobalNamespace {
-struct __AvatarSystemSelectionFlowCoordinator__FinishAction;
-}
-namespace HMUI {
-struct __ViewController__AnimationType;
+namespace BeatSaber::AvatarCore {
+struct AvatarSystemIdentifier;
 }
 namespace BeatSaber::AvatarCore {
 class IAvatarSystemMetadata;
@@ -27,44 +24,47 @@ class IAvatarSystemMetadata;
 namespace BeatSaber::AvatarCore {
 struct __AvatarEditorFlowCoordinator__FinishAction;
 }
-namespace BeatSaber::AvatarCore {
-class AvatarSystemCollection;
-}
-namespace GlobalNamespace {
-class SelectAvatarSystemViewController;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace HMUI {
-class ViewController;
-}
 namespace GlobalNamespace {
 class PlayerDataModel;
 }
 namespace GlobalNamespace {
+class SelectAvatarSystemViewController;
+}
+namespace GlobalNamespace {
+struct __AvatarSystemSelectionFlowCoordinator__FinishAction;
+}
+namespace GlobalNamespace {
 struct __AvatarSystemSelectionFlowCoordinator___Initialize_d__10;
 }
-namespace System {
-template <typename T1, typename T2> class Action_2;
+namespace HMUI {
+class ViewController;
 }
-namespace BeatSaber::AvatarCore {
-struct AvatarSystemIdentifier;
+namespace HMUI {
+struct __ViewController__AnimationType;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -134,14 +134,16 @@ static_assert(offsetof(::GlobalNamespace::__AvatarSystemSelectionFlowCoordinator
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5064 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15172)), TypeDefinitionIndex(TypeDefinitionIndex(3400))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5485)) CS Name:
-// ::AvatarSystemSelectionFlowCoordinator::<Initialize>d__10
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15172)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst:
+// 5064 }), TypeDefinitionIndex(TypeDefinitionIndex(3400))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5485)) CS Name: ::AvatarSystemSelectionFlowCoordinator::<Initialize>d__10
 struct CORDL_TYPE __AvatarSystemSelectionFlowCoordinator___Initialize_d__10 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x2286774, size 0x6d8, virtual true, abstract: false, final true
   inline void MoveNext();

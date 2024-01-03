@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GetViewDataDictionary)
-namespace UnityEngine::UIElements {
-class ISerializableJsonDictionary;
-}
 namespace System {
 class Object;
+}
+namespace UnityEngine::UIElements {
+class ISerializableJsonDictionary;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

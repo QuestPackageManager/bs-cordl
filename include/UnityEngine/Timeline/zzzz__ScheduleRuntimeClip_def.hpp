@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(ScheduleRuntimeClip)
 namespace UnityEngine::Playables {
+struct FrameData;
+}
+namespace UnityEngine::Playables {
 struct Playable;
 }
 namespace UnityEngine::Timeline {
 class TimelineClip;
-}
-namespace UnityEngine::Playables {
-struct FrameData;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::ScheduleRuntimeClip);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 81, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10428)), TypeDefinitionIndex(TypeDefinitionIndex(13883))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13883)), TypeDefinitionIndex(TypeDefinitionIndex(10428))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13885))
 // CS Name: ::UnityEngine.Timeline::ScheduleRuntimeClip*
 class CORDL_TYPE ScheduleRuntimeClip : public ::UnityEngine::Timeline::RuntimeClipBase {
@@ -119,10 +119,8 @@ public:
                                                                        ::UnityEngine::Playables::Playable parentMixer, double_t startDelay, double_t finishTail);
 
   /// @brief Method .ctor, addr 0x2c629b0, size 0x74, virtual false, abstract: false, final false
-  /// @param startDelay: double_t (default: 0.2)
-  /// @param finishTail: double_t (default: 0.1)
-  inline void _ctor(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Playables::Playable clipPlayable, ::UnityEngine::Playables::Playable parentMixer, double_t startDelay = 0.2,
-                    double_t finishTail = 0.1);
+  inline void _ctor(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Playables::Playable clipPlayable, ::UnityEngine::Playables::Playable parentMixer, double_t startDelay,
+                    double_t finishTail);
 
   /// @brief Method Create, addr 0x2c681f0, size 0x98, virtual false, abstract: false, final false
   inline void Create(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Playables::Playable clipPlayable, ::UnityEngine::Playables::Playable parentMixer, double_t startDelay,

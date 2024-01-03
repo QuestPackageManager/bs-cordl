@@ -9,47 +9,47 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Math)
-namespace UnityEngine::ProBuilder {
-struct Edge;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine::ProBuilder {
-class Face;
-}
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 namespace UnityEngine::ProBuilder {
 class Bounds2D;
 }
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine {
-struct Bounds;
+namespace UnityEngine::ProBuilder {
+struct Edge;
 }
 namespace UnityEngine::ProBuilder {
-class Vertex;
+class Face;
+}
+namespace UnityEngine::ProBuilder {
+struct Normal;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
 namespace UnityEngine::ProBuilder {
-struct Normal;
+class Vertex;
+}
+namespace UnityEngine {
+struct Bounds;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine {
 struct Ray;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -61,7 +61,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Math);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12139))
 // CS Name: ::UnityEngine.ProBuilder::Math*
 class CORDL_TYPE Math : public ::System::Object {
@@ -154,8 +154,7 @@ public:
   static inline bool GetLineSegmentIntersect(::UnityEngine::Vector2 p0, ::UnityEngine::Vector2 p1, ::UnityEngine::Vector2 p2, ::UnityEngine::Vector2 p3);
 
   /// @brief Method PointInPolygon, addr 0x2b4917c, size 0x278, virtual false, abstract: false, final false
-  /// @param indexes: ::ArrayW<int32_t,::Array<int32_t>*> (default: nullptr)
-  static inline bool PointInPolygon(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> polygon, ::UnityEngine::Vector2 point, ::ArrayW<int32_t, ::Array<int32_t>*> indexes = nullptr);
+  static inline bool PointInPolygon(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> polygon, ::UnityEngine::Vector2 point, ::ArrayW<int32_t, ::Array<int32_t>*> indexes);
 
   /// @brief Method PointInPolygon, addr 0x2b493f4, size 0x124, virtual false, abstract: false, final false
   static inline bool PointInPolygon(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> positions, ::UnityEngine::ProBuilder::Bounds2D* polyBounds,
@@ -186,9 +185,7 @@ public:
   static inline ::UnityEngine::Vector3 Normal(::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2);
 
   /// @brief Method Normal, addr 0x2b4985c, size 0x77c, virtual false, abstract: false, final false
-  /// @param indexes: ::System::Collections::Generic::IList_1<int32_t>* (default: nullptr)
-  static inline ::UnityEngine::Vector3 Normal(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices,
-                                              ::System::Collections::Generic::IList_1<int32_t>* indexes = nullptr);
+  static inline ::UnityEngine::Vector3 Normal(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::IList_1<int32_t>* indexes);
 
   /// @brief Method Normal, addr 0x2b49fd8, size 0x20c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Normal(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face);
@@ -197,8 +194,7 @@ public:
   static inline ::UnityEngine::ProBuilder::Normal NormalTangentBitangent(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face);
 
   /// @brief Method IsCardinalAxis, addr 0x2b4a1e4, size 0x248, virtual false, abstract: false, final false
-  /// @param epsilon: float_t (default: 0.000000000000000000000000000000000000000000001)
-  static inline bool IsCardinalAxis(::UnityEngine::Vector3 v, float_t epsilon = 0.000000000000000000000000000000000000000000001);
+  static inline bool IsCardinalAxis(::UnityEngine::Vector3 v, float_t epsilon);
 
   /// @brief Method DivideBy, addr 0x2b4a42c, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 DivideBy(::UnityEngine::Vector2 v, ::UnityEngine::Vector2 o);
@@ -231,43 +227,34 @@ public:
   static inline ::UnityEngine::Vector2 LargestVector2(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> v, ::System::Collections::Generic::IList_1<int32_t>* indexes);
 
   /// @brief Method GetBounds, addr 0x2b45768, size 0x5d0, virtual false, abstract: false, final false
-  /// @param indices: ::System::Collections::Generic::IList_1<int32_t>* (default: nullptr)
-  static inline ::UnityEngine::Bounds GetBounds(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, ::System::Collections::Generic::IList_1<int32_t>* indices = nullptr);
+  static inline ::UnityEngine::Bounds GetBounds(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, ::System::Collections::Generic::IList_1<int32_t>* indices);
 
   /// @brief Method Average, addr 0x2b4ab90, size 0x348, virtual false, abstract: false, final false
-  /// @param indexes: ::System::Collections::Generic::IList_1<int32_t>* (default: nullptr)
-  static inline ::UnityEngine::Vector2 Average(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* array, ::System::Collections::Generic::IList_1<int32_t>* indexes = nullptr);
+  static inline ::UnityEngine::Vector2 Average(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* array, ::System::Collections::Generic::IList_1<int32_t>* indexes);
 
   /// @brief Method Average, addr 0x2b4aed8, size 0x5a0, virtual false, abstract: false, final false
-  /// @param indexes: ::System::Collections::Generic::IList_1<int32_t>* (default: nullptr)
-  static inline ::UnityEngine::Vector3 Average(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* array, ::System::Collections::Generic::IList_1<int32_t>* indexes = nullptr);
+  static inline ::UnityEngine::Vector3 Average(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* array, ::System::Collections::Generic::IList_1<int32_t>* indexes);
 
   /// @brief Method Average, addr 0x2b4b478, size 0x5a8, virtual false, abstract: false, final false
-  /// @param indexes: ::System::Collections::Generic::IList_1<int32_t>* (default: nullptr)
-  static inline ::UnityEngine::Vector4 Average(::System::Collections::Generic::IList_1<::UnityEngine::Vector4>* array, ::System::Collections::Generic::IList_1<int32_t>* indexes = nullptr);
+  static inline ::UnityEngine::Vector4 Average(::System::Collections::Generic::IList_1<::UnityEngine::Vector4>* array, ::System::Collections::Generic::IList_1<int32_t>* indexes);
 
   /// @brief Method InvertScaleVector, addr 0x2b4ba20, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 InvertScaleVector(::UnityEngine::Vector3 scaleVector);
 
   /// @brief Method Approx2, addr 0x2b4ba80, size 0x24, virtual false, abstract: false, final false
-  /// @param delta: float_t (default: 0.0001)
-  static inline bool Approx2(::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b, float_t delta = 0.0001);
+  static inline bool Approx2(::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b, float_t delta);
 
   /// @brief Method Approx3, addr 0x2b4baa4, size 0x30, virtual false, abstract: false, final false
-  /// @param delta: float_t (default: 0.0001)
-  static inline bool Approx3(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, float_t delta = 0.0001);
+  static inline bool Approx3(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, float_t delta);
 
   /// @brief Method Approx4, addr 0x2b4bad4, size 0x40, virtual false, abstract: false, final false
-  /// @param delta: float_t (default: 0.0001)
-  static inline bool Approx4(::UnityEngine::Vector4 a, ::UnityEngine::Vector4 b, float_t delta = 0.0001);
+  static inline bool Approx4(::UnityEngine::Vector4 a, ::UnityEngine::Vector4 b, float_t delta);
 
   /// @brief Method ApproxC, addr 0x2b4bb14, size 0x40, virtual false, abstract: false, final false
-  /// @param delta: float_t (default: 0.0001)
-  static inline bool ApproxC(::UnityEngine::Color a, ::UnityEngine::Color b, float_t delta = 0.0001);
+  static inline bool ApproxC(::UnityEngine::Color a, ::UnityEngine::Color b, float_t delta);
 
   /// @brief Method Approx, addr 0x2b4bb54, size 0x14, virtual false, abstract: false, final false
-  /// @param delta: float_t (default: 0.0001)
-  static inline bool Approx(float_t a, float_t b, float_t delta = 0.0001);
+  static inline bool Approx(float_t a, float_t b, float_t delta);
 
   /// @brief Method Clamp, addr 0x2b480e0, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t Clamp(int32_t value, int32_t lowerBound, int32_t upperBound);
@@ -300,8 +287,7 @@ public:
   static inline bool IsNumber(::UnityEngine::Vector4 value);
 
   /// @brief Method MakeNonZero, addr 0x2b4bd40, size 0xd0, virtual false, abstract: false, final false
-  /// @param min: float_t (default: 0.0001)
-  static inline float_t MakeNonZero(float_t value, float_t min = 0.0001);
+  static inline float_t MakeNonZero(float_t value, float_t min);
 
   /// @brief Method FixNaN, addr 0x2b4be10, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 FixNaN(::UnityEngine::Vector4 value);

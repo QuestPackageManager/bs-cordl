@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "System/Threading/Tasks/zzzz__TaskContinuation_def.hpp"
 CORDL_MODULE_EXPORT(StandardTaskContinuation)
 namespace System::Threading::Tasks {
-class Task;
+struct TaskContinuationOptions;
 }
 namespace System::Threading::Tasks {
 class TaskScheduler;
 }
 namespace System::Threading::Tasks {
-struct TaskContinuationOptions;
+class Task;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::Threading::Tasks::StandardTaskContinuation);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2792)), TypeDefinitionIndex(TypeDefinitionIndex(2801))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2801)), TypeDefinitionIndex(TypeDefinitionIndex(2792))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2802))
 // CS Name: ::System.Threading.Tasks::StandardTaskContinuation*
 class CORDL_TYPE StandardTaskContinuation : public ::System::Threading::Tasks::TaskContinuation {

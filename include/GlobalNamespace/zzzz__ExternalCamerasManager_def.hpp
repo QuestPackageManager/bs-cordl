@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(ExternalCamerasManager)
-namespace UnityEngine {
-class GameObject;
+namespace GlobalNamespace {
+class OculusMRCManager;
 }
 namespace UnityEngine {
 class Camera;
 }
-namespace GlobalNamespace {
-class OculusMRCManager;
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {

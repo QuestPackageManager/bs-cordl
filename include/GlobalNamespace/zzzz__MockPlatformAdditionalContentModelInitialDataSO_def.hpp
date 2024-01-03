@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MockPlatformAdditionalContentModelInitialDataSO)
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
 namespace GlobalNamespace {
 class MockPlatformEntitlement;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -4,45 +4,44 @@
 CORDL_MODULE_INIT
 #include "System/IO/zzzz__FileAccess_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnmanagedMemoryStream)
 namespace System::IO {
 struct FileAccess;
 }
-namespace System {
-template <typename T> struct Memory_1;
+namespace System::IO {
+struct SeekOrigin;
 }
 namespace System::Runtime::InteropServices {
 class SafeBuffer;
 }
-namespace System {
-template <typename T> struct Span_1;
-}
 namespace System::Threading::Tasks {
-template <typename TResult> struct ValueTask_1;
-}
-namespace System::Threading {
-struct CancellationToken;
+template <typename TResult> class Task_1;
 }
 namespace System::Threading::Tasks {
 class Task;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System::IO {
-struct SeekOrigin;
-}
-namespace System {
-template <typename T> struct ReadOnlyMemory_1;
+template <typename TResult> struct ValueTask_1;
 }
 namespace System::Threading::Tasks {
 struct ValueTask;
 }
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
+template <typename T> struct Memory_1;
+}
+namespace System {
+template <typename T> struct ReadOnlyMemory_1;
+}
 namespace System {
 template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
+template <typename T> struct Span_1;
 }
 // Forward declare root types
 namespace System::IO {
@@ -54,7 +53,7 @@ MARK_REF_PTR_T(::System::IO::UnmanagedMemoryStream);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619)), TypeDefinitionIndex(TypeDefinitionIndex(3559)), TypeDefinitionIndex(TypeDefinitionIndex(2677))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3559)), TypeDefinitionIndex(TypeDefinitionIndex(3619))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3587))
 // CS Name: ::System.IO::UnmanagedMemoryStream*
 class CORDL_TYPE UnmanagedMemoryStream : public ::System::IO::Stream {
@@ -218,8 +217,7 @@ public:
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method ReadAsync, addr 0x250893c, size 0x294, virtual true, abstract: false, final false
-  /// @param cancellationToken: ::System::Threading::CancellationToken (default: {})
-  inline ::System::Threading::Tasks::ValueTask_1<int32_t> ReadAsync(::System::Memory_1<uint8_t> buffer, ::System::Threading::CancellationToken cancellationToken = {});
+  inline ::System::Threading::Tasks::ValueTask_1<int32_t> ReadAsync(::System::Memory_1<uint8_t> buffer, ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method ReadByte, addr 0x2508bd0, size 0x160, virtual true, abstract: false, final false
   inline int32_t ReadByte();
@@ -243,8 +241,7 @@ public:
   inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method WriteAsync, addr 0x2509560, size 0x214, virtual true, abstract: false, final false
-  /// @param cancellationToken: ::System::Threading::CancellationToken (default: {})
-  inline ::System::Threading::Tasks::ValueTask WriteAsync(::System::ReadOnlyMemory_1<uint8_t> buffer, ::System::Threading::CancellationToken cancellationToken = {});
+  inline ::System::Threading::Tasks::ValueTask WriteAsync(::System::ReadOnlyMemory_1<uint8_t> buffer, ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method WriteByte, addr 0x2509774, size 0x228, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t value);

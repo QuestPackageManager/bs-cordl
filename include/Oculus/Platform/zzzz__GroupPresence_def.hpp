@@ -8,49 +8,49 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GroupPresence)
 namespace Oculus::Platform::Models {
-class GroupPresenceJoinIntent;
+class ApplicationInviteList;
 }
-namespace Oculus::Platform {
-template <typename T> class Request_1;
+namespace Oculus::Platform::Models {
+class GroupPresenceJoinIntent;
 }
 namespace Oculus::Platform::Models {
 class GroupPresenceLeaveIntent;
 }
 namespace Oculus::Platform::Models {
+class InvitePanelResultInfo;
+}
+namespace Oculus::Platform::Models {
 class LaunchInvitePanelFlowResult;
+}
+namespace Oculus::Platform::Models {
+class RejoinDialogResult;
+}
+namespace Oculus::Platform::Models {
+class SendInvitesResult;
 }
 namespace Oculus::Platform::Models {
 class UserList;
 }
-namespace Oculus::Platform::Models {
-class RejoinDialogResult;
+namespace Oculus::Platform {
+class GroupPresenceOptions;
+}
+namespace Oculus::Platform {
+class InviteOptions;
 }
 namespace Oculus::Platform {
 class MultiplayerErrorOptions;
 }
 namespace Oculus::Platform {
-class InviteOptions;
-}
-namespace Oculus::Platform::Models {
-class SendInvitesResult;
-}
-namespace Oculus::Platform {
-class RosterOptions;
+template <typename T> class Request_1;
 }
 namespace Oculus::Platform {
 class Request;
 }
 namespace Oculus::Platform {
-class GroupPresenceOptions;
-}
-namespace Oculus::Platform::Models {
-class InvitePanelResultInfo;
+class RosterOptions;
 }
 namespace Oculus::Platform {
 template <typename T> class __Message_1__Callback;
-}
-namespace Oculus::Platform::Models {
-class ApplicationInviteList;
 }
 // Forward declare root types
 namespace Oculus::Platform {

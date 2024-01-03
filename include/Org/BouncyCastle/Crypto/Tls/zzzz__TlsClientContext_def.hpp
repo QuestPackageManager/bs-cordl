@@ -25,6 +25,9 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsContext"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsContext*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsContext"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext* i___Org__BouncyCastle__Crypto__Tls__TlsContext() noexcept;
+
   // Ctor Parameters [CppParam { name: "", ty: "TlsClientContext", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TlsClientContext(TlsClientContext&&) = delete;

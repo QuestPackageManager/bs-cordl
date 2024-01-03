@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BerApplicationSpecificParser)
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Convertible;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1StreamParser;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class IAsn1ApplicationSpecificParser;
 }
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1ApplicationSpecificParser;
+class IAsn1Convertible;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -42,8 +42,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1ApplicationSpecificParser"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1ApplicationSpecificParser*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1ApplicationSpecificParser"
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1ApplicationSpecificParser* i___Org__BouncyCastle__Asn1__IAsn1ApplicationSpecificParser() noexcept;
+
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible* i___Org__BouncyCastle__Asn1__IAsn1Convertible() noexcept;
 
   constexpr int32_t& __get_tag();
 

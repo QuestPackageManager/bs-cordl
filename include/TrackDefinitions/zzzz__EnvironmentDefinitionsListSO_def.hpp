@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(EnvironmentDefinitionsListSO)
-namespace TrackDefinitions {
-class EnvironmentTracksDefinitionSO;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace TrackDefinitions {
+class EnvironmentTracksDefinitionSO;
 }
 // Forward declare root types
 namespace TrackDefinitions {

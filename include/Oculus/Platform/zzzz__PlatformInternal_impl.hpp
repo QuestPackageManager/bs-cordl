@@ -1,13 +1,13 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__PlatformInternal_def.hpp"
-#include "Oculus/Platform/zzzz__PlatformInternal_def.hpp"
-#include "Oculus/Platform/zzzz__Message_def.hpp"
-#include "Oculus/Platform/zzzz__Request_1_def.hpp"
-#include "Oculus/Platform/Models/zzzz__PlatformInitialize_def.hpp"
 #include "Oculus/Platform/Models/zzzz__HttpTransferUpdate_def.hpp"
-#include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include "Oculus/Platform/Models/zzzz__LinkedAccountList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__PlatformInitialize_def.hpp"
+#include "Oculus/Platform/zzzz__Message_1_def.hpp"
+#include "Oculus/Platform/zzzz__Message_def.hpp"
+#include "Oculus/Platform/zzzz__PlatformInternal_def.hpp"
+#include "Oculus/Platform/zzzz__Request_1_def.hpp"
 #include "Oculus/Platform/zzzz__ServiceProvider_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Oculus::Platform::__PlatformInternal__MessageTypeInternal::__PlatformInternal__MessageTypeInternal(uint32_t value__) noexcept {
@@ -97,7 +97,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x2700730;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::__PlatformInternal__HTTP*>::get(), "SetHttpTransferUpdateCallback", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{
@@ -122,7 +122,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x1b0;
   constexpr static std::size_t addrs = 0x27007a4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::__PlatformInternal__Users*>::get(), "GetLinkedAccounts", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{
@@ -146,7 +146,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4c;
   constexpr static std::size_t addrs = 0x27004ac;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::PlatformInternal*>::get(), "CrashApplication",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -160,7 +160,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8b4;
   constexpr static std::size_t addrs = 0x26efc38;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::PlatformInternal*>::get(), "ParseMessageHandle", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(),
@@ -176,7 +176,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x154;
   constexpr static std::size_t addrs = 0x27004f8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::PlatformInternal*>::get(), "InitializeStandaloneAsync", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));

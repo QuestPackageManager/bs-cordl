@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Vector2Mask)
 namespace UnityEngine {
-struct Vector3;
+struct Vector2;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -46,8 +46,7 @@ public:
   inline float_t get_y();
 
   /// @brief Method .ctor, addr 0x2b7f648, size 0x24, virtual false, abstract: false, final false
-  /// @param epsilon: float_t (default: 0.000000000000000000000000000000000000000000001)
-  inline void _ctor(::UnityEngine::Vector3 v, float_t epsilon = 0.000000000000000000000000000000000000000000001);
+  inline void _ctor(::UnityEngine::Vector3 v, float_t epsilon);
 
   /// @brief Method .ctor, addr 0x2b7f66c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint8_t mask);

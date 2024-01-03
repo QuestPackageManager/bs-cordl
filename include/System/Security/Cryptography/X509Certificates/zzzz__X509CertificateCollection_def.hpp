@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509CertificateCollection)
-namespace System::Security::Cryptography::X509Certificates {
-class __X509CertificateCollection__X509CertificateEnumerator;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System::Security::Cryptography::X509Certificates {
+class __X509CertificateCollection__X509CertificateEnumerator;
 }
 namespace System {
 class Object;
@@ -47,6 +47,9 @@ public:
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr ::System::Collections::IEnumerator*& __get_enumerator();
 

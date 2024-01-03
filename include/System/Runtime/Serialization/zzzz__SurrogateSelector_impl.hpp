@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__SurrogateSelector_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializationSurrogate_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISurrogateSelector_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SurrogateHashtable_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializationSurrogate_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::SurrogateSelector._ctor
 template <>
 
@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x24bf9d0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SurrogateSelector*>::get(),
                                                                                ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x14c;
   constexpr static std::size_t addrs = 0x24bfa48;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SurrogateSelector*>::get(),
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1fc;
   constexpr static std::size_t addrs = 0x24bfbd0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SurrogateSelector*>::get(),
@@ -56,6 +56,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::System::Runtime::Serialization::ISurrogateSelector"
 constexpr System::Runtime::Serialization::SurrogateSelector::operator ::System::Runtime::Serialization::ISurrogateSelector*() noexcept {
+  return static_cast<::System::Runtime::Serialization::ISurrogateSelector*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Serialization::ISurrogateSelector"
+constexpr ::System::Runtime::Serialization::ISurrogateSelector* System::Runtime::Serialization::SurrogateSelector::i___System__Runtime__Serialization__ISurrogateSelector() noexcept {
   return static_cast<::System::Runtime::Serialization::ISurrogateSelector*>(static_cast<void*>(this));
 }
 constexpr ::System::Runtime::Serialization::SurrogateHashtable*& System::Runtime::Serialization::SurrogateSelector::__get_m_surrogates() {

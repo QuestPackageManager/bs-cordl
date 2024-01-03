@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(TransformData)
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
 class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

@@ -5,8 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(PlaceholderFactoryBase_1)
-namespace Zenject {
-class InjectTypeInfo;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class Type;
@@ -14,8 +20,8 @@ class Type;
 namespace Zenject {
 class IPlaceholderFactory;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace Zenject {
+class IProvider;
 }
 namespace Zenject {
 class IValidatable;
@@ -24,16 +30,10 @@ namespace Zenject {
 class InjectContext;
 }
 namespace Zenject {
-struct TypeValuePair;
+class InjectTypeInfo;
 }
 namespace Zenject {
-class IProvider;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+struct TypeValuePair;
 }
 // Forward declare root types
 namespace Zenject {
@@ -64,8 +64,14 @@ public:
   /// @brief Convert operator to "::Zenject::IPlaceholderFactory"
   constexpr operator ::Zenject::IPlaceholderFactory*() noexcept;
 
+  /// @brief Convert to "::Zenject::IPlaceholderFactory"
+  constexpr ::Zenject::IPlaceholderFactory* i___Zenject__IPlaceholderFactory() noexcept;
+
   /// @brief Convert operator to "::Zenject::IValidatable"
   constexpr operator ::Zenject::IValidatable*() noexcept;
+
+  /// @brief Convert to "::Zenject::IValidatable"
+  constexpr ::Zenject::IValidatable* i___Zenject__IValidatable() noexcept;
 
   constexpr ::Zenject::IProvider*& __get__provider();
 

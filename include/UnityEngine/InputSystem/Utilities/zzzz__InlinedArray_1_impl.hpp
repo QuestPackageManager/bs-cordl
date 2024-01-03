@@ -1,21 +1,30 @@
 #pragma once
 #include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TValue>"
 template <typename TValue> constexpr UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue>::operator ::System::Collections::Generic::IEnumerable_1<TValue>*() {
   return static_cast<::System::Collections::Generic::IEnumerable_1<TValue>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TValue>"
+template <typename TValue>
+constexpr ::System::Collections::Generic::IEnumerable_1<TValue>* UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue>::i___System__Collections__Generic__IEnumerable_1_TValue_() {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<TValue>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename TValue> constexpr UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue>::operator ::System::Collections::IEnumerable*() {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename TValue> constexpr ::System::Collections::IEnumerable* UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue>::i___System__Collections__IEnumerable() {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename TValue> inline int32_t UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue>::get_Capacity() {
@@ -196,12 +205,25 @@ template <typename TValue> constexpr ::UnityEngine::InputSystem::Utilities::Inli
 template <typename TValue> constexpr UnityEngine::InputSystem::Utilities::__InlinedArray_1__Enumerator<TValue>::operator ::System::Collections::Generic::IEnumerator_1<TValue>*() {
   return static_cast<::System::Collections::Generic::IEnumerator_1<TValue>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TValue>"
+template <typename TValue>
+constexpr ::System::Collections::Generic::IEnumerator_1<TValue>* UnityEngine::InputSystem::Utilities::__InlinedArray_1__Enumerator<TValue>::i___System__Collections__Generic__IEnumerator_1_TValue_() {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<TValue>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 template <typename TValue> constexpr UnityEngine::InputSystem::Utilities::__InlinedArray_1__Enumerator<TValue>::operator ::System::Collections::IEnumerator*() {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Collections::IEnumerator"
+template <typename TValue> constexpr ::System::Collections::IEnumerator* UnityEngine::InputSystem::Utilities::__InlinedArray_1__Enumerator<TValue>::i___System__Collections__IEnumerator() {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::IDisposable"
 template <typename TValue> constexpr UnityEngine::InputSystem::Utilities::__InlinedArray_1__Enumerator<TValue>::operator ::System::IDisposable*() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename TValue> constexpr ::System::IDisposable* UnityEngine::InputSystem::Utilities::__InlinedArray_1__Enumerator<TValue>::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename TValue> inline bool UnityEngine::InputSystem::Utilities::__InlinedArray_1__Enumerator<TValue>::MoveNext() {

@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpObject_def.hpp"
 CORDL_MODULE_EXPORT(PgpExperimental)
 namespace Org::BouncyCastle::Bcpg {
-class ExperimentalPacket;
+class BcpgInputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
+class ExperimentalPacket;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {

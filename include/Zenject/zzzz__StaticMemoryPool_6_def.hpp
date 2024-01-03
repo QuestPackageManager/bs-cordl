@@ -7,17 +7,17 @@ CORDL_MODULE_EXPORT(StaticMemoryPool_6)
 namespace System {
 template <typename T> class Action_1;
 }
-namespace Zenject {
-class IMemoryPool;
-}
-namespace Zenject {
-template <typename TValue> class IDespawnableMemoryPool_1;
-}
 namespace System {
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6> class Action_6;
 }
 namespace Zenject {
+template <typename TValue> class IDespawnableMemoryPool_1;
+}
+namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TValue> class IMemoryPool_6;
+}
+namespace Zenject {
+class IMemoryPool;
 }
 // Forward declare root types
 namespace Zenject {
@@ -45,11 +45,20 @@ public:
   /// @brief Convert operator to "::Zenject::IMemoryPool_6<TParam1,TParam2,TParam3,TParam4,TParam5,TValue>"
   constexpr operator ::Zenject::IMemoryPool_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>*() noexcept;
 
+  /// @brief Convert to "::Zenject::IMemoryPool_6<TParam1,TParam2,TParam3,TParam4,TParam5,TValue>"
+  constexpr ::Zenject::IMemoryPool_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>* i___Zenject__IMemoryPool_6_TParam1_TParam2_TParam3_TParam4_TParam5_TValue_() noexcept;
+
   /// @brief Convert operator to "::Zenject::IDespawnableMemoryPool_1<TValue>"
   constexpr operator ::Zenject::IDespawnableMemoryPool_1<TValue>*() noexcept;
 
+  /// @brief Convert to "::Zenject::IDespawnableMemoryPool_1<TValue>"
+  constexpr ::Zenject::IDespawnableMemoryPool_1<TValue>* i___Zenject__IDespawnableMemoryPool_1_TValue_() noexcept;
+
   /// @brief Convert operator to "::Zenject::IMemoryPool"
   constexpr operator ::Zenject::IMemoryPool*() noexcept;
+
+  /// @brief Convert to "::Zenject::IMemoryPool"
+  constexpr ::Zenject::IMemoryPool* i___Zenject__IMemoryPool() noexcept;
 
   constexpr ::System::Action_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>*& __get__onSpawnMethod();
 
@@ -61,8 +70,7 @@ public:
                                                                                                              ::System::Action_1<TValue>* onDespawnedMethod);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param onDespawnedMethod: ::System::Action_1<TValue>* (default: nullptr)
-  inline void _ctor(::System::Action_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>* onSpawnMethod, ::System::Action_1<TValue>* onDespawnedMethod = nullptr);
+  inline void _ctor(::System::Action_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>* onSpawnMethod, ::System::Action_1<TValue>* onDespawnedMethod);
 
   /// @brief Method set_OnSpawnMethod, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_OnSpawnMethod(::System::Action_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>* value);

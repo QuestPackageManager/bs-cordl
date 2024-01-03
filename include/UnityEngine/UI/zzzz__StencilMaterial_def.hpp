@@ -9,26 +9,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StencilMaterial)
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine::Rendering {
-struct StencilOp;
-}
-namespace UnityEngine::Rendering {
-struct CompareFunction;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace UnityEngine {
-class Object;
 }
 namespace UnityEngine::Rendering {
 struct ColorWriteMask;
 }
+namespace UnityEngine::Rendering {
+struct CompareFunction;
+}
+namespace UnityEngine::Rendering {
+struct StencilOp;
+}
 namespace UnityEngine::UI {
 class __StencilMaterial__MatEntry;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -44,8 +44,8 @@ MARK_REF_PTR_T(::UnityEngine::UI::__StencilMaterial__MatEntry);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10335)), TypeDefinitionIndex(TypeDefinitionIndex(10336)), TypeDefinitionIndex(TypeDefinitionIndex(10334)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13126)) CS Name: ::StencilMaterial::MatEntry*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10336)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10334)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10335))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13126)) CS Name: ::StencilMaterial::MatEntry*
 class CORDL_TYPE __StencilMaterial__MatEntry : public ::System::Object {
 public:
   // Declarations

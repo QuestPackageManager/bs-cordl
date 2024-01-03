@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextureSlotManager)
 namespace UnityEngine::UIElements {
+struct TextureId;
+}
+namespace UnityEngine::UIElements {
 class TextureRegistry;
 }
 namespace UnityEngine {
 class MaterialPropertyBlock;
-}
-namespace UnityEngine::UIElements {
-struct TextureId;
 }
 namespace UnityEngine {
 struct Vector4;

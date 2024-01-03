@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::NullableContextAttribute);
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15839))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16054))
 // CS Name: ::System.Runtime.CompilerServices::NullableContextAttribute*
 class CORDL_TYPE NullableContextAttribute : public ::System::Attribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Runtime::CompilerServices::NullableContextAttribute* New_ctor(uint8_t _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method .ctor, addr 0xe265b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a0ad44, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(uint8_t _cordl_fixed_empty_name_whitespace);
 
   // Ctor Parameters [CppParam { name: "", ty: "NullableContextAttribute", modifiers: "&&", def_value: None }]

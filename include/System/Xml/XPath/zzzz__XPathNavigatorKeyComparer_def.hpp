@@ -30,6 +30,9 @@ public:
   /// @brief Convert operator to "::System::Collections::IEqualityComparer"
   constexpr operator ::System::Collections::IEqualityComparer*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEqualityComparer"
+  constexpr ::System::Collections::IEqualityComparer* i___System__Collections__IEqualityComparer() noexcept;
+
   /// @brief Method System.Collections.IEqualityComparer.Equals, addr 0x28abbf4, size 0xdc, virtual true, abstract: false, final true
   inline bool System_Collections_IEqualityComparer_Equals(::System::Object* obj1, ::System::Object* obj2);
 

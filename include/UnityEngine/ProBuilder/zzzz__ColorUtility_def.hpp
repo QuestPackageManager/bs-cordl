@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ColorUtility)
-namespace UnityEngine {
-struct Color;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine::ProBuilder {
+class CIELabColor;
 }
 namespace UnityEngine::ProBuilder {
 class HSVColor;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine::ProBuilder {
 class XYZColor;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Color;
 }
-namespace UnityEngine::ProBuilder {
-class CIELabColor;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

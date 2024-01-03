@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(DisconnectInfo)
 namespace LiteNetLib {
 struct DisconnectReason;
 }
-namespace System::Net::Sockets {
-struct SocketError;
-}
 namespace LiteNetLib {
 class NetPacketReader;
+}
+namespace System::Net::Sockets {
+struct SocketError;
 }
 // Forward declare root types
 namespace LiteNetLib {

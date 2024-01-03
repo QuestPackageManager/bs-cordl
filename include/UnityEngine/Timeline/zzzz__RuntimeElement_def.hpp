@@ -42,6 +42,9 @@ public:
   /// @brief Convert operator to "::UnityEngine::Timeline::IInterval"
   constexpr operator ::UnityEngine::Timeline::IInterval*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::Timeline::IInterval"
+  constexpr ::UnityEngine::Timeline::IInterval* i___UnityEngine__Timeline__IInterval() noexcept;
+
   constexpr int32_t& __get__intervalBit_k__BackingField();
 
   constexpr int32_t const& __get__intervalBit_k__BackingField() const;

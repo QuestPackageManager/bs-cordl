@@ -9,10 +9,10 @@ namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
-class UserAttributeSubpacket;
+class BcpgOutputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
-class BcpgOutputStream;
+class UserAttributeSubpacket;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {

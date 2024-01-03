@@ -8,11 +8,14 @@ CORDL_MODULE_EXPORT(GetFromPrefabComponentProvider)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace Zenject {
-class InjectContext;
-}
 namespace System {
 class Action;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
 }
 namespace Zenject {
 class IPrefabInstantiator;
@@ -21,13 +24,10 @@ namespace Zenject {
 class IProvider;
 }
 namespace Zenject {
+class InjectContext;
+}
+namespace Zenject {
 struct TypeValuePair;
-}
-namespace System {
-class Type;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace Zenject {
@@ -60,6 +60,9 @@ public:
 
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
+
+  /// @brief Convert to "::Zenject::IProvider"
+  constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
 
   constexpr ::Zenject::IPrefabInstantiator*& __get__prefabInstantiator();
 

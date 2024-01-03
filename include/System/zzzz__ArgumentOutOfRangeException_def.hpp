@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ArgumentOutOfRangeException)
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 namespace System {
 class Object;

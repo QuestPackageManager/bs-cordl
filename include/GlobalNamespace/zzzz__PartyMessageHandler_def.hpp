@@ -9,58 +9,58 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PartyMessageHandler)
 namespace GlobalNamespace {
-template <typename TType, typename TData> class NetworkPacketSerializer_2;
-}
-namespace GlobalNamespace {
-struct __PartyMessageHandler__MessageType;
-}
-namespace GlobalNamespace {
-class __PartyMessageHandler__ConnectToMasterServerDelegate;
+struct BeatmapLevelSelectionMask;
 }
 namespace GlobalNamespace {
 class ConnectedPlayerManager;
 }
 namespace GlobalNamespace {
-class __PartyMessageHandler__ConnectToMasterServerMessage;
+struct GameplayServerConfiguration;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace GlobalNamespace {
+class IPoolablePacket;
+}
+namespace GlobalNamespace {
+template <typename TType, typename TData> class NetworkPacketSerializer_2;
+}
+namespace GlobalNamespace {
+template <typename T> class PacketPool_1;
+}
+namespace GlobalNamespace {
+class __PartyMessageHandler__ConnectToMasterServerDelegate;
+}
+namespace GlobalNamespace {
+class __PartyMessageHandler__ConnectToMasterServerMessage;
+}
+namespace GlobalNamespace {
+struct __PartyMessageHandler__MessageType;
+}
+namespace GlobalNamespace {
 class __PartyMessageHandler__ServerStatusUpdatedDelegate;
+}
+namespace LiteNetLib::Utils {
+class INetSerializable;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
 }
 namespace System {
 class IDisposable;
 }
 namespace System {
 class Object;
-}
-namespace System {
-class IAsyncResult;
-}
-namespace System {
-class AsyncCallback;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace LiteNetLib::Utils {
-class INetSerializable;
-}
-namespace GlobalNamespace {
-class IPoolablePacket;
-}
-namespace GlobalNamespace {
-template <typename T> class PacketPool_1;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace GlobalNamespace {
-struct GameplayServerConfiguration;
-}
-namespace GlobalNamespace {
-struct BeatmapLevelSelectionMask;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -235,8 +235,14 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IPoolablePacket"
   constexpr operator ::GlobalNamespace::IPoolablePacket*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
+  constexpr ::GlobalNamespace::IPoolablePacket* i___GlobalNamespace__IPoolablePacket() noexcept;
 
   constexpr ::StringW& __get_secret();
 
@@ -320,6 +326,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::__PartyMessageHandler__MessageType, ::GlobalNamespace::IConnectedPlayer*>*& __get__serializer();
 

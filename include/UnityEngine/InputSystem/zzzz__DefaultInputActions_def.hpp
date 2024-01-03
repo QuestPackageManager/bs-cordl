@@ -8,62 +8,62 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DefaultInputActions)
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct ReadOnlyArray_1;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine::InputSystem {
-struct InputBinding;
-}
-namespace UnityEngine::InputSystem {
-class InputAction;
-}
-namespace UnityEngine::InputSystem {
-class InputActionMap;
-}
-namespace UnityEngine::InputSystem {
-class IInputActionCollection;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::InputSystem {
-struct __DefaultInputActions__UIActions;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
-namespace UnityEngine::InputSystem {
-struct __DefaultInputActions__PlayerActions;
-}
-namespace UnityEngine::InputSystem {
-class IInputActionCollection2;
-}
-namespace UnityEngine::InputSystem {
-class InputActionAsset;
-}
-namespace UnityEngine::InputSystem {
-struct InputControlScheme;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> struct ReadOnlyArray_1;
+}
+namespace UnityEngine::InputSystem {
+class IInputActionCollection2;
+}
+namespace UnityEngine::InputSystem {
+class IInputActionCollection;
+}
+namespace UnityEngine::InputSystem {
+class InputActionAsset;
+}
+namespace UnityEngine::InputSystem {
+class InputActionMap;
+}
+namespace UnityEngine::InputSystem {
+class InputAction;
+}
+namespace UnityEngine::InputSystem {
+struct InputBinding;
+}
+namespace UnityEngine::InputSystem {
+struct InputControlScheme;
+}
+namespace UnityEngine::InputSystem {
+class InputDevice;
+}
+namespace UnityEngine::InputSystem {
+class __DefaultInputActions__IPlayerActions;
 }
 namespace UnityEngine::InputSystem {
 class __DefaultInputActions__IUIActions;
 }
 namespace UnityEngine::InputSystem {
-class __DefaultInputActions__IPlayerActions;
+struct __DefaultInputActions__PlayerActions;
+}
+namespace UnityEngine::InputSystem {
+struct __DefaultInputActions__UIActions;
 }
 namespace UnityEngine::InputSystem {
 struct __InputAction__CallbackContext;
@@ -461,17 +461,33 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::IInputActionCollection2"
   constexpr operator ::UnityEngine::InputSystem::IInputActionCollection2*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::InputSystem::IInputActionCollection2"
+  constexpr ::UnityEngine::InputSystem::IInputActionCollection2* i___UnityEngine__InputSystem__IInputActionCollection2() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::InputSystem::IInputActionCollection"
   constexpr operator ::UnityEngine::InputSystem::IInputActionCollection*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::InputSystem::IInputActionCollection"
+  constexpr ::UnityEngine::InputSystem::IInputActionCollection* i___UnityEngine__InputSystem__IInputActionCollection() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputAction*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputAction*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputAction*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputAction*>*
+  i___System__Collections__Generic__IEnumerable_1___UnityEngine__InputSystem__InputAction__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::UnityEngine::InputSystem::InputActionAsset*& __get__asset_k__BackingField();
 
@@ -656,8 +672,7 @@ public:
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputBinding>* get_bindings();
 
   /// @brief Method FindAction, addr 0x2ab8a04, size 0x20, virtual true, abstract: false, final true
-  /// @param throwIfNotFound: bool (default: false)
-  inline ::UnityEngine::InputSystem::InputAction* FindAction(::StringW actionNameOrId, bool throwIfNotFound = false);
+  inline ::UnityEngine::InputSystem::InputAction* FindAction(::StringW actionNameOrId, bool throwIfNotFound);
 
   /// @brief Method FindBinding, addr 0x2ab8a24, size 0x5c, virtual true, abstract: false, final true
   inline int32_t FindBinding(::UnityEngine::InputSystem::InputBinding bindingMask, ByRef<::UnityEngine::InputSystem::InputAction*> action);

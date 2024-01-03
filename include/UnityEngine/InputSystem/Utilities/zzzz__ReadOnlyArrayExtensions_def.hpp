@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReadOnlyArrayExtensions)
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct ReadOnlyArray_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> struct ReadOnlyArray_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -37,10 +37,8 @@ public:
   template <typename TValue> static inline int32_t IndexOfReference(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<TValue> array, TValue value);
 
   /// @brief Method HaveEqualReferences, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param count: int32_t (default: static_cast<int32_t>(0x7fffffff))
   template <typename TValue>
-  static inline bool HaveEqualReferences(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<TValue> array1, ::System::Collections::Generic::IReadOnlyList_1<TValue>* array2,
-                                         int32_t count = static_cast<int32_t>(0x7fffffff));
+  static inline bool HaveEqualReferences(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<TValue> array1, ::System::Collections::Generic::IReadOnlyList_1<TValue>* array2, int32_t count);
 
   // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyArrayExtensions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

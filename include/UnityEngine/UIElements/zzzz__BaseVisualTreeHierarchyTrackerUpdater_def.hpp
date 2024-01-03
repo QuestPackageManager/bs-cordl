@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseVisualTreeHierarchyTrackerUpdater)
 namespace UnityEngine::UIElements {
+struct HierarchyChangeType;
+}
+namespace UnityEngine::UIElements {
 struct VersionChangeType;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
-}
-namespace UnityEngine::UIElements {
-struct HierarchyChangeType;
 }
 namespace UnityEngine::UIElements {
 struct __BaseVisualTreeHierarchyTrackerUpdater__State;

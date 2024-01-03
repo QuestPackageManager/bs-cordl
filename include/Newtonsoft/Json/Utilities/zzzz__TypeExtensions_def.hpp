@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(TypeExtensions)
 namespace System::Reflection {
-struct MemberTypes;
+class Assembly;
 }
 namespace System::Reflection {
 class MemberInfo;
 }
-namespace System {
-class Type;
+namespace System::Reflection {
+struct MemberTypes;
 }
 namespace System::Reflection {
-class Assembly;
+class MethodInfo;
 }
 namespace System {
 class Delegate;
 }
-namespace System::Reflection {
-class MethodInfo;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {

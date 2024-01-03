@@ -11,13 +11,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PS5SharedPackageSKUsSO)
 namespace GlobalNamespace {
-class __PS5SharedPackageSKUsSO__PS5BuildVersion;
-}
-namespace GlobalNamespace {
 class PS5PublisherSKUSettingsSO;
 }
 namespace GlobalNamespace {
 struct __PS5SharedPackageSKUsSO__BuildType;
+}
+namespace GlobalNamespace {
+class __PS5SharedPackageSKUsSO__PS5BuildVersion;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -160,7 +160,7 @@ static_assert(offsetof(::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVers
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4566)), TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857)), TypeDefinitionIndex(TypeDefinitionIndex(4566))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4568))
 // CS Name: ::PS5SharedPackageSKUsSO*
 class CORDL_TYPE PS5SharedPackageSKUsSO : public ::GlobalNamespace::PersistentScriptableObject {

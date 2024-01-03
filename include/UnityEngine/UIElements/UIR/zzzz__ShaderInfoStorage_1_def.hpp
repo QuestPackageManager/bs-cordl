@@ -8,26 +8,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ShaderInfoStorage_1)
-namespace UnityEngine {
-class Texture2D;
-}
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace UnityEngine::UIElements {
-class UIRAtlasAllocator;
-}
-namespace UnityEngine {
-struct TextureFormat;
-}
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
+}
+namespace UnityEngine::UIElements {
+class UIRAtlasAllocator;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
 struct RectInt;
+}
+namespace UnityEngine {
+class Texture2D;
+}
+namespace UnityEngine {
+struct TextureFormat;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -41,8 +41,8 @@ namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10115)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 4692 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7380)), TypeDefinitionIndex(TypeDefinitionIndex(9999))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7381)) CS Name:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 4692 }), TypeDefinitionIndex(TypeDefinitionIndex(7380)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10115)), TypeDefinitionIndex(TypeDefinitionIndex(9999))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7381)) CS Name:
 // ::UnityEngine.UIElements.UIR::ShaderInfoStorage`1<T>*
 class CORDL_TYPE ShaderInfoStorage_1 : public ::UnityEngine::UIElements::UIR::BaseShaderInfoStorage {
 public:
@@ -116,10 +116,7 @@ public:
                                                                                  int32_t maxSize);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param initialSize: int32_t (default: static_cast<int32_t>(0x40))
-  /// @param maxSize: int32_t (default: static_cast<int32_t>(0x1000))
-  inline void _ctor(::UnityEngine::TextureFormat format, ::System::Func_2<::UnityEngine::Color, T>* convert, int32_t initialSize = static_cast<int32_t>(0x40),
-                    int32_t maxSize = static_cast<int32_t>(0x1000));
+  inline void _ctor(::UnityEngine::TextureFormat format, ::System::Func_2<::UnityEngine::Color, T>* convert, int32_t initialSize, int32_t maxSize);
 
   /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);

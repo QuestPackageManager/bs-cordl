@@ -10,56 +10,56 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnityXRHelper)
-namespace UnityEngine::InputSystem {
-struct __InputAction__CallbackContext;
-}
-namespace GlobalNamespace {
-struct __UnityXRHelper__VRControllerManufacturerName;
-}
-namespace UnityEngine::InputSystem {
-class InputActionReference;
-}
-namespace UnityEngine {
-struct Pose;
-}
 namespace GlobalNamespace {
 class IVRPlatformHelper;
 }
-namespace UnityEngine::XR {
-class XRInputSubsystem;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-struct VRPlatformSDK;
-}
 namespace GlobalNamespace {
 class IVerboseLogger;
-}
-namespace UnityEngine::InputSystem {
-class InputAction;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine::XR {
-struct XRNodeState;
 }
 namespace GlobalNamespace {
 class UnityXRController;
 }
 namespace GlobalNamespace {
+struct VRPlatformSDK;
+}
+namespace GlobalNamespace {
 class __UnityXRController__Configuration;
+}
+namespace GlobalNamespace {
+struct __UnityXRHelper__VRControllerManufacturerName;
+}
+namespace System {
+class Action;
+}
+namespace UnityEngine::InputSystem {
+class InputActionReference;
+}
+namespace UnityEngine::InputSystem {
+class InputAction;
+}
+namespace UnityEngine::InputSystem {
+struct __InputAction__CallbackContext;
+}
+namespace UnityEngine::XR {
+class XRInputSubsystem;
+}
+namespace UnityEngine::XR {
+struct XRNodeState;
 }
 namespace UnityEngine::XR {
 struct XRNode;
 }
 namespace UnityEngine {
+struct Pose;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -248,8 +248,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IVRPlatformHelper"
   constexpr operator ::GlobalNamespace::IVRPlatformHelper*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IVRPlatformHelper"
+  constexpr ::GlobalNamespace::IVRPlatformHelper* i___GlobalNamespace__IVRPlatformHelper() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IVerboseLogger"
   constexpr operator ::GlobalNamespace::IVerboseLogger*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IVerboseLogger"
+  constexpr ::GlobalNamespace::IVerboseLogger* i___GlobalNamespace__IVerboseLogger() noexcept;
 
   constexpr ::System::Action*& __get_inputFocusWasCapturedEvent();
 

@@ -10,10 +10,10 @@ namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
-struct Vector3;
+class Transform;
 }
 namespace UnityEngine {
-class Transform;
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {
@@ -25,7 +25,7 @@ MARK_VAL_T(::UnityEngine::ResourceManagement::ResourceProviders::InstantiationPa
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 58, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13998))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::InstantiationParameters
 struct CORDL_TYPE InstantiationParameters {

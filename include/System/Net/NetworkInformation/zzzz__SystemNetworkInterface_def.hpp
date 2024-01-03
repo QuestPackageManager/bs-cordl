@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SystemNetworkInterface)
 namespace System::Net::NetworkInformation {
-class NetworkInterface;
+class NetworkInterfaceFactory;
 }
 namespace System::Net::NetworkInformation {
-class NetworkInterfaceFactory;
+class NetworkInterface;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {

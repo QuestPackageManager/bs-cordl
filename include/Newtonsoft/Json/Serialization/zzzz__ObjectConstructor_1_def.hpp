@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectConstructor_1)
 namespace System {
-class Object;
-}
-namespace System {
 class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {

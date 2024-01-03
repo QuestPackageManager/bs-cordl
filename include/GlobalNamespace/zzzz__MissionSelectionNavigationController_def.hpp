@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MissionSelectionNavigationController)
 namespace GlobalNamespace {
-class MissionSelectionMapViewController;
+class MissionLevelDetailViewController;
 }
 namespace GlobalNamespace {
 class MissionNode;
 }
 namespace GlobalNamespace {
-class MissionLevelDetailViewController;
-}
-namespace System {
-template <typename T> class Action_1;
+class MissionSelectionMapViewController;
 }
 namespace GlobalNamespace {
 class __MissionSelectionNavigationController____c__DisplayClass11_0;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System {
 class Action;

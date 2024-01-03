@@ -7,7 +7,10 @@ namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable> class INodePoseSyncStateManager_5;
 }
 namespace GlobalNamespace {
-struct __NodePoseSyncState__NodePose;
+class NodePoseSyncStateDeltaNetSerializable;
+}
+namespace GlobalNamespace {
+class NodePoseSyncStateNetSerializable;
 }
 namespace GlobalNamespace {
 struct NodePoseSyncState;
@@ -16,10 +19,7 @@ namespace GlobalNamespace {
 struct PoseSerializable;
 }
 namespace GlobalNamespace {
-class NodePoseSyncStateDeltaNetSerializable;
-}
-namespace GlobalNamespace {
-class NodePoseSyncStateNetSerializable;
+struct __NodePoseSyncState__NodePose;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -41,6 +41,12 @@ public:
   /// "::GlobalNamespace::INodePoseSyncStateManager_5<::GlobalNamespace::NodePoseSyncState,::GlobalNamespace::__NodePoseSyncState__NodePose,::GlobalNamespace::PoseSerializable,::GlobalNamespace::NodePoseSyncStateNetSerializable*,::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>"
   constexpr operator ::GlobalNamespace::INodePoseSyncStateManager_5<::GlobalNamespace::NodePoseSyncState, ::GlobalNamespace::__NodePoseSyncState__NodePose, ::GlobalNamespace::PoseSerializable,
                                                                     ::GlobalNamespace::NodePoseSyncStateNetSerializable*, ::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>*() noexcept;
+
+  /// @brief Convert to
+  /// "::GlobalNamespace::INodePoseSyncStateManager_5<::GlobalNamespace::NodePoseSyncState,::GlobalNamespace::__NodePoseSyncState__NodePose,::GlobalNamespace::PoseSerializable,::GlobalNamespace::NodePoseSyncStateNetSerializable*,::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>"
+  constexpr ::GlobalNamespace::INodePoseSyncStateManager_5<::GlobalNamespace::NodePoseSyncState, ::GlobalNamespace::__NodePoseSyncState__NodePose, ::GlobalNamespace::PoseSerializable,
+                                                           ::GlobalNamespace::NodePoseSyncStateNetSerializable*, ::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>*
+  i___GlobalNamespace__INodePoseSyncStateManager_5___GlobalNamespace__NodePoseSyncState___GlobalNamespace____NodePoseSyncState__NodePose___GlobalNamespace__PoseSerializable___GlobalNamespace__NodePoseSyncStateNetSerializable____GlobalNamespace__NodePoseSyncStateDeltaNetSerializable__() noexcept;
 
   // Ctor Parameters [CppParam { name: "", ty: "INodePoseSyncStateManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

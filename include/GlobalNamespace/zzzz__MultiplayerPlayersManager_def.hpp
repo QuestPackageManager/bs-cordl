@@ -12,83 +12,83 @@ CORDL_MODULE_EXPORT(MultiplayerPlayersManager)
 namespace GlobalNamespace {
 class BeatmapObjectSpawnCenter;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace System {
-class Action;
-}
 namespace GlobalNamespace {
-class __MultiplayerLocalInactivePlayerFacade__Factory;
-}
-namespace GlobalNamespace {
-struct MultiplayerPlayerLayout;
-}
-namespace GlobalNamespace {
-class MultiplayerLayoutProvider;
-}
-namespace GlobalNamespace {
-class IMultiplayerLevelEndActionsPublisher;
-}
-namespace GlobalNamespace {
-class MultiplayerLocalActivePlayerFacade;
-}
-namespace GlobalNamespace {
-class __MultiplayerConnectedPlayerFacade__Factory;
-}
-namespace GlobalNamespace {
-class IStartSeekSongControllerProvider;
-}
-namespace GlobalNamespace {
-class MultiplayerLocalInactivePlayerFacade;
-}
-namespace GlobalNamespace {
-class __MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51;
-}
-namespace System {
-template <typename T> class Action_1;
+class FadeInOutController;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace GlobalNamespace {
+class IMultiplayerLevelEndActionsPublisher;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+class IStartSeekSongControllerProvider;
+}
+namespace GlobalNamespace {
 class MultiplayerConnectedPlayerFacade;
+}
+namespace GlobalNamespace {
+class MultiplayerLayoutProvider;
 }
 namespace GlobalNamespace {
 class MultiplayerLevelCompletionResults;
 }
 namespace GlobalNamespace {
-class __MultiplayerLocalActivePlayerFacade__Factory;
+class MultiplayerLocalActivePlayerFacade;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace GlobalNamespace {
+class MultiplayerLocalInactivePlayerFacade;
 }
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+struct MultiplayerPlayerLayout;
 }
 namespace GlobalNamespace {
 struct MultiplayerPlayerStartState;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace GlobalNamespace {
+class __MultiplayerConnectedPlayerFacade__Factory;
 }
 namespace GlobalNamespace {
-class FadeInOutController;
-}
-namespace Zenject {
-class DiContainer;
+class __MultiplayerLocalActivePlayerFacade__Factory;
 }
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class __MultiplayerLocalInactivePlayerFacade__Factory;
+}
+namespace GlobalNamespace {
+class __MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System {
-class Object;
+template <typename T> class Action_1;
+}
+namespace System {
+class Action;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -126,11 +126,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -316,6 +325,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IMultiplayerLevelEndActionsPublisher"
   constexpr operator ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IMultiplayerLevelEndActionsPublisher"
+  constexpr ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher* i___GlobalNamespace__IMultiplayerLevelEndActionsPublisher() noexcept;
 
   constexpr ::GlobalNamespace::MultiplayerLocalActivePlayerFacade*& __get__activeLocalPlayerControllerPrefab();
 

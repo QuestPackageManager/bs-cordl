@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(LocalizedTextMesh)
-namespace UnityEngine {
-class TextMesh;
+namespace Polyglot {
+class ILocalize;
 }
 namespace Polyglot {
 struct LanguageDirection;
 }
-namespace Polyglot {
-class ILocalize;
-}
 namespace UnityEngine {
 struct TextAlignment;
+}
+namespace UnityEngine {
+class TextMesh;
 }
 // Forward declare root types
 namespace Polyglot {
@@ -43,6 +43,9 @@ public:
 
   /// @brief Convert operator to "::Polyglot::ILocalize"
   constexpr operator ::Polyglot::ILocalize*() noexcept;
+
+  /// @brief Convert to "::Polyglot::ILocalize"
+  constexpr ::Polyglot::ILocalize* i___Polyglot__ILocalize() noexcept;
 
   constexpr ::UnityEngine::TextMesh*& __get_text();
 

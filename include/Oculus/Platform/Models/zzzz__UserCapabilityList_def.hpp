@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::UserCapabilityList);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13487)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13430), inst: 1185 }),
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13430), inst: 1185 }), TypeDefinitionIndex(TypeDefinitionIndex(13487)),
 // TypeDefinitionIndex(TypeDefinitionIndex(13430))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13488)) CS Name: ::Oculus.Platform.Models::UserCapabilityList*
 class CORDL_TYPE UserCapabilityList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::UserCapability*> {
 public:

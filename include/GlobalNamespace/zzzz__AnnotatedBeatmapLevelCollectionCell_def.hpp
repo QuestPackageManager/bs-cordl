@@ -12,50 +12,50 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AnnotatedBeatmapLevelCollectionCell)
-namespace UnityEngine {
-class GameObject;
+namespace GlobalNamespace {
+struct EntitlementStatus;
 }
 namespace GlobalNamespace {
 class IAdditionalContentModel;
 }
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace System::Threading {
-class CancellationTokenSource;
-}
-namespace HMUI {
-struct __SelectableCell__TransitionType;
-}
-namespace GlobalNamespace {
-struct __AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22;
-}
 namespace GlobalNamespace {
 class IAnnotatedBeatmapLevelCollection;
-}
-namespace HMUI {
-class ImageView;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace GlobalNamespace {
+struct __AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22;
+}
+namespace HMUI {
+class ImageView;
+}
+namespace HMUI {
+struct __SelectableCell__TransitionType;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
-}
-namespace GlobalNamespace {
-struct EntitlementStatus;
+struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -71,14 +71,17 @@ MARK_VAL_T(::GlobalNamespace::__AnnotatedBeatmapLevelCollectionCell___RefreshAva
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(16270))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5414)) CS Name:
-// ::AnnotatedBeatmapLevelCollectionCell::<RefreshAvailabilityAsync>d__22
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5414))
+// CS Name: ::AnnotatedBeatmapLevelCollectionCell::<RefreshAvailabilityAsync>d__22
 struct CORDL_TYPE __AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x2277a50, size 0xd6c, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -310,8 +313,7 @@ public:
   inline void RefreshVisuals();
 
   /// @brief Method GetInfoText, addr 0x2277724, size 0xf0, virtual false, abstract: false, final false
-  /// @param purchased: int32_t (default: static_cast<int32_t>(0xffffffff))
-  inline ::StringW GetInfoText(::StringW name, int32_t songs, int32_t purchased = static_cast<int32_t>(0xffffffff));
+  inline ::StringW GetInfoText(::StringW name, int32_t songs, int32_t purchased);
 
   /// @brief Method RefreshAvailabilityAsync, addr 0x2277970, size 0xa4, virtual false, abstract: false, final false
   inline void RefreshAvailabilityAsync(::GlobalNamespace::IAdditionalContentModel* contentModel);

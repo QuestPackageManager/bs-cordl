@@ -14,47 +14,8 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SceneProvider)
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class ISceneProvider2;
-}
-namespace UnityEngine::SceneManagement {
-struct LoadSceneMode;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class __SceneProvider__UnloadSceneOp;
-}
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
-}
-namespace UnityEngine::SceneManagement {
-struct UnloadSceneOptions;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class ISceneProvider;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class __SceneProvider__SceneOp;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> struct AsyncOperationHandle_1;
-}
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct SceneInstance;
-}
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
-}
-namespace UnityEngine::ResourceManagement {
-class IUpdateReceiver;
-}
-namespace UnityEngine {
-class AsyncOperation;
-}
-namespace System {
-class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
@@ -62,11 +23,50 @@ template <typename T> class IList_1;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace System {
+class Object;
+}
 namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct DownloadStatus;
+template <typename TObject> struct AsyncOperationHandle_1;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct AsyncOperationHandle;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct DownloadStatus;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class ISceneProvider2;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class ISceneProvider;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct SceneInstance;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class __SceneProvider__SceneOp;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class __SceneProvider__UnloadSceneOp;
+}
+namespace UnityEngine::ResourceManagement {
+class IUpdateReceiver;
+}
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
+}
+namespace UnityEngine::SceneManagement {
+struct LoadSceneMode;
+}
+namespace UnityEngine::SceneManagement {
+struct UnloadSceneOptions;
+}
+namespace UnityEngine {
+class AsyncOperation;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {
@@ -86,10 +86,10 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::__SceneProv
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14004)), TypeDefinitionIndex(TypeDefinitionIndex(10375)), TypeDefinitionIndex(TypeDefinitionIndex(14032)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 797 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 275 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14033)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 792 }), TypeDefinitionIndex(TypeDefinitionIndex(14034)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3835))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14015)) CS Name: ::SceneProvider::SceneOp*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14034)), TypeDefinitionIndex(TypeDefinitionIndex(10375)), TypeDefinitionIndex(TypeDefinitionIndex(14033)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 792 }), TypeDefinitionIndex(TypeDefinitionIndex(3835)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 797 }), TypeDefinitionIndex(TypeDefinitionIndex(14004)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3835), inst: 275 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14015)) CS Name: ::SceneProvider::SceneOp*
 class CORDL_TYPE __SceneProvider__SceneOp : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> {
 public:
   // Declarations
@@ -121,6 +121,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::IUpdateReceiver"
   constexpr operator ::UnityEngine::ResourceManagement::IUpdateReceiver*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::ResourceManagement::IUpdateReceiver"
+  constexpr ::UnityEngine::ResourceManagement::IUpdateReceiver* i___UnityEngine__ResourceManagement__IUpdateReceiver() noexcept;
 
   constexpr bool& __get_m_ActivateOnLoad();
 
@@ -273,9 +276,9 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__S
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 196, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14033)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 797 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14032)), TypeDefinitionIndex(TypeDefinitionIndex(10378)), TypeDefinitionIndex(TypeDefinitionIndex(14004)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(14032), inst: 797 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14016)) CS Name: ::SceneProvider::UnloadSceneOp*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 797 }), TypeDefinitionIndex(TypeDefinitionIndex(10378)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14033)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 797 }), TypeDefinitionIndex(TypeDefinitionIndex(14004)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14032))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14016)) CS Name: ::SceneProvider::UnloadSceneOp*
 class CORDL_TYPE __SceneProvider__UnloadSceneOp : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> {
 public:
   // Declarations
@@ -386,8 +389,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider2"
   constexpr operator ::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider2*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider2"
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider2* i___UnityEngine__ResourceManagement__ResourceProviders__ISceneProvider2() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider"
   constexpr operator ::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider"
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider* i___UnityEngine__ResourceManagement__ResourceProviders__ISceneProvider() noexcept;
 
   /// @brief Method ProvideScene, addr 0x2bd8468, size 0x35c, virtual true, abstract: false, final true
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>

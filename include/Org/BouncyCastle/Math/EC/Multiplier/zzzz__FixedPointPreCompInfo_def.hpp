@@ -9,10 +9,10 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
 class PreCompInfo;
 }
 namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
+class ECLookupTable;
 }
 namespace Org::BouncyCastle::Math::EC {
-class ECLookupTable;
+class ECPoint;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Multiplier {
@@ -47,6 +47,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo"
   constexpr operator ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo"
+  constexpr ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* i___Org__BouncyCastle__Math__EC__Multiplier__PreCompInfo() noexcept;
 
   constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __get_m_offset();
 

@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(IKExecutionOrder)
-namespace UnityEngine {
-class Animator;
-}
 namespace RootMotion::FinalIK {
 class IK;
+}
+namespace UnityEngine {
+class Animator;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {

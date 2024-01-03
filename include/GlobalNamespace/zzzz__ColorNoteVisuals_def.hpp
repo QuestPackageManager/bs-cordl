@@ -12,25 +12,25 @@ namespace GlobalNamespace {
 class ColorManager;
 }
 namespace GlobalNamespace {
-class NoteControllerBase;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace GlobalNamespace {
 class INoteControllerDidInitEvent;
-}
-namespace UnityEngine {
-class MeshRenderer;
-}
-namespace GlobalNamespace {
-class INoteControllerNoteDidStartDissolvingEvent;
 }
 namespace GlobalNamespace {
 class INoteControllerNoteDidPassJumpThreeQuartersEvent;
 }
 namespace GlobalNamespace {
+class INoteControllerNoteDidStartDissolvingEvent;
+}
+namespace GlobalNamespace {
 class MaterialPropertyBlockController;
+}
+namespace GlobalNamespace {
+class NoteControllerBase;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace UnityEngine {
+class MeshRenderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorNoteVisuals);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4740))
 // CS Name: ::ColorNoteVisuals*
 class CORDL_TYPE ColorNoteVisuals : public ::UnityEngine::MonoBehaviour {
@@ -84,11 +84,20 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INoteControllerDidInitEvent"
   constexpr operator ::GlobalNamespace::INoteControllerDidInitEvent*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::INoteControllerDidInitEvent"
+  constexpr ::GlobalNamespace::INoteControllerDidInitEvent* i___GlobalNamespace__INoteControllerDidInitEvent() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent"
   constexpr operator ::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent"
+  constexpr ::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent* i___GlobalNamespace__INoteControllerNoteDidPassJumpThreeQuartersEvent() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent"
   constexpr operator ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent"
+  constexpr ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent* i___GlobalNamespace__INoteControllerNoteDidStartDissolvingEvent() noexcept;
 
   constexpr float_t& __get__defaultColorAlpha();
 

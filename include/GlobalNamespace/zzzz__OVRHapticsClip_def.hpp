@@ -100,8 +100,7 @@ public:
   static inline ::GlobalNamespace::OVRHapticsClip* New_ctor(::UnityEngine::AudioClip* audioClip, int32_t channel);
 
   /// @brief Method .ctor, addr 0x2729b54, size 0xd8, virtual false, abstract: false, final false
-  /// @param channel: int32_t (default: static_cast<int32_t>(0x0))
-  inline void _ctor(::UnityEngine::AudioClip* audioClip, int32_t channel = static_cast<int32_t>(0x0));
+  inline void _ctor(::UnityEngine::AudioClip* audioClip, int32_t channel);
 
   /// @brief Method WriteSample, addr 0x2729704, size 0x130, virtual false, abstract: false, final false
   inline void WriteSample(uint8_t sample);

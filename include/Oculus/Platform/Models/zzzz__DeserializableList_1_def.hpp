@@ -8,7 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DeserializableList_1)
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
+template <typename T> class ICollection_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -16,17 +16,17 @@ template <typename T> class IEnumerable_1;
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
 }
 // Forward declare root types
 namespace Oculus::Platform::Models {
@@ -74,14 +74,26 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IList_1<T>"
   constexpr operator ::System::Collections::Generic::IList_1<T>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IList_1<T>"
+  constexpr ::System::Collections::Generic::IList_1<T>* i___System__Collections__Generic__IList_1_T_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<T>"
   constexpr operator ::System::Collections::Generic::ICollection_1<T>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::ICollection_1<T>"
+  constexpr ::System::Collections::Generic::ICollection_1<T>* i___System__Collections__Generic__ICollection_1_T_() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>* i___System__Collections__Generic__IEnumerable_1_T_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::System::Collections::Generic::List_1<T>*& __get__Data();
 

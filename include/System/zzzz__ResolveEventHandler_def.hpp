@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ResolveEventHandler)
-namespace System {
-class ResolveEventArgs;
+namespace System::Reflection {
+class Assembly;
 }
 namespace System {
 class Object;
 }
-namespace System::Reflection {
-class Assembly;
+namespace System {
+class ResolveEventArgs;
 }
 // Forward declare root types
 namespace System {

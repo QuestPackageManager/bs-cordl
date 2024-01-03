@@ -19,10 +19,10 @@ namespace UnityEngine::AddressableAssets {
 class AddressablesImpl;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
+template <typename TObject> struct AsyncOperationHandle_1;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> struct AsyncOperationHandle_1;
+struct AsyncOperationHandle;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::AsyncOperations {
@@ -34,10 +34,10 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::AsyncOperations::Initalization
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14032)), TypeDefinitionIndex(TypeDefinitionIndex(14033)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst:
-// 792 }), TypeDefinitionIndex(TypeDefinitionIndex(3835)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3835), inst: 275 }), TypeDefinitionIndex(TypeDefinitionIndex(14125)), TypeDefinitionIndex(TypeDefinitionIndex(14034)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(14033), inst: 858 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14047)) CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::InitalizationObjectsOperation*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14033)), TypeDefinitionIndex(TypeDefinitionIndex(14034)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst:
+// 858 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(14125)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3835), inst: 275 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 792 }), TypeDefinitionIndex(TypeDefinitionIndex(3835)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14032))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14047)) CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::InitalizationObjectsOperation*
 class CORDL_TYPE InitalizationObjectsOperation : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<bool> {
 public:
   // Declarations

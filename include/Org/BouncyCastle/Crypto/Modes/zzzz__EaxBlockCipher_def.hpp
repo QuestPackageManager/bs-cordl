@@ -8,26 +8,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(EaxBlockCipher)
-namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
-}
-namespace Org::BouncyCastle::Crypto::Modes {
-class SicBlockCipher;
-}
-namespace Org::BouncyCastle::Crypto {
-class IMac;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
 namespace Org::BouncyCastle::Crypto::Modes {
 class IAeadBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto::Modes {
-struct __EaxBlockCipher__Tag;
+class IAeadCipher;
 }
 namespace Org::BouncyCastle::Crypto::Modes {
-class IAeadCipher;
+class SicBlockCipher;
+}
+namespace Org::BouncyCastle::Crypto::Modes {
+struct __EaxBlockCipher__Tag;
+}
+namespace Org::BouncyCastle::Crypto {
+class IBlockCipher;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class IMac;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Modes {
@@ -146,8 +146,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher"
+  constexpr ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* i___Org__BouncyCastle__Crypto__Modes__IAeadBlockCipher() noexcept;
+
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Modes::IAeadCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::Modes::IAeadCipher*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Modes::IAeadCipher"
+  constexpr ::Org::BouncyCastle::Crypto::Modes::IAeadCipher* i___Org__BouncyCastle__Crypto__Modes__IAeadCipher() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::Modes::SicBlockCipher*& __get_cipher();
 

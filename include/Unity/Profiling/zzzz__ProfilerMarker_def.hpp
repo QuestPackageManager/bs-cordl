@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ProfilerMarker)
-namespace Unity::Profiling {
-struct __ProfilerMarker__AutoScope;
-}
 namespace System {
 class IDisposable;
+}
+namespace Unity::Profiling {
+struct __ProfilerMarker__AutoScope;
 }
 // Forward declare root types
 namespace Unity::Profiling {
@@ -35,6 +35,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   /// @brief Method .ctor, addr 0x2c9d788, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(void* markerPtr);

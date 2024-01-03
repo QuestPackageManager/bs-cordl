@@ -9,10 +9,10 @@ namespace GlobalNamespace {
 class PlayerTransforms;
 }
 namespace UnityEngine {
-class MeshRenderer;
+class Material;
 }
 namespace UnityEngine {
-class Material;
+class MeshRenderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {

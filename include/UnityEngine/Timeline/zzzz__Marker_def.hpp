@@ -40,6 +40,9 @@ public:
   /// @brief Convert operator to "::UnityEngine::Timeline::IMarker"
   constexpr operator ::UnityEngine::Timeline::IMarker*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::Timeline::IMarker"
+  constexpr ::UnityEngine::Timeline::IMarker* i___UnityEngine__Timeline__IMarker() noexcept;
+
   constexpr double_t& __get_m_Time();
 
   constexpr double_t const& __get_m_Time() const;

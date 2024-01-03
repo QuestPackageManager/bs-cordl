@@ -12,13 +12,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AudioClipAsyncLoader)
 namespace GlobalNamespace {
-template <typename TKey, typename TValue> class IReferenceCountingCache_2;
-}
-namespace GlobalNamespace {
 class IAssetSongAudioClipProvider;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 class IAssetSongPreviewAudioClipProvider;
@@ -27,55 +21,61 @@ namespace GlobalNamespace {
 class IBeatmapLevel;
 }
 namespace GlobalNamespace {
-struct __AudioClipAsyncLoader___Unload_d__21;
+class IFilePathSongAudioClipProvider;
 }
 namespace GlobalNamespace {
 class IFilePathSongPreviewAudioClipProvider;
 }
 namespace GlobalNamespace {
-class __AudioClipAsyncLoader____c__DisplayClass17_0;
+class IMediaAsyncLoader;
 }
 namespace GlobalNamespace {
-class IMediaAsyncLoader;
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+template <typename TKey, typename TValue> class IReferenceCountingCache_2;
+}
+namespace GlobalNamespace {
+class __AudioClipAsyncLoader__LoadMethodDelegate;
+}
+namespace GlobalNamespace {
+struct __AudioClipAsyncLoader___Unload_d__21;
 }
 namespace GlobalNamespace {
 class __AudioClipAsyncLoader____c;
 }
 namespace GlobalNamespace {
-class IFilePathSongAudioClipProvider;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace GlobalNamespace {
-class __AudioClipAsyncLoader__LoadMethodDelegate;
-}
-namespace UnityEngine {
-class AudioClip;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
 class __AudioClipAsyncLoader____c__DisplayClass16_0;
 }
-namespace System {
-class AsyncCallback;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class IAsyncResult;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace GlobalNamespace {
+class __AudioClipAsyncLoader____c__DisplayClass17_0;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine {
+class AudioClip;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -321,13 +321,16 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__AudioClipAsyn
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 276 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(15594))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5887)) CS Name: ::AudioClipAsyncLoader::<Unload>d__21
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15594)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 276 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5887)) CS Name: ::AudioClipAsyncLoader::<Unload>d__21
 struct CORDL_TYPE __AudioClipAsyncLoader___Unload_d__21 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x22fb908, size 0x388, virtual true, abstract: false, final true
   inline void MoveNext();

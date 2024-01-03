@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::Zenject::ZenjectManagersInstaller);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11131), inst: 3904 }), TypeDefinitionIndex(TypeDefinitionIndex(11131))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11131)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11131), inst: 3904 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11157))
 // CS Name: ::Zenject::ZenjectManagersInstaller*
 class CORDL_TYPE ZenjectManagersInstaller : public ::Zenject::Installer_1<::Zenject::ZenjectManagersInstaller*> {

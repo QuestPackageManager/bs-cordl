@@ -17,11 +17,41 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRPassthroughLayer)
-namespace UnityEngine {
-struct Matrix4x4;
+namespace GlobalNamespace {
+class OVRCameraRig;
 }
 namespace GlobalNamespace {
-struct __OVRPlugin__InsightPassthroughStyle2;
+class OVROverlay;
+}
+namespace GlobalNamespace {
+class OVRPassthroughColorLut;
+}
+namespace GlobalNamespace {
+struct __OVROverlay__OverlayShape;
+}
+namespace GlobalNamespace {
+class __OVRPassthroughLayer__BCSStyleHandler;
+}
+namespace GlobalNamespace {
+class __OVRPassthroughLayer__BaseGeneratedStyleHandler;
+}
+namespace GlobalNamespace {
+class __OVRPassthroughLayer__ColorLutHandler;
+}
+namespace GlobalNamespace {
+struct __OVRPassthroughLayer__ColorMapEditorType;
+}
+namespace GlobalNamespace {
+struct __OVRPassthroughLayer__DeferredPassthroughMeshAddition;
+}
+namespace GlobalNamespace {
+class __OVRPassthroughLayer__IStyleHandler;
+}
+namespace GlobalNamespace {
+class __OVRPassthroughLayer__InterpolatedColorLutHandler;
+}
+namespace GlobalNamespace {
+class __OVRPassthroughLayer__MonoToMonoStyleHandler;
 }
 namespace GlobalNamespace {
 class __OVRPassthroughLayer__MonoToRgbaStyleHandler;
@@ -29,89 +59,59 @@ class __OVRPassthroughLayer__MonoToRgbaStyleHandler;
 namespace GlobalNamespace {
 class __OVRPassthroughLayer__NoneStyleHandler;
 }
-namespace UnityEngine {
-class Gradient;
-}
 namespace GlobalNamespace {
-class __OVRPassthroughLayer__IStyleHandler;
-}
-namespace GlobalNamespace {
-struct __OVRPassthroughLayer__Settings;
-}
-namespace GlobalNamespace {
-struct __OVRPassthroughLayer__ColorMapEditorType;
-}
-namespace GlobalNamespace {
-class OVRPassthroughColorLut;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-class __OVRPassthroughLayer__BCSStyleHandler;
-}
-namespace GlobalNamespace {
-struct __OVROverlay__OverlayShape;
+struct __OVRPassthroughLayer__PassthroughMeshInstance;
 }
 namespace GlobalNamespace {
 struct __OVRPassthroughLayer__ProjectionSurfaceType;
 }
 namespace GlobalNamespace {
-class __OVRPassthroughLayer__BaseGeneratedStyleHandler;
+struct __OVRPassthroughLayer__SerializedSurfaceGeometry;
 }
 namespace GlobalNamespace {
-class __OVRPassthroughLayer__InterpolatedColorLutHandler;
-}
-namespace GlobalNamespace {
-class __OVRPassthroughLayer____c__DisplayClass9_0;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine {
-class Texture2D;
+struct __OVRPassthroughLayer__Settings;
 }
 namespace GlobalNamespace {
 class __OVRPassthroughLayer__StylesHandler;
 }
 namespace GlobalNamespace {
+class __OVRPassthroughLayer____c__DisplayClass10_0;
+}
+namespace GlobalNamespace {
+class __OVRPassthroughLayer____c__DisplayClass9_0;
+}
+namespace GlobalNamespace {
 struct __OVRPlugin__InsightPassthroughColorMapType;
 }
 namespace GlobalNamespace {
-class __OVRPassthroughLayer__ColorLutHandler;
+struct __OVRPlugin__InsightPassthroughStyle2;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-class __OVRPassthroughLayer__MonoToMonoStyleHandler;
-}
-namespace GlobalNamespace {
-struct __OVRPassthroughLayer__SerializedSurfaceGeometry;
-}
-namespace GlobalNamespace {
-struct __OVRPassthroughLayer__DeferredPassthroughMeshAddition;
-}
-namespace GlobalNamespace {
-class OVROverlay;
-}
-namespace GlobalNamespace {
-class OVRCameraRig;
-}
-namespace GlobalNamespace {
-struct __OVRPassthroughLayer__PassthroughMeshInstance;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace GlobalNamespace {
-class __OVRPassthroughLayer____c__DisplayClass10_0;
 }
 namespace System::Runtime::InteropServices {
 struct GCHandle;
 }
 namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class Gradient;
+}
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace UnityEngine {
 class MeshFilter;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -552,7 +552,7 @@ public:
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3336)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3336))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7668))
 // CS Name: ::OVRPassthroughLayer::StylesHandler*
 class CORDL_TYPE __OVRPassthroughLayer__StylesHandler : public ::System::Object {
@@ -742,6 +742,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler"
   constexpr operator ::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler"
+  constexpr ::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler* i___GlobalNamespace____OVRPassthroughLayer__IStyleHandler() noexcept;
+
   /// @brief Method get_IsValid, addr 0x27523b8, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsValid();
 
@@ -802,6 +805,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler"
   constexpr operator ::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler"
+  constexpr ::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler* i___GlobalNamespace____OVRPassthroughLayer__IStyleHandler() noexcept;
+
   constexpr ::System::Runtime::InteropServices::GCHandle& __get__colorMapDataHandle();
 
   constexpr ::System::Runtime::InteropServices::GCHandle const& __get__colorMapDataHandle() const;
@@ -836,8 +842,7 @@ public:
   inline void Clear();
 
   /// @brief Method AllocateColorMapData, addr 0x275247c, size 0x90, virtual true, abstract: false, final false
-  /// @param size: uint32_t (default: static_cast<uint32_t>(0x900090u))
-  inline void AllocateColorMapData(uint32_t size = static_cast<uint32_t>(0x900090u));
+  inline void AllocateColorMapData(uint32_t size);
 
   /// @brief Method DeallocateColorMapData, addr 0x275250c, size 0x28, virtual true, abstract: false, final false
   inline void DeallocateColorMapData();
@@ -918,8 +923,7 @@ public:
   inline void Update(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> values);
 
   /// @brief Method AllocateColorMapData, addr 0x275297c, size 0x68, virtual true, abstract: false, final false
-  /// @param size: uint32_t (default: static_cast<uint32_t>(0x63460090u))
-  inline void AllocateColorMapData(uint32_t size = static_cast<uint32_t>(0x63460090u));
+  inline void AllocateColorMapData(uint32_t size);
 
   /// @brief Method DeallocateColorMapData, addr 0x27529e4, size 0x2c, virtual true, abstract: false, final false
   inline void DeallocateColorMapData();
@@ -1073,6 +1077,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler"
   constexpr operator ::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler"
+  constexpr ::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler* i___GlobalNamespace____OVRPassthroughLayer__IStyleHandler() noexcept;
 
   constexpr bool& __get__currentFlipLutY();
 
@@ -1379,9 +1386,9 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughLayer____c__DisplayCla
 // SizeInfo { instance_size: 272, native_size: -1, calculated_instance_size: 272, calculated_native_size: 272, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(7655)), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7661)), TypeDefinitionIndex(TypeDefinitionIndex(7663)), TypeDefinitionIndex(TypeDefinitionIndex(7662)), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7825))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7678)) CS Name: ::OVRPassthroughLayer*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7663)), TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(7655)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7661)), TypeDefinitionIndex(TypeDefinitionIndex(7662)), TypeDefinitionIndex(TypeDefinitionIndex(7825)), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10225))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7678)) CS Name: ::OVRPassthroughLayer*
 class CORDL_TYPE OVRPassthroughLayer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -1734,8 +1741,7 @@ public:
   static inline ::UnityEngine::Gradient* getStaticF_colorMapNeutralGradient();
 
   /// @brief Method AddSurfaceGeometry, addr 0x274e7d0, size 0x1f0, virtual false, abstract: false, final false
-  /// @param updateTransform: bool (default: false)
-  inline void AddSurfaceGeometry(::UnityEngine::GameObject* obj, bool updateTransform = false);
+  inline void AddSurfaceGeometry(::UnityEngine::GameObject* obj, bool updateTransform);
 
   /// @brief Method RemoveSurfaceGeometry, addr 0x274e9c0, size 0x218, virtual false, abstract: false, final false
   inline void RemoveSurfaceGeometry(::UnityEngine::GameObject* obj);
@@ -1765,28 +1771,20 @@ public:
   inline void SetColorMap(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> values);
 
   /// @brief Method SetColorLut, addr 0x274f0f0, size 0xfc, virtual false, abstract: false, final false
-  /// @param weight: float_t (default: 1.0)
-  inline void SetColorLut(::GlobalNamespace::OVRPassthroughColorLut* lut, float_t weight = 1.0);
+  inline void SetColorLut(::GlobalNamespace::OVRPassthroughColorLut* lut, float_t weight);
 
   /// @brief Method SetColorLut, addr 0x274f2e0, size 0x11c, virtual false, abstract: false, final false
   inline void SetColorLut(::GlobalNamespace::OVRPassthroughColorLut* lutSource, ::GlobalNamespace::OVRPassthroughColorLut* lutTarget, float_t weight);
 
   /// @brief Method SetColorMapControls, addr 0x274f460, size 0x190, virtual false, abstract: false, final false
-  /// @param brightness: float_t (default: 0.0)
-  /// @param posterize: float_t (default: 0.0)
-  /// @param gradient: ::UnityEngine::Gradient* (default: nullptr)
-  /// @param colorMapType: ::GlobalNamespace::__OVRPassthroughLayer__ColorMapEditorType (default: static_cast<int32_t>(0x1))
-  inline void SetColorMapControls(float_t contrast, float_t brightness = 0.0, float_t posterize = 0.0, ::UnityEngine::Gradient* gradient = nullptr,
-                                  ::GlobalNamespace::__OVRPassthroughLayer__ColorMapEditorType colorMapType = static_cast<int32_t>(0x1));
+  inline void SetColorMapControls(float_t contrast, float_t brightness, float_t posterize, ::UnityEngine::Gradient* gradient,
+                                  ::GlobalNamespace::__OVRPassthroughLayer__ColorMapEditorType colorMapType);
 
   /// @brief Method SetColorMapMonochromatic, addr 0x274f7c0, size 0xa4, virtual false, abstract: false, final false
   inline void SetColorMapMonochromatic(::ArrayW<uint8_t, ::Array<uint8_t>*> values);
 
   /// @brief Method SetBrightnessContrastSaturation, addr 0x274f8c0, size 0x4c, virtual false, abstract: false, final false
-  /// @param brightness: float_t (default: 0.0)
-  /// @param contrast: float_t (default: 0.0)
-  /// @param saturation: float_t (default: 0.0)
-  inline void SetBrightnessContrastSaturation(float_t brightness = 0.0, float_t contrast = 0.0, float_t saturation = 0.0);
+  inline void SetBrightnessContrastSaturation(float_t brightness, float_t contrast, float_t saturation);
 
   /// @brief Method DisableColorMap, addr 0x274fb9c, size 0x8, virtual false, abstract: false, final false
   inline void DisableColorMap();
@@ -1810,8 +1808,7 @@ public:
   inline bool CreateAndAddMesh(::UnityEngine::GameObject* obj, ByRef<uint64_t> meshHandle, ByRef<uint64_t> instanceHandle, ByRef<::UnityEngine::Matrix4x4> localToWorld);
 
   /// @brief Method DestroySurfaceGeometries, addr 0x27507a4, size 0x280, virtual false, abstract: false, final false
-  /// @param addBackToDeferredQueue: bool (default: false)
-  inline void DestroySurfaceGeometries(bool addBackToDeferredQueue = false);
+  inline void DestroySurfaceGeometries(bool addBackToDeferredQueue);
 
   /// @brief Method UpdateSurfaceGeometryTransforms, addr 0x2750a24, size 0x31c, virtual false, abstract: false, final false
   inline void UpdateSurfaceGeometryTransforms();
@@ -1826,8 +1823,7 @@ public:
   inline bool HasControlsBasedColorMap();
 
   /// @brief Method UpdateColorMapFromControls, addr 0x274f90c, size 0x290, virtual false, abstract: false, final false
-  /// @param forceUpdate: bool (default: false)
-  inline void UpdateColorMapFromControls(bool forceUpdate = false);
+  inline void UpdateColorMapFromControls(bool forceUpdate);
 
   /// @brief Method SyncToOverlay, addr 0x2751030, size 0x274, virtual false, abstract: false, final false
   inline void SyncToOverlay();

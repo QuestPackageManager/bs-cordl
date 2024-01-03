@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlSyntaxException)
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Security {

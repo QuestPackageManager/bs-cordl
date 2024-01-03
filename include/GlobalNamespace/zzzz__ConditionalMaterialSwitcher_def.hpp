@@ -8,10 +8,10 @@ namespace GlobalNamespace {
 class BoolSO;
 }
 namespace UnityEngine {
-class Renderer;
+class Material;
 }
 namespace UnityEngine {
-class Material;
+class Renderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {

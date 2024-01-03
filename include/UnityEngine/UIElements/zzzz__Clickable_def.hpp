@@ -6,9 +6,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Clickable)
-namespace UnityEngine::UIElements {
-class IVisualElementScheduledItem;
-}
 namespace System {
 template <typename T> class Action_1;
 }
@@ -16,19 +13,25 @@ namespace System {
 class Action;
 }
 namespace UnityEngine::UIElements {
+class EventBase;
+}
+namespace UnityEngine::UIElements {
+class IVisualElementScheduledItem;
+}
+namespace UnityEngine::UIElements {
 struct InvokePolicy;
 }
 namespace UnityEngine::UIElements {
-struct TimerState;
+class MouseCaptureOutEvent;
 }
 namespace UnityEngine::UIElements {
 class MouseDownEvent;
 }
 namespace UnityEngine::UIElements {
-class PointerDownEvent;
+class MouseMoveEvent;
 }
 namespace UnityEngine::UIElements {
-class PointerMoveEvent;
+class MouseUpEvent;
 }
 namespace UnityEngine::UIElements {
 class PointerCancelEvent;
@@ -37,22 +40,19 @@ namespace UnityEngine::UIElements {
 class PointerCaptureOutEvent;
 }
 namespace UnityEngine::UIElements {
-class MouseUpEvent;
+class PointerDownEvent;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::UIElements {
+class PointerMoveEvent;
 }
 namespace UnityEngine::UIElements {
 class PointerUpEvent;
 }
 namespace UnityEngine::UIElements {
-class MouseMoveEvent;
+struct TimerState;
 }
-namespace UnityEngine::UIElements {
-class MouseCaptureOutEvent;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -241,8 +241,7 @@ public:
   inline void Invoke(::UnityEngine::UIElements::EventBase* evt);
 
   /// @brief Method SimulateSingleClick, addr 0x2dbe774, size 0x1d4, virtual false, abstract: false, final false
-  /// @param delayMs: int32_t (default: static_cast<int32_t>(0x64))
-  inline void SimulateSingleClick(::UnityEngine::UIElements::EventBase* evt, int32_t delayMs = static_cast<int32_t>(0x64));
+  inline void SimulateSingleClick(::UnityEngine::UIElements::EventBase* evt, int32_t delayMs);
 
   /// @brief Method ProcessDownEvent, addr 0x2dbe948, size 0x360, virtual true, abstract: false, final false
   inline void ProcessDownEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::Vector2 localPosition, int32_t pointerId);

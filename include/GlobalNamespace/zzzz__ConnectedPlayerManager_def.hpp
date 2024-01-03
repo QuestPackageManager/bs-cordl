@@ -14,104 +14,68 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConnectedPlayerManager)
-namespace GlobalNamespace {
-class __ConnectedPlayerManager__PlayerIdentityPacket;
-}
-namespace GlobalNamespace {
-class IConnection;
-}
-namespace LiteNetLib::Utils {
-class INetSerializable;
-}
-namespace GlobalNamespace {
-class __ConnectedPlayerManager__PlayerDisconnectedPacket;
-}
-namespace GlobalNamespace {
-class IDiffieHellmanKeyPair;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace GlobalNamespace {
-struct DisconnectedReason;
-}
-namespace GlobalNamespace {
-class __ConnectedPlayerManager__PlayerStatePacket;
-}
-namespace GlobalNamespace {
-struct __ConnectedPlayerManager__InternalMessageType;
-}
-namespace BGNet::Core {
-class ITaskUtility;
-}
-namespace GlobalNamespace {
-struct ConnectionFailedReason;
-}
-namespace GlobalNamespace {
-class __ConnectedPlayerManager__SyncTimePacket;
-}
-namespace GlobalNamespace {
-class __ConnectedPlayerManager__PongPacket;
-}
-namespace GlobalNamespace {
-class __ConnectedPlayerManager__ConnectedPlayer;
-}
-namespace GlobalNamespace {
-class IConnectionManager;
-}
-namespace GlobalNamespace {
-class __ConnectedPlayerManager__KickPlayerPacket;
-}
-namespace GlobalNamespace {
-struct MultiplayerAvatarsData;
-}
 namespace BGNet::Core {
 struct DeliveryMethod;
 }
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-template <typename TType, typename TData> class NetworkPacketSerializer_2;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace GlobalNamespace {
-class __EncryptionUtility__IEncryptionState;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-class IDisposable;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace GlobalNamespace {
-class LongRollingAverage;
-}
-namespace GlobalNamespace {
-struct __ConnectedPlayerManager___InitializePlayerEncryption_d__132;
-}
-namespace GlobalNamespace {
-struct __ConnectedPlayerManager__MessageType;
+namespace BGNet::Core {
+class ITaskUtility;
 }
 namespace BGNet::Core {
 class ITimeProvider;
 }
 namespace GlobalNamespace {
-class __ConnectedPlayerManager__PlayerConnectedPacket;
+class ByteArrayNetSerializable;
+}
+namespace GlobalNamespace {
+struct ConnectionFailedReason;
+}
+namespace GlobalNamespace {
+struct DisconnectedReason;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
+}
+namespace GlobalNamespace {
+class IConnectionManager;
+}
+namespace GlobalNamespace {
+class IConnection;
+}
+namespace GlobalNamespace {
+class IDiffieHellmanKeyPair;
 }
 namespace GlobalNamespace {
 template <typename TData> class INetworkPacketSubSerializer_1;
+}
+namespace GlobalNamespace {
+class IPoolablePacket;
+}
+namespace GlobalNamespace {
+class LongRollingAverage;
+}
+namespace GlobalNamespace {
+struct MultiplayerAvatarsData;
+}
+namespace GlobalNamespace {
+template <typename TType, typename TData> class NetworkPacketSerializer_2;
+}
+namespace GlobalNamespace {
+template <typename T> class PacketPool_1;
+}
+namespace GlobalNamespace {
+struct PlayerStateHash;
+}
+namespace GlobalNamespace {
+class __ConnectedPlayerManager__ConnectedPlayer;
+}
+namespace GlobalNamespace {
+struct __ConnectedPlayerManager__InternalMessageType;
+}
+namespace GlobalNamespace {
+class __ConnectedPlayerManager__KickPlayerPacket;
+}
+namespace GlobalNamespace {
+struct __ConnectedPlayerManager__MessageType;
 }
 namespace GlobalNamespace {
 class __ConnectedPlayerManager__PingPacket;
@@ -120,28 +84,64 @@ namespace GlobalNamespace {
 class __ConnectedPlayerManager__PlayerAvatarPacket;
 }
 namespace GlobalNamespace {
+class __ConnectedPlayerManager__PlayerConnectedPacket;
+}
+namespace GlobalNamespace {
+class __ConnectedPlayerManager__PlayerDisconnectedPacket;
+}
+namespace GlobalNamespace {
+class __ConnectedPlayerManager__PlayerIdentityPacket;
+}
+namespace GlobalNamespace {
 class __ConnectedPlayerManager__PlayerSortOrderPacket;
 }
 namespace GlobalNamespace {
-struct PlayerStateHash;
+class __ConnectedPlayerManager__PlayerStatePacket;
 }
 namespace GlobalNamespace {
-template <typename T> class PacketPool_1;
+class __ConnectedPlayerManager__PongPacket;
 }
 namespace GlobalNamespace {
-class IPoolablePacket;
+class __ConnectedPlayerManager__SyncTimePacket;
 }
 namespace GlobalNamespace {
-class ByteArrayNetSerializable;
+struct __ConnectedPlayerManager___InitializePlayerEncryption_d__132;
 }
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+namespace GlobalNamespace {
+class __EncryptionUtility__IEncryptionState;
+}
+namespace LiteNetLib::Utils {
+class INetSerializable;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+class Action;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -209,8 +209,8 @@ MARK_VAL_T(::GlobalNamespace::__ConnectedPlayerManager___InitializePlayerEncrypt
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15021)), TypeDefinitionIndex(TypeDefinitionIndex(12930)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12720))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12691)) CS Name: ::ConnectedPlayerManager::ConnectedPlayer*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12930)), TypeDefinitionIndex(TypeDefinitionIndex(12720)), TypeDefinitionIndex(TypeDefinitionIndex(15021)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12691)) CS Name: ::ConnectedPlayerManager::ConnectedPlayer*
 class CORDL_TYPE __ConnectedPlayerManager__ConnectedPlayer : public ::System::Object {
 public:
   // Declarations
@@ -311,6 +311,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IConnectedPlayer"
   constexpr operator ::GlobalNamespace::IConnectedPlayer*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IConnectedPlayer"
+  constexpr ::GlobalNamespace::IConnectedPlayer* i___GlobalNamespace__IConnectedPlayer() noexcept;
 
   constexpr ::StringW& __get__userId();
 
@@ -845,8 +848,14 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IPoolablePacket"
   constexpr operator ::GlobalNamespace::IPoolablePacket*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
+  constexpr ::GlobalNamespace::IPoolablePacket* i___GlobalNamespace__IPoolablePacket() noexcept;
 
   constexpr uint8_t& __get_remoteConnectionId();
 
@@ -936,7 +945,7 @@ static_assert(offsetof(::GlobalNamespace::__ConnectedPlayerManager__PlayerConnec
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12930)), TypeDefinitionIndex(TypeDefinitionIndex(15021))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15021)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12930))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12695))
 // CS Name: ::ConnectedPlayerManager::PlayerIdentityPacket*
 class CORDL_TYPE __ConnectedPlayerManager__PlayerIdentityPacket : public ::System::Object {
@@ -957,8 +966,14 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IPoolablePacket"
   constexpr operator ::GlobalNamespace::IPoolablePacket*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
+  constexpr ::GlobalNamespace::IPoolablePacket* i___GlobalNamespace__IPoolablePacket() noexcept;
 
   constexpr ::GlobalNamespace::PlayerStateHash& __get_playerState();
 
@@ -1049,7 +1064,7 @@ static_assert(offsetof(::GlobalNamespace::__ConnectedPlayerManager__PlayerIdenti
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15021)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15021))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12696))
 // CS Name: ::ConnectedPlayerManager::PlayerAvatarPacket*
 class CORDL_TYPE __ConnectedPlayerManager__PlayerAvatarPacket : public ::System::Object {
@@ -1061,8 +1076,14 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IPoolablePacket"
   constexpr operator ::GlobalNamespace::IPoolablePacket*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
+  constexpr ::GlobalNamespace::IPoolablePacket* i___GlobalNamespace__IPoolablePacket() noexcept;
 
   constexpr ::GlobalNamespace::MultiplayerAvatarsData& __get_playerAvatar();
 
@@ -1119,7 +1140,7 @@ static_assert(offsetof(::GlobalNamespace::__ConnectedPlayerManager__PlayerAvatar
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12930))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12930)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12697))
 // CS Name: ::ConnectedPlayerManager::PlayerStatePacket*
 class CORDL_TYPE __ConnectedPlayerManager__PlayerStatePacket : public ::System::Object {
@@ -1131,8 +1152,14 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IPoolablePacket"
   constexpr operator ::GlobalNamespace::IPoolablePacket*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
+  constexpr ::GlobalNamespace::IPoolablePacket* i___GlobalNamespace__IPoolablePacket() noexcept;
 
   constexpr ::GlobalNamespace::PlayerStateHash& __get_playerState();
 
@@ -1204,8 +1231,14 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IPoolablePacket"
   constexpr operator ::GlobalNamespace::IPoolablePacket*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
+  constexpr ::GlobalNamespace::IPoolablePacket* i___GlobalNamespace__IPoolablePacket() noexcept;
 
   constexpr ::StringW& __get_userId();
 
@@ -1285,8 +1318,14 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IPoolablePacket"
   constexpr operator ::GlobalNamespace::IPoolablePacket*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
+  constexpr ::GlobalNamespace::IPoolablePacket* i___GlobalNamespace__IPoolablePacket() noexcept;
 
   constexpr ::GlobalNamespace::DisconnectedReason& __get_disconnectedReason();
 
@@ -1343,7 +1382,7 @@ static_assert(offsetof(::GlobalNamespace::__ConnectedPlayerManager__PlayerDiscon
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12720)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12720))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12700))
 // CS Name: ::ConnectedPlayerManager::KickPlayerPacket*
 class CORDL_TYPE __ConnectedPlayerManager__KickPlayerPacket : public ::System::Object {
@@ -1355,8 +1394,14 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IPoolablePacket"
   constexpr operator ::GlobalNamespace::IPoolablePacket*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
+  constexpr ::GlobalNamespace::IPoolablePacket* i___GlobalNamespace__IPoolablePacket() noexcept;
 
   constexpr ::GlobalNamespace::DisconnectedReason& __get_disconnectedReason();
 
@@ -1425,8 +1470,14 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IPoolablePacket"
   constexpr operator ::GlobalNamespace::IPoolablePacket*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
+  constexpr ::GlobalNamespace::IPoolablePacket* i___GlobalNamespace__IPoolablePacket() noexcept;
 
   constexpr int64_t& __get_syncTime();
 
@@ -1495,8 +1546,14 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IPoolablePacket"
   constexpr operator ::GlobalNamespace::IPoolablePacket*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
+  constexpr ::GlobalNamespace::IPoolablePacket* i___GlobalNamespace__IPoolablePacket() noexcept;
 
   constexpr int64_t& __get_pingTime();
 
@@ -1565,8 +1622,14 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IPoolablePacket"
   constexpr operator ::GlobalNamespace::IPoolablePacket*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
+  constexpr ::GlobalNamespace::IPoolablePacket* i___GlobalNamespace__IPoolablePacket() noexcept;
 
   constexpr int64_t& __get_pingTime();
 
@@ -1623,14 +1686,17 @@ static_assert(offsetof(::GlobalNamespace::__ConnectedPlayerManager__PongPacket, 
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12723)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 907 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3394), inst: 873 }), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12704))
-// CS Name: ::ConnectedPlayerManager::<InitializePlayerEncryption>d__132
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 907 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 873 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(12723)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(12704)) CS Name: ::ConnectedPlayerManager::<InitializePlayerEncryption>d__132
 struct CORDL_TYPE __ConnectedPlayerManager___InitializePlayerEncryption_d__132 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0xe31810, size 0x4e8, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -1700,7 +1766,7 @@ static_assert(offsetof(::GlobalNamespace::__ConnectedPlayerManager___InitializeP
 // SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15021)), TypeDefinitionIndex(TypeDefinitionIndex(12720))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15021))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12705))
 // CS Name: ::ConnectedPlayerManager*
 class CORDL_TYPE ConnectedPlayerManager : public ::System::Object {
@@ -1850,6 +1916,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::System::Action*& __get_connectedEvent();
 
@@ -2191,12 +2260,10 @@ public:
   inline void Dispose();
 
   /// @brief Method Disconnect, addr 0xe2ae78, size 0xac, virtual false, abstract: false, final false
-  /// @param disconnectedReason: ::GlobalNamespace::DisconnectedReason (default: static_cast<int32_t>(0x2))
-  inline void Disconnect(::GlobalNamespace::DisconnectedReason disconnectedReason = static_cast<int32_t>(0x2));
+  inline void Disconnect(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
   /// @brief Method KickPlayer, addr 0xe2eb7c, size 0xcc, virtual false, abstract: false, final false
-  /// @param disconnectedReason: ::GlobalNamespace::DisconnectedReason (default: static_cast<int32_t>(0x4))
-  inline void KickPlayer(::StringW userId, ::GlobalNamespace::DisconnectedReason disconnectedReason = static_cast<int32_t>(0x4));
+  inline void KickPlayer(::StringW userId, ::GlobalNamespace::DisconnectedReason disconnectedReason);
 
   /// @brief Method SetLocalPlayerState, addr 0xe2ec5c, size 0xe0, virtual false, abstract: false, final false
   inline void SetLocalPlayerState(::StringW state, bool setState);
@@ -2253,20 +2320,16 @@ public:
   template <typename T> inline void SendUnreliableFromPlayerToPlayer(T message, ::GlobalNamespace::IConnectedPlayer* fromPlayer, ::GlobalNamespace::IConnectedPlayer* toPlayer);
 
   /// @brief Method SendImmediately, addr 0xe2b2d4, size 0xe4, virtual false, abstract: false, final false
-  /// @param onlyFirstDegree: bool (default: false)
-  inline void SendImmediately(::LiteNetLib::Utils::INetSerializable* message, bool onlyFirstDegree = false);
+  inline void SendImmediately(::LiteNetLib::Utils::INetSerializable* message, bool onlyFirstDegree);
 
   /// @brief Method SendImmediatelyExcludingPlayer, addr 0xe2b428, size 0xf4, virtual false, abstract: false, final false
-  /// @param onlyFirstDegree: bool (default: false)
-  inline void SendImmediatelyExcludingPlayer(::LiteNetLib::Utils::INetSerializable* message, ::GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer* excludingPlayer,
-                                             bool onlyFirstDegree = false);
+  inline void SendImmediatelyExcludingPlayer(::LiteNetLib::Utils::INetSerializable* message, ::GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer* excludingPlayer, bool onlyFirstDegree);
 
   /// @brief Method SendImmediatelyToPlayer, addr 0xe2b52c, size 0xe0, virtual false, abstract: false, final false
   inline void SendImmediatelyToPlayer(::LiteNetLib::Utils::INetSerializable* message, ::GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer* toPlayer);
 
   /// @brief Method SendImmediatelyFromPlayer, addr 0xe2f460, size 0xec, virtual false, abstract: false, final false
-  /// @param onlyFirstDegree: bool (default: false)
-  inline void SendImmediatelyFromPlayer(::LiteNetLib::Utils::INetSerializable* message, ::GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer* fromPlayer, bool onlyFirstDegree = false);
+  inline void SendImmediatelyFromPlayer(::LiteNetLib::Utils::INetSerializable* message, ::GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer* fromPlayer, bool onlyFirstDegree);
 
   /// @brief Method SendImmediatelyFromPlayerToPlayer, addr 0xe2b704, size 0xe0, virtual false, abstract: false, final false
   inline void SendImmediatelyFromPlayerToPlayer(::LiteNetLib::Utils::INetSerializable* message, ::GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer* fromPlayer,

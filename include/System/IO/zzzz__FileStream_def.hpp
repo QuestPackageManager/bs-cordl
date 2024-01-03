@@ -10,50 +10,50 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileStream)
-namespace System {
-class IAsyncResult;
-}
-namespace System::IO {
-struct SeekOrigin;
-}
-namespace System::Runtime::InteropServices {
-class SafeHandle;
-}
-namespace System::Threading::Tasks {
-class Task;
+namespace Microsoft::Win32::SafeHandles {
+class SafeFileHandle;
 }
 namespace System::IO {
 struct FileAccess;
-}
-namespace System::Threading {
-struct CancellationToken;
 }
 namespace System::IO {
 struct FileMode;
 }
 namespace System::IO {
-class __FileStream__WriteDelegate;
-}
-namespace System {
-class AsyncCallback;
-}
-namespace Microsoft::Win32::SafeHandles {
-class SafeFileHandle;
+struct FileOptions;
 }
 namespace System::IO {
-struct FileOptions;
+struct FileShare;
+}
+namespace System::IO {
+struct SeekOrigin;
 }
 namespace System::IO {
 class __FileStream__ReadDelegate;
 }
-namespace System {
-class Object;
+namespace System::IO {
+class __FileStream__WriteDelegate;
+}
+namespace System::Runtime::InteropServices {
+class SafeHandle;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
-namespace System::IO {
-struct FileShare;
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::IO {

@@ -13,13 +13,13 @@ namespace System::ComponentModel {
 class ReflectPropertyDescriptor;
 }
 namespace System {
-class Type;
-}
-namespace System {
 class Attribute;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::ComponentModel {

@@ -9,29 +9,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SonyBeatmapDataAssetFileModel)
-namespace System::Threading {
-struct CancellationToken;
-}
 namespace GlobalNamespace {
 struct GetAssetBundleFileResult;
 }
 namespace GlobalNamespace {
-struct __SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3;
-}
-namespace GlobalNamespace {
 class IBeatmapDataAssetFileModel;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 struct LevelDataAssetDownloadUpdate;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+struct __SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -39,8 +33,14 @@ class IAsyncStateMachine;
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
 }
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -56,14 +56,17 @@ MARK_VAL_T(::GlobalNamespace::__SonyBeatmapDataAssetFileModel___GetAssetBundleFi
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 882 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 882 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(4413)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4580))
-// CS Name: ::SonyBeatmapDataAssetFileModel::<GetAssetBundleFileForPreviewLevelAsync>d__3
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 882 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(3402), inst: 882 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(4413))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4580)) CS
+// Name: ::SonyBeatmapDataAssetFileModel::<GetAssetBundleFileForPreviewLevelAsync>d__3
 struct CORDL_TYPE __SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x2369358, size 0x238, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -124,6 +127,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IBeatmapDataAssetFileModel"
   constexpr operator ::GlobalNamespace::IBeatmapDataAssetFileModel*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IBeatmapDataAssetFileModel"
+  constexpr ::GlobalNamespace::IBeatmapDataAssetFileModel* i___GlobalNamespace__IBeatmapDataAssetFileModel() noexcept;
 
   constexpr ::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>*& __get_levelDataAssetDownloadUpdateEvent();
 

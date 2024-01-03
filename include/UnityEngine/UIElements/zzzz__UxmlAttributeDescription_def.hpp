@@ -10,23 +10,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UxmlAttributeDescription)
-namespace UnityEngine::UIElements {
-struct CreationContext;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System {
 template <typename T1, typename T2, typename TResult> class Func_3;
+}
+namespace UnityEngine::UIElements {
+struct CreationContext;
+}
+namespace UnityEngine::UIElements {
+class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
 class UxmlTypeRestriction;
 }
 namespace UnityEngine::UIElements {
 struct __UxmlAttributeDescription__Use;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::UIElements {
-class IUxmlAttributes;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -100,7 +100,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__UxmlAttributeDescription__Us
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6980)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6980))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6981))
 // CS Name: ::UnityEngine.UIElements::UxmlAttributeDescription*
 class CORDL_TYPE UxmlAttributeDescription : public ::System::Object {

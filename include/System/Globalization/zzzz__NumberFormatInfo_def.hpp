@@ -8,8 +8,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NumberFormatInfo)
-namespace System {
-class IFormatProvider;
+namespace System::Globalization {
+class CultureData;
+}
+namespace System::Globalization {
+struct NumberStyles;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
@@ -17,17 +20,14 @@ struct StreamingContext;
 namespace System {
 class ICloneable;
 }
-namespace System::Globalization {
-class CultureData;
-}
-namespace System::Globalization {
-struct NumberStyles;
-}
 namespace System {
-class Type;
+class IFormatProvider;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::System::Globalization::NumberFormatInfo);
 // SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 213, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3679)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3679))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3704))
 // CS Name: ::System.Globalization::NumberFormatInfo*
 class CORDL_TYPE NumberFormatInfo : public ::System::Object {
@@ -205,8 +205,14 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
+
   /// @brief Convert operator to "::System::IFormatProvider"
   constexpr operator ::System::IFormatProvider*() noexcept;
+
+  /// @brief Convert to "::System::IFormatProvider"
+  constexpr ::System::IFormatProvider* i___System__IFormatProvider() noexcept;
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_numberGroupSizes();
 

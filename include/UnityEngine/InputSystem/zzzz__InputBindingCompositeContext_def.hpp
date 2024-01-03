@@ -11,16 +11,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputBindingCompositeContext)
 namespace System::Collections::Generic {
+template <typename T> class IComparer_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System {
-class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -28,23 +28,23 @@ class IEnumerator;
 namespace System {
 class IDisposable;
 }
-namespace UnityEngine::InputSystem {
-struct __InputBindingCompositeContext__PartBinding;
+namespace System {
+class Object;
 }
 namespace UnityEngine::InputSystem {
 class InputActionState;
 }
 namespace UnityEngine::InputSystem {
+class InputControl;
+}
+namespace UnityEngine::InputSystem {
 template <typename TValue> struct __InputBindingCompositeContext__DefaultComparer_1;
 }
 namespace UnityEngine::InputSystem {
-class __InputBindingCompositeContext___get_controls_d__2;
+struct __InputBindingCompositeContext__PartBinding;
 }
 namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace System::Collections::Generic {
-template <typename T> class IComparer_1;
+class __InputBindingCompositeContext___get_controls_d__2;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -133,6 +133,9 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<TValue>"
   constexpr operator ::System::Collections::Generic::IComparer_1<TValue>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IComparer_1<TValue>"
+  constexpr ::System::Collections::Generic::IComparer_1<TValue>* i___System__Collections__Generic__IComparer_1_TValue_();
+
   /// @brief Method Compare, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t Compare(TValue x, TValue y);
 
@@ -179,12 +182,10 @@ public:
   template <typename TValue> inline TValue ReadValue(int32_t partNumber, ByRef<::UnityEngine::InputSystem::InputControl*> sourceControl);
 
   /// @brief Method ReadValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param comparer: TComparer (default: nullptr)
-  template <typename TValue, typename TComparer> inline TValue ReadValue(int32_t partNumber, TComparer comparer = nullptr);
+  template <typename TValue, typename TComparer> inline TValue ReadValue(int32_t partNumber, TComparer comparer);
 
   /// @brief Method ReadValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param comparer: TComparer (default: nullptr)
-  template <typename TValue, typename TComparer> inline TValue ReadValue(int32_t partNumber, ByRef<::UnityEngine::InputSystem::InputControl*> sourceControl, TComparer comparer = nullptr);
+  template <typename TValue, typename TComparer> inline TValue ReadValue(int32_t partNumber, ByRef<::UnityEngine::InputSystem::InputControl*> sourceControl, TComparer comparer);
 
   /// @brief Method ReadValueAsButton, addr 0x2a56610, size 0x88, virtual false, abstract: false, final false
   inline bool ReadValueAsButton(int32_t partNumber);
@@ -229,8 +230,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::InputBindingCompositeContext,
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6174)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6194)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6191))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6193)) CS Name: ::InputBindingCompositeContext::<get_controls>d__2*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6174)), TypeDefinitionIndex(TypeDefinitionIndex(6191)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6194))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6193)) CS Name: ::InputBindingCompositeContext::<get_controls>d__2*
 class CORDL_TYPE __InputBindingCompositeContext___get_controls_d__2 : public ::System::Object {
 public:
   // Declarations
@@ -274,17 +275,34 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::__InputBindingCompositeContext__PartBinding>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::__InputBindingCompositeContext__PartBinding>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::__InputBindingCompositeContext__PartBinding>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::__InputBindingCompositeContext__PartBinding>*
+  i___System__Collections__Generic__IEnumerable_1___UnityEngine__InputSystem____InputBindingCompositeContext__PartBinding_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::__InputBindingCompositeContext__PartBinding>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::__InputBindingCompositeContext__PartBinding>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::__InputBindingCompositeContext__PartBinding>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::__InputBindingCompositeContext__PartBinding>*
+  i___System__Collections__Generic__IEnumerator_1___UnityEngine__InputSystem____InputBindingCompositeContext__PartBinding_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

@@ -47,8 +47,7 @@ public:
   static inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* New_ctor(double_t x, double_t y, int32_t index);
 
   /// @brief Method .ctor, addr 0x2b2f168, size 0x3c, virtual false, abstract: false, final false
-  /// @param index: int32_t (default: static_cast<int32_t>(0xffffffff))
-  inline void _ctor(double_t x, double_t y, int32_t index = static_cast<int32_t>(0xffffffff));
+  inline void _ctor(double_t x, double_t y, int32_t index);
 
   /// @brief Method get_Next, addr 0x2b2f1e0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* get_Next();

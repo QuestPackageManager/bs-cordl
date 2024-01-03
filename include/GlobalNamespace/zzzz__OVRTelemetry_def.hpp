@@ -2,7 +2,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -13,16 +12,19 @@ namespace GlobalNamespace {
 struct OVRTelemetryMarker;
 }
 namespace GlobalNamespace {
-class __OVRTelemetry__TelemetryClient;
+struct __OVRPlugin__Qpl__ResultType;
 }
 namespace GlobalNamespace {
-class __OVRTelemetry__QPLTelemetryClient;
+struct __OVRTelemetry__MarkerPoint;
 }
 namespace GlobalNamespace {
 class __OVRTelemetry__NullTelemetryClient;
 }
 namespace GlobalNamespace {
-struct __OVRTelemetry__MarkerPoint;
+class __OVRTelemetry__QPLTelemetryClient;
+}
+namespace GlobalNamespace {
+class __OVRTelemetry__TelemetryClient;
 }
 namespace System {
 class IDisposable;
@@ -64,6 +66,9 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
+
   /// @brief Method get_NameHandle, addr 0x27933ac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_NameHandle();
 
@@ -98,32 +103,23 @@ static_assert(offsetof(::GlobalNamespace::__OVRTelemetry__MarkerPoint, _NameHand
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7863)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8008))
 // CS Name: ::OVRTelemetry::TelemetryClient*
 class CORDL_TYPE __OVRTelemetry__TelemetryClient : public ::System::Object {
 public:
   // Declarations
   /// @brief Method MarkerStart, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  /// @param instanceKey: int32_t (default: static_cast<int32_t>(0x0))
-  /// @param timestampMs: int64_t (default: static_cast<int64_t>(0xffffffffffffffff))
-  inline void MarkerStart(int32_t markerId, int32_t instanceKey = static_cast<int32_t>(0x0), int64_t timestampMs = static_cast<int64_t>(0xffffffffffffffff));
+  inline void MarkerStart(int32_t markerId, int32_t instanceKey, int64_t timestampMs);
 
   /// @brief Method MarkerPointCached, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  /// @param instanceKey: int32_t (default: static_cast<int32_t>(0x0))
-  /// @param timestampMs: int64_t (default: static_cast<int64_t>(0xffffffffffffffff))
-  inline void MarkerPointCached(int32_t markerId, int32_t nameHandle, int32_t instanceKey = static_cast<int32_t>(0x0), int64_t timestampMs = static_cast<int64_t>(0xffffffffffffffff));
+  inline void MarkerPointCached(int32_t markerId, int32_t nameHandle, int32_t instanceKey, int64_t timestampMs);
 
   /// @brief Method MarkerAnnotation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  /// @param instanceKey: int32_t (default: static_cast<int32_t>(0x0))
-  inline void MarkerAnnotation(int32_t markerId, ::StringW annotationKey, ::StringW annotationValue, int32_t instanceKey = static_cast<int32_t>(0x0));
+  inline void MarkerAnnotation(int32_t markerId, ::StringW annotationKey, ::StringW annotationValue, int32_t instanceKey);
 
   /// @brief Method MarkerEnd, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  /// @param resultTypeId: ::GlobalNamespace::__OVRPlugin__Qpl__ResultType (default: static_cast<int16_t>(0x2))
-  /// @param instanceKey: int32_t (default: static_cast<int32_t>(0x0))
-  /// @param timestampMs: int64_t (default: static_cast<int64_t>(0xffffffffffffffff))
-  inline void MarkerEnd(int32_t markerId, ::GlobalNamespace::__OVRPlugin__Qpl__ResultType resultTypeId = static_cast<int16_t>(0x2), int32_t instanceKey = static_cast<int32_t>(0x0),
-                        int64_t timestampMs = static_cast<int64_t>(0xffffffffffffffff));
+  inline void MarkerEnd(int32_t markerId, ::GlobalNamespace::__OVRPlugin__Qpl__ResultType resultTypeId, int32_t instanceKey, int64_t timestampMs);
 
   /// @brief Method CreateMarkerHandle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool CreateMarkerHandle(::StringW name, ByRef<int32_t> nameHandle);
@@ -160,32 +156,23 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTelemetry_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7863)), TypeDefinitionIndex(TypeDefinitionIndex(8008))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8008))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8009))
 // CS Name: ::OVRTelemetry::NullTelemetryClient*
 class CORDL_TYPE __OVRTelemetry__NullTelemetryClient : public ::GlobalNamespace::__OVRTelemetry__TelemetryClient {
 public:
   // Declarations
   /// @brief Method MarkerStart, addr 0x27934ac, size 0x4, virtual true, abstract: false, final false
-  /// @param instanceKey: int32_t (default: static_cast<int32_t>(0x0))
-  /// @param timestampMs: int64_t (default: static_cast<int64_t>(0xffffffffffffffff))
-  inline void MarkerStart(int32_t markerId, int32_t instanceKey = static_cast<int32_t>(0x0), int64_t timestampMs = static_cast<int64_t>(0xffffffffffffffff));
+  inline void MarkerStart(int32_t markerId, int32_t instanceKey, int64_t timestampMs);
 
   /// @brief Method MarkerPointCached, addr 0x27934b0, size 0x4, virtual true, abstract: false, final false
-  /// @param instanceKey: int32_t (default: static_cast<int32_t>(0x0))
-  /// @param timestampMs: int64_t (default: static_cast<int64_t>(0xffffffffffffffff))
-  inline void MarkerPointCached(int32_t markerId, int32_t nameHandle, int32_t instanceKey = static_cast<int32_t>(0x0), int64_t timestampMs = static_cast<int64_t>(0xffffffffffffffff));
+  inline void MarkerPointCached(int32_t markerId, int32_t nameHandle, int32_t instanceKey, int64_t timestampMs);
 
   /// @brief Method MarkerAnnotation, addr 0x27934b4, size 0x4, virtual true, abstract: false, final false
-  /// @param instanceKey: int32_t (default: static_cast<int32_t>(0x0))
-  inline void MarkerAnnotation(int32_t markerId, ::StringW annotationKey, ::StringW annotationValue, int32_t instanceKey = static_cast<int32_t>(0x0));
+  inline void MarkerAnnotation(int32_t markerId, ::StringW annotationKey, ::StringW annotationValue, int32_t instanceKey);
 
   /// @brief Method MarkerEnd, addr 0x27934b8, size 0x4, virtual true, abstract: false, final false
-  /// @param resultTypeId: ::GlobalNamespace::__OVRPlugin__Qpl__ResultType (default: static_cast<int16_t>(0x2))
-  /// @param instanceKey: int32_t (default: static_cast<int32_t>(0x0))
-  /// @param timestampMs: int64_t (default: static_cast<int64_t>(0xffffffffffffffff))
-  inline void MarkerEnd(int32_t markerId, ::GlobalNamespace::__OVRPlugin__Qpl__ResultType resultTypeId = static_cast<int16_t>(0x2), int32_t instanceKey = static_cast<int32_t>(0x0),
-                        int64_t timestampMs = static_cast<int64_t>(0xffffffffffffffff));
+  inline void MarkerEnd(int32_t markerId, ::GlobalNamespace::__OVRPlugin__Qpl__ResultType resultTypeId, int32_t instanceKey, int64_t timestampMs);
 
   /// @brief Method CreateMarkerHandle, addr 0x27934bc, size 0xc, virtual true, abstract: false, final false
   inline bool CreateMarkerHandle(::StringW name, ByRef<int32_t> nameHandle);
@@ -222,32 +209,23 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTelemetry_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7863)), TypeDefinitionIndex(TypeDefinitionIndex(8008))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8008))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8010))
 // CS Name: ::OVRTelemetry::QPLTelemetryClient*
 class CORDL_TYPE __OVRTelemetry__QPLTelemetryClient : public ::GlobalNamespace::__OVRTelemetry__TelemetryClient {
 public:
   // Declarations
   /// @brief Method MarkerStart, addr 0x27934d0, size 0x14, virtual true, abstract: false, final false
-  /// @param instanceKey: int32_t (default: static_cast<int32_t>(0x0))
-  /// @param timestampMs: int64_t (default: static_cast<int64_t>(0xffffffffffffffff))
-  inline void MarkerStart(int32_t markerId, int32_t instanceKey = static_cast<int32_t>(0x0), int64_t timestampMs = static_cast<int64_t>(0xffffffffffffffff));
+  inline void MarkerStart(int32_t markerId, int32_t instanceKey, int64_t timestampMs);
 
   /// @brief Method MarkerPointCached, addr 0x27934e4, size 0x18, virtual true, abstract: false, final false
-  /// @param instanceKey: int32_t (default: static_cast<int32_t>(0x0))
-  /// @param timestampMs: int64_t (default: static_cast<int64_t>(0xffffffffffffffff))
-  inline void MarkerPointCached(int32_t markerId, int32_t nameHandle, int32_t instanceKey = static_cast<int32_t>(0x0), int64_t timestampMs = static_cast<int64_t>(0xffffffffffffffff));
+  inline void MarkerPointCached(int32_t markerId, int32_t nameHandle, int32_t instanceKey, int64_t timestampMs);
 
   /// @brief Method MarkerAnnotation, addr 0x27934fc, size 0x18, virtual true, abstract: false, final false
-  /// @param instanceKey: int32_t (default: static_cast<int32_t>(0x0))
-  inline void MarkerAnnotation(int32_t markerId, ::StringW annotationKey, ::StringW annotationValue, int32_t instanceKey = static_cast<int32_t>(0x0));
+  inline void MarkerAnnotation(int32_t markerId, ::StringW annotationKey, ::StringW annotationValue, int32_t instanceKey);
 
   /// @brief Method MarkerEnd, addr 0x2793514, size 0x18, virtual true, abstract: false, final false
-  /// @param resultTypeId: ::GlobalNamespace::__OVRPlugin__Qpl__ResultType (default: static_cast<int16_t>(0x2))
-  /// @param instanceKey: int32_t (default: static_cast<int32_t>(0x0))
-  /// @param timestampMs: int64_t (default: static_cast<int64_t>(0xffffffffffffffff))
-  inline void MarkerEnd(int32_t markerId, ::GlobalNamespace::__OVRPlugin__Qpl__ResultType resultTypeId = static_cast<int16_t>(0x2), int32_t instanceKey = static_cast<int32_t>(0x0),
-                        int64_t timestampMs = static_cast<int64_t>(0xffffffffffffffff));
+  inline void MarkerEnd(int32_t markerId, ::GlobalNamespace::__OVRPlugin__Qpl__ResultType resultTypeId, int32_t instanceKey, int64_t timestampMs);
 
   /// @brief Method CreateMarkerHandle, addr 0x279352c, size 0x10, virtual true, abstract: false, final false
   inline bool CreateMarkerHandle(::StringW name, ByRef<int32_t> nameHandle);
@@ -284,7 +262,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTelemetry_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7863))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8011))
 // CS Name: ::OVRTelemetry*
 class CORDL_TYPE OVRTelemetry : public ::System::Object {
@@ -326,13 +304,10 @@ public:
   static inline ::GlobalNamespace::__OVRTelemetry__TelemetryClient* get_Client();
 
   /// @brief Method Start, addr 0x2792f74, size 0x1c, virtual false, abstract: false, final false
-  /// @param instanceKey: int32_t (default: static_cast<int32_t>(0x0))
-  /// @param timestampMs: int64_t (default: static_cast<int64_t>(0xffffffffffffffff))
-  static inline ::GlobalNamespace::OVRTelemetryMarker Start(int32_t markerId, int32_t instanceKey = static_cast<int32_t>(0x0), int64_t timestampMs = static_cast<int64_t>(0xffffffffffffffff));
+  static inline ::GlobalNamespace::OVRTelemetryMarker Start(int32_t markerId, int32_t instanceKey, int64_t timestampMs);
 
   /// @brief Method SendEvent, addr 0x279302c, size 0xb8, virtual false, abstract: false, final false
-  /// @param result: ::GlobalNamespace::__OVRPlugin__Qpl__ResultType (default: static_cast<int16_t>(0x2))
-  static inline void SendEvent(int32_t markerId, ::GlobalNamespace::__OVRPlugin__Qpl__ResultType result = static_cast<int16_t>(0x2));
+  static inline void SendEvent(int32_t markerId, ::GlobalNamespace::__OVRPlugin__Qpl__ResultType result);
 
   /// @brief Method AddSDKVersionAnnotation, addr 0x2793168, size 0x134, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTelemetryMarker AddSDKVersionAnnotation(::GlobalNamespace::OVRTelemetryMarker marker);

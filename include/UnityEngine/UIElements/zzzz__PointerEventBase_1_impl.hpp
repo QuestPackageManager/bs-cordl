@@ -4,21 +4,29 @@
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerEventBase_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IPointerEvent_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__Event_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IPointerEventInternal_def.hpp"
-#include "UnityEngine/zzzz__EventModifiers_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IEventHandler_def.hpp"
-#include "UnityEngine/zzzz__Touch_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IPointerEventInternal_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IPointerEvent_def.hpp"
+#include "UnityEngine/zzzz__EventModifiers_def.hpp"
+#include "UnityEngine/zzzz__Event_def.hpp"
+#include "UnityEngine/zzzz__Touch_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 /// @brief Convert operator to "::UnityEngine::UIElements::IPointerEvent"
 template <typename T> constexpr UnityEngine::UIElements::PointerEventBase_1<T>::operator ::UnityEngine::UIElements::IPointerEvent*() noexcept {
   return static_cast<::UnityEngine::UIElements::IPointerEvent*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::UnityEngine::UIElements::IPointerEvent"
+template <typename T> constexpr ::UnityEngine::UIElements::IPointerEvent* UnityEngine::UIElements::PointerEventBase_1<T>::i___UnityEngine__UIElements__IPointerEvent() noexcept {
+  return static_cast<::UnityEngine::UIElements::IPointerEvent*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::UnityEngine::UIElements::IPointerEventInternal"
 template <typename T> constexpr UnityEngine::UIElements::PointerEventBase_1<T>::operator ::UnityEngine::UIElements::IPointerEventInternal*() noexcept {
+  return static_cast<::UnityEngine::UIElements::IPointerEventInternal*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::UIElements::IPointerEventInternal"
+template <typename T> constexpr ::UnityEngine::UIElements::IPointerEventInternal* UnityEngine::UIElements::PointerEventBase_1<T>::i___UnityEngine__UIElements__IPointerEventInternal() noexcept {
   return static_cast<::UnityEngine::UIElements::IPointerEventInternal*>(static_cast<void*>(this));
 }
 template <typename T> constexpr int32_t& UnityEngine::UIElements::PointerEventBase_1<T>::__get__pointerId_k__BackingField() {

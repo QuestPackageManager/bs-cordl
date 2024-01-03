@@ -6,28 +6,28 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(OVRComposition)
 namespace GlobalNamespace {
+class OVRCameraRig;
+}
+namespace GlobalNamespace {
+class OVRMixedRealityCaptureConfiguration;
+}
+namespace GlobalNamespace {
+struct OVRPose;
+}
+namespace GlobalNamespace {
 struct __OVRManager__CompositionMethod;
 }
 namespace GlobalNamespace {
 struct __OVRManager__TrackingOrigin;
 }
 namespace GlobalNamespace {
-struct OVRPose;
+struct __OVRPlugin__CameraExtrinsics;
 }
 namespace UnityEngine {
 class Camera;
 }
-namespace GlobalNamespace {
-class OVRCameraRig;
-}
-namespace GlobalNamespace {
-class OVRMixedRealityCaptureConfiguration;
-}
 namespace UnityEngine {
 class GameObject;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__CameraExtrinsics;
 }
 // Forward declare root types
 namespace GlobalNamespace {

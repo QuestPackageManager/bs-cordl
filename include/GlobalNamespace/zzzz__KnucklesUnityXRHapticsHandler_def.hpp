@@ -8,8 +8,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(KnucklesUnityXRHapticsHandler)
-namespace UnityEngine {
-class Coroutine;
+namespace GlobalNamespace {
+class IUnityXRHapticsHandler;
+}
+namespace GlobalNamespace {
+class __KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -17,26 +23,20 @@ class IEnumerator;
 namespace System {
 class IDisposable;
 }
-namespace GlobalNamespace {
-class __KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9;
-}
-namespace GlobalNamespace {
-class IUnityXRHapticsHandler;
-}
-namespace UnityEngine {
-class MonoBehaviour;
+namespace System {
+class Object;
 }
 namespace UnityEngine::XR {
 struct XRNode;
 }
 namespace UnityEngine {
+class Coroutine;
+}
+namespace UnityEngine {
+class MonoBehaviour;
+}
+namespace UnityEngine {
 class WaitForSecondsRealtime;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -52,7 +52,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCorou
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15621)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15621))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14413))
 // CS Name: ::KnucklesUnityXRHapticsHandler::<HapticsCoroutine>d__9*
 class CORDL_TYPE __KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9 : public ::System::Object {
@@ -80,11 +80,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -185,7 +194,7 @@ static_assert(offsetof(::GlobalNamespace::__KnucklesUnityXRHapticsHandler___Hapt
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15614)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15614))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14414))
 // CS Name: ::KnucklesUnityXRHapticsHandler*
 class CORDL_TYPE KnucklesUnityXRHapticsHandler : public ::System::Object {
@@ -211,8 +220,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IUnityXRHapticsHandler"
   constexpr operator ::GlobalNamespace::IUnityXRHapticsHandler*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IUnityXRHapticsHandler"
+  constexpr ::GlobalNamespace::IUnityXRHapticsHandler* i___GlobalNamespace__IUnityXRHapticsHandler() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::UnityEngine::MonoBehaviour*& __get__coroutineRunner();
 

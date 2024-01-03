@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HeaderInfo_HeaderTypeInfo_2)
-namespace System::Net::Http::Headers {
-template <typename T> class TryParseDelegate_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace System::Net::Http::Headers {
-class HttpHeaders;
-}
-namespace System {
-class Object;
 }
 namespace System::Net::Http::Headers {
 class HeaderInfo;
 }
 namespace System::Net::Http::Headers {
 struct HttpHeaderKind;
+}
+namespace System::Net::Http::Headers {
+class HttpHeaders;
+}
+namespace System::Net::Http::Headers {
+template <typename T> class TryParseDelegate_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {

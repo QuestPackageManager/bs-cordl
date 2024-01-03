@@ -10,32 +10,35 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectsMovementRecorder)
-namespace UnityEngine {
-class Camera;
-}
-namespace GlobalNamespace {
-class PlaybackScreenshotRecorder;
-}
 namespace GlobalNamespace {
 class AudioTimeSyncController;
-}
-namespace GlobalNamespace {
-class __PlaybackRenderer__PlaybackScreenshot;
-}
-namespace GlobalNamespace {
-class IPosesSerializer;
-}
-namespace GlobalNamespace {
-class PosesPlayback;
 }
 namespace GlobalNamespace {
 class IBeatSaberLogger;
 }
 namespace GlobalNamespace {
-struct __ObjectsMovementRecorder__CameraView;
+class IPosesSerializer;
+}
+namespace GlobalNamespace {
+class PlaybackRenderer;
+}
+namespace GlobalNamespace {
+class PlaybackScreenshotRecorder;
 }
 namespace GlobalNamespace {
 class PoseObjectIdSO;
+}
+namespace GlobalNamespace {
+class PoseObject;
+}
+namespace GlobalNamespace {
+class PosesPlayback;
+}
+namespace GlobalNamespace {
+class PosesRecorder;
+}
+namespace GlobalNamespace {
+struct __ObjectsMovementRecorder__CameraView;
 }
 namespace GlobalNamespace {
 class __ObjectsMovementRecorder__InitData;
@@ -44,13 +47,10 @@ namespace GlobalNamespace {
 struct __ObjectsMovementRecorder__Mode;
 }
 namespace GlobalNamespace {
-class PoseObject;
+class __PlaybackRenderer__PlaybackScreenshot;
 }
-namespace GlobalNamespace {
-class PosesRecorder;
-}
-namespace GlobalNamespace {
-class PlaybackRenderer;
+namespace UnityEngine {
+class Camera;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -178,7 +178,7 @@ static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__CameraView,
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5918)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5917))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5917)), TypeDefinitionIndex(TypeDefinitionIndex(5918))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5919))
 // CS Name: ::ObjectsMovementRecorder::InitData*
 class CORDL_TYPE __ObjectsMovementRecorder__InitData : public ::System::Object {

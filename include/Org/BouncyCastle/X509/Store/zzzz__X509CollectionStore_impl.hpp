@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__X509CollectionStore_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__IX509Selector_def.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__IX509Store_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::X509::Store::X509CollectionStore._ctor
 template <>
 
@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x1171650;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::Store::X509CollectionStore*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::ICollection*>::get() })));
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x448;
   constexpr static std::size_t addrs = 0x11716c4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::Store::X509CollectionStore*>::get(), "GetMatches", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::X509::Store::IX509Selector*>::get() })));
@@ -36,6 +36,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::Org::BouncyCastle::X509::Store::IX509Store"
 constexpr Org::BouncyCastle::X509::Store::X509CollectionStore::operator ::Org::BouncyCastle::X509::Store::IX509Store*() noexcept {
+  return static_cast<::Org::BouncyCastle::X509::Store::IX509Store*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::X509::Store::IX509Store"
+constexpr ::Org::BouncyCastle::X509::Store::IX509Store* Org::BouncyCastle::X509::Store::X509CollectionStore::i___Org__BouncyCastle__X509__Store__IX509Store() noexcept {
   return static_cast<::Org::BouncyCastle::X509::Store::IX509Store*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::ICollection*& Org::BouncyCastle::X509::Store::X509CollectionStore::__get__local() {

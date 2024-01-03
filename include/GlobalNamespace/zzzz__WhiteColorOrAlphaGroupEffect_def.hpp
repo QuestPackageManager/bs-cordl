@@ -6,29 +6,29 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(WhiteColorOrAlphaGroupEffect)
-namespace UnityEngine {
-struct Color;
-}
 namespace GlobalNamespace {
-struct EnvironmentColorType;
-}
-namespace Tweening {
-class SongTimeTweeningManager;
-}
-namespace GlobalNamespace {
-class LightWithIdManager;
-}
-namespace GlobalNamespace {
-class IBpmController;
+class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
 class ColorManager;
 }
 namespace GlobalNamespace {
-class __LightColorGroupEffect__InitData;
+struct EnvironmentColorType;
 }
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+class IBpmController;
+}
+namespace GlobalNamespace {
+class LightWithIdManager;
+}
+namespace GlobalNamespace {
+class __LightColorGroupEffect__InitData;
+}
+namespace Tweening {
+class SongTimeTweeningManager;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::GlobalNamespace::WhiteColorOrAlphaGroupEffect);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 180, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4923)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(4923))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4926))
 // CS Name: ::WhiteColorOrAlphaGroupEffect*
 class CORDL_TYPE WhiteColorOrAlphaGroupEffect : public ::GlobalNamespace::LightColorGroupEffect {

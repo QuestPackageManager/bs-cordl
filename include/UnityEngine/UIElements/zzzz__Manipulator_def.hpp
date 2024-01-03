@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Manipulator)
 namespace UnityEngine::UIElements {
-class VisualElement;
+class IManipulator;
 }
 namespace UnityEngine::UIElements {
-class IManipulator;
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -33,6 +33,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::UIElements::IManipulator"
   constexpr operator ::UnityEngine::UIElements::IManipulator*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UIElements::IManipulator"
+  constexpr ::UnityEngine::UIElements::IManipulator* i___UnityEngine__UIElements__IManipulator() noexcept;
 
   constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_Target();
 

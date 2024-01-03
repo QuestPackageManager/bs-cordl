@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__QueueSet_1_def.hpp"
-#include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
 template <typename T> constexpr ::System::Collections::Generic::LinkedList_1<T>*& GlobalNamespace::QueueSet_1<T>::__get__linkedList() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____linkedList;

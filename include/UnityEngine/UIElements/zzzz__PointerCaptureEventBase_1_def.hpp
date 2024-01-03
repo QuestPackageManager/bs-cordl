@@ -23,7 +23,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7180)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1717 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1717 }), TypeDefinitionIndex(TypeDefinitionIndex(7180))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7150))
 // CS Name: ::UnityEngine.UIElements::PointerCaptureEventBase`1<T>*
 class CORDL_TYPE PointerCaptureEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
@@ -41,6 +41,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::UIElements::IPointerCaptureEventInternal"
   constexpr operator ::UnityEngine::UIElements::IPointerCaptureEventInternal*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UIElements::IPointerCaptureEventInternal"
+  constexpr ::UnityEngine::UIElements::IPointerCaptureEventInternal* i___UnityEngine__UIElements__IPointerCaptureEventInternal() noexcept;
 
   constexpr ::UnityEngine::UIElements::IEventHandler*& __get__relatedTarget_k__BackingField();
 

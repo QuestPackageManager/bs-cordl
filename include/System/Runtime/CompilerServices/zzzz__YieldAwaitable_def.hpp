@@ -5,25 +5,25 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(YieldAwaitable)
 namespace System::Runtime::CompilerServices {
-struct __YieldAwaitable__YieldAwaiter;
-}
-namespace System::Runtime::CompilerServices {
 class ICriticalNotifyCompletion;
 }
-namespace System::Threading {
-class WaitCallback;
+namespace System::Runtime::CompilerServices {
+class INotifyCompletion;
+}
+namespace System::Runtime::CompilerServices {
+struct __YieldAwaitable__YieldAwaiter;
 }
 namespace System::Threading {
 class SendOrPostCallback;
+}
+namespace System::Threading {
+class WaitCallback;
 }
 namespace System {
 class Action;
 }
 namespace System {
 class Object;
-}
-namespace System::Runtime::CompilerServices {
-class INotifyCompletion;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
@@ -57,8 +57,14 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*();
 
+  /// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
+  constexpr ::System::Runtime::CompilerServices::ICriticalNotifyCompletion* i___System__Runtime__CompilerServices__ICriticalNotifyCompletion();
+
   /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::INotifyCompletion"
+  constexpr ::System::Runtime::CompilerServices::INotifyCompletion* i___System__Runtime__CompilerServices__INotifyCompletion();
 
   static inline void setStaticF_s_waitCallbackRunAction(::System::Threading::WaitCallback* value);
 

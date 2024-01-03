@@ -14,41 +14,56 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StandaloneMonobehavior)
-namespace System::Collections {
-class IEnumerator;
+namespace GlobalNamespace {
+class IStandaloneMonobehavior;
+}
+namespace GlobalNamespace {
+class IStandaloneThreadRunner;
 }
 namespace GlobalNamespace {
 struct __StandaloneMonobehavior___DispatchAsync_d__21;
 }
 namespace GlobalNamespace {
-class IStandaloneMonobehavior;
+struct __StandaloneMonobehavior___Dispatch_d__20;
 }
 namespace GlobalNamespace {
 class __StandaloneMonobehavior___RunAsyncCoroutine_d__25;
 }
-namespace System::Threading::Tasks {
-class Task;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
-namespace System {
-template <typename TResult> class Func_1;
+namespace System::Collections {
+class IEnumerator;
 }
-namespace UnityEngine {
-struct FrameTiming;
+namespace System::Runtime::CompilerServices {
+struct AsyncTaskMethodBuilder;
 }
-namespace GlobalNamespace {
-struct __StandaloneMonobehavior___Dispatch_d__20;
+namespace System::Runtime::CompilerServices {
+struct AsyncVoidMethodBuilder;
 }
-namespace System {
-class Action;
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System::Runtime::CompilerServices {
+struct TaskAwaiter;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class TaskCompletionSource_1;
 }
-namespace GlobalNamespace {
-class IStandaloneThreadRunner;
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace System::Threading {
 struct CancellationToken;
+}
+namespace System {
+class Action;
+}
+namespace System {
+template <typename TResult> class Func_1;
 }
 namespace System {
 class IDisposable;
@@ -56,23 +71,8 @@ class IDisposable;
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
-}
-namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
-}
-namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+namespace UnityEngine {
+struct FrameTiming;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -96,13 +96,16 @@ MARK_VAL_T(::GlobalNamespace::__StandaloneMonobehavior___Dispatch_d__20);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3400))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12963)) CS Name: ::StandaloneMonobehavior::<Dispatch>d__20
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(12963)) CS Name: ::StandaloneMonobehavior::<Dispatch>d__20
 struct CORDL_TYPE __StandaloneMonobehavior___Dispatch_d__20 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0xe58d1c, size 0x200, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -160,14 +163,16 @@ static_assert(offsetof(::GlobalNamespace::__StandaloneMonobehavior___Dispatch_d_
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3393)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(12964)) CS Name:
-// ::StandaloneMonobehavior::<DispatchAsync>d__21
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105
+// }), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12964)) CS Name: ::StandaloneMonobehavior::<DispatchAsync>d__21
 struct CORDL_TYPE __StandaloneMonobehavior___DispatchAsync_d__21 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0xe58f28, size 0x2b0, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -231,7 +236,7 @@ static_assert(offsetof(::GlobalNamespace::__StandaloneMonobehavior___DispatchAsy
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2677))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12965))
 // CS Name: ::StandaloneMonobehavior::<RunAsyncCoroutine>d__25*
 class CORDL_TYPE __StandaloneMonobehavior___RunAsyncCoroutine_d__25 : public ::System::Object {
@@ -259,11 +264,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -403,6 +417,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IStandaloneMonobehavior"
   constexpr operator ::GlobalNamespace::IStandaloneMonobehavior*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IStandaloneMonobehavior"
+  constexpr ::GlobalNamespace::IStandaloneMonobehavior* i___GlobalNamespace__IStandaloneMonobehavior() noexcept;
 
   constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& __get__readyTcs();
 

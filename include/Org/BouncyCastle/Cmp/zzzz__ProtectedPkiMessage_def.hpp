@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(ProtectedPkiMessage)
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiBody;
 }
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
+namespace Org::BouncyCastle::Asn1::Cmp {
+class PkiHeader;
 }
-namespace Org::BouncyCastle::Crypto {
-class IVerifierFactory;
+namespace Org::BouncyCastle::Asn1::Cmp {
+class PkiMessage;
 }
 namespace Org::BouncyCastle::Cmp {
 class GeneralPkiMessage;
@@ -20,14 +20,14 @@ class GeneralPkiMessage;
 namespace Org::BouncyCastle::Crmf {
 class PKMacBuilder;
 }
-namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiHeader;
-}
 namespace Org::BouncyCastle::Crypto {
 class IStreamCalculator;
 }
-namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiMessage;
+namespace Org::BouncyCastle::Crypto {
+class IVerifierFactory;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 namespace System {
 class Object;

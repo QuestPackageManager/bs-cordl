@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AixNetworkInterfaceAPI)
 namespace System::Net::NetworkInformation::AixStructs {
+struct ifconf;
+}
+namespace System::Net::NetworkInformation::AixStructs {
 struct ifreq_flags;
 }
 namespace System::Net::NetworkInformation::AixStructs {
-struct ifconf;
+struct ifreq_mtu;
+}
+namespace System::Net::NetworkInformation {
+struct AixAddressFamily;
 }
 namespace System::Net::NetworkInformation {
 struct AixIoctlRequest;
 }
 namespace System::Net::NetworkInformation {
 class NetworkInterface;
-}
-namespace System::Net::NetworkInformation {
-struct AixAddressFamily;
-}
-namespace System::Net::NetworkInformation::AixStructs {
-struct ifreq_mtu;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {

@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MissionStagesManager)
 namespace GlobalNamespace {
+class MissionStageLockView;
+}
+namespace GlobalNamespace {
 class MissionStage;
 }
 namespace GlobalNamespace {
 class __MissionStagesManager____c;
-}
-namespace GlobalNamespace {
-class MissionStageLockView;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

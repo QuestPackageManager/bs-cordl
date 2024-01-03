@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ErrorMessage)
-namespace System::Runtime::Remoting::Messaging {
-class LogicalCallContext;
+namespace System::Collections {
+class IDictionary;
 }
-namespace System::Runtime::Remoting::Messaging {
-class IMethodCallMessage;
-}
-namespace System {
-class Object;
+namespace System::Reflection {
+class MethodBase;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
+class IMethodCallMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
 class IMethodMessage;
 }
-namespace System::Reflection {
-class MethodBase;
+namespace System::Runtime::Remoting::Messaging {
+class LogicalCallContext;
 }
-namespace System::Collections {
-class IDictionary;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -68,11 +68,20 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodCallMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMethodCallMessage*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodCallMessage"
+  constexpr ::System::Runtime::Remoting::Messaging::IMethodCallMessage* i___System__Runtime__Remoting__Messaging__IMethodCallMessage() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMethodMessage*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodMessage"
+  constexpr ::System::Runtime::Remoting::Messaging::IMethodMessage* i___System__Runtime__Remoting__Messaging__IMethodMessage() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessage*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessage"
+  constexpr ::System::Runtime::Remoting::Messaging::IMessage* i___System__Runtime__Remoting__Messaging__IMessage() noexcept;
 
   constexpr ::StringW& __get__uri();
 

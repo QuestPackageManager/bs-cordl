@@ -7,14 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReferenceConverter)
+namespace System::Collections {
+class IComparer;
+}
 namespace System::ComponentModel {
-class __TypeConverter__StandardValuesCollection;
+class ITypeDescriptorContext;
 }
 namespace System::ComponentModel {
 class __ReferenceConverter__ReferenceComparer;
 }
-namespace System {
-class Type;
+namespace System::ComponentModel {
+class __TypeConverter__StandardValuesCollection;
 }
 namespace System::Globalization {
 class CultureInfo;
@@ -22,11 +25,8 @@ class CultureInfo;
 namespace System {
 class Object;
 }
-namespace System::ComponentModel {
-class ITypeDescriptorContext;
-}
-namespace System::Collections {
-class IComparer;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -53,6 +53,9 @@ public:
 
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IComparer"
+  constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
 
   constexpr ::System::ComponentModel::ReferenceConverter*& __get__converter();
 

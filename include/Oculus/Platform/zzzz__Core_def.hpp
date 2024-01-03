@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(Core)
 namespace Oculus::Platform::Models {
 class PlatformInitialize;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace Oculus::Platform {
 struct InitConfigOptions;
 }
 namespace Oculus::Platform {
 template <typename T> class Request_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -61,21 +61,17 @@ public:
   static inline void ForceInitialized();
 
   /// @brief Method getAppID, addr 0x26f4de4, size 0x1a4, virtual false, abstract: false, final false
-  /// @param appId: ::StringW (default: nullptr)
-  static inline ::StringW getAppID(::StringW appId = nullptr);
+  static inline ::StringW getAppID(::StringW appId);
 
   /// @brief Method AsyncInitialize, addr 0x26c9d88, size 0x2c0, virtual false, abstract: false, final false
-  /// @param appId: ::StringW (default: nullptr)
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::StringW appId = nullptr);
+  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::StringW appId);
 
   /// @brief Method AsyncInitialize, addr 0x26f525c, size 0x254, virtual false, abstract: false, final false
-  /// @param appId: ::StringW (default: nullptr)
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>*
-  AsyncInitialize(::StringW accessToken, ::System::Collections::Generic::Dictionary_2<::Oculus::Platform::InitConfigOptions, bool>* initConfigOptions, ::StringW appId = nullptr);
+  AsyncInitialize(::StringW accessToken, ::System::Collections::Generic::Dictionary_2<::Oculus::Platform::InitConfigOptions, bool>* initConfigOptions, ::StringW appId);
 
   /// @brief Method Initialize, addr 0x26f55f8, size 0x320, virtual false, abstract: false, final false
-  /// @param appId: ::StringW (default: nullptr)
-  static inline void Initialize(::StringW appId = nullptr);
+  static inline void Initialize(::StringW appId);
 
   /// @brief Method GetAppIDFromConfig, addr 0x26f4f88, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW GetAppIDFromConfig();

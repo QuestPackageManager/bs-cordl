@@ -11,8 +11,8 @@ CORDL_MODULE_EXPORT(RSACryptoServiceProvider)
 namespace Mono::Security::Cryptography {
 class KeyPairPersistence;
 }
-namespace System {
-class EventArgs;
+namespace Mono::Security::Cryptography {
+class RSAManaged;
 }
 namespace System::Security::Cryptography {
 class CspParameters;
@@ -21,10 +21,10 @@ namespace System::Security::Cryptography {
 struct RSAParameters;
 }
 namespace System {
-class Object;
+class EventArgs;
 }
-namespace Mono::Security::Cryptography {
-class RSAManaged;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {

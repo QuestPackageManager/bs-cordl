@@ -11,10 +11,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SDKPose)
 namespace LIV::SDK::Unity {
-struct SDKQuaternion;
+struct SDKMatrix4x4;
 }
 namespace LIV::SDK::Unity {
-struct SDKMatrix4x4;
+struct SDKQuaternion;
 }
 namespace LIV::SDK::Unity {
 struct SDKVector3;

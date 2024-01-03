@@ -5,25 +5,13 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(AttributeCertificateInfo)
 namespace Org::BouncyCastle::Asn1::X509 {
-class AttCertValidityPeriod;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
-}
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AttCertIssuer;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AttCertValidityPeriod;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class Holder;
@@ -32,10 +20,22 @@ namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerBitString;
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerBitString;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {

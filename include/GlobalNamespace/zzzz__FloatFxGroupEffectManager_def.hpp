@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(FloatFxGroupEffectManager)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-class __FloatFxGroupEffectManager____c;
-}
 namespace GlobalNamespace {
 class FloatFxGroupEffect;
-}
-namespace Zenject {
-class DiContainer;
 }
 namespace GlobalNamespace {
 class FloatFxGroup;
 }
+namespace GlobalNamespace {
+class __FloatFxGroupEffectManager____c;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace GlobalNamespace {

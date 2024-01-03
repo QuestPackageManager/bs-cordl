@@ -8,13 +8,13 @@ namespace GlobalNamespace {
 class BombNoteController;
 }
 namespace GlobalNamespace {
-class TutorialNoteController;
+class NoteLineConnectionController;
 }
 namespace GlobalNamespace {
 class ObstacleController;
 }
 namespace GlobalNamespace {
-class NoteLineConnectionController;
+class TutorialNoteController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

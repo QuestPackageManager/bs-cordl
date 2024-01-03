@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(NetworkPlayerTableCell)
 namespace HMUI {
 struct __SelectableCell__TransitionType;
 }
-namespace UnityEngine::UI {
-class Image;
-}
 namespace TMPro {
 class TextMeshProUGUI;
+}
+namespace UnityEngine::UI {
+class Image;
 }
 namespace UnityEngine {
 struct Color;
@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::GlobalNamespace::NetworkPlayerTableCell);
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 193, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13664))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13664)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5588))
 // CS Name: ::NetworkPlayerTableCell*
 class CORDL_TYPE NetworkPlayerTableCell : public ::HMUI::TableCell {

@@ -9,38 +9,38 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OculusVRHelper)
-namespace System {
-class Action;
-}
-namespace UnityEngine {
-struct Vector2;
-}
 namespace GlobalNamespace {
-struct VRPlatformSDK;
-}
-namespace UnityEngine::XR {
-struct XRNode;
+class IVRPlatformHelper;
 }
 namespace GlobalNamespace {
 class IVerboseLogger;
 }
 namespace GlobalNamespace {
-class IVRPlatformHelper;
+struct VRPlatformSDK;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Node;
+}
+namespace System {
+class Action;
 }
 namespace UnityEngine::EventSystems {
 class EventSystem;
+}
+namespace UnityEngine::XR {
+struct XRNode;
 }
 namespace UnityEngine {
 struct Pose;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
 struct Quaternion;
 }
-namespace GlobalNamespace {
-struct __OVRPlugin__Node;
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -52,7 +52,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OculusVRHelper);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10057))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10057)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14419))
 // CS Name: ::OculusVRHelper*
 class CORDL_TYPE OculusVRHelper : public ::UnityEngine::MonoBehaviour {
@@ -112,8 +112,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IVRPlatformHelper"
   constexpr operator ::GlobalNamespace::IVRPlatformHelper*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IVRPlatformHelper"
+  constexpr ::GlobalNamespace::IVRPlatformHelper* i___GlobalNamespace__IVRPlatformHelper() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IVerboseLogger"
   constexpr operator ::GlobalNamespace::IVerboseLogger*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IVerboseLogger"
+  constexpr ::GlobalNamespace::IVerboseLogger* i___GlobalNamespace__IVerboseLogger() noexcept;
 
   constexpr ::UnityEngine::Pose& __get__oculusTouchControllerOffsetPose();
 

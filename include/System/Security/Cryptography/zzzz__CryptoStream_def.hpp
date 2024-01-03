@@ -17,83 +17,83 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CryptoStream)
-namespace System::Security::Cryptography {
-struct __CryptoStream___WriteAsyncCore_d__49;
-}
-namespace System::Security::Cryptography {
-struct CryptoStreamMode;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System {
-class AsyncCallback;
-}
-namespace System::Security::Cryptography {
-class ICryptoTransform;
-}
-namespace System::Security::Cryptography {
-struct __CryptoStream___ReadAsyncInternal_d__37;
-}
-namespace System {
-class IAsyncResult;
-}
-namespace System::Security::Cryptography {
-class __CryptoStream____c;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Security::Cryptography {
-struct __CryptoStream___WriteAsyncInternal_d__46;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::IO {
-class Stream;
-}
-namespace System::Security::Cryptography {
-struct __CryptoStream___ReadAsyncCore_d__42;
-}
 namespace System::IO {
 struct SeekOrigin;
 }
-namespace System {
-class Object;
-}
-namespace System::Threading {
-class SemaphoreSlim;
-}
-namespace System {
-template <typename TResult> class Func_1;
+namespace System::IO {
+class Stream;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct ValueTaskAwaiter_1;
+struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
-}
-namespace System::Threading::Tasks {
-struct ForceAsyncAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
+struct TaskAwaiter;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct ValueTaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 struct ValueTaskAwaiter;
 }
-namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
+namespace System::Security::Cryptography {
+struct CryptoStreamMode;
+}
+namespace System::Security::Cryptography {
+class ICryptoTransform;
+}
+namespace System::Security::Cryptography {
+struct __CryptoStream___ReadAsyncCore_d__42;
+}
+namespace System::Security::Cryptography {
+struct __CryptoStream___ReadAsyncInternal_d__37;
+}
+namespace System::Security::Cryptography {
+struct __CryptoStream___WriteAsyncCore_d__49;
+}
+namespace System::Security::Cryptography {
+struct __CryptoStream___WriteAsyncInternal_d__46;
+}
+namespace System::Security::Cryptography {
+class __CryptoStream____c;
+}
+namespace System::Threading::Tasks {
+struct ForceAsyncAwaiter;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Threading {
+class SemaphoreSlim;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System {
+template <typename TResult> class Func_1;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {
@@ -125,14 +125,17 @@ MARK_VAL_T(::System::Security::Cryptography::__CryptoStream___WriteAsyncInternal
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(2769)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98
-// }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 98 })} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(2908)) CS Name: ::CryptoStream::<ReadAsyncInternal>d__37
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2769)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 98 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(2908)) CS Name: ::CryptoStream::<ReadAsyncInternal>d__37
 struct CORDL_TYPE __CryptoStream___ReadAsyncInternal_d__37 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x245873c, size 0x3c4, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -219,14 +222,17 @@ static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___ReadAs
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3391)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3391), inst: 98 })} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(2909)) CS Name: ::CryptoStream::<ReadAsyncCore>d__42
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3391)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3391), inst: 98 }), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(3402), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2909)) CS
+// Name: ::CryptoStream::<ReadAsyncCore>d__42
 struct CORDL_TYPE __CryptoStream___ReadAsyncCore_d__42 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x2458b58, size 0x1100, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -336,13 +342,16 @@ static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___ReadAs
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(2769)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2769)),
 // TypeDefinitionIndex(TypeDefinitionIndex(3393))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2910)) CS Name: ::CryptoStream::<WriteAsyncInternal>d__46
 struct CORDL_TYPE __CryptoStream___WriteAsyncInternal_d__46 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x2459d18, size 0x320, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -437,6 +446,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x245a044, size 0x11cc, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -671,6 +683,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::System::IO::Stream*& __get__stream();
 

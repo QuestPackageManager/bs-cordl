@@ -2,15 +2,17 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Mono/Security/Interface/zzzz__AlertDescription_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Debug)
-namespace Mono::Unity {
-struct __UnityTls__unitytls_x509verify_result;
+namespace Mono::Security::Interface {
+struct AlertDescription;
 }
 namespace Mono::Unity {
 struct __UnityTls__unitytls_errorstate;
+}
+namespace Mono::Unity {
+struct __UnityTls__unitytls_x509verify_result;
 }
 // Forward declare root types
 namespace Mono::Unity {
@@ -22,21 +24,18 @@ MARK_REF_PTR_T(::Mono::Unity::Debug);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13773))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8757))
 // CS Name: ::Mono.Unity::Debug*
 class CORDL_TYPE Debug : public ::System::Object {
 public:
   // Declarations
   /// @brief Method CheckAndThrow, addr 0x2817a5c, size 0xa0, virtual false, abstract: false, final false
-  /// @param defaultAlert: ::Mono::Security::Interface::AlertDescription (default: static_cast<uint8_t>(0x50u))
-  static inline void CheckAndThrow(::Mono::Unity::__UnityTls__unitytls_errorstate errorState, ::StringW context,
-                                   ::Mono::Security::Interface::AlertDescription defaultAlert = static_cast<uint8_t>(0x50u));
+  static inline void CheckAndThrow(::Mono::Unity::__UnityTls__unitytls_errorstate errorState, ::StringW context, ::Mono::Security::Interface::AlertDescription defaultAlert);
 
   /// @brief Method CheckAndThrow, addr 0x2817afc, size 0xd8, virtual false, abstract: false, final false
-  /// @param defaultAlert: ::Mono::Security::Interface::AlertDescription (default: static_cast<uint8_t>(0x50u))
   static inline void CheckAndThrow(::Mono::Unity::__UnityTls__unitytls_errorstate errorState, ::Mono::Unity::__UnityTls__unitytls_x509verify_result verifyResult, ::StringW context,
-                                   ::Mono::Security::Interface::AlertDescription defaultAlert = static_cast<uint8_t>(0x50u));
+                                   ::Mono::Security::Interface::AlertDescription defaultAlert);
 
   // Ctor Parameters [CppParam { name: "", ty: "Debug", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

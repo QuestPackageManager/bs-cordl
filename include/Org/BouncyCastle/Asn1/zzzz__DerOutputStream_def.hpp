@@ -9,14 +9,14 @@ CORDL_MODULE_EXPORT(DerOutputStream)
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace System::IO {
 class Stream;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {

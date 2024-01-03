@@ -8,6 +8,12 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Physics2D)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+struct ContactFilter2D;
+}
 namespace UnityEngine {
 struct PhysicsScene2D;
 }
@@ -15,22 +21,16 @@ namespace UnityEngine {
 struct Ray;
 }
 namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
 struct RaycastHit2D;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 namespace UnityEngine {
 class Rigidbody2D;
 }
 namespace UnityEngine {
-struct ContactFilter2D;
+struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -86,9 +86,8 @@ public:
                                 ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> results, float_t distance);
 
   /// @brief Method Raycast, addr 0x2d12b58, size 0xc4, virtual false, abstract: false, final false
-  /// @param distance: float_t (default: INFINITY)
   static inline int32_t Raycast(::UnityEngine::Vector2 origin, ::UnityEngine::Vector2 direction, ::UnityEngine::ContactFilter2D contactFilter,
-                                ::System::Collections::Generic::List_1<::UnityEngine::RaycastHit2D>* results, float_t distance = INFINITY);
+                                ::System::Collections::Generic::List_1<::UnityEngine::RaycastHit2D>* results, float_t distance);
 
   /// @brief Method GetRayIntersection, addr 0x2d12c1c, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityEngine::RaycastHit2D GetRayIntersection(::UnityEngine::Ray ray, float_t distance, int32_t layerMask);

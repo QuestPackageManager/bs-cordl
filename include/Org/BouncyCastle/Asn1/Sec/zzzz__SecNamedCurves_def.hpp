@@ -8,55 +8,79 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SecNamedCurves)
 namespace Org::BouncyCastle::Asn1::Sec {
-class __SecNamedCurves__Sect113r2Holder;
+class __SecNamedCurves__Secp112r1Holder;
 }
 namespace Org::BouncyCastle::Asn1::Sec {
-class __SecNamedCurves__Sect163r1Holder;
-}
-namespace Org::BouncyCastle::Asn1::Sec {
-class __SecNamedCurves__Sect131r1Holder;
-}
-namespace Org::BouncyCastle::Asn1::Sec {
-class __SecNamedCurves__Sect409k1Holder;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace Org::BouncyCastle::Asn1::Sec {
-class __SecNamedCurves__Secp224k1Holder;
+class __SecNamedCurves__Secp112r2Holder;
 }
 namespace Org::BouncyCastle::Asn1::Sec {
 class __SecNamedCurves__Secp128r1Holder;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+namespace Org::BouncyCastle::Asn1::Sec {
+class __SecNamedCurves__Secp128r2Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class __SecNamedCurves__Secp160k1Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class __SecNamedCurves__Secp160r1Holder;
 }
 namespace Org::BouncyCastle::Asn1::Sec {
 class __SecNamedCurves__Secp160r2Holder;
 }
 namespace Org::BouncyCastle::Asn1::Sec {
-class __SecNamedCurves__Secp128r2Holder;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class X9ECParametersHolder;
-}
-namespace Org::BouncyCastle::Asn1::Sec {
-class __SecNamedCurves__Secp256k1Holder;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace Org::BouncyCastle::Asn1::Sec {
-class __SecNamedCurves__Secp112r1Holder;
+class __SecNamedCurves__Secp192k1Holder;
 }
 namespace Org::BouncyCastle::Asn1::Sec {
 class __SecNamedCurves__Secp192r1Holder;
 }
 namespace Org::BouncyCastle::Asn1::Sec {
+class __SecNamedCurves__Secp224k1Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class __SecNamedCurves__Secp224r1Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class __SecNamedCurves__Secp256k1Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class __SecNamedCurves__Secp256r1Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class __SecNamedCurves__Secp384r1Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
 class __SecNamedCurves__Secp521r1Holder;
 }
 namespace Org::BouncyCastle::Asn1::Sec {
+class __SecNamedCurves__Sect113r1Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class __SecNamedCurves__Sect113r2Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class __SecNamedCurves__Sect131r1Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class __SecNamedCurves__Sect131r2Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class __SecNamedCurves__Sect163k1Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class __SecNamedCurves__Sect163r1Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class __SecNamedCurves__Sect163r2Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
 class __SecNamedCurves__Sect193r1Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class __SecNamedCurves__Sect193r2Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class __SecNamedCurves__Sect233k1Holder;
 }
 namespace Org::BouncyCastle::Asn1::Sec {
 class __SecNamedCurves__Sect233r1Holder;
@@ -65,73 +89,49 @@ namespace Org::BouncyCastle::Asn1::Sec {
 class __SecNamedCurves__Sect239k1Holder;
 }
 namespace Org::BouncyCastle::Asn1::Sec {
-class __SecNamedCurves__Sect571k1Holder;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class X9ECPoint;
-}
-namespace Org::BouncyCastle::Asn1::Sec {
-class __SecNamedCurves__Sect131r2Holder;
-}
-namespace Org::BouncyCastle::Asn1::Sec {
-class __SecNamedCurves__Secp160r1Holder;
-}
-namespace Org::BouncyCastle::Asn1::Sec {
-class __SecNamedCurves__Secp112r2Holder;
-}
-namespace Org::BouncyCastle::Asn1::Sec {
 class __SecNamedCurves__Sect283k1Holder;
-}
-namespace Org::BouncyCastle::Asn1::Sec {
-class __SecNamedCurves__Sect193r2Holder;
-}
-namespace Org::BouncyCastle::Asn1::Sec {
-class __SecNamedCurves__Secp192k1Holder;
-}
-namespace Org::BouncyCastle::Asn1::Sec {
-class __SecNamedCurves__Sect163k1Holder;
-}
-namespace Org::BouncyCastle::Asn1::Sec {
-class __SecNamedCurves__Sect409r1Holder;
-}
-namespace Org::BouncyCastle::Asn1::Sec {
-class __SecNamedCurves__Secp384r1Holder;
-}
-namespace Org::BouncyCastle::Asn1::Sec {
-class __SecNamedCurves__Secp256r1Holder;
-}
-namespace Org::BouncyCastle::Asn1::Sec {
-class __SecNamedCurves__Secp160k1Holder;
-}
-namespace Org::BouncyCastle::Asn1::Sec {
-class __SecNamedCurves__Sect571r1Holder;
-}
-namespace Org::BouncyCastle::Asn1::Sec {
-class __SecNamedCurves__Sect233k1Holder;
 }
 namespace Org::BouncyCastle::Asn1::Sec {
 class __SecNamedCurves__Sect283r1Holder;
 }
 namespace Org::BouncyCastle::Asn1::Sec {
-class __SecNamedCurves__Sect113r1Holder;
+class __SecNamedCurves__Sect409k1Holder;
 }
-namespace Org::BouncyCastle::Math::EC::Endo {
-class GlvTypeBParameters;
+namespace Org::BouncyCastle::Asn1::Sec {
+class __SecNamedCurves__Sect409r1Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class __SecNamedCurves__Sect571k1Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class __SecNamedCurves__Sect571r1Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class X9ECParametersHolder;
 }
 namespace Org::BouncyCastle::Asn1::X9 {
 class X9ECParameters;
 }
+namespace Org::BouncyCastle::Asn1::X9 {
+class X9ECPoint;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Math::EC::Endo {
+class GlvTypeBParameters;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECCurve;
+}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Asn1::Sec {
-class __SecNamedCurves__Secp224r1Holder;
+namespace System::Collections {
+class IDictionary;
 }
-namespace Org::BouncyCastle::Asn1::Sec {
-class __SecNamedCurves__Sect163r2Holder;
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Sec {

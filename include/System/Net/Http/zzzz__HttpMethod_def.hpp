@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HttpMethod)
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 // Forward declare root types
 namespace System::Net::Http {
@@ -56,6 +56,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::System::Net::Http::HttpMethod*>"
   constexpr operator ::System::IEquatable_1<::System::Net::Http::HttpMethod*>*() noexcept;
+
+  /// @brief Convert to "::System::IEquatable_1<::System::Net::Http::HttpMethod*>"
+  constexpr ::System::IEquatable_1<::System::Net::Http::HttpMethod*>* i___System__IEquatable_1___System__Net__Http__HttpMethod__() noexcept;
 
   constexpr ::StringW& __get_method();
 

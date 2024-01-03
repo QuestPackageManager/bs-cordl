@@ -6,6 +6,12 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(ConfiguredValueTaskAwaitable)
 namespace System::Runtime::CompilerServices {
+class ICriticalNotifyCompletion;
+}
+namespace System::Runtime::CompilerServices {
+class INotifyCompletion;
+}
+namespace System::Runtime::CompilerServices {
 struct __ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter;
 }
 namespace System::Threading::Tasks {
@@ -13,12 +19,6 @@ struct ValueTask;
 }
 namespace System {
 class Action;
-}
-namespace System::Runtime::CompilerServices {
-class INotifyCompletion;
-}
-namespace System::Runtime::CompilerServices {
-class ICriticalNotifyCompletion;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
@@ -45,8 +45,14 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*();
 
+  /// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
+  constexpr ::System::Runtime::CompilerServices::ICriticalNotifyCompletion* i___System__Runtime__CompilerServices__ICriticalNotifyCompletion();
+
   /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::INotifyCompletion"
+  constexpr ::System::Runtime::CompilerServices::INotifyCompletion* i___System__Runtime__CompilerServices__INotifyCompletion();
 
   /// @brief Method .ctor, addr 0x24da99c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::ValueTask value);

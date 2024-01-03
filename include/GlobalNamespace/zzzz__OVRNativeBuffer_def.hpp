@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRNativeBuffer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7536))
 // CS Name: ::OVRNativeBuffer*
 class CORDL_TYPE OVRNativeBuffer : public ::System::Object {
@@ -36,6 +36,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr bool& __get_disposed();
 
@@ -70,8 +73,7 @@ public:
   inline int32_t GetCapacity();
 
   /// @brief Method GetPointer, addr 0x2715dec, size 0x9c, virtual false, abstract: false, final false
-  /// @param byteOffset: int32_t (default: static_cast<int32_t>(0x0))
-  inline void* GetPointer(int32_t byteOffset = static_cast<int32_t>(0x0));
+  inline void* GetPointer(int32_t byteOffset);
 
   /// @brief Method Dispose, addr 0x271a830, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();

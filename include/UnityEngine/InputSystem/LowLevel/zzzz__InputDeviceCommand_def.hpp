@@ -47,6 +47,9 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo();
+
   constexpr ::UnityEngine::InputSystem::Utilities::FourCC& __get_type();
 
   constexpr ::UnityEngine::InputSystem::Utilities::FourCC const& __get_type() const;
@@ -66,8 +69,7 @@ public:
   inline ::cordl_internals::Ptr<void> get_payloadPtr();
 
   /// @brief Method .ctor, addr 0x2ae74cc, size 0x8, virtual false, abstract: false, final false
-  /// @param sizeInBytes: int32_t (default: static_cast<int32_t>(0x8))
-  inline void _ctor(::UnityEngine::InputSystem::Utilities::FourCC type, int32_t sizeInBytes = static_cast<int32_t>(0x8));
+  inline void _ctor(::UnityEngine::InputSystem::Utilities::FourCC type, int32_t sizeInBytes);
 
   /// @brief Method AllocateNative, addr 0x2ae7a10, size 0xb0, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeArray_1<uint8_t> AllocateNative(::UnityEngine::InputSystem::Utilities::FourCC type, int32_t payloadSize);

@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Error)
 namespace System {
-class Object;
+class Exception;
 }
 namespace System {
-class Exception;
+class Object;
 }
 // Forward declare root types
 namespace System::Linq::Expressions {

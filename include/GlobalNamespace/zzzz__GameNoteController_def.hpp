@@ -10,55 +10,55 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(GameNoteController)
 namespace GlobalNamespace {
-class INoteVisualModifierTypeProvider;
-}
-namespace GlobalNamespace {
-struct __NoteData__GameplayType;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-template <typename T> class ICubeNoteControllerInitializable_1;
-}
-namespace GlobalNamespace {
-class NoteData;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class NoteMovement;
-}
-namespace GlobalNamespace {
-class INoteMovementProvider;
-}
-namespace GlobalNamespace {
-class IGameNoteMirrorable;
-}
-namespace GlobalNamespace {
 class AudioTimeSyncController;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace GlobalNamespace {
-class Saber;
 }
 namespace GlobalNamespace {
 class BoxCuttableBySaber;
 }
 namespace GlobalNamespace {
-struct NoteVisualModifierType;
+template <typename T> class ICubeNoteControllerInitializable_1;
+}
+namespace GlobalNamespace {
+class IGameNoteMirrorable;
 }
 namespace GlobalNamespace {
 class INoteMirrorable;
 }
 namespace GlobalNamespace {
+class INoteMovementProvider;
+}
+namespace GlobalNamespace {
+class INoteVisualModifierTypeProvider;
+}
+namespace GlobalNamespace {
+class NoteData;
+}
+namespace GlobalNamespace {
+class NoteMovement;
+}
+namespace GlobalNamespace {
+struct NoteVisualModifierType;
+}
+namespace GlobalNamespace {
+class Saber;
+}
+namespace GlobalNamespace {
 class __GameNoteController__Pool;
+}
+namespace GlobalNamespace {
+struct __NoteData__GameplayType;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -74,7 +74,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__GameNoteController__Pool);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 180, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4749)), TypeDefinitionIndex(TypeDefinitionIndex(14757)), TypeDefinitionIndex(TypeDefinitionIndex(4761))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4749)), TypeDefinitionIndex(TypeDefinitionIndex(4761)), TypeDefinitionIndex(TypeDefinitionIndex(14757))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4744))
 // CS Name: ::GameNoteController*
 class CORDL_TYPE GameNoteController : public ::GlobalNamespace::NoteController {
@@ -118,17 +118,33 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::GameNoteController*>"
   constexpr operator ::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::GameNoteController*>*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::GameNoteController*>"
+  constexpr ::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::GameNoteController*>*
+  i___GlobalNamespace__ICubeNoteControllerInitializable_1___GlobalNamespace__GameNoteController__() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::INoteVisualModifierTypeProvider"
   constexpr operator ::GlobalNamespace::INoteVisualModifierTypeProvider*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::INoteVisualModifierTypeProvider"
+  constexpr ::GlobalNamespace::INoteVisualModifierTypeProvider* i___GlobalNamespace__INoteVisualModifierTypeProvider() noexcept;
 
   /// @brief Convert operator to "::GlobalNamespace::INoteMovementProvider"
   constexpr operator ::GlobalNamespace::INoteMovementProvider*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::INoteMovementProvider"
+  constexpr ::GlobalNamespace::INoteMovementProvider* i___GlobalNamespace__INoteMovementProvider() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IGameNoteMirrorable"
   constexpr operator ::GlobalNamespace::IGameNoteMirrorable*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IGameNoteMirrorable"
+  constexpr ::GlobalNamespace::IGameNoteMirrorable* i___GlobalNamespace__IGameNoteMirrorable() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::INoteMirrorable"
   constexpr operator ::GlobalNamespace::INoteMirrorable*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::INoteMirrorable"
+  constexpr ::GlobalNamespace::INoteMirrorable* i___GlobalNamespace__INoteMirrorable() noexcept;
 
   constexpr ::ArrayW<::GlobalNamespace::BoxCuttableBySaber*, ::Array<::GlobalNamespace::BoxCuttableBySaber*>*>& __get__bigCuttableBySaberList();
 

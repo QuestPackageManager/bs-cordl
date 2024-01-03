@@ -12,43 +12,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlatformLeaderboardViewController)
 namespace GlobalNamespace {
+class HMAsyncRequest;
+}
+namespace GlobalNamespace {
 class IDifficultyBeatmap;
-}
-namespace HMUI {
-class IconSegmentedControl;
-}
-namespace GlobalNamespace {
-class LevelStatsView;
-}
-namespace GlobalNamespace {
-class __LeaderboardTableView__ScoreData;
-}
-namespace GlobalNamespace {
-class __PlatformLeaderboardsModel__LeaderboardScore;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class LeaderboardTableView;
 }
 namespace GlobalNamespace {
+class LevelStatsView;
+}
+namespace GlobalNamespace {
+class LoadingControl;
+}
+namespace GlobalNamespace {
 class PlatformLeaderboardsModel;
 }
 namespace GlobalNamespace {
-struct __PlatformLeaderboardsModel__ScoresScope;
+class PlayerDataModel;
 }
 namespace GlobalNamespace {
-class HMAsyncRequest;
+class __LeaderboardTableView__ScoreData;
 }
 namespace GlobalNamespace {
 class __PlatformLeaderboardViewController___RefreshDelayed_d__32;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
 }
 namespace GlobalNamespace {
 struct __PlatformLeaderboardViewController___Refresh_d__30;
@@ -56,35 +44,47 @@ struct __PlatformLeaderboardViewController___Refresh_d__30;
 namespace GlobalNamespace {
 struct __PlatformLeaderboardsModel__GetScoresResult;
 }
-namespace HMUI {
-class SegmentedControl;
+namespace GlobalNamespace {
+class __PlatformLeaderboardsModel__LeaderboardScore;
 }
 namespace GlobalNamespace {
-class LoadingControl;
+struct __PlatformLeaderboardsModel__ScoresScope;
 }
-namespace UnityEngine {
-class Sprite;
+namespace HMUI {
+class IconSegmentedControl;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-class Object;
+namespace HMUI {
+class SegmentedControl;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+struct TaskAwaiter;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine {
+class Sprite;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -104,7 +104,7 @@ MARK_VAL_T(::GlobalNamespace::__PlatformLeaderboardViewController___Refresh_d__3
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3400))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5726))
 // CS Name: ::PlatformLeaderboardViewController::<Refresh>d__30
 struct CORDL_TYPE __PlatformLeaderboardViewController___Refresh_d__30 {
@@ -112,6 +112,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x22d3c54, size 0x3b4, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -202,11 +205,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

@@ -10,50 +10,50 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ListViewDragger)
-namespace UnityEngine::UIElements {
-struct DragVisualMode;
+namespace System {
+template <typename T> class IEquatable_1;
 }
-namespace UnityEngine::UIElements {
-class ICollectionDragAndDropController;
-}
-namespace UnityEngine::UIElements {
-class ScrollView;
-}
-namespace UnityEngine::UIElements {
-struct ListDragAndDropArgs;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-class StartDragArgs;
-}
-namespace UnityEngine::UIElements {
-struct __ListViewDragger__DragPosition;
+namespace System {
+class Object;
 }
 namespace UnityEngine::UIElements {
 class BaseVerticalCollectionView;
 }
 namespace UnityEngine::UIElements {
+struct DragAndDropPosition;
+}
+namespace UnityEngine::UIElements {
+struct DragVisualMode;
+}
+namespace UnityEngine::UIElements {
 class GeometryChangedEvent;
+}
+namespace UnityEngine::UIElements {
+class ICollectionDragAndDropController;
+}
+namespace UnityEngine::UIElements {
+struct ListDragAndDropArgs;
 }
 namespace UnityEngine::UIElements {
 class ReusableCollectionItem;
 }
+namespace UnityEngine::UIElements {
+class ScrollView;
+}
+namespace UnityEngine::UIElements {
+class StartDragArgs;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+struct __ListViewDragger__DragPosition;
+}
 namespace UnityEngine {
 struct Vector2;
 }
-namespace System {
-class Object;
-}
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace UnityEngine::UIElements {
-struct DragAndDropPosition;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -77,6 +77,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::__ListViewDragger__DragPosition>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::__ListViewDragger__DragPosition>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::__ListViewDragger__DragPosition>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::__ListViewDragger__DragPosition>* i___System__IEquatable_1___UnityEngine__UIElements____ListViewDragger__DragPosition_();
 
   /// @brief Method Equals, addr 0x2e0b020, size 0x58, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::__ListViewDragger__DragPosition other);

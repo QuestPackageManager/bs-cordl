@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(AsyncInstallerRegistry)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace BGLib::AppFlow::Initialization {
 class __AsyncInstaller__IInstallerRegistry;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace Zenject {
 class MonoInstaller;
@@ -41,6 +41,9 @@ public:
 
   /// @brief Convert operator to "::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry"
   constexpr operator ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry*() noexcept;
+
+  /// @brief Convert to "::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry"
+  constexpr ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* i___BGLib__AppFlow__Initialization____AsyncInstaller__IInstallerRegistry() noexcept;
 
   constexpr ::System::Collections::Generic::List_1<::Zenject::MonoInstaller*>*& __get_monoInstallers();
 

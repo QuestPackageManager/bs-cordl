@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DigestInputBuffer)
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
 class __DigestInputBuffer__DigStream;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(StringConverter)
 namespace System::ComponentModel {
 class ITypeDescriptorContext;
 }
-namespace System {
-class Object;
-}
 namespace System::Globalization {
 class CultureInfo;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class Type;

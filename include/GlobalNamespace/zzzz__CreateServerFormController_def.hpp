@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CreateServerFormController)
 namespace GlobalNamespace {
-class FormattedFloatListSettingsController;
+struct CreateServerFormData;
 }
 namespace GlobalNamespace {
-struct CreateServerFormData;
+class FormattedFloatListSettingsController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

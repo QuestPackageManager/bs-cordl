@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ZenjectMoqExtensions)
 namespace Zenject {
-template <typename TContract> class FromBinderGeneric_1;
-}
-namespace Zenject {
-class ScopeConcreteIdArgConditionCopyNonLazyBinder;
+class ConditionCopyNonLazyBinder;
 }
 namespace Zenject {
 template <typename TContract> class FactoryFromBinder_1;
 }
 namespace Zenject {
-class ConditionCopyNonLazyBinder;
+template <typename TContract> class FromBinderGeneric_1;
+}
+namespace Zenject {
+class ScopeConcreteIdArgConditionCopyNonLazyBinder;
 }
 // Forward declare root types
 namespace Zenject {

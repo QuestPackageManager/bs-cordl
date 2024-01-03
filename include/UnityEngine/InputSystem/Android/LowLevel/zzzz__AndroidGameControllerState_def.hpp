@@ -10,25 +10,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AndroidGameControllerState)
 namespace UnityEngine::InputSystem::Android::LowLevel {
-struct __AndroidGameControllerState___buttons_e__FixedBuffer;
-}
-namespace UnityEngine::InputSystem::Android::LowLevel {
-struct __AndroidGameControllerState___axis_e__FixedBuffer;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
+struct AndroidAxis;
 }
 namespace UnityEngine::InputSystem::Android::LowLevel {
 struct AndroidKeyCode;
 }
 namespace UnityEngine::InputSystem::Android::LowLevel {
-struct AndroidAxis;
+class __AndroidGameControllerState__Variants;
 }
 namespace UnityEngine::InputSystem::Android::LowLevel {
-class __AndroidGameControllerState__Variants;
+struct __AndroidGameControllerState___axis_e__FixedBuffer;
+}
+namespace UnityEngine::InputSystem::Android::LowLevel {
+struct __AndroidGameControllerState___buttons_e__FixedBuffer;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateTypeInfo;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Android::LowLevel {
@@ -171,7 +171,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Android::LowLevel::__AndroidG
 // SizeInfo { instance_size: 220, native_size: 220, calculated_instance_size: 220, calculated_native_size: 236, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6448)), TypeDefinitionIndex(TypeDefinitionIndex(6667)), TypeDefinitionIndex(TypeDefinitionIndex(6447))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6667)), TypeDefinitionIndex(TypeDefinitionIndex(6448)), TypeDefinitionIndex(TypeDefinitionIndex(6447))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6449))
 // CS Name: ::UnityEngine.InputSystem.Android.LowLevel::AndroidGameControllerState
 struct CORDL_TYPE AndroidGameControllerState {
@@ -191,6 +191,9 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo();
+
   static inline void setStaticF_kFormat(::UnityEngine::InputSystem::Utilities::FourCC value);
 
   static inline ::UnityEngine::InputSystem::Utilities::FourCC getStaticF_kFormat();
@@ -199,8 +202,7 @@ public:
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   /// @brief Method WithButton, addr 0x2ae6690, size 0x44, virtual false, abstract: false, final false
-  /// @param value: bool (default: true)
-  inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState WithButton(::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode code, bool value = true);
+  inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState WithButton(::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode code, bool value);
 
   /// @brief Method WithAxis, addr 0x2ae66d4, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState WithAxis(::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis axis, float_t value);

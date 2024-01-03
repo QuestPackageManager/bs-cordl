@@ -4,47 +4,18 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__RefreshMask_def.hpp"
 #include "UnityEngine/zzzz__HideFlags_def.hpp"
-#include "UnityEngine/zzzz__MeshTopology_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ProBuilderMesh)
-namespace UnityEngine::ProBuilder {
-struct __ProBuilderMesh__NonVersionedEditScope;
-}
-namespace System::Collections::ObjectModel {
-template <typename T> class ReadOnlyCollection_1;
-}
-namespace UnityEngine {
-struct Vector3;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::ProBuilder {
-class __ProBuilderMesh____c__DisplayClass168_0;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine {
-class Mesh;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -52,59 +23,92 @@ template <typename T> class IEnumerable_1;
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
-namespace UnityEngine::ProBuilder {
-struct AutoUnwrapSettings;
-}
-namespace UnityEngine::ProBuilder {
-class SharedVertex;
-}
-namespace UnityEngine::ProBuilder {
-struct MeshSyncState;
-}
-namespace UnityEngine::ProBuilder {
-struct __ProBuilderMesh__CacheValidState;
-}
-namespace UnityEngine::ProBuilder {
-class UnwrapParameters;
-}
-namespace UnityEngine::ProBuilder {
-class __ProBuilderMesh____c;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template <typename T> class List_1;
 }
-namespace UnityEngine::ProBuilder {
-struct MeshArrays;
-}
-namespace UnityEngine::ProBuilder {
-class Vertex;
-}
-namespace UnityEngine {
-class Material;
+namespace System::Collections::ObjectModel {
+template <typename T> class ReadOnlyCollection_1;
 }
 namespace System {
 template <typename T> class Action_1;
-}
-namespace UnityEngine {
-class MeshFilter;
-}
-namespace UnityEngine::ProBuilder {
-class __ProBuilderMesh____c__DisplayClass170_0;
-}
-namespace UnityEngine::ProBuilder {
-struct Edge;
-}
-namespace UnityEngine {
-class MeshRenderer;
-}
-namespace UnityEngine::ProBuilder {
-class Face;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 class IDisposable;
+}
+namespace UnityEngine::ProBuilder {
+struct AutoUnwrapSettings;
+}
+namespace UnityEngine::ProBuilder {
+struct Edge;
+}
+namespace UnityEngine::ProBuilder {
+class Face;
+}
+namespace UnityEngine::ProBuilder {
+struct MeshArrays;
+}
+namespace UnityEngine::ProBuilder {
+struct MeshSyncState;
+}
+namespace UnityEngine::ProBuilder {
+struct RefreshMask;
+}
+namespace UnityEngine::ProBuilder {
+class SharedVertex;
+}
+namespace UnityEngine::ProBuilder {
+class UnwrapParameters;
+}
+namespace UnityEngine::ProBuilder {
+class Vertex;
+}
+namespace UnityEngine::ProBuilder {
+struct __ProBuilderMesh__CacheValidState;
+}
+namespace UnityEngine::ProBuilder {
+struct __ProBuilderMesh__NonVersionedEditScope;
+}
+namespace UnityEngine::ProBuilder {
+class __ProBuilderMesh____c;
+}
+namespace UnityEngine::ProBuilder {
+class __ProBuilderMesh____c__DisplayClass168_0;
+}
+namespace UnityEngine::ProBuilder {
+class __ProBuilderMesh____c__DisplayClass170_0;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+class MeshFilter;
+}
+namespace UnityEngine {
+class MeshRenderer;
+}
+namespace UnityEngine {
+struct MeshTopology;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -194,6 +198,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   /// @brief Method .ctor, addr 0x2b5ac04, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
@@ -428,9 +435,9 @@ static_assert(offsetof(::UnityEngine::ProBuilder::__ProBuilderMesh____c__Display
 // SizeInfo { instance_size: 256, native_size: -1, calculated_instance_size: 256, calculated_native_size: 256, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10199)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(12168)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10109)), TypeDefinitionIndex(TypeDefinitionIndex(12170))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12175)) CS Name:
-// ::UnityEngine.ProBuilder::ProBuilderMesh*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12170)), TypeDefinitionIndex(TypeDefinitionIndex(10199)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12175))
+// CS Name: ::UnityEngine.ProBuilder::ProBuilderMesh*
 class CORDL_TYPE ProBuilderMesh : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -965,15 +972,13 @@ public:
   inline void set_positions(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* value);
 
   /// @brief Method GetVertices, addr 0x2b53d10, size 0x6bc, virtual false, abstract: false, final false
-  /// @param indexes: ::System::Collections::Generic::IList_1<int32_t>* (default: nullptr)
-  inline ::ArrayW<::UnityEngine::ProBuilder::Vertex*, ::Array<::UnityEngine::ProBuilder::Vertex*>*> GetVertices(::System::Collections::Generic::IList_1<int32_t>* indexes = nullptr);
+  inline ::ArrayW<::UnityEngine::ProBuilder::Vertex*, ::Array<::UnityEngine::ProBuilder::Vertex*>*> GetVertices(::System::Collections::Generic::IList_1<int32_t>* indexes);
 
   /// @brief Method GetVerticesInList, addr 0x2b58418, size 0x888, virtual false, abstract: false, final false
   inline void GetVerticesInList(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices);
 
   /// @brief Method SetVertices, addr 0x2b58ca0, size 0x2cc, virtual false, abstract: false, final false
-  /// @param applyMesh: bool (default: false)
-  inline void SetVertices(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices, bool applyMesh = false);
+  inline void SetVertices(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices, bool applyMesh);
 
   /// @brief Method get_normals, addr 0x2b59088, size 0x88, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* get_normals();
@@ -1139,14 +1144,11 @@ public:
                                                                   ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
   /// @brief Method Create, addr 0x2b5b4c0, size 0x1a0, virtual false, abstract: false, final false
-  /// @param sharedVertices: ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* (default: nullptr)
-  /// @param sharedTextures: ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* (default: nullptr)
-  /// @param materials: ::System::Collections::Generic::IList_1<::UnityEngine::Material*>* (default: nullptr)
   static inline ::UnityEngine::ProBuilder::ProBuilderMesh* Create(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices,
                                                                   ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces,
-                                                                  ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* sharedVertices = nullptr,
-                                                                  ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* sharedTextures = nullptr,
-                                                                  ::System::Collections::Generic::IList_1<::UnityEngine::Material*>* materials = nullptr);
+                                                                  ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* sharedVertices,
+                                                                  ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* sharedTextures,
+                                                                  ::System::Collections::Generic::IList_1<::UnityEngine::Material*>* materials);
 
   /// @brief Method GeometryWithPoints, addr 0x2b5b024, size 0x228, virtual false, abstract: false, final false
   inline void GeometryWithPoints(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> points);
@@ -1159,8 +1161,7 @@ public:
   inline void Rebuild();
 
   /// @brief Method ToMesh, addr 0x2b5b660, size 0x368, virtual false, abstract: false, final false
-  /// @param preferredTopology: ::UnityEngine::MeshTopology (default: static_cast<int32_t>(0x0))
-  inline void ToMesh(::UnityEngine::MeshTopology preferredTopology = static_cast<int32_t>(0x0));
+  inline void ToMesh(::UnityEngine::MeshTopology preferredTopology);
 
   /// @brief Method MakeUnique, addr 0x2b5bac8, size 0x74, virtual false, abstract: false, final false
   inline void MakeUnique();
@@ -1169,22 +1170,19 @@ public:
   inline void CopyFrom(::UnityEngine::ProBuilder::ProBuilderMesh* other);
 
   /// @brief Method Refresh, addr 0x2b5b9c8, size 0x100, virtual false, abstract: false, final false
-  /// @param mask: ::UnityEngine::ProBuilder::RefreshMask (default: static_cast<int32_t>(0x1f))
-  inline void Refresh(::UnityEngine::ProBuilder::RefreshMask mask = static_cast<int32_t>(0x1f));
+  inline void Refresh(::UnityEngine::ProBuilder::RefreshMask mask);
 
   /// @brief Method EnsureMeshColliderIsAssigned, addr 0x2b5aa70, size 0x100, virtual false, abstract: false, final false
   inline void EnsureMeshColliderIsAssigned();
 
   /// @brief Method GetUnusedTextureGroup, addr 0x2b5c4c4, size 0x110, virtual false, abstract: false, final false
-  /// @param i: int32_t (default: static_cast<int32_t>(0x1))
-  inline int32_t GetUnusedTextureGroup(int32_t i = static_cast<int32_t>(0x1));
+  inline int32_t GetUnusedTextureGroup(int32_t i);
 
   /// @brief Method IsValidTextureGroup, addr 0x2b5c5dc, size 0xc, virtual false, abstract: false, final false
   static inline bool IsValidTextureGroup(int32_t group);
 
   /// @brief Method UnusedElementGroup, addr 0x2b5c5e8, size 0x110, virtual false, abstract: false, final false
-  /// @param i: int32_t (default: static_cast<int32_t>(0x1))
-  inline int32_t UnusedElementGroup(int32_t i = static_cast<int32_t>(0x1));
+  inline int32_t UnusedElementGroup(int32_t i);
 
   /// @brief Method RefreshUV, addr 0x2b5be20, size 0x594, virtual false, abstract: false, final false
   inline void RefreshUV(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* facesToRefresh);

@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(WeakReference)
-namespace System {
-class Object;
-}
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System {
@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::System::WeakReference);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3336))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3336)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2642))
 // CS Name: ::System::WeakReference*
 class CORDL_TYPE WeakReference : public ::System::Object {
@@ -47,6 +47,9 @@ public:
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
   constexpr bool& __get_isLongReference();
 

@@ -8,64 +8,64 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(FilteredBeatmapLevel)
 namespace GlobalNamespace {
-class __FilteredBeatmapLevel__FilteredBeatmapLevelData;
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficultyMask;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelData;
+class EnvironmentInfoSO;
+}
+namespace GlobalNamespace {
+class IAssetSongAudioClipProvider;
 }
 namespace GlobalNamespace {
 class IAssetSongPreviewAudioClipProvider;
 }
 namespace GlobalNamespace {
-class IAssetSongAudioClipProvider;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace GlobalNamespace {
-class EnvironmentInfoSO;
-}
-namespace GlobalNamespace {
-class IFilePathSongAudioClipProvider;
-}
-namespace UnityEngine {
-class AudioClip;
-}
-namespace GlobalNamespace {
-class PreviewDifficultyBeatmapSet;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+class IBeatmapLevelData;
 }
 namespace GlobalNamespace {
 class IBeatmapLevel;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+namespace GlobalNamespace {
+class IDifficultyBeatmapSet;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace UnityEngine {
-class Sprite;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+class IFilePathSongAudioClipProvider;
 }
 namespace GlobalNamespace {
 class IFilePathSongPreviewAudioClipProvider;
 }
 namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
 struct PlayerSensitivityFlag;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmapSet;
+class PreviewDifficultyBeatmapSet;
+}
+namespace GlobalNamespace {
+class __FilteredBeatmapLevel__FilteredBeatmapLevelData;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace UnityEngine {
+class AudioClip;
+}
+namespace UnityEngine {
+class Sprite;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -101,6 +101,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IBeatmapLevelData"
   constexpr operator ::GlobalNamespace::IBeatmapLevelData*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IBeatmapLevelData"
+  constexpr ::GlobalNamespace::IBeatmapLevelData* i___GlobalNamespace__IBeatmapLevelData() noexcept;
 
   constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>*& __get__difficultyBeatmapSets_k__BackingField();
 
@@ -230,20 +233,38 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBeatmapLevel"
   constexpr operator ::GlobalNamespace::IBeatmapLevel*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IBeatmapLevel"
+  constexpr ::GlobalNamespace::IBeatmapLevel* i___GlobalNamespace__IBeatmapLevel() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IPreviewBeatmapLevel"
   constexpr operator ::GlobalNamespace::IPreviewBeatmapLevel*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IPreviewBeatmapLevel"
+  constexpr ::GlobalNamespace::IPreviewBeatmapLevel* i___GlobalNamespace__IPreviewBeatmapLevel() noexcept;
 
   /// @brief Convert operator to "::GlobalNamespace::IAssetSongPreviewAudioClipProvider"
   constexpr operator ::GlobalNamespace::IAssetSongPreviewAudioClipProvider*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IAssetSongPreviewAudioClipProvider"
+  constexpr ::GlobalNamespace::IAssetSongPreviewAudioClipProvider* i___GlobalNamespace__IAssetSongPreviewAudioClipProvider() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IAssetSongAudioClipProvider"
   constexpr operator ::GlobalNamespace::IAssetSongAudioClipProvider*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IAssetSongAudioClipProvider"
+  constexpr ::GlobalNamespace::IAssetSongAudioClipProvider* i___GlobalNamespace__IAssetSongAudioClipProvider() noexcept;
 
   /// @brief Convert operator to "::GlobalNamespace::IFilePathSongPreviewAudioClipProvider"
   constexpr operator ::GlobalNamespace::IFilePathSongPreviewAudioClipProvider*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IFilePathSongPreviewAudioClipProvider"
+  constexpr ::GlobalNamespace::IFilePathSongPreviewAudioClipProvider* i___GlobalNamespace__IFilePathSongPreviewAudioClipProvider() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IFilePathSongAudioClipProvider"
   constexpr operator ::GlobalNamespace::IFilePathSongAudioClipProvider*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IFilePathSongAudioClipProvider"
+  constexpr ::GlobalNamespace::IFilePathSongAudioClipProvider* i___GlobalNamespace__IFilePathSongAudioClipProvider() noexcept;
 
   constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>*& __get__previewDifficultyBeatmapSets_k__BackingField();
 

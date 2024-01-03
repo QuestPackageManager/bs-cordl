@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__CPUMonitor_def.hpp"
-#include "System/Diagnostics/zzzz__Process_def.hpp"
+#include "GlobalNamespace/zzzz__ICPUMonitor_def.hpp"
 #include "GlobalNamespace/zzzz__IPollable_def.hpp"
 #include "GlobalNamespace/zzzz__RollingAverage_def.hpp"
-#include "GlobalNamespace/zzzz__ICPUMonitor_def.hpp"
+#include "System/Diagnostics/zzzz__Process_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CPUMonitor.PollUpdate
 template <>
 
@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xf8;
   constexpr static std::size_t addrs = 0xe32340;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CPUMonitor*>::get(), "PollUpdate",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -25,7 +25,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0xe32438;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CPUMonitor*>::get(), "get_utilization",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -38,7 +38,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0xe32460;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CPUMonitor*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -48,8 +48,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 constexpr GlobalNamespace::CPUMonitor::operator ::GlobalNamespace::ICPUMonitor*() noexcept {
   return static_cast<::GlobalNamespace::ICPUMonitor*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::GlobalNamespace::ICPUMonitor"
+constexpr ::GlobalNamespace::ICPUMonitor* GlobalNamespace::CPUMonitor::i___GlobalNamespace__ICPUMonitor() noexcept {
+  return static_cast<::GlobalNamespace::ICPUMonitor*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::GlobalNamespace::IPollable"
 constexpr GlobalNamespace::CPUMonitor::operator ::GlobalNamespace::IPollable*() noexcept {
+  return static_cast<::GlobalNamespace::IPollable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IPollable"
+constexpr ::GlobalNamespace::IPollable* GlobalNamespace::CPUMonitor::i___GlobalNamespace__IPollable() noexcept {
   return static_cast<::GlobalNamespace::IPollable*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::RollingAverage*& GlobalNamespace::CPUMonitor::__get__utilization() {

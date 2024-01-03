@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/Tasks/zzzz__CompletionActionInvoker_def.hpp"
+#include "System/Threading/Tasks/zzzz__ITaskCompletionAction_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
-#include "System/Threading/Tasks/zzzz__ITaskCompletionAction_def.hpp"
 #include "System/Threading/zzzz__ThreadAbortException_def.hpp"
 //  Writing Method size for method: ::System::Threading::Tasks::CompletionActionInvoker._ctor
 template <>
@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x2627bf4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::CompletionActionInvoker*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::ITaskCompletionAction*>::get(),
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xa8;
   constexpr static std::size_t addrs = 0x262b2f0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::CompletionActionInvoker*>::get(),
                                                  "System.Threading.IThreadPoolWorkItem.ExecuteWorkItem", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x262b398;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::CompletionActionInvoker*>::get(), "MarkAborted", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::ThreadAbortException*>::get() })));
@@ -53,6 +53,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::System::Threading::IThreadPoolWorkItem"
 constexpr System::Threading::Tasks::CompletionActionInvoker::operator ::System::Threading::IThreadPoolWorkItem*() noexcept {
+  return static_cast<::System::Threading::IThreadPoolWorkItem*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Threading::IThreadPoolWorkItem"
+constexpr ::System::Threading::IThreadPoolWorkItem* System::Threading::Tasks::CompletionActionInvoker::i___System__Threading__IThreadPoolWorkItem() noexcept {
   return static_cast<::System::Threading::IThreadPoolWorkItem*>(static_cast<void*>(this));
 }
 constexpr ::System::Threading::Tasks::ITaskCompletionAction*& System::Threading::Tasks::CompletionActionInvoker::__get_m_action() {

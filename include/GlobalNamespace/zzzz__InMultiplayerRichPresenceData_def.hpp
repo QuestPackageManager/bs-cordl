@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(InMultiplayerRichPresenceData)
 namespace GlobalNamespace {
-class IRichPresenceData;
+class IMultiplayerRichPresenceData;
 }
 namespace GlobalNamespace {
-class IMultiplayerRichPresenceData;
+class IRichPresenceData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -57,8 +57,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IMultiplayerRichPresenceData"
   constexpr operator ::GlobalNamespace::IMultiplayerRichPresenceData*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IMultiplayerRichPresenceData"
+  constexpr ::GlobalNamespace::IMultiplayerRichPresenceData* i___GlobalNamespace__IMultiplayerRichPresenceData() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IRichPresenceData"
   constexpr operator ::GlobalNamespace::IRichPresenceData*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IRichPresenceData"
+  constexpr ::GlobalNamespace::IRichPresenceData* i___GlobalNamespace__IRichPresenceData() noexcept;
 
   constexpr ::StringW& __get__apiName_k__BackingField();
 

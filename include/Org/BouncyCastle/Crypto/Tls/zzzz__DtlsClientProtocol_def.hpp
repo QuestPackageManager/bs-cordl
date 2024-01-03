@@ -8,61 +8,61 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DtlsClientProtocol)
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsClient;
+class CertificateRequest;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class __DtlsClientProtocol__ClientHandshakeState;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class DtlsRecordLayer;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class DatagramTransport;
+class CertificateStatus;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class Certificate;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class DtlsTransport;
+class DatagramTransport;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class DigitallySigned;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
+class DtlsRecordLayer;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class DtlsTransport;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
 class ProtocolVersion;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsClientContextImpl;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCredentials;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class CertificateRequest;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsAuthentication;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class __SessionParameters__Builder;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class SessionParameters;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSession;
+class TlsAuthentication;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsClientContextImpl;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsClient;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCredentials;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsKeyExchange;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class CertificateStatus;
+class TlsSession;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class __DtlsClientProtocol__ClientHandshakeState;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class __SessionParameters__Builder;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
+namespace System::Collections {
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

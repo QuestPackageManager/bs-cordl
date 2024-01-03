@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TerrainUtility)
-namespace UnityEngine::TerrainUtils {
-class TerrainMap;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine::TerrainUtils {
+class TerrainMap;
 }
 namespace UnityEngine::TerrainUtils {
 class __TerrainUtility____c__DisplayClass2_0;
@@ -170,8 +170,7 @@ public:
   static inline void ClearConnectivity();
 
   /// @brief Method CollectTerrains, addr 0x2d1fcac, size 0x324, virtual false, abstract: false, final false
-  /// @param onlyAutoConnectedTerrains: bool (default: true)
-  static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TerrainUtils::TerrainMap*>* CollectTerrains(bool onlyAutoConnectedTerrains = true);
+  static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TerrainUtils::TerrainMap*>* CollectTerrains(bool onlyAutoConnectedTerrains);
 
   /// @brief Method AutoConnect, addr 0x2d1ffe0, size 0x388, virtual false, abstract: false, final false
   static inline void AutoConnect();

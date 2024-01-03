@@ -9,10 +9,10 @@ namespace BeatSaber::AvatarCore {
 class IAvatarPoseRestriction;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {
@@ -32,6 +32,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::BeatSaber::AvatarCore::IAvatarPoseRestriction"
   constexpr operator ::BeatSaber::AvatarCore::IAvatarPoseRestriction*() noexcept;
+
+  /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarPoseRestriction"
+  constexpr ::BeatSaber::AvatarCore::IAvatarPoseRestriction* i___BeatSaber__AvatarCore__IAvatarPoseRestriction() noexcept;
 
   /// @brief Method RestrictPose, addr 0xe10498, size 0x2c, virtual true, abstract: false, final true
   inline void RestrictPose(::UnityEngine::Quaternion headRotation, ::UnityEngine::Vector3 headPosition, ::UnityEngine::Vector3 leftHandPosition, ::UnityEngine::Vector3 rightHandPosition,

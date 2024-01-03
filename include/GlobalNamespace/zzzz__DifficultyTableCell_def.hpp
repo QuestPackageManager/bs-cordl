@@ -12,11 +12,11 @@ class FillIndicator;
 namespace HMUI {
 struct __SelectableCell__TransitionType;
 }
-namespace UnityEngine::UI {
-class Image;
-}
 namespace TMPro {
 class TextMeshProUGUI;
+}
+namespace UnityEngine::UI {
+class Image;
 }
 // Forward declare root types
 namespace GlobalNamespace {

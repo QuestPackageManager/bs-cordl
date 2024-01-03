@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FourCC)
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -31,14 +31,14 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::FourCC>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::FourCC>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::FourCC>"
+  constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::FourCC>* i___System__IEquatable_1___UnityEngine__InputSystem__Utilities__FourCC_();
+
   /// @brief Method .ctor, addr 0x2b0fadc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t code);
 
   /// @brief Method .ctor, addr 0x2b0b85c, size 0x20, virtual false, abstract: false, final false
-  /// @param b: char16_t (default: u' ')
-  /// @param c: char16_t (default: u' ')
-  /// @param d: char16_t (default: u' ')
-  inline void _ctor(char16_t a, char16_t b = u' ', char16_t c = u' ', char16_t d = u' ');
+  inline void _ctor(char16_t a, char16_t b, char16_t c, char16_t d);
 
   /// @brief Method .ctor, addr 0x2b0fae4, size 0x170, virtual false, abstract: false, final false
   inline void _ctor(::StringW str);

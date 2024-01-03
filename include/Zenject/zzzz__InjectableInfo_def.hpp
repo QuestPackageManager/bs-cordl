@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(InjectableInfo)
 namespace System {
-class Type;
+class Object;
 }
 namespace System {
-class Object;
+class Type;
 }
 namespace Zenject {
 struct InjectSources;
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::Zenject::InjectableInfo);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15712)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15712))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15706))
 // CS Name: ::Zenject::InjectableInfo*
 class CORDL_TYPE InjectableInfo : public ::System::Object {

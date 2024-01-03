@@ -3,7 +3,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/UIElements/zzzz__DispatchMode_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -12,13 +11,16 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
-class Focusable;
+struct DispatchMode;
 }
 namespace UnityEngine::UIElements {
-struct __FocusController__FocusedElement;
+class EventBase;
 }
 namespace UnityEngine::UIElements {
 class FocusChangeDirection;
+}
+namespace UnityEngine::UIElements {
+class Focusable;
 }
 namespace UnityEngine::UIElements {
 class IFocusRing;
@@ -27,10 +29,7 @@ namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-struct DispatchMode;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
+struct __FocusController__FocusedElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -83,7 +82,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__FocusController__FocusedElem
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6911))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6884))
 // CS Name: ::UnityEngine.UIElements::FocusController*
 class CORDL_TYPE FocusController : public ::System::Object {
@@ -207,20 +206,14 @@ public:
                         bool bIsFocusDelegated, ::UnityEngine::UIElements::DispatchMode dispatchMode);
 
   /// @brief Method Blur, addr 0x2df9eb8, size 0x58, virtual false, abstract: false, final false
-  /// @param bIsFocusDelegated: bool (default: false)
-  /// @param dispatchMode: ::UnityEngine::UIElements::DispatchMode (default: static_cast<int32_t>(0x1))
-  inline void Blur(::UnityEngine::UIElements::Focusable* focusable, bool bIsFocusDelegated = false, ::UnityEngine::UIElements::DispatchMode dispatchMode = static_cast<int32_t>(0x1));
+  inline void Blur(::UnityEngine::UIElements::Focusable* focusable, bool bIsFocusDelegated, ::UnityEngine::UIElements::DispatchMode dispatchMode);
 
   /// @brief Method SwitchFocus, addr 0x2df9dc8, size 0xb8, virtual false, abstract: false, final false
-  /// @param bIsFocusDelegated: bool (default: false)
-  /// @param dispatchMode: ::UnityEngine::UIElements::DispatchMode (default: static_cast<int32_t>(0x1))
-  inline void SwitchFocus(::UnityEngine::UIElements::Focusable* newFocusedElement, bool bIsFocusDelegated = false, ::UnityEngine::UIElements::DispatchMode dispatchMode = static_cast<int32_t>(0x1));
+  inline void SwitchFocus(::UnityEngine::UIElements::Focusable* newFocusedElement, bool bIsFocusDelegated, ::UnityEngine::UIElements::DispatchMode dispatchMode);
 
   /// @brief Method SwitchFocus, addr 0x2dfa580, size 0x294, virtual false, abstract: false, final false
-  /// @param bIsFocusDelegated: bool (default: false)
-  /// @param dispatchMode: ::UnityEngine::UIElements::DispatchMode (default: static_cast<int32_t>(0x1))
-  inline void SwitchFocus(::UnityEngine::UIElements::Focusable* newFocusedElement, ::UnityEngine::UIElements::FocusChangeDirection* direction, bool bIsFocusDelegated = false,
-                          ::UnityEngine::UIElements::DispatchMode dispatchMode = static_cast<int32_t>(0x1));
+  inline void SwitchFocus(::UnityEngine::UIElements::Focusable* newFocusedElement, ::UnityEngine::UIElements::FocusChangeDirection* direction, bool bIsFocusDelegated,
+                          ::UnityEngine::UIElements::DispatchMode dispatchMode);
 
   /// @brief Method SwitchFocusOnEvent, addr 0x2dfa120, size 0x2ec, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Focusable* SwitchFocusOnEvent(::UnityEngine::UIElements::EventBase* e);

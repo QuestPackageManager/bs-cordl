@@ -9,35 +9,35 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ContentCatalogData)
-namespace UnityEngine::AddressableAssets::ResourceLocators {
-class __ContentCatalogData__CompactLocation;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace UnityEngine::AddressableAssets::ResourceLocators {
-struct __ContentCatalogData__Bucket;
-}
-namespace UnityEngine::ResourceManagement::Util {
-struct SerializedType;
-}
-namespace UnityEngine::AddressableAssets::ResourceLocators {
-class ResourceLocationMap;
-}
-namespace UnityEngine::ResourceManagement::Util {
-struct ObjectInitializationData;
-}
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
 }
 namespace System {
 class Object;
 }
 namespace System {
 class Type;
+}
+namespace UnityEngine::AddressableAssets::ResourceLocators {
+class ResourceLocationMap;
+}
+namespace UnityEngine::AddressableAssets::ResourceLocators {
+struct __ContentCatalogData__Bucket;
+}
+namespace UnityEngine::AddressableAssets::ResourceLocators {
+class __ContentCatalogData__CompactLocation;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
+}
+namespace UnityEngine::ResourceManagement::Util {
+struct ObjectInitializationData;
+}
+namespace UnityEngine::ResourceManagement::Util {
+struct SerializedType;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets::ResourceLocators {
@@ -145,6 +145,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation"
   constexpr operator ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation"
+  constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* i___UnityEngine__ResourceManagement__ResourceLocations__IResourceLocation() noexcept;
 
   constexpr ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap*& __get_m_Locator();
 
@@ -311,7 +314,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::__Con
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13984)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13984))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14111))
 // CS Name: ::UnityEngine.AddressableAssets.ResourceLocators::ContentCatalogData*
 class CORDL_TYPE ContentCatalogData : public ::System::Object {
@@ -496,12 +499,10 @@ public:
   inline void CleanData();
 
   /// @brief Method CreateCustomLocator, addr 0x2a26644, size 0xc, virtual false, abstract: false, final false
-  /// @param providerSuffix: ::StringW (default: nullptr)
-  inline ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* CreateCustomLocator(::StringW overrideId, ::StringW providerSuffix = nullptr);
+  inline ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* CreateCustomLocator(::StringW overrideId, ::StringW providerSuffix);
 
   /// @brief Method CreateLocator, addr 0x2a2d1d8, size 0x780, virtual false, abstract: false, final false
-  /// @param providerSuffix: ::StringW (default: nullptr)
-  inline ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* CreateLocator(::StringW providerSuffix = nullptr);
+  inline ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* CreateLocator(::StringW providerSuffix);
 
   /// @brief Method ExpandInternalId, addr 0x2a2d9f8, size 0xc0, virtual false, abstract: false, final false
   static inline ::StringW ExpandInternalId(::ArrayW<::StringW, ::Array<::StringW>*> internalIdPrefixes, ::StringW v);

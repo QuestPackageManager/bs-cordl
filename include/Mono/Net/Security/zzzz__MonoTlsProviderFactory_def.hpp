@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MonoTlsProviderFactory)
+namespace Mono::Net::Security {
+class MobileTlsProvider;
+}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System {
+struct Guid;
 }
 namespace System {
 class Object;
 }
 namespace System {
 template <typename T1, typename T2> class Tuple_2;
-}
-namespace Mono::Net::Security {
-class MobileTlsProvider;
-}
-namespace System {
-struct Guid;
 }
 // Forward declare root types
 namespace Mono::Net::Security {
@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::Mono::Net::Security::MonoTlsProviderFactory);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8842))
 // CS Name: ::Mono.Net.Security::MonoTlsProviderFactory*
 class CORDL_TYPE MonoTlsProviderFactory : public ::System::Object {

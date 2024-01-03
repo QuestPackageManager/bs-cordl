@@ -74,7 +74,7 @@ static_assert(offsetof(::GlobalNamespace::__NullAllowed__Context, value__) == 0x
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16251)), TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(16251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16252))
 // CS Name: ::NullAllowed*
 class CORDL_TYPE NullAllowed : public ::UnityEngine::PropertyAttribute {
@@ -94,8 +94,7 @@ public:
   static inline ::GlobalNamespace::NullAllowed* New_ctor(::GlobalNamespace::__NullAllowed__Context context);
 
   /// @brief Method .ctor, addr 0x21010b8, size 0x28, virtual false, abstract: false, final false
-  /// @param context: ::GlobalNamespace::__NullAllowed__Context (default: static_cast<int32_t>(0x0))
-  inline void _ctor(::GlobalNamespace::__NullAllowed__Context context = static_cast<int32_t>(0x0));
+  inline void _ctor(::GlobalNamespace::__NullAllowed__Context context);
 
   /// @brief Method IsNullAllowedFor, addr 0x21010e0, size 0x1c, virtual false, abstract: false, final false
   inline bool IsNullAllowedFor(::GlobalNamespace::__NullAllowed__Context context);

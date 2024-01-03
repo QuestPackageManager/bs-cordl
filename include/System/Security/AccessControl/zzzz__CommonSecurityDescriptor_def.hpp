@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include "System/Security/AccessControl/zzzz__GenericSecurityDescriptor_def.hpp"
 CORDL_MODULE_EXPORT(CommonSecurityDescriptor)
 namespace System::Security::AccessControl {
-class DiscretionaryAcl;
+class CommonAcl;
 }
 namespace System::Security::AccessControl {
 struct ControlFlags;
 }
 namespace System::Security::AccessControl {
-class CommonAcl;
-}
-namespace System::Security::Principal {
-class SecurityIdentifier;
+class DiscretionaryAcl;
 }
 namespace System::Security::AccessControl {
 class SystemAcl;
+}
+namespace System::Security::Principal {
+class SecurityIdentifier;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {

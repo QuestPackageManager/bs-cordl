@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ResourceLocator)
-namespace System {
-class Object;
-}
 namespace System::Resources {
 struct ResourceTypeCode;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Resources {

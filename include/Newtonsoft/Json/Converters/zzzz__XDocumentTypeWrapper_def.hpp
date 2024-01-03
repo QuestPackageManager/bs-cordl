@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XDocumentTypeWrapper)
 namespace Newtonsoft::Json::Converters {
-class IXmlNode;
+class IXmlDocumentType;
 }
 namespace Newtonsoft::Json::Converters {
-class IXmlDocumentType;
+class IXmlNode;
 }
 namespace System::Xml::Linq {
 class XDocumentType;
@@ -46,8 +46,14 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlDocumentType"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlDocumentType*() noexcept;
 
+  /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlDocumentType"
+  constexpr ::Newtonsoft::Json::Converters::IXmlDocumentType* i___Newtonsoft__Json__Converters__IXmlDocumentType() noexcept;
+
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept;
+
+  /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
+  constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
 
   constexpr ::System::Xml::Linq::XDocumentType*& __get__documentType();
 

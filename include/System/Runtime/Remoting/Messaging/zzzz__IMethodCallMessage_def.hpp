@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IMethodCallMessage)
 namespace System::Runtime::Remoting::Messaging {
-class IMethodMessage;
+class IMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+class IMethodMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -28,8 +28,14 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMethodMessage*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodMessage"
+  constexpr ::System::Runtime::Remoting::Messaging::IMethodMessage* i___System__Runtime__Remoting__Messaging__IMethodMessage() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessage*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessage"
+  constexpr ::System::Runtime::Remoting::Messaging::IMessage* i___System__Runtime__Remoting__Messaging__IMessage() noexcept;
 
   // Ctor Parameters [CppParam { name: "", ty: "IMethodCallMessage", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

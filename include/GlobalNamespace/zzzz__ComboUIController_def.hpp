@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ComboUIController)
-namespace UnityEngine {
-class Animator;
-}
 namespace GlobalNamespace {
 class IComboController;
 }
 namespace TMPro {
 class TextMeshProUGUI;
+}
+namespace UnityEngine {
+class Animator;
 }
 // Forward declare root types
 namespace GlobalNamespace {

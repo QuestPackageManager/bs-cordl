@@ -5,6 +5,12 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IScoreSyncStateManager)
 namespace GlobalNamespace {
+template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable> class IScoreSyncStateManager_5;
+}
+namespace GlobalNamespace {
+class StandardScoreSyncStateDeltaNetSerializable;
+}
+namespace GlobalNamespace {
 class StandardScoreSyncStateNetSerializable;
 }
 namespace GlobalNamespace {
@@ -12,12 +18,6 @@ struct StandardScoreSyncState;
 }
 namespace GlobalNamespace {
 struct __StandardScoreSyncState__Score;
-}
-namespace GlobalNamespace {
-class StandardScoreSyncStateDeltaNetSerializable;
-}
-namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable> class IScoreSyncStateManager_5;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -39,6 +39,12 @@ public:
   /// "::GlobalNamespace::IScoreSyncStateManager_5<::GlobalNamespace::StandardScoreSyncState,::GlobalNamespace::__StandardScoreSyncState__Score,int32_t,::GlobalNamespace::StandardScoreSyncStateNetSerializable*,::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>"
   constexpr operator ::GlobalNamespace::IScoreSyncStateManager_5<::GlobalNamespace::StandardScoreSyncState, ::GlobalNamespace::__StandardScoreSyncState__Score, int32_t,
                                                                  ::GlobalNamespace::StandardScoreSyncStateNetSerializable*, ::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>*() noexcept;
+
+  /// @brief Convert to
+  /// "::GlobalNamespace::IScoreSyncStateManager_5<::GlobalNamespace::StandardScoreSyncState,::GlobalNamespace::__StandardScoreSyncState__Score,int32_t,::GlobalNamespace::StandardScoreSyncStateNetSerializable*,::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>"
+  constexpr ::GlobalNamespace::IScoreSyncStateManager_5<::GlobalNamespace::StandardScoreSyncState, ::GlobalNamespace::__StandardScoreSyncState__Score, int32_t,
+                                                        ::GlobalNamespace::StandardScoreSyncStateNetSerializable*, ::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>*
+  i___GlobalNamespace__IScoreSyncStateManager_5___GlobalNamespace__StandardScoreSyncState___GlobalNamespace____StandardScoreSyncState__Score_int32_t___GlobalNamespace__StandardScoreSyncStateNetSerializable____GlobalNamespace__StandardScoreSyncStateDeltaNetSerializable__() noexcept;
 
   // Ctor Parameters [CppParam { name: "", ty: "IScoreSyncStateManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

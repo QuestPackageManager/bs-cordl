@@ -6,7 +6,6 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Action_2_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputControlLayout_def.hpp"
@@ -33,20 +32,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputManager)
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct ReadOnlyArray_1;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
-namespace UnityEngine::InputSystem::Utilities {
-struct TypeTable;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
-namespace UnityEngine::InputSystem {
-struct InputControlLayoutChange;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
-namespace UnityEngine::InputSystem {
-struct __InputManager__StateChangeMonitorsForDevice;
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
@@ -54,131 +56,134 @@ template <typename T1, typename T2> class Action_2;
 namespace System {
 class Action;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct InlinedArray_1;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputUpdateType;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::InputSystem {
-struct __InputManager__StateChangeMonitorTimeout;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine::InputSystem {
-struct InputDeviceChange;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputStateChangeMonitor;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct InternedString;
-}
-namespace UnityEngine::InputSystem {
-class __InputManager____c;
-}
-namespace UnityEngine::InputSystem {
-template <typename TControl> struct InputControlList_1;
-}
-namespace UnityEngine::InputSystem {
-struct __InputManager__AvailableDevice;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEvent;
-}
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class InputDeviceCommandDelegate;
-}
-namespace UnityEngine::InputSystem::Layouts {
-class InputDeviceFindControlLayoutDelegate;
-}
-namespace UnityEngine::InputSystem {
-struct __InputManager__DeviceDisableScope;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputStateBlock;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class InputDeviceExecuteCommandDelegate;
-}
-namespace UnityEngine::InputSystem::Layouts {
-struct InputDeviceMatcher;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputDeviceCommand;
-}
-namespace UnityEngine::InputSystem {
-class __InputManager___ListControlLayouts_d__75;
-}
-namespace UnityEngine::InputSystem::Layouts {
-class InputControlLayout;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventBuffer;
-}
-namespace UnityEngine::InputSystem {
-template <typename TDevice> class __InputManager____c__60_1;
-}
-namespace System {
-class Type;
-}
 namespace System {
 template <typename TResult> class Func_1;
 }
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace UnityEngine::InputSystem::Layouts {
-struct InputDeviceDescription;
-}
-namespace UnityEngine::InputSystem {
-struct __InputManager__StateChangeMonitorListener;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct __InputStateBuffers__DoubleBuffers;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputRuntime;
-}
-namespace UnityEngine::InputSystem {
-class InputSettings;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputMetrics;
-}
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerable;
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 class IDisposable;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+template <typename T> struct Nullable_1;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
+}
+namespace UnityEngine::InputSystem::Layouts {
+class InputControlLayout;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct InputDeviceDescription;
+}
+namespace UnityEngine::InputSystem::Layouts {
+class InputDeviceFindControlLayoutDelegate;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct InputDeviceMatcher;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputRuntime;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputStateChangeMonitor;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class InputDeviceCommandDelegate;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputDeviceCommand;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class InputDeviceExecuteCommandDelegate;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventBuffer;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEvent;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputMetrics;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputStateBlock;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputUpdateType;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct __InputStateBuffers__DoubleBuffers;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> struct InlinedArray_1;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct InternedString;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> struct ReadOnlyArray_1;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct TypeTable;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct __MemoryHelpers__BitRegion;
 }
 namespace UnityEngine::InputSystem {
 struct DynamicBitfield;
+}
+namespace UnityEngine::InputSystem {
+struct InputControlLayoutChange;
+}
+namespace UnityEngine::InputSystem {
+template <typename TControl> struct InputControlList_1;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
+namespace UnityEngine::InputSystem {
+struct InputDeviceChange;
+}
+namespace UnityEngine::InputSystem {
+class InputDevice;
+}
+namespace UnityEngine::InputSystem {
+class InputSettings;
+}
+namespace UnityEngine::InputSystem {
+struct __InputDevice__DeviceFlags;
+}
+namespace UnityEngine::InputSystem {
+struct __InputManager__AvailableDevice;
+}
+namespace UnityEngine::InputSystem {
+struct __InputManager__DeviceDisableScope;
+}
+namespace UnityEngine::InputSystem {
+struct __InputManager__StateChangeMonitorListener;
+}
+namespace UnityEngine::InputSystem {
+struct __InputManager__StateChangeMonitorTimeout;
+}
+namespace UnityEngine::InputSystem {
+struct __InputManager__StateChangeMonitorsForDevice;
+}
+namespace UnityEngine::InputSystem {
+class __InputManager___ListControlLayouts_d__75;
+}
+namespace UnityEngine::InputSystem {
+class __InputManager____c;
+}
+namespace UnityEngine::InputSystem {
+template <typename TDevice> class __InputManager____c__60_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -560,11 +565,11 @@ public:
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3819), inst: 1360 }), TypeDefinitionIndex(TypeDefinitionIndex(2331)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3819), inst: 1364 }), TypeDefinitionIndex(TypeDefinitionIndex(2494)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6615)), TypeDefinitionIndex(TypeDefinitionIndex(6671)), TypeDefinitionIndex(TypeDefinitionIndex(3819)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3819), inst: 1365 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2331), inst: 2035 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6298)) CS Name:
-// ::InputManager::<ListControlLayouts>d__75*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2331)), TypeDefinitionIndex(TypeDefinitionIndex(2494)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6615)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3819), inst: 1360 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3819), inst: 1365 }), TypeDefinitionIndex(TypeDefinitionIndex(6671)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3819), inst: 1364 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2331), inst: 2035 }), TypeDefinitionIndex(TypeDefinitionIndex(3819))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6298)) CS
+// Name: ::InputManager::<ListControlLayouts>d__75*
 class CORDL_TYPE __InputManager___ListControlLayouts_d__75 : public ::System::Object {
 public:
   // Declarations
@@ -609,17 +614,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::StringW>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::StringW>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::StringW>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::StringW>* i___System__Collections__Generic__IEnumerable_1___StringW_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::StringW>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::StringW>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::StringW>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::StringW>* i___System__Collections__Generic__IEnumerator_1___StringW_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -858,19 +878,17 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 1224, native_size: -1, calculated_instance_size: 1224, calculated_native_size: 1224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 1000 }), TypeDefinitionIndex(TypeDefinitionIndex(6294)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(6610)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 994 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 993 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(6660), inst: 1002 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3870 }), TypeDefinitionIndex(TypeDefinitionIndex(2324)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6568)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(6669)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6469)), TypeDefinitionIndex(TypeDefinitionIndex(6238)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2324), inst: 600 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6553)), TypeDefinitionIndex(TypeDefinitionIndex(6620)), TypeDefinitionIndex(TypeDefinitionIndex(6595)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2324), inst: 527 }), TypeDefinitionIndex(TypeDefinitionIndex(6712)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2324), inst: 529 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6536)), TypeDefinitionIndex(TypeDefinitionIndex(6240)), TypeDefinitionIndex(TypeDefinitionIndex(6224)), TypeDefinitionIndex(TypeDefinitionIndex(2322)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 1001 }), TypeDefinitionIndex(TypeDefinitionIndex(6239)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2324), inst: 528 }), TypeDefinitionIndex(TypeDefinitionIndex(6537)), TypeDefinitionIndex(TypeDefinitionIndex(6552)), TypeDefinitionIndex(TypeDefinitionIndex(6671)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6292)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 996 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(6660), inst: 992 }), TypeDefinitionIndex(TypeDefinitionIndex(6660))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6300)) CS Name: ::UnityEngine.InputSystem::InputManager*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 993 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 994 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6239)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 1002 }), TypeDefinitionIndex(TypeDefinitionIndex(6610)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 1001 }), TypeDefinitionIndex(TypeDefinitionIndex(6469)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(6660), inst: 996 }), TypeDefinitionIndex(TypeDefinitionIndex(6669)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 1000 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6537)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2324), inst: 600 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2324), inst: 527 }), TypeDefinitionIndex(TypeDefinitionIndex(6294)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2324), inst: 528 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6552)), TypeDefinitionIndex(TypeDefinitionIndex(2324)), TypeDefinitionIndex(TypeDefinitionIndex(6660)), TypeDefinitionIndex(TypeDefinitionIndex(6595)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2322)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3870 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6568)), TypeDefinitionIndex(TypeDefinitionIndex(6712)), TypeDefinitionIndex(TypeDefinitionIndex(6553)), TypeDefinitionIndex(TypeDefinitionIndex(6536)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 992 }), TypeDefinitionIndex(TypeDefinitionIndex(6240)), TypeDefinitionIndex(TypeDefinitionIndex(6224)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2324), inst: 529 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6300)) CS Name: ::UnityEngine.InputSystem::InputManager*
 class CORDL_TYPE InputManager : public ::System::Object {
 public:
   // Declarations
@@ -1373,27 +1391,21 @@ public:
   inline void RegisterControlLayout(::StringW name, ::System::Type* type);
 
   /// @brief Method RegisterControlLayout, addr 0x2aa6060, size 0x4bc, virtual false, abstract: false, final false
-  /// @param name: ::StringW (default: nullptr)
-  /// @param isOverride: bool (default: false)
-  inline void RegisterControlLayout(::StringW json, ::StringW name = nullptr, bool isOverride = false);
+  inline void RegisterControlLayout(::StringW json, ::StringW name, bool isOverride);
 
   /// @brief Method RegisterControlLayoutBuilder, addr 0x2aaca6c, size 0x194, virtual false, abstract: false, final false
-  /// @param baseLayout: ::StringW (default: nullptr)
-  inline void RegisterControlLayoutBuilder(::System::Func_1<::UnityEngine::InputSystem::Layouts::InputControlLayout*>* method, ::StringW name, ::StringW baseLayout = nullptr);
+  inline void RegisterControlLayoutBuilder(::System::Func_1<::UnityEngine::InputSystem::Layouts::InputControlLayout*>* method, ::StringW name, ::StringW baseLayout);
 
   /// @brief Method PerformLayoutPostRegistration, addr 0x2aac4f4, size 0x458, virtual false, abstract: false, final false
-  /// @param isKnownToBeDeviceLayout: bool (default: false)
-  /// @param isOverride: bool (default: false)
   inline void PerformLayoutPostRegistration(::UnityEngine::InputSystem::Utilities::InternedString layoutName,
                                             ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::InternedString> baseLayouts, bool isReplacement,
-                                            bool isKnownToBeDeviceLayout = false, bool isOverride = false);
+                                            bool isKnownToBeDeviceLayout, bool isOverride);
 
   /// @brief Method RegisterPrecompiledLayout, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TDevice> inline void RegisterPrecompiledLayout(::StringW metadata);
 
   /// @brief Method RecreateDevicesUsingLayout, addr 0x2aacc00, size 0x274, virtual false, abstract: false, final false
-  /// @param isKnownToBeDeviceLayout: bool (default: false)
-  inline void RecreateDevicesUsingLayout(::UnityEngine::InputSystem::Utilities::InternedString layout, bool isKnownToBeDeviceLayout = false);
+  inline void RecreateDevicesUsingLayout(::UnityEngine::InputSystem::Utilities::InternedString layout, bool isKnownToBeDeviceLayout);
 
   /// @brief Method IsControlOrChildUsingLayoutRecursive, addr 0x2aacf44, size 0xf0, virtual false, abstract: false, final false
   inline bool IsControlOrChildUsingLayoutRecursive(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::Utilities::InternedString layout);
@@ -1426,9 +1438,7 @@ public:
   inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* TryLoadControlLayout(::UnityEngine::InputSystem::Utilities::InternedString name);
 
   /// @brief Method TryFindMatchingControlLayout, addr 0x2aad908, size 0x430, virtual false, abstract: false, final false
-  /// @param deviceId: int32_t (default: static_cast<int32_t>(0x0))
-  inline ::UnityEngine::InputSystem::Utilities::InternedString TryFindMatchingControlLayout(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> deviceDescription,
-                                                                                            int32_t deviceId = static_cast<int32_t>(0x0));
+  inline ::UnityEngine::InputSystem::Utilities::InternedString TryFindMatchingControlLayout(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> deviceDescription, int32_t deviceId);
 
   /// @brief Method FindOrRegisterDeviceLayoutForType, addr 0x2aae83c, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString FindOrRegisterDeviceLayoutForType(::System::Type* type);
@@ -1437,8 +1447,7 @@ public:
   inline bool IsDeviceLayoutMarkedAsSupportedInSettings(::UnityEngine::InputSystem::Utilities::InternedString layoutName);
 
   /// @brief Method ListControlLayouts, addr 0x2aae9e8, size 0x74, virtual false, abstract: false, final false
-  /// @param basedOn: ::StringW (default: nullptr)
-  inline ::System::Collections::Generic::IEnumerable_1<::StringW>* ListControlLayouts(::StringW basedOn = nullptr);
+  inline ::System::Collections::Generic::IEnumerable_1<::StringW>* ListControlLayouts(::StringW basedOn);
 
   /// @brief Method GetControls, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TControl> inline int32_t GetControls(::StringW path, ByRef<::UnityEngine::InputSystem::InputControlList_1<TControl>> controls);
@@ -1456,23 +1465,15 @@ public:
   inline void NotifyUsageChanged(::UnityEngine::InputSystem::InputDevice* device);
 
   /// @brief Method AddDevice, addr 0x2aaec5c, size 0xe8, virtual false, abstract: false, final false
-  /// @param name: ::StringW (default: nullptr)
-  inline ::UnityEngine::InputSystem::InputDevice* AddDevice(::System::Type* type, ::StringW name = nullptr);
+  inline ::UnityEngine::InputSystem::InputDevice* AddDevice(::System::Type* type, ::StringW name);
 
   /// @brief Method AddDevice, addr 0x2aa651c, size 0x144, virtual false, abstract: false, final false
-  /// @param name: ::StringW (default: nullptr)
-  /// @param variants: ::UnityEngine::InputSystem::Utilities::InternedString (default: {})
-  inline ::UnityEngine::InputSystem::InputDevice* AddDevice(::StringW layout, ::StringW name = nullptr, ::UnityEngine::InputSystem::Utilities::InternedString variants = {});
+  inline ::UnityEngine::InputSystem::InputDevice* AddDevice(::StringW layout, ::StringW name, ::UnityEngine::InputSystem::Utilities::InternedString variants);
 
   /// @brief Method AddDevice, addr 0x2aae248, size 0x1b0, virtual false, abstract: false, final false
-  /// @param deviceName: ::StringW (default: nullptr)
-  /// @param deviceDescription: ::UnityEngine::InputSystem::Layouts::InputDeviceDescription (default: {})
-  /// @param deviceFlags: ::UnityEngine::InputSystem::__InputDevice__DeviceFlags (default: static_cast<int32_t>(0x0))
-  /// @param variants: ::UnityEngine::InputSystem::Utilities::InternedString (default: {})
-  inline ::UnityEngine::InputSystem::InputDevice* AddDevice(::UnityEngine::InputSystem::Utilities::InternedString layout, int32_t deviceId, ::StringW deviceName = nullptr,
-                                                            ::UnityEngine::InputSystem::Layouts::InputDeviceDescription deviceDescription = {},
-                                                            ::UnityEngine::InputSystem::__InputDevice__DeviceFlags deviceFlags = static_cast<int32_t>(0x0),
-                                                            ::UnityEngine::InputSystem::Utilities::InternedString variants = {});
+  inline ::UnityEngine::InputSystem::InputDevice* AddDevice(::UnityEngine::InputSystem::Utilities::InternedString layout, int32_t deviceId, ::StringW deviceName,
+                                                            ::UnityEngine::InputSystem::Layouts::InputDeviceDescription deviceDescription,
+                                                            ::UnityEngine::InputSystem::__InputDevice__DeviceFlags deviceFlags, ::UnityEngine::InputSystem::Utilities::InternedString variants);
 
   /// @brief Method AddDevice, addr 0x2aadd38, size 0x510, virtual false, abstract: false, final false
   inline void AddDevice(::UnityEngine::InputSystem::InputDevice* device);
@@ -1481,32 +1482,21 @@ public:
   inline ::UnityEngine::InputSystem::InputDevice* AddDevice(::UnityEngine::InputSystem::Layouts::InputDeviceDescription description);
 
   /// @brief Method AddDevice, addr 0x2aaf728, size 0x1d8, virtual false, abstract: false, final false
-  /// @param deviceName: ::StringW (default: nullptr)
-  /// @param deviceId: int32_t (default: static_cast<int32_t>(0x0))
-  /// @param deviceFlags: ::UnityEngine::InputSystem::__InputDevice__DeviceFlags (default: static_cast<int32_t>(0x0))
-  inline ::UnityEngine::InputSystem::InputDevice* AddDevice(::UnityEngine::InputSystem::Layouts::InputDeviceDescription description, bool throwIfNoLayoutFound, ::StringW deviceName = nullptr,
-                                                            int32_t deviceId = static_cast<int32_t>(0x0),
-                                                            ::UnityEngine::InputSystem::__InputDevice__DeviceFlags deviceFlags = static_cast<int32_t>(0x0));
+  inline ::UnityEngine::InputSystem::InputDevice* AddDevice(::UnityEngine::InputSystem::Layouts::InputDeviceDescription description, bool throwIfNoLayoutFound, ::StringW deviceName, int32_t deviceId,
+                                                            ::UnityEngine::InputSystem::__InputDevice__DeviceFlags deviceFlags);
 
   /// @brief Method AddDevice, addr 0x2aaf900, size 0xd4, virtual false, abstract: false, final false
-  /// @param deviceName: ::StringW (default: nullptr)
-  /// @param deviceId: int32_t (default: static_cast<int32_t>(0x0))
-  /// @param deviceFlags: ::UnityEngine::InputSystem::__InputDevice__DeviceFlags (default: static_cast<int32_t>(0x0))
   inline ::UnityEngine::InputSystem::InputDevice* AddDevice(::UnityEngine::InputSystem::Layouts::InputDeviceDescription description, ::UnityEngine::InputSystem::Utilities::InternedString layout,
-                                                            ::StringW deviceName = nullptr, int32_t deviceId = static_cast<int32_t>(0x0),
-                                                            ::UnityEngine::InputSystem::__InputDevice__DeviceFlags deviceFlags = static_cast<int32_t>(0x0));
+                                                            ::StringW deviceName, int32_t deviceId, ::UnityEngine::InputSystem::__InputDevice__DeviceFlags deviceFlags);
 
   /// @brief Method RemoveDevice, addr 0x2aa5b94, size 0x464, virtual false, abstract: false, final false
-  /// @param keepOnListOfAvailableDevices: bool (default: false)
-  inline void RemoveDevice(::UnityEngine::InputSystem::InputDevice* device, bool keepOnListOfAvailableDevices = false);
+  inline void RemoveDevice(::UnityEngine::InputSystem::InputDevice* device, bool keepOnListOfAvailableDevices);
 
   /// @brief Method FlushDisconnectedDevices, addr 0x2aafb00, size 0x54, virtual false, abstract: false, final false
   inline void FlushDisconnectedDevices();
 
   /// @brief Method ResetDevice, addr 0x2aafb54, size 0x57c, virtual false, abstract: false, final false
-  /// @param alsoResetDontResetControls: bool (default: false)
-  /// @param issueResetCommand: ::System::Nullable_1<bool> (default: {})
-  inline void ResetDevice(::UnityEngine::InputSystem::InputDevice* device, bool alsoResetDontResetControls = false, ::System::Nullable_1<bool> issueResetCommand = {});
+  inline void ResetDevice(::UnityEngine::InputSystem::InputDevice* device, bool alsoResetDontResetControls, ::System::Nullable_1<bool> issueResetCommand);
 
   /// @brief Method TryGetDevice, addr 0x2ab0298, size 0x128, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputDevice* TryGetDevice(::StringW nameOrLayout);
@@ -1524,8 +1514,7 @@ public:
   inline int32_t GetUnsupportedDevices(::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Layouts::InputDeviceDescription>* descriptions);
 
   /// @brief Method EnableOrDisableDevice, addr 0x2aaf2b8, size 0x42c, virtual false, abstract: false, final false
-  /// @param scope: ::UnityEngine::InputSystem::__InputManager__DeviceDisableScope (default: static_cast<int32_t>(0x0))
-  inline void EnableOrDisableDevice(::UnityEngine::InputSystem::InputDevice* device, bool enable, ::UnityEngine::InputSystem::__InputManager__DeviceDisableScope scope = static_cast<int32_t>(0x0));
+  inline void EnableOrDisableDevice(::UnityEngine::InputSystem::InputDevice* device, bool enable, ::UnityEngine::InputSystem::__InputManager__DeviceDisableScope scope);
 
   /// @brief Method QueueEvent, addr 0x2ab06a8, size 0xcc, virtual false, abstract: false, final false
   inline void QueueEvent(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> eventPtr);
@@ -1625,9 +1614,8 @@ public:
                           ::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType);
 
   /// @brief Method UpdateState, addr 0x2ab00d0, size 0x1c8, virtual false, abstract: false, final false
-  /// @param eventPtr: ::UnityEngine::InputSystem::LowLevel::InputEventPtr (default: {})
   inline bool UpdateState(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType, ::cordl_internals::Ptr<void> statePtr,
-                          uint32_t stateOffsetInDevice, uint32_t stateSize, double_t internalTime, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr = {});
+                          uint32_t stateOffsetInDevice, uint32_t stateSize, double_t internalTime, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
   /// @brief Method WriteStateChange, addr 0x2ab5138, size 0xb4, virtual false, abstract: false, final false
   static inline void WriteStateChange(::UnityEngine::InputSystem::LowLevel::__InputStateBuffers__DoubleBuffers buffers, int32_t deviceIndex,

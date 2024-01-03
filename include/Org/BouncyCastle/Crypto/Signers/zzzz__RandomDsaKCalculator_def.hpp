@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RandomDsaKCalculator)
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Crypto::Signers {
+class IDsaKCalculator;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Crypto::Signers {
-class IDsaKCalculator;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -41,6 +41,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator"
   constexpr operator ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator"
+  constexpr ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* i___Org__BouncyCastle__Crypto__Signers__IDsaKCalculator() noexcept;
 
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_q();
 

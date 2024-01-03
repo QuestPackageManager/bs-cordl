@@ -9,17 +9,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomPrePassBackgroundColorsGradient)
-namespace UnityEngine {
-struct Color32;
-}
 namespace GlobalNamespace {
 class __BloomPrePassBackgroundColorsGradient__Element;
 }
-namespace UnityEngine {
-struct Color;
-}
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
+}
+namespace UnityEngine {
+struct Color32;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Elemen
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14457))
 // CS Name: ::BloomPrePassBackgroundColorsGradient::Element*
 class CORDL_TYPE __BloomPrePassBackgroundColorsGradient__Element : public ::System::Object {

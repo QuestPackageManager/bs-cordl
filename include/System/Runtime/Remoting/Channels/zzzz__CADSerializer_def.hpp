@@ -6,9 +6,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CADSerializer)
-namespace System {
-class Object;
-}
 namespace System::IO {
 class MemoryStream;
 }
@@ -17,6 +14,9 @@ class IMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMethodCallMessage;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Channels {

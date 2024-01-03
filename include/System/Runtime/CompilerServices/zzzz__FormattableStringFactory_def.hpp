@@ -12,13 +12,13 @@ namespace System::Runtime::CompilerServices {
 class __FormattableStringFactory__ConcreteFormattableString;
 }
 namespace System {
-class Object;
-}
-namespace System {
 class FormattableString;
 }
 namespace System {
 class IFormatProvider;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {

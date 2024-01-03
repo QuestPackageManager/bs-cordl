@@ -9,34 +9,34 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MultiplayerLevelSelectionFlowCoordinator)
 namespace GlobalNamespace {
-class ILobbyGameStateController;
-}
-namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-struct SongPackMask;
-}
-namespace GlobalNamespace {
-class ILevelGameplaySetupData;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficultyMask;
 }
 namespace GlobalNamespace {
-class __LevelSelectionFlowCoordinator__State;
+class ILevelGameplaySetupData;
 }
-namespace System {
-class Action;
+namespace GlobalNamespace {
+class ILobbyGameStateController;
+}
+namespace GlobalNamespace {
+struct SongPackMask;
+}
+namespace GlobalNamespace {
+class __LevelSelectionFlowCoordinator__State;
 }
 namespace HMUI {
 class ViewController;
 }
 namespace HMUI {
 struct __ViewController__AnimationType;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {

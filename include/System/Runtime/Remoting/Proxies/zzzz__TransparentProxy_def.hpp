@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TransparentProxy)
-namespace System::Runtime::Remoting::Proxies {
-class RealProxy;
-}
 namespace System::Runtime::Remoting::Contexts {
 class Context;
+}
+namespace System::Runtime::Remoting::Proxies {
+class RealProxy;
 }
 namespace System {
 class Object;

@@ -1,15 +1,21 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/Experimental/zzzz__ValueAnimation_1_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "System/zzzz__Func_4_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__Func_4_def.hpp"
 #include "UnityEngine/UIElements/Experimental/zzzz__IValueAnimationUpdate_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ObjectPool_1_def.hpp"
-#include "System/zzzz__Action_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 /// @brief Convert operator to "::UnityEngine::UIElements::Experimental::IValueAnimationUpdate"
 template <typename T> constexpr UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::operator ::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*() noexcept {
+  return static_cast<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::UIElements::Experimental::IValueAnimationUpdate"
+template <typename T>
+constexpr ::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*
+UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::i___UnityEngine__UIElements__Experimental__IValueAnimationUpdate() noexcept {
   return static_cast<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>(static_cast<void*>(this));
 }
 template <typename T> constexpr int64_t& UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::__get_m_StartTimeMs() {

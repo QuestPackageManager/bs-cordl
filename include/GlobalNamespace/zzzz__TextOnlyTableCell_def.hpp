@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(TextOnlyTableCell)
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace HMUI {
 class ImageView;
 }
 namespace HMUI {
 struct __SelectableCell__TransitionType;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::GlobalNamespace::TextOnlyTableCell);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13664))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13664)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5440))
 // CS Name: ::TextOnlyTableCell*
 class CORDL_TYPE TextOnlyTableCell : public ::HMUI::TableCell {

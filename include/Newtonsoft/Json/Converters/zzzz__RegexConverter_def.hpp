@@ -4,29 +4,29 @@
 CORDL_MODULE_INIT
 #include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 CORDL_MODULE_EXPORT(RegexConverter)
-namespace System::Text::RegularExpressions {
-struct RegexOptions;
+namespace Newtonsoft::Json::Bson {
+class BsonWriter;
+}
+namespace Newtonsoft::Json {
+class JsonReader;
 }
 namespace Newtonsoft::Json {
 class JsonSerializer;
 }
-namespace System::Text::RegularExpressions {
-class Regex;
-}
 namespace Newtonsoft::Json {
 class JsonWriter;
 }
-namespace Newtonsoft::Json {
-class JsonReader;
+namespace System::Text::RegularExpressions {
+struct RegexOptions;
+}
+namespace System::Text::RegularExpressions {
+class Regex;
 }
 namespace System {
 class Object;
 }
 namespace System {
 class Type;
-}
-namespace Newtonsoft::Json::Bson {
-class BsonWriter;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {

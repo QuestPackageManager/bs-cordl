@@ -10,12 +10,6 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RenderChainCommand)
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine {
-struct RectInt;
-}
 namespace System {
 class Action;
 }
@@ -23,16 +17,22 @@ namespace System {
 class Exception;
 }
 namespace UnityEngine::UIElements::UIR {
-class MeshHandle;
-}
-namespace UnityEngine {
-class RenderTexture;
+class DrawParams;
 }
 namespace UnityEngine::UIElements::UIR {
-class DrawParams;
+class MeshHandle;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine {
+struct RectInt;
 }
 namespace UnityEngine {
 struct Rect;
+}
+namespace UnityEngine {
+class RenderTexture;
 }
 namespace UnityEngine {
 class Texture;
@@ -47,8 +47,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::RenderChainCommand);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(7399)), TypeDefinitionIndex(TypeDefinitionIndex(7441)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7399), inst: 383 }), TypeDefinitionIndex(TypeDefinitionIndex(7442))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7444)) CS
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7442)), TypeDefinitionIndex(TypeDefinitionIndex(7441)), TypeDefinitionIndex(TypeDefinitionIndex(9966)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7399), inst: 383 }), TypeDefinitionIndex(TypeDefinitionIndex(7399))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7444)) CS
 // Name: ::UnityEngine.UIElements.UIR::RenderChainCommand*
 class CORDL_TYPE RenderChainCommand : public ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<::UnityEngine::UIElements::UIR::RenderChainCommand*> {
 public:

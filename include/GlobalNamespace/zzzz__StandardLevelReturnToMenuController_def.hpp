@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(StandardLevelReturnToMenuController)
 namespace GlobalNamespace {
+class IReturnToMenuController;
+}
+namespace GlobalNamespace {
 class PrepareLevelCompletionResults;
 }
 namespace GlobalNamespace {
 class StandardLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class IReturnToMenuController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -37,6 +37,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IReturnToMenuController"
   constexpr operator ::GlobalNamespace::IReturnToMenuController*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IReturnToMenuController"
+  constexpr ::GlobalNamespace::IReturnToMenuController* i___GlobalNamespace__IReturnToMenuController() noexcept;
 
   constexpr ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*& __get__standardLevelSceneSetupData();
 

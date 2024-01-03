@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GenericBaker)
+namespace RootMotion {
+class BakerTransform;
+}
 namespace UnityEngine {
 class AnimationClip;
 }
 namespace UnityEngine {
 class Transform;
-}
-namespace RootMotion {
-class BakerTransform;
 }
 // Forward declare root types
 namespace RootMotion {

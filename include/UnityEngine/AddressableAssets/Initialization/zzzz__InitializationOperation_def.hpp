@@ -11,50 +11,50 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InitializationOperation)
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
-}
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
-namespace UnityEngine::AddressableAssets::ResourceLocators {
-class ResourceLocationMap;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-class InitalizationObjectsOperation;
-}
-namespace UnityEngine::AddressableAssets::Utility {
-class ResourceManagerDiagnostics;
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine::AddressableAssets::Initialization {
-class __InitializationOperation____c__DisplayClass18_0;
+class __InitializationOperation____c;
 }
 namespace UnityEngine::AddressableAssets::Initialization {
 class __InitializationOperation____c__DisplayClass16_0;
 }
 namespace UnityEngine::AddressableAssets::Initialization {
-class __InitializationOperation____c;
+class __InitializationOperation____c__DisplayClass18_0;
 }
-namespace UnityEngine::ResourceManagement::Util {
-struct ObjectInitializationData;
+namespace UnityEngine::AddressableAssets::ResourceLocators {
+class ContentCatalogData;
 }
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 class IResourceLocator;
 }
 namespace UnityEngine::AddressableAssets::ResourceLocators {
-class ContentCatalogData;
+class ResourceLocationMap;
 }
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> struct AsyncOperationHandle_1;
+namespace UnityEngine::AddressableAssets::Utility {
+class ResourceManagerDiagnostics;
 }
 namespace UnityEngine::AddressableAssets {
 class AddressablesImpl;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> struct AsyncOperationHandle_1;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+class InitalizationObjectsOperation;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 class IResourceProvider;
+}
+namespace UnityEngine::ResourceManagement::Util {
+struct ObjectInitializationData;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets::Initialization {
@@ -319,10 +319,10 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::__Initi
 // SizeInfo { instance_size: 232, native_size: -1, calculated_instance_size: 232, calculated_native_size: 232, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 796 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 796 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14032)), TypeDefinitionIndex(TypeDefinitionIndex(14125)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 858 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14112)), TypeDefinitionIndex(TypeDefinitionIndex(14033))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14124)) CS Name:
-// ::UnityEngine.AddressableAssets.Initialization::InitializationOperation*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 796 }), TypeDefinitionIndex(TypeDefinitionIndex(14033)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14112)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 858 }), TypeDefinitionIndex(TypeDefinitionIndex(14125)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 796 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14124)) CS
+// Name: ::UnityEngine.AddressableAssets.Initialization::InitializationOperation*
 class CORDL_TYPE InitializationOperation : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> {
 public:
   // Declarations
@@ -426,10 +426,9 @@ public:
                       ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* remoteHashLocation);
 
   /// @brief Method LoadContentCatalog, addr 0x2a1df08, size 0x6a4, virtual false, abstract: false, final false
-  /// @param remoteHashLocation: ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* (default: nullptr)
   static inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>
   LoadContentCatalog(::UnityEngine::AddressableAssets::AddressablesImpl* addressables, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc, ::StringW providerSuffix,
-                     ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* remoteHashLocation = nullptr);
+                     ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* remoteHashLocation);
 
   /// @brief Method LoadContentCatalog, addr 0x2a32620, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>

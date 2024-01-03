@@ -8,41 +8,41 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DateTimeUtils)
-namespace System {
-struct DateTimeKind;
+namespace Newtonsoft::Json::Utilities {
+struct DateTimeParser;
 }
 namespace Newtonsoft::Json::Utilities {
 struct StringReference;
 }
-namespace Newtonsoft::Json::Utilities {
-struct DateTimeParser;
+namespace Newtonsoft::Json {
+struct DateFormatHandling;
 }
 namespace Newtonsoft::Json {
 struct DateTimeZoneHandling;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System::IO {
+class TextWriter;
 }
 namespace System::Xml {
 struct XmlDateTimeSerializationMode;
 }
 namespace System {
-struct DateTime;
+struct DateTimeKind;
 }
 namespace System {
 struct DateTimeOffset;
 }
-namespace System::IO {
-class TextWriter;
-}
-namespace Newtonsoft::Json {
-struct DateFormatHandling;
+namespace System {
+struct DateTime;
 }
 namespace System {
 template <typename T> struct Nullable_1;
 }
 namespace System {
 struct TimeSpan;
-}
-namespace System::Globalization {
-class CultureInfo;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {

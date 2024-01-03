@@ -5,29 +5,29 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__PoolableMemoryPoolProviderBase_1_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(PoolableMemoryPoolProvider_2)
-namespace Zenject {
-class IValidatable;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace System {
-struct Guid;
-}
-namespace Zenject {
-class InjectContext;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace Zenject {
-struct TypeValuePair;
 }
 namespace System {
 class Action;
 }
 namespace System {
+struct Guid;
+}
+namespace System {
 class Object;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class IValidatable;
+}
+namespace Zenject {
+class InjectContext;
+}
+namespace Zenject {
+struct TypeValuePair;
 }
 // Forward declare root types
 namespace Zenject {
@@ -41,7 +41,7 @@ namespace Zenject {
 // cpp template
 template <typename TContract, typename TMemoryPool>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11219), inst: 4841 }), TypeDefinitionIndex(TypeDefinitionIndex(11219))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11219)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11219), inst: 4841 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11220))
 // CS Name: ::Zenject::PoolableMemoryPoolProvider`2<TContract,TMemoryPool>*
 class CORDL_TYPE PoolableMemoryPoolProvider_2 : public ::Zenject::PoolableMemoryPoolProviderBase_1<TContract> {
@@ -52,6 +52,9 @@ public:
 
   /// @brief Convert operator to "::Zenject::IValidatable"
   constexpr operator ::Zenject::IValidatable*() noexcept;
+
+  /// @brief Convert to "::Zenject::IValidatable"
+  constexpr ::Zenject::IValidatable* i___Zenject__IValidatable() noexcept;
 
   constexpr TMemoryPool& __get__pool();
 

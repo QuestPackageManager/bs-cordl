@@ -15,11 +15,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputSystemUIInputModule)
-namespace UnityEngine::InputSystem {
-class InputAction;
-}
-namespace UnityEngine::EventSystems {
-class AxisEventData;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -27,59 +24,62 @@ template <typename T> class Action_1;
 namespace System {
 class Object;
 }
-namespace UnityEngine::InputSystem {
-class InputActionAsset;
+namespace UnityEngine::EventSystems {
+class AxisEventData;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
 }
 namespace UnityEngine::EventSystems {
 struct RaycastResult;
 }
 namespace UnityEngine::InputSystem::UI {
-struct UIPointerBehavior;
-}
-namespace UnityEngine::InputSystem::UI {
 class ExtendedPointerEventData;
 }
 namespace UnityEngine::InputSystem::UI {
-struct __InputSystemUIInputModule__InputActionReferenceState;
-}
-namespace UnityEngine::InputSystem {
-struct __InputAction__CallbackContext;
-}
-namespace UnityEngine::InputSystem::UI {
-struct __PointerModel__ButtonState;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
+struct NavigationModel;
 }
 namespace UnityEngine::InputSystem::UI {
 struct PointerModel;
 }
 namespace UnityEngine::InputSystem::UI {
-struct NavigationModel;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine::InputSystem::UI {
-struct __InputSystemUIInputModule__CursorLockBehavior;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
+struct UIPointerBehavior;
 }
 namespace UnityEngine::InputSystem::UI {
 struct UIPointerType;
 }
-namespace UnityEngine {
-class GameObject;
+namespace UnityEngine::InputSystem::UI {
+struct __InputSystemUIInputModule__CursorLockBehavior;
+}
+namespace UnityEngine::InputSystem::UI {
+struct __InputSystemUIInputModule__InputActionReferenceState;
+}
+namespace UnityEngine::InputSystem::UI {
+struct __PointerModel__ButtonState;
+}
+namespace UnityEngine::InputSystem {
+class InputActionAsset;
+}
+namespace UnityEngine::InputSystem {
+class InputActionReference;
+}
+namespace UnityEngine::InputSystem {
+class InputAction;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
 }
 namespace UnityEngine::InputSystem {
 class InputDevice;
 }
+namespace UnityEngine::InputSystem {
+struct __InputAction__CallbackContext;
+}
+namespace UnityEngine {
+class GameObject;
+}
 namespace UnityEngine {
 class Transform;
-}
-namespace UnityEngine::InputSystem {
-class InputActionReference;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::UI {
@@ -185,10 +185,10 @@ static_assert(offsetof(::UnityEngine::InputSystem::UI::__InputSystemUIInputModul
 // SizeInfo { instance_size: 912, native_size: -1, calculated_instance_size: 912, calculated_native_size: 912, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::UI {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3868 }), TypeDefinitionIndex(TypeDefinitionIndex(6375)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6372)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3106 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(6669), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(13199)), TypeDefinitionIndex(TypeDefinitionIndex(6380)), TypeDefinitionIndex(TypeDefinitionIndex(6669)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6215)), TypeDefinitionIndex(TypeDefinitionIndex(6373)), TypeDefinitionIndex(TypeDefinitionIndex(6378))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6376))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13199)), TypeDefinitionIndex(TypeDefinitionIndex(6669)), TypeDefinitionIndex(TypeDefinitionIndex(6378)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3868 }), TypeDefinitionIndex(TypeDefinitionIndex(6380)), TypeDefinitionIndex(TypeDefinitionIndex(6215)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3106 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 98 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6375)), TypeDefinitionIndex(TypeDefinitionIndex(6373)), TypeDefinitionIndex(TypeDefinitionIndex(6372))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6376))
 // CS Name: ::UnityEngine.InputSystem.UI::InputSystemUIInputModule*
 class CORDL_TYPE InputSystemUIInputModule : public ::UnityEngine::EventSystems::BaseInputModule {
 public:
@@ -800,8 +800,7 @@ public:
   inline void EnableInputAction(::UnityEngine::InputSystem::InputActionReference* inputActionReference);
 
   /// @brief Method TryDisableInputAction, addr 0x2ad3444, size 0x178, virtual false, abstract: false, final false
-  /// @param isComponentDisabling: bool (default: false)
-  inline void TryDisableInputAction(::UnityEngine::InputSystem::InputActionReference* inputActionReference, bool isComponentDisabling = false);
+  inline void TryDisableInputAction(::UnityEngine::InputSystem::InputActionReference* inputActionReference, bool isComponentDisabling);
 
   /// @brief Method GetPointerStateIndexFor, addr 0x2ad0468, size 0x130, virtual false, abstract: false, final false
   inline int32_t GetPointerStateIndexFor(int32_t pointerOrTouchId);
@@ -813,13 +812,11 @@ public:
   inline int32_t GetPointerStateIndexFor(ByRef<::UnityEngine::InputSystem::__InputAction__CallbackContext> context);
 
   /// @brief Method GetPointerStateIndexFor, addr 0x2ad4818, size 0x8a0, virtual false, abstract: false, final false
-  /// @param createIfNotExists: bool (default: true)
-  inline int32_t GetPointerStateIndexFor(::UnityEngine::InputSystem::InputControl* control, bool createIfNotExists = true);
+  inline int32_t GetPointerStateIndexFor(::UnityEngine::InputSystem::InputControl* control, bool createIfNotExists);
 
   /// @brief Method AllocatePointer, addr 0x2ad5184, size 0x234, virtual false, abstract: false, final false
-  /// @param touchControl: ::UnityEngine::InputSystem::InputControl* (default: nullptr)
   inline int32_t AllocatePointer(int32_t pointerId, int32_t touchId, ::UnityEngine::InputSystem::UI::UIPointerType pointerType, ::UnityEngine::InputSystem::InputControl* control,
-                                 ::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::InputControl* touchControl = nullptr);
+                                 ::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::InputControl* touchControl);
 
   /// @brief Method SendPointerExitEventsAndRemovePointer, addr 0x2ad4644, size 0xcc, virtual false, abstract: false, final false
   inline void SendPointerExitEventsAndRemovePointer(int32_t index);

@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(DateTimeOffsetConverter)
 namespace System::ComponentModel {
 class ITypeDescriptorContext;
 }
+namespace System::Globalization {
+class CultureInfo;
+}
 namespace System {
 class Object;
 }
 namespace System {
 class Type;
-}
-namespace System::Globalization {
-class CultureInfo;
 }
 // Forward declare root types
 namespace System::ComponentModel {

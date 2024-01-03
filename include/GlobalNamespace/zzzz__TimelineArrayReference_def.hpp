@@ -8,11 +8,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimelineArrayReference)
-namespace TMPro {
-class TextMeshPro;
-}
-namespace UnityEngine {
-class CanvasGroup;
+namespace GlobalNamespace {
+class DirectionalLight;
 }
 namespace GlobalNamespace {
 class TubeBloomPrePassLight;
@@ -20,8 +17,11 @@ class TubeBloomPrePassLight;
 namespace GlobalNamespace {
 struct __TimelineArrayReference__ArrayTypes;
 }
-namespace GlobalNamespace {
-class DirectionalLight;
+namespace TMPro {
+class TextMeshPro;
+}
+namespace UnityEngine {
+class CanvasGroup;
 }
 namespace UnityEngine {
 class Transform;

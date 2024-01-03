@@ -9,7 +9,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(OnScreenStick)
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+class IDragHandler;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
 }
 namespace UnityEngine::EventSystems {
 class IPointerDownHandler;
@@ -18,10 +21,7 @@ namespace UnityEngine::EventSystems {
 class IPointerUpHandler;
 }
 namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine::EventSystems {
-class IDragHandler;
+class PointerEventData;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::OnScreen {
@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::OnScreen::OnScreenStick);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::OnScreen {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(6388))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(6388))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6389))
 // CS Name: ::UnityEngine.InputSystem.OnScreen::OnScreenStick*
 class CORDL_TYPE OnScreenStick : public ::UnityEngine::InputSystem::OnScreen::OnScreenControl {
@@ -58,14 +58,26 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerDownHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerDownHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerDownHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerDownHandler* i___UnityEngine__EventSystems__IPointerDownHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerUpHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerUpHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerUpHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerUpHandler* i___UnityEngine__EventSystems__IPointerUpHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IDragHandler"
   constexpr operator ::UnityEngine::EventSystems::IDragHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IDragHandler"
+  constexpr ::UnityEngine::EventSystems::IDragHandler* i___UnityEngine__EventSystems__IDragHandler() noexcept;
 
   constexpr float_t& __get_m_MovementRange();
 

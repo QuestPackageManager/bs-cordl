@@ -8,40 +8,40 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MultiplayerOutroAnimationController)
 namespace GlobalNamespace {
+class GameplayCoreSceneSetupData;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+class MultiplayerLayoutProvider;
+}
+namespace GlobalNamespace {
 class MultiplayerPlayersManager;
 }
 namespace GlobalNamespace {
 class MultiplayerResultsData;
 }
 namespace GlobalNamespace {
-class MultiplayerScoreRingManager;
-}
-namespace GlobalNamespace {
 class MultiplayerResultsPyramidView;
 }
-namespace UnityEngine::Playables {
-class PlayableDirector;
-}
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace GlobalNamespace {
-class GameplayCoreSceneSetupData;
+class MultiplayerScoreRingManager;
 }
 namespace System {
 class Action;
 }
-namespace GlobalNamespace {
-class MultiplayerLayoutProvider;
+namespace UnityEngine::Playables {
+class PlayableDirector;
 }
 namespace UnityEngine {
-class Transform;
+class GameObject;
 }
 namespace UnityEngine {
 struct PropertyName;
 }
 namespace UnityEngine {
-class GameObject;
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -53,7 +53,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerOutroAnimationController);
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10159)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10159))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5232))
 // CS Name: ::MultiplayerOutroAnimationController*
 class CORDL_TYPE MultiplayerOutroAnimationController : public ::UnityEngine::MonoBehaviour {

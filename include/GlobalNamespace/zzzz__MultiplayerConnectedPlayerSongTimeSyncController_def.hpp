@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerConnectedPlayerSongTimeSyncController)
 namespace GlobalNamespace {
-class __MultiplayerConnectedPlayerSongTimeSyncController__InitData;
+class FloatSO;
+}
+namespace GlobalNamespace {
+class IAudioTimeSource;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace GlobalNamespace {
-class FloatSO;
-}
-namespace GlobalNamespace {
-class IAudioTimeSource;
+class __MultiplayerConnectedPlayerSongTimeSyncController__InitData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -169,6 +169,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IAudioTimeSource"
   constexpr operator ::GlobalNamespace::IAudioTimeSource*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IAudioTimeSource"
+  constexpr ::GlobalNamespace::IAudioTimeSource* i___GlobalNamespace__IAudioTimeSource() noexcept;
 
   constexpr float_t& __get__audioSyncLerpSpeed();
 

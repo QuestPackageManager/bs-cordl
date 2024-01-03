@@ -10,11 +10,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRControllerTest)
-namespace UnityEngine::UI {
-class Text;
-}
 namespace GlobalNamespace {
 class __OVRControllerTest__BoolMonitor;
+}
+namespace GlobalNamespace {
+class __OVRControllerTest__BoolMonitor__BoolGenerator;
 }
 namespace GlobalNamespace {
 class __OVRControllerTest____c;
@@ -25,8 +25,8 @@ template <typename T> class List_1;
 namespace System::Text {
 class StringBuilder;
 }
-namespace GlobalNamespace {
-class __OVRControllerTest__BoolMonitor__BoolGenerator;
+namespace System {
+class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
@@ -34,8 +34,8 @@ class IAsyncResult;
 namespace System {
 class Object;
 }
-namespace System {
-class AsyncCallback;
+namespace UnityEngine::UI {
+class Text;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -177,8 +177,7 @@ public:
   static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor* New_ctor(::StringW name, ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* generator, float_t displayTimeout);
 
   /// @brief Method .ctor, addr 0x27a6cf4, size 0x78, virtual false, abstract: false, final false
-  /// @param displayTimeout: float_t (default: 0.5)
-  inline void _ctor(::StringW name, ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* generator, float_t displayTimeout = 0.5);
+  inline void _ctor(::StringW name, ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* generator, float_t displayTimeout);
 
   /// @brief Method Update, addr 0x27a6d6c, size 0x94, virtual false, abstract: false, final false
   inline void Update();

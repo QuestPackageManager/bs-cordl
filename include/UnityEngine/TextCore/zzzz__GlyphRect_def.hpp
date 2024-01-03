@@ -41,6 +41,9 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::TextCore::GlyphRect>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::TextCore::GlyphRect>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::TextCore::GlyphRect>"
+  constexpr ::System::IEquatable_1<::UnityEngine::TextCore::GlyphRect>* i___System__IEquatable_1___UnityEngine__TextCore__GlyphRect_();
+
   static inline void setStaticF_s_ZeroGlyphRect(::UnityEngine::TextCore::GlyphRect value);
 
   static inline ::UnityEngine::TextCore::GlyphRect getStaticF_s_ZeroGlyphRect();

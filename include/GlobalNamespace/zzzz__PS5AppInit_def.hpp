@@ -5,28 +5,28 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__AppInit_def.hpp"
 CORDL_MODULE_EXPORT(PS5AppInit)
 namespace GlobalNamespace {
-class MainSystemInit;
+class AppInitScenesTransitionSetupDataContainerSO;
 }
 namespace GlobalNamespace {
 class DefaultScenesTransitionsFromInit;
 }
-namespace System::Threading::Tasks {
-class Task;
+namespace GlobalNamespace {
+class MainSystemInit;
+}
+namespace GlobalNamespace {
+class PS5SharedPackageSKUsSO;
 }
 namespace GlobalNamespace {
 class SonyBackgroundExecutionHelper;
 }
 namespace GlobalNamespace {
-class AppInitScenesTransitionSetupDataContainerSO;
+class SonyOnGoingToBackgroundSaveHandler;
 }
-namespace GlobalNamespace {
-class PS5SharedPackageSKUsSO;
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace UnityEngine {
 class GameObject;
-}
-namespace GlobalNamespace {
-class SonyOnGoingToBackgroundSaveHandler;
 }
 // Forward declare root types
 namespace GlobalNamespace {

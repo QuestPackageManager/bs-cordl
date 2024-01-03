@@ -6,32 +6,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(PlayableDirector)
-namespace UnityEngine {
-class Object;
-}
 namespace System {
 template <typename T> class Action_1;
 }
-namespace UnityEngine {
-class IExposedPropertyTable;
+namespace UnityEngine::Playables {
+struct DirectorWrapMode;
 }
 namespace UnityEngine::Playables {
 struct FrameRate;
 }
 namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
-namespace UnityEngine::Playables {
-struct DirectorWrapMode;
-}
-namespace UnityEngine {
-struct PropertyName;
+struct PlayState;
 }
 namespace UnityEngine::Playables {
 class PlayableAsset;
 }
 namespace UnityEngine::Playables {
-struct PlayState;
+struct PlayableGraph;
+}
+namespace UnityEngine {
+class IExposedPropertyTable;
+}
+namespace UnityEngine {
+class Object;
+}
+namespace UnityEngine {
+struct PropertyName;
 }
 namespace UnityEngine {
 class ScriptableObject;
@@ -75,6 +75,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::IExposedPropertyTable"
   constexpr operator ::UnityEngine::IExposedPropertyTable*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::IExposedPropertyTable"
+  constexpr ::UnityEngine::IExposedPropertyTable* i___UnityEngine__IExposedPropertyTable() noexcept;
 
   constexpr ::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*& __get_played();
 

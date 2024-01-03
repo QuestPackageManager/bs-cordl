@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(SolverManager)
 namespace UnityEngine {
-class Animator;
+class Animation;
 }
 namespace UnityEngine {
-class Animation;
+class Animator;
 }
 namespace UnityEngine {
 class Transform;

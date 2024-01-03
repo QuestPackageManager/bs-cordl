@@ -87,8 +87,7 @@ public:
   inline void DeleteCookingFile();
 
   /// @brief Method WriteToLogFile, addr 0x21b1904, size 0x248, virtual false, abstract: false, final false
-  /// @param checkLastLogStr: bool (default: true)
-  inline void WriteToLogFile(::StringW logStr, bool checkLastLogStr = true);
+  inline void WriteToLogFile(::StringW logStr, bool checkLastLogStr);
 
   /// @brief Method GetFileSizeOfLogFile, addr 0x21b1d0c, size 0x88, virtual false, abstract: false, final false
   inline int64_t GetFileSizeOfLogFile();

@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(ButtonStaticAnimations)
 namespace HMUI {
 class NoTransitionsButton;
 }
-namespace UnityEngine {
-class AnimationClip;
-}
 namespace HMUI {
 struct __NoTransitionsButton__SelectionState;
+}
+namespace UnityEngine {
+class AnimationClip;
 }
 // Forward declare root types
 namespace HMUI {

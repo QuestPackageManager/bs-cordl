@@ -7,8 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapCharacteristicsDropdown)
-namespace System {
-template <typename T> class Action_1;
+namespace GlobalNamespace {
+class BeatmapCharacteristicCollection;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
+class __BeatmapCharacteristicsDropdown____c;
 }
 namespace HMUI {
 class DropdownWithTableView;
@@ -16,14 +22,8 @@ class DropdownWithTableView;
 namespace HMUI {
 class SimpleTextDropdown;
 }
-namespace GlobalNamespace {
-class __BeatmapCharacteristicsDropdown____c;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicCollection;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

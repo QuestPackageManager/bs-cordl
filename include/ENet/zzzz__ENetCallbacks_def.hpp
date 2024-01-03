@@ -8,10 +8,10 @@ namespace ENet {
 class AllocCallback;
 }
 namespace ENet {
-class NoMemoryCallback;
+class FreeCallback;
 }
 namespace ENet {
-class FreeCallback;
+class NoMemoryCallback;
 }
 // Forward declare root types
 namespace ENet {

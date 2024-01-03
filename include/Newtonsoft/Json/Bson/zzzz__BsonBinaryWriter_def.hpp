@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BsonBinaryWriter)
-namespace System {
-struct DateTimeKind;
+namespace Newtonsoft::Json::Bson {
+class BsonToken;
+}
+namespace System::IO {
+class BinaryWriter;
 }
 namespace System::Text {
 class Encoding;
 }
-namespace Newtonsoft::Json::Bson {
-class BsonToken;
+namespace System {
+struct DateTimeKind;
 }
 namespace System {
 template <typename T> struct Nullable_1;
-}
-namespace System::IO {
-class BinaryWriter;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Bson {

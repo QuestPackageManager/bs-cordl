@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(JsonPosition)
-namespace System::Text {
-class StringBuilder;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace Newtonsoft::Json {
+class IJsonLineInfo;
 }
 namespace Newtonsoft::Json {
 struct JsonContainerType;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Text {
+class StringBuilder;
+}
 namespace System {
 template <typename T> struct Nullable_1;
-}
-namespace Newtonsoft::Json {
-class IJsonLineInfo;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {

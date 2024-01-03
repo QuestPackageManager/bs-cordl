@@ -15,53 +15,59 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputActionAsset)
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
-namespace System::Collections {
-class IEnumerator;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace UnityEngine::InputSystem {
-class InputAction;
+namespace System::Collections {
+class IEnumerable;
 }
-namespace UnityEngine::InputSystem {
-struct __InputActionAsset__ReadFileJson;
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+struct Guid;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 template <typename T> struct Nullable_1;
+}
+namespace System {
+class Object;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> struct ReadOnlyArray_1;
 }
 namespace UnityEngine::InputSystem {
-struct InputBinding;
-}
-namespace UnityEngine::InputSystem {
 class IInputActionCollection2;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace UnityEngine::InputSystem {
-class InputActionMap;
-}
-namespace UnityEngine::InputSystem {
-class __InputActionAsset___get_bindings_d__8;
-}
-namespace System {
-struct Guid;
 }
 namespace UnityEngine::InputSystem {
 class IInputActionCollection;
 }
 namespace UnityEngine::InputSystem {
-struct __InputActionRebindingExtensions__ParameterOverride;
+class InputActionMap;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace UnityEngine::InputSystem {
+class InputActionState;
+}
+namespace UnityEngine::InputSystem {
+class InputAction;
+}
+namespace UnityEngine::InputSystem {
+struct InputBinding;
+}
+namespace UnityEngine::InputSystem {
+struct InputControlScheme;
+}
+namespace UnityEngine::InputSystem {
+class InputDevice;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionAsset__ReadFileJson;
 }
 namespace UnityEngine::InputSystem {
 struct __InputActionAsset__WriteFileJson;
@@ -70,25 +76,19 @@ namespace UnityEngine::InputSystem {
 class __InputActionAsset___GetEnumerator_d__31;
 }
 namespace UnityEngine::InputSystem {
-struct InputControlScheme;
-}
-namespace UnityEngine::InputSystem {
-class InputActionState;
-}
-namespace System {
-class IDisposable;
-}
-namespace System {
-class Object;
+class __InputActionAsset___get_bindings_d__8;
 }
 namespace UnityEngine::InputSystem {
 struct __InputActionMap__ReadMapJson;
 }
 namespace UnityEngine::InputSystem {
-struct __InputControlScheme__SchemeJson;
+struct __InputActionMap__WriteMapJson;
 }
 namespace UnityEngine::InputSystem {
-struct __InputActionMap__WriteMapJson;
+struct __InputActionRebindingExtensions__ParameterOverride;
+}
+namespace UnityEngine::InputSystem {
+struct __InputControlScheme__SchemeJson;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -211,7 +211,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputActionAsset__ReadFileJ
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6187))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6187)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6137))
 // CS Name: ::InputActionAsset::<get_bindings>d__8*
 class CORDL_TYPE __InputActionAsset___get_bindings_d__8 : public ::System::Object {
@@ -252,17 +252,34 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputBinding>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputBinding>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputBinding>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputBinding>*
+  i___System__Collections__Generic__IEnumerable_1___UnityEngine__InputSystem__InputBinding_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputBinding>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputBinding>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputBinding>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputBinding>*
+  i___System__Collections__Generic__IEnumerator_1___UnityEngine__InputSystem__InputBinding_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -413,8 +430,9 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputActionAsset___get_bind
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6701)), TypeDefinitionIndex(TypeDefinitionIndex(6134)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6701), inst: 3103 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6138)) CS Name: ::InputActionAsset::<GetEnumerator>d__31*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6134)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6701), inst: 3103 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6701)), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6138)) CS Name:
+// ::InputActionAsset::<GetEnumerator>d__31*
 class CORDL_TYPE __InputActionAsset___GetEnumerator_d__31 : public ::System::Object {
 public:
   // Declarations
@@ -447,11 +465,21 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputAction*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputAction*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputAction*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputAction*>*
+  i___System__Collections__Generic__IEnumerator_1___UnityEngine__InputSystem__InputAction__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -574,9 +602,9 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputActionAsset___GetEnume
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3105 }), TypeDefinitionIndex(TypeDefinitionIndex(6142)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6187)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(10210))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6139))
-// CS Name: ::UnityEngine.InputSystem::InputActionAsset*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(6187)), TypeDefinitionIndex(TypeDefinitionIndex(6142)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10210)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3105 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6139)) CS
+// Name: ::UnityEngine.InputSystem::InputActionAsset*
 class CORDL_TYPE InputActionAsset : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
@@ -629,14 +657,27 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::IInputActionCollection2"
   constexpr operator ::UnityEngine::InputSystem::IInputActionCollection2*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::InputSystem::IInputActionCollection2"
+  constexpr ::UnityEngine::InputSystem::IInputActionCollection2* i___UnityEngine__InputSystem__IInputActionCollection2() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::InputSystem::IInputActionCollection"
   constexpr operator ::UnityEngine::InputSystem::IInputActionCollection*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::InputSystem::IInputActionCollection"
+  constexpr ::UnityEngine::InputSystem::IInputActionCollection* i___UnityEngine__InputSystem__IInputActionCollection() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputAction*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputAction*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputAction*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputAction*>*
+  i___System__Collections__Generic__IEnumerable_1___UnityEngine__InputSystem__InputAction__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::ArrayW<::UnityEngine::InputSystem::InputActionMap*, ::Array<::UnityEngine::InputSystem::InputActionMap*>*>& __get_m_ActionMaps();
 
@@ -720,15 +761,13 @@ public:
   static inline ::UnityEngine::InputSystem::InputActionAsset* FromJson(::StringW json);
 
   /// @brief Method FindAction, addr 0x2a383c4, size 0x330, virtual true, abstract: false, final true
-  /// @param throwIfNotFound: bool (default: false)
-  inline ::UnityEngine::InputSystem::InputAction* FindAction(::StringW actionNameOrId, bool throwIfNotFound = false);
+  inline ::UnityEngine::InputSystem::InputAction* FindAction(::StringW actionNameOrId, bool throwIfNotFound);
 
   /// @brief Method FindBinding, addr 0x2a38e70, size 0xec, virtual true, abstract: false, final true
   inline int32_t FindBinding(::UnityEngine::InputSystem::InputBinding mask, ByRef<::UnityEngine::InputSystem::InputAction*> action);
 
   /// @brief Method FindActionMap, addr 0x2a3903c, size 0x1cc, virtual false, abstract: false, final false
-  /// @param throwIfNotFound: bool (default: false)
-  inline ::UnityEngine::InputSystem::InputActionMap* FindActionMap(::StringW nameOrId, bool throwIfNotFound = false);
+  inline ::UnityEngine::InputSystem::InputActionMap* FindActionMap(::StringW nameOrId, bool throwIfNotFound);
 
   /// @brief Method FindActionMap, addr 0x2a39250, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionMap* FindActionMap(::System::Guid id);

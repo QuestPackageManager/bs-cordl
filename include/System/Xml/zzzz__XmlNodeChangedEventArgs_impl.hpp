@@ -2,8 +2,8 @@
 #include "System/Xml/zzzz__XmlNodeChangedAction_impl.hpp"
 #include "System/zzzz__EventArgs_impl.hpp"
 #include "System/Xml/zzzz__XmlNodeChangedEventArgs_def.hpp"
-#include "System/Xml/zzzz__XmlNode_def.hpp"
 #include "System/Xml/zzzz__XmlNodeChangedAction_def.hpp"
+#include "System/Xml/zzzz__XmlNode_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlNodeChangedEventArgs._ctor
 template <>
 
@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x2891780;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlNodeChangedEventArgs*>::get(), ".ctor", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x289181c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlNodeChangedEventArgs*>::get(), "get_Action",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;

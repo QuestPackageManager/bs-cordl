@@ -2,34 +2,58 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__ValueTuple_2_impl.hpp"
 #include "GlobalNamespace/zzzz__ShuffleExtensions_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "GlobalNamespace/zzzz__ShuffleExtensions_def.hpp"
-#include "System/zzzz__ValueTuple_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/zzzz__Random_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Random_def.hpp"
+#include "System/zzzz__ValueTuple_2_def.hpp"
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
 template <typename T> constexpr GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+template <typename T>
+constexpr ::System::Collections::Generic::IEnumerable_1<T>*
+GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::i___System__Collections__Generic__IEnumerable_1_T_() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename T> constexpr GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::operator ::System::Collections::IEnumerable*() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename T> constexpr ::System::Collections::IEnumerable* GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
 template <typename T> constexpr GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::operator ::System::Collections::Generic::IEnumerator_1<T>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
+template <typename T>
+constexpr ::System::Collections::Generic::IEnumerator_1<T>*
+GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::i___System__Collections__Generic__IEnumerator_1_T_() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<T>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 template <typename T> constexpr GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::IEnumerator"
+template <typename T> constexpr ::System::Collections::IEnumerator* GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::i___System__Collections__IEnumerator() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::IDisposable"
 template <typename T> constexpr GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename T> constexpr ::System::IDisposable* GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 template <typename T> constexpr int32_t& GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::__get___1__state() {
@@ -297,20 +321,42 @@ template <typename T> constexpr ::GlobalNamespace::__ShuffleExtensions___PickRan
 template <typename T> constexpr GlobalNamespace::__ShuffleExtensions___TakeWithTombstone_d__2_1<T>::operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+template <typename T>
+constexpr ::System::Collections::Generic::IEnumerable_1<T>* GlobalNamespace::__ShuffleExtensions___TakeWithTombstone_d__2_1<T>::i___System__Collections__Generic__IEnumerable_1_T_() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename T> constexpr GlobalNamespace::__ShuffleExtensions___TakeWithTombstone_d__2_1<T>::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename T> constexpr ::System::Collections::IEnumerable* GlobalNamespace::__ShuffleExtensions___TakeWithTombstone_d__2_1<T>::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
 template <typename T> constexpr GlobalNamespace::__ShuffleExtensions___TakeWithTombstone_d__2_1<T>::operator ::System::Collections::Generic::IEnumerator_1<T>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<T>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
+template <typename T>
+constexpr ::System::Collections::Generic::IEnumerator_1<T>* GlobalNamespace::__ShuffleExtensions___TakeWithTombstone_d__2_1<T>::i___System__Collections__Generic__IEnumerator_1_T_() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<T>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 template <typename T> constexpr GlobalNamespace::__ShuffleExtensions___TakeWithTombstone_d__2_1<T>::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::IEnumerator"
+template <typename T> constexpr ::System::Collections::IEnumerator* GlobalNamespace::__ShuffleExtensions___TakeWithTombstone_d__2_1<T>::i___System__Collections__IEnumerator() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::IDisposable"
 template <typename T> constexpr GlobalNamespace::__ShuffleExtensions___TakeWithTombstone_d__2_1<T>::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename T> constexpr ::System::IDisposable* GlobalNamespace::__ShuffleExtensions___TakeWithTombstone_d__2_1<T>::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 template <typename T> constexpr int32_t& GlobalNamespace::__ShuffleExtensions___TakeWithTombstone_d__2_1<T>::__get___1__state() {
@@ -514,8 +560,19 @@ template <typename T1, typename T2>
 constexpr GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::operator ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<T1, T2>>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<T1, T2>>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<T1,T2>>"
+template <typename T1, typename T2>
+constexpr ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<T1, T2>>*
+GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::i___System__Collections__Generic__IEnumerable_1___System__ValueTuple_2_T1_T2__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<T1, T2>>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename T1, typename T2> constexpr GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename T1, typename T2>
+constexpr ::System::Collections::IEnumerable* GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<T1,T2>>"
@@ -523,12 +580,27 @@ template <typename T1, typename T2>
 constexpr GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::operator ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<T1, T2>>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<T1, T2>>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<T1,T2>>"
+template <typename T1, typename T2>
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<T1, T2>>*
+GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::i___System__Collections__Generic__IEnumerator_1___System__ValueTuple_2_T1_T2__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<T1, T2>>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 template <typename T1, typename T2> constexpr GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::IEnumerator"
+template <typename T1, typename T2>
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::i___System__Collections__IEnumerator() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::IDisposable"
 template <typename T1, typename T2> constexpr GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename T1, typename T2> constexpr ::System::IDisposable* GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 template <typename T1, typename T2> constexpr int32_t& GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__get___1__state() {

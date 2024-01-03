@@ -10,14 +10,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(IKSolverTrigonometric)
-namespace UnityEngine {
-struct Quaternion;
+namespace RootMotion::FinalIK {
+class __IKSolverTrigonometric__TrigonometricBone;
 }
 namespace RootMotion::FinalIK {
 class __IKSolver__Point;
 }
-namespace RootMotion::FinalIK {
-class __IKSolverTrigonometric__TrigonometricBone;
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine {
 class Transform;
@@ -111,7 +111,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__IKSolverTrigonometric__Trigonome
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 165, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(12564))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12564)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12582))
 // CS Name: ::RootMotion.FinalIK::IKSolverTrigonometric*
 class CORDL_TYPE IKSolverTrigonometric : public ::RootMotion::FinalIK::IKSolver {

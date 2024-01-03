@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MultiplayerPlacementErrorCodeMethods)
 namespace GlobalNamespace {
-struct MultiplayerPlacementErrorCode;
+struct ConnectionFailedReason;
 }
 namespace GlobalNamespace {
-struct ConnectionFailedReason;
+struct MultiplayerPlacementErrorCode;
 }
 // Forward declare root types
 namespace GlobalNamespace {

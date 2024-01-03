@@ -13,16 +13,13 @@ namespace GlobalNamespace {
 template <typename T> class IOVRAnchorComponent_1;
 }
 namespace GlobalNamespace {
-struct __OVRPlugin__SpaceComponentType;
-}
-namespace System {
-class Object;
-}
-namespace GlobalNamespace {
 struct OVRAnchor;
 }
 namespace GlobalNamespace {
 template <typename TResult> struct OVRTask_1;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__SpaceComponentType;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -32,6 +29,9 @@ struct Guid;
 }
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -67,8 +67,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRRoomLayout>"
   constexpr operator ::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRRoomLayout>*();
 
+  /// @brief Convert to "::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRRoomLayout>"
+  constexpr ::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRRoomLayout>* i___GlobalNamespace__IOVRAnchorComponent_1___GlobalNamespace__OVRRoomLayout_();
+
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::OVRRoomLayout>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::OVRRoomLayout>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::OVRRoomLayout>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::OVRRoomLayout>* i___System__IEquatable_1___GlobalNamespace__OVRRoomLayout_();
 
   static inline void setStaticF_Null(::GlobalNamespace::OVRRoomLayout value);
 

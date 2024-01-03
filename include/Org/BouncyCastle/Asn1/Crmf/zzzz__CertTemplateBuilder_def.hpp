@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CertTemplateBuilder)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+namespace Org::BouncyCastle::Asn1::Crmf {
+class CertTemplate;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1EncodableVector;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class SubjectPublicKeyInfo;
+namespace Org::BouncyCastle::Asn1::Crmf {
+class OptionalValidity;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class SubjectPublicKeyInfo;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
@@ -23,17 +23,17 @@ class X509Extensions;
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
 }
-namespace Org::BouncyCastle::Asn1::Crmf {
-class OptionalValidity;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1EncodableVector;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerBitString;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1::Crmf {
-class CertTemplate;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Crmf {

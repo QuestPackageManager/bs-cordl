@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(NetworkCredential)
-namespace System {
-class Uri;
-}
 namespace System::Net {
 class ICredentials;
 }
 namespace System::Security {
 class SecureString;
+}
+namespace System {
+class Uri;
 }
 // Forward declare root types
 namespace System::Net {
@@ -47,6 +47,9 @@ public:
 
   /// @brief Convert operator to "::System::Net::ICredentials"
   constexpr operator ::System::Net::ICredentials*() noexcept;
+
+  /// @brief Convert to "::System::Net::ICredentials"
+  constexpr ::System::Net::ICredentials* i___System__Net__ICredentials() noexcept;
 
   constexpr ::StringW& __get_m_domain();
 

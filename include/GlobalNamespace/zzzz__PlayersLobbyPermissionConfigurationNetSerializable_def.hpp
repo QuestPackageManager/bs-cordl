@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PoolableSerializable_def.hpp"
 CORDL_MODULE_EXPORT(PlayersLobbyPermissionConfigurationNetSerializable)
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace GlobalNamespace {
+class PlayerLobbyPermissionConfigurationNetSerializable;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace GlobalNamespace {
-class PlayerLobbyPermissionConfigurationNetSerializable;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

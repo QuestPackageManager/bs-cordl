@@ -5,35 +5,35 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Asn1CipherBuilderWithKey)
-namespace Org::BouncyCastle::Crypto {
-class ICipherBuilderWithKey;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Crypto {
+class ICipherBuilderWithKey;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherBuilder;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherBuilder;
+class ICipher;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace System::IO {
 class Stream;
 }
-namespace Org::BouncyCastle::Crypto {
-class ICipher;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Operators {
@@ -64,8 +64,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherBuilderWithKey"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherBuilderWithKey"
+  constexpr ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* i___Org__BouncyCastle__Crypto__ICipherBuilderWithKey() noexcept;
+
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherBuilder"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherBuilder*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherBuilder"
+  constexpr ::Org::BouncyCastle::Crypto::ICipherBuilder* i___Org__BouncyCastle__Crypto__ICipherBuilder() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::Parameters::KeyParameter*& __get_encKey();
 

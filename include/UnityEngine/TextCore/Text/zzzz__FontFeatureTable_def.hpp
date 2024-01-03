@@ -8,17 +8,17 @@ CORDL_MODULE_EXPORT(FontFeatureTable)
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace UnityEngine::TextCore::Text {
-class __FontFeatureTable____c;
-}
-namespace UnityEngine::TextCore::LowLevel {
-struct GlyphPairAdjustmentRecord;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine::TextCore::LowLevel {
+struct GlyphPairAdjustmentRecord;
+}
+namespace UnityEngine::TextCore::Text {
+class __FontFeatureTable____c;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {

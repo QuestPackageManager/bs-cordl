@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CancellationToken)
-namespace System {
-class Object;
+namespace System::Threading {
+struct CancellationTokenRegistration;
 }
 namespace System::Threading {
 class CancellationTokenSource;
 }
 namespace System::Threading {
-struct CancellationTokenRegistration;
-}
-namespace System::Threading {
 class __CancellationToken____c;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System {
 class Action;
 }
 namespace System {
-template <typename T> class Action_1;
+class Object;
 }
 // Forward declare root types
 namespace System::Threading {

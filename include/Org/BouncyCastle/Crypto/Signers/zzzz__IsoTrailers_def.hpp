@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IsoTrailers)
-namespace System::Collections {
-class IDictionary;
-}
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
+}
+namespace System::Collections {
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {

@@ -42,6 +42,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBeatmapLevelCollection"
   constexpr operator ::GlobalNamespace::IBeatmapLevelCollection*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IBeatmapLevelCollection"
+  constexpr ::GlobalNamespace::IBeatmapLevelCollection* i___GlobalNamespace__IBeatmapLevelCollection() noexcept;
+
   constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::CustomPreviewBeatmapLevel*>*& __get__customPreviewBeatmapLevels();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::CustomPreviewBeatmapLevel*>*> const& __get__customPreviewBeatmapLevels() const;

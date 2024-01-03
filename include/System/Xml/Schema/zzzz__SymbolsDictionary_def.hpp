@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SymbolsDictionary)
-namespace System {
-class Object;
-}
-namespace System::Xml {
-class XmlQualifiedName;
-}
 namespace System::Collections {
-class ICollection;
+class ArrayList;
 }
 namespace System::Collections {
 class Hashtable;
 }
+namespace System::Collections {
+class ICollection;
+}
 namespace System::Xml::Schema {
 class NamespaceList;
 }
-namespace System::Collections {
-class ArrayList;
+namespace System::Xml {
+class XmlQualifiedName;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

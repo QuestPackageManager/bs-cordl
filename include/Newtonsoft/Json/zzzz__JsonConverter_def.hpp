@@ -10,14 +10,14 @@ class JsonReader;
 namespace Newtonsoft::Json {
 class JsonSerializer;
 }
+namespace Newtonsoft::Json {
+class JsonWriter;
+}
 namespace System {
 class Object;
 }
 namespace System {
 class Type;
-}
-namespace Newtonsoft::Json {
-class JsonWriter;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {

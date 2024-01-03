@@ -31,12 +31,10 @@ public:
   static inline bool IsEmptyOrProperNamespaceName(::StringW name);
 
   /// @brief Method MakeIdentifier, addr 0x2b0f3c0, size 0x244, virtual false, abstract: false, final false
-  /// @param suffix: ::StringW (default: u"")
-  static inline ::StringW MakeIdentifier(::StringW name, ::StringW suffix = u"");
+  static inline ::StringW MakeIdentifier(::StringW name, ::StringW suffix);
 
   /// @brief Method MakeTypeName, addr 0x2b0f604, size 0x10c, virtual false, abstract: false, final false
-  /// @param suffix: ::StringW (default: u"")
-  static inline ::StringW MakeTypeName(::StringW name, ::StringW suffix = u"");
+  static inline ::StringW MakeTypeName(::StringW name, ::StringW suffix);
 
   // Ctor Parameters [CppParam { name: "", ty: "CSharpCodeHelpers", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

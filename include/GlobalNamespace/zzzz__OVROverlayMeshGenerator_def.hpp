@@ -13,31 +13,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVROverlayMeshGenerator)
 namespace GlobalNamespace {
+class OVROverlay;
+}
+namespace GlobalNamespace {
 struct __OVROverlayMeshGenerator__CubeFace;
 }
 namespace GlobalNamespace {
-class OVROverlay;
-}
-namespace UnityEngine {
-class MeshRenderer;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-class MeshFilter;
-}
-namespace UnityEngine {
-class Mesh;
+struct __OVROverlay__OverlayShape;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -46,13 +28,31 @@ namespace UnityEngine {
 class MeshCollider;
 }
 namespace UnityEngine {
-struct Vector2;
+class MeshFilter;
 }
-namespace GlobalNamespace {
-struct __OVROverlay__OverlayShape;
+namespace UnityEngine {
+class MeshRenderer;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+struct Rect;
 }
 namespace UnityEngine {
 class Texture;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -138,8 +138,8 @@ static_assert(offsetof(::GlobalNamespace::__OVROverlayMeshGenerator__CubeFace, v
 // SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 209, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10252)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(7654))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7660)) CS Name: ::OVROverlayMeshGenerator*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7654)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10165))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7660)) CS Name: ::OVROverlayMeshGenerator*
 class CORDL_TYPE OVROverlayMeshGenerator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -371,14 +371,9 @@ public:
   static inline ::UnityEngine::Vector3 GetSphereVert(float_t theta, float_t phi);
 
   /// @brief Method BuildSphere, addr 0x274b5a8, size 0x784, virtual false, abstract: false, final false
-  /// @param worldScale: float_t (default: 800.0)
-  /// @param latitudes: int32_t (default: static_cast<int32_t>(0x80))
-  /// @param longitudes: int32_t (default: static_cast<int32_t>(0x80))
-  /// @param expand_coef: float_t (default: 1.0)
   static inline void BuildSphere(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* verts, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* uv,
                                  ::System::Collections::Generic::List_1<int32_t>* triangles, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 scale,
-                                 ::UnityEngine::Rect rect, float_t worldScale = 800.0, int32_t latitudes = static_cast<int32_t>(0x80), int32_t longitudes = static_cast<int32_t>(0x80),
-                                 float_t expand_coef = 1.0);
+                                 ::UnityEngine::Rect rect, float_t worldScale, int32_t latitudes, int32_t longitudes, float_t expand_coef);
 
   /// @brief Method GetCubeUV, addr 0x274d09c, size 0x140, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 GetCubeUV(::GlobalNamespace::__OVROverlayMeshGenerator__CubeFace face, ::UnityEngine::Vector2 sideUV, float_t expand_coef);
@@ -387,22 +382,17 @@ public:
   static inline ::UnityEngine::Vector3 GetCubeVert(::GlobalNamespace::__OVROverlayMeshGenerator__CubeFace face, ::UnityEngine::Vector2 sideUV, float_t expand_coef);
 
   /// @brief Method BuildCube, addr 0x274bd2c, size 0x564, virtual false, abstract: false, final false
-  /// @param worldScale: float_t (default: 800.0)
-  /// @param subQuads: int32_t (default: static_cast<int32_t>(0x1))
-  /// @param expand_coef: float_t (default: 1.01)
   static inline void BuildCube(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* verts, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* uv,
                                ::System::Collections::Generic::List_1<int32_t>* triangles, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 scale,
-                               float_t worldScale = 800.0, int32_t subQuads = static_cast<int32_t>(0x1), float_t expand_coef = 1.01);
+                               float_t worldScale, int32_t subQuads, float_t expand_coef);
 
   /// @brief Method BuildQuad, addr 0x274c290, size 0x720, virtual false, abstract: false, final false
   static inline void BuildQuad(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* verts, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* uv,
                                ::System::Collections::Generic::List_1<int32_t>* triangles, ::UnityEngine::Rect rect);
 
   /// @brief Method BuildHemicylinder, addr 0x274c9b0, size 0x660, virtual false, abstract: false, final false
-  /// @param longitudes: int32_t (default: static_cast<int32_t>(0x80))
   static inline void BuildHemicylinder(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* verts, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* uv,
-                                       ::System::Collections::Generic::List_1<int32_t>* triangles, ::UnityEngine::Vector3 scale, ::UnityEngine::Rect rect,
-                                       int32_t longitudes = static_cast<int32_t>(0x80));
+                                       ::System::Collections::Generic::List_1<int32_t>* triangles, ::UnityEngine::Vector3 scale, ::UnityEngine::Rect rect, int32_t longitudes);
 
   static inline ::GlobalNamespace::OVROverlayMeshGenerator* New_ctor();
 

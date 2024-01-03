@@ -7,25 +7,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Pointer)
 namespace UnityEngine::InputSystem::Controls {
-class Vector2Control;
-}
-namespace UnityEngine::InputSystem::Controls {
 class AxisControl;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputStateCallbackReceiver;
+namespace UnityEngine::InputSystem::Controls {
+class ButtonControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class DeltaControl;
 }
-namespace UnityEngine::InputSystem {
-class InputControl;
+namespace UnityEngine::InputSystem::Controls {
+class Vector2Control;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputStateCallbackReceiver;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
 }
-namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
+namespace UnityEngine::InputSystem {
+class InputControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -73,6 +73,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateCallbackReceiver"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateCallbackReceiver*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateCallbackReceiver"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateCallbackReceiver* i___UnityEngine__InputSystem__LowLevel__IInputStateCallbackReceiver() noexcept;
 
   constexpr ::UnityEngine::InputSystem::Controls::Vector2Control*& __get__position_k__BackingField();
 

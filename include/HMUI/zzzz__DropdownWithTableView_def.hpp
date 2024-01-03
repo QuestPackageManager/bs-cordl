@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DropdownWithTableView)
 namespace HMUI {
-class TableView;
+class ModalView;
 }
 namespace HMUI {
-class ModalView;
+class TableView;
 }
 namespace HMUI {
 class __TableView__IDataSource;
 }
-namespace UnityEngine::UI {
-class Button;
-}
 namespace System {
 template <typename T1, typename T2> class Action_2;
+}
+namespace UnityEngine::UI {
+class Button;
 }
 // Forward declare root types
 namespace HMUI {

@@ -28,6 +28,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ISaveData"
   constexpr operator ::GlobalNamespace::ISaveData*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::ISaveData"
+  constexpr ::GlobalNamespace::ISaveData* i___GlobalNamespace__ISaveData() noexcept;
+
   /// @brief Method Save, addr 0x20f4c1c, size 0x4, virtual true, abstract: false, final true
   inline void Save(::StringW key, ::StringW value);
 

@@ -8,59 +8,59 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SslStream)
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System {
-class IAsyncResult;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System::Security::Authentication {
-struct SslProtocols;
-}
 namespace Mono::Net::Security {
 class MobileAuthenticatedStream;
-}
-namespace System::Net::Security {
-class RemoteCertificateValidationCallback;
-}
-namespace System::IO {
-class Stream;
-}
-namespace System {
-class Object;
-}
-namespace System::Net::Security {
-class LocalCertificateSelectionCallback;
-}
-namespace Mono::Security::Interface {
-class MonoTlsSettings;
-}
-namespace System::Net::Security {
-class __SslStream____c__DisplayClass21_0;
 }
 namespace Mono::Net::Security {
 class MobileTlsProvider;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
 namespace Mono::Security::Interface {
 class MonoTlsProvider;
 }
-namespace System {
-class AsyncCallback;
+namespace Mono::Security::Interface {
+class MonoTlsSettings;
 }
 namespace System::IO {
 struct SeekOrigin;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System::Net::Security {
+class LocalCertificateSelectionCallback;
+}
+namespace System::Net::Security {
+class RemoteCertificateValidationCallback;
+}
+namespace System::Net::Security {
+class __SslStream____c__DisplayClass21_0;
+}
+namespace System::Security::Authentication {
+struct SslProtocols;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateCollection;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Net::Security {

@@ -22,12 +22,10 @@ class CORDL_TYPE AlignmentUtils : public ::System::Object {
 public:
   // Declarations
   /// @brief Method RoundToPixelGrid, addr 0x2db7ac0, size 0x1c, virtual false, abstract: false, final false
-  /// @param offset: float_t (default: 0.02)
-  static inline float_t RoundToPixelGrid(float_t v, float_t pixelsPerPoint, float_t offset = 0.02);
+  static inline float_t RoundToPixelGrid(float_t v, float_t pixelsPerPoint, float_t offset);
 
   /// @brief Method CeilToPixelGrid, addr 0x2db7adc, size 0x14, virtual false, abstract: false, final false
-  /// @param offset: float_t (default: -0.02)
-  static inline float_t CeilToPixelGrid(float_t v, float_t pixelsPerPoint, float_t offset = -0.02);
+  static inline float_t CeilToPixelGrid(float_t v, float_t pixelsPerPoint, float_t offset);
 
   // Ctor Parameters [CppParam { name: "", ty: "AlignmentUtils", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

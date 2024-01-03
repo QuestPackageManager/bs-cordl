@@ -8,8 +8,16 @@
 template <typename T> constexpr GlobalNamespace::ObservableVariable_1<T>::operator ::GlobalNamespace::IValue_1<T>*() noexcept {
   return static_cast<::GlobalNamespace::IValue_1<T>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::GlobalNamespace::IValue_1<T>"
+template <typename T> constexpr ::GlobalNamespace::IValue_1<T>* GlobalNamespace::ObservableVariable_1<T>::i___GlobalNamespace__IValue_1_T_() noexcept {
+  return static_cast<::GlobalNamespace::IValue_1<T>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::GlobalNamespace::IObservableChange"
 template <typename T> constexpr GlobalNamespace::ObservableVariable_1<T>::operator ::GlobalNamespace::IObservableChange*() noexcept {
+  return static_cast<::GlobalNamespace::IObservableChange*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IObservableChange"
+template <typename T> constexpr ::GlobalNamespace::IObservableChange* GlobalNamespace::ObservableVariable_1<T>::i___GlobalNamespace__IObservableChange() noexcept {
   return static_cast<::GlobalNamespace::IObservableChange*>(static_cast<void*>(this));
 }
 template <typename T> constexpr ::System::Action*& GlobalNamespace::ObservableVariable_1<T>::__get_didChangeEvent() {

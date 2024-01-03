@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpLiteralDataGenerator)
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class IStreamGenerator;
+}
 namespace Org::BouncyCastle::Bcpg {
 class BcpgOutputStream;
 }
 namespace System::IO {
-class Stream;
-}
-namespace System::IO {
 class FileInfo;
 }
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class IStreamGenerator;
+namespace System::IO {
+class Stream;
 }
 namespace System {
 struct DateTime;
@@ -46,6 +46,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator"
   constexpr operator ::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator"
+  constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator* i___Org__BouncyCastle__Bcpg__OpenPgp__IStreamGenerator() noexcept;
 
   constexpr ::Org::BouncyCastle::Bcpg::BcpgOutputStream*& __get_pkOut();
 

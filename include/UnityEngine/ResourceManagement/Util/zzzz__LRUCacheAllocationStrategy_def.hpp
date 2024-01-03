@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(LRUCacheAllocationStrategy)
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace System {
-class Type;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System {
+class Type;
 }
 namespace UnityEngine::ResourceManagement::Util {
 class IAllocationStrategy;
@@ -53,6 +53,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IAllocationStrategy"
   constexpr operator ::UnityEngine::ResourceManagement::Util::IAllocationStrategy*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::ResourceManagement::Util::IAllocationStrategy"
+  constexpr ::UnityEngine::ResourceManagement::Util::IAllocationStrategy* i___UnityEngine__ResourceManagement__Util__IAllocationStrategy() noexcept;
 
   constexpr int32_t& __get_m_poolMaxSize();
 

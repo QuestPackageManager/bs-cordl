@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Gost3410DigestSigner)
 namespace Org::BouncyCastle::Crypto {
-class ISigner;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDsa;
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IDsa;
+}
+namespace Org::BouncyCastle::Crypto {
+class ISigner;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -54,6 +54,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ISigner"
   constexpr operator ::Org::BouncyCastle::Crypto::ISigner*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::ISigner"
+  constexpr ::Org::BouncyCastle::Crypto::ISigner* i___Org__BouncyCastle__Crypto__ISigner() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::IDigest*& __get_digest();
 

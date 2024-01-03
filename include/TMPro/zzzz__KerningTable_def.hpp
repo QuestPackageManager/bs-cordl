@@ -6,29 +6,29 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(KerningTable)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace TMPro {
+struct GlyphValueRecord_Legacy;
+}
 namespace TMPro {
 class KerningPair;
 }
 namespace TMPro {
 class __KerningTable____c;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace TMPro {
-class __KerningTable____c__DisplayClass5_0;
+class __KerningTable____c__DisplayClass3_0;
 }
 namespace TMPro {
 class __KerningTable____c__DisplayClass4_0;
 }
 namespace TMPro {
-class __KerningTable____c__DisplayClass3_0;
-}
-namespace TMPro {
-struct GlyphValueRecord_Legacy;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
+class __KerningTable____c__DisplayClass5_0;
 }
 // Forward declare root types
 namespace TMPro {

@@ -4,9 +4,9 @@
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__DirectionalLight_def.hpp"
+#include "UnityEngine/Experimental/GlobalIllumination/zzzz__LightMode_def.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__LinearColor_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/Experimental/GlobalIllumination/zzzz__LightMode_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 // Ctor Parameters [CppParam { name: "instanceID", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "shadow", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam {
 // name: "mode", ty: "::UnityEngine::Experimental::GlobalIllumination::LightMode", modifiers: "", def_value: Some("{}") }, CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "",

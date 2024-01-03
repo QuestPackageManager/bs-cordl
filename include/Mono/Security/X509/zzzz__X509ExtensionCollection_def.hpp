@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509ExtensionCollection)
-namespace System::Collections {
-class IEnumerable;
-}
 namespace Mono::Security::X509 {
 class X509Extension;
 }
-namespace System::Collections {
-class IEnumerator;
-}
 namespace Mono::Security {
 class ASN1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace Mono::Security::X509 {
@@ -41,6 +41,9 @@ public:
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr bool& __get_readOnly();
 

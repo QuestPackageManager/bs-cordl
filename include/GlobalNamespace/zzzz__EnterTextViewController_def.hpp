@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(EnterTextViewController)
-namespace UnityEngine::UI {
-class Button;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace GlobalNamespace {
 class VRTextEntryController;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace UnityEngine::UI {
+class Button;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -14,19 +14,19 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class ProtocolVersion;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
-}
-namespace System {
-class Object;
+class SecurityParameters;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class SecurityParameters;
+class TlsContext;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSession;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -86,6 +86,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsContext"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsContext*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsContext"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext* i___Org__BouncyCastle__Crypto__Tls__TlsContext() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*& __get_mNonceRandom();
 

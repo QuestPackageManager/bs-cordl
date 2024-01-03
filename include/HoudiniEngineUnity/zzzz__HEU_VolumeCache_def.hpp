@@ -9,52 +9,52 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_VolumeCache)
 namespace HoudiniEngineUnity {
+class HEU_DetailProperties;
+}
+namespace HoudiniEngineUnity {
 class HEU_DetailPrototype;
+}
+namespace HoudiniEngineUnity {
+class HEU_GeoNode;
+}
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset;
+}
+namespace HoudiniEngineUnity {
+class HEU_PartData;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
+}
+namespace HoudiniEngineUnity {
+class HEU_VolumeCachePreset;
+}
+namespace HoudiniEngineUnity {
+class HEU_VolumeLayer;
 }
 namespace HoudiniEngineUnity {
 class HEU_VolumeScatterTrees;
 }
+namespace HoudiniEngineUnity {
+template <typename T> class IEquivable_1;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+class TerrainData;
+}
+namespace UnityEngine {
+class TerrainLayer;
 }
 namespace UnityEngine {
 class Texture2D;
 }
 namespace UnityEngine {
 struct Vector2;
-}
-namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
-}
-namespace HoudiniEngineUnity {
-class HEU_DetailProperties;
-}
-namespace HoudiniEngineUnity {
-class HEU_PartData;
-}
-namespace HoudiniEngineUnity {
-class HEU_VolumeCachePreset;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
-namespace UnityEngine {
-class TerrainData;
-}
-namespace HoudiniEngineUnity {
-class HEU_GeoNode;
-}
-namespace UnityEngine {
-class TerrainLayer;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
-}
-namespace HoudiniEngineUnity {
-class HEU_VolumeLayer;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -117,6 +117,9 @@ public:
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeCache*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeCache*>*() noexcept;
+
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeCache*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeCache*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_VolumeCache__() noexcept;
 
   constexpr ::HoudiniEngineUnity::HEU_GeoNode*& __get__ownerNode();
 

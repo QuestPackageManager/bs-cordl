@@ -5,32 +5,32 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(EnvironmentInfoSO)
-namespace GlobalNamespace {
-class EnvironmentIntensityReductionOptions;
-}
-namespace GlobalNamespace {
-class DefaultEnvironmentEvents;
-}
 namespace BeatmapSaveDataVersion3 {
 class BeatmapLightshowSaveData;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-class EnvironmentLightGroups;
-}
-namespace GlobalNamespace {
-class EnvironmentTypeSO;
 }
 namespace GlobalNamespace {
 class ColorSchemeSO;
 }
 namespace GlobalNamespace {
-class SceneInfo;
+class DefaultEnvironmentEvents;
+}
+namespace GlobalNamespace {
+class EnvironmentIntensityReductionOptions;
+}
+namespace GlobalNamespace {
+class EnvironmentLightGroups;
 }
 namespace GlobalNamespace {
 class EnvironmentSizeData;
+}
+namespace GlobalNamespace {
+class EnvironmentTypeSO;
+}
+namespace GlobalNamespace {
+class SceneInfo;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;

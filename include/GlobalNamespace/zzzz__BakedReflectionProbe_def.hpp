@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BakedReflectionProbe)
-namespace UnityEngine {
-struct Vector3;
+namespace GlobalNamespace {
+class ReflectionProbeDataSO;
 }
 namespace UnityEngine {
 class Cubemap;
 }
-namespace GlobalNamespace {
-class ReflectionProbeDataSO;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {

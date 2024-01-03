@@ -1,14 +1,18 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__WhereObservable_1_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__WhereObservable_1_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "System/zzzz__IObservable_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__IObserver_1_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__IObservable_1_def.hpp"
+#include "System/zzzz__IObserver_1_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__WhereObservable_1_def.hpp"
 /// @brief Convert operator to "::System::IObserver_1<TValue>"
 template <typename TValue> constexpr UnityEngine::InputSystem::Utilities::__WhereObservable_1__Where<TValue>::operator ::System::IObserver_1<TValue>*() noexcept {
+  return static_cast<::System::IObserver_1<TValue>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IObserver_1<TValue>"
+template <typename TValue> constexpr ::System::IObserver_1<TValue>* UnityEngine::InputSystem::Utilities::__WhereObservable_1__Where<TValue>::i___System__IObserver_1_TValue_() noexcept {
   return static_cast<::System::IObserver_1<TValue>*>(static_cast<void*>(this));
 }
 template <typename TValue> constexpr ::UnityEngine::InputSystem::Utilities::WhereObservable_1<TValue>*& UnityEngine::InputSystem::Utilities::__WhereObservable_1__Where<TValue>::__get_m_Observable() {
@@ -76,6 +80,10 @@ template <typename TValue> inline void UnityEngine::InputSystem::Utilities::__Wh
 template <typename TValue> constexpr ::UnityEngine::InputSystem::Utilities::__WhereObservable_1__Where<TValue>::__WhereObservable_1__Where() {}
 /// @brief Convert operator to "::System::IObservable_1<TValue>"
 template <typename TValue> constexpr UnityEngine::InputSystem::Utilities::WhereObservable_1<TValue>::operator ::System::IObservable_1<TValue>*() noexcept {
+  return static_cast<::System::IObservable_1<TValue>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IObservable_1<TValue>"
+template <typename TValue> constexpr ::System::IObservable_1<TValue>* UnityEngine::InputSystem::Utilities::WhereObservable_1<TValue>::i___System__IObservable_1_TValue_() noexcept {
   return static_cast<::System::IObservable_1<TValue>*>(static_cast<void*>(this));
 }
 template <typename TValue> constexpr ::System::IObservable_1<TValue>*& UnityEngine::InputSystem::Utilities::WhereObservable_1<TValue>::__get_m_Source() {

@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(INotifyValueChangedExtensions)
 namespace UnityEngine::UIElements {
-template <typename TEventType> class EventCallback_1;
+template <typename T> class ChangeEvent_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class ChangeEvent_1;
+template <typename TEventType> class EventCallback_1;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class INotifyValueChanged_1;

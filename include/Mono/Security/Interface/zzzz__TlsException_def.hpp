@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(TlsException)
 namespace Mono::Security::Interface {
-class Alert;
+struct AlertDescription;
 }
 namespace Mono::Security::Interface {
-struct AlertDescription;
+class Alert;
 }
 // Forward declare root types
 namespace Mono::Security::Interface {

@@ -2,7 +2,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
 #include "GlobalNamespace/zzzz__IgnoranceConnectionManager_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
@@ -15,25 +14,43 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IgnoranceConnectionManager)
 namespace BGNet::Core {
+struct DeliveryMethod;
+}
+namespace BGNet::Core {
 class ITaskUtility;
+}
+namespace BGNet::Core {
+class ITimeProvider;
+}
+namespace GlobalNamespace {
+struct ConnectionFailedReason;
+}
+namespace GlobalNamespace {
+struct DisconnectedReason;
+}
+namespace GlobalNamespace {
+template <typename T> class IConnectionInitParams_1;
 }
 namespace GlobalNamespace {
 class IConnectionManager;
 }
-namespace System::Threading::Tasks {
-class Task;
-}
 namespace GlobalNamespace {
-class IPollable;
+class IConnectionRequestHandler;
 }
 namespace GlobalNamespace {
 class IConnection;
 }
 namespace GlobalNamespace {
-class __IgnoranceConnectionManager____c__DisplayClass77_1;
+class IPollable;
 }
 namespace GlobalNamespace {
-class IConnectionRequestHandler;
+class __IgnoranceConnectionManager__ConnectToServerParams;
+}
+namespace GlobalNamespace {
+struct __IgnoranceConnectionManager__ConnectionState;
+}
+namespace GlobalNamespace {
+class __IgnoranceConnectionManager__IgnoranceConnectionParamsBase;
 }
 namespace GlobalNamespace {
 class __IgnoranceConnectionManager__IgnoranceConnection;
@@ -41,86 +58,68 @@ class __IgnoranceConnectionManager__IgnoranceConnection;
 namespace GlobalNamespace {
 class __IgnoranceConnectionManager__StartServerParams;
 }
-namespace System {
-class Action;
+namespace GlobalNamespace {
+struct __IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99;
 }
 namespace GlobalNamespace {
-struct DisconnectedReason;
+struct __IgnoranceConnectionManager___DisposeAsync_d__77;
 }
 namespace GlobalNamespace {
 class __IgnoranceConnectionManager____c__DisplayClass77_0;
 }
 namespace GlobalNamespace {
-struct __IgnoranceConnectionManager__ConnectionState;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
-}
-namespace BGNet::Core {
-class ITimeProvider;
-}
-namespace System::Threading {
-class CancellationTokenSource;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-class IDisposable;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace GlobalNamespace {
-class __IgnoranceConnectionManager__IgnoranceConnectionParamsBase;
-}
-namespace GlobalNamespace {
-class __IgnoranceConnectionManager__ConnectToServerParams;
-}
-namespace GlobalNamespace {
-template <typename T> class IConnectionInitParams_1;
+class __IgnoranceConnectionManager____c__DisplayClass77_1;
 }
 namespace IgnoranceCore {
 struct IgnoranceChannelTypes;
 }
-namespace BGNet::Core {
-struct DeliveryMethod;
-}
-namespace GlobalNamespace {
-struct __IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99;
-}
-namespace GlobalNamespace {
-struct ConnectionFailedReason;
+namespace IgnoranceCore {
+class IgnoranceClient;
 }
 namespace IgnoranceCore {
 class IgnoranceServer;
 }
-namespace GlobalNamespace {
-struct __IgnoranceConnectionManager___DisposeAsync_d__77;
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
-namespace System {
-template <typename T1, typename T2> class Action_2;
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
-namespace IgnoranceCore {
-class IgnoranceClient;
-}
-namespace System {
-template <typename T> class Action_1;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace System {
+template <typename T1, typename T2, typename T3> class Action_3;
+}
+namespace System {
+class Action;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -253,6 +252,10 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::IgnoranceConnectionManager*>"
   constexpr operator ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::IgnoranceConnectionManager*>*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::IgnoranceConnectionManager*>"
+  constexpr ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::IgnoranceConnectionManager*>*
+  i___GlobalNamespace__IConnectionInitParams_1___GlobalNamespace__IgnoranceConnectionManager__() noexcept;
 
   constexpr ::GlobalNamespace::IConnectionRequestHandler*& __get_connectionRequestHandler();
 
@@ -606,6 +609,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IConnection"
   constexpr operator ::GlobalNamespace::IConnection*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IConnection"
+  constexpr ::GlobalNamespace::IConnection* i___GlobalNamespace__IConnection() noexcept;
+
   constexpr ::GlobalNamespace::IgnoranceConnectionManager*& __get__connectionManager();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IgnoranceConnectionManager*> const& __get__connectionManager() const;
@@ -828,6 +834,9 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+
   /// @brief Method MoveNext, addr 0xe3ed08, size 0x3dc, virtual true, abstract: false, final true
   inline void MoveNext();
 
@@ -877,7 +886,7 @@ static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager___Dispose
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(2677))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12795))
 // CS Name: ::IgnoranceConnectionManager::<BackgroundDisconnectSentry>d__99
 struct CORDL_TYPE __IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99 {
@@ -885,6 +894,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0xe3f0f0, size 0x3e0, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -942,7 +954,7 @@ static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager___Backgro
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12720)), TypeDefinitionIndex(TypeDefinitionIndex(12787))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12787))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12796))
 // CS Name: ::IgnoranceConnectionManager*
 class CORDL_TYPE IgnoranceConnectionManager : public ::System::Object {
@@ -1069,11 +1081,20 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IConnectionManager"
   constexpr operator ::GlobalNamespace::IConnectionManager*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IConnectionManager"
+  constexpr ::GlobalNamespace::IConnectionManager* i___GlobalNamespace__IConnectionManager() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IPollable"
   constexpr operator ::GlobalNamespace::IPollable*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IPollable"
+  constexpr ::GlobalNamespace::IPollable* i___GlobalNamespace__IPollable() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::System::Action*& __get_onInitializedEvent();
 
@@ -1357,8 +1378,7 @@ public:
   inline void Send(uint32_t peerId, ::LiteNetLib::Utils::NetDataWriter* writer, ::BGNet::Core::DeliveryMethod deliveryMethod);
 
   /// @brief Method DisconnectPeer, addr 0xe3e4d8, size 0xf0, virtual false, abstract: false, final false
-  /// @param disconnectedReason: ::GlobalNamespace::DisconnectedReason (default: static_cast<int32_t>(0x2))
-  inline void DisconnectPeer(uint32_t peerId, ::GlobalNamespace::DisconnectedReason disconnectedReason = static_cast<int32_t>(0x2));
+  inline void DisconnectPeer(uint32_t peerId, ::GlobalNamespace::DisconnectedReason disconnectedReason);
 
   /// @brief Method TryGetConnection, addr 0xe3e5c8, size 0xdc, virtual false, abstract: false, final false
   inline bool TryGetConnection(uint32_t peerId, ByRef<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*> connection);
@@ -1370,8 +1390,7 @@ public:
   inline void SendToAll(::LiteNetLib::Utils::NetDataWriter* writer, ::BGNet::Core::DeliveryMethod deliveryMethod, ::GlobalNamespace::IConnection* excludingConnection);
 
   /// @brief Method Disconnect, addr 0xe3de38, size 0x1b4, virtual true, abstract: false, final true
-  /// @param disconnectedReason: ::GlobalNamespace::DisconnectedReason (default: static_cast<int32_t>(0x2))
-  inline void Disconnect(::GlobalNamespace::DisconnectedReason disconnectedReason = static_cast<int32_t>(0x2));
+  inline void Disconnect(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
   /// @brief Method GetConnection, addr 0xe3e858, size 0x58, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IConnection* GetConnection(int32_t index);

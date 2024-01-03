@@ -7,59 +7,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TeleTrusTNamedCurves)
-namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
-}
-namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP224t1Holder;
-}
-namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP224r1Holder;
-}
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 class __TeleTrusTNamedCurves__BrainpoolP160r1Holder;
-}
-namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP320r1Holder;
-}
-namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP384r1Holder;
-}
-namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP512r1Holder;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class X9ECParametersHolder;
-}
-namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP256t1Holder;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class X9ECParameters;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP320t1Holder;
-}
-namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP256r1Holder;
-}
-namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP192t1Holder;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP512t1Holder;
 }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 class __TeleTrusTNamedCurves__BrainpoolP160t1Holder;
@@ -68,10 +17,61 @@ namespace Org::BouncyCastle::Asn1::TeleTrust {
 class __TeleTrusTNamedCurves__BrainpoolP192r1Holder;
 }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
+class __TeleTrusTNamedCurves__BrainpoolP192t1Holder;
+}
+namespace Org::BouncyCastle::Asn1::TeleTrust {
+class __TeleTrusTNamedCurves__BrainpoolP224r1Holder;
+}
+namespace Org::BouncyCastle::Asn1::TeleTrust {
+class __TeleTrusTNamedCurves__BrainpoolP224t1Holder;
+}
+namespace Org::BouncyCastle::Asn1::TeleTrust {
+class __TeleTrusTNamedCurves__BrainpoolP256r1Holder;
+}
+namespace Org::BouncyCastle::Asn1::TeleTrust {
+class __TeleTrusTNamedCurves__BrainpoolP256t1Holder;
+}
+namespace Org::BouncyCastle::Asn1::TeleTrust {
+class __TeleTrusTNamedCurves__BrainpoolP320r1Holder;
+}
+namespace Org::BouncyCastle::Asn1::TeleTrust {
+class __TeleTrusTNamedCurves__BrainpoolP320t1Holder;
+}
+namespace Org::BouncyCastle::Asn1::TeleTrust {
+class __TeleTrusTNamedCurves__BrainpoolP384r1Holder;
+}
+namespace Org::BouncyCastle::Asn1::TeleTrust {
 class __TeleTrusTNamedCurves__BrainpoolP384t1Holder;
+}
+namespace Org::BouncyCastle::Asn1::TeleTrust {
+class __TeleTrusTNamedCurves__BrainpoolP512r1Holder;
+}
+namespace Org::BouncyCastle::Asn1::TeleTrust {
+class __TeleTrusTNamedCurves__BrainpoolP512t1Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class X9ECParametersHolder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class X9ECParameters;
 }
 namespace Org::BouncyCastle::Asn1::X9 {
 class X9ECPoint;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECCurve;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::TeleTrust {

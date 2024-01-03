@@ -9,23 +9,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstddef>
 CORDL_MODULE_EXPORT(TexturePacker_JsonArray)
-namespace TMPro::SpriteAssetUtilities {
-struct __TexturePacker_JsonArray__Meta;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace TMPro::SpriteAssetUtilities {
-struct __TexturePacker_JsonArray__SpriteFrame;
+struct __TexturePacker_JsonArray__Frame;
+}
+namespace TMPro::SpriteAssetUtilities {
+struct __TexturePacker_JsonArray__Meta;
 }
 namespace TMPro::SpriteAssetUtilities {
 class __TexturePacker_JsonArray__SpriteDataObject;
 }
 namespace TMPro::SpriteAssetUtilities {
-struct __TexturePacker_JsonArray__SpriteSize;
+struct __TexturePacker_JsonArray__SpriteFrame;
 }
 namespace TMPro::SpriteAssetUtilities {
-struct __TexturePacker_JsonArray__Frame;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+struct __TexturePacker_JsonArray__SpriteSize;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -149,7 +149,7 @@ static_assert(offsetof(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray_
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro::SpriteAssetUtilities {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12462)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(12461))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12461)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(12462))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12463))
 // CS Name: ::TexturePacker_JsonArray::Frame
 struct CORDL_TYPE __TexturePacker_JsonArray__Frame {

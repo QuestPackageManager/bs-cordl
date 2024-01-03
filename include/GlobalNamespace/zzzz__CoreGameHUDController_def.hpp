@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(CoreGameHUDController)
-namespace UnityEngine {
-class CanvasGroup;
-}
 namespace GlobalNamespace {
 class __CoreGameHUDController__InitData;
+}
+namespace UnityEngine {
+class CanvasGroup;
 }
 namespace UnityEngine {
 class GameObject;

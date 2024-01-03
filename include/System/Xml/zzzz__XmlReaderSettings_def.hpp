@@ -15,19 +15,19 @@ namespace System::Xml::Schema {
 class XmlSchemaSet;
 }
 namespace System::Xml {
-class XmlResolver;
-}
-namespace System::Xml {
 struct ConformanceLevel;
 }
 namespace System::Xml {
 struct DtdProcessing;
 }
 namespace System::Xml {
+struct ValidationType;
+}
+namespace System::Xml {
 class XmlNameTable;
 }
 namespace System::Xml {
-struct ValidationType;
+class XmlResolver;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -39,9 +39,9 @@ MARK_REF_PTR_T(::System::Xml::XmlReaderSettings);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 99, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(11413)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(11414)), TypeDefinitionIndex(TypeDefinitionIndex(11445)), TypeDefinitionIndex(TypeDefinitionIndex(11743)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11457)) CS Name: ::System.Xml::XmlReaderSettings*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11445)), TypeDefinitionIndex(TypeDefinitionIndex(2448)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11743)), TypeDefinitionIndex(TypeDefinitionIndex(11413)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(11414))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11457)) CS Name: ::System.Xml::XmlReaderSettings*
 class CORDL_TYPE XmlReaderSettings : public ::System::Object {
 public:
   // Declarations

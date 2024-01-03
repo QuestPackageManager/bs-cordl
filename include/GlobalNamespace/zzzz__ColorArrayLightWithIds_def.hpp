@@ -8,28 +8,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ColorArrayLightWithIds)
 namespace GlobalNamespace {
-class __LightWithIds__LightWithId;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace GlobalNamespace {
 class MaterialController;
 }
 namespace GlobalNamespace {
 class MaterialPropertyBlockController;
 }
-namespace UnityEngine {
-struct Vector4;
-}
 namespace GlobalNamespace {
 class __ColorArrayLightWithIds__ColorArrayLightWithId;
 }
+namespace GlobalNamespace {
+class __LightWithIds__LightWithId;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace System {
 template <typename T1, typename T2> class Action_2;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 // Forward declare root types
 namespace GlobalNamespace {

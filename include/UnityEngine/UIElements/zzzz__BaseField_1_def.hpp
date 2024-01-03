@@ -9,14 +9,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseField_1)
-namespace UnityEngine::UIElements {
-class Label;
-}
-namespace UnityEngine::UIElements {
-template <typename T> class INotifyValueChanged_1;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
 class AttachToPanelEvent;
+}
+namespace UnityEngine::UIElements {
+struct CreationContext;
 }
 namespace UnityEngine::UIElements {
 class CustomStyleResolvedEvent;
@@ -24,8 +24,17 @@ class CustomStyleResolvedEvent;
 namespace UnityEngine::UIElements {
 class GeometryChangedEvent;
 }
-namespace UnityEngine {
-struct Rect;
+namespace UnityEngine::UIElements {
+template <typename T> class INotifyValueChanged_1;
+}
+namespace UnityEngine::UIElements {
+class IUxmlAttributes;
+}
+namespace UnityEngine::UIElements {
+class Label;
+}
+namespace UnityEngine::UIElements {
+class UxmlStringAttributeDescription;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -33,17 +42,8 @@ class VisualElement;
 namespace UnityEngine::UIElements {
 template <typename TValueType> class __BaseField_1__UxmlTraits;
 }
-namespace UnityEngine::UIElements {
-struct CreationContext;
-}
-namespace UnityEngine::UIElements {
-class IUxmlAttributes;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::UIElements {
-class UxmlStringAttributeDescription;
+namespace UnityEngine {
+struct Rect;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -114,7 +114,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10159)), TypeDefinitionIndex(TypeDefinitionIndex(6801)), TypeDefinitionIndex(TypeDefinitionIndex(7306)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6801)), TypeDefinitionIndex(TypeDefinitionIndex(7306)), TypeDefinitionIndex(TypeDefinitionIndex(10159)),
 // GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7306), inst: 391 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7130)) CS Name:
 // ::UnityEngine.UIElements::BaseField`1<TValueType>*
 class CORDL_TYPE BaseField_1 : public ::UnityEngine::UIElements::BindableElement {
@@ -210,6 +210,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::UIElements::INotifyValueChanged_1<TValueType>"
   constexpr operator ::UnityEngine::UIElements::INotifyValueChanged_1<TValueType>*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UIElements::INotifyValueChanged_1<TValueType>"
+  constexpr ::UnityEngine::UIElements::INotifyValueChanged_1<TValueType>* i___UnityEngine__UIElements__INotifyValueChanged_1_TValueType_() noexcept;
 
   constexpr float_t& __get_m_LabelWidthRatio();
 

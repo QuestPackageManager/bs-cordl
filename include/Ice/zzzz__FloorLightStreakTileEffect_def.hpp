@@ -8,8 +8,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FloorLightStreakTileEffect)
-namespace UnityEngine {
-struct Color;
+namespace GlobalNamespace {
+class IAudioTimeSource;
+}
+namespace GlobalNamespace {
+template <typename T> class SimpleMemoryPool_1;
 }
 namespace Ice {
 class FloorLightTilesGrid;
@@ -17,14 +20,11 @@ class FloorLightTilesGrid;
 namespace Ice {
 class __FloorLightStreakTileEffect__Element;
 }
-namespace GlobalNamespace {
-class IAudioTimeSource;
-}
-namespace GlobalNamespace {
-template <typename T> class SimpleMemoryPool_1;
-}
 namespace System {
 template <typename T> class Action_1;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace Ice {

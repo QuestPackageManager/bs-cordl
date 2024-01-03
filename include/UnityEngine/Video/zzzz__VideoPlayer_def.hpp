@@ -8,20 +8,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(VideoPlayer)
-namespace UnityEngine {
-class Texture;
-}
-namespace UnityEngine::Video {
-class __VideoPlayer__TimeEventHandler;
-}
-namespace UnityEngine::Video {
-class __VideoPlayer__FrameReadyEventHandler;
+namespace System {
+class Object;
 }
 namespace UnityEngine::Video {
 class VideoClip;
-}
-namespace UnityEngine::Video {
-class __VideoPlayer__EventHandler;
 }
 namespace UnityEngine::Video {
 struct VideoTimeReference;
@@ -29,8 +20,17 @@ struct VideoTimeReference;
 namespace UnityEngine::Video {
 class __VideoPlayer__ErrorEventHandler;
 }
-namespace System {
-class Object;
+namespace UnityEngine::Video {
+class __VideoPlayer__EventHandler;
+}
+namespace UnityEngine::Video {
+class __VideoPlayer__FrameReadyEventHandler;
+}
+namespace UnityEngine::Video {
+class __VideoPlayer__TimeEventHandler;
+}
+namespace UnityEngine {
+class Texture;
 }
 // Forward declare root types
 namespace UnityEngine::Video {

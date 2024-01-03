@@ -10,17 +10,17 @@ CORDL_MODULE_EXPORT(MultiplayerBadgeAwardData)
 namespace GlobalNamespace {
 class IConnectedPlayer;
 }
-namespace UnityEngine {
-class Sprite;
-}
-namespace System {
-class IComparable;
-}
 namespace GlobalNamespace {
 class MultiplayerBadgeDataSO;
 }
 namespace System {
+class IComparable;
+}
+namespace System {
 class Object;
+}
+namespace UnityEngine {
+class Sprite;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -68,6 +68,9 @@ public:
 
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*() noexcept;
+
+  /// @brief Convert to "::System::IComparable"
+  constexpr ::System::IComparable* i___System__IComparable() noexcept;
 
   constexpr ::GlobalNamespace::IConnectedPlayer*& __get__awardedPlayer();
 

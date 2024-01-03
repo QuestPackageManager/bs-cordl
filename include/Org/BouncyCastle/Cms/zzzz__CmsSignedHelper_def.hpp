@@ -6,38 +6,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CmsSignedHelper)
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Set;
-}
-namespace Org::BouncyCastle::Crypto {
-class ISigner;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::X509::Store {
-class IX509Store;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace System::Collections {
-class IList;
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
+}
+namespace Org::BouncyCastle::Crypto {
+class ISigner;
+}
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
+}
+namespace Org::BouncyCastle::X509::Store {
+class IX509Store;
 }
 namespace System::Collections {
 class IDictionary;
+}
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

@@ -6,7 +6,6 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__BMPAlloc_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__VertexFlags_def.hpp"
 #include "UnityEngine/UIElements/zzzz__MeshGenerationContext_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextureId_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
@@ -15,65 +14,74 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MeshBuilder)
-namespace UnityEngine::UIElements {
-class MeshWriteData;
+namespace GlobalNamespace {
+class __MeshBuilder__AllocMeshData__Allocator;
 }
 namespace System {
 class Object;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
 }
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine::UIElements {
-struct __MeshGenerationContextUtils__RectangleParams;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine {
-struct Vector2;
+namespace Unity::Collections {
+template <typename T> struct NativeSlice_1;
 }
 namespace UnityEngine::TextCore::Text {
 struct MeshInfo;
 }
-namespace UnityEngine::UIElements {
-struct __MeshGenerationContextUtils__BorderParams;
+namespace UnityEngine::UIElements::UIR {
+struct BMPAlloc;
 }
-namespace UnityEngine::UIElements {
-struct ColorPage;
+namespace UnityEngine::UIElements::UIR {
+struct VertexFlags;
+}
+namespace UnityEngine::UIElements::UIR {
+struct __MeshBuilder__AllocMeshData;
+}
+namespace UnityEngine::UIElements::UIR {
+struct __MeshBuilder__ClipCounts;
 }
 namespace UnityEngine::UIElements::UIR {
 struct __MeshBuilder__VertexClipEdge;
 }
 namespace UnityEngine::UIElements {
+struct ColorPage;
+}
+namespace UnityEngine::UIElements {
+class MeshWriteData;
+}
+namespace UnityEngine::UIElements {
 struct TextVertex;
 }
-namespace UnityEngine {
-struct Matrix4x4;
+namespace UnityEngine::UIElements {
+struct TextureId;
 }
 namespace UnityEngine::UIElements {
 struct Vertex;
 }
-namespace Unity::Collections {
-template <typename T> struct NativeSlice_1;
+namespace UnityEngine::UIElements {
+struct __MeshGenerationContextUtils__BorderParams;
 }
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+namespace UnityEngine::UIElements {
+struct __MeshGenerationContextUtils__RectangleParams;
 }
-namespace UnityEngine::UIElements::UIR {
-struct __MeshBuilder__AllocMeshData;
+namespace UnityEngine::UIElements {
+struct __MeshGenerationContext__MeshFlags;
 }
 namespace UnityEngine {
 struct Color32;
 }
-namespace UnityEngine::UIElements::UIR {
-struct __MeshBuilder__ClipCounts;
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace UnityEngine {
+struct Rect;
 }
 namespace UnityEngine {
 struct ScaleMode;
@@ -81,20 +89,14 @@ struct ScaleMode;
 namespace UnityEngine {
 class Texture;
 }
-namespace UnityEngine::UIElements::UIR {
-struct BMPAlloc;
-}
-namespace UnityEngine::UIElements {
-struct TextureId;
-}
-namespace UnityEngine::UIElements {
-struct __MeshGenerationContext__MeshFlags;
-}
-namespace GlobalNamespace {
-class __MeshBuilder__AllocMeshData__Allocator;
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine {
-class Material;
+struct Vector3;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -160,7 +162,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MeshBuilder__
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7339)), TypeDefinitionIndex(TypeDefinitionIndex(7337)), TypeDefinitionIndex(TypeDefinitionIndex(7374))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7374)), TypeDefinitionIndex(TypeDefinitionIndex(7339)), TypeDefinitionIndex(TypeDefinitionIndex(7337))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7404))
 // CS Name: ::MeshBuilder::AllocMeshData
 struct CORDL_TYPE __MeshBuilder__AllocMeshData {
@@ -347,7 +349,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__MeshBuilder__VertexClip
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7440))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9966))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7407))
 // CS Name: ::UnityEngine.UIElements.UIR::MeshBuilder*
 class CORDL_TYPE MeshBuilder : public ::System::Object {
@@ -451,23 +453,18 @@ public:
                                       ::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshData meshAlloc, ::UnityEngine::UIElements::ColorPage colorPage);
 
   /// @brief Method ConvertTextVertexToUIRVertex, addr 0x2e947cc, size 0x110, virtual false, abstract: false, final false
-  /// @param flags: ::UnityEngine::UIElements::UIR::VertexFlags (default: static_cast<int32_t>(0x1))
-  /// @param isDynamicColor: bool (default: false)
   static inline ::UnityEngine::UIElements::Vertex ConvertTextVertexToUIRVertex(::UnityEngine::TextCore::Text::MeshInfo info, int32_t index, ::UnityEngine::Vector2 offset,
-                                                                               ::UnityEngine::UIElements::UIR::VertexFlags flags = static_cast<int32_t>(0x1), bool isDynamicColor = false);
+                                                                               ::UnityEngine::UIElements::UIR::VertexFlags flags, bool isDynamicColor);
 
   /// @brief Method ConvertTextVertexToUIRVertex, addr 0x2e948dc, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Vertex ConvertTextVertexToUIRVertex(::UnityEngine::UIElements::TextVertex textVertex, ::UnityEngine::Vector2 offset);
 
   /// @brief Method LimitTextVertices, addr 0x2e94914, size 0x130, virtual false, abstract: false, final false
-  /// @param logTruncation: bool (default: true)
-  static inline int32_t LimitTextVertices(int32_t vertexCount, bool logTruncation = true);
+  static inline int32_t LimitTextVertices(int32_t vertexCount, bool logTruncation);
 
   /// @brief Method MakeText, addr 0x2e94a44, size 0x334, virtual false, abstract: false, final false
-  /// @param flags: ::UnityEngine::UIElements::UIR::VertexFlags (default: static_cast<int32_t>(0x1))
-  /// @param isDynamicColor: bool (default: false)
   static inline void MakeText(::UnityEngine::TextCore::Text::MeshInfo meshInfo, ::UnityEngine::Vector2 offset, ::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshData meshAlloc,
-                              ::UnityEngine::UIElements::UIR::VertexFlags flags = static_cast<int32_t>(0x1), bool isDynamicColor = false);
+                              ::UnityEngine::UIElements::UIR::VertexFlags flags, bool isDynamicColor);
 
   /// @brief Method MakeText, addr 0x2e94da0, size 0x2c4, virtual false, abstract: false, final false
   static inline void MakeText(::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::TextVertex> uiVertices, ::UnityEngine::Vector2 offset,

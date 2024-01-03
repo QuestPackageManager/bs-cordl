@@ -10,25 +10,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IconSegmentedControl)
 namespace HMUI {
-class __IconSegmentedControl__DataItem;
-}
-namespace HMUI {
-class __SegmentedControl__IDataSource;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace HMUI {
 class IconSegmentedControlCell;
 }
 namespace HMUI {
 class SegmentedControlCell;
+}
+namespace HMUI {
+class __IconSegmentedControl__DataItem;
+}
+namespace HMUI {
+class __SegmentedControl__IDataSource;
 }
 namespace UnityEngine {
 class Object;
 }
 namespace UnityEngine {
 class Sprite;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace HMUI {
@@ -166,6 +166,9 @@ public:
 
   /// @brief Convert operator to "::HMUI::__SegmentedControl__IDataSource"
   constexpr operator ::HMUI::__SegmentedControl__IDataSource*() noexcept;
+
+  /// @brief Convert to "::HMUI::__SegmentedControl__IDataSource"
+  constexpr ::HMUI::__SegmentedControl__IDataSource* i___HMUI____SegmentedControl__IDataSource() noexcept;
 
   constexpr float_t& __get__iconSize();
 

@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(HSVPanelController)
 namespace GlobalNamespace {
+struct ColorChangeUIEventType;
+}
+namespace GlobalNamespace {
 class ColorHueSlider;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
 }
 namespace GlobalNamespace {
 class ColorSaturationValueSlider;
 }
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
 namespace UnityEngine {
 struct Color;
 }
-namespace GlobalNamespace {
-struct ColorChangeUIEventType;
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::GlobalNamespace::HSVPanelController);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16177))
 // CS Name: ::HSVPanelController*
 class CORDL_TYPE HSVPanelController : public ::UnityEngine::MonoBehaviour {

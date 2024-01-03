@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StretchableCube)
 namespace UnityEngine {
-struct Vector2;
+class Mesh;
 }
 namespace UnityEngine {
-class Mesh;
+struct Vector2;
 }
 namespace UnityEngine {
 struct Vector3;

@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(VisualElementStyleSheetSet)
-namespace UnityEngine::UIElements {
-class StyleSheet;
-}
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
 namespace System {
 class Object;
+}
+namespace UnityEngine::UIElements {
+class StyleSheet;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -35,6 +35,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::VisualElementStyleSheetSet>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::VisualElementStyleSheetSet>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::VisualElementStyleSheetSet>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::VisualElementStyleSheetSet>* i___System__IEquatable_1___UnityEngine__UIElements__VisualElementStyleSheetSet_();
 
   /// @brief Method .ctor, addr 0x2dc7ff0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* element);

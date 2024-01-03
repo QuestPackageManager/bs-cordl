@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(ColorPage)
 namespace UnityEngine::UIElements::UIR {
+struct BMPAlloc;
+}
+namespace UnityEngine::UIElements::UIR {
 class RenderChain;
 }
 namespace UnityEngine {
 struct Color32;
-}
-namespace UnityEngine::UIElements::UIR {
-struct BMPAlloc;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

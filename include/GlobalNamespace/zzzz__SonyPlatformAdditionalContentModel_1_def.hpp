@@ -16,88 +16,88 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SonyPlatformAdditionalContentModel_1)
 namespace GlobalNamespace {
-template <typename T> struct __SonyPlatformAdditionalContentModel_1___GetPackEntitlementStatusInternalAsync_d__12;
-}
-namespace System::Threading {
-class SemaphoreSlim;
-}
-namespace GlobalNamespace {
-template <typename T> struct __SonyPlatformAdditionalContentModel_1___OpenLevelPackProductStoreAsync_d__14;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
-template <typename T> struct __SonyPlatformAdditionalContentModel_1___EnsureDataValidity_d__20;
-}
-namespace GlobalNamespace {
-class __SonyLevelProductModelSO__LevelPackRedirectionData;
-}
-namespace GlobalNamespace {
-struct __AdditionalContentModel__UpdateEntitlementsResult;
-}
-namespace GlobalNamespace {
 class AlwaysOwnedContentContainerSO;
-}
-namespace GlobalNamespace {
-class ISonyCommerceHelper;
-}
-namespace GlobalNamespace {
-template <typename T> struct __SonyPlatformAdditionalContentModel_1___OpenLevelProductStoreAsync_d__13;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace GlobalNamespace {
-template <typename T> struct __SonyPlatformAdditionalContentModel_1___GetLevelEntitlementStatusInternalAsync_d__11;
-}
-namespace GlobalNamespace {
-template <typename T> struct __SonyPlatformAdditionalContentModel_1___UpdateEntitlementsAsync_d__21;
-}
-namespace GlobalNamespace {
-struct OpenProductStoreResult;
-}
-namespace GlobalNamespace {
-struct IsPackBetterBuyThanLevelResult;
-}
-namespace GlobalNamespace {
-class __SonyLevelProductModelSO__LevelProductData;
-}
-namespace System::Threading {
-struct CancellationToken;
 }
 namespace GlobalNamespace {
 struct EntitlementStatus;
 }
 namespace GlobalNamespace {
-template <typename T> struct __SonyPlatformAdditionalContentModel_1___IsPackBetterBuyThanLevelAsync_d__15;
+class ISonyCommerceHelper;
 }
 namespace GlobalNamespace {
-class __SonyLevelProductModelSO__LevelPackProductData;
+struct IsPackBetterBuyThanLevelResult;
 }
 namespace GlobalNamespace {
-template <typename T> struct __SonyPlatformAdditionalContentModel_1___GetRedirectedLevelPackProductData_d__16;
+struct OpenProductStoreResult;
 }
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+namespace GlobalNamespace {
+struct __AdditionalContentModel__UpdateEntitlementsResult;
 }
-namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+namespace GlobalNamespace {
+struct __ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult;
 }
 namespace GlobalNamespace {
 struct __ISonyCommerceHelper__DisplayProductBrowseDialogResult;
 }
 namespace GlobalNamespace {
-struct __ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult;
+class __SonyLevelProductModelSO__LevelPackProductData;
+}
+namespace GlobalNamespace {
+class __SonyLevelProductModelSO__LevelPackRedirectionData;
+}
+namespace GlobalNamespace {
+class __SonyLevelProductModelSO__LevelProductData;
+}
+namespace GlobalNamespace {
+template <typename T> struct __SonyPlatformAdditionalContentModel_1___EnsureDataValidity_d__20;
+}
+namespace GlobalNamespace {
+template <typename T> struct __SonyPlatformAdditionalContentModel_1___GetLevelEntitlementStatusInternalAsync_d__11;
+}
+namespace GlobalNamespace {
+template <typename T> struct __SonyPlatformAdditionalContentModel_1___GetPackEntitlementStatusInternalAsync_d__12;
+}
+namespace GlobalNamespace {
+template <typename T> struct __SonyPlatformAdditionalContentModel_1___GetRedirectedLevelPackProductData_d__16;
+}
+namespace GlobalNamespace {
+template <typename T> struct __SonyPlatformAdditionalContentModel_1___IsPackBetterBuyThanLevelAsync_d__15;
+}
+namespace GlobalNamespace {
+template <typename T> struct __SonyPlatformAdditionalContentModel_1___OpenLevelPackProductStoreAsync_d__14;
+}
+namespace GlobalNamespace {
+template <typename T> struct __SonyPlatformAdditionalContentModel_1___OpenLevelProductStoreAsync_d__13;
+}
+namespace GlobalNamespace {
+template <typename T> struct __SonyPlatformAdditionalContentModel_1___UpdateEntitlementsAsync_d__21;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System::Runtime::CompilerServices {
+struct TaskAwaiter;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Threading {
+class SemaphoreSlim;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -143,15 +143,17 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 880 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4593)) CS Name:
-// ::SonyPlatformAdditionalContentModel`1::<GetLevelEntitlementStatusInternalAsync>d__11<T>
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(16270)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 880
+// }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(4593)) CS Name: ::SonyPlatformAdditionalContentModel`1::<GetLevelEntitlementStatusInternalAsync>d__11<T>
 struct CORDL_TYPE __SonyPlatformAdditionalContentModel_1___GetLevelEntitlementStatusInternalAsync_d__11 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -204,14 +206,17 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 880 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3394), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(16270)), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(3402), inst: 880 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(4594)) CS Name: ::SonyPlatformAdditionalContentModel`1::<GetPackEntitlementStatusInternalAsync>d__12<T>
 struct CORDL_TYPE __SonyPlatformAdditionalContentModel_1___GetPackEntitlementStatusInternalAsync_d__12 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -264,14 +269,18 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5070 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 895 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(16271)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(4140)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4595)) CS Name: ::SonyPlatformAdditionalContentModel`1::<OpenLevelProductStoreAsync>d__13<T>
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16271)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5070 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(4140)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 895 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4595)) CS Name:
+// ::SonyPlatformAdditionalContentModel`1::<OpenLevelProductStoreAsync>d__13<T>
 struct CORDL_TYPE __SonyPlatformAdditionalContentModel_1___OpenLevelProductStoreAsync_d__13 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -324,15 +333,18 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 397 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3402), inst: 895 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3394), inst: 5070 }), TypeDefinitionIndex(TypeDefinitionIndex(4140)), TypeDefinitionIndex(TypeDefinitionIndex(16271))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4596)) CS
-// Name: ::SonyPlatformAdditionalContentModel`1::<OpenLevelPackProductStoreAsync>d__14<T>
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5070 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(4140)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 895 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(16271))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(4596)) CS Name: ::SonyPlatformAdditionalContentModel`1::<OpenLevelPackProductStoreAsync>d__14<T>
 struct CORDL_TYPE __SonyPlatformAdditionalContentModel_1___OpenLevelPackProductStoreAsync_d__14 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -390,14 +402,17 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(16272)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 891 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4597)) CS Name: ::SonyPlatformAdditionalContentModel`1::<IsPackBetterBuyThanLevelAsync>d__15<T>
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16272)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 891
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(4597)) CS Name: ::SonyPlatformAdditionalContentModel`1::<IsPackBetterBuyThanLevelAsync>d__15<T>
 struct CORDL_TYPE __SonyPlatformAdditionalContentModel_1___IsPackBetterBuyThanLevelAsync_d__15 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -450,14 +465,17 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 397 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3394), inst: 880 }), TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(4598)) CS Name: ::SonyPlatformAdditionalContentModel`1::<GetRedirectedLevelPackProductData>d__16<T>
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(16270)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 397 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4598)) CS Name: ::SonyPlatformAdditionalContentModel`1::<GetRedirectedLevelPackProductData>d__16<T>
 struct CORDL_TYPE __SonyPlatformAdditionalContentModel_1___GetRedirectedLevelPackProductData_d__16 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -520,14 +538,18 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 903
-// }), TypeDefinitionIndex(TypeDefinitionIndex(4097)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4599)) CS Name: ::SonyPlatformAdditionalContentModel`1::<EnsureDataValidity>d__20<T>
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4097)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3393)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 903 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4599)) CS Name:
+// ::SonyPlatformAdditionalContentModel`1::<EnsureDataValidity>d__20<T>
 struct CORDL_TYPE __SonyPlatformAdditionalContentModel_1___EnsureDataValidity_d__20 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -580,15 +602,18 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(4143)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 903 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5069 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(4097)), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4600)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(4143)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 903 }), TypeDefinitionIndex(TypeDefinitionIndex(4097)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3394), inst: 5069 }), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4600)) CS Name:
 // ::SonyPlatformAdditionalContentModel`1::<UpdateEntitlementsAsync>d__21<T>
 struct CORDL_TYPE __SonyPlatformAdditionalContentModel_1___UpdateEntitlementsAsync_d__21 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();

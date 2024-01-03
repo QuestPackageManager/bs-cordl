@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MirroredObstacleController)
 namespace GlobalNamespace {
-class __MirroredObstacleController__Pool;
-}
-namespace GlobalNamespace {
-class StretchableObstacle;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace GlobalNamespace {
 class ObstacleControllerBase;
 }
 namespace GlobalNamespace {
 class ObstacleController;
+}
+namespace GlobalNamespace {
+class StretchableObstacle;
+}
+namespace GlobalNamespace {
+class __MirroredObstacleController__Pool;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -154,7 +154,7 @@ static_assert(offsetof(::GlobalNamespace::MirroredObstacleController, ____follow
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), TypeDefinitionIndex(TypeDefinitionIndex(4789)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4789)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
 // 2816 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4788)) CS Name: ::MirroredObstacleController::Pool*
 class CORDL_TYPE __MirroredObstacleController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MirroredObstacleController*> {
 public:

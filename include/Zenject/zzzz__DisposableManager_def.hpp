@@ -7,50 +7,50 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DisposableManager)
-namespace Zenject {
-class __DisposableManager____c__DisplayClass4_1;
-}
-namespace System {
-class IDisposable;
-}
 namespace ModestTree::Util {
 template <typename T1, typename T2> class ValuePair_2;
 }
-namespace Zenject {
-struct __DisposableManager__DisposableInfo;
-}
-namespace Zenject {
-class __DisposableManager____c__DisplayClass9_0;
-}
-namespace System {
-class Type;
-}
-namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
-class __DisposableManager____c;
-}
-namespace Zenject {
-class __DisposableManager__LateDisposableInfo;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace Zenject {
-class __DisposableManager____c__DisplayClass4_0;
-}
-namespace Zenject {
-class ILateDisposable;
-}
-namespace System {
-class Object;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
+class IDisposable;
+}
+namespace System {
 template <typename T> struct Nullable_1;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
+}
+namespace Zenject {
+class ILateDisposable;
+}
+namespace Zenject {
+class InjectTypeInfo;
+}
+namespace Zenject {
+struct __DisposableManager__DisposableInfo;
+}
+namespace Zenject {
+class __DisposableManager__LateDisposableInfo;
+}
+namespace Zenject {
+class __DisposableManager____c;
+}
+namespace Zenject {
+class __DisposableManager____c__DisplayClass4_0;
+}
+namespace Zenject {
+class __DisposableManager____c__DisplayClass4_1;
+}
+namespace Zenject {
+class __DisposableManager____c__DisplayClass9_0;
 }
 // Forward declare root types
 namespace Zenject {
@@ -490,6 +490,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::System::Collections::Generic::List_1<::Zenject::__DisposableManager__DisposableInfo>*& __get__disposables();
 

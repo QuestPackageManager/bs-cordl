@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__SystemException_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AbandonedMutexException)
-namespace System::Threading {
-class WaitHandle;
-}
-namespace System::Threading {
-class Mutex;
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+namespace System::Threading {
+class Mutex;
+}
+namespace System::Threading {
+class WaitHandle;
 }
 // Forward declare root types
 namespace System::Threading {

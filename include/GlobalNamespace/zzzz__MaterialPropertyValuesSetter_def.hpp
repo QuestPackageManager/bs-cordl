@@ -12,6 +12,12 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MaterialPropertyValuesSetter)
 namespace GlobalNamespace {
+class MaterialPropertyBlockController;
+}
+namespace GlobalNamespace {
+class __MaterialPropertyValuesSetter__PropertyNameColorValuePair;
+}
+namespace GlobalNamespace {
 class __MaterialPropertyValuesSetter__PropertyNameFloatValuePair;
 }
 namespace GlobalNamespace {
@@ -22,12 +28,6 @@ class __MaterialPropertyValuesSetter__PropertyNameVectorValuePair;
 }
 namespace GlobalNamespace {
 class __MaterialPropertyValuesSetter__PropertyValuePairBase;
-}
-namespace GlobalNamespace {
-class __MaterialPropertyValuesSetter__PropertyNameColorValuePair;
-}
-namespace GlobalNamespace {
-class MaterialPropertyBlockController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -231,7 +231,7 @@ static_assert(offsetof(::GlobalNamespace::__MaterialPropertyValuesSetter__Proper
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(14572))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14572)), TypeDefinitionIndex(TypeDefinitionIndex(10246))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14575))
 // CS Name: ::MaterialPropertyValuesSetter::PropertyNameVectorValuePair*
 class CORDL_TYPE __MaterialPropertyValuesSetter__PropertyNameVectorValuePair : public ::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyValuePairBase {

@@ -17,25 +17,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(JsonReader)
 namespace Newtonsoft::Json {
-struct DateTimeZoneHandling;
-}
-namespace System {
-struct DateTime;
-}
-namespace Newtonsoft::Json {
-class JsonReaderException;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace Newtonsoft::Json {
 struct DateParseHandling;
 }
-namespace System {
-template <typename T> struct Nullable_1;
+namespace Newtonsoft::Json {
+struct DateTimeZoneHandling;
 }
-namespace System {
-struct Decimal;
+namespace Newtonsoft::Json {
+struct FloatParseHandling;
 }
 namespace Newtonsoft::Json {
 struct JsonContainerType;
@@ -43,29 +31,41 @@ struct JsonContainerType;
 namespace Newtonsoft::Json {
 struct JsonPosition;
 }
+namespace Newtonsoft::Json {
+class JsonReaderException;
+}
+namespace Newtonsoft::Json {
+struct JsonToken;
+}
+namespace Newtonsoft::Json {
+struct __JsonReader__State;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System {
+struct DateTimeOffset;
+}
+namespace System {
+struct DateTime;
+}
+namespace System {
+struct Decimal;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+template <typename T> struct Nullable_1;
 }
 namespace System {
 class Object;
 }
 namespace System {
-class IDisposable;
-}
-namespace Newtonsoft::Json {
-struct FloatParseHandling;
-}
-namespace Newtonsoft::Json {
-struct JsonToken;
-}
-namespace System {
 class Type;
-}
-namespace System {
-struct DateTimeOffset;
-}
-namespace Newtonsoft::Json {
-struct __JsonReader__State;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {
@@ -175,9 +175,9 @@ static_assert(offsetof(::Newtonsoft::Json::__JsonReader__State, value__) == 0x0,
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 114, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11807)), TypeDefinitionIndex(TypeDefinitionIndex(11797)), TypeDefinitionIndex(TypeDefinitionIndex(11799)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11796)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11841)), TypeDefinitionIndex(TypeDefinitionIndex(11832)), TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11799)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(11841)), TypeDefinitionIndex(TypeDefinitionIndex(11797)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11796)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11832)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(11807))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(11833)) CS Name: ::Newtonsoft.Json::JsonReader*
 class CORDL_TYPE JsonReader : public ::System::Object {
 public:
@@ -261,6 +261,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::Newtonsoft::Json::JsonToken& __get__tokenType();
 

@@ -7,28 +7,28 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(GroupBox)
 namespace UnityEngine::UIElements {
-class __GroupBox__UxmlFactory;
-}
-namespace UnityEngine::UIElements {
-class Label;
+struct CreationContext;
 }
 namespace UnityEngine::UIElements {
 class IGroupBox;
 }
 namespace UnityEngine::UIElements {
-class __GroupBox__UxmlTraits;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
 class IUxmlAttributes;
+}
+namespace UnityEngine::UIElements {
+class Label;
 }
 namespace UnityEngine::UIElements {
 class UxmlStringAttributeDescription;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+class __GroupBox__UxmlFactory;
+}
+namespace UnityEngine::UIElements {
+class __GroupBox__UxmlTraits;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -124,6 +124,9 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IGroupBox"
   constexpr operator ::UnityEngine::UIElements::IGroupBox*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::UIElements::IGroupBox"
+  constexpr ::UnityEngine::UIElements::IGroupBox* i___UnityEngine__UIElements__IGroupBox() noexcept;
+
   constexpr ::UnityEngine::UIElements::Label*& __get_m_TitleLabel();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Label*> const& __get_m_TitleLabel() const;
@@ -181,7 +184,7 @@ static_assert(offsetof(::UnityEngine::UIElements::GroupBox, ___m_TitleLabel) == 
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6997)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5261 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7114)), TypeDefinitionIndex(TypeDefinitionIndex(7115))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7113)) CS Name: ::GroupBox::UxmlFactory*
+// TypeDefinitionIndex(TypeDefinitionIndex(7115)), TypeDefinitionIndex(TypeDefinitionIndex(7114))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7113)) CS Name: ::GroupBox::UxmlFactory*
 class CORDL_TYPE __GroupBox__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::GroupBox*, ::UnityEngine::UIElements::__GroupBox__UxmlTraits*> {
 public:
   // Declarations

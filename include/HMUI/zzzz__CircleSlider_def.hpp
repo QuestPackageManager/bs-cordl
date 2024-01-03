@@ -6,8 +6,32 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__DrivenRectTransformTracker_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(CircleSlider)
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace UnityEngine::EventSystems {
+class IBeginDragHandler;
+}
+namespace UnityEngine::EventSystems {
+class IDragHandler;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine::EventSystems {
+class IInitializePotentialDragHandler;
+}
 namespace UnityEngine::EventSystems {
 class PointerEventData;
+}
+namespace UnityEngine::UI {
+struct CanvasUpdate;
+}
+namespace UnityEngine::UI {
+class Graphic;
+}
+namespace UnityEngine::UI {
+class ICanvasElement;
 }
 namespace UnityEngine {
 struct Color;
@@ -15,32 +39,8 @@ struct Color;
 namespace UnityEngine {
 class RectTransform;
 }
-namespace UnityEngine::UI {
-struct CanvasUpdate;
-}
 namespace UnityEngine {
 class Transform;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine::EventSystems {
-class IDragHandler;
-}
-namespace UnityEngine::UI {
-class Graphic;
-}
-namespace UnityEngine::EventSystems {
-class IInitializePotentialDragHandler;
-}
-namespace UnityEngine::UI {
-class ICanvasElement;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace UnityEngine::EventSystems {
-class IBeginDragHandler;
 }
 // Forward declare root types
 namespace HMUI {
@@ -88,17 +88,32 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IBeginDragHandler"
   constexpr operator ::UnityEngine::EventSystems::IBeginDragHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IBeginDragHandler"
+  constexpr ::UnityEngine::EventSystems::IBeginDragHandler* i___UnityEngine__EventSystems__IBeginDragHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IDragHandler"
   constexpr operator ::UnityEngine::EventSystems::IDragHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IDragHandler"
+  constexpr ::UnityEngine::EventSystems::IDragHandler* i___UnityEngine__EventSystems__IDragHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IInitializePotentialDragHandler"
   constexpr operator ::UnityEngine::EventSystems::IInitializePotentialDragHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IInitializePotentialDragHandler"
+  constexpr ::UnityEngine::EventSystems::IInitializePotentialDragHandler* i___UnityEngine__EventSystems__IInitializePotentialDragHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::UI::ICanvasElement"
   constexpr operator ::UnityEngine::UI::ICanvasElement*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UI::ICanvasElement"
+  constexpr ::UnityEngine::UI::ICanvasElement* i___UnityEngine__UI__ICanvasElement() noexcept;
 
   constexpr ::UnityEngine::RectTransform*& __get__handleRect();
 

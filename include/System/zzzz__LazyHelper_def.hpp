@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__LazyState_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(LazyHelper)
+namespace System::Runtime::ExceptionServices {
+class ExceptionDispatchInfo;
+}
+namespace System::Threading {
+struct LazyThreadSafetyMode;
+}
 namespace System {
 class Exception;
+}
+namespace System {
+struct LazyState;
 }
 namespace System {
 class Object;
 }
 namespace System {
 class Type;
-}
-namespace System::Runtime::ExceptionServices {
-class ExceptionDispatchInfo;
-}
-namespace System {
-struct LazyState;
-}
-namespace System::Threading {
-struct LazyThreadSafetyMode;
 }
 // Forward declare root types
 namespace System {
@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::System::LazyHelper);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2430)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2430))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2431))
 // CS Name: ::System::LazyHelper*
 class CORDL_TYPE LazyHelper : public ::System::Object {

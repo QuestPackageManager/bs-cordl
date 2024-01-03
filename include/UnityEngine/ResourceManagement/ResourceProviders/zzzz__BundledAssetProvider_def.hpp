@@ -9,29 +9,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(BundledAssetProvider)
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class __BundledAssetProvider__InternalOp;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct ProvideHandle;
-}
-namespace UnityEngine {
-class AssetBundleRequest;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct ProvideHandle;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class __BundledAssetProvider__InternalOp;
 }
 namespace UnityEngine {
-class Object;
+class AssetBundleRequest;
+}
+namespace UnityEngine {
+class AssetBundle;
 }
 namespace UnityEngine {
 class AsyncOperation;
 }
 namespace UnityEngine {
-class AssetBundle;
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {
@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::__BundledAs
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14002)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14002))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13996))
 // CS Name: ::BundledAssetProvider::InternalOp*
 class CORDL_TYPE __BundledAssetProvider__InternalOp : public ::System::Object {

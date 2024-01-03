@@ -7,6 +7,10 @@
 template <typename T> constexpr UnityEngine::UIElements::CommandEventBase_1<T>::operator ::UnityEngine::UIElements::ICommandEvent*() noexcept {
   return static_cast<::UnityEngine::UIElements::ICommandEvent*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::UnityEngine::UIElements::ICommandEvent"
+template <typename T> constexpr ::UnityEngine::UIElements::ICommandEvent* UnityEngine::UIElements::CommandEventBase_1<T>::i___UnityEngine__UIElements__ICommandEvent() noexcept {
+  return static_cast<::UnityEngine::UIElements::ICommandEvent*>(static_cast<void*>(this));
+}
 template <typename T> constexpr ::StringW& UnityEngine::UIElements::CommandEventBase_1<T>::__get_m_CommandName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CommandName;

@@ -35,6 +35,9 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::IDigestCalculator"
   constexpr operator ::Org::BouncyCastle::Cms::IDigestCalculator*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Cms::IDigestCalculator"
+  constexpr ::Org::BouncyCastle::Cms::IDigestCalculator* i___Org__BouncyCastle__Cms__IDigestCalculator() noexcept;
+
   constexpr ::StringW& __get_alg();
 
   constexpr ::StringW const& __get_alg() const;

@@ -5,14 +5,8 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpObject_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpEncryptedDataList)
-namespace System {
-class Object;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class IList;
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpEncryptedData;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
@@ -20,8 +14,14 @@ class BcpgInputStream;
 namespace Org::BouncyCastle::Bcpg {
 class InputStreamPacket;
 }
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpEncryptedData;
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IList;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {

@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(PlayableBehaviour)
-namespace UnityEngine::Playables {
-struct Playable;
-}
 namespace System {
 class ICloneable;
+}
+namespace System {
+class Object;
 }
 namespace UnityEngine::Playables {
 struct FrameData;
@@ -16,8 +16,8 @@ struct FrameData;
 namespace UnityEngine::Playables {
 class IPlayableBehaviour;
 }
-namespace System {
-class Object;
+namespace UnityEngine::Playables {
+struct Playable;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {
@@ -38,8 +38,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayableBehaviour"
   constexpr operator ::UnityEngine::Playables::IPlayableBehaviour*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::Playables::IPlayableBehaviour"
+  constexpr ::UnityEngine::Playables::IPlayableBehaviour* i___UnityEngine__Playables__IPlayableBehaviour() noexcept;
+
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
+
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
   static inline ::UnityEngine::Playables::PlayableBehaviour* New_ctor();
 

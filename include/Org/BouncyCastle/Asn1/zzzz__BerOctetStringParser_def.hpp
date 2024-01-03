@@ -5,6 +5,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(BerOctetStringParser)
 namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetStringParser;
 }
 namespace Org::BouncyCastle::Asn1 {
@@ -15,9 +18,6 @@ class IAsn1Convertible;
 }
 namespace System::IO {
 class Stream;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -41,8 +41,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::Asn1OctetStringParser"
   constexpr operator ::Org::BouncyCastle::Asn1::Asn1OctetStringParser*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::Asn1OctetStringParser"
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetStringParser* i___Org__BouncyCastle__Asn1__Asn1OctetStringParser() noexcept;
+
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible* i___Org__BouncyCastle__Asn1__IAsn1Convertible() noexcept;
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1StreamParser*& __get__parser();
 

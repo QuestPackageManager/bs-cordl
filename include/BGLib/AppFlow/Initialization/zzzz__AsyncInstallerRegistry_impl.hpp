@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__AsyncInstallerRegistry_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__AsyncInstaller_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstaller_def.hpp"
 //  Writing Method size for method: ::BGLib::AppFlow::Initialization::AsyncInstallerRegistry.AddMonoInstaller
@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xa8;
   constexpr static std::size_t addrs = 0xe23c34;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*>::get(), "AddMonoInstaller",
                                     std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::MonoInstaller*>::get() })));
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xa8;
   constexpr static std::size_t addrs = 0xe23cdc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*>::get(), "AddScriptableObjectInstaller", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::ScriptableObjectInstaller*>::get() })));
@@ -43,7 +43,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc0;
   constexpr static std::size_t addrs = 0xe23d84;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*>::get(),
                                                                                ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -51,6 +51,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry"
 constexpr BGLib::AppFlow::Initialization::AsyncInstallerRegistry::operator ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry*() noexcept {
+  return static_cast<::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry"
+constexpr ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry*
+BGLib::AppFlow::Initialization::AsyncInstallerRegistry::i___BGLib__AppFlow__Initialization____AsyncInstaller__IInstallerRegistry() noexcept {
   return static_cast<::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::Generic::List_1<::Zenject::MonoInstaller*>*& BGLib::AppFlow::Initialization::AsyncInstallerRegistry::__get_monoInstallers() {

@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InvalidEnumArgumentException)
 namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System {
 class Type;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
 }
 // Forward declare root types
 namespace System::ComponentModel {

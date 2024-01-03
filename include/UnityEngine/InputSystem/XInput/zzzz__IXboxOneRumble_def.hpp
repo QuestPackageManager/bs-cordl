@@ -29,8 +29,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::Haptics::IDualMotorRumble"
   constexpr operator ::UnityEngine::InputSystem::Haptics::IDualMotorRumble*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::InputSystem::Haptics::IDualMotorRumble"
+  constexpr ::UnityEngine::InputSystem::Haptics::IDualMotorRumble* i___UnityEngine__InputSystem__Haptics__IDualMotorRumble() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::InputSystem::Haptics::IHaptics"
   constexpr operator ::UnityEngine::InputSystem::Haptics::IHaptics*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::InputSystem::Haptics::IHaptics"
+  constexpr ::UnityEngine::InputSystem::Haptics::IHaptics* i___UnityEngine__InputSystem__Haptics__IHaptics() noexcept;
 
   /// @brief Method SetMotorSpeeds, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetMotorSpeeds(float_t lowFrequency, float_t highFrequency, float_t leftTrigger, float_t rightTrigger);

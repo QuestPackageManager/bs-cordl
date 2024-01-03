@@ -1,17 +1,25 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__PoolWrapperFactory_2_def.hpp"
-#include "Zenject/zzzz__IFactory_def.hpp"
-#include "Zenject/zzzz__IMemoryPool_2_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__IFactory_2_def.hpp"
+#include "Zenject/zzzz__IFactory_def.hpp"
+#include "Zenject/zzzz__IMemoryPool_2_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 /// @brief Convert operator to "::Zenject::IFactory_2<TParam1,TValue>"
 template <typename TParam1, typename TValue> constexpr Zenject::PoolWrapperFactory_2<TParam1, TValue>::operator ::Zenject::IFactory_2<TParam1, TValue>*() noexcept {
   return static_cast<::Zenject::IFactory_2<TParam1, TValue>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::Zenject::IFactory_2<TParam1,TValue>"
+template <typename TParam1, typename TValue> constexpr ::Zenject::IFactory_2<TParam1, TValue>* Zenject::PoolWrapperFactory_2<TParam1, TValue>::i___Zenject__IFactory_2_TParam1_TValue_() noexcept {
+  return static_cast<::Zenject::IFactory_2<TParam1, TValue>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::Zenject::IFactory"
 template <typename TParam1, typename TValue> constexpr Zenject::PoolWrapperFactory_2<TParam1, TValue>::operator ::Zenject::IFactory*() noexcept {
+  return static_cast<::Zenject::IFactory*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::IFactory"
+template <typename TParam1, typename TValue> constexpr ::Zenject::IFactory* Zenject::PoolWrapperFactory_2<TParam1, TValue>::i___Zenject__IFactory() noexcept {
   return static_cast<::Zenject::IFactory*>(static_cast<void*>(this));
 }
 template <typename TParam1, typename TValue> constexpr ::Zenject::IMemoryPool_2<TParam1, TValue>*& Zenject::PoolWrapperFactory_2<TParam1, TValue>::__get__pool() {

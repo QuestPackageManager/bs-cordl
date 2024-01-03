@@ -8,16 +8,16 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerUtf8String;
-}
-namespace System {
-class Object;
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class DerUtf8String;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Ess {

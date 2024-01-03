@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DiscreteTime)
 namespace System {
-class Object;
+class IComparable;
 }
 namespace System {
-class IComparable;
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -34,6 +34,9 @@ public:
 
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*();
+
+  /// @brief Convert to "::System::IComparable"
+  constexpr ::System::IComparable* i___System__IComparable();
 
   static inline void setStaticF_kMaxTime(::UnityEngine::Timeline::DiscreteTime value);
 

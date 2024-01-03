@@ -1,19 +1,19 @@
 #pragma once
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayCoreInstaller_def.hpp"
-#include "GlobalNamespace/zzzz__PerceivedLoudnessPerLevelModel_def.hpp"
-#include "GlobalNamespace/zzzz__RelativeSfxVolumePerLevelModel_def.hpp"
-#include "GlobalNamespace/zzzz__SongProfilingController_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerHeightDetector_def.hpp"
-#include "GlobalNamespace/zzzz__NoteCutScoreSpawner_def.hpp"
 #include "GlobalNamespace/zzzz__AudioManagerSO_def.hpp"
 #include "GlobalNamespace/zzzz__BadNoteCutEffectSpawner_def.hpp"
 #include "GlobalNamespace/zzzz__BeatLineManager_def.hpp"
-#include "Tweening/zzzz__SongTimeTweeningManager_def.hpp"
-#include "GlobalNamespace/zzzz__MissedNoteEffectSpawner_def.hpp"
 #include "GlobalNamespace/zzzz__EffectPoolsManualInstaller_def.hpp"
-#include "GlobalNamespace/zzzz__SongAutopilot_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
+#include "GlobalNamespace/zzzz__MissedNoteEffectSpawner_def.hpp"
+#include "GlobalNamespace/zzzz__NoteCutScoreSpawner_def.hpp"
+#include "GlobalNamespace/zzzz__PerceivedLoudnessPerLevelModel_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerHeightDetector_def.hpp"
+#include "GlobalNamespace/zzzz__RelativeSfxVolumePerLevelModel_def.hpp"
+#include "GlobalNamespace/zzzz__SongAutopilot_def.hpp"
+#include "GlobalNamespace/zzzz__SongProfilingController_def.hpp"
+#include "Tweening/zzzz__SongTimeTweeningManager_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GameplayCoreInstaller.InstallBindings
 template <>
 
@@ -21,7 +21,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1b30;
   constexpr static std::size_t addrs = 0x226ff3c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayCoreInstaller*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayCoreInstaller*>::get(), 8));
@@ -36,7 +36,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x124;
   constexpr static std::size_t addrs = 0x2271a6c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayCoreInstaller*>::get(),
                                                                                "InstallRecordingTool", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -49,7 +49,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2271b90;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayCoreInstaller*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;

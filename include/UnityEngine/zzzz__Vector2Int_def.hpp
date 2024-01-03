@@ -7,7 +7,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Vector2Int)
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class IFormatProvider;
@@ -16,7 +16,7 @@ namespace System {
 class IFormattable;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -62,8 +62,14 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Vector2Int>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Vector2Int>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Vector2Int>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Vector2Int>* i___System__IEquatable_1___UnityEngine__Vector2Int_();
+
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
+
+  /// @brief Convert to "::System::IFormattable"
+  constexpr ::System::IFormattable* i___System__IFormattable();
 
   static inline void setStaticF_s_Zero(::UnityEngine::Vector2Int value);
 

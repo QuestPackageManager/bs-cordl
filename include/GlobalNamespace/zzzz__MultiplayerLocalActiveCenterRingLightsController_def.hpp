@@ -6,8 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerLocalActiveCenterRingLightsController)
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+class BeatmapObjectSpawnCenter;
 }
 namespace GlobalNamespace {
 class MultiplayerCenterResizeController;
@@ -15,8 +15,8 @@ class MultiplayerCenterResizeController;
 namespace GlobalNamespace {
 class MultiplayerLayoutProvider;
 }
-namespace GlobalNamespace {
-class BeatmapObjectSpawnCenter;
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SecT131R1Point)
 namespace Org::BouncyCastle::Math::EC {
-class ECFieldElement;
+class ECCurve;
 }
 namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
+class ECFieldElement;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;

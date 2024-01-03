@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputEventStream)
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputEvent;
+struct InputEventBuffer;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventBuffer;
+struct InputEvent;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

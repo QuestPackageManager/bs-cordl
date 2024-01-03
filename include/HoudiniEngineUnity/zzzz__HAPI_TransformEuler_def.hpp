@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(HAPI_TransformEuler)
 namespace HoudiniEngineUnity {
-struct HAPI_XYZOrder;
+struct HAPI_RSTOrder;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_RSTOrder;
+struct HAPI_XYZOrder;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

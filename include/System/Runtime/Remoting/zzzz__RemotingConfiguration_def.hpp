@@ -6,9 +6,6 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(RemotingConfiguration)
-namespace System::Runtime::Remoting {
-class WellKnownClientTypeEntry;
-}
 namespace System::Collections {
 class ArrayList;
 }
@@ -16,22 +13,25 @@ namespace System::Collections {
 class Hashtable;
 }
 namespace System::Runtime::Remoting {
-class WellKnownServiceTypeEntry;
-}
-namespace System::Runtime::Remoting {
-class ProviderData;
-}
-namespace System::Runtime::Remoting {
-class ChannelData;
-}
-namespace System {
-class Type;
+class ActivatedClientTypeEntry;
 }
 namespace System::Runtime::Remoting {
 class ActivatedServiceTypeEntry;
 }
 namespace System::Runtime::Remoting {
-class ActivatedClientTypeEntry;
+class ChannelData;
+}
+namespace System::Runtime::Remoting {
+class ProviderData;
+}
+namespace System::Runtime::Remoting {
+class WellKnownClientTypeEntry;
+}
+namespace System::Runtime::Remoting {
+class WellKnownServiceTypeEntry;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {

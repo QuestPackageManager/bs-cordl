@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CachedProvider)
-namespace Zenject {
-struct TypeValuePair;
-}
-namespace System {
-class Action;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
-class Object;
+class Action;
 }
-namespace Zenject {
-class InjectContext;
+namespace System {
+class Object;
 }
 namespace System {
 class Type;
 }
 namespace Zenject {
 class IProvider;
+}
+namespace Zenject {
+class InjectContext;
+}
+namespace Zenject {
+struct TypeValuePair;
 }
 // Forward declare root types
 namespace Zenject {
@@ -60,6 +60,9 @@ public:
 
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
+
+  /// @brief Convert to "::Zenject::IProvider"
+  constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
 
   constexpr ::Zenject::IProvider*& __get__creator();
 

@@ -8,26 +8,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayableOutputHandle)
-namespace UnityEngine::Playables {
-class INotification;
+namespace System {
+template <typename T> class IEquatable_1;
 }
-namespace UnityEngine::Playables {
-class INotificationReceiver;
+namespace System {
+class Object;
 }
 namespace System {
 class Type;
 }
-namespace System {
-template <typename T> class IEquatable_1;
+namespace UnityEngine::Playables {
+class INotificationReceiver;
 }
-namespace UnityEngine {
-class Object;
-}
-namespace System {
-class Object;
+namespace UnityEngine::Playables {
+class INotification;
 }
 namespace UnityEngine::Playables {
 struct PlayableHandle;
+}
+namespace UnityEngine {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {
@@ -50,6 +50,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Playables::PlayableOutputHandle>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Playables::PlayableOutputHandle>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Playables::PlayableOutputHandle>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Playables::PlayableOutputHandle>* i___System__IEquatable_1___UnityEngine__Playables__PlayableOutputHandle_();
 
   static inline void setStaticF_m_Null(::UnityEngine::Playables::PlayableOutputHandle value);
 

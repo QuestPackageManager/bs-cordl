@@ -11,29 +11,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_TextUtilities)
+namespace TMPro {
+struct CaretPosition;
+}
+namespace TMPro {
+class TMP_Text;
+}
+namespace TMPro {
+struct __TMP_TextUtilities__LineSegment;
+}
 namespace UnityEngine {
 class Camera;
 }
 namespace UnityEngine {
 class RectTransform;
 }
-namespace TMPro {
-struct CaretPosition;
+namespace UnityEngine {
+class Transform;
 }
 namespace UnityEngine {
 struct Vector2;
 }
-namespace TMPro {
-struct __TMP_TextUtilities__LineSegment;
-}
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace TMPro {
-class TMP_Text;
 }
 // Forward declare root types
 namespace TMPro {

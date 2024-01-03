@@ -2,47 +2,80 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/ObjectModel/zzzz__Collection_1_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/zzzz__Array_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
+#include "System/zzzz__Array_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 /// @brief Convert operator to "::System::Collections::Generic::IList_1<T>"
 template <typename T> constexpr System::Collections::ObjectModel::Collection_1<T>::operator ::System::Collections::Generic::IList_1<T>*() noexcept {
+  return static_cast<::System::Collections::Generic::IList_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IList_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::IList_1<T>* System::Collections::ObjectModel::Collection_1<T>::i___System__Collections__Generic__IList_1_T_() noexcept {
   return static_cast<::System::Collections::Generic::IList_1<T>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<T>"
 template <typename T> constexpr System::Collections::ObjectModel::Collection_1<T>::operator ::System::Collections::Generic::ICollection_1<T>*() noexcept {
   return static_cast<::System::Collections::Generic::ICollection_1<T>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::ICollection_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::ICollection_1<T>* System::Collections::ObjectModel::Collection_1<T>::i___System__Collections__Generic__ICollection_1_T_() noexcept {
+  return static_cast<::System::Collections::Generic::ICollection_1<T>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
 template <typename T> constexpr System::Collections::ObjectModel::Collection_1<T>::operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::IEnumerable_1<T>* System::Collections::ObjectModel::Collection_1<T>::i___System__Collections__Generic__IEnumerable_1_T_() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename T> constexpr System::Collections::ObjectModel::Collection_1<T>::operator ::System::Collections::IEnumerable*() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename T> constexpr ::System::Collections::IEnumerable* System::Collections::ObjectModel::Collection_1<T>::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IList"
 template <typename T> constexpr System::Collections::ObjectModel::Collection_1<T>::operator ::System::Collections::IList*() noexcept {
+  return static_cast<::System::Collections::IList*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IList"
+template <typename T> constexpr ::System::Collections::IList* System::Collections::ObjectModel::Collection_1<T>::i___System__Collections__IList() noexcept {
   return static_cast<::System::Collections::IList*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::ICollection"
 template <typename T> constexpr System::Collections::ObjectModel::Collection_1<T>::operator ::System::Collections::ICollection*() noexcept {
   return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::ICollection"
+template <typename T> constexpr ::System::Collections::ICollection* System::Collections::ObjectModel::Collection_1<T>::i___System__Collections__ICollection() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyList_1<T>"
 template <typename T> constexpr System::Collections::ObjectModel::Collection_1<T>::operator ::System::Collections::Generic::IReadOnlyList_1<T>*() noexcept {
   return static_cast<::System::Collections::Generic::IReadOnlyList_1<T>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IReadOnlyList_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::IReadOnlyList_1<T>* System::Collections::ObjectModel::Collection_1<T>::i___System__Collections__Generic__IReadOnlyList_1_T_() noexcept {
+  return static_cast<::System::Collections::Generic::IReadOnlyList_1<T>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
 template <typename T> constexpr System::Collections::ObjectModel::Collection_1<T>::operator ::System::Collections::Generic::IReadOnlyCollection_1<T>*() noexcept {
+  return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
+template <typename T>
+constexpr ::System::Collections::Generic::IReadOnlyCollection_1<T>* System::Collections::ObjectModel::Collection_1<T>::i___System__Collections__Generic__IReadOnlyCollection_1_T_() noexcept {
   return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<T>*>(static_cast<void*>(this));
 }
 template <typename T> constexpr ::System::Collections::Generic::IList_1<T>*& System::Collections::ObjectModel::Collection_1<T>::__get_items() {

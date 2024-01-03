@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CertHelper)
 namespace Mono::Unity {
+struct __UnityTls__unitytls_errorstate;
+}
+namespace Mono::Unity {
 struct __UnityTls__unitytls_x509list;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateCollection;
-}
-namespace Mono::Unity {
-struct __UnityTls__unitytls_errorstate;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;

@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ResultsEnvironmentManager)
 namespace GlobalNamespace {
-class __ResultsEnvironmentManager____c__DisplayClass3_0;
-}
-namespace GlobalNamespace {
 class BaseResultsEnvironmentController;
 }
 namespace GlobalNamespace {
 class __ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword;
+}
+namespace GlobalNamespace {
+class __ResultsEnvironmentManager____c__DisplayClass3_0;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -199,12 +199,10 @@ public:
   inline ::GlobalNamespace::BaseResultsEnvironmentController* GetResultEnvironmentControllerForKeyword(::StringW keyword);
 
   /// @brief Method ShowResultForKeyword, addr 0x23768c0, size 0xa4, virtual false, abstract: false, final false
-  /// @param immediately: bool (default: false)
-  inline void ShowResultForKeyword(::StringW keyword, bool immediately = false);
+  inline void ShowResultForKeyword(::StringW keyword, bool immediately);
 
   /// @brief Method HideResultForKeyword, addr 0x2376964, size 0x94, virtual false, abstract: false, final false
-  /// @param immediately: bool (default: false)
-  inline void HideResultForKeyword(::StringW keyword, bool immediately = false);
+  inline void HideResultForKeyword(::StringW keyword, bool immediately);
 
   static inline ::GlobalNamespace::ResultsEnvironmentManager* New_ctor();
 

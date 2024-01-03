@@ -12,47 +12,35 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Scrollbar)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace System::Collections {
 class IEnumerator;
 }
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+namespace System {
+class IDisposable;
 }
-namespace UnityEngine {
-class Coroutine;
-}
-namespace UnityEngine::EventSystems {
-class IDragHandler;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
+namespace System {
+class Object;
 }
 namespace UnityEngine::EventSystems {
 class AxisEventData;
 }
-namespace UnityEngine::UI {
-struct __Scrollbar__Axis;
+namespace UnityEngine::EventSystems {
+class IBeginDragHandler;
 }
-namespace UnityEngine::UI {
-struct __Scrollbar__Direction;
+namespace UnityEngine::EventSystems {
+class IDragHandler;
 }
-namespace UnityEngine {
-class RectTransform;
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::EventSystems {
+class IInitializePotentialDragHandler;
 }
-namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine::UI {
-class Selectable;
-}
-namespace UnityEngine::UI {
-class __Scrollbar___ClickRepeat_d__58;
+namespace UnityEngine::EventSystems {
+class PointerEventData;
 }
 namespace UnityEngine::UI {
 struct CanvasUpdate;
@@ -60,23 +48,35 @@ struct CanvasUpdate;
 namespace UnityEngine::UI {
 class ICanvasElement;
 }
-namespace UnityEngine::EventSystems {
-class IInitializePotentialDragHandler;
+namespace UnityEngine::UI {
+class Selectable;
+}
+namespace UnityEngine::UI {
+struct __Scrollbar__Axis;
+}
+namespace UnityEngine::UI {
+struct __Scrollbar__Direction;
 }
 namespace UnityEngine::UI {
 class __Scrollbar__ScrollEvent;
 }
-namespace UnityEngine::EventSystems {
-class IBeginDragHandler;
+namespace UnityEngine::UI {
+class __Scrollbar___ClickRepeat_d__58;
 }
-namespace System {
-class Object;
+namespace UnityEngine {
+class Camera;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace UnityEngine {
+class Coroutine;
 }
-namespace System {
-class IDisposable;
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -247,7 +247,7 @@ static_assert(offsetof(::UnityEngine::UI::__Scrollbar__Axis, value__) == 0x0, "O
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13111))
 // CS Name: ::Scrollbar::<ClickRepeat>d__58*
 class CORDL_TYPE __Scrollbar___ClickRepeat_d__58 : public ::System::Object {
@@ -275,11 +275,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -380,8 +389,8 @@ static_assert(offsetof(::UnityEngine::UI::__Scrollbar___ClickRepeat_d__58, ___ca
 // SizeInfo { instance_size: 320, native_size: -1, calculated_instance_size: 320, calculated_native_size: 314, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(13108)), TypeDefinitionIndex(TypeDefinitionIndex(10278)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13119))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13112)) CS Name: ::UnityEngine.UI::Scrollbar*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10278)), TypeDefinitionIndex(TypeDefinitionIndex(13119)), TypeDefinitionIndex(TypeDefinitionIndex(13108)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10243))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13112)) CS Name: ::UnityEngine.UI::Scrollbar*
 class CORDL_TYPE Scrollbar : public ::UnityEngine::UI::Selectable {
 public:
   // Declarations
@@ -450,17 +459,32 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IBeginDragHandler"
   constexpr operator ::UnityEngine::EventSystems::IBeginDragHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IBeginDragHandler"
+  constexpr ::UnityEngine::EventSystems::IBeginDragHandler* i___UnityEngine__EventSystems__IBeginDragHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IDragHandler"
   constexpr operator ::UnityEngine::EventSystems::IDragHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IDragHandler"
+  constexpr ::UnityEngine::EventSystems::IDragHandler* i___UnityEngine__EventSystems__IDragHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IInitializePotentialDragHandler"
   constexpr operator ::UnityEngine::EventSystems::IInitializePotentialDragHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IInitializePotentialDragHandler"
+  constexpr ::UnityEngine::EventSystems::IInitializePotentialDragHandler* i___UnityEngine__EventSystems__IInitializePotentialDragHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::UI::ICanvasElement"
   constexpr operator ::UnityEngine::UI::ICanvasElement*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UI::ICanvasElement"
+  constexpr ::UnityEngine::UI::ICanvasElement* i___UnityEngine__UI__ICanvasElement() noexcept;
 
   constexpr ::UnityEngine::RectTransform*& __get_m_HandleRect();
 
@@ -603,8 +627,7 @@ public:
   inline void UpdateCachedReferences();
 
   /// @brief Method Set, addr 0x2d812d0, size 0xc4, virtual false, abstract: false, final false
-  /// @param sendCallback: bool (default: true)
-  inline void Set(float_t input, bool sendCallback = true);
+  inline void Set(float_t input, bool sendCallback);
 
   /// @brief Method OnRectTransformDimensionsChange, addr 0x2d81930, size 0x38, virtual true, abstract: false, final false
   inline void OnRectTransformDimensionsChange();

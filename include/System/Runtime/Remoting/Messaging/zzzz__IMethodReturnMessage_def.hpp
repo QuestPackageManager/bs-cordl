@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(IMethodReturnMessage)
 namespace System::Runtime::Remoting::Messaging {
+class IMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
 class IMethodMessage;
 }
 namespace System {
-class Object;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+class Exception;
 }
 namespace System {
-class Exception;
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -41,8 +41,14 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMethodMessage*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodMessage"
+  constexpr ::System::Runtime::Remoting::Messaging::IMethodMessage* i___System__Runtime__Remoting__Messaging__IMethodMessage() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessage*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessage"
+  constexpr ::System::Runtime::Remoting::Messaging::IMessage* i___System__Runtime__Remoting__Messaging__IMessage() noexcept;
 
   /// @brief Method get_Exception, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Exception* get_Exception();

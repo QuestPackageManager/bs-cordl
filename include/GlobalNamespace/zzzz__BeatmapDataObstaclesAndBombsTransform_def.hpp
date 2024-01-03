@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(BeatmapDataObstaclesAndBombsTransform)
 namespace GlobalNamespace {
-class __BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0;
-}
-namespace GlobalNamespace {
 class BeatmapDataItem;
 }
 namespace GlobalNamespace {
-struct __GameplayModifiers__EnabledObstacleType;
+class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
-class IReadonlyBeatmapData;
+class __BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0;
+}
+namespace GlobalNamespace {
+struct __GameplayModifiers__EnabledObstacleType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 21, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14999)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14999))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4127))
 // CS Name: ::BeatmapDataObstaclesAndBombsTransform::<>c__DisplayClass0_0*
 class CORDL_TYPE __BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0 : public ::System::Object {

@@ -10,19 +10,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ColorTween)
 namespace TMPro {
-class __ColorTween__ColorTweenCallback;
+class ITweenValue;
 }
 namespace TMPro {
-class ITweenValue;
+class __ColorTween__ColorTweenCallback;
 }
 namespace TMPro {
 struct __ColorTween__ColorTweenMode;
 }
-namespace UnityEngine {
-struct Color;
-}
 namespace UnityEngine::Events {
 template <typename T0> class UnityAction_1;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace TMPro {
@@ -96,8 +96,8 @@ static_assert(offsetof(::TMPro::__ColorTween__ColorTweenMode, value__) == 0x0, "
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 293 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10251))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12339)) CS Name: ::ColorTween::ColorTweenCallback*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 293 }), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10465))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12339)) CS Name: ::ColorTween::ColorTweenCallback*
 class CORDL_TYPE __ColorTween__ColorTweenCallback : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color> {
 public:
   // Declarations
@@ -130,7 +130,7 @@ static_assert(::cordl_internals::size_check_v<::TMPro::__ColorTween__ColorTweenC
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12338)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(12338))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12340))
 // CS Name: ::TMPro::ColorTween
 struct CORDL_TYPE ColorTween {
@@ -152,6 +152,9 @@ public:
 
   /// @brief Convert operator to "::TMPro::ITweenValue"
   constexpr operator ::TMPro::ITweenValue*();
+
+  /// @brief Convert to "::TMPro::ITweenValue"
+  constexpr ::TMPro::ITweenValue* i___TMPro__ITweenValue();
 
   /// @brief Method get_startColor, addr 0x2c020d4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_startColor();

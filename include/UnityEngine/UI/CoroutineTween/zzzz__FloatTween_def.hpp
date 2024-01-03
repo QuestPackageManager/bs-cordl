@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstddef>
 CORDL_MODULE_EXPORT(FloatTween)
-namespace UnityEngine::UI::CoroutineTween {
-class ITweenValue;
-}
 namespace UnityEngine::Events {
 template <typename T0> class UnityAction_1;
+}
+namespace UnityEngine::UI::CoroutineTween {
+class ITweenValue;
 }
 namespace UnityEngine::UI::CoroutineTween {
 class __FloatTween__FloatTweenCallback;
@@ -82,6 +82,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::UI::CoroutineTween::ITweenValue"
   constexpr operator ::UnityEngine::UI::CoroutineTween::ITweenValue*();
+
+  /// @brief Convert to "::UnityEngine::UI::CoroutineTween::ITweenValue"
+  constexpr ::UnityEngine::UI::CoroutineTween::ITweenValue* i___UnityEngine__UI__CoroutineTween__ITweenValue();
 
   /// @brief Method get_startValue, addr 0x2d92248, size 0x8, virtual false, abstract: false, final false
   inline float_t get_startValue();

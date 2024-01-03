@@ -8,26 +8,26 @@ CORDL_MODULE_EXPORT(JsonDictionaryContract)
 namespace Newtonsoft::Json::Serialization {
 class JsonContract;
 }
-namespace System {
-class Object;
-}
-namespace System::Reflection {
-class ConstructorInfo;
-}
-namespace System::Collections {
-class IDictionary;
-}
 namespace Newtonsoft::Json::Serialization {
 template <typename T> class ObjectConstructor_1;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
 }
 namespace Newtonsoft::Json::Utilities {
 class IWrappedDictionary;
 }
+namespace System::Collections {
+class IDictionary;
+}
+namespace System::Reflection {
+class ConstructorInfo;
+}
 namespace System {
 template <typename TResult> class Func_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class Type;

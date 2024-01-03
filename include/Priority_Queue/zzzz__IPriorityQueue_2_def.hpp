@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IPriorityQueue_2)
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace Priority_Queue {
@@ -35,8 +35,14 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TItem>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TItem>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TItem>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<TItem>* i___System__Collections__Generic__IEnumerable_1_TItem_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Method Enqueue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Enqueue(TItem node, TPriority priority);

@@ -3,23 +3,23 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IConnectedPlayerBeatmapObjectEventManager)
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
-class ObstacleSpawnInfoNetSerializable;
+class NoteCutInfoNetSerializable;
 }
 namespace GlobalNamespace {
 class NoteMissInfoNetSerializable;
 }
 namespace GlobalNamespace {
-class SliderSpawnInfoNetSerializable;
-}
-namespace GlobalNamespace {
 class NoteSpawnInfoNetSerializable;
 }
 namespace GlobalNamespace {
-class NoteCutInfoNetSerializable;
+class ObstacleSpawnInfoNetSerializable;
+}
+namespace GlobalNamespace {
+class SliderSpawnInfoNetSerializable;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

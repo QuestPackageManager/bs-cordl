@@ -10,22 +10,22 @@ namespace GlobalNamespace {
 class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
-class PlayerHeadAndObstacleInteraction;
+class IComboController;
+}
+namespace GlobalNamespace {
+class NoteController;
 }
 namespace GlobalNamespace {
 struct NoteCutInfo;
 }
 namespace GlobalNamespace {
-class NoteController;
+class PlayerHeadAndObstacleInteraction;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace System {
 class Action;
-}
-namespace GlobalNamespace {
-class IComboController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -66,6 +66,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IComboController"
   constexpr operator ::GlobalNamespace::IComboController*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IComboController"
+  constexpr ::GlobalNamespace::IComboController* i___GlobalNamespace__IComboController() noexcept;
 
   constexpr ::GlobalNamespace::PlayerHeadAndObstacleInteraction*& __get__playerHeadAndObstacleInteraction();
 

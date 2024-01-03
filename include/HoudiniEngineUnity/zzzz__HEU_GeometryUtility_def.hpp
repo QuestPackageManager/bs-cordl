@@ -9,16 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_GeometryUtility)
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Vector2;
+struct Color;
 }
 namespace UnityEngine {
 class Mesh;
 }
 namespace UnityEngine {
-struct Color;
+struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -46,9 +46,8 @@ public:
   static inline void CalculateMeshTangents(::UnityEngine::Mesh* mesh);
 
   /// @brief Method GenerateCubeMeshFromPoints, addr 0x21c46b8, size 0xb00, virtual false, abstract: false, final false
-  /// @param size: float_t (default: 1.0)
   static inline ::UnityEngine::Mesh* GenerateCubeMeshFromPoints(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> points,
-                                                                ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> pointsColor, float_t size = 1.0);
+                                                                ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> pointsColor, float_t size);
 
   /// @brief Method GetInstanceOutputName, addr 0x21c51b8, size 0xbc, virtual false, abstract: false, final false
   static inline ::StringW GetInstanceOutputName(::StringW partName, ::ArrayW<::StringW, ::Array<::StringW>*> userPrefix, int32_t index);

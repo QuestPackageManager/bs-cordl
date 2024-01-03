@@ -6,32 +6,32 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(IFactoryProviderBase_1)
-namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
-class InjectContext;
-}
-namespace System {
-class Action;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
-class Type;
+class Action;
 }
-namespace Zenject {
-class IProvider;
+namespace System {
+struct Guid;
 }
 namespace System {
 class Object;
 }
 namespace System {
-struct Guid;
+class Type;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class IProvider;
+}
+namespace Zenject {
+class InjectContext;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace Zenject {
 struct TypeValuePair;
@@ -48,7 +48,7 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11194))
 // CS Name: ::Zenject::IFactoryProviderBase`1<TContract>*
 class CORDL_TYPE IFactoryProviderBase_1 : public ::System::Object {
@@ -70,6 +70,9 @@ public:
 
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
+
+  /// @brief Convert to "::Zenject::IProvider"
+  constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
 
   constexpr ::System::Guid& __get__FactoryId_k__BackingField();
 

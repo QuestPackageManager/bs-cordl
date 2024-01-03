@@ -22,10 +22,7 @@ struct CORDL_TYPE MovedFromAttributeData {
 public:
   // Declarations
   /// @brief Method Set, addr 0x2ce9d9c, size 0x38, virtual false, abstract: false, final false
-  /// @param sourceNamespace: ::StringW (default: nullptr)
-  /// @param sourceAssembly: ::StringW (default: nullptr)
-  /// @param sourceClassName: ::StringW (default: nullptr)
-  inline void Set(bool autoUpdateAPI, ::StringW sourceNamespace = nullptr, ::StringW sourceAssembly = nullptr, ::StringW sourceClassName = nullptr);
+  inline void Set(bool autoUpdateAPI, ::StringW sourceNamespace, ::StringW sourceAssembly, ::StringW sourceClassName);
 
   // Ctor Parameters [CppParam { name: "className", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "nameSpace", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
   // "assembly", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "classHasChanged", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "nameSpaceHasChanged", ty:

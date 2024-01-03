@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StreamBlockCipher)
 namespace Org::BouncyCastle::Crypto {
-class IStreamCipher;
-}
-namespace Org::BouncyCastle::Crypto {
 class IBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class IStreamCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto {
@@ -42,6 +42,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IStreamCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IStreamCipher*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IStreamCipher"
+  constexpr ::Org::BouncyCastle::Crypto::IStreamCipher* i___Org__BouncyCastle__Crypto__IStreamCipher() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& __get_cipher();
 

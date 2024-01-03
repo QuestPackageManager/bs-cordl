@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Pose_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MockPlayerLobbyPoseGeneratorAI)
-namespace System {
-class Random;
-}
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
+}
+namespace System {
+class Random;
 }
 // Forward declare root types
 namespace GlobalNamespace {

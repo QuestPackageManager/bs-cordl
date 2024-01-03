@@ -2,30 +2,35 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UInt64)
-namespace System {
-template <typename T> struct Span_1;
+namespace System::Globalization {
+struct NumberStyles;
 }
 namespace System {
-class IConvertible;
+struct DateTime;
+}
+namespace System {
+struct Decimal;
 }
 namespace System {
 template <typename T> class IComparable_1;
-}
-namespace System::Globalization {
-struct NumberStyles;
 }
 namespace System {
 class IComparable;
 }
 namespace System {
+class IConvertible;
+}
+namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace System {
+class IFormatProvider;
 }
 namespace System {
 class IFormattable;
@@ -37,19 +42,16 @@ namespace System {
 class Object;
 }
 namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
+template <typename T> struct Span_1;
+}
+namespace System {
 struct TypeCode;
 }
 namespace System {
-struct DateTime;
-}
-namespace System {
-struct Decimal;
-}
-namespace System {
 class Type;
-}
-namespace System {
-class IFormatProvider;
 }
 // Forward declare root types
 namespace System {
@@ -61,7 +63,7 @@ MARK_VAL_T(::System::UInt64);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2464)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292 })}
+// Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2500))
 // CS Name: ::System::UInt64
 struct CORDL_TYPE UInt64 {
@@ -70,20 +72,38 @@ public:
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*();
 
+  /// @brief Convert to "::System::IComparable"
+  constexpr ::System::IComparable* i___System__IComparable();
+
   /// @brief Convert operator to "::System::IConvertible"
   constexpr operator ::System::IConvertible*();
+
+  /// @brief Convert to "::System::IConvertible"
+  constexpr ::System::IConvertible* i___System__IConvertible();
 
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
+  /// @brief Convert to "::System::IFormattable"
+  constexpr ::System::IFormattable* i___System__IFormattable();
+
   /// @brief Convert operator to "::System::IComparable_1<uint64_t>"
   constexpr operator ::System::IComparable_1<uint64_t>*();
+
+  /// @brief Convert to "::System::IComparable_1<uint64_t>"
+  constexpr ::System::IComparable_1<uint64_t>* i___System__IComparable_1_uint64_t_();
 
   /// @brief Convert operator to "::System::IEquatable_1<uint64_t>"
   constexpr operator ::System::IEquatable_1<uint64_t>*();
 
+  /// @brief Convert to "::System::IEquatable_1<uint64_t>"
+  constexpr ::System::IEquatable_1<uint64_t>* i___System__IEquatable_1_uint64_t_();
+
   /// @brief Convert operator to "::System::ISpanFormattable"
   constexpr operator ::System::ISpanFormattable*();
+
+  /// @brief Convert to "::System::ISpanFormattable"
+  constexpr ::System::ISpanFormattable* i___System__ISpanFormattable();
 
   /// @brief Method CompareTo, addr 0x25cd030, size 0xd0, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* value);
@@ -113,9 +133,7 @@ public:
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* provider);
 
   /// @brief Method TryFormat, addr 0x25cd450, size 0xa4, virtual true, abstract: false, final true
-  /// @param format: ::System::ReadOnlySpan_1<char16_t> (default: {})
-  /// @param provider: ::System::IFormatProvider* (default: nullptr)
-  inline bool TryFormat(::System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten, ::System::ReadOnlySpan_1<char16_t> format = {}, ::System::IFormatProvider* provider = nullptr);
+  inline bool TryFormat(::System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten, ::System::ReadOnlySpan_1<char16_t> format, ::System::IFormatProvider* provider);
 
   /// @brief Method Parse, addr 0x25cd4f4, size 0xb4, virtual false, abstract: false, final false
   static inline uint64_t Parse(::StringW s);

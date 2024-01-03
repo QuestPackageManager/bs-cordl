@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(AddressablesRuntimeProperties)
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace System::Reflection {
-class Assembly;
-}
 namespace System::Collections::Generic {
 template <typename T> class Stack_1;
+}
+namespace System::Reflection {
+class Assembly;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerLobbyAvatarPlaceManager)
 namespace GlobalNamespace {
-class __MultiplayerLobbyAvatarPlace__Pool;
+class ILobbyStateDataModel;
 }
 namespace GlobalNamespace {
 class MultiplayerLobbyAvatarPlace;
 }
 namespace GlobalNamespace {
-class ILobbyStateDataModel;
+class __MultiplayerLobbyAvatarPlace__Pool;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;

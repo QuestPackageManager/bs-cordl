@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BloomPrePassBloomTextureEffectSO)
 namespace GlobalNamespace {
-struct ToneMapping;
-}
-namespace GlobalNamespace {
 class BloomFogSO;
 }
 namespace GlobalNamespace {
 class PyramidBloomRendererSO;
+}
+namespace GlobalNamespace {
+struct ToneMapping;
 }
 namespace UnityEngine {
 class RenderTexture;

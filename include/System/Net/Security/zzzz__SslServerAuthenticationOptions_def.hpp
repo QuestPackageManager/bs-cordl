@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509RevocationMode_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SslServerAuthenticationOptions)
-namespace System::Security::Cryptography::X509Certificates {
-struct X509RevocationMode;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
+namespace System::Net::Security {
+struct EncryptionPolicy;
 }
 namespace System::Security::Authentication {
 struct SslProtocols;
 }
-namespace System::Net::Security {
-struct EncryptionPolicy;
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
+}
+namespace System::Security::Cryptography::X509Certificates {
+struct X509RevocationMode;
 }
 // Forward declare root types
 namespace System::Net::Security {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::System::Net::Security::SslServerAuthenticationOptions);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9366)), TypeDefinitionIndex(TypeDefinitionIndex(8987)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8964))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9363)) CS Name: ::System.Net.Security::SslServerAuthenticationOptions*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9366)), TypeDefinitionIndex(TypeDefinitionIndex(8964)), TypeDefinitionIndex(TypeDefinitionIndex(8987)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9363)) CS Name: ::System.Net.Security::SslServerAuthenticationOptions*
 class CORDL_TYPE SslServerAuthenticationOptions : public ::System::Object {
 public:
   // Declarations

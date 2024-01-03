@@ -13,17 +13,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HttpContent)
-namespace System {
-class IDisposable;
+namespace System::IO {
+class Stream;
+}
+namespace System::Net::Http::Headers {
+class HttpContentHeaders;
 }
 namespace System::Net::Http {
 class __HttpContent__FixedMemoryStream;
 }
-namespace System::IO {
-class Stream;
-}
-namespace System::Threading::Tasks {
-class Task;
+namespace System::Net::Http {
+struct __HttpContent___LoadIntoBufferAsync_d__17;
 }
 namespace System::Net::Http {
 struct __HttpContent___ReadAsStringAsync_d__20;
@@ -31,32 +31,32 @@ struct __HttpContent___ReadAsStringAsync_d__20;
 namespace System::Net {
 class TransportContext;
 }
-namespace System::Net::Http {
-struct __HttpContent___LoadIntoBufferAsync_d__17;
-}
-namespace System::Text {
-class Encoding;
-}
-namespace System::Net::Http::Headers {
-class HttpContentHeaders;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
-struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
-}
-namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
+}
+namespace System::Text {
+class Encoding;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+template <typename T> struct Nullable_1;
 }
 // Forward declare root types
 namespace System::Net::Http {
@@ -138,7 +138,7 @@ static_assert(offsetof(::System::Net::Http::__HttpContent__FixedMemoryStream, __
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3395))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3401))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14647))
 // CS Name: ::HttpContent::<LoadIntoBufferAsync>d__17
 struct CORDL_TYPE __HttpContent___LoadIntoBufferAsync_d__17 {
@@ -146,6 +146,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x2832c74, size 0x264, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -202,13 +205,16 @@ static_assert(offsetof(::System::Net::Http::__HttpContent___LoadIntoBufferAsync_
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3395))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14648)) CS Name: ::HttpContent::<ReadAsStringAsync>d__20
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 397 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14648)) CS Name: ::HttpContent::<ReadAsStringAsync>d__20
 struct CORDL_TYPE __HttpContent___ReadAsStringAsync_d__20 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x2832ee4, size 0x370, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -286,6 +292,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::System::Net::Http::__HttpContent__FixedMemoryStream*& __get_buffer();
 

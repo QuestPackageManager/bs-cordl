@@ -9,17 +9,17 @@ CORDL_MODULE_EXPORT(Cone)
 namespace UnityEngine::ProBuilder::Shapes {
 class Shape;
 }
-namespace UnityEngine {
-struct Quaternion;
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
 namespace UnityEngine {
 struct Bounds;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {

@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(ILayerable)
 namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
-namespace UnityEngine {
-class GameObject;
-}
 namespace UnityEngine::Playables {
 struct Playable;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OnePassSignaturePacket)
 namespace Org::BouncyCastle::Bcpg {
-struct PublicKeyAlgorithmTag;
+class BcpgInputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
+class BcpgOutputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct HashAlgorithmTag;
 }
 namespace Org::BouncyCastle::Bcpg {
-class BcpgOutputStream;
+struct PublicKeyAlgorithmTag;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OnePassSignaturePacket);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(560)), TypeDefinitionIndex(TypeDefinitionIndex(580)), TypeDefinitionIndex(TypeDefinitionIndex(572))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(560)), TypeDefinitionIndex(TypeDefinitionIndex(572)), TypeDefinitionIndex(TypeDefinitionIndex(580))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(577))
 // CS Name: ::Org.BouncyCastle.Bcpg::OnePassSignaturePacket*
 class CORDL_TYPE OnePassSignaturePacket : public ::Org::BouncyCastle::Bcpg::ContainedPacket {

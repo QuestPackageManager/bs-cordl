@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 CORDL_MODULE_EXPORT(MultiplayerLocalActivePlayerInstaller)
-namespace GlobalNamespace {
-class GameplayCoreSceneSetupData;
-}
 namespace BeatSaber::AvatarCore {
 class OptionalAvatarDataSender;
+}
+namespace GlobalNamespace {
+class GameplayCoreSceneSetupData;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;

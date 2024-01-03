@@ -11,32 +11,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AppInit)
-namespace GlobalNamespace {
-class __AppInit____c;
+namespace BGLib::AppFlow::Initialization {
+class AsyncSceneContext;
 }
 namespace GlobalNamespace {
-struct __AppInit__AppStartType;
+class AppInitSetupData;
 }
 namespace GlobalNamespace {
 class GameScenesManager;
 }
 namespace GlobalNamespace {
-struct __AppInit___StartGameAsync_d__11;
-}
-namespace GlobalNamespace {
-class __AppInit____c__DisplayClass21_0;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System {
-template <typename TResult> class Func_1;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
 class __AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData;
+}
+namespace GlobalNamespace {
+struct __AppInit__AppStartType;
 }
 namespace GlobalNamespace {
 struct __AppInit___Awake_d__10;
@@ -45,40 +33,52 @@ namespace GlobalNamespace {
 struct __AppInit___InitializeAsync_d__13;
 }
 namespace GlobalNamespace {
-class AppInitSetupData;
+struct __AppInit___StartGameAsync_d__11;
 }
-namespace BGLib::AppFlow::Initialization {
-class AsyncSceneContext;
+namespace GlobalNamespace {
+class __AppInit____c;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class TaskCompletionSource_1;
+namespace GlobalNamespace {
+class __AppInit____c__DisplayClass21_0;
 }
 namespace GlobalNamespace {
 class __AppInit____c__DisplayClass21_0____WaitUntilAsync_g__WaitUntilPredicateTrue_0_d;
 }
-namespace System {
-class Object;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+struct TaskAwaiter;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class TaskCompletionSource_1;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System {
+template <typename TResult> class Func_1;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -172,7 +172,7 @@ static_assert(offsetof(::GlobalNamespace::__AppInit__AppStartType, value__) == 0
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3400))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15386))
 // CS Name: ::AppInit::<Awake>d__10
 struct CORDL_TYPE __AppInit___Awake_d__10 {
@@ -180,6 +180,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0xe1dcfc, size 0x228, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -230,7 +233,7 @@ static_assert(offsetof(::GlobalNamespace::__AppInit___Awake_d__10, __u__1) == 0x
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15387))
 // CS Name: ::AppInit::<StartGameAsync>d__11
 struct CORDL_TYPE __AppInit___StartGameAsync_d__11 {
@@ -238,6 +241,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0xe1df30, size 0x2d4, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -340,7 +346,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__AppInit____c,
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(15385))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(15385))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15389))
 // CS Name: ::AppInit::<InitializeAsync>d__13
 struct CORDL_TYPE __AppInit___InitializeAsync_d__13 {
@@ -348,6 +354,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0xe1e34c, size 0x52c, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -426,11 +435,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

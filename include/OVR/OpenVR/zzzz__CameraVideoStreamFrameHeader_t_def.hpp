@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CameraVideoStreamFrameHeader_t)
 namespace OVR::OpenVR {
-struct TrackedDevicePose_t;
+struct EVRTrackedCameraFrameType;
 }
 namespace OVR::OpenVR {
-struct EVRTrackedCameraFrameType;
+struct TrackedDevicePose_t;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

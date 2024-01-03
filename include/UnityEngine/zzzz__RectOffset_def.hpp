@@ -9,16 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RectOffset)
 namespace System {
-class Object;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace System {
 class IFormatProvider;
 }
 namespace System {
 class IFormattable;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine {
+struct Rect;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::UnityEngine::RectOffset);
 // SizeInfo { instance_size: 32, native_size: 16, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10161))
 // CS Name: ::UnityEngine::RectOffset*
 class CORDL_TYPE RectOffset : public ::System::Object {
@@ -56,6 +56,9 @@ public:
 
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*() noexcept;
+
+  /// @brief Convert to "::System::IFormattable"
+  constexpr ::System::IFormattable* i___System__IFormattable() noexcept;
 
   constexpr void*& __get_m_Ptr();
 

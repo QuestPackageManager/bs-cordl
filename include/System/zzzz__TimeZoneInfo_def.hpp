@@ -13,83 +13,83 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimeZoneInfo)
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace System {
-class Object;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
-}
-namespace System {
-struct __TimeZoneInfo__TZifType;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System {
-struct TimeZoneInfoOptions;
-}
-namespace System {
-struct __TimeZoneInfo__TZifHead;
-}
-namespace System {
-struct DayOfWeek;
-}
-namespace System {
-class __TimeZoneInfo__AdjustmentRule;
-}
-namespace System {
-class __TimeZoneInfo____c;
-}
-namespace System {
-struct TimeSpan;
-}
 namespace GlobalNamespace {
 struct __Interop__Sys__DirectoryEntry;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Globalization {
 struct DaylightTimeStruct;
 }
 namespace System::Runtime::Serialization {
+class IDeserializationCallback;
+}
+namespace System::Runtime::Serialization {
 class ISerializable;
 }
-namespace System {
-struct DateTime;
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System {
-template <typename T> class Predicate_1;
-}
-namespace System {
-class __TimeZoneInfo__CachedData;
-}
-namespace System {
-struct __TimeZoneInfo__TransitionTime;
-}
-namespace System {
-class __TimeZoneInfo____c__DisplayClass16_0;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-struct __TimeZoneInfo__TZVersion;
-}
-namespace System {
-template <typename T> class IEquatable_1;
+template <typename T> class Comparison_1;
 }
 namespace System {
 struct DateTimeKind;
 }
 namespace System {
-template <typename T> class Comparison_1;
+struct DateTime;
+}
+namespace System {
+struct DayOfWeek;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace System {
+class Object;
+}
+namespace System {
+template <typename T> class Predicate_1;
+}
+namespace System {
+struct TimeSpan;
+}
+namespace System {
+struct TimeZoneInfoOptions;
+}
+namespace System {
+class __TimeZoneInfo__AdjustmentRule;
+}
+namespace System {
+class __TimeZoneInfo__CachedData;
+}
+namespace System {
+struct __TimeZoneInfo__TZVersion;
+}
+namespace System {
+struct __TimeZoneInfo__TZifHead;
+}
+namespace System {
+struct __TimeZoneInfo__TZifType;
+}
+namespace System {
+struct __TimeZoneInfo__TransitionTime;
+}
+namespace System {
+class __TimeZoneInfo____c;
+}
+namespace System {
+class __TimeZoneInfo____c__DisplayClass16_0;
 }
 // Forward declare root types
 namespace System {
@@ -305,7 +305,7 @@ static_assert(offsetof(::System::__TimeZoneInfo__TZifHead, CharCount) == 0x1c, "
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2371)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2371))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2317))
 // CS Name: ::TimeZoneInfo::TransitionTime
 struct CORDL_TYPE __TimeZoneInfo__TransitionTime {
@@ -326,11 +326,20 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::System::__TimeZoneInfo__TransitionTime>"
   constexpr operator ::System::IEquatable_1<::System::__TimeZoneInfo__TransitionTime>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::System::__TimeZoneInfo__TransitionTime>"
+  constexpr ::System::IEquatable_1<::System::__TimeZoneInfo__TransitionTime>* i___System__IEquatable_1___System____TimeZoneInfo__TransitionTime_();
+
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*();
 
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable();
+
   /// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
   constexpr operator ::System::Runtime::Serialization::IDeserializationCallback*();
+
+  /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
+  constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback();
 
   /// @brief Method get_TimeOfDay, addr 0x251e218, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_TimeOfDay();
@@ -435,8 +444,8 @@ static_assert(offsetof(::System::__TimeZoneInfo__TransitionTime, _isFixedDateRul
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2317)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2368))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2316)) CS Name: ::TimeZoneInfo::AdjustmentRule*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2368)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2317))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2316)) CS Name: ::TimeZoneInfo::AdjustmentRule*
 class CORDL_TYPE __TimeZoneInfo__AdjustmentRule : public ::System::Object {
 public:
   // Declarations
@@ -480,11 +489,20 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::System::__TimeZoneInfo__AdjustmentRule*>"
   constexpr operator ::System::IEquatable_1<::System::__TimeZoneInfo__AdjustmentRule*>*() noexcept;
 
+  /// @brief Convert to "::System::IEquatable_1<::System::__TimeZoneInfo__AdjustmentRule*>"
+  constexpr ::System::IEquatable_1<::System::__TimeZoneInfo__AdjustmentRule*>* i___System__IEquatable_1___System____TimeZoneInfo__AdjustmentRule__() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
   constexpr operator ::System::Runtime::Serialization::IDeserializationCallback*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
+  constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback() noexcept;
 
   constexpr ::System::DateTime& __get__dateStart();
 
@@ -947,7 +965,7 @@ static_assert(::cordl_internals::size_check_v<::System::__TimeZoneInfo____c, 0x1
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2321))
 // CS Name: ::System::TimeZoneInfo*
 class CORDL_TYPE TimeZoneInfo : public ::System::Object {
@@ -1022,11 +1040,20 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::System::TimeZoneInfo*>"
   constexpr operator ::System::IEquatable_1<::System::TimeZoneInfo*>*() noexcept;
 
+  /// @brief Convert to "::System::IEquatable_1<::System::TimeZoneInfo*>"
+  constexpr ::System::IEquatable_1<::System::TimeZoneInfo*>* i___System__IEquatable_1___System__TimeZoneInfo__() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
   constexpr operator ::System::Runtime::Serialization::IDeserializationCallback*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
+  constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback() noexcept;
 
   constexpr ::StringW& __get__id();
 

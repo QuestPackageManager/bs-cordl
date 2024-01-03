@@ -9,11 +9,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StackTrace)
-namespace System::Text {
-class StringBuilder;
-}
-namespace System {
-class Type;
+namespace System::Diagnostics {
+class StackFrame;
 }
 namespace System::Diagnostics {
 struct __StackTrace__TraceFormat;
@@ -21,11 +18,14 @@ struct __StackTrace__TraceFormat;
 namespace System::Reflection {
 class MethodBase;
 }
-namespace System::Diagnostics {
-class StackFrame;
+namespace System::Text {
+class StringBuilder;
 }
 namespace System {
 class Exception;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Diagnostics {

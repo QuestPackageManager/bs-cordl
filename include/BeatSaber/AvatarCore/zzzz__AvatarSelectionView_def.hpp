@@ -5,12 +5,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(AvatarSelectionView)
-namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine::UI {
-class Button;
-}
 namespace HMUI {
 class ButtonBinder;
 }
@@ -22,6 +16,12 @@ class Action;
 }
 namespace TMPro {
 class TextMeshProUGUI;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace UnityEngine {
+class RectTransform;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {

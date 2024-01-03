@@ -8,20 +8,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ValueTask)
-namespace System {
-class Object;
-}
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
 class __ValueTask__ValueTaskSourceAsTask____c;
 }
+namespace System::Runtime::CompilerServices {
+struct ConfiguredValueTaskAwaitable;
+}
+namespace System::Runtime::CompilerServices {
+struct ValueTaskAwaiter;
+}
 namespace System::Threading::Tasks::Sources {
 class IValueTaskSource;
-}
-namespace System {
-template <typename T> class IEquatable_1;
 }
 namespace System::Threading::Tasks {
 class Task;
@@ -29,11 +26,14 @@ class Task;
 namespace System::Threading::Tasks {
 class __ValueTask__ValueTaskSourceAsTask;
 }
-namespace System::Runtime::CompilerServices {
-struct ConfiguredValueTaskAwaitable;
+namespace System {
+template <typename T> class Action_1;
 }
-namespace System::Runtime::CompilerServices {
-struct ValueTaskAwaiter;
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -98,8 +98,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ValueTask__Va
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 98, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2773)), TypeDefinitionIndex(TypeDefinitionIndex(2794)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 900
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(2763)) CS Name: ::ValueTask::ValueTaskSourceAsTask*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2794)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 900 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2773))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2763)) CS Name: ::ValueTask::ValueTaskSourceAsTask*
 class CORDL_TYPE __ValueTask__ValueTaskSourceAsTask : public ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::VoidTaskResult> {
 public:
   // Declarations
@@ -184,6 +184,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::System::Threading::Tasks::ValueTask>"
   constexpr operator ::System::IEquatable_1<::System::Threading::Tasks::ValueTask>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::System::Threading::Tasks::ValueTask>"
+  constexpr ::System::IEquatable_1<::System::Threading::Tasks::ValueTask>* i___System__IEquatable_1___System__Threading__Tasks__ValueTask_();
 
   static inline void setStaticF_s_canceledTask(::System::Threading::Tasks::Task* value);
 

@@ -9,38 +9,95 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TypeDescriptor)
+namespace GlobalNamespace {
+struct __TypeDescriptor__TypeDescriptionNode__DefaultExtendedTypeDescriptor;
+}
+namespace GlobalNamespace {
+struct __TypeDescriptor__TypeDescriptionNode__DefaultTypeDescriptor;
+}
+namespace System::Collections {
+class ArrayList;
+}
+namespace System::Collections {
+class Hashtable;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
+class IComparer;
+}
 namespace System::Collections {
 class IDictionary;
 }
-namespace System::ComponentModel {
-class TypeConverter;
+namespace System::Collections {
+class IList;
 }
-namespace System::ComponentModel {
-class __TypeDescriptor__TypeDescriptorInterface;
-}
-namespace System::ComponentModel {
-class __TypeDescriptor__MemberDescriptorComparer;
+namespace System::ComponentModel::Design {
+class ITypeDescriptorFilterService;
 }
 namespace System::ComponentModel {
 class AttributeCollection;
 }
 namespace System::ComponentModel {
+class EventDescriptorCollection;
+}
+namespace System::ComponentModel {
+class EventDescriptor;
+}
+namespace System::ComponentModel {
+class ICustomTypeDescriptor;
+}
+namespace System::ComponentModel {
+class IExtenderProvider;
+}
+namespace System::ComponentModel {
 class MemberDescriptor;
 }
-namespace System::Collections {
-class IList;
+namespace System::ComponentModel {
+class PropertyDescriptorCollection;
 }
-namespace System::Diagnostics {
-class BooleanSwitch;
+namespace System::ComponentModel {
+class PropertyDescriptor;
+}
+namespace System::ComponentModel {
+class RefreshEventHandler;
+}
+namespace System::ComponentModel {
+class TypeConverter;
+}
+namespace System::ComponentModel {
+class TypeDescriptionProvider;
+}
+namespace System::ComponentModel {
+class WeakHashtable;
+}
+namespace System::ComponentModel {
+class __TypeDescriptor__AttributeFilterCacheItem;
+}
+namespace System::ComponentModel {
+class __TypeDescriptor__FilterCacheItem;
 }
 namespace System::ComponentModel {
 class __TypeDescriptor__IUnimplemented;
 }
-namespace System {
-class Type;
+namespace System::ComponentModel {
+class __TypeDescriptor__MemberDescriptorComparer;
 }
-namespace System::Collections {
-class ArrayList;
+namespace System::ComponentModel {
+class __TypeDescriptor__MergedTypeDescriptor;
+}
+namespace System::ComponentModel {
+class __TypeDescriptor__TypeDescriptionNode;
+}
+namespace System::ComponentModel {
+class __TypeDescriptor__TypeDescriptorComObject;
+}
+namespace System::ComponentModel {
+class __TypeDescriptor__TypeDescriptorInterface;
+}
+namespace System::Diagnostics {
+class BooleanSwitch;
 }
 namespace System {
 class Attribute;
@@ -48,68 +105,11 @@ class Attribute;
 namespace System {
 struct Guid;
 }
-namespace System::ComponentModel {
-class TypeDescriptionProvider;
-}
-namespace System::ComponentModel {
-class ICustomTypeDescriptor;
-}
-namespace System::ComponentModel {
-class WeakHashtable;
-}
-namespace System::ComponentModel {
-class EventDescriptorCollection;
-}
-namespace System::ComponentModel {
-class __TypeDescriptor__FilterCacheItem;
-}
-namespace System::ComponentModel {
-class __TypeDescriptor__TypeDescriptionNode;
-}
-namespace System::ComponentModel {
-class __TypeDescriptor__AttributeFilterCacheItem;
-}
-namespace System::ComponentModel {
-class __TypeDescriptor__MergedTypeDescriptor;
-}
-namespace System::ComponentModel {
-class PropertyDescriptorCollection;
-}
-namespace System::ComponentModel {
-class __TypeDescriptor__TypeDescriptorComObject;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System::ComponentModel {
-class RefreshEventHandler;
-}
-namespace System::Collections {
-class Hashtable;
-}
 namespace System {
 class Object;
 }
-namespace System::ComponentModel::Design {
-class ITypeDescriptorFilterService;
-}
-namespace System::Collections {
-class IComparer;
-}
-namespace System::ComponentModel {
-class EventDescriptor;
-}
-namespace System::ComponentModel {
-class PropertyDescriptor;
-}
-namespace GlobalNamespace {
-struct __TypeDescriptor__TypeDescriptionNode__DefaultTypeDescriptor;
-}
-namespace GlobalNamespace {
-struct __TypeDescriptor__TypeDescriptionNode__DefaultExtendedTypeDescriptor;
-}
-namespace System::ComponentModel {
-class IExtenderProvider;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -329,6 +329,9 @@ public:
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IComparer"
+  constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
+
   static inline void setStaticF_Instance(::System::ComponentModel::__TypeDescriptor__MemberDescriptorComparer* value);
 
   static inline ::System::ComponentModel::__TypeDescriptor__MemberDescriptorComparer* getStaticF_Instance();
@@ -379,6 +382,9 @@ public:
 
   /// @brief Convert operator to "::System::ComponentModel::ICustomTypeDescriptor"
   constexpr operator ::System::ComponentModel::ICustomTypeDescriptor*() noexcept;
+
+  /// @brief Convert to "::System::ComponentModel::ICustomTypeDescriptor"
+  constexpr ::System::ComponentModel::ICustomTypeDescriptor* i___System__ComponentModel__ICustomTypeDescriptor() noexcept;
 
   constexpr ::System::ComponentModel::ICustomTypeDescriptor*& __get__primary();
 
@@ -477,6 +483,9 @@ public:
   /// @brief Convert operator to "::System::ComponentModel::ICustomTypeDescriptor"
   constexpr operator ::System::ComponentModel::ICustomTypeDescriptor*();
 
+  /// @brief Convert to "::System::ComponentModel::ICustomTypeDescriptor"
+  constexpr ::System::ComponentModel::ICustomTypeDescriptor* i___System__ComponentModel__ICustomTypeDescriptor();
+
   /// @brief Method .ctor, addr 0x2934d94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode* node, ::System::Object* instance);
 
@@ -555,6 +564,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::ComponentModel::ICustomTypeDescriptor"
   constexpr operator ::System::ComponentModel::ICustomTypeDescriptor*();
+
+  /// @brief Convert to "::System::ComponentModel::ICustomTypeDescriptor"
+  constexpr ::System::ComponentModel::ICustomTypeDescriptor* i___System__ComponentModel__ICustomTypeDescriptor();
 
   /// @brief Method .ctor, addr 0x2937e3c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode* node, ::System::Type* objectType, ::System::Object* instance);

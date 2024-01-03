@@ -7,25 +7,25 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(DynamicResourceLocator)
 namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class IList_1;
-}
-namespace UnityEngine::AddressableAssets::ResourceLocators {
-class IResourceLocator;
-}
-namespace System {
-class Type;
 }
 namespace System {
 class Object;
 }
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
+namespace System {
+class Type;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace UnityEngine::AddressableAssets::ResourceLocators {
+class IResourceLocator;
 }
 namespace UnityEngine::AddressableAssets {
 class AddressablesImpl;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets {
@@ -57,6 +57,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"
   constexpr operator ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"
+  constexpr ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* i___UnityEngine__AddressableAssets__ResourceLocators__IResourceLocator() noexcept;
 
   constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __get_m_Addressables();
 

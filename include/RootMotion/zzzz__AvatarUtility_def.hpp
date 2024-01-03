@@ -9,7 +9,7 @@ namespace RootMotion {
 class TQ;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct AvatarIKGoal;
 }
 namespace UnityEngine {
 class Avatar;
@@ -18,7 +18,7 @@ namespace UnityEngine {
 struct HumanBodyBones;
 }
 namespace UnityEngine {
-struct AvatarIKGoal;
+struct Quaternion;
 }
 // Forward declare root types
 namespace RootMotion {

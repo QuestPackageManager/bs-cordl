@@ -7,17 +7,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UVEditing)
-namespace UnityEngine::ProBuilder::MeshOperations {
-class __UVEditing____c__DisplayClass4_0;
-}
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct KeyValuePair_2;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine::ProBuilder::MeshOperations {
+class __UVEditing____c;
+}
 namespace UnityEngine::ProBuilder::MeshOperations {
 class __UVEditing____c__DisplayClass0_0;
+}
+namespace UnityEngine::ProBuilder::MeshOperations {
+class __UVEditing____c__DisplayClass4_0;
 }
 namespace UnityEngine::ProBuilder {
 struct Edge;
@@ -25,23 +31,17 @@ struct Edge;
 namespace UnityEngine::ProBuilder {
 class Face;
 }
-namespace UnityEngine::ProBuilder::MeshOperations {
-class __UVEditing____c;
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
+}
+namespace UnityEngine::ProBuilder {
+class WingedEdge;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
 struct Vector4;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
-}
-namespace UnityEngine::ProBuilder {
-class WingedEdge;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::MeshOperations {
@@ -312,8 +312,7 @@ public:
   static inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> GetUVs(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, int32_t channel);
 
   /// @brief Method ApplyUVs, addr 0x2bc4688, size 0x35c, virtual false, abstract: false, final false
-  /// @param applyToMesh: bool (default: true)
-  static inline void ApplyUVs(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> uvs, int32_t channel, bool applyToMesh = true);
+  static inline void ApplyUVs(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> uvs, int32_t channel, bool applyToMesh);
 
   /// @brief Method SewUVs, addr 0x2bc49e4, size 0x584, virtual false, abstract: false, final false
   static inline void SewUVs(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<int32_t, ::Array<int32_t>*> indexes, float_t delta);
@@ -331,25 +330,17 @@ public:
   static inline void ProjectFacesAuto(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> faces, int32_t channel);
 
   /// @brief Method ProjectFacesBox, addr 0x2bc57f4, size 0x5ec, virtual false, abstract: false, final false
-  /// @param channel: int32_t (default: static_cast<int32_t>(0x0))
-  static inline void ProjectFacesBox(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> faces,
-                                     int32_t channel = static_cast<int32_t>(0x0));
+  static inline void ProjectFacesBox(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> faces, int32_t channel);
 
   /// @brief Method FindMinimalUV, addr 0x2bc5de0, size 0xe8, virtual false, abstract: false, final false
-  /// @param indices: ::ArrayW<int32_t,::Array<int32_t>*> (default: nullptr)
-  /// @param xMin: float_t (default: 0.0)
-  /// @param yMin: float_t (default: 0.0)
-  static inline ::UnityEngine::Vector2 FindMinimalUV(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> uvs, ::ArrayW<int32_t, ::Array<int32_t>*> indices = nullptr, float_t xMin = 0.0,
-                                                     float_t yMin = 0.0);
+  static inline ::UnityEngine::Vector2 FindMinimalUV(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> uvs, ::ArrayW<int32_t, ::Array<int32_t>*> indices, float_t xMin, float_t yMin);
 
   /// @brief Method ProjectFacesBox, addr 0x2bc5ec8, size 0x610, virtual false, abstract: false, final false
-  /// @param channel: int32_t (default: static_cast<int32_t>(0x0))
   static inline void ProjectFacesBox(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> faces,
-                                     ::UnityEngine::Vector2 lowerLeftAnchor, int32_t channel = static_cast<int32_t>(0x0));
+                                     ::UnityEngine::Vector2 lowerLeftAnchor, int32_t channel);
 
   /// @brief Method ProjectFacesSphere, addr 0x2bc64d8, size 0x178, virtual false, abstract: false, final false
-  /// @param channel: int32_t (default: static_cast<int32_t>(0x0))
-  static inline void ProjectFacesSphere(::UnityEngine::ProBuilder::ProBuilderMesh* pb, ::ArrayW<int32_t, ::Array<int32_t>*> indexes, int32_t channel = static_cast<int32_t>(0x0));
+  static inline void ProjectFacesSphere(::UnityEngine::ProBuilder::ProBuilderMesh* pb, ::ArrayW<int32_t, ::Array<int32_t>*> indexes, int32_t channel);
 
   /// @brief Method FitUVs, addr 0x2bc6650, size 0xcc, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> FitUVs(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> uvs);

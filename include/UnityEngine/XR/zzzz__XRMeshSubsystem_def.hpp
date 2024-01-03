@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(XRMeshSubsystem)
 namespace System {
 template <typename T> class Action_1;
 }
-namespace UnityEngine::XR {
-struct __XRMeshSubsystem__MeshTransformList;
+namespace System {
+class IDisposable;
 }
 namespace UnityEngine::XR {
 struct MeshGenerationResult;
 }
-namespace System {
-class IDisposable;
+namespace UnityEngine::XR {
+struct __XRMeshSubsystem__MeshTransformList;
 }
 // Forward declare root types
 namespace UnityEngine::XR {
@@ -41,6 +41,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   /// @brief Method Dispose, addr 0x2eb3e34, size 0x3c, virtual true, abstract: false, final true
   inline void Dispose();
@@ -73,7 +76,7 @@ static_assert(offsetof(::UnityEngine::XR::__XRMeshSubsystem__MeshTransformList, 
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15965)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15965), inst: 3918 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15965), inst: 3918 }), TypeDefinitionIndex(TypeDefinitionIndex(15965))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15639))
 // CS Name: ::UnityEngine.XR::XRMeshSubsystem*
 class CORDL_TYPE XRMeshSubsystem : public ::UnityEngine::IntegratedSubsystem_1<Il2CppObject*> {

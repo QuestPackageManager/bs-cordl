@@ -10,13 +10,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CreditsData)
 namespace GlobalNamespace {
-struct __CreditsData__TextStyle;
+class __CreditsData__ChildCreditsItem;
 }
 namespace GlobalNamespace {
 class __CreditsData__RootCreditsItem;
 }
 namespace GlobalNamespace {
-class __CreditsData__ChildCreditsItem;
+struct __CreditsData__TextStyle;
 }
 namespace GlobalNamespace {
 class __CreditsData__Text;

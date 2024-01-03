@@ -10,22 +10,22 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(ParticleSystemEventEffect)
 namespace GlobalNamespace {
-class ColorSO;
-}
-namespace GlobalNamespace {
 class BasicBeatmapEventData;
-}
-namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
-}
-namespace UnityEngine {
-struct __ParticleSystem__Particle;
 }
 namespace GlobalNamespace {
 class BeatmapCallbacksController;
 }
+namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
+}
+namespace GlobalNamespace {
+class ColorSO;
+}
 namespace UnityEngine {
 class ParticleSystem;
+}
+namespace UnityEngine {
+struct __ParticleSystem__Particle;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ParticleSystemEventEffect);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724)),
 // TypeDefinitionIndex(TypeDefinitionIndex(15882))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4967)) CS Name: ::ParticleSystemEventEffect*
 class CORDL_TYPE ParticleSystemEventEffect : public ::UnityEngine::MonoBehaviour {
 public:

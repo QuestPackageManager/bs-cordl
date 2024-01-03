@@ -10,14 +10,11 @@ CORDL_MODULE_EXPORT(NodePoseSyncStateDeltaNetSerializable)
 namespace GlobalNamespace {
 template <typename T> class IPacketPool_1;
 }
-namespace LiteNetLib::Utils {
-class NetDataReader;
+namespace GlobalNamespace {
+class IPoolablePacket;
 }
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace LiteNetLib::Utils {
-class INetSerializable;
+namespace GlobalNamespace {
+template <typename T> class ISyncStateDeltaSerializable_1;
 }
 namespace GlobalNamespace {
 struct NodePoseSyncState;
@@ -25,11 +22,14 @@ struct NodePoseSyncState;
 namespace GlobalNamespace {
 struct SyncStateId;
 }
-namespace GlobalNamespace {
-class IPoolablePacket;
+namespace LiteNetLib::Utils {
+class INetSerializable;
 }
-namespace GlobalNamespace {
-template <typename T> class ISyncStateDeltaSerializable_1;
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12988)), TypeDefinitionIndex(TypeDefinitionIndex(12973)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12973)), TypeDefinitionIndex(TypeDefinitionIndex(12988))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12974))
 // CS Name: ::NodePoseSyncStateDeltaNetSerializable*
 class CORDL_TYPE NodePoseSyncStateDeltaNetSerializable : public ::System::Object {
@@ -65,11 +65,20 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IPoolablePacket"
   constexpr operator ::GlobalNamespace::IPoolablePacket*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
+  constexpr ::GlobalNamespace::IPoolablePacket* i___GlobalNamespace__IPoolablePacket() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::ISyncStateDeltaSerializable_1<::GlobalNamespace::NodePoseSyncState>"
   constexpr operator ::GlobalNamespace::ISyncStateDeltaSerializable_1<::GlobalNamespace::NodePoseSyncState>*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::ISyncStateDeltaSerializable_1<::GlobalNamespace::NodePoseSyncState>"
+  constexpr ::GlobalNamespace::ISyncStateDeltaSerializable_1<::GlobalNamespace::NodePoseSyncState>* i___GlobalNamespace__ISyncStateDeltaSerializable_1___GlobalNamespace__NodePoseSyncState_() noexcept;
 
   constexpr ::GlobalNamespace::NodePoseSyncState& __get__delta();
 

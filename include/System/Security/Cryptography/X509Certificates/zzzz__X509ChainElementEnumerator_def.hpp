@@ -4,8 +4,8 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(X509ChainElementEnumerator)
-namespace System {
-class Object;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -13,8 +13,8 @@ class IEnumerator;
 namespace System::Security::Cryptography::X509Certificates {
 class X509ChainElement;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -41,6 +41,9 @@ public:
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr ::System::Collections::IEnumerator*& __get_enumerator();
 

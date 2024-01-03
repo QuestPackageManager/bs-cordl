@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X931Signer)
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class RsaKeyParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class IAsymmetricBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class IAsymmetricBlockCipher;
+class IDigest;
 }
 namespace Org::BouncyCastle::Crypto {
 class ISigner;
@@ -60,6 +60,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ISigner"
   constexpr operator ::Org::BouncyCastle::Crypto::ISigner*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::ISigner"
+  constexpr ::Org::BouncyCastle::Crypto::ISigner* i___Org__BouncyCastle__Crypto__ISigner() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::IDigest*& __get_digest();
 

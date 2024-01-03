@@ -6,12 +6,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IesEngine)
-namespace Org::BouncyCastle::Crypto {
-class IDerivationFunction;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class IesParameters;
 }
@@ -22,10 +16,16 @@ namespace Org::BouncyCastle::Crypto {
 class BufferedBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
-class IMac;
+class IBasicAgreement;
 }
 namespace Org::BouncyCastle::Crypto {
-class IBasicAgreement;
+class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDerivationFunction;
+}
+namespace Org::BouncyCastle::Crypto {
+class IMac;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {

@@ -39,6 +39,9 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>*() noexcept;
 
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_InputHDAInfo__() noexcept;
+
   constexpr ::UnityEngine::GameObject*& __get__pendingGO();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__pendingGO() const;

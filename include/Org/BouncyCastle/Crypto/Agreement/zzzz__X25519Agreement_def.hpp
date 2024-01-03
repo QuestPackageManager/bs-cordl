@@ -10,10 +10,10 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 class X25519PrivateKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class IRawAgreement;
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IRawAgreement;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Agreement {
@@ -38,6 +38,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IRawAgreement"
   constexpr operator ::Org::BouncyCastle::Crypto::IRawAgreement*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IRawAgreement"
+  constexpr ::Org::BouncyCastle::Crypto::IRawAgreement* i___Org__BouncyCastle__Crypto__IRawAgreement() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters*& __get_privateKey();
 

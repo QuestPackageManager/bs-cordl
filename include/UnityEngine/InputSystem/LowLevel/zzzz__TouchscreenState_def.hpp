@@ -10,16 +10,16 @@ namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateTypeInfo;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct __TouchscreenState___touchData_e__FixedBuffer;
+struct TouchState;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct __TouchscreenState___primaryTouchData_e__FixedBuffer;
 }
+namespace UnityEngine::InputSystem::LowLevel {
+struct __TouchscreenState___touchData_e__FixedBuffer;
+}
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct TouchState;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -137,6 +137,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
+
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::__TouchscreenState___primaryTouchData_e__FixedBuffer& __get_primaryTouchData();
 

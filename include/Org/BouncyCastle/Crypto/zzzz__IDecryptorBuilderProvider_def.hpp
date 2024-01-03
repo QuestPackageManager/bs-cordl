@@ -3,11 +3,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IDecryptorBuilderProvider)
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherBuilder;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto {

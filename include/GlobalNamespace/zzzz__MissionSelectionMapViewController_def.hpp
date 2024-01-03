@@ -12,55 +12,55 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MissionSelectionMapViewController)
 namespace GlobalNamespace {
-class __MissionSelectionMapViewController____c__DisplayClass15_0;
-}
-namespace HMUI {
-class ScrollView;
-}
-namespace GlobalNamespace {
-class MissionNodeSelectionManager;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace GlobalNamespace {
-class MissionNode;
-}
-namespace GlobalNamespace {
-struct __MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15;
-}
-namespace GlobalNamespace {
-class SongPreviewPlayer;
+class AudioClipAsyncLoader;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
+class MissionMapAnimationController;
+}
+namespace GlobalNamespace {
+class MissionNodeSelectionManager;
+}
+namespace GlobalNamespace {
 class MissionNodeVisualController;
 }
-namespace System {
-class Action;
-}
 namespace GlobalNamespace {
-class AudioClipAsyncLoader;
-}
-namespace GlobalNamespace {
-class MissionMapAnimationController;
+class MissionNode;
 }
 namespace GlobalNamespace {
 class PerceivedLoudnessPerLevelModel;
 }
+namespace GlobalNamespace {
+class SongPreviewPlayer;
+}
+namespace GlobalNamespace {
+struct __MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15;
+}
+namespace GlobalNamespace {
+class __MissionSelectionMapViewController____c__DisplayClass15_0;
+}
+namespace HMUI {
+class ScrollView;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncVoidMethodBuilder;
+}
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
-}
-namespace UnityEngine {
-class AudioClip;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
 }
-namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace System {
+class Action;
+}
+namespace UnityEngine {
+class AudioClip;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -146,14 +146,16 @@ static_assert(offsetof(::GlobalNamespace::__MissionSelectionMapViewController___
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 276 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(15594))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5704)) CS Name:
-// ::MissionSelectionMapViewController::<SongPlayerCrossfadeToLevelAsync>d__15
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15594)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 276
+// }), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5704)) CS Name: ::MissionSelectionMapViewController::<SongPlayerCrossfadeToLevelAsync>d__15
 struct CORDL_TYPE __MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x22cb814, size 0x49c, virtual true, abstract: false, final true
   inline void MoveNext();

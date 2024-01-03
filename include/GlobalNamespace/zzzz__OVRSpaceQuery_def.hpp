@@ -12,28 +12,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRSpaceQuery)
 namespace GlobalNamespace {
-struct __OVRSpaceQuery__Options;
+struct __OVRPlugin__SpaceComponentType;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__SpaceQueryActionType;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__SpaceQueryInfo;
 }
 namespace GlobalNamespace {
-struct __OVRPlugin__SpaceComponentType;
+struct __OVRPlugin__SpaceQueryType;
+}
+namespace GlobalNamespace {
+struct __OVRSpaceQuery__Options;
+}
+namespace GlobalNamespace {
+struct __OVRSpace__StorageLocation;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace GlobalNamespace {
-struct __OVRPlugin__SpaceQueryType;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__SpaceQueryActionType;
-}
 namespace System {
 struct Guid;
-}
-namespace GlobalNamespace {
-struct __OVRSpace__StorageLocation;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -49,8 +49,8 @@ MARK_VAL_T(::GlobalNamespace::__OVRSpaceQuery__Options);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7990)), TypeDefinitionIndex(TypeDefinitionIndex(7839)), TypeDefinitionIndex(TypeDefinitionIndex(7835)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7838))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7992)) CS Name: ::OVRSpaceQuery::Options
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7838)), TypeDefinitionIndex(TypeDefinitionIndex(7835)), TypeDefinitionIndex(TypeDefinitionIndex(7839)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7990))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7992)) CS Name: ::OVRSpaceQuery::Options
 struct CORDL_TYPE __OVRSpaceQuery__Options {
 public:
   // Declarations

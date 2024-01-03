@@ -11,32 +11,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Number)
-namespace System {
-template <typename T> struct Span_1;
-}
-namespace System {
-struct __Number__NumberBuffer;
-}
-namespace System::Globalization {
-struct NumberStyles;
-}
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System {
-struct Decimal;
+namespace GlobalNamespace {
+struct __Number__NumberBuffer__DigitsAndNullTerminator;
 }
 namespace System::Globalization {
 class NumberFormatInfo;
+}
+namespace System::Globalization {
+struct NumberStyles;
 }
 namespace System::Text {
 struct ValueStringBuilder;
 }
 namespace System {
+struct Decimal;
+}
+namespace System {
 class IFormatProvider;
 }
-namespace GlobalNamespace {
-struct __Number__NumberBuffer__DigitsAndNullTerminator;
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
+template <typename T> struct Span_1;
+}
+namespace System {
+struct __Number__NumberBuffer;
 }
 // Forward declare root types
 namespace System {

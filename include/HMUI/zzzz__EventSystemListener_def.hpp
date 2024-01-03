@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(EventSystemListener)
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine::EventSystems {
-class IPointerEnterHandler;
-}
 namespace System {
 template <typename T> class Action_1;
 }
 namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerEnterHandler;
+}
+namespace UnityEngine::EventSystems {
 class IPointerExitHandler;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
 }
 // Forward declare root types
 namespace HMUI {
@@ -44,11 +44,20 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerEnterHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerEnterHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerEnterHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerEnterHandler* i___UnityEngine__EventSystems__IPointerEnterHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerExitHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerExitHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerExitHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerExitHandler* i___UnityEngine__EventSystems__IPointerExitHandler() noexcept;
 
   constexpr ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*& __get_pointerDidEnterEvent();
 

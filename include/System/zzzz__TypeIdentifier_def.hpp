@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(TypeIdentifier)
 namespace System {
-class TypeName;
+template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class TypeName;
 }
 // Forward declare root types
 namespace System {
@@ -31,8 +31,14 @@ public:
   /// @brief Convert operator to "::System::TypeName"
   constexpr operator ::System::TypeName*() noexcept;
 
+  /// @brief Convert to "::System::TypeName"
+  constexpr ::System::TypeName* i___System__TypeName() noexcept;
+
   /// @brief Convert operator to "::System::IEquatable_1<::System::TypeName*>"
   constexpr operator ::System::IEquatable_1<::System::TypeName*>*() noexcept;
+
+  /// @brief Convert to "::System::IEquatable_1<::System::TypeName*>"
+  constexpr ::System::IEquatable_1<::System::TypeName*>* i___System__IEquatable_1___System__TypeName__() noexcept;
 
   /// @brief Method get_InternalName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_InternalName();

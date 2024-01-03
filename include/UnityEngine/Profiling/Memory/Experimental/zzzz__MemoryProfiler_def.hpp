@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MemoryProfiler)
-namespace UnityEngine {
-struct TextureFormat;
+namespace System {
+template <typename T> class Action_1;
 }
-namespace UnityEngine::Profiling::Experimental {
-struct DebugScreenCapture;
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace System {
 template <typename T1, typename T2, typename T3> class Action_3;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace UnityEngine::Profiling::Experimental {
+struct DebugScreenCapture;
 }
 namespace UnityEngine::Profiling::Memory::Experimental {
 class MetaData;
 }
-namespace System {
-template <typename T1, typename T2> class Action_2;
+namespace UnityEngine {
+struct TextureFormat;
 }
 // Forward declare root types
 namespace UnityEngine::Profiling::Memory::Experimental {

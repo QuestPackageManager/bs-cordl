@@ -4,23 +4,23 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SubContainerCreatorByMethodBase)
-namespace Zenject {
-class InjectContext;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace Zenject {
 class DiContainer;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 namespace Zenject {
 class ISubContainerCreator;
 }
 namespace Zenject {
-struct TypeValuePair;
+class InjectContext;
 }
 namespace Zenject {
 class SubContainerCreatorBindInfo;
+}
+namespace Zenject {
+struct TypeValuePair;
 }
 // Forward declare root types
 namespace Zenject {
@@ -46,6 +46,9 @@ public:
 
   /// @brief Convert operator to "::Zenject::ISubContainerCreator"
   constexpr operator ::Zenject::ISubContainerCreator*() noexcept;
+
+  /// @brief Convert to "::Zenject::ISubContainerCreator"
+  constexpr ::Zenject::ISubContainerCreator* i___Zenject__ISubContainerCreator() noexcept;
 
   constexpr ::Zenject::DiContainer*& __get__container();
 

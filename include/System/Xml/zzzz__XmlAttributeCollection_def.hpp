@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlAttributeCollection)
-namespace System {
-class Object;
-}
 namespace System::Collections {
 class ICollection;
-}
-namespace System::Xml {
-class XmlNode;
 }
 namespace System::Collections {
 class IEnumerable;
 }
+namespace System::Xml {
+class XmlAttribute;
+}
+namespace System::Xml {
+class XmlNode;
+}
 namespace System {
 class Array;
 }
-namespace System::Xml {
-class XmlAttribute;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -51,8 +51,14 @@ public:
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
 
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   static inline ::System::Xml::XmlAttributeCollection* New_ctor(::System::Xml::XmlNode* parent);
 

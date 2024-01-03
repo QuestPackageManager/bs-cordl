@@ -8,37 +8,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DtlsRecordLayer)
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCloseable;
+class ByteQueue;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class ProtocolVersion;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipher;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsPeer;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
+class DatagramTransport;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class DtlsEpoch;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class ByteQueue;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
 class DtlsHandshakeRetransmit;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class DatagramTransport;
-}
-namespace System {
-class Exception;
+class ProtocolVersion;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class Timeout;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCipher;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCloseable;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsContext;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsPeer;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -116,8 +116,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::DatagramTransport"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::DatagramTransport*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::DatagramTransport"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::DatagramTransport* i___Org__BouncyCastle__Crypto__Tls__DatagramTransport() noexcept;
+
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCloseable"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCloseable*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCloseable"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCloseable* i___Org__BouncyCastle__Crypto__Tls__TlsCloseable() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::DatagramTransport*& __get_mTransport();
 

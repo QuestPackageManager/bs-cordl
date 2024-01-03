@@ -11,29 +11,29 @@ CORDL_MODULE_EXPORT(VRTextEntryController)
 namespace GlobalNamespace {
 class UIKeyboard;
 }
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
 class __VRTextEntryController___BlinkCursor_d__23;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
 class Action;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
+namespace TMPro {
+class TextMeshProUGUI;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -74,11 +74,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SymmetricTransform)
 namespace System::Security::Cryptography {
-class SymmetricAlgorithm;
+class ICryptoTransform;
+}
+namespace System::Security::Cryptography {
+struct PaddingMode;
 }
 namespace System::Security::Cryptography {
 class RandomNumberGenerator;
 }
 namespace System::Security::Cryptography {
-class ICryptoTransform;
+class SymmetricAlgorithm;
 }
 namespace System {
 class IDisposable;
-}
-namespace System::Security::Cryptography {
-struct PaddingMode;
 }
 // Forward declare root types
 namespace Mono::Security::Cryptography {
@@ -85,8 +85,14 @@ public:
   /// @brief Convert operator to "::System::Security::Cryptography::ICryptoTransform"
   constexpr operator ::System::Security::Cryptography::ICryptoTransform*() noexcept;
 
+  /// @brief Convert to "::System::Security::Cryptography::ICryptoTransform"
+  constexpr ::System::Security::Cryptography::ICryptoTransform* i___System__Security__Cryptography__ICryptoTransform() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::System::Security::Cryptography::SymmetricAlgorithm*& __get_algo();
 

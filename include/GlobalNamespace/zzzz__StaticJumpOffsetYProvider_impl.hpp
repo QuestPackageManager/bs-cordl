@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__StaticJumpOffsetYProvider_def.hpp"
-#include "GlobalNamespace/zzzz__StaticJumpOffsetYProvider_def.hpp"
 #include "GlobalNamespace/zzzz__IJumpOffsetYProvider_def.hpp"
+#include "GlobalNamespace/zzzz__StaticJumpOffsetYProvider_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__StaticJumpOffsetYProvider__InitData._ctor
 template <>
 
@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x2395bc8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StaticJumpOffsetYProvider__InitData*>::get(), ".ctor",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
@@ -49,7 +49,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x2395ba4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StaticJumpOffsetYProvider*>::get(),
                                                                                "get_jumpOffsetY", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -62,7 +62,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2395bc0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StaticJumpOffsetYProvider*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -70,6 +70,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::GlobalNamespace::IJumpOffsetYProvider"
 constexpr GlobalNamespace::StaticJumpOffsetYProvider::operator ::GlobalNamespace::IJumpOffsetYProvider*() noexcept {
+  return static_cast<::GlobalNamespace::IJumpOffsetYProvider*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IJumpOffsetYProvider"
+constexpr ::GlobalNamespace::IJumpOffsetYProvider* GlobalNamespace::StaticJumpOffsetYProvider::i___GlobalNamespace__IJumpOffsetYProvider() noexcept {
   return static_cast<::GlobalNamespace::IJumpOffsetYProvider*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::__StaticJumpOffsetYProvider__InitData*& GlobalNamespace::StaticJumpOffsetYProvider::__get__initData() {

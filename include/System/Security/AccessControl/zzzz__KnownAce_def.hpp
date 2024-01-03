@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(KnownAce)
 namespace System::Security::AccessControl {
 struct AceFlags;
 }
-namespace System::Security::Principal {
-class SecurityIdentifier;
-}
 namespace System::Security::AccessControl {
 struct AceType;
+}
+namespace System::Security::Principal {
+class SecurityIdentifier;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {

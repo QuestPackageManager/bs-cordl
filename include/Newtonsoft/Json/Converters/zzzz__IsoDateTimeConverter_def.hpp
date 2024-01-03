@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "System/Globalization/zzzz__DateTimeStyles_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IsoDateTimeConverter)
-namespace System::Globalization {
-class CultureInfo;
+namespace Newtonsoft::Json {
+class JsonReader;
+}
+namespace Newtonsoft::Json {
+class JsonSerializer;
 }
 namespace Newtonsoft::Json {
 class JsonWriter;
 }
 namespace System::Globalization {
+class CultureInfo;
+}
+namespace System::Globalization {
 struct DateTimeStyles;
-}
-namespace System {
-class Type;
-}
-namespace Newtonsoft::Json {
-class JsonReader;
 }
 namespace System {
 class Object;
 }
-namespace Newtonsoft::Json {
-class JsonSerializer;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::IsoDateTimeConverter);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3670)), TypeDefinitionIndex(TypeDefinitionIndex(12032))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12032)), TypeDefinitionIndex(TypeDefinitionIndex(3670))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12046))
 // CS Name: ::Newtonsoft.Json.Converters::IsoDateTimeConverter*
 class CORDL_TYPE IsoDateTimeConverter : public ::Newtonsoft::Json::Converters::DateTimeConverterBase {

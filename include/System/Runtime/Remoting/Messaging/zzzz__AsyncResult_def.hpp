@@ -6,23 +6,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsyncResult)
-namespace System {
-class Object;
-}
-namespace System {
-class IAsyncResult;
-}
-namespace System::Threading {
-class WaitHandle;
-}
 namespace System::Runtime::Remoting::Messaging {
 class IMessageCtrl;
 }
 namespace System::Runtime::Remoting::Messaging {
+class IMessageSink;
+}
+namespace System::Runtime::Remoting::Messaging {
 class IMessage;
 }
-namespace System::Threading {
-class ThreadAbortException;
+namespace System::Runtime::Remoting::Messaging {
+class MonoMethodMessage;
 }
 namespace System::Threading {
 class ExecutionContext;
@@ -30,14 +24,20 @@ class ExecutionContext;
 namespace System::Threading {
 class IThreadPoolWorkItem;
 }
-namespace System::Runtime::Remoting::Messaging {
-class MonoMethodMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
+namespace System::Threading {
+class ThreadAbortException;
 }
 namespace System::Threading {
 class WaitCallback;
+}
+namespace System::Threading {
+class WaitHandle;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -49,7 +49,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::AsyncResult);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3151))
 // CS Name: ::System.Runtime.Remoting.Messaging::AsyncResult*
 class CORDL_TYPE AsyncResult : public ::System::Object {
@@ -122,11 +122,20 @@ public:
   /// @brief Convert operator to "::System::IAsyncResult"
   constexpr operator ::System::IAsyncResult*() noexcept;
 
+  /// @brief Convert to "::System::IAsyncResult"
+  constexpr ::System::IAsyncResult* i___System__IAsyncResult() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"
+  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* i___System__Runtime__Remoting__Messaging__IMessageSink() noexcept;
+
   /// @brief Convert operator to "::System::Threading::IThreadPoolWorkItem"
   constexpr operator ::System::Threading::IThreadPoolWorkItem*() noexcept;
+
+  /// @brief Convert to "::System::Threading::IThreadPoolWorkItem"
+  constexpr ::System::Threading::IThreadPoolWorkItem* i___System__Threading__IThreadPoolWorkItem() noexcept;
 
   constexpr ::System::Object*& __get_async_state();
 

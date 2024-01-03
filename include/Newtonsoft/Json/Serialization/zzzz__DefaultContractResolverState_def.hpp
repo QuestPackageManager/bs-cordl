@@ -4,8 +4,8 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DefaultContractResolverState)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace Newtonsoft::Json::Serialization {
+class JsonContract;
 }
 namespace Newtonsoft::Json::Serialization {
 struct ResolverContractKey;
@@ -13,8 +13,8 @@ struct ResolverContractKey;
 namespace Newtonsoft::Json::Utilities {
 class PropertyNameTable;
 }
-namespace Newtonsoft::Json::Serialization {
-class JsonContract;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {

@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/zzzz__InputControl_1_def.hpp"
 CORDL_MODULE_EXPORT(BoneControl)
 namespace UnityEngine::InputSystem::Controls {
-class Vector3Control;
-}
-namespace UnityEngine::InputSystem::XR {
-struct Bone;
+class IntegerControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class QuaternionControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class IntegerControl;
+class Vector3Control;
+}
+namespace UnityEngine::InputSystem::XR {
+struct Bone;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XR {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::XR::BoneControl);
 // SizeInfo { instance_size: 264, native_size: -1, calculated_instance_size: 264, calculated_native_size: 264, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst: 3892 }), TypeDefinitionIndex(TypeDefinitionIndex(6216)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6337))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6339)) CS Name: ::UnityEngine.InputSystem.XR::BoneControl*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6337)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst: 3892 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6216))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6339)) CS Name: ::UnityEngine.InputSystem.XR::BoneControl*
 class CORDL_TYPE BoneControl : public ::UnityEngine::InputSystem::InputControl_1<::UnityEngine::InputSystem::XR::Bone> {
 public:
   // Declarations

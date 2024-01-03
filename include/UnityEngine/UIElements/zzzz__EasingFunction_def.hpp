@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(EasingFunction)
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace UnityEngine::UIElements {
-struct EasingMode;
-}
 namespace System {
 class Object;
+}
+namespace UnityEngine::UIElements {
+struct EasingMode;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -36,6 +36,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>* i___System__IEquatable_1___UnityEngine__UIElements__EasingFunction_();
 
   /// @brief Method get_mode, addr 0x2e6d21c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EasingMode get_mode();

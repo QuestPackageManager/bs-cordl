@@ -2,10 +2,10 @@
 #include "System/Security/AccessControl/zzzz__AccessControlType_impl.hpp"
 #include "System/Security/AccessControl/zzzz__AuthorizationRule_impl.hpp"
 #include "System/Security/AccessControl/zzzz__AccessRule_def.hpp"
-#include "System/Security/AccessControl/zzzz__InheritanceFlags_def.hpp"
-#include "System/Security/Principal/zzzz__IdentityReference_def.hpp"
 #include "System/Security/AccessControl/zzzz__AccessControlType_def.hpp"
+#include "System/Security/AccessControl/zzzz__InheritanceFlags_def.hpp"
 #include "System/Security/AccessControl/zzzz__PropagationFlags_def.hpp"
+#include "System/Security/Principal/zzzz__IdentityReference_def.hpp"
 //  Writing Method size for method: ::System::Security::AccessControl::AccessRule._ctor
 template <>
 
@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x24806e0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::AccessRule*>::get(), ".ctor", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Principal::IdentityReference*>::get(),
@@ -34,7 +34,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x248090c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::AccessRule*>::get(),
                                                                                "get_AccessControlType", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;

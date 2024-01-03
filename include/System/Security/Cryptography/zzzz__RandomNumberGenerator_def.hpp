@@ -28,6 +28,9 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   static inline ::System::Security::Cryptography::RandomNumberGenerator* New_ctor();
 
   /// @brief Method .ctor, addr 0x245ff5c, size 0x8, virtual false, abstract: false, final false

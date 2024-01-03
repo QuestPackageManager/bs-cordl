@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeStructs)
 namespace Mono {
-struct __RuntimeStructs__GenericParamInfo;
-}
-namespace Mono {
 struct __RuntimeStructs__GPtrArray;
 }
 namespace Mono {
-struct __RuntimeStructs__RemoteClass;
+struct __RuntimeStructs__GenericParamInfo;
 }
 namespace Mono {
 struct __RuntimeStructs__MonoClass;
+}
+namespace Mono {
+struct __RuntimeStructs__RemoteClass;
 }
 // Forward declare root types
 namespace Mono {

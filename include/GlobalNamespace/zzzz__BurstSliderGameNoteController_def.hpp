@@ -11,7 +11,7 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BurstSliderGameNoteController)
 namespace GlobalNamespace {
-class INoteMirrorable;
+class AudioTimeSyncController;
 }
 namespace GlobalNamespace {
 class BoxCuttableBySaber;
@@ -23,10 +23,7 @@ namespace GlobalNamespace {
 class IGameNoteMirrorable;
 }
 namespace GlobalNamespace {
-struct NoteVisualModifierType;
-}
-namespace GlobalNamespace {
-struct __NoteData__GameplayType;
+class INoteMirrorable;
 }
 namespace GlobalNamespace {
 class INoteMovementProvider;
@@ -34,32 +31,35 @@ class INoteMovementProvider;
 namespace GlobalNamespace {
 class INoteVisualModifierTypeProvider;
 }
+namespace GlobalNamespace {
+class NoteData;
+}
+namespace GlobalNamespace {
+class NoteMovement;
+}
+namespace GlobalNamespace {
+struct NoteVisualModifierType;
+}
+namespace GlobalNamespace {
+class Saber;
+}
+namespace GlobalNamespace {
+class __BurstSliderGameNoteController__Pool;
+}
+namespace GlobalNamespace {
+struct __NoteData__GameplayType;
+}
+namespace System {
+template <typename T> class Action_1;
+}
 namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace GlobalNamespace {
-class AudioTimeSyncController;
-}
-namespace GlobalNamespace {
-class NoteData;
-}
-namespace GlobalNamespace {
-class Saber;
-}
-namespace System {
-template <typename T> class Action_1;
-}
 namespace UnityEngine {
 struct Vector3;
-}
-namespace GlobalNamespace {
-class __BurstSliderGameNoteController__Pool;
-}
-namespace GlobalNamespace {
-class NoteMovement;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -75,8 +75,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__BurstSliderGameNoteController__Pool);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4761)), TypeDefinitionIndex(TypeDefinitionIndex(4749)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14757))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4738)) CS Name: ::BurstSliderGameNoteController*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14757)), TypeDefinitionIndex(TypeDefinitionIndex(4761)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4749))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4738)) CS Name: ::BurstSliderGameNoteController*
 class CORDL_TYPE BurstSliderGameNoteController : public ::GlobalNamespace::NoteController {
 public:
   // Declarations
@@ -124,17 +124,33 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::BurstSliderGameNoteController*>"
   constexpr operator ::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::BurstSliderGameNoteController*>*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::BurstSliderGameNoteController*>"
+  constexpr ::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::BurstSliderGameNoteController*>*
+  i___GlobalNamespace__ICubeNoteControllerInitializable_1___GlobalNamespace__BurstSliderGameNoteController__() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::INoteVisualModifierTypeProvider"
   constexpr operator ::GlobalNamespace::INoteVisualModifierTypeProvider*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::INoteVisualModifierTypeProvider"
+  constexpr ::GlobalNamespace::INoteVisualModifierTypeProvider* i___GlobalNamespace__INoteVisualModifierTypeProvider() noexcept;
 
   /// @brief Convert operator to "::GlobalNamespace::INoteMovementProvider"
   constexpr operator ::GlobalNamespace::INoteMovementProvider*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::INoteMovementProvider"
+  constexpr ::GlobalNamespace::INoteMovementProvider* i___GlobalNamespace__INoteMovementProvider() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IGameNoteMirrorable"
   constexpr operator ::GlobalNamespace::IGameNoteMirrorable*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IGameNoteMirrorable"
+  constexpr ::GlobalNamespace::IGameNoteMirrorable* i___GlobalNamespace__IGameNoteMirrorable() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::INoteMirrorable"
   constexpr operator ::GlobalNamespace::INoteMirrorable*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::INoteMirrorable"
+  constexpr ::GlobalNamespace::INoteMirrorable* i___GlobalNamespace__INoteMirrorable() noexcept;
 
   constexpr ::ArrayW<::GlobalNamespace::BoxCuttableBySaber*, ::Array<::GlobalNamespace::BoxCuttableBySaber*>*>& __get__bigCuttableBySaberList();
 
@@ -324,8 +340,8 @@ static_assert(offsetof(::GlobalNamespace::BurstSliderGameNoteController, ____ori
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4738)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 288 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4737)) CS Name: ::BurstSliderGameNoteController::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 288 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(4738))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4737)) CS Name: ::BurstSliderGameNoteController::Pool*
 class CORDL_TYPE __BurstSliderGameNoteController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::BurstSliderGameNoteController*> {
 public:
   // Declarations

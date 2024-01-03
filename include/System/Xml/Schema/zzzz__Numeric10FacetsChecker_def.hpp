@@ -10,20 +10,20 @@ CORDL_MODULE_EXPORT(Numeric10FacetsChecker)
 namespace System::Collections {
 class ArrayList;
 }
-namespace System {
-class Exception;
-}
 namespace System::Xml::Schema {
 class XmlSchemaDatatype;
 }
-namespace System {
-class Object;
+namespace System::Xml::Schema {
+class XmlValueConverter;
 }
 namespace System {
 struct Decimal;
 }
-namespace System::Xml::Schema {
-class XmlValueConverter;
+namespace System {
+class Exception;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::Numeric10FacetsChecker);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11686)), TypeDefinitionIndex(TypeDefinitionIndex(2655))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2655)), TypeDefinitionIndex(TypeDefinitionIndex(11686))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11687))
 // CS Name: ::System.Xml.Schema::Numeric10FacetsChecker*
 class CORDL_TYPE Numeric10FacetsChecker : public ::System::Xml::Schema::FacetsChecker {

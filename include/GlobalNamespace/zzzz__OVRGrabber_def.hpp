@@ -10,29 +10,29 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRGrabber)
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace GlobalNamespace {
 class OVRCameraRig;
+}
+namespace GlobalNamespace {
+class OVRGrabbable;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace GlobalNamespace {
-class OVRGrabbable;
+namespace UnityEngine {
+class Collider;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine {
-class Collider;
+struct Quaternion;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -44,7 +44,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRGrabber);
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 193, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7598)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7598)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
 // TypeDefinitionIndex(TypeDefinitionIndex(10252))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8111)) CS Name: ::OVRGrabber*
 class CORDL_TYPE OVRGrabber : public ::UnityEngine::MonoBehaviour {
 public:
@@ -265,8 +265,7 @@ public:
   inline void GrabBegin();
 
   /// @brief Method MoveGrabbedObject, addr 0x27adf1c, size 0x234, virtual true, abstract: false, final false
-  /// @param forceTeleport: bool (default: false)
-  inline void MoveGrabbedObject(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot, bool forceTeleport = false);
+  inline void MoveGrabbedObject(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot, bool forceTeleport);
 
   /// @brief Method GrabEnd, addr 0x27accf8, size 0x268, virtual false, abstract: false, final false
   inline void GrabEnd();

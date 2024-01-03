@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::KeyUpEvent);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7240), inst: 3944 }), TypeDefinitionIndex(TypeDefinitionIndex(7240))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7240)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7240), inst: 3944 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7242))
 // CS Name: ::UnityEngine.UIElements::KeyUpEvent*
 class CORDL_TYPE KeyUpEvent : public ::UnityEngine::UIElements::KeyboardEventBase_1<::UnityEngine::UIElements::KeyUpEvent*> {

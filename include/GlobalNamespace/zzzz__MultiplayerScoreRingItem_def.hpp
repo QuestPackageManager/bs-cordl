@@ -59,8 +59,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerScor
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 2822 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(5253))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5252)) CS Name: ::MultiplayerScoreRingItem::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5253)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 2822 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(11050))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5252)) CS Name: ::MultiplayerScoreRingItem::Pool*
 class CORDL_TYPE __MultiplayerScoreRingItem__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MultiplayerScoreRingItem*> {
 public:
   // Declarations

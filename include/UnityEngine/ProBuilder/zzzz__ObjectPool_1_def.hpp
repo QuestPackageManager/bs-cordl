@@ -5,9 +5,6 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectPool_1)
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Generic {
 template <typename T> class Queue_1;
 }
@@ -16,6 +13,9 @@ template <typename T> class Action_1;
 }
 namespace System {
 template <typename TResult> class Func_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -53,6 +53,9 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   constexpr bool& __get_m_IsDisposed();
 
   constexpr bool const& __get_m_IsDisposed() const;
@@ -87,8 +90,7 @@ public:
                                                                      bool lazyInitialization);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param lazyInitialization: bool (default: false)
-  inline void _ctor(int32_t initialSize, int32_t desiredSize, ::System::Func_1<T>* constructor, ::System::Action_1<T>* destructor, bool lazyInitialization = false);
+  inline void _ctor(int32_t initialSize, int32_t desiredSize, ::System::Func_1<T>* constructor, ::System::Action_1<T>* destructor, bool lazyInitialization);
 
   /// @brief Method Dequeue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T Dequeue();

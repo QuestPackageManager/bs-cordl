@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(HEU_AssetUpdater)
 namespace HoudiniEngineUnity {
 class HEU_BaseSync;
 }
-namespace UnityEngine {
-class GameObject;
-}
 namespace HoudiniEngineUnity {
 class HEU_HoudiniAsset;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

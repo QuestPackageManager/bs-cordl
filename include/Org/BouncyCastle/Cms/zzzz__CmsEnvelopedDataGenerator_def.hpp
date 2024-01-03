@@ -6,8 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsEnvelopedDataGenerator)
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Cms {
+class CmsEnvelopedData;
 }
 namespace Org::BouncyCastle::Cms {
 class CmsProcessable;
@@ -15,11 +15,11 @@ class CmsProcessable;
 namespace Org::BouncyCastle::Crypto {
 class CipherKeyGenerator;
 }
-namespace Org::BouncyCastle::Cms {
-class CmsEnvelopedData;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherBuilderWithKey;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

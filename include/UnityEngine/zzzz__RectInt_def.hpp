@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RectInt)
 namespace System {
-class IFormattable;
-}
-namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
 class IFormatProvider;
+}
+namespace System {
+class IFormattable;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -50,8 +50,14 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::RectInt>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::RectInt>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::RectInt>"
+  constexpr ::System::IEquatable_1<::UnityEngine::RectInt>* i___System__IEquatable_1___UnityEngine__RectInt_();
+
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
+
+  /// @brief Convert to "::System::IFormattable"
+  constexpr ::System::IFormattable* i___System__IFormattable();
 
   /// @brief Method get_x, addr 0x2cc91d8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_x();

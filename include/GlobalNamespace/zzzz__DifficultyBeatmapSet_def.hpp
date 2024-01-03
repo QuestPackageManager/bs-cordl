@@ -4,8 +4,8 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DifficultyBeatmapSet)
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmapSet;
@@ -13,8 +13,8 @@ class IDifficultyBeatmapSet;
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -46,6 +46,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IDifficultyBeatmapSet"
   constexpr operator ::GlobalNamespace::IDifficultyBeatmapSet*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IDifficultyBeatmapSet"
+  constexpr ::GlobalNamespace::IDifficultyBeatmapSet* i___GlobalNamespace__IDifficultyBeatmapSet() noexcept;
 
   constexpr ::GlobalNamespace::BeatmapCharacteristicSO*& __get__beatmapCharacteristic_k__BackingField();
 

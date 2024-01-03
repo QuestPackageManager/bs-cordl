@@ -34,6 +34,9 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::ICursorManager"
   constexpr operator ::UnityEngine::UIElements::ICursorManager*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::UIElements::ICursorManager"
+  constexpr ::UnityEngine::UIElements::ICursorManager* i___UnityEngine__UIElements__ICursorManager() noexcept;
+
   constexpr bool& __get__isCursorOverriden_k__BackingField();
 
   constexpr bool const& __get__isCursorOverriden_k__BackingField() const;

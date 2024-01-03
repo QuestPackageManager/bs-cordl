@@ -38,6 +38,9 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::InputDevice>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::InputDevice>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::InputDevice>"
+  constexpr ::System::IEquatable_1<::UnityEngine::XR::InputDevice>* i___System__IEquatable_1___UnityEngine__XR__InputDevice_();
+
   /// @brief Method .ctor, addr 0x2eb2158, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(uint64_t deviceId);
 
@@ -54,8 +57,7 @@ public:
   inline bool IsValidId();
 
   /// @brief Method SendHapticImpulse, addr 0x2eb22d0, size 0x100, virtual false, abstract: false, final false
-  /// @param duration: float_t (default: 1.0)
-  inline bool SendHapticImpulse(uint32_t channel, float_t amplitude, float_t duration = 1.0);
+  inline bool SendHapticImpulse(uint32_t channel, float_t amplitude, float_t duration);
 
   /// @brief Method StopHaptics, addr 0x2eb242c, size 0x58, virtual false, abstract: false, final false
   inline void StopHaptics();

@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Pkcs8EncryptedPrivateKeyInfoBuilder)
+namespace Org::BouncyCastle::Asn1::Pkcs {
+class PrivateKeyInfo;
+}
 namespace Org::BouncyCastle::Crypto {
 class ICipherBuilder;
 }
 namespace Org::BouncyCastle::Pkcs {
 class Pkcs8EncryptedPrivateKeyInfo;
-}
-namespace Org::BouncyCastle::Asn1::Pkcs {
-class PrivateKeyInfo;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkcs {

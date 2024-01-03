@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(PlayerSpecificSettingsNetSerializable)
 namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace LiteNetLib::Utils {
 class INetSerializable;
-}
-namespace UnityEngine {
-struct Color;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -58,6 +58,9 @@ public:
 
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
+
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
 
   constexpr ::StringW& __get_userId();
 

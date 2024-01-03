@@ -6,113 +6,113 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(JsonSerializerProxy)
-namespace System {
-class Object;
+namespace Newtonsoft::Json::Serialization {
+class ErrorEventArgs;
 }
-namespace System {
-template <typename TEventArgs> class EventHandler_1;
+namespace Newtonsoft::Json::Serialization {
+class IContractResolver;
+}
+namespace Newtonsoft::Json::Serialization {
+class IReferenceResolver;
+}
+namespace Newtonsoft::Json::Serialization {
+class ITraceWriter;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonSerializerInternalBase;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonSerializerInternalReader;
 }
 namespace Newtonsoft::Json::Serialization {
 class JsonSerializerInternalWriter;
 }
 namespace Newtonsoft::Json {
-struct MetadataPropertyHandling;
-}
-namespace Newtonsoft::Json {
-class JsonConverterCollection;
-}
-namespace System::Runtime::Serialization::Formatters {
-struct FormatterAssemblyStyle;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace Newtonsoft::Json::Serialization {
-class ITraceWriter;
-}
-namespace System {
-class Type;
-}
-namespace Newtonsoft::Json {
-struct DateFormatHandling;
-}
-namespace Newtonsoft::Json::Serialization {
-class IContractResolver;
-}
-namespace Newtonsoft::Json {
 struct ConstructorHandling;
 }
 namespace Newtonsoft::Json {
-struct Formatting;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace Newtonsoft::Json::Serialization {
-class ErrorEventArgs;
-}
-namespace Newtonsoft::Json {
-class JsonReader;
-}
-namespace Newtonsoft::Json {
-struct ReferenceLoopHandling;
-}
-namespace Newtonsoft::Json {
-struct DefaultValueHandling;
-}
-namespace Newtonsoft::Json {
-struct NullValueHandling;
-}
-namespace Newtonsoft::Json {
-class JsonWriter;
-}
-namespace Newtonsoft::Json {
-class JsonSerializer;
-}
-namespace Newtonsoft::Json {
-struct TypeNameHandling;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace Newtonsoft::Json {
-struct StringEscapeHandling;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonSerializerInternalReader;
-}
-namespace Newtonsoft::Json {
-struct MissingMemberHandling;
-}
-namespace Newtonsoft::Json {
-struct DateTimeZoneHandling;
-}
-namespace Newtonsoft::Json {
-struct ObjectCreationHandling;
+struct DateFormatHandling;
 }
 namespace Newtonsoft::Json {
 struct DateParseHandling;
 }
 namespace Newtonsoft::Json {
-struct PreserveReferencesHandling;
+struct DateTimeZoneHandling;
+}
+namespace Newtonsoft::Json {
+struct DefaultValueHandling;
 }
 namespace Newtonsoft::Json {
 struct FloatFormatHandling;
 }
-namespace Newtonsoft::Json::Serialization {
-class JsonSerializerInternalBase;
+namespace Newtonsoft::Json {
+struct FloatParseHandling;
+}
+namespace Newtonsoft::Json {
+struct Formatting;
+}
+namespace Newtonsoft::Json {
+class JsonConverterCollection;
+}
+namespace Newtonsoft::Json {
+class JsonReader;
+}
+namespace Newtonsoft::Json {
+class JsonSerializer;
+}
+namespace Newtonsoft::Json {
+class JsonWriter;
+}
+namespace Newtonsoft::Json {
+struct MetadataPropertyHandling;
+}
+namespace Newtonsoft::Json {
+struct MissingMemberHandling;
+}
+namespace Newtonsoft::Json {
+struct NullValueHandling;
+}
+namespace Newtonsoft::Json {
+struct ObjectCreationHandling;
+}
+namespace Newtonsoft::Json {
+struct PreserveReferencesHandling;
+}
+namespace Newtonsoft::Json {
+struct ReferenceLoopHandling;
+}
+namespace Newtonsoft::Json {
+struct StringEscapeHandling;
+}
+namespace Newtonsoft::Json {
+struct TypeNameHandling;
 }
 namespace System::Collections {
 class IEqualityComparer;
 }
-namespace Newtonsoft::Json::Serialization {
-class IReferenceResolver;
+namespace System::Globalization {
+class CultureInfo;
 }
-namespace Newtonsoft::Json {
-struct FloatParseHandling;
+namespace System::Runtime::Serialization::Formatters {
+struct FormatterAssemblyStyle;
 }
 namespace System::Runtime::Serialization {
 class SerializationBinder;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System {
+template <typename TEventArgs> class EventHandler_1;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {

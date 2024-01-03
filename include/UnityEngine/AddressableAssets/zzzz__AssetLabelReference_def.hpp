@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AssetLabelReference)
-namespace UnityEngine::AddressableAssets {
-class IKeyEvaluator;
-}
 namespace System {
 class Object;
+}
+namespace UnityEngine::AddressableAssets {
+class IKeyEvaluator;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets {
@@ -37,6 +37,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::AddressableAssets::IKeyEvaluator"
   constexpr operator ::UnityEngine::AddressableAssets::IKeyEvaluator*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::AddressableAssets::IKeyEvaluator"
+  constexpr ::UnityEngine::AddressableAssets::IKeyEvaluator* i___UnityEngine__AddressableAssets__IKeyEvaluator() noexcept;
 
   constexpr ::StringW& __get_m_LabelString();
 

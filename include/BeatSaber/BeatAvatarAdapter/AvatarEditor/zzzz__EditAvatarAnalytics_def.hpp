@@ -6,29 +6,29 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(EditAvatarAnalytics)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace BeatSaber::BeatAvatarSDK {
-class AvatarDataModel;
-}
-namespace GlobalNamespace {
-class IAnalyticsModel;
-}
-namespace BeatSaber::AvatarCore {
-struct __AvatarEditorFlowCoordinator__FinishAction;
-}
 namespace BeatSaber::AvatarCore {
 class AvatarEditorFlowCoordinator;
 }
 namespace BeatSaber::AvatarCore {
 class IAvatarSystemMetadata;
 }
+namespace BeatSaber::AvatarCore {
+struct __AvatarEditorFlowCoordinator__EditMode;
+}
+namespace BeatSaber::AvatarCore {
+struct __AvatarEditorFlowCoordinator__FinishAction;
+}
+namespace BeatSaber::BeatAvatarSDK {
+class AvatarDataModel;
+}
 namespace GlobalNamespace {
 class BeatAvatarEditorFlowCoordinator;
 }
-namespace BeatSaber::AvatarCore {
-struct __AvatarEditorFlowCoordinator__EditMode;
+namespace GlobalNamespace {
+class IAnalyticsModel;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15171)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15171))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15269))
 // CS Name: ::BeatSaber.BeatAvatarAdapter.AvatarEditor::EditAvatarAnalytics*
 class CORDL_TYPE EditAvatarAnalytics : public ::UnityEngine::MonoBehaviour {

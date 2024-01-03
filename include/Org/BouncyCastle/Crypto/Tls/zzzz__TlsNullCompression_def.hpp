@@ -29,6 +29,9 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCompression"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCompression*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCompression"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCompression* i___Org__BouncyCastle__Crypto__Tls__TlsCompression() noexcept;
+
   /// @brief Method Compress, addr 0xfaf658, size 0x8, virtual true, abstract: false, final false
   inline ::System::IO::Stream* Compress(::System::IO::Stream* output);
 

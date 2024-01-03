@@ -19,107 +19,98 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StandardLevelDetailViewController)
-namespace UnityEngine::UI {
-class Toggle;
-}
-namespace System::Threading {
-class CancellationTokenSource;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class EventBinder;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace GlobalNamespace {
-class IAdditionalContentModel;
-}
-namespace GlobalNamespace {
-struct __BeatmapLevelsModel__LevelDownloadingUpdate;
-}
-namespace GlobalNamespace {
-struct __StandardLevelDetailViewController____BuyPackButtonWasPressed_b__56_0_d;
-}
-namespace GlobalNamespace {
-class StandardLevelBuyView;
-}
-namespace GlobalNamespace {
-struct __StandardLevelDetailViewController____OpenLevelProductStore_b__59_0_d;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelPack;
-}
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
-class BeatmapLevelsModel;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace GlobalNamespace {
-struct __StandardLevelDetailViewController____RefreshAvailabilityIfNeeded_b__60_0_d;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace GlobalNamespace {
 struct BeatmapDifficultyMask;
 }
-namespace System::Threading::Tasks {
-class Task;
-}
 namespace GlobalNamespace {
-class StandardLevelDetailView;
-}
-namespace GlobalNamespace {
-class IBeatmapLevel;
-}
-namespace GlobalNamespace {
-class StandardLevelBuyInfoView;
-}
-namespace GlobalNamespace {
-class LoadingControl;
-}
-namespace GlobalNamespace {
-struct __StandardLevelDetailViewController__ContentType;
-}
-namespace GlobalNamespace {
-class IAnalyticsModel;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-struct __StandardLevelDetailViewController____OpenLevelProductStoreOrShowBuyInfo_b__58_0_d;
-}
-namespace GlobalNamespace {
-struct __StandardLevelDetailViewController___ShowLoadingAndDoSomething_d__62;
+class BeatmapLevelsModel;
 }
 namespace GlobalNamespace {
 class DlcPromoPanelModel;
 }
 namespace GlobalNamespace {
+struct EntitlementStatus;
+}
+namespace GlobalNamespace {
+class EventBinder;
+}
+namespace GlobalNamespace {
+class IAdditionalContentModel;
+}
+namespace GlobalNamespace {
+class IAnalyticsModel;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelPack;
+}
+namespace GlobalNamespace {
+class IBeatmapLevel;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+struct IsPackBetterBuyThanLevelResult;
+}
+namespace GlobalNamespace {
+class LoadingControl;
+}
+namespace GlobalNamespace {
+struct OpenProductStoreResult;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace GlobalNamespace {
+class StandardLevelBuyInfoView;
+}
+namespace GlobalNamespace {
+class StandardLevelBuyView;
+}
+namespace GlobalNamespace {
+class StandardLevelDetailView;
+}
+namespace GlobalNamespace {
+struct __BeatmapLevelsModel__GetBeatmapLevelResult;
+}
+namespace GlobalNamespace {
+struct __BeatmapLevelsModel__LevelDownloadingUpdate;
+}
+namespace GlobalNamespace {
+struct __StandardLevelDetailViewController__ContentType;
 }
 namespace GlobalNamespace {
 struct __StandardLevelDetailViewController___LoadBeatmapLevelAsync_d__57;
 }
 namespace GlobalNamespace {
-struct __BeatmapLevelsModel__GetBeatmapLevelResult;
+struct __StandardLevelDetailViewController___ShowLoadingAndDoSomething_d__62;
+}
+namespace GlobalNamespace {
+struct __StandardLevelDetailViewController____BuyPackButtonWasPressed_b__56_0_d;
+}
+namespace GlobalNamespace {
+struct __StandardLevelDetailViewController____OpenLevelProductStoreOrShowBuyInfo_b__58_0_d;
+}
+namespace GlobalNamespace {
+struct __StandardLevelDetailViewController____OpenLevelProductStore_b__59_0_d;
+}
+namespace GlobalNamespace {
+struct __StandardLevelDetailViewController____RefreshAvailabilityIfNeeded_b__60_0_d;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncTaskMethodBuilder;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -128,22 +119,31 @@ namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
-}
-namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
 }
-namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+namespace System::Threading::Tasks {
+class Task;
 }
-namespace GlobalNamespace {
-struct OpenProductStoreResult;
+namespace System::Threading {
+class CancellationTokenSource;
 }
-namespace GlobalNamespace {
-struct IsPackBetterBuyThanLevelResult;
+namespace System::Threading {
+struct CancellationToken;
 }
-namespace GlobalNamespace {
-struct EntitlementStatus;
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine::UI {
+class Toggle;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -257,14 +257,17 @@ static_assert(offsetof(::GlobalNamespace::__StandardLevelDetailViewController__C
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4358)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 906 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 906 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(4358)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), GenericInstantiation(GenericInstantiation { tdi:
 // TypeDefinitionIndex(3394), inst: 105 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5680)) CS Name: ::StandardLevelDetailViewController::<LoadBeatmapLevelAsync>d__57
 struct CORDL_TYPE __StandardLevelDetailViewController___LoadBeatmapLevelAsync_d__57 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x22c571c, size 0x51c, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -338,6 +341,9 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+
   /// @brief Method MoveNext, addr 0x22c5c44, size 0x2a4, virtual true, abstract: false, final true
   inline void MoveNext();
 
@@ -395,7 +401,7 @@ static_assert(offsetof(::GlobalNamespace::__StandardLevelDetailViewController___
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(16271)), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(16271)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
 // GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 895 }), TypeDefinitionIndex(TypeDefinitionIndex(3401))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5682)) CS
 // Name: ::StandardLevelDetailViewController::<<BuyPackButtonWasPressed>b__56_0>d
 struct CORDL_TYPE __StandardLevelDetailViewController____BuyPackButtonWasPressed_b__56_0_d {
@@ -403,6 +409,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x22c5ef4, size 0x2e8, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -460,13 +469,17 @@ static_assert(offsetof(::GlobalNamespace::__StandardLevelDetailViewController___
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(16272)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 891
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3401))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5683)) CS Name: ::StandardLevelDetailViewController::<<OpenLevelProductStoreOrShowBuyInfo>b__58_0>d
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 891 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(16272))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5683)) CS Name:
+// ::StandardLevelDetailViewController::<<OpenLevelProductStoreOrShowBuyInfo>b__58_0>d
 struct CORDL_TYPE __StandardLevelDetailViewController____OpenLevelProductStoreOrShowBuyInfo_b__58_0_d {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x22c61e8, size 0x3e8, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -519,14 +532,17 @@ static_assert(offsetof(::GlobalNamespace::__StandardLevelDetailViewController___
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(16271)), TypeDefinitionIndex(TypeDefinitionIndex(3401)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 895 }), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5684)) CS
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(16271)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 895 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5684)) CS
 // Name: ::StandardLevelDetailViewController::<<OpenLevelProductStore>b__59_0>d
 struct CORDL_TYPE __StandardLevelDetailViewController____OpenLevelProductStore_b__59_0_d {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x22c65dc, size 0x2e8, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -584,15 +600,17 @@ static_assert(offsetof(::GlobalNamespace::__StandardLevelDetailViewController___
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(3394))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5685))
-// CS Name: ::StandardLevelDetailViewController::<<RefreshAvailabilityIfNeeded>b__60_0>d
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880
+// }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(3393))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(5685)) CS Name: ::StandardLevelDetailViewController::<<RefreshAvailabilityIfNeeded>b__60_0>d
 struct CORDL_TYPE __StandardLevelDetailViewController____RefreshAvailabilityIfNeeded_b__60_0_d {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x22c68d0, size 0x430, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -1025,11 +1043,7 @@ public:
   inline void RefreshAvailabilityIfNeeded();
 
   /// @brief Method ShowContent, addr 0x22c42ec, size 0x400, virtual false, abstract: false, final false
-  /// @param errorText: ::StringW (default: u"")
-  /// @param downloadingProgress: float_t (default: 0.0)
-  /// @param downloadingText: ::StringW (default: u"")
-  inline void ShowContent(::GlobalNamespace::__StandardLevelDetailViewController__ContentType contentType, ::StringW errorText = u"", float_t downloadingProgress = 0.0,
-                          ::StringW downloadingText = u"");
+  inline void ShowContent(::GlobalNamespace::__StandardLevelDetailViewController__ContentType contentType, ::StringW errorText, float_t downloadingProgress, ::StringW downloadingText);
 
   /// @brief Method ShowLoadingAndDoSomething, addr 0x22c49f4, size 0x9c, virtual false, abstract: false, final false
   inline void ShowLoadingAndDoSomething(::System::Func_2<::System::Threading::CancellationToken, ::System::Threading::Tasks::Task*>* action);

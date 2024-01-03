@@ -5,12 +5,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MultiplayerSettingsPanelController)
-namespace UnityEngine::UI {
-class Toggle;
-}
-namespace HMUI {
-class ToggleBinder;
-}
 namespace GlobalNamespace {
 class ILobbyPlayerData;
 }
@@ -20,8 +14,14 @@ class IRefreshable;
 namespace GlobalNamespace {
 class ServerCodeView;
 }
+namespace HMUI {
+class ToggleBinder;
+}
 namespace System {
 template <typename T> class Action_1;
+}
+namespace UnityEngine::UI {
+class Toggle;
 }
 namespace UnityEngine {
 class GameObject;
@@ -68,6 +68,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IRefreshable"
   constexpr operator ::GlobalNamespace::IRefreshable*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IRefreshable"
+  constexpr ::GlobalNamespace::IRefreshable* i___GlobalNamespace__IRefreshable() noexcept;
 
   constexpr ::GlobalNamespace::ServerCodeView*& __get__serverCodeView();
 

@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(G_RamText)
-namespace UnityEngine::UI {
-class Text;
-}
 namespace Tayx::Graphy::Ram {
 class G_RamMonitor;
 }
 namespace Tayx::Graphy {
 class GraphyManager;
+}
+namespace UnityEngine::UI {
+class Text;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Ram {

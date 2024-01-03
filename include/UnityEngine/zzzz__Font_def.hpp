@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Font)
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
-class __Font__FontTextureRebuildCallback;
-}
 namespace System {
 template <typename T> class Action_1;
 }
 namespace System {
 class Object;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+class __Font__FontTextureRebuildCallback;
 }
 // Forward declare root types
 namespace UnityEngine {

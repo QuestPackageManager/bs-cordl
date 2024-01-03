@@ -9,16 +9,16 @@ namespace UnityEngine {
 struct BoneWeight;
 }
 namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 // Forward declare root types
 namespace GlobalNamespace {

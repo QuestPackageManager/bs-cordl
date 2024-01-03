@@ -10,17 +10,17 @@ CORDL_MODULE_EXPORT(CfbBlockCipherMac)
 namespace Org::BouncyCastle::Crypto::Macs {
 class MacCFBBlockCipher;
 }
+namespace Org::BouncyCastle::Crypto::Paddings {
+class IBlockCipherPadding;
+}
+namespace Org::BouncyCastle::Crypto {
+class IBlockCipher;
+}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class IMac;
-}
-namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
-}
-namespace Org::BouncyCastle::Crypto::Paddings {
-class IBlockCipherPadding;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Macs {
@@ -60,6 +60,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IMac"
   constexpr operator ::Org::BouncyCastle::Crypto::IMac*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IMac"
+  constexpr ::Org::BouncyCastle::Crypto::IMac* i___Org__BouncyCastle__Crypto__IMac() noexcept;
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mac();
 

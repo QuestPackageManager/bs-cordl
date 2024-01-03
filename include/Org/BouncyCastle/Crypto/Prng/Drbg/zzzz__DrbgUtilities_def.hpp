@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(DrbgUtilities)
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
-namespace System::Collections {
-class IDictionary;
-}
 namespace Org::BouncyCastle::Crypto {
 class IMac;
+}
+namespace System::Collections {
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Prng::Drbg {

@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(TutorialInstaller)
 namespace GlobalNamespace {
 class EffectPoolsManualInstaller;
 }
-namespace UnityEngine {
-class AudioClip;
-}
 namespace GlobalNamespace {
 class PlayerHeightDetector;
 }
 namespace GlobalNamespace {
 class TutorialSceneSetupData;
+}
+namespace UnityEngine {
+class AudioClip;
 }
 // Forward declare root types
 namespace GlobalNamespace {

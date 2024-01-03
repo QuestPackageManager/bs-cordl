@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Linq/zzzz__XObjectChangeAnnotation_def.hpp"
-#include "System/zzzz__EventHandler_1_def.hpp"
 #include "System/Xml/Linq/zzzz__XObjectChangeEventArgs_def.hpp"
+#include "System/zzzz__EventHandler_1_def.hpp"
 constexpr ::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs*>*& System::Xml::Linq::XObjectChangeAnnotation::__get_changing() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___changing;

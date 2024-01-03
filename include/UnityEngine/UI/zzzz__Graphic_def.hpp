@@ -9,17 +9,50 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Graphic)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace UnityEngine::Events {
 class UnityAction;
-}
-namespace UnityEngine {
-class Canvas;
 }
 namespace UnityEngine::UI::CoroutineTween {
 struct ColorTween;
 }
+namespace UnityEngine::UI::CoroutineTween {
+template <typename T> class TweenRunner_1;
+}
+namespace UnityEngine::UI {
+struct CanvasUpdate;
+}
+namespace UnityEngine::UI {
+class ICanvasElement;
+}
+namespace UnityEngine::UI {
+class VertexHelper;
+}
 namespace UnityEngine {
-struct Vector2;
+class Camera;
+}
+namespace UnityEngine {
+class CanvasRenderer;
+}
+namespace UnityEngine {
+class Canvas;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine {
+struct Rect;
 }
 namespace UnityEngine {
 class Texture2D;
@@ -27,50 +60,17 @@ class Texture2D;
 namespace UnityEngine {
 class Texture;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::UI {
-class VertexHelper;
-}
 namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine::UI {
-struct CanvasUpdate;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine::UI::CoroutineTween {
-template <typename T> class TweenRunner_1;
-}
-namespace UnityEngine {
-class CanvasRenderer;
-}
-namespace UnityEngine {
-class RectTransform;
+class Transform;
 }
 namespace UnityEngine {
 struct UIVertex;
 }
 namespace UnityEngine {
-class Transform;
+struct Vector2;
 }
 namespace UnityEngine {
-class Mesh;
-}
-namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine::UI {
-class ICanvasElement;
+struct Vector4;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -82,7 +82,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::Graphic);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 153, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(13214)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13214)), TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13042))
 // CS Name: ::UnityEngine.UI::Graphic*
 class CORDL_TYPE Graphic : public ::UnityEngine::EventSystems::UIBehaviour {
@@ -184,6 +184,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::UI::ICanvasElement"
   constexpr operator ::UnityEngine::UI::ICanvasElement*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UI::ICanvasElement"
+  constexpr ::UnityEngine::UI::ICanvasElement* i___UnityEngine__UI__ICanvasElement() noexcept;
 
   constexpr ::UnityEngine::Material*& __get_m_Material();
 

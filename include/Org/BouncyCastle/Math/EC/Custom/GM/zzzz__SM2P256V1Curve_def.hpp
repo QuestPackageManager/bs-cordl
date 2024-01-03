@@ -7,8 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SM2P256V1Curve)
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Math::EC::Custom::GM {
+class SM2P256V1Point;
+}
+namespace Org::BouncyCastle::Math::EC::Custom::GM {
+class __SM2P256V1Curve__SM2P256V1LookupTable;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECCurve;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECFieldElement;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECLookupTable;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
@@ -16,20 +28,8 @@ class ECPoint;
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Math::EC::Custom::GM {
-class __SM2P256V1Curve__SM2P256V1LookupTable;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECFieldElement;
-}
-namespace Org::BouncyCastle::Math::EC::Custom::GM {
-class SM2P256V1Point;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECLookupTable;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Custom::GM {

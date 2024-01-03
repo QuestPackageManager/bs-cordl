@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(LocalizedTextMeshProUGUI)
-namespace TMPro {
-class TextMeshProUGUI;
+namespace Polyglot {
+struct LanguageDirection;
 }
 namespace TMPro {
 struct TextAlignmentOptions;
 }
-namespace Polyglot {
-struct LanguageDirection;
+namespace TMPro {
+class TextMeshProUGUI;
 }
 // Forward declare root types
 namespace Polyglot {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::Polyglot::LocalizedTextMeshProUGUI);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15565)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15565), inst: 4297 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(12310))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15568)) CS Name: ::Polyglot::LocalizedTextMeshProUGUI*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15565), inst: 4297 }), TypeDefinitionIndex(TypeDefinitionIndex(12310)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15565))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15568)) CS Name: ::Polyglot::LocalizedTextMeshProUGUI*
 class CORDL_TYPE LocalizedTextMeshProUGUI : public ::Polyglot::LocalizedTextComponent_1<::TMPro::TextMeshProUGUI*> {
 public:
   // Declarations

@@ -5,9 +5,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HEU_AssetSerializedMetaData)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace HoudiniEngineUnity {
 class CurveNodeData;
 }
@@ -16,6 +13,9 @@ template <typename T> class IEquivable_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -48,6 +48,9 @@ public:
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AssetSerializedMetaData*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AssetSerializedMetaData*>*() noexcept;
+
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AssetSerializedMetaData*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AssetSerializedMetaData*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_AssetSerializedMetaData__() noexcept;
 
   constexpr bool& __get__softDeleted();
 

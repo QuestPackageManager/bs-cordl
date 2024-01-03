@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DHBasicAgreement)
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
-namespace Org::BouncyCastle::Crypto {
-class IBasicAgreement;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DHParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DHPrivateKeyParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class IBasicAgreement;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Agreement {
@@ -44,6 +44,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBasicAgreement"
   constexpr operator ::Org::BouncyCastle::Crypto::IBasicAgreement*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IBasicAgreement"
+  constexpr ::Org::BouncyCastle::Crypto::IBasicAgreement* i___Org__BouncyCastle__Crypto__IBasicAgreement() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters*& __get_key();
 

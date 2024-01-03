@@ -6,35 +6,50 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(LateBoundReflectionDelegateFactory)
+namespace Newtonsoft::Json::Serialization {
+template <typename T> class ObjectConstructor_1;
+}
 namespace Newtonsoft::Json::Utilities {
-template <typename T> class __LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1;
+template <typename T, typename TResult> class MethodCall_2;
 }
 namespace Newtonsoft::Json::Utilities {
 class ReflectionDelegateFactory;
 }
 namespace Newtonsoft::Json::Utilities {
-template <typename T> class __LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1;
-}
-namespace System::Reflection {
-class FieldInfo;
+class __LateBoundReflectionDelegateFactory____c__DisplayClass3_0;
 }
 namespace Newtonsoft::Json::Utilities {
-template <typename T, typename TResult> class MethodCall_2;
+template <typename T> class __LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1;
 }
-namespace Newtonsoft::Json::Serialization {
-template <typename T> class ObjectConstructor_1;
+namespace Newtonsoft::Json::Utilities {
+template <typename T> class __LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1;
 }
-namespace System::Reflection {
-class PropertyInfo;
+namespace Newtonsoft::Json::Utilities {
+template <typename T> class __LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1;
+}
+namespace Newtonsoft::Json::Utilities {
+template <typename T> class __LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1;
+}
+namespace Newtonsoft::Json::Utilities {
+template <typename T> class __LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1;
 }
 namespace Newtonsoft::Json::Utilities {
 template <typename T> class __LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1;
 }
-namespace System {
-template <typename T1, typename T2> class Action_2;
+namespace System::Reflection {
+class ConstructorInfo;
+}
+namespace System::Reflection {
+class FieldInfo;
+}
+namespace System::Reflection {
+class MethodBase;
+}
+namespace System::Reflection {
+class PropertyInfo;
 }
 namespace System {
-class Type;
+template <typename T1, typename T2> class Action_2;
 }
 namespace System {
 template <typename TResult> class Func_1;
@@ -42,26 +57,11 @@ template <typename TResult> class Func_1;
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace Newtonsoft::Json::Utilities {
-template <typename T> class __LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1;
-}
-namespace Newtonsoft::Json::Utilities {
-class __LateBoundReflectionDelegateFactory____c__DisplayClass3_0;
-}
 namespace System {
 class Object;
 }
-namespace Newtonsoft::Json::Utilities {
-template <typename T> class __LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1;
-}
-namespace System::Reflection {
-class MethodBase;
-}
-namespace Newtonsoft::Json::Utilities {
-template <typename T> class __LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1;
-}
-namespace System::Reflection {
-class ConstructorInfo;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {

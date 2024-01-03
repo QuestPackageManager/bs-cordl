@@ -1,18 +1,33 @@
 #pragma once
 #include "Priority_Queue/zzzz__IFixedSizePriorityQueue_2_def.hpp"
 #include "Priority_Queue/zzzz__IPriorityQueue_2_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 /// @brief Convert operator to "::Priority_Queue::IPriorityQueue_2<TItem,TPriority>"
 template <typename TItem, typename TPriority> constexpr Priority_Queue::IFixedSizePriorityQueue_2<TItem, TPriority>::operator ::Priority_Queue::IPriorityQueue_2<TItem, TPriority>*() noexcept {
+  return static_cast<::Priority_Queue::IPriorityQueue_2<TItem, TPriority>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Priority_Queue::IPriorityQueue_2<TItem,TPriority>"
+template <typename TItem, typename TPriority>
+constexpr ::Priority_Queue::IPriorityQueue_2<TItem, TPriority>* Priority_Queue::IFixedSizePriorityQueue_2<TItem, TPriority>::i___Priority_Queue__IPriorityQueue_2_TItem_TPriority_() noexcept {
   return static_cast<::Priority_Queue::IPriorityQueue_2<TItem, TPriority>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TItem>"
 template <typename TItem, typename TPriority> constexpr Priority_Queue::IFixedSizePriorityQueue_2<TItem, TPriority>::operator ::System::Collections::Generic::IEnumerable_1<TItem>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<TItem>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TItem>"
+template <typename TItem, typename TPriority>
+constexpr ::System::Collections::Generic::IEnumerable_1<TItem>* Priority_Queue::IFixedSizePriorityQueue_2<TItem, TPriority>::i___System__Collections__Generic__IEnumerable_1_TItem_() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<TItem>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename TItem, typename TPriority> constexpr Priority_Queue::IFixedSizePriorityQueue_2<TItem, TPriority>::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename TItem, typename TPriority>
+constexpr ::System::Collections::IEnumerable* Priority_Queue::IFixedSizePriorityQueue_2<TItem, TPriority>::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 template <typename TItem, typename TPriority> inline void Priority_Queue::IFixedSizePriorityQueue_2<TItem, TPriority>::Resize(int32_t maxNodes) {

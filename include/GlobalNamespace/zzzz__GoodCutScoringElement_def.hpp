@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GoodCutScoringElement)
 namespace GlobalNamespace {
-class ICutScoreBufferDidFinishReceiver;
-}
-namespace GlobalNamespace {
 class CutScoreBuffer;
 }
 namespace GlobalNamespace {
-class __GoodCutScoringElement__Pool;
-}
-namespace GlobalNamespace {
-struct __ScoreMultiplierCounter__MultiplierEventType;
+class ICutScoreBufferDidFinishReceiver;
 }
 namespace GlobalNamespace {
 class IReadonlyCutScoreBuffer;
 }
 namespace GlobalNamespace {
 struct NoteCutInfo;
+}
+namespace GlobalNamespace {
+class __GoodCutScoringElement__Pool;
+}
+namespace GlobalNamespace {
+struct __ScoreMultiplierCounter__MultiplierEventType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__GoodCutScoringElement__Pool);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5323)), TypeDefinitionIndex(TypeDefinitionIndex(5320))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5320)), TypeDefinitionIndex(TypeDefinitionIndex(5323))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5325))
 // CS Name: ::GoodCutScoringElement*
 class CORDL_TYPE GoodCutScoringElement : public ::GlobalNamespace::ScoringElement {
@@ -68,6 +68,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::ICutScoreBufferDidFinishReceiver"
   constexpr operator ::GlobalNamespace::ICutScoreBufferDidFinishReceiver*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::ICutScoreBufferDidFinishReceiver"
+  constexpr ::GlobalNamespace::ICutScoreBufferDidFinishReceiver* i___GlobalNamespace__ICutScoreBufferDidFinishReceiver() noexcept;
 
   constexpr ::GlobalNamespace::CutScoreBuffer*& __get__cutScoreBuffer();
 
@@ -155,8 +158,8 @@ static_assert(offsetof(::GlobalNamespace::GoodCutScoringElement, ____wouldBeCorr
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5322)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5322), inst: 2814 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(5325))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5324)) CS Name: ::GoodCutScoringElement::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5325)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5322), inst: 2814 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(5322))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5324)) CS Name: ::GoodCutScoringElement::Pool*
 class CORDL_TYPE __GoodCutScoringElement__Pool : public ::GlobalNamespace::__ScoringElement__Pool_1<::GlobalNamespace::GoodCutScoringElement*> {
 public:
   // Declarations

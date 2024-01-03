@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AndroidReflection)
-namespace UnityEngine {
-class GlobalJavaObjectRef;
+namespace System {
+class Exception;
 }
 namespace System {
 class Type;
 }
-namespace System {
-class Exception;
+namespace UnityEngine {
+class GlobalJavaObjectRef;
 }
 // Forward declare root types
 namespace UnityEngine {

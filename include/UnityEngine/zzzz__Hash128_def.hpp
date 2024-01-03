@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Hash128)
 namespace System {
-class IComparable;
-}
-namespace System {
 template <typename T> class IComparable_1;
 }
 namespace System {
-class Object;
+class IComparable;
 }
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -40,11 +40,20 @@ public:
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*();
 
+  /// @brief Convert to "::System::IComparable"
+  constexpr ::System::IComparable* i___System__IComparable();
+
   /// @brief Convert operator to "::System::IComparable_1<::UnityEngine::Hash128>"
   constexpr operator ::System::IComparable_1<::UnityEngine::Hash128>*();
 
+  /// @brief Convert to "::System::IComparable_1<::UnityEngine::Hash128>"
+  constexpr ::System::IComparable_1<::UnityEngine::Hash128>* i___System__IComparable_1___UnityEngine__Hash128_();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Hash128>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Hash128>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Hash128>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Hash128>* i___System__IEquatable_1___UnityEngine__Hash128_();
 
   /// @brief Method get_isValid, addr 0x2cddc00, size 0x20, virtual false, abstract: false, final false
   inline bool get_isValid();

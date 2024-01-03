@@ -10,10 +10,10 @@ namespace System::Collections::Generic {
 template <typename T> class Queue_1;
 }
 namespace System {
-struct TimeSpan;
+struct DateTime;
 }
 namespace System {
-struct DateTime;
+struct TimeSpan;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::GlobalNamespace::AvatarSyncMessageCounter);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2484))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14934))
 // CS Name: ::AvatarSyncMessageCounter*
 class CORDL_TYPE AvatarSyncMessageCounter : public ::System::Object {

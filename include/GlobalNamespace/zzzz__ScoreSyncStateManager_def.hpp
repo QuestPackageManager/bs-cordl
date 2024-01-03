@@ -9,28 +9,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScoreSyncStateManager)
 namespace GlobalNamespace {
-class StandardScoreSyncStateNetSerializable;
-}
-namespace GlobalNamespace {
-class StandardScoreSyncStateDeltaNetSerializable;
+template <typename T> class IPacketPool_1;
 }
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable> class IScoreSyncStateManager_5;
 }
 namespace GlobalNamespace {
-template <typename T> class IPacketPool_1;
-}
-namespace GlobalNamespace {
-struct __StandardScoreSyncState__Score;
-}
-namespace GlobalNamespace {
 class IScoreSyncStateManager;
+}
+namespace GlobalNamespace {
+class StandardScoreSyncStateDeltaNetSerializable;
+}
+namespace GlobalNamespace {
+class StandardScoreSyncStateNetSerializable;
 }
 namespace GlobalNamespace {
 struct StandardScoreSyncState;
 }
 namespace GlobalNamespace {
 struct __MultiplayerSessionManager__MessageType;
+}
+namespace GlobalNamespace {
+struct __StandardScoreSyncState__Score;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -42,10 +42,9 @@ MARK_REF_PTR_T(::GlobalNamespace::ScoreSyncStateManager);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12980)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14951), inst: 3827 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(12977)), TypeDefinitionIndex(TypeDefinitionIndex(12978)), TypeDefinitionIndex(TypeDefinitionIndex(12979)), TypeDefinitionIndex(TypeDefinitionIndex(14951))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14977))
-// CS Name: ::ScoreSyncStateManager*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12980)), TypeDefinitionIndex(TypeDefinitionIndex(12978)), TypeDefinitionIndex(TypeDefinitionIndex(14951)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14951), inst: 3827 }), TypeDefinitionIndex(TypeDefinitionIndex(12979)), TypeDefinitionIndex(TypeDefinitionIndex(12977))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(14977)) CS Name: ::ScoreSyncStateManager*
 class CORDL_TYPE ScoreSyncStateManager
     : public ::GlobalNamespace::MultiplayerSyncStateManager_5<::GlobalNamespace::StandardScoreSyncState, ::GlobalNamespace::__StandardScoreSyncState__Score, int32_t,
                                                               ::GlobalNamespace::StandardScoreSyncStateNetSerializable*, ::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*> {
@@ -70,10 +69,19 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IScoreSyncStateManager"
   constexpr operator ::GlobalNamespace::IScoreSyncStateManager*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IScoreSyncStateManager"
+  constexpr ::GlobalNamespace::IScoreSyncStateManager* i___GlobalNamespace__IScoreSyncStateManager() noexcept;
+
   /// @brief Convert operator to
   /// "::GlobalNamespace::IScoreSyncStateManager_5<::GlobalNamespace::StandardScoreSyncState,::GlobalNamespace::__StandardScoreSyncState__Score,int32_t,::GlobalNamespace::StandardScoreSyncStateNetSerializable*,::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>"
   constexpr operator ::GlobalNamespace::IScoreSyncStateManager_5<::GlobalNamespace::StandardScoreSyncState, ::GlobalNamespace::__StandardScoreSyncState__Score, int32_t,
                                                                  ::GlobalNamespace::StandardScoreSyncStateNetSerializable*, ::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>*() noexcept;
+
+  /// @brief Convert to
+  /// "::GlobalNamespace::IScoreSyncStateManager_5<::GlobalNamespace::StandardScoreSyncState,::GlobalNamespace::__StandardScoreSyncState__Score,int32_t,::GlobalNamespace::StandardScoreSyncStateNetSerializable*,::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>"
+  constexpr ::GlobalNamespace::IScoreSyncStateManager_5<::GlobalNamespace::StandardScoreSyncState, ::GlobalNamespace::__StandardScoreSyncState__Score, int32_t,
+                                                        ::GlobalNamespace::StandardScoreSyncStateNetSerializable*, ::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>*
+  i___GlobalNamespace__IScoreSyncStateManager_5___GlobalNamespace__StandardScoreSyncState___GlobalNamespace____StandardScoreSyncState__Score_int32_t___GlobalNamespace__StandardScoreSyncStateNetSerializable____GlobalNamespace__StandardScoreSyncStateDeltaNetSerializable__() noexcept;
 
   /// @brief Method get_deltaUpdateFrequencyMs, addr 0x2639470, size 0x8, virtual true, abstract: false, final false
   inline int64_t get_deltaUpdateFrequencyMs();

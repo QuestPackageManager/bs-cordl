@@ -9,10 +9,10 @@ namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::Playables {
-struct PlayableHandle;
+class IPlayable;
 }
 namespace UnityEngine::Playables {
-class IPlayable;
+struct PlayableHandle;
 }
 // Forward declare root types
 namespace UnityEngine::Experimental::Video {
@@ -33,8 +33,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
+  /// @brief Convert to "::UnityEngine::Playables::IPlayable"
+  constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Experimental::Video::VideoClipPlayable>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Experimental::Video::VideoClipPlayable>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Experimental::Video::VideoClipPlayable>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Experimental::Video::VideoClipPlayable>* i___System__IEquatable_1___UnityEngine__Experimental__Video__VideoClipPlayable_();
 
   /// @brief Method GetHandle, addr 0x2eb1c60, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();

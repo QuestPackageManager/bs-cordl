@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ListChangedEventHandler)
-namespace System {
-class Object;
-}
 namespace System::ComponentModel {
 class ListChangedEventArgs;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::ComponentModel {

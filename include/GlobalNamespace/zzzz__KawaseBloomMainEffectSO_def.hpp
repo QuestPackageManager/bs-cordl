@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(KawaseBloomMainEffectSO)
+namespace GlobalNamespace {
+class KawaseBlurRendererSO;
+}
 namespace UnityEngine {
 class Material;
 }
@@ -14,9 +17,6 @@ class RenderTexture;
 }
 namespace UnityEngine {
 class Shader;
-}
-namespace GlobalNamespace {
-class KawaseBlurRendererSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

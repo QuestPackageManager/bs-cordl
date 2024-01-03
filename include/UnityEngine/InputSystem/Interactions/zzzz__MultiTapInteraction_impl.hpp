@@ -2,9 +2,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Interactions/zzzz__MultiTapInteraction_impl.hpp"
 #include "UnityEngine/InputSystem/Interactions/zzzz__MultiTapInteraction_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__IInputInteraction_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__IInputInteraction_1_def.hpp"
 #include "UnityEngine/InputSystem/Interactions/zzzz__MultiTapInteraction_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__IInputInteraction_1_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__IInputInteraction_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputInteractionContext_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::InputSystem::Interactions::__MultiTapInteraction__TapPhase::__MultiTapInteraction__TapPhase(int32_t value__) noexcept {
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x2b0c6e4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Interactions::MultiTapInteraction*>::get(), "get_tapTimeOrDefault",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x2b0c754;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Interactions::MultiTapInteraction*>::get(), "get_tapDelayOrDefault",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -56,7 +56,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x2b0c7c4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Interactions::MultiTapInteraction*>::get(),
                                                  "get_pressPointOrDefault", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -71,7 +71,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0x2b0c81c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Interactions::MultiTapInteraction*>::get(),
                                                  "get_releasePointOrDefault", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -86,7 +86,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x280;
   constexpr static std::size_t addrs = 0x2b0c8a4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Interactions::MultiTapInteraction*>::get(), "Process", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::InputSystem::InputInteractionContext>>::get() })));
@@ -101,7 +101,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x2b0cb24;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Interactions::MultiTapInteraction*>::get(), "Reset",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -116,7 +116,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x2b0cb30;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Interactions::MultiTapInteraction*>::get(), ".ctor",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -127,8 +127,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 constexpr UnityEngine::InputSystem::Interactions::MultiTapInteraction::operator ::UnityEngine::InputSystem::IInputInteraction_1<float_t>*() noexcept {
   return static_cast<::UnityEngine::InputSystem::IInputInteraction_1<float_t>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::UnityEngine::InputSystem::IInputInteraction_1<float_t>"
+constexpr ::UnityEngine::InputSystem::IInputInteraction_1<float_t>* UnityEngine::InputSystem::Interactions::MultiTapInteraction::i___UnityEngine__InputSystem__IInputInteraction_1_float_t_() noexcept {
+  return static_cast<::UnityEngine::InputSystem::IInputInteraction_1<float_t>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::UnityEngine::InputSystem::IInputInteraction"
 constexpr UnityEngine::InputSystem::Interactions::MultiTapInteraction::operator ::UnityEngine::InputSystem::IInputInteraction*() noexcept {
+  return static_cast<::UnityEngine::InputSystem::IInputInteraction*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::InputSystem::IInputInteraction"
+constexpr ::UnityEngine::InputSystem::IInputInteraction* UnityEngine::InputSystem::Interactions::MultiTapInteraction::i___UnityEngine__InputSystem__IInputInteraction() noexcept {
   return static_cast<::UnityEngine::InputSystem::IInputInteraction*>(static_cast<void*>(this));
 }
 constexpr float_t& UnityEngine::InputSystem::Interactions::MultiTapInteraction::__get_tapTime() {

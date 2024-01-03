@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
 CORDL_MODULE_EXPORT(LifetimeServices)
-namespace System::Runtime::Remoting {
-class ServerIdentity;
-}
 namespace System::Runtime::Remoting::Lifetime {
 class LeaseManager;
+}
+namespace System::Runtime::Remoting {
+class ServerIdentity;
 }
 namespace System {
 struct TimeSpan;

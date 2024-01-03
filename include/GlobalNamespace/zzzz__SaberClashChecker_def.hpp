@@ -11,11 +11,11 @@ CORDL_MODULE_EXPORT(SaberClashChecker)
 namespace GlobalNamespace {
 class SaberManager;
 }
-namespace UnityEngine {
-struct Vector3;
-}
 namespace GlobalNamespace {
 class Saber;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {

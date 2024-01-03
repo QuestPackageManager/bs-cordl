@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "HMUI/zzzz__ValueChangedBinder_1_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "HMUI/zzzz__IValueChanger_1_def.hpp"
-#include "System/zzzz__Tuple_2_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Tuple_2_def.hpp"
 template <typename T> constexpr ::System::Collections::Generic::List_1<::System::Tuple_2<::HMUI::IValueChanger_1<T>*, ::System::Action_1<T>*>*>*& HMUI::ValueChangedBinder_1<T>::__get__bindings() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bindings;

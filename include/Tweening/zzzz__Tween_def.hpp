@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(Tween)
-namespace System {
-class Action;
-}
 namespace GlobalNamespace {
 struct EaseType;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace Tweening {
@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Tweening::Tween);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tweening {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(16090))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16098))
 // CS Name: ::Tweening::Tween*
 class CORDL_TYPE Tween : public ::System::Object {

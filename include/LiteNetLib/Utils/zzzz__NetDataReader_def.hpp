@@ -9,11 +9,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetDataReader)
-namespace System::Net {
-class IPEndPoint;
-}
 namespace LiteNetLib::Utils {
 class NetDataWriter;
+}
+namespace System::Net {
+class IPEndPoint;
 }
 namespace System {
 template <typename T> struct ArraySegment_1;

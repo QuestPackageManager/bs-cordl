@@ -1,38 +1,62 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__CollectionWrapper_1_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__IWrappedCollection_def.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
 #include "System/zzzz__Array_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<T>"
 template <typename T> constexpr Newtonsoft::Json::Utilities::CollectionWrapper_1<T>::operator ::System::Collections::Generic::ICollection_1<T>*() noexcept {
+  return static_cast<::System::Collections::Generic::ICollection_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::ICollection_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::ICollection_1<T>* Newtonsoft::Json::Utilities::CollectionWrapper_1<T>::i___System__Collections__Generic__ICollection_1_T_() noexcept {
   return static_cast<::System::Collections::Generic::ICollection_1<T>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
 template <typename T> constexpr Newtonsoft::Json::Utilities::CollectionWrapper_1<T>::operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::IEnumerable_1<T>* Newtonsoft::Json::Utilities::CollectionWrapper_1<T>::i___System__Collections__Generic__IEnumerable_1_T_() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename T> constexpr Newtonsoft::Json::Utilities::CollectionWrapper_1<T>::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename T> constexpr ::System::Collections::IEnumerable* Newtonsoft::Json::Utilities::CollectionWrapper_1<T>::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::Newtonsoft::Json::Utilities::IWrappedCollection"
 template <typename T> constexpr Newtonsoft::Json::Utilities::CollectionWrapper_1<T>::operator ::Newtonsoft::Json::Utilities::IWrappedCollection*() noexcept {
   return static_cast<::Newtonsoft::Json::Utilities::IWrappedCollection*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::Newtonsoft::Json::Utilities::IWrappedCollection"
+template <typename T> constexpr ::Newtonsoft::Json::Utilities::IWrappedCollection* Newtonsoft::Json::Utilities::CollectionWrapper_1<T>::i___Newtonsoft__Json__Utilities__IWrappedCollection() noexcept {
+  return static_cast<::Newtonsoft::Json::Utilities::IWrappedCollection*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IList"
 template <typename T> constexpr Newtonsoft::Json::Utilities::CollectionWrapper_1<T>::operator ::System::Collections::IList*() noexcept {
   return static_cast<::System::Collections::IList*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::IList"
+template <typename T> constexpr ::System::Collections::IList* Newtonsoft::Json::Utilities::CollectionWrapper_1<T>::i___System__Collections__IList() noexcept {
+  return static_cast<::System::Collections::IList*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::ICollection"
 template <typename T> constexpr Newtonsoft::Json::Utilities::CollectionWrapper_1<T>::operator ::System::Collections::ICollection*() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::ICollection"
+template <typename T> constexpr ::System::Collections::ICollection* Newtonsoft::Json::Utilities::CollectionWrapper_1<T>::i___System__Collections__ICollection() noexcept {
   return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
 }
 template <typename T> constexpr ::System::Collections::IList*& Newtonsoft::Json::Utilities::CollectionWrapper_1<T>::__get__list() {

@@ -12,20 +12,20 @@ CORDL_MODULE_EXPORT(Gradient)
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace UnityEngine {
-struct GradientMode;
+namespace System {
+class Object;
 }
 namespace UnityEngine {
-struct GradientColorKey;
+struct Color;
 }
 namespace UnityEngine {
 struct GradientAlphaKey;
 }
 namespace UnityEngine {
-struct Color;
+struct GradientColorKey;
 }
-namespace System {
-class Object;
+namespace UnityEngine {
+struct GradientMode;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -54,6 +54,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Gradient*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Gradient*>*() noexcept;
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Gradient*>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Gradient*>* i___System__IEquatable_1___UnityEngine__Gradient__() noexcept;
 
   constexpr void*& __get_m_Ptr();
 

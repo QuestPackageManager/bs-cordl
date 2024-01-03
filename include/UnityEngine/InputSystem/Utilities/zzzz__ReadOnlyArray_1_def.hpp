@@ -6,35 +6,35 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReadOnlyArray_1)
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct __ReadOnlyArray_1__Enumerator;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyCollection_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template <typename T> class IReadOnlyList_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
-}
-namespace System {
-template <typename T> class Predicate_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
 }
 namespace System {
 class IDisposable;
 }
 namespace System {
 class Object;
+}
+namespace System {
+template <typename T> class Predicate_1;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> struct __ReadOnlyArray_1__Enumerator;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -65,11 +65,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TValue>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<TValue>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TValue>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<TValue>* i___System__Collections__Generic__IEnumerator_1_TValue_();
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*();
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator();
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<TValue, ::Array<TValue>*> array, int32_t index, int32_t length);
@@ -137,14 +146,26 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyList_1<TValue>"
   constexpr operator ::System::Collections::Generic::IReadOnlyList_1<TValue>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IReadOnlyList_1<TValue>"
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<TValue>* i___System__Collections__Generic__IReadOnlyList_1_TValue_();
+
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TValue>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TValue>*();
+
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TValue>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<TValue>* i___System__Collections__Generic__IEnumerable_1_TValue_();
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
 
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable();
+
   /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<TValue>"
   constexpr operator ::System::Collections::Generic::IReadOnlyCollection_1<TValue>*();
+
+  /// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<TValue>"
+  constexpr ::System::Collections::Generic::IReadOnlyCollection_1<TValue>* i___System__Collections__Generic__IReadOnlyCollection_1_TValue_();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<TValue, ::Array<TValue>*> array);

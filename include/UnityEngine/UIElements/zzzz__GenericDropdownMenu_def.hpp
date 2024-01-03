@@ -10,32 +10,38 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GenericDropdownMenu)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+class Action;
+}
+namespace System {
+class Object;
+}
 namespace UnityEngine::UIElements {
 class AttachToPanelEvent;
 }
 namespace UnityEngine::UIElements {
-class __GenericDropdownMenu__MenuItem;
+class DetachFromPanelEvent;
 }
 namespace UnityEngine::UIElements {
-class PointerUpEvent;
+class EventBase;
+}
+namespace UnityEngine::UIElements {
+class FocusOutEvent;
 }
 namespace UnityEngine::UIElements {
 class GeometryChangedEvent;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::UIElements {
-class ScrollView;
+class IGenericMenu;
 }
 namespace UnityEngine::UIElements {
 class KeyboardNavigationManipulator;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
 }
 namespace UnityEngine::UIElements {
 struct KeyboardNavigationOperation;
@@ -44,31 +50,25 @@ namespace UnityEngine::UIElements {
 class PointerDownEvent;
 }
 namespace UnityEngine::UIElements {
-struct __GenericDropdownMenu____c__DisplayClass25_0;
-}
-namespace UnityEngine::UIElements {
-class DetachFromPanelEvent;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine::UIElements {
-class IGenericMenu;
-}
-namespace System {
-class Object;
-}
-namespace UnityEngine::UIElements {
 class PointerMoveEvent;
 }
 namespace UnityEngine::UIElements {
-class FocusOutEvent;
+class PointerUpEvent;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace UnityEngine::UIElements {
+class ScrollView;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+class __GenericDropdownMenu__MenuItem;
+}
+namespace UnityEngine::UIElements {
+struct __GenericDropdownMenu____c__DisplayClass25_0;
+}
+namespace UnityEngine {
+struct Rect;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -216,7 +216,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__GenericDropdownMenu____c__Di
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10165))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7075))
 // CS Name: ::UnityEngine.UIElements::GenericDropdownMenu*
 class CORDL_TYPE GenericDropdownMenu : public ::System::Object {
@@ -278,6 +278,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::UIElements::IGenericMenu"
   constexpr operator ::UnityEngine::UIElements::IGenericMenu*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UIElements::IGenericMenu"
+  constexpr ::UnityEngine::UIElements::IGenericMenu* i___UnityEngine__UIElements__IGenericMenu() noexcept;
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__GenericDropdownMenu__MenuItem*>*& __get_m_Items();
 
@@ -415,13 +418,10 @@ public:
   inline void AddSeparator(::StringW path);
 
   /// @brief Method AddItem, addr 0x2e2f908, size 0x340, virtual false, abstract: false, final false
-  /// @param data: ::System::Object* (default: nullptr)
-  inline ::UnityEngine::UIElements::__GenericDropdownMenu__MenuItem* AddItem(::StringW itemName, bool isChecked, bool isEnabled, ::System::Object* data = nullptr);
+  inline ::UnityEngine::UIElements::__GenericDropdownMenu__MenuItem* AddItem(::StringW itemName, bool isChecked, bool isEnabled, ::System::Object* data);
 
   /// @brief Method DropDown, addr 0x2e2fd00, size 0x75c, virtual true, abstract: false, final true
-  /// @param targetElement: ::UnityEngine::UIElements::VisualElement* (default: nullptr)
-  /// @param anchored: bool (default: false)
-  inline void DropDown(::UnityEngine::Rect position, ::UnityEngine::UIElements::VisualElement* targetElement = nullptr, bool anchored = false);
+  inline void DropDown(::UnityEngine::Rect position, ::UnityEngine::UIElements::VisualElement* targetElement, bool anchored);
 
   /// @brief Method OnTargetElementDetachFromPanel, addr 0x2e30b40, size 0x4, virtual false, abstract: false, final false
   inline void OnTargetElementDetachFromPanel(::UnityEngine::UIElements::DetachFromPanelEvent* evt);

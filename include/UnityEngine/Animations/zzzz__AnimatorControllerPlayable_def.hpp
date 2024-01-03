@@ -9,10 +9,10 @@ namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::Playables {
-struct PlayableHandle;
+class IPlayable;
 }
 namespace UnityEngine::Playables {
-class IPlayable;
+struct PlayableHandle;
 }
 // Forward declare root types
 namespace UnityEngine::Animations {
@@ -36,8 +36,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
+  /// @brief Convert to "::UnityEngine::Playables::IPlayable"
+  constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Animations::AnimatorControllerPlayable>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Animations::AnimatorControllerPlayable>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Animations::AnimatorControllerPlayable>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Animations::AnimatorControllerPlayable>* i___System__IEquatable_1___UnityEngine__Animations__AnimatorControllerPlayable_();
 
   static inline void setStaticF_m_NullPlayable(::UnityEngine::Animations::AnimatorControllerPlayable value);
 

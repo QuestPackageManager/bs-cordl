@@ -36,6 +36,9 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::TimerState>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::TimerState>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::TimerState>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::TimerState>* i___System__IEquatable_1___UnityEngine__UIElements__TimerState_();
+
   /// @brief Method get_start, addr 0x2e07594, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_start();
 

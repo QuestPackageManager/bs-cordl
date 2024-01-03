@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Events/zzzz__BaseInvokableCall_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(InvokableCall)
-namespace System {
-class Object;
-}
 namespace System::Reflection {
 class MethodInfo;
+}
+namespace System {
+class Object;
 }
 namespace UnityEngine::Events {
 class UnityAction;

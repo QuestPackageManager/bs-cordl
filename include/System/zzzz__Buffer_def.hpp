@@ -63,8 +63,7 @@ public:
   static inline void memcpy1(::cordl_internals::Ptr<uint8_t> dest, ::cordl_internals::Ptr<uint8_t> src, int32_t size);
 
   /// @brief Method Memcpy, addr 0x25dc060, size 0x6c, virtual false, abstract: false, final false
-  /// @param useICall: bool (default: true)
-  static inline void Memcpy(::cordl_internals::Ptr<uint8_t> dest, ::cordl_internals::Ptr<uint8_t> src, int32_t len, bool useICall = true);
+  static inline void Memcpy(::cordl_internals::Ptr<uint8_t> dest, ::cordl_internals::Ptr<uint8_t> src, int32_t len, bool useICall);
 
   /// @brief Method Memmove, addr 0x25dc3ac, size 0x2c, virtual false, abstract: false, final false
   static inline void Memmove(::cordl_internals::Ptr<uint8_t> dest, ::cordl_internals::Ptr<uint8_t> src, uint32_t len);

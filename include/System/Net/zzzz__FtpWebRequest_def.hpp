@@ -12,86 +12,68 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FtpWebRequest)
-namespace System::Net {
-class FtpControlStream;
+namespace System::IO {
+class Stream;
 }
-namespace System::Net {
-class ContextAwareResult;
+namespace System::Net::Cache {
+class RequestCachePolicy;
 }
-namespace System::Net {
-class FtpWebResponse;
-}
-namespace System::Net {
-class __FtpWebRequest____c;
-}
-namespace System {
-class IAsyncResult;
+namespace System::Net::Sockets {
+class TcpClient;
 }
 namespace System::Net {
 struct CloseExState;
 }
 namespace System::Net {
-class ICredentials;
-}
-namespace System {
-class Uri;
+class ContextAwareResult;
 }
 namespace System::Net {
-class WebHeaderCollection;
+class FtpControlStream;
 }
 namespace System::Net {
 class FtpMethodInfo;
 }
-namespace System {
-class Exception;
+namespace System::Net {
+class FtpWebResponse;
 }
 namespace System::Net {
-class __TimerThread__Queue;
+class ICredentials;
 }
 namespace System::Net {
-struct __FtpWebRequest__RequestStage;
-}
-namespace System::Net {
-class NetworkCredential;
-}
-namespace System::Net::Cache {
-class RequestCachePolicy;
-}
-namespace System::Net {
-struct __FtpWebRequest___CreateConnectionAsync_d__86;
-}
-namespace System {
-class Object;
-}
-namespace System::Net {
-class __TimerThread__Callback;
+class IWebProxy;
 }
 namespace System::Net {
 class LazyAsyncResult;
 }
 namespace System::Net {
-class IWebProxy;
+class NetworkCredential;
 }
-namespace System {
-class AsyncCallback;
+namespace System::Net {
+class WebHeaderCollection;
 }
 namespace System::Net {
 class WebResponse;
 }
 namespace System::Net {
+struct __FtpWebRequest__RequestStage;
+}
+namespace System::Net {
+struct __FtpWebRequest___CreateConnectionAsync_d__86;
+}
+namespace System::Net {
+class __FtpWebRequest____c;
+}
+namespace System::Net {
+class __TimerThread__Callback;
+}
+namespace System::Net {
+class __TimerThread__Queue;
+}
+namespace System::Net {
 class __TimerThread__Timer;
 }
-namespace System::IO {
-class Stream;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateCollection;
-}
-namespace System {
-template <typename TResult> class Func_1;
-}
-namespace System::Net::Sockets {
-class TcpClient;
+namespace System::Runtime::CompilerServices {
+struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -99,8 +81,26 @@ class IAsyncStateMachine;
 namespace System::Runtime::CompilerServices {
 struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
-namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+namespace System::Security::Cryptography::X509Certificates {
+class X509CertificateCollection;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System {
+class Exception;
+}
+namespace System {
+template <typename TResult> class Func_1;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Uri;
 }
 // Forward declare root types
 namespace System::Net {
@@ -186,7 +186,7 @@ static_assert(offsetof(::System::Net::__FtpWebRequest__RequestStage, value__) ==
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3400))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3395))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9048))
 // CS Name: ::FtpWebRequest::<CreateConnectionAsync>d__86
 struct CORDL_TYPE __FtpWebRequest___CreateConnectionAsync_d__86 {
@@ -194,6 +194,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x299a83c, size 0x30c, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -303,7 +306,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__FtpWebRequest____
 // SizeInfo { instance_size: 272, native_size: -1, calculated_instance_size: 272, calculated_native_size: 272, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(9096)), TypeDefinitionIndex(TypeDefinitionIndex(9047))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9096)), TypeDefinitionIndex(TypeDefinitionIndex(9047)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9050))
 // CS Name: ::System.Net::FtpWebRequest*
 class CORDL_TYPE FtpWebRequest : public ::System::Net::WebRequest {

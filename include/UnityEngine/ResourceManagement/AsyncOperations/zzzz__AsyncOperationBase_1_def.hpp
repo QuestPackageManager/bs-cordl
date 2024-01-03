@@ -8,56 +8,56 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsyncOperationBase_1)
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+namespace GlobalNamespace {
+template <typename T> class DelegateList_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class TaskCompletionSource_1;
 }
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-class IAsyncOperation;
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace System {
-class Type;
+template <typename T> class Action_1;
 }
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
+namespace System {
+class Exception;
 }
 namespace System {
 class Object;
 }
 namespace System {
-class Exception;
+class Type;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> struct AsyncOperationHandle_1;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> class __AsyncOperationBase_1____c__DisplayClass58_0;
+struct AsyncOperationHandle;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
+struct AsyncOperationStatus;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct DownloadStatus;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+class IAsyncOperation;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> class __AsyncOperationBase_1____c__DisplayClass57_0;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationStatus;
+template <typename TObject> class __AsyncOperationBase_1____c__DisplayClass58_0;
 }
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct DownloadStatus;
-}
-namespace GlobalNamespace {
-template <typename T> class DelegateList_1;
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::AsyncOperations {
@@ -307,6 +307,9 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation"
   constexpr operator ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation"
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* i___UnityEngine__ResourceManagement__AsyncOperations__IAsyncOperation() noexcept;
+
   constexpr TObject& __get__Result_k__BackingField();
 
   constexpr TObject const& __get__Result_k__BackingField() const;
@@ -482,8 +485,7 @@ public:
   inline ::StringW ToString();
 
   /// @brief Method RegisterForDeferredCallbackEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param incrementReferenceCount: bool (default: true)
-  inline void RegisterForDeferredCallbackEvent(bool incrementReferenceCount = true);
+  inline void RegisterForDeferredCallbackEvent(bool incrementReferenceCount);
 
   /// @brief Method add_Completed, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void add_Completed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* value);
@@ -543,8 +545,7 @@ public:
   inline void Complete(TObject result, bool success, ::StringW errorMsg, bool releaseDependenciesOnFailure);
 
   /// @brief Method Complete, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param releaseDependenciesOnFailure: bool (default: true)
-  inline void Complete(TObject result, bool success, ::System::Exception* exception, bool releaseDependenciesOnFailure = true);
+  inline void Complete(TObject result, bool success, ::System::Exception* exception, bool releaseDependenciesOnFailure);
 
   /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Start(::UnityEngine::ResourceManagement::ResourceManager* rm, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dependency,

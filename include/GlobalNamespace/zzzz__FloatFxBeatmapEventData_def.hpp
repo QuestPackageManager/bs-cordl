@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(FloatFxBeatmapEventData)
 namespace GlobalNamespace {
 class BeatmapDataItem;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace GlobalNamespace {
 class BeatmapEventData;
 }
 namespace GlobalNamespace {
 struct EaseType;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::GlobalNamespace::FloatFxBeatmapEventData);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14731)), TypeDefinitionIndex(TypeDefinitionIndex(16090))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(14731))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14732))
 // CS Name: ::FloatFxBeatmapEventData*
 class CORDL_TYPE FloatFxBeatmapEventData : public ::GlobalNamespace::FxBeatmapEventData {

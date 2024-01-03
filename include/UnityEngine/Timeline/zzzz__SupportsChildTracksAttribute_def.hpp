@@ -45,9 +45,7 @@ public:
   static inline ::UnityEngine::Timeline::SupportsChildTracksAttribute* New_ctor(::System::Type* childType, int32_t levels);
 
   /// @brief Method .ctor, addr 0x2c6e728, size 0x30, virtual false, abstract: false, final false
-  /// @param childType: ::System::Type* (default: nullptr)
-  /// @param levels: int32_t (default: static_cast<int32_t>(0x7fffffff))
-  inline void _ctor(::System::Type* childType = nullptr, int32_t levels = static_cast<int32_t>(0x7fffffff));
+  inline void _ctor(::System::Type* childType, int32_t levels);
 
   // Ctor Parameters [CppParam { name: "", ty: "SupportsChildTracksAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

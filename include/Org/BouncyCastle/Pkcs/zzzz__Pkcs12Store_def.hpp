@@ -10,17 +10,32 @@ CORDL_MODULE_EXPORT(Pkcs12Store)
 namespace Org::BouncyCastle::Asn1::Pkcs {
 class EncryptedPrivateKeyInfo;
 }
+namespace Org::BouncyCastle::Asn1::Pkcs {
+class PrivateKeyInfo;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Asn1::X509 {
+class SubjectKeyIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Set;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Pkcs {
 class AsymmetricKeyEntry;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace Org::BouncyCastle::Pkcs {
+class X509CertificateEntry;
+}
+namespace Org::BouncyCastle::Pkcs {
+class __Pkcs12Store__CertId;
 }
 namespace Org::BouncyCastle::Pkcs {
 class __Pkcs12Store__IgnoresCaseHashtable;
@@ -31,41 +46,26 @@ class SecureRandom;
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
-namespace Org::BouncyCastle::Pkcs {
-class __Pkcs12Store__CertId;
-}
-namespace Org::BouncyCastle::Asn1::Pkcs {
-class PrivateKeyInfo;
-}
-namespace Org::BouncyCastle::Pkcs {
-class X509CertificateEntry;
-}
-namespace System {
-class Type;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class SubjectKeyIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
-namespace System {
-class Object;
-}
 namespace System::Collections {
 class ICollection;
 }
 namespace System::Collections {
+class IDictionary;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IEnumerator;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkcs {
@@ -172,6 +172,9 @@ public:
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::System::Collections::IDictionary*& __get_orig();
 

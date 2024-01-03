@@ -9,83 +9,83 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Array)
-namespace System {
-class __Array__ArrayEnumerator;
-}
-namespace System {
-class __Array__RawData;
+namespace System::Collections::Generic {
+template <typename T> class IComparer_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
-}
-namespace System {
-class ICloneable;
-}
-namespace System {
-template <typename TInput, typename TOutput> class Converter_2;
-}
-namespace System {
-template <typename T> class __Array__EmptyInternalEnumerator_1;
-}
-namespace System::Collections {
-class IEqualityComparer;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System::Collections {
-class IStructuralComparable;
 }
 namespace System::Collections::ObjectModel {
 template <typename T> class ReadOnlyCollection_1;
 }
 namespace System::Collections {
-class IStructuralEquatable;
-}
-namespace System {
-class ArrayTypeMismatchException;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System {
-class Type;
-}
-namespace System {
-struct __Array__SorterObjectArray;
-}
-namespace System {
-class Object;
+class ICollection;
 }
 namespace System::Collections {
 class IComparer;
 }
 namespace System::Collections {
-class ICollection;
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
+class IEqualityComparer;
 }
 namespace System::Collections {
 class IList;
 }
-namespace System::Collections::Generic {
-template <typename T> class IComparer_1;
+namespace System::Collections {
+class IStructuralComparable;
+}
+namespace System::Collections {
+class IStructuralEquatable;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+class ArrayTypeMismatchException;
+}
+namespace System {
+template <typename T> class Comparison_1;
+}
+namespace System {
+template <typename TInput, typename TOutput> class Converter_2;
+}
+namespace System {
+class ICloneable;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
 }
 namespace System {
 template <typename T> class Predicate_1;
 }
 namespace System {
-template <typename T> class Comparison_1;
+class Type;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System {
+class __Array__ArrayEnumerator;
+}
+namespace System {
+template <typename T> class __Array__EmptyInternalEnumerator_1;
 }
 namespace System {
 template <typename T> struct __Array__InternalEnumerator_1;
 }
 namespace System {
+class __Array__RawData;
+}
+namespace System {
 struct __Array__SorterGenericArray;
 }
 namespace System {
-class IDisposable;
+struct __Array__SorterObjectArray;
 }
 // Forward declare root types
 namespace System {
@@ -141,8 +141,14 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
+
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
   constexpr ::System::Array*& __get__array();
 
@@ -218,7 +224,7 @@ static_assert(offsetof(::System::__Array__ArrayEnumerator, ____endIndex) == 0x1c
 // SizeInfo { instance_size: 40, native_size: 24, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2531))
 // CS Name: ::Array::RawData*
 class CORDL_TYPE __Array__RawData : public ::System::Object {
@@ -305,11 +311,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<T>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<T>* i___System__Collections__Generic__IEnumerator_1_T_();
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*();
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Array* array);
@@ -371,11 +386,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<T>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<T>* i___System__Collections__Generic__IEnumerator_1_T_() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   static inline void setStaticF_Value(::System::__Array__EmptyInternalEnumerator_1<T>* value);
 
@@ -610,20 +634,38 @@ public:
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
 
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IList"
   constexpr operator ::System::Collections::IList*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IList"
+  constexpr ::System::Collections::IList* i___System__Collections__IList() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IStructuralComparable"
   constexpr operator ::System::Collections::IStructuralComparable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IStructuralComparable"
+  constexpr ::System::Collections::IStructuralComparable* i___System__Collections__IStructuralComparable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IStructuralEquatable"
   constexpr operator ::System::Collections::IStructuralEquatable*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IStructuralEquatable"
+  constexpr ::System::Collections::IStructuralEquatable* i___System__Collections__IStructuralEquatable() noexcept;
+
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
+
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
   /// @brief Method CreateInstance, addr 0x25d1e5c, size 0x184, virtual false, abstract: false, final false
   static inline ::System::Array* CreateInstance(::System::Type* elementType, ::ArrayW<int64_t, ::Array<int64_t>*> lengths);

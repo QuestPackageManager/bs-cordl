@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(SliderMovement)
 namespace GlobalNamespace {
+class IAudioTimeSource;
+}
+namespace GlobalNamespace {
 class PlayerTransforms;
 }
 namespace System {
 template <typename T> class Action_1;
 }
-namespace GlobalNamespace {
-class IAudioTimeSource;
+namespace System {
+class Action;
 }
 namespace UnityEngine {
 class Transform;
-}
-namespace System {
-class Action;
 }
 namespace UnityEngine {
 struct Vector3;

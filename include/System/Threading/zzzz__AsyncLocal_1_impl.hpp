@@ -1,12 +1,16 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__AsyncLocal_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Threading/zzzz__AsyncLocalValueChangedArgs_1_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "System/Threading/zzzz__IAsyncLocal_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 /// @brief Convert operator to "::System::Threading::IAsyncLocal"
 template <typename T> constexpr System::Threading::AsyncLocal_1<T>::operator ::System::Threading::IAsyncLocal*() noexcept {
+  return static_cast<::System::Threading::IAsyncLocal*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Threading::IAsyncLocal"
+template <typename T> constexpr ::System::Threading::IAsyncLocal* System::Threading::AsyncLocal_1<T>::i___System__Threading__IAsyncLocal() noexcept {
   return static_cast<::System::Threading::IAsyncLocal*>(static_cast<void*>(this));
 }
 template <typename T> constexpr ::System::Action_1<::System::Threading::AsyncLocalValueChangedArgs_1<T>>*& System::Threading::AsyncLocal_1<T>::__get_m_valueChangedHandler() {

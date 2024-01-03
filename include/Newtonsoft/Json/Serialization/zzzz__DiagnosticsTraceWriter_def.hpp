@@ -42,6 +42,9 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Serialization::ITraceWriter"
   constexpr operator ::Newtonsoft::Json::Serialization::ITraceWriter*() noexcept;
 
+  /// @brief Convert to "::Newtonsoft::Json::Serialization::ITraceWriter"
+  constexpr ::Newtonsoft::Json::Serialization::ITraceWriter* i___Newtonsoft__Json__Serialization__ITraceWriter() noexcept;
+
   constexpr ::System::Diagnostics::TraceLevel& __get__LevelFilter_k__BackingField();
 
   constexpr ::System::Diagnostics::TraceLevel const& __get__LevelFilter_k__BackingField() const;

@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Comparer)
+namespace System::Collections {
+class IComparer;
+}
 namespace System::Globalization {
 class CompareInfo;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System {
-class Object;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
 }
 namespace System::Globalization {
 class CultureInfo;
 }
-namespace System::Collections {
-class IComparer;
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Collections {
@@ -54,8 +54,14 @@ public:
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IComparer"
+  constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
   constexpr ::System::Globalization::CompareInfo*& __get__compareInfo();
 

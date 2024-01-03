@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(TutorialReturnToMenuController)
 namespace GlobalNamespace {
-class TutorialScenesTransitionSetupDataSO;
+class IReturnToMenuController;
 }
 namespace GlobalNamespace {
-class IReturnToMenuController;
+class TutorialScenesTransitionSetupDataSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -31,6 +31,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IReturnToMenuController"
   constexpr operator ::GlobalNamespace::IReturnToMenuController*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IReturnToMenuController"
+  constexpr ::GlobalNamespace::IReturnToMenuController* i___GlobalNamespace__IReturnToMenuController() noexcept;
 
   constexpr ::GlobalNamespace::TutorialScenesTransitionSetupDataSO*& __get__tutorialSceneSetupData();
 

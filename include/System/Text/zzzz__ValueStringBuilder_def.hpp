@@ -22,7 +22,7 @@ MARK_VAL_T(::System::Text::ValueStringBuilder);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2470), inst: 292 }), TypeDefinitionIndex(TypeDefinitionIndex(2470))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2470)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2470), inst: 292 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15655))
 // CS Name: ::System.Text::ValueStringBuilder
 struct CORDL_TYPE ValueStringBuilder {

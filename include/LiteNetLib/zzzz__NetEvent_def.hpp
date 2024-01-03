@@ -10,12 +10,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetEvent)
-namespace System::Net {
-class IPEndPoint;
-}
-namespace LiteNetLib {
-class NetPeer;
-}
 namespace LiteNetLib {
 class ConnectionRequest;
 }
@@ -25,11 +19,17 @@ class NetManager;
 namespace LiteNetLib {
 class NetPacketReader;
 }
-namespace System {
-class Object;
+namespace LiteNetLib {
+class NetPeer;
 }
 namespace LiteNetLib {
 struct __NetEvent__EType;
+}
+namespace System::Net {
+class IPEndPoint;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace LiteNetLib {

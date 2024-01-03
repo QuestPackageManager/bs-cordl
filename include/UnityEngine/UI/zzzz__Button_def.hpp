@@ -8,38 +8,38 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Button)
-namespace UnityEngine::EventSystems {
-class PointerEventData;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
 }
 namespace UnityEngine::EventSystems {
 class BaseEventData;
 }
 namespace UnityEngine::EventSystems {
-class IPointerClickHandler;
+class IEventSystemHandler;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace UnityEngine::EventSystems {
+class IPointerClickHandler;
 }
 namespace UnityEngine::EventSystems {
 class ISubmitHandler;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
 }
 namespace UnityEngine::UI {
 class __Button__ButtonClickedEvent;
 }
 namespace UnityEngine::UI {
 class __Button___OnFinishSubmit_d__9;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -122,11 +122,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -245,11 +254,20 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerClickHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerClickHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerClickHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerClickHandler* i___UnityEngine__EventSystems__IPointerClickHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::ISubmitHandler"
   constexpr operator ::UnityEngine::EventSystems::ISubmitHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::ISubmitHandler"
+  constexpr ::UnityEngine::EventSystems::ISubmitHandler* i___UnityEngine__EventSystems__ISubmitHandler() noexcept;
 
   constexpr ::UnityEngine::UI::__Button__ButtonClickedEvent*& __get_m_OnClick();
 

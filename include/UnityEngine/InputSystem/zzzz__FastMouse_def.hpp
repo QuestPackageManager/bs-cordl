@@ -4,35 +4,35 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/zzzz__Mouse_def.hpp"
 CORDL_MODULE_EXPORT(FastMouse)
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class IEventMerger;
-}
 namespace UnityEngine::InputSystem::Controls {
-class Vector2Control;
+class AxisControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class AxisControl;
+class DeltaControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class IntegerControl;
 }
-namespace UnityEngine::InputSystem::Utilities {
-struct InternedString;
+namespace UnityEngine::InputSystem::Controls {
+class Vector2Control;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
+class IEventMerger;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateCallbackReceiver;
 }
-namespace UnityEngine::InputSystem::Controls {
-class DeltaControl;
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct InternedString;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -53,8 +53,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateCallbackReceiver"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateCallbackReceiver*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateCallbackReceiver"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateCallbackReceiver* i___UnityEngine__InputSystem__LowLevel__IInputStateCallbackReceiver() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IEventMerger"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IEventMerger*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IEventMerger"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IEventMerger* i___UnityEngine__InputSystem__LowLevel__IEventMerger() noexcept;
 
   static inline ::UnityEngine::InputSystem::FastMouse* New_ctor();
 

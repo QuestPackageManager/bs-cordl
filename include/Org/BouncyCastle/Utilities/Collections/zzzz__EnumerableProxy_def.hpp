@@ -32,6 +32,9 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+
   constexpr ::System::Collections::IEnumerable*& __get_inner();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerable*> const& __get_inner() const;

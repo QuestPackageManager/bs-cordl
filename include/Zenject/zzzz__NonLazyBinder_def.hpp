@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__IfNotBoundBinder_def.hpp"
 CORDL_MODULE_EXPORT(NonLazyBinder)
 namespace Zenject {
-class IfNotBoundBinder;
+class BindInfo;
 }
 namespace Zenject {
-class BindInfo;
+class IfNotBoundBinder;
 }
 // Forward declare root types
 namespace Zenject {

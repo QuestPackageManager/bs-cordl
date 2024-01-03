@@ -29,7 +29,7 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3869), inst: 1699 }), TypeDefinitionIndex(TypeDefinitionIndex(3869))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3869)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3869), inst: 1699 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3874))
 // CS Name: ::System.Collections.Generic::EnumEqualityComparer`1<T>*
 class CORDL_TYPE EnumEqualityComparer_1 : public ::System::Collections::Generic::EqualityComparer_1<T> {
@@ -37,6 +37,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(T x, T y);

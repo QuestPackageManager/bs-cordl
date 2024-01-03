@@ -9,41 +9,41 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RadioButtonGroup)
-namespace UnityEngine::UIElements {
-class IGroupBox;
-}
-namespace UnityEngine::UIElements {
-class __RadioButtonGroup__UxmlTraits;
-}
-namespace UnityEngine::UIElements {
-template <typename TEventType> class EventCallback_1;
-}
-namespace UnityEngine::UIElements {
-class RadioButton;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::UIElements {
-class __RadioButtonGroup__UxmlFactory;
-}
-namespace UnityEngine::UIElements {
-template <typename T> class ChangeEvent_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
-class UxmlStringAttributeDescription;
+template <typename T> class ChangeEvent_1;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;
 }
 namespace UnityEngine::UIElements {
+template <typename TEventType> class EventCallback_1;
+}
+namespace UnityEngine::UIElements {
+class IGroupBox;
+}
+namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
+class RadioButton;
+}
+namespace UnityEngine::UIElements {
+class UxmlStringAttributeDescription;
+}
+namespace UnityEngine::UIElements {
 class VisualElement;
+}
+namespace UnityEngine::UIElements {
+class __RadioButtonGroup__UxmlFactory;
+}
+namespace UnityEngine::UIElements {
+class __RadioButtonGroup__UxmlTraits;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -142,6 +142,9 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IGroupBox"
   constexpr operator ::UnityEngine::UIElements::IGroupBox*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::UIElements::IGroupBox"
+  constexpr ::UnityEngine::UIElements::IGroupBox* i___UnityEngine__UIElements__IGroupBox() noexcept;
+
   constexpr ::System::Collections::Generic::IEnumerable_1<::StringW>*& __get_m_Choices();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::StringW>*> const& __get_m_Choices() const;
@@ -175,8 +178,7 @@ public:
   static inline ::UnityEngine::UIElements::RadioButtonGroup* New_ctor(::StringW label, ::System::Collections::Generic::List_1<::StringW>* radioButtonChoices);
 
   /// @brief Method .ctor, addr 0x2e3c188, size 0x1b8, virtual false, abstract: false, final false
-  /// @param radioButtonChoices: ::System::Collections::Generic::List_1<::StringW>* (default: nullptr)
-  inline void _ctor(::StringW label, ::System::Collections::Generic::List_1<::StringW>* radioButtonChoices = nullptr);
+  inline void _ctor(::StringW label, ::System::Collections::Generic::List_1<::StringW>* radioButtonChoices);
 
   /// @brief Method RadioButtonValueChangedCallback, addr 0x2e3c340, size 0xf8, virtual false, abstract: false, final false
   inline void RadioButtonValueChangedCallback(::UnityEngine::UIElements::ChangeEvent_1<bool>* evt);
@@ -226,8 +228,8 @@ static_assert(offsetof(::UnityEngine::UIElements::RadioButtonGroup, ___m_RadioBu
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7135)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5272 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7134)), TypeDefinitionIndex(TypeDefinitionIndex(6997))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7133)) CS Name: ::RadioButtonGroup::UxmlFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7135)), TypeDefinitionIndex(TypeDefinitionIndex(6997)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5272
+// }), TypeDefinitionIndex(TypeDefinitionIndex(7134))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7133)) CS Name: ::RadioButtonGroup::UxmlFactory*
 class CORDL_TYPE __RadioButtonGroup__UxmlFactory
     : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::RadioButtonGroup*, ::UnityEngine::UIElements::__RadioButtonGroup__UxmlTraits*> {
 public:

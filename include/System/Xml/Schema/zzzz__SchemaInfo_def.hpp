@@ -6,14 +6,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SchemaInfo)
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
 namespace System::Xml::Schema {
-class SchemaNotation;
+class SchemaAttDef;
 }
 namespace System::Xml::Schema {
 class SchemaElementDecl;
 }
-namespace System::Xml {
-class XmlQualifiedName;
+namespace System::Xml::Schema {
+class SchemaEntity;
+}
+namespace System::Xml::Schema {
+class SchemaNotation;
+}
+namespace System::Xml::Schema {
+struct SchemaType;
 }
 namespace System::Xml {
 class IDtdAttributeListInfo;
@@ -24,17 +33,8 @@ class IDtdEntityInfo;
 namespace System::Xml {
 class IDtdInfo;
 }
-namespace System::Xml::Schema {
-struct SchemaType;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Xml::Schema {
-class SchemaAttDef;
-}
-namespace System::Xml::Schema {
-class SchemaEntity;
+namespace System::Xml {
+class XmlQualifiedName;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -125,6 +125,9 @@ public:
 
   /// @brief Convert operator to "::System::Xml::IDtdInfo"
   constexpr operator ::System::Xml::IDtdInfo*() noexcept;
+
+  /// @brief Convert to "::System::Xml::IDtdInfo"
+  constexpr ::System::Xml::IDtdInfo* i___System__Xml__IDtdInfo() noexcept;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaElementDecl*>*& __get_elementDecls();
 

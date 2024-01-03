@@ -6,28 +6,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IDifficultyBeatmap)
 namespace GlobalNamespace {
-class PlayerSpecificSettings;
+struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
 class EnvironmentInfoSO;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
 class IBeatmapDataBasicInfo;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmapSet;
-}
-namespace GlobalNamespace {
-struct BeatmapDifficulty;
-}
-namespace GlobalNamespace {
 class IBeatmapLevel;
 }
 namespace GlobalNamespace {
+class IDifficultyBeatmapSet;
+}
+namespace GlobalNamespace {
 class IReadonlyBeatmapData;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettings;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

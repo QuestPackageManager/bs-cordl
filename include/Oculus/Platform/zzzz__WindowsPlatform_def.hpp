@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(WindowsPlatform)
-namespace Oculus::Platform {
-class __WindowsPlatform__UnityLogDelegate;
-}
 namespace Oculus::Platform::Models {
 class PlatformInitialize;
 }
 namespace Oculus::Platform {
 template <typename T> class Request_1;
+}
+namespace Oculus::Platform {
+class __WindowsPlatform__UnityLogDelegate;
 }
 namespace System {
 class AsyncCallback;

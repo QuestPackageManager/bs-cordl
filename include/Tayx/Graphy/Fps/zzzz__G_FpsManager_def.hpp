@@ -5,41 +5,41 @@ CORDL_MODULE_INIT
 #include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(G_FpsManager)
-namespace Tayx::Graphy::Fps {
-class G_FpsMonitor;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace Tayx::Graphy::Fps {
 class G_FpsGraph;
 }
-namespace UnityEngine {
-class GameObject;
-}
-namespace Tayx::Graphy {
-class GraphyManager;
-}
-namespace UnityEngine {
-class RectTransform;
-}
-namespace Tayx::Graphy {
-struct __GraphyManager__ModulePosition;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace Tayx::Graphy::UI {
-class IModifiableState;
-}
-namespace UnityEngine::UI {
-class Image;
-}
-namespace Tayx::Graphy {
-struct __GraphyManager__ModuleState;
+namespace Tayx::Graphy::Fps {
+class G_FpsMonitor;
 }
 namespace Tayx::Graphy::Fps {
 class G_FpsText;
 }
 namespace Tayx::Graphy::UI {
+class IModifiableState;
+}
+namespace Tayx::Graphy::UI {
 class IMovable;
+}
+namespace Tayx::Graphy {
+class GraphyManager;
+}
+namespace Tayx::Graphy {
+struct __GraphyManager__ModulePosition;
+}
+namespace Tayx::Graphy {
+struct __GraphyManager__ModuleState;
+}
+namespace UnityEngine::UI {
+class Image;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class RectTransform;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Fps {
@@ -51,7 +51,7 @@ MARK_REF_PTR_T(::Tayx::Graphy::Fps::G_FpsManager);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Fps {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15064))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15064)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15082))
 // CS Name: ::Tayx.Graphy.Fps::G_FpsManager*
 class CORDL_TYPE G_FpsManager : public ::UnityEngine::MonoBehaviour {
@@ -93,8 +93,14 @@ public:
   /// @brief Convert operator to "::Tayx::Graphy::UI::IMovable"
   constexpr operator ::Tayx::Graphy::UI::IMovable*() noexcept;
 
+  /// @brief Convert to "::Tayx::Graphy::UI::IMovable"
+  constexpr ::Tayx::Graphy::UI::IMovable* i___Tayx__Graphy__UI__IMovable() noexcept;
+
   /// @brief Convert operator to "::Tayx::Graphy::UI::IModifiableState"
   constexpr operator ::Tayx::Graphy::UI::IModifiableState*() noexcept;
+
+  /// @brief Convert to "::Tayx::Graphy::UI::IModifiableState"
+  constexpr ::Tayx::Graphy::UI::IModifiableState* i___Tayx__Graphy__UI__IModifiableState() noexcept;
 
   constexpr ::UnityEngine::GameObject*& __get_m_fpsGraphGameObject();
 
@@ -172,8 +178,7 @@ public:
   inline void SetPosition(::Tayx::Graphy::__GraphyManager__ModulePosition newModulePosition);
 
   /// @brief Method SetState, addr 0x2a011c8, size 0x1b0, virtual true, abstract: false, final true
-  /// @param silentUpdate: bool (default: false)
-  inline void SetState(::Tayx::Graphy::__GraphyManager__ModuleState state, bool silentUpdate = false);
+  inline void SetState(::Tayx::Graphy::__GraphyManager__ModuleState state, bool silentUpdate);
 
   /// @brief Method RestorePreviousState, addr 0x2a035f0, size 0xc, virtual false, abstract: false, final false
   inline void RestorePreviousState();

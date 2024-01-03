@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AbstractF2mPoint)
 namespace Org::BouncyCastle::Math::EC {
-class ECFieldElement;
+class ECCurve;
 }
 namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
+class ECFieldElement;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;

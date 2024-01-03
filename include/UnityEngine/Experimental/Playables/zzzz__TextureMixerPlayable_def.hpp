@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Playables/zzzz__PlayableHandle_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(TextureMixerPlayable)
-namespace UnityEngine::Playables {
-class IPlayable;
-}
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace UnityEngine::Playables {
+class IPlayable;
 }
 namespace UnityEngine::Playables {
 struct PlayableHandle;
@@ -33,8 +33,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
+  /// @brief Convert to "::UnityEngine::Playables::IPlayable"
+  constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Experimental::Playables::TextureMixerPlayable>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Experimental::Playables::TextureMixerPlayable>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Experimental::Playables::TextureMixerPlayable>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Experimental::Playables::TextureMixerPlayable>* i___System__IEquatable_1___UnityEngine__Experimental__Playables__TextureMixerPlayable_();
 
   /// @brief Method GetHandle, addr 0x2cf48c0, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();

@@ -2,10 +2,9 @@
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "Unity/Jobs/zzzz__JobHandle_impl.hpp"
 #include "Unity/Jobs/zzzz__IJobExtensions_def.hpp"
-#include "Unity/Jobs/LowLevel/Unsafe/zzzz__JobRanges_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Unity/Jobs/LowLevel/Unsafe/zzzz__JobRanges_def.hpp"
 #include "Unity/Jobs/zzzz__IJobExtensions_def.hpp"
 #include "Unity/Jobs/zzzz__JobHandle_def.hpp"
 template <typename T>

@@ -7,21 +7,6 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(FlyingSpriteEffect)
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-class Sprite;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-class SpriteRenderer;
-}
 namespace GlobalNamespace {
 class __FlyingSpriteEffect__Pool;
 }
@@ -29,7 +14,22 @@ namespace UnityEngine {
 class AnimationCurve;
 }
 namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
 class Material;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+class SpriteRenderer;
+}
+namespace UnityEngine {
+class Sprite;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -131,7 +131,7 @@ static_assert(offsetof(::GlobalNamespace::FlyingSpriteEffect, ____color) == 0x90
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4856)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), TypeDefinitionIndex(TypeDefinitionIndex(4856)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
 // 2812 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4855)) CS Name: ::FlyingSpriteEffect::Pool*
 class CORDL_TYPE __FlyingSpriteEffect__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::FlyingSpriteEffect*> {
 public:

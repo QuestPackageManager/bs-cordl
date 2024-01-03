@@ -15,16 +15,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRSpatialAnchor)
 namespace GlobalNamespace {
-struct __OVRSpatialAnchor__EraseOptions;
+struct OVRPose;
 }
 namespace GlobalNamespace {
-struct __OVRPlugin__SpaceStorageLocation;
-}
-namespace GlobalNamespace {
-struct __OVRSpatialAnchor__MultiAnchorDelegatePair;
-}
-namespace System {
-template <typename T> class Action_1;
+struct OVRSpaceUser;
 }
 namespace GlobalNamespace {
 struct OVRSpace;
@@ -33,73 +27,79 @@ namespace GlobalNamespace {
 template <typename TResult> struct OVRTask_1;
 }
 namespace GlobalNamespace {
-template <typename TResult, typename TCapture> struct __OVRSpatialAnchor__InvertedCapture_2;
-}
-namespace System {
-template <typename T1, typename T2> struct ValueTuple_2;
+struct __OVRPlugin__SpaceComponentType;
 }
 namespace GlobalNamespace {
-struct OVRSpaceUser;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
+struct __OVRPlugin__SpaceStorageLocation;
 }
 namespace GlobalNamespace {
-struct __OVRSpatialAnchor__SaveOptions;
-}
-namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
+struct __OVRSpaceQuery__Options;
 }
 namespace GlobalNamespace {
-struct __OVRSpatialAnchor__OperationResult;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-struct OVRPose;
-}
-namespace GlobalNamespace {
-struct __OVRSpatialAnchor__MultiAnchorActionType;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-class __OVRSpatialAnchor____c;
+struct __OVRSpace__StorageLocation;
 }
 namespace GlobalNamespace {
 class __OVRSpatialAnchor__Development;
 }
 namespace GlobalNamespace {
-struct __OVRSpatialAnchor__UnboundAnchor;
+struct __OVRSpatialAnchor__EraseOptions;
 }
 namespace GlobalNamespace {
-struct __OVRSpace__StorageLocation;
-}
-namespace System {
-struct Guid;
+template <typename TResult, typename TCapture> struct __OVRSpatialAnchor__InvertedCapture_2;
 }
 namespace GlobalNamespace {
 struct __OVRSpatialAnchor__LoadOptions;
 }
+namespace GlobalNamespace {
+struct __OVRSpatialAnchor__MultiAnchorActionType;
+}
+namespace GlobalNamespace {
+struct __OVRSpatialAnchor__MultiAnchorDelegatePair;
+}
+namespace GlobalNamespace {
+struct __OVRSpatialAnchor__OperationResult;
+}
+namespace GlobalNamespace {
+struct __OVRSpatialAnchor__SaveOptions;
+}
+namespace GlobalNamespace {
+struct __OVRSpatialAnchor__UnboundAnchor;
+}
+namespace GlobalNamespace {
+class __OVRSpatialAnchor____c;
+}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace GlobalNamespace {
-struct __OVRPlugin__SpaceComponentType;
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace System {
 template <typename T> class Comparison_1;
 }
-namespace GlobalNamespace {
-struct __OVRSpaceQuery__Options;
+namespace System {
+struct Guid;
+}
+namespace System {
+template <typename T1, typename T2> struct ValueTuple_2;
+}
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
 }
 namespace UnityEngine {
 struct Pose;
@@ -308,16 +308,13 @@ public:
   inline ::UnityEngine::Pose get_Pose();
 
   /// @brief Method Localize, addr 0x279237c, size 0xd4, virtual false, abstract: false, final false
-  /// @param onComplete: ::System::Action_2<::GlobalNamespace::__OVRSpatialAnchor__UnboundAnchor,bool>* (default: nullptr)
-  /// @param timeout: double_t (default: 0.0)
-  inline void Localize(::System::Action_2<::GlobalNamespace::__OVRSpatialAnchor__UnboundAnchor, bool>* onComplete = nullptr, double_t timeout = 0.0);
+  inline void Localize(::System::Action_2<::GlobalNamespace::__OVRSpatialAnchor__UnboundAnchor, bool>* onComplete, double_t timeout);
 
   /// @brief Method ValidateLocalization, addr 0x2792538, size 0x19c, virtual false, abstract: false, final false
   inline void ValidateLocalization();
 
   /// @brief Method LocalizeAsync, addr 0x2792450, size 0xe8, virtual false, abstract: false, final false
-  /// @param timeout: double_t (default: 0.0)
-  inline ::GlobalNamespace::OVRTask_1<bool> LocalizeAsync(double_t timeout = 0.0);
+  inline ::GlobalNamespace::OVRTask_1<bool> LocalizeAsync(double_t timeout);
 
   /// @brief Method AddStorableAndShareableComponents, addr 0x27926d4, size 0xb0, virtual false, abstract: false, final false
   inline void AddStorableAndShareableComponents();
@@ -687,8 +684,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRSpatialAnc
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8000)), TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(7999)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7991))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8004)) CS Name: ::OVRSpatialAnchor*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7991)), TypeDefinitionIndex(TypeDefinitionIndex(7999)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8000)), TypeDefinitionIndex(TypeDefinitionIndex(2406))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8004)) CS Name: ::OVRSpatialAnchor*
 class CORDL_TYPE OVRSpatialAnchor : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -887,15 +884,13 @@ public:
   inline void InitializeFromExisting(::GlobalNamespace::OVRSpace space, ::System::Guid uuid);
 
   /// @brief Method Save, addr 0x278d998, size 0x10, virtual false, abstract: false, final false
-  /// @param onComplete: ::System::Action_2<::GlobalNamespace::OVRSpatialAnchor*,bool>* (default: nullptr)
-  inline void Save(::System::Action_2<::GlobalNamespace::OVRSpatialAnchor*, bool>* onComplete = nullptr);
+  inline void Save(::System::Action_2<::GlobalNamespace::OVRSpatialAnchor*, bool>* onComplete);
 
   /// @brief Method ToNativeArray, addr 0x278da58, size 0x2a8, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeArray_1<uint64_t> ToNativeArray(::System::Collections::Generic::ICollection_1<::GlobalNamespace::OVRSpatialAnchor*>* anchors);
 
   /// @brief Method Save, addr 0x278d9a8, size 0xb0, virtual false, abstract: false, final false
-  /// @param onComplete: ::System::Action_2<::GlobalNamespace::OVRSpatialAnchor*,bool>* (default: nullptr)
-  inline void Save(::GlobalNamespace::__OVRSpatialAnchor__SaveOptions saveOptions, ::System::Action_2<::GlobalNamespace::OVRSpatialAnchor*, bool>* onComplete = nullptr);
+  inline void Save(::GlobalNamespace::__OVRSpatialAnchor__SaveOptions saveOptions, ::System::Action_2<::GlobalNamespace::OVRSpatialAnchor*, bool>* onComplete);
 
   /// @brief Method SaveAsync, addr 0x278de64, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<bool> SaveAsync();
@@ -904,62 +899,51 @@ public:
   inline ::GlobalNamespace::OVRTask_1<bool> SaveAsync(::GlobalNamespace::__OVRSpatialAnchor__SaveOptions saveOptions);
 
   /// @brief Method Save, addr 0x278de6c, size 0x2c0, virtual false, abstract: false, final false
-  /// @param onComplete: ::System::Action_2<::System::Collections::Generic::ICollection_1<::GlobalNamespace::OVRSpatialAnchor*>*,::GlobalNamespace::__OVRSpatialAnchor__OperationResult>* (default:
-  /// nullptr)
-  static inline void
-  Save(::System::Collections::Generic::ICollection_1<::GlobalNamespace::OVRSpatialAnchor*>* anchors, ::GlobalNamespace::__OVRSpatialAnchor__SaveOptions saveOptions,
-       ::System::Action_2<::System::Collections::Generic::ICollection_1<::GlobalNamespace::OVRSpatialAnchor*>*, ::GlobalNamespace::__OVRSpatialAnchor__OperationResult>* onComplete = nullptr);
+  static inline void Save(::System::Collections::Generic::ICollection_1<::GlobalNamespace::OVRSpatialAnchor*>* anchors, ::GlobalNamespace::__OVRSpatialAnchor__SaveOptions saveOptions,
+                          ::System::Action_2<::System::Collections::Generic::ICollection_1<::GlobalNamespace::OVRSpatialAnchor*>*, ::GlobalNamespace::__OVRSpatialAnchor__OperationResult>* onComplete);
 
   /// @brief Method CopyAnchorListIntoListFromPool, addr 0x278e12c, size 0x78, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor*>*
   CopyAnchorListIntoListFromPool(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRSpatialAnchor*>* anchorList);
 
   /// @brief Method Share, addr 0x278e1a4, size 0x7c, virtual false, abstract: false, final false
-  /// @param onComplete: ::System::Action_1<::GlobalNamespace::__OVRSpatialAnchor__OperationResult>* (default: nullptr)
-  inline void Share(::GlobalNamespace::OVRSpaceUser user, ::System::Action_1<::GlobalNamespace::__OVRSpatialAnchor__OperationResult>* onComplete = nullptr);
+  inline void Share(::GlobalNamespace::OVRSpaceUser user, ::System::Action_1<::GlobalNamespace::__OVRSpatialAnchor__OperationResult>* onComplete);
 
   /// @brief Method ShareAsync, addr 0x278e220, size 0xd4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::__OVRSpatialAnchor__OperationResult> ShareAsync(::GlobalNamespace::OVRSpaceUser user);
 
   /// @brief Method Share, addr 0x278e430, size 0x84, virtual false, abstract: false, final false
-  /// @param onComplete: ::System::Action_1<::GlobalNamespace::__OVRSpatialAnchor__OperationResult>* (default: nullptr)
-  inline void Share(::GlobalNamespace::OVRSpaceUser user1, ::GlobalNamespace::OVRSpaceUser user2, ::System::Action_1<::GlobalNamespace::__OVRSpatialAnchor__OperationResult>* onComplete = nullptr);
+  inline void Share(::GlobalNamespace::OVRSpaceUser user1, ::GlobalNamespace::OVRSpaceUser user2, ::System::Action_1<::GlobalNamespace::__OVRSpatialAnchor__OperationResult>* onComplete);
 
   /// @brief Method ShareAsync, addr 0x278e4b4, size 0x130, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::__OVRSpatialAnchor__OperationResult> ShareAsync(::GlobalNamespace::OVRSpaceUser user1, ::GlobalNamespace::OVRSpaceUser user2);
 
   /// @brief Method Share, addr 0x278e5e4, size 0x94, virtual false, abstract: false, final false
-  /// @param onComplete: ::System::Action_1<::GlobalNamespace::__OVRSpatialAnchor__OperationResult>* (default: nullptr)
   inline void Share(::GlobalNamespace::OVRSpaceUser user1, ::GlobalNamespace::OVRSpaceUser user2, ::GlobalNamespace::OVRSpaceUser user3,
-                    ::System::Action_1<::GlobalNamespace::__OVRSpatialAnchor__OperationResult>* onComplete = nullptr);
+                    ::System::Action_1<::GlobalNamespace::__OVRSpatialAnchor__OperationResult>* onComplete);
 
   /// @brief Method ShareAsync, addr 0x278e678, size 0x194, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::__OVRSpatialAnchor__OperationResult> ShareAsync(::GlobalNamespace::OVRSpaceUser user1, ::GlobalNamespace::OVRSpaceUser user2,
                                                                                                          ::GlobalNamespace::OVRSpaceUser user3);
 
   /// @brief Method Share, addr 0x278e80c, size 0x9c, virtual false, abstract: false, final false
-  /// @param onComplete: ::System::Action_1<::GlobalNamespace::__OVRSpatialAnchor__OperationResult>* (default: nullptr)
   inline void Share(::GlobalNamespace::OVRSpaceUser user1, ::GlobalNamespace::OVRSpaceUser user2, ::GlobalNamespace::OVRSpaceUser user3, ::GlobalNamespace::OVRSpaceUser user4,
-                    ::System::Action_1<::GlobalNamespace::__OVRSpatialAnchor__OperationResult>* onComplete = nullptr);
+                    ::System::Action_1<::GlobalNamespace::__OVRSpatialAnchor__OperationResult>* onComplete);
 
   /// @brief Method ShareAsync, addr 0x278e8a8, size 0x1f0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::__OVRSpatialAnchor__OperationResult> ShareAsync(::GlobalNamespace::OVRSpaceUser user1, ::GlobalNamespace::OVRSpaceUser user2,
                                                                                                          ::GlobalNamespace::OVRSpaceUser user3, ::GlobalNamespace::OVRSpaceUser user4);
 
   /// @brief Method Share, addr 0x278ea98, size 0x7c, virtual false, abstract: false, final false
-  /// @param onComplete: ::System::Action_1<::GlobalNamespace::__OVRSpatialAnchor__OperationResult>* (default: nullptr)
-  inline void Share(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRSpaceUser>* users,
-                    ::System::Action_1<::GlobalNamespace::__OVRSpatialAnchor__OperationResult>* onComplete = nullptr);
+  inline void Share(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRSpaceUser>* users, ::System::Action_1<::GlobalNamespace::__OVRSpatialAnchor__OperationResult>* onComplete);
 
   /// @brief Method ShareAsync, addr 0x278eb14, size 0x88, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::__OVRSpatialAnchor__OperationResult> ShareAsync(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRSpaceUser>* users);
 
   /// @brief Method Share, addr 0x278eb9c, size 0x634, virtual false, abstract: false, final false
-  /// @param onComplete: ::System::Action_2<::System::Collections::Generic::ICollection_1<::GlobalNamespace::OVRSpatialAnchor*>*,::GlobalNamespace::__OVRSpatialAnchor__OperationResult>* (default:
-  /// nullptr)
   static inline void
   Share(::System::Collections::Generic::ICollection_1<::GlobalNamespace::OVRSpatialAnchor*>* anchors, ::System::Collections::Generic::ICollection_1<::GlobalNamespace::OVRSpaceUser>* users,
-        ::System::Action_2<::System::Collections::Generic::ICollection_1<::GlobalNamespace::OVRSpatialAnchor*>*, ::GlobalNamespace::__OVRSpatialAnchor__OperationResult>* onComplete = nullptr);
+        ::System::Action_2<::System::Collections::Generic::ICollection_1<::GlobalNamespace::OVRSpatialAnchor*>*, ::GlobalNamespace::__OVRSpatialAnchor__OperationResult>* onComplete);
 
   /// @brief Method ShareAsyncInternal, addr 0x278e2f4, size 0x13c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::__OVRSpatialAnchor__OperationResult> ShareAsyncInternal(::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpaceUser>* users);
@@ -972,12 +956,10 @@ public:
                                              ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::OVRSpaceUser>* sortedList2);
 
   /// @brief Method Erase, addr 0x278f7a8, size 0x10, virtual false, abstract: false, final false
-  /// @param onComplete: ::System::Action_2<::GlobalNamespace::OVRSpatialAnchor*,bool>* (default: nullptr)
-  inline void Erase(::System::Action_2<::GlobalNamespace::OVRSpatialAnchor*, bool>* onComplete = nullptr);
+  inline void Erase(::System::Action_2<::GlobalNamespace::OVRSpatialAnchor*, bool>* onComplete);
 
   /// @brief Method Erase, addr 0x278f7b8, size 0xb0, virtual false, abstract: false, final false
-  /// @param onComplete: ::System::Action_2<::GlobalNamespace::OVRSpatialAnchor*,bool>* (default: nullptr)
-  inline void Erase(::GlobalNamespace::__OVRSpatialAnchor__EraseOptions eraseOptions, ::System::Action_2<::GlobalNamespace::OVRSpatialAnchor*, bool>* onComplete = nullptr);
+  inline void Erase(::GlobalNamespace::__OVRSpatialAnchor__EraseOptions eraseOptions, ::System::Action_2<::GlobalNamespace::OVRSpatialAnchor*, bool>* onComplete);
 
   /// @brief Method EraseAsync, addr 0x278f93c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<bool> EraseAsync();

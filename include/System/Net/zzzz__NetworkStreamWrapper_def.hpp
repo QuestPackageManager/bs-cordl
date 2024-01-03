@@ -6,35 +6,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetworkStreamWrapper)
-namespace System::Net::Sockets {
-class NetworkStream;
-}
 namespace System::IO {
 struct SeekOrigin;
 }
 namespace System::Net::Sockets {
-class TcpClient;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System::Net {
-class IPAddress;
+class NetworkStream;
 }
 namespace System::Net::Sockets {
 class Socket;
 }
-namespace System {
-class IAsyncResult;
+namespace System::Net::Sockets {
+class TcpClient;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace System::Net {
+class IPAddress;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace System::Threading::Tasks {
 class Task;
 }
+namespace System::Threading {
+struct CancellationToken;
+}
 namespace System {
 class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
 }
 namespace System {
 class Object;

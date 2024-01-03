@@ -9,20 +9,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayableGraph)
-namespace UnityEngine {
-class IExposedPropertyTable;
+namespace UnityEngine::Playables {
+struct FrameRate;
 }
 namespace UnityEngine::Playables {
 struct PlayableHandle;
 }
 namespace UnityEngine::Playables {
-struct Playable;
-}
-namespace UnityEngine::Playables {
 struct PlayableOutputHandle;
 }
 namespace UnityEngine::Playables {
-struct FrameRate;
+struct Playable;
+}
+namespace UnityEngine {
+class IExposedPropertyTable;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {

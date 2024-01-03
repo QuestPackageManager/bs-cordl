@@ -11,13 +11,13 @@ namespace System {
 template <typename T> class IComparable_1;
 }
 namespace System {
+class IComparable;
+}
+namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
-}
-namespace System {
-class IComparable;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -75,11 +75,20 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::ProBuilder::SemVer*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::ProBuilder::SemVer*>*() noexcept;
 
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ProBuilder::SemVer*>"
+  constexpr ::System::IEquatable_1<::UnityEngine::ProBuilder::SemVer*>* i___System__IEquatable_1___UnityEngine__ProBuilder__SemVer__() noexcept;
+
   /// @brief Convert operator to "::System::IComparable_1<::UnityEngine::ProBuilder::SemVer*>"
   constexpr operator ::System::IComparable_1<::UnityEngine::ProBuilder::SemVer*>*() noexcept;
 
+  /// @brief Convert to "::System::IComparable_1<::UnityEngine::ProBuilder::SemVer*>"
+  constexpr ::System::IComparable_1<::UnityEngine::ProBuilder::SemVer*>* i___System__IComparable_1___UnityEngine__ProBuilder__SemVer__() noexcept;
+
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*() noexcept;
+
+  /// @brief Convert to "::System::IComparable"
+  constexpr ::System::IComparable* i___System__IComparable() noexcept;
 
   constexpr int32_t& __get_m_Major();
 
@@ -155,17 +164,12 @@ public:
   static inline ::UnityEngine::ProBuilder::SemVer* New_ctor(::StringW formatted, ::StringW date);
 
   /// @brief Method .ctor, addr 0x2b6c69c, size 0xa8, virtual false, abstract: false, final false
-  /// @param date: ::StringW (default: nullptr)
-  inline void _ctor(::StringW formatted, ::StringW date = nullptr);
+  inline void _ctor(::StringW formatted, ::StringW date);
 
   static inline ::UnityEngine::ProBuilder::SemVer* New_ctor(int32_t major, int32_t minor, int32_t patch, int32_t build, ::StringW type, ::StringW date, ::StringW metadata);
 
   /// @brief Method .ctor, addr 0x2b6c5fc, size 0x6c, virtual false, abstract: false, final false
-  /// @param build: int32_t (default: static_cast<int32_t>(0xffffffff))
-  /// @param type: ::StringW (default: nullptr)
-  /// @param date: ::StringW (default: nullptr)
-  /// @param metadata: ::StringW (default: nullptr)
-  inline void _ctor(int32_t major, int32_t minor, int32_t patch, int32_t build = static_cast<int32_t>(0xffffffff), ::StringW type = nullptr, ::StringW date = nullptr, ::StringW metadata = nullptr);
+  inline void _ctor(int32_t major, int32_t minor, int32_t patch, int32_t build, ::StringW type, ::StringW date, ::StringW metadata);
 
   /// @brief Method IsValid, addr 0x2b6cb28, size 0x30, virtual false, abstract: false, final false
   inline bool IsValid();

@@ -7,17 +7,26 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PSVRHelper)
-namespace UnityEngine::XR {
-struct XRNode;
+namespace GlobalNamespace {
+class IVRPlatformHelper;
 }
-namespace UnityEngine::XR {
-struct XRNodeState;
+namespace GlobalNamespace {
+struct VRPlatformSDK;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 class Action;
 }
+namespace UnityEngine::XR {
+struct XRNodeState;
+}
+namespace UnityEngine::XR {
+struct XRNode;
+}
 namespace UnityEngine {
-struct Vector3;
+struct Pose;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -26,16 +35,7 @@ namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
-struct Pose;
-}
-namespace GlobalNamespace {
-class IVRPlatformHelper;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-struct VRPlatformSDK;
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -96,6 +96,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IVRPlatformHelper"
   constexpr operator ::GlobalNamespace::IVRPlatformHelper*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IVRPlatformHelper"
+  constexpr ::GlobalNamespace::IVRPlatformHelper* i___GlobalNamespace__IVRPlatformHelper() noexcept;
 
   constexpr ::System::Action*& __get_inputFocusWasCapturedEvent();
 

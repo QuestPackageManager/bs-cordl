@@ -9,16 +9,16 @@ namespace System {
 class Object;
 }
 namespace Zenject {
-class InjectTypeInfo;
+template <typename TValue> class IFactory_1;
 }
 namespace Zenject {
 class IFactory;
 }
 namespace Zenject {
-template <typename TValue> class IFactory_1;
+template <typename TValue> class IMemoryPool_1;
 }
 namespace Zenject {
-template <typename TValue> class IMemoryPool_1;
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -44,8 +44,14 @@ public:
   /// @brief Convert operator to "::Zenject::IFactory_1<T>"
   constexpr operator ::Zenject::IFactory_1<T>*() noexcept;
 
+  /// @brief Convert to "::Zenject::IFactory_1<T>"
+  constexpr ::Zenject::IFactory_1<T>* i___Zenject__IFactory_1_T_() noexcept;
+
   /// @brief Convert operator to "::Zenject::IFactory"
   constexpr operator ::Zenject::IFactory*() noexcept;
+
+  /// @brief Convert to "::Zenject::IFactory"
+  constexpr ::Zenject::IFactory* i___Zenject__IFactory() noexcept;
 
   constexpr ::Zenject::IMemoryPool_1<T>*& __get__pool();
 

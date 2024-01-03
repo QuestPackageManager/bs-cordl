@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Iso9796d2Signer)
 namespace Org::BouncyCastle::Crypto {
-class ISignerWithRecovery;
+class IAsymmetricBlockCipher;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
 namespace Org::BouncyCastle::Crypto {
-class IAsymmetricBlockCipher;
+class ISignerWithRecovery;
 }
 namespace Org::BouncyCastle::Crypto {
 class ISigner;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -76,8 +76,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ISignerWithRecovery"
   constexpr operator ::Org::BouncyCastle::Crypto::ISignerWithRecovery*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::ISignerWithRecovery"
+  constexpr ::Org::BouncyCastle::Crypto::ISignerWithRecovery* i___Org__BouncyCastle__Crypto__ISignerWithRecovery() noexcept;
+
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ISigner"
   constexpr operator ::Org::BouncyCastle::Crypto::ISigner*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::ISigner"
+  constexpr ::Org::BouncyCastle::Crypto::ISigner* i___Org__BouncyCastle__Crypto__ISigner() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::IDigest*& __get_digest();
 

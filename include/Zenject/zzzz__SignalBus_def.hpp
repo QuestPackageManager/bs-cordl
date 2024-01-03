@@ -2,9 +2,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__SignalMissingHandlerResponses_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
@@ -12,65 +10,71 @@ CORDL_MODULE_EXPORT(SignalBus)
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace System {
-class Type;
-}
-namespace Zenject {
-class __SignalBus____c;
-}
-namespace Zenject {
-class ZenjectSettings;
-}
-namespace Zenject {
-class ILateDisposable;
-}
-namespace Zenject {
-class __SignalSubscription__Pool;
-}
-namespace Zenject {
-struct BindingId;
-}
-namespace System {
-class Action;
-}
-namespace Zenject {
-class __ZenjectSettings__SignalSettings;
-}
-namespace Zenject {
-class SignalDeclaration;
-}
-namespace Zenject {
-class DiContainer;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
 template <typename T> class Action_1;
 }
-namespace Zenject {
-class __SignalDeclaration__Factory;
+namespace System {
+class Action;
 }
-namespace Zenject {
-template <typename TSignal> class __SignalBus____c__DisplayClass27_0_1;
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+template <typename T> struct Nullable_1;
 }
 namespace System {
 class Object;
 }
-namespace Zenject {
-class SignalSubscription;
+namespace System {
+class Type;
 }
 namespace Zenject {
-template <typename TSignal> class __SignalBus____c__DisplayClass25_0_1;
+struct BindingId;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class ILateDisposable;
 }
 namespace Zenject {
 class InjectTypeInfo;
 }
 namespace Zenject {
+class SignalDeclaration;
+}
+namespace Zenject {
+struct SignalMissingHandlerResponses;
+}
+namespace Zenject {
 struct SignalSubscriptionId;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace Zenject {
+class SignalSubscription;
+}
+namespace Zenject {
+class ZenjectSettings;
+}
+namespace Zenject {
+class __SignalBus____c;
+}
+namespace Zenject {
+template <typename TSignal> class __SignalBus____c__DisplayClass25_0_1;
+}
+namespace Zenject {
+template <typename TSignal> class __SignalBus____c__DisplayClass27_0_1;
+}
+namespace Zenject {
+class __SignalDeclaration__Factory;
+}
+namespace Zenject {
+class __SignalSubscription__Pool;
+}
+namespace Zenject {
+class __ZenjectSettings__SignalSettings;
 }
 // Forward declare root types
 namespace Zenject {
@@ -284,9 +288,9 @@ public:
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11172)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98
-// }), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4757 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 105 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(10666)) CS Name: ::Zenject::SignalBus*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10666))
+// CS Name: ::Zenject::SignalBus*
 class CORDL_TYPE SignalBus : public ::System::Object {
 public:
   // Declarations
@@ -325,6 +329,9 @@ public:
 
   /// @brief Convert operator to "::Zenject::ILateDisposable"
   constexpr operator ::Zenject::ILateDisposable*() noexcept;
+
+  /// @brief Convert to "::Zenject::ILateDisposable"
+  constexpr ::Zenject::ILateDisposable* i___Zenject__ILateDisposable() noexcept;
 
   constexpr ::Zenject::__SignalSubscription__Pool*& __get__subscriptionPool();
 
@@ -506,21 +513,13 @@ public:
   inline void SubscribeInternal(::Zenject::SignalSubscriptionId id, ::System::Action_1<::System::Object*>* callback);
 
   /// @brief Method DeclareSignal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param identifier: ::System::Object* (default: nullptr)
-  /// @param missingHandlerResponse: ::System::Nullable_1<::Zenject::SignalMissingHandlerResponses> (default: {})
-  /// @param forceAsync: ::System::Nullable_1<bool> (default: {})
-  /// @param asyncTickPriority: ::System::Nullable_1<int32_t> (default: {})
   template <typename T>
-  inline void DeclareSignal(::System::Object* identifier = nullptr, ::System::Nullable_1<::Zenject::SignalMissingHandlerResponses> missingHandlerResponse = {},
-                            ::System::Nullable_1<bool> forceAsync = {}, ::System::Nullable_1<int32_t> asyncTickPriority = {});
+  inline void DeclareSignal(::System::Object* identifier, ::System::Nullable_1<::Zenject::SignalMissingHandlerResponses> missingHandlerResponse, ::System::Nullable_1<bool> forceAsync,
+                            ::System::Nullable_1<int32_t> asyncTickPriority);
 
   /// @brief Method DeclareSignal, addr 0x2ec51b4, size 0x198, virtual false, abstract: false, final false
-  /// @param identifier: ::System::Object* (default: nullptr)
-  /// @param missingHandlerResponse: ::System::Nullable_1<::Zenject::SignalMissingHandlerResponses> (default: {})
-  /// @param forceAsync: ::System::Nullable_1<bool> (default: {})
-  /// @param asyncTickPriority: ::System::Nullable_1<int32_t> (default: {})
-  inline void DeclareSignal(::System::Type* signalType, ::System::Object* identifier = nullptr, ::System::Nullable_1<::Zenject::SignalMissingHandlerResponses> missingHandlerResponse = {},
-                            ::System::Nullable_1<bool> forceAsync = {}, ::System::Nullable_1<int32_t> asyncTickPriority = {});
+  inline void DeclareSignal(::System::Type* signalType, ::System::Object* identifier, ::System::Nullable_1<::Zenject::SignalMissingHandlerResponses> missingHandlerResponse,
+                            ::System::Nullable_1<bool> forceAsync, ::System::Nullable_1<int32_t> asyncTickPriority);
 
   /// @brief Method GetDeclaration, addr 0x2ec4c14, size 0x44, virtual false, abstract: false, final false
   inline ::Zenject::SignalDeclaration* GetDeclaration(::System::Type* signalType, ::System::Object* identifier, bool requireDeclaration);

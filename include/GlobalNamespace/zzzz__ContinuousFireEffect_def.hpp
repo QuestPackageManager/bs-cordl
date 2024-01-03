@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__FireEffect_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ContinuousFireEffect)
-namespace UnityEngine {
-class AnimationCurve;
-}
 namespace GlobalNamespace {
 class IAudioTimeSource;
 }
 namespace GlobalNamespace {
 class LightColorBeatmapEventData;
+}
+namespace UnityEngine {
+class AnimationCurve;
 }
 // Forward declare root types
 namespace GlobalNamespace {

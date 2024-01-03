@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XPathDocument)
-namespace System::Xml {
-class XmlNameTable;
-}
 namespace MS::Internal::Xml::Cache {
 struct XPathNodeRef;
+}
+namespace MS::Internal::Xml::Cache {
+struct XPathNode;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace MS::Internal::Xml::Cache {
-struct XPathNode;
+namespace System::Xml {
+class XmlNameTable;
 }
 // Forward declare root types
 namespace System::Xml::XPath {

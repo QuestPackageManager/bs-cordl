@@ -9,7 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Boolean)
 namespace System {
-class Type;
+struct DateTime;
+}
+namespace System {
+struct Decimal;
+}
+namespace System {
+template <typename T> class IComparable_1;
+}
+namespace System {
+class IComparable;
+}
+namespace System {
+class IConvertible;
 }
 namespace System {
 template <typename T> class IEquatable_1;
@@ -21,25 +33,13 @@ namespace System {
 class Object;
 }
 namespace System {
-struct DateTime;
-}
-namespace System {
-class IConvertible;
-}
-namespace System {
-template <typename T> class IComparable_1;
-}
-namespace System {
 template <typename T> struct ReadOnlySpan_1;
 }
 namespace System {
-class IComparable;
-}
-namespace System {
-struct Decimal;
-}
-namespace System {
 struct TypeCode;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System {
@@ -66,14 +66,26 @@ public:
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*();
 
+  /// @brief Convert to "::System::IComparable"
+  constexpr ::System::IComparable* i___System__IComparable();
+
   /// @brief Convert operator to "::System::IConvertible"
   constexpr operator ::System::IConvertible*();
+
+  /// @brief Convert to "::System::IConvertible"
+  constexpr ::System::IConvertible* i___System__IConvertible();
 
   /// @brief Convert operator to "::System::IComparable_1<bool>"
   constexpr operator ::System::IComparable_1<bool>*();
 
+  /// @brief Convert to "::System::IComparable_1<bool>"
+  constexpr ::System::IComparable_1<bool>* i___System__IComparable_1_bool_();
+
   /// @brief Convert operator to "::System::IEquatable_1<bool>"
   constexpr operator ::System::IEquatable_1<bool>*();
+
+  /// @brief Convert to "::System::IEquatable_1<bool>"
+  constexpr ::System::IEquatable_1<bool>* i___System__IEquatable_1_bool_();
 
   static inline void setStaticF_TrueString(::StringW value);
 

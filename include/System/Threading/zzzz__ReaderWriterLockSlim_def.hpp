@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReaderWriterLockSlim)
 namespace System::Threading {
-class ReaderWriterCount;
-}
-namespace System::Threading {
-struct __ReaderWriterLockSlim__TimeoutTracker;
+class EventWaitHandle;
 }
 namespace System::Threading {
 struct LockRecursionPolicy;
 }
 namespace System::Threading {
-class EventWaitHandle;
+class ReaderWriterCount;
+}
+namespace System::Threading {
+struct __ReaderWriterLockSlim__TimeoutTracker;
 }
 namespace System {
 class IDisposable;
@@ -170,6 +170,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr bool& __get_fIsReentrant();
 

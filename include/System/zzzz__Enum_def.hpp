@@ -17,37 +17,19 @@ namespace System {
 class Array;
 }
 namespace System {
-class Type;
-}
-namespace System {
-class __Enum__ValuesAndNames;
-}
-namespace System {
 struct DateTime;
-}
-namespace System {
-class IConvertible;
-}
-namespace System {
-class Object;
 }
 namespace System {
 struct Decimal;
 }
 namespace System {
-class RuntimeType;
-}
-namespace System {
-struct TypeCode;
+class Exception;
 }
 namespace System {
 class IComparable;
 }
 namespace System {
-struct __Enum__EnumResult;
-}
-namespace System {
-struct __Enum__ParseFailureKind;
+class IConvertible;
 }
 namespace System {
 class IFormatProvider;
@@ -56,7 +38,25 @@ namespace System {
 class IFormattable;
 }
 namespace System {
-class Exception;
+class Object;
+}
+namespace System {
+class RuntimeType;
+}
+namespace System {
+struct TypeCode;
+}
+namespace System {
+class Type;
+}
+namespace System {
+struct __Enum__EnumResult;
+}
+namespace System {
+struct __Enum__ParseFailureKind;
+}
+namespace System {
+class __Enum__ValuesAndNames;
 }
 // Forward declare root types
 namespace System {

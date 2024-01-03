@@ -7,32 +7,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HttpWebResponse)
-namespace System {
-class IDisposable;
-}
-namespace System {
-class Uri;
-}
-namespace System::Net {
-class WebHeaderCollection;
-}
 namespace System::IO {
 class Stream;
+}
+namespace System::Net {
+class CookieCollection;
+}
+namespace System::Net {
+class CookieContainer;
 }
 namespace System::Net {
 struct HttpStatusCode;
 }
 namespace System::Net {
-class CookieCollection;
+class WebHeaderCollection;
+}
+namespace System::Net {
+class WebResponseStream;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
-}
-namespace System {
-class Version;
-}
-namespace System::Net {
-class CookieContainer;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
@@ -40,8 +34,14 @@ class SerializationInfo;
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System::Net {
-class WebResponseStream;
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Uri;
+}
+namespace System {
+class Version;
 }
 // Forward declare root types
 namespace System::Net {
@@ -53,7 +53,7 @@ MARK_REF_PTR_T(::System::Net::HttpWebResponse);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9027)), TypeDefinitionIndex(TypeDefinitionIndex(9097))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9097)), TypeDefinitionIndex(TypeDefinitionIndex(9027))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9187))
 // CS Name: ::System.Net::HttpWebResponse*
 class CORDL_TYPE HttpWebResponse : public ::System::Net::WebResponse {
@@ -106,8 +106,14 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::System::Uri*& __get_uri();
 

@@ -34,6 +34,9 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   static inline void setStaticF_Instance(::System::Collections::IEnumerator* value);
 
   static inline ::System::Collections::IEnumerator* getStaticF_Instance();

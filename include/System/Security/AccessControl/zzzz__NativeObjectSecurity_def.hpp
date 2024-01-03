@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeObjectSecurity)
-namespace System::Security::AccessControl {
-class __NativeObjectSecurity__ExceptionFromErrorCode;
+namespace System::Runtime::InteropServices {
+class SafeHandle;
 }
 namespace System::Security::AccessControl {
 struct AccessControlSections;
 }
-namespace System::Runtime::InteropServices {
-class SafeHandle;
+namespace System::Security::AccessControl {
+struct ResourceType;
+}
+namespace System::Security::AccessControl {
+class __NativeObjectSecurity__ExceptionFromErrorCode;
 }
 namespace System {
 class Exception;
-}
-namespace System::Security::AccessControl {
-struct ResourceType;
 }
 namespace System {
 class Object;

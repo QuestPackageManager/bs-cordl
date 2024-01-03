@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(DaylightTimeStruct)
 namespace System {
-struct TimeSpan;
+struct DateTime;
 }
 namespace System {
-struct DateTime;
+struct TimeSpan;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -22,7 +22,7 @@ MARK_VAL_T(::System::Globalization::DaylightTimeStruct);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2484))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3672))
 // CS Name: ::System.Globalization::DaylightTimeStruct
 struct CORDL_TYPE DaylightTimeStruct {

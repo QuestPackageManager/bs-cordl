@@ -23,152 +23,92 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HttpWebRequest)
-namespace System::Net {
-struct __HttpWebRequest___MyGetResponseAsync_d__243;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Net {
-struct HttpStatusCode;
-}
-namespace System::Net {
-class WebResponseStream;
-}
-namespace System {
-template <typename TResult> class Func_1;
-}
-namespace System::Net {
-template <typename T> struct __HttpWebRequest___RunWithTimeoutWorker_d__241_1;
-}
-namespace System {
-class IAsyncResult;
-}
-namespace System {
-class Version;
+namespace Mono::Net::Security {
+class MobileTlsProvider;
 }
 namespace Mono::Security::Interface {
 class MonoTlsSettings;
 }
-namespace System::Net {
-class WebRequestStream;
+namespace System::IO {
+class MemoryStream;
 }
-namespace System::Net {
-class WebCompletionSource;
-}
-namespace System {
-class Action;
-}
-namespace System::Net {
-class ServicePoint;
-}
-namespace System::Net {
-class ICredentials;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4, typename T5> struct ValueTuple_5;
-}
-namespace System {
-class Uri;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::Net {
-class IWebProxy;
+namespace System::IO {
+class Stream;
 }
 namespace System::Net::Cache {
 class RequestCachePolicy;
 }
 namespace System::Net {
-class ServerCertValidationCallback;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System::Net {
-class WebOperation;
-}
-namespace System::Net {
 class BufferOffsetSize;
-}
-namespace System::Net {
-class HttpWebResponse;
-}
-namespace System::Net {
-struct __HttpWebRequest__NtlmAuthState;
-}
-namespace System {
-template <typename T1, typename T2> struct ValueTuple_2;
-}
-namespace System::Net {
-class WebResponse;
-}
-namespace System {
-class Object;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System::Net {
-template <typename T> class __HttpWebRequest____c__241_1;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateCollection;
-}
-namespace System::Threading {
-class CancellationTokenSource;
-}
-namespace System::Net {
-class HttpContinueDelegate;
-}
-namespace System::Net {
-struct DecompressionMethods;
-}
-namespace System::Net {
-struct __HttpWebRequest__AuthorizationState;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System {
-class Exception;
-}
-namespace Mono::Net::Security {
-class MobileTlsProvider;
-}
-namespace System::Net {
-struct __HttpWebRequest____GetRewriteHandler_b__271_0_d;
 }
 namespace System::Net {
 class CookieContainer;
 }
 namespace System::Net {
-struct __HttpWebRequest___GetResponseFromData_d__244;
+struct DecompressionMethods;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace System::Net {
+class HttpContinueDelegate;
 }
-namespace System {
-class AsyncCallback;
+namespace System::Net {
+struct HttpStatusCode;
 }
-namespace System::IO {
-class Stream;
+namespace System::Net {
+class HttpWebResponse;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace System::Net {
+class ICredentials;
+}
+namespace System::Net {
+class IWebProxy;
+}
+namespace System::Net {
+class ServerCertValidationCallback;
+}
+namespace System::Net {
+class ServicePoint;
+}
+namespace System::Net {
+class WebCompletionSource;
+}
+namespace System::Net {
+class WebException;
 }
 namespace System::Net {
 class WebHeaderCollection;
 }
 namespace System::Net {
-class WebException;
+class WebOperation;
 }
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4> struct ValueTuple_4;
+namespace System::Net {
+class WebRequestStream;
 }
-namespace System {
-template <typename T> struct Nullable_1;
+namespace System::Net {
+class WebResponseStream;
+}
+namespace System::Net {
+class WebResponse;
+}
+namespace System::Net {
+struct __HttpWebRequest__AuthorizationState;
+}
+namespace System::Net {
+struct __HttpWebRequest__NtlmAuthState;
+}
+namespace System::Net {
+struct __HttpWebRequest___GetResponseFromData_d__244;
+}
+namespace System::Net {
+struct __HttpWebRequest___MyGetResponseAsync_d__243;
+}
+namespace System::Net {
+template <typename T> struct __HttpWebRequest___RunWithTimeoutWorker_d__241_1;
+}
+namespace System::Net {
+struct __HttpWebRequest____GetRewriteHandler_b__271_0_d;
+}
+namespace System::Net {
+template <typename T> class __HttpWebRequest____c__241_1;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
@@ -177,16 +117,76 @@ namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
+template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
-namespace System::IO {
-class MemoryStream;
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509CertificateCollection;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
+class Action;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System {
+class Exception;
+}
+namespace System {
+template <typename TResult> class Func_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Uri;
+}
+namespace System {
+template <typename T1, typename T2> struct ValueTuple_2;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4> struct ValueTuple_4;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4, typename T5> struct ValueTuple_5;
+}
+namespace System {
+class Version;
 }
 // Forward declare root types
 namespace System::Net {
@@ -409,14 +409,17 @@ namespace System::Net {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 97 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9182)) CS
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 97 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 105 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9182)) CS
 // Name: ::HttpWebRequest::<RunWithTimeoutWorker>d__241`1<T>
 struct CORDL_TYPE __HttpWebRequest___RunWithTimeoutWorker_d__241_1 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -473,18 +476,20 @@ public:
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9187)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(2510)), TypeDefinitionIndex(TypeDefinitionIndex(9238)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3394), inst: 5068 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 872 }), TypeDefinitionIndex(TypeDefinitionIndex(9100)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9244)), TypeDefinitionIndex(TypeDefinitionIndex(9227)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 884 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 901 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2510), inst: 5337 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9183)) CS Name:
-// ::HttpWebRequest::<MyGetResponseAsync>d__243
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2510)), TypeDefinitionIndex(TypeDefinitionIndex(9227)), TypeDefinitionIndex(TypeDefinitionIndex(9187)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 884 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 872 }), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(9238)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9100)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(9244)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2510), inst: 5337 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 901 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5068 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9183)) CS Name: ::HttpWebRequest::<MyGetResponseAsync>d__243
 struct CORDL_TYPE __HttpWebRequest___MyGetResponseAsync_d__243 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x29cff5c, size 0xdf4, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -621,16 +626,19 @@ static_assert(offsetof(::System::Net::__HttpWebRequest___MyGetResponseAsync_d__2
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 872 }), TypeDefinitionIndex(TypeDefinitionIndex(2510)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9187)), TypeDefinitionIndex(TypeDefinitionIndex(9227)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3397), inst: 879 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2510), inst: 5337 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(9100))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9184))
-// CS Name: ::HttpWebRequest::<GetResponseFromData>d__244
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2510), inst: 5337 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(9227)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(2510)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9187)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 872 }), TypeDefinitionIndex(TypeDefinitionIndex(9100)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 879 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9184)) CS
+// Name: ::HttpWebRequest::<GetResponseFromData>d__244
 struct CORDL_TYPE __HttpWebRequest___GetResponseFromData_d__244 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x29d0da8, size 0x76c, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -727,14 +735,16 @@ static_assert(offsetof(::System::Net::__HttpWebRequest___GetResponseFromData_d__
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9100)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3395)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 879 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9185)) CS Name:
-// ::HttpWebRequest::<<GetRewriteHandler>b__271_0>d
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9100)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 879
+// }), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9185)) CS Name: ::HttpWebRequest::<<GetRewriteHandler>b__271_0>d
 struct CORDL_TYPE __HttpWebRequest____GetRewriteHandler_b__271_0_d {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x29d1860, size 0x418, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -792,7 +802,7 @@ static_assert(offsetof(::System::Net::__HttpWebRequest____GetRewriteHandler_b__2
 // SizeInfo { instance_size: 408, native_size: -1, calculated_instance_size: 408, calculated_native_size: 402, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9157)), TypeDefinitionIndex(TypeDefinitionIndex(9096)), TypeDefinitionIndex(TypeDefinitionIndex(9180))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9180)), TypeDefinitionIndex(TypeDefinitionIndex(9157)), TypeDefinitionIndex(TypeDefinitionIndex(9096))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9186))
 // CS Name: ::System.Net::HttpWebRequest*
 class CORDL_TYPE HttpWebRequest : public ::System::Net::WebRequest {
@@ -1061,6 +1071,9 @@ public:
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
   constexpr ::System::Uri*& __get_requestUri();
 

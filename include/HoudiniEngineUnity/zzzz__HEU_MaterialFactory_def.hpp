@@ -9,11 +9,20 @@ CORDL_MODULE_EXPORT(HEU_MaterialFactory)
 namespace HoudiniEngineUnity {
 struct HAPI_MaterialInfo;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace HoudiniEngineUnity {
+class HEU_MaterialData;
 }
 namespace HoudiniEngineUnity {
 class HEU_SessionBase;
+}
+namespace HoudiniEngineUnity {
+struct __HEU_MaterialData__Source;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine {
 class Material;
@@ -21,17 +30,8 @@ class Material;
 namespace UnityEngine {
 class Shader;
 }
-namespace HoudiniEngineUnity {
-class HEU_MaterialData;
-}
 namespace UnityEngine {
 class Texture2D;
-}
-namespace HoudiniEngineUnity {
-struct __HEU_MaterialData__Source;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -63,9 +63,7 @@ public:
   static inline ::UnityEngine::Shader* FindPluginShader(::StringW shaderName);
 
   /// @brief Method GetNewMaterialWithShader, addr 0x219f720, size 0x228, virtual false, abstract: false, final false
-  /// @param materialName: ::StringW (default: u"")
-  /// @param bWriteToFile: bool (default: true)
-  static inline ::UnityEngine::Material* GetNewMaterialWithShader(::StringW assetCacheFolderPath, ::StringW shaderName, ::StringW materialName = u"", bool bWriteToFile = true);
+  static inline ::UnityEngine::Material* GetNewMaterialWithShader(::StringW assetCacheFolderPath, ::StringW shaderName, ::StringW materialName, bool bWriteToFile);
 
   /// @brief Method CreateNewHoudiniStandardMaterial, addr 0x219f948, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityEngine::Material* CreateNewHoudiniStandardMaterial(::StringW assetCacheFolderPath, ::StringW materialName, bool bWriteToFile);
@@ -83,9 +81,8 @@ public:
   static inline void DeleteAssetMaterial(::UnityEngine::Material* material);
 
   /// @brief Method RenderAndExtractImageToTexture, addr 0x219ed90, size 0x470, virtual false, abstract: false, final false
-  /// @param invertTexture: bool (default: false)
   static inline ::UnityEngine::Texture2D* RenderAndExtractImageToTexture(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HAPI_MaterialInfo materialInfo, int32_t textureParmID,
-                                                                         ::StringW textureName, ::StringW assetCacheFolderPath, bool isNormalMap, bool invertTexture = false);
+                                                                         ::StringW textureName, ::StringW assetCacheFolderPath, bool isNormalMap, bool invertTexture);
 
   /// @brief Method ExtractHoudiniImageToTexturePNGJPEG, addr 0x219fe2c, size 0x134, virtual false, abstract: false, final false
   static inline ::UnityEngine::Texture2D* ExtractHoudiniImageToTexturePNGJPEG(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HAPI_MaterialInfo materialInfo,

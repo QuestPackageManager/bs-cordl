@@ -8,6 +8,18 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SaberTrailRenderer)
+namespace GlobalNamespace {
+class TrailElementCollection;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+class MeshFilter;
+}
+namespace UnityEngine {
+class MeshRenderer;
+}
 namespace UnityEngine {
 class Mesh;
 }
@@ -16,18 +28,6 @@ struct Vector2;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine {
-class MeshRenderer;
-}
-namespace GlobalNamespace {
-class TrailElementCollection;
-}
-namespace UnityEngine {
-class MeshFilter;
-}
-namespace UnityEngine {
-struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberTrailRenderer);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10164)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10164))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4877))
 // CS Name: ::SaberTrailRenderer*
 class CORDL_TYPE SaberTrailRenderer : public ::UnityEngine::MonoBehaviour {

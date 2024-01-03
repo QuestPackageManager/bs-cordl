@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(RsaBlindingParameters)
+namespace Org::BouncyCastle::Crypto::Parameters {
+class RsaKeyParameters;
+}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class RsaKeyParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -41,6 +41,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"
+  constexpr ::Org::BouncyCastle::Crypto::ICipherParameters* i___Org__BouncyCastle__Crypto__ICipherParameters() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*& __get_publicKey();
 

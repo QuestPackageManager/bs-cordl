@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "TMPro/zzzz__TMP_Text_def.hpp"
 CORDL_MODULE_EXPORT(ColorTMPTextStateTransition)
 namespace GlobalNamespace {
-class ColorTransitionSO;
-}
-namespace GlobalNamespace {
 class BaseTransitionSO;
 }
-namespace UnityEngine {
-struct Color;
+namespace GlobalNamespace {
+class ColorTransitionSO;
 }
 namespace Tweening {
 class ColorTween;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorTMPTextStateTransition);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12446)), TypeDefinitionIndex(TypeDefinitionIndex(5442)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5442), inst: 927
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5447)) CS Name: ::ColorTMPTextStateTransition*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5442), inst: 927 }), TypeDefinitionIndex(TypeDefinitionIndex(12446)),
+// TypeDefinitionIndex(TypeDefinitionIndex(5442))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5447)) CS Name: ::ColorTMPTextStateTransition*
 class CORDL_TYPE ColorTMPTextStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::TMPro::TMP_Text*> {
 public:
   // Declarations

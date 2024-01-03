@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(SettingsNavigationController)
 namespace GlobalNamespace {
 struct __SettingsNavigationController__FinishAction;
 }
-namespace UnityEngine::UI {
-class Button;
-}
 namespace System {
 template <typename T> class Action_1;
+}
+namespace UnityEngine::UI {
+class Button;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "TMPro/zzzz__TextMeshPro_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(LocalizedTextMeshPro)
-namespace TMPro {
-struct TextAlignmentOptions;
-}
 namespace Polyglot {
 struct LanguageDirection;
+}
+namespace TMPro {
+struct TextAlignmentOptions;
 }
 namespace TMPro {
 class TextMeshPro;
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::Polyglot::LocalizedTextMeshPro);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15565)), TypeDefinitionIndex(TypeDefinitionIndex(12307)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15565), inst:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12307)), TypeDefinitionIndex(TypeDefinitionIndex(15565)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15565), inst:
 // 4463 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(15567)) CS Name: ::Polyglot::LocalizedTextMeshPro*
 class CORDL_TYPE LocalizedTextMeshPro : public ::Polyglot::LocalizedTextComponent_1<::TMPro::TextMeshPro*> {
 public:

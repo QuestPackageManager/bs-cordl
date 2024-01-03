@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BasicSpectrogramData)
-namespace UnityEngine {
-class AudioSource;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine {
+class AudioSource;
 }
 // Forward declare root types
 namespace GlobalNamespace {

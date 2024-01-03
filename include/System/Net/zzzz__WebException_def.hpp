@@ -8,25 +8,25 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(WebException)
 namespace System::Net {
-class WebResponse;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+struct WebExceptionInternalStatus;
 }
 namespace System::Net {
 struct WebExceptionStatus;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
 namespace System::Net {
-struct WebExceptionInternalStatus;
-}
-namespace System {
-class Exception;
+class WebResponse;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace System::Net {
@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::System::Net::WebException);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 156, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2427)), TypeDefinitionIndex(TypeDefinitionIndex(9087)), TypeDefinitionIndex(TypeDefinitionIndex(9086))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9087)), TypeDefinitionIndex(TypeDefinitionIndex(2427)), TypeDefinitionIndex(TypeDefinitionIndex(9086))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9085))
 // CS Name: ::System.Net::WebException*
 class CORDL_TYPE WebException : public ::System::InvalidOperationException {
@@ -59,6 +59,9 @@ public:
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
   constexpr ::System::Net::WebExceptionStatus& __get_m_Status();
 

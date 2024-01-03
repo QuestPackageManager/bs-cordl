@@ -37,6 +37,9 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::IRandomGenerator"
   constexpr operator ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::IRandomGenerator"
+  constexpr ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* i___Org__BouncyCastle__Crypto__Prng__IRandomGenerator() noexcept;
+
   constexpr ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*& __get_generator();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*> const& __get_generator() const;

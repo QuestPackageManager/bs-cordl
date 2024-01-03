@@ -13,11 +13,11 @@ class IInputDeviceCommandInfo;
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputDeviceCommand;
 }
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -46,6 +46,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
+
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& __get_baseCommand();
 

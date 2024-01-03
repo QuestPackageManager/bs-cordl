@@ -6,29 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlNode)
-namespace System::Xml {
-class XmlNodeList;
+namespace System::Collections {
+class IEnumerable;
 }
-namespace System::Xml {
-class XmlDocument;
+namespace System::Collections {
+class IEnumerator;
 }
-namespace System {
-class Object;
-}
-namespace System::Xml {
-class XmlLinkedNode;
-}
-namespace System::Xml {
-struct XmlNodeType;
+namespace System::Text {
+class StringBuilder;
 }
 namespace System::Xml {
 class XmlAttributeCollection;
 }
-namespace System {
-class ICloneable;
+namespace System::Xml {
+class XmlDocument;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System::Xml {
+class XmlLinkedNode;
 }
 namespace System::Xml {
 struct XmlNodeChangedAction;
@@ -36,11 +30,17 @@ struct XmlNodeChangedAction;
 namespace System::Xml {
 class XmlNodeChangedEventArgs;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System::Xml {
+class XmlNodeList;
 }
-namespace System::Text {
-class StringBuilder;
+namespace System::Xml {
+struct XmlNodeType;
+}
+namespace System {
+class ICloneable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -110,8 +110,14 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::System::Xml::XmlNode*& __get_parentNode();
 

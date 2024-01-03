@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GlyphValueRecord)
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::LowLevel {
@@ -38,6 +38,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphValueRecord>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphValueRecord>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphValueRecord>"
+  constexpr ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphValueRecord>* i___System__IEquatable_1___UnityEngine__TextCore__LowLevel__GlyphValueRecord_();
 
   /// @brief Method get_xPlacement, addr 0x2d228c8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_xPlacement();

@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::System::Threading::Tasks::__Task__WhenAllPromise);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2773)), TypeDefinitionIndex(TypeDefinitionIndex(2794)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 900
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(2784)) CS Name: ::Task::WhenAllPromise*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 900 }), TypeDefinitionIndex(TypeDefinitionIndex(2794)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2773))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2784)) CS Name: ::Task::WhenAllPromise*
 class CORDL_TYPE __Task__WhenAllPromise : public ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::VoidTaskResult> {
 public:
   // Declarations
@@ -40,6 +40,9 @@ public:
 
   /// @brief Convert operator to "::System::Threading::Tasks::ITaskCompletionAction"
   constexpr operator ::System::Threading::Tasks::ITaskCompletionAction*() noexcept;
+
+  /// @brief Convert to "::System::Threading::Tasks::ITaskCompletionAction"
+  constexpr ::System::Threading::Tasks::ITaskCompletionAction* i___System__Threading__Tasks__ITaskCompletionAction() noexcept;
 
   constexpr ::ArrayW<::System::Threading::Tasks::Task*, ::Array<::System::Threading::Tasks::Task*>*>& __get_m_tasks();
 

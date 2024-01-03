@@ -6,65 +6,65 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AnnotatedBeatmapLevelCollectionsGridView)
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace GlobalNamespace {
-class IAdditionalContentModel;
-}
-namespace UnityEngine::EventSystems {
-class IPointerExitHandler;
-}
 namespace GlobalNamespace {
 class AnnotatedBeatmapLevelCollectionCell;
 }
 namespace GlobalNamespace {
-class BeatmapLevelsPromoDataSO;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace GlobalNamespace {
-class PageControl;
-}
-namespace UnityEngine::EventSystems {
-class IPointerEnterHandler;
-}
-namespace GlobalNamespace {
-class IAnnotatedBeatmapLevelCollection;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
 class AnnotatedBeatmapLevelCollectionsGridViewAnimator;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+namespace GlobalNamespace {
+class BeatmapLevelsPromoDataSO;
 }
 namespace GlobalNamespace {
 class GridView;
 }
-namespace HMUI {
-class SelectableCell;
+namespace GlobalNamespace {
+class IAdditionalContentModel;
 }
-namespace UnityEngine {
-class MonoBehaviour;
+namespace GlobalNamespace {
+class IAnnotatedBeatmapLevelCollection;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace GlobalNamespace {
+class IVRPlatformHelper;
 }
-namespace HMUI {
-struct __SelectableCell__TransitionType;
-}
-namespace System {
-class Object;
+namespace GlobalNamespace {
+class PageControl;
 }
 namespace GlobalNamespace {
 class __GridView__IDataSource;
 }
-namespace GlobalNamespace {
-class IVRPlatformHelper;
+namespace HMUI {
+class SelectableCell;
+}
+namespace HMUI {
+struct __SelectableCell__TransitionType;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+class Action;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerEnterHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerExitHandler;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace UnityEngine {
+class MonoBehaviour;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -138,14 +138,26 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerEnterHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerEnterHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerEnterHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerEnterHandler* i___UnityEngine__EventSystems__IPointerEnterHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerExitHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerExitHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerExitHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerExitHandler* i___UnityEngine__EventSystems__IPointerExitHandler() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::__GridView__IDataSource"
   constexpr operator ::GlobalNamespace::__GridView__IDataSource*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::__GridView__IDataSource"
+  constexpr ::GlobalNamespace::__GridView__IDataSource* i___GlobalNamespace____GridView__IDataSource() noexcept;
 
   constexpr ::GlobalNamespace::GridView*& __get__gridView();
 

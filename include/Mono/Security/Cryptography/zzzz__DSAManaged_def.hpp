@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DSAManaged)
-namespace System::Security::Cryptography {
-struct DSAParameters;
+namespace Mono::Math {
+class BigInteger;
 }
 namespace Mono::Security::Cryptography {
 class __DSAManaged__KeyGeneratedEventHandler;
 }
-namespace Mono::Math {
-class BigInteger;
+namespace System::Security::Cryptography {
+struct DSAParameters;
 }
 namespace System::Security::Cryptography {
 class RandomNumberGenerator;
 }
 namespace System {
-class Object;
+class EventArgs;
 }
 namespace System {
-class EventArgs;
+class Object;
 }
 // Forward declare root types
 namespace Mono::Security::Cryptography {

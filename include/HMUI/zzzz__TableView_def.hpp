@@ -15,62 +15,62 @@ CORDL_MODULE_EXPORT(TableView)
 namespace HMUI {
 class ITableCellOwner;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace HMUI {
-class __TableView__IDataSource;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System {
-class Object;
-}
-namespace HMUI {
-struct __TableView__ScrollPositionType;
-}
-namespace HMUI {
-struct TableViewSelectionType;
-}
-namespace UnityEngine {
-struct __RectTransform__Axis;
-}
-namespace System {
-template <typename T1, typename T2> class Tuple_2;
-}
-namespace HMUI {
-struct __TableView__TableType;
-}
-namespace HMUI {
-class TableCell;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine {
-class RectTransform;
+class ScrollView;
 }
 namespace HMUI {
 class SelectableCell;
 }
 namespace HMUI {
-class __TableView__CellsGroup;
+class TableCell;
+}
+namespace HMUI {
+struct TableViewSelectionType;
 }
 namespace HMUI {
 struct __SelectableCell__TransitionType;
 }
+namespace HMUI {
+class __TableView__CellsGroup;
+}
+namespace HMUI {
+class __TableView__IDataSource;
+}
+namespace HMUI {
+struct __TableView__ScrollPositionType;
+}
+namespace HMUI {
+struct __TableView__TableType;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
-namespace HMUI {
-class ScrollView;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
+}
+namespace System {
+class Object;
+}
+namespace System {
+template <typename T1, typename T2> class Tuple_2;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine {
+struct __RectTransform__Axis;
 }
 // Forward declare root types
 namespace HMUI {
@@ -306,7 +306,7 @@ public:
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 162, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13659)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(13665))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13665)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(13659))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13669))
 // CS Name: ::HMUI::TableView*
 class CORDL_TYPE TableView : public ::UnityEngine::MonoBehaviour {
@@ -415,6 +415,9 @@ public:
 
   /// @brief Convert operator to "::HMUI::ITableCellOwner"
   constexpr operator ::HMUI::ITableCellOwner*() noexcept;
+
+  /// @brief Convert to "::HMUI::ITableCellOwner"
+  constexpr ::HMUI::ITableCellOwner* i___HMUI__ITableCellOwner() noexcept;
 
   constexpr ::HMUI::ScrollView*& __get__scrollView();
 
@@ -688,8 +691,7 @@ public:
   inline ::HMUI::TableCell* DequeueReusableCellForIdentifier(::StringW identifier);
 
   /// @brief Method SelectCellWithIdx, addr 0x214a5d4, size 0x1e4, virtual false, abstract: false, final false
-  /// @param callbackTable: bool (default: false)
-  inline void SelectCellWithIdx(int32_t idx, bool callbackTable = false);
+  inline void SelectCellWithIdx(int32_t idx, bool callbackTable);
 
   /// @brief Method ClearSelection, addr 0x214a7b8, size 0x1ac, virtual false, abstract: false, final false
   inline void ClearSelection();

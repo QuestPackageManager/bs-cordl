@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(BeatmapSelectionView)
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace GlobalNamespace {
 class LevelBar;
 }
 namespace GlobalNamespace {
 class PreviewDifficultyBeatmap;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 // Forward declare root types
 namespace GlobalNamespace {

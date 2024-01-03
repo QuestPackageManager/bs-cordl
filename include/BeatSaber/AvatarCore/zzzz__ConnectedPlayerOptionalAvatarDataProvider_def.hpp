@@ -7,10 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConnectedPlayerOptionalAvatarDataProvider)
 namespace BeatSaber::AvatarCore {
-struct OptionalAvatarData;
+struct AvatarDisplayContext;
 }
 namespace BeatSaber::AvatarCore {
-struct AvatarDisplayContext;
+class IOptionalAvatarDataProvider;
+}
+namespace BeatSaber::AvatarCore {
+class OptionalAvatarDataSyncHandler;
+}
+namespace BeatSaber::AvatarCore {
+struct OptionalAvatarData;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
@@ -18,20 +27,11 @@ class IMultiplayerSessionManager;
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace BeatSaber::AvatarCore {
-class IOptionalAvatarDataProvider;
-}
 namespace System {
 template <typename T> class Action_1;
 }
 namespace System {
 class IDisposable;
-}
-namespace BeatSaber::AvatarCore {
-class OptionalAvatarDataSyncHandler;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {
@@ -68,8 +68,14 @@ public:
   /// @brief Convert operator to "::BeatSaber::AvatarCore::IOptionalAvatarDataProvider"
   constexpr operator ::BeatSaber::AvatarCore::IOptionalAvatarDataProvider*() noexcept;
 
+  /// @brief Convert to "::BeatSaber::AvatarCore::IOptionalAvatarDataProvider"
+  constexpr ::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* i___BeatSaber__AvatarCore__IOptionalAvatarDataProvider() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::System::Action_1<::BeatSaber::AvatarCore::OptionalAvatarData>*& __get_dataDidChangeEvent();
 

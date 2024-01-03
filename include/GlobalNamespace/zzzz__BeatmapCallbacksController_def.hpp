@@ -8,46 +8,46 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapCallbacksController)
 namespace GlobalNamespace {
-class CallbacksInTime;
-}
-namespace System {
-class IDisposable;
-}
-namespace GlobalNamespace {
-class __BeatmapCallbacksController__CallCallbacksBehavior;
-}
-namespace System::Collections::Generic {
-template <typename T> class LinkedListNode_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
-class __BeatmapCallbacksController__InitData;
-}
-namespace GlobalNamespace {
-class BeatmapDataItem;
-}
-namespace GlobalNamespace {
-class __BeatmapCallbacksController__CallCallbacksBehaviorWithLastState;
-}
-namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class IReadonlyBeatmapData;
-}
-namespace GlobalNamespace {
-class BeatmapEventData;
 }
 namespace GlobalNamespace {
 template <typename T> class BeatmapDataCallback_1;
 }
 namespace GlobalNamespace {
+class BeatmapDataItem;
+}
+namespace GlobalNamespace {
+class BeatmapEventData;
+}
+namespace GlobalNamespace {
+class CallbacksInTime;
+}
+namespace GlobalNamespace {
+class IReadonlyBeatmapData;
+}
+namespace GlobalNamespace {
+class __BeatmapCallbacksController__CallCallbacksBehaviorWithLastState;
+}
+namespace GlobalNamespace {
+class __BeatmapCallbacksController__CallCallbacksBehavior;
+}
+namespace GlobalNamespace {
 class __BeatmapCallbacksController__ICallCallbacksBehavior;
+}
+namespace GlobalNamespace {
+class __BeatmapCallbacksController__InitData;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class LinkedListNode_1;
+}
+namespace System {
+class Action;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Type;
@@ -195,6 +195,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::__BeatmapCallbacksController__ICallCallbacksBehavior"
   constexpr operator ::GlobalNamespace::__BeatmapCallbacksController__ICallCallbacksBehavior*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::__BeatmapCallbacksController__ICallCallbacksBehavior"
+  constexpr ::GlobalNamespace::__BeatmapCallbacksController__ICallCallbacksBehavior* i___GlobalNamespace____BeatmapCallbacksController__ICallCallbacksBehavior() noexcept;
+
   /// @brief Method CallCallbacks, addr 0x237b830, size 0x18, virtual true, abstract: false, final true
   inline void CallCallbacks(::GlobalNamespace::CallbacksInTime* callbacksInTime, ::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
@@ -242,6 +245,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::__BeatmapCallbacksController__ICallCallbacksBehavior"
   constexpr operator ::GlobalNamespace::__BeatmapCallbacksController__ICallCallbacksBehavior*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::__BeatmapCallbacksController__ICallCallbacksBehavior"
+  constexpr ::GlobalNamespace::__BeatmapCallbacksController__ICallCallbacksBehavior* i___GlobalNamespace____BeatmapCallbacksController__ICallCallbacksBehavior() noexcept;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::GlobalNamespace::BeatmapDataItem*>*& __get__replayState();
 
@@ -337,6 +343,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::System::Action*& __get_didProcessAllCallbacksThisFrameEvent();
 

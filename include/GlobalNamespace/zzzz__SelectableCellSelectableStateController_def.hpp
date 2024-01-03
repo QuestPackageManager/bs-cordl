@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SelectableCellSelectableStateController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5457)), TypeDefinitionIndex(TypeDefinitionIndex(13653)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5457), inst:
-// 4967 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5460)) CS Name: ::SelectableCellSelectableStateController*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5457)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5457), inst: 4967 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(13653))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5460)) CS Name: ::SelectableCellSelectableStateController*
 class CORDL_TYPE SelectableCellSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::HMUI::SelectableCell*> {
 public:
   // Declarations

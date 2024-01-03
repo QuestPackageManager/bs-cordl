@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(MultiplayerConnectedPlayerEffectsSpawner)
 namespace GlobalNamespace {
-class IConnectedPlayerBeatmapObjectEventManager;
+class BombExplosionEffect;
 }
 namespace GlobalNamespace {
-class NoteDebrisSpawner;
+class IConnectedPlayerBeatmapObjectEventManager;
 }
 namespace GlobalNamespace {
 class NoteCutInfoNetSerializable;
 }
 namespace GlobalNamespace {
-class BombExplosionEffect;
+class NoteDebrisSpawner;
 }
 // Forward declare root types
 namespace GlobalNamespace {

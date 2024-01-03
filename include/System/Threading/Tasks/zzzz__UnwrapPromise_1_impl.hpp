@@ -2,11 +2,11 @@
 #include "System/Threading/Tasks/zzzz__Task_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/Tasks/zzzz__UnwrapPromise_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__UnwrapPromise_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__ITaskCompletionAction_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "System/Threading/Tasks/zzzz__UnwrapPromise_1_def.hpp"
 #include "System/Threading/zzzz__WaitCallback_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 template <typename TResult> inline void System::Threading::Tasks::__UnwrapPromise_1____c<TResult>::setStaticF___9(::System::Threading::Tasks::__UnwrapPromise_1____c<TResult>* value) {
   ::cordl_internals::setStaticField<::System::Threading::Tasks::__UnwrapPromise_1____c<TResult>*, "<>9",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::__UnwrapPromise_1____c<TResult>*>::get>(
@@ -44,6 +44,11 @@ template <typename TResult> inline void System::Threading::Tasks::__UnwrapPromis
 template <typename TResult> constexpr ::System::Threading::Tasks::__UnwrapPromise_1____c<TResult>::__UnwrapPromise_1____c() {}
 /// @brief Convert operator to "::System::Threading::Tasks::ITaskCompletionAction"
 template <typename TResult> constexpr System::Threading::Tasks::UnwrapPromise_1<TResult>::operator ::System::Threading::Tasks::ITaskCompletionAction*() noexcept {
+  return static_cast<::System::Threading::Tasks::ITaskCompletionAction*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Threading::Tasks::ITaskCompletionAction"
+template <typename TResult>
+constexpr ::System::Threading::Tasks::ITaskCompletionAction* System::Threading::Tasks::UnwrapPromise_1<TResult>::i___System__Threading__Tasks__ITaskCompletionAction() noexcept {
   return static_cast<::System::Threading::Tasks::ITaskCompletionAction*>(static_cast<void*>(this));
 }
 template <typename TResult> constexpr uint8_t& System::Threading::Tasks::UnwrapPromise_1<TResult>::__get__state() {

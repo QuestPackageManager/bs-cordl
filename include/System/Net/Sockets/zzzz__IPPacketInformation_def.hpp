@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IPPacketInformation)
-namespace System {
-class Object;
-}
 namespace System::Net {
 class IPAddress;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Net::Sockets {

@@ -5,32 +5,32 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(BasicPlayableBehaviour)
-namespace UnityEngine::Playables {
-class IPlayableBehaviour;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::Playables {
-struct PlayableBinding;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::Playables {
-struct Playable;
-}
-namespace UnityEngine::Playables {
-struct PlayableGraph;
 }
 namespace System {
 class Object;
 }
 namespace UnityEngine::Playables {
+struct FrameData;
+}
+namespace UnityEngine::Playables {
 class IPlayableAsset;
 }
 namespace UnityEngine::Playables {
-struct FrameData;
+class IPlayableBehaviour;
+}
+namespace UnityEngine::Playables {
+struct PlayableBinding;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
+namespace UnityEngine::Playables {
+struct Playable;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -55,8 +55,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayableAsset"
   constexpr operator ::UnityEngine::Playables::IPlayableAsset*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::Playables::IPlayableAsset"
+  constexpr ::UnityEngine::Playables::IPlayableAsset* i___UnityEngine__Playables__IPlayableAsset() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayableBehaviour"
   constexpr operator ::UnityEngine::Playables::IPlayableBehaviour*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::Playables::IPlayableBehaviour"
+  constexpr ::UnityEngine::Playables::IPlayableBehaviour* i___UnityEngine__Playables__IPlayableBehaviour() noexcept;
 
   /// @brief Method get_duration, addr 0x2c6a644, size 0x58, virtual true, abstract: false, final false
   inline double_t get_duration();

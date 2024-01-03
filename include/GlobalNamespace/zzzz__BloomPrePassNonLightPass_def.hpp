@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomPrePassNonLightPass)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace GlobalNamespace {
 struct __BloomPrePassNonLightPass__ExecutionTimeType;
 }
-namespace UnityEngine {
-class RenderTexture;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine {
 struct Matrix4x4;
+}
+namespace UnityEngine {
+class RenderTexture;
 }
 // Forward declare root types
 namespace GlobalNamespace {

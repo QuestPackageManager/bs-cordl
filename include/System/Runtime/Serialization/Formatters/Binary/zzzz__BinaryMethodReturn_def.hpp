@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(BinaryMethodReturn)
-namespace System {
-class Type;
-}
 namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryWriter;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {

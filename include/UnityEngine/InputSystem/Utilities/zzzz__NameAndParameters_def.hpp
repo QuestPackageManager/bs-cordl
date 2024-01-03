@@ -10,23 +10,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NameAndParameters)
-namespace UnityEngine::InputSystem::Utilities {
-struct NamedValue;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine::InputSystem::Utilities {
-class __NameAndParameters____c;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+struct NamedValue;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> struct ReadOnlyArray_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace UnityEngine::InputSystem::Utilities {
+class __NameAndParameters____c;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -94,8 +94,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Utilit
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6683)), TypeDefinitionIndex(TypeDefinitionIndex(6701)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6701), inst: 3114
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6682)) CS Name: ::UnityEngine.InputSystem.Utilities::NameAndParameters
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6701)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6701), inst: 3114 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6683))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6682)) CS Name: ::UnityEngine.InputSystem.Utilities::NameAndParameters
 struct CORDL_TYPE NameAndParameters {
 public:
   // Declarations
@@ -133,8 +133,7 @@ public:
   static inline ::UnityEngine::InputSystem::Utilities::NameAndParameters Parse(::StringW text);
 
   /// @brief Method ParseNameAndParameters, addr 0x2b14274, size 0x38c, virtual false, abstract: false, final false
-  /// @param nameOnly: bool (default: false)
-  static inline ::UnityEngine::InputSystem::Utilities::NameAndParameters ParseNameAndParameters(::StringW text, ByRef<int32_t> index, bool nameOnly = false);
+  static inline ::UnityEngine::InputSystem::Utilities::NameAndParameters ParseNameAndParameters(::StringW text, ByRef<int32_t> index, bool nameOnly);
 
   // Ctor Parameters [CppParam { name: "_name_k__BackingField", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_parameters_k__BackingField", ty:
   // "::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NamedValue>", modifiers: "", def_value: None }]

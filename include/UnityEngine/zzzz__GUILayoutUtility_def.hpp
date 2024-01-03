@@ -9,17 +9,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GUILayoutUtility)
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngineInternal {
+class GenericStack;
+}
 namespace UnityEngine {
-class __GUILayoutUtility__LayoutCache;
+class GUIContent;
 }
 namespace UnityEngine {
 class GUILayoutGroup;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine {
 class GUILayoutOption;
@@ -28,10 +28,10 @@ namespace UnityEngine {
 class GUIStyle;
 }
 namespace UnityEngine {
-class GUIContent;
+struct Rect;
 }
-namespace UnityEngineInternal {
-class GenericStack;
+namespace UnityEngine {
+class __GUILayoutUtility__LayoutCache;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -97,8 +97,7 @@ public:
   static inline ::UnityEngine::__GUILayoutUtility__LayoutCache* New_ctor(int32_t instanceID);
 
   /// @brief Method .ctor, addr 0x2d01d54, size 0xd8, virtual false, abstract: false, final false
-  /// @param instanceID: int32_t (default: static_cast<int32_t>(0xffffffff))
-  inline void _ctor(int32_t instanceID = static_cast<int32_t>(0xffffffff));
+  inline void _ctor(int32_t instanceID);
 
   /// @brief Method ResetCursor, addr 0x2d03290, size 0x2e0, virtual false, abstract: false, final false
   inline void ResetCursor();

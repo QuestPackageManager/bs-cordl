@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ConnectionFailedException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2561)), TypeDefinitionIndex(TypeDefinitionIndex(12708))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12708)), TypeDefinitionIndex(TypeDefinitionIndex(2561))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12707))
 // CS Name: ::ConnectionFailedException*
 class CORDL_TYPE ConnectionFailedException : public ::System::Exception {

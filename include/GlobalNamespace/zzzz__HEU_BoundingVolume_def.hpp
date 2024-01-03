@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(HEU_BoundingVolume)
-namespace UnityEngine {
-class Collider;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine {
+class Collider;
 }
 namespace UnityEngine {
 class GameObject;

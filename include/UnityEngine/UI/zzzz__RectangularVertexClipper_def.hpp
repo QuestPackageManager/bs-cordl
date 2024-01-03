@@ -6,9 +6,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(RectangularVertexClipper)
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
 class Canvas;
 }
 namespace UnityEngine {
@@ -16,6 +13,9 @@ class RectTransform;
 }
 namespace UnityEngine {
 struct Rect;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::UI {

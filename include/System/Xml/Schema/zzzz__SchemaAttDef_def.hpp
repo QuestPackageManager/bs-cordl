@@ -8,26 +8,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SchemaAttDef)
+namespace System::Xml::Schema {
+struct __SchemaAttDef__Reserve;
+}
+namespace System::Xml {
+class IDtdAttributeInfo;
+}
 namespace System::Xml {
 class IDtdDefaultAttributeInfo;
+}
+namespace System::Xml {
+class IValidationEventHandling;
 }
 namespace System::Xml {
 class XmlQualifiedName;
 }
 namespace System::Xml {
-class IValidationEventHandling;
+struct XmlTokenizedType;
 }
 namespace System {
 class Object;
-}
-namespace System::Xml::Schema {
-struct __SchemaAttDef__Reserve;
-}
-namespace System::Xml {
-struct XmlTokenizedType;
-}
-namespace System::Xml {
-class IDtdAttributeInfo;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -165,8 +165,14 @@ public:
   /// @brief Convert operator to "::System::Xml::IDtdDefaultAttributeInfo"
   constexpr operator ::System::Xml::IDtdDefaultAttributeInfo*() noexcept;
 
+  /// @brief Convert to "::System::Xml::IDtdDefaultAttributeInfo"
+  constexpr ::System::Xml::IDtdDefaultAttributeInfo* i___System__Xml__IDtdDefaultAttributeInfo() noexcept;
+
   /// @brief Convert operator to "::System::Xml::IDtdAttributeInfo"
   constexpr operator ::System::Xml::IDtdAttributeInfo*() noexcept;
+
+  /// @brief Convert to "::System::Xml::IDtdAttributeInfo"
+  constexpr ::System::Xml::IDtdAttributeInfo* i___System__Xml__IDtdAttributeInfo() noexcept;
 
   constexpr ::StringW& __get_defExpanded();
 

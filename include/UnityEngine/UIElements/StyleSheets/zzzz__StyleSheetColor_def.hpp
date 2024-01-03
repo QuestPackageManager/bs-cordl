@@ -11,10 +11,10 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine {
-struct Color;
+struct Color32;
 }
 namespace UnityEngine {
-struct Color32;
+struct Color;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {

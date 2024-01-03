@@ -10,10 +10,10 @@ namespace System::Security::Cryptography {
 struct CipherMode;
 }
 namespace System::Security::Cryptography {
-struct PaddingMode;
+class ICryptoTransform;
 }
 namespace System::Security::Cryptography {
-class ICryptoTransform;
+struct PaddingMode;
 }
 namespace System::Security::Cryptography {
 class RijndaelManaged;

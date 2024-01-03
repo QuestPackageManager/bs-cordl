@@ -12,29 +12,29 @@ class AttributeCollection;
 namespace System::ComponentModel {
 class EventDescriptorCollection;
 }
-namespace System {
-class Type;
-}
-namespace System {
-class Object;
-}
 namespace System::ComponentModel {
 class EventDescriptor;
-}
-namespace System::ComponentModel {
-class PropertyDescriptorCollection;
 }
 namespace System::ComponentModel {
 class ICustomTypeDescriptor;
 }
 namespace System::ComponentModel {
-class TypeConverter;
+class PropertyDescriptorCollection;
 }
 namespace System::ComponentModel {
 class PropertyDescriptor;
 }
+namespace System::ComponentModel {
+class TypeConverter;
+}
 namespace System {
 class Attribute;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -57,6 +57,9 @@ public:
 
   /// @brief Convert operator to "::System::ComponentModel::ICustomTypeDescriptor"
   constexpr operator ::System::ComponentModel::ICustomTypeDescriptor*() noexcept;
+
+  /// @brief Convert to "::System::ComponentModel::ICustomTypeDescriptor"
+  constexpr ::System::ComponentModel::ICustomTypeDescriptor* i___System__ComponentModel__ICustomTypeDescriptor() noexcept;
 
   constexpr ::System::ComponentModel::ICustomTypeDescriptor*& __get__parent();
 

@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ServerCodeEntryViewController)
 namespace HMUI {
-class UIKeyboard;
+class InputFieldViewChangeBinder;
 }
 namespace HMUI {
 class InputFieldView;
 }
-namespace UnityEngine::UI {
-class Button;
+namespace HMUI {
+class UIKeyboard;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
-namespace HMUI {
-class InputFieldViewChangeBinder;
+namespace UnityEngine::UI {
+class Button;
 }
 // Forward declare root types
 namespace GlobalNamespace {

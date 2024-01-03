@@ -10,47 +10,8 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UIElementsUtility)
-namespace UnityEngine::UIElements {
-struct ContextType;
-}
-namespace UnityEngine::UIElements {
-class BaseVisualElementPanel;
-}
-namespace UnityEngine::UIElements {
-class IUIElementsUtility;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
-}
-namespace UnityEngine::UIElements {
-class IMGUIContainer;
-}
-namespace System {
-class Exception;
-}
-namespace UnityEngine {
-struct EventType;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine {
-class __GUILayoutUtility__LayoutCache;
-}
-namespace UnityEngine::UIElements {
-class Panel;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct __Dictionary_2__Enumerator;
-}
-namespace UnityEngine {
-class Event;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -58,8 +19,47 @@ template <typename T> class List_1;
 namespace System::Collections::Generic {
 template <typename T> class Stack_1;
 }
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct __Dictionary_2__Enumerator;
+}
+namespace System {
+class Exception;
+}
+namespace UnityEngine::UIElements {
+class BaseVisualElementPanel;
+}
+namespace UnityEngine::UIElements {
+struct ContextType;
+}
+namespace UnityEngine::UIElements {
+class EventBase;
+}
+namespace UnityEngine::UIElements {
+class IMGUIContainer;
+}
+namespace UnityEngine::UIElements {
+class IUIElementsUtility;
+}
+namespace UnityEngine::UIElements {
+class Panel;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine {
+struct EventType;
+}
+namespace UnityEngine {
+class Event;
+}
+namespace UnityEngine {
+struct Rect;
+}
 namespace UnityEngine {
 class Sprite;
+}
+namespace UnityEngine {
+class __GUILayoutUtility__LayoutCache;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -71,7 +71,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIElementsUtility);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9966))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6902))
 // CS Name: ::UnityEngine.UIElements::UIElementsUtility*
 class CORDL_TYPE UIElementsUtility : public ::System::Object {
@@ -115,6 +115,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::UIElements::IUIElementsUtility"
   constexpr operator ::UnityEngine::UIElements::IUIElementsUtility*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UIElements::IUIElementsUtility"
+  constexpr ::UnityEngine::UIElements::IUIElementsUtility* i___UnityEngine__UIElements__IUIElementsUtility() noexcept;
 
   static inline void setStaticF_s_ContainerStack(::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::IMGUIContainer*>* value);
 

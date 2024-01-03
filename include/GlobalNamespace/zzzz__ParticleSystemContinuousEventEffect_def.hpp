@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ParticleSystemContinuousEventEffect)
 namespace GlobalNamespace {
+class BasicBeatmapEventData;
+}
+namespace GlobalNamespace {
 class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
@@ -14,9 +17,6 @@ class BeatmapDataCallbackWrapper;
 }
 namespace UnityEngine {
 class ParticleSystem;
-}
-namespace GlobalNamespace {
-class BasicBeatmapEventData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

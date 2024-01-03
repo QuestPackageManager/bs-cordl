@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ProvideHandle)
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System {
+class Exception;
 }
 namespace System {
 template <typename TResult> class Func_1;
 }
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-class IGenericProviderOperation;
-}
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
+namespace System {
+class Object;
 }
 namespace System {
 class Type;
@@ -24,14 +24,14 @@ class Type;
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct DownloadStatus;
 }
-namespace System {
-class Exception;
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+class IGenericProviderOperation;
 }
-namespace System {
-class Object;
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
 }
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {

@@ -9,14 +9,14 @@ CORDL_MODULE_EXPORT(UIntPtr)
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
@@ -43,8 +43,14 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*();
 
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable();
+
   /// @brief Convert operator to "::System::IEquatable_1<void*>"
   constexpr operator ::System::IEquatable_1<void*>*();
+
+  /// @brief Convert to "::System::IEquatable_1<void*>"
+  constexpr ::System::IEquatable_1<void*>* i___System__IEquatable_1_void__();
 
   static inline void setStaticF_Zero(void* value);
 

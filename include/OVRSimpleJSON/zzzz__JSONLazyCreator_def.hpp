@@ -11,25 +11,25 @@ namespace OVRSimpleJSON {
 class JSONArray;
 }
 namespace OVRSimpleJSON {
-struct JSONTextMode;
+struct JSONNodeType;
 }
 namespace OVRSimpleJSON {
 class JSONNode;
-}
-namespace System {
-class Object;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace OVRSimpleJSON {
-struct JSONNodeType;
 }
 namespace OVRSimpleJSON {
 class JSONObject;
 }
 namespace OVRSimpleJSON {
+struct JSONTextMode;
+}
+namespace OVRSimpleJSON {
 struct __JSONNode__Enumerator;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace OVRSimpleJSON {

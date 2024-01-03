@@ -7,35 +7,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnityEventBase)
-namespace UnityEngine::Events {
-class PersistentCallGroup;
-}
-namespace System {
-class Object;
-}
-namespace UnityEngine::Events {
-class BaseInvokableCall;
-}
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
-}
-namespace UnityEngine::Events {
-class PersistentCall;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Reflection {
 class MethodInfo;
 }
 namespace System {
+class Object;
+}
+namespace System {
 class Type;
+}
+namespace UnityEngine::Events {
+class BaseInvokableCall;
 }
 namespace UnityEngine::Events {
 class InvokableCallList;
 }
 namespace UnityEngine::Events {
+class PersistentCallGroup;
+}
+namespace UnityEngine::Events {
+class PersistentCall;
+}
+namespace UnityEngine::Events {
 struct PersistentListenerMode;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
 }
 // Forward declare root types
 namespace UnityEngine::Events {
@@ -64,6 +64,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
+  constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
   constexpr ::UnityEngine::Events::InvokableCallList*& __get_m_Calls();
 

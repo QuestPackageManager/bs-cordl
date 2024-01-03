@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "System/Xml/zzzz__XmlNamespaceManager_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(DtdValidator)
-namespace System::Xml {
-class IDtdParserAdapter;
-}
 namespace System::Xml::Schema {
 class SchemaAttDef;
 }
 namespace System::Xml::Schema {
 class __DtdValidator__NamespaceManager;
+}
+namespace System::Xml {
+class IDtdParserAdapter;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LazyCopyHashSet_1)
+namespace GlobalNamespace {
+template <typename T> class ILazyCopyHashSet_1;
+}
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-template <typename T> class ILazyCopyHashSet_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -45,6 +45,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::ILazyCopyHashSet_1<T>"
   constexpr operator ::GlobalNamespace::ILazyCopyHashSet_1<T>*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::ILazyCopyHashSet_1<T>"
+  constexpr ::GlobalNamespace::ILazyCopyHashSet_1<T>* i___GlobalNamespace__ILazyCopyHashSet_1_T_() noexcept;
 
   constexpr ::System::Collections::Generic::List_1<T>*& __get__itemsCopy();
 

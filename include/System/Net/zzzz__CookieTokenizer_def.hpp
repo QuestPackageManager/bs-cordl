@@ -10,10 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CookieTokenizer)
 namespace System::Net {
-struct __CookieTokenizer__RecognizedAttribute;
+struct CookieToken;
 }
 namespace System::Net {
-struct CookieToken;
+struct __CookieTokenizer__RecognizedAttribute;
 }
 // Forward declare root types
 namespace System::Net {
@@ -76,7 +76,7 @@ static_assert(offsetof(::System::Net::__CookieTokenizer__RecognizedAttribute, m_
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9121)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9121))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9123))
 // CS Name: ::System.Net::CookieTokenizer*
 class CORDL_TYPE CookieTokenizer : public ::System::Object {

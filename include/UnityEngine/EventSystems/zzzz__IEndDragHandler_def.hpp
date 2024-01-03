@@ -28,6 +28,9 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
+
   /// @brief Method OnEndDrag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnEndDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 

@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Tilemap)
-namespace UnityEngine {
-class Object;
-}
 namespace UnityEngine::Tilemaps {
 class TileBase;
 }
 namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine {
-struct Vector3Int;
+struct BoundsInt;
 }
 namespace UnityEngine {
 class Grid;
 }
 namespace UnityEngine {
-struct BoundsInt;
+struct Matrix4x4;
+}
+namespace UnityEngine {
+class Object;
+}
+namespace UnityEngine {
+struct Vector3Int;
 }
 namespace UnityEngine {
 struct Vector3;

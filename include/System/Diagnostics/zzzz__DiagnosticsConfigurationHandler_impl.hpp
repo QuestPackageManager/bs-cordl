@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Diagnostics/zzzz__DiagnosticsConfigurationHandler_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Configuration/zzzz__IConfigurationSectionHandler_def.hpp"
 #include "System/Xml/zzzz__XmlNode_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Diagnostics::DiagnosticsConfigurationHandler._ctor
 template <>
 
@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x38;
   constexpr static std::size_t addrs = 0x294525c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DiagnosticsConfigurationHandler*>::get(),
                                                                                ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x38;
   constexpr static std::size_t addrs = 0x2945294;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DiagnosticsConfigurationHandler*>::get(),
@@ -36,6 +36,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::System::Configuration::IConfigurationSectionHandler"
 constexpr System::Diagnostics::DiagnosticsConfigurationHandler::operator ::System::Configuration::IConfigurationSectionHandler*() noexcept {
+  return static_cast<::System::Configuration::IConfigurationSectionHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Configuration::IConfigurationSectionHandler"
+constexpr ::System::Configuration::IConfigurationSectionHandler* System::Diagnostics::DiagnosticsConfigurationHandler::i___System__Configuration__IConfigurationSectionHandler() noexcept {
   return static_cast<::System::Configuration::IConfigurationSectionHandler*>(static_cast<void*>(this));
 }
 inline ::System::Diagnostics::DiagnosticsConfigurationHandler* System::Diagnostics::DiagnosticsConfigurationHandler::New_ctor() {

@@ -9,17 +9,17 @@ CORDL_MODULE_EXPORT(MultiplayerPositionDisplay)
 namespace GlobalNamespace {
 class IConnectedPlayer;
 }
-namespace UnityEngine {
-struct Color;
+namespace GlobalNamespace {
+class MultiplayerScoreProvider;
 }
 namespace GlobalNamespace {
 class __MultiplayerScoreProvider__RankedPlayer;
 }
-namespace GlobalNamespace {
-class MultiplayerScoreProvider;
-}
 namespace TMPro {
 class TextMeshPro;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {

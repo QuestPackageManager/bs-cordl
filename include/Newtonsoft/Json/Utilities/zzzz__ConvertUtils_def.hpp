@@ -10,58 +10,58 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConvertUtils)
 namespace Newtonsoft::Json::Utilities {
+template <typename T, typename TResult> class MethodCall_2;
+}
+namespace Newtonsoft::Json::Utilities {
+struct ParseResult;
+}
+namespace Newtonsoft::Json::Utilities {
+struct PrimitiveTypeCode;
+}
+namespace Newtonsoft::Json::Utilities {
+template <typename TKey, typename TValue> class ThreadSafeStore_2;
+}
+namespace Newtonsoft::Json::Utilities {
+class TypeInformation;
+}
+namespace Newtonsoft::Json::Utilities {
+struct __ConvertUtils__ConvertResult;
+}
+namespace Newtonsoft::Json::Utilities {
 struct __ConvertUtils__TypeConvertKey;
+}
+namespace Newtonsoft::Json::Utilities {
+class __ConvertUtils____c__DisplayClass9_0;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::ComponentModel {
+class TypeConverter;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 struct Guid;
 }
 namespace System {
-class Type;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace Newtonsoft::Json::Utilities {
-template <typename TKey, typename TValue> class ThreadSafeStore_2;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace Newtonsoft::Json::Utilities {
-struct ParseResult;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System::ComponentModel {
-class TypeConverter;
-}
-namespace System {
-class Version;
-}
-namespace Newtonsoft::Json::Utilities {
-struct PrimitiveTypeCode;
+class IConvertible;
 }
 namespace System {
 class Object;
 }
-namespace Newtonsoft::Json::Utilities {
-class TypeInformation;
-}
-namespace System {
-class IConvertible;
-}
-namespace Newtonsoft::Json::Utilities {
-class __ConvertUtils____c__DisplayClass9_0;
-}
-namespace Newtonsoft::Json::Utilities {
-struct __ConvertUtils__ConvertResult;
-}
 namespace System {
 struct TimeSpan;
 }
-namespace Newtonsoft::Json::Utilities {
-template <typename T, typename TResult> class MethodCall_2;
+namespace System {
+class Type;
+}
+namespace System {
+class Version;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {

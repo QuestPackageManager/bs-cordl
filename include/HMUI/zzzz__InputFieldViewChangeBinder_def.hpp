@@ -7,8 +7,8 @@ CORDL_MODULE_EXPORT(InputFieldViewChangeBinder)
 namespace HMUI {
 class InputFieldView;
 }
-namespace UnityEngine::Events {
-template <typename T0> class UnityAction_1;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -16,8 +16,8 @@ template <typename T> class Action_1;
 namespace System {
 template <typename T1, typename T2> class Tuple_2;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::Events {
+template <typename T0> class UnityAction_1;
 }
 // Forward declare root types
 namespace HMUI {

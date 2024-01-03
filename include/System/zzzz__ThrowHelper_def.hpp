@@ -10,34 +10,34 @@ namespace System::Collections::Generic {
 class KeyNotFoundException;
 }
 namespace System {
-class Object;
-}
-namespace System {
-class Array;
-}
-namespace System {
-class Type;
-}
-namespace System {
-struct ExceptionResource;
-}
-namespace System {
-class ArgumentOutOfRangeException;
-}
-namespace System {
-struct ExceptionArgument;
-}
-namespace System {
 class ArgumentException;
-}
-namespace System {
-class InvalidOperationException;
 }
 namespace System {
 class ArgumentNullException;
 }
 namespace System {
+class ArgumentOutOfRangeException;
+}
+namespace System {
+class Array;
+}
+namespace System {
+struct ExceptionArgument;
+}
+namespace System {
+struct ExceptionResource;
+}
+namespace System {
 class Exception;
+}
+namespace System {
+class InvalidOperationException;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System {

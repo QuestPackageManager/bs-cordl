@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FilterStream)
 namespace System::IO {
-class Stream;
+struct SeekOrigin;
 }
 namespace System::IO {
-struct SeekOrigin;
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::IO {

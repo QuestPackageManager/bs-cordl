@@ -9,23 +9,23 @@ CORDL_MODULE_EXPORT(CertificatePolicies)
 namespace Org::BouncyCastle::Asn1::X509 {
 class PolicyInformation;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class DerObjectIdentifier;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {

@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NavMesh)
+namespace System {
+class Object;
+}
 namespace UnityEngine::AI {
 struct NavMeshHit;
 }
 namespace UnityEngine::AI {
 class NavMeshPath;
 }
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine::AI {
 class __NavMesh__OnNavMeshPreUpdate;
 }
-namespace System {
-class Object;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::AI {

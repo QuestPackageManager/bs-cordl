@@ -14,32 +14,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LayoutData)
-namespace UnityEngine::UIElements {
-struct DisplayStyle;
-}
 namespace System {
 template <typename T> class IEquatable_1;
-}
-namespace UnityEngine::UIElements {
-struct FlexDirection;
-}
-namespace UnityEngine::UIElements {
-struct Align;
-}
-namespace UnityEngine::UIElements {
-struct Justify;
 }
 namespace System {
 class Object;
 }
 namespace UnityEngine::UIElements {
-struct Position;
+struct Align;
+}
+namespace UnityEngine::UIElements {
+struct DisplayStyle;
+}
+namespace UnityEngine::UIElements {
+struct FlexDirection;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class IStyleDataGroup_1;
 }
 namespace UnityEngine::UIElements {
+struct Justify;
+}
+namespace UnityEngine::UIElements {
 struct Length;
+}
+namespace UnityEngine::UIElements {
+struct Position;
 }
 namespace UnityEngine::UIElements {
 struct Wrap;
@@ -54,8 +54,8 @@ MARK_VAL_T(::UnityEngine::UIElements::LayoutData);
 // SizeInfo { instance_size: 208, native_size: 208, calculated_instance_size: 208, calculated_native_size: 224, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6890)), TypeDefinitionIndex(TypeDefinitionIndex(6892)), TypeDefinitionIndex(TypeDefinitionIndex(7313)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6898)), TypeDefinitionIndex(TypeDefinitionIndex(6889)), TypeDefinitionIndex(TypeDefinitionIndex(6891)), TypeDefinitionIndex(TypeDefinitionIndex(6886))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7313)), TypeDefinitionIndex(TypeDefinitionIndex(6898)), TypeDefinitionIndex(TypeDefinitionIndex(6886)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6889)), TypeDefinitionIndex(TypeDefinitionIndex(6891)), TypeDefinitionIndex(TypeDefinitionIndex(6890)), TypeDefinitionIndex(TypeDefinitionIndex(6892))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(7357)) CS Name: ::UnityEngine.UIElements::LayoutData
 struct CORDL_TYPE LayoutData {
 public:
@@ -63,8 +63,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::LayoutData>"
   constexpr operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::LayoutData>*();
 
+  /// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::LayoutData>"
+  constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::LayoutData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__LayoutData_();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::LayoutData>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::LayoutData>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::LayoutData>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::LayoutData>* i___System__IEquatable_1___UnityEngine__UIElements__LayoutData_();
 
   /// @brief Method Copy, addr 0x2e83a84, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::LayoutData Copy();

@@ -6,35 +6,35 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ValueTuple_4)
-namespace System {
-class IValueTupleInternal;
-}
-namespace System {
-class IComparable;
+namespace System::Collections {
+class IComparer;
 }
 namespace System::Collections {
 class IEqualityComparer;
 }
-namespace System {
-template <typename T> class IEquatable_1;
+namespace System::Collections {
+class IStructuralComparable;
+}
+namespace System::Collections {
+class IStructuralEquatable;
 }
 namespace System::Runtime::CompilerServices {
 class ITuple;
 }
 namespace System {
-class Object;
-}
-namespace System::Collections {
-class IComparer;
-}
-namespace System {
 template <typename T> class IComparable_1;
 }
-namespace System::Collections {
-class IStructuralEquatable;
+namespace System {
+class IComparable;
 }
-namespace System::Collections {
-class IStructuralComparable;
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
+class IValueTupleInternal;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System {
@@ -59,23 +59,44 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::System::ValueTuple_4<T1,T2,T3,T4>>"
   constexpr operator ::System::IEquatable_1<::System::ValueTuple_4<T1, T2, T3, T4>>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::System::ValueTuple_4<T1,T2,T3,T4>>"
+  constexpr ::System::IEquatable_1<::System::ValueTuple_4<T1, T2, T3, T4>>* i___System__IEquatable_1___System__ValueTuple_4_T1_T2_T3_T4__();
+
   /// @brief Convert operator to "::System::Collections::IStructuralEquatable"
   constexpr operator ::System::Collections::IStructuralEquatable*();
+
+  /// @brief Convert to "::System::Collections::IStructuralEquatable"
+  constexpr ::System::Collections::IStructuralEquatable* i___System__Collections__IStructuralEquatable();
 
   /// @brief Convert operator to "::System::Collections::IStructuralComparable"
   constexpr operator ::System::Collections::IStructuralComparable*();
 
+  /// @brief Convert to "::System::Collections::IStructuralComparable"
+  constexpr ::System::Collections::IStructuralComparable* i___System__Collections__IStructuralComparable();
+
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*();
+
+  /// @brief Convert to "::System::IComparable"
+  constexpr ::System::IComparable* i___System__IComparable();
 
   /// @brief Convert operator to "::System::IComparable_1<::System::ValueTuple_4<T1,T2,T3,T4>>"
   constexpr operator ::System::IComparable_1<::System::ValueTuple_4<T1, T2, T3, T4>>*();
 
+  /// @brief Convert to "::System::IComparable_1<::System::ValueTuple_4<T1,T2,T3,T4>>"
+  constexpr ::System::IComparable_1<::System::ValueTuple_4<T1, T2, T3, T4>>* i___System__IComparable_1___System__ValueTuple_4_T1_T2_T3_T4__();
+
   /// @brief Convert operator to "::System::IValueTupleInternal"
   constexpr operator ::System::IValueTupleInternal*();
 
+  /// @brief Convert to "::System::IValueTupleInternal"
+  constexpr ::System::IValueTupleInternal* i___System__IValueTupleInternal();
+
   /// @brief Convert operator to "::System::Runtime::CompilerServices::ITuple"
   constexpr operator ::System::Runtime::CompilerServices::ITuple*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::ITuple"
+  constexpr ::System::Runtime::CompilerServices::ITuple* i___System__Runtime__CompilerServices__ITuple();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(T1 item1, T2 item2, T3 item3, T4 item4);

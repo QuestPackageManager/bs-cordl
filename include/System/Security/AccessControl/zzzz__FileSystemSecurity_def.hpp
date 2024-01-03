@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileSystemSecurity)
 namespace System::Security::AccessControl {
-struct PropagationFlags;
+struct AccessControlSections;
+}
+namespace System::Security::AccessControl {
+struct AccessControlType;
 }
 namespace System::Security::AccessControl {
 class AccessRule;
 }
 namespace System::Security::AccessControl {
-struct AccessControlType;
-}
-namespace System::Security::Principal {
-class IdentityReference;
-}
-namespace System::Security::AccessControl {
 struct InheritanceFlags;
 }
 namespace System::Security::AccessControl {
-struct AccessControlSections;
+struct PropagationFlags;
+}
+namespace System::Security::Principal {
+class IdentityReference;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {

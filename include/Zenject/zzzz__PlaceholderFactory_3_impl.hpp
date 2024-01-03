@@ -3,19 +3,25 @@
 #include "Zenject/zzzz__PlaceholderFactoryBase_1_impl.hpp"
 #include "Zenject/zzzz__PlaceholderFactory_3_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "Zenject/zzzz__IFactory_3_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-#include "Zenject/zzzz__IFactory_def.hpp"
-#include "Zenject/zzzz__PlaceholderFactory_3_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "Zenject/zzzz__IFactory_3_def.hpp"
+#include "Zenject/zzzz__IFactory_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "Zenject/zzzz__PlaceholderFactory_3_def.hpp"
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Type*>"
 template <typename TParam1, typename TParam2, typename TValue>
 constexpr Zenject::__PlaceholderFactory_3___get_ParamTypes_d__2<TParam1, TParam2, TValue>::operator ::System::Collections::Generic::IEnumerable_1<::System::Type*>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Type*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Type*>"
+template <typename TParam1, typename TParam2, typename TValue>
+constexpr ::System::Collections::Generic::IEnumerable_1<::System::Type*>*
+Zenject::__PlaceholderFactory_3___get_ParamTypes_d__2<TParam1, TParam2, TValue>::i___System__Collections__Generic__IEnumerable_1___System__Type__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Type*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
@@ -23,9 +29,20 @@ template <typename TParam1, typename TParam2, typename TValue>
 constexpr Zenject::__PlaceholderFactory_3___get_ParamTypes_d__2<TParam1, TParam2, TValue>::operator ::System::Collections::IEnumerable*() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename TParam1, typename TParam2, typename TValue>
+constexpr ::System::Collections::IEnumerable* Zenject::__PlaceholderFactory_3___get_ParamTypes_d__2<TParam1, TParam2, TValue>::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Type*>"
 template <typename TParam1, typename TParam2, typename TValue>
 constexpr Zenject::__PlaceholderFactory_3___get_ParamTypes_d__2<TParam1, TParam2, TValue>::operator ::System::Collections::Generic::IEnumerator_1<::System::Type*>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Type*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Type*>"
+template <typename TParam1, typename TParam2, typename TValue>
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Type*>*
+Zenject::__PlaceholderFactory_3___get_ParamTypes_d__2<TParam1, TParam2, TValue>::i___System__Collections__Generic__IEnumerator_1___System__Type__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Type*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
@@ -33,8 +50,18 @@ template <typename TParam1, typename TParam2, typename TValue>
 constexpr Zenject::__PlaceholderFactory_3___get_ParamTypes_d__2<TParam1, TParam2, TValue>::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::IEnumerator"
+template <typename TParam1, typename TParam2, typename TValue>
+constexpr ::System::Collections::IEnumerator* Zenject::__PlaceholderFactory_3___get_ParamTypes_d__2<TParam1, TParam2, TValue>::i___System__Collections__IEnumerator() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::IDisposable"
 template <typename TParam1, typename TParam2, typename TValue> constexpr Zenject::__PlaceholderFactory_3___get_ParamTypes_d__2<TParam1, TParam2, TValue>::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename TParam1, typename TParam2, typename TValue>
+constexpr ::System::IDisposable* Zenject::__PlaceholderFactory_3___get_ParamTypes_d__2<TParam1, TParam2, TValue>::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 template <typename TParam1, typename TParam2, typename TValue> constexpr int32_t& Zenject::__PlaceholderFactory_3___get_ParamTypes_d__2<TParam1, TParam2, TValue>::__get___1__state() {
@@ -156,8 +183,17 @@ constexpr ::Zenject::__PlaceholderFactory_3___get_ParamTypes_d__2<TParam1, TPara
 template <typename TParam1, typename TParam2, typename TValue> constexpr Zenject::PlaceholderFactory_3<TParam1, TParam2, TValue>::operator ::Zenject::IFactory_3<TParam1, TParam2, TValue>*() noexcept {
   return static_cast<::Zenject::IFactory_3<TParam1, TParam2, TValue>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::Zenject::IFactory_3<TParam1,TParam2,TValue>"
+template <typename TParam1, typename TParam2, typename TValue>
+constexpr ::Zenject::IFactory_3<TParam1, TParam2, TValue>* Zenject::PlaceholderFactory_3<TParam1, TParam2, TValue>::i___Zenject__IFactory_3_TParam1_TParam2_TValue_() noexcept {
+  return static_cast<::Zenject::IFactory_3<TParam1, TParam2, TValue>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::Zenject::IFactory"
 template <typename TParam1, typename TParam2, typename TValue> constexpr Zenject::PlaceholderFactory_3<TParam1, TParam2, TValue>::operator ::Zenject::IFactory*() noexcept {
+  return static_cast<::Zenject::IFactory*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::IFactory"
+template <typename TParam1, typename TParam2, typename TValue> constexpr ::Zenject::IFactory* Zenject::PlaceholderFactory_3<TParam1, TParam2, TValue>::i___Zenject__IFactory() noexcept {
   return static_cast<::Zenject::IFactory*>(static_cast<void*>(this));
 }
 template <typename TParam1, typename TParam2, typename TValue> inline TValue Zenject::PlaceholderFactory_3<TParam1, TParam2, TValue>::Create(TParam1 param1, TParam2 param2) {

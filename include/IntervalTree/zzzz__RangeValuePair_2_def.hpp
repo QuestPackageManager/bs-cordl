@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RangeValuePair_2)
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 // Forward declare root types
 namespace IntervalTree {
@@ -38,6 +38,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::IntervalTree::RangeValuePair_2<TKey,TValue>>"
   constexpr operator ::System::IEquatable_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::IntervalTree::RangeValuePair_2<TKey,TValue>>"
+  constexpr ::System::IEquatable_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>* i___System__IEquatable_1___IntervalTree__RangeValuePair_2_TKey_TValue__();
 
   /// @brief Method get_From, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TKey get_From();

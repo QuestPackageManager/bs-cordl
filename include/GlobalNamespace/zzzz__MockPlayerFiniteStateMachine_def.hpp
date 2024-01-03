@@ -4,29 +4,29 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MockPlayerFiniteStateMachine)
-namespace UnityEngine {
-struct Color;
-}
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class IGameplayRpcManager;
 }
 namespace GlobalNamespace {
 class IMenuRpcManager;
 }
 namespace GlobalNamespace {
-class MockPlayerLobbyPoseGenerator;
-}
-namespace GlobalNamespace {
 class IMockBeatmapDataProvider;
 }
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
 class MockPlayerGamePoseGenerator;
 }
 namespace GlobalNamespace {
-class IGameplayRpcManager;
+class MockPlayerLobbyPoseGenerator;
+}
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -58,6 +58,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   static inline ::GlobalNamespace::MockPlayerFiniteStateMachine* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager,
                                                                           ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, ::GlobalNamespace::IMenuRpcManager* menuRpcManager,

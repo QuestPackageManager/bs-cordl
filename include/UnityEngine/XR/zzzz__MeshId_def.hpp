@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MeshId)
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::XR {
@@ -33,6 +33,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::MeshId>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::MeshId>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::MeshId>"
+  constexpr ::System::IEquatable_1<::UnityEngine::XR::MeshId>* i___System__IEquatable_1___UnityEngine__XR__MeshId_();
 
   static inline void setStaticF_s_InvalidId(::UnityEngine::XR::MeshId value);
 

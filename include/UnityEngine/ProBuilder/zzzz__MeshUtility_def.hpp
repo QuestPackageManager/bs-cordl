@@ -3,46 +3,48 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/zzzz__MeshTopology_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MeshUtility)
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::ProBuilder {
-class __MeshUtility____c;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace UnityEngine::ProBuilder {
-class Vertex;
-}
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace UnityEngine {
-class Mesh;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace UnityEngine {
-struct Vector3;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
+}
+namespace UnityEngine::ProBuilder {
+class Vertex;
+}
+namespace UnityEngine::ProBuilder {
+class __MeshUtility____c;
 }
 namespace UnityEngine {
 struct Bounds;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+struct MeshTopology;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -115,7 +117,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::__MeshU
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10109)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12144))
 // CS Name: ::UnityEngine.ProBuilder::MeshUtility*
 class CORDL_TYPE MeshUtility : public ::System::Object {
@@ -151,15 +153,13 @@ public:
   static inline uint32_t GetPrimitiveCount(::UnityEngine::Mesh* mesh);
 
   /// @brief Method Compile, addr 0x2b52af0, size 0x384, virtual false, abstract: false, final false
-  /// @param preferredTopology: ::UnityEngine::MeshTopology (default: static_cast<int32_t>(0x0))
-  static inline void Compile(::UnityEngine::ProBuilder::ProBuilderMesh* probuilderMesh, ::UnityEngine::Mesh* targetMesh, ::UnityEngine::MeshTopology preferredTopology = static_cast<int32_t>(0x0));
+  static inline void Compile(::UnityEngine::ProBuilder::ProBuilderMesh* probuilderMesh, ::UnityEngine::Mesh* targetMesh, ::UnityEngine::MeshTopology preferredTopology);
 
   /// @brief Method GetVertices, addr 0x2b50d44, size 0x5d0, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::Vertex*, ::Array<::UnityEngine::ProBuilder::Vertex*>*> GetVertices(::UnityEngine::Mesh* mesh);
 
   /// @brief Method CollapseSharedVertices, addr 0x2b534a0, size 0x500, virtual false, abstract: false, final false
-  /// @param vertices: ::ArrayW<::UnityEngine::ProBuilder::Vertex*,::Array<::UnityEngine::ProBuilder::Vertex*>*> (default: nullptr)
-  static inline void CollapseSharedVertices(::UnityEngine::Mesh* mesh, ::ArrayW<::UnityEngine::ProBuilder::Vertex*, ::Array<::UnityEngine::ProBuilder::Vertex*>*> vertices = nullptr);
+  static inline void CollapseSharedVertices(::UnityEngine::Mesh* mesh, ::ArrayW<::UnityEngine::ProBuilder::Vertex*, ::Array<::UnityEngine::ProBuilder::Vertex*>*> vertices);
 
   /// @brief Method FitToSize, addr 0x2b539a0, size 0x31c, virtual false, abstract: false, final false
   static inline void FitToSize(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Bounds currentSize, ::UnityEngine::Vector3 sizeToFit);

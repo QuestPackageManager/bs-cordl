@@ -1,11 +1,16 @@
 #pragma once
 #include "System/Threading/Tasks/zzzz__Task_1_impl.hpp"
 #include "System/Threading/Tasks/zzzz__Task_WhenAllPromise_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__ITaskCompletionAction_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 /// @brief Convert operator to "::System::Threading::Tasks::ITaskCompletionAction"
 template <typename T> constexpr System::Threading::Tasks::__Task__WhenAllPromise_1<T>::operator ::System::Threading::Tasks::ITaskCompletionAction*() noexcept {
+  return static_cast<::System::Threading::Tasks::ITaskCompletionAction*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Threading::Tasks::ITaskCompletionAction"
+template <typename T>
+constexpr ::System::Threading::Tasks::ITaskCompletionAction* System::Threading::Tasks::__Task__WhenAllPromise_1<T>::i___System__Threading__Tasks__ITaskCompletionAction() noexcept {
   return static_cast<::System::Threading::Tasks::ITaskCompletionAction*>(static_cast<void*>(this));
 }
 template <typename T>

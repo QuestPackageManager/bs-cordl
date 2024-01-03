@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::OVRPointerEventData);
 // SizeInfo { instance_size: 384, native_size: -1, calculated_instance_size: 384, calculated_native_size: 384, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10169)), TypeDefinitionIndex(TypeDefinitionIndex(13168))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13168)), TypeDefinitionIndex(TypeDefinitionIndex(10169)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8742))
 // CS Name: ::UnityEngine.EventSystems::OVRPointerEventData*
 class CORDL_TYPE OVRPointerEventData : public ::UnityEngine::EventSystems::PointerEventData {

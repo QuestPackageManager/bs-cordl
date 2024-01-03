@@ -2,17 +2,21 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__MethodProviderMultiple_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__IProvider_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 /// @brief Convert operator to "::Zenject::IProvider"
 template <typename TReturn> constexpr Zenject::MethodProviderMultiple_1<TReturn>::operator ::Zenject::IProvider*() noexcept {
+  return static_cast<::Zenject::IProvider*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::IProvider"
+template <typename TReturn> constexpr ::Zenject::IProvider* Zenject::MethodProviderMultiple_1<TReturn>::i___Zenject__IProvider() noexcept {
   return static_cast<::Zenject::IProvider*>(static_cast<void*>(this));
 }
 template <typename TReturn> constexpr ::Zenject::DiContainer*& Zenject::MethodProviderMultiple_1<TReturn>::__get__container() {

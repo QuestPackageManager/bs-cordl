@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(ListFacetsChecker)
 namespace System::Collections {
 class ArrayList;
 }
-namespace System {
-class Object;
+namespace System::Xml::Schema {
+class XmlSchemaDatatype;
 }
 namespace System {
 class Exception;
 }
-namespace System::Xml::Schema {
-class XmlSchemaDatatype;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

@@ -9,23 +9,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Cookie)
+namespace System::Collections {
+class IComparer;
+}
 namespace System::Net {
 class Comparer;
 }
-namespace System {
-class Uri;
+namespace System::Net {
+struct CookieVariant;
 }
 namespace System {
 struct DateTime;
 }
-namespace System::Collections {
-class IComparer;
-}
 namespace System {
 class Object;
 }
-namespace System::Net {
-struct CookieVariant;
+namespace System {
+class Uri;
 }
 // Forward declare root types
 namespace System::Net {
@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::System::Net::Cookie);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 154, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(9119)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9119)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9120))
 // CS Name: ::System.Net::Cookie*
 class CORDL_TYPE Cookie : public ::System::Object {

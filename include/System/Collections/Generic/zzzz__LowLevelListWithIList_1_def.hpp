@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LowLevelListWithIList_1)
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
 }
 namespace System::Collections::Generic {
-template <typename T> struct __LowLevelListWithIList_1__Enumerator;
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
+}
+namespace System::Collections::Generic {
+template <typename T> struct __LowLevelListWithIList_1__Enumerator;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class IDisposable;
@@ -62,11 +62,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<T>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<T>* i___System__Collections__Generic__IEnumerator_1_T_();
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*();
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::LowLevelListWithIList_1<T>* list);
@@ -122,7 +131,7 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3859)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3859), inst: 2653 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3859), inst: 2653 }), TypeDefinitionIndex(TypeDefinitionIndex(3859))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3861))
 // CS Name: ::System.Collections.Generic::LowLevelListWithIList`1<T>*
 class CORDL_TYPE LowLevelListWithIList_1 : public ::System::Collections::Generic::LowLevelList_1<T> {
@@ -135,14 +144,26 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IList_1<T>"
   constexpr operator ::System::Collections::Generic::IList_1<T>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IList_1<T>"
+  constexpr ::System::Collections::Generic::IList_1<T>* i___System__Collections__Generic__IList_1_T_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<T>"
   constexpr operator ::System::Collections::Generic::ICollection_1<T>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::ICollection_1<T>"
+  constexpr ::System::Collections::Generic::ICollection_1<T>* i___System__Collections__Generic__ICollection_1_T_() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>* i___System__Collections__Generic__IEnumerable_1_T_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   static inline ::System::Collections::Generic::LowLevelListWithIList_1<T>* New_ctor();
 

@@ -7,16 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(JPath)
 namespace Newtonsoft::Json::Linq::JsonPath {
-class QueryExpression;
-}
-namespace System {
-class Object;
-}
-namespace Newtonsoft::Json::Linq::JsonPath {
 class PathFilter;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace Newtonsoft::Json::Linq::JsonPath {
+class QueryExpression;
 }
 namespace Newtonsoft::Json::Linq::JsonPath {
 struct QueryOperator;
@@ -25,7 +19,13 @@ namespace Newtonsoft::Json::Linq {
 class JToken;
 }
 namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq::JsonPath {

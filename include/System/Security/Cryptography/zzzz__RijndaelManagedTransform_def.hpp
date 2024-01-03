@@ -11,19 +11,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RijndaelManagedTransform)
 namespace System::Security::Cryptography {
+struct CipherMode;
+}
+namespace System::Security::Cryptography {
 class ICryptoTransform;
 }
 namespace System::Security::Cryptography {
 struct PaddingMode;
 }
 namespace System::Security::Cryptography {
-struct CipherMode;
+struct RijndaelManagedTransformMode;
 }
 namespace System {
 class IDisposable;
-}
-namespace System::Security::Cryptography {
-struct RijndaelManagedTransformMode;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {
@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::RijndaelManagedTransform);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2921)), TypeDefinitionIndex(TypeDefinitionIndex(2951)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2921)), TypeDefinitionIndex(TypeDefinitionIndex(2951)),
 // TypeDefinitionIndex(TypeDefinitionIndex(2922))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2952)) CS Name: ::System.Security.Cryptography::RijndaelManagedTransform*
 class CORDL_TYPE RijndaelManagedTransform : public ::System::Object {
 public:
@@ -121,8 +121,14 @@ public:
   /// @brief Convert operator to "::System::Security::Cryptography::ICryptoTransform"
   constexpr operator ::System::Security::Cryptography::ICryptoTransform*() noexcept;
 
+  /// @brief Convert to "::System::Security::Cryptography::ICryptoTransform"
+  constexpr ::System::Security::Cryptography::ICryptoTransform* i___System__Security__Cryptography__ICryptoTransform() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::System::Security::Cryptography::CipherMode& __get_m_cipherMode();
 

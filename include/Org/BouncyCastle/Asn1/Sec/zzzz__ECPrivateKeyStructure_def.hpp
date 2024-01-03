@@ -6,22 +6,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ECPrivateKeyStructure)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerBitString;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class DerBitString;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Sec {

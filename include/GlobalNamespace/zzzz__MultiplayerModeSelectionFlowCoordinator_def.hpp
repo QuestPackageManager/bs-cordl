@@ -9,115 +9,24 @@ CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerModeSelectionFlowCoordinator)
-namespace GlobalNamespace {
-class IAnalyticsModel;
-}
-namespace GlobalNamespace {
-class MultiplayerLobbyConnectionController;
-}
-namespace UnityEngine {
-class AudioClip;
-}
-namespace HMUI {
-struct __ViewController__AnimationType;
-}
-namespace GlobalNamespace {
-class ServerCodeEntryViewController;
-}
-namespace GlobalNamespace {
-class SongPackMasksModel;
-}
-namespace GlobalNamespace {
-class CreateServerViewController;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace GlobalNamespace {
-class FadeInOutController;
-}
-namespace GlobalNamespace {
-class XPlatformAuthFeatureFlag;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class TaskCompletionSource_1;
-}
-namespace GlobalNamespace {
-class QuickPlaySetupData;
-}
-namespace HMUI {
-class ViewController;
-}
-namespace GlobalNamespace {
-class INetworkPlayerModel;
-}
-namespace GlobalNamespace {
-struct CreateServerFormData;
-}
-namespace GlobalNamespace {
-struct __MultiplayerLobbyConnectionController__LobbyConnectionType;
-}
-namespace GlobalNamespace {
-class IQuickPlaySetupModel;
-}
-namespace GlobalNamespace {
-class SelectMultiplayerLobbyDestination;
-}
 namespace BeatSaber::AvatarCore {
 class AvatarSystemCollection;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
-}
-namespace GlobalNamespace {
-class IUnifiedNetworkPlayerModel;
-}
-namespace GlobalNamespace {
-class SimpleDialogPromptViewController;
-}
-namespace GlobalNamespace {
-class SongPreviewPlayer;
-}
-namespace GlobalNamespace {
-class ILobbyGameStateController;
-}
-namespace System::Threading {
-class CancellationTokenSource;
 }
 namespace GlobalNamespace {
 struct ConnectionFailedReason;
 }
 namespace GlobalNamespace {
-class JoiningLobbyViewController;
-}
-namespace System {
-class Exception;
+struct CreateServerFormData;
 }
 namespace GlobalNamespace {
-class LobbyDataModelsManager;
+class CreateServerViewController;
 }
 namespace GlobalNamespace {
-class JoinQuickPlayViewController;
-}
-namespace GlobalNamespace {
-struct MultiplayerUnavailableReason;
-}
-namespace GlobalNamespace {
-struct __MultiplayerModeSelectionFlowCoordinator___ResolveAndPresentNextFlowCoordinator_d__52;
-}
-namespace GlobalNamespace {
-struct __MultiplayerModeSelectionViewController__MenuButton;
-}
-namespace GlobalNamespace {
-struct __MultiplayerModeSelectionFlowCoordinator___TryShowModeSelection_d__51;
+class FadeInOutController;
 }
 namespace GlobalNamespace {
 class GameServerBrowserFlowCoordinator;
@@ -126,31 +35,124 @@ namespace GlobalNamespace {
 class GameServerLobbyFlowCoordinator;
 }
 namespace GlobalNamespace {
-struct __MultiplayerModeSelectionFlowCoordinator___HandleConnectedPlayerManagerCreated_d__50;
+class IAnalyticsModel;
+}
+namespace GlobalNamespace {
+class ILobbyGameStateController;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+class IMultiplayerStatusModel;
+}
+namespace GlobalNamespace {
+class INetworkPlayerModel;
+}
+namespace GlobalNamespace {
+class IQuickPlaySetupModel;
+}
+namespace GlobalNamespace {
+class IUnifiedNetworkPlayerModel;
+}
+namespace GlobalNamespace {
+class JoinQuickPlayViewController;
+}
+namespace GlobalNamespace {
+class JoiningLobbyViewController;
+}
+namespace GlobalNamespace {
+class LobbyDataModelsManager;
+}
+namespace GlobalNamespace {
+struct MultiplayerAvatarsData;
+}
+namespace GlobalNamespace {
+class MultiplayerLobbyConnectionController;
 }
 namespace GlobalNamespace {
 class MultiplayerModeSelectionViewController;
 }
 namespace GlobalNamespace {
-class IMultiplayerStatusModel;
+class MultiplayerStatusData;
+}
+namespace GlobalNamespace {
+struct MultiplayerUnavailableReason;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
+}
+namespace GlobalNamespace {
+class QuickPlaySetupData;
+}
+namespace GlobalNamespace {
+class SelectMultiplayerLobbyDestination;
+}
+namespace GlobalNamespace {
+class ServerCodeEntryViewController;
+}
+namespace GlobalNamespace {
+class SimpleDialogPromptViewController;
+}
+namespace GlobalNamespace {
+class SongPackMasksModel;
+}
+namespace GlobalNamespace {
+class SongPreviewPlayer;
+}
+namespace GlobalNamespace {
+class XPlatformAuthFeatureFlag;
+}
+namespace GlobalNamespace {
+struct __MultiplayerLobbyConnectionController__LobbyConnectionType;
+}
+namespace GlobalNamespace {
+struct __MultiplayerModeSelectionFlowCoordinator___HandleConnectedPlayerManagerCreated_d__50;
+}
+namespace GlobalNamespace {
+struct __MultiplayerModeSelectionFlowCoordinator___ResolveAndPresentNextFlowCoordinator_d__52;
+}
+namespace GlobalNamespace {
+struct __MultiplayerModeSelectionFlowCoordinator___TryShowModeSelection_d__51;
+}
+namespace GlobalNamespace {
+struct __MultiplayerModeSelectionViewController__MenuButton;
+}
+namespace HMUI {
+class ViewController;
+}
+namespace HMUI {
+struct __ViewController__AnimationType;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
-}
-namespace GlobalNamespace {
-struct MultiplayerAvatarsData;
+template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
 }
-namespace GlobalNamespace {
-class MultiplayerStatusData;
+namespace System::Threading::Tasks {
+template <typename TResult> class TaskCompletionSource_1;
+}
+namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+class Exception;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace UnityEngine {
+class AudioClip;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -174,14 +176,17 @@ MARK_VAL_T(::GlobalNamespace::__MultiplayerModeSelectionFlowCoordinator___TrySho
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 893 }), TypeDefinitionIndex(TypeDefinitionIndex(15021)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5513)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 893
+// }), TypeDefinitionIndex(TypeDefinitionIndex(15021))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5513)) CS Name:
 // ::MultiplayerModeSelectionFlowCoordinator::<HandleConnectedPlayerManagerCreated>d__50
 struct CORDL_TYPE __MultiplayerModeSelectionFlowCoordinator___HandleConnectedPlayerManagerCreated_d__50 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x22991c0, size 0x3d4, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -239,15 +244,18 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerModeSelectionFlowCoordina
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 898 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 894 }), TypeDefinitionIndex(TypeDefinitionIndex(4472)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4480)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5514)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 894 }), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(3394), inst: 898 }), TypeDefinitionIndex(TypeDefinitionIndex(4480)), TypeDefinitionIndex(TypeDefinitionIndex(4472)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3394), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3400))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5514)) CS Name:
 // ::MultiplayerModeSelectionFlowCoordinator::<TryShowModeSelection>d__51
 struct CORDL_TYPE __MultiplayerModeSelectionFlowCoordinator___TryShowModeSelection_d__51 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x22995a0, size 0xae8, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -334,6 +342,9 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+
   /// @brief Method MoveNext, addr 0x229a094, size 0x430, virtual true, abstract: false, final true
   inline void MoveNext();
 
@@ -390,8 +401,9 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerModeSelectionFlowCoordina
 // SizeInfo { instance_size: 408, native_size: -1, calculated_instance_size: 408, calculated_native_size: 408, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13582)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 333 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5516)) CS Name: ::MultiplayerModeSelectionFlowCoordinator*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13582))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5516))
+// CS Name: ::MultiplayerModeSelectionFlowCoordinator*
 class CORDL_TYPE MultiplayerModeSelectionFlowCoordinator : public ::HMUI::FlowCoordinator {
 public:
   // Declarations
@@ -752,10 +764,8 @@ public:
   inline void PresentConnectionErrorDialog(::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionType connectionType, ::GlobalNamespace::ConnectionFailedReason reason);
 
   /// @brief Method PresentMasterServerUnavailableErrorDialog, addr 0x2298ab8, size 0x44c, virtual false, abstract: false, final false
-  /// @param maintenanceWindowEndTime: ::System::Nullable_1<int64_t> (default: {})
-  /// @param remoteLocalizedMessage: ::StringW (default: nullptr)
-  inline void PresentMasterServerUnavailableErrorDialog(::GlobalNamespace::MultiplayerUnavailableReason reason, ::System::Exception* exception,
-                                                        ::System::Nullable_1<int64_t> maintenanceWindowEndTime = {}, ::StringW remoteLocalizedMessage = nullptr);
+  inline void PresentMasterServerUnavailableErrorDialog(::GlobalNamespace::MultiplayerUnavailableReason reason, ::System::Exception* exception, ::System::Nullable_1<int64_t> maintenanceWindowEndTime,
+                                                        ::StringW remoteLocalizedMessage);
 
   /// @brief Method ProcessDeeplinkingToLobby, addr 0x2298f04, size 0xf4, virtual false, abstract: false, final false
   inline void ProcessDeeplinkingToLobby();

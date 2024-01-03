@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsExtensionsUtilities)
 namespace Org::BouncyCastle::Crypto::Tls {
-class ServerNameList;
-}
-namespace System::Collections {
-class IDictionary;
+class CertificateStatusRequest;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class HeartbeatExtension;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class CertificateStatusRequest;
+class ServerNameList;
+}
+namespace System::Collections {
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

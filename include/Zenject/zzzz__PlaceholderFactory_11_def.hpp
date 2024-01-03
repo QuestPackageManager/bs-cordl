@@ -7,14 +7,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlaceholderFactory_11)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class IDisposable;
+}
 namespace System {
 class Object;
 }
-namespace Zenject {
-class InjectTypeInfo;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System {
+class Type;
 }
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
@@ -25,24 +37,12 @@ namespace Zenject {
 class IFactory;
 }
 namespace Zenject {
+class InjectTypeInfo;
+}
+namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
           typename TValue>
 class __PlaceholderFactory_11___get_ParamTypes_d__2;
-}
-namespace System {
-class Type;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 // Forward declare root types
 namespace Zenject {
@@ -87,17 +87,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Type*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::System::Type*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Type*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::System::Type*>* i___System__Collections__Generic__IEnumerable_1___System__Type__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Type*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Type*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Type*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Type*>* i___System__Collections__Generic__IEnumerator_1___System__Type__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -184,7 +199,7 @@ namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
           typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11026)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11026), inst: 4828 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11026), inst: 4828 }), TypeDefinitionIndex(TypeDefinitionIndex(11026))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11023))
 // CS Name: ::Zenject::PlaceholderFactory`11<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10,TValue>*
 class CORDL_TYPE PlaceholderFactory_11 : public ::Zenject::PlaceholderFactoryBase_1<TValue> {
@@ -197,8 +212,15 @@ public:
   /// @brief Convert operator to "::Zenject::IFactory_11<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10,TValue>"
   constexpr operator ::Zenject::IFactory_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TValue>*() noexcept;
 
+  /// @brief Convert to "::Zenject::IFactory_11<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10,TValue>"
+  constexpr ::Zenject::IFactory_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TValue>*
+  i___Zenject__IFactory_11_TParam1_TParam2_TParam3_TParam4_TParam5_TParam6_TParam7_TParam8_TParam9_TParam10_TValue_() noexcept;
+
   /// @brief Convert operator to "::Zenject::IFactory"
   constexpr operator ::Zenject::IFactory*() noexcept;
+
+  /// @brief Convert to "::Zenject::IFactory"
+  constexpr ::Zenject::IFactory* i___Zenject__IFactory() noexcept;
 
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline TValue Create(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4, TParam5 param5, TParam6 param6, TParam7 param7, TParam8 param8, TParam9 param9, TParam10 param10);

@@ -7,15 +7,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FixedBitArray3)
-namespace System {
-class Object;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
@@ -23,7 +14,16 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class __FixedBitArray3___Enumerate_d__10;
@@ -55,8 +55,14 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<bool>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<bool>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<bool>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<bool>* i___System__Collections__Generic__IEnumerable_1_bool_();
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable();
 
   /// @brief Method get_Item, addr 0x2b30130, size 0x6c, virtual false, abstract: false, final false
   inline bool get_Item(int32_t index);
@@ -121,7 +127,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3, _2) 
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15351)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15351))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15350))
 // CS Name: ::FixedBitArray3::<Enumerate>d__10*
 class CORDL_TYPE __FixedBitArray3___Enumerate_d__10 : public ::System::Object {
@@ -152,17 +158,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<bool>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<bool>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<bool>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<bool>* i___System__Collections__Generic__IEnumerable_1_bool_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<bool>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<bool>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<bool>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<bool>* i___System__Collections__Generic__IEnumerator_1_bool_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

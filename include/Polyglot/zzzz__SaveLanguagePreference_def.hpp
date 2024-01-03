@@ -30,6 +30,9 @@ public:
   /// @brief Convert operator to "::Polyglot::ILocalize"
   constexpr operator ::Polyglot::ILocalize*() noexcept;
 
+  /// @brief Convert to "::Polyglot::ILocalize"
+  constexpr ::Polyglot::ILocalize* i___Polyglot__ILocalize() noexcept;
+
   constexpr ::StringW& __get_preferenceKey();
 
   constexpr ::StringW const& __get_preferenceKey() const;

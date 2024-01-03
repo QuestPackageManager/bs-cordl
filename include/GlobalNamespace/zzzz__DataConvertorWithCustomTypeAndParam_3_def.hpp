@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(DataConvertorWithCustomTypeAndParam_3)
 namespace GlobalNamespace {
 template <typename TOut, typename TParam> class DataItemConvertor_2;
 }
-namespace System {
-class Object;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {

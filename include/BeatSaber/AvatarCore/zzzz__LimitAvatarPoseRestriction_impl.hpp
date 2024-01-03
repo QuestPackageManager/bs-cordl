@@ -2,10 +2,10 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "BeatSaber/AvatarCore/zzzz__LimitAvatarPoseRestriction_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "BeatSaber/AvatarCore/zzzz__LimitAvatarPoseRestriction_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__IAvatarPoseRestriction_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__LimitAvatarPoseRestriction_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters._ctor
 template <>
 
@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0xe0f8d8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters*>::get(), ".ctor",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -149,7 +149,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1f4;
   constexpr static std::size_t addrs = 0xe0f638;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::LimitAvatarPoseRestriction*>::get(), "RestrictPose", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{
@@ -168,7 +168,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0xe0f82c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::LimitAvatarPoseRestriction*>::get(), "LimitHandPositionRelativeToHead", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
@@ -184,7 +184,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0xe0f8d0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::LimitAvatarPoseRestriction*>::get(),
                                                                                ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -192,6 +192,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::BeatSaber::AvatarCore::IAvatarPoseRestriction"
 constexpr BeatSaber::AvatarCore::LimitAvatarPoseRestriction::operator ::BeatSaber::AvatarCore::IAvatarPoseRestriction*() noexcept {
+  return static_cast<::BeatSaber::AvatarCore::IAvatarPoseRestriction*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::BeatSaber::AvatarCore::IAvatarPoseRestriction"
+constexpr ::BeatSaber::AvatarCore::IAvatarPoseRestriction* BeatSaber::AvatarCore::LimitAvatarPoseRestriction::i___BeatSaber__AvatarCore__IAvatarPoseRestriction() noexcept {
   return static_cast<::BeatSaber::AvatarCore::IAvatarPoseRestriction*>(static_cast<void*>(this));
 }
 constexpr ::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters*& BeatSaber::AvatarCore::LimitAvatarPoseRestriction::__get__parameters() {

@@ -7,14 +7,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OneOrMore_2)
-namespace System {
-class Object;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-class IDisposable;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
@@ -22,17 +16,23 @@ template <typename T> class IEnumerator_1;
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyCollection_1;
 }
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue, typename TList> class __OneOrMore_2__Enumerator;
-}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace System::Collections {
 class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue, typename TList> class __OneOrMore_2__Enumerator;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -65,14 +65,26 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyList_1<TValue>"
   constexpr operator ::System::Collections::Generic::IReadOnlyList_1<TValue>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IReadOnlyList_1<TValue>"
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<TValue>* i___System__Collections__Generic__IReadOnlyList_1_TValue_();
+
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TValue>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TValue>*();
+
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TValue>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<TValue>* i___System__Collections__Generic__IEnumerable_1_TValue_();
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
 
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable();
+
   /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<TValue>"
   constexpr operator ::System::Collections::Generic::IReadOnlyCollection_1<TValue>*();
+
+  /// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<TValue>"
+  constexpr ::System::Collections::Generic::IReadOnlyCollection_1<TValue>* i___System__Collections__Generic__IReadOnlyCollection_1_TValue_();
 
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_Count();
@@ -128,8 +140,8 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue, typename TList>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6697)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6697), inst: 4802
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6696)) CS Name: ::OneOrMore`2::Enumerator<TValue,TList>*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6697), inst: 4802 }), TypeDefinitionIndex(TypeDefinitionIndex(6697)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6696)) CS Name: ::OneOrMore`2::Enumerator<TValue,TList>*
 class CORDL_TYPE __OneOrMore_2__Enumerator : public ::System::Object {
 public:
   // Declarations
@@ -146,11 +158,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TValue>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<TValue>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TValue>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<TValue>* i___System__Collections__Generic__IEnumerator_1_TValue_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get_m_Index();
 

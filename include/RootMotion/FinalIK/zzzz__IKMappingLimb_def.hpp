@@ -10,22 +10,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IKMappingLimb)
 namespace RootMotion::FinalIK {
-struct __IKMappingLimb__BoneMapType;
-}
-namespace UnityEngine {
-class Transform;
+class IKSolverFullBody;
 }
 namespace RootMotion::FinalIK {
 class IKSolver;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace RootMotion::FinalIK {
+struct __IKMappingLimb__BoneMapType;
 }
 namespace RootMotion::FinalIK {
 class __IKMapping__BoneMap;
 }
-namespace RootMotion::FinalIK {
-class IKSolverFullBody;
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -223,12 +223,10 @@ public:
   static inline ::RootMotion::FinalIK::IKMappingLimb* New_ctor(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3, ::UnityEngine::Transform* parentBone);
 
   /// @brief Method .ctor, addr 0x125c8e4, size 0x148, virtual false, abstract: false, final false
-  /// @param parentBone: ::UnityEngine::Transform* (default: nullptr)
-  inline void _ctor(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3, ::UnityEngine::Transform* parentBone = nullptr);
+  inline void _ctor(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3, ::UnityEngine::Transform* parentBone);
 
   /// @brief Method SetBones, addr 0x125ca2c, size 0xc, virtual false, abstract: false, final false
-  /// @param parentBone: ::UnityEngine::Transform* (default: nullptr)
-  inline void SetBones(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3, ::UnityEngine::Transform* parentBone = nullptr);
+  inline void SetBones(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3, ::UnityEngine::Transform* parentBone);
 
   /// @brief Method StoreDefaultLocalState, addr 0x125ca38, size 0x98, virtual false, abstract: false, final false
   inline void StoreDefaultLocalState();

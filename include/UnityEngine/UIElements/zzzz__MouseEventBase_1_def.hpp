@@ -8,28 +8,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MouseEventBase_1)
 namespace UnityEngine::UIElements {
-class IMouseEvent;
+class IEventHandler;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::UIElements {
+class IMouseEventInternal;
+}
+namespace UnityEngine::UIElements {
+class IMouseEvent;
 }
 namespace UnityEngine::UIElements {
 class IPanel;
 }
-namespace UnityEngine {
-class Event;
-}
 namespace UnityEngine::UIElements {
-class IEventHandler;
+class IPointerEvent;
 }
 namespace UnityEngine {
 struct EventModifiers;
 }
-namespace UnityEngine::UIElements {
-class IPointerEvent;
+namespace UnityEngine {
+class Event;
 }
-namespace UnityEngine::UIElements {
-class IMouseEventInternal;
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -43,8 +43,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1714 }), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7180)), TypeDefinitionIndex(TypeDefinitionIndex(14602))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7215)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14602)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1714 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(7180)), TypeDefinitionIndex(TypeDefinitionIndex(10243))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7215)) CS Name:
 // ::UnityEngine.UIElements::MouseEventBase`1<T>*
 class CORDL_TYPE MouseEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
@@ -121,8 +121,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IMouseEvent"
   constexpr operator ::UnityEngine::UIElements::IMouseEvent*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::UIElements::IMouseEvent"
+  constexpr ::UnityEngine::UIElements::IMouseEvent* i___UnityEngine__UIElements__IMouseEvent() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::UIElements::IMouseEventInternal"
   constexpr operator ::UnityEngine::UIElements::IMouseEventInternal*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UIElements::IMouseEventInternal"
+  constexpr ::UnityEngine::UIElements::IMouseEventInternal* i___UnityEngine__UIElements__IMouseEventInternal() noexcept;
 
   constexpr ::UnityEngine::EventModifiers& __get__modifiers_k__BackingField();
 

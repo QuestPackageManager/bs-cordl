@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FocusChangeDirection)
-namespace UnityEngine::UIElements {
-class Focusable;
-}
 namespace System {
 class IDisposable;
 }
 namespace UnityEngine::UIElements {
 class FocusController;
+}
+namespace UnityEngine::UIElements {
+class Focusable;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -45,6 +45,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get_m_Value();
 

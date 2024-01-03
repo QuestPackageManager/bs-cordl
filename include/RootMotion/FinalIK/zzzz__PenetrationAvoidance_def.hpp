@@ -10,17 +10,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(PenetrationAvoidance)
-namespace RootMotion::FinalIK {
-class __PenetrationAvoidance__Avoider;
+namespace GlobalNamespace {
+class __PenetrationAvoidance__Avoider__EffectorLink;
 }
 namespace RootMotion::FinalIK {
 class IKSolverFullBodyBiped;
 }
+namespace RootMotion::FinalIK {
+class __PenetrationAvoidance__Avoider;
+}
 namespace UnityEngine {
 class Transform;
-}
-namespace GlobalNamespace {
-class __PenetrationAvoidance__Avoider__EffectorLink;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -43,7 +43,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__PenetrationAvoidance__Avoider);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12571)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12571))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12661))
 // CS Name: ::PenetrationAvoidance::Avoider::EffectorLink*
 class CORDL_TYPE __PenetrationAvoidance__Avoider__EffectorLink : public ::System::Object {

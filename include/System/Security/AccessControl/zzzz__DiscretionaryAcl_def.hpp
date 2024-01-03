@@ -6,22 +6,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DiscretionaryAcl)
 namespace System::Security::AccessControl {
+struct AccessControlType;
+}
+namespace System::Security::AccessControl {
+struct AceQualifier;
+}
+namespace System::Security::AccessControl {
 class GenericAce;
+}
+namespace System::Security::AccessControl {
+struct InheritanceFlags;
 }
 namespace System::Security::AccessControl {
 struct PropagationFlags;
 }
 namespace System::Security::Principal {
 class SecurityIdentifier;
-}
-namespace System::Security::AccessControl {
-struct InheritanceFlags;
-}
-namespace System::Security::AccessControl {
-struct AccessControlType;
-}
-namespace System::Security::AccessControl {
-struct AceQualifier;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {

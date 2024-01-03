@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::TrackMediaType);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13852)), TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(13852))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13914))
 // CS Name: ::UnityEngine.Timeline::TrackMediaType*
 class CORDL_TYPE TrackMediaType : public ::System::Attribute {

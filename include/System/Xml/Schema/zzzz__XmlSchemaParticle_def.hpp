@@ -85,7 +85,7 @@ static_assert(offsetof(::System::Xml::Schema::__XmlSchemaParticle__Occurs, value
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2655)), TypeDefinitionIndex(TypeDefinitionIndex(11714)), TypeDefinitionIndex(TypeDefinitionIndex(11732))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11714)), TypeDefinitionIndex(TypeDefinitionIndex(2655)), TypeDefinitionIndex(TypeDefinitionIndex(11732))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11734))
 // CS Name: ::System.Xml.Schema::XmlSchemaParticle*
 class CORDL_TYPE XmlSchemaParticle : public ::System::Xml::Schema::XmlSchemaAnnotated {

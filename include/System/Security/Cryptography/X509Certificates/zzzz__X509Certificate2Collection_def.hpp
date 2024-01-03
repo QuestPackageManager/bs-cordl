@@ -11,10 +11,10 @@ namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate2Enumerator;
 }
 namespace System::Security::Cryptography::X509Certificates {
-struct X509FindType;
+class X509Certificate2;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2;
+struct X509FindType;
 }
 namespace System {
 class Object;

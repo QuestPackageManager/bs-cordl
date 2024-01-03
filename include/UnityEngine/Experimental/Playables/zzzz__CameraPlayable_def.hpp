@@ -33,8 +33,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
+  /// @brief Convert to "::UnityEngine::Playables::IPlayable"
+  constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Experimental::Playables::CameraPlayable>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Experimental::Playables::CameraPlayable>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Experimental::Playables::CameraPlayable>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Experimental::Playables::CameraPlayable>* i___System__IEquatable_1___UnityEngine__Experimental__Playables__CameraPlayable_();
 
   /// @brief Method GetHandle, addr 0x2cf4834, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();

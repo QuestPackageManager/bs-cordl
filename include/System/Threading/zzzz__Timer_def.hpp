@@ -7,32 +7,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Timer)
-namespace System::Threading {
-class TimerCallback;
-}
-namespace System {
-class IDisposable;
-}
-namespace System {
-struct TimeSpan;
-}
-namespace System {
-class IAsyncDisposable;
-}
-namespace System::Threading::Tasks {
-struct ValueTask;
-}
-namespace System {
-class Object;
-}
-namespace System::Threading {
-struct __Timer__TimerComparer;
-}
-namespace System::Threading {
-class __Timer__Scheduler;
-}
-namespace System::Threading {
-class ManualResetEvent;
+namespace System::Collections::Generic {
+template <typename T> class IComparer_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -40,8 +16,32 @@ template <typename T> class List_1;
 namespace System::Collections {
 class IComparer;
 }
-namespace System::Collections::Generic {
-template <typename T> class IComparer_1;
+namespace System::Threading::Tasks {
+struct ValueTask;
+}
+namespace System::Threading {
+class ManualResetEvent;
+}
+namespace System::Threading {
+class TimerCallback;
+}
+namespace System::Threading {
+class __Timer__Scheduler;
+}
+namespace System::Threading {
+struct __Timer__TimerComparer;
+}
+namespace System {
+class IAsyncDisposable;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace System {
+struct TimeSpan;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -71,8 +71,14 @@ public:
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*();
 
+  /// @brief Convert to "::System::Collections::IComparer"
+  constexpr ::System::Collections::IComparer* i___System__Collections__IComparer();
+
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::System::Threading::Timer*>"
   constexpr operator ::System::Collections::Generic::IComparer_1<::System::Threading::Timer*>*();
+
+  /// @brief Convert to "::System::Collections::Generic::IComparer_1<::System::Threading::Timer*>"
+  constexpr ::System::Collections::Generic::IComparer_1<::System::Threading::Timer*>* i___System__Collections__Generic__IComparer_1___System__Threading__Timer__();
 
   /// @brief Method System.Collections.IComparer.Compare, addr 0x262002c, size 0x98, virtual true, abstract: false, final true
   inline int32_t System_Collections_IComparer_Compare(::System::Object* x, ::System::Object* y);
@@ -269,8 +275,14 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::IAsyncDisposable"
   constexpr operator ::System::IAsyncDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IAsyncDisposable"
+  constexpr ::System::IAsyncDisposable* i___System__IAsyncDisposable() noexcept;
 
   constexpr ::System::Threading::TimerCallback*& __get_callback();
 

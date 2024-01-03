@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(EnvironmentStartEndSongAudioEffect)
 namespace GlobalNamespace {
-class IGamePause;
-}
-namespace UnityEngine {
-class AudioClip;
-}
-namespace GlobalNamespace {
-class ILevelEndActions;
+class EnvironmentAudioEffectsPlayer;
 }
 namespace GlobalNamespace {
 class IAudioTimeSource;
 }
 namespace GlobalNamespace {
-class EnvironmentAudioEffectsPlayer;
+class IGamePause;
+}
+namespace GlobalNamespace {
+class ILevelEndActions;
+}
+namespace UnityEngine {
+class AudioClip;
 }
 // Forward declare root types
 namespace GlobalNamespace {

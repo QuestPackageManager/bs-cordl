@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(X509CollectionStore)
-namespace System::Collections {
-class ICollection;
-}
 namespace Org::BouncyCastle::X509::Store {
 class IX509Selector;
 }
 namespace Org::BouncyCastle::X509::Store {
 class IX509Store;
+}
+namespace System::Collections {
+class ICollection;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509::Store {
@@ -34,6 +34,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::X509::Store::IX509Store"
   constexpr operator ::Org::BouncyCastle::X509::Store::IX509Store*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::X509::Store::IX509Store"
+  constexpr ::Org::BouncyCastle::X509::Store::IX509Store* i___Org__BouncyCastle__X509__Store__IX509Store() noexcept;
 
   constexpr ::System::Collections::ICollection*& __get__local();
 

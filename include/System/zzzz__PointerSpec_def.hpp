@@ -37,6 +37,9 @@ public:
   /// @brief Convert operator to "::System::ModifierSpec"
   constexpr operator ::System::ModifierSpec*() noexcept;
 
+  /// @brief Convert to "::System::ModifierSpec"
+  constexpr ::System::ModifierSpec* i___System__ModifierSpec() noexcept;
+
   constexpr int32_t& __get_pointer_level();
 
   constexpr int32_t const& __get_pointer_level() const;

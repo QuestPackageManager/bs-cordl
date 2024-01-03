@@ -6,29 +6,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlReader)
-namespace System::Xml {
-class XmlNameTable;
-}
-namespace System::Xml {
-class IDtdInfo;
+namespace System::IO {
+class Stream;
 }
 namespace System::Xml::Schema {
 class IXmlSchemaInfo;
 }
 namespace System::Xml {
-struct XmlNodeType;
-}
-namespace System {
-class IDisposable;
+class IDtdInfo;
 }
 namespace System::Xml {
 struct ReadState;
 }
-namespace System::IO {
-class Stream;
+namespace System::Xml {
+class XmlNameTable;
+}
+namespace System::Xml {
+struct XmlNodeType;
 }
 namespace System::Xml {
 class XmlReaderSettings;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -87,6 +87,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   static inline void setStaticF_IsTextualNodeBitmap(uint32_t value);
 

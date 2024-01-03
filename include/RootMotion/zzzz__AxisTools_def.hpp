@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(AxisTools)
-namespace UnityEngine {
-class Transform;
-}
 namespace RootMotion {
 struct Axis;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 namespace UnityEngine {
-struct Quaternion;
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion {

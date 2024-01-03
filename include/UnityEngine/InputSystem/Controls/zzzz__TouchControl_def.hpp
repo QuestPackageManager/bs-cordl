@@ -5,32 +5,32 @@ CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/LowLevel/zzzz__TouchState_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_1_def.hpp"
 CORDL_MODULE_EXPORT(TouchControl)
-namespace UnityEngine::InputSystem::LowLevel {
-struct TouchState;
-}
 namespace UnityEngine::InputSystem::Controls {
-class Vector2Control;
-}
-namespace UnityEngine::InputSystem::Controls {
-class TouchPressControl;
-}
-namespace UnityEngine::InputSystem::Controls {
-class IntegerControl;
-}
-namespace UnityEngine::InputSystem::Controls {
-class DoubleControl;
+class AxisControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class TouchPhaseControl;
-}
-namespace UnityEngine::InputSystem::Controls {
 class DeltaControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class AxisControl;
+class DoubleControl;
+}
+namespace UnityEngine::InputSystem::Controls {
+class IntegerControl;
+}
+namespace UnityEngine::InputSystem::Controls {
+class TouchPhaseControl;
+}
+namespace UnityEngine::InputSystem::Controls {
+class TouchPressControl;
+}
+namespace UnityEngine::InputSystem::Controls {
+class Vector2Control;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct TouchState;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Controls {
@@ -42,8 +42,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::TouchControl);
 // SizeInfo { instance_size: 336, native_size: -1, calculated_instance_size: 336, calculated_native_size: 336, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6514)), TypeDefinitionIndex(TypeDefinitionIndex(6216)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst: 3896
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6641)) CS Name: ::UnityEngine.InputSystem.Controls::TouchControl*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst: 3896 }), TypeDefinitionIndex(TypeDefinitionIndex(6216)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6514))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6641)) CS Name: ::UnityEngine.InputSystem.Controls::TouchControl*
 class CORDL_TYPE TouchControl : public ::UnityEngine::InputSystem::InputControl_1<::UnityEngine::InputSystem::LowLevel::TouchState> {
 public:
   // Declarations

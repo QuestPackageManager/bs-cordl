@@ -32,6 +32,9 @@ public:
   /// @brief Convert operator to "::Oculus::Platform::IVoipPCMSource"
   constexpr operator ::Oculus::Platform::IVoipPCMSource*() noexcept;
 
+  /// @brief Convert to "::Oculus::Platform::IVoipPCMSource"
+  constexpr ::Oculus::Platform::IVoipPCMSource* i___Oculus__Platform__IVoipPCMSource() noexcept;
+
   constexpr uint64_t& __get_senderID();
 
   constexpr uint64_t const& __get_senderID() const;

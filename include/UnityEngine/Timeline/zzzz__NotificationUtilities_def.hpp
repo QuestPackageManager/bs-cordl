@@ -5,8 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(NotificationUtilities)
-namespace UnityEngine::Timeline {
-class TimeNotificationBehaviour;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System {
+class Type;
 }
 namespace UnityEngine::Playables {
 struct DirectorWrapMode;
@@ -14,17 +17,14 @@ struct DirectorWrapMode;
 namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
-namespace UnityEngine::Timeline {
-class IMarker;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace UnityEngine::Playables {
 template <typename T> struct ScriptPlayable_1;
 }
-namespace System {
-class Type;
+namespace UnityEngine::Timeline {
+class IMarker;
+}
+namespace UnityEngine::Timeline {
+class TimeNotificationBehaviour;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

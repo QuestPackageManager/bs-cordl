@@ -37,152 +37,152 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_Text)
-namespace UnityEngine {
-class Transform;
-}
-namespace TMPro {
-struct TextOverflowModes;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Text {
 class StringBuilder;
 }
-namespace TMPro {
-class ITextPreprocessor;
-}
-namespace TMPro {
-struct TextureMappingOptions;
-}
-namespace TMPro {
-class TMP_SpriteAnimator;
-}
-namespace UnityEngine::UI {
-class LayoutElement;
-}
-namespace TMPro {
-struct HorizontalAlignmentOptions;
-}
-namespace TMPro {
-struct RichTextTagAttribute;
-}
-namespace TMPro {
-struct FontWeight;
-}
 namespace System {
 template <typename T> class Action_1;
 }
-namespace UnityEngine {
-class Material;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace TMPro {
-struct TMP_VertexDataUpdateFlags;
-}
-namespace TMPro {
-struct TMP_CharacterInfo;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace TMPro {
-struct VertexGradient;
-}
-namespace TMPro {
-class TMP_SpriteAsset;
+namespace System {
+struct Decimal;
 }
 namespace System {
 template <typename T1, typename T2, typename TResult> class Func_3;
 }
 namespace TMPro {
-class TMP_Style;
-}
-namespace UnityEngine {
-struct Color32;
-}
-namespace UnityEngine {
-struct Rect;
+struct FontStyles;
 }
 namespace TMPro {
-struct WordWrapState;
-}
-namespace System {
-struct Decimal;
+struct FontWeight;
 }
 namespace TMPro {
-struct __TMP_Text__TextBackingContainer;
+struct HorizontalAlignmentOptions;
 }
 namespace TMPro {
-class TMP_FontAsset;
-}
-namespace TMPro {
-struct __TMP_Text__CharacterSubstitution;
-}
-namespace TMPro {
-class __TMP_Text____c;
-}
-namespace TMPro {
-struct TextAlignmentOptions;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace TMPro {
-class TMP_StyleSheet;
-}
-namespace TMPro {
-struct VertexSortingOrder;
-}
-namespace UnityEngine {
-struct Bounds;
-}
-namespace TMPro {
-class TMP_ColorGradient;
-}
-namespace UnityEngine {
-class Mesh;
-}
-namespace TMPro {
-struct TextRenderFlags;
-}
-namespace TMPro {
-struct __TMP_Text__TextInputSources;
-}
-namespace TMPro {
-template <typename T> struct TMP_TextProcessingStack_1;
-}
-namespace TMPro {
-struct VerticalAlignmentOptions;
+class ITextPreprocessor;
 }
 namespace TMPro {
 struct MaterialReference;
 }
 namespace TMPro {
+struct RichTextTagAttribute;
+}
+namespace TMPro {
+struct TMP_CharacterInfo;
+}
+namespace TMPro {
+class TMP_Character;
+}
+namespace TMPro {
+class TMP_ColorGradient;
+}
+namespace TMPro {
+class TMP_FontAsset;
+}
+namespace TMPro {
+class TMP_SpriteAnimator;
+}
+namespace TMPro {
+class TMP_SpriteAsset;
+}
+namespace TMPro {
+class TMP_StyleSheet;
+}
+namespace TMPro {
+class TMP_Style;
+}
+namespace TMPro {
 class TMP_TextElement;
-}
-namespace TMPro {
-struct __TMP_Text__SpecialCharacter;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace TMPro {
-struct FontStyles;
 }
 namespace TMPro {
 class TMP_TextInfo;
 }
 namespace TMPro {
+template <typename T> struct TMP_TextProcessingStack_1;
+}
+namespace TMPro {
+struct TMP_VertexDataUpdateFlags;
+}
+namespace TMPro {
+struct TextAlignmentOptions;
+}
+namespace TMPro {
+struct TextOverflowModes;
+}
+namespace TMPro {
+struct TextRenderFlags;
+}
+namespace TMPro {
+struct TextureMappingOptions;
+}
+namespace TMPro {
+struct VertexGradient;
+}
+namespace TMPro {
+struct VertexSortingOrder;
+}
+namespace TMPro {
+struct VerticalAlignmentOptions;
+}
+namespace TMPro {
+struct WordWrapState;
+}
+namespace TMPro {
+struct __TMP_Text__CharacterSubstitution;
+}
+namespace TMPro {
+struct __TMP_Text__SpecialCharacter;
+}
+namespace TMPro {
+struct __TMP_Text__TextBackingContainer;
+}
+namespace TMPro {
+struct __TMP_Text__TextInputSources;
+}
+namespace TMPro {
 struct __TMP_Text__UnicodeChar;
 }
 namespace TMPro {
-class TMP_Character;
+class __TMP_Text____c;
+}
+namespace UnityEngine::UI {
+class LayoutElement;
+}
+namespace UnityEngine {
+struct Bounds;
+}
+namespace UnityEngine {
+struct Color32;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 // Forward declare root types
 namespace TMPro {
@@ -524,19 +524,20 @@ static_assert(::cordl_internals::size_check_v<::TMPro::__TMP_Text____c, 0x10>, "
 // SizeInfo { instance_size: 1728, native_size: -1, calculated_instance_size: 1728, calculated_native_size: 1728, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12452)), TypeDefinitionIndex(TypeDefinitionIndex(12432)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst:
-// 5052 }), TypeDefinitionIndex(TypeDefinitionIndex(12322)), TypeDefinitionIndex(TypeDefinitionIndex(12441)), TypeDefinitionIndex(TypeDefinitionIndex(10250)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12304)), TypeDefinitionIndex(TypeDefinitionIndex(12324)), TypeDefinitionIndex(TypeDefinitionIndex(12429)), TypeDefinitionIndex(TypeDefinitionIndex(10246)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5051 }), TypeDefinitionIndex(TypeDefinitionIndex(12331)), TypeDefinitionIndex(TypeDefinitionIndex(12444)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12435)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5055 }), TypeDefinitionIndex(TypeDefinitionIndex(12404)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12334)), TypeDefinitionIndex(TypeDefinitionIndex(12443)), TypeDefinitionIndex(TypeDefinitionIndex(12433)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13099)), TypeDefinitionIndex(TypeDefinitionIndex(12317)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 98 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(12431)), TypeDefinitionIndex(TypeDefinitionIndex(12453)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5050 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(12439)), TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(12453), inst: 5053 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5054 }), TypeDefinitionIndex(TypeDefinitionIndex(12333)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 391 }), TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(12437)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 742 }), TypeDefinitionIndex(TypeDefinitionIndex(12430)), TypeDefinitionIndex(TypeDefinitionIndex(12438))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(12446)) CS Name: ::TMPro::TMP_Text*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(12429)), TypeDefinitionIndex(TypeDefinitionIndex(12404)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 742 }), TypeDefinitionIndex(TypeDefinitionIndex(12333)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12322)), TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(12453)), TypeDefinitionIndex(TypeDefinitionIndex(12443)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12438)), TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(12439)), TypeDefinitionIndex(TypeDefinitionIndex(12435)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 391 }), TypeDefinitionIndex(TypeDefinitionIndex(12431)), TypeDefinitionIndex(TypeDefinitionIndex(12324)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12430)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5050 }), TypeDefinitionIndex(TypeDefinitionIndex(12437)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12304)), TypeDefinitionIndex(TypeDefinitionIndex(12317)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5055 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5051 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5054 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(12444)), TypeDefinitionIndex(TypeDefinitionIndex(12441)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12433)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5052 }), TypeDefinitionIndex(TypeDefinitionIndex(12334)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12452)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5053 }), TypeDefinitionIndex(TypeDefinitionIndex(12432)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(13099)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(12331))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12446))
+// CS Name: ::TMPro::TMP_Text*
 class CORDL_TYPE TMP_Text : public ::UnityEngine::UI::MaskableGraphic {
 public:
   // Declarations
@@ -3300,9 +3301,7 @@ public:
   inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> GetTextContainerLocalCorners();
 
   /// @brief Method ForceMeshUpdate, addr 0x2c214e4, size 0x4, virtual true, abstract: false, final false
-  /// @param ignoreActiveState: bool (default: false)
-  /// @param forceTextReparsing: bool (default: false)
-  inline void ForceMeshUpdate(bool ignoreActiveState = false, bool forceTextReparsing = false);
+  inline void ForceMeshUpdate(bool ignoreActiveState, bool forceTextReparsing);
 
   /// @brief Method UpdateGeometry, addr 0x2c214e8, size 0x4, virtual true, abstract: false, final false
   inline void UpdateGeometry(::UnityEngine::Mesh* mesh, int32_t index);
@@ -3353,8 +3352,7 @@ public:
   inline void SetTextInternal(::StringW sourceText);
 
   /// @brief Method SetText, addr 0x2c2377c, size 0x7c, virtual false, abstract: false, final false
-  /// @param syncTextInputBox: bool (default: true)
-  inline void SetText(::StringW sourceText, bool syncTextInputBox = true);
+  inline void SetText(::StringW sourceText, bool syncTextInputBox);
 
   /// @brief Method SetText, addr 0x2c237f8, size 0x20, virtual false, abstract: false, final false
   inline void SetText(::StringW sourceText, float_t arg0);

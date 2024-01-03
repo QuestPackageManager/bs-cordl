@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRChromaticAberration);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7588)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7588))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8078))
 // CS Name: ::OVRChromaticAberration*
 class CORDL_TYPE OVRChromaticAberration : public ::UnityEngine::MonoBehaviour {

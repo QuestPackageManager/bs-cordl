@@ -9,8 +9,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_AssetDatabase)
-namespace UnityEngine {
-class Object;
+namespace HoudiniEngineUnity {
+struct __HEU_AssetDatabase__HEU_ImportAssetOptions;
 }
 namespace System {
 class Type;
@@ -18,8 +18,8 @@ class Type;
 namespace UnityEngine {
 class GameObject;
 }
-namespace HoudiniEngineUnity {
-struct __HEU_AssetDatabase__HEU_ImportAssetOptions;
+namespace UnityEngine {
+class Object;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -173,8 +173,7 @@ public:
   static inline bool IsAssetInAssetCacheWorkingFolder(::UnityEngine::Object* asset);
 
   /// @brief Method CreateAssetCacheFolder, addr 0x21847a0, size 0x4c, virtual false, abstract: false, final false
-  /// @param hash: int32_t (default: static_cast<int32_t>(0x0))
-  static inline ::StringW CreateAssetCacheFolder(::StringW suggestedAssetPath, int32_t hash = static_cast<int32_t>(0x0));
+  static inline ::StringW CreateAssetCacheFolder(::StringW suggestedAssetPath, int32_t hash);
 
   /// @brief Method DeleteAssetCacheFolder, addr 0x21847ec, size 0x44, virtual false, abstract: false, final false
   static inline void DeleteAssetCacheFolder(::StringW assetCacheFolderPath);

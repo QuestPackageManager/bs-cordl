@@ -1,12 +1,18 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__PriorityQueue_2_def.hpp"
-#include "UnityEngine/ProBuilder/KdTree/zzzz__ITypeMath_1_def.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__IPriorityQueue_2_def.hpp"
+#include "UnityEngine/ProBuilder/KdTree/zzzz__ITypeMath_1_def.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__ItemPriority_2_def.hpp"
 /// @brief Convert operator to "::UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem,TPriority>"
 template <typename TItem, typename TPriority>
 constexpr UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>::operator ::UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem, TPriority>*() noexcept {
+  return static_cast<::UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem, TPriority>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem,TPriority>"
+template <typename TItem, typename TPriority>
+constexpr ::UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem, TPriority>*
+UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>::i___UnityEngine__ProBuilder__KdTree__IPriorityQueue_2_TItem_TPriority_() noexcept {
   return static_cast<::UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem, TPriority>*>(static_cast<void*>(this));
 }
 template <typename TItem, typename TPriority>

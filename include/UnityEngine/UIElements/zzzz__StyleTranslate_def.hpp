@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleTranslate)
-namespace UnityEngine::UIElements {
-struct Translate;
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
+class Object;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class IStyleValue_1;
 }
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace UnityEngine::UIElements {
 struct StyleKeyword;
 }
-namespace System {
-class Object;
+namespace UnityEngine::UIElements {
+struct Translate;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -46,8 +46,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Translate>"
   constexpr operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Translate>*();
 
+  /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Translate>"
+  constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Translate>* i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__Translate_();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleTranslate>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleTranslate>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleTranslate>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleTranslate>* i___System__IEquatable_1___UnityEngine__UIElements__StyleTranslate_();
 
   /// @brief Method get_value, addr 0x2e6f32c, size 0x44, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::Translate get_value();

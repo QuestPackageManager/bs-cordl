@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsAgreementCredentials)
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCredentials;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -29,6 +29,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCredentials"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCredentials*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCredentials"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCredentials* i___Org__BouncyCastle__Crypto__Tls__TlsCredentials() noexcept;
 
   /// @brief Method GenerateAgreement, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateAgreement(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* peerPublicKey);

@@ -6,11 +6,11 @@ CORDL_MODULE_EXPORT(IDesignerHost)
 namespace System::ComponentModel::Design {
 class IDesigner;
 }
-namespace System {
-class IServiceProvider;
-}
 namespace System::ComponentModel {
 class IComponent;
+}
+namespace System {
+class IServiceProvider;
 }
 // Forward declare root types
 namespace System::ComponentModel::Design {
@@ -32,6 +32,9 @@ public:
 
   /// @brief Convert operator to "::System::IServiceProvider"
   constexpr operator ::System::IServiceProvider*() noexcept;
+
+  /// @brief Convert to "::System::IServiceProvider"
+  constexpr ::System::IServiceProvider* i___System__IServiceProvider() noexcept;
 
   /// @brief Method get_RootComponent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::ComponentModel::IComponent* get_RootComponent();

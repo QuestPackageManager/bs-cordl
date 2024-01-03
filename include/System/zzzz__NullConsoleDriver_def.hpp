@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(NullConsoleDriver)
 namespace System {
-class IConsoleDriver;
+struct ConsoleKeyInfo;
 }
 namespace System {
-struct ConsoleKeyInfo;
+class IConsoleDriver;
 }
 // Forward declare root types
 namespace System {
@@ -32,6 +32,9 @@ public:
 
   /// @brief Convert operator to "::System::IConsoleDriver"
   constexpr operator ::System::IConsoleDriver*() noexcept;
+
+  /// @brief Convert to "::System::IConsoleDriver"
+  constexpr ::System::IConsoleDriver* i___System__IConsoleDriver() noexcept;
 
   static inline void setStaticF_EmptyConsoleKeyInfo(::System::ConsoleKeyInfo value);
 

@@ -27,170 +27,107 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapDataLoader)
+namespace BeatmapSaveDataVersion2_6_0AndEarlier {
+struct __BeatmapSaveData__BeatmapEventType;
+}
 namespace BeatmapSaveDataVersion3 {
-struct __BeatmapSaveData__EnvironmentColorType;
-}
-namespace GlobalNamespace {
-class __BeatmapDataLoader__BeatmapEventDataBoxDistributionParamTypeConvertor;
-}
-namespace GlobalNamespace {
-class BeatmapDataBasicInfo;
-}
-namespace GlobalNamespace {
-class DefaultEnvironmentEvents;
-}
-namespace GlobalNamespace {
-struct BeatmapEventTransitionType;
-}
-namespace GlobalNamespace {
-class BeatmapData;
-}
-namespace GlobalNamespace {
-struct __SliderData__Type;
-}
-namespace GlobalNamespace {
-class __BeatmapDataLoader__LightTranslationBaseDataConvertor;
-}
-namespace GlobalNamespace {
-class IEnvironmentLightGroups;
-}
-namespace GlobalNamespace {
-class __BeatmapDataLoader__BasicEventConvertor;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
-}
-namespace GlobalNamespace {
-class __BeatmapDataLoader__LightEventBoxGroupConvertor;
-}
-namespace GlobalNamespace {
-struct LightAxis;
+class BeatmapLightshowSaveData;
 }
 namespace BeatmapSaveDataVersion3 {
 class BeatmapSaveData;
 }
-namespace GlobalNamespace {
-class __BeatmapDataLoader__LightTranslationEventBoxConvertor;
-}
-namespace GlobalNamespace {
-class __BeatmapDataLoader__ObstacleConvertor;
+namespace BeatmapSaveDataVersion3 {
+struct __BeatmapSaveData__Axis;
 }
 namespace BeatmapSaveDataVersion3 {
-struct __BeatmapSaveData__TransitionType;
+class __BeatmapSaveData__BasicEventData;
 }
-namespace GlobalNamespace {
-class __BeatmapDataLoader__ColorBoostEventConvertor;
+namespace BeatmapSaveDataVersion3 {
+class __BeatmapSaveData__BasicEventTypesWithKeywords;
 }
-namespace GlobalNamespace {
-struct ColorType;
+namespace BeatmapSaveDataVersion3 {
+class __BeatmapSaveData__BombNoteData;
+}
+namespace BeatmapSaveDataVersion3 {
+class __BeatmapSaveData__BpmChangeEventData;
+}
+namespace BeatmapSaveDataVersion3 {
+class __BeatmapSaveData__BurstSliderData;
+}
+namespace BeatmapSaveDataVersion3 {
+class __BeatmapSaveData__ColorBoostEventData;
+}
+namespace BeatmapSaveDataVersion3 {
+class __BeatmapSaveData__ColorNoteData;
 }
 namespace BeatmapSaveDataVersion3 {
 struct __BeatmapSaveData__EaseType;
 }
-namespace GlobalNamespace {
-class __BeatmapDataLoader__SpecialEventsFilter;
-}
-namespace GlobalNamespace {
-class __BeatmapDataLoader__FloatVfxBaseDataConvertor;
-}
-namespace GlobalNamespace {
-class __BeatmapDataLoader__LightRotationBaseDataConvertor;
+namespace BeatmapSaveDataVersion3 {
+struct __BeatmapSaveData__EnvironmentColorType;
 }
 namespace BeatmapSaveDataVersion3 {
-struct __BeatmapSaveData__Axis;
+class __BeatmapSaveData__EventBoxGroup;
 }
-namespace GlobalNamespace {
-class __BeatmapDataLoader__WaypointConvertor;
+namespace BeatmapSaveDataVersion3 {
+struct __BeatmapSaveData__ExecutionTime;
 }
-namespace GlobalNamespace {
-class __BeatmapDataLoader__IntVfxEventBoxConvertor;
+namespace BeatmapSaveDataVersion3 {
+class __BeatmapSaveData__FxEventBoxGroup;
 }
-namespace GlobalNamespace {
-struct BeatmapDifficulty;
+namespace BeatmapSaveDataVersion3 {
+class __BeatmapSaveData__FxEventBox;
+}
+namespace BeatmapSaveDataVersion3 {
+struct __BeatmapSaveData__FxEventType;
+}
+namespace BeatmapSaveDataVersion3 {
+class __BeatmapSaveData__FxEventsCollection;
+}
+namespace BeatmapSaveDataVersion3 {
+class __BeatmapSaveData__IndexFilter;
+}
+namespace BeatmapSaveDataVersion3 {
+class __BeatmapSaveData__LightColorBaseData;
+}
+namespace BeatmapSaveDataVersion3 {
+class __BeatmapSaveData__LightColorEventBox;
+}
+namespace BeatmapSaveDataVersion3 {
+class __BeatmapSaveData__LightRotationBaseData;
+}
+namespace BeatmapSaveDataVersion3 {
+class __BeatmapSaveData__LightRotationEventBox;
+}
+namespace BeatmapSaveDataVersion3 {
+class __BeatmapSaveData__LightTranslationBaseData;
+}
+namespace BeatmapSaveDataVersion3 {
+class __BeatmapSaveData__LightTranslationEventBox;
+}
+namespace BeatmapSaveDataVersion3 {
+struct __BeatmapSaveData__NoteColorType;
+}
+namespace BeatmapSaveDataVersion3 {
+class __BeatmapSaveData__ObstacleData;
+}
+namespace BeatmapSaveDataVersion3 {
+class __BeatmapSaveData__RotationEventData;
+}
+namespace BeatmapSaveDataVersion3 {
+class __BeatmapSaveData__SliderData;
 }
 namespace BeatmapSaveDataVersion3 {
 struct __BeatmapSaveData__SliderType;
 }
 namespace BeatmapSaveDataVersion3 {
-struct __BeatmapSaveData__NoteColorType;
-}
-namespace GlobalNamespace {
-struct EnvironmentColorType;
-}
-namespace GlobalNamespace {
-struct __BeatmapSaveData__LightRotationBaseData__RotationDirection;
-}
-namespace GlobalNamespace {
-class __BeatmapDataLoader__IndexFilterConvertor;
-}
-namespace GlobalNamespace {
-class __BeatmapDataLoader__BombNoteConvertor;
-}
-namespace GlobalNamespace {
-class __BeatmapDataLoader__BpmTimeProcessor;
-}
-namespace GlobalNamespace {
-class __BeatmapDataLoader__LightColorEventBoxConvertor;
-}
-namespace GlobalNamespace {
-class __BeatmapDataLoader__LightColoBaseDataConvertor;
-}
-namespace GlobalNamespace {
-class __BeatmapDataLoader__SliderConvertor;
-}
-namespace GlobalNamespace {
-class EnvironmentKeywords;
-}
-namespace GlobalNamespace {
-class __BeatmapDataLoader__IntVfxBaseDataConvertor;
-}
-namespace GlobalNamespace {
-class __BeatmapDataLoader__VfxEventBoxGroupConvertor;
-}
-namespace GlobalNamespace {
-class __BeatmapDataLoader__BurstSliderConvertor;
-}
-namespace GlobalNamespace {
-template <typename TBase, typename TIn, typename TOut> class __BeatmapDataLoader__BeatmapDataItemConvertor_3;
-}
-namespace GlobalNamespace {
-class __BeatmapDataLoader__ColorNoteConvertor;
-}
-namespace GlobalNamespace {
-class __BeatmapDataLoader__LightRotationEventBoxConvertor;
+struct __BeatmapSaveData__TransitionType;
 }
 namespace BeatmapSaveDataVersion3 {
-class BeatmapLightshowSaveData;
+class __BeatmapSaveData__WaypointData;
 }
 namespace GlobalNamespace {
-class __BeatmapDataLoader__FloatVfxEventBoxConvertor;
-}
-namespace System::Diagnostics {
-class Stopwatch;
-}
-namespace GlobalNamespace {
-class EnvironmentInfoSO;
-}
-namespace GlobalNamespace {
-class __BeatmapDataLoader__BpmEventConvertor;
-}
-namespace GlobalNamespace {
-struct EaseType;
-}
-namespace GlobalNamespace {
-class __BeatmapDataLoader__RotationEventConvertor;
-}
-namespace GlobalNamespace {
-struct NoteLineLayer;
-}
-namespace GlobalNamespace {
-struct LightRotationDirection;
-}
-namespace BeatmapSaveDataVersion2_6_0AndEarlier {
-struct __BeatmapSaveData__BeatmapEventType;
-}
-namespace BeatmapSaveDataVersion3 {
-class __BeatmapSaveData__BasicEventData;
+class BPMChangeBeatmapEventData;
 }
 namespace GlobalNamespace {
 class BasicBeatmapEventData;
@@ -199,64 +136,64 @@ namespace GlobalNamespace {
 struct BasicBeatmapEventType;
 }
 namespace GlobalNamespace {
-struct __BeatmapSaveData__EventBox__DistributionParamType;
+class BeatmapDataBasicInfo;
 }
 namespace GlobalNamespace {
-struct __BeatmapEventDataBox__DistributionParamType;
-}
-namespace BeatmapSaveDataVersion3 {
-class __BeatmapSaveData__BombNoteData;
+class BeatmapData;
 }
 namespace GlobalNamespace {
-class NoteData;
+struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
-class BPMChangeBeatmapEventData;
-}
-namespace BeatmapSaveDataVersion3 {
-class __BeatmapSaveData__BpmChangeEventData;
+class BeatmapEventDataBoxGroup;
 }
 namespace GlobalNamespace {
-struct __BeatmapDataLoader__BpmTimeProcessor__BpmChangeData;
+class BeatmapEventDataBox;
 }
 namespace GlobalNamespace {
-class IBeatToTimeConvertor;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-class SliderData;
-}
-namespace BeatmapSaveDataVersion3 {
-class __BeatmapSaveData__BurstSliderData;
+struct BeatmapEventTransitionType;
 }
 namespace GlobalNamespace {
 class ColorBoostBeatmapEventData;
 }
-namespace BeatmapSaveDataVersion3 {
-class __BeatmapSaveData__ColorBoostEventData;
+namespace GlobalNamespace {
+struct ColorType;
 }
-namespace BeatmapSaveDataVersion3 {
-class __BeatmapSaveData__ColorNoteData;
+namespace GlobalNamespace {
+template <typename T, typename TType, typename TParam> class DataConvertorWithCustomTypeAndParam_3;
+}
+namespace GlobalNamespace {
+template <typename T, typename TParam> class DataConvertor_2;
+}
+namespace GlobalNamespace {
+class DefaultEnvironmentEvents;
+}
+namespace GlobalNamespace {
+struct EaseType;
+}
+namespace GlobalNamespace {
+struct EnvironmentColorType;
+}
+namespace GlobalNamespace {
+class EnvironmentInfoSO;
+}
+namespace GlobalNamespace {
+class EnvironmentKeywords;
 }
 namespace GlobalNamespace {
 class FloatFxBaseData;
 }
-namespace BeatmapSaveDataVersion3 {
-class __BeatmapSaveData__FxEventsCollection;
-}
-namespace BeatmapSaveDataVersion3 {
-class __BeatmapSaveData__FxEventBox;
-}
-namespace GlobalNamespace {
-class ILightGroup;
-}
 namespace GlobalNamespace {
 class FloatFxBeatmapEventDataBox;
 }
-namespace BeatmapSaveDataVersion3 {
-class __BeatmapSaveData__IndexFilter;
+namespace GlobalNamespace {
+class IBeatToTimeConvertor;
+}
+namespace GlobalNamespace {
+class IEnvironmentLightGroups;
+}
+namespace GlobalNamespace {
+class ILightGroup;
 }
 namespace GlobalNamespace {
 class IndexFilter;
@@ -268,94 +205,157 @@ namespace GlobalNamespace {
 class IntVfxBeatmapEventDataBox;
 }
 namespace GlobalNamespace {
-class LightColorBaseData;
+struct LightAxis;
 }
-namespace BeatmapSaveDataVersion3 {
-class __BeatmapSaveData__LightColorBaseData;
+namespace GlobalNamespace {
+class LightColorBaseData;
 }
 namespace GlobalNamespace {
 class LightColorBeatmapEventDataBox;
 }
-namespace BeatmapSaveDataVersion3 {
-class __BeatmapSaveData__LightColorEventBox;
-}
-namespace GlobalNamespace {
-class BeatmapEventDataBoxGroup;
-}
-namespace GlobalNamespace {
-class BeatmapEventDataBox;
-}
-namespace GlobalNamespace {
-template <typename T, typename TParam> class DataConvertor_2;
-}
-namespace BeatmapSaveDataVersion3 {
-class __BeatmapSaveData__EventBoxGroup;
-}
-namespace BeatmapSaveDataVersion3 {
-class __BeatmapSaveData__LightRotationBaseData;
-}
 namespace GlobalNamespace {
 class LightRotationBaseData;
-}
-namespace BeatmapSaveDataVersion3 {
-class __BeatmapSaveData__LightRotationEventBox;
 }
 namespace GlobalNamespace {
 class LightRotationBeatmapEventDataBox;
 }
 namespace GlobalNamespace {
+struct LightRotationDirection;
+}
+namespace GlobalNamespace {
 class LightTranslationBaseData;
-}
-namespace BeatmapSaveDataVersion3 {
-class __BeatmapSaveData__LightTranslationBaseData;
-}
-namespace BeatmapSaveDataVersion3 {
-class __BeatmapSaveData__LightTranslationEventBox;
 }
 namespace GlobalNamespace {
 class LightTranslationBeatmapEventDataBox;
 }
 namespace GlobalNamespace {
-class ObstacleData;
-}
-namespace BeatmapSaveDataVersion3 {
-class __BeatmapSaveData__ObstacleData;
+class NoteData;
 }
 namespace GlobalNamespace {
-struct __SpawnRotationBeatmapEventData__SpawnRotationEventType;
+struct NoteLineLayer;
 }
-namespace BeatmapSaveDataVersion3 {
-class __BeatmapSaveData__RotationEventData;
+namespace GlobalNamespace {
+class ObstacleData;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettings;
+}
+namespace GlobalNamespace {
+class SliderData;
 }
 namespace GlobalNamespace {
 class SpawnRotationBeatmapEventData;
 }
-namespace BeatmapSaveDataVersion3 {
-struct __BeatmapSaveData__ExecutionTime;
+namespace GlobalNamespace {
+class WaypointData;
 }
-namespace BeatmapSaveDataVersion3 {
-class __BeatmapSaveData__SliderData;
+namespace GlobalNamespace {
+class __BeatmapDataLoader__BasicEventConvertor;
+}
+namespace GlobalNamespace {
+template <typename TBase, typename TIn, typename TOut> class __BeatmapDataLoader__BeatmapDataItemConvertor_3;
+}
+namespace GlobalNamespace {
+class __BeatmapDataLoader__BeatmapEventDataBoxDistributionParamTypeConvertor;
+}
+namespace GlobalNamespace {
+class __BeatmapDataLoader__BombNoteConvertor;
+}
+namespace GlobalNamespace {
+class __BeatmapDataLoader__BpmEventConvertor;
+}
+namespace GlobalNamespace {
+class __BeatmapDataLoader__BpmTimeProcessor;
+}
+namespace GlobalNamespace {
+struct __BeatmapDataLoader__BpmTimeProcessor__BpmChangeData;
+}
+namespace GlobalNamespace {
+class __BeatmapDataLoader__BurstSliderConvertor;
+}
+namespace GlobalNamespace {
+class __BeatmapDataLoader__ColorBoostEventConvertor;
+}
+namespace GlobalNamespace {
+class __BeatmapDataLoader__ColorNoteConvertor;
+}
+namespace GlobalNamespace {
+class __BeatmapDataLoader__FloatVfxBaseDataConvertor;
+}
+namespace GlobalNamespace {
+class __BeatmapDataLoader__FloatVfxEventBoxConvertor;
+}
+namespace GlobalNamespace {
+class __BeatmapDataLoader__IndexFilterConvertor;
+}
+namespace GlobalNamespace {
+class __BeatmapDataLoader__IntVfxBaseDataConvertor;
+}
+namespace GlobalNamespace {
+class __BeatmapDataLoader__IntVfxEventBoxConvertor;
+}
+namespace GlobalNamespace {
+class __BeatmapDataLoader__LightColoBaseDataConvertor;
+}
+namespace GlobalNamespace {
+class __BeatmapDataLoader__LightColorEventBoxConvertor;
+}
+namespace GlobalNamespace {
+class __BeatmapDataLoader__LightEventBoxGroupConvertor;
+}
+namespace GlobalNamespace {
+class __BeatmapDataLoader__LightRotationBaseDataConvertor;
+}
+namespace GlobalNamespace {
+class __BeatmapDataLoader__LightRotationEventBoxConvertor;
+}
+namespace GlobalNamespace {
+class __BeatmapDataLoader__LightTranslationBaseDataConvertor;
+}
+namespace GlobalNamespace {
+class __BeatmapDataLoader__LightTranslationEventBoxConvertor;
+}
+namespace GlobalNamespace {
+class __BeatmapDataLoader__ObstacleConvertor;
+}
+namespace GlobalNamespace {
+class __BeatmapDataLoader__RotationEventConvertor;
+}
+namespace GlobalNamespace {
+class __BeatmapDataLoader__SliderConvertor;
+}
+namespace GlobalNamespace {
+class __BeatmapDataLoader__SpecialEventsFilter;
+}
+namespace GlobalNamespace {
+class __BeatmapDataLoader__VfxEventBoxGroupConvertor;
+}
+namespace GlobalNamespace {
+class __BeatmapDataLoader__WaypointConvertor;
+}
+namespace GlobalNamespace {
+struct __BeatmapEventDataBox__DistributionParamType;
+}
+namespace GlobalNamespace {
+struct __BeatmapSaveData__EventBox__DistributionParamType;
+}
+namespace GlobalNamespace {
+struct __BeatmapSaveData__LightRotationBaseData__RotationDirection;
+}
+namespace GlobalNamespace {
+struct __SliderData__Type;
+}
+namespace GlobalNamespace {
+struct __SpawnRotationBeatmapEventData__SpawnRotationEventType;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
-namespace BeatmapSaveDataVersion3 {
-class __BeatmapSaveData__BasicEventTypesWithKeywords;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
-namespace BeatmapSaveDataVersion3 {
-class __BeatmapSaveData__FxEventBoxGroup;
-}
-namespace BeatmapSaveDataVersion3 {
-struct __BeatmapSaveData__FxEventType;
-}
-namespace GlobalNamespace {
-template <typename T, typename TType, typename TParam> class DataConvertorWithCustomTypeAndParam_3;
-}
-namespace GlobalNamespace {
-class WaypointData;
-}
-namespace BeatmapSaveDataVersion3 {
-class __BeatmapSaveData__WaypointData;
+namespace System::Diagnostics {
+class Stopwatch;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -542,6 +542,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBeatToTimeConvertor"
   constexpr operator ::GlobalNamespace::IBeatToTimeConvertor*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IBeatToTimeConvertor"
+  constexpr ::GlobalNamespace::IBeatToTimeConvertor* i___GlobalNamespace__IBeatToTimeConvertor() noexcept;
+
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__BeatmapDataLoader__BpmTimeProcessor__BpmChangeData>*& __get__bpmChangeDataList();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__BeatmapDataLoader__BpmTimeProcessor__BpmChangeData>*> const&
@@ -651,9 +654,9 @@ public:
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14721)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4264), inst: 937 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(4264)), TypeDefinitionIndex(TypeDefinitionIndex(14784)), TypeDefinitionIndex(TypeDefinitionIndex(14727))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(4263)) CS Name: ::BeatmapDataLoader::BasicEventConvertor*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4264)), TypeDefinitionIndex(TypeDefinitionIndex(14784)), TypeDefinitionIndex(TypeDefinitionIndex(14727)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14721)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4264), inst: 937 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4263)) CS
+// Name: ::BeatmapDataLoader::BasicEventConvertor*
 class CORDL_TYPE __BeatmapDataLoader__BasicEventConvertor
     : public ::GlobalNamespace::__BeatmapDataLoader__BeatmapDataItemConvertor_3<::GlobalNamespace::BeatmapEventData*, ::BeatmapSaveDataVersion3::__BeatmapSaveData__BasicEventData*,
                                                                                 ::GlobalNamespace::BasicBeatmapEventData*> {
@@ -709,8 +712,8 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapDataLoader__BasicEventConvert
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4264), inst: 941 }), TypeDefinitionIndex(TypeDefinitionIndex(4264)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14821)), TypeDefinitionIndex(TypeDefinitionIndex(14751)), TypeDefinitionIndex(TypeDefinitionIndex(14759))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14751)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4264), inst: 941 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(14759)), TypeDefinitionIndex(TypeDefinitionIndex(4264)), TypeDefinitionIndex(TypeDefinitionIndex(14821))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(4265)) CS Name: ::BeatmapDataLoader::BombNoteConvertor*
 class CORDL_TYPE __BeatmapDataLoader__BombNoteConvertor
     : public ::GlobalNamespace::__BeatmapDataLoader__BeatmapDataItemConvertor_3<::GlobalNamespace::BeatmapObjectData*, ::BeatmapSaveDataVersion3::__BeatmapSaveData__BombNoteData*,
@@ -750,7 +753,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapDataLo
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14729)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4264), inst: 938 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(4264)), TypeDefinitionIndex(TypeDefinitionIndex(14727)), TypeDefinitionIndex(TypeDefinitionIndex(14786))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(14727)), TypeDefinitionIndex(TypeDefinitionIndex(4264)), TypeDefinitionIndex(TypeDefinitionIndex(14786))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(4266)) CS Name: ::BeatmapDataLoader::BpmEventConvertor*
 class CORDL_TYPE __BeatmapDataLoader__BpmEventConvertor
     : public ::GlobalNamespace::__BeatmapDataLoader__BeatmapDataItemConvertor_3<::GlobalNamespace::BeatmapEventData*, ::BeatmapSaveDataVersion3::__BeatmapSaveData__BpmChangeEventData*,
@@ -789,8 +792,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapDataLo
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14730)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4264), inst: 939 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(4264)), TypeDefinitionIndex(TypeDefinitionIndex(14727)), TypeDefinitionIndex(TypeDefinitionIndex(14785))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4264)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4264), inst: 939 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(14730)), TypeDefinitionIndex(TypeDefinitionIndex(14727)), TypeDefinitionIndex(TypeDefinitionIndex(14785))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(4267)) CS Name: ::BeatmapDataLoader::ColorBoostEventConvertor*
 class CORDL_TYPE __BeatmapDataLoader__ColorBoostEventConvertor
     : public ::GlobalNamespace::__BeatmapDataLoader__BeatmapDataItemConvertor_3<::GlobalNamespace::BeatmapEventData*, ::BeatmapSaveDataVersion3::__BeatmapSaveData__ColorBoostEventData*,
@@ -829,9 +832,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapDataLo
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4264), inst: 943 }), TypeDefinitionIndex(TypeDefinitionIndex(14751)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4264)), TypeDefinitionIndex(TypeDefinitionIndex(14820)), TypeDefinitionIndex(TypeDefinitionIndex(14759))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(4268)) CS Name: ::BeatmapDataLoader::ColorNoteConvertor*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14751)), TypeDefinitionIndex(TypeDefinitionIndex(14759)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4264), inst:
+// 943 }), TypeDefinitionIndex(TypeDefinitionIndex(4264)), TypeDefinitionIndex(TypeDefinitionIndex(14820))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4268)) CS Name:
+// ::BeatmapDataLoader::ColorNoteConvertor*
 class CORDL_TYPE __BeatmapDataLoader__ColorNoteConvertor
     : public ::GlobalNamespace::__BeatmapDataLoader__BeatmapDataItemConvertor_3<::GlobalNamespace::BeatmapObjectData*, ::BeatmapSaveDataVersion3::__BeatmapSaveData__ColorNoteData*,
                                                                                 ::GlobalNamespace::NoteData*> {
@@ -1042,9 +1045,10 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapDataLoader__VfxEventBoxGroupC
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14798)), TypeDefinitionIndex(TypeDefinitionIndex(4310)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4297), inst:
-// 1158 }), TypeDefinitionIndex(TypeDefinitionIndex(4301)), TypeDefinitionIndex(TypeDefinitionIndex(4297)), TypeDefinitionIndex(TypeDefinitionIndex(14508))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(4272)) CS Name: ::BeatmapDataLoader::IntVfxEventBoxConvertor*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14798)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4297), inst: 1158 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(4297)), TypeDefinitionIndex(TypeDefinitionIndex(4301)), TypeDefinitionIndex(TypeDefinitionIndex(4310)), TypeDefinitionIndex(TypeDefinitionIndex(14508))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4272))
+// CS Name: ::BeatmapDataLoader::IntVfxEventBoxConvertor*
 class CORDL_TYPE __BeatmapDataLoader__IntVfxEventBoxConvertor
     : public ::GlobalNamespace::DataItemConvertor_4<::GlobalNamespace::BeatmapEventDataBox*, ::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBox*, ::GlobalNamespace::IntVfxBeatmapEventDataBox*,
                                                     ::GlobalNamespace::ILightGroup*> {
@@ -1096,8 +1100,8 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapDataLoader__IntVfxEventBoxCon
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14798)), TypeDefinitionIndex(TypeDefinitionIndex(4301)), TypeDefinitionIndex(TypeDefinitionIndex(4311)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4297), inst: 1157 }), TypeDefinitionIndex(TypeDefinitionIndex(14508)), TypeDefinitionIndex(TypeDefinitionIndex(4297))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14508)), TypeDefinitionIndex(TypeDefinitionIndex(4301)), TypeDefinitionIndex(TypeDefinitionIndex(14798)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4297)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4297), inst: 1157 }), TypeDefinitionIndex(TypeDefinitionIndex(4311))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(4273)) CS Name: ::BeatmapDataLoader::FloatVfxEventBoxConvertor*
 class CORDL_TYPE __BeatmapDataLoader__FloatVfxEventBoxConvertor
     : public ::GlobalNamespace::DataItemConvertor_4<::GlobalNamespace::BeatmapEventDataBox*, ::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBox*, ::GlobalNamespace::FloatFxBeatmapEventDataBox*,
@@ -1252,8 +1256,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapDataLo
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14805)), TypeDefinitionIndex(TypeDefinitionIndex(4301)), TypeDefinitionIndex(TypeDefinitionIndex(14508)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4320)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4297), inst: 1159 }), TypeDefinitionIndex(TypeDefinitionIndex(4297))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4320)), TypeDefinitionIndex(TypeDefinitionIndex(4297)), TypeDefinitionIndex(TypeDefinitionIndex(4301)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14805)), TypeDefinitionIndex(TypeDefinitionIndex(14508)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4297), inst: 1159 })} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(4277)) CS Name: ::BeatmapDataLoader::LightColorEventBoxConvertor*
 class CORDL_TYPE __BeatmapDataLoader__LightColorEventBoxConvertor
     : public ::GlobalNamespace::DataItemConvertor_4<::GlobalNamespace::BeatmapEventDataBox*, ::BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorEventBox*,
@@ -1325,9 +1329,10 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapDataLo
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4297)), TypeDefinitionIndex(TypeDefinitionIndex(4322)), TypeDefinitionIndex(TypeDefinitionIndex(4301)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14807)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4297), inst: 1160 }), TypeDefinitionIndex(TypeDefinitionIndex(14508))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(4279)) CS Name: ::BeatmapDataLoader::LightRotationEventBoxConvertor*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4301)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4297), inst: 1160 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(14807)), TypeDefinitionIndex(TypeDefinitionIndex(4322)), TypeDefinitionIndex(TypeDefinitionIndex(14508)), TypeDefinitionIndex(TypeDefinitionIndex(4297))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4279))
+// CS Name: ::BeatmapDataLoader::LightRotationEventBoxConvertor*
 class CORDL_TYPE __BeatmapDataLoader__LightRotationEventBoxConvertor
     : public ::GlobalNamespace::DataItemConvertor_4<::GlobalNamespace::BeatmapEventDataBox*, ::BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBox*,
                                                     ::GlobalNamespace::LightRotationBeatmapEventDataBox*, ::GlobalNamespace::ILightGroup*> {
@@ -1398,10 +1403,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapDataLo
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4297), inst: 1161 }), TypeDefinitionIndex(TypeDefinitionIndex(14508)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4297)), TypeDefinitionIndex(TypeDefinitionIndex(4301)), TypeDefinitionIndex(TypeDefinitionIndex(14810)), TypeDefinitionIndex(TypeDefinitionIndex(4324))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4281))
-// CS Name: ::BeatmapDataLoader::LightTranslationEventBoxConvertor*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4297)), TypeDefinitionIndex(TypeDefinitionIndex(4301)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4297), inst: 1161
+// }), TypeDefinitionIndex(TypeDefinitionIndex(14810)), TypeDefinitionIndex(TypeDefinitionIndex(4324)), TypeDefinitionIndex(TypeDefinitionIndex(14508))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(4281)) CS Name: ::BeatmapDataLoader::LightTranslationEventBoxConvertor*
 class CORDL_TYPE __BeatmapDataLoader__LightTranslationEventBoxConvertor
     : public ::GlobalNamespace::DataItemConvertor_4<::GlobalNamespace::BeatmapEventDataBox*, ::BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBox*,
                                                     ::GlobalNamespace::LightTranslationBeatmapEventDataBox*, ::GlobalNamespace::ILightGroup*> {
@@ -1474,7 +1478,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapDataLo
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4264), inst: 944 }), TypeDefinitionIndex(TypeDefinitionIndex(4264)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14761)), TypeDefinitionIndex(TypeDefinitionIndex(14751)), TypeDefinitionIndex(TypeDefinitionIndex(14827))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(14751)), TypeDefinitionIndex(TypeDefinitionIndex(14761)), TypeDefinitionIndex(TypeDefinitionIndex(14827))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(4283)) CS Name: ::BeatmapDataLoader::ObstacleConvertor*
 class CORDL_TYPE __BeatmapDataLoader__ObstacleConvertor
     : public ::GlobalNamespace::__BeatmapDataLoader__BeatmapDataItemConvertor_3<::GlobalNamespace::BeatmapObjectData*, ::BeatmapSaveDataVersion3::__BeatmapSaveData__ObstacleData*,
@@ -1516,8 +1520,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapDataLo
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14727)), TypeDefinitionIndex(TypeDefinitionIndex(14788)), TypeDefinitionIndex(TypeDefinitionIndex(4264)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14739)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4264), inst: 940 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4284)) CS
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14727)), TypeDefinitionIndex(TypeDefinitionIndex(14788)), TypeDefinitionIndex(TypeDefinitionIndex(14739)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4264), inst: 940 }), TypeDefinitionIndex(TypeDefinitionIndex(4264))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4284)) CS
 // Name: ::BeatmapDataLoader::RotationEventConvertor*
 class CORDL_TYPE __BeatmapDataLoader__RotationEventConvertor
     : public ::GlobalNamespace::__BeatmapDataLoader__BeatmapDataItemConvertor_3<::GlobalNamespace::BeatmapEventData*, ::BeatmapSaveDataVersion3::__BeatmapSaveData__RotationEventData*,
@@ -1559,9 +1563,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapDataLo
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14765)), TypeDefinitionIndex(TypeDefinitionIndex(14825)), TypeDefinitionIndex(TypeDefinitionIndex(4264)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14751)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4264), inst: 945 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4285)) CS
-// Name: ::BeatmapDataLoader::SliderConvertor*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4264)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4264), inst: 945 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(14825)), TypeDefinitionIndex(TypeDefinitionIndex(14751)), TypeDefinitionIndex(TypeDefinitionIndex(14765))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(4285)) CS Name: ::BeatmapDataLoader::SliderConvertor*
 class CORDL_TYPE __BeatmapDataLoader__SliderConvertor
     : public ::GlobalNamespace::__BeatmapDataLoader__BeatmapDataItemConvertor_3<::GlobalNamespace::BeatmapObjectData*, ::BeatmapSaveDataVersion3::__BeatmapSaveData__SliderData*,
                                                                                 ::GlobalNamespace::SliderData*> {
@@ -1599,9 +1603,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapDataLo
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14751)), TypeDefinitionIndex(TypeDefinitionIndex(14826)), TypeDefinitionIndex(TypeDefinitionIndex(4264)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4264), inst: 942 }), TypeDefinitionIndex(TypeDefinitionIndex(14765))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4286)) CS
-// Name: ::BeatmapDataLoader::BurstSliderConvertor*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4264), inst: 942 }), TypeDefinitionIndex(TypeDefinitionIndex(14765)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4264)), TypeDefinitionIndex(TypeDefinitionIndex(14826)), TypeDefinitionIndex(TypeDefinitionIndex(14751))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(4286)) CS Name: ::BeatmapDataLoader::BurstSliderConvertor*
 class CORDL_TYPE __BeatmapDataLoader__BurstSliderConvertor
     : public ::GlobalNamespace::__BeatmapDataLoader__BeatmapDataItemConvertor_3<::GlobalNamespace::BeatmapObjectData*, ::BeatmapSaveDataVersion3::__BeatmapSaveData__BurstSliderData*,
                                                                                 ::GlobalNamespace::SliderData*> {
@@ -1639,8 +1643,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapDataLo
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4264)), TypeDefinitionIndex(TypeDefinitionIndex(14768)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4264), inst: 946
-// }), TypeDefinitionIndex(TypeDefinitionIndex(14751)), TypeDefinitionIndex(TypeDefinitionIndex(14822))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4287)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14751)), TypeDefinitionIndex(TypeDefinitionIndex(4264)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4264), inst: 946
+// }), TypeDefinitionIndex(TypeDefinitionIndex(14822)), TypeDefinitionIndex(TypeDefinitionIndex(14768))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4287)) CS Name:
 // ::BeatmapDataLoader::WaypointConvertor*
 class CORDL_TYPE __BeatmapDataLoader__WaypointConvertor
     : public ::GlobalNamespace::__BeatmapDataLoader__BeatmapDataItemConvertor_3<::GlobalNamespace::BeatmapObjectData*, ::BeatmapSaveDataVersion3::__BeatmapSaveData__WaypointData*,
@@ -1795,14 +1799,12 @@ public:
   using BpmTimeProcessor = ::GlobalNamespace::__BeatmapDataLoader__BpmTimeProcessor;
 
   /// @brief Method GetBeatmapDataFromBeatmapSaveData, addr 0x2330c34, size 0x1460, virtual false, abstract: false, final false
-  /// @param stopwatch: ::System::Diagnostics::Stopwatch* (default: nullptr)
   static inline ::GlobalNamespace::BeatmapData* GetBeatmapDataFromBeatmapSaveData(::BeatmapSaveDataVersion3::BeatmapSaveData* beatmapSaveData, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
                                                                                   float_t startBpm, bool loadingForDesignatedEnvironment, ::GlobalNamespace::EnvironmentKeywords* environmentKeywords,
                                                                                   ::GlobalNamespace::IEnvironmentLightGroups* environmentLightGroups,
                                                                                   ::GlobalNamespace::DefaultEnvironmentEvents* defaultEnvironmentEvents,
                                                                                   ::BeatmapSaveDataVersion3::BeatmapLightshowSaveData* defaultLightshowEventsSaveData,
-                                                                                  ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
-                                                                                  ::System::Diagnostics::Stopwatch* stopwatch = nullptr);
+                                                                                  ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::System::Diagnostics::Stopwatch* stopwatch);
 
   /// @brief Method GetBeatmapDataBasicInfoFromSaveData, addr 0x232f998, size 0x2b4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapDataBasicInfo* GetBeatmapDataBasicInfoFromSaveData(::BeatmapSaveDataVersion3::BeatmapSaveData* beatmapSaveData);

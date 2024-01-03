@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7565))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7565)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7560))
 // CS Name: ::OVRGLTFAnimationNodeMorphTargetHandler*
 class CORDL_TYPE OVRGLTFAnimationNodeMorphTargetHandler : public ::System::Object {

@@ -12,28 +12,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_Curve)
 namespace HoudiniEngineUnity {
-struct __HEU_Curve__Interaction;
-}
-namespace HoudiniEngineUnity {
 class CurveNodeData;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace HoudiniEngineUnity {
-struct __HEU_Curve__CurveDrawCollision;
-}
-namespace HoudiniEngineUnity {
-class __HEU_Curve____c__DisplayClass40_0;
-}
-namespace HoudiniEngineUnity {
-class __HEU_Curve____c__DisplayClass38_0;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
 }
 namespace HoudiniEngineUnity {
 class HEU_HoudiniAsset;
@@ -42,19 +21,40 @@ namespace HoudiniEngineUnity {
 class HEU_Parameters;
 }
 namespace HoudiniEngineUnity {
+class HEU_SessionBase;
+}
+namespace HoudiniEngineUnity {
+template <typename T> class IEquivable_1;
+}
+namespace HoudiniEngineUnity {
+struct __HEU_Curve__CurveDrawCollision;
+}
+namespace HoudiniEngineUnity {
 struct __HEU_Curve__CurveEditState;
 }
 namespace HoudiniEngineUnity {
-class HEU_SessionBase;
+struct __HEU_Curve__Interaction;
 }
-namespace UnityEngine {
-class GameObject;
+namespace HoudiniEngineUnity {
+class __HEU_Curve____c__DisplayClass38_0;
+}
+namespace HoudiniEngineUnity {
+class __HEU_Curve____c__DisplayClass40_0;
 }
 namespace HoudiniEngineUnity {
 class __HEU_Curve____c__DisplayClass48_0;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+class GameObject;
+}
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -525,6 +525,9 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Curve*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Curve*>*() noexcept;
 
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Curve*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Curve*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_Curve__() noexcept;
+
   constexpr int32_t& __get__geoID();
 
   constexpr int32_t const& __get__geoID() const;
@@ -626,8 +629,7 @@ public:
   static inline ::HoudiniEngineUnity::HEU_Curve* CreateSetupCurve(::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, bool isEditable, ::StringW curveName, int32_t geoID, bool bGeoCurve);
 
   /// @brief Method DestroyAllData, addr 0x2151420, size 0x14c, virtual false, abstract: false, final false
-  /// @param bIsRebuild: bool (default: false)
-  inline void DestroyAllData(bool bIsRebuild = false);
+  inline void DestroyAllData(bool bIsRebuild);
 
   /// @brief Method SetCurveName, addr 0x215156c, size 0x9c, virtual false, abstract: false, final false
   inline void SetCurveName(::StringW name);

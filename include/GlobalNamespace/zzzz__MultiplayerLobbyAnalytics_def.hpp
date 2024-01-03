@@ -9,13 +9,13 @@ namespace GlobalNamespace {
 class GameServerLobbyFlowCoordinator;
 }
 namespace GlobalNamespace {
+class IAnalyticsModel;
+}
+namespace GlobalNamespace {
 struct __GameServerLobbyFlowCoordinator__LobbyType;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
-class IAnalyticsModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {

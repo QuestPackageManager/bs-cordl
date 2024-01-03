@@ -11,19 +11,19 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class Asn1OctetStringParser;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetStringParser;
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Convertible;
 }
-namespace System {
-class Object;
-}
 namespace System::IO {
 class Stream;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -49,8 +49,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::Asn1OctetStringParser"
   constexpr operator ::Org::BouncyCastle::Asn1::Asn1OctetStringParser*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::Asn1OctetStringParser"
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetStringParser* i___Org__BouncyCastle__Asn1__Asn1OctetStringParser() noexcept;
+
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible* i___Org__BouncyCastle__Asn1__IAsn1Convertible() noexcept;
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_str();
 

@@ -12,16 +12,25 @@ namespace Newtonsoft::Json::Linq {
 class JContainer;
 }
 namespace Newtonsoft::Json::Linq {
+class JToken;
+}
+namespace Newtonsoft::Json::Linq {
 class JValue;
-}
-namespace System {
-struct TimeSpan;
-}
-namespace System {
-class Uri;
 }
 namespace Newtonsoft::Json {
 class JsonReader;
+}
+namespace Newtonsoft::Json {
+struct JsonToken;
+}
+namespace System {
+struct DateTimeOffset;
+}
+namespace System {
+struct DateTime;
+}
+namespace System {
+struct Decimal;
 }
 namespace System {
 struct Guid;
@@ -30,19 +39,10 @@ namespace System {
 class Object;
 }
 namespace System {
-struct DateTime;
-}
-namespace Newtonsoft::Json {
-struct JsonToken;
-}
-namespace Newtonsoft::Json::Linq {
-class JToken;
+struct TimeSpan;
 }
 namespace System {
-struct Decimal;
-}
-namespace System {
-struct DateTimeOffset;
+class Uri;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {

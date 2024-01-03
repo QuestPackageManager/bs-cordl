@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(X509Helper2)
-namespace System::Security::Cryptography::X509Certificates {
-class X509ChainImpl;
+namespace Mono::Security::X509 {
+class X509Certificate;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate2;
 }
-namespace Mono::Security::X509 {
-class X509Certificate;
+namespace System::Security::Cryptography::X509Certificates {
+class X509ChainImpl;
 }
 namespace System {
 class Exception;

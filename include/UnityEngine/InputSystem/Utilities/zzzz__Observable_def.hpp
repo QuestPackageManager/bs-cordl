@@ -5,29 +5,29 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Observable)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System {
+template <typename T> class Action_1;
+}
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 class IDisposable;
 }
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> class __Observable____c__DisplayClass6_0_1;
-}
 namespace System {
 template <typename T> class IObservable_1;
-}
-namespace System {
-template <typename T> class Action_1;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> class __Observable____c__DisplayClass6_0_1;
+}
+namespace UnityEngine::InputSystem {
+class InputDevice;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {

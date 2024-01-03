@@ -10,11 +10,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(GenericPoser)
-namespace UnityEngine {
-class Transform;
-}
 namespace RootMotion::FinalIK {
 class __GenericPoser__Map;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {

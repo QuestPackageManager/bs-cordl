@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/ResourceManagement/Exceptions/zzzz__ProviderException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(RemoteProviderException)
-namespace UnityEngine::ResourceManagement::Util {
-class UnityWebRequestResult;
+namespace System {
+class Exception;
 }
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
 }
-namespace System {
-class Exception;
+namespace UnityEngine::ResourceManagement::Util {
+class UnityWebRequestResult;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Exceptions {
@@ -49,11 +49,8 @@ public:
                                                                                                  ::System::Exception* innerException);
 
   /// @brief Method .ctor, addr 0x2bd01c0, size 0x2c, virtual false, abstract: false, final false
-  /// @param location: ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* (default: nullptr)
-  /// @param uwrResult: ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* (default: nullptr)
-  /// @param innerException: ::System::Exception* (default: nullptr)
-  inline void _ctor(::StringW message, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location = nullptr,
-                    ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* uwrResult = nullptr, ::System::Exception* innerException = nullptr);
+  inline void _ctor(::StringW message, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* uwrResult,
+                    ::System::Exception* innerException);
 
   /// @brief Method get_Message, addr 0x2bd01ec, size 0xc, virtual true, abstract: false, final false
   inline ::StringW get_Message();

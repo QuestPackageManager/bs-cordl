@@ -7,29 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SimplePriorityQueue_2)
-namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace Priority_Queue {
-template <typename TItem, typename TPriority> class __SimplePriorityQueue_2__SimpleNode;
-}
 namespace Priority_Queue {
 template <typename TItem, typename TPriority> class GenericPriorityQueue_2;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace Priority_Queue {
+template <typename TItem, typename TPriority> class IPriorityQueue_2;
+}
+namespace Priority_Queue {
+template <typename TItem, typename TPriority> class __SimplePriorityQueue_2__SimpleNode;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -37,8 +22,23 @@ template <typename TKey, typename TValue> class Dictionary_2;
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
 }
-namespace Priority_Queue {
-template <typename TItem, typename TPriority> class IPriorityQueue_2;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEqualityComparer_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 template <typename T> class Comparison_1;
@@ -59,7 +59,7 @@ namespace Priority_Queue {
 // cpp template
 template <typename TItem, typename TPriority>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6096), inst: 2555 }), TypeDefinitionIndex(TypeDefinitionIndex(6096))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6096)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6096), inst: 2555 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6099))
 // CS Name: ::SimplePriorityQueue`2::SimpleNode<TItem,TPriority>*
 class CORDL_TYPE __SimplePriorityQueue_2__SimpleNode : public ::Priority_Queue::GenericPriorityQueueNode_1<TPriority> {
@@ -140,11 +140,20 @@ public:
   /// @brief Convert operator to "::Priority_Queue::IPriorityQueue_2<TItem,TPriority>"
   constexpr operator ::Priority_Queue::IPriorityQueue_2<TItem, TPriority>*() noexcept;
 
+  /// @brief Convert to "::Priority_Queue::IPriorityQueue_2<TItem,TPriority>"
+  constexpr ::Priority_Queue::IPriorityQueue_2<TItem, TPriority>* i___Priority_Queue__IPriorityQueue_2_TItem_TPriority_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TItem>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TItem>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TItem>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<TItem>* i___System__Collections__Generic__IEnumerable_1_TItem_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::Priority_Queue::GenericPriorityQueue_2<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*, TPriority>*& __get__queue();
 

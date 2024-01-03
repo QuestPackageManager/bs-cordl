@@ -11,38 +11,38 @@ CORDL_MODULE_EXPORT(HapticsAudioClipPlayer)
 namespace GlobalNamespace {
 class __HapticsAudioClipPlayer__Pool;
 }
-namespace UnityEngine {
-class AudioSource;
-}
-namespace Libraries::HM::HMLib::VR {
-class HapticPresetSO;
+namespace GlobalNamespace {
+class __HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9;
 }
 namespace GlobalNamespace {
 class __HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11;
 }
+namespace Libraries::HM::HMLib::VR {
+class HapticPresetSO;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace System::Collections {
 class IEnumerator;
-}
-namespace GlobalNamespace {
-class __HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9;
 }
 namespace System {
 template <typename T> class Action_1;
 }
-namespace UnityEngine::XR {
-struct XRNode;
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
 }
-namespace System {
-class IDisposable;
+namespace UnityEngine::XR {
+struct XRNode;
+}
+namespace UnityEngine {
+class AudioSource;
 }
 namespace UnityEngine {
 class WaitForEndOfFrame;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -199,7 +199,7 @@ static_assert(offsetof(::GlobalNamespace::HapticsAudioClipPlayer, ____lastTrigge
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11038), inst: 315 }), TypeDefinitionIndex(TypeDefinitionIndex(14424)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14424)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11038), inst: 315 }),
 // TypeDefinitionIndex(TypeDefinitionIndex(11038))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14421)) CS Name: ::HapticsAudioClipPlayer::Pool*
 class CORDL_TYPE __HapticsAudioClipPlayer__Pool : public ::Zenject::MemoryPool_1<::GlobalNamespace::HapticsAudioClipPlayer*> {
 public:
@@ -273,11 +273,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -403,11 +412,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

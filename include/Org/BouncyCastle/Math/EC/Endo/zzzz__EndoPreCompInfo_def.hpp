@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(EndoPreCompInfo)
 namespace Org::BouncyCastle::Math::EC::Endo {
 class ECEndomorphism;
 }
-namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
-}
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class PreCompInfo;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Endo {
@@ -41,6 +41,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo"
   constexpr operator ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo"
+  constexpr ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* i___Org__BouncyCastle__Math__EC__Multiplier__PreCompInfo() noexcept;
 
   constexpr ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*& __get_m_endomorphism();
 

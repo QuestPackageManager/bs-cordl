@@ -11,10 +11,10 @@ namespace Org::BouncyCastle::Crypto {
 class IAsymmetricBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
-class IRsa;
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IRsa;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -39,6 +39,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
+  constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* i___Org__BouncyCastle__Crypto__IAsymmetricBlockCipher() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::IRsa*& __get_core();
 

@@ -9,8 +9,11 @@ CORDL_MODULE_EXPORT(ResourceProvider)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace Zenject {
-class InjectContext;
+namespace System {
+class Action;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class Type;
@@ -18,11 +21,8 @@ class Type;
 namespace Zenject {
 class IProvider;
 }
-namespace System {
-class Object;
-}
-namespace System {
-class Action;
+namespace Zenject {
+class InjectContext;
 }
 namespace Zenject {
 struct TypeValuePair;
@@ -58,6 +58,9 @@ public:
 
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
+
+  /// @brief Convert to "::Zenject::IProvider"
+  constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
 
   constexpr ::System::Type*& __get__resourceType();
 

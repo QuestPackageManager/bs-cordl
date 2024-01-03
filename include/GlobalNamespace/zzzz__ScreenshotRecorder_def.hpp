@@ -9,6 +9,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScreenshotRecorder)
+namespace GlobalNamespace {
+struct __ScreenshotRecorder__RecordingType;
+}
 namespace UnityEngine {
 class Camera;
 }
@@ -17,9 +20,6 @@ class RenderTexture;
 }
 namespace UnityEngine {
 class Texture2D;
-}
-namespace GlobalNamespace {
-struct __ScreenshotRecorder__RecordingType;
 }
 // Forward declare root types
 namespace GlobalNamespace {

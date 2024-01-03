@@ -14,16 +14,16 @@ namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
 namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
-namespace UnityEngine::ProBuilder {
-template <typename T1, typename T2> struct SimpleTuple_2;
+struct Edge;
 }
 namespace UnityEngine::ProBuilder {
 class Face;
 }
 namespace UnityEngine::ProBuilder {
-struct Edge;
+class ProBuilderMesh;
+}
+namespace UnityEngine::ProBuilder {
+template <typename T1, typename T2> struct SimpleTuple_2;
 }
 namespace UnityEngine::ProBuilder {
 class __EdgeUtility____c__DisplayClass0_0;

@@ -85,6 +85,9 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::StringW>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::StringW>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::StringW>"
+  constexpr ::System::Collections::Generic::IEqualityComparer_1<::StringW>* i___System__Collections__Generic__IEqualityComparer_1___StringW_() noexcept;
+
   constexpr int32_t& __get_hashCodeRandomizer();
 
   constexpr int32_t const& __get_hashCodeRandomizer() const;

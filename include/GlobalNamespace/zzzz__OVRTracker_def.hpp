@@ -105,20 +105,16 @@ public:
   inline int32_t get_count();
 
   /// @brief Method GetFrustum, addr 0x2799764, size 0xa4, virtual false, abstract: false, final false
-  /// @param tracker: int32_t (default: static_cast<int32_t>(0x0))
-  inline ::GlobalNamespace::__OVRTracker__Frustum GetFrustum(int32_t tracker = static_cast<int32_t>(0x0));
+  inline ::GlobalNamespace::__OVRTracker__Frustum GetFrustum(int32_t tracker);
 
   /// @brief Method GetPose, addr 0x2799808, size 0x2b0, virtual false, abstract: false, final false
-  /// @param tracker: int32_t (default: static_cast<int32_t>(0x0))
-  inline ::GlobalNamespace::OVRPose GetPose(int32_t tracker = static_cast<int32_t>(0x0));
+  inline ::GlobalNamespace::OVRPose GetPose(int32_t tracker);
 
   /// @brief Method GetPoseValid, addr 0x2799ab8, size 0x104, virtual false, abstract: false, final false
-  /// @param tracker: int32_t (default: static_cast<int32_t>(0x0))
-  inline bool GetPoseValid(int32_t tracker = static_cast<int32_t>(0x0));
+  inline bool GetPoseValid(int32_t tracker);
 
   /// @brief Method GetPresent, addr 0x2799660, size 0x104, virtual false, abstract: false, final false
-  /// @param tracker: int32_t (default: static_cast<int32_t>(0x0))
-  inline bool GetPresent(int32_t tracker = static_cast<int32_t>(0x0));
+  inline bool GetPresent(int32_t tracker);
 
   static inline ::GlobalNamespace::OVRTracker* New_ctor();
 

@@ -7,35 +7,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Console)
-namespace System {
-class Object;
-}
-namespace System {
-class ConsoleCancelEventHandler;
-}
-namespace System::Text {
-class Encoding;
-}
-namespace System {
-class __Console__WindowsConsole;
-}
-namespace System::IO {
-class Stream;
-}
-namespace System {
-struct ConsoleKeyInfo;
-}
-namespace System::IO {
-class TextWriter;
+namespace GlobalNamespace {
+class __Console__WindowsConsole__WindowsCancelHandler;
 }
 namespace System::IO {
 struct FileAccess;
 }
 namespace System::IO {
+class Stream;
+}
+namespace System::IO {
 class TextReader;
 }
-namespace GlobalNamespace {
-class __Console__WindowsConsole__WindowsCancelHandler;
+namespace System::IO {
+class TextWriter;
+}
+namespace System::Text {
+class Encoding;
+}
+namespace System {
+class ConsoleCancelEventHandler;
+}
+namespace System {
+struct ConsoleKeyInfo;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class __Console__WindowsConsole;
 }
 // Forward declare root types
 namespace GlobalNamespace {

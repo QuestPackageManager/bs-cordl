@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(S2k)
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Bcpg {
 class BcpgOutputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct HashAlgorithmTag;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::S2k);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(554)), TypeDefinitionIndex(TypeDefinitionIndex(572))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(572)), TypeDefinitionIndex(TypeDefinitionIndex(554))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(586))
 // CS Name: ::Org.BouncyCastle.Bcpg::S2k*
 class CORDL_TYPE S2k : public ::Org::BouncyCastle::Bcpg::BcpgObject {

@@ -82,7 +82,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRMixedRealityCaptureTest__CameraMo
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8136)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7756))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7756)), TypeDefinitionIndex(TypeDefinitionIndex(8136))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8137))
 // CS Name: ::OVRMixedRealityCaptureTest*
 class CORDL_TYPE OVRMixedRealityCaptureTest : public ::UnityEngine::MonoBehaviour {

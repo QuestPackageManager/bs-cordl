@@ -6,8 +6,8 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Pipe)
-namespace UnityEngine {
-struct Quaternion;
+namespace UnityEngine::ProBuilder::Shapes {
+class Shape;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
@@ -15,8 +15,8 @@ class ProBuilderMesh;
 namespace UnityEngine {
 struct Bounds;
 }
-namespace UnityEngine::ProBuilder::Shapes {
-class Shape;
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;

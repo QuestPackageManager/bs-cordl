@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapEventDataBoxGroup)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class IReadOnlyDictionary_2;
+namespace GlobalNamespace {
+class BeatmapData;
+}
+namespace GlobalNamespace {
+class BeatmapEventDataBox;
 }
 namespace GlobalNamespace {
 class BeatmapEventData;
 }
 namespace GlobalNamespace {
-class BeatmapData;
-}
-namespace GlobalNamespace {
 class IBeatToTimeConvertor;
 }
 namespace GlobalNamespace {
-class BeatmapEventDataBox;
+class __BeatmapEventDataBoxGroup__ElementData;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -28,19 +28,19 @@ namespace System::Collections::Generic {
 template <typename T> class IReadOnlyCollection_1;
 }
 namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class IReadOnlyDictionary_2;
+}
+namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System {
+template <typename T> class IComparable_1;
 }
 namespace System {
 class Type;
 }
 namespace System {
 template <typename T1, typename T2, typename T3> struct ValueTuple_3;
-}
-namespace System {
-template <typename T> class IComparable_1;
-}
-namespace GlobalNamespace {
-class __BeatmapEventDataBoxGroup__ElementData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -281,6 +281,9 @@ public:
 
   /// @brief Convert operator to "::System::IComparable_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>"
   constexpr operator ::System::IComparable_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*() noexcept;
+
+  /// @brief Convert to "::System::IComparable_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>"
+  constexpr ::System::IComparable_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* i___System__IComparable_1___GlobalNamespace__BeatmapEventDataBoxGroup__() noexcept;
 
   constexpr float_t& __get_beat();
 

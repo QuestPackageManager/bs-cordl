@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FormattableString)
 namespace System {
+class IFormatProvider;
+}
+namespace System {
 class IFormattable;
 }
 namespace System {
 class Object;
-}
-namespace System {
-class IFormatProvider;
 }
 // Forward declare root types
 namespace System {
@@ -38,6 +38,9 @@ public:
 
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*() noexcept;
+
+  /// @brief Convert to "::System::IFormattable"
+  constexpr ::System::IFormattable* i___System__IFormattable() noexcept;
 
   /// @brief Method get_Format, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Format();

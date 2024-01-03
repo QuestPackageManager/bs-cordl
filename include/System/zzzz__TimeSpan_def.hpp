@@ -2,7 +2,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
@@ -10,28 +9,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimeSpan)
 namespace System {
-class IFormatProvider;
+template <typename T> class IComparable_1;
 }
 namespace System {
 class IComparable;
 }
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> struct Span_1;
+class IFormatProvider;
 }
 namespace System {
 class IFormattable;
 }
 namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
 class ISpanFormattable;
 }
 namespace System {
-template <typename T> class IComparable_1;
+class Object;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
+template <typename T> struct Span_1;
 }
 // Forward declare root types
 namespace System {
@@ -43,7 +45,7 @@ MARK_VAL_T(::System::TimeSpan);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2464)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292 })}
+// Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2484))
 // CS Name: ::System::TimeSpan
 struct CORDL_TYPE TimeSpan {
@@ -79,17 +81,32 @@ public:
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*();
 
+  /// @brief Convert to "::System::IComparable"
+  constexpr ::System::IComparable* i___System__IComparable();
+
   /// @brief Convert operator to "::System::IComparable_1<::System::TimeSpan>"
   constexpr operator ::System::IComparable_1<::System::TimeSpan>*();
+
+  /// @brief Convert to "::System::IComparable_1<::System::TimeSpan>"
+  constexpr ::System::IComparable_1<::System::TimeSpan>* i___System__IComparable_1___System__TimeSpan_();
 
   /// @brief Convert operator to "::System::IEquatable_1<::System::TimeSpan>"
   constexpr operator ::System::IEquatable_1<::System::TimeSpan>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::System::TimeSpan>"
+  constexpr ::System::IEquatable_1<::System::TimeSpan>* i___System__IEquatable_1___System__TimeSpan_();
+
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
+  /// @brief Convert to "::System::IFormattable"
+  constexpr ::System::IFormattable* i___System__IFormattable();
+
   /// @brief Convert operator to "::System::ISpanFormattable"
   constexpr operator ::System::ISpanFormattable*();
+
+  /// @brief Convert to "::System::ISpanFormattable"
+  constexpr ::System::ISpanFormattable* i___System__ISpanFormattable();
 
   static inline void setStaticF_Zero(::System::TimeSpan value);
 
@@ -212,9 +229,7 @@ public:
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
   /// @brief Method TryFormat, addr 0x25c6cbc, size 0xa4, virtual true, abstract: false, final true
-  /// @param format: ::System::ReadOnlySpan_1<char16_t> (default: {})
-  /// @param formatProvider: ::System::IFormatProvider* (default: nullptr)
-  inline bool TryFormat(::System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten, ::System::ReadOnlySpan_1<char16_t> format = {}, ::System::IFormatProvider* formatProvider = nullptr);
+  inline bool TryFormat(::System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten, ::System::ReadOnlySpan_1<char16_t> format, ::System::IFormatProvider* formatProvider);
 
   /// @brief Method op_UnaryNegation, addr 0x25c6d60, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::TimeSpan op_UnaryNegation(::System::TimeSpan t);

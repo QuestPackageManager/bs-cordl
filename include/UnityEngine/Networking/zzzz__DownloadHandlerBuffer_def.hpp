@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::UnityEngine::Networking::DownloadHandlerBuffer);
 // SizeInfo { instance_size: 40, native_size: 24, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(15580)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15580)), TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741
 // })} Self: TypeDefinitionIndex(TypeDefinitionIndex(15581)) CS Name: ::UnityEngine.Networking::DownloadHandlerBuffer*
 class CORDL_TYPE DownloadHandlerBuffer : public ::UnityEngine::Networking::DownloadHandler {
 public:

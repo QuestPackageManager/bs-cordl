@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Leaderboards)
-namespace Oculus::Platform {
-struct LeaderboardFilterType;
+namespace Oculus::Platform::Models {
+class LeaderboardEntryList;
 }
 namespace Oculus::Platform::Models {
 class LeaderboardList;
 }
-namespace Oculus::Platform::Models {
-class LeaderboardEntryList;
+namespace Oculus::Platform {
+struct LeaderboardFilterType;
 }
 namespace Oculus::Platform {
 struct LeaderboardStartAt;
@@ -59,15 +59,11 @@ public:
   GetEntriesByIds(::StringW leaderboardName, int32_t limit, ::Oculus::Platform::LeaderboardStartAt startAt, ::ArrayW<uint64_t, ::Array<uint64_t>*> userIDs);
 
   /// @brief Method WriteEntry, addr 0x26f6508, size 0x19c, virtual false, abstract: false, final false
-  /// @param extraData: ::ArrayW<uint8_t,::Array<uint8_t>*> (default: nullptr)
-  /// @param forceUpdate: bool (default: false)
-  static inline ::Oculus::Platform::Request_1<bool>* WriteEntry(::StringW leaderboardName, int64_t score, ::ArrayW<uint8_t, ::Array<uint8_t>*> extraData = nullptr, bool forceUpdate = false);
+  static inline ::Oculus::Platform::Request_1<bool>* WriteEntry(::StringW leaderboardName, int64_t score, ::ArrayW<uint8_t, ::Array<uint8_t>*> extraData, bool forceUpdate);
 
   /// @brief Method WriteEntryWithSupplementaryMetric, addr 0x26f66a4, size 0x1a4, virtual false, abstract: false, final false
-  /// @param extraData: ::ArrayW<uint8_t,::Array<uint8_t>*> (default: nullptr)
-  /// @param forceUpdate: bool (default: false)
   static inline ::Oculus::Platform::Request_1<bool>* WriteEntryWithSupplementaryMetric(::StringW leaderboardName, int64_t score, int64_t supplementaryMetric,
-                                                                                       ::ArrayW<uint8_t, ::Array<uint8_t>*> extraData = nullptr, bool forceUpdate = false);
+                                                                                       ::ArrayW<uint8_t, ::Array<uint8_t>*> extraData, bool forceUpdate);
 
   /// @brief Method GetNextLeaderboardListPage, addr 0x26f6848, size 0x1dc, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardList*>* GetNextLeaderboardListPage(::Oculus::Platform::Models::LeaderboardList* list);

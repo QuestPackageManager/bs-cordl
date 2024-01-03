@@ -1,18 +1,26 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Pool/zzzz__ObjectPool_1_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/Pool/zzzz__IObjectPool_1_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/Pool/zzzz__IObjectPool_1_def.hpp"
 #include "UnityEngine/Pool/zzzz__PooledObject_1_def.hpp"
 /// @brief Convert operator to "::System::IDisposable"
 template <typename T> constexpr UnityEngine::Pool::ObjectPool_1<T>::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::IDisposable"
+template <typename T> constexpr ::System::IDisposable* UnityEngine::Pool::ObjectPool_1<T>::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::UnityEngine::Pool::IObjectPool_1<T>"
 template <typename T> constexpr UnityEngine::Pool::ObjectPool_1<T>::operator ::UnityEngine::Pool::IObjectPool_1<T>*() noexcept {
+  return static_cast<::UnityEngine::Pool::IObjectPool_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::Pool::IObjectPool_1<T>"
+template <typename T> constexpr ::UnityEngine::Pool::IObjectPool_1<T>* UnityEngine::Pool::ObjectPool_1<T>::i___UnityEngine__Pool__IObjectPool_1_T_() noexcept {
   return static_cast<::UnityEngine::Pool::IObjectPool_1<T>*>(static_cast<void*>(this));
 }
 template <typename T> constexpr ::System::Collections::Generic::List_1<T>*& UnityEngine::Pool::ObjectPool_1<T>::__get_m_List() {

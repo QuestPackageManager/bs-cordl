@@ -2,66 +2,68 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DiffieHellmanUtility)
-namespace GlobalNamespace {
-struct __DiffieHellmanUtility__KeyType;
-}
 namespace BGNet::Core {
 class ITaskUtility;
 }
-namespace Org::BouncyCastle::Crypto::Agreement {
-class DHBasicAgreement;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DHParameters;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECDomainParameters;
-}
 namespace GlobalNamespace {
 class IDiffieHellmanKeyPair;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace GlobalNamespace {
-class __DiffieHellmanUtility__ElipticalCurveKeyPair;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
 class __DiffieHellmanUtility__DiffieHellmanKeyPair;
 }
 namespace GlobalNamespace {
+class __DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0;
+}
+namespace GlobalNamespace {
+class __DiffieHellmanUtility__ElipticalCurveKeyPair;
+}
+namespace GlobalNamespace {
+class __DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0;
+}
+namespace GlobalNamespace {
+struct __DiffieHellmanUtility__KeyType;
+}
+namespace GlobalNamespace {
 class __DiffieHellmanUtility__OperationTimer;
+}
+namespace Org::BouncyCastle::Crypto::Agreement {
+class DHBasicAgreement;
 }
 namespace Org::BouncyCastle::Crypto::Agreement {
 class ECDHBasicAgreement;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
+class DHParameters;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
 class DHPrivateKeyParameters;
 }
-namespace GlobalNamespace {
-class __DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECDomainParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECPrivateKeyParameters;
 }
-namespace GlobalNamespace {
-class __DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0;
-}
-namespace System {
-class IDisposable;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace System::Diagnostics {
 class Stopwatch;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -232,6 +234,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IDiffieHellmanKeyPair"
   constexpr operator ::GlobalNamespace::IDiffieHellmanKeyPair*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IDiffieHellmanKeyPair"
+  constexpr ::GlobalNamespace::IDiffieHellmanKeyPair* i___GlobalNamespace__IDiffieHellmanKeyPair() noexcept;
+
   constexpr ::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement*& __get__dhBasicAgreement();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement*> const& __get__dhBasicAgreement() const;
@@ -379,6 +384,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IDiffieHellmanKeyPair"
   constexpr operator ::GlobalNamespace::IDiffieHellmanKeyPair*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IDiffieHellmanKeyPair"
+  constexpr ::GlobalNamespace::IDiffieHellmanKeyPair* i___GlobalNamespace__IDiffieHellmanKeyPair() noexcept;
+
   constexpr ::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement*& __get__ecdhBasicAgreement();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement*> const& __get__ecdhBasicAgreement() const;
@@ -456,6 +464,9 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   constexpr ::System::Diagnostics::Stopwatch*& __get__stopwatch();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Diagnostics::Stopwatch*> const& __get__stopwatch() const;
@@ -513,7 +524,7 @@ static_assert(offsetof(::GlobalNamespace::__DiffieHellmanUtility__OperationTimer
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(12712))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12718))
 // CS Name: ::DiffieHellmanUtility*
 class CORDL_TYPE DiffieHellmanUtility : public ::System::Object {
@@ -556,15 +567,11 @@ public:
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF__ecPointFormats();
 
   /// @brief Method GenerateKeysAsync, addr 0xe32a4c, size 0x194, virtual false, abstract: false, final false
-  /// @param cancellationToken: ::System::Threading::CancellationToken (default: {})
-  /// @param keyType: ::GlobalNamespace::__DiffieHellmanUtility__KeyType (default: static_cast<int32_t>(0x1))
   static inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IDiffieHellmanKeyPair*>*
-  GenerateKeysAsync(::BGNet::Core::ITaskUtility* taskUtility, ::System::Threading::CancellationToken cancellationToken = {},
-                    ::GlobalNamespace::__DiffieHellmanUtility__KeyType keyType = static_cast<int32_t>(0x1));
+  GenerateKeysAsync(::BGNet::Core::ITaskUtility* taskUtility, ::System::Threading::CancellationToken cancellationToken, ::GlobalNamespace::__DiffieHellmanUtility__KeyType keyType);
 
   /// @brief Method GenerateKeys, addr 0xe2efd4, size 0x64, virtual false, abstract: false, final false
-  /// @param keyType: ::GlobalNamespace::__DiffieHellmanUtility__KeyType (default: static_cast<int32_t>(0x1))
-  static inline ::GlobalNamespace::IDiffieHellmanKeyPair* GenerateKeys(::GlobalNamespace::__DiffieHellmanUtility__KeyType keyType = static_cast<int32_t>(0x1));
+  static inline ::GlobalNamespace::IDiffieHellmanKeyPair* GenerateKeys(::GlobalNamespace::__DiffieHellmanUtility__KeyType keyType);
 
   /// @brief Method GenerateDiffieHellmanKeys, addr 0xe32d70, size 0x184, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair* GenerateDiffieHellmanKeys();

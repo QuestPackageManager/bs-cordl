@@ -11,20 +11,20 @@ class BeatmapObjectManager;
 namespace GlobalNamespace {
 class ObstacleController;
 }
-namespace System {
-class Action;
-}
-namespace System {
-template <typename T> class Action_1;
+namespace GlobalNamespace {
+class PlayerTransforms;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+class Action;
+}
 namespace UnityEngine {
 struct Vector3;
-}
-namespace GlobalNamespace {
-class PlayerTransforms;
 }
 // Forward declare root types
 namespace GlobalNamespace {

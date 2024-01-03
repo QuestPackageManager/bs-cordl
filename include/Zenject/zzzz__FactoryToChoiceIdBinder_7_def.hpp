@@ -4,6 +4,12 @@
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__FactoryArgumentsToChoiceBinder_7_def.hpp"
 CORDL_MODULE_EXPORT(FactoryToChoiceIdBinder_7)
+namespace System {
+class Object;
+}
+namespace Zenject {
+class BindInfo;
+}
 namespace Zenject {
 class DiContainer;
 }
@@ -12,12 +18,6 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TParam4
 }
 namespace Zenject {
 class FactoryBindInfo;
-}
-namespace System {
-class Object;
-}
-namespace Zenject {
-class BindInfo;
 }
 // Forward declare root types
 namespace Zenject {

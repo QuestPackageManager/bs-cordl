@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__SubContainerCreatorByInstanceGetter_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-#include "Zenject/zzzz__TypeValuePair_def.hpp"
 #include "Zenject/zzzz__ISubContainerCreator_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__TypeValuePair_def.hpp"
 //  Writing Method size for method: ::Zenject::SubContainerCreatorByInstanceGetter._ctor
 template <>
 
@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x2f0b6b8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByInstanceGetter*>::get(), ".ctor", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::Zenject::InjectContext*, ::Zenject::DiContainer*>*>::get() })));
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x2f0b6e0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByInstanceGetter*>::get(), "CreateSubContainer", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*>::get(),
@@ -41,6 +41,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 };
 /// @brief Convert operator to "::Zenject::ISubContainerCreator"
 constexpr Zenject::SubContainerCreatorByInstanceGetter::operator ::Zenject::ISubContainerCreator*() noexcept {
+  return static_cast<::Zenject::ISubContainerCreator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::ISubContainerCreator"
+constexpr ::Zenject::ISubContainerCreator* Zenject::SubContainerCreatorByInstanceGetter::i___Zenject__ISubContainerCreator() noexcept {
   return static_cast<::Zenject::ISubContainerCreator*>(static_cast<void*>(this));
 }
 constexpr ::System::Func_2<::Zenject::InjectContext*, ::Zenject::DiContainer*>*& Zenject::SubContainerCreatorByInstanceGetter::__get__subcontainerGetter() {

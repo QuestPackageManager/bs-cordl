@@ -3,82 +3,77 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
-#include "GlobalNamespace/zzzz__RecordingToolManager_def.hpp"
 #include "GlobalNamespace/zzzz__TutorialScenesTransitionSetupDataSO_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MenuTransitionsHelper)
-namespace GlobalNamespace {
-class MissionObjective;
+namespace BeatmapEditor3D {
+class BeatmapEditorStandardLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class __MenuTransitionsHelper____c__DisplayClass31_0;
+class AppInitScenesTransitionSetupDataContainerSO;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
 class BeatmapDataCache;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class __MenuTransitionsHelper____c__DisplayClass33_0;
-}
-namespace GlobalNamespace {
-class MultiplayerLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class __MenuTransitionsHelper____c__DisplayClass36_0;
-}
-namespace GlobalNamespace {
-class MissionLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class CreditsScenesTransitionSetupDataSO;
+struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
 class BeatmapEditorScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class LevelCompletionResults;
-}
-namespace GlobalNamespace {
-class MainSettingsModelSO;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class __MenuTransitionsHelper____c__DisplayClass29_0;
-}
-namespace GlobalNamespace {
-class MultiplayerResultsData;
-}
-namespace GlobalNamespace {
 class ColorScheme;
 }
 namespace GlobalNamespace {
-struct __TutorialScenesTransitionSetupDataSO__TutorialEndStateType;
+class CreditsScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class __MenuTransitionsHelper____c__DisplayClass32_0;
+struct DisconnectedReason;
 }
 namespace GlobalNamespace {
-class TutorialScenesTransitionSetupDataSO;
+class GameScenesManager;
 }
 namespace GlobalNamespace {
-class OverrideEnvironmentSettings;
+class GameplayModifiers;
 }
-namespace System {
-template <typename T1, typename T2> class Action_2;
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class LevelCompletionResults;
+}
+namespace GlobalNamespace {
+class LevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class MainSettingsModelSO;
+}
+namespace GlobalNamespace {
+class MissionCompletionResults;
+}
+namespace GlobalNamespace {
+class MissionLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class MissionObjective;
+}
+namespace GlobalNamespace {
+class MultiplayerLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class MultiplayerResultsData;
+}
+namespace GlobalNamespace {
+class OverrideEnvironmentSettings;
 }
 namespace GlobalNamespace {
 class PlayerSpecificSettings;
@@ -90,34 +85,43 @@ namespace GlobalNamespace {
 class StandardLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+class TutorialScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-struct DisconnectedReason;
+class __MenuTransitionsHelper____c__DisplayClass29_0;
 }
 namespace GlobalNamespace {
-class AppInitScenesTransitionSetupDataContainerSO;
+class __MenuTransitionsHelper____c__DisplayClass30_0;
 }
 namespace GlobalNamespace {
-class GameScenesManager;
+class __MenuTransitionsHelper____c__DisplayClass31_0;
+}
+namespace GlobalNamespace {
+class __MenuTransitionsHelper____c__DisplayClass32_0;
+}
+namespace GlobalNamespace {
+class __MenuTransitionsHelper____c__DisplayClass33_0;
+}
+namespace GlobalNamespace {
+class __MenuTransitionsHelper____c__DisplayClass36_0;
+}
+namespace GlobalNamespace {
+struct __RecordingToolManager__SetupData;
+}
+namespace GlobalNamespace {
+struct __TutorialScenesTransitionSetupDataSO__TutorialEndStateType;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace System {
 class Action;
 }
-namespace GlobalNamespace {
-struct BeatmapDifficulty;
-}
-namespace BeatmapEditor3D {
-class BeatmapEditorStandardLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class MissionCompletionResults;
-}
-namespace GlobalNamespace {
-class LevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class __MenuTransitionsHelper____c__DisplayClass30_0;
+namespace System {
+template <typename T> struct Nullable_1;
 }
 namespace Zenject {
 class DiContainer;
@@ -318,7 +322,7 @@ static_assert(offsetof(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayC
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12720))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12720)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6070))
 // CS Name: ::MenuTransitionsHelper::<>c__DisplayClass31_0*
 class CORDL_TYPE __MenuTransitionsHelper____c__DisplayClass31_0 : public ::System::Object {
@@ -628,8 +632,9 @@ static_assert(offsetof(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayC
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4778 }), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(5962))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6074)) CS Name: ::MenuTransitionsHelper*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6074))
+// CS Name: ::MenuTransitionsHelper*
 class CORDL_TYPE MenuTransitionsHelper : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -829,7 +834,6 @@ public:
   inline void OnDestroy();
 
   /// @brief Method StartStandardLevel, addr 0x231e390, size 0x58, virtual false, abstract: false, final false
-  /// @param recordingToolData: ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> (default: {})
   inline void StartStandardLevel(::StringW gameMode, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel,
                                  ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, ::GlobalNamespace::ColorScheme* overrideColorScheme,
                                  ::GlobalNamespace::ColorScheme* beatmapOverrideColorScheme, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
@@ -837,10 +841,9 @@ public:
                                  bool useTestNoteCutSoundEffects, bool startPaused, ::System::Action* beforeSceneSwitchCallback,
                                  ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* levelFinishedCallback,
                                  ::System::Action_2<::GlobalNamespace::LevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* levelRestartedCallback,
-                                 ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData = {});
+                                 ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData);
 
   /// @brief Method StartStandardLevel, addr 0x231e3e8, size 0x17c, virtual false, abstract: false, final false
-  /// @param recordingToolData: ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> (default: {})
   inline void StartStandardLevel(::StringW gameMode, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel,
                                  ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, ::GlobalNamespace::ColorScheme* overrideColorScheme,
                                  ::GlobalNamespace::ColorScheme* beatmapOverrideColorScheme, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
@@ -848,16 +851,15 @@ public:
                                  bool useTestNoteCutSoundEffects, bool startPaused, ::System::Action* beforeSceneSwitchCallback, ::System::Action_1<::Zenject::DiContainer*>* afterSceneSwitchCallback,
                                  ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* levelFinishedCallback,
                                  ::System::Action_2<::GlobalNamespace::LevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* levelRestartedCallback,
-                                 ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData = {});
+                                 ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData);
 
   /// @brief Method StartMissionLevel, addr 0x231e564, size 0x180, virtual false, abstract: false, final false
-  /// @param levelRestartedCallback: ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*,::GlobalNamespace::MissionCompletionResults*>* (default: nullptr)
   inline void StartMissionLevel(::StringW missionId, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel,
                                 ::GlobalNamespace::ColorScheme* overrideColorScheme, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                                 ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives,
                                 ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::System::Action* beforeSceneSwitchCallback,
                                 ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>* levelFinishedCallback,
-                                ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>* levelRestartedCallback = nullptr);
+                                ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>* levelRestartedCallback);
 
   /// @brief Method StartMultiplayerLevel, addr 0x231e6e4, size 0x3c, virtual false, abstract: false, final false
   inline void StartMultiplayerLevel(::StringW gameMode, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
@@ -878,8 +880,7 @@ public:
                                     ::System::Action_1<::GlobalNamespace::DisconnectedReason>* didDisconnectCallback);
 
   /// @brief Method StartTutorial, addr 0x231ed74, size 0x108, virtual false, abstract: false, final false
-  /// @param beforeSceneSwitchCallback: ::System::Action* (default: nullptr)
-  inline void StartTutorial(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::System::Action* beforeSceneSwitchCallback = nullptr);
+  inline void StartTutorial(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::System::Action* beforeSceneSwitchCallback);
 
   /// @brief Method ShowCredits, addr 0x231ef2c, size 0xf8, virtual false, abstract: false, final false
   inline void ShowCredits();
@@ -896,8 +897,7 @@ public:
                                   ::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* levelFinishedCallback);
 
   /// @brief Method RestartGame, addr 0x231f02c, size 0x64, virtual false, abstract: false, final false
-  /// @param finishCallback: ::System::Action_1<::Zenject::DiContainer*>* (default: nullptr)
-  inline void RestartGame(::System::Action_1<::Zenject::DiContainer*>* finishCallback = nullptr);
+  inline void RestartGame(::System::Action_1<::Zenject::DiContainer*>* finishCallback);
 
   /// @brief Method StopStandardLevel, addr 0x231f090, size 0x68, virtual false, abstract: false, final false
   inline void StopStandardLevel();

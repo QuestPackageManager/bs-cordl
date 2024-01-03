@@ -28,6 +28,9 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDerivationFunction"
   constexpr operator ::Org::BouncyCastle::Crypto::IDerivationFunction*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationFunction"
+  constexpr ::Org::BouncyCastle::Crypto::IDerivationFunction* i___Org__BouncyCastle__Crypto__IDerivationFunction() noexcept;
+
   /// @brief Method GetMac, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::IMac* GetMac();
 

@@ -38,6 +38,9 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Utilities::Encoders::IEncoder"
   constexpr operator ::Org::BouncyCastle::Utilities::Encoders::IEncoder*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Utilities::Encoders::IEncoder"
+  constexpr ::Org::BouncyCastle::Utilities::Encoders::IEncoder* i___Org__BouncyCastle__Utilities__Encoders__IEncoder() noexcept;
+
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_encodingTable();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_encodingTable() const;

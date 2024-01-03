@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(FloorLightTile)
-namespace Ice {
-class __FloorLightTile__Pool;
-}
-namespace Tweening {
-class ColorTween;
-}
-namespace UnityEngine {
-struct Color;
+namespace GlobalNamespace {
+class MaterialPropertyBlockColorSetter;
 }
 namespace GlobalNamespace {
 class TubeBloomPrePassLight;
 }
-namespace GlobalNamespace {
-class MaterialPropertyBlockColorSetter;
+namespace Ice {
+class __FloorLightTile__Pool;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace Tweening {
+class ColorTween;
+}
+namespace Tweening {
 class SongTimeTweeningManager;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace Ice {
@@ -180,8 +180,8 @@ static_assert(offsetof(::Ice::FloorLightTile, ____fadeOutTween) == 0x40, "Offset
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Ice {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 308 }), TypeDefinitionIndex(TypeDefinitionIndex(11050)),
-// TypeDefinitionIndex(TypeDefinitionIndex(16168))} Self: TypeDefinitionIndex(TypeDefinitionIndex(16167)) CS Name: ::FloorLightTile::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), TypeDefinitionIndex(TypeDefinitionIndex(16168)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// 308 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(16167)) CS Name: ::FloorLightTile::Pool*
 class CORDL_TYPE __FloorLightTile__Pool : public ::Zenject::MonoMemoryPool_1<::Ice::FloorLightTile*> {
 public:
   // Declarations

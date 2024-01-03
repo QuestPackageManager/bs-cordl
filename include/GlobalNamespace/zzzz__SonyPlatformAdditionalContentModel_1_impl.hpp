@@ -9,26 +9,32 @@
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_impl.hpp"
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "GlobalNamespace/zzzz__SonyPlatformAdditionalContentModel_1_def.hpp"
-#include "GlobalNamespace/zzzz__SonyPlatformAdditionalContentModel_1_def.hpp"
-#include "System/Threading/zzzz__SemaphoreSlim_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "GlobalNamespace/zzzz__SonyLevelProductModelSO_def.hpp"
 #include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
 #include "GlobalNamespace/zzzz__AlwaysOwnedContentContainerSO_def.hpp"
-#include "GlobalNamespace/zzzz__ISonyCommerceHelper_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "GlobalNamespace/zzzz__OpenProductStoreResult_def.hpp"
-#include "GlobalNamespace/zzzz__IsPackBetterBuyThanLevelResult_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "GlobalNamespace/zzzz__EntitlementStatus_def.hpp"
+#include "GlobalNamespace/zzzz__ISonyCommerceHelper_def.hpp"
+#include "GlobalNamespace/zzzz__IsPackBetterBuyThanLevelResult_def.hpp"
+#include "GlobalNamespace/zzzz__OpenProductStoreResult_def.hpp"
+#include "GlobalNamespace/zzzz__SonyLevelProductModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__SonyPlatformAdditionalContentModel_1_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Threading/zzzz__SemaphoreSlim_def.hpp"
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 template <typename T>
 constexpr GlobalNamespace::__SonyPlatformAdditionalContentModel_1___GetLevelEntitlementStatusInternalAsync_d__11<T>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+template <typename T>
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+GlobalNamespace::__SonyPlatformAdditionalContentModel_1___GetLevelEntitlementStatusInternalAsync_d__11<T>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename T> inline void GlobalNamespace::__SonyPlatformAdditionalContentModel_1___GetLevelEntitlementStatusInternalAsync_d__11<T>::MoveNext() {
@@ -72,6 +78,12 @@ template <typename T>
 constexpr GlobalNamespace::__SonyPlatformAdditionalContentModel_1___GetPackEntitlementStatusInternalAsync_d__12<T>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+template <typename T>
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+GlobalNamespace::__SonyPlatformAdditionalContentModel_1___GetPackEntitlementStatusInternalAsync_d__12<T>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 template <typename T> inline void GlobalNamespace::__SonyPlatformAdditionalContentModel_1___GetPackEntitlementStatusInternalAsync_d__12<T>::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyPlatformAdditionalContentModel_1___GetPackEntitlementStatusInternalAsync_d__12<T>>::get(), "MoveNext",
@@ -112,6 +124,12 @@ constexpr ::GlobalNamespace::__SonyPlatformAdditionalContentModel_1___GetPackEnt
 template <typename T> constexpr GlobalNamespace::__SonyPlatformAdditionalContentModel_1___OpenLevelProductStoreAsync_d__13<T>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+template <typename T>
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+GlobalNamespace::__SonyPlatformAdditionalContentModel_1___OpenLevelProductStoreAsync_d__13<T>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 template <typename T> inline void GlobalNamespace::__SonyPlatformAdditionalContentModel_1___OpenLevelProductStoreAsync_d__13<T>::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyPlatformAdditionalContentModel_1___OpenLevelProductStoreAsync_d__13<T>>::get(),
@@ -147,6 +165,12 @@ template <typename T>
 constexpr ::GlobalNamespace::__SonyPlatformAdditionalContentModel_1___OpenLevelProductStoreAsync_d__13<T>::__SonyPlatformAdditionalContentModel_1___OpenLevelProductStoreAsync_d__13() {}
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 template <typename T> constexpr GlobalNamespace::__SonyPlatformAdditionalContentModel_1___OpenLevelPackProductStoreAsync_d__14<T>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+template <typename T>
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+GlobalNamespace::__SonyPlatformAdditionalContentModel_1___OpenLevelPackProductStoreAsync_d__14<T>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename T> inline void GlobalNamespace::__SonyPlatformAdditionalContentModel_1___OpenLevelPackProductStoreAsync_d__14<T>::MoveNext() {
@@ -189,6 +213,12 @@ constexpr ::GlobalNamespace::__SonyPlatformAdditionalContentModel_1___OpenLevelP
 template <typename T> constexpr GlobalNamespace::__SonyPlatformAdditionalContentModel_1___IsPackBetterBuyThanLevelAsync_d__15<T>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+template <typename T>
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+GlobalNamespace::__SonyPlatformAdditionalContentModel_1___IsPackBetterBuyThanLevelAsync_d__15<T>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 template <typename T> inline void GlobalNamespace::__SonyPlatformAdditionalContentModel_1___IsPackBetterBuyThanLevelAsync_d__15<T>::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyPlatformAdditionalContentModel_1___IsPackBetterBuyThanLevelAsync_d__15<T>>::get(),
@@ -225,6 +255,12 @@ constexpr ::GlobalNamespace::__SonyPlatformAdditionalContentModel_1___IsPackBett
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 template <typename T>
 constexpr GlobalNamespace::__SonyPlatformAdditionalContentModel_1___GetRedirectedLevelPackProductData_d__16<T>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+template <typename T>
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+GlobalNamespace::__SonyPlatformAdditionalContentModel_1___GetRedirectedLevelPackProductData_d__16<T>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename T> inline void GlobalNamespace::__SonyPlatformAdditionalContentModel_1___GetRedirectedLevelPackProductData_d__16<T>::MoveNext() {
@@ -270,6 +306,12 @@ constexpr ::GlobalNamespace::__SonyPlatformAdditionalContentModel_1___GetRedirec
 template <typename T> constexpr GlobalNamespace::__SonyPlatformAdditionalContentModel_1___EnsureDataValidity_d__20<T>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+template <typename T>
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+GlobalNamespace::__SonyPlatformAdditionalContentModel_1___EnsureDataValidity_d__20<T>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 template <typename T> inline void GlobalNamespace::__SonyPlatformAdditionalContentModel_1___EnsureDataValidity_d__20<T>::MoveNext() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyPlatformAdditionalContentModel_1___EnsureDataValidity_d__20<T>>::get(),
@@ -304,6 +346,12 @@ constexpr ::GlobalNamespace::__SonyPlatformAdditionalContentModel_1___EnsureData
 template <typename T> constexpr ::GlobalNamespace::__SonyPlatformAdditionalContentModel_1___EnsureDataValidity_d__20<T>::__SonyPlatformAdditionalContentModel_1___EnsureDataValidity_d__20() {}
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 template <typename T> constexpr GlobalNamespace::__SonyPlatformAdditionalContentModel_1___UpdateEntitlementsAsync_d__21<T>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+template <typename T>
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+GlobalNamespace::__SonyPlatformAdditionalContentModel_1___UpdateEntitlementsAsync_d__21<T>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename T> inline void GlobalNamespace::__SonyPlatformAdditionalContentModel_1___UpdateEntitlementsAsync_d__21<T>::MoveNext() {

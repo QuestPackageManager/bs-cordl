@@ -5,26 +5,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_def.hpp"
 CORDL_MODULE_EXPORT(PS5AdvancedHapticsPlayerController)
-namespace System {
-template <typename T1, typename T2> struct ValueTuple_2;
-}
-namespace GlobalNamespace {
-class __PS5AdvancedHapticsPlayerController____c__DisplayClass6_0;
-}
-namespace GlobalNamespace {
-class __PS5AdvancedHapticsPlayerController____c__DisplayClass7_0;
-}
-namespace GlobalNamespace {
-class __HapticsAudioClipPlayer__Pool;
-}
 namespace GlobalNamespace {
 class HapticsAudioClipPlayer;
-}
-namespace UnityEngine::XR {
-struct XRNode;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
 class ICoroutineStarter;
@@ -32,11 +14,29 @@ class ICoroutineStarter;
 namespace GlobalNamespace {
 class IHapticFeedbackPlayer;
 }
-namespace Zenject {
-class IInitializable;
+namespace GlobalNamespace {
+class __HapticsAudioClipPlayer__Pool;
+}
+namespace GlobalNamespace {
+class __PS5AdvancedHapticsPlayerController____c__DisplayClass6_0;
+}
+namespace GlobalNamespace {
+class __PS5AdvancedHapticsPlayerController____c__DisplayClass7_0;
 }
 namespace Libraries::HM::HMLib::VR {
 class HapticPresetSO;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System {
+template <typename T1, typename T2> struct ValueTuple_2;
+}
+namespace UnityEngine::XR {
+struct XRNode;
+}
+namespace Zenject {
+class IInitializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -240,8 +240,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IHapticFeedbackPlayer"
   constexpr operator ::GlobalNamespace::IHapticFeedbackPlayer*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IHapticFeedbackPlayer"
+  constexpr ::GlobalNamespace::IHapticFeedbackPlayer* i___GlobalNamespace__IHapticFeedbackPlayer() noexcept;
+
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
+
+  /// @brief Convert to "::Zenject::IInitializable"
+  constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
 
   constexpr ::GlobalNamespace::__HapticsAudioClipPlayer__Pool*& __get__hapticsPlayerPool();
 

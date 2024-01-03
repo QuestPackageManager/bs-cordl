@@ -3,10 +3,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/UIElements/zzzz__InvokePolicy_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TrickleDown_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EventCallbackRegistry)
+namespace System {
+class Delegate;
+}
 namespace UnityEngine::UIElements {
 class EventBase;
 }
@@ -16,17 +17,17 @@ class EventCallbackListPool;
 namespace UnityEngine::UIElements {
 class EventCallbackList;
 }
-namespace System {
-class Delegate;
+namespace UnityEngine::UIElements {
+template <typename TEventType> class EventCallback_1;
+}
+namespace UnityEngine::UIElements {
+struct InvokePolicy;
 }
 namespace UnityEngine::UIElements {
 struct PropagationPhase;
 }
 namespace UnityEngine::UIElements {
 struct TrickleDown;
-}
-namespace UnityEngine::UIElements {
-template <typename TEventType> class EventCallback_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -38,7 +39,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::EventCallbackRegistry);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7162)), TypeDefinitionIndex(TypeDefinitionIndex(7164)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7167))
 // CS Name: ::UnityEngine.UIElements::EventCallbackRegistry*
 class CORDL_TYPE EventCallbackRegistry : public ::System::Object {
@@ -79,8 +80,7 @@ public:
   static inline ::UnityEngine::UIElements::EventCallbackListPool* getStaticF_s_ListPool();
 
   /// @brief Method GetCallbackList, addr 0x2e4b600, size 0x68, virtual false, abstract: false, final false
-  /// @param initializer: ::UnityEngine::UIElements::EventCallbackList* (default: nullptr)
-  static inline ::UnityEngine::UIElements::EventCallbackList* GetCallbackList(::UnityEngine::UIElements::EventCallbackList* initializer = nullptr);
+  static inline ::UnityEngine::UIElements::EventCallbackList* GetCallbackList(::UnityEngine::UIElements::EventCallbackList* initializer);
 
   /// @brief Method ReleaseCallbackList, addr 0x2e4b668, size 0x68, virtual false, abstract: false, final false
   static inline void ReleaseCallbackList(::UnityEngine::UIElements::EventCallbackList* toRelease);
@@ -100,16 +100,12 @@ public:
   inline bool UnregisterCallback(int64_t eventTypeId, ::System::Delegate* callback, ::UnityEngine::UIElements::TrickleDown useTrickleDown);
 
   /// @brief Method RegisterCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param useTrickleDown: ::UnityEngine::UIElements::TrickleDown (default: static_cast<int32_t>(0x0))
-  /// @param invokePolicy: ::UnityEngine::UIElements::InvokePolicy (default: static_cast<int32_t>(0x0))
   template <typename TEventType>
-  inline void RegisterCallback(::UnityEngine::UIElements::EventCallback_1<TEventType>* callback, ::UnityEngine::UIElements::TrickleDown useTrickleDown = static_cast<int32_t>(0x0),
-                               ::UnityEngine::UIElements::InvokePolicy invokePolicy = static_cast<int32_t>(0x0));
+  inline void RegisterCallback(::UnityEngine::UIElements::EventCallback_1<TEventType>* callback, ::UnityEngine::UIElements::TrickleDown useTrickleDown,
+                               ::UnityEngine::UIElements::InvokePolicy invokePolicy);
 
   /// @brief Method UnregisterCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param useTrickleDown: ::UnityEngine::UIElements::TrickleDown (default: static_cast<int32_t>(0x0))
-  template <typename TEventType>
-  inline bool UnregisterCallback(::UnityEngine::UIElements::EventCallback_1<TEventType>* callback, ::UnityEngine::UIElements::TrickleDown useTrickleDown = static_cast<int32_t>(0x0));
+  template <typename TEventType> inline bool UnregisterCallback(::UnityEngine::UIElements::EventCallback_1<TEventType>* callback, ::UnityEngine::UIElements::TrickleDown useTrickleDown);
 
   /// @brief Method InvokeCallbacks, addr 0x2e4b80c, size 0x198, virtual false, abstract: false, final false
   inline void InvokeCallbacks(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::PropagationPhase propagationPhase);

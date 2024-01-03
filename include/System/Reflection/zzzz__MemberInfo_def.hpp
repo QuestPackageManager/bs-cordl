@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MemberInfo)
 namespace System::Reflection {
-struct MemberTypes;
-}
-namespace System::Reflection {
 class ICustomAttributeProvider;
 }
-namespace System {
-class Type;
+namespace System::Reflection {
+struct MemberTypes;
 }
 namespace System::Reflection {
 class Module;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -52,6 +52,9 @@ public:
 
   /// @brief Convert operator to "::System::Reflection::ICustomAttributeProvider"
   constexpr operator ::System::Reflection::ICustomAttributeProvider*() noexcept;
+
+  /// @brief Convert to "::System::Reflection::ICustomAttributeProvider"
+  constexpr ::System::Reflection::ICustomAttributeProvider* i___System__Reflection__ICustomAttributeProvider() noexcept;
 
   static inline ::System::Reflection::MemberInfo* New_ctor();
 

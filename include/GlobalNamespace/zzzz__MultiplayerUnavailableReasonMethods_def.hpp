@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(MultiplayerUnavailableReasonMethods)
 namespace GlobalNamespace {
 class MultiplayerStatusData;
 }
-namespace Polyglot {
-struct Language;
-}
 namespace GlobalNamespace {
 struct MultiplayerUnavailableReason;
+}
+namespace Polyglot {
+struct Language;
 }
 // Forward declare root types
 namespace GlobalNamespace {

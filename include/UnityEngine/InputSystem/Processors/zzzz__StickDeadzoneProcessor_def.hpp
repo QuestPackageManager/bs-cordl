@@ -57,8 +57,7 @@ public:
   inline float_t get_maxOrDefault();
 
   /// @brief Method Process, addr 0x2af9f00, size 0xd0, virtual true, abstract: false, final false
-  /// @param control: ::UnityEngine::InputSystem::InputControl* (default: nullptr)
-  inline ::UnityEngine::Vector2 Process(::UnityEngine::Vector2 value, ::UnityEngine::InputSystem::InputControl* control = nullptr);
+  inline ::UnityEngine::Vector2 Process(::UnityEngine::Vector2 value, ::UnityEngine::InputSystem::InputControl* control);
 
   /// @brief Method GetDeadZoneAdjustedValue, addr 0x2af9fd0, size 0x68, virtual false, abstract: false, final false
   inline float_t GetDeadZoneAdjustedValue(float_t value);

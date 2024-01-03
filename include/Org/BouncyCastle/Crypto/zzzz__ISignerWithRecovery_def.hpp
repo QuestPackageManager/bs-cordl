@@ -27,6 +27,9 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ISigner"
   constexpr operator ::Org::BouncyCastle::Crypto::ISigner*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::ISigner"
+  constexpr ::Org::BouncyCastle::Crypto::ISigner* i___Org__BouncyCastle__Crypto__ISigner() noexcept;
+
   /// @brief Method HasFullMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool HasFullMessage();
 

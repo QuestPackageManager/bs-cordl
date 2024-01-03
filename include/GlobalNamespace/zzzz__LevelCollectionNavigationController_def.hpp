@@ -14,47 +14,41 @@ CORDL_MODULE_EXPORT(LevelCollectionNavigationController)
 namespace GlobalNamespace {
 class AppStaticSettingsSO;
 }
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-class LoadingControl;
-}
-namespace GlobalNamespace {
-class LevelCollectionViewController;
-}
-namespace HMUI {
-class ViewController;
-}
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficultyMask;
 }
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelPack;
-}
 namespace GlobalNamespace {
 class IAnnotatedBeatmapLevelCollection;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace GlobalNamespace {
-class IBeatmapLevel;
 }
 namespace GlobalNamespace {
 class IBeatmapLevelCollection;
 }
 namespace GlobalNamespace {
-class StandardLevelDetailViewController;
+class IBeatmapLevelPack;
+}
+namespace GlobalNamespace {
+class IBeatmapLevel;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+class LevelCollectionViewController;
+}
+namespace GlobalNamespace {
+class LevelPackDetailViewController;
+}
+namespace GlobalNamespace {
+class LoadingControl;
+}
+namespace GlobalNamespace {
+class StandardLevelDetailViewController;
 }
 namespace GlobalNamespace {
 struct __LevelCollectionNavigationController__AlphaAnimationType;
@@ -62,20 +56,26 @@ struct __LevelCollectionNavigationController__AlphaAnimationType;
 namespace GlobalNamespace {
 class __LevelCollectionNavigationController____c__DisplayClass54_0;
 }
-namespace Tweening {
-class TimeTweeningManager;
+namespace GlobalNamespace {
+struct __StandardLevelDetailViewController__ContentType;
+}
+namespace HMUI {
+class ViewController;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace Tweening {
 class FloatTween;
 }
-namespace GlobalNamespace {
-struct __StandardLevelDetailViewController__ContentType;
+namespace Tweening {
+class TimeTweeningManager;
 }
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
-class LevelPackDetailViewController;
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {

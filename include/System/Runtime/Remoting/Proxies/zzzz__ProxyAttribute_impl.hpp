@@ -1,14 +1,14 @@
 #pragma once
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/Remoting/Proxies/zzzz__ProxyAttribute_def.hpp"
+#include "System/Runtime/Remoting/Activation/zzzz__IConstructionCallMessage_def.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__Context_def.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__IContextAttribute_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Runtime/Remoting/zzzz__ObjRef_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Runtime/Remoting/Activation/zzzz__IConstructionCallMessage_def.hpp"
 #include "System/Runtime/Remoting/Proxies/zzzz__RealProxy_def.hpp"
+#include "System/Runtime/Remoting/zzzz__ObjRef_def.hpp"
 #include "System/zzzz__MarshalByRefObject_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Proxies::ProxyAttribute.CreateInstance
 template <>
 
@@ -17,7 +17,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x104;
   constexpr static std::size_t addrs = 0x2496398;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Proxies::ProxyAttribute*>::get(),
@@ -34,7 +34,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x24964e4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Proxies::ProxyAttribute*>::get(),
@@ -50,7 +50,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x2496554;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Proxies::ProxyAttribute*>::get(), "GetPropertiesForNewContext", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Activation::IConstructionCallMessage*>::get() })));
@@ -65,7 +65,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2496558;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Proxies::ProxyAttribute*>::get(), "IsContextOK", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Contexts::Context*>::get(),
@@ -75,6 +75,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::System::Runtime::Remoting::Contexts::IContextAttribute"
 constexpr System::Runtime::Remoting::Proxies::ProxyAttribute::operator ::System::Runtime::Remoting::Contexts::IContextAttribute*() noexcept {
+  return static_cast<::System::Runtime::Remoting::Contexts::IContextAttribute*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Remoting::Contexts::IContextAttribute"
+constexpr ::System::Runtime::Remoting::Contexts::IContextAttribute* System::Runtime::Remoting::Proxies::ProxyAttribute::i___System__Runtime__Remoting__Contexts__IContextAttribute() noexcept {
   return static_cast<::System::Runtime::Remoting::Contexts::IContextAttribute*>(static_cast<void*>(this));
 }
 inline ::System::MarshalByRefObject* System::Runtime::Remoting::Proxies::ProxyAttribute::CreateInstance(::System::Type* serverType) {

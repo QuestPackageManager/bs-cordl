@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstddef>
 CORDL_MODULE_EXPORT(FloatTween)
-namespace UnityEngine::Events {
-template <typename T0> class UnityAction_1;
+namespace TMPro {
+class ITweenValue;
 }
 namespace TMPro {
 class __FloatTween__FloatTweenCallback;
 }
-namespace TMPro {
-class ITweenValue;
+namespace UnityEngine::Events {
+template <typename T0> class UnityAction_1;
 }
 // Forward declare root types
 namespace TMPro {
@@ -29,7 +29,7 @@ MARK_VAL_T(::TMPro::FloatTween);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 391 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 391 }), TypeDefinitionIndex(TypeDefinitionIndex(10465))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12341))
 // CS Name: ::FloatTween::FloatTweenCallback*
 class CORDL_TYPE __FloatTween__FloatTweenCallback : public ::UnityEngine::Events::UnityEvent_1<float_t> {
@@ -82,6 +82,9 @@ public:
 
   /// @brief Convert operator to "::TMPro::ITweenValue"
   constexpr operator ::TMPro::ITweenValue*();
+
+  /// @brief Convert to "::TMPro::ITweenValue"
+  constexpr ::TMPro::ITweenValue* i___TMPro__ITweenValue();
 
   /// @brief Method get_startValue, addr 0x2c02304, size 0x8, virtual false, abstract: false, final false
   inline float_t get_startValue();

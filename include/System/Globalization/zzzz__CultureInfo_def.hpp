@@ -9,38 +9,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CultureInfo)
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
 namespace System::Globalization {
 class Calendar;
 }
 namespace System::Globalization {
-class TextInfo;
-}
-namespace System::Globalization {
 class CompareInfo;
-}
-namespace System {
-class IFormatProvider;
-}
-namespace System::Globalization {
-class __CultureInfo__OnCultureInfoChangedDelegate;
-}
-namespace System {
-class Type;
-}
-namespace System {
-class ICloneable;
-}
-namespace System::Globalization {
-class NumberFormatInfo;
-}
-namespace System::Globalization {
-class DateTimeFormatInfo;
-}
-namespace System {
-class Object;
-}
-namespace System::Globalization {
-struct __CultureInfo__Data;
 }
 namespace System::Globalization {
 class CultureData;
@@ -48,11 +24,35 @@ class CultureData;
 namespace System::Globalization {
 struct CultureTypes;
 }
+namespace System::Globalization {
+class DateTimeFormatInfo;
+}
+namespace System::Globalization {
+class NumberFormatInfo;
+}
+namespace System::Globalization {
+class TextInfo;
+}
+namespace System::Globalization {
+struct __CultureInfo__Data;
+}
+namespace System::Globalization {
+class __CultureInfo__OnCultureInfoChangedDelegate;
+}
 namespace System {
 class Exception;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace System {
+class ICloneable;
+}
+namespace System {
+class IFormatProvider;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -324,8 +324,14 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
+
   /// @brief Convert operator to "::System::IFormatProvider"
   constexpr operator ::System::IFormatProvider*() noexcept;
+
+  /// @brief Convert to "::System::IFormatProvider"
+  constexpr ::System::IFormatProvider* i___System__IFormatProvider() noexcept;
 
   constexpr bool& __get_m_isReadOnly();
 

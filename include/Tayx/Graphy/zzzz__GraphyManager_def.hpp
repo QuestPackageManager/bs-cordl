@@ -12,20 +12,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GraphyManager)
-namespace Tayx::Graphy {
-struct __GraphyManager__ModuleType;
-}
-namespace Tayx::Graphy {
-struct __GraphyManager__ModulePosition;
+namespace Tayx::Graphy::Advanced {
+class G_AdvancedData;
 }
 namespace Tayx::Graphy::Audio {
 class G_AudioManager;
 }
-namespace UnityEngine {
-class AudioListener;
+namespace Tayx::Graphy::Audio {
+class G_AudioMonitor;
 }
-namespace UnityEngine::InputSystem {
-struct Key;
+namespace Tayx::Graphy::Fps {
+class G_FpsManager;
+}
+namespace Tayx::Graphy::Fps {
+class G_FpsMonitor;
 }
 namespace Tayx::Graphy::Ram {
 class G_RamManager;
@@ -33,35 +33,35 @@ class G_RamManager;
 namespace Tayx::Graphy::Ram {
 class G_RamMonitor;
 }
-namespace UnityEngine {
-struct Color;
-}
 namespace Tayx::Graphy {
 struct __GraphyManager__LookForAudioListener;
-}
-namespace Tayx::Graphy::Fps {
-class G_FpsManager;
-}
-namespace Tayx::Graphy::Audio {
-class G_AudioMonitor;
-}
-namespace UnityEngine {
-struct FFTWindow;
-}
-namespace Tayx::Graphy::Advanced {
-class G_AdvancedData;
 }
 namespace Tayx::Graphy {
 struct __GraphyManager__Mode;
 }
 namespace Tayx::Graphy {
-struct __GraphyManager__ModuleState;
-}
-namespace Tayx::Graphy::Fps {
-class G_FpsMonitor;
+struct __GraphyManager__ModulePosition;
 }
 namespace Tayx::Graphy {
 struct __GraphyManager__ModulePreset;
+}
+namespace Tayx::Graphy {
+struct __GraphyManager__ModuleState;
+}
+namespace Tayx::Graphy {
+struct __GraphyManager__ModuleType;
+}
+namespace UnityEngine::InputSystem {
+struct Key;
+}
+namespace UnityEngine {
+class AudioListener;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+struct FFTWindow;
 }
 // Forward declare root types
 namespace Tayx::Graphy {
@@ -473,9 +473,9 @@ static_assert(offsetof(::Tayx::Graphy::__GraphyManager__ModulePreset, value__) =
 // SizeInfo { instance_size: 328, native_size: -1, calculated_instance_size: 328, calculated_native_size: 324, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15071)), TypeDefinitionIndex(TypeDefinitionIndex(15067)), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15071), inst: 2553 }), TypeDefinitionIndex(TypeDefinitionIndex(6242)), TypeDefinitionIndex(TypeDefinitionIndex(15064)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15065)), TypeDefinitionIndex(TypeDefinitionIndex(15588)), TypeDefinitionIndex(TypeDefinitionIndex(15062)), TypeDefinitionIndex(TypeDefinitionIndex(15066))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15064)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15071), inst: 2553 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(15071)), TypeDefinitionIndex(TypeDefinitionIndex(6242)), TypeDefinitionIndex(TypeDefinitionIndex(15062)), TypeDefinitionIndex(TypeDefinitionIndex(15066)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15588)), TypeDefinitionIndex(TypeDefinitionIndex(15065)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(15067))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15068))
 // CS Name: ::Tayx.Graphy::GraphyManager*
 class CORDL_TYPE GraphyManager : public ::Tayx::Graphy::Utils::G_Singleton_1<::Tayx::Graphy::GraphyManager*> {

@@ -11,28 +11,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MonoMethodInfo)
 namespace System::Reflection {
+struct CallingConventions;
+}
+namespace System::Reflection {
+class MemberInfo;
+}
+namespace System::Reflection {
 struct MethodAttributes;
+}
+namespace System::Reflection {
+struct MethodImplAttributes;
+}
+namespace System::Reflection {
+class ParameterInfo;
+}
+namespace System::Reflection {
+class RuntimeMethodInfo;
 }
 namespace System::Runtime::InteropServices {
 class MarshalAsAttribute;
 }
 namespace System {
 class Type;
-}
-namespace System::Reflection {
-class MemberInfo;
-}
-namespace System::Reflection {
-class RuntimeMethodInfo;
-}
-namespace System::Reflection {
-struct MethodImplAttributes;
-}
-namespace System::Reflection {
-struct CallingConventions;
-}
-namespace System::Reflection {
-class ParameterInfo;
 }
 // Forward declare root types
 namespace System::Reflection {

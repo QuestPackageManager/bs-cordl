@@ -7,43 +7,43 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(KeyboardTextEditorEventHandler)
 namespace UnityEngine::UIElements {
-class ExecuteCommandEvent;
-}
-namespace UnityEngine::UIElements {
 class BlurEvent;
-}
-namespace UnityEngine::UIElements {
-class MouseDownEvent;
-}
-namespace UnityEngine::UIElements {
-class KeyDownEvent;
-}
-namespace UnityEngine::UIElements {
-class MouseMoveEvent;
-}
-namespace UnityEngine::UIElements {
-class FocusEvent;
-}
-namespace UnityEngine {
-class Event;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
-class TextEditorEngine;
-}
-namespace UnityEngine {
-struct Vector2;
+class ExecuteCommandEvent;
 }
 namespace UnityEngine::UIElements {
-class ValidateCommandEvent;
+class FocusEvent;
 }
 namespace UnityEngine::UIElements {
 class ITextInputField;
 }
 namespace UnityEngine::UIElements {
+class KeyDownEvent;
+}
+namespace UnityEngine::UIElements {
+class MouseDownEvent;
+}
+namespace UnityEngine::UIElements {
+class MouseMoveEvent;
+}
+namespace UnityEngine::UIElements {
 class MouseUpEvent;
+}
+namespace UnityEngine::UIElements {
+class TextEditorEngine;
+}
+namespace UnityEngine::UIElements {
+class ValidateCommandEvent;
+}
+namespace UnityEngine {
+class Event;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

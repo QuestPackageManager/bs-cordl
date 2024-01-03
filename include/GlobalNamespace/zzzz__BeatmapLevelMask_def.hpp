@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapLevelMask)
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
 namespace GlobalNamespace {
 class BitMaskSparse;
 }
 namespace LiteNetLib::Utils {
 class INetSerializable;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -49,8 +49,14 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
+
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::BeatmapLevelMask*>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::BeatmapLevelMask*>*() noexcept;
+
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::BeatmapLevelMask*>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::BeatmapLevelMask*>* i___System__IEquatable_1___GlobalNamespace__BeatmapLevelMask__() noexcept;
 
   constexpr ::GlobalNamespace::BitMaskSparse*& __get__bloomFilter();
 

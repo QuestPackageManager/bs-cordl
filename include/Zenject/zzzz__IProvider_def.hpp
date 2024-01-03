@@ -8,19 +8,19 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
-class Type;
-}
-namespace Zenject {
-struct TypeValuePair;
+class Action;
 }
 namespace System {
 class Object;
 }
+namespace System {
+class Type;
+}
 namespace Zenject {
 class InjectContext;
 }
-namespace System {
-class Action;
+namespace Zenject {
+struct TypeValuePair;
 }
 // Forward declare root types
 namespace Zenject {

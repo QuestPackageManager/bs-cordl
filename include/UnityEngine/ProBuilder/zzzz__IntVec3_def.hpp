@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IntVec3)
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -41,6 +41,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::ProBuilder::IntVec3>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::ProBuilder::IntVec3>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ProBuilder::IntVec3>"
+  constexpr ::System::IEquatable_1<::UnityEngine::ProBuilder::IntVec3>* i___System__IEquatable_1___UnityEngine__ProBuilder__IntVec3_();
 
   /// @brief Method get_x, addr 0x2b46a60, size 0x8, virtual false, abstract: false, final false
   inline float_t get_x();

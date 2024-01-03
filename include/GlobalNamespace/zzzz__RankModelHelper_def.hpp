@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(RankModelHelper)
 namespace GlobalNamespace {
+class GameplayModifiersModelSO;
+}
+namespace GlobalNamespace {
 class GameplayModifiers;
 }
 namespace GlobalNamespace {
 struct __RankModel__Rank;
-}
-namespace GlobalNamespace {
-class GameplayModifiersModelSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

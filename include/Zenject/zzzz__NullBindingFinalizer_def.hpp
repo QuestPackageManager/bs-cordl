@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(NullBindingFinalizer)
 namespace Zenject {
+struct BindingInheritanceMethods;
+}
+namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
 class IBindingFinalizer;
-}
-namespace Zenject {
-struct BindingInheritanceMethods;
 }
 // Forward declare root types
 namespace Zenject {
@@ -33,6 +33,9 @@ public:
 
   /// @brief Convert operator to "::Zenject::IBindingFinalizer"
   constexpr operator ::Zenject::IBindingFinalizer*() noexcept;
+
+  /// @brief Convert to "::Zenject::IBindingFinalizer"
+  constexpr ::Zenject::IBindingFinalizer* i___Zenject__IBindingFinalizer() noexcept;
 
   /// @brief Method get_BindingInheritanceMethod, addr 0x2ee1f08, size 0x8, virtual true, abstract: false, final true
   inline ::Zenject::BindingInheritanceMethods get_BindingInheritanceMethod();

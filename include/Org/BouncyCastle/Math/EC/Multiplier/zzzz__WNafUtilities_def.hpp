@@ -8,37 +8,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(WNafUtilities)
 namespace Org::BouncyCastle::Math::EC::Multiplier {
+class IPreCompCallback;
+}
+namespace Org::BouncyCastle::Math::EC::Multiplier {
 class PreCompInfo;
 }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class WNafPreCompInfo;
 }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
-class __WNafUtilities__PrecomputeWithPointMapCallback;
+class __WNafUtilities__ConfigureBasepointCallback;
 }
-namespace Org::BouncyCastle::Math::EC {
-class ECPointMap;
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class __WNafUtilities__MapPointCallback;
 }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class __WNafUtilities__PrecomputeCallback;
+}
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class __WNafUtilities__PrecomputeWithPointMapCallback;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECCurve;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECPointMap;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
-}
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class __WNafUtilities__MapPointCallback;
-}
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class __WNafUtilities__ConfigureBasepointCallback;
-}
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class IPreCompCallback;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Multiplier {
@@ -80,6 +80,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
   constexpr operator ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
+  constexpr ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback* i___Org__BouncyCastle__Math__EC__Multiplier__IPreCompCallback() noexcept;
 
   constexpr ::Org::BouncyCastle::Math::EC::ECCurve*& __get_m_curve();
 
@@ -152,6 +155,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
   constexpr operator ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
+  constexpr ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback* i___Org__BouncyCastle__Math__EC__Multiplier__IPreCompCallback() noexcept;
 
   constexpr ::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*& __get_m_infoP();
 
@@ -236,6 +242,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
   constexpr operator ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
+  constexpr ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback* i___Org__BouncyCastle__Math__EC__Multiplier__IPreCompCallback() noexcept;
 
   constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __get_m_p();
 
@@ -328,6 +337,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
   constexpr operator ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
+  constexpr ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback* i___Org__BouncyCastle__Math__EC__Multiplier__IPreCompCallback() noexcept;
 
   constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __get_m_point();
 

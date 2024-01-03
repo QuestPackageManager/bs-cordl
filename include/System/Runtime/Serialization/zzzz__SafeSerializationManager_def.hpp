@@ -4,14 +4,8 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SafeSerializationManager)
-namespace System::Runtime::Serialization {
-class SafeSerializationEventArgs;
-}
-namespace System {
-template <typename TEventArgs> class EventHandler_1;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace System::Runtime::Serialization {
 class IObjectReference;
@@ -19,17 +13,23 @@ class IObjectReference;
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
+namespace System::Runtime::Serialization {
+class SafeSerializationEventArgs;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
 namespace System {
-class RuntimeType;
+template <typename TEventArgs> class EventHandler_1;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class RuntimeType;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -67,8 +67,14 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::IObjectReference"
   constexpr operator ::System::Runtime::Serialization::IObjectReference*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Serialization::IObjectReference"
+  constexpr ::System::Runtime::Serialization::IObjectReference* i___System__Runtime__Serialization__IObjectReference() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
   constexpr ::System::Collections::Generic::IList_1<::System::Object*>*& __get_m_serializedStates();
 

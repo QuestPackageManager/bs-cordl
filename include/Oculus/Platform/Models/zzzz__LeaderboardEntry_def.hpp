@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LeaderboardEntry)
 namespace Oculus::Platform::Models {
-class User;
+class SupplementaryMetric;
 }
 namespace Oculus::Platform::Models {
-class SupplementaryMetric;
+class User;
 }
 // Forward declare root types
 namespace Oculus::Platform::Models {
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::LeaderboardEntry);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13449))
 // CS Name: ::Oculus.Platform.Models::LeaderboardEntry*
 class CORDL_TYPE LeaderboardEntry : public ::System::Object {

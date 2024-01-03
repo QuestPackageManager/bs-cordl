@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(DateTimeConverter)
 namespace System::ComponentModel {
 class ITypeDescriptorContext;
 }
-namespace System {
-class Type;
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace System {
 class Object;
 }
-namespace System::Globalization {
-class CultureInfo;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::ComponentModel {

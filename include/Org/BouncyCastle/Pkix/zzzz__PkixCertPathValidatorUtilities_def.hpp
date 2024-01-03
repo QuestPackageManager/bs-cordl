@@ -7,59 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PkixCertPathValidatorUtilities)
-namespace Org::BouncyCastle::Pkix {
-class PkixCrlUtilities;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
-}
-namespace System {
-struct DateTime;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace Org::BouncyCastle::X509::Store {
-class X509CertStoreSelector;
+namespace Org::BouncyCastle::Asn1::X509 {
+class CrlDistPoint;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class DistributionPoint;
 }
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Pkix {
-class PkixParameters;
-}
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Pkix {
-class CertStatus;
-}
-namespace Org::BouncyCastle::Pkix {
-class PkixBuilderParameters;
-}
-namespace Org::BouncyCastle::X509::Store {
-class X509AttrCertStoreSelector;
-}
-namespace Org::BouncyCastle::X509::Store {
-class X509CrlStoreSelector;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
-namespace Org::BouncyCastle::Pkix {
-class PkixCertPath;
-}
-namespace Org::BouncyCastle::X509 {
-class IX509Extension;
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
@@ -67,29 +25,71 @@ class Asn1Object;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::X509 {
-class X509Crl;
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Pkix {
+class CertStatus;
+}
+namespace Org::BouncyCastle::Pkix {
+class PkixBuilderParameters;
+}
+namespace Org::BouncyCastle::Pkix {
+class PkixCertPath;
+}
+namespace Org::BouncyCastle::Pkix {
+class PkixCrlUtilities;
+}
+namespace Org::BouncyCastle::Pkix {
+class PkixParameters;
 }
 namespace Org::BouncyCastle::Pkix {
 class PkixPolicyNode;
 }
-namespace System::Collections {
-class ICollection;
-}
 namespace Org::BouncyCastle::Pkix {
 class TrustAnchor;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class CrlDistPoint;
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
+}
+namespace Org::BouncyCastle::X509::Store {
+class X509AttrCertStoreSelector;
+}
+namespace Org::BouncyCastle::X509::Store {
+class X509CertStoreSelector;
+}
+namespace Org::BouncyCastle::X509::Store {
+class X509CrlStoreSelector;
+}
+namespace Org::BouncyCastle::X509 {
+class IX509Extension;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace Org::BouncyCastle::X509 {
+class X509Crl;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace System::Collections {
+class IList;
+}
+namespace System {
+struct DateTime;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {

@@ -9,40 +9,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SongTimeSyncedVideoPlayer)
 namespace GlobalNamespace {
+class IAudioTimeSource;
+}
+namespace GlobalNamespace {
+class MaterialPropertyBlockController;
+}
+namespace GlobalNamespace {
 class __SongTimeSyncedVideoPlayer___WaitForDependenciesAndPlay_d__17;
 }
-namespace UnityEngine {
-struct Color;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace UnityEngine::Video {
-class VideoPlayer;
+namespace System {
+class IDisposable;
 }
-namespace GlobalNamespace {
-class IAudioTimeSource;
+namespace System {
+class Object;
 }
 namespace UnityEngine::Video {
 class VideoClip;
+}
+namespace UnityEngine::Video {
+class VideoPlayer;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine {
 class Coroutine;
 }
 namespace UnityEngine {
 class Sprite;
-}
-namespace GlobalNamespace {
-class MaterialPropertyBlockController;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -80,11 +80,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

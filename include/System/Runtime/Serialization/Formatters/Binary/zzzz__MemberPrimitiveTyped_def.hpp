@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__InternalPrimitiveTypeE_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MemberPrimitiveTyped)
-namespace System {
-class Object;
+namespace System::Runtime::Serialization::Formatters::Binary {
+struct InternalPrimitiveTypeE;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryParser;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-struct InternalPrimitiveTypeE;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryWriter;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::MemberPrimi
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3253))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3253)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3267))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::MemberPrimitiveTyped*
 class CORDL_TYPE MemberPrimitiveTyped : public ::System::Object {

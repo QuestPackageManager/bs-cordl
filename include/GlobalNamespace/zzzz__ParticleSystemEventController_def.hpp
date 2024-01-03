@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ParticleSystemEventController)
-namespace UnityEngine {
-class ParticleSystem;
-}
 namespace GlobalNamespace {
 class __ParticleSystemEventController__Pool;
+}
+namespace UnityEngine {
+class ParticleSystem;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -139,8 +139,8 @@ static_assert(offsetof(::GlobalNamespace::ParticleSystemEventController, ____sta
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4966)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 2825 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(11050))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4965)) CS Name: ::ParticleSystemEventController::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), TypeDefinitionIndex(TypeDefinitionIndex(4966)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// 2825 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4965)) CS Name: ::ParticleSystemEventController::Pool*
 class CORDL_TYPE __ParticleSystemEventController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::ParticleSystemEventController*> {
 public:
   // Declarations

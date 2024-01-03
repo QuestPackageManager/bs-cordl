@@ -12,19 +12,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_MaterialData)
 namespace HoudiniEngineUnity {
-struct HAPI_ParmInfo;
-}
-namespace HoudiniEngineUnity {
-struct __HEU_MaterialData__Source;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
-}
-namespace UnityEngine {
-class Material;
+struct HAPI_ImageInfo;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_MaterialInfo;
@@ -33,7 +21,19 @@ namespace HoudiniEngineUnity {
 struct HAPI_NodeInfo;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_ImageInfo;
+struct HAPI_ParmInfo;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
+}
+namespace HoudiniEngineUnity {
+template <typename T> class IEquivable_1;
+}
+namespace HoudiniEngineUnity {
+struct __HEU_MaterialData__Source;
+}
+namespace UnityEngine {
+class Material;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -126,6 +126,9 @@ public:
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_MaterialData*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_MaterialData*>*() noexcept;
+
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_MaterialData*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_MaterialData*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_MaterialData__() noexcept;
 
   constexpr ::UnityEngine::Material*& __get__material();
 

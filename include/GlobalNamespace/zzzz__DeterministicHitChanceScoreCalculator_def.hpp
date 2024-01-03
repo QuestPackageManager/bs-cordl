@@ -37,6 +37,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IMockPlayerScoreCalculator"
   constexpr operator ::GlobalNamespace::IMockPlayerScoreCalculator*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IMockPlayerScoreCalculator"
+  constexpr ::GlobalNamespace::IMockPlayerScoreCalculator* i___GlobalNamespace__IMockPlayerScoreCalculator() noexcept;
+
   constexpr float_t& __get__hitChance();
 
   constexpr float_t const& __get__hitChance() const;

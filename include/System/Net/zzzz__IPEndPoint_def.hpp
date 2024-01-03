@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IPEndPoint)
-namespace System {
-class Object;
+namespace System::Net::Sockets {
+struct AddressFamily;
 }
 namespace System::Net {
-class SocketAddress;
+class EndPoint;
 }
 namespace System::Net {
 class IPAddress;
 }
 namespace System::Net {
-class EndPoint;
+class SocketAddress;
 }
-namespace System::Net::Sockets {
-struct AddressFamily;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Net {

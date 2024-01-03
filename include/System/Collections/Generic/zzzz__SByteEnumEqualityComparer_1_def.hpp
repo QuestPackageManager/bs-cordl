@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SByteEnumEqualityComparer_1)
 namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
@@ -26,7 +26,7 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3874), inst: 1672 }), TypeDefinitionIndex(TypeDefinitionIndex(3874))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3874)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3874), inst: 1672 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3875))
 // CS Name: ::System.Collections.Generic::SByteEnumEqualityComparer`1<T>*
 class CORDL_TYPE SByteEnumEqualityComparer_1 : public ::System::Collections::Generic::EnumEqualityComparer_1<T> {
@@ -34,6 +34,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
   static inline ::System::Collections::Generic::SByteEnumEqualityComparer_1<T>* New_ctor();
 

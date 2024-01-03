@@ -8,17 +8,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Environment)
-namespace System {
-class OperatingSystem;
-}
-namespace System {
-struct __Environment__SpecialFolderOption;
-}
 namespace System::Collections {
 class IDictionary;
-}
-namespace System {
-class Version;
 }
 namespace System {
 struct EnvironmentVariableTarget;
@@ -27,10 +18,19 @@ namespace System {
 class Exception;
 }
 namespace System {
+class Object;
+}
+namespace System {
+class OperatingSystem;
+}
+namespace System {
 struct PlatformID;
 }
 namespace System {
-class Object;
+class Version;
+}
+namespace System {
+struct __Environment__SpecialFolderOption;
 }
 namespace System {
 struct __Environment__SpecialFolder;

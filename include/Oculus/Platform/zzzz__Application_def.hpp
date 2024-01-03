@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Application)
 namespace Oculus::Platform::Models {
-class AppDownloadResult;
-}
-namespace Oculus::Platform {
-class ApplicationOptions;
-}
-namespace Oculus::Platform::Models {
 class AppDownloadProgressResult;
 }
 namespace Oculus::Platform::Models {
+class AppDownloadResult;
+}
+namespace Oculus::Platform::Models {
 class ApplicationVersion;
+}
+namespace Oculus::Platform {
+class ApplicationOptions;
 }
 namespace Oculus::Platform {
 template <typename T> class Request_1;
@@ -47,12 +47,10 @@ public:
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ApplicationVersion*>* GetVersion();
 
   /// @brief Method InstallAppUpdateAndRelaunch, addr 0x26fb1d0, size 0x1a0, virtual false, abstract: false, final false
-  /// @param deeplink_options: ::Oculus::Platform::ApplicationOptions* (default: nullptr)
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AppDownloadResult*>* InstallAppUpdateAndRelaunch(::Oculus::Platform::ApplicationOptions* deeplink_options = nullptr);
+  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AppDownloadResult*>* InstallAppUpdateAndRelaunch(::Oculus::Platform::ApplicationOptions* deeplink_options);
 
   /// @brief Method LaunchOtherApp, addr 0x26fb370, size 0x1b0, virtual false, abstract: false, final false
-  /// @param deeplink_options: ::Oculus::Platform::ApplicationOptions* (default: nullptr)
-  static inline ::Oculus::Platform::Request_1<::StringW>* LaunchOtherApp(uint64_t appID, ::Oculus::Platform::ApplicationOptions* deeplink_options = nullptr);
+  static inline ::Oculus::Platform::Request_1<::StringW>* LaunchOtherApp(uint64_t appID, ::Oculus::Platform::ApplicationOptions* deeplink_options);
 
   /// @brief Method StartAppDownload, addr 0x26fb520, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AppDownloadResult*>* StartAppDownload();

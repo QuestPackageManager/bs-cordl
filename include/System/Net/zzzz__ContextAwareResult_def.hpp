@@ -9,23 +9,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ContextAwareResult)
-namespace System::Threading {
-class ExecutionContext;
-}
 namespace System::Net {
 struct __ContextAwareResult__StateFlags;
 }
 namespace System::Net {
 class __ContextAwareResult____c;
 }
+namespace System::Threading {
+class ContextCallback;
+}
+namespace System::Threading {
+class ExecutionContext;
+}
 namespace System {
 class AsyncCallback;
 }
 namespace System {
 class Object;
-}
-namespace System::Threading {
-class ContextCallback;
 }
 // Forward declare root types
 namespace System::Net {

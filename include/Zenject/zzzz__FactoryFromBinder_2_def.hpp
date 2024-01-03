@@ -6,47 +6,47 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__FactoryFromBinderBase_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(FactoryFromBinder_2)
-namespace Zenject {
-class DiContainer;
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+template <typename T1, typename T2, typename TResult> class Func_3;
 }
 namespace System {
 class Object;
+}
+namespace Zenject {
+class BindInfo;
+}
+namespace Zenject {
+template <typename TContract> class ConcreteBinderGeneric_1;
+}
+namespace Zenject {
+class ConditionCopyNonLazyBinder;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class FactoryBindInfo;
+}
+namespace Zenject {
+template <typename TParam1, typename TContract> class FactorySubContainerBinder_2;
+}
+namespace Zenject {
+template <typename TParam1, typename TValue> class IFactory_2;
+}
+namespace Zenject {
+class IProvider;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace Zenject {
 template <typename TParam1, typename TContract, typename TSubFactory> class __FactoryFromBinder_2____c__2_1;
 }
 namespace Zenject {
 template <typename TParam1, typename TContract> class __FactoryFromBinder_2____c__DisplayClass1_0;
-}
-namespace Zenject {
-class BindInfo;
-}
-namespace Zenject {
-class FactoryBindInfo;
-}
-namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
-}
-namespace Zenject {
-template <typename TParam1, typename TContract> class FactorySubContainerBinder_2;
-}
-namespace Zenject {
-class ConditionCopyNonLazyBinder;
-}
-namespace Zenject {
-template <typename TParam1, typename TValue> class IFactory_2;
-}
-namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
-template <typename TContract> class ConcreteBinderGeneric_1;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace Zenject {
-class IProvider;
 }
 // Forward declare root types
 namespace Zenject {

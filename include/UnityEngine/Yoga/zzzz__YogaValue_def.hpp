@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(YogaValue)
-namespace UnityEngine::Yoga {
-struct YogaUnit;
-}
 namespace System {
 class Object;
+}
+namespace UnityEngine::Yoga {
+struct YogaUnit;
 }
 // Forward declare root types
 namespace UnityEngine::Yoga {

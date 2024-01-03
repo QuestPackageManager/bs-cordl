@@ -6,49 +6,49 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerLocalInactivePlayerInGameMenuViewController)
 namespace GlobalNamespace {
-struct __MultiplayerController__State;
-}
-namespace GlobalNamespace {
-class LocalPlayerInGameMenuInitData;
-}
-namespace Tweening {
-class Tween;
-}
-namespace UnityEngine::UI {
-class Toggle;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
 class DisconnectPromptView;
-}
-namespace GlobalNamespace {
-class MultiplayerLocalPlayerDisconnectHelper;
-}
-namespace HMUI {
-class ButtonBinder;
-}
-namespace UnityEngine::UI {
-class Button;
-}
-namespace Polyglot {
-class LocalizedTextMeshProUGUI;
-}
-namespace HMUI {
-class ToggleBinder;
-}
-namespace UnityEngine {
-class CanvasGroup;
-}
-namespace Tweening {
-class TimeTweeningManager;
 }
 namespace GlobalNamespace {
 class LevelBar;
 }
 namespace GlobalNamespace {
+class LocalPlayerInGameMenuInitData;
+}
+namespace GlobalNamespace {
 class MultiplayerController;
+}
+namespace GlobalNamespace {
+class MultiplayerLocalPlayerDisconnectHelper;
+}
+namespace GlobalNamespace {
+struct __MultiplayerController__State;
+}
+namespace HMUI {
+class ButtonBinder;
+}
+namespace HMUI {
+class ToggleBinder;
+}
+namespace Polyglot {
+class LocalizedTextMeshProUGUI;
+}
+namespace Tweening {
+class TimeTweeningManager;
+}
+namespace Tweening {
+class Tween;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace UnityEngine::UI {
+class Toggle;
+}
+namespace UnityEngine {
+class CanvasGroup;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {

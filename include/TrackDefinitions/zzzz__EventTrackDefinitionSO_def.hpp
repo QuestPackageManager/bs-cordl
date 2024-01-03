@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EventTrackDefinitionSO)
 namespace TrackDefinitions {
-struct __EventTrackDefinitionSO__MarkerType;
+struct __EventTrackDefinitionSO__DataTransformationType;
 }
 namespace TrackDefinitions {
-struct __EventTrackDefinitionSO__DataTransformationType;
+struct __EventTrackDefinitionSO__MarkerType;
 }
 // Forward declare root types
 namespace TrackDefinitions {
@@ -159,7 +159,7 @@ static_assert(offsetof(::TrackDefinitions::__EventTrackDefinitionSO__MarkerType,
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 34, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TrackDefinitions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857)), TypeDefinitionIndex(TypeDefinitionIndex(16063)), TypeDefinitionIndex(TypeDefinitionIndex(16062))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16062)), TypeDefinitionIndex(TypeDefinitionIndex(15857)), TypeDefinitionIndex(TypeDefinitionIndex(16063))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16064))
 // CS Name: ::TrackDefinitions::EventTrackDefinitionSO*
 class CORDL_TYPE EventTrackDefinitionSO : public ::GlobalNamespace::PersistentScriptableObject {

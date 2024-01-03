@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PlatformInstaller);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11133), inst: 3910 }), TypeDefinitionIndex(TypeDefinitionIndex(4105)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11133)), TypeDefinitionIndex(TypeDefinitionIndex(15394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4039)) CS Name: ::PlatformInstaller*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11133), inst: 3910 }), TypeDefinitionIndex(TypeDefinitionIndex(11133)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15394)), TypeDefinitionIndex(TypeDefinitionIndex(4105))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4039)) CS Name: ::PlatformInstaller*
 class CORDL_TYPE PlatformInstaller
     : public ::Zenject::Installer_3<::GlobalNamespace::AppInitSetupData*, ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*, ::GlobalNamespace::PlatformInstaller*> {
 public:

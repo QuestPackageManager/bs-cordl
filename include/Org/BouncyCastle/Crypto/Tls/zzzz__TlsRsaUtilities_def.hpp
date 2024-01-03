@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsRsaUtilities)
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class RsaKeyParameters;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsContext;
 }
 namespace System::IO {
 class Stream;

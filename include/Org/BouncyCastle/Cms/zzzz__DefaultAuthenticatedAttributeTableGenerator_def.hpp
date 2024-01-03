@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DefaultAuthenticatedAttributeTableGenerator)
-namespace System::Collections {
-class IDictionary;
+namespace Org::BouncyCastle::Asn1::Cms {
+class AttributeTable;
 }
 namespace Org::BouncyCastle::Cms {
 class CmsAttributeTableGenerator;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class AttributeTable;
+namespace System::Collections {
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -34,6 +34,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsAttributeTableGenerator"
   constexpr operator ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Cms::CmsAttributeTableGenerator"
+  constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* i___Org__BouncyCastle__Cms__CmsAttributeTableGenerator() noexcept;
 
   constexpr ::System::Collections::IDictionary*& __get_table();
 

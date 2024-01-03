@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(DefaultGameObjectParentInstaller)
 namespace System {
+class IDisposable;
+}
+namespace System {
 class Object;
 }
-namespace Zenject {
-class __DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer;
+namespace UnityEngine {
+class GameObject;
 }
 namespace Zenject {
 class InjectTypeInfo;
 }
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine {
-class GameObject;
+namespace Zenject {
+class __DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -47,6 +47,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::UnityEngine::GameObject*& __get__gameObject();
 

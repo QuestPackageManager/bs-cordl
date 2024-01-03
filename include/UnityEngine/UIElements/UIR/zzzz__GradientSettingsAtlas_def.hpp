@@ -14,25 +14,25 @@ namespace System {
 class IDisposable;
 }
 namespace UnityEngine::UIElements::UIR {
-struct __GradientSettingsAtlas__RawTexture;
-}
-namespace UnityEngine {
-class Texture2D;
+struct Alloc;
 }
 namespace UnityEngine::UIElements::UIR {
 class BestFitAllocator;
-}
-namespace UnityEngine::UIElements {
-struct GradientSettings;
 }
 namespace UnityEngine::UIElements::UIR {
 class GradientRemap;
 }
 namespace UnityEngine::UIElements::UIR {
-struct Alloc;
+struct __GradientSettingsAtlas__RawTexture;
+}
+namespace UnityEngine::UIElements {
+struct GradientSettings;
 }
 namespace UnityEngine {
 struct Color32;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -96,7 +96,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__GradientSettingsAtlas__
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 58, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(7378)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(7378))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7379))
 // CS Name: ::UnityEngine.UIElements.UIR::GradientSettingsAtlas*
 class CORDL_TYPE GradientSettingsAtlas : public ::System::Object {
@@ -144,6 +144,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get_m_Length();
 
@@ -217,8 +220,7 @@ public:
   static inline ::UnityEngine::UIElements::UIR::GradientSettingsAtlas* New_ctor(int32_t length);
 
   /// @brief Method .ctor, addr 0x2e8a844, size 0x30, virtual false, abstract: false, final false
-  /// @param length: int32_t (default: static_cast<int32_t>(0x1000))
-  inline void _ctor(int32_t length = static_cast<int32_t>(0x1000));
+  inline void _ctor(int32_t length);
 
   /// @brief Method Reset, addr 0x2e8a874, size 0xcc, virtual false, abstract: false, final false
   inline void Reset();

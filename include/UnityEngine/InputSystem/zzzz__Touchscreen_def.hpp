@@ -10,29 +10,29 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Touchscreen)
+namespace UnityEngine::InputSystem::Controls {
+class TouchControl;
+}
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
+class ICustomDeviceReset;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IEventMerger;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct TouchState;
-}
-namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateCallbackReceiver;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-class ICustomDeviceReset;
+struct InputEventPtr;
 }
-namespace UnityEngine::InputSystem::Controls {
-class TouchControl;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
+namespace UnityEngine::InputSystem::LowLevel {
+struct TouchState;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> struct ReadOnlyArray_1;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -44,8 +44,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Touchscreen);
 // SizeInfo { instance_size: 408, native_size: -1, calculated_instance_size: 408, calculated_native_size: 408, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6247)), TypeDefinitionIndex(TypeDefinitionIndex(6641)), TypeDefinitionIndex(TypeDefinitionIndex(6701)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6701), inst: 4895 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6288)) CS Name: ::UnityEngine.InputSystem::Touchscreen*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6701)), TypeDefinitionIndex(TypeDefinitionIndex(6247)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6701), inst: 4895
+// }), TypeDefinitionIndex(TypeDefinitionIndex(6641))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6288)) CS Name: ::UnityEngine.InputSystem::Touchscreen*
 class CORDL_TYPE Touchscreen : public ::UnityEngine::InputSystem::Pointer {
 public:
   // Declarations
@@ -78,11 +78,20 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateCallbackReceiver"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateCallbackReceiver*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateCallbackReceiver"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateCallbackReceiver* i___UnityEngine__InputSystem__LowLevel__IInputStateCallbackReceiver() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IEventMerger"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IEventMerger*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IEventMerger"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IEventMerger* i___UnityEngine__InputSystem__LowLevel__IEventMerger() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::ICustomDeviceReset"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::ICustomDeviceReset*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::ICustomDeviceReset"
+  constexpr ::UnityEngine::InputSystem::LowLevel::ICustomDeviceReset* i___UnityEngine__InputSystem__LowLevel__ICustomDeviceReset() noexcept;
 
   constexpr ::UnityEngine::InputSystem::Controls::TouchControl*& __get__primaryTouch_k__BackingField();
 

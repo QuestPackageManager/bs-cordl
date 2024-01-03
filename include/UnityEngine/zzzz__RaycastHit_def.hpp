@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RaycastHit)
 namespace UnityEngine {
-struct Vector3;
+class Collider;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
-class Collider;
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine {

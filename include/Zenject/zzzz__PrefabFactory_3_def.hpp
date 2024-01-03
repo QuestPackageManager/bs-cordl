@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(PrefabFactory_3)
-namespace Zenject {
-class InjectTypeInfo;
+namespace System {
+class Object;
+}
+namespace UnityEngine {
+class Object;
 }
 namespace Zenject {
-class IFactory;
+class DiContainer;
 }
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue> class IFactory_4;
 }
 namespace Zenject {
-class DiContainer;
+class IFactory;
 }
-namespace UnityEngine {
-class Object;
-}
-namespace System {
-class Object;
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -49,8 +49,14 @@ public:
   /// @brief Convert operator to "::Zenject::IFactory_4<::UnityEngine::Object*,P1,P2,T>"
   constexpr operator ::Zenject::IFactory_4<::UnityEngine::Object*, P1, P2, T>*() noexcept;
 
+  /// @brief Convert to "::Zenject::IFactory_4<::UnityEngine::Object*,P1,P2,T>"
+  constexpr ::Zenject::IFactory_4<::UnityEngine::Object*, P1, P2, T>* i___Zenject__IFactory_4___UnityEngine__Object__P1_P2_T_() noexcept;
+
   /// @brief Convert operator to "::Zenject::IFactory"
   constexpr operator ::Zenject::IFactory*() noexcept;
+
+  /// @brief Convert to "::Zenject::IFactory"
+  constexpr ::Zenject::IFactory* i___Zenject__IFactory() noexcept;
 
   constexpr ::Zenject::DiContainer*& __get__container();
 

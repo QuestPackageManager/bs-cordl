@@ -9,14 +9,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NamedIntListController)
-namespace System {
-template <typename T> class Action_1;
+namespace GlobalNamespace {
+class __NamedIntListController__TextValuePair;
 }
 namespace HMUI {
 template <typename T> class IValueChanger_1;
 }
-namespace GlobalNamespace {
-class __NamedIntListController__TextValuePair;
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -121,6 +121,9 @@ public:
 
   /// @brief Convert operator to "::HMUI::IValueChanger_1<int32_t>"
   constexpr operator ::HMUI::IValueChanger_1<int32_t>*() noexcept;
+
+  /// @brief Convert to "::HMUI::IValueChanger_1<int32_t>"
+  constexpr ::HMUI::IValueChanger_1<int32_t>* i___HMUI__IValueChanger_1_int32_t_() noexcept;
 
   constexpr ::ArrayW<::GlobalNamespace::__NamedIntListController__TextValuePair*, ::Array<::GlobalNamespace::__NamedIntListController__TextValuePair*>*>& __get__textValuePairs();
 

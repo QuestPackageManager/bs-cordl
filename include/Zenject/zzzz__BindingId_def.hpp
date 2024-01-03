@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BindingId)
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 namespace System {
 class Type;
@@ -37,6 +37,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::Zenject::BindingId>"
   constexpr operator ::System::IEquatable_1<::Zenject::BindingId>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::Zenject::BindingId>"
+  constexpr ::System::IEquatable_1<::Zenject::BindingId>* i___System__IEquatable_1___Zenject__BindingId_();
 
   /// @brief Method .ctor, addr 0x2ee5410, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Object* identifier);

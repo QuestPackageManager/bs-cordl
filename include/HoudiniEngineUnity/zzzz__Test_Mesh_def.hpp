@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(Test_Mesh)
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivableWrapperClass_1;
 }
-namespace UnityEngine {
-class Mesh;
-}
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivable_1;
+}
+namespace UnityEngine {
+class Mesh;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -35,8 +35,14 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Mesh*>"
   constexpr operator ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Mesh*>*() noexcept;
 
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Mesh*>"
+  constexpr ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Mesh*>* i___HoudiniEngineUnity__IEquivableWrapperClass_1___HoudiniEngineUnity__Test_Mesh__() noexcept;
+
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Mesh*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Mesh*>*() noexcept;
+
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Mesh*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Mesh*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_Mesh__() noexcept;
 
   constexpr ::UnityEngine::Mesh*& __get_self();
 

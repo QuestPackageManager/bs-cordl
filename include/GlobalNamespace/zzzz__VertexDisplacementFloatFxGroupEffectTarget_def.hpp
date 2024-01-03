@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(VertexDisplacementFloatFxGroupEffectTarget)
+namespace GlobalNamespace {
+class MaterialPropertyBlockController;
+}
+namespace UnityEngine {
+class AnimationCurve;
+}
 namespace UnityEngine {
 class Renderer;
 }
 namespace UnityEngine {
 struct Vector4;
-}
-namespace UnityEngine {
-class AnimationCurve;
-}
-namespace GlobalNamespace {
-class MaterialPropertyBlockController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(4909)), TypeDefinitionIndex(TypeDefinitionIndex(10164))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10164)), TypeDefinitionIndex(TypeDefinitionIndex(4909))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4917))
 // CS Name: ::VertexDisplacementFloatFxGroupEffectTarget*
 class CORDL_TYPE VertexDisplacementFloatFxGroupEffectTarget : public ::GlobalNamespace::FloatFxGroupEffectTarget {

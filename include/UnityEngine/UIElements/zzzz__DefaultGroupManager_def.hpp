@@ -8,10 +8,10 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
-class IGroupManager;
+class IGroupBoxOption;
 }
 namespace UnityEngine::UIElements {
-class IGroupBoxOption;
+class IGroupManager;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -37,6 +37,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::UIElements::IGroupManager"
   constexpr operator ::UnityEngine::UIElements::IGroupManager*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UIElements::IGroupManager"
+  constexpr ::UnityEngine::UIElements::IGroupManager* i___UnityEngine__UIElements__IGroupManager() noexcept;
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IGroupBoxOption*>*& __get_m_GroupOptions();
 

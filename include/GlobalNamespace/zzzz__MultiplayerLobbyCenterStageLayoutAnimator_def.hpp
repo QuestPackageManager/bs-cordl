@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerLobbyCenterStageLayoutAnimator)
+namespace Tweening {
+class TimeTweeningManager;
+}
 namespace UnityEngine {
 class RectTransform;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace Tweening {
-class TimeTweeningManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {

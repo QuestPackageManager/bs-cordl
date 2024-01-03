@@ -8,10 +8,10 @@ namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+class IPanel;
 }
 namespace UnityEngine::UIElements {
-class IPanel;
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

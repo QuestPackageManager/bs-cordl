@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IOUtil)
-namespace System {
-class Object;
+namespace System::Runtime::Serialization::Formatters::Binary {
+struct MessageEnum;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryWriter;
 }
-namespace System::Runtime::Serialization::Formatters::Binary {
-struct MessageEnum;
+namespace System {
+class Object;
 }
 namespace System {
 class Type;

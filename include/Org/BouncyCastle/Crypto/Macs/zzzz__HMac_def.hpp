@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HMac)
 namespace Org::BouncyCastle::Crypto {
-class IMac;
-}
-namespace Org::BouncyCastle::Utilities {
-class IMemoable;
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IMac;
+}
+namespace Org::BouncyCastle::Utilities {
+class IMemoable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Macs {
@@ -60,6 +60,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IMac"
   constexpr operator ::Org::BouncyCastle::Crypto::IMac*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IMac"
+  constexpr ::Org::BouncyCastle::Crypto::IMac* i___Org__BouncyCastle__Crypto__IMac() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::IDigest*& __get_digest();
 

@@ -11,10 +11,10 @@ namespace UnityEngine {
 struct Color32;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Vector2;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Vector3;
 }
 // Forward declare root types
 namespace TMPro {

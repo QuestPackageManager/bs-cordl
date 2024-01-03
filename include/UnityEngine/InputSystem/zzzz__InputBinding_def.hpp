@@ -16,15 +16,6 @@ template <typename T, typename TResult> class Func_2;
 namespace System {
 struct Guid;
 }
-namespace UnityEngine::InputSystem {
-class __InputBinding____c;
-}
-namespace UnityEngine::InputSystem {
-struct __InputBinding__MatchOptions;
-}
-namespace UnityEngine::InputSystem {
-struct __InputBinding__DisplayStringOptions;
-}
 namespace System {
 template <typename T> class IEquatable_1;
 }
@@ -32,13 +23,22 @@ namespace System {
 class Object;
 }
 namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace UnityEngine::InputSystem {
 class InputAction;
 }
 namespace UnityEngine::InputSystem {
+class InputControl;
+}
+namespace UnityEngine::InputSystem {
+struct __InputBinding__DisplayStringOptions;
+}
+namespace UnityEngine::InputSystem {
 struct __InputBinding__Flags;
+}
+namespace UnityEngine::InputSystem {
+struct __InputBinding__MatchOptions;
+}
+namespace UnityEngine::InputSystem {
+class __InputBinding____c;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -276,7 +276,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 88, native_size: 88, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6185)), TypeDefinitionIndex(TypeDefinitionIndex(6183)), TypeDefinitionIndex(TypeDefinitionIndex(6184))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6185))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6187))
 // CS Name: ::UnityEngine.InputSystem::InputBinding
 struct CORDL_TYPE InputBinding {
@@ -326,6 +326,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::InputBinding>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::InputBinding>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::InputBinding>"
+  constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::InputBinding>* i___System__IEquatable_1___UnityEngine__InputSystem__InputBinding_();
 
   /// @brief Method get_name, addr 0x2a54ff4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
@@ -403,12 +406,7 @@ public:
   inline bool get_hasOverrides();
 
   /// @brief Method .ctor, addr 0x2a5513c, size 0x20, virtual false, abstract: false, final false
-  /// @param action: ::StringW (default: nullptr)
-  /// @param groups: ::StringW (default: nullptr)
-  /// @param processors: ::StringW (default: nullptr)
-  /// @param interactions: ::StringW (default: nullptr)
-  /// @param name: ::StringW (default: nullptr)
-  inline void _ctor(::StringW path, ::StringW action = nullptr, ::StringW groups = nullptr, ::StringW processors = nullptr, ::StringW interactions = nullptr, ::StringW name = nullptr);
+  inline void _ctor(::StringW path, ::StringW action, ::StringW groups, ::StringW processors, ::StringW interactions, ::StringW name);
 
   /// @brief Method GetNameOfComposite, addr 0x2a5515c, size 0x44, virtual false, abstract: false, final false
   inline ::StringW GetNameOfComposite();
@@ -456,15 +454,11 @@ public:
   inline ::StringW ToString();
 
   /// @brief Method ToDisplayString, addr 0x2a5577c, size 0x2c, virtual false, abstract: false, final false
-  /// @param options: ::UnityEngine::InputSystem::__InputBinding__DisplayStringOptions (default: static_cast<int32_t>(0x0))
-  /// @param control: ::UnityEngine::InputSystem::InputControl* (default: nullptr)
-  inline ::StringW ToDisplayString(::UnityEngine::InputSystem::__InputBinding__DisplayStringOptions options = static_cast<int32_t>(0x0), ::UnityEngine::InputSystem::InputControl* control = nullptr);
+  inline ::StringW ToDisplayString(::UnityEngine::InputSystem::__InputBinding__DisplayStringOptions options, ::UnityEngine::InputSystem::InputControl* control);
 
   /// @brief Method ToDisplayString, addr 0x2a557a8, size 0x46c, virtual false, abstract: false, final false
-  /// @param options: ::UnityEngine::InputSystem::__InputBinding__DisplayStringOptions (default: static_cast<int32_t>(0x0))
-  /// @param control: ::UnityEngine::InputSystem::InputControl* (default: nullptr)
-  inline ::StringW ToDisplayString(ByRef<::StringW> deviceLayoutName, ByRef<::StringW> controlPath,
-                                   ::UnityEngine::InputSystem::__InputBinding__DisplayStringOptions options = static_cast<int32_t>(0x0), ::UnityEngine::InputSystem::InputControl* control = nullptr);
+  inline ::StringW ToDisplayString(ByRef<::StringW> deviceLayoutName, ByRef<::StringW> controlPath, ::UnityEngine::InputSystem::__InputBinding__DisplayStringOptions options,
+                                   ::UnityEngine::InputSystem::InputControl* control);
 
   /// @brief Method TriggersAction, addr 0x2a4c89c, size 0x58, virtual false, abstract: false, final false
   inline bool TriggersAction(::UnityEngine::InputSystem::InputAction* action);
@@ -473,8 +467,7 @@ public:
   inline bool Matches(::UnityEngine::InputSystem::InputBinding binding);
 
   /// @brief Method Matches, addr 0x2a55c1c, size 0x108, virtual false, abstract: false, final false
-  /// @param options: ::UnityEngine::InputSystem::__InputBinding__MatchOptions (default: static_cast<int32_t>(0x0))
-  inline bool Matches(ByRef<::UnityEngine::InputSystem::InputBinding> binding, ::UnityEngine::InputSystem::__InputBinding__MatchOptions options = static_cast<int32_t>(0x0));
+  inline bool Matches(ByRef<::UnityEngine::InputSystem::InputBinding> binding, ::UnityEngine::InputSystem::__InputBinding__MatchOptions options);
 
   // Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
   // "m_Path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Interactions", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Processors", ty:

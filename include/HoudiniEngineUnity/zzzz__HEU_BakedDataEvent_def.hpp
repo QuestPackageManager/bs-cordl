@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_BakedDataEvent);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9598)), TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst:
-// 5236 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9605)) CS Name: ::HoudiniEngineUnity::HEU_BakedDataEvent*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 5236 }), TypeDefinitionIndex(TypeDefinitionIndex(9598)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10465))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9605)) CS Name: ::HoudiniEngineUnity::HEU_BakedDataEvent*
 class CORDL_TYPE HEU_BakedDataEvent : public ::UnityEngine::Events::UnityEvent_1<::HoudiniEngineUnity::HEU_BakedEventData*> {
 public:
   // Declarations

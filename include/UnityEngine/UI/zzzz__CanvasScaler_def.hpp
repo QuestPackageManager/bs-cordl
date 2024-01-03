@@ -12,17 +12,17 @@ CORDL_MODULE_EXPORT(CanvasScaler)
 namespace UnityEngine::UI {
 struct __CanvasScaler__ScaleMode;
 }
-namespace UnityEngine {
-class Canvas;
-}
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::UI {
 struct __CanvasScaler__ScreenMatchMode;
 }
 namespace UnityEngine::UI {
 struct __CanvasScaler__Unit;
+}
+namespace UnityEngine {
+class Canvas;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -216,8 +216,8 @@ static_assert(offsetof(::UnityEngine::UI::__CanvasScaler__Unit, value__) == 0x0,
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13072)), TypeDefinitionIndex(TypeDefinitionIndex(13073)), TypeDefinitionIndex(TypeDefinitionIndex(13074)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13214)), TypeDefinitionIndex(TypeDefinitionIndex(10243))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13075)) CS Name: ::UnityEngine.UI::CanvasScaler*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13072)), TypeDefinitionIndex(TypeDefinitionIndex(13073)), TypeDefinitionIndex(TypeDefinitionIndex(13214)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(13074))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13075)) CS Name: ::UnityEngine.UI::CanvasScaler*
 class CORDL_TYPE CanvasScaler : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
   // Declarations

@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(DebugLogHandler)
-namespace UnityEngine {
-struct LogType;
+namespace System {
+class Exception;
 }
-namespace UnityEngine {
+namespace System {
 class Object;
 }
 namespace UnityEngine {
@@ -18,10 +18,10 @@ class ILogHandler;
 namespace UnityEngine {
 struct LogOption;
 }
-namespace System {
-class Exception;
+namespace UnityEngine {
+struct LogType;
 }
-namespace System {
+namespace UnityEngine {
 class Object;
 }
 // Forward declare root types
@@ -42,6 +42,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::UnityEngine::ILogHandler"
   constexpr operator ::UnityEngine::ILogHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::ILogHandler"
+  constexpr ::UnityEngine::ILogHandler* i___UnityEngine__ILogHandler() noexcept;
 
   /// @brief Method Internal_Log, addr 0x2c9f2d8, size 0x5c, virtual false, abstract: false, final false
   static inline void Internal_Log(::UnityEngine::LogType level, ::UnityEngine::LogOption options, ::StringW msg, ::UnityEngine::Object* obj);

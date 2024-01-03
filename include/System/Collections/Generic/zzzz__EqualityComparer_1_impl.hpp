@@ -1,15 +1,24 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Generic/zzzz__EqualityComparer_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
 #include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
+#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 /// @brief Convert operator to "::System::Collections::IEqualityComparer"
 template <typename T> constexpr System::Collections::Generic::EqualityComparer_1<T>::operator ::System::Collections::IEqualityComparer*() noexcept {
   return static_cast<::System::Collections::IEqualityComparer*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::IEqualityComparer"
+template <typename T> constexpr ::System::Collections::IEqualityComparer* System::Collections::Generic::EqualityComparer_1<T>::i___System__Collections__IEqualityComparer() noexcept {
+  return static_cast<::System::Collections::IEqualityComparer*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<T>"
 template <typename T> constexpr System::Collections::Generic::EqualityComparer_1<T>::operator ::System::Collections::Generic::IEqualityComparer_1<T>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEqualityComparer_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<T>"
+template <typename T>
+constexpr ::System::Collections::Generic::IEqualityComparer_1<T>* System::Collections::Generic::EqualityComparer_1<T>::i___System__Collections__Generic__IEqualityComparer_1_T_() noexcept {
   return static_cast<::System::Collections::Generic::IEqualityComparer_1<T>*>(static_cast<void*>(this));
 }
 template <typename T> inline void System::Collections::Generic::EqualityComparer_1<T>::setStaticF_defaultComparer(::System::Collections::Generic::EqualityComparer_1<T>* value) {

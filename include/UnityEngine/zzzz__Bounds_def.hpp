@@ -13,19 +13,19 @@ namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
+class IFormatProvider;
+}
+namespace System {
 class IFormattable;
 }
 namespace System {
 class Object;
 }
-namespace System {
-class IFormatProvider;
+namespace UnityEngine {
+struct Ray;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine {
-struct Ray;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -56,8 +56,14 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Bounds>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Bounds>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Bounds>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Bounds>* i___System__IEquatable_1___UnityEngine__Bounds_();
+
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
+
+  /// @brief Convert to "::System::IFormattable"
+  constexpr ::System::IFormattable* i___System__IFormattable();
 
   /// @brief Method .ctor, addr 0x2cc9dd4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 center, ::UnityEngine::Vector3 size);

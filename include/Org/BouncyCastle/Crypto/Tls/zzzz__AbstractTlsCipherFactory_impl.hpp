@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsCipherFactory_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCipherFactory_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::AbstractTlsCipherFactory.CreateCipher
 template <>
 
@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0xf5a310;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::AbstractTlsCipherFactory*>::get(),
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0xf5a354;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::AbstractTlsCipherFactory*>::get(), ".ctor",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -38,6 +38,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory"
 constexpr Org::BouncyCastle::Crypto::Tls::AbstractTlsCipherFactory::operator ::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory"
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* Org::BouncyCastle::Crypto::Tls::AbstractTlsCipherFactory::i___Org__BouncyCastle__Crypto__Tls__TlsCipherFactory() noexcept {
   return static_cast<::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory*>(static_cast<void*>(this));
 }
 inline ::Org::BouncyCastle::Crypto::Tls::TlsCipher* Org::BouncyCastle::Crypto::Tls::AbstractTlsCipherFactory::CreateCipher(::Org::BouncyCastle::Crypto::Tls::TlsContext* context,

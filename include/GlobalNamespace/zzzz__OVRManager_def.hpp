@@ -16,179 +16,149 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRManager)
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+namespace GlobalNamespace {
+class OVRBoundary;
 }
 namespace GlobalNamespace {
-struct __OVRManager__PassthroughInitializationState;
+class OVRDisplay;
 }
 namespace GlobalNamespace {
 class OVRMixedRealityCaptureConfiguration;
 }
 namespace GlobalNamespace {
-struct __OVRManager__FixedFoveatedRenderingLevel;
-}
-namespace GlobalNamespace {
-struct __OVRManager__SystemHeadsetType;
-}
-namespace GlobalNamespace {
-class __OVRManager__PassthroughCapabilities;
-}
-namespace GlobalNamespace {
-struct __OVRSpatialAnchor__OperationResult;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace GlobalNamespace {
-struct __OVRManager__CameraDevice;
+class OVRMixedRealityCaptureSettings;
 }
 namespace GlobalNamespace {
 struct OVRPose;
 }
 namespace GlobalNamespace {
-class OVRBoundary;
-}
-namespace GlobalNamespace {
 class OVRProfile;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4> class Action_4;
-}
-namespace GlobalNamespace {
-class OVRMixedRealityCaptureSettings;
-}
-namespace UnityEngine {
-class Camera;
-}
-namespace GlobalNamespace {
-class OVRTracker;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine {
-struct LayerMask;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__SpaceStorageLocation;
-}
-namespace GlobalNamespace {
-struct __OVRManager__CompositionMethod;
-}
-namespace GlobalNamespace {
-struct __OVRManager__FoveatedRenderingLevel;
-}
-namespace GlobalNamespace {
-class OVRDisplay;
-}
-namespace System {
-class Action;
-}
-namespace System {
-struct Guid;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace GlobalNamespace {
-struct __OVRManager__XrApi;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__LayerSharpenType;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6> class Action_6;
-}
-namespace GlobalNamespace {
-struct __OVRManager__ProcessorPerformanceLevel;
-}
-namespace GlobalNamespace {
-struct __OVRManager__DepthQuality;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::XR {
-struct XRNode;
-}
-namespace UnityEngine::XR {
-class XRInputSubsystem;
-}
-namespace System {
-class Version;
-}
-namespace GlobalNamespace {
-struct __OVRManager__TrackingOrigin;
-}
-namespace GlobalNamespace {
-struct __OVRManager__ControllerDrivenHandPosesType;
-}
-namespace GlobalNamespace {
-class __OVRManager__InstantiateMrcCameraDelegate;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace GlobalNamespace {
-struct __OVRManager__VirtualGreenScreenType;
-}
-namespace GlobalNamespace {
-struct OVRSpace;
-}
-namespace GlobalNamespace {
-class __OVRManager____c;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__SpaceComponentType;
-}
-namespace GlobalNamespace {
-struct __OVRManager__TiledMultiResLevel;
-}
-namespace GlobalNamespace {
-struct __OVRManager__XRDevice;
-}
-namespace GlobalNamespace {
-struct __OVRManager__ColorSpace;
-}
-namespace GlobalNamespace {
-struct __OVRManager__MrcCameraType;
 }
 namespace GlobalNamespace {
 class OVRRuntimeSettings;
 }
 namespace GlobalNamespace {
-struct __OVRManager__EyeTextureFormat;
+struct OVRSpace;
 }
-namespace UnityEngine::XR {
-class XRDisplaySubsystemDescriptor;
+namespace GlobalNamespace {
+class OVRTracker;
+}
+namespace GlobalNamespace {
+struct __OVRManager__CameraDevice;
+}
+namespace GlobalNamespace {
+struct __OVRManager__ColorSpace;
+}
+namespace GlobalNamespace {
+struct __OVRManager__CompositionMethod;
+}
+namespace GlobalNamespace {
+struct __OVRManager__ControllerDrivenHandPosesType;
+}
+namespace GlobalNamespace {
+struct __OVRManager__DepthQuality;
 }
 namespace GlobalNamespace {
 class __OVRManager__EventListener;
 }
-namespace System {
-template <typename T> class WeakReference_1;
+namespace GlobalNamespace {
+struct __OVRManager__EyeTextureFormat;
+}
+namespace GlobalNamespace {
+struct __OVRManager__FixedFoveatedRenderingLevel;
+}
+namespace GlobalNamespace {
+struct __OVRManager__FoveatedRenderingLevel;
+}
+namespace GlobalNamespace {
+class __OVRManager__InstantiateMrcCameraDelegate;
 }
 namespace GlobalNamespace {
 struct __OVRManager__MrcActivationMode;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace GlobalNamespace {
+struct __OVRManager__MrcCameraType;
+}
+namespace GlobalNamespace {
+class __OVRManager__PassthroughCapabilities;
+}
+namespace GlobalNamespace {
+struct __OVRManager__PassthroughInitializationState;
+}
+namespace GlobalNamespace {
+struct __OVRManager__ProcessorPerformanceLevel;
+}
+namespace GlobalNamespace {
+struct __OVRManager__SystemHeadsetType;
+}
+namespace GlobalNamespace {
+struct __OVRManager__TiledMultiResLevel;
+}
+namespace GlobalNamespace {
+struct __OVRManager__TrackingOrigin;
+}
+namespace GlobalNamespace {
+struct __OVRManager__VirtualGreenScreenType;
+}
+namespace GlobalNamespace {
+struct __OVRManager__XRDevice;
+}
+namespace GlobalNamespace {
+struct __OVRManager__XrApi;
+}
+namespace GlobalNamespace {
+class __OVRManager____c;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__EventDataBuffer;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__LayerSharpenType;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__SpaceComponentType;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__SpaceStorageLocation;
+}
+namespace GlobalNamespace {
+struct __OVRSpatialAnchor__OperationResult;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4> class Action_4;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6> class Action_6;
+}
+namespace System {
+class Action;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System {
+template <typename T> class Comparison_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+struct Guid;
 }
 namespace System {
 class IAsyncResult;
@@ -197,13 +167,43 @@ namespace System {
 class Object;
 }
 namespace System {
-class AsyncCallback;
+class Version;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+template <typename T> class WeakReference_1;
 }
-namespace System {
-template <typename T> class Comparison_1;
+namespace UnityEngine::XR {
+class XRDisplaySubsystemDescriptor;
+}
+namespace UnityEngine::XR {
+class XRInputSubsystem;
+}
+namespace UnityEngine::XR {
+struct XRNode;
+}
+namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+struct LayerMask;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -1619,11 +1619,11 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRManager___
 // SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 288, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(7641)), TypeDefinitionIndex(TypeDefinitionIndex(7807)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(7638)), TypeDefinitionIndex(TypeDefinitionIndex(7708)), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(7635)), TypeDefinitionIndex(TypeDefinitionIndex(7629)), TypeDefinitionIndex(TypeDefinitionIndex(7640)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7636)), TypeDefinitionIndex(TypeDefinitionIndex(7644)), TypeDefinitionIndex(TypeDefinitionIndex(10108)), TypeDefinitionIndex(TypeDefinitionIndex(7643)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7642)), TypeDefinitionIndex(TypeDefinitionIndex(7647))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7650)) CS Name: ::OVRManager*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7642)), TypeDefinitionIndex(TypeDefinitionIndex(7638)), TypeDefinitionIndex(TypeDefinitionIndex(7644)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7636)), TypeDefinitionIndex(TypeDefinitionIndex(7635)), TypeDefinitionIndex(TypeDefinitionIndex(7708)), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(7647)), TypeDefinitionIndex(TypeDefinitionIndex(7643)), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7629)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10108)), TypeDefinitionIndex(TypeDefinitionIndex(7641)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7640)), TypeDefinitionIndex(TypeDefinitionIndex(7807))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7650)) CS Name: ::OVRManager*
 class CORDL_TYPE OVRManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -2195,6 +2195,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::OVRMixedRealityCaptureConfiguration"
   constexpr operator ::GlobalNamespace::OVRMixedRealityCaptureConfiguration*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::OVRMixedRealityCaptureConfiguration"
+  constexpr ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* i___GlobalNamespace__OVRMixedRealityCaptureConfiguration() noexcept;
 
   constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Camera*>*& __get_disabledCameras();
 

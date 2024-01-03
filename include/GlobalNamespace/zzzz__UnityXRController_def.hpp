@@ -6,14 +6,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_def.hpp"
 CORDL_MODULE_EXPORT(UnityXRController)
-namespace UnityEngine::XR {
-struct XRNode;
-}
-namespace UnityEngine {
-class MonoBehaviour;
-}
-namespace UnityEngine::XR {
-struct InputDevice;
+namespace GlobalNamespace {
+class IUnityXRHapticsHandler;
 }
 namespace GlobalNamespace {
 class __UnityXRController__Configuration;
@@ -21,14 +15,20 @@ class __UnityXRController__Configuration;
 namespace GlobalNamespace {
 struct __UnityXRHelper__VRControllerManufacturerName;
 }
-namespace GlobalNamespace {
-class IUnityXRHapticsHandler;
+namespace UnityEngine::InputSystem {
+class InputActionReference;
 }
 namespace UnityEngine::InputSystem {
 class InputAction;
 }
-namespace UnityEngine::InputSystem {
-class InputActionReference;
+namespace UnityEngine::XR {
+struct InputDevice;
+}
+namespace UnityEngine::XR {
+struct XRNode;
+}
+namespace UnityEngine {
+class MonoBehaviour;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -151,7 +151,7 @@ static_assert(offsetof(::GlobalNamespace::__UnityXRController__Configuration, __
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15614)), TypeDefinitionIndex(TypeDefinitionIndex(14435)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15614)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14435))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14434))
 // CS Name: ::UnityXRController*
 class CORDL_TYPE UnityXRController : public ::System::Object {

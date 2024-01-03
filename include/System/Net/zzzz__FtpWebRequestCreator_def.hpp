@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(FtpWebRequestCreator)
-namespace System {
-class Uri;
-}
 namespace System::Net {
 class IWebRequestCreate;
 }
 namespace System::Net {
 class WebRequest;
+}
+namespace System {
+class Uri;
 }
 // Forward declare root types
 namespace System::Net {
@@ -31,6 +31,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Net::IWebRequestCreate"
   constexpr operator ::System::Net::IWebRequestCreate*() noexcept;
+
+  /// @brief Convert to "::System::Net::IWebRequestCreate"
+  constexpr ::System::Net::IWebRequestCreate* i___System__Net__IWebRequestCreate() noexcept;
 
   static inline ::System::Net::FtpWebRequestCreator* New_ctor();
 

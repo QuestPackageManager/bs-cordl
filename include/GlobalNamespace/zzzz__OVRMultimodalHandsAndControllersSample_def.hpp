@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(OVRMultimodalHandsAndControllersSample)
 namespace UnityEngine::UI {
-class Text;
+class Button;
 }
 namespace UnityEngine::UI {
-class Button;
+class Text;
 }
 // Forward declare root types
 namespace GlobalNamespace {

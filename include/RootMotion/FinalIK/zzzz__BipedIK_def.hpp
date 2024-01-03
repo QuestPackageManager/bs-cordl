@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(BipedIK)
-namespace RootMotion {
-class BipedReferences;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-struct Vector3;
-}
 namespace RootMotion::FinalIK {
 class BipedIKSolvers;
 }
 namespace RootMotion::FinalIK {
 class IKSolverLimb;
 }
+namespace RootMotion {
+class BipedReferences;
+}
 namespace UnityEngine {
 struct AvatarIKGoal;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {

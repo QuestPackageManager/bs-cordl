@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(TypeInfo)
-namespace System {
-class Object;
-}
 namespace System::Runtime::Remoting {
 class IRemotingTypeInfo;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class Type;
@@ -44,6 +44,9 @@ public:
 
   /// @brief Convert operator to "::System::Runtime::Remoting::IRemotingTypeInfo"
   constexpr operator ::System::Runtime::Remoting::IRemotingTypeInfo*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Remoting::IRemotingTypeInfo"
+  constexpr ::System::Runtime::Remoting::IRemotingTypeInfo* i___System__Runtime__Remoting__IRemotingTypeInfo() noexcept;
 
   constexpr ::StringW& __get_serverType();
 

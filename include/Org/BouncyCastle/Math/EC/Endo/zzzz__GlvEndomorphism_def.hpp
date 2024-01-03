@@ -29,6 +29,9 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism"
   constexpr operator ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism"
+  constexpr ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* i___Org__BouncyCastle__Math__EC__Endo__ECEndomorphism() noexcept;
+
   /// @brief Method DecomposeScalar, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> DecomposeScalar(::Org::BouncyCastle::Math::BigInteger* k);
 

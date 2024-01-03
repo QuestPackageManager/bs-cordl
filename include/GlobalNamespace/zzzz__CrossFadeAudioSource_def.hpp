@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(CrossFadeAudioSource)
-namespace Tweening {
-class TimeTweeningManager;
-}
 namespace GlobalNamespace {
 class AudioPitchGainEffect;
+}
+namespace Tweening {
+class TimeTweeningManager;
 }
 namespace Tweening {
 template <typename T> class Tween_1;
 }
 namespace UnityEngine {
-class AudioSource;
+class AudioClip;
 }
 namespace UnityEngine {
-class AudioClip;
+class AudioSource;
 }
 // Forward declare root types
 namespace GlobalNamespace {

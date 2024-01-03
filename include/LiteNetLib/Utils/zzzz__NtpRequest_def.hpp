@@ -10,23 +10,23 @@ CORDL_MODULE_EXPORT(NtpRequest)
 namespace LiteNetLib::Utils {
 class NtpPacket;
 }
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System::Net::Sockets {
-struct SocketError;
+namespace LiteNetLib {
+class INetSocketListener;
 }
 namespace LiteNetLib {
 class NetSocket;
 }
-namespace System::Net {
-class IPEndPoint;
-}
-namespace LiteNetLib {
-class INetSocketListener;
+namespace System::Net::Sockets {
+struct SocketError;
 }
 namespace System::Net {
 class IPAddress;
+}
+namespace System::Net {
+class IPEndPoint;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace LiteNetLib::Utils {
@@ -55,6 +55,9 @@ public:
 
   /// @brief Convert operator to "::LiteNetLib::INetSocketListener"
   constexpr operator ::LiteNetLib::INetSocketListener*() noexcept;
+
+  /// @brief Convert to "::LiteNetLib::INetSocketListener"
+  constexpr ::LiteNetLib::INetSocketListener* i___LiteNetLib__INetSocketListener() noexcept;
 
   constexpr ::LiteNetLib::NetSocket*& __get__socket();
 

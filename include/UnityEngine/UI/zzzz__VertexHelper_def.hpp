@@ -9,23 +9,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(VertexHelper)
-namespace UnityEngine {
-class Mesh;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 class IDisposable;
+}
+namespace UnityEngine {
+struct Color32;
+}
+namespace UnityEngine {
+class Mesh;
 }
 namespace UnityEngine {
 struct UIVertex;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine {
-struct Color32;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 namespace UnityEngine {
 struct Vector4;
@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::VertexHelper);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10246))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13141))
 // CS Name: ::UnityEngine.UI::VertexHelper*
 class CORDL_TYPE VertexHelper : public ::System::Object {
@@ -88,6 +88,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __get_m_Positions();
 

@@ -11,11 +11,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FormattedFloatListSettingsController)
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
 namespace GlobalNamespace {
 struct __FormattedFloatListSettingsController__ValueType;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -85,7 +85,7 @@ static_assert(offsetof(::GlobalNamespace::__FormattedFloatListSettingsController
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 85, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16149)), TypeDefinitionIndex(TypeDefinitionIndex(5591))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5591)), TypeDefinitionIndex(TypeDefinitionIndex(16149))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5592))
 // CS Name: ::FormattedFloatListSettingsController*
 class CORDL_TYPE FormattedFloatListSettingsController : public ::GlobalNamespace::ListSettingsController {
@@ -185,8 +185,7 @@ public:
   inline void set_values(::ArrayW<float_t, ::Array<float_t>*> value);
 
   /// @brief Method SetValue, addr 0x22a3bd4, size 0x18, virtual false, abstract: false, final false
-  /// @param callCallback: bool (default: false)
-  inline void SetValue(float_t value, bool callCallback = false);
+  inline void SetValue(float_t value, bool callCallback);
 
   /// @brief Method GetInitValues, addr 0x22aa534, size 0x150, virtual true, abstract: false, final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);

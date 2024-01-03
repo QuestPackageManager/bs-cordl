@@ -10,32 +10,50 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Panel)
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-struct EventInterests;
-}
-namespace UnityEngine::UIElements {
-class EventDispatcher;
-}
-namespace UnityEngine {
-class Shader;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 template <typename T> class Action_1;
 }
+namespace System {
+class Type;
+}
 namespace UnityEngine::UIElements {
-class VisualTreeUpdater;
+class AtlasBase;
+}
+namespace UnityEngine::UIElements {
+struct ContextType;
+}
+namespace UnityEngine::UIElements {
+class EventDispatcher;
+}
+namespace UnityEngine::UIElements {
+class FocusController;
 }
 namespace UnityEngine::UIElements {
 class GetViewDataDictionary;
 }
 namespace UnityEngine::UIElements {
-class AtlasBase;
+class IMGUIContainer;
 }
-namespace System {
-class Type;
+namespace UnityEngine::UIElements {
+class IScheduler;
+}
+namespace UnityEngine::UIElements {
+class IStylePropertyAnimationSystem;
+}
+namespace UnityEngine::UIElements {
+class IVisualTreeUpdater;
+}
+namespace UnityEngine::UIElements {
+class LoadResourceFunction;
+}
+namespace UnityEngine::UIElements {
+class SavePersistentViewData;
+}
+namespace UnityEngine::UIElements {
+class TimeMsFunction;
 }
 namespace UnityEngine::UIElements {
 class TimerEventScheduler;
@@ -47,49 +65,31 @@ namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-struct ContextType;
+struct VisualTreeUpdatePhase;
+}
+namespace UnityEngine::UIElements {
+class VisualTreeUpdater;
+}
+namespace UnityEngine {
+struct EventInterests;
+}
+namespace UnityEngine {
+class Event;
+}
+namespace UnityEngine {
+class Object;
+}
+namespace UnityEngine {
+class ScriptableObject;
+}
+namespace UnityEngine {
+class Shader;
 }
 namespace UnityEngine {
 struct Vector2Int;
 }
 namespace UnityEngine {
-class Event;
-}
-namespace UnityEngine::UIElements {
-class IVisualTreeUpdater;
-}
-namespace UnityEngine::UIElements {
-class FocusController;
-}
-namespace UnityEngine::UIElements {
-class IStylePropertyAnimationSystem;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::UIElements {
-class TimeMsFunction;
-}
-namespace UnityEngine::UIElements {
-struct VisualTreeUpdatePhase;
-}
-namespace UnityEngine {
-class ScriptableObject;
-}
-namespace UnityEngine::UIElements {
-class SavePersistentViewData;
-}
-namespace UnityEngine::UIElements {
-class IScheduler;
-}
-namespace UnityEngine::UIElements {
-class IMGUIContainer;
-}
-namespace UnityEngine::UIElements {
-class LoadResourceFunction;
-}
-namespace UnityEngine {
-class Object;
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -101,8 +101,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::Panel);
 // SizeInfo { instance_size: 344, native_size: -1, calculated_instance_size: 344, calculated_native_size: 337, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14604)), TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(6870)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6862))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6875)) CS Name: ::UnityEngine.UIElements::Panel*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6862)), TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(6870)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14604))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6875)) CS Name: ::UnityEngine.UIElements::Panel*
 class CORDL_TYPE Panel : public ::UnityEngine::UIElements::BaseVisualElementPanel {
 public:
   // Declarations
@@ -513,14 +513,12 @@ public:
   static inline int64_t DefaultTimeSinceStartupMs();
 
   /// @brief Method PickAll, addr 0x2dca658, size 0x7c, virtual false, abstract: false, final false
-  /// @param picked: ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* (default: nullptr)
   static inline ::UnityEngine::UIElements::VisualElement* PickAll(::UnityEngine::UIElements::VisualElement* root, ::UnityEngine::Vector2 point,
-                                                                  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* picked = nullptr);
+                                                                  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* picked);
 
   /// @brief Method PerformPick, addr 0x2dca6d4, size 0x2e4, virtual false, abstract: false, final false
-  /// @param picked: ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* (default: nullptr)
   static inline ::UnityEngine::UIElements::VisualElement* PerformPick(::UnityEngine::UIElements::VisualElement* root, ::UnityEngine::Vector2 point,
-                                                                      ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* picked = nullptr);
+                                                                      ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* picked);
 
   /// @brief Method PickAll, addr 0x2dca9b8, size 0xd8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* PickAll(::UnityEngine::Vector2 point, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* picked);

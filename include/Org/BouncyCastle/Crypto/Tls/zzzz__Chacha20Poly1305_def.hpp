@@ -6,8 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Chacha20Poly1305)
-namespace Org::BouncyCastle::Crypto {
-class IMac;
+namespace Org::BouncyCastle::Crypto::Engines {
+class ChaCha7539Engine;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCipher;
@@ -16,13 +19,10 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
 }
 namespace Org::BouncyCastle::Crypto {
+class IMac;
+}
+namespace Org::BouncyCastle::Crypto {
 class IStreamCipher;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
-}
-namespace Org::BouncyCastle::Crypto::Engines {
-class ChaCha7539Engine;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -60,6 +60,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCipher*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCipher"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCipher* i___Org__BouncyCastle__Crypto__Tls__TlsCipher() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext*& __get_context();
 

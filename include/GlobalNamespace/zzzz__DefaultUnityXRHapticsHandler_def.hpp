@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/XR/zzzz__XRNode_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(DefaultUnityXRHapticsHandler)
+namespace GlobalNamespace {
+class IUnityXRHapticsHandler;
+}
 namespace System {
 class IDisposable;
 }
 namespace UnityEngine::XR {
 struct XRNode;
-}
-namespace GlobalNamespace {
-class IUnityXRHapticsHandler;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::GlobalNamespace::DefaultUnityXRHapticsHandler);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15614)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15614))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14412))
 // CS Name: ::DefaultUnityXRHapticsHandler*
 class CORDL_TYPE DefaultUnityXRHapticsHandler : public ::System::Object {
@@ -37,8 +37,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IUnityXRHapticsHandler"
   constexpr operator ::GlobalNamespace::IUnityXRHapticsHandler*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IUnityXRHapticsHandler"
+  constexpr ::GlobalNamespace::IUnityXRHapticsHandler* i___GlobalNamespace__IUnityXRHapticsHandler() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::UnityEngine::XR::XRNode& __get__node();
 

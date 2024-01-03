@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(Claim)
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace System::Security::Claims {
-class ClaimsIdentity;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class IDictionary_2;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class IDictionary_2;
+namespace System::Security::Claims {
+class ClaimsIdentity;
 }
 namespace System {
 class Object;

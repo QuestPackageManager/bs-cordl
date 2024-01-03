@@ -9,17 +9,17 @@ CORDL_MODULE_EXPORT(ImageEffectController)
 namespace GlobalNamespace {
 class __ImageEffectController__RenderImageCallback;
 }
-namespace UnityEngine {
-class RenderTexture;
-}
 namespace System {
 class AsyncCallback;
 }
 namespace System {
-class Object;
+class IAsyncResult;
 }
 namespace System {
-class IAsyncResult;
+class Object;
+}
+namespace UnityEngine {
+class RenderTexture;
 }
 // Forward declare root types
 namespace GlobalNamespace {

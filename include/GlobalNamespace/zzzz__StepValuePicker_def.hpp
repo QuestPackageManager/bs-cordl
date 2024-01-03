@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(StepValuePicker)
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace System {
 class Action;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace UnityEngine::UI {
 class Button;

@@ -9,8 +9,20 @@ CORDL_MODULE_EXPORT(Voip)
 namespace Oculus::Platform::Models {
 class MicrophoneAvailabilityState;
 }
+namespace Oculus::Platform::Models {
+class SystemVoipState;
+}
 namespace Oculus::Platform {
-class __CAPI__FilterCallback;
+template <typename T> class Request_1;
+}
+namespace Oculus::Platform {
+struct SystemVoipStatus;
+}
+namespace Oculus::Platform {
+struct VoipBitrate;
+}
+namespace Oculus::Platform {
+struct VoipDtxState;
 }
 namespace Oculus::Platform {
 struct VoipMuteState;
@@ -19,19 +31,7 @@ namespace Oculus::Platform {
 class VoipOptions;
 }
 namespace Oculus::Platform {
-struct VoipDtxState;
-}
-namespace Oculus::Platform {
-struct SystemVoipStatus;
-}
-namespace Oculus::Platform::Models {
-class SystemVoipState;
-}
-namespace Oculus::Platform {
-struct VoipBitrate;
-}
-namespace Oculus::Platform {
-template <typename T> class Request_1;
+class __CAPI__FilterCallback;
 }
 namespace Oculus::Platform {
 template <typename T> class __Message_1__Callback;

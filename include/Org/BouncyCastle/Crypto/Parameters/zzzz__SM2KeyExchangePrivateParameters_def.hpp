@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(SM2KeyExchangePrivateParameters)
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECPrivateKeyParameters;
 }
-namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -56,6 +56,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"
+  constexpr ::Org::BouncyCastle::Crypto::ICipherParameters* i___Org__BouncyCastle__Crypto__ICipherParameters() noexcept;
 
   constexpr bool& __get_mInitiator();
 

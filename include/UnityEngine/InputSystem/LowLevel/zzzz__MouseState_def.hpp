@@ -9,14 +9,14 @@ CORDL_MODULE_EXPORT(MouseState)
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateTypeInfo;
 }
+namespace UnityEngine::InputSystem::LowLevel {
+struct MouseButton;
+}
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
 namespace UnityEngine {
 struct Vector2;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct MouseButton;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -58,6 +58,9 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo();
+
   constexpr ::UnityEngine::Vector2& __get_position();
 
   constexpr ::UnityEngine::Vector2 const& __get_position() const;
@@ -98,8 +101,7 @@ public:
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Format();
 
   /// @brief Method WithButton, addr 0x2ae8a2c, size 0x2c, virtual false, abstract: false, final false
-  /// @param state: bool (default: true)
-  inline ::UnityEngine::InputSystem::LowLevel::MouseState WithButton(::UnityEngine::InputSystem::LowLevel::MouseButton button, bool state = true);
+  inline ::UnityEngine::InputSystem::LowLevel::MouseState WithButton(::UnityEngine::InputSystem::LowLevel::MouseButton button, bool state);
 
   /// @brief Method get_format, addr 0x2ae8a58, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();

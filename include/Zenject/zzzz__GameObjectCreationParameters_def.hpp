@@ -9,23 +9,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameObjectCreationParameters)
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace System {
-class Object;
-}
-namespace System {
-template <typename T> struct Nullable_1;
 }
 namespace Zenject {
 class InjectContext;
@@ -40,8 +40,8 @@ MARK_REF_PTR_T(::Zenject::GameObjectCreationParameters);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst:
-// 3342 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 412 }), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 412 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(2448), inst: 3342 }), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10949))
 // CS Name: ::Zenject::GameObjectCreationParameters*
 class CORDL_TYPE GameObjectCreationParameters : public ::System::Object {

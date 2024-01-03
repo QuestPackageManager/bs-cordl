@@ -42,9 +42,7 @@ public:
                                                                                            ::System::Exception* innerException);
 
   /// @brief Method .ctor, addr 0x2bd0190, size 0x28, virtual false, abstract: false, final false
-  /// @param location: ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* (default: nullptr)
-  /// @param innerException: ::System::Exception* (default: nullptr)
-  inline void _ctor(::StringW message, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location = nullptr, ::System::Exception* innerException = nullptr);
+  inline void _ctor(::StringW message, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Exception* innerException);
 
   /// @brief Method get_Location, addr 0x2bd01b8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_Location();

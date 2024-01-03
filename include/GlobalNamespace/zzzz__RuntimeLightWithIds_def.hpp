@@ -14,14 +14,14 @@ struct ColorMixAndWeightingApproach;
 namespace GlobalNamespace {
 class __LightWithIds__LightWithId;
 }
+namespace GlobalNamespace {
+class __RuntimeLightWithIds__LightIntensitiesWithId;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine {
 struct Color;
-}
-namespace GlobalNamespace {
-class __RuntimeLightWithIds__LightIntensitiesWithId;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -94,7 +94,7 @@ static_assert(offsetof(::GlobalNamespace::__RuntimeLightWithIds__LightIntensitie
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14544)), TypeDefinitionIndex(TypeDefinitionIndex(14522))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14522)), TypeDefinitionIndex(TypeDefinitionIndex(14544))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14552))
 // CS Name: ::RuntimeLightWithIds*
 class CORDL_TYPE RuntimeLightWithIds : public ::GlobalNamespace::LightWithIds {

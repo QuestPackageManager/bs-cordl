@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(NameCache)
-namespace System {
-class Object;
-}
 namespace System::Collections::Concurrent {
 template <typename TKey, typename TValue> class ConcurrentDictionary_2;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {

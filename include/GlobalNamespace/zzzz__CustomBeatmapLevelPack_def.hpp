@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CustomBeatmapLevelPack)
-namespace UnityEngine {
-class Sprite;
+namespace GlobalNamespace {
+class CustomBeatmapLevelCollection;
 }
 namespace GlobalNamespace {
 class IAnnotatedBeatmapLevelCollection;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelPack;
+class IBeatmapLevelCollection;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelCollection;
+class IBeatmapLevelPack;
 }
 namespace GlobalNamespace {
 struct PlayerSensitivityFlag;
 }
-namespace GlobalNamespace {
-class CustomBeatmapLevelCollection;
+namespace UnityEngine {
+class Sprite;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::GlobalNamespace::CustomBeatmapLevelPack);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4658)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4658))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4376))
 // CS Name: ::CustomBeatmapLevelPack*
 class CORDL_TYPE CustomBeatmapLevelPack : public ::System::Object {
@@ -83,8 +83,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBeatmapLevelPack"
   constexpr operator ::GlobalNamespace::IBeatmapLevelPack*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IBeatmapLevelPack"
+  constexpr ::GlobalNamespace::IBeatmapLevelPack* i___GlobalNamespace__IBeatmapLevelPack() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IAnnotatedBeatmapLevelCollection"
   constexpr operator ::GlobalNamespace::IAnnotatedBeatmapLevelCollection*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IAnnotatedBeatmapLevelCollection"
+  constexpr ::GlobalNamespace::IAnnotatedBeatmapLevelCollection* i___GlobalNamespace__IAnnotatedBeatmapLevelCollection() noexcept;
 
   constexpr ::StringW& __get__packID_k__BackingField();
 
@@ -160,9 +166,8 @@ public:
                                                                     ::GlobalNamespace::PlayerSensitivityFlag contentRating);
 
   /// @brief Method .ctor, addr 0x2346a18, size 0x64, virtual false, abstract: false, final false
-  /// @param contentRating: ::GlobalNamespace::PlayerSensitivityFlag (default: static_cast<int32_t>(0x1))
   inline void _ctor(::StringW packID, ::StringW packName, ::StringW shortPackName, ::UnityEngine::Sprite* coverImage, ::UnityEngine::Sprite* smallCoverImage,
-                    ::GlobalNamespace::CustomBeatmapLevelCollection* beatmapLevelCollection, ::GlobalNamespace::PlayerSensitivityFlag contentRating = static_cast<int32_t>(0x1));
+                    ::GlobalNamespace::CustomBeatmapLevelCollection* beatmapLevelCollection, ::GlobalNamespace::PlayerSensitivityFlag contentRating);
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomBeatmapLevelPack", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

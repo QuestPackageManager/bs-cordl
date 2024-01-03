@@ -9,29 +9,29 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DiagnosticEventCollectorSingleton)
+namespace GlobalNamespace {
+template <typename T> class DelegateList_1;
+}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine::ResourceManagement::Diagnostics {
-struct DiagnosticEvent;
-}
-namespace UnityEngine::ResourceManagement::Diagnostics {
-class __DiagnosticEventCollectorSingleton____c;
-}
-namespace GlobalNamespace {
-template <typename T> class DelegateList_1;
-}
-namespace System {
-struct Guid;
-}
 namespace System {
 template <typename T> class Action_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+struct Guid;
+}
+namespace UnityEngine::ResourceManagement::Diagnostics {
+struct DiagnosticEvent;
+}
+namespace UnityEngine::ResourceManagement::Diagnostics {
+class __DiagnosticEventCollectorSingleton____c;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Diagnostics {

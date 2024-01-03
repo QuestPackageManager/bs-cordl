@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ListExtensions)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template <typename T> class IReadOnlyList_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

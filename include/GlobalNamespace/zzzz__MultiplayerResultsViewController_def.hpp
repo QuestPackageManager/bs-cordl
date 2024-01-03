@@ -4,32 +4,32 @@
 CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 CORDL_MODULE_EXPORT(MultiplayerResultsViewController)
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::UI {
-class Button;
-}
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class LevelBar;
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+class LevelBar;
+}
+namespace GlobalNamespace {
+class MultiplayerResultsData;
 }
 namespace GlobalNamespace {
 class ResultsTableView;
 }
-namespace GlobalNamespace {
-class MultiplayerResultsData;
+namespace System {
+template <typename T> class Action_1;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {

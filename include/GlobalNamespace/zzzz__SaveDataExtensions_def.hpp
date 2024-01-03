@@ -28,8 +28,7 @@ class CORDL_TYPE SaveDataExtensions : public ::System::Object {
 public:
   // Declarations
   /// @brief Method SaveToJSONFile, addr 0x20f4c50, size 0x174, virtual false, abstract: false, final false
-  /// @param prettyPrint: bool (default: false)
-  static inline void SaveToJSONFile(::GlobalNamespace::ISaveData* saveData, ::System::Object* obj, ::StringW filePath, bool prettyPrint = false);
+  static inline void SaveToJSONFile(::GlobalNamespace::ISaveData* saveData, ::System::Object* obj, ::StringW filePath, bool prettyPrint);
 
   /// @brief Method SaveToJSONFileCompact, addr 0x20f4dc4, size 0x1d0, virtual false, abstract: false, final false
   static inline void SaveToJSONFileCompact(::GlobalNamespace::ISaveData* saveData, ::System::Object* obj, ::StringW filePath);
@@ -41,12 +40,10 @@ public:
   static inline void SaveToJSONFileCompact(::GlobalNamespace::ISaveData* saveData, ::System::Object* obj, ::StringW filePath, ::StringW tempFilePath, ::StringW backupFilePath);
 
   /// @brief Method LoadFromJSONFile, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param backupFilePath: ::StringW (default: nullptr)
-  template <typename T> static inline T LoadFromJSONFile(::GlobalNamespace::ISaveData* saveData, ::StringW filePath, ::StringW backupFilePath = nullptr);
+  template <typename T> static inline T LoadFromJSONFile(::GlobalNamespace::ISaveData* saveData, ::StringW filePath, ::StringW backupFilePath);
 
   /// @brief Method LoadJSONFile, addr 0x20f5314, size 0xc8, virtual false, abstract: false, final false
-  /// @param backupFilePath: ::StringW (default: nullptr)
-  static inline ::StringW LoadJSONFile(::GlobalNamespace::ISaveData* saveData, ::StringW filePath, ::StringW backupFilePath = nullptr);
+  static inline ::StringW LoadJSONFile(::GlobalNamespace::ISaveData* saveData, ::StringW filePath, ::StringW backupFilePath);
 
   // Ctor Parameters [CppParam { name: "", ty: "SaveDataExtensions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

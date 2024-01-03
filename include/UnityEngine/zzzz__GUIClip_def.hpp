@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GUIClip)
+namespace System {
+class IDisposable;
+}
 namespace UnityEngine {
 struct Matrix4x4;
 }
 namespace UnityEngine {
-struct __GUIClip__ParentClipScope;
-}
-namespace UnityEngine {
 struct Rect;
 }
-namespace System {
-class IDisposable;
+namespace UnityEngine {
+struct __GUIClip__ParentClipScope;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -41,6 +41,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   /// @brief Method .ctor, addr 0x2cfe48c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Matrix4x4 objectTransform, ::UnityEngine::Rect clipRect);

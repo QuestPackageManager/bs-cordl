@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Edge)
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-class Object;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -42,6 +42,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::ProBuilder::Edge>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::ProBuilder::Edge>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ProBuilder::Edge>"
+  constexpr ::System::IEquatable_1<::UnityEngine::ProBuilder::Edge>* i___System__IEquatable_1___UnityEngine__ProBuilder__Edge_();
 
   static inline void setStaticF_Empty(::UnityEngine::ProBuilder::Edge value);
 

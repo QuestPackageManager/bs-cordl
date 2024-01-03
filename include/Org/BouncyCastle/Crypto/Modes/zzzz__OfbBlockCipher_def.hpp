@@ -51,6 +51,9 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IBlockCipher*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
+  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* i___Org__BouncyCastle__Crypto__IBlockCipher() noexcept;
+
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_IV();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_IV() const;

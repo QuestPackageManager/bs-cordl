@@ -11,26 +11,26 @@ CORDL_MODULE_EXPORT(RegexParser)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace System::Collections {
+class Hashtable;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System::Text::RegularExpressions {
+class RegexCharClass;
+}
 namespace System::Text::RegularExpressions {
 class RegexNode;
+}
+namespace System::Text::RegularExpressions {
+struct RegexOptions;
 }
 namespace System::Text::RegularExpressions {
 class RegexReplacement;
 }
 namespace System::Text::RegularExpressions {
-class RegexCharClass;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System::Collections {
-class Hashtable;
-}
-namespace System::Text::RegularExpressions {
 class RegexTree;
-}
-namespace System::Text::RegularExpressions {
-struct RegexOptions;
 }
 namespace System {
 class ArgumentException;

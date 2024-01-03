@@ -10,19 +10,19 @@ namespace HMUI {
 class HoverHintController;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine {
-struct Vector2;
+class IEventSystemHandler;
 }
 namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+class IPointerEnterHandler;
 }
 namespace UnityEngine::EventSystems {
 class IPointerExitHandler;
 }
 namespace UnityEngine::EventSystems {
-class IPointerEnterHandler;
+class PointerEventData;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -61,11 +61,20 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerEnterHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerEnterHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerEnterHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerEnterHandler* i___UnityEngine__EventSystems__IPointerEnterHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerExitHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerExitHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerExitHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerExitHandler* i___UnityEngine__EventSystems__IPointerExitHandler() noexcept;
 
   constexpr ::StringW& __get__text();
 

@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Packet)
-namespace System {
-class IDisposable;
+namespace ENet {
+struct PacketFlags;
 }
 namespace ENet {
 class PacketFreeCallback;
 }
-namespace ENet {
-struct PacketFlags;
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace ENet {
@@ -46,6 +46,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   /// @brief Method get_NativeData, addr 0x21efeb0, size 0x8, virtual false, abstract: false, final false
   inline void* get_NativeData();
@@ -108,8 +111,7 @@ public:
   inline void Create(void* data, int32_t offset, int32_t length, ::ENet::PacketFlags flags);
 
   /// @brief Method CopyTo, addr 0x21f0c68, size 0x100, virtual false, abstract: false, final false
-  /// @param startPos: int32_t (default: static_cast<int32_t>(0x0))
-  inline void CopyTo(::ArrayW<uint8_t, ::Array<uint8_t>*> destination, int32_t startPos = static_cast<int32_t>(0x0));
+  inline void CopyTo(::ArrayW<uint8_t, ::Array<uint8_t>*> destination, int32_t startPos);
 
   // Ctor Parameters [CppParam { name: "nativePacket", ty: "void*", modifiers: "", def_value: None }]
   constexpr Packet(void* nativePacket) noexcept;

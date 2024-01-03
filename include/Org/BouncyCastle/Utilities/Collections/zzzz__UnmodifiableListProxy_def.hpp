@@ -5,9 +5,6 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__UnmodifiableList_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnmodifiableListProxy)
-namespace System {
-class Object;
-}
 namespace System::Collections {
 class IEnumerator;
 }
@@ -16,6 +13,9 @@ class IList;
 }
 namespace System {
 class Array;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Collections {

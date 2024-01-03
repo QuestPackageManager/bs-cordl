@@ -6,35 +6,35 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__StylePropertyName_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(StylePropertyNameCollection)
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace UnityEngine::UIElements {
-struct __StylePropertyNameCollection__Enumerator;
-}
-namespace System::Collections {
-class IEnumerable;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template <typename T> struct __List_1__Enumerator;
 }
-namespace UnityEngine::UIElements {
-struct StylePropertyName;
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> struct __List_1__Enumerator;
+namespace UnityEngine::UIElements {
+struct StylePropertyName;
 }
-namespace System {
-class IDisposable;
+namespace UnityEngine::UIElements {
+struct __StylePropertyNameCollection__Enumerator;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -50,8 +50,8 @@ MARK_VAL_T(::UnityEngine::UIElements::__StylePropertyNameCollection__Enumerator)
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3842)), TypeDefinitionIndex(TypeDefinitionIndex(6791)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1693
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7186)) CS Name: ::StylePropertyNameCollection::Enumerator
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1693 }), TypeDefinitionIndex(TypeDefinitionIndex(6791)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3842))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7186)) CS Name: ::StylePropertyNameCollection::Enumerator
 struct CORDL_TYPE __StylePropertyNameCollection__Enumerator {
 public:
   // Declarations
@@ -62,11 +62,21 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::StylePropertyName>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::StylePropertyName>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::StylePropertyName>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::StylePropertyName>*
+  i___System__Collections__Generic__IEnumerator_1___UnityEngine__UIElements__StylePropertyName_();
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*();
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator();
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   /// @brief Method .ctor, addr 0x2e4e6e0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::StylePropertyName> enumerator);
@@ -122,8 +132,15 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::StylePropertyName>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::StylePropertyName>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::StylePropertyName>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::StylePropertyName>*
+  i___System__Collections__Generic__IEnumerable_1___UnityEngine__UIElements__StylePropertyName_();
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable();
 
   /// @brief Method .ctor, addr 0x2e4e668, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>* list);

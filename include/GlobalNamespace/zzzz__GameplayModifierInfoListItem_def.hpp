@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(GameplayModifierInfoListItem)
+namespace GlobalNamespace {
+class GameplayModifierParamsSO;
+}
 namespace HMUI {
 class HoverHint;
 }
 namespace UnityEngine::UI {
 class Image;
-}
-namespace GlobalNamespace {
-class GameplayModifierParamsSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -48,8 +48,7 @@ public:
   constexpr void __set__iconImage(::UnityEngine::UI::Image* value);
 
   /// @brief Method SetModifier, addr 0x2278a9c, size 0x224, virtual false, abstract: false, final false
-  /// @param showName: bool (default: false)
-  inline void SetModifier(::GlobalNamespace::GameplayModifierParamsSO* modifierParam, bool showName = false);
+  inline void SetModifier(::GlobalNamespace::GameplayModifierParamsSO* modifierParam, bool showName);
 
   static inline ::GlobalNamespace::GameplayModifierInfoListItem* New_ctor();
 

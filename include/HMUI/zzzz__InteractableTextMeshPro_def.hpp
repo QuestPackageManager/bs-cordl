@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(InteractableTextMeshPro)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace UnityEngine {
 class CanvasGroup;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 // Forward declare root types
 namespace HMUI {

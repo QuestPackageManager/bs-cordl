@@ -9,35 +9,35 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameEnergyCounter)
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-struct NoteCutInfo;
-}
-namespace GlobalNamespace {
-class __GameEnergyCounter__InitData;
-}
-namespace GlobalNamespace {
-class NoteController;
-}
-namespace GlobalNamespace {
-class SaberClashChecker;
-}
 namespace GlobalNamespace {
 class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
 class IGameEnergyCounter;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace GlobalNamespace {
+class NoteController;
+}
+namespace GlobalNamespace {
+struct NoteCutInfo;
+}
+namespace GlobalNamespace {
+class PlayerHeadAndObstacleInteraction;
+}
+namespace GlobalNamespace {
+class SaberClashChecker;
+}
+namespace GlobalNamespace {
+class __GameEnergyCounter__InitData;
 }
 namespace GlobalNamespace {
 struct __GameplayModifiers__EnergyType;
 }
-namespace GlobalNamespace {
-class PlayerHeadAndObstacleInteraction;
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -53,7 +53,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__GameEnergyCounter__InitData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 23, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15000)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15000))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5266))
 // CS Name: ::GameEnergyCounter::InitData*
 class CORDL_TYPE __GameEnergyCounter__InitData : public ::System::Object {
@@ -219,6 +219,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IGameEnergyCounter"
   constexpr operator ::GlobalNamespace::IGameEnergyCounter*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IGameEnergyCounter"
+  constexpr ::GlobalNamespace::IGameEnergyCounter* i___GlobalNamespace__IGameEnergyCounter() noexcept;
 
   constexpr int32_t& __get__batteryLives();
 

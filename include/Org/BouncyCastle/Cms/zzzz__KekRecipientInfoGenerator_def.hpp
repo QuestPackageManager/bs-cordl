@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(KekRecipientInfoGenerator)
-namespace Org::BouncyCastle::Cms {
-class RecipientInfoGenerator;
-}
-namespace Org::BouncyCastle::Cms {
-class CmsEnvelopedHelper;
-}
 namespace Org::BouncyCastle::Asn1::Cms {
 class KekIdentifier;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class RecipientInfo;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsEnvelopedHelper;
+}
+namespace Org::BouncyCastle::Cms {
+class RecipientInfoGenerator;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
@@ -65,6 +65,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::RecipientInfoGenerator"
   constexpr operator ::Org::BouncyCastle::Cms::RecipientInfoGenerator*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Cms::RecipientInfoGenerator"
+  constexpr ::Org::BouncyCastle::Cms::RecipientInfoGenerator* i___Org__BouncyCastle__Cms__RecipientInfoGenerator() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::Parameters::KeyParameter*& __get_keyEncryptionKey();
 

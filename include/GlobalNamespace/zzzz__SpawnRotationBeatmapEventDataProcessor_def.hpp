@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SpawnRotationBeatmapEventDataProcessor);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14741), inst: 953 }), TypeDefinitionIndex(TypeDefinitionIndex(14739)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14741))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14748)) CS Name: ::SpawnRotationBeatmapEventDataProcessor*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14741)), TypeDefinitionIndex(TypeDefinitionIndex(14739)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14741), inst:
+// 953 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14748)) CS Name: ::SpawnRotationBeatmapEventDataProcessor*
 class CORDL_TYPE SpawnRotationBeatmapEventDataProcessor : public ::GlobalNamespace::BeatmapEventDataProcessor_1<::GlobalNamespace::SpawnRotationBeatmapEventData*> {
 public:
   // Declarations

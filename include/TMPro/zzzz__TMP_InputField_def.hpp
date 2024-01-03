@@ -20,164 +20,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_InputField)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace System::Collections {
 class IEnumerator;
-}
-namespace TMPro {
-struct __TMP_InputField__ContentType;
-}
-namespace UnityEngine::UI {
-class Graphic;
-}
-namespace UnityEngine::EventSystems {
-class IDragHandler;
-}
-namespace UnityEngine::EventSystems {
-class IBeginDragHandler;
-}
-namespace UnityEngine {
-class Mesh;
-}
-namespace TMPro {
-struct __TMP_InputField__InputType;
-}
-namespace UnityEngine {
-struct UIVertex;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::EventSystems {
-class IScrollHandler;
-}
-namespace UnityEngine::EventSystems {
-class ISubmitHandler;
-}
-namespace UnityEngine::UI {
-class RectMask2D;
-}
-namespace UnityEngine::UI {
-class ILayoutElement;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine {
-class Object;
-}
-namespace UnityEngine::EventSystems {
-class IUpdateSelectedHandler;
-}
-namespace TMPro {
-class TMP_ScrollbarEventHandler;
-}
-namespace UnityEngine::UI {
-class VertexHelper;
-}
-namespace UnityEngine::EventSystems {
-class BaseInput;
-}
-namespace UnityEngine {
-class CanvasRenderer;
-}
-namespace TMPro {
-class __TMP_InputField__OnValidateInput;
-}
-namespace UnityEngine::UI {
-class LayoutGroup;
-}
-namespace UnityEngine::EventSystems {
-class BaseEventData;
-}
-namespace UnityEngine::UI {
-class Scrollbar;
-}
-namespace UnityEngine::EventSystems {
-class IEndDragHandler;
-}
-namespace TMPro {
-class __TMP_InputField__OnChangeEvent;
-}
-namespace UnityEngine::EventSystems {
-class IPointerClickHandler;
-}
-namespace TMPro {
-class __TMP_InputField__TextSelectionEvent;
-}
-namespace TMPro {
-class __TMP_InputField___MouseDragOutsideRect_d__294;
-}
-namespace UnityEngine {
-class Event;
-}
-namespace TMPro {
-class __TMP_InputField__SelectionEvent;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-struct TouchScreenKeyboardType;
-}
-namespace TMPro {
-struct __TMP_InputField__CharacterValidation;
-}
-namespace TMPro {
-class __TMP_InputField__TouchScreenKeyboardEvent;
-}
-namespace UnityEngine {
-class WaitForSecondsRealtime;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace TMPro {
-class TMP_FontAsset;
-}
-namespace UnityEngine::UI {
-struct __Selectable__SelectionState;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace TMPro {
-class __TMP_InputField__SubmitEvent;
-}
-namespace UnityEngine::UI {
-class ICanvasElement;
-}
-namespace TMPro {
-struct __TMP_InputField__EditState;
-}
-namespace UnityEngine {
-class TouchScreenKeyboard;
-}
-namespace TMPro {
-class __TMP_InputField___CaretBlink_d__276;
-}
-namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine {
-class Coroutine;
-}
-namespace TMPro {
-class TMP_InputValidator;
-}
-namespace UnityEngine::UI {
-struct CanvasUpdate;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace TMPro {
-class TMP_Text;
-}
-namespace TMPro {
-struct __TMP_InputField__LineType;
-}
-namespace System {
-class Object;
 }
 namespace System {
 class AsyncCallback;
@@ -185,11 +32,164 @@ class AsyncCallback;
 namespace System {
 class IAsyncResult;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace TMPro {
+class TMP_FontAsset;
+}
+namespace TMPro {
+class TMP_InputValidator;
+}
+namespace TMPro {
+class TMP_ScrollbarEventHandler;
+}
+namespace TMPro {
+class TMP_Text;
+}
+namespace TMPro {
+struct __TMP_InputField__CharacterValidation;
+}
+namespace TMPro {
+struct __TMP_InputField__ContentType;
+}
+namespace TMPro {
+struct __TMP_InputField__EditState;
+}
+namespace TMPro {
+struct __TMP_InputField__InputType;
+}
+namespace TMPro {
+struct __TMP_InputField__LineType;
+}
+namespace TMPro {
+class __TMP_InputField__OnChangeEvent;
+}
+namespace TMPro {
+class __TMP_InputField__OnValidateInput;
+}
+namespace TMPro {
+class __TMP_InputField__SelectionEvent;
+}
+namespace TMPro {
+class __TMP_InputField__SubmitEvent;
+}
+namespace TMPro {
+class __TMP_InputField__TextSelectionEvent;
+}
+namespace TMPro {
+class __TMP_InputField__TouchScreenKeyboardEvent;
+}
+namespace TMPro {
+class __TMP_InputField___CaretBlink_d__276;
+}
+namespace TMPro {
+class __TMP_InputField___MouseDragOutsideRect_d__294;
+}
+namespace UnityEngine::EventSystems {
+class BaseEventData;
+}
+namespace UnityEngine::EventSystems {
+class BaseInput;
+}
+namespace UnityEngine::EventSystems {
+class IBeginDragHandler;
+}
+namespace UnityEngine::EventSystems {
+class IDragHandler;
+}
+namespace UnityEngine::EventSystems {
+class IEndDragHandler;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerClickHandler;
+}
+namespace UnityEngine::EventSystems {
+class IScrollHandler;
+}
+namespace UnityEngine::EventSystems {
+class ISubmitHandler;
+}
+namespace UnityEngine::EventSystems {
+class IUpdateSelectedHandler;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace UnityEngine::UI {
+struct CanvasUpdate;
+}
+namespace UnityEngine::UI {
+class Graphic;
+}
+namespace UnityEngine::UI {
+class ICanvasElement;
+}
+namespace UnityEngine::UI {
+class ILayoutElement;
+}
+namespace UnityEngine::UI {
+class LayoutGroup;
+}
+namespace UnityEngine::UI {
+class RectMask2D;
+}
+namespace UnityEngine::UI {
+class Scrollbar;
+}
+namespace UnityEngine::UI {
+class VertexHelper;
+}
+namespace UnityEngine::UI {
+struct __Selectable__SelectionState;
+}
+namespace UnityEngine {
+class CanvasRenderer;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+class Coroutine;
+}
+namespace UnityEngine {
+class Event;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace UnityEngine {
+class Object;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine {
+struct TouchScreenKeyboardType;
+}
+namespace UnityEngine {
+class TouchScreenKeyboard;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct UIVertex;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+class WaitForSecondsRealtime;
 }
 // Forward declare root types
 namespace TMPro {
@@ -600,7 +600,7 @@ static_assert(::cordl_internals::size_check_v<::TMPro::__TMP_InputField__SubmitE
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 397 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(10465))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12384))
 // CS Name: ::TMP_InputField::OnChangeEvent*
 class CORDL_TYPE __TMP_InputField__OnChangeEvent : public ::UnityEngine::Events::UnityEvent_1<::StringW> {
@@ -705,8 +705,8 @@ static_assert(::cordl_internals::size_check_v<::TMPro::__TMP_InputField__TextSel
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10183)), TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst:
-// 5240 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(12387)) CS Name: ::TMP_InputField::TouchScreenKeyboardEvent*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 5240 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10183))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12387)) CS Name: ::TMP_InputField::TouchScreenKeyboardEvent*
 class CORDL_TYPE __TMP_InputField__TouchScreenKeyboardEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::__TouchScreenKeyboard__Status> {
 public:
   // Declarations
@@ -811,11 +811,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -919,11 +928,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -1013,9 +1031,9 @@ static_assert(offsetof(::TMPro::__TMP_InputField___MouseDragOutsideRect_d__294, 
 // SizeInfo { instance_size: 752, native_size: -1, calculated_instance_size: 752, calculated_native_size: 752, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12378)), TypeDefinitionIndex(TypeDefinitionIndex(12379)), TypeDefinitionIndex(TypeDefinitionIndex(12381)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12380)), TypeDefinitionIndex(TypeDefinitionIndex(13119)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10165)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10185)), TypeDefinitionIndex(TypeDefinitionIndex(10251))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12391)) CS Name: ::TMPro::TMP_InputField*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13119)), TypeDefinitionIndex(TypeDefinitionIndex(12381)), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12379)), TypeDefinitionIndex(TypeDefinitionIndex(12378)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10185)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(12380))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12391)) CS Name: ::TMPro::TMP_InputField*
 class CORDL_TYPE TMP_InputField : public ::UnityEngine::UI::Selectable {
 public:
   // Declarations
@@ -1454,32 +1472,62 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IUpdateSelectedHandler"
   constexpr operator ::UnityEngine::EventSystems::IUpdateSelectedHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IUpdateSelectedHandler"
+  constexpr ::UnityEngine::EventSystems::IUpdateSelectedHandler* i___UnityEngine__EventSystems__IUpdateSelectedHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IBeginDragHandler"
   constexpr operator ::UnityEngine::EventSystems::IBeginDragHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IBeginDragHandler"
+  constexpr ::UnityEngine::EventSystems::IBeginDragHandler* i___UnityEngine__EventSystems__IBeginDragHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IDragHandler"
   constexpr operator ::UnityEngine::EventSystems::IDragHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IDragHandler"
+  constexpr ::UnityEngine::EventSystems::IDragHandler* i___UnityEngine__EventSystems__IDragHandler() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEndDragHandler"
   constexpr operator ::UnityEngine::EventSystems::IEndDragHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IEndDragHandler"
+  constexpr ::UnityEngine::EventSystems::IEndDragHandler* i___UnityEngine__EventSystems__IEndDragHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerClickHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerClickHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerClickHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerClickHandler* i___UnityEngine__EventSystems__IPointerClickHandler() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::ISubmitHandler"
   constexpr operator ::UnityEngine::EventSystems::ISubmitHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::ISubmitHandler"
+  constexpr ::UnityEngine::EventSystems::ISubmitHandler* i___UnityEngine__EventSystems__ISubmitHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::UI::ICanvasElement"
   constexpr operator ::UnityEngine::UI::ICanvasElement*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UI::ICanvasElement"
+  constexpr ::UnityEngine::UI::ICanvasElement* i___UnityEngine__UI__ICanvasElement() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::UI::ILayoutElement"
   constexpr operator ::UnityEngine::UI::ILayoutElement*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::UI::ILayoutElement"
+  constexpr ::UnityEngine::UI::ILayoutElement* i___UnityEngine__UI__ILayoutElement() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IScrollHandler"
   constexpr operator ::UnityEngine::EventSystems::IScrollHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IScrollHandler"
+  constexpr ::UnityEngine::EventSystems::IScrollHandler* i___UnityEngine__EventSystems__IScrollHandler() noexcept;
 
   constexpr ::UnityEngine::TouchScreenKeyboard*& __get_m_SoftKeyboard();
 
@@ -2073,8 +2121,7 @@ public:
   inline void SetTextWithoutNotify(::StringW input);
 
   /// @brief Method SetText, addr 0x2c12bd8, size 0x134, virtual false, abstract: false, final false
-  /// @param sendCallback: bool (default: true)
-  inline void SetText(::StringW value, bool sendCallback = true);
+  inline void SetText(::StringW value, bool sendCallback);
 
   /// @brief Method get_isFocused, addr 0x2c1328c, size 0x8, virtual false, abstract: false, final false
   inline bool get_isFocused();
@@ -2641,8 +2688,7 @@ public:
   inline void ReleaseSelection();
 
   /// @brief Method DeactivateInputField, addr 0x2c157fc, size 0x1bc, virtual false, abstract: false, final false
-  /// @param clearSelection: bool (default: false)
-  inline void DeactivateInputField(bool clearSelection = false);
+  inline void DeactivateInputField(bool clearSelection);
 
   /// @brief Method OnDeselect, addr 0x2c1dc0c, size 0x38, virtual true, abstract: false, final false
   inline void OnDeselect(::UnityEngine::EventSystems::BaseEventData* eventData);

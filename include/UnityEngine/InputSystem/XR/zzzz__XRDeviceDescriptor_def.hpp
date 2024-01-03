@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XRDeviceDescriptor)
-namespace UnityEngine::InputSystem::XR {
-struct XRFeatureDescriptor;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine::InputSystem::XR {
+struct XRFeatureDescriptor;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XR {

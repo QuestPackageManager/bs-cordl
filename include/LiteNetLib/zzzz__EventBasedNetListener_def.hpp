@@ -9,14 +9,26 @@ CORDL_MODULE_EXPORT(EventBasedNetListener)
 namespace LiteNetLib {
 class ConnectionRequest;
 }
-namespace System::Net::Sockets {
-struct SocketError;
+namespace LiteNetLib {
+struct DeliveryMethod;
 }
 namespace LiteNetLib {
-class __EventBasedNetListener__OnNetworkReceive;
+struct DisconnectInfo;
 }
 namespace LiteNetLib {
-class __EventBasedNetListener__OnNetworkReceiveUnconnected;
+class IDeliveryEventListener;
+}
+namespace LiteNetLib {
+class INetEventListener;
+}
+namespace LiteNetLib {
+class NetPacketReader;
+}
+namespace LiteNetLib {
+class NetPeer;
+}
+namespace LiteNetLib {
+struct UnconnectedMessageType;
 }
 namespace LiteNetLib {
 class __EventBasedNetListener__OnConnectionRequest;
@@ -25,49 +37,37 @@ namespace LiteNetLib {
 class __EventBasedNetListener__OnDeliveryEvent;
 }
 namespace LiteNetLib {
-class IDeliveryEventListener;
-}
-namespace LiteNetLib {
-class NetPeer;
-}
-namespace LiteNetLib {
-class INetEventListener;
-}
-namespace System {
-class Object;
-}
-namespace LiteNetLib {
-class __EventBasedNetListener__OnPeerDisconnected;
-}
-namespace LiteNetLib {
-class NetPacketReader;
-}
-namespace LiteNetLib {
 class __EventBasedNetListener__OnNetworkError;
 }
-namespace System::Net {
-class IPEndPoint;
+namespace LiteNetLib {
+class __EventBasedNetListener__OnNetworkLatencyUpdate;
 }
 namespace LiteNetLib {
-struct DeliveryMethod;
+class __EventBasedNetListener__OnNetworkReceiveUnconnected;
 }
 namespace LiteNetLib {
-struct DisconnectInfo;
-}
-namespace LiteNetLib {
-struct UnconnectedMessageType;
+class __EventBasedNetListener__OnNetworkReceive;
 }
 namespace LiteNetLib {
 class __EventBasedNetListener__OnPeerConnected;
 }
 namespace LiteNetLib {
-class __EventBasedNetListener__OnNetworkLatencyUpdate;
+class __EventBasedNetListener__OnPeerDisconnected;
+}
+namespace System::Net::Sockets {
+struct SocketError;
+}
+namespace System::Net {
+class IPEndPoint;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace LiteNetLib {
@@ -515,8 +515,14 @@ public:
   /// @brief Convert operator to "::LiteNetLib::INetEventListener"
   constexpr operator ::LiteNetLib::INetEventListener*() noexcept;
 
+  /// @brief Convert to "::LiteNetLib::INetEventListener"
+  constexpr ::LiteNetLib::INetEventListener* i___LiteNetLib__INetEventListener() noexcept;
+
   /// @brief Convert operator to "::LiteNetLib::IDeliveryEventListener"
   constexpr operator ::LiteNetLib::IDeliveryEventListener*() noexcept;
+
+  /// @brief Convert to "::LiteNetLib::IDeliveryEventListener"
+  constexpr ::LiteNetLib::IDeliveryEventListener* i___LiteNetLib__IDeliveryEventListener() noexcept;
 
   constexpr ::LiteNetLib::__EventBasedNetListener__OnPeerConnected*& __get_PeerConnectedEvent();
 

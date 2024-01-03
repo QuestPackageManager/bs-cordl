@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AbstractTlsSignerCredentials)
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCredentials;
+class SignatureAndHashAlgorithm;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class SignatureAndHashAlgorithm;
+class TlsCredentials;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSignerCredentials;
@@ -36,8 +36,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials* i___Org__BouncyCastle__Crypto__Tls__TlsSignerCredentials() noexcept;
+
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCredentials"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCredentials*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCredentials"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCredentials* i___Org__BouncyCastle__Crypto__Tls__TlsCredentials() noexcept;
 
   /// @brief Method GenerateCertificateSignature, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateCertificateSignature(::ArrayW<uint8_t, ::Array<uint8_t>*> hash);

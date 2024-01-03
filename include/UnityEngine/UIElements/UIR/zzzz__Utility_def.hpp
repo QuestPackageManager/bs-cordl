@@ -10,14 +10,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Utility)
-namespace UnityEngine::UIElements::UIR {
-struct __Utility__GPUBufferType;
+namespace System {
+template <typename T> class Action_1;
 }
-namespace UnityEngine {
-class Material;
+namespace System {
+class Action;
 }
-namespace UnityEngine {
-struct Bounds;
+namespace System {
+class IDisposable;
 }
 namespace Unity::Collections {
 template <typename T> struct NativeSlice_1;
@@ -25,35 +25,35 @@ template <typename T> struct NativeSlice_1;
 namespace UnityEngine::Rendering {
 struct StencilState;
 }
-namespace UnityEngine {
-struct Matrix4x4;
+namespace UnityEngine::Rendering {
+struct VertexAttributeDescriptor;
+}
+namespace UnityEngine::UIElements::UIR {
+struct GfxUpdateBufferRange;
+}
+namespace UnityEngine::UIElements::UIR {
+struct __Utility__GPUBufferType;
 }
 namespace UnityEngine::UIElements::UIR {
 template <typename T> class __Utility__GPUBuffer_1;
 }
-namespace UnityEngine::Rendering {
-struct VertexAttributeDescriptor;
-}
-namespace System {
-class Action;
-}
 namespace UnityEngine {
-class MaterialPropertyBlock;
-}
-namespace System {
-template <typename T> class Action_1;
+struct Bounds;
 }
 namespace UnityEngine {
 class Camera;
 }
 namespace UnityEngine {
+class MaterialPropertyBlock;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace UnityEngine {
 struct RectInt;
-}
-namespace UnityEngine::UIElements::UIR {
-struct GfxUpdateBufferRange;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -147,6 +147,9 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   constexpr void*& __get_buffer();
 
   constexpr void* const& __get_buffer() const;
@@ -213,7 +216,7 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9966))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15383))
 // CS Name: ::UnityEngine.UIElements.UIR::Utility*
 class CORDL_TYPE Utility : public ::System::Object {

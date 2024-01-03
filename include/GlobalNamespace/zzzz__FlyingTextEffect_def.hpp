@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(FlyingTextEffect)
-namespace TMPro {
-class TextMeshPro;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace GlobalNamespace {
 class __FlyingTextEffect__Pool;
+}
+namespace TMPro {
+class TextMeshPro;
 }
 namespace UnityEngine {
 class AnimationCurve;
 }
 namespace UnityEngine {
 struct Color;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -125,8 +125,8 @@ static_assert(offsetof(::GlobalNamespace::FlyingTextEffect, ____color) == 0x90, 
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4858)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 2813 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4857)) CS Name: ::FlyingTextEffect::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 2813 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(4858))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4857)) CS Name: ::FlyingTextEffect::Pool*
 class CORDL_TYPE __FlyingTextEffect__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::FlyingTextEffect*> {
 public:
   // Declarations

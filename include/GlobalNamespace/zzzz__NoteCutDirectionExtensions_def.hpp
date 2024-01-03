@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(NoteCutDirectionExtensions)
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace GlobalNamespace {
 struct NoteCutDirection;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -40,8 +40,7 @@ public:
   static inline float_t RotationAngle(::GlobalNamespace::NoteCutDirection cutDirection);
 
   /// @brief Method Rotation, addr 0xe00740, size 0x38, virtual false, abstract: false, final false
-  /// @param offset: float_t (default: 0.0)
-  static inline ::UnityEngine::Quaternion Rotation(::GlobalNamespace::NoteCutDirection cutDirection, float_t offset = 0.0);
+  static inline ::UnityEngine::Quaternion Rotation(::GlobalNamespace::NoteCutDirection cutDirection, float_t offset);
 
   /// @brief Method IsMainDirection, addr 0xe00778, size 0xc, virtual false, abstract: false, final false
   static inline bool IsMainDirection(::GlobalNamespace::NoteCutDirection cutDirection);

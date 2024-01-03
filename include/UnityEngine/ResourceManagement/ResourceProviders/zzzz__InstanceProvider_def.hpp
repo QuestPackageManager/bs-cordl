@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(InstanceProvider)
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class IInstanceProvider;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> struct AsyncOperationHandle_1;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class IInstanceProvider;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct InstantiationParameters;
+}
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
 }
 namespace UnityEngine {
 class GameObject;
@@ -44,6 +44,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider"
   constexpr operator ::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider"
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* i___UnityEngine__ResourceManagement__ResourceProviders__IInstanceProvider() noexcept;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*>>*&
   __get_m_InstanceObjectToPrefabHandle();

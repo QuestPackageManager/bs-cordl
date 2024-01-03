@@ -4,16 +4,16 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IWrappedDictionary)
 namespace System::Collections {
-class IEnumerable;
+class ICollection;
 }
 namespace System::Collections {
 class IDictionary;
 }
+namespace System::Collections {
+class IEnumerable;
+}
 namespace System {
 class Object;
-}
-namespace System::Collections {
-class ICollection;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
@@ -36,11 +36,20 @@ public:
   /// @brief Convert operator to "::System::Collections::IDictionary"
   constexpr operator ::System::Collections::IDictionary*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IDictionary"
+  constexpr ::System::Collections::IDictionary* i___System__Collections__IDictionary() noexcept;
+
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
 
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Method get_UnderlyingDictionary, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_UnderlyingDictionary();

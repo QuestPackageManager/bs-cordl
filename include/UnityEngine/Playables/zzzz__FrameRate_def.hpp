@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FrameRate)
 namespace System {
-class IFormatProvider;
+template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class IFormatProvider;
 }
 namespace System {
 class Object;
@@ -63,6 +63,9 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Playables::FrameRate>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Playables::FrameRate>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Playables::FrameRate>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Playables::FrameRate>* i___System__IEquatable_1___UnityEngine__Playables__FrameRate_();
+
   static inline void setStaticF_k_24Fps(::UnityEngine::Playables::FrameRate value);
 
   static inline ::UnityEngine::Playables::FrameRate getStaticF_k_24Fps();
@@ -102,9 +105,7 @@ public:
   inline double_t get_rate();
 
   /// @brief Method .ctor, addr 0x2cf5468, size 0x18, virtual false, abstract: false, final false
-  /// @param frameRate: uint32_t (default: static_cast<uint32_t>(0x0u))
-  /// @param drop: bool (default: false)
-  inline void _ctor(uint32_t frameRate = static_cast<uint32_t>(0x0u), bool drop = false);
+  inline void _ctor(uint32_t frameRate, bool drop);
 
   /// @brief Method IsValid, addr 0x2cf5480, size 0x10, virtual false, abstract: false, final false
   inline bool IsValid();

@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0xe2a5e4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ClientCertificateValidator*>::get(), "ValidateCertificateChain", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{
@@ -32,7 +32,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c8;
   constexpr static std::size_t addrs = 0xe2a5e8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ClientCertificateValidator*>::get(), "ValidateCertificateChainInternal", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{
@@ -49,7 +49,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0xe2a7b0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ClientCertificateValidator*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -57,6 +57,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::GlobalNamespace::ICertificateValidator"
 constexpr GlobalNamespace::ClientCertificateValidator::operator ::GlobalNamespace::ICertificateValidator*() noexcept {
+  return static_cast<::GlobalNamespace::ICertificateValidator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::ICertificateValidator"
+constexpr ::GlobalNamespace::ICertificateValidator* GlobalNamespace::ClientCertificateValidator::i___GlobalNamespace__ICertificateValidator() noexcept {
   return static_cast<::GlobalNamespace::ICertificateValidator*>(static_cast<void*>(this));
 }
 inline void GlobalNamespace::ClientCertificateValidator::ValidateCertificateChain(::GlobalNamespace::DnsEndPoint* endPoint,

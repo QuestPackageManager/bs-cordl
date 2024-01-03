@@ -8,13 +8,13 @@ namespace UnityEngine::UIElements {
 class ContextualMenuManager;
 }
 namespace UnityEngine::UIElements {
+class DropdownMenu;
+}
+namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
 class IPanel;
-}
-namespace UnityEngine::UIElements {
-class DropdownMenu;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ContextualMenuPopulateEvent);
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7215), inst: 4640 }), TypeDefinitionIndex(TypeDefinitionIndex(7215))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7215)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7215), inst: 4640 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7227))
 // CS Name: ::UnityEngine.UIElements::ContextualMenuPopulateEvent*
 class CORDL_TYPE ContextualMenuPopulateEvent : public ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::ContextualMenuPopulateEvent*> {

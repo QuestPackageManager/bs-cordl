@@ -3,33 +3,14 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputActionType_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBinding_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControlScheme_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputActionSetupExtensions)
-namespace UnityEngine::InputSystem {
-struct __InputActionSetupExtensions__BindingSyntax;
-}
-namespace UnityEngine::InputSystem {
-class __InputActionSetupExtensions____c__DisplayClass5_0;
-}
-namespace UnityEngine::InputSystem {
-class InputActionMap;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionSetupExtensions__ControlSchemeSyntax;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace UnityEngine::InputSystem {
-struct InputControlScheme;
-}
-namespace UnityEngine::InputSystem {
-class InputAction;
+namespace GlobalNamespace {
+struct __InputControlScheme__DeviceRequirement__Flags;
 }
 namespace System {
 struct Guid;
@@ -38,13 +19,34 @@ namespace UnityEngine::InputSystem {
 class InputActionAsset;
 }
 namespace UnityEngine::InputSystem {
-struct __InputActionSetupExtensions__CompositeSyntax;
+class InputActionMap;
+}
+namespace UnityEngine::InputSystem {
+struct InputActionType;
+}
+namespace UnityEngine::InputSystem {
+class InputAction;
 }
 namespace UnityEngine::InputSystem {
 struct InputBinding;
 }
-namespace GlobalNamespace {
-struct __InputControlScheme__DeviceRequirement__Flags;
+namespace UnityEngine::InputSystem {
+struct InputControlScheme;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionSetupExtensions__BindingSyntax;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionSetupExtensions__CompositeSyntax;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionSetupExtensions__ControlSchemeSyntax;
+}
+namespace UnityEngine::InputSystem {
+class __InputActionSetupExtensions____c__DisplayClass5_0;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -94,8 +96,7 @@ public:
   inline ::UnityEngine::InputSystem::InputBinding get_binding();
 
   /// @brief Method .ctor, addr 0x2a4b510, size 0xc, virtual false, abstract: false, final false
-  /// @param action: ::UnityEngine::InputSystem::InputAction* (default: nullptr)
-  inline void _ctor(::UnityEngine::InputSystem::InputActionMap* map, int32_t bindingIndexInMap, ::UnityEngine::InputSystem::InputAction* action = nullptr);
+  inline void _ctor(::UnityEngine::InputSystem::InputActionMap* map, int32_t bindingIndexInMap, ::UnityEngine::InputSystem::InputAction* action);
 
   /// @brief Method WithName, addr 0x2a4b51c, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax WithName(::StringW name);
@@ -146,12 +147,10 @@ public:
   inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax PreviousPartBinding(::StringW partName);
 
   /// @brief Method NextCompositeBinding, addr 0x2a4c738, size 0x38, virtual false, abstract: false, final false
-  /// @param compositeName: ::StringW (default: nullptr)
-  inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax NextCompositeBinding(::StringW compositeName = nullptr);
+  inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax NextCompositeBinding(::StringW compositeName);
 
   /// @brief Method PreviousCompositeBinding, addr 0x2a4c864, size 0x38, virtual false, abstract: false, final false
-  /// @param compositeName: ::StringW (default: nullptr)
-  inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax PreviousCompositeBinding(::StringW compositeName = nullptr);
+  inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax PreviousCompositeBinding(::StringW compositeName);
 
   /// @brief Method Iterate, addr 0x2a4c3f4, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax Iterate(bool next);
@@ -220,9 +219,7 @@ public:
   inline void _ctor(::UnityEngine::InputSystem::InputActionMap* map, ::UnityEngine::InputSystem::InputAction* action, int32_t compositeIndex);
 
   /// @brief Method With, addr 0x2a4cc48, size 0x24c, virtual false, abstract: false, final false
-  /// @param groups: ::StringW (default: nullptr)
-  /// @param processors: ::StringW (default: nullptr)
-  inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__CompositeSyntax With(::StringW name, ::StringW binding, ::StringW groups = nullptr, ::StringW processors = nullptr);
+  inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__CompositeSyntax With(::StringW name, ::StringW binding, ::StringW groups, ::StringW processors);
 
   // Ctor Parameters [CppParam { name: "m_Action", ty: "::UnityEngine::InputSystem::InputAction*", modifiers: "", def_value: None }, CppParam { name: "m_ActionMap", ty:
   // "::UnityEngine::InputSystem::InputActionMap*", modifiers: "", def_value: None }, CppParam { name: "m_BindingIndexInMap", ty: "int32_t", modifiers: "", def_value: None }]
@@ -398,7 +395,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputActionSetupExtensions_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6187)), TypeDefinitionIndex(TypeDefinitionIndex(6182))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6170))
 // CS Name: ::UnityEngine.InputSystem::InputActionSetupExtensions*
 class CORDL_TYPE InputActionSetupExtensions : public ::System::Object {
@@ -425,16 +422,8 @@ public:
   static inline void RemoveActionMap(::UnityEngine::InputSystem::InputActionAsset* asset, ::StringW nameOrId);
 
   /// @brief Method AddAction, addr 0x2a47e28, size 0x3e8, virtual false, abstract: false, final false
-  /// @param type: ::UnityEngine::InputSystem::InputActionType (default: static_cast<int32_t>(0x0))
-  /// @param binding: ::StringW (default: nullptr)
-  /// @param interactions: ::StringW (default: nullptr)
-  /// @param processors: ::StringW (default: nullptr)
-  /// @param groups: ::StringW (default: nullptr)
-  /// @param expectedControlLayout: ::StringW (default: nullptr)
-  static inline ::UnityEngine::InputSystem::InputAction* AddAction(::UnityEngine::InputSystem::InputActionMap* map, ::StringW name,
-                                                                   ::UnityEngine::InputSystem::InputActionType type = static_cast<int32_t>(0x0), ::StringW binding = nullptr,
-                                                                   ::StringW interactions = nullptr, ::StringW processors = nullptr, ::StringW groups = nullptr,
-                                                                   ::StringW expectedControlLayout = nullptr);
+  static inline ::UnityEngine::InputSystem::InputAction* AddAction(::UnityEngine::InputSystem::InputActionMap* map, ::StringW name, ::UnityEngine::InputSystem::InputActionType type, ::StringW binding,
+                                                                   ::StringW interactions, ::StringW processors, ::StringW groups, ::StringW expectedControlLayout);
 
   /// @brief Method RemoveAction, addr 0x2a48210, size 0x364, virtual false, abstract: false, final false
   static inline void RemoveAction(::UnityEngine::InputSystem::InputAction* action);
@@ -443,54 +432,37 @@ public:
   static inline void RemoveAction(::UnityEngine::InputSystem::InputActionAsset* asset, ::StringW nameOrId);
 
   /// @brief Method AddBinding, addr 0x2a466c4, size 0x4c, virtual false, abstract: false, final false
-  /// @param interactions: ::StringW (default: nullptr)
-  /// @param processors: ::StringW (default: nullptr)
-  /// @param groups: ::StringW (default: nullptr)
-  static inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax AddBinding(::UnityEngine::InputSystem::InputAction* action, ::StringW path, ::StringW interactions = nullptr,
-                                                                                                   ::StringW processors = nullptr, ::StringW groups = nullptr);
+  static inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax AddBinding(::UnityEngine::InputSystem::InputAction* action, ::StringW path, ::StringW interactions,
+                                                                                                   ::StringW processors, ::StringW groups);
 
   /// @brief Method AddBinding, addr 0x2a48760, size 0xb8, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax AddBinding(::UnityEngine::InputSystem::InputAction* action, ::UnityEngine::InputSystem::InputControl* control);
 
   /// @brief Method AddBinding, addr 0x2a48684, size 0xdc, virtual false, abstract: false, final false
-  /// @param binding: ::UnityEngine::InputSystem::InputBinding (default: {})
-  static inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax AddBinding(::UnityEngine::InputSystem::InputAction* action,
-                                                                                                   ::UnityEngine::InputSystem::InputBinding binding = {});
+  static inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax AddBinding(::UnityEngine::InputSystem::InputAction* action, ::UnityEngine::InputSystem::InputBinding binding);
 
   /// @brief Method AddBinding, addr 0x2a489a4, size 0xb8, virtual false, abstract: false, final false
-  /// @param interactions: ::StringW (default: nullptr)
-  /// @param groups: ::StringW (default: nullptr)
-  /// @param action: ::StringW (default: nullptr)
-  /// @param processors: ::StringW (default: nullptr)
-  static inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax AddBinding(::UnityEngine::InputSystem::InputActionMap* actionMap, ::StringW path,
-                                                                                                   ::StringW interactions = nullptr, ::StringW groups = nullptr, ::StringW action = nullptr,
-                                                                                                   ::StringW processors = nullptr);
+  static inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax AddBinding(::UnityEngine::InputSystem::InputActionMap* actionMap, ::StringW path, ::StringW interactions,
+                                                                                                   ::StringW groups, ::StringW action, ::StringW processors);
 
   /// @brief Method AddBinding, addr 0x2a48b60, size 0x138, virtual false, abstract: false, final false
-  /// @param interactions: ::StringW (default: nullptr)
-  /// @param groups: ::StringW (default: nullptr)
-  static inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax
-  AddBinding(::UnityEngine::InputSystem::InputActionMap* actionMap, ::StringW path, ::UnityEngine::InputSystem::InputAction* action, ::StringW interactions = nullptr, ::StringW groups = nullptr);
+  static inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax AddBinding(::UnityEngine::InputSystem::InputActionMap* actionMap, ::StringW path,
+                                                                                                   ::UnityEngine::InputSystem::InputAction* action, ::StringW interactions, ::StringW groups);
 
   /// @brief Method AddBinding, addr 0x2a48c98, size 0xfc, virtual false, abstract: false, final false
-  /// @param interactions: ::StringW (default: nullptr)
-  /// @param groups: ::StringW (default: nullptr)
   static inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax AddBinding(::UnityEngine::InputSystem::InputActionMap* actionMap, ::StringW path, ::System::Guid action,
-                                                                                                   ::StringW interactions = nullptr, ::StringW groups = nullptr);
+                                                                                                   ::StringW interactions, ::StringW groups);
 
   /// @brief Method AddBinding, addr 0x2a48a5c, size 0x104, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax AddBinding(::UnityEngine::InputSystem::InputActionMap* actionMap,
                                                                                                    ::UnityEngine::InputSystem::InputBinding binding);
 
   /// @brief Method AddCompositeBinding, addr 0x2a48d94, size 0x1a8, virtual false, abstract: false, final false
-  /// @param interactions: ::StringW (default: nullptr)
-  /// @param processors: ::StringW (default: nullptr)
   static inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__CompositeSyntax AddCompositeBinding(::UnityEngine::InputSystem::InputAction* action, ::StringW composite,
-                                                                                                              ::StringW interactions = nullptr, ::StringW processors = nullptr);
+                                                                                                              ::StringW interactions, ::StringW processors);
 
   /// @brief Method AddBindingInternal, addr 0x2a48818, size 0x18c, virtual false, abstract: false, final false
-  /// @param bindingIndex: int32_t (default: static_cast<int32_t>(0xffffffff))
-  static inline int32_t AddBindingInternal(::UnityEngine::InputSystem::InputActionMap* map, ::UnityEngine::InputSystem::InputBinding binding, int32_t bindingIndex = static_cast<int32_t>(0xffffffff));
+  static inline int32_t AddBindingInternal(::UnityEngine::InputSystem::InputActionMap* map, ::UnityEngine::InputSystem::InputBinding binding, int32_t bindingIndex);
 
   /// @brief Method ChangeBinding, addr 0x2a44cbc, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax ChangeBinding(::UnityEngine::InputSystem::InputAction* action, int32_t index);

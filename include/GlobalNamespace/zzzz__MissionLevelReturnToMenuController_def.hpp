@@ -5,7 +5,7 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(MissionLevelReturnToMenuController)
 namespace GlobalNamespace {
-class PrepareLevelCompletionResults;
+class IReturnToMenuController;
 }
 namespace GlobalNamespace {
 class MissionLevelScenesTransitionSetupDataSO;
@@ -14,7 +14,7 @@ namespace GlobalNamespace {
 class MissionObjectiveCheckersManager;
 }
 namespace GlobalNamespace {
-class IReturnToMenuController;
+class PrepareLevelCompletionResults;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -43,6 +43,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IReturnToMenuController"
   constexpr operator ::GlobalNamespace::IReturnToMenuController*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IReturnToMenuController"
+  constexpr ::GlobalNamespace::IReturnToMenuController* i___GlobalNamespace__IReturnToMenuController() noexcept;
 
   constexpr ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*& __get__missionLevelSceneSetupData();
 

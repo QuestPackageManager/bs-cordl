@@ -10,16 +10,16 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class SignatureAndHashAlgorithm;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSigner;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
 }
-namespace Org::BouncyCastle::Crypto {
-class ISigner;
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsSigner;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Crypto {
+class ISigner;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -42,6 +42,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsSigner"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsSigner*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsSigner"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSigner* i___Org__BouncyCastle__Crypto__Tls__TlsSigner() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext*& __get_mContext();
 

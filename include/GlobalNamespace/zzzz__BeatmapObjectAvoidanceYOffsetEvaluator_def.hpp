@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapObjectAvoidanceYOffsetEvaluator)
 namespace GlobalNamespace {
-struct __BeatmapObjectAvoidanceYOffsetEvaluator__BufferData;
+class IAudioTimeSource;
 }
 namespace GlobalNamespace {
 class IBeatmapObjectSpawnController;
 }
 namespace GlobalNamespace {
-class IAudioTimeSource;
+struct __BeatmapObjectAvoidanceYOffsetEvaluator__BufferData;
 }
 namespace GlobalNamespace {
 struct __BeatmapObjectSpawnMovementData__NoteSpawnData;

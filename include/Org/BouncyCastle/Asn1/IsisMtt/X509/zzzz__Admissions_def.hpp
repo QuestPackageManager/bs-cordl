@@ -11,11 +11,11 @@ class NamingAuthority;
 namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
 class ProfessionInfo;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;

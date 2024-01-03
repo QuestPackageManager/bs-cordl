@@ -8,6 +8,12 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BinaryWriter)
+namespace System::IO {
+class Stream;
+}
+namespace System::Text {
+class Encoder;
+}
 namespace System::Text {
 class Encoding;
 }
@@ -19,12 +25,6 @@ class IAsyncDisposable;
 }
 namespace System {
 class IDisposable;
-}
-namespace System::IO {
-class Stream;
-}
-namespace System::Text {
-class Encoder;
 }
 // Forward declare root types
 namespace System::IO {
@@ -69,8 +69,14 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::IAsyncDisposable"
   constexpr operator ::System::IAsyncDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IAsyncDisposable"
+  constexpr ::System::IAsyncDisposable* i___System__IAsyncDisposable() noexcept;
 
   constexpr ::System::IO::Stream*& __get_OutStream();
 

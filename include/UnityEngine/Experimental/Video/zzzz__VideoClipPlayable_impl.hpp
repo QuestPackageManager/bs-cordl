@@ -2,8 +2,8 @@
 #include "UnityEngine/Playables/zzzz__PlayableHandle_impl.hpp"
 #include "UnityEngine/Experimental/Video/zzzz__VideoClipPlayable_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableHandle_def.hpp"
 #include "UnityEngine/Playables/zzzz__IPlayable_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableHandle_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Experimental::Video::VideoClipPlayable.GetHandle
 template <>
 
@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x2eb1c60;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::Video::VideoClipPlayable>::get(),
                                                                                "GetHandle", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0x2eb1c6c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::Video::VideoClipPlayable>::get(), "Equals", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Experimental::Video::VideoClipPlayable>::get() })));
@@ -37,8 +37,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 constexpr UnityEngine::Experimental::Video::VideoClipPlayable::operator ::UnityEngine::Playables::IPlayable*() {
   return static_cast<::UnityEngine::Playables::IPlayable*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::UnityEngine::Playables::IPlayable"
+constexpr ::UnityEngine::Playables::IPlayable* UnityEngine::Experimental::Video::VideoClipPlayable::i___UnityEngine__Playables__IPlayable() {
+  return static_cast<::UnityEngine::Playables::IPlayable*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Experimental::Video::VideoClipPlayable>"
 constexpr UnityEngine::Experimental::Video::VideoClipPlayable::operator ::System::IEquatable_1<::UnityEngine::Experimental::Video::VideoClipPlayable>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::Experimental::Video::VideoClipPlayable>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::Experimental::Video::VideoClipPlayable>"
+constexpr ::System::IEquatable_1<::UnityEngine::Experimental::Video::VideoClipPlayable>*
+UnityEngine::Experimental::Video::VideoClipPlayable::i___System__IEquatable_1___UnityEngine__Experimental__Video__VideoClipPlayable_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Experimental::Video::VideoClipPlayable>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 inline ::UnityEngine::Playables::PlayableHandle UnityEngine::Experimental::Video::VideoClipPlayable::GetHandle() {

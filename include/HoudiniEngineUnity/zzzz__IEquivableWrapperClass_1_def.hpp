@@ -27,6 +27,9 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<T>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<T>*() noexcept;
 
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<T>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<T>* i___HoudiniEngineUnity__IEquivable_1_T_() noexcept;
+
   /// @brief Method IsNull, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsNull();
 

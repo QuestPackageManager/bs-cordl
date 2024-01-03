@@ -9,17 +9,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(__DTString)
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System {
-struct DTSubString;
+namespace System::Globalization {
+class CompareInfo;
 }
 namespace System::Globalization {
 class DateTimeFormatInfo;
 }
-namespace System::Globalization {
-class CompareInfo;
+namespace System {
+struct DTSubString;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
 }
 namespace System {
 struct TokenType;
@@ -34,7 +34,7 @@ MARK_VAL_T(::System::__DTString);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292 }), TypeDefinitionIndex(TypeDefinitionIndex(2464))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2464)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2392))
 // CS Name: ::System::__DTString
 struct CORDL_TYPE __DTString {

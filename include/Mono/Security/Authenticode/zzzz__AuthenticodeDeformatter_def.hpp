@@ -11,23 +11,23 @@ CORDL_MODULE_EXPORT(AuthenticodeDeformatter)
 namespace Mono::Security::X509 {
 class X509CertificateCollection;
 }
-namespace Mono::Security {
-class __PKCS7__SignerInfo;
-}
-namespace Mono::Security {
-class ASN1;
+namespace Mono::Security::X509 {
+class X509Certificate;
 }
 namespace Mono::Security::X509 {
 class X509Chain;
 }
 namespace Mono::Security {
+class ASN1;
+}
+namespace Mono::Security {
 class __PKCS7__SignedData;
+}
+namespace Mono::Security {
+class __PKCS7__SignerInfo;
 }
 namespace System::Security::Cryptography {
 class HashAlgorithm;
-}
-namespace Mono::Security::X509 {
-class X509Certificate;
 }
 // Forward declare root types
 namespace Mono::Security::Authenticode {
@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::Mono::Security::Authenticode::AuthenticodeDeformatter);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Authenticode {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(13801))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13801)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13802))
 // CS Name: ::Mono.Security.Authenticode::AuthenticodeDeformatter*
 class CORDL_TYPE AuthenticodeDeformatter : public ::Mono::Security::Authenticode::AuthenticodeBase {

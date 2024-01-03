@@ -7,9 +7,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AnimationLayerMixerPlayable)
-namespace UnityEngine {
-class AvatarMask;
-}
 namespace System {
 template <typename T> class IEquatable_1;
 }
@@ -17,13 +14,16 @@ namespace UnityEngine::Playables {
 class IPlayable;
 }
 namespace UnityEngine::Playables {
-struct PlayableHandle;
-}
-namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
+struct PlayableHandle;
+}
+namespace UnityEngine::Playables {
 struct Playable;
+}
+namespace UnityEngine {
+class AvatarMask;
 }
 // Forward declare root types
 namespace UnityEngine::Animations {
@@ -47,27 +47,30 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
+  /// @brief Convert to "::UnityEngine::Playables::IPlayable"
+  constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Animations::AnimationLayerMixerPlayable>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Animations::AnimationLayerMixerPlayable>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Animations::AnimationLayerMixerPlayable>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Animations::AnimationLayerMixerPlayable>* i___System__IEquatable_1___UnityEngine__Animations__AnimationLayerMixerPlayable_();
 
   static inline void setStaticF_m_NullPlayable(::UnityEngine::Animations::AnimationLayerMixerPlayable value);
 
   static inline ::UnityEngine::Animations::AnimationLayerMixerPlayable getStaticF_m_NullPlayable();
 
   /// @brief Method Create, addr 0x2c97890, size 0x70, virtual false, abstract: false, final false
-  /// @param inputCount: int32_t (default: static_cast<int32_t>(0x0))
-  static inline ::UnityEngine::Animations::AnimationLayerMixerPlayable Create(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount = static_cast<int32_t>(0x0));
+  static inline ::UnityEngine::Animations::AnimationLayerMixerPlayable Create(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount);
 
   /// @brief Method Create, addr 0x2c97900, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Animations::AnimationLayerMixerPlayable Create(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount, bool singleLayerOptimization);
 
   /// @brief Method CreateHandle, addr 0x2c979a8, size 0xe4, virtual false, abstract: false, final false
-  /// @param inputCount: int32_t (default: static_cast<int32_t>(0x0))
-  static inline ::UnityEngine::Playables::PlayableHandle CreateHandle(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount = static_cast<int32_t>(0x0));
+  static inline ::UnityEngine::Playables::PlayableHandle CreateHandle(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount);
 
   /// @brief Method .ctor, addr 0x2c97a8c, size 0x114, virtual false, abstract: false, final false
-  /// @param singleLayerOptimization: bool (default: true)
-  inline void _ctor(::UnityEngine::Playables::PlayableHandle handle, bool singleLayerOptimization = true);
+  inline void _ctor(::UnityEngine::Playables::PlayableHandle handle, bool singleLayerOptimization);
 
   /// @brief Method GetHandle, addr 0x2c97c70, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();

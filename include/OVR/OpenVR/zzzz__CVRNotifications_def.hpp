@@ -12,13 +12,13 @@ namespace OVR::OpenVR {
 struct EVRNotificationError;
 }
 namespace OVR::OpenVR {
-struct NotificationBitmap_t;
-}
-namespace OVR::OpenVR {
 struct EVRNotificationStyle;
 }
 namespace OVR::OpenVR {
 struct EVRNotificationType;
+}
+namespace OVR::OpenVR {
+struct NotificationBitmap_t;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

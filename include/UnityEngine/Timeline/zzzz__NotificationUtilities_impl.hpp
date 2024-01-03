@@ -1,13 +1,13 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__NotificationUtilities_def.hpp"
-#include "UnityEngine/Timeline/zzzz__TimeNotificationBehaviour_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/Playables/zzzz__DirectorWrapMode_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
-#include "UnityEngine/Timeline/zzzz__IMarker_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/Playables/zzzz__ScriptPlayable_1_def.hpp"
-#include "System/zzzz__Type_def.hpp"
+#include "UnityEngine/Timeline/zzzz__IMarker_def.hpp"
+#include "UnityEngine/Timeline/zzzz__TimeNotificationBehaviour_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Timeline::NotificationUtilities.CreateNotificationsPlayable
 template <>
 
@@ -17,7 +17,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x6e0;
   constexpr static std::size_t addrs = 0x2c70db0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::NotificationUtilities*>::get(), "CreateNotificationsPlayable", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Playables::PlayableGraph>::get(),
@@ -34,7 +34,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x18c;
   constexpr static std::size_t addrs = 0x2c71490;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::NotificationUtilities*>::get(), "TrackTypeSupportsNotifications",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));

@@ -9,35 +9,59 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MissionResultsViewController)
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine::UI {
-class Button;
-}
 namespace GlobalNamespace {
 class FireworksController;
-}
-namespace UnityEngine {
-class Sprite;
-}
-namespace GlobalNamespace {
-class MissionNode;
-}
-namespace UnityEngine {
-class AudioClip;
-}
-namespace GlobalNamespace {
-class __MissionResultsViewController___StartFireworksAfterDelay_d__28;
 }
 namespace GlobalNamespace {
 class MissionCompletionResults;
 }
 namespace GlobalNamespace {
+class MissionNode;
+}
+namespace GlobalNamespace {
+class MissionObjectiveResult;
+}
+namespace GlobalNamespace {
+class MissionObjective;
+}
+namespace GlobalNamespace {
+class ResultObjectiveListItem;
+}
+namespace GlobalNamespace {
+class ResultObjectiveListItemsList;
+}
+namespace GlobalNamespace {
 class SongPreviewPlayer;
+}
+namespace GlobalNamespace {
+class __MissionResultsViewController___StartFireworksAfterDelay_d__28;
+}
+namespace GlobalNamespace {
+class __MissionResultsViewController____c__DisplayClass29_0;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 template <typename T> class Action_1;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace UnityEngine {
+class AudioClip;
 }
 namespace UnityEngine {
 class Coroutine;
@@ -45,32 +69,8 @@ class Coroutine;
 namespace UnityEngine {
 class GameObject;
 }
-namespace GlobalNamespace {
-class __MissionResultsViewController____c__DisplayClass29_0;
-}
-namespace GlobalNamespace {
-class ResultObjectiveListItemsList;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class IDisposable;
-}
-namespace GlobalNamespace {
-class ResultObjectiveListItem;
-}
-namespace GlobalNamespace {
-class MissionObjective;
-}
-namespace GlobalNamespace {
-class MissionObjectiveResult;
+namespace UnityEngine {
+class Sprite;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -115,11 +115,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -304,7 +313,7 @@ static_assert(offsetof(::GlobalNamespace::__MissionResultsViewController____c__D
 // SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13605))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5702))
 // CS Name: ::MissionResultsViewController*
 class CORDL_TYPE MissionResultsViewController : public ::HMUI::ViewController {

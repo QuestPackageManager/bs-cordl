@@ -3,17 +3,17 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IPanel)
-namespace UnityEngine::UIElements {
-struct ContextType;
-}
-namespace UnityEngine::UIElements {
-class FocusController;
-}
 namespace System {
 class IDisposable;
 }
 namespace UnityEngine::UIElements {
+struct ContextType;
+}
+namespace UnityEngine::UIElements {
 class EventDispatcher;
+}
+namespace UnityEngine::UIElements {
+class FocusController;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -47,6 +47,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// @brief Method get_visualTree, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::VisualElement* get_visualTree();

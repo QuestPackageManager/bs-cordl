@@ -7,32 +7,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PanelRaycaster)
-namespace UnityEngine::UIElements {
-class BaseRuntimePanel;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
 }
 namespace UnityEngine::EventSystems {
 struct RaycastResult;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine {
-class Camera;
+namespace UnityEngine::UIElements {
+class BaseRuntimePanel;
 }
 namespace UnityEngine::UIElements {
 class IPanel;
 }
 namespace UnityEngine::UIElements {
+class IRuntimePanelComponent;
+}
+namespace UnityEngine::UIElements {
 struct __PanelRaycaster__FloatIntBits;
 }
 namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine {
 class GameObject;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine::UIElements {
-class IRuntimePanelComponent;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -151,6 +151,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::UIElements::IRuntimePanelComponent"
   constexpr operator ::UnityEngine::UIElements::IRuntimePanelComponent*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UIElements::IRuntimePanelComponent"
+  constexpr ::UnityEngine::UIElements::IRuntimePanelComponent* i___UnityEngine__UIElements__IRuntimePanelComponent() noexcept;
 
   constexpr ::UnityEngine::UIElements::BaseRuntimePanel*& __get_m_Panel();
 

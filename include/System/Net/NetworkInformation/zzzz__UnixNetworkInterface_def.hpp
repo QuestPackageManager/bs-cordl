@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnixNetworkInterface)
-namespace System::Net::NetworkInformation {
-struct NetworkInterfaceType;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Net::NetworkInformation {
 class IPInterfaceProperties;
 }
+namespace System::Net::NetworkInformation {
+struct NetworkInterfaceType;
+}
 namespace System::Net {
 class IPAddress;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {

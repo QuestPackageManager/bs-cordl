@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(EmptyAdvancedHapticsPlayer)
-namespace UnityEngine::XR {
-struct XRNode;
-}
 namespace GlobalNamespace {
 class IHapticFeedbackPlayer;
 }
 namespace Libraries::HM::HMLib::VR {
 class HapticPresetSO;
+}
+namespace UnityEngine::XR {
+struct XRNode;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -31,6 +31,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::GlobalNamespace::IHapticFeedbackPlayer"
   constexpr operator ::GlobalNamespace::IHapticFeedbackPlayer*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IHapticFeedbackPlayer"
+  constexpr ::GlobalNamespace::IHapticFeedbackPlayer* i___GlobalNamespace__IHapticFeedbackPlayer() noexcept;
 
   /// @brief Method PlayHapticFeedback, addr 0x20f91cc, size 0x4, virtual true, abstract: false, final true
   inline void PlayHapticFeedback(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);

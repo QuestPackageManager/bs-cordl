@@ -8,17 +8,26 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ContainerViewController)
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+namespace HMUI {
+class Screen;
 }
-namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
+namespace HMUI {
+class ViewController;
 }
 namespace HMUI {
 class __ContainerViewController___AddViewControllerCoroutine_d__15;
 }
 namespace HMUI {
-class ViewController;
+class __ContainerViewController___RemoveViewControllersCoroutine_d__17;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -26,29 +35,20 @@ class IEnumerator;
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
-namespace HMUI {
-class Screen;
+namespace System {
+template <typename T1, typename T2, typename T3> class Action_3;
 }
 namespace System {
 class Action;
 }
-namespace UnityEngine {
-class RectTransform;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace HMUI {
-class __ContainerViewController___RemoveViewControllersCoroutine_d__17;
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
+namespace UnityEngine {
+class RectTransform;
 }
 // Forward declare root types
 namespace HMUI {
@@ -112,11 +112,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -320,11 +329,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -558,9 +576,8 @@ public:
   inline void SetChildViewControllers(::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllers);
 
   /// @brief Method AddViewController, addr 0x2125bcc, size 0x178, virtual false, abstract: false, final false
-  /// @param immediately: bool (default: false)
   inline void AddViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback,
-                                ::System::Action_2<float_t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>>* animationLayouter, bool immediately = false);
+                                ::System::Action_2<float_t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>>* animationLayouter, bool immediately);
 
   /// @brief Method AddViewControllerCoroutine, addr 0x2125d44, size 0x94, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* AddViewControllerCoroutine(::HMUI::ViewController* newViewController, ::System::Action* finishedCallback,

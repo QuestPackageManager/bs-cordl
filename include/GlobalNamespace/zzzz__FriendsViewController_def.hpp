@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(FriendsViewController)
 namespace GlobalNamespace {
+class INetworkConfig;
+}
+namespace GlobalNamespace {
+class INetworkPlayerModel;
+}
+namespace GlobalNamespace {
 class PlatformNetworkPlayerModel;
 }
 namespace HMUI {
 class ToggleBinder;
 }
-namespace GlobalNamespace {
-class INetworkPlayerModel;
-}
 namespace UnityEngine::UI {
 class Toggle;
-}
-namespace GlobalNamespace {
-class INetworkConfig;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -109,8 +109,7 @@ public:
   inline void HandleOpenPartyToggleChanged(bool openParty);
 
   /// @brief Method RefreshParty, addr 0x22b12d0, size 0x180, virtual false, abstract: false, final false
-  /// @param overrideHide: bool (default: false)
-  inline void RefreshParty(bool overrideHide = false);
+  inline void RefreshParty(bool overrideHide);
 
   static inline ::GlobalNamespace::FriendsViewController* New_ctor();
 

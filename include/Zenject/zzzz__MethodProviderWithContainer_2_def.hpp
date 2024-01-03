@@ -5,8 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(MethodProviderWithContainer_2)
-namespace Zenject {
-class DiContainer;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+class Action;
 }
 namespace System {
 template <typename T1, typename T2, typename TResult> class Func_3;
@@ -14,23 +17,20 @@ template <typename T1, typename T2, typename TResult> class Func_3;
 namespace System {
 class Object;
 }
-namespace Zenject {
-struct TypeValuePair;
-}
 namespace System {
 class Type;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace Zenject {
+class DiContainer;
 }
 namespace Zenject {
 class IProvider;
 }
-namespace System {
-class Action;
-}
 namespace Zenject {
 class InjectContext;
+}
+namespace Zenject {
+struct TypeValuePair;
 }
 // Forward declare root types
 namespace Zenject {
@@ -59,6 +59,9 @@ public:
 
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
+
+  /// @brief Convert to "::Zenject::IProvider"
+  constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
 
   constexpr ::System::Func_3<::Zenject::DiContainer*, TParam1, TValue>*& __get__method();
 

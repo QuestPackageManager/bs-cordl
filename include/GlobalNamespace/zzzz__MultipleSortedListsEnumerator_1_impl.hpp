@@ -1,18 +1,24 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MultipleSortedListsEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "GlobalNamespace/zzzz__MultipleSortedListsEnumerator_1_def.hpp"
 #include "GlobalNamespace/zzzz__BinaryHeap_1_def.hpp"
+#include "GlobalNamespace/zzzz__MultipleSortedListsEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__IComparable_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 /// @brief Convert operator to "::System::IComparable_1<::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>*>"
 template <typename T>
 constexpr GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>::operator ::System::IComparable_1<::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>*>*() noexcept {
+  return static_cast<::System::IComparable_1<::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IComparable_1<::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>*>"
+template <typename T>
+constexpr ::System::IComparable_1<::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>*>*
+GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>::i___System__IComparable_1___GlobalNamespace____MultipleSortedListsEnumerator_1__HeapItem_T___() noexcept {
   return static_cast<::System::IComparable_1<::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>*>*>(static_cast<void*>(this));
 }
 template <typename T> constexpr ::System::Collections::Generic::IReadOnlyList_1<T>*& GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>::__get__dataList() {
@@ -87,12 +93,25 @@ template <typename T> constexpr ::GlobalNamespace::__MultipleSortedListsEnumerat
 template <typename T> constexpr GlobalNamespace::__MultipleSortedListsEnumerator_1___GetEnumerator_d__4<T>::operator ::System::Collections::Generic::IEnumerator_1<T>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<T>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
+template <typename T>
+constexpr ::System::Collections::Generic::IEnumerator_1<T>* GlobalNamespace::__MultipleSortedListsEnumerator_1___GetEnumerator_d__4<T>::i___System__Collections__Generic__IEnumerator_1_T_() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<T>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 template <typename T> constexpr GlobalNamespace::__MultipleSortedListsEnumerator_1___GetEnumerator_d__4<T>::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::IEnumerator"
+template <typename T> constexpr ::System::Collections::IEnumerator* GlobalNamespace::__MultipleSortedListsEnumerator_1___GetEnumerator_d__4<T>::i___System__Collections__IEnumerator() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::IDisposable"
 template <typename T> constexpr GlobalNamespace::__MultipleSortedListsEnumerator_1___GetEnumerator_d__4<T>::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename T> constexpr ::System::IDisposable* GlobalNamespace::__MultipleSortedListsEnumerator_1___GetEnumerator_d__4<T>::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 template <typename T> constexpr int32_t& GlobalNamespace::__MultipleSortedListsEnumerator_1___GetEnumerator_d__4<T>::__get___1__state() {
@@ -192,6 +211,10 @@ template <typename T> inline ::System::Object* GlobalNamespace::__MultipleSorted
 template <typename T> constexpr ::GlobalNamespace::__MultipleSortedListsEnumerator_1___GetEnumerator_d__4<T>::__MultipleSortedListsEnumerator_1___GetEnumerator_d__4() {}
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename T> constexpr GlobalNamespace::MultipleSortedListsEnumerator_1<T>::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename T> constexpr ::System::Collections::IEnumerable* GlobalNamespace::MultipleSortedListsEnumerator_1<T>::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 template <typename T>

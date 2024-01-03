@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x47c;
   constexpr static std::size_t addrs = 0x24a57d0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Activation::RemoteActivator*>::get(), "Activate", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Activation::IConstructionCallMessage*>::get() })));
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x24a5c4c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Activation::RemoteActivator*>::get(),
                                                                                "get_NextActivator", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -36,6 +36,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::System::Runtime::Remoting::Activation::IActivator"
 constexpr System::Runtime::Remoting::Activation::RemoteActivator::operator ::System::Runtime::Remoting::Activation::IActivator*() noexcept {
+  return static_cast<::System::Runtime::Remoting::Activation::IActivator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Remoting::Activation::IActivator"
+constexpr ::System::Runtime::Remoting::Activation::IActivator* System::Runtime::Remoting::Activation::RemoteActivator::i___System__Runtime__Remoting__Activation__IActivator() noexcept {
   return static_cast<::System::Runtime::Remoting::Activation::IActivator*>(static_cast<void*>(this));
 }
 inline ::System::Runtime::Remoting::Activation::IConstructionReturnMessage*

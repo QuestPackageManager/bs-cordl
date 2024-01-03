@@ -15,31 +15,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(VideoProjectionEffect)
 namespace GlobalNamespace {
-class IReadonlyBeatmapData;
-}
-namespace GlobalNamespace {
-class __VideoProjectionEffect__InitData;
-}
-namespace GlobalNamespace {
-class SongTimeSyncedVideoPlayer;
-}
-namespace GlobalNamespace {
-class __VideoProjectionEffect__BeatmapEditorVideoProjectionBehavior;
-}
-namespace GlobalNamespace {
-class __VideoProjectionEffect__VideoProjectionBehavior;
-}
-namespace GlobalNamespace {
-class __VideoProjectionEffect__GameplayVideoProjectionBehavior;
-}
-namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
-namespace GlobalNamespace {
-class VideoProjectionDataModelSO;
+class BasicBeatmapEventData;
 }
 namespace GlobalNamespace {
 struct BasicBeatmapEventType;
+}
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
@@ -48,25 +30,43 @@ namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
-class BasicBeatmapEventData;
+class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
-class __VideoProjectionEffect__VideoProjectionBehavior____c__DisplayClass7_0;
+class SongTimeSyncedVideoPlayer;
+}
+namespace GlobalNamespace {
+class VideoProjectionDataModelSO;
+}
+namespace GlobalNamespace {
+class __VideoProjectionDataModelSO__VideoClipWithId;
+}
+namespace GlobalNamespace {
+class __VideoProjectionEffect__BeatmapEditorVideoProjectionBehavior;
+}
+namespace GlobalNamespace {
+class __VideoProjectionEffect__GameplayVideoProjectionBehavior;
+}
+namespace GlobalNamespace {
+class __VideoProjectionEffect__InitData;
+}
+namespace GlobalNamespace {
+class __VideoProjectionEffect__VideoProjectionBehavior;
 }
 namespace GlobalNamespace {
 struct __VideoProjectionEffect__VideoProjectionBehavior___LoadPreviewCoverAsset_d__8;
 }
 namespace GlobalNamespace {
-class __VideoProjectionDataModelSO__VideoClipWithId;
+class __VideoProjectionEffect__VideoProjectionBehavior____c__DisplayClass7_0;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+template <typename TResult> struct TaskAwaiter_1;
 }
 namespace UnityEngine {
 class Sprite;
@@ -206,7 +206,7 @@ static_assert(offsetof(::GlobalNamespace::__VideoProjectionEffect__VideoProjecti
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 777 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 777 }),
 // TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(10291))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4976)) CS Name:
 // ::VideoProjectionEffect::VideoProjectionBehavior::<LoadPreviewCoverAsset>d__8
 struct CORDL_TYPE __VideoProjectionEffect__VideoProjectionBehavior___LoadPreviewCoverAsset_d__8 {
@@ -214,6 +214,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x23b3744, size 0x2dc, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -266,8 +269,9 @@ static_assert(offsetof(::GlobalNamespace::__VideoProjectionEffect__VideoProjecti
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(16075)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst:
-// 859 }), TypeDefinitionIndex(TypeDefinitionIndex(14033))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4977)) CS Name: ::VideoProjectionEffect::VideoProjectionBehavior*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14033)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 859 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(16075)), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4977)) CS Name:
+// ::VideoProjectionEffect::VideoProjectionBehavior*
 class CORDL_TYPE __VideoProjectionEffect__VideoProjectionBehavior : public ::System::Object {
 public:
   // Declarations
@@ -497,7 +501,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__VideoProjecti
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(4982)), TypeDefinitionIndex(TypeDefinitionIndex(14724))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(4982))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4980))
 // CS Name: ::VideoProjectionEffect*
 class CORDL_TYPE VideoProjectionEffect : public ::UnityEngine::MonoBehaviour {

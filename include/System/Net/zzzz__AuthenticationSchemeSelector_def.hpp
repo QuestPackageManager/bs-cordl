@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(AuthenticationSchemeSelector)
 namespace System::Net {
 struct AuthenticationSchemes;
 }
-namespace System {
-class Object;
-}
 namespace System::Net {
 class HttpListenerRequest;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Net {

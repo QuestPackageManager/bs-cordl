@@ -11,118 +11,118 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_SessionBase)
 namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_Result;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_ParmChoiceInfo;
+struct HAPI_AssetInfo;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_AttributeInfo;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_CurveInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_ParmInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_XYZOrder;
-}
-namespace HoudiniEngineUnity {
-struct SessionConnectionState;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_CookOptions;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_VolumeInfo;
-}
-namespace HoudiniEngineUnity {
-struct SessionMode;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_SessionEnvIntType;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_HandleBindingInfo;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionData;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_AssetInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_HeightFieldSampling;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_StatusVerbosity;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_ObjectInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_RSTOrder;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_GeoInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_VolumeTileInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_HandleInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_ImageInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_EnvIntType;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_GroupType;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_NodeInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_StatusType;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_MaterialInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_CacheProperty;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_State;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_SphereInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_Transform;
+struct HAPI_AttributeOwner;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_BoxInfo;
 }
 namespace HoudiniEngineUnity {
+struct HAPI_CacheProperty;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_CookOptions;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_CurveInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_EnvIntType;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_GeoInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_GroupType;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_HandleBindingInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_HandleInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_HeightFieldSampling;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_ImageInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_MaterialInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_NodeInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_ObjectInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_ParmChoiceInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_ParmInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_PartInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_RSTOrder;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_Result;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_SessionEnvIntType;
+}
+namespace HoudiniEngineUnity {
 struct HAPI_SessionSyncInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_SphereInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_State;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_StatusType;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_StatusVerbosity;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_TransformEuler;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_AttributeOwner;
+struct HAPI_Transform;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_Viewport;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_PartInfo;
+struct HAPI_VolumeInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_VolumeTileInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_XYZOrder;
+}
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionData;
+}
+namespace HoudiniEngineUnity {
+struct SessionConnectionState;
+}
+namespace HoudiniEngineUnity {
+struct SessionMode;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -134,7 +134,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_SessionBase);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9689))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9689)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9781))
 // CS Name: ::HoudiniEngineUnity::HEU_SessionBase*
 class CORDL_TYPE HEU_SessionBase : public ::System::Object {
@@ -269,16 +269,13 @@ public:
   inline void _ctor();
 
   /// @brief Method SetSessionErrorMsg, addr 0x21a1b20, size 0x20, virtual true, abstract: false, final false
-  /// @param bLogError: bool (default: false)
-  inline void SetSessionErrorMsg(::StringW msg, bool bLogError = false);
+  inline void SetSessionErrorMsg(::StringW msg, bool bLogError);
 
   /// @brief Method SetSessionConnectionErrorMsg, addr 0x21a1b40, size 0x264, virtual true, abstract: false, final false
-  /// @param bLogError: bool (default: false)
-  inline void SetSessionConnectionErrorMsg(::StringW introMsg, ::HoudiniEngineUnity::HAPI_Result result, bool bIsHARSRunning, bool bLogError = false);
+  inline void SetSessionConnectionErrorMsg(::StringW introMsg, ::HoudiniEngineUnity::HAPI_Result result, bool bIsHARSRunning, bool bLogError);
 
   /// @brief Method SetLibraryErrorMsg, addr 0x21a1de4, size 0xb8, virtual true, abstract: false, final false
-  /// @param bLogError: bool (default: false)
-  inline void SetLibraryErrorMsg(bool bLogError = false);
+  inline void SetLibraryErrorMsg(bool bLogError);
 
   /// @brief Method CreateSessionData, addr 0x21a1e9c, size 0x8, virtual true, abstract: false, final false
   inline bool CreateSessionData(bool bOverwriteExisting, bool bIsDefaultSession);
@@ -287,41 +284,19 @@ public:
   inline bool CreateInProcessSession(bool bIsDefaultSession);
 
   /// @brief Method CreateThriftSocketSession, addr 0x21a1eac, size 0x8, virtual true, abstract: false, final false
-  /// @param hostName: ::StringW (default: u"localhost")
-  /// @param serverPort: int32_t (default: static_cast<int32_t>(0x2382))
-  /// @param autoClose: bool (default: true)
-  /// @param timeout: float_t (default: 10000.0)
-  /// @param bLogError: bool (default: true)
-  inline bool CreateThriftSocketSession(bool bIsDefaultSession, ::StringW hostName = u"localhost", int32_t serverPort = static_cast<int32_t>(0x2382), bool autoClose = true, float_t timeout = 10000.0,
-                                        bool bLogError = true);
+  inline bool CreateThriftSocketSession(bool bIsDefaultSession, ::StringW hostName, int32_t serverPort, bool autoClose, float_t timeout, bool bLogError);
 
   /// @brief Method CreateThriftPipeSession, addr 0x21a1eb4, size 0x8, virtual true, abstract: false, final false
-  /// @param pipeName: ::StringW (default: u"hapi")
-  /// @param autoClose: bool (default: true)
-  /// @param timeout: float_t (default: 10000.0)
-  /// @param bLogError: bool (default: true)
-  inline bool CreateThriftPipeSession(bool bIsDefaultSession, ::StringW pipeName = u"hapi", bool autoClose = true, float_t timeout = 10000.0, bool bLogError = true);
+  inline bool CreateThriftPipeSession(bool bIsDefaultSession, ::StringW pipeName, bool autoClose, float_t timeout, bool bLogError);
 
   /// @brief Method CreateCustomSession, addr 0x21a1ebc, size 0x8, virtual true, abstract: false, final false
   inline bool CreateCustomSession(bool bIsDefaultSession);
 
   /// @brief Method ConnectThriftSocketSession, addr 0x21a1ec4, size 0x8, virtual true, abstract: false, final false
-  /// @param hostName: ::StringW (default: u"localhost")
-  /// @param serverPort: int32_t (default: static_cast<int32_t>(0x2382))
-  /// @param autoClose: bool (default: true)
-  /// @param timeout: float_t (default: 10000.0)
-  /// @param logError: bool (default: true)
-  /// @param autoInitialize: bool (default: true)
-  inline bool ConnectThriftSocketSession(bool bIsDefaultSession, ::StringW hostName = u"localhost", int32_t serverPort = static_cast<int32_t>(0x2382), bool autoClose = true, float_t timeout = 10000.0,
-                                         bool logError = true, bool autoInitialize = true);
+  inline bool ConnectThriftSocketSession(bool bIsDefaultSession, ::StringW hostName, int32_t serverPort, bool autoClose, float_t timeout, bool logError, bool autoInitialize);
 
   /// @brief Method ConnectThriftPipeSession, addr 0x21a1ecc, size 0x8, virtual true, abstract: false, final false
-  /// @param pipeName: ::StringW (default: u"hapi")
-  /// @param autoClose: bool (default: true)
-  /// @param timeout: float_t (default: 10000.0)
-  /// @param logError: bool (default: true)
-  /// @param autoInitialize: bool (default: true)
-  inline bool ConnectThriftPipeSession(bool bIsDefaultSession, ::StringW pipeName = u"hapi", bool autoClose = true, float_t timeout = 10000.0, bool logError = true, bool autoInitialize = true);
+  inline bool ConnectThriftPipeSession(bool bIsDefaultSession, ::StringW pipeName, bool autoClose, float_t timeout, bool logError, bool autoInitialize);
 
   /// @brief Method CloseSession, addr 0x21a1ed4, size 0x8, virtual true, abstract: false, final false
   inline bool CloseSession();
@@ -423,8 +398,7 @@ public:
   inline void DeleteNode(int32_t nodeID);
 
   /// @brief Method CookNode, addr 0x21a20c0, size 0x8, virtual true, abstract: false, final false
-  /// @param bSplitGeosByGroup: bool (default: false)
-  inline bool CookNode(int32_t nodeID, bool bCookTemplatedGeos, bool bSplitGeosByGroup = false);
+  inline bool CookNode(int32_t nodeID, bool bCookTemplatedGeos, bool bSplitGeosByGroup);
 
   /// @brief Method CookNodeWithOptions, addr 0x21a20c8, size 0x8, virtual true, abstract: false, final false
   inline bool CookNodeWithOptions(int32_t nodeID, ::HoudiniEngineUnity::HAPI_CookOptions cookOptions);
@@ -433,8 +407,7 @@ public:
   inline bool RenameNode(int32_t nodeID, ::StringW newName);
 
   /// @brief Method ConnectNodeInput, addr 0x21a20d8, size 0x8, virtual true, abstract: false, final false
-  /// @param outputIndex: int32_t (default: static_cast<int32_t>(0x0))
-  inline bool ConnectNodeInput(int32_t nodeID, int32_t inputIndex, int32_t nodeIDToConnect, int32_t outputIndex = static_cast<int32_t>(0x0));
+  inline bool ConnectNodeInput(int32_t nodeID, int32_t inputIndex, int32_t nodeIDToConnect, int32_t outputIndex);
 
   /// @brief Method DisconnectNodeInput, addr 0x21a20e0, size 0x8, virtual true, abstract: false, final false
   inline bool DisconnectNodeInput(int32_t nodeID, int32_t inputIndex, bool bLogError);
@@ -455,8 +428,7 @@ public:
   inline bool GetAssetInfo(int32_t nodeID, ByRef<::HoudiniEngineUnity::HAPI_AssetInfo> assetInfo);
 
   /// @brief Method GetNodeInfo, addr 0x21a2120, size 0x8, virtual true, abstract: false, final false
-  /// @param bLogError: bool (default: true)
-  inline bool GetNodeInfo(int32_t nodeID, ByRef<::HoudiniEngineUnity::HAPI_NodeInfo> nodeInfo, bool bLogError = true);
+  inline bool GetNodeInfo(int32_t nodeID, ByRef<::HoudiniEngineUnity::HAPI_NodeInfo> nodeInfo, bool bLogError);
 
   /// @brief Method GetNodePath, addr 0x21a2128, size 0xc, virtual true, abstract: false, final false
   inline bool GetNodePath(int32_t nodeID, int32_t relativeNodeID, ByRef<::StringW> path);
@@ -496,12 +468,10 @@ public:
                                           ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_Transform, ::Array<::HoudiniEngineUnity::HAPI_Transform>*>> transforms, int32_t start, int32_t length);
 
   /// @brief Method GetDisplayGeoInfo, addr 0x21a2190, size 0x8, virtual true, abstract: false, final false
-  /// @param bLogError: bool (default: false)
-  inline bool GetDisplayGeoInfo(int32_t nodeID, ByRef<::HoudiniEngineUnity::HAPI_GeoInfo> geoInfo, bool bLogError = false);
+  inline bool GetDisplayGeoInfo(int32_t nodeID, ByRef<::HoudiniEngineUnity::HAPI_GeoInfo> geoInfo, bool bLogError);
 
   /// @brief Method GetGeoInfo, addr 0x21a2198, size 0x8, virtual true, abstract: false, final false
-  /// @param bLogError: bool (default: true)
-  inline bool GetGeoInfo(int32_t nodeID, ByRef<::HoudiniEngineUnity::HAPI_GeoInfo> geoInfo, bool bLogError = true);
+  inline bool GetGeoInfo(int32_t nodeID, ByRef<::HoudiniEngineUnity::HAPI_GeoInfo> geoInfo, bool bLogError);
 
   /// @brief Method GetPartInfo, addr 0x21a21a0, size 0x8, virtual true, abstract: false, final false
   inline bool GetPartInfo(int32_t nodeID, int32_t partID, ByRef<::HoudiniEngineUnity::HAPI_PartInfo> partInfo);
@@ -674,8 +644,7 @@ public:
   inline bool GetMaterialNodeIDsOnFaces(int32_t nodeID, int32_t partID, ByRef<bool> bSingleFaceMaterial, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> materialNodeIDs, int32_t faceCount);
 
   /// @brief Method GetMaterialInfo, addr 0x21a2338, size 0x8, virtual true, abstract: false, final false
-  /// @param bLogError: bool (default: true)
-  inline bool GetMaterialInfo(int32_t materialNodeID, ByRef<::HoudiniEngineUnity::HAPI_MaterialInfo> materialInfo, bool bLogError = true);
+  inline bool GetMaterialInfo(int32_t materialNodeID, ByRef<::HoudiniEngineUnity::HAPI_MaterialInfo> materialInfo, bool bLogError);
 
   /// @brief Method GetImageInfo, addr 0x21a2340, size 0x8, virtual true, abstract: false, final false
   inline bool GetImageInfo(int32_t materialNodeID, ByRef<::HoudiniEngineUnity::HAPI_ImageInfo> imageInfo);
@@ -684,8 +653,7 @@ public:
   inline bool SetImageInfo(int32_t materialNodeID, ByRef<::HoudiniEngineUnity::HAPI_ImageInfo> imageInfo);
 
   /// @brief Method RenderTextureToImage, addr 0x21a2350, size 0x8, virtual true, abstract: false, final false
-  /// @param bLogError: bool (default: true)
-  inline bool RenderTextureToImage(int32_t materialNodeID, int32_t parmID, bool bLogError = true);
+  inline bool RenderTextureToImage(int32_t materialNodeID, int32_t parmID, bool bLogError);
 
   /// @brief Method RenderCOPToImage, addr 0x21a2358, size 0x8, virtual true, abstract: false, final false
   inline bool RenderCOPToImage(int32_t copNodeID);

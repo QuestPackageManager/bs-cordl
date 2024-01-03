@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Test_HAPI_NodeInfo_Extensions)
 namespace HoudiniEngineUnity {
-class Test_HAPI_NodeInfo;
+struct HAPI_NodeInfo;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_NodeInfo;
+class Test_HAPI_NodeInfo;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

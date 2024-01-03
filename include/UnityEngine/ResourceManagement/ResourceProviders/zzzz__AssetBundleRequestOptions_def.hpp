@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AssetBundleRequestOptions)
 namespace UnityEngine::ResourceManagement::ResourceLocations {
+class ILocationSizeData;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct AssetLoadMode;
-}
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class ILocationSizeData;
 }
 namespace UnityEngine::ResourceManagement {
 class ResourceManager;
@@ -97,6 +97,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData"
   constexpr operator ::UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData"
+  constexpr ::UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData* i___UnityEngine__ResourceManagement__ResourceLocations__ILocationSizeData() noexcept;
 
   constexpr ::StringW& __get_m_Hash();
 

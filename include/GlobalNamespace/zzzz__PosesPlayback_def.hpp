@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PosesPlayback)
 namespace GlobalNamespace {
-class PosesRecordingData;
-}
-namespace UnityEngine {
-class Transform;
+class AudioTimeSyncController;
 }
 namespace GlobalNamespace {
-class AudioTimeSyncController;
+class IBeatSaberLogger;
 }
 namespace GlobalNamespace {
 class PoseObject;
 }
 namespace GlobalNamespace {
-class IBeatSaberLogger;
+class PosesRecordingData;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {

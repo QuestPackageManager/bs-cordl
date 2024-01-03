@@ -8,12 +8,6 @@ CORDL_MODULE_EXPORT(IResolvedStyle)
 namespace UnityEngine::UIElements {
 struct DisplayStyle;
 }
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Color;
-}
 namespace UnityEngine::UIElements {
 struct Scale;
 }
@@ -21,10 +15,16 @@ namespace UnityEngine::UIElements {
 struct StyleFloat;
 }
 namespace UnityEngine::UIElements {
-struct WhiteSpace;
+struct Visibility;
 }
 namespace UnityEngine::UIElements {
-struct Visibility;
+struct WhiteSpace;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(CertificateConfirmationContent)
-namespace Org::BouncyCastle::Cms {
-class DefaultDigestAlgorithmIdentifierFinder;
-}
 namespace Org::BouncyCastle::Asn1::Cmp {
 class CertConfirmContent;
 }
 namespace Org::BouncyCastle::Cmp {
 class CertificateStatus;
+}
+namespace Org::BouncyCastle::Cms {
+class DefaultDigestAlgorithmIdentifierFinder;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cmp {

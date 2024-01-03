@@ -1,19 +1,23 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ExpiringDictionary_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "BGNet/Core/zzzz__ITimeProvider_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__ExpiringDictionary_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "GlobalNamespace/zzzz__OrderedSet_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 /// @brief Convert operator to "::System::IDisposable"
 template <typename TKey, typename TValue> constexpr GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename TKey, typename TValue> constexpr ::System::IDisposable* GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 template <typename TKey, typename TValue> constexpr TKey& GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>::__get_key() {
@@ -74,12 +78,27 @@ template <typename TKey, typename TValue>
 constexpr GlobalNamespace::__ExpiringDictionary_2___Enumerate_d__14<TKey, TValue>::operator ::System::Collections::Generic::IEnumerator_1<TValue>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<TValue>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TValue>"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::IEnumerator_1<TValue>*
+GlobalNamespace::__ExpiringDictionary_2___Enumerate_d__14<TKey, TValue>::i___System__Collections__Generic__IEnumerator_1_TValue_() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<TValue>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 template <typename TKey, typename TValue> constexpr GlobalNamespace::__ExpiringDictionary_2___Enumerate_d__14<TKey, TValue>::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::IEnumerator"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::__ExpiringDictionary_2___Enumerate_d__14<TKey, TValue>::i___System__Collections__IEnumerator() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::IDisposable"
 template <typename TKey, typename TValue> constexpr GlobalNamespace::__ExpiringDictionary_2___Enumerate_d__14<TKey, TValue>::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename TKey, typename TValue> constexpr ::System::IDisposable* GlobalNamespace::__ExpiringDictionary_2___Enumerate_d__14<TKey, TValue>::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 template <typename TKey, typename TValue> constexpr int32_t& GlobalNamespace::__ExpiringDictionary_2___Enumerate_d__14<TKey, TValue>::__get___1__state() {
@@ -191,12 +210,25 @@ template <typename TKey, typename TValue> constexpr ::GlobalNamespace::__Expirin
 template <typename TKey, typename TValue> constexpr GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::IDisposable"
+template <typename TKey, typename TValue> constexpr ::System::IDisposable* GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TValue>"
 template <typename TKey, typename TValue> constexpr GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::operator ::System::Collections::Generic::IEnumerable_1<TValue>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<TValue>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TValue>"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::IEnumerable_1<TValue>* GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::i___System__Collections__Generic__IEnumerable_1_TValue_() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<TValue>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename TKey, typename TValue> constexpr GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename TKey, typename TValue> constexpr ::System::Collections::IEnumerable* GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 template <typename TKey, typename TValue> constexpr ::BGNet::Core::ITimeProvider*& GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::__get__timeProvider() {

@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalPlayerInstaller);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5239)), TypeDefinitionIndex(TypeDefinitionIndex(11138))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138)), TypeDefinitionIndex(TypeDefinitionIndex(5239))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5400))
 // CS Name: ::MultiplayerLocalPlayerInstaller*
 class CORDL_TYPE MultiplayerLocalPlayerInstaller : public ::Zenject::MonoInstaller {

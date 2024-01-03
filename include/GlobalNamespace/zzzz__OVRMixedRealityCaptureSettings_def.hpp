@@ -10,31 +10,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRMixedRealityCaptureSettings)
 namespace GlobalNamespace {
-struct __OVRManager__VirtualGreenScreenType;
-}
-namespace UnityEngine {
-struct LayerMask;
-}
-namespace GlobalNamespace {
-struct __OVRManager__CompositionMethod;
-}
-namespace GlobalNamespace {
-class __OVRManager__InstantiateMrcCameraDelegate;
+class OVRMixedRealityCaptureConfiguration;
 }
 namespace GlobalNamespace {
 struct __OVRManager__CameraDevice;
 }
 namespace GlobalNamespace {
-class OVRMixedRealityCaptureConfiguration;
+struct __OVRManager__CompositionMethod;
+}
+namespace GlobalNamespace {
+struct __OVRManager__DepthQuality;
+}
+namespace GlobalNamespace {
+class __OVRManager__InstantiateMrcCameraDelegate;
 }
 namespace GlobalNamespace {
 struct __OVRManager__MrcActivationMode;
 }
+namespace GlobalNamespace {
+struct __OVRManager__VirtualGreenScreenType;
+}
 namespace UnityEngine {
 struct Color;
 }
-namespace GlobalNamespace {
-struct __OVRManager__DepthQuality;
+namespace UnityEngine {
+struct LayerMask;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -46,9 +46,9 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRMixedRealityCaptureSettings);
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(7640)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7644)), TypeDefinitionIndex(TypeDefinitionIndex(7641)), TypeDefinitionIndex(TypeDefinitionIndex(7642)), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7643))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8135)) CS Name: ::OVRMixedRealityCaptureSettings*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(7640)), TypeDefinitionIndex(TypeDefinitionIndex(7643)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7641)), TypeDefinitionIndex(TypeDefinitionIndex(7644)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(7642)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10210))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8135)) CS Name: ::OVRMixedRealityCaptureSettings*
 class CORDL_TYPE OVRMixedRealityCaptureSettings : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
@@ -226,6 +226,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::OVRMixedRealityCaptureConfiguration"
   constexpr operator ::GlobalNamespace::OVRMixedRealityCaptureConfiguration*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::OVRMixedRealityCaptureConfiguration"
+  constexpr ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* i___GlobalNamespace__OVRMixedRealityCaptureConfiguration() noexcept;
 
   constexpr bool& __get_enableMixedReality();
 

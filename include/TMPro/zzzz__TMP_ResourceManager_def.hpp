@@ -9,14 +9,14 @@ CORDL_MODULE_EXPORT(TMP_ResourceManager)
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace TMPro {
-class TMP_Settings;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace TMPro {
 class TMP_FontAsset;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace TMPro {
+class TMP_Settings;
 }
 // Forward declare root types
 namespace TMPro {

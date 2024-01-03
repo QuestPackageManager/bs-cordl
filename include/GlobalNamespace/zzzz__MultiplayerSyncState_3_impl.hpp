@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerSyncState_3_def.hpp"
-#include "GlobalNamespace/zzzz__StateBuffer_3_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
+#include "GlobalNamespace/zzzz__StateBuffer_3_def.hpp"
 template <typename TStateTable, typename TType, typename TState>
 inline ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>* GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>::get_stateBuffer() {
   auto* ___internal_method =

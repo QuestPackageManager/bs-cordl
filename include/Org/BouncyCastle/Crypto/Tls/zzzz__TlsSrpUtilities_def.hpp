@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsSrpUtilities)
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace System::Collections {
 class IDictionary;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

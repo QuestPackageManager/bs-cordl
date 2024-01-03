@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HashSP800Drbg)
-namespace Org::BouncyCastle::Crypto {
-class IEntropySource;
-}
 namespace Org::BouncyCastle::Crypto::Prng::Drbg {
 class ISP80090Drbg;
 }
-namespace System::Collections {
-class IDictionary;
-}
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
+}
+namespace Org::BouncyCastle::Crypto {
+class IEntropySource;
+}
+namespace System::Collections {
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Prng::Drbg {
@@ -71,6 +71,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg"
   constexpr operator ::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg"
+  constexpr ::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg* i___Org__BouncyCastle__Crypto__Prng__Drbg__ISP80090Drbg() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::IDigest*& __get_mDigest();
 

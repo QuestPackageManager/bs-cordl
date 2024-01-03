@@ -8,8 +8,11 @@ CORDL_MODULE_EXPORT(HealthCheckService)
 namespace GlobalNamespace {
 class IHealthCheckService;
 }
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class IPollable;
+}
+namespace System::Net {
+class HttpListener;
 }
 namespace System::Threading {
 class ManualResetEvent;
@@ -17,11 +20,8 @@ class ManualResetEvent;
 namespace System::Threading {
 class Thread;
 }
-namespace System::Net {
-class HttpListener;
-}
-namespace GlobalNamespace {
-class IPollable;
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -57,11 +57,20 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IHealthCheckService"
   constexpr operator ::GlobalNamespace::IHealthCheckService*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IHealthCheckService"
+  constexpr ::GlobalNamespace::IHealthCheckService* i___GlobalNamespace__IHealthCheckService() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IPollable"
   constexpr operator ::GlobalNamespace::IPollable*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IPollable"
+  constexpr ::GlobalNamespace::IPollable* i___GlobalNamespace__IPollable() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get__port();
 

@@ -12,22 +12,22 @@ namespace System::Text {
 class DecoderNLS;
 }
 namespace System::Text {
+class Decoder;
+}
+namespace System::Text {
 class EncoderNLS;
+}
+namespace System::Text {
+class Encoder;
 }
 namespace System::Text {
 class __UTF32Encoding__UTF32Decoder;
 }
 namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System::Text {
-class Decoder;
-}
-namespace System::Text {
-class Encoder;
+class Object;
 }
 namespace System {
-class Object;
+template <typename T> struct ReadOnlySpan_1;
 }
 // Forward declare root types
 namespace System::Text {

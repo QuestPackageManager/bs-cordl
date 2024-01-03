@@ -43,12 +43,10 @@ public:
   static inline ::StringW TranslateWin32Expression(::StringW expression);
 
   /// @brief Method MatchesWin32Expression, addr 0x2548258, size 0x88, virtual false, abstract: false, final false
-  /// @param ignoreCase: bool (default: true)
-  static inline bool MatchesWin32Expression(::System::ReadOnlySpan_1<char16_t> expression, ::System::ReadOnlySpan_1<char16_t> name, bool ignoreCase = true);
+  static inline bool MatchesWin32Expression(::System::ReadOnlySpan_1<char16_t> expression, ::System::ReadOnlySpan_1<char16_t> name, bool ignoreCase);
 
   /// @brief Method MatchesSimpleExpression, addr 0x2548a34, size 0x88, virtual false, abstract: false, final false
-  /// @param ignoreCase: bool (default: true)
-  static inline bool MatchesSimpleExpression(::System::ReadOnlySpan_1<char16_t> expression, ::System::ReadOnlySpan_1<char16_t> name, bool ignoreCase = true);
+  static inline bool MatchesSimpleExpression(::System::ReadOnlySpan_1<char16_t> expression, ::System::ReadOnlySpan_1<char16_t> name, bool ignoreCase);
 
   /// @brief Method MatchPattern, addr 0x25482e0, size 0x754, virtual false, abstract: false, final false
   static inline bool MatchPattern(::System::ReadOnlySpan_1<char16_t> expression, ::System::ReadOnlySpan_1<char16_t> name, bool ignoreCase, bool useExtendedWildcards);

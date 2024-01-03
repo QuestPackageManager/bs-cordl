@@ -11,26 +11,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RenderChainVEData)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::UIElements::UIR::Implementation {
+struct ClipMethod;
+}
 namespace UnityEngine::UIElements::UIR {
-class RenderChainCommand;
+struct BMPAlloc;
+}
+namespace UnityEngine::UIElements::UIR {
+template <typename T> class BasicNode_1;
 }
 namespace UnityEngine::UIElements::UIR {
 class MeshHandle;
 }
 namespace UnityEngine::UIElements::UIR {
-struct RenderChainTextEntry;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class RenderChainCommand;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T> class BasicNode_1;
+struct RenderChainTextEntry;
 }
 namespace UnityEngine::UIElements::UIR {
 struct RenderDataDirtyTypes;
@@ -38,14 +38,14 @@ struct RenderDataDirtyTypes;
 namespace UnityEngine::UIElements::UIR {
 struct TextureEntry;
 }
-namespace UnityEngine::UIElements::UIR {
-struct BMPAlloc;
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 namespace UnityEngine {
 struct Color;
 }
-namespace UnityEngine::UIElements::UIR::Implementation {
-struct ClipMethod;
+namespace UnityEngine {
+struct Matrix4x4;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -57,8 +57,8 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::RenderChainVEData);
 // SizeInfo { instance_size: 344, native_size: -1, calculated_instance_size: 344, calculated_native_size: 360, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7445)), TypeDefinitionIndex(TypeDefinitionIndex(7394)), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(7374))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7396)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(7394)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7445)), TypeDefinitionIndex(TypeDefinitionIndex(7374))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7396)) CS Name:
 // ::UnityEngine.UIElements.UIR::RenderChainVEData
 struct CORDL_TYPE RenderChainVEData {
 public:

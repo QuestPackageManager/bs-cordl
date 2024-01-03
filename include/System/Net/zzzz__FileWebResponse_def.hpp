@@ -6,6 +6,18 @@ CORDL_MODULE_INIT
 #include "System/Net/zzzz__WebResponse_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileWebResponse)
+namespace System::IO {
+struct FileAccess;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System::Net {
+struct CloseExState;
+}
+namespace System::Net {
+class FileWebRequest;
+}
 namespace System::Net {
 class ICloseEx;
 }
@@ -18,23 +30,11 @@ class ISerializable;
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
-namespace System::IO {
-class Stream;
-}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System {
 class Uri;
-}
-namespace System::Net {
-struct CloseExState;
-}
-namespace System::IO {
-struct FileAccess;
-}
-namespace System::Net {
-class FileWebRequest;
 }
 // Forward declare root types
 namespace System::Net {
@@ -77,8 +77,14 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+
   /// @brief Convert operator to "::System::Net::ICloseEx"
   constexpr operator ::System::Net::ICloseEx*() noexcept;
+
+  /// @brief Convert to "::System::Net::ICloseEx"
+  constexpr ::System::Net::ICloseEx* i___System__Net__ICloseEx() noexcept;
 
   constexpr bool& __get_m_closed();
 

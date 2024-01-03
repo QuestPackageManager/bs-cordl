@@ -12,6 +12,24 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRFaceExpressions)
+namespace GlobalNamespace {
+struct __OVRFaceExpressions__FaceExpression;
+}
+namespace GlobalNamespace {
+struct __OVRFaceExpressions__FaceExpressionsEnumerator;
+}
+namespace GlobalNamespace {
+struct __OVRFaceExpressions__FaceRegionConfidence;
+}
+namespace GlobalNamespace {
+class __OVRFaceExpressions__WeightProvider;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyCollection_1;
 }
@@ -21,26 +39,8 @@ class IEnumerable;
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace GlobalNamespace {
-struct __OVRFaceExpressions__FaceExpressionsEnumerator;
-}
-namespace GlobalNamespace {
-class __OVRFaceExpressions__WeightProvider;
-}
 namespace System {
 template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-struct __OVRFaceExpressions__FaceRegionConfidence;
-}
-namespace GlobalNamespace {
-struct __OVRFaceExpressions__FaceExpression;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 namespace System {
 class IDisposable;
@@ -468,11 +468,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<float_t>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<float_t>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<float_t>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<float_t>* i___System__Collections__Generic__IEnumerator_1_float_t_();
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*();
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator();
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   /// @brief Method .ctor, addr 0x271d634, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<float_t, ::Array<float_t>*> array);
@@ -528,7 +537,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRFaceExpressions__FaceExpressionsE
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7679)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7795))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7679)), TypeDefinitionIndex(TypeDefinitionIndex(7795))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7550))
 // CS Name: ::OVRFaceExpressions*
 class CORDL_TYPE OVRFaceExpressions : public ::UnityEngine::MonoBehaviour {
@@ -570,14 +579,26 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<float_t>"
   constexpr operator ::System::Collections::Generic::IReadOnlyCollection_1<float_t>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<float_t>"
+  constexpr ::System::Collections::Generic::IReadOnlyCollection_1<float_t>* i___System__Collections__Generic__IReadOnlyCollection_1_float_t_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<float_t>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<float_t>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<float_t>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<float_t>* i___System__Collections__Generic__IEnumerable_1_float_t_() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::__OVRFaceExpressions__WeightProvider"
   constexpr operator ::GlobalNamespace::__OVRFaceExpressions__WeightProvider*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::__OVRFaceExpressions__WeightProvider"
+  constexpr ::GlobalNamespace::__OVRFaceExpressions__WeightProvider* i___GlobalNamespace____OVRFaceExpressions__WeightProvider() noexcept;
 
   constexpr bool& __get__ValidExpressions_k__BackingField();
 
@@ -659,8 +680,7 @@ public:
   inline void CheckValidity();
 
   /// @brief Method CopyTo, addr 0x271d360, size 0x250, virtual false, abstract: false, final false
-  /// @param startIndex: int32_t (default: static_cast<int32_t>(0x0))
-  inline void CopyTo(::ArrayW<float_t, ::Array<float_t>*> array, int32_t startIndex = static_cast<int32_t>(0x0));
+  inline void CopyTo(::ArrayW<float_t, ::Array<float_t>*> array, int32_t startIndex);
 
   /// @brief Method ToArray, addr 0x271d5b0, size 0x64, virtual false, abstract: false, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> ToArray();

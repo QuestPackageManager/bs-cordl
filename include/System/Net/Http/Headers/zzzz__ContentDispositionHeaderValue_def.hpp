@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ContentDispositionHeaderValue)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
 }
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Net::Http::Headers {
+class NameValueHeaderValue;
 }
 namespace System {
 class ICloneable;
 }
-namespace System::Net::Http::Headers {
-class NameValueHeaderValue;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -48,6 +48,9 @@ public:
 
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
+
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
   constexpr ::StringW& __get_dispositionType();
 

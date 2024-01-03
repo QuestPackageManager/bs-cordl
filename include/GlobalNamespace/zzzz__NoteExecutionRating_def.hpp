@@ -10,10 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoteExecutionRating)
 namespace GlobalNamespace {
-struct __NoteExecutionRating__Rating;
+struct __NoteData__ScoringType;
 }
 namespace GlobalNamespace {
-struct __NoteData__ScoringType;
+struct __NoteExecutionRating__Rating;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -83,7 +83,7 @@ static_assert(offsetof(::GlobalNamespace::__NoteExecutionRating__Rating, value__
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14758)), TypeDefinitionIndex(TypeDefinitionIndex(4523)), TypeDefinitionIndex(TypeDefinitionIndex(4135))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4135)), TypeDefinitionIndex(TypeDefinitionIndex(14758)), TypeDefinitionIndex(TypeDefinitionIndex(4523))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4524))
 // CS Name: ::NoteExecutionRating*
 class CORDL_TYPE NoteExecutionRating : public ::GlobalNamespace::BeatmapObjectExecutionRating {

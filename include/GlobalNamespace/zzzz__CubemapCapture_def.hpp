@@ -18,9 +18,6 @@ namespace UnityEngine {
 class Camera;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
 struct CubemapFace;
 }
 namespace UnityEngine {
@@ -28,6 +25,9 @@ class Cubemap;
 }
 namespace UnityEngine {
 class Texture2D;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -101,8 +101,8 @@ static_assert(offsetof(::GlobalNamespace::__CubemapCapture__ImageType, value__) 
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(6242)), TypeDefinitionIndex(TypeDefinitionIndex(5829)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10072))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5830)) CS Name: ::CubemapCapture*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6242)), TypeDefinitionIndex(TypeDefinitionIndex(10072)), TypeDefinitionIndex(TypeDefinitionIndex(5829)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10225))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5830)) CS Name: ::CubemapCapture*
 class CORDL_TYPE CubemapCapture : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations

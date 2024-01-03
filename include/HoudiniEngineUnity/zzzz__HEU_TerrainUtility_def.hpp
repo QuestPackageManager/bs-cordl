@@ -10,7 +10,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_TerrainUtility)
 namespace HoudiniEngineUnity {
+struct HAPI_VolumeInfo;
+}
+namespace HoudiniEngineUnity {
+class HEU_DetailProperties;
+}
+namespace HoudiniEngineUnity {
+class HEU_DetailPrototype;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
+}
+namespace HoudiniEngineUnity {
+class HEU_TreePrototypeInfo;
+}
+namespace HoudiniEngineUnity {
 class HEU_VolumeScatterTrees;
+}
+namespace HoudiniEngineUnity {
+struct HFLayerType;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace UnityEngine {
 class TerrainData;
@@ -19,34 +43,10 @@ namespace UnityEngine {
 class TerrainLayer;
 }
 namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
 class Terrain;
-}
-namespace HoudiniEngineUnity {
-class HEU_TreePrototypeInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_VolumeInfo;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace HoudiniEngineUnity {
-class HEU_DetailProperties;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
-namespace HoudiniEngineUnity {
-class HEU_DetailPrototype;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace HoudiniEngineUnity {
-struct HFLayerType;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -70,8 +70,7 @@ public:
                                                ByRef<::UnityEngine::Terrain*> terrain, ::StringW bakedMaterialPath);
 
   /// @brief Method SetTerrainMaterial, addr 0x21dc7e4, size 0x1d8, virtual false, abstract: false, final false
-  /// @param bakedMaterialPath: ::StringW (default: u"")
-  static inline void SetTerrainMaterial(::UnityEngine::Terrain* terrain, ::StringW specifiedMaterialName, ::StringW bakedMaterialPath = u"");
+  static inline void SetTerrainMaterial(::UnityEngine::Terrain* terrain, ::StringW specifiedMaterialName, ::StringW bakedMaterialPath);
 
   /// @brief Method GetDefaultTerrainShaderName, addr 0x21dd0c0, size 0xa0, virtual false, abstract: false, final false
   static inline ::StringW GetDefaultTerrainShaderName();

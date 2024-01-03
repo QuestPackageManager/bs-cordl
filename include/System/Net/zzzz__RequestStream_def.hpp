@@ -10,17 +10,17 @@ CORDL_MODULE_EXPORT(RequestStream)
 namespace System::IO {
 struct SeekOrigin;
 }
-namespace System {
-class Object;
-}
-namespace System {
-class AsyncCallback;
-}
 namespace System::IO {
 class Stream;
 }
 namespace System {
+class AsyncCallback;
+}
+namespace System {
 class IAsyncResult;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Net {

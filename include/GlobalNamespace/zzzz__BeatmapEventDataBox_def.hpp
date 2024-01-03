@@ -10,22 +10,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapEventDataBox)
 namespace GlobalNamespace {
-struct __BeatmapEventDataBox__DistributionParamType;
-}
-namespace GlobalNamespace {
-class IndexFilter;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-class IBeatToTimeConvertor;
+class BeatmapEventData;
 }
 namespace GlobalNamespace {
 struct EaseType;
 }
 namespace GlobalNamespace {
-class BeatmapEventData;
+class IBeatToTimeConvertor;
+}
+namespace GlobalNamespace {
+class IndexFilter;
+}
+namespace GlobalNamespace {
+struct __BeatmapEventDataBox__DistributionParamType;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -91,7 +91,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapEventDataBox__DistributionPar
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4300)), TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4300)), TypeDefinitionIndex(TypeDefinitionIndex(16090))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4301))
 // CS Name: ::BeatmapEventDataBox*
 class CORDL_TYPE BeatmapEventDataBox : public ::System::Object {

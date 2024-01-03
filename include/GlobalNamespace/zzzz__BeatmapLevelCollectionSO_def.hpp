@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(BeatmapLevelCollectionSO)
 namespace GlobalNamespace {
+class BeatmapLevelSO;
+}
+namespace GlobalNamespace {
 class IBeatmapLevelCollection;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-class BeatmapLevelSO;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
@@ -40,6 +40,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IBeatmapLevelCollection"
   constexpr operator ::GlobalNamespace::IBeatmapLevelCollection*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IBeatmapLevelCollection"
+  constexpr ::GlobalNamespace::IBeatmapLevelCollection* i___GlobalNamespace__IBeatmapLevelCollection() noexcept;
 
   constexpr ::ArrayW<::GlobalNamespace::BeatmapLevelSO*, ::Array<::GlobalNamespace::BeatmapLevelSO*>*>& __get__beatmapLevels();
 

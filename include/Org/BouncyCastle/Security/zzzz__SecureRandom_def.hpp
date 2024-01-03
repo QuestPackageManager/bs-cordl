@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SecureRandom)
 namespace Org::BouncyCastle::Crypto::Prng {
-class IRandomGenerator;
+class DigestRandomGenerator;
 }
 namespace Org::BouncyCastle::Crypto::Prng {
-class DigestRandomGenerator;
+class IRandomGenerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Security {

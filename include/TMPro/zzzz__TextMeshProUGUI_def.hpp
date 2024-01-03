@@ -13,23 +13,26 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextMeshProUGUI)
-namespace UnityEngine::UI {
-struct CanvasUpdate;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
-namespace UnityEngine {
-class Mesh;
-}
-namespace TMPro {
-class __TextMeshProUGUI___DelayedMaterialRebuild_d__19;
-}
-namespace UnityEngine {
-struct Bounds;
-}
-namespace UnityEngine {
-struct Rect;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 template <typename T> class Action_1;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace TMPro {
+class TMP_SubMeshUI;
+}
+namespace TMPro {
+class TMP_TextInfo;
 }
 namespace TMPro {
 struct TMP_VertexDataUpdateFlags;
@@ -37,53 +40,50 @@ struct TMP_VertexDataUpdateFlags;
 namespace TMPro {
 struct __TMP_Text__UnicodeChar;
 }
-namespace UnityEngine {
-struct Color;
+namespace TMPro {
+class __TextMeshProUGUI___DelayedGraphicRebuild_d__18;
 }
-namespace UnityEngine {
-struct Color32;
+namespace TMPro {
+class __TextMeshProUGUI___DelayedMaterialRebuild_d__19;
 }
-namespace UnityEngine {
-class CanvasRenderer;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine {
-class Material;
+namespace UnityEngine::UI {
+struct CanvasUpdate;
 }
 namespace UnityEngine::UI {
 class ILayoutElement;
 }
 namespace UnityEngine {
+struct Bounds;
+}
+namespace UnityEngine {
+class CanvasRenderer;
+}
+namespace UnityEngine {
 class Canvas;
+}
+namespace UnityEngine {
+struct Color32;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+class Coroutine;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace UnityEngine {
+struct Rect;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
 struct Vector4;
-}
-namespace UnityEngine {
-class Coroutine;
-}
-namespace TMPro {
-class TMP_TextInfo;
-}
-namespace TMPro {
-class __TextMeshProUGUI___DelayedGraphicRebuild_d__18;
-}
-namespace TMPro {
-class TMP_SubMeshUI;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace TMPro {
@@ -125,11 +125,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -230,11 +239,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -313,8 +331,8 @@ static_assert(offsetof(::TMPro::__TextMeshProUGUI___DelayedMaterialRebuild_d__19
 // SizeInfo { instance_size: 1944, native_size: -1, calculated_instance_size: 1944, calculated_native_size: 1941, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(12446)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(10165))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12310)) CS Name: ::TMPro::TextMeshProUGUI*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(10165)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12446)), TypeDefinitionIndex(TypeDefinitionIndex(10246))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12310)) CS Name: ::TMPro::TextMeshProUGUI*
 class CORDL_TYPE TextMeshProUGUI : public ::TMPro::TMP_Text {
 public:
   // Declarations
@@ -457,6 +475,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::UI::ILayoutElement"
   constexpr operator ::UnityEngine::UI::ILayoutElement*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UI::ILayoutElement"
+  constexpr ::UnityEngine::UI::ILayoutElement* i___UnityEngine__UI__ILayoutElement() noexcept;
 
   constexpr bool& __get_m_isRebuildingLayout();
 
@@ -734,9 +755,7 @@ public:
   inline void InternalCrossFadeAlpha(float_t alpha, float_t duration, bool ignoreTimeScale);
 
   /// @brief Method ForceMeshUpdate, addr 0x2bf8c7c, size 0xa8, virtual true, abstract: false, final false
-  /// @param ignoreActiveState: bool (default: false)
-  /// @param forceTextReparsing: bool (default: false)
-  inline void ForceMeshUpdate(bool ignoreActiveState = false, bool forceTextReparsing = false);
+  inline void ForceMeshUpdate(bool ignoreActiveState, bool forceTextReparsing);
 
   /// @brief Method GetTextInfo, addr 0x2bf8d24, size 0xe8, virtual true, abstract: false, final false
   inline ::TMPro::TMP_TextInfo* GetTextInfo(::StringW text);

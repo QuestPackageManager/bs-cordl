@@ -2,8 +2,8 @@
 #include "GlobalNamespace/zzzz__MultiplayerAvatarsData_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Multiplayer/TimelineMock/zzzz__StaticAvatarVisualDataProvider_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerAvatarsData_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__IAvatarVisualDataProvider_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerAvatarsData_def.hpp"
 //  Writing Method size for method: ::BeatSaber::Multiplayer::TimelineMock::StaticAvatarVisualDataProvider.get_avatarsData
 template <>
 
@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0xe0a624;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Multiplayer::TimelineMock::StaticAvatarVisualDataProvider*>::get(),
                                                  "get_avatarsData", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x34;
   constexpr static std::size_t addrs = 0xe0a638;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Multiplayer::TimelineMock::StaticAvatarVisualDataProvider*>::get(), ".ctor", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerAvatarsData>::get() })));
@@ -36,6 +36,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::BeatSaber::AvatarCore::IAvatarVisualDataProvider"
 constexpr BeatSaber::Multiplayer::TimelineMock::StaticAvatarVisualDataProvider::operator ::BeatSaber::AvatarCore::IAvatarVisualDataProvider*() noexcept {
+  return static_cast<::BeatSaber::AvatarCore::IAvatarVisualDataProvider*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::BeatSaber::AvatarCore::IAvatarVisualDataProvider"
+constexpr ::BeatSaber::AvatarCore::IAvatarVisualDataProvider* BeatSaber::Multiplayer::TimelineMock::StaticAvatarVisualDataProvider::i___BeatSaber__AvatarCore__IAvatarVisualDataProvider() noexcept {
   return static_cast<::BeatSaber::AvatarCore::IAvatarVisualDataProvider*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::MultiplayerAvatarsData& BeatSaber::Multiplayer::TimelineMock::StaticAvatarVisualDataProvider::__get__avatarsData() {

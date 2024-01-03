@@ -4,12 +4,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SignedDataParser)
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
 namespace Org::BouncyCastle::Asn1::Cms {
 class ContentInfoParser;
 }
@@ -18,6 +12,12 @@ class Asn1SequenceParser;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1SetParser;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {

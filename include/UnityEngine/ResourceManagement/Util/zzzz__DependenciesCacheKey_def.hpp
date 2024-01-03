@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DependenciesCacheKey)
-namespace System {
-class Object;
-}
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace System {
+class Object;
 }
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
@@ -46,8 +46,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IOperationCacheKey"
   constexpr operator ::UnityEngine::ResourceManagement::Util::IOperationCacheKey*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::ResourceManagement::Util::IOperationCacheKey"
+  constexpr ::UnityEngine::ResourceManagement::Util::IOperationCacheKey* i___UnityEngine__ResourceManagement__Util__IOperationCacheKey() noexcept;
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>*() noexcept;
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>"
+  constexpr ::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>* i___System__IEquatable_1___UnityEngine__ResourceManagement__Util__IOperationCacheKey__() noexcept;
 
   constexpr ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*& __get_m_Dependencies();
 

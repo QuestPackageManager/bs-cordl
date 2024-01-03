@@ -7,8 +7,8 @@ CORDL_MODULE_EXPORT(SurrogateForCyclicalReference)
 namespace System::Runtime::Serialization {
 class ISerializationSurrogate;
 }
-namespace System {
-class Object;
+namespace System::Runtime::Serialization {
+class ISurrogateSelector;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
@@ -16,8 +16,8 @@ class SerializationInfo;
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System::Runtime::Serialization {
-class ISurrogateSelector;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -40,6 +40,9 @@ public:
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializationSurrogate"
   constexpr operator ::System::Runtime::Serialization::ISerializationSurrogate*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializationSurrogate"
+  constexpr ::System::Runtime::Serialization::ISerializationSurrogate* i___System__Runtime__Serialization__ISerializationSurrogate() noexcept;
 
   constexpr ::System::Runtime::Serialization::ISerializationSurrogate*& __get_innerSurrogate();
 

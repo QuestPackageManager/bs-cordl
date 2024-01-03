@@ -6,12 +6,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IAP)
-namespace Oculus::Platform {
-class Request;
-}
-namespace Oculus::Platform {
-template <typename T> class Request_1;
-}
 namespace Oculus::Platform::Models {
 class ProductList;
 }
@@ -20,6 +14,12 @@ class PurchaseList;
 }
 namespace Oculus::Platform::Models {
 class Purchase;
+}
+namespace Oculus::Platform {
+template <typename T> class Request_1;
+}
+namespace Oculus::Platform {
+class Request;
 }
 // Forward declare root types
 namespace Oculus::Platform {

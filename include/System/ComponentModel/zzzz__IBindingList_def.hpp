@@ -4,23 +4,23 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IBindingList)
-namespace System::ComponentModel {
-struct ListSortDirection;
-}
-namespace System {
-class Object;
-}
 namespace System::Collections {
 class ICollection;
-}
-namespace System::ComponentModel {
-class PropertyDescriptor;
 }
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections {
 class IList;
+}
+namespace System::ComponentModel {
+struct ListSortDirection;
+}
+namespace System::ComponentModel {
+class PropertyDescriptor;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -59,11 +59,20 @@ public:
   /// @brief Convert operator to "::System::Collections::IList"
   constexpr operator ::System::Collections::IList*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IList"
+  constexpr ::System::Collections::IList* i___System__Collections__IList() noexcept;
+
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
 
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Method get_AllowNew, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_AllowNew();

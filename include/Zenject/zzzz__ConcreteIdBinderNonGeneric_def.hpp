@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__ConcreteBinderNonGeneric_def.hpp"
 CORDL_MODULE_EXPORT(ConcreteIdBinderNonGeneric)
-namespace Zenject {
-class BindStatement;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-class BindInfo;
-}
 namespace System {
 class Object;
 }
 namespace Zenject {
+class BindInfo;
+}
+namespace Zenject {
+class BindStatement;
+}
+namespace Zenject {
 class ConcreteBinderNonGeneric;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {

@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/InputSystem/zzzz__InputProcessor_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputProcessor_1_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 template <typename TValue> inline TValue UnityEngine::InputSystem::InputProcessor_1<TValue>::Process(TValue value, ::UnityEngine::InputSystem::InputControl* control) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputProcessor_1<TValue>*>::get(), 6)));

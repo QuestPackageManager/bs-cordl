@@ -9,20 +9,20 @@ CORDL_MODULE_EXPORT(MarkerList)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace UnityEngine {
-class ScriptableObject;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 class Type;
 }
+namespace UnityEngine::Playables {
+class PlayableAsset;
+}
 namespace UnityEngine::Timeline {
 class IMarker;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::Playables {
-class PlayableAsset;
+namespace UnityEngine::Timeline {
+class TimelineAsset;
 }
 namespace UnityEngine::Timeline {
 class TrackAsset;
@@ -30,8 +30,8 @@ class TrackAsset;
 namespace UnityEngine {
 class ISerializationCallbackReceiver;
 }
-namespace UnityEngine::Timeline {
-class TimelineAsset;
+namespace UnityEngine {
+class ScriptableObject;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -57,6 +57,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*();
+
+  /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
+  constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver();
 
   /// @brief Method get_markers, addr 0x2c687e4, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Timeline::IMarker*>* get_markers();

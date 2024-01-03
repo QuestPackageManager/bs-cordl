@@ -12,20 +12,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputControlExtensions)
-namespace UnityEngine::InputSystem {
-struct __InputControlExtensions__InputEventControlCollection;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
-namespace UnityEngine::InputSystem {
-struct __InputControlExtensions__DeviceBuilder;
-}
-namespace UnityEngine::InputSystem {
-template <typename TValue> class InputControl_1;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System::Text {
 class StringBuilder;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -33,56 +42,47 @@ class Object;
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputStateBlock;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct InternedString;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct PrimitiveValue;
 }
 namespace UnityEngine::InputSystem {
-class InputDevice;
-}
-namespace UnityEngine::InputSystem {
-struct __InputControlExtensions__Enumerate;
-}
-namespace UnityEngine {
-struct Vector2;
+template <typename TValue> class InputControl_1;
 }
 namespace UnityEngine::InputSystem {
 class InputControl;
 }
 namespace UnityEngine::InputSystem {
-struct __InputControlExtensions__InputEventControlEnumerator;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
-}
-namespace UnityEngine::InputSystem {
-class __InputControlExtensions___GetAllButtonPresses_d__43;
+class InputDevice;
 }
 namespace UnityEngine::InputSystem {
 struct __InputControlExtensions__ControlBuilder;
 }
-namespace System {
-class IDisposable;
+namespace UnityEngine::InputSystem {
+struct __InputControlExtensions__DeviceBuilder;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace UnityEngine::InputSystem {
+struct __InputControlExtensions__Enumerate;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace UnityEngine::InputSystem {
+struct __InputControlExtensions__InputEventControlCollection;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace UnityEngine::InputSystem {
+struct __InputControlExtensions__InputEventControlEnumerator;
 }
-namespace UnityEngine::InputSystem::Utilities {
-struct InternedString;
+namespace UnityEngine::InputSystem {
+class __InputControlExtensions___GetAllButtonPresses_d__43;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputStateBlock;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct PrimitiveValue;
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -191,8 +191,14 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputControl*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputControl*>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputControl*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputControl*>* i___System__Collections__Generic__IEnumerable_1___UnityEngine__InputSystem__InputControl__();
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable();
 
   /// @brief Method get_eventPtr, addr 0x2a66640, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventPtr get_eventPtr();
@@ -249,7 +255,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputControlExtensions__Inp
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 124, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6217)), TypeDefinitionIndex(TypeDefinitionIndex(6536))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6536)), TypeDefinitionIndex(TypeDefinitionIndex(6217))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6219))
 // CS Name: ::InputControlExtensions::InputEventControlEnumerator
 struct CORDL_TYPE __InputControlExtensions__InputEventControlEnumerator {
@@ -262,16 +268,24 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputControl*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputControl*>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputControl*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputControl*>* i___System__Collections__Generic__IEnumerator_1___UnityEngine__InputSystem__InputControl__();
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*();
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator();
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
+
   /// @brief Method .ctor, addr 0x2a66648, size 0x15c, virtual false, abstract: false, final false
-  /// @param magnitudeThreshold: float_t (default: 0.0)
   inline void _ctor(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, ::UnityEngine::InputSystem::InputDevice* device,
-                    ::UnityEngine::InputSystem::__InputControlExtensions__Enumerate flags, float_t magnitudeThreshold = 0.0);
+                    ::UnityEngine::InputSystem::__InputControlExtensions__Enumerate flags, float_t magnitudeThreshold);
 
   /// @brief Method CheckDefault, addr 0x2a66d64, size 0x24, virtual false, abstract: false, final false
   inline bool CheckDefault(uint32_t numBits);
@@ -577,7 +591,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputControlExtensions__Dev
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6536)), TypeDefinitionIndex(TypeDefinitionIndex(6219)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6219)), TypeDefinitionIndex(TypeDefinitionIndex(6536))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6222))
 // CS Name: ::InputControlExtensions::<GetAllButtonPresses>d__43*
 class CORDL_TYPE __InputControlExtensions___GetAllButtonPresses_d__43 : public ::System::Object {
@@ -621,17 +635,34 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputControl*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputControl*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputControl*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputControl*>*
+  i___System__Collections__Generic__IEnumerable_1___UnityEngine__InputSystem__InputControl__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputControl*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputControl*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputControl*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputControl*>*
+  i___System__Collections__Generic__IEnumerator_1___UnityEngine__InputSystem__InputControl__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -818,12 +849,10 @@ public:
   template <typename TControl> static inline TControl FindInParentChain(::UnityEngine::InputSystem::InputControl* control);
 
   /// @brief Method IsPressed, addr 0x2a64448, size 0x148, virtual false, abstract: false, final false
-  /// @param buttonPressPoint: float_t (default: 0.0)
-  static inline bool IsPressed(::UnityEngine::InputSystem::InputControl* control, float_t buttonPressPoint = 0.0);
+  static inline bool IsPressed(::UnityEngine::InputSystem::InputControl* control, float_t buttonPressPoint);
 
   /// @brief Method IsActuated, addr 0x2a64590, size 0xcc, virtual false, abstract: false, final false
-  /// @param threshold: float_t (default: 0.0)
-  static inline bool IsActuated(::UnityEngine::InputSystem::InputControl* control, float_t threshold = 0.0);
+  static inline bool IsActuated(::UnityEngine::InputSystem::InputControl* control, float_t threshold);
 
   /// @brief Method ReadValueAsObject, addr 0x2a63ab8, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::Object* ReadValueAsObject(::UnityEngine::InputSystem::InputControl* control);
@@ -887,8 +916,7 @@ public:
   static inline bool CheckStateIsAtDefault(::UnityEngine::InputSystem::InputControl* control);
 
   /// @brief Method CheckStateIsAtDefault, addr 0x2a64d14, size 0xe0, virtual false, abstract: false, final false
-  /// @param maskPtr: ::cordl_internals::Ptr<void> (default: nullptr)
-  static inline bool CheckStateIsAtDefault(::UnityEngine::InputSystem::InputControl* control, ::cordl_internals::Ptr<void> statePtr, ::cordl_internals::Ptr<void> maskPtr = nullptr);
+  static inline bool CheckStateIsAtDefault(::UnityEngine::InputSystem::InputControl* control, ::cordl_internals::Ptr<void> statePtr, ::cordl_internals::Ptr<void> maskPtr);
 
   /// @brief Method CheckStateIsAtDefaultIgnoringNoise, addr 0x2a64ea8, size 0x74, virtual false, abstract: false, final false
   static inline bool CheckStateIsAtDefaultIgnoringNoise(::UnityEngine::InputSystem::InputControl* control);
@@ -900,13 +928,11 @@ public:
   static inline bool CompareStateIgnoringNoise(::UnityEngine::InputSystem::InputControl* control, ::cordl_internals::Ptr<void> statePtr);
 
   /// @brief Method CompareState, addr 0x2a64df4, size 0xb4, virtual false, abstract: false, final false
-  /// @param maskPtr: ::cordl_internals::Ptr<void> (default: nullptr)
   static inline bool CompareState(::UnityEngine::InputSystem::InputControl* control, ::cordl_internals::Ptr<void> firstStatePtr, ::cordl_internals::Ptr<void> secondStatePtr,
-                                  ::cordl_internals::Ptr<void> maskPtr = nullptr);
+                                  ::cordl_internals::Ptr<void> maskPtr);
 
   /// @brief Method CompareState, addr 0x2a650d8, size 0xb4, virtual false, abstract: false, final false
-  /// @param maskPtr: ::cordl_internals::Ptr<void> (default: nullptr)
-  static inline bool CompareState(::UnityEngine::InputSystem::InputControl* control, ::cordl_internals::Ptr<void> statePtr, ::cordl_internals::Ptr<void> maskPtr = nullptr);
+  static inline bool CompareState(::UnityEngine::InputSystem::InputControl* control, ::cordl_internals::Ptr<void> statePtr, ::cordl_internals::Ptr<void> maskPtr);
 
   /// @brief Method HasValueChangeInState, addr 0x2a6518c, size 0xb4, virtual false, abstract: false, final false
   static inline bool HasValueChangeInState(::UnityEngine::InputSystem::InputControl* control, ::cordl_internals::Ptr<void> statePtr);
@@ -925,8 +951,7 @@ public:
   static inline bool ResetToDefaultStateInEvent(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
   /// @brief Method QueueValueChange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param time: double_t (default: -1.0)
-  template <typename TValue> static inline void QueueValueChange(::UnityEngine::InputSystem::InputControl_1<TValue>* control, TValue value, double_t time = -1.0);
+  template <typename TValue> static inline void QueueValueChange(::UnityEngine::InputSystem::InputControl_1<TValue>* control, TValue value, double_t time);
 
   /// @brief Method AccumulateValueInEvent, addr 0x2a657cc, size 0x100, virtual false, abstract: false, final false
   static inline void AccumulateValueInEvent(::UnityEngine::InputSystem::InputControl_1<float_t>* control, ::cordl_internals::Ptr<void> currentStatePtr,
@@ -941,39 +966,26 @@ public:
   static inline void FindControlsRecursive(::UnityEngine::InputSystem::InputControl* parent, ::System::Collections::Generic::IList_1<TControl>* controls, ::System::Func_2<TControl, bool>* predicate);
 
   /// @brief Method BuildPath, addr 0x2a659d0, size 0x2dc, virtual false, abstract: false, final false
-  /// @param builder: ::System::Text::StringBuilder* (default: nullptr)
-  static inline ::StringW BuildPath(::UnityEngine::InputSystem::InputControl* control, ::StringW deviceLayout, ::System::Text::StringBuilder* builder = nullptr);
+  static inline ::StringW BuildPath(::UnityEngine::InputSystem::InputControl* control, ::StringW deviceLayout, ::System::Text::StringBuilder* builder);
 
   /// @brief Method EnumerateControls, addr 0x2a65cac, size 0x22c, virtual false, abstract: false, final false
-  /// @param device: ::UnityEngine::InputSystem::InputDevice* (default: nullptr)
-  /// @param magnitudeThreshold: float_t (default: 0.0)
   static inline ::UnityEngine::InputSystem::__InputControlExtensions__InputEventControlCollection EnumerateControls(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr,
                                                                                                                     ::UnityEngine::InputSystem::__InputControlExtensions__Enumerate flags,
-                                                                                                                    ::UnityEngine::InputSystem::InputDevice* device = nullptr,
-                                                                                                                    float_t magnitudeThreshold = 0.0);
+                                                                                                                    ::UnityEngine::InputSystem::InputDevice* device, float_t magnitudeThreshold);
 
   /// @brief Method EnumerateChangedControls, addr 0x2a65ed8, size 0x38, virtual false, abstract: false, final false
-  /// @param device: ::UnityEngine::InputSystem::InputDevice* (default: nullptr)
-  /// @param magnitudeThreshold: float_t (default: 0.0)
-  static inline ::UnityEngine::InputSystem::__InputControlExtensions__InputEventControlCollection
-  EnumerateChangedControls(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, ::UnityEngine::InputSystem::InputDevice* device = nullptr, float_t magnitudeThreshold = 0.0);
+  static inline ::UnityEngine::InputSystem::__InputControlExtensions__InputEventControlCollection EnumerateChangedControls(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr,
+                                                                                                                           ::UnityEngine::InputSystem::InputDevice* device, float_t magnitudeThreshold);
 
   /// @brief Method HasButtonPress, addr 0x2a65f10, size 0x1c, virtual false, abstract: false, final false
-  /// @param magnitude: float_t (default: -1.0)
-  /// @param buttonControlsOnly: bool (default: true)
-  static inline bool HasButtonPress(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, float_t magnitude = -1.0, bool buttonControlsOnly = true);
+  static inline bool HasButtonPress(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, float_t magnitude, bool buttonControlsOnly);
 
   /// @brief Method GetFirstButtonPressOrNull, addr 0x2a62b58, size 0x1d8, virtual false, abstract: false, final false
-  /// @param magnitude: float_t (default: -1.0)
-  /// @param buttonControlsOnly: bool (default: true)
-  static inline ::UnityEngine::InputSystem::InputControl* GetFirstButtonPressOrNull(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, float_t magnitude = -1.0,
-                                                                                    bool buttonControlsOnly = true);
+  static inline ::UnityEngine::InputSystem::InputControl* GetFirstButtonPressOrNull(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, float_t magnitude, bool buttonControlsOnly);
 
   /// @brief Method GetAllButtonPresses, addr 0x2a66294, size 0x9c, virtual false, abstract: false, final false
-  /// @param magnitude: float_t (default: -1.0)
-  /// @param buttonControlsOnly: bool (default: true)
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputControl*>* GetAllButtonPresses(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr,
-                                                                                                                              float_t magnitude = -1.0, bool buttonControlsOnly = true);
+                                                                                                                              float_t magnitude, bool buttonControlsOnly);
 
   /// @brief Method Setup, addr 0x2a66364, size 0xd0, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::__InputControlExtensions__ControlBuilder Setup(::UnityEngine::InputSystem::InputControl* control);

@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ISO9796d1Encoding)
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IAsymmetricBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
-class IAsymmetricBlockCipher;
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
@@ -63,6 +63,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
+  constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* i___Org__BouncyCastle__Crypto__IAsymmetricBlockCipher() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*& __get_engine();
 

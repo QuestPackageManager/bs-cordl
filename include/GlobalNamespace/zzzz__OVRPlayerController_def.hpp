@@ -10,20 +10,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRPlayerController)
-namespace UnityEngine {
-class CharacterController;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace System {
-class Action;
-}
 namespace GlobalNamespace {
 class OVRCameraRig;
 }
 namespace System {
 template <typename T> class Action_1;
+}
+namespace System {
+class Action;
+}
+namespace UnityEngine {
+class CharacterController;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,9 +35,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRPlayerController);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 206, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7535)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4751 }), TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8153)) CS
-// Name: ::OVRPlayerController*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst:
+// 4751 }), TypeDefinitionIndex(TypeDefinitionIndex(7535)), TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8153)) CS Name: ::OVRPlayerController*
 class CORDL_TYPE OVRPlayerController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations

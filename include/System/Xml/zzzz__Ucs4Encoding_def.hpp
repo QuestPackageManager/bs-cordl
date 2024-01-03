@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Ucs4Encoding)
 namespace System::Text {
-class Encoding;
-}
-namespace System::Xml {
-class Ucs4Decoder;
-}
-namespace System::Text {
 class Decoder;
 }
 namespace System::Text {
 class Encoder;
+}
+namespace System::Text {
+class Encoding;
+}
+namespace System::Xml {
+class Ucs4Decoder;
 }
 // Forward declare root types
 namespace System::Xml {

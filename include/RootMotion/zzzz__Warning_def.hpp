@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Warning)
-namespace UnityEngine {
-class Transform;
-}
 namespace RootMotion {
 class __Warning__Logger;
 }
 namespace System {
-class Object;
+class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
 }
 namespace System {
-class AsyncCallback;
+class Object;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace RootMotion {
@@ -96,12 +96,10 @@ public:
   static inline bool getStaticF_logged();
 
   /// @brief Method Log, addr 0x1240908, size 0x98, virtual false, abstract: false, final false
-  /// @param logInEditMode: bool (default: false)
-  static inline void Log(::StringW message, ::RootMotion::__Warning__Logger* logger, bool logInEditMode = false);
+  static inline void Log(::StringW message, ::RootMotion::__Warning__Logger* logger, bool logInEditMode);
 
   /// @brief Method Log, addr 0x123aba8, size 0xb4, virtual false, abstract: false, final false
-  /// @param logInEditMode: bool (default: false)
-  static inline void Log(::StringW message, ::UnityEngine::Transform* context, bool logInEditMode = false);
+  static inline void Log(::StringW message, ::UnityEngine::Transform* context, bool logInEditMode);
 
   // Ctor Parameters [CppParam { name: "", ty: "Warning", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

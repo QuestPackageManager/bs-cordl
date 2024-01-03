@@ -12,16 +12,16 @@ namespace GlobalNamespace {
 class BeatmapDataItem;
 }
 namespace GlobalNamespace {
-struct EnvironmentColorType;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+class BeatmapEventData;
 }
 namespace GlobalNamespace {
 struct BeatmapEventTransitionType;
 }
 namespace GlobalNamespace {
-class BeatmapEventData;
+struct EnvironmentColorType;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::GlobalNamespace::LightColorBeatmapEventData);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 77, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14728)), TypeDefinitionIndex(TypeDefinitionIndex(14754)), TypeDefinitionIndex(TypeDefinitionIndex(14727))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14727)), TypeDefinitionIndex(TypeDefinitionIndex(14728)), TypeDefinitionIndex(TypeDefinitionIndex(14754))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14734))
 // CS Name: ::LightColorBeatmapEventData*
 class CORDL_TYPE LightColorBeatmapEventData : public ::GlobalNamespace::BeatmapEventData {

@@ -26,6 +26,9 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISubsystem"
   constexpr operator ::UnityEngine::ISubsystem*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::ISubsystem"
+  constexpr ::UnityEngine::ISubsystem* i___UnityEngine__ISubsystem() noexcept;
+
   /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Start();
 

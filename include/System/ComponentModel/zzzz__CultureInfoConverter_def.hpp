@@ -7,6 +7,15 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CultureInfoConverter)
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections {
+class IComparer;
+}
+namespace System::ComponentModel {
+class ITypeDescriptorContext;
+}
 namespace System::ComponentModel {
 class __CultureInfoConverter__CultureComparer;
 }
@@ -16,23 +25,14 @@ class __CultureInfoConverter__CultureInfoMapper;
 namespace System::ComponentModel {
 class __TypeConverter__StandardValuesCollection;
 }
+namespace System::Globalization {
+class CultureInfo;
+}
 namespace System {
 class Object;
 }
 namespace System {
 class Type;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System::ComponentModel {
-class ITypeDescriptorContext;
-}
-namespace System::Collections {
-class IComparer;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -63,6 +63,9 @@ public:
 
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IComparer"
+  constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
 
   constexpr ::System::ComponentModel::CultureInfoConverter*& __get__converter();
 

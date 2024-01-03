@@ -8,28 +8,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EndoUtilities)
 namespace Org::BouncyCastle::Math::EC::Endo {
-class ScalarSplitParameters;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::Math::EC::Endo {
-class __EndoUtilities__MapPointCallback;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
-}
-namespace Org::BouncyCastle::Math::EC::Endo {
 class ECEndomorphism;
-}
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class PreCompInfo;
 }
 namespace Org::BouncyCastle::Math::EC::Endo {
 class EndoPreCompInfo;
 }
+namespace Org::BouncyCastle::Math::EC::Endo {
+class ScalarSplitParameters;
+}
+namespace Org::BouncyCastle::Math::EC::Endo {
+class __EndoUtilities__MapPointCallback;
+}
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class IPreCompCallback;
+}
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class PreCompInfo;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Endo {
@@ -59,6 +59,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
   constexpr operator ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
+  constexpr ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback* i___Org__BouncyCastle__Math__EC__Multiplier__IPreCompCallback() noexcept;
 
   constexpr ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*& __get_m_endomorphism();
 

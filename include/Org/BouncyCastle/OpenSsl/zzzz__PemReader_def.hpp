@@ -8,20 +8,20 @@ CORDL_MODULE_EXPORT(PemReader)
 namespace Org::BouncyCastle::Asn1::Cms {
 class ContentInfo;
 }
-namespace Org::BouncyCastle::Pkcs {
-class Pkcs10CertificationRequest;
+namespace Org::BouncyCastle::Asn1::X9 {
+class X9ECParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
 }
-namespace Org::BouncyCastle::X509 {
-class X509Crl;
-}
 namespace Org::BouncyCastle::OpenSsl {
 class IPasswordFinder;
 }
-namespace System::IO {
-class TextReader;
+namespace Org::BouncyCastle::Pkcs {
+class Pkcs10CertificationRequest;
+}
+namespace Org::BouncyCastle::Utilities::IO::Pem {
+class PemObject;
 }
 namespace Org::BouncyCastle::X509 {
 class IX509AttributeCertificate;
@@ -29,14 +29,14 @@ class IX509AttributeCertificate;
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
-namespace Org::BouncyCastle::Utilities::IO::Pem {
-class PemObject;
+namespace Org::BouncyCastle::X509 {
+class X509Crl;
+}
+namespace System::IO {
+class TextReader;
 }
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class X9ECParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::OpenSsl {

@@ -9,200 +9,200 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(FromBinder)
-namespace System {
-class Object;
-}
-namespace Zenject {
-class __FromBinder____c__DisplayClass56_0;
-}
-namespace Zenject {
-template <typename TObj, typename TResult> class __FromBinder____c__DisplayClass71_0_2;
-}
-namespace Zenject {
-template <typename TConcrete> class __FromBinder____c__DisplayClass69_0_1;
-}
-namespace Zenject {
-class __FromBinder____c__DisplayClass36_0;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-class __FromBinder____c__DisplayClass64_0;
-}
-namespace Zenject {
-class __FromBinder____c__DisplayClass59_1;
-}
-namespace Zenject {
-class __FromBinder____c__DisplayClass57_0;
-}
-namespace Zenject {
-class __FromBinder____c__DisplayClass32_0;
-}
-namespace Zenject {
-class __FromBinder____c__DisplayClass58_0;
-}
-namespace Zenject {
-class __FromBinder____c__DisplayClass62_0;
-}
-namespace Zenject {
-class __FromBinder____c__DisplayClass60_2;
-}
-namespace Zenject {
-class __FromBinder____c__DisplayClass65_0;
-}
-namespace Zenject {
-class __FromBinder____c__DisplayClass65_2;
-}
-namespace Zenject {
-class BindInfo;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace Zenject {
-class __FromBinder____c__DisplayClass68_0;
-}
-namespace Zenject {
-class __FromBinder____c__DisplayClass35_0;
-}
-namespace Zenject {
-class __FromBinder____c__DisplayClass62_2;
-}
-namespace Zenject {
-class __FromBinder____c__DisplayClass66_1;
-}
-namespace UnityEngine {
-class Component;
-}
-namespace Zenject {
-class __FromBinder____c;
-}
-namespace Zenject {
-class __FromBinder____c__DisplayClass53_0;
-}
-namespace Zenject {
-class IBindingFinalizer;
-}
-namespace Zenject {
-class __FromBinder____c__DisplayClass22_0;
-}
-namespace Zenject {
-class __FromBinder____c__DisplayClass65_1;
-}
-namespace Zenject {
-template <typename TConcrete> class __FromBinder____c__DisplayClass70_0_1;
-}
-namespace Zenject {
-class __FromBinder____c__DisplayClass67_0;
-}
-namespace Zenject {
-class __FromBinder____c__DisplayClass66_0;
-}
-namespace Zenject {
-class __FromBinder____c__DisplayClass30_0;
-}
-namespace Zenject {
-class __FromBinder____c__DisplayClass64_1;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace Zenject {
-class __FromBinder____c__DisplayClass62_1;
-}
-namespace Zenject {
-class IProvider;
-}
-namespace Zenject {
-class __FromBinder____c__DisplayClass60_1;
-}
-namespace Zenject {
-template <typename TContract> class ConcreteBinderGeneric_1;
-}
-namespace Zenject {
-class __FromBinder____c__DisplayClass63_0;
-}
-namespace Zenject {
-class __FromBinder____c__DisplayClass72_0;
-}
-namespace Zenject {
-class ScopeConcreteIdArgConditionCopyNonLazyBinder;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System {
 template <typename T> class Action_1;
 }
-namespace Zenject {
-class __FromBinder____c__DisplayClass61_0;
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
-namespace Zenject {
-class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
+namespace System {
+template <typename T1, typename T2, typename TResult> class Func_3;
 }
-namespace UnityEngine {
+namespace System {
 class Object;
-}
-namespace Zenject {
-class __FromBinder____c__DisplayClass61_1;
-}
-namespace Zenject {
-class BindStatement;
-}
-namespace Zenject {
-class __FromBinder____c__DisplayClass60_0;
-}
-namespace Zenject {
-class __FromBinder____c__DisplayClass61_2;
-}
-namespace Zenject {
-class __FromBinder____c__DisplayClass66_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace Zenject {
-struct InjectSources;
-}
-namespace Zenject {
-class GameObjectCreationParameters;
-}
-namespace Zenject {
-template <typename TValue> class IFactory_1;
-}
-namespace Zenject {
-class InjectContext;
 }
 namespace System {
 class Type;
 }
-namespace Zenject {
-template <typename TContract> class __FromBinder____c__DisplayClass28_0_1;
+namespace UnityEngine {
+class Component;
 }
-namespace Zenject {
-class __FromBinder____c__DisplayClass31_0;
+namespace UnityEngine {
+class GameObject;
 }
-namespace Zenject {
-class __FromBinder____c__DisplayClass59_0;
+namespace UnityEngine {
+class MonoBehaviour;
 }
-namespace Zenject {
-class SubContainerBinder;
-}
-namespace Zenject {
-class __FromBinder____c__DisplayClass29_0;
+namespace UnityEngine {
+class Object;
 }
 namespace UnityEngine {
 class ScriptableObject;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class BindInfo;
+}
+namespace Zenject {
+class BindStatement;
+}
+namespace Zenject {
+template <typename TContract> class ConcreteBinderGeneric_1;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class GameObjectCreationParameters;
+}
+namespace Zenject {
+class IBindingFinalizer;
+}
+namespace Zenject {
+template <typename TValue> class IFactory_1;
 }
 namespace Zenject {
 class IPrefabInstantiator;
 }
-namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
+namespace Zenject {
+class IProvider;
 }
-namespace UnityEngine {
-class MonoBehaviour;
+namespace Zenject {
+class InjectContext;
+}
+namespace Zenject {
+struct InjectSources;
+}
+namespace Zenject {
+class InjectTypeInfo;
+}
+namespace Zenject {
+class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
+}
+namespace Zenject {
+class ScopeConcreteIdArgConditionCopyNonLazyBinder;
+}
+namespace Zenject {
+class SubContainerBinder;
+}
+namespace Zenject {
+class __FromBinder____c;
+}
+namespace Zenject {
+class __FromBinder____c__DisplayClass22_0;
+}
+namespace Zenject {
+template <typename TContract> class __FromBinder____c__DisplayClass28_0_1;
+}
+namespace Zenject {
+class __FromBinder____c__DisplayClass29_0;
+}
+namespace Zenject {
+class __FromBinder____c__DisplayClass30_0;
+}
+namespace Zenject {
+class __FromBinder____c__DisplayClass31_0;
+}
+namespace Zenject {
+class __FromBinder____c__DisplayClass32_0;
+}
+namespace Zenject {
+class __FromBinder____c__DisplayClass35_0;
+}
+namespace Zenject {
+class __FromBinder____c__DisplayClass36_0;
+}
+namespace Zenject {
+class __FromBinder____c__DisplayClass53_0;
+}
+namespace Zenject {
+class __FromBinder____c__DisplayClass56_0;
+}
+namespace Zenject {
+class __FromBinder____c__DisplayClass57_0;
+}
+namespace Zenject {
+class __FromBinder____c__DisplayClass58_0;
+}
+namespace Zenject {
+class __FromBinder____c__DisplayClass59_0;
+}
+namespace Zenject {
+class __FromBinder____c__DisplayClass59_1;
+}
+namespace Zenject {
+class __FromBinder____c__DisplayClass60_0;
+}
+namespace Zenject {
+class __FromBinder____c__DisplayClass60_1;
+}
+namespace Zenject {
+class __FromBinder____c__DisplayClass60_2;
+}
+namespace Zenject {
+class __FromBinder____c__DisplayClass61_0;
+}
+namespace Zenject {
+class __FromBinder____c__DisplayClass61_1;
+}
+namespace Zenject {
+class __FromBinder____c__DisplayClass61_2;
+}
+namespace Zenject {
+class __FromBinder____c__DisplayClass62_0;
+}
+namespace Zenject {
+class __FromBinder____c__DisplayClass62_1;
+}
+namespace Zenject {
+class __FromBinder____c__DisplayClass62_2;
+}
+namespace Zenject {
+class __FromBinder____c__DisplayClass63_0;
+}
+namespace Zenject {
+class __FromBinder____c__DisplayClass64_0;
+}
+namespace Zenject {
+class __FromBinder____c__DisplayClass64_1;
+}
+namespace Zenject {
+class __FromBinder____c__DisplayClass65_0;
+}
+namespace Zenject {
+class __FromBinder____c__DisplayClass65_1;
+}
+namespace Zenject {
+class __FromBinder____c__DisplayClass65_2;
+}
+namespace Zenject {
+class __FromBinder____c__DisplayClass66_0;
+}
+namespace Zenject {
+class __FromBinder____c__DisplayClass66_1;
+}
+namespace Zenject {
+class __FromBinder____c__DisplayClass66_2;
+}
+namespace Zenject {
+class __FromBinder____c__DisplayClass67_0;
+}
+namespace Zenject {
+class __FromBinder____c__DisplayClass68_0;
+}
+namespace Zenject {
+template <typename TConcrete> class __FromBinder____c__DisplayClass69_0_1;
+}
+namespace Zenject {
+template <typename TConcrete> class __FromBinder____c__DisplayClass70_0_1;
+}
+namespace Zenject {
+template <typename TObj, typename TResult> class __FromBinder____c__DisplayClass71_0_2;
+}
+namespace Zenject {
+class __FromBinder____c__DisplayClass72_0;
 }
 // Forward declare root types
 namespace Zenject {
@@ -370,7 +370,7 @@ MARK_REF_PTR_T(::Zenject::__FromBinder____c__DisplayClass72_0);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15712))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15712)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10870))
 // CS Name: ::FromBinder::<>c__DisplayClass22_0*
 class CORDL_TYPE __FromBinder____c__DisplayClass22_0 : public ::System::Object {
@@ -458,7 +458,7 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10871))
 // CS Name: ::FromBinder::<>c__DisplayClass28_0`1<TContract>*
 class CORDL_TYPE __FromBinder____c__DisplayClass28_0_1 : public ::System::Object {
@@ -3411,21 +3411,16 @@ public:
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromResources(::StringW resourcePath);
 
   /// @brief Method FromComponentInChildren, addr 0x2ed1da0, size 0x11c, virtual false, abstract: false, final false
-  /// @param includeInactive: bool (default: true)
-  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentInChildren(bool includeInactive = true);
+  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentInChildren(bool includeInactive);
 
   /// @brief Method FromComponentsInChildrenBase, addr 0x2ed1ec4, size 0x138, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInChildrenBase(bool excludeSelf, ::System::Func_2<::UnityEngine::Component*, bool>* predicate, bool includeInactive);
 
   /// @brief Method FromComponentInParents, addr 0x2ed2004, size 0x128, virtual false, abstract: false, final false
-  /// @param excludeSelf: bool (default: false)
-  /// @param includeInactive: bool (default: true)
-  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentInParents(bool excludeSelf = false, bool includeInactive = true);
+  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentInParents(bool excludeSelf, bool includeInactive);
 
   /// @brief Method FromComponentsInParents, addr 0x2ed2134, size 0x128, virtual false, abstract: false, final false
-  /// @param excludeSelf: bool (default: false)
-  /// @param includeInactive: bool (default: true)
-  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInParents(bool excludeSelf = false, bool includeInactive = true);
+  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInParents(bool excludeSelf, bool includeInactive);
 
   /// @brief Method FromComponentSibling, addr 0x2ed2264, size 0x13c, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentSibling();
@@ -3434,13 +3429,10 @@ public:
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsSibling();
 
   /// @brief Method FromComponentInHierarchy, addr 0x2ed24dc, size 0x120, virtual false, abstract: false, final false
-  /// @param includeInactive: bool (default: true)
-  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentInHierarchy(bool includeInactive = true);
+  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentInHierarchy(bool includeInactive);
 
   /// @brief Method FromComponentsInHierarchyBase, addr 0x2ed2604, size 0x128, virtual false, abstract: false, final false
-  /// @param predicate: ::System::Func_2<::UnityEngine::Component*,bool>* (default: nullptr)
-  /// @param includeInactive: bool (default: true)
-  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInHierarchyBase(::System::Func_2<::UnityEngine::Component*, bool>* predicate = nullptr, bool includeInactive = true);
+  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInHierarchyBase(::System::Func_2<::UnityEngine::Component*, bool>* predicate, bool includeInactive);
 
   /// @brief Method FromMethodUntyped, addr 0x2ed2734, size 0x108, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromMethodUntyped(::System::Func_2<::Zenject::InjectContext*, ::System::Object*>* method);

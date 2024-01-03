@@ -13,11 +13,11 @@ class ISceneProvider;
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct SceneInstance;
 }
-namespace UnityEngine::SceneManagement {
-struct UnloadSceneOptions;
-}
 namespace UnityEngine::ResourceManagement {
 class ResourceManager;
+}
+namespace UnityEngine::SceneManagement {
+struct UnloadSceneOptions;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {

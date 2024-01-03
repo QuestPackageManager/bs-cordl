@@ -9,56 +9,56 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReflectTypeDescriptionProvider)
-namespace System::ComponentModel {
-class EventDescriptor;
+namespace System::Collections {
+class Hashtable;
 }
 namespace System::Collections {
 class ICollection;
 }
-namespace System {
-class Attribute;
-}
-namespace System::Collections {
-class Hashtable;
-}
-namespace System::ComponentModel {
-class PropertyDescriptor;
-}
 namespace System::Collections {
 class IDictionary;
-}
-namespace System::ComponentModel {
-class PropertyDescriptorCollection;
-}
-namespace System {
-class Type;
-}
-namespace System::Reflection {
-class MemberInfo;
-}
-namespace System {
-class Object;
-}
-namespace System::ComponentModel {
-class ICustomTypeDescriptor;
-}
-namespace System::ComponentModel {
-class EventDescriptorCollection;
-}
-namespace System::ComponentModel {
-class IExtenderProvider;
-}
-namespace System::ComponentModel {
-class __ReflectTypeDescriptionProvider__ReflectedTypeData;
-}
-namespace System::ComponentModel {
-class TypeConverter;
 }
 namespace System::ComponentModel {
 class AttributeCollection;
 }
 namespace System::ComponentModel {
 class EditorAttribute;
+}
+namespace System::ComponentModel {
+class EventDescriptorCollection;
+}
+namespace System::ComponentModel {
+class EventDescriptor;
+}
+namespace System::ComponentModel {
+class ICustomTypeDescriptor;
+}
+namespace System::ComponentModel {
+class IExtenderProvider;
+}
+namespace System::ComponentModel {
+class PropertyDescriptorCollection;
+}
+namespace System::ComponentModel {
+class PropertyDescriptor;
+}
+namespace System::ComponentModel {
+class TypeConverter;
+}
+namespace System::ComponentModel {
+class __ReflectTypeDescriptionProvider__ReflectedTypeData;
+}
+namespace System::Reflection {
+class MemberInfo;
+}
+namespace System {
+class Attribute;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::ComponentModel {

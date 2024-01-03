@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 CORDL_MODULE_EXPORT(MainEffectContainerSO)
 namespace GlobalNamespace {
-class MainEffectSO;
+class BoolSO;
 }
 namespace GlobalNamespace {
-class BoolSO;
+class MainEffectSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ThaiBuddhistCalendar)
 namespace System::Globalization {
-class GregorianCalendarHelper;
-}
-namespace System::Globalization {
 class EraInfo;
 }
-namespace System {
-struct DayOfWeek;
+namespace System::Globalization {
+class GregorianCalendarHelper;
 }
 namespace System {
 struct DateTime;
+}
+namespace System {
+struct DayOfWeek;
 }
 // Forward declare root types
 namespace System::Globalization {

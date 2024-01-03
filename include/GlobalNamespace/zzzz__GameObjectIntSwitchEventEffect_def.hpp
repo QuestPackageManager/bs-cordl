@@ -9,19 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameObjectIntSwitchEventEffect)
 namespace GlobalNamespace {
-class __GameObjectIntSwitchEventEffect__GameObjectValueList;
+class BasicBeatmapEventData;
+}
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+class __GameObjectIntSwitchEventEffect__GameObjectValueList;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
-class BasicBeatmapEventData;
 }
 namespace UnityEngine {
 class GameObject;

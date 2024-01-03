@@ -15,16 +15,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapSaveData)
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
-class __BeatmapSaveData__SpecialEventsForKeyword;
+struct __BeatmapSaveData__BeatmapEventType;
+}
+namespace BeatmapSaveDataVersion2_6_0AndEarlier {
+struct __BeatmapSaveData__BeatmapObjectType;
 }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 struct __BeatmapSaveData__ColorType;
 }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
-class __BeatmapSaveData__SpecialEventKeywordFiltersData;
+class __BeatmapSaveData__EventData;
+}
+namespace BeatmapSaveDataVersion2_6_0AndEarlier {
+class __BeatmapSaveData__NoteData;
 }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 struct __BeatmapSaveData__NoteType;
+}
+namespace BeatmapSaveDataVersion2_6_0AndEarlier {
+class __BeatmapSaveData__ObstacleData;
+}
+namespace BeatmapSaveDataVersion2_6_0AndEarlier {
+struct __BeatmapSaveData__ObstacleType;
 }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 class __BeatmapSaveData__SliderData;
@@ -32,44 +44,32 @@ class __BeatmapSaveData__SliderData;
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 struct __BeatmapSaveData__SliderType;
 }
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+namespace BeatmapSaveDataVersion2_6_0AndEarlier {
+class __BeatmapSaveData__SpecialEventKeywordFiltersData;
 }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
-class __BeatmapSaveData__ObstacleData;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace BeatmapSaveDataVersion2_6_0AndEarlier {
-struct __BeatmapSaveData__ObstacleType;
+class __BeatmapSaveData__SpecialEventsForKeyword;
 }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 class __BeatmapSaveData__WaypointData;
-}
-namespace BeatmapSaveDataVersion2_6_0AndEarlier {
-struct __BeatmapSaveData__BeatmapEventType;
-}
-namespace BeatmapSaveDataVersion2_6_0AndEarlier {
-struct __BeatmapSaveData__BeatmapObjectType;
-}
-namespace BeatmapSaveDataVersion2_6_0AndEarlier {
-class __BeatmapSaveData__NoteData;
-}
-namespace BeatmapSaveDataVersion2_6_0AndEarlier {
-class __BeatmapSaveData__EventData;
-}
-namespace GlobalNamespace {
-struct NoteLineLayer;
 }
 namespace GlobalNamespace {
 struct NoteCutDirection;
 }
 namespace GlobalNamespace {
-struct SliderMidAnchorMode;
+struct NoteLineLayer;
 }
 namespace GlobalNamespace {
 struct OffsetDirection;
+}
+namespace GlobalNamespace {
+struct SliderMidAnchorMode;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
@@ -603,8 +603,8 @@ static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveDat
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14843)), TypeDefinitionIndex(TypeDefinitionIndex(14755)), TypeDefinitionIndex(TypeDefinitionIndex(14832)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14760))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14835)) CS Name: ::BeatmapSaveData::NoteData*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(14843)), TypeDefinitionIndex(TypeDefinitionIndex(14832)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14755))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14835)) CS Name: ::BeatmapSaveData::NoteData*
 class CORDL_TYPE __BeatmapSaveData__NoteData : public ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem {
 public:
   // Declarations
@@ -735,7 +735,7 @@ static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveDat
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14843)), TypeDefinitionIndex(TypeDefinitionIndex(14762)), TypeDefinitionIndex(TypeDefinitionIndex(14760))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14762)), TypeDefinitionIndex(TypeDefinitionIndex(14843)), TypeDefinitionIndex(TypeDefinitionIndex(14760))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14836))
 // CS Name: ::BeatmapSaveData::WaypointData*
 class CORDL_TYPE __BeatmapSaveData__WaypointData : public ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem {
@@ -847,8 +847,8 @@ static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveDat
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14833)), TypeDefinitionIndex(TypeDefinitionIndex(14843)), TypeDefinitionIndex(TypeDefinitionIndex(14755)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(14766))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14837)) CS Name: ::BeatmapSaveData::SliderData*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(14766)), TypeDefinitionIndex(TypeDefinitionIndex(14843)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14833)), TypeDefinitionIndex(TypeDefinitionIndex(14755))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14837)) CS Name: ::BeatmapSaveData::SliderData*
 class CORDL_TYPE __BeatmapSaveData__SliderData : public ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem {
 public:
   // Declarations
@@ -1433,7 +1433,7 @@ static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveDat
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14829))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14829)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14842))
 // CS Name: ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData*
 class CORDL_TYPE BeatmapSaveData : public ::System::Object {

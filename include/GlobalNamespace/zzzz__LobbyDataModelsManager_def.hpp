@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(LobbyDataModelsManager)
 namespace GlobalNamespace {
-class INodePoseSyncStateManager;
+class ILobbyGameStateController;
+}
+namespace GlobalNamespace {
+class ILobbyPlayersDataModel;
 }
 namespace GlobalNamespace {
 class ILobbyStateDataModel;
 }
 namespace GlobalNamespace {
-class ILobbyGameStateController;
+class INodePoseSyncStateManager;
 }
 namespace GlobalNamespace {
 class LobbyPlayerPermissionsModel;
-}
-namespace GlobalNamespace {
-class ILobbyPlayersDataModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {

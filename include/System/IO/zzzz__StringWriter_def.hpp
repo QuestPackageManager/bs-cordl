@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StringWriter)
-namespace System::Threading::Tasks {
-class Task;
-}
 namespace System::Text {
-class UnicodeEncoding;
+class Encoding;
 }
 namespace System::Text {
 class StringBuilder;
 }
+namespace System::Text {
+class UnicodeEncoding;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
 namespace System {
 class IFormatProvider;
-}
-namespace System::Text {
-class Encoding;
 }
 // Forward declare root types
 namespace System::IO {

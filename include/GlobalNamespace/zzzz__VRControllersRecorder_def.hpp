@@ -15,65 +15,59 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(VRControllersRecorder)
-namespace System::IO {
-class BinaryReader;
+namespace GlobalNamespace {
+class AudioTimeSyncController;
+}
+namespace GlobalNamespace {
+class IConstructorStringGenerator;
+}
+namespace GlobalNamespace {
+class VRController;
 }
 namespace GlobalNamespace {
 class __VRControllersRecorder__Keyframe;
 }
-namespace System::IO {
-class Stream;
+namespace GlobalNamespace {
+struct __VRControllersRecorder__Mode;
 }
 namespace GlobalNamespace {
 class __VRControllersRecorder__SavedData;
 }
 namespace GlobalNamespace {
-class AudioTimeSyncController;
-}
-namespace GlobalNamespace {
-class VRController;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace GlobalNamespace {
-struct __VRControllersRecorder__Mode;
-}
-namespace UnityEngine {
-class AnimationClip;
+class __VRControllersRecorder__SavedData__KeyframeSerializable;
 }
 namespace GlobalNamespace {
 class __VRControllersRecorder__State;
 }
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+class __VRControllersRecorder__State____c;
 }
-namespace UnityEngine {
-struct Pose;
+namespace GlobalNamespace {
+class __VRControllersRecorder__TypeSerializationBinder;
 }
-namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine {
-class TextAsset;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::IO {
+class BinaryReader;
+}
 namespace System::IO {
 class BinaryWriter;
 }
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-class __VRControllersRecorder__TypeSerializationBinder;
+namespace System::IO {
+class Stream;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class BinaryFormatter;
 }
 namespace System {
-template <typename T1, typename T2, typename T3> struct ValueTuple_3;
+template <typename T1, typename T2> class Action_2;
 }
 namespace System {
 template <typename T> class IEquatable_1;
@@ -81,26 +75,32 @@ template <typename T> class IEquatable_1;
 namespace System {
 class Object;
 }
-namespace GlobalNamespace {
-class IConstructorStringGenerator;
-}
-namespace GlobalNamespace {
-class __VRControllersRecorder__SavedData__KeyframeSerializable;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace GlobalNamespace {
-class __VRControllersRecorder__State____c;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
 namespace System {
 class Type;
+}
+namespace System {
+template <typename T1, typename T2, typename T3> struct ValueTuple_3;
+}
+namespace UnityEngine {
+class AnimationClip;
+}
+namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine {
+struct Pose;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+class TextAsset;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -630,7 +630,7 @@ static_assert(offsetof(::GlobalNamespace::__VRControllersRecorder__Mode, value__
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5844))
 // CS Name: ::VRControllersRecorder::Keyframe*
 class CORDL_TYPE __VRControllersRecorder__Keyframe : public ::System::Object {
@@ -666,8 +666,14 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::__VRControllersRecorder__Keyframe*>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::__VRControllersRecorder__Keyframe*>*() noexcept;
 
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::__VRControllersRecorder__Keyframe*>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::__VRControllersRecorder__Keyframe*>* i___System__IEquatable_1___GlobalNamespace____VRControllersRecorder__Keyframe__() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IConstructorStringGenerator"
   constexpr operator ::GlobalNamespace::IConstructorStringGenerator*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IConstructorStringGenerator"
+  constexpr ::GlobalNamespace::IConstructorStringGenerator* i___GlobalNamespace__IConstructorStringGenerator() noexcept;
 
   constexpr ::UnityEngine::Vector3& __get_pos1();
 
@@ -867,7 +873,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__VRControllers
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10057))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10057)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5846))
 // CS Name: ::VRControllersRecorder::State*
 class CORDL_TYPE __VRControllersRecorder__State : public ::System::Object {
@@ -1007,7 +1013,7 @@ static_assert(offsetof(::GlobalNamespace::__VRControllersRecorder__State, ____ve
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 188, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(5843)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(5843)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5847))
 // CS Name: ::VRControllersRecorder*
 class CORDL_TYPE VRControllersRecorder : public ::UnityEngine::MonoBehaviour {

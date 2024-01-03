@@ -8,29 +8,8 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapObjectSpawnController)
-namespace UnityEngine {
-struct Vector2;
-}
-namespace GlobalNamespace {
-class IBeatmapObjectSpawner;
-}
-namespace GlobalNamespace {
-class SliderData;
-}
-namespace GlobalNamespace {
-class NoteData;
-}
-namespace GlobalNamespace {
-class __BeatmapObjectSpawnController__InitData;
-}
-namespace GlobalNamespace {
-class IJumpOffsetYProvider;
-}
 namespace GlobalNamespace {
 class BeatmapCallbacksController;
-}
-namespace GlobalNamespace {
-struct NoteLineLayer;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
@@ -41,17 +20,38 @@ class BeatmapObjectSpawnMovementData;
 namespace GlobalNamespace {
 class IBeatmapObjectSpawnController;
 }
-namespace System {
-class Action;
+namespace GlobalNamespace {
+class IBeatmapObjectSpawner;
+}
+namespace GlobalNamespace {
+class IJumpOffsetYProvider;
+}
+namespace GlobalNamespace {
+class NoteData;
+}
+namespace GlobalNamespace {
+struct NoteLineLayer;
 }
 namespace GlobalNamespace {
 class ObstacleData;
 }
 namespace GlobalNamespace {
+class SliderData;
+}
+namespace GlobalNamespace {
 class SpawnRotationBeatmapEventData;
 }
 namespace GlobalNamespace {
+class __BeatmapObjectSpawnController__InitData;
+}
+namespace GlobalNamespace {
 struct __BeatmapObjectSpawnMovementData__NoteJumpValueType;
+}
+namespace System {
+class Action;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -243,6 +243,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IBeatmapObjectSpawnController"
   constexpr operator ::GlobalNamespace::IBeatmapObjectSpawnController*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IBeatmapObjectSpawnController"
+  constexpr ::GlobalNamespace::IBeatmapObjectSpawnController* i___GlobalNamespace__IBeatmapObjectSpawnController() noexcept;
 
   constexpr ::GlobalNamespace::BeatmapObjectSpawnMovementData*& __get__beatmapObjectSpawnMovementData();
 

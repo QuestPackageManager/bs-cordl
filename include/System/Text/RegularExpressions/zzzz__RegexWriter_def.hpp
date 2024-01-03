@@ -7,29 +7,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RegexWriter)
-namespace System::Collections {
-class Hashtable;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace System::Text::RegularExpressions {
-class RegexNode;
-}
-namespace System {
-template <typename T> struct Span_1;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Collections::Generic {
 template <typename T> struct ValueListBuilder_1;
+}
+namespace System::Collections {
+class Hashtable;
 }
 namespace System::Text::RegularExpressions {
 class RegexCode;
 }
 namespace System::Text::RegularExpressions {
+class RegexNode;
+}
+namespace System::Text::RegularExpressions {
 class RegexTree;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System {
+template <typename T> struct Span_1;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {
@@ -41,7 +41,7 @@ MARK_VAL_T(::System::Text::RegularExpressions::RegexWriter);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9530)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9530), inst: 98 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9530), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(9530))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8932))
 // CS Name: ::System.Text.RegularExpressions::RegexWriter
 struct CORDL_TYPE RegexWriter {

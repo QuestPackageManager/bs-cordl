@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(VisualTreeViewDataUpdater)
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
-namespace UnityEngine::UIElements {
-class VisualElement;
+namespace Unity::Profiling {
+struct ProfilerMarker;
 }
 namespace UnityEngine::UIElements {
 struct VersionChangeType;
 }
-namespace Unity::Profiling {
-struct ProfilerMarker;
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

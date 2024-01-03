@@ -2,33 +2,32 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MockPlatformUserModel)
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
 namespace GlobalNamespace {
 class IPlatformUserModel;
 }
 namespace GlobalNamespace {
-class XPlatformAccessTokenData;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+class PlatformUserAuthTokenData;
 }
 namespace GlobalNamespace {
 class UserInfo;
 }
 namespace GlobalNamespace {
-class PlatformUserAuthTokenData;
+class XPlatformAccessTokenData;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -40,7 +39,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MockPlatformUserModel);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2677))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15984))
 // CS Name: ::MockPlatformUserModel*
 class CORDL_TYPE MockPlatformUserModel : public ::System::Object {
@@ -53,6 +52,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IPlatformUserModel"
   constexpr operator ::GlobalNamespace::IPlatformUserModel*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IPlatformUserModel"
+  constexpr ::GlobalNamespace::IPlatformUserModel* i___GlobalNamespace__IPlatformUserModel() noexcept;
 
   constexpr ::System::Action_1<::GlobalNamespace::UserInfo*>*& __get_platformUserInfoDidChangeEvent();
 
@@ -70,8 +72,7 @@ public:
   inline bool get_CanXPlatformAccessTokenBeCached();
 
   /// @brief Method GetUserInfo, addr 0x27fe004, size 0xd8, virtual true, abstract: false, final true
-  /// @param ctx: ::System::Threading::CancellationToken (default: {})
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::UserInfo*>* GetUserInfo(::System::Threading::CancellationToken ctx = {});
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::UserInfo*>* GetUserInfo(::System::Threading::CancellationToken ctx);
 
   /// @brief Method GetUserFriendsUserIds, addr 0x27fe118, size 0xe0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* GetUserFriendsUserIds(bool cached);

@@ -44,6 +44,9 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::IInputInteraction"
   constexpr operator ::UnityEngine::InputSystem::IInputInteraction*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::InputSystem::IInputInteraction"
+  constexpr ::UnityEngine::InputSystem::IInputInteraction* i___UnityEngine__InputSystem__IInputInteraction() noexcept;
+
   constexpr float_t& __get_duration();
 
   constexpr float_t const& __get_duration() const;

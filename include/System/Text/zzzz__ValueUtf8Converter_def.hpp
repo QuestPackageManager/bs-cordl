@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ValueUtf8Converter)
 namespace System {
-template <typename T> struct Span_1;
+template <typename T> struct ReadOnlySpan_1;
 }
 namespace System {
-template <typename T> struct ReadOnlySpan_1;
+template <typename T> struct Span_1;
 }
 // Forward declare root types
 namespace System::Text {

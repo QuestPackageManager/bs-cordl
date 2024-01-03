@@ -8,10 +8,10 @@ namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class IBeatmapLevelCollection;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelCollection;
+class IPreviewBeatmapLevel;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
@@ -39,6 +39,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IBeatmapLevelCollection"
   constexpr operator ::GlobalNamespace::IBeatmapLevelCollection*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IBeatmapLevelCollection"
+  constexpr ::GlobalNamespace::IBeatmapLevelCollection* i___GlobalNamespace__IBeatmapLevelCollection() noexcept;
 
   constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>*& __get__levels();
 

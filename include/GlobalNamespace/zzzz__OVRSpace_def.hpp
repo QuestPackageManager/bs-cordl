@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRSpace)
-namespace System {
-struct Guid;
-}
 namespace GlobalNamespace {
 struct __OVRSpace__StorageLocation;
+}
+namespace System {
+struct Guid;
 }
 namespace System {
 template <typename T> class IEquatable_1;
@@ -97,6 +97,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::OVRSpace>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::OVRSpace>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::OVRSpace>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::OVRSpace>* i___System__IEquatable_1___GlobalNamespace__OVRSpace_();
 
   /// @brief Method get_Handle, addr 0x278c884, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_Handle();

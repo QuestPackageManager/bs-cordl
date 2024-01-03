@@ -6,29 +6,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsUtilities)
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
-}
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class TbsCertificateStructure;
-}
 namespace Org::BouncyCastle::Asn1::Cms {
 class ContentInfo;
 }
-namespace Org::BouncyCastle::X509::Store {
-class IX509Store;
-}
 namespace Org::BouncyCastle::Asn1::Cms {
 class IssuerAndSerialNumber;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class TbsCertificateStructure;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1InputStream;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Set;
+}
+namespace Org::BouncyCastle::X509::Store {
+class IX509Store;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
+}
+namespace System::Collections {
+class IList;
 }
 namespace System::IO {
 class Stream;

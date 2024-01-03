@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(Vector2Tween)
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
 struct EaseType;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -53,9 +53,8 @@ public:
                                                    ::GlobalNamespace::EaseType easeType, float_t delay);
 
   /// @brief Method .ctor, addr 0x2a0dcb0, size 0xa8, virtual false, abstract: false, final false
-  /// @param delay: float_t (default: 0.0)
   inline void _ctor(::UnityEngine::Vector2 fromValue, ::UnityEngine::Vector2 toValue, ::System::Action_1<::UnityEngine::Vector2>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType,
-                    float_t delay = 0.0);
+                    float_t delay);
 
   /// @brief Method GetValue, addr 0x2a0dd58, size 0x34, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 GetValue(float_t t);

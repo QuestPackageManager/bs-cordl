@@ -10,23 +10,23 @@ CORDL_MODULE_EXPORT(AnimationOffsetPlayable)
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace UnityEngine {
-struct Quaternion;
+namespace UnityEngine::Playables {
+class IPlayable;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
 struct PlayableHandle;
 }
 namespace UnityEngine::Playables {
-class IPlayable;
+struct Playable;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine::Playables {
-struct Playable;
-}
-namespace UnityEngine::Playables {
-struct PlayableGraph;
 }
 // Forward declare root types
 namespace UnityEngine::Animations {
@@ -50,8 +50,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
+  /// @brief Convert to "::UnityEngine::Playables::IPlayable"
+  constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Animations::AnimationOffsetPlayable>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Animations::AnimationOffsetPlayable>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Animations::AnimationOffsetPlayable>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Animations::AnimationOffsetPlayable>* i___System__IEquatable_1___UnityEngine__Animations__AnimationOffsetPlayable_();
 
   static inline void setStaticF_m_NullPlayable(::UnityEngine::Animations::AnimationOffsetPlayable value);
 

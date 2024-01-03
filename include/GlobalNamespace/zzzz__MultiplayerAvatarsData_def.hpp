@@ -6,20 +6,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerAvatarsData)
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace System {
-class Object;
+namespace GlobalNamespace {
+struct BitMask128;
 }
 namespace GlobalNamespace {
 struct MultiplayerAvatarData;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace LiteNetLib::Utils {
+template <typename T> class INetImmutableSerializable_1;
 }
-namespace GlobalNamespace {
-struct BitMask128;
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
@@ -27,11 +24,14 @@ class NetDataWriter;
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace LiteNetLib::Utils {
-template <typename T> class INetImmutableSerializable_1;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -52,8 +52,15 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::MultiplayerAvatarsData>"
   constexpr operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::MultiplayerAvatarsData>*();
 
+  /// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::MultiplayerAvatarsData>"
+  constexpr ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::MultiplayerAvatarsData>*
+  i___LiteNetLib__Utils__INetImmutableSerializable_1___GlobalNamespace__MultiplayerAvatarsData_();
+
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::MultiplayerAvatarsData>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::MultiplayerAvatarsData>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::MultiplayerAvatarsData>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::MultiplayerAvatarsData>* i___System__IEquatable_1___GlobalNamespace__MultiplayerAvatarsData_();
 
   /// @brief Method .ctor, addr 0x12a3428, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerAvatarData>* multiplayerAvatarsData,

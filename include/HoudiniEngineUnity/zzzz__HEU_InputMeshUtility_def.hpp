@@ -12,8 +12,8 @@ CORDL_MODULE_EXPORT(HEU_InputMeshUtility)
 namespace HoudiniEngineUnity {
 struct HAPI_PartInfo;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
 }
 namespace UnityEngine {
 class Mesh;
@@ -21,8 +21,8 @@ class Mesh;
 namespace UnityEngine {
 struct Vector3Int;
 }
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

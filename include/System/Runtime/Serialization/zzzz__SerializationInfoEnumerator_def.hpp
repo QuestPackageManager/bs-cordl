@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SerializationInfoEnumerator)
-namespace System::Runtime::Serialization {
-struct SerializationEntry;
-}
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System {
-class Type;
+namespace System::Runtime::Serialization {
+struct SerializationEntry;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -65,6 +65,9 @@ public:
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get__members();
 

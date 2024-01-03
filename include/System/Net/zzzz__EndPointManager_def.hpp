@@ -10,10 +10,10 @@ namespace System::Collections {
 class Hashtable;
 }
 namespace System::Net {
-class HttpListener;
+class EndPointListener;
 }
 namespace System::Net {
-class EndPointListener;
+class HttpListener;
 }
 namespace System::Net {
 class IPEndPoint;

@@ -9,10 +9,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(LevelFailedTextOverride)
 namespace GlobalNamespace {
-class __LevelFailedTextOverride____c__DisplayClass6_0;
+class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class LevelFailedText;
+}
+namespace GlobalNamespace {
+class PreviewBeatmapLevelPackSO;
 }
 namespace GlobalNamespace {
 class PreviewBeatmapLevelSO;
@@ -21,10 +24,7 @@ namespace GlobalNamespace {
 class __LevelFailedTextOverride__LanguageOverride;
 }
 namespace GlobalNamespace {
-class LevelFailedText;
-}
-namespace GlobalNamespace {
-class PreviewBeatmapLevelPackSO;
+class __LevelFailedTextOverride____c__DisplayClass6_0;
 }
 namespace Polyglot {
 struct Language;

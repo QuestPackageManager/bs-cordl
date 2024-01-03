@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Scene)
-namespace UnityEngine {
-class GameObject;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace UnityEngine::SceneManagement {

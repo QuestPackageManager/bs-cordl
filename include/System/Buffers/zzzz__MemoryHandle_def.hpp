@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(MemoryHandle)
-namespace System::Runtime::InteropServices {
-struct GCHandle;
-}
 namespace System::Buffers {
 class IPinnable;
+}
+namespace System::Runtime::InteropServices {
+struct GCHandle;
 }
 namespace System {
 class IDisposable;
@@ -35,10 +35,11 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
+
   /// @brief Method .ctor, addr 0x258c520, size 0xc, virtual false, abstract: false, final false
-  /// @param handle: ::System::Runtime::InteropServices::GCHandle (default: {})
-  /// @param pinnable: ::System::Buffers::IPinnable* (default: nullptr)
-  inline void _ctor(::cordl_internals::Ptr<void> pointer, ::System::Runtime::InteropServices::GCHandle handle = {}, ::System::Buffers::IPinnable* pinnable = nullptr);
+  inline void _ctor(::cordl_internals::Ptr<void> pointer, ::System::Runtime::InteropServices::GCHandle handle, ::System::Buffers::IPinnable* pinnable);
 
   /// @brief Method get_Pointer, addr 0x258c52c, size 0x8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<void> get_Pointer();

@@ -16,11 +16,11 @@ class IVisualElementScheduledItem;
 namespace UnityEngine::UIElements {
 class TextEditorEngine;
 }
-namespace UnityEngine {
-class TouchScreenKeyboard;
-}
 namespace UnityEngine::UIElements {
 class VisualElement;
+}
+namespace UnityEngine {
+class TouchScreenKeyboard;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

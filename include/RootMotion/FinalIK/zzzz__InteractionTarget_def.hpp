@@ -11,17 +11,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(InteractionTarget)
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+struct __InteractionObject__WeightCurve__Type;
 }
 namespace RootMotion::FinalIK {
 class __InteractionTarget__Multiplier;
 }
 namespace UnityEngine {
-struct Vector3;
+class Transform;
 }
-namespace GlobalNamespace {
-struct __InteractionObject__WeightCurve__Type;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -100,8 +100,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__InteractionTarget__Multiplier, _
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12571)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10252))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12608)) CS Name: ::RootMotion.FinalIK::InteractionTarget*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(12571)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12608)) CS Name: ::RootMotion.FinalIK::InteractionTarget*
 class CORDL_TYPE InteractionTarget : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations

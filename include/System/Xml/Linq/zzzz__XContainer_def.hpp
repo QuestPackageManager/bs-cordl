@@ -7,26 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XContainer)
-namespace System::Xml::Linq {
-class __XContainer___Nodes_d__18;
-}
-namespace System::Xml {
-class XmlWriter;
-}
-namespace System::Xml::Linq {
-class XNode;
-}
-namespace System {
-class Object;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System::Xml::Linq {
-class XAttribute;
-}
-namespace System::Text {
-class StringBuilder;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -34,11 +19,26 @@ class IEnumerable;
 namespace System::Collections {
 class IEnumerator;
 }
+namespace System::Text {
+class StringBuilder;
+}
+namespace System::Xml::Linq {
+class XAttribute;
+}
+namespace System::Xml::Linq {
+class XNode;
+}
+namespace System::Xml::Linq {
+class __XContainer___Nodes_d__18;
+}
+namespace System::Xml {
+class XmlWriter;
+}
 namespace System {
 class IDisposable;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Xml::Linq {
@@ -83,17 +83,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XNode*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XNode*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XNode*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XNode*>* i___System__Collections__Generic__IEnumerable_1___System__Xml__Linq__XNode__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Xml::Linq::XNode*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Xml::Linq::XNode*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Xml::Linq::XNode*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Xml::Linq::XNode*>* i___System__Collections__Generic__IEnumerator_1___System__Xml__Linq__XNode__() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr int32_t& __get___1__state();
 

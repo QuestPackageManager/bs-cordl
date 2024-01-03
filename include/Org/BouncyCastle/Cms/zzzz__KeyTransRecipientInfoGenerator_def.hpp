@@ -6,38 +6,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(KeyTransRecipientInfoGenerator)
-namespace Org::BouncyCastle::Cms {
-class CmsEnvelopedHelper;
+namespace Org::BouncyCastle::Asn1::Cms {
+class IssuerAndSerialNumber;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class SubjectPublicKeyInfo;
-}
-namespace Org::BouncyCastle::Cms {
-class RecipientInfoGenerator;
+namespace Org::BouncyCastle::Asn1::Cms {
+class RecipientInfo;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class IssuerAndSerialNumber;
+namespace Org::BouncyCastle::Asn1::X509 {
+class SubjectPublicKeyInfo;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class TbsCertificateStructure;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetString;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsEnvelopedHelper;
+}
+namespace Org::BouncyCastle::Cms {
+class RecipientInfoGenerator;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class RecipientInfo;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class TbsCertificateStructure;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
@@ -89,6 +89,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::RecipientInfoGenerator"
   constexpr operator ::Org::BouncyCastle::Cms::RecipientInfoGenerator*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Cms::RecipientInfoGenerator"
+  constexpr ::Org::BouncyCastle::Cms::RecipientInfoGenerator* i___Org__BouncyCastle__Cms__RecipientInfoGenerator() noexcept;
 
   constexpr ::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure*& __get_recipientTbsCert();
 

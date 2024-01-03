@@ -17,8 +17,8 @@ class IReadonlyBeatmapData;
 namespace GlobalNamespace {
 struct __LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6;
 }
-namespace System::Threading::Tasks {
-class Task;
+namespace System::Runtime::CompilerServices {
+struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -26,8 +26,8 @@ class IAsyncStateMachine;
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
 }
-namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
+namespace System::Threading::Tasks {
+class Task;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -51,6 +51,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x231de40, size 0x188, virtual true, abstract: false, final true
   inline void MoveNext();

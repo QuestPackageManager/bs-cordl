@@ -12,20 +12,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRSkeleton)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace GlobalNamespace {
+class OVRBoneCapsule;
 }
 namespace GlobalNamespace {
-class __OVRSkeleton__IOVRSkeletonDataProvider;
+class OVRBone;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Posef;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Quatf;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Vector3f;
 }
 namespace GlobalNamespace {
 struct __OVRSkeleton__BoneId;
 }
-namespace UnityEngine {
-class GameObject;
-}
 namespace GlobalNamespace {
-class OVRBoneCapsule;
+class __OVRSkeleton__IOVRSkeletonDataProvider;
 }
 namespace GlobalNamespace {
 struct __OVRSkeleton__SkeletonPoseData;
@@ -33,23 +39,17 @@ struct __OVRSkeleton__SkeletonPoseData;
 namespace GlobalNamespace {
 struct __OVRSkeleton__SkeletonType;
 }
-namespace GlobalNamespace {
-class OVRBone;
-}
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+class GameObject;
+}
 namespace UnityEngine {
 class Transform;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Posef;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Vector3f;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Quatf;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -740,8 +740,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRSkeleton__BoneId, value__) == 0x0
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 180, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8168)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7778))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8170)) CS Name: ::OVRSkeleton*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8168)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(7778)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10225))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8170)) CS Name: ::OVRSkeleton*
 class CORDL_TYPE OVRSkeleton : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations

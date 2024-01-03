@@ -11,16 +11,13 @@ namespace System::Reflection {
 struct CallingConventions;
 }
 namespace System::Reflection {
-class ParameterInfo;
+class CustomAttributeData;
 }
 namespace System::Reflection {
 class MemberInfo;
 }
-namespace System {
-class Type;
-}
 namespace System::Reflection {
-class CustomAttributeData;
+class ParameterInfo;
 }
 namespace System::Runtime::InteropServices {
 class MarshalAsAttribute;
@@ -30,6 +27,9 @@ class StringBuilder;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Reflection {

@@ -10,6 +10,12 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SymmetricAlgorithm)
 namespace System::Security::Cryptography {
+struct CipherMode;
+}
+namespace System::Security::Cryptography {
+class ICryptoTransform;
+}
+namespace System::Security::Cryptography {
 class KeySizes;
 }
 namespace System::Security::Cryptography {
@@ -17,12 +23,6 @@ struct PaddingMode;
 }
 namespace System {
 class IDisposable;
-}
-namespace System::Security::Cryptography {
-class ICryptoTransform;
-}
-namespace System::Security::Cryptography {
-struct CipherMode;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {
@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::SymmetricAlgorithm);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2921)), TypeDefinitionIndex(TypeDefinitionIndex(2922)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2922)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2921))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2973))
 // CS Name: ::System.Security.Cryptography::SymmetricAlgorithm*
 class CORDL_TYPE SymmetricAlgorithm : public ::System::Object {
@@ -87,6 +87,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get_BlockSizeValue();
 

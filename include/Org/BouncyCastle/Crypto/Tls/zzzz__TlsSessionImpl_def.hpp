@@ -44,6 +44,9 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsSession"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsSession*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsSession"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSession* i___Org__BouncyCastle__Crypto__Tls__TlsSession() noexcept;
+
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mSessionID();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mSessionID() const;

@@ -9,13 +9,13 @@ namespace GlobalNamespace {
 class INoteControllerDidInitEvent;
 }
 namespace GlobalNamespace {
+class NoteControllerBase;
+}
+namespace GlobalNamespace {
 class NoteController;
 }
 namespace UnityEngine {
 class BoxCollider;
-}
-namespace GlobalNamespace {
-class NoteControllerBase;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteBigCuttableColliderSize);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4759))
 // CS Name: ::NoteBigCuttableColliderSize*
 class CORDL_TYPE NoteBigCuttableColliderSize : public ::UnityEngine::MonoBehaviour {
@@ -44,6 +44,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::INoteControllerDidInitEvent"
   constexpr operator ::GlobalNamespace::INoteControllerDidInitEvent*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::INoteControllerDidInitEvent"
+  constexpr ::GlobalNamespace::INoteControllerDidInitEvent* i___GlobalNamespace__INoteControllerDidInitEvent() noexcept;
 
   constexpr ::GlobalNamespace::NoteController*& __get__noteController();
 

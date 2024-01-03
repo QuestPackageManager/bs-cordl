@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(SignalOnPointerClick)
+namespace GlobalNamespace {
+class Signal;
+}
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+class IEventSystemHandler;
 }
 namespace UnityEngine::EventSystems {
 class IPointerClickHandler;
 }
 namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace GlobalNamespace {
-class Signal;
+class PointerEventData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -38,8 +38,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerClickHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerClickHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerClickHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerClickHandler* i___UnityEngine__EventSystems__IPointerClickHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
 
   constexpr ::GlobalNamespace::Signal*& __get__inputFieldClickedSignal();
 

@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayerLevelStatsData)
 namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
 struct __RankModel__Rank;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

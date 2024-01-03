@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CommonAce)
-namespace System::Security::Principal {
-class SecurityIdentifier;
+namespace System::Security::AccessControl {
+struct AceFlags;
 }
 namespace System::Security::AccessControl {
 struct AceQualifier;
 }
 namespace System::Security::AccessControl {
-struct AceFlags;
-}
-namespace System::Security::AccessControl {
 struct AceType;
+}
+namespace System::Security::Principal {
+class SecurityIdentifier;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {

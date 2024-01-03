@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ProtocolViolationException)
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+class ISerializable;
 }
 namespace System::Runtime::Serialization {
-class ISerializable;
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
@@ -32,6 +32,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
   static inline ::System::Net::ProtocolViolationException* New_ctor();
 

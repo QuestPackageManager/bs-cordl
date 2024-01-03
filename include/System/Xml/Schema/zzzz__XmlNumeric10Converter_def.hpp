@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlNumeric10Converter)
-namespace System::Xml {
-class IXmlNamespaceResolver;
-}
 namespace System::Xml::Schema {
 class XmlSchemaType;
 }
 namespace System::Xml::Schema {
 class XmlValueConverter;
 }
-namespace System {
-class Type;
+namespace System::Xml {
+class IXmlNamespaceResolver;
 }
 namespace System {
 struct Decimal;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

@@ -8,8 +8,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MaterialReference)
-namespace UnityEngine {
-class Material;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine::TextCore::Text {
 class FontAsset;
@@ -17,8 +17,8 @@ class FontAsset;
 namespace UnityEngine::TextCore::Text {
 class SpriteAsset;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace UnityEngine {
+class Material;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {

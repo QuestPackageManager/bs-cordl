@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ExceptionDispatchInfo)
 namespace System {
-class Object;
+class Exception;
 }
 namespace System {
-class Exception;
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::ExceptionServices {

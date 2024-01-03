@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CertificateStatus)
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1::Ocsp {
+class OcspResponse;
 }
 namespace System::IO {
 class Stream;
 }
-namespace Org::BouncyCastle::Asn1::Ocsp {
-class OcspResponse;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

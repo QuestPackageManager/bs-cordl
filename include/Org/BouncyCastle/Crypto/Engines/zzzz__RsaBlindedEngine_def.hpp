@@ -7,6 +7,12 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RsaBlindedEngine)
+namespace Org::BouncyCastle::Crypto::Parameters {
+class RsaKeyParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class IAsymmetricBlockCipher;
+}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
@@ -15,12 +21,6 @@ class IRsa;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class RsaKeyParameters;
-}
-namespace Org::BouncyCastle::Crypto {
-class IAsymmetricBlockCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -51,6 +51,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
+  constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* i___Org__BouncyCastle__Crypto__IAsymmetricBlockCipher() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::IRsa*& __get_core();
 

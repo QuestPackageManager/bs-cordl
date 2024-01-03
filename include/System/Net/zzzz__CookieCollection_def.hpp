@@ -7,35 +7,35 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CookieCollection)
-namespace System::Net {
-struct __CookieCollection__Stamp;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System {
-class Object;
-}
-namespace System::Net {
-class __CookieCollection__CookieCollectionEnumerator;
-}
-namespace System::Net {
-class Cookie;
-}
-namespace System {
-class Array;
-}
 namespace System::Collections {
 class ArrayList;
 }
-namespace System {
-struct DateTime;
+namespace System::Collections {
+class ICollection;
 }
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System::Net {
+class Cookie;
+}
+namespace System::Net {
+class __CookieCollection__CookieCollectionEnumerator;
+}
+namespace System::Net {
+struct __CookieCollection__Stamp;
+}
+namespace System {
+class Array;
+}
+namespace System {
+struct DateTime;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Net {
@@ -136,6 +136,9 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   constexpr ::System::Net::CookieCollection*& __get_m_cookies();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Net::CookieCollection*> const& __get_m_cookies() const;
@@ -218,7 +221,7 @@ static_assert(offsetof(::System::Net::__CookieCollection__CookieCollectionEnumer
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9128))
 // CS Name: ::System.Net::CookieCollection*
 class CORDL_TYPE CookieCollection : public ::System::Object {
@@ -256,8 +259,14 @@ public:
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
 
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr int32_t& __get_m_version();
 

@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArgInfo)
-namespace System::Runtime::Remoting::Messaging {
-struct ArgInfoType;
-}
 namespace System::Reflection {
 class MethodBase;
+}
+namespace System::Runtime::Remoting::Messaging {
+struct ArgInfoType;
 }
 namespace System {
 class Object;

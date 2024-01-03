@@ -12,17 +12,17 @@ CORDL_MODULE_EXPORT(IKSolverArm)
 namespace RootMotion::FinalIK {
 class __IKSolverVR__Arm;
 }
-namespace UnityEngine {
-struct Vector3;
-}
 namespace RootMotion::FinalIK {
 class __IKSolver__Point;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IKSolverArm);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12564)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(12564))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12566))
 // CS Name: ::RootMotion.FinalIK::IKSolverArm*
 class CORDL_TYPE IKSolverArm : public ::RootMotion::FinalIK::IKSolver {

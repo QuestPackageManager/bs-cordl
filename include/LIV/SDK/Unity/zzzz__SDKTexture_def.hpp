@@ -13,7 +13,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SDKTexture)
 namespace LIV::SDK::Unity {
-struct TEXTURE_ID;
+struct TEXTURE_COLOR_SPACE;
 }
 namespace LIV::SDK::Unity {
 struct TEXTURE_DEVICE;
@@ -22,10 +22,10 @@ namespace LIV::SDK::Unity {
 struct TEXTURE_FORMAT;
 }
 namespace LIV::SDK::Unity {
-struct TEXTURE_TYPE;
+struct TEXTURE_ID;
 }
 namespace LIV::SDK::Unity {
-struct TEXTURE_COLOR_SPACE;
+struct TEXTURE_TYPE;
 }
 // Forward declare root types
 namespace LIV::SDK::Unity {
@@ -37,8 +37,8 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKTexture);
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(15104)), TypeDefinitionIndex(TypeDefinitionIndex(15105)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15102)), TypeDefinitionIndex(TypeDefinitionIndex(15106)), TypeDefinitionIndex(TypeDefinitionIndex(15103))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15106)), TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(15105)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15102)), TypeDefinitionIndex(TypeDefinitionIndex(15104)), TypeDefinitionIndex(TypeDefinitionIndex(15103))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(15118)) CS Name: ::LIV.SDK.Unity::SDKTexture
 struct CORDL_TYPE SDKTexture {
 public:

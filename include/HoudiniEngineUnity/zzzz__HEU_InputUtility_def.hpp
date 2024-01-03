@@ -12,8 +12,8 @@ class HEU_HoudiniAsset;
 namespace HoudiniEngineUnity {
 class HEU_InputHDAInfo;
 }
-namespace UnityEngine {
-class GameObject;
+namespace HoudiniEngineUnity {
+class HEU_InputInterface;
 }
 namespace HoudiniEngineUnity {
 class HEU_InputNode;
@@ -21,17 +21,17 @@ class HEU_InputNode;
 namespace HoudiniEngineUnity {
 class HEU_InputObjectInfo;
 }
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace HoudiniEngineUnity {
-class HEU_InputInterface;
 }
 namespace System {
 class Type;
 }
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -80,10 +80,9 @@ public:
                                                      ByRef<::System::Collections::Generic::List_1<int32_t>*> inputObjectsConnectedAssetIDs, ::HoudiniEngineUnity::HEU_InputNode* inputNode);
 
   /// @brief Method CreateInputNodeWithMultiAssets, addr 0x21cf968, size 0x3c4, virtual false, abstract: false, final false
-  /// @param mergeParentID: int32_t (default: static_cast<int32_t>(0xffffffff))
   static inline bool CreateInputNodeWithMultiAssets(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, ByRef<int32_t> connectMergeID,
                                                     ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>*> inputAssetInfos, bool bKeepWorldTransform,
-                                                    int32_t mergeParentID = static_cast<int32_t>(0xffffffff));
+                                                    int32_t mergeParentID);
 
   /// @brief Method UploadInputObjectTransform, addr 0x21cf640, size 0x328, virtual false, abstract: false, final false
   static inline bool UploadInputObjectTransform(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_InputObjectInfo* inputObject, int32_t inputNodeID, bool bKeepWorldTransform);

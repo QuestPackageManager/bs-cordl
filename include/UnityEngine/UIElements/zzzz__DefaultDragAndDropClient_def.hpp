@@ -8,13 +8,13 @@ namespace System {
 class Object;
 }
 namespace UnityEngine::UIElements {
+class IDragAndDropData;
+}
+namespace UnityEngine::UIElements {
 class IDragAndDrop;
 }
 namespace UnityEngine::UIElements {
 class StartDragArgs;
-}
-namespace UnityEngine::UIElements {
-class IDragAndDropData;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -42,8 +42,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IDragAndDrop"
   constexpr operator ::UnityEngine::UIElements::IDragAndDrop*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::UIElements::IDragAndDrop"
+  constexpr ::UnityEngine::UIElements::IDragAndDrop* i___UnityEngine__UIElements__IDragAndDrop() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::UIElements::IDragAndDropData"
   constexpr operator ::UnityEngine::UIElements::IDragAndDropData*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UIElements::IDragAndDropData"
+  constexpr ::UnityEngine::UIElements::IDragAndDropData* i___UnityEngine__UIElements__IDragAndDropData() noexcept;
 
   constexpr ::UnityEngine::UIElements::StartDragArgs*& __get_m_StartDragArgs();
 

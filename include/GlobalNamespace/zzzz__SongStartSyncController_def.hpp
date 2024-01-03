@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SongStartSyncController)
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace System {
-template <typename T> class Action_1;
+class IGameplayRpcManager;
 }
 namespace GlobalNamespace {
-class IGameplayRpcManager;
+class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+class PlayersSpecificSettingsAtGameStartModel;
 }
 namespace GlobalNamespace {
 class SongStartHandler;
 }
-namespace GlobalNamespace {
-class PlayersSpecificSettingsAtGameStartModel;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System {
 class Action;

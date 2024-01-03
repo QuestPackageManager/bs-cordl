@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GUILayoutOption)
-namespace UnityEngine {
-struct __GUILayoutOption__Type;
-}
 namespace System {
 class Object;
+}
+namespace UnityEngine {
+struct __GUILayoutOption__Type;
 }
 // Forward declare root types
 namespace UnityEngine {

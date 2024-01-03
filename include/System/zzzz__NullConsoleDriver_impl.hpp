@@ -2,8 +2,8 @@
 #include "System/zzzz__ConsoleKeyInfo_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__NullConsoleDriver_def.hpp"
-#include "System/zzzz__IConsoleDriver_def.hpp"
 #include "System/zzzz__ConsoleKeyInfo_def.hpp"
+#include "System/zzzz__IConsoleDriver_def.hpp"
 //  Writing Method size for method: ::System::NullConsoleDriver.ReadKey
 template <>
 
@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x25fec6c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::NullConsoleDriver*>::get(), "ReadKey", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
@@ -25,7 +25,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x25f7890;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::NullConsoleDriver*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -33,6 +33,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::System::IConsoleDriver"
 constexpr System::NullConsoleDriver::operator ::System::IConsoleDriver*() noexcept {
+  return static_cast<::System::IConsoleDriver*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IConsoleDriver"
+constexpr ::System::IConsoleDriver* System::NullConsoleDriver::i___System__IConsoleDriver() noexcept {
   return static_cast<::System::IConsoleDriver*>(static_cast<void*>(this));
 }
 inline void System::NullConsoleDriver::setStaticF_EmptyConsoleKeyInfo(::System::ConsoleKeyInfo value) {

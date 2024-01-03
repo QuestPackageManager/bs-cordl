@@ -5,25 +5,25 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(BaseVisualTreeUpdater)
 namespace System {
-class IDisposable;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-struct VersionChangeType;
-}
-namespace UnityEngine::UIElements {
-class IVisualTreeUpdater;
+template <typename T> class Action_1;
 }
 namespace System {
-template <typename T> class Action_1;
+class IDisposable;
 }
 namespace Unity::Profiling {
 struct ProfilerMarker;
 }
 namespace UnityEngine::UIElements {
 class BaseVisualElementPanel;
+}
+namespace UnityEngine::UIElements {
+class IVisualTreeUpdater;
+}
+namespace UnityEngine::UIElements {
+struct VersionChangeType;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -56,8 +56,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IVisualTreeUpdater"
   constexpr operator ::UnityEngine::UIElements::IVisualTreeUpdater*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::UIElements::IVisualTreeUpdater"
+  constexpr ::UnityEngine::UIElements::IVisualTreeUpdater* i___UnityEngine__UIElements__IVisualTreeUpdater() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>*& __get_panelChanged();
 

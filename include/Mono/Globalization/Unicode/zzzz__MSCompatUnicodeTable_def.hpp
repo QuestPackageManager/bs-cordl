@@ -9,28 +9,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MSCompatUnicodeTable)
 namespace Mono::Globalization::Unicode {
-class __MSCompatUnicodeTable____c;
+class CodePointIndexer;
 }
 namespace Mono::Globalization::Unicode {
 class Contraction;
 }
 namespace Mono::Globalization::Unicode {
-class CodePointIndexer;
-}
-namespace System::Globalization {
-class CultureInfo;
+class Level2Map;
 }
 namespace Mono::Globalization::Unicode {
 class TailoringInfo;
 }
-namespace System {
-class Object;
-}
 namespace Mono::Globalization::Unicode {
-class Level2Map;
+class __MSCompatUnicodeTable____c;
+}
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace System {
 template <typename T> class Comparison_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Mono::Globalization::Unicode {

@@ -8,12 +8,12 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LoadResourceFunction)
 namespace System {
-class Type;
-}
-namespace UnityEngine {
 class Object;
 }
 namespace System {
+class Type;
+}
+namespace UnityEngine {
 class Object;
 }
 // Forward declare root types

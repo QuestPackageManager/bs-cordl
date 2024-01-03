@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AnimationRemoveScalePlayable)
-namespace UnityEngine::Playables {
-struct PlayableHandle;
-}
-namespace UnityEngine::Playables {
-struct PlayableGraph;
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::Playables {
 class IPlayable;
 }
 namespace UnityEngine::Playables {
-struct Playable;
+struct PlayableGraph;
 }
-namespace System {
-template <typename T> class IEquatable_1;
+namespace UnityEngine::Playables {
+struct PlayableHandle;
+}
+namespace UnityEngine::Playables {
+struct Playable;
 }
 // Forward declare root types
 namespace UnityEngine::Animations {
@@ -44,8 +44,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
+  /// @brief Convert to "::UnityEngine::Playables::IPlayable"
+  constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Animations::AnimationRemoveScalePlayable>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Animations::AnimationRemoveScalePlayable>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Animations::AnimationRemoveScalePlayable>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Animations::AnimationRemoveScalePlayable>* i___System__IEquatable_1___UnityEngine__Animations__AnimationRemoveScalePlayable_();
 
   static inline void setStaticF_m_NullPlayable(::UnityEngine::Animations::AnimationRemoveScalePlayable value);
 

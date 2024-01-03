@@ -9,14 +9,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayerConnection)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+struct Guid;
+}
 namespace UnityEngine::Events {
 template <typename T0> class UnityAction_1;
-}
-namespace UnityEngine::Networking::PlayerConnection {
-class PlayerEditorConnectionEvents;
-}
-namespace UnityEngine {
-class IPlayerEditorConnectionNative;
 }
 namespace UnityEngine::Networking::PlayerConnection {
 class IEditorPlayerConnection;
@@ -25,22 +25,22 @@ namespace UnityEngine::Networking::PlayerConnection {
 class MessageEventArgs;
 }
 namespace UnityEngine::Networking::PlayerConnection {
-class __PlayerConnection____c__DisplayClass20_0;
-}
-namespace UnityEngine::Networking::PlayerConnection {
-class __PlayerConnection____c__DisplayClass13_0;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-struct Guid;
+class PlayerEditorConnectionEvents;
 }
 namespace UnityEngine::Networking::PlayerConnection {
 class __PlayerConnection____c__DisplayClass12_0;
 }
 namespace UnityEngine::Networking::PlayerConnection {
+class __PlayerConnection____c__DisplayClass13_0;
+}
+namespace UnityEngine::Networking::PlayerConnection {
+class __PlayerConnection____c__DisplayClass20_0;
+}
+namespace UnityEngine::Networking::PlayerConnection {
 class __PlayerEditorConnectionEvents__MessageTypeSubscribers;
+}
+namespace UnityEngine {
+class IPlayerEditorConnectionNative;
 }
 // Forward declare root types
 namespace UnityEngine::Networking::PlayerConnection {
@@ -252,6 +252,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection"
   constexpr operator ::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection"
+  constexpr ::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection* i___UnityEngine__Networking__PlayerConnection__IEditorPlayerConnection() noexcept;
 
   constexpr ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents*& __get_m_PlayerEditorConnectionEvents();
 

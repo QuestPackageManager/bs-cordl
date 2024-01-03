@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Primes)
-namespace Org::BouncyCastle::Math {
-class __Primes__MROutput;
-}
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
 namespace Org::BouncyCastle::Math {
-class __Primes__STOutput;
+class BigInteger;
 }
 namespace Org::BouncyCastle::Math {
-class BigInteger;
+class __Primes__MROutput;
+}
+namespace Org::BouncyCastle::Math {
+class __Primes__STOutput;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;

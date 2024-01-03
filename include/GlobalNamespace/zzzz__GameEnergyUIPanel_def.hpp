@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameEnergyUIPanel)
-namespace UnityEngine::Playables {
-class PlayableDirector;
-}
-namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine::UI {
-class Image;
-}
 namespace GlobalNamespace {
 class IGameEnergyCounter;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine::Playables {
+class PlayableDirector;
+}
+namespace UnityEngine::UI {
+class Image;
+}
+namespace UnityEngine {
+class RectTransform;
 }
 // Forward declare root types
 namespace GlobalNamespace {

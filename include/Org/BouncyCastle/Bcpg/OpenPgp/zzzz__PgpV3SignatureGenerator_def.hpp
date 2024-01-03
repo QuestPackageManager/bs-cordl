@@ -8,29 +8,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpV3SignatureGenerator)
-namespace Org::BouncyCastle::Bcpg {
-struct PublicKeyAlgorithmTag;
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpOnePassSignature;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpPrivateKey;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpSignature;
+}
+namespace Org::BouncyCastle::Bcpg {
+struct HashAlgorithmTag;
+}
+namespace Org::BouncyCastle::Bcpg {
+struct PublicKeyAlgorithmTag;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
 }
 namespace Org::BouncyCastle::Crypto {
 class ISigner;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
-}
-namespace Org::BouncyCastle::Bcpg {
-struct HashAlgorithmTag;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpOnePassSignature;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpSignature;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpV3SignatureGenerator);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 53, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(572)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(580))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(580)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(572))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1674))
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpV3SignatureGenerator*
 class CORDL_TYPE PgpV3SignatureGenerator : public ::System::Object {

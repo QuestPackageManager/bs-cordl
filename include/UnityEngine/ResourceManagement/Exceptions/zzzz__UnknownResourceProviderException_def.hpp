@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/ResourceManagement/Exceptions/zzzz__ResourceManagerException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UnknownResourceProviderException)
-namespace System {
-class Exception;
-}
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System {
+class Exception;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Exceptions {

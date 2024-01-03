@@ -8,37 +8,37 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BeatEffectSpawner)
 namespace GlobalNamespace {
-class NoteController;
-}
-namespace GlobalNamespace {
-class ColorManager;
-}
-namespace GlobalNamespace {
-class BeatmapObjectManager;
-}
-namespace GlobalNamespace {
-template <typename T> class MemoryPoolContainer_1;
-}
-namespace GlobalNamespace {
-class IBeatEffectDidFinishEvent;
-}
-namespace GlobalNamespace {
-class SongController;
-}
-namespace GlobalNamespace {
 class AudioTimeSyncController;
-}
-namespace GlobalNamespace {
-class __BeatEffect__Pool;
-}
-namespace GlobalNamespace {
-class __BeatEffectSpawner__InitData;
 }
 namespace GlobalNamespace {
 class BeatEffect;
 }
 namespace GlobalNamespace {
+class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
 class BloomFogSO;
+}
+namespace GlobalNamespace {
+class ColorManager;
+}
+namespace GlobalNamespace {
+class IBeatEffectDidFinishEvent;
+}
+namespace GlobalNamespace {
+template <typename T> class MemoryPoolContainer_1;
+}
+namespace GlobalNamespace {
+class NoteController;
+}
+namespace GlobalNamespace {
+class SongController;
+}
+namespace GlobalNamespace {
+class __BeatEffectSpawner__InitData;
+}
+namespace GlobalNamespace {
+class __BeatEffect__Pool;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -103,7 +103,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatEffectSpawner__InitData, ___hide
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4886))
 // CS Name: ::BeatEffectSpawner*
 class CORDL_TYPE BeatEffectSpawner : public ::UnityEngine::MonoBehaviour {
@@ -140,6 +140,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IBeatEffectDidFinishEvent"
   constexpr operator ::GlobalNamespace::IBeatEffectDidFinishEvent*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IBeatEffectDidFinishEvent"
+  constexpr ::GlobalNamespace::IBeatEffectDidFinishEvent* i___GlobalNamespace__IBeatEffectDidFinishEvent() noexcept;
 
   constexpr float_t& __get__effectDuration();
 

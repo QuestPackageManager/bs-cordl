@@ -15,26 +15,44 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsyncProtocolRequest)
-namespace System {
-class Object;
-}
-namespace Mono::Net::Security {
-struct __AsyncProtocolRequest___ProcessOperation_d__24;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
 namespace Mono::Net::Security {
 struct AsyncOperationStatus;
+}
+namespace Mono::Net::Security {
+class AsyncProtocolResult;
 }
 namespace Mono::Net::Security {
 class MobileAuthenticatedStream;
 }
 namespace Mono::Net::Security {
-struct __AsyncProtocolRequest___StartOperation_d__23;
+struct __AsyncProtocolRequest___InnerRead_d__25;
 }
 namespace Mono::Net::Security {
-struct __AsyncProtocolRequest___InnerRead_d__25;
+struct __AsyncProtocolRequest___ProcessOperation_d__24;
+}
+namespace Mono::Net::Security {
+struct __AsyncProtocolRequest___StartOperation_d__23;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncTaskMethodBuilder;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
+}
+namespace System::Runtime::CompilerServices {
+struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace System::Threading {
 struct CancellationToken;
@@ -42,26 +60,8 @@ struct CancellationToken;
 namespace System {
 template <typename T> struct Nullable_1;
 }
-namespace Mono::Net::Security {
-class AsyncProtocolResult;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
-}
-namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Mono::Net::Security {
@@ -93,6 +93,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x281e690, size 0x358, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -150,15 +153,18 @@ static_assert(offsetof(::Mono::Net::Security::__AsyncProtocolRequest___StartOper
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8817)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 867 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3401)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(8820)) CS
-// Name: ::AsyncProtocolRequest::<ProcessOperation>d__24
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8817)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 867 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(8820)) CS Name:
+// ::AsyncProtocolRequest::<ProcessOperation>d__24
 struct CORDL_TYPE __AsyncProtocolRequest___ProcessOperation_d__24 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x281ea80, size 0x494, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -235,15 +241,18 @@ static_assert(offsetof(::Mono::Net::Security::__AsyncProtocolRequest___ProcessOp
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 867 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(8821)) CS
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 867 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8821)) CS
 // Name: ::AsyncProtocolRequest::<InnerRead>d__25
 struct CORDL_TYPE __AsyncProtocolRequest___InnerRead_d__25 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x281f198, size 0x350, virtual true, abstract: false, final true
   inline void MoveNext();

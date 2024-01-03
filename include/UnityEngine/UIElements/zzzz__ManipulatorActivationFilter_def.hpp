@@ -7,6 +7,12 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ManipulatorActivationFilter)
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
+class Object;
+}
 namespace UnityEngine::UIElements {
 class IMouseEvent;
 }
@@ -15,12 +21,6 @@ class IPointerEvent;
 }
 namespace UnityEngine::UIElements {
 struct MouseButton;
-}
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
-class Object;
 }
 namespace UnityEngine {
 struct EventModifiers;
@@ -35,7 +35,7 @@ MARK_VAL_T(::UnityEngine::UIElements::ManipulatorActivationFilter);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6773)), TypeDefinitionIndex(TypeDefinitionIndex(14602))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14602)), TypeDefinitionIndex(TypeDefinitionIndex(6773))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6783))
 // CS Name: ::UnityEngine.UIElements::ManipulatorActivationFilter
 struct CORDL_TYPE ManipulatorActivationFilter {
@@ -49,6 +49,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::ManipulatorActivationFilter>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::ManipulatorActivationFilter>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::ManipulatorActivationFilter>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::ManipulatorActivationFilter>* i___System__IEquatable_1___UnityEngine__UIElements__ManipulatorActivationFilter_();
 
   /// @brief Method get_button, addr 0x2db9820, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MouseButton get_button();

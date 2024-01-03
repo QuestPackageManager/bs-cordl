@@ -10,13 +10,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Touch)
 namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
 struct TouchPhase;
 }
 namespace UnityEngine {
 struct TouchType;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -28,7 +28,7 @@ MARK_VAL_T(::UnityEngine::Touch);
 // SizeInfo { instance_size: 68, native_size: 68, calculated_instance_size: 68, calculated_native_size: 84, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15950)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(15952))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(15952)), TypeDefinitionIndex(TypeDefinitionIndex(15950))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15953))
 // CS Name: ::UnityEngine::Touch
 struct CORDL_TYPE Touch {

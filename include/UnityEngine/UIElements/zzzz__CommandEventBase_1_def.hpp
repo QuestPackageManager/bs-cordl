@@ -37,6 +37,9 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::ICommandEvent"
   constexpr operator ::UnityEngine::UIElements::ICommandEvent*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::UIElements::ICommandEvent"
+  constexpr ::UnityEngine::UIElements::ICommandEvent* i___UnityEngine__UIElements__ICommandEvent() noexcept;
+
   constexpr ::StringW& __get_m_CommandName();
 
   constexpr ::StringW const& __get_m_CommandName() const;

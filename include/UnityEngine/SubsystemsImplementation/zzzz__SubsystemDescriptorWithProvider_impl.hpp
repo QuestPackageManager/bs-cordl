@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/SubsystemsImplementation/zzzz__SubsystemDescriptorWithProvider_def.hpp"
-#include "UnityEngine/zzzz__ISubsystem_def.hpp"
 #include "UnityEngine/zzzz__ISubsystemDescriptor_def.hpp"
+#include "UnityEngine/zzzz__ISubsystem_def.hpp"
 //  Writing Method size for method: ::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider.get_id
 template <>
 
@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2d1b498;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider*>::get(), "get_id",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider*>::get(),
@@ -42,7 +42,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x2d1b4a0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider*>::get(),
                                                  "UnityEngine.ISubsystemDescriptor.Create", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -57,7 +57,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2d1b4ac;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider*>::get(), ".ctor",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -66,6 +66,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::UnityEngine::ISubsystemDescriptor"
 constexpr UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider::operator ::UnityEngine::ISubsystemDescriptor*() noexcept {
+  return static_cast<::UnityEngine::ISubsystemDescriptor*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::ISubsystemDescriptor"
+constexpr ::UnityEngine::ISubsystemDescriptor* UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider::i___UnityEngine__ISubsystemDescriptor() noexcept {
   return static_cast<::UnityEngine::ISubsystemDescriptor*>(static_cast<void*>(this));
 }
 constexpr ::StringW& UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider::__get__id_k__BackingField() {

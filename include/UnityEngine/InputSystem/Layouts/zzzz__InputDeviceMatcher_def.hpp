@@ -12,50 +12,50 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputDeviceMatcher)
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace GlobalNamespace {
+struct __InputDeviceMatcher__MatcherJson__Capability;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System {
-class Object;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace UnityEngine::InputSystem::Layouts {
-struct __InputDeviceMatcher__MatcherJson;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct InternedString;
-}
-namespace UnityEngine::InputSystem::Layouts {
-class __InputDeviceMatcher____c;
+namespace System {
+class Object;
 }
 namespace UnityEngine::InputSystem::Layouts {
 struct InputDeviceDescription;
 }
 namespace UnityEngine::InputSystem::Layouts {
+struct __InputDeviceMatcher__MatcherJson;
+}
+namespace UnityEngine::InputSystem::Layouts {
+class __InputDeviceMatcher____c;
+}
+namespace UnityEngine::InputSystem::Layouts {
 class __InputDeviceMatcher___get_patterns_d__4;
 }
-namespace GlobalNamespace {
-struct __InputDeviceMatcher__MatcherJson__Capability;
+namespace UnityEngine::InputSystem::Utilities {
+struct InternedString;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Layouts {
@@ -252,6 +252,9 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher>"
+  constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher>* i___System__IEquatable_1___UnityEngine__InputSystem__Layouts__InputDeviceMatcher_();
+
   static inline void setStaticF_kInterfaceKey(::UnityEngine::InputSystem::Utilities::InternedString value);
 
   static inline ::UnityEngine::InputSystem::Utilities::InternedString getStaticF_kInterfaceKey();
@@ -279,31 +282,25 @@ public:
   inline ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>* get_patterns();
 
   /// @brief Method WithInterface, addr 0x2b07288, size 0x78, virtual false, abstract: false, final false
-  /// @param supportRegex: bool (default: true)
-  inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher WithInterface(::StringW pattern, bool supportRegex = true);
+  inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher WithInterface(::StringW pattern, bool supportRegex);
 
   /// @brief Method WithDeviceClass, addr 0x2b07510, size 0x78, virtual false, abstract: false, final false
-  /// @param supportRegex: bool (default: true)
-  inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher WithDeviceClass(::StringW pattern, bool supportRegex = true);
+  inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher WithDeviceClass(::StringW pattern, bool supportRegex);
 
   /// @brief Method WithManufacturer, addr 0x2b07588, size 0x78, virtual false, abstract: false, final false
-  /// @param supportRegex: bool (default: true)
-  inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher WithManufacturer(::StringW pattern, bool supportRegex = true);
+  inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher WithManufacturer(::StringW pattern, bool supportRegex);
 
   /// @brief Method WithProduct, addr 0x2b07600, size 0x78, virtual false, abstract: false, final false
-  /// @param supportRegex: bool (default: true)
-  inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher WithProduct(::StringW pattern, bool supportRegex = true);
+  inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher WithProduct(::StringW pattern, bool supportRegex);
 
   /// @brief Method WithVersion, addr 0x2b07678, size 0x78, virtual false, abstract: false, final false
-  /// @param supportRegex: bool (default: true)
-  inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher WithVersion(::StringW pattern, bool supportRegex = true);
+  inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher WithVersion(::StringW pattern, bool supportRegex);
 
   /// @brief Method WithCapability, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher WithCapability(::StringW path, TValue value);
 
   /// @brief Method With, addr 0x2b07300, size 0x210, virtual false, abstract: false, final false
-  /// @param supportRegex: bool (default: true)
-  inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher With(::UnityEngine::InputSystem::Utilities::InternedString key, ::System::Object* value, bool supportRegex = true);
+  inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher With(::UnityEngine::InputSystem::Utilities::InternedString key, ::System::Object* value, bool supportRegex);
 
   /// @brief Method MatchPercentage, addr 0x2b01c20, size 0x37c, virtual false, abstract: false, final false
   inline float_t MatchPercentage(::UnityEngine::InputSystem::Layouts::InputDeviceDescription deviceDescription);
@@ -367,7 +364,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher, 
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 954 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6625)), TypeDefinitionIndex(TypeDefinitionIndex(3841))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6623)) CS Name:
+// TypeDefinitionIndex(TypeDefinitionIndex(3841)), TypeDefinitionIndex(TypeDefinitionIndex(6625))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6623)) CS Name:
 // ::InputDeviceMatcher::<get_patterns>d__4*
 class CORDL_TYPE __InputDeviceMatcher___get_patterns_d__4 : public ::System::Object {
 public:
@@ -401,17 +398,34 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>*
+  i___System__Collections__Generic__IEnumerable_1___System__Collections__Generic__KeyValuePair_2___StringW___System__Object___() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>*
+  i___System__Collections__Generic__IEnumerator_1___System__Collections__Generic__KeyValuePair_2___StringW___System__Object___() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

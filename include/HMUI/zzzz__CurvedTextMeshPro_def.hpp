@@ -7,8 +7,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CurvedTextMeshPro)
-namespace UnityEngine {
-class Mesh;
+namespace GlobalNamespace {
+class ColorSO;
+}
+namespace GlobalNamespace {
+class IComponentRefresher;
 }
 namespace HMUI {
 class CurvedCanvasSettingsHelper;
@@ -17,19 +20,16 @@ namespace HMUI {
 struct __CurvedTextMeshPro__CurvedMeshInfo;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Color32;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
-struct Color32;
+class Mesh;
 }
-namespace GlobalNamespace {
-class IComponentRefresher;
-}
-namespace GlobalNamespace {
-class ColorSO;
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace HMUI {
@@ -103,6 +103,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IComponentRefresher"
   constexpr operator ::GlobalNamespace::IComponentRefresher*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IComponentRefresher"
+  constexpr ::GlobalNamespace::IComponentRefresher* i___GlobalNamespace__IComponentRefresher() noexcept;
 
   constexpr bool& __get__useScriptableObjectColors();
 

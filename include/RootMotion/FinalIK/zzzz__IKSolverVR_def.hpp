@@ -16,44 +16,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IKSolverVR)
-namespace RootMotion::FinalIK {
-class __VRIK__References;
-}
-namespace RootMotion::FinalIK {
-class __IKSolverVR__Spine;
+namespace GlobalNamespace {
+struct __IKSolverVR__Arm__ShoulderRotationMode;
 }
 namespace RootMotion::FinalIK {
 class __IKSolverVR__Arm;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace RootMotion::FinalIK {
-class __IKSolverVR__Footstep;
-}
-namespace RootMotion::FinalIK {
-class __IKSolverVR__Locomotion;
-}
-namespace UnityEngine {
-struct Keyframe;
 }
 namespace RootMotion::FinalIK {
 class __IKSolverVR__BodyPart;
 }
 namespace RootMotion::FinalIK {
-class __IKSolverVR__VirtualBone;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace RootMotion::FinalIK {
-class __IKSolver__Point;
+class __IKSolverVR__Footstep;
 }
 namespace RootMotion::FinalIK {
 class __IKSolverVR__Leg;
+}
+namespace RootMotion::FinalIK {
+class __IKSolverVR__Locomotion;
 }
 namespace RootMotion::FinalIK {
 struct __IKSolverVR__PositionOffset;
@@ -61,20 +40,41 @@ struct __IKSolverVR__PositionOffset;
 namespace RootMotion::FinalIK {
 struct __IKSolverVR__RotationOffset;
 }
-namespace GlobalNamespace {
-struct __IKSolverVR__Arm__ShoulderRotationMode;
+namespace RootMotion::FinalIK {
+class __IKSolverVR__Spine;
 }
-namespace UnityEngine {
-struct Color;
+namespace RootMotion::FinalIK {
+class __IKSolverVR__VirtualBone;
 }
-namespace UnityEngine {
-class AnimationCurve;
+namespace RootMotion::FinalIK {
+class __IKSolver__Point;
+}
+namespace RootMotion::FinalIK {
+class __VRIK__References;
 }
 namespace RootMotion {
 struct InterpolationMode;
 }
 namespace UnityEngine::Events {
 class UnityEvent;
+}
+namespace UnityEngine {
+class AnimationCurve;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+struct Keyframe;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -176,7 +176,7 @@ static_assert(offsetof(::GlobalNamespace::__IKSolverVR__Arm__ShoulderRotationMod
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12585))
 // CS Name: ::IKSolverVR::BodyPart*
 class CORDL_TYPE __IKSolverVR__BodyPart : public ::System::Object {
@@ -307,8 +307,7 @@ public:
   inline void TranslateRoot(::UnityEngine::Vector3 newRootPos, ::UnityEngine::Quaternion newRootRot);
 
   /// @brief Method RotateTo, addr 0x1279d50, size 0x168, virtual false, abstract: false, final false
-  /// @param weight: float_t (default: 1.0)
-  inline void RotateTo(::RootMotion::FinalIK::__IKSolverVR__VirtualBone* bone, ::UnityEngine::Quaternion rotation, float_t weight = 1.0);
+  inline void RotateTo(::RootMotion::FinalIK::__IKSolverVR__VirtualBone* bone, ::UnityEngine::Quaternion rotation, float_t weight);
 
   /// @brief Method Visualize, addr 0x127a45c, size 0x124, virtual false, abstract: false, final false
   inline void Visualize(::UnityEngine::Color color);
@@ -385,8 +384,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__BodyPart, ___LOD) ==
 // SizeInfo { instance_size: 328, native_size: -1, calculated_instance_size: 328, calculated_native_size: 328, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12583)), TypeDefinitionIndex(TypeDefinitionIndex(12585)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10252))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12584)) CS Name: ::IKSolverVR::Arm*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12583)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12585))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12584)) CS Name: ::IKSolverVR::Arm*
 class CORDL_TYPE __IKSolverVR__Arm : public ::RootMotion::FinalIK::__IKSolverVR__BodyPart {
 public:
   // Declarations
@@ -695,8 +694,7 @@ public:
                     ByRef<::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>> solvedRotations);
 
   /// @brief Method DamperValue, addr 0x12797d4, size 0x80, virtual false, abstract: false, final false
-  /// @param weight: float_t (default: 1.0)
-  inline float_t DamperValue(float_t value, float_t min, float_t max, float_t weight = 1.0);
+  inline float_t DamperValue(float_t value, float_t min, float_t max, float_t weight);
 
   /// @brief Method GetBendNormal, addr 0x1279854, size 0x4fc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetBendNormal(::UnityEngine::Vector3 dir);
@@ -875,7 +873,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Arm, ___upperArmBend
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 164, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12586))
 // CS Name: ::IKSolverVR::Footstep*
 class CORDL_TYPE __IKSolverVR__Footstep : public ::System::Object {
@@ -1135,7 +1133,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Footstep, ___support
 // SizeInfo { instance_size: 336, native_size: -1, calculated_instance_size: 336, calculated_native_size: 336, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(12585))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12585)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12587))
 // CS Name: ::IKSolverVR::Leg*
 class CORDL_TYPE __IKSolverVR__Leg : public ::RootMotion::FinalIK::__IKSolverVR__BodyPart {
@@ -1637,7 +1635,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Leg, ___bendNormalRe
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12493)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12493)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
 // TypeDefinitionIndex(TypeDefinitionIndex(10204))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12588)) CS Name: ::IKSolverVR::Locomotion*
 class CORDL_TYPE __IKSolverVR__Locomotion : public ::System::Object {
 public:
@@ -2118,7 +2116,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Locomotion, ___right
 // SizeInfo { instance_size: 552, native_size: -1, calculated_instance_size: 552, calculated_native_size: 552, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12585)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12585))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12589))
 // CS Name: ::IKSolverVR::Spine*
 class CORDL_TYPE __IKSolverVR__Spine : public ::RootMotion::FinalIK::__IKSolverVR__BodyPart {
@@ -2703,9 +2701,8 @@ public:
                               ::UnityEngine::Quaternion deltaRotation);
 
   /// @brief Method LimitPelvisPosition, addr 0x1281dc8, size 0x2a8, virtual false, abstract: false, final false
-  /// @param it: int32_t (default: static_cast<int32_t>(0x2))
   inline ::UnityEngine::Vector3 LimitPelvisPosition(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Leg*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Leg*>*> legs,
-                                                    ::UnityEngine::Vector3 pelvisPosition, bool useCurrentLegMag, int32_t it = static_cast<int32_t>(0x2));
+                                                    ::UnityEngine::Vector3 pelvisPosition, bool useCurrentLegMag, int32_t it);
 
   /// @brief Method Bend, addr 0x1280ee8, size 0x1fc, virtual false, abstract: false, final false
   inline void Bend(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones, int32_t firstIndex, int32_t lastIndex,
@@ -3151,7 +3148,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__RotationOffset, valu
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12592))
 // CS Name: ::IKSolverVR::VirtualBone*
 class CORDL_TYPE __IKSolverVR__VirtualBone : public ::System::Object {
@@ -3229,9 +3226,8 @@ public:
   inline void Read(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
   /// @brief Method SwingRotation, addr 0x12822fc, size 0x200, virtual false, abstract: false, final false
-  /// @param weight: float_t (default: 1.0)
   static inline void SwingRotation(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones, int32_t index,
-                                   ::UnityEngine::Vector3 swingTarget, float_t weight = 1.0);
+                                   ::UnityEngine::Vector3 swingTarget, float_t weight);
 
   /// @brief Method PreSolve, addr 0x12824fc, size 0x160, virtual false, abstract: false, final false
   static inline float_t PreSolve(ByRef<::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*>> bones);
@@ -3328,7 +3324,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__VirtualBone, ___axis
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12564)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12564))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12593))
 // CS Name: ::RootMotion.FinalIK::IKSolverVR*
 class CORDL_TYPE IKSolverVR : public ::RootMotion::FinalIK::IKSolver {

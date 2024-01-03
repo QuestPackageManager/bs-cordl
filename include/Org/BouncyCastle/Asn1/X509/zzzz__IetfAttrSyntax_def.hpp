@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IetfAttrSyntax)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralNames;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1EncodableVector;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1EncodableVector;
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace System {
 class Object;

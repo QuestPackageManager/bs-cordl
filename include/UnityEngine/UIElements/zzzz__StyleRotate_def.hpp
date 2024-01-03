@@ -9,19 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleRotate)
 namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
 class Object;
 }
 namespace UnityEngine::UIElements {
-struct StyleKeyword;
+template <typename T> class IStyleValue_1;
 }
 namespace UnityEngine::UIElements {
 struct Rotate;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class IStyleValue_1;
-}
-namespace System {
-template <typename T> class IEquatable_1;
+struct StyleKeyword;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -33,7 +33,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleRotate);
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7300)), TypeDefinitionIndex(TypeDefinitionIndex(7295))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7295)), TypeDefinitionIndex(TypeDefinitionIndex(7300))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7320))
 // CS Name: ::UnityEngine.UIElements::StyleRotate
 struct CORDL_TYPE StyleRotate {
@@ -46,8 +46,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Rotate>"
   constexpr operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Rotate>*();
 
+  /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Rotate>"
+  constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Rotate>* i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__Rotate_();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleRotate>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleRotate>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleRotate>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleRotate>* i___System__IEquatable_1___UnityEngine__UIElements__StyleRotate_();
 
   /// @brief Method get_value, addr 0x2e73064, size 0x44, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::Rotate get_value();

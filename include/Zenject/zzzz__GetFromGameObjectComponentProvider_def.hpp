@@ -5,8 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(GetFromGameObjectComponentProvider)
-namespace Zenject {
-class IProvider;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+class Action;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class Type;
@@ -15,19 +21,13 @@ namespace UnityEngine {
 class GameObject;
 }
 namespace Zenject {
-struct TypeValuePair;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class IProvider;
 }
 namespace Zenject {
 class InjectContext;
 }
-namespace System {
-class Action;
-}
-namespace System {
-class Object;
+namespace Zenject {
+struct TypeValuePair;
 }
 // Forward declare root types
 namespace Zenject {
@@ -60,6 +60,9 @@ public:
 
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
+
+  /// @brief Convert to "::Zenject::IProvider"
+  constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
 
   constexpr ::UnityEngine::GameObject*& __get__gameObject();
 

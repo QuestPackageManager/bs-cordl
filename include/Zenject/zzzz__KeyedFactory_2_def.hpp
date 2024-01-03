@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__KeyedFactoryBase_2_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(KeyedFactory_2)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace System {
 class Object;
 }
 namespace System {
 class Type;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -29,7 +29,7 @@ namespace Zenject {
 // cpp template
 template <typename TBase, typename TKey>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10995), inst: 3946 }), TypeDefinitionIndex(TypeDefinitionIndex(10995))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10995)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10995), inst: 3946 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10996))
 // CS Name: ::Zenject::KeyedFactory`2<TBase,TKey>*
 class CORDL_TYPE KeyedFactory_2 : public ::Zenject::KeyedFactoryBase_2<TBase, TKey> {

@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(_AndroidJNIHelper)
-namespace UnityEngine {
-class AndroidJavaObject;
-}
 namespace System {
 class Array;
 }
+namespace System {
+class Object;
+}
 namespace UnityEngine {
-class AndroidJavaRunnable;
+class AndroidJavaObject;
 }
 namespace UnityEngine {
 class AndroidJavaProxy;
 }
-namespace System {
-class Object;
+namespace UnityEngine {
+class AndroidJavaRunnable;
 }
 namespace UnityEngine {
 struct jvalue;

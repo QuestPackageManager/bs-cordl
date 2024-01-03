@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(CertificateValues)
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509CertificateStructure;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
 class Object;

@@ -7,41 +7,41 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(FactorySubContainerBinderWithParams_1)
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
+}
+namespace UnityEngine {
+class Object;
+}
 namespace Zenject {
 class BindInfo;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class FactoryBindInfo;
+}
+namespace Zenject {
+class GameObjectCreationParameters;
+}
+namespace Zenject {
+class IProvider;
+}
+namespace Zenject {
+class InjectTypeInfo;
+}
+namespace Zenject {
+class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
 }
 namespace Zenject {
 template <typename TContract> class __FactorySubContainerBinderWithParams_1____c__DisplayClass4_0;
 }
 namespace Zenject {
 template <typename TContract> class __FactorySubContainerBinderWithParams_1____c__DisplayClass8_0;
-}
-namespace UnityEngine {
-class Object;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
-}
-namespace System {
-class Type;
-}
-namespace Zenject {
-class FactoryBindInfo;
-}
-namespace System {
-class Object;
-}
-namespace Zenject {
-class IProvider;
-}
-namespace Zenject {
-class GameObjectCreationParameters;
-}
-namespace Zenject {
-class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {

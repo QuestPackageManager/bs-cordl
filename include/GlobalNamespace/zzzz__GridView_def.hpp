@@ -9,47 +9,47 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GridView)
-namespace System::Collections::Generic {
-template <typename T> class Queue_1;
-}
-namespace GlobalNamespace {
-class __GridView__IDataSource;
-}
-namespace UnityEngine {
-class RectTransform;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace GlobalNamespace {
 class __GridView__GridViewCellsEnumerator;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine {
-class MonoBehaviour;
 }
 namespace GlobalNamespace {
 class __GridView__GridViewCellsEnumerator___GetEnumerator_d__1;
 }
+namespace GlobalNamespace {
+class __GridView__IDataSource;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class Queue_1;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class IDisposable;
 }
 namespace System {
 class Object;
+}
+namespace UnityEngine {
+class MonoBehaviour;
+}
+namespace UnityEngine {
+class RectTransform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -107,10 +107,10 @@ public:
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(3843)), TypeDefinitionIndex(TypeDefinitionIndex(3842)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3820)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1692 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3820), inst: 1375 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3843), inst: 1692 }), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(5785)) CS Name: ::GridView::GridViewCellsEnumerator::<GetEnumerator>d__1*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3843)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3820), inst: 1375
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3843), inst: 1692 }), TypeDefinitionIndex(TypeDefinitionIndex(3842)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3842), inst: 1692 }), TypeDefinitionIndex(TypeDefinitionIndex(3820)), TypeDefinitionIndex(TypeDefinitionIndex(10225))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5785)) CS
+// Name: ::GridView::GridViewCellsEnumerator::<GetEnumerator>d__1*
 class CORDL_TYPE __GridView__GridViewCellsEnumerator___GetEnumerator_d__1 : public ::System::Object {
 public:
   // Declarations
@@ -139,11 +139,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>* i___System__Collections__Generic__IEnumerator_1___UnityEngine__MonoBehaviour__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -266,8 +275,14 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>* i___System__Collections__Generic__IEnumerable_1___UnityEngine__MonoBehaviour__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::GlobalNamespace::GridView*& __get__gridView();
 

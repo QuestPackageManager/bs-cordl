@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IMethodMessage)
-namespace System::Runtime::Remoting::Messaging {
-class LogicalCallContext;
-}
 namespace System::Reflection {
 class MethodBase;
 }
-namespace System {
-class Object;
-}
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class LogicalCallContext;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -52,6 +52,9 @@ public:
 
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessage*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessage"
+  constexpr ::System::Runtime::Remoting::Messaging::IMessage* i___System__Runtime__Remoting__Messaging__IMessage() noexcept;
 
   /// @brief Method get_ArgCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_ArgCount();

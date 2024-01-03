@@ -14,10 +14,10 @@ namespace System::IO {
 struct MatchCasing;
 }
 namespace System::IO {
-struct SearchOption;
+struct MatchType;
 }
 namespace System::IO {
-struct MatchType;
+struct SearchOption;
 }
 // Forward declare root types
 namespace System::IO {
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::System::IO::EnumerationOptions);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3598)), TypeDefinitionIndex(TypeDefinitionIndex(3597)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3597)), TypeDefinitionIndex(TypeDefinitionIndex(3598)),
 // TypeDefinitionIndex(TypeDefinitionIndex(3609))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3591)) CS Name: ::System.IO::EnumerationOptions*
 class CORDL_TYPE EnumerationOptions : public ::System::Object {
 public:

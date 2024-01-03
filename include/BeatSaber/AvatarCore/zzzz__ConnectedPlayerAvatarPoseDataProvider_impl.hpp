@@ -2,13 +2,13 @@
 #include "BeatSaber/AvatarCore/zzzz__AvatarPoseData_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/AvatarCore/zzzz__ConnectedPlayerAvatarPoseDataProvider_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__AvatarPoseData_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__IAvatarPoseDataProvider_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__IAvatarPoseRestriction_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__INodePoseSyncStateManager_def.hpp"
-#include "BeatSaber/AvatarCore/zzzz__IAvatarPoseRestriction_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "Zenject/zzzz__ITickable_def.hpp"
-#include "BeatSaber/AvatarCore/zzzz__AvatarPoseData_def.hpp"
 //  Writing Method size for method: ::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider.get_currentPose
 template <>
 
@@ -17,7 +17,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0xe0ed6c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider*>::get(), "get_currentPose",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -32,7 +32,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0xe0ed7c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider*>::get(), "add_poseDidChangeEvent", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>*>::get() })));
@@ -47,7 +47,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0xe0ee2c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider*>::get(), "remove_poseDidChangeEvent", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>*>::get() })));
@@ -63,7 +63,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0xe0eedc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
         ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IConnectedPlayer*>::get(),
@@ -80,7 +80,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x564;
   constexpr static std::size_t addrs = 0xe0ef18;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider*>::get(), "Tick",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -91,8 +91,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 constexpr BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::operator ::BeatSaber::AvatarCore::IAvatarPoseDataProvider*() noexcept {
   return static_cast<::BeatSaber::AvatarCore::IAvatarPoseDataProvider*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::BeatSaber::AvatarCore::IAvatarPoseDataProvider"
+constexpr ::BeatSaber::AvatarCore::IAvatarPoseDataProvider* BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::i___BeatSaber__AvatarCore__IAvatarPoseDataProvider() noexcept {
+  return static_cast<::BeatSaber::AvatarCore::IAvatarPoseDataProvider*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::Zenject::ITickable"
 constexpr BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::operator ::Zenject::ITickable*() noexcept {
+  return static_cast<::Zenject::ITickable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::ITickable"
+constexpr ::Zenject::ITickable* BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::i___Zenject__ITickable() noexcept {
   return static_cast<::Zenject::ITickable*>(static_cast<void*>(this));
 }
 constexpr ::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>*& BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::__get_poseDidChangeEvent() {

@@ -13,58 +13,64 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameplayCoreSceneSetupData)
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
-}
-namespace GlobalNamespace {
-class MainSettingsModelSO;
-}
-namespace GlobalNamespace {
-class EnvironmentInfoSO;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
-struct __GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__15;
-}
-namespace GlobalNamespace {
-struct __GameplayCoreSceneSetupData___GetTransformedBeatmapDataAsync_d__16;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class PracticeSettings;
-}
-namespace GlobalNamespace {
 class BeatmapDataCache;
 }
 namespace GlobalNamespace {
 class ColorScheme;
 }
 namespace GlobalNamespace {
+class EnvironmentInfoSO;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
 class IReadonlyBeatmapData;
+}
+namespace GlobalNamespace {
+class MainSettingsModelSO;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettings;
+}
+namespace GlobalNamespace {
+class PracticeSettings;
+}
+namespace GlobalNamespace {
+struct __GameplayCoreSceneSetupData___GetTransformedBeatmapDataAsync_d__16;
+}
+namespace GlobalNamespace {
+struct __GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__15;
+}
+namespace GlobalNamespace {
+struct __RecordingToolManager__SetupData;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
+template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System {
+template <typename T> struct Nullable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -84,14 +90,17 @@ MARK_VAL_T(::GlobalNamespace::__GameplayCoreSceneSetupData___LoadTransformedBeat
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 890 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(4260)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6050)) CS Name:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 890 }), TypeDefinitionIndex(TypeDefinitionIndex(3401)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(4260))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6050)) CS Name:
 // ::GameplayCoreSceneSetupData::<LoadTransformedBeatmapDataAsync>d__15
 struct CORDL_TYPE __GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__15 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x231c674, size 0x1c8, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -143,14 +152,17 @@ static_assert(offsetof(::GlobalNamespace::__GameplayCoreSceneSetupData___LoadTra
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 890 }), TypeDefinitionIndex(TypeDefinitionIndex(4260)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3402), inst: 890 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6051)) CS
-// Name: ::GameplayCoreSceneSetupData::<GetTransformedBeatmapDataAsync>d__16
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 890 }), TypeDefinitionIndex(TypeDefinitionIndex(4260)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 890 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(6051)) CS Name: ::GameplayCoreSceneSetupData::<GetTransformedBeatmapDataAsync>d__16
 struct CORDL_TYPE __GameplayCoreSceneSetupData___GetTransformedBeatmapDataAsync_d__16 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x231c848, size 0x410, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -204,8 +216,8 @@ static_assert(offsetof(::GlobalNamespace::__GameplayCoreSceneSetupData___GetTran
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(15408)), TypeDefinitionIndex(TypeDefinitionIndex(5962)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4778 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6052)) CS Name: ::GameplayCoreSceneSetupData*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5962)), TypeDefinitionIndex(TypeDefinitionIndex(15408)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst:
+// 4778 }), TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6052)) CS Name: ::GameplayCoreSceneSetupData*
 class CORDL_TYPE GameplayCoreSceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
   // Declarations
@@ -334,12 +346,10 @@ public:
                                                                         ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData);
 
   /// @brief Method .ctor, addr 0x231c41c, size 0xa0, virtual false, abstract: false, final false
-  /// @param beatmapDataCache: ::GlobalNamespace::BeatmapDataCache* (default: nullptr)
-  /// @param recordingToolData: ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> (default: {})
   inline void _ctor(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                     ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings, bool useTestNoteCutSoundEffects,
                     ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::MainSettingsModelSO* mainSettingsModel,
-                    ::GlobalNamespace::BeatmapDataCache* beatmapDataCache = nullptr, ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData = {});
+                    ::GlobalNamespace::BeatmapDataCache* beatmapDataCache, ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData);
 
   /// @brief Method LoadTransformedBeatmapDataAsync, addr 0x231c4bc, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadTransformedBeatmapDataAsync();

@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DefaultTlsClient)
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsDHVerifier;
+class TlsCipherFactory;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipherFactory;
+class TlsDHVerifier;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsKeyExchange;

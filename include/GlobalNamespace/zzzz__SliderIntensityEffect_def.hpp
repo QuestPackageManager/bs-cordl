@@ -11,37 +11,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SliderIntensityEffect)
 namespace GlobalNamespace {
-class __SliderIntensityEffect___ProcessEffectCoroutine_d__32;
-}
-namespace GlobalNamespace {
-class __SliderIntensityEffect__InitData;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace GlobalNamespace {
-class __SliderIntensityEffect__FadeElement;
+struct ArcVisibilityType;
 }
 namespace GlobalNamespace {
 class AudioTimeSyncController;
 }
 namespace GlobalNamespace {
+struct EaseType;
+}
+namespace GlobalNamespace {
+class __SliderIntensityEffect__FadeElement;
+}
+namespace GlobalNamespace {
+class __SliderIntensityEffect__InitData;
+}
+namespace GlobalNamespace {
 class __SliderIntensityEffect__IntensityCalculationDelegate;
 }
-namespace System {
-class Action;
+namespace GlobalNamespace {
+class __SliderIntensityEffect___ProcessEffectCoroutine_d__32;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace GlobalNamespace {
-struct EaseType;
-}
-namespace GlobalNamespace {
-struct ArcVisibilityType;
-}
 namespace System {
-class Object;
+class Action;
 }
 namespace System {
 class AsyncCallback;
@@ -49,11 +49,11 @@ class AsyncCallback;
 namespace System {
 class IAsyncResult;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -198,8 +198,7 @@ public:
   static inline ::GlobalNamespace::__SliderIntensityEffect__FadeElement* New_ctor(::GlobalNamespace::EaseType easeType, float_t startIntensity, float_t endIntensity, ::System::Action* startCallback);
 
   /// @brief Method .ctor, addr 0x2393260, size 0x44, virtual false, abstract: false, final false
-  /// @param startCallback: ::System::Action* (default: nullptr)
-  inline void _ctor(::GlobalNamespace::EaseType easeType, float_t startIntensity, float_t endIntensity, ::System::Action* startCallback = nullptr);
+  inline void _ctor(::GlobalNamespace::EaseType easeType, float_t startIntensity, float_t endIntensity, ::System::Action* startCallback);
 
   // Ctor Parameters [CppParam { name: "", ty: "__SliderIntensityEffect__FadeElement", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -328,11 +327,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

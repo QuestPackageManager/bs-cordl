@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/Xml/zzzz__XmlNode_def.hpp"
 CORDL_MODULE_EXPORT(XmlLinkedNode)
 namespace System::Xml {
-class XmlNode;
+class XmlDocument;
 }
 namespace System::Xml {
-class XmlDocument;
+class XmlNode;
 }
 // Forward declare root types
 namespace System::Xml {

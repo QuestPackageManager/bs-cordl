@@ -12,10 +12,10 @@ namespace UnityEngine::UI {
 class Image;
 }
 namespace UnityEngine {
-class Sprite;
+struct Color;
 }
 namespace UnityEngine {
-struct Color;
+class Sprite;
 }
 // Forward declare root types
 namespace GlobalNamespace {

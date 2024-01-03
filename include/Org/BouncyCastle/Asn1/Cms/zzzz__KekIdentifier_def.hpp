@@ -10,22 +10,22 @@ namespace Org::BouncyCastle::Asn1::Cms {
 class OtherKeyAttribute;
 }
 namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
 class DerGeneralizedTime;
 }
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {

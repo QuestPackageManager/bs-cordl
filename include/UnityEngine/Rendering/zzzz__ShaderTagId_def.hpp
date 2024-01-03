@@ -33,6 +33,9 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::ShaderTagId>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::ShaderTagId>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::ShaderTagId>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Rendering::ShaderTagId>* i___System__IEquatable_1___UnityEngine__Rendering__ShaderTagId_();
+
   /// @brief Method .ctor, addr 0x2cedc88, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 

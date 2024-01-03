@@ -8,8 +8,11 @@ CORDL_MODULE_EXPORT(Component)
 namespace System::ComponentModel {
 class EventHandlerList;
 }
-namespace System {
-class Type;
+namespace System::ComponentModel {
+class IComponent;
+}
+namespace System::ComponentModel {
+class ISite;
 }
 namespace System {
 class IDisposable;
@@ -17,11 +20,8 @@ class IDisposable;
 namespace System {
 class Object;
 }
-namespace System::ComponentModel {
-class IComponent;
-}
-namespace System::ComponentModel {
-class ISite;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -59,8 +59,14 @@ public:
   /// @brief Convert operator to "::System::ComponentModel::IComponent"
   constexpr operator ::System::ComponentModel::IComponent*() noexcept;
 
+  /// @brief Convert to "::System::ComponentModel::IComponent"
+  constexpr ::System::ComponentModel::IComponent* i___System__ComponentModel__IComponent() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::System::ComponentModel::ISite*& __get_site();
 

@@ -26,6 +26,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INetworkPlayerModel"
   constexpr operator ::GlobalNamespace::INetworkPlayerModel*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::INetworkPlayerModel"
+  constexpr ::GlobalNamespace::INetworkPlayerModel* i___GlobalNamespace__INetworkPlayerModel() noexcept;
+
   static inline ::GlobalNamespace::SteamNetworkPlayerModel* New_ctor();
 
   /// @brief Method .ctor, addr 0x2639c64, size 0x8, virtual false, abstract: false, final false

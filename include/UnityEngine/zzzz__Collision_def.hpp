@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Collision)
 namespace UnityEngine {
-struct ContactPoint;
+class Collider;
 }
 namespace UnityEngine {
 class Component;
 }
 namespace UnityEngine {
-class Collider;
+struct ContactPoint;
 }
 // Forward declare root types
 namespace UnityEngine {

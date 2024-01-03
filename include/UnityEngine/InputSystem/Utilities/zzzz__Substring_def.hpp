@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Substring)
 namespace System {
+template <typename T> class IComparable_1;
+}
+namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
 }
 namespace System {
-template <typename T> class IComparable_1;
+struct StringComparison;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct InternedString;
-}
-namespace System {
-struct StringComparison;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -48,8 +48,14 @@ public:
   /// @brief Convert operator to "::System::IComparable_1<::UnityEngine::InputSystem::Utilities::Substring>"
   constexpr operator ::System::IComparable_1<::UnityEngine::InputSystem::Utilities::Substring>*();
 
+  /// @brief Convert to "::System::IComparable_1<::UnityEngine::InputSystem::Utilities::Substring>"
+  constexpr ::System::IComparable_1<::UnityEngine::InputSystem::Utilities::Substring>* i___System__IComparable_1___UnityEngine__InputSystem__Utilities__Substring_();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::Substring>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::Substring>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::Substring>"
+  constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::Substring>* i___System__IEquatable_1___UnityEngine__InputSystem__Utilities__Substring_();
 
   /// @brief Method get_isEmpty, addr 0x2a593c0, size 0x10, virtual false, abstract: false, final false
   inline bool get_isEmpty();
@@ -85,9 +91,7 @@ public:
   inline bool StartsWith(::StringW str);
 
   /// @brief Method Substr, addr 0x2a59724, size 0x34, virtual false, abstract: false, final false
-  /// @param index: int32_t (default: static_cast<int32_t>(0x0))
-  /// @param length: int32_t (default: static_cast<int32_t>(0xffffffff))
-  inline ::StringW Substr(int32_t index = static_cast<int32_t>(0x0), int32_t length = static_cast<int32_t>(0xffffffff));
+  inline ::StringW Substr(int32_t index, int32_t length);
 
   /// @brief Method ToString, addr 0x2a59758, size 0x68, virtual true, abstract: false, final false
   inline ::StringW ToString();

@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MeshRendererSwitchEventEffect)
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+class BasicBeatmapEventData;
 }
-namespace UnityEngine {
-class MeshRenderer;
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
 }
-namespace GlobalNamespace {
-class BasicBeatmapEventData;
+namespace UnityEngine {
+class MeshRenderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {

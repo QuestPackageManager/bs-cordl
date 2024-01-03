@@ -5,25 +5,25 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IUnifiedNetworkPlayerModel)
 namespace GlobalNamespace {
-class INetworkPlayer;
-}
-namespace GlobalNamespace {
-class INetworkPlayerModel;
-}
-namespace System {
-class Action;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace GlobalNamespace {
 struct BeatmapLevelSelectionMask;
 }
 namespace GlobalNamespace {
 struct GameplayServerConfiguration;
 }
 namespace GlobalNamespace {
+class INetworkPlayerModel;
+}
+namespace GlobalNamespace {
+class INetworkPlayer;
+}
+namespace GlobalNamespace {
 struct __UnifiedNetworkPlayerModel__ActiveNetworkPlayerModelType;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -49,6 +49,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::INetworkPlayerModel"
   constexpr operator ::GlobalNamespace::INetworkPlayerModel*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::INetworkPlayerModel"
+  constexpr ::GlobalNamespace::INetworkPlayerModel* i___GlobalNamespace__INetworkPlayerModel() noexcept;
 
   /// @brief Method add_partyRefreshingEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_partyRefreshingEvent(::System::Action* value);

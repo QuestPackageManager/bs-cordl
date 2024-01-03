@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(AttitudeState)
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateTypeInfo;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -34,6 +34,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
+
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo();
 
   /// @brief Method get_kFormat, addr 0x2ae8c9c, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_kFormat();

@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Entity);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12156)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(12156))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12122))
 // CS Name: ::UnityEngine.ProBuilder::Entity*
 class CORDL_TYPE Entity : public ::UnityEngine::MonoBehaviour {

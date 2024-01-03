@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(ISaberMovementData)
 namespace GlobalNamespace {
-class ISaberMovementDataProcessor;
+struct BladeMovementDataElement;
 }
 namespace GlobalNamespace {
-struct BladeMovementDataElement;
+class ISaberMovementDataProcessor;
 }
 // Forward declare root types
 namespace GlobalNamespace {

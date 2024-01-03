@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LayoutElement)
 namespace UnityEngine::UI {
-class ILayoutIgnorer;
+class ILayoutElement;
 }
 namespace UnityEngine::UI {
-class ILayoutElement;
+class ILayoutIgnorer;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -71,8 +71,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::ILayoutElement"
   constexpr operator ::UnityEngine::UI::ILayoutElement*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::UI::ILayoutElement"
+  constexpr ::UnityEngine::UI::ILayoutElement* i___UnityEngine__UI__ILayoutElement() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::UI::ILayoutIgnorer"
   constexpr operator ::UnityEngine::UI::ILayoutIgnorer*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UI::ILayoutIgnorer"
+  constexpr ::UnityEngine::UI::ILayoutIgnorer* i___UnityEngine__UI__ILayoutIgnorer() noexcept;
 
   constexpr bool& __get_m_IgnoreLayout();
 

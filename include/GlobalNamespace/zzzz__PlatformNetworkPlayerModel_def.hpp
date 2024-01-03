@@ -5,6 +5,9 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BaseNetworkPlayerModel_def.hpp"
 CORDL_MODULE_EXPORT(PlatformNetworkPlayerModel)
 namespace GlobalNamespace {
+template <typename T> class INetworkPlayerModelPartyConfig_1;
+}
+namespace GlobalNamespace {
 class INetworkPlayer;
 }
 namespace GlobalNamespace {
@@ -12,9 +15,6 @@ class __PlatformNetworkPlayerModel__CreatePartyConfig;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
-}
-namespace GlobalNamespace {
-template <typename T> class INetworkPlayerModelPartyConfig_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -38,6 +38,10 @@ public:
   // Declarations
   /// @brief Convert operator to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::PlatformNetworkPlayerModel*>"
   constexpr operator ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::PlatformNetworkPlayerModel*>*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::PlatformNetworkPlayerModel*>"
+  constexpr ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::PlatformNetworkPlayerModel*>*
+  i___GlobalNamespace__INetworkPlayerModelPartyConfig_1___GlobalNamespace__PlatformNetworkPlayerModel__() noexcept;
 
   static inline ::GlobalNamespace::__PlatformNetworkPlayerModel__CreatePartyConfig* New_ctor();
 

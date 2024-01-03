@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EventDispatcherGate)
 namespace System {
-class Object;
-}
-namespace UnityEngine::UIElements {
-class EventDispatcher;
+class IDisposable;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
-class IDisposable;
+class Object;
+}
+namespace UnityEngine::UIElements {
+class EventDispatcher;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -36,8 +36,14 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>* i___System__IEquatable_1___UnityEngine__UIElements__EventDispatcherGate_();
 
   /// @brief Method .ctor, addr 0x2e0254c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EventDispatcher* d);

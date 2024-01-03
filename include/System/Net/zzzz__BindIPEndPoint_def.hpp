@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BindIPEndPoint)
 namespace System::Net {
+class IPEndPoint;
+}
+namespace System::Net {
 class ServicePoint;
 }
 namespace System {
 class Object;
-}
-namespace System::Net {
-class IPEndPoint;
 }
 // Forward declare root types
 namespace System::Net {

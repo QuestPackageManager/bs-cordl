@@ -31,8 +31,15 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IDragAndDropController_1<::UnityEngine::UIElements::IListDragAndDropArgs*>"
   constexpr operator ::UnityEngine::UIElements::IDragAndDropController_1<::UnityEngine::UIElements::IListDragAndDropArgs*>*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::UIElements::IDragAndDropController_1<::UnityEngine::UIElements::IListDragAndDropArgs*>"
+  constexpr ::UnityEngine::UIElements::IDragAndDropController_1<::UnityEngine::UIElements::IListDragAndDropArgs*>*
+  i___UnityEngine__UIElements__IDragAndDropController_1___UnityEngine__UIElements__IListDragAndDropArgs__() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::UIElements::IReorderable"
   constexpr operator ::UnityEngine::UIElements::IReorderable*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UIElements::IReorderable"
+  constexpr ::UnityEngine::UIElements::IReorderable* i___UnityEngine__UIElements__IReorderable() noexcept;
 
   // Ctor Parameters [CppParam { name: "", ty: "ICollectionDragAndDropController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

@@ -52,6 +52,9 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UI::ColorBlock>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UI::ColorBlock>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UI::ColorBlock>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UI::ColorBlock>* i___System__IEquatable_1___UnityEngine__UI__ColorBlock_();
+
   static inline void setStaticF_defaultColorBlock(::UnityEngine::UI::ColorBlock value);
 
   static inline ::UnityEngine::UI::ColorBlock getStaticF_defaultColorBlock();

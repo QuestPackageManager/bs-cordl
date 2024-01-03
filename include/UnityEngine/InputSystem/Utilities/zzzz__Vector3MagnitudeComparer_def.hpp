@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Vector3MagnitudeComparer)
-namespace UnityEngine {
-struct Vector3;
-}
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -30,6 +30,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::UnityEngine::Vector3>"
   constexpr operator ::System::Collections::Generic::IComparer_1<::UnityEngine::Vector3>*();
+
+  /// @brief Convert to "::System::Collections::Generic::IComparer_1<::UnityEngine::Vector3>"
+  constexpr ::System::Collections::Generic::IComparer_1<::UnityEngine::Vector3>* i___System__Collections__Generic__IComparer_1___UnityEngine__Vector3_();
 
   /// @brief Method Compare, addr 0x2b0f174, size 0x40, virtual true, abstract: false, final true
   inline int32_t Compare(::UnityEngine::Vector3 x, ::UnityEngine::Vector3 y);

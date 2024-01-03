@@ -8,13 +8,13 @@ namespace Org::BouncyCastle::Asn1::X509 {
 class Time;
 }
 namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Crmf {

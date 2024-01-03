@@ -3,40 +3,39 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "Unity/Collections/zzzz__Allocator_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArrayHelpers)
-namespace Unity::Collections {
-struct Allocator;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> class __ArrayHelpers____c__DisplayClass34_0_1;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> class __ArrayHelpers____c__DisplayClass33_0_1;
-}
-namespace System {
-template <typename T> class Predicate_1;
-}
-namespace System {
-template <typename TResult> class Func_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEqualityComparer_1;
 }
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> class __ArrayHelpers____c__DisplayClass34_1_1;
+namespace System {
+template <typename TResult> class Func_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
+namespace System {
+template <typename T> class Predicate_1;
+}
+namespace Unity::Collections {
+struct Allocator;
+}
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> class __ArrayHelpers____c__DisplayClass33_0_1;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> class __ArrayHelpers____c__DisplayClass34_0_1;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> class __ArrayHelpers____c__DisplayClass34_1_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -219,7 +218,7 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10003))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6659))
 // CS Name: ::UnityEngine.InputSystem.Utilities::ArrayHelpers*
 class CORDL_TYPE ArrayHelpers : public ::System::Object {
@@ -244,13 +243,10 @@ public:
   template <typename TValue> static inline void Clear(::ArrayW<TValue, ::Array<TValue>*> array, ByRef<int32_t> count);
 
   /// @brief Method EnsureCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param capacityIncrement: int32_t (default: static_cast<int32_t>(0xa))
-  template <typename TValue> static inline void EnsureCapacity(ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, int32_t count, int32_t capacity, int32_t capacityIncrement = static_cast<int32_t>(0xa));
+  template <typename TValue> static inline void EnsureCapacity(ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, int32_t count, int32_t capacity, int32_t capacityIncrement);
 
   /// @brief Method DuplicateWithCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param capacityIncrement: int32_t (default: static_cast<int32_t>(0xa))
-  template <typename TValue>
-  static inline void DuplicateWithCapacity(ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, int32_t count, int32_t capacity, int32_t capacityIncrement = static_cast<int32_t>(0xa));
+  template <typename TValue> static inline void DuplicateWithCapacity(ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, int32_t count, int32_t capacity, int32_t capacityIncrement);
 
   /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> static inline bool Contains(::ArrayW<TValue, ::Array<TValue>*> array, TValue value);
@@ -268,38 +264,25 @@ public:
   template <typename TFirst> static inline bool HaveDuplicateReferences(::ArrayW<TFirst, ::Array<TFirst>*> first, int32_t index, int32_t count);
 
   /// @brief Method HaveEqualElements, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param count: int32_t (default: static_cast<int32_t>(0x7fffffff))
-  template <typename TValue>
-  static inline bool HaveEqualElements(::ArrayW<TValue, ::Array<TValue>*> first, ::ArrayW<TValue, ::Array<TValue>*> second, int32_t count = static_cast<int32_t>(0x7fffffff));
+  template <typename TValue> static inline bool HaveEqualElements(::ArrayW<TValue, ::Array<TValue>*> first, ::ArrayW<TValue, ::Array<TValue>*> second, int32_t count);
 
   /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param startIndex: int32_t (default: static_cast<int32_t>(0x0))
-  /// @param count: int32_t (default: static_cast<int32_t>(0xffffffff))
-  template <typename TValue>
-  static inline int32_t IndexOf(::ArrayW<TValue, ::Array<TValue>*> array, TValue value, int32_t startIndex = static_cast<int32_t>(0x0), int32_t count = static_cast<int32_t>(0xffffffff));
+  template <typename TValue> static inline int32_t IndexOf(::ArrayW<TValue, ::Array<TValue>*> array, TValue value, int32_t startIndex, int32_t count);
 
   /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> static inline int32_t IndexOf(::ArrayW<TValue, ::Array<TValue>*> array, ::System::Predicate_1<TValue>* predicate);
 
   /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param startIndex: int32_t (default: static_cast<int32_t>(0x0))
-  /// @param count: int32_t (default: static_cast<int32_t>(0xffffffff))
-  template <typename TValue>
-  static inline int32_t IndexOf(::ArrayW<TValue, ::Array<TValue>*> array, ::System::Predicate_1<TValue>* predicate, int32_t startIndex = static_cast<int32_t>(0x0),
-                                int32_t count = static_cast<int32_t>(0xffffffff));
+  template <typename TValue> static inline int32_t IndexOf(::ArrayW<TValue, ::Array<TValue>*> array, ::System::Predicate_1<TValue>* predicate, int32_t startIndex, int32_t count);
 
   /// @brief Method IndexOfReference, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param count: int32_t (default: static_cast<int32_t>(0xffffffff))
-  template <typename TFirst, typename TSecond> static inline int32_t IndexOfReference(::ArrayW<TFirst, ::Array<TFirst>*> array, TSecond value, int32_t count = static_cast<int32_t>(0xffffffff));
+  template <typename TFirst, typename TSecond> static inline int32_t IndexOfReference(::ArrayW<TFirst, ::Array<TFirst>*> array, TSecond value, int32_t count);
 
   /// @brief Method IndexOfReference, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TFirst, typename TSecond> static inline int32_t IndexOfReference(::ArrayW<TFirst, ::Array<TFirst>*> array, TSecond value, int32_t startIndex, int32_t count);
 
   /// @brief Method IndexOfValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param startIndex: int32_t (default: static_cast<int32_t>(0x0))
-  /// @param count: int32_t (default: static_cast<int32_t>(0xffffffff))
-  template <typename TValue>
-  static inline int32_t IndexOfValue(::ArrayW<TValue, ::Array<TValue>*> array, TValue value, int32_t startIndex = static_cast<int32_t>(0x0), int32_t count = static_cast<int32_t>(0xffffffff));
+  template <typename TValue> static inline int32_t IndexOfValue(::ArrayW<TValue, ::Array<TValue>*> array, TValue value, int32_t startIndex, int32_t count);
 
   /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> static inline void Resize(ByRef<::Unity::Collections::NativeArray_1<TValue>> array, int32_t newSize, ::Unity::Collections::Allocator allocator);
@@ -314,29 +297,22 @@ public:
   template <typename TValue> static inline int32_t AppendToImmutable(ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, ::ArrayW<TValue, ::Array<TValue>*> values);
 
   /// @brief Method AppendWithCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param capacityIncrement: int32_t (default: static_cast<int32_t>(0xa))
-  template <typename TValue>
-  static inline int32_t AppendWithCapacity(ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, ByRef<int32_t> count, TValue value, int32_t capacityIncrement = static_cast<int32_t>(0xa));
+  template <typename TValue> static inline int32_t AppendWithCapacity(ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, ByRef<int32_t> count, TValue value, int32_t capacityIncrement);
 
   /// @brief Method AppendListWithCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param capacityIncrement: int32_t (default: static_cast<int32_t>(0xa))
   template <typename TValue, typename TValues>
-  static inline int32_t AppendListWithCapacity(ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, ByRef<int32_t> length, TValues values, int32_t capacityIncrement = static_cast<int32_t>(0xa));
+  static inline int32_t AppendListWithCapacity(ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, ByRef<int32_t> length, TValues values, int32_t capacityIncrement);
 
   /// @brief Method AppendWithCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param capacityIncrement: int32_t (default: static_cast<int32_t>(0xa))
-  /// @param allocator: ::Unity::Collections::Allocator (default: static_cast<int32_t>(0x4))
   template <typename TValue>
-  static inline int32_t AppendWithCapacity(ByRef<::Unity::Collections::NativeArray_1<TValue>> array, ByRef<int32_t> count, TValue value, int32_t capacityIncrement = static_cast<int32_t>(0xa),
-                                           ::Unity::Collections::Allocator allocator = static_cast<int32_t>(0x4));
+  static inline int32_t AppendWithCapacity(ByRef<::Unity::Collections::NativeArray_1<TValue>> array, ByRef<int32_t> count, TValue value, int32_t capacityIncrement,
+                                           ::Unity::Collections::Allocator allocator);
 
   /// @brief Method InsertAt, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> static inline void InsertAt(ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, int32_t index, TValue value);
 
   /// @brief Method InsertAtWithCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param capacityIncrement: int32_t (default: static_cast<int32_t>(0xa))
-  template <typename TValue>
-  static inline void InsertAtWithCapacity(ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, ByRef<int32_t> count, int32_t index, TValue value, int32_t capacityIncrement = static_cast<int32_t>(0xa));
+  template <typename TValue> static inline void InsertAtWithCapacity(ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, ByRef<int32_t> count, int32_t index, TValue value, int32_t capacityIncrement);
 
   /// @brief Method PutAtIfNotSet, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> static inline void PutAtIfNotSet(ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, int32_t index, ::System::Func_1<TValue>* valueFn);
@@ -345,21 +321,15 @@ public:
   template <typename TValue> static inline int32_t GrowBy(ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, int32_t count);
 
   /// @brief Method GrowBy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param allocator: ::Unity::Collections::Allocator (default: static_cast<int32_t>(0x4))
-  template <typename TValue>
-  static inline int32_t GrowBy(ByRef<::Unity::Collections::NativeArray_1<TValue>> array, int32_t count, ::Unity::Collections::Allocator allocator = static_cast<int32_t>(0x4));
+  template <typename TValue> static inline int32_t GrowBy(ByRef<::Unity::Collections::NativeArray_1<TValue>> array, int32_t count, ::Unity::Collections::Allocator allocator);
 
   /// @brief Method GrowWithCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param capacityIncrement: int32_t (default: static_cast<int32_t>(0xa))
-  template <typename TValue>
-  static inline int32_t GrowWithCapacity(ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, ByRef<int32_t> count, int32_t growBy, int32_t capacityIncrement = static_cast<int32_t>(0xa));
+  template <typename TValue> static inline int32_t GrowWithCapacity(ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, ByRef<int32_t> count, int32_t growBy, int32_t capacityIncrement);
 
   /// @brief Method GrowWithCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param capacityIncrement: int32_t (default: static_cast<int32_t>(0xa))
-  /// @param allocator: ::Unity::Collections::Allocator (default: static_cast<int32_t>(0x4))
   template <typename TValue>
-  static inline int32_t GrowWithCapacity(ByRef<::Unity::Collections::NativeArray_1<TValue>> array, ByRef<int32_t> count, int32_t growBy, int32_t capacityIncrement = static_cast<int32_t>(0xa),
-                                         ::Unity::Collections::Allocator allocator = static_cast<int32_t>(0x4));
+  static inline int32_t GrowWithCapacity(ByRef<::Unity::Collections::NativeArray_1<TValue>> array, ByRef<int32_t> count, int32_t growBy, int32_t capacityIncrement,
+                                         ::Unity::Collections::Allocator allocator);
 
   /// @brief Method Join, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> static inline ::ArrayW<TValue, ::Array<TValue>*> Join(TValue value, ::ArrayW<TValue, ::Array<TValue>*> values);

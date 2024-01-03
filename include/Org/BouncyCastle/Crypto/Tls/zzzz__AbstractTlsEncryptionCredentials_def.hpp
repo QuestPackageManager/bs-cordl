@@ -31,8 +31,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials* i___Org__BouncyCastle__Crypto__Tls__TlsEncryptionCredentials() noexcept;
+
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCredentials"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCredentials*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCredentials"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCredentials* i___Org__BouncyCastle__Crypto__Tls__TlsCredentials() noexcept;
 
   /// @brief Method DecryptPreMasterSecret, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecryptPreMasterSecret(::ArrayW<uint8_t, ::Array<uint8_t>*> encryptedPreMasterSecret);

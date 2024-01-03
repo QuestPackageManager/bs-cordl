@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputStateBlock)
+namespace System {
+class Type;
+}
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct PrimitiveValue;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

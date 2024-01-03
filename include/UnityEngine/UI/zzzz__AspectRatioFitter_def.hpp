@@ -10,13 +10,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AspectRatioFitter)
 namespace UnityEngine::UI {
-struct __AspectRatioFitter__AspectMode;
-}
-namespace UnityEngine::UI {
 class ILayoutController;
 }
 namespace UnityEngine::UI {
 class ILayoutSelfController;
+}
+namespace UnityEngine::UI {
+struct __AspectRatioFitter__AspectMode;
 }
 namespace UnityEngine {
 class RectTransform;
@@ -135,8 +135,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::ILayoutSelfController"
   constexpr operator ::UnityEngine::UI::ILayoutSelfController*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::UI::ILayoutSelfController"
+  constexpr ::UnityEngine::UI::ILayoutSelfController* i___UnityEngine__UI__ILayoutSelfController() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::UI::ILayoutController"
   constexpr operator ::UnityEngine::UI::ILayoutController*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UI::ILayoutController"
+  constexpr ::UnityEngine::UI::ILayoutController* i___UnityEngine__UI__ILayoutController() noexcept;
 
   constexpr ::UnityEngine::UI::__AspectRatioFitter__AspectMode& __get_m_AspectMode();
 

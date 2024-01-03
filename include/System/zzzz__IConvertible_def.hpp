@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IConvertible)
 namespace System {
-struct TypeCode;
+struct DateTime;
+}
+namespace System {
+struct Decimal;
 }
 namespace System {
 class IFormatProvider;
 }
 namespace System {
-struct DateTime;
-}
-namespace System {
 class Object;
 }
 namespace System {
-class Type;
+struct TypeCode;
 }
 namespace System {
-struct Decimal;
+class Type;
 }
 // Forward declare root types
 namespace System {

@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BTSCharacter)
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+class BTSCharacterMaterialSwitcher;
 }
 namespace GlobalNamespace {
 class MaterialPropertyBlockController;
-}
-namespace GlobalNamespace {
-class BTSCharacterMaterialSwitcher;
 }
 namespace UnityEngine {
 class AnimationClip;
 }
 namespace UnityEngine {
 class Animator;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {

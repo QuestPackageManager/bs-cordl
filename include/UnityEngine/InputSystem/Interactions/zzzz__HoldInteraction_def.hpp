@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(HoldInteraction)
 namespace UnityEngine::InputSystem {
-struct InputInteractionContext;
+class IInputInteraction;
 }
 namespace UnityEngine::InputSystem {
-class IInputInteraction;
+struct InputInteractionContext;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Interactions {
@@ -43,6 +43,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::IInputInteraction"
   constexpr operator ::UnityEngine::InputSystem::IInputInteraction*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::InputSystem::IInputInteraction"
+  constexpr ::UnityEngine::InputSystem::IInputInteraction* i___UnityEngine__InputSystem__IInputInteraction() noexcept;
 
   constexpr float_t& __get_duration();
 

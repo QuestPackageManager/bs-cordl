@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(ArgConditionCopyNonLazyBinder)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace Zenject {
-class BindInfo;
-}
 namespace System {
 class Object;
+}
+namespace Zenject {
+class BindInfo;
 }
 namespace Zenject {
 class InstantiateCallbackConditionCopyNonLazyBinder;

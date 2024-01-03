@@ -5,8 +5,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(Test_TreeInstance_Extensions)
-namespace UnityEngine {
-struct TreeInstance;
+namespace HoudiniEngineUnity {
+class Test_TreeInstance;
 }
 namespace HoudiniEngineUnity {
 class __Test_TreeInstance_Extensions____c;
@@ -14,11 +14,11 @@ class __Test_TreeInstance_Extensions____c;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace HoudiniEngineUnity {
-class Test_TreeInstance;
-}
 namespace System {
 template <typename TInput, typename TOutput> class Converter_2;
+}
+namespace UnityEngine {
+struct TreeInstance;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

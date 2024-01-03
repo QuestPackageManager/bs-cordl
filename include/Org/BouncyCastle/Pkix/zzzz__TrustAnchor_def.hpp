@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TrustAnchor)
 namespace Org::BouncyCastle::Asn1::X509 {
+class NameConstraints;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
 }
 namespace Org::BouncyCastle::Crypto {
@@ -15,9 +18,6 @@ class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class NameConstraints;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {

@@ -10,34 +10,34 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(OVRVirtualKeyboardSampleControls)
 namespace GlobalNamespace {
-struct __OVRVirtualKeyboardSampleControls__OVRVirtualKeyboardBackup;
+class OVRHand;
 }
-namespace UnityEngine::UI {
-class Button;
+namespace GlobalNamespace {
+class OVRVirtualKeyboardSampleInputHandler;
 }
 namespace GlobalNamespace {
 class OVRVirtualKeyboard;
 }
 namespace GlobalNamespace {
-class OVRVirtualKeyboardSampleInputHandler;
+struct __OVRVirtualKeyboardSampleControls__OVRVirtualKeyboardBackup;
 }
-namespace UnityEngine {
-class Transform;
+namespace UnityEngine::EventSystems {
+class OVRPhysicsRaycaster;
 }
-namespace UnityEngine {
-struct Quaternion;
+namespace UnityEngine::UI {
+class Button;
 }
 namespace UnityEngine::UI {
 class InputField;
 }
 namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
 struct Vector3;
-}
-namespace GlobalNamespace {
-class OVRHand;
-}
-namespace UnityEngine::EventSystems {
-class OVRPhysicsRaycaster;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -53,7 +53,7 @@ MARK_VAL_T(::GlobalNamespace::__OVRVirtualKeyboardSampleControls__OVRVirtualKeyb
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8060))
 // CS Name: ::OVRVirtualKeyboardSampleControls::OVRVirtualKeyboardBackup
 struct CORDL_TYPE __OVRVirtualKeyboardSampleControls__OVRVirtualKeyboardBackup {
@@ -180,7 +180,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRVirtualKeyboardSampleControls__OV
 // SizeInfo { instance_size: 232, native_size: -1, calculated_instance_size: 232, calculated_native_size: 232, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8060)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(8060))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8061))
 // CS Name: ::OVRVirtualKeyboardSampleControls*
 class CORDL_TYPE OVRVirtualKeyboardSampleControls : public ::UnityEngine::MonoBehaviour {

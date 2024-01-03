@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/Playables/zzzz__PlayableOutputHandle_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableOutput_def.hpp"
-#include "UnityEngine/Playables/zzzz__IPlayableOutput_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
+#include "UnityEngine/Playables/zzzz__IPlayableOutput_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableOutputHandle_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Playables::PlayableOutput.get_Null
 template <>
@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x2cf5f8c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableOutput>::get(), "get_Null",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -25,7 +25,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2cf5c08;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableOutput>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Playables::PlayableOutputHandle>::get() })));
@@ -40,7 +40,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x2cf68f8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableOutput>::get(), "GetHandle",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -54,7 +54,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x2cf6904;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableOutput>::get(), "Equals", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Playables::PlayableOutput>::get() })));
@@ -65,8 +65,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 constexpr UnityEngine::Playables::PlayableOutput::operator ::UnityEngine::Playables::IPlayableOutput*() {
   return static_cast<::UnityEngine::Playables::IPlayableOutput*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::UnityEngine::Playables::IPlayableOutput"
+constexpr ::UnityEngine::Playables::IPlayableOutput* UnityEngine::Playables::PlayableOutput::i___UnityEngine__Playables__IPlayableOutput() {
+  return static_cast<::UnityEngine::Playables::IPlayableOutput*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Playables::PlayableOutput>"
 constexpr UnityEngine::Playables::PlayableOutput::operator ::System::IEquatable_1<::UnityEngine::Playables::PlayableOutput>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::Playables::PlayableOutput>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::Playables::PlayableOutput>"
+constexpr ::System::IEquatable_1<::UnityEngine::Playables::PlayableOutput>* UnityEngine::Playables::PlayableOutput::i___System__IEquatable_1___UnityEngine__Playables__PlayableOutput_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Playables::PlayableOutput>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 inline void UnityEngine::Playables::PlayableOutput::setStaticF_m_NullPlayableOutput(::UnityEngine::Playables::PlayableOutput value) {

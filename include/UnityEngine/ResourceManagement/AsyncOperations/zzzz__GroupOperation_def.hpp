@@ -11,32 +11,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GroupOperation)
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct __GroupOperation__GroupOperationSettings;
-}
-namespace System {
-class Object;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct DownloadStatus;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-class ICachable;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
-}
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace System {
 template <typename T> class Action_1;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct DownloadStatus;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+class ICachable;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct __GroupOperation__GroupOperationSettings;
 }
 namespace UnityEngine::ResourceManagement::Util {
 class IOperationCacheKey;
@@ -109,10 +109,9 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::AsyncOperations::__Gro
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 792 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 275 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14034)), TypeDefinitionIndex(TypeDefinitionIndex(14032)), TypeDefinitionIndex(TypeDefinitionIndex(3835)), TypeDefinitionIndex(TypeDefinitionIndex(14037))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14038))
-// CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::GroupOperation*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3835)), TypeDefinitionIndex(TypeDefinitionIndex(14034)), TypeDefinitionIndex(TypeDefinitionIndex(14032)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 792 }), TypeDefinitionIndex(TypeDefinitionIndex(14037)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3835), inst: 275 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14038)) CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::GroupOperation*
 class CORDL_TYPE GroupOperation : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<
                                       ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> {
 public:
@@ -150,6 +149,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::AsyncOperations::ICachable"
   constexpr operator ::UnityEngine::ResourceManagement::AsyncOperations::ICachable*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::ResourceManagement::AsyncOperations::ICachable"
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::ICachable* i___UnityEngine__ResourceManagement__AsyncOperations__ICachable() noexcept;
 
   constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& __get_m_InternalOnComplete();
 
@@ -233,10 +235,8 @@ public:
   inline float_t get_Progress();
 
   /// @brief Method Init, addr 0x2bcd154, size 0xbc, virtual false, abstract: false, final false
-  /// @param releaseDependenciesOnFailure: bool (default: true)
-  /// @param allowFailedDependencies: bool (default: false)
-  inline void Init(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* operations, bool releaseDependenciesOnFailure = true,
-                   bool allowFailedDependencies = false);
+  inline void Init(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* operations, bool releaseDependenciesOnFailure,
+                   bool allowFailedDependencies);
 
   /// @brief Method Init, addr 0x2bdecf0, size 0x98, virtual false, abstract: false, final false
   inline void Init(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* operations,

@@ -9,40 +9,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Toggle)
 namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine::UI {
-struct __Toggle__ToggleTransition;
-}
-namespace UnityEngine::UI {
-class __Toggle__ToggleEvent;
+class BaseEventData;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine::UI {
-class ICanvasElement;
+class IEventSystemHandler;
 }
 namespace UnityEngine::EventSystems {
 class IPointerClickHandler;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine::UI {
-class Graphic;
 }
 namespace UnityEngine::EventSystems {
 class ISubmitHandler;
 }
 namespace UnityEngine::EventSystems {
-class BaseEventData;
+class PointerEventData;
+}
+namespace UnityEngine::UI {
+struct CanvasUpdate;
+}
+namespace UnityEngine::UI {
+class Graphic;
+}
+namespace UnityEngine::UI {
+class ICanvasElement;
 }
 namespace UnityEngine::UI {
 class ToggleGroup;
 }
 namespace UnityEngine::UI {
-struct CanvasUpdate;
+class __Toggle__ToggleEvent;
+}
+namespace UnityEngine::UI {
+struct __Toggle__ToggleTransition;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -147,7 +147,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__Toggle__Toggl
 // SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 281, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13129)), TypeDefinitionIndex(TypeDefinitionIndex(13119))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13119)), TypeDefinitionIndex(TypeDefinitionIndex(13129))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13131))
 // CS Name: ::UnityEngine.UI::Toggle*
 class CORDL_TYPE Toggle : public ::UnityEngine::UI::Selectable {
@@ -179,14 +179,26 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerClickHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerClickHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerClickHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerClickHandler* i___UnityEngine__EventSystems__IPointerClickHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::ISubmitHandler"
   constexpr operator ::UnityEngine::EventSystems::ISubmitHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::ISubmitHandler"
+  constexpr ::UnityEngine::EventSystems::ISubmitHandler* i___UnityEngine__EventSystems__ISubmitHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::UI::ICanvasElement"
   constexpr operator ::UnityEngine::UI::ICanvasElement*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UI::ICanvasElement"
+  constexpr ::UnityEngine::UI::ICanvasElement* i___UnityEngine__UI__ICanvasElement() noexcept;
 
   constexpr ::UnityEngine::UI::__Toggle__ToggleTransition& __get_toggleTransition();
 
@@ -263,8 +275,7 @@ public:
   inline void SetIsOnWithoutNotify(bool value);
 
   /// @brief Method Set, addr 0x2d8ce50, size 0x174, virtual false, abstract: false, final false
-  /// @param sendCallback: bool (default: true)
-  inline void Set(bool value, bool sendCallback = true);
+  inline void Set(bool value, bool sendCallback);
 
   /// @brief Method PlayEffect, addr 0x2d8c6d0, size 0xc4, virtual false, abstract: false, final false
   inline void PlayEffect(bool instant);

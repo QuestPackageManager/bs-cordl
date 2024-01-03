@@ -10,17 +10,17 @@ CORDL_MODULE_EXPORT(AnimationPlayableOutput)
 namespace UnityEngine::Playables {
 class IPlayableOutput;
 }
-namespace UnityEngine {
-class Animator;
+namespace UnityEngine::Playables {
+struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
 struct PlayableOutputHandle;
 }
 namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
-namespace UnityEngine::Playables {
 struct PlayableOutput;
+}
+namespace UnityEngine {
+class Animator;
 }
 // Forward declare root types
 namespace UnityEngine::Animations {
@@ -40,6 +40,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayableOutput"
   constexpr operator ::UnityEngine::Playables::IPlayableOutput*();
+
+  /// @brief Convert to "::UnityEngine::Playables::IPlayableOutput"
+  constexpr ::UnityEngine::Playables::IPlayableOutput* i___UnityEngine__Playables__IPlayableOutput();
 
   /// @brief Method Create, addr 0x2c990f0, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Animations::AnimationPlayableOutput Create(::UnityEngine::Playables::PlayableGraph graph, ::StringW name, ::UnityEngine::Animator* target);

@@ -9,13 +9,13 @@ namespace System {
 class Object;
 }
 namespace UnityEngine {
-class Object;
-}
-namespace UnityEngine {
 class ILogHandler;
 }
 namespace UnityEngine {
 struct LogType;
+}
+namespace UnityEngine {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -39,6 +39,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::ILogHandler"
   constexpr operator ::UnityEngine::ILogHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::ILogHandler"
+  constexpr ::UnityEngine::ILogHandler* i___UnityEngine__ILogHandler() noexcept;
 
   /// @brief Method get_logHandler, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::ILogHandler* get_logHandler();

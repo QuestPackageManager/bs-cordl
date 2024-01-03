@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapCharacteristicSelectionViewController)
-namespace HMUI {
-class IconSegmentedControl;
+namespace GlobalNamespace {
+class BeatmapCharacteristicCollection;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
-namespace System {
-template <typename T1, typename T2> class Action_2;
+namespace HMUI {
+class IconSegmentedControl;
 }
 namespace HMUI {
 class SegmentedControl;
 }
-namespace GlobalNamespace {
-class BeatmapCharacteristicCollection;
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlSchemaComplexType)
 namespace System::Xml::Schema {
-struct XmlSchemaContentProcessing;
+class ContentValidator;
 }
 namespace System::Xml::Schema {
 class XmlSchemaAnyAttribute;
 }
 namespace System::Xml::Schema {
-class ContentValidator;
+struct XmlSchemaContentProcessing;
 }
 namespace System::Xml::Schema {
 class XmlSchemaParticle;

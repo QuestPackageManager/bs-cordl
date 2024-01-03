@@ -30,6 +30,9 @@ public:
   /// @brief Convert operator to "::System::IServiceProvider"
   constexpr operator ::System::IServiceProvider*() noexcept;
 
+  /// @brief Convert to "::System::IServiceProvider"
+  constexpr ::System::IServiceProvider* i___System__IServiceProvider() noexcept;
+
   /// @brief Method get_Container, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::ComponentModel::IContainer* get_Container();
 

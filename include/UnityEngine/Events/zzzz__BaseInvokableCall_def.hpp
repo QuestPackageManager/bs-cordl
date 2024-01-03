@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(BaseInvokableCall)
+namespace System::Reflection {
+class MethodInfo;
+}
 namespace System {
 class Delegate;
 }
 namespace System {
 class Object;
-}
-namespace System::Reflection {
-class MethodInfo;
 }
 // Forward declare root types
 namespace UnityEngine::Events {

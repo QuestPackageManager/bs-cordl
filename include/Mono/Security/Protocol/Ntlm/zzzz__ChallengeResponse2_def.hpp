@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ChallengeResponse2)
 namespace Mono::Security::Protocol::Ntlm {
-class Type2Message;
+struct NtlmAuthLevel;
 }
 namespace Mono::Security::Protocol::Ntlm {
-struct NtlmAuthLevel;
+class Type2Message;
 }
 // Forward declare root types
 namespace Mono::Security::Protocol::Ntlm {

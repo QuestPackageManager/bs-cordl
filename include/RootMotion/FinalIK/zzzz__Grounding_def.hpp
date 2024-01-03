@@ -16,25 +16,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Grounding)
 namespace RootMotion::FinalIK {
-struct __Grounding__Quality;
-}
-namespace UnityEngine {
-struct Vector3;
+class __Grounding__Leg;
 }
 namespace RootMotion::FinalIK {
 class __Grounding__Pelvis;
 }
 namespace RootMotion::FinalIK {
-class __Grounding__Leg;
+struct __Grounding__Quality;
 }
 namespace UnityEngine {
-class Transform;
+struct Quaternion;
 }
 namespace UnityEngine {
 struct RaycastHit;
 }
 namespace UnityEngine {
-struct Quaternion;
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -112,8 +112,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Quality, value__) == 
 // SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 276, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(15487)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10252))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12527)) CS Name: ::Grounding::Leg*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15487))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12527)) CS Name: ::Grounding::Leg*
 class CORDL_TYPE __Grounding__Leg : public ::System::Object {
 public:
   // Declarations
@@ -727,7 +727,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Pelvis, ___lastTime) 
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 165, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(15487)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(15487)),
 // TypeDefinitionIndex(TypeDefinitionIndex(12526))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12529)) CS Name: ::RootMotion.FinalIK::Grounding*
 class CORDL_TYPE Grounding : public ::System::Object {
 public:
@@ -1005,8 +1005,7 @@ public:
   inline bool get_rootGrounded();
 
   /// @brief Method GetRootHit, addr 0x124bea4, size 0x260, virtual false, abstract: false, final false
-  /// @param maxDistanceMlp: float_t (default: 10.0)
-  inline ::UnityEngine::RaycastHit GetRootHit(float_t maxDistanceMlp = 10.0);
+  inline ::UnityEngine::RaycastHit GetRootHit(float_t maxDistanceMlp);
 
   /// @brief Method IsValid, addr 0x124c16c, size 0xfc, virtual false, abstract: false, final false
   inline bool IsValid(ByRef<::StringW> errorMessage);

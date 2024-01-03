@@ -8,29 +8,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(AnimationClip)
-namespace UnityEngine {
-class AnimationEvent;
-}
-namespace UnityEngine {
-class AnimationCurve;
-}
-namespace UnityEngine {
-class GameObject;
-}
 namespace System {
 class Array;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class Type;
 }
 namespace UnityEngine {
-struct WrapMode;
+class AnimationCurve;
 }
-namespace System {
-class Object;
+namespace UnityEngine {
+class AnimationEvent;
 }
 namespace UnityEngine {
 struct Bounds;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+struct WrapMode;
 }
 // Forward declare root types
 namespace UnityEngine {

@@ -10,46 +10,46 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EulaViewController)
 namespace GlobalNamespace {
-struct __EulaViewController__ButtonType;
-}
-namespace UnityEngine::UI {
-class Image;
-}
-namespace GlobalNamespace {
-class __EulaViewController___EnableButtonsCoroutine_d__21;
-}
-namespace GlobalNamespace {
-class __EulaViewController__InitData;
-}
-namespace HMUI {
-class TextPageScrollView;
-}
-namespace GlobalNamespace {
 class ICoroutineStarter;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine::UI {
-class Button;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine {
-class Coroutine;
 }
 namespace GlobalNamespace {
 class LocalizedTextAsset;
 }
+namespace GlobalNamespace {
+struct __EulaViewController__ButtonType;
+}
+namespace GlobalNamespace {
+class __EulaViewController__InitData;
+}
+namespace GlobalNamespace {
+class __EulaViewController___EnableButtonsCoroutine_d__21;
+}
+namespace HMUI {
+class TextPageScrollView;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System {
-class Object;
+template <typename T> class Action_1;
 }
 namespace System {
 class IDisposable;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class Object;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace UnityEngine::UI {
+class Image;
+}
+namespace UnityEngine {
+class Coroutine;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -203,11 +203,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

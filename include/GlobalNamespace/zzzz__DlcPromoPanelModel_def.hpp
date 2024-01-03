@@ -16,28 +16,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DlcPromoPanelModel)
 namespace GlobalNamespace {
-struct __DlcPromoPanelModel___UpdatePacksAsync_d__19;
+class DlcPromoPanelDataSO;
 }
 namespace GlobalNamespace {
-class __DlcPromoPanelDataSO__MusicPackPromoInfo;
+struct EntitlementStatus;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+class IAdditionalContentModel;
 }
 namespace GlobalNamespace {
 class IAnalyticsModel;
 }
-namespace System {
-class Random;
+namespace GlobalNamespace {
+class IBeatmapLevelPack;
+}
+namespace GlobalNamespace {
+class IPlatformInit;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
+}
+namespace GlobalNamespace {
+class __DlcPromoPanelDataSO__MusicPackPromoInfo;
 }
 namespace GlobalNamespace {
 struct __DlcPromoPanelModel___HandleAdditionalContentModelDidInvalidateData_d__20;
@@ -46,28 +49,22 @@ namespace GlobalNamespace {
 struct __DlcPromoPanelModel___Initialize_d__10;
 }
 namespace GlobalNamespace {
-class IAdditionalContentModel;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelPack;
+struct __DlcPromoPanelModel___UpdatePacksAsync_d__19;
 }
 namespace GlobalNamespace {
 class __DlcPromoPanelModel____c__DisplayClass11_0;
 }
-namespace Zenject {
-class IInitializable;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace GlobalNamespace {
-class DlcPromoPanelDataSO;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
-namespace GlobalNamespace {
-class IPlatformInit;
+namespace System::Runtime::CompilerServices {
+struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
-}
-namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -75,14 +72,17 @@ class IAsyncStateMachine;
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
 }
-namespace GlobalNamespace {
-struct EntitlementStatus;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
+struct TaskAwaiter;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System {
+class Random;
+}
+namespace Zenject {
+class IInitializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -110,13 +110,16 @@ MARK_VAL_T(::GlobalNamespace::__DlcPromoPanelModel___UpdatePacksAsync_d__19);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3393))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4160)) CS Name: ::DlcPromoPanelModel::<Initialize>d__10
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4160)) CS Name: ::DlcPromoPanelModel::<Initialize>d__10
 struct CORDL_TYPE __DlcPromoPanelModel___Initialize_d__10 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x223f2d0, size 0x614, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -228,13 +231,16 @@ static_assert(offsetof(::GlobalNamespace::__DlcPromoPanelModel____c__DisplayClas
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(16270)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
 // GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4162)) CS Name: ::DlcPromoPanelModel::<UpdatePacksAsync>d__19
 struct CORDL_TYPE __DlcPromoPanelModel___UpdatePacksAsync_d__19 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x223f938, size 0x5e4, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -319,7 +325,7 @@ static_assert(offsetof(::GlobalNamespace::__DlcPromoPanelModel___UpdatePacksAsyn
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3400))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4163))
 // CS Name: ::DlcPromoPanelModel::<HandleAdditionalContentModelDidInvalidateData>d__20
 struct CORDL_TYPE __DlcPromoPanelModel___HandleAdditionalContentModelDidInvalidateData_d__20 {
@@ -327,6 +333,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x223ff28, size 0x228, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -428,6 +437,9 @@ public:
 
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
+
+  /// @brief Convert to "::Zenject::IInitializable"
+  constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
 
   constexpr ::GlobalNamespace::IAdditionalContentModel*& __get__additionalContentModel();
 

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__BidirectionalDictionary_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
 template <typename TFirst, typename TSecond>
 constexpr ::System::Collections::Generic::IDictionary_2<TFirst, TSecond>*& Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::__get__firstToSecond() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SpriteLightWithId)
+namespace GlobalNamespace {
+struct __SpriteLightWithId__MultiplyColorByAlphaType;
+}
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
 class SpriteRenderer;
-}
-namespace GlobalNamespace {
-struct __SpriteLightWithId__MultiplyColorByAlphaType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -85,7 +85,7 @@ static_assert(offsetof(::GlobalNamespace::__SpriteLightWithId__MultiplyColorByAl
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 83, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14556)), TypeDefinitionIndex(TypeDefinitionIndex(14542))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14542)), TypeDefinitionIndex(TypeDefinitionIndex(14556))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14557))
 // CS Name: ::SpriteLightWithId*
 class CORDL_TYPE SpriteLightWithId : public ::GlobalNamespace::LightWithIdMonoBehaviour {

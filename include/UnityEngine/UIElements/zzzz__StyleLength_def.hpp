@@ -12,14 +12,14 @@ CORDL_MODULE_EXPORT(StyleLength)
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace UnityEngine::UIElements {
-struct Length;
-}
 namespace System {
 class Object;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class IStyleValue_1;
+}
+namespace UnityEngine::UIElements {
+struct Length;
 }
 namespace UnityEngine::UIElements {
 struct StyleKeyword;
@@ -34,7 +34,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleLength);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7313)), TypeDefinitionIndex(TypeDefinitionIndex(7300))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7300)), TypeDefinitionIndex(TypeDefinitionIndex(7313))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7298))
 // CS Name: ::UnityEngine.UIElements::StyleLength
 struct CORDL_TYPE StyleLength {
@@ -47,8 +47,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Length>"
   constexpr operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Length>*();
 
+  /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Length>"
+  constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Length>* i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__Length_();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleLength>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleLength>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleLength>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleLength>* i___System__IEquatable_1___UnityEngine__UIElements__StyleLength_();
 
   /// @brief Method get_value, addr 0x2e70b60, size 0x18, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::Length get_value();

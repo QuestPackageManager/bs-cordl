@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DropdownMenuAction)
-namespace UnityEngine::UIElements {
-struct __DropdownMenuAction__Status;
-}
 namespace System {
 template <typename T> class Action_1;
 }
 namespace System {
-class Object;
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+class Object;
 }
 namespace UnityEngine::UIElements {
 class DropdownMenuEventInfo;
+}
+namespace UnityEngine::UIElements {
+struct __DropdownMenuAction__Status;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -183,10 +183,8 @@ public:
            ::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::__DropdownMenuAction__Status>* actionStatusCallback, ::System::Object* userData);
 
   /// @brief Method .ctor, addr 0x2e08584, size 0x44, virtual false, abstract: false, final false
-  /// @param userData: ::System::Object* (default: nullptr)
   inline void _ctor(::StringW actionName, ::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction*>* actionCallback,
-                    ::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::__DropdownMenuAction__Status>* actionStatusCallback,
-                    ::System::Object* userData = nullptr);
+                    ::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::__DropdownMenuAction__Status>* actionStatusCallback, ::System::Object* userData);
 
   /// @brief Method UpdateActionStatus, addr 0x2e085c8, size 0x3c, virtual false, abstract: false, final false
   inline void UpdateActionStatus(::UnityEngine::UIElements::DropdownMenuEventInfo* eventInfo);

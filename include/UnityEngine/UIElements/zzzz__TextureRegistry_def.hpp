@@ -9,20 +9,20 @@ CORDL_MODULE_EXPORT(TextureRegistry)
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace UnityEngine::UIElements {
-struct TextureId;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine {
-class Texture;
+namespace System::Collections::Generic {
+template <typename T> class Stack_1;
+}
+namespace UnityEngine::UIElements {
+struct TextureId;
 }
 namespace UnityEngine::UIElements {
 struct __TextureRegistry__TextureInfo;
 }
-namespace System::Collections::Generic {
-template <typename T> class Stack_1;
+namespace UnityEngine {
+class Texture;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

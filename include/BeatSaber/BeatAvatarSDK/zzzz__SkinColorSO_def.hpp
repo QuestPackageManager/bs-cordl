@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::SkinColorSO);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15702))
 // CS Name: ::BeatSaber.BeatAvatarSDK::SkinColorSO*
 class CORDL_TYPE SkinColorSO : public ::GlobalNamespace::PersistentScriptableObject {

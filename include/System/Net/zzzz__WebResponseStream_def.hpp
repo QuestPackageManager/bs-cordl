@@ -17,41 +17,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(WebResponseStream)
-namespace System {
-class Version;
-}
-namespace System::Threading::Tasks {
-class Task;
+namespace System::IO {
+class MemoryStream;
 }
 namespace System::Net {
-struct ReadState;
+class BufferOffsetSize;
 }
 namespace System::Net {
 struct HttpStatusCode;
 }
 namespace System::Net {
-struct __WebResponseStream___InitReadAsync_d__52;
-}
-namespace System::Net {
-class WebRequestStream;
-}
-namespace System::Net {
-struct __WebResponseStream___ReadAsync_d__40;
-}
-namespace System::Net {
-struct WebExceptionStatus;
-}
-namespace System::Threading {
-struct CancellationToken;
+struct ReadState;
 }
 namespace System::Net {
 class WebCompletionSource;
 }
 namespace System::Net {
-struct __WebResponseStream___ReadAllAsync_d__48;
+struct WebExceptionStatus;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+namespace System::Net {
+class WebException;
 }
 namespace System::Net {
 class WebHeaderCollection;
@@ -59,41 +44,56 @@ class WebHeaderCollection;
 namespace System::Net {
 class WebReadStream;
 }
-namespace System {
-class Object;
+namespace System::Net {
+class WebRequestStream;
 }
 namespace System::Net {
-class BufferOffsetSize;
-}
-namespace System::Net {
-class __WebResponseStream____c__DisplayClass41_0;
-}
-namespace System {
-class Exception;
-}
-namespace System::Net {
-class WebException;
+struct __WebResponseStream___InitReadAsync_d__52;
 }
 namespace System::Net {
 struct __WebResponseStream___ReadAllAsyncInner_d__47;
 }
+namespace System::Net {
+struct __WebResponseStream___ReadAllAsync_d__48;
+}
+namespace System::Net {
+struct __WebResponseStream___ReadAsync_d__40;
+}
+namespace System::Net {
+class __WebResponseStream____c__DisplayClass41_0;
+}
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
-namespace System::IO {
-class MemoryStream;
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace System::Threading {
 class CancellationTokenSource;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
+class Exception;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Version;
 }
 // Forward declare root types
 namespace System::Net {
@@ -125,15 +125,18 @@ MARK_VAL_T(::System::Net::__WebResponseStream___ReadAsync_d__40);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3397), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 2 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9239)) CS Name:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 2 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3397), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9239)) CS Name:
 // ::WebResponseStream::<ReadAsync>d__40
 struct CORDL_TYPE __WebResponseStream___ReadAsync_d__40 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x29e8ff4, size 0x8e4, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -332,14 +335,17 @@ static_assert(offsetof(::System::Net::__WebResponseStream____c__DisplayClass41_0
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 873 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(3397))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 873 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(9241)) CS Name: ::WebResponseStream::<ReadAllAsyncInner>d__47
 struct CORDL_TYPE __WebResponseStream___ReadAllAsyncInner_d__47 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x29e99d0, size 0x56c, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -415,14 +421,17 @@ static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsyncInner_d_
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2787)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 400 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3397), inst: 873 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9242)) CS Name: ::WebResponseStream::<ReadAllAsync>d__48
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2787)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 873 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 400 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3401))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9242)) CS Name: ::WebResponseStream::<ReadAllAsync>d__48
 struct CORDL_TYPE __WebResponseStream___ReadAllAsync_d__48 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x29e9f94, size 0x95c, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -510,14 +519,17 @@ static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsync_d__48, 
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98
-// }), TypeDefinitionIndex(TypeDefinitionIndex(9214)), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9243)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9214)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98
+// }), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3397))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9243)) CS Name:
 // ::WebResponseStream::<InitReadAsync>d__52
 struct CORDL_TYPE __WebResponseStream___InitReadAsync_d__52 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x29ea8fc, size 0x6bc, virtual true, abstract: false, final true
   inline void MoveNext();

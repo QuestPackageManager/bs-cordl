@@ -9,35 +9,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SpriteAsset)
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
 namespace UnityEngine::TextCore::Text {
 class SpriteCharacter;
 }
 namespace UnityEngine::TextCore::Text {
 class SpriteGlyph;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace UnityEngine::TextCore::Text {
 class TextSettings;
-}
-namespace UnityEngine {
-class Texture;
-}
-namespace UnityEngine::TextCore {
-struct FaceInfo;
 }
 namespace UnityEngine::TextCore::Text {
 class __SpriteAsset____c;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::TextCore {
+struct FaceInfo;
 }
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace UnityEngine {
+class Texture;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -292,9 +292,8 @@ public:
                                                                                              ByRef<int32_t> spriteIndex);
 
   /// @brief Method SearchForSpriteByHashCode, addr 0x2d41ea8, size 0x32c, virtual false, abstract: false, final false
-  /// @param textSettings: ::UnityEngine::TextCore::Text::TextSettings* (default: nullptr)
   static inline ::UnityEngine::TextCore::Text::SpriteAsset* SearchForSpriteByHashCode(::UnityEngine::TextCore::Text::SpriteAsset* spriteAsset, int32_t hashCode, bool includeFallbacks,
-                                                                                      ByRef<int32_t> spriteIndex, ::UnityEngine::TextCore::Text::TextSettings* textSettings = nullptr);
+                                                                                      ByRef<int32_t> spriteIndex, ::UnityEngine::TextCore::Text::TextSettings* textSettings);
 
   /// @brief Method SearchForSpriteByHashCodeInternal, addr 0x2d421d4, size 0x1a0, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::Text::SpriteAsset* SearchForSpriteByHashCodeInternal(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::SpriteAsset*>* spriteAssets,

@@ -6,53 +6,53 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(EnumBuilder)
-namespace System::Reflection {
-class Module;
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace System::Reflection {
 class Assembly;
 }
 namespace System::Reflection {
-struct TypeAttributes;
+class Binder;
+}
+namespace System::Reflection {
+struct BindingFlags;
 }
 namespace System::Reflection {
 struct CallingConventions;
 }
 namespace System::Reflection {
-struct BindingFlags;
-}
-namespace System {
-struct Guid;
+class ConstructorInfo;
 }
 namespace System::Reflection {
-class MethodInfo;
-}
-namespace System::Reflection {
-class PropertyInfo;
+class EventInfo;
 }
 namespace System::Reflection {
 class FieldInfo;
 }
 namespace System::Reflection {
-class ConstructorInfo;
+class MethodInfo;
+}
+namespace System::Reflection {
+class Module;
 }
 namespace System::Reflection {
 struct ParameterModifier;
 }
-namespace System {
-class Type;
+namespace System::Reflection {
+class PropertyInfo;
 }
 namespace System::Reflection {
-class EventInfo;
+struct TypeAttributes;
 }
-namespace System::Globalization {
-class CultureInfo;
+namespace System {
+struct Guid;
 }
 namespace System {
 class Object;
 }
-namespace System::Reflection {
-class Binder;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Reflection::Emit {

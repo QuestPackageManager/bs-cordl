@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ResizableTextMeshPro)
-namespace UnityEngine {
-class RectTransform;
+namespace TMPro {
+class TMP_Text;
 }
 namespace UnityEngine {
 class Object;
 }
-namespace TMPro {
-class TMP_Text;
+namespace UnityEngine {
+class RectTransform;
 }
 // Forward declare root types
 namespace GlobalNamespace {

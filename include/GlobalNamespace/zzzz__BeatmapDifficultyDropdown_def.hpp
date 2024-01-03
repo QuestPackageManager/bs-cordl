@@ -8,28 +8,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapDifficultyDropdown)
 namespace GlobalNamespace {
-class __BeatmapDifficultyDropdown____c;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace HMUI {
-class SimpleTextDropdown;
-}
-namespace System {
-template <typename T1, typename T2> class Tuple_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+struct BeatmapDifficultyMask;
 }
 namespace GlobalNamespace {
-struct BeatmapDifficultyMask;
+class __BeatmapDifficultyDropdown____c;
 }
 namespace HMUI {
 class DropdownWithTableView;
 }
+namespace HMUI {
+class SimpleTextDropdown;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace System {
+template <typename T> class Action_1;
+}
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+template <typename T1, typename T2> class Tuple_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

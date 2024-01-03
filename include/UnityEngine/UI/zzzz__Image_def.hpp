@@ -10,47 +10,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Image)
-namespace UnityEngine {
-struct Vector2;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine::UI {
-struct __Image__OriginVertical;
+namespace UnityEngine::U2D {
+class SpriteAtlas;
 }
 namespace UnityEngine::UI {
 class ILayoutElement;
 }
 namespace UnityEngine::UI {
-struct __Image__OriginHorizontal;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::UI {
-struct __Image__Origin90;
-}
-namespace UnityEngine {
-class Texture;
-}
-namespace UnityEngine::UI {
 class VertexHelper;
 }
-namespace UnityEngine {
-class ICanvasRaycastFilter;
-}
-namespace UnityEngine {
-struct Color32;
-}
-namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine::U2D {
-class SpriteAtlas;
+namespace UnityEngine::UI {
+struct __Image__FillMethod;
 }
 namespace UnityEngine::UI {
 struct __Image__Origin180;
@@ -58,23 +31,50 @@ struct __Image__Origin180;
 namespace UnityEngine::UI {
 struct __Image__Origin360;
 }
+namespace UnityEngine::UI {
+struct __Image__Origin90;
+}
+namespace UnityEngine::UI {
+struct __Image__OriginHorizontal;
+}
+namespace UnityEngine::UI {
+struct __Image__OriginVertical;
+}
+namespace UnityEngine::UI {
+struct __Image__Type;
+}
+namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine {
+struct Color32;
+}
+namespace UnityEngine {
+class ICanvasRaycastFilter;
+}
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
+}
+namespace UnityEngine {
+class Material;
+}
 namespace UnityEngine {
 struct Rect;
 }
 namespace UnityEngine {
 class Sprite;
 }
-namespace UnityEngine::UI {
-struct __Image__Type;
+namespace UnityEngine {
+class Texture;
 }
 namespace UnityEngine {
-class Material;
+struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 struct Vector4;
-}
-namespace UnityEngine::UI {
-struct __Image__FillMethod;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -508,7 +508,7 @@ static_assert(offsetof(::UnityEngine::UI::__Image__Origin360, value__) == 0x0, "
 // SizeInfo { instance_size: 264, native_size: -1, calculated_instance_size: 264, calculated_native_size: 264, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13049)), TypeDefinitionIndex(TypeDefinitionIndex(13099)), TypeDefinitionIndex(TypeDefinitionIndex(13048))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13099)), TypeDefinitionIndex(TypeDefinitionIndex(13048)), TypeDefinitionIndex(TypeDefinitionIndex(13049))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13055))
 // CS Name: ::UnityEngine.UI::Image*
 class CORDL_TYPE Image : public ::UnityEngine::UI::MaskableGraphic {
@@ -647,11 +647,20 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
+  constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::UI::ILayoutElement"
   constexpr operator ::UnityEngine::UI::ILayoutElement*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::UI::ILayoutElement"
+  constexpr ::UnityEngine::UI::ILayoutElement* i___UnityEngine__UI__ILayoutElement() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::ICanvasRaycastFilter"
   constexpr operator ::UnityEngine::ICanvasRaycastFilter*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::ICanvasRaycastFilter"
+  constexpr ::UnityEngine::ICanvasRaycastFilter* i___UnityEngine__ICanvasRaycastFilter() noexcept;
 
   constexpr ::UnityEngine::Sprite*& __get_m_Sprite();
 

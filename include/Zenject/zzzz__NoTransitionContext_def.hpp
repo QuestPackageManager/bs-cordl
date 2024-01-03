@@ -8,13 +8,13 @@ namespace System {
 template <typename T> class Action_1;
 }
 namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
 class InjectTypeInfo;
 }
 namespace Zenject {
 class NoTransitionInstaller;
-}
-namespace Zenject {
-class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {

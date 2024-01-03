@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::MeshWriteData);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 752 }), TypeDefinitionIndex(TypeDefinitionIndex(10165)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(9994), inst: 756 }), TypeDefinitionIndex(TypeDefinitionIndex(7330)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9994))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7330)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 752
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 756 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9994))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(7331)) CS Name: ::UnityEngine.UIElements::MeshWriteData*
 class CORDL_TYPE MeshWriteData : public ::System::Object {
 public:

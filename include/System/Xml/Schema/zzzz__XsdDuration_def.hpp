@@ -14,10 +14,10 @@ namespace System::Xml::Schema {
 struct __XsdDuration__Parts;
 }
 namespace System {
-struct TimeSpan;
+class Exception;
 }
 namespace System {
-class Exception;
+struct TimeSpan;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

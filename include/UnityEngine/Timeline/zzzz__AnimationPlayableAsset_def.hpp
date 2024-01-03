@@ -14,65 +14,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AnimationPlayableAsset)
-namespace UnityEngine::Timeline {
-struct ClipCaps;
-}
-namespace UnityEngine::Timeline {
-struct MatchTargetFields;
-}
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
-}
-namespace UnityEngine::Playables {
-struct Playable;
-}
-namespace UnityEngine::Playables {
-class PlayableDirector;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::Timeline {
-class IPropertyPreview;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine::Timeline {
-struct __AnimationPlayableAsset__Versions;
-}
-namespace UnityEngine::Timeline {
-class ITimelineClipAsset;
-}
-namespace UnityEngine {
-class AnimationClip;
-}
-namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
-namespace UnityEngine::Timeline {
-class __AnimationPlayableAsset___get_outputs_d__45;
-}
-namespace UnityEngine::Timeline {
-class __AnimationPlayableAsset__AnimationPlayableAssetUpgrade;
-}
-namespace UnityEngine::Timeline {
-struct AppliedOffsetMode;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
-namespace UnityEngine::Timeline {
-class IPropertyCollector;
+namespace System::Collections {
+class IEnumerable;
 }
-namespace UnityEngine::Timeline {
-struct __AnimationPlayableAsset__LoopMode;
-}
-namespace UnityEngine::Playables {
-struct PlayableBinding;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class IDisposable;
@@ -80,14 +32,62 @@ class IDisposable;
 namespace System {
 class Object;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace UnityEngine::Playables {
+struct PlayableBinding;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace UnityEngine::Playables {
+class PlayableDirector;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
+namespace UnityEngine::Playables {
+struct Playable;
+}
+namespace UnityEngine::Timeline {
+struct AppliedOffsetMode;
+}
+namespace UnityEngine::Timeline {
+struct ClipCaps;
+}
+namespace UnityEngine::Timeline {
+class IPropertyCollector;
+}
+namespace UnityEngine::Timeline {
+class IPropertyPreview;
+}
+namespace UnityEngine::Timeline {
+class ITimelineClipAsset;
+}
+namespace UnityEngine::Timeline {
+struct MatchTargetFields;
+}
+namespace UnityEngine::Timeline {
+class __AnimationPlayableAsset__AnimationPlayableAssetUpgrade;
+}
+namespace UnityEngine::Timeline {
+struct __AnimationPlayableAsset__LoopMode;
+}
+namespace UnityEngine::Timeline {
+struct __AnimationPlayableAsset__Versions;
+}
+namespace UnityEngine::Timeline {
+class __AnimationPlayableAsset___get_outputs_d__45;
+}
+namespace UnityEngine {
+class AnimationClip;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -278,17 +278,34 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>*
+  i___System__Collections__Generic__IEnumerable_1___UnityEngine__Playables__PlayableBinding_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding>*
+  i___System__Collections__Generic__IEnumerator_1___UnityEngine__Playables__PlayableBinding_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -384,8 +401,8 @@ static_assert(offsetof(::UnityEngine::Timeline::__AnimationPlayableAsset___get_o
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10422)), TypeDefinitionIndex(TypeDefinitionIndex(13831)), TypeDefinitionIndex(TypeDefinitionIndex(13837)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13839)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13831)), TypeDefinitionIndex(TypeDefinitionIndex(10422)), TypeDefinitionIndex(TypeDefinitionIndex(13839)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(13837)), TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(13835)) CS Name: ::UnityEngine.Timeline::AnimationPlayableAsset*
 class CORDL_TYPE AnimationPlayableAsset : public ::UnityEngine::Playables::PlayableAsset {
 public:
@@ -465,11 +482,20 @@ public:
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
+  constexpr ::UnityEngine::Timeline::ITimelineClipAsset* i___UnityEngine__Timeline__ITimelineClipAsset() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::Timeline::IPropertyPreview"
   constexpr operator ::UnityEngine::Timeline::IPropertyPreview*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::Timeline::IPropertyPreview"
+  constexpr ::UnityEngine::Timeline::IPropertyPreview* i___UnityEngine__Timeline__IPropertyPreview() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
+  constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
   constexpr ::UnityEngine::AnimationClip*& __get_m_Clip();
 

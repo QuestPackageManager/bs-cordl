@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SubjectKeyIdentifier)
 namespace Org::BouncyCastle::Asn1::X509 {
+class SubjectPublicKeyInfo;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class SubjectPublicKeyInfo;
-}
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {

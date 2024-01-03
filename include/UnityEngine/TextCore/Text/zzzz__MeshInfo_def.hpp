@@ -7,11 +7,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MeshInfo)
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::TextCore::Text {
+struct VertexSortingOrder;
 }
 namespace UnityEngine {
 struct Color32;
@@ -19,8 +16,11 @@ struct Color32;
 namespace UnityEngine {
 class Material;
 }
-namespace UnityEngine::TextCore::Text {
-struct VertexSortingOrder;
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {

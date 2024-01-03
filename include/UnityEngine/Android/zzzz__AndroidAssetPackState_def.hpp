@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AndroidAssetPackState)
 namespace UnityEngine::Android {
-struct AndroidAssetPackStatus;
+struct AndroidAssetPackError;
 }
 namespace UnityEngine::Android {
-struct AndroidAssetPackError;
+struct AndroidAssetPackStatus;
 }
 // Forward declare root types
 namespace UnityEngine::Android {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::UnityEngine::Android::AndroidAssetPackState);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Android {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14921)), TypeDefinitionIndex(TypeDefinitionIndex(14920)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14920)), TypeDefinitionIndex(TypeDefinitionIndex(14921))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14923))
 // CS Name: ::UnityEngine.Android::AndroidAssetPackState*
 class CORDL_TYPE AndroidAssetPackState : public ::System::Object {

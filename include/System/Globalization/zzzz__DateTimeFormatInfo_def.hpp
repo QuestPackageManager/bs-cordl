@@ -12,52 +12,52 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DateTimeFormatInfo)
 namespace System::Globalization {
-class __DateTimeFormatInfo__TokenHashValue;
+struct CalendarId;
+}
+namespace System::Globalization {
+class Calendar;
 }
 namespace System::Globalization {
 class CompareInfo;
-}
-namespace System {
-struct DayOfWeek;
-}
-namespace System::Globalization {
-struct DateTimeStyles;
-}
-namespace System {
-struct TokenType;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System {
-class Object;
-}
-namespace System::Globalization {
-struct CalendarId;
-}
-namespace System {
-class ICloneable;
 }
 namespace System::Globalization {
 class CultureData;
 }
 namespace System::Globalization {
-class Calendar;
+class CultureInfo;
+}
+namespace System::Globalization {
+struct DateTimeFormatFlags;
+}
+namespace System::Globalization {
+struct DateTimeStyles;
+}
+namespace System::Globalization {
+struct MonthNameStyles;
+}
+namespace System::Globalization {
+class __DateTimeFormatInfo__TokenHashValue;
+}
+namespace System {
+struct DayOfWeek;
+}
+namespace System {
+class ICloneable;
+}
+namespace System {
+class IFormatProvider;
+}
+namespace System {
+class Object;
+}
+namespace System {
+struct TokenType;
 }
 namespace System {
 class Type;
 }
 namespace System {
-class IFormatProvider;
-}
-namespace System::Globalization {
-struct DateTimeFormatFlags;
-}
-namespace System {
 struct __DTString;
-}
-namespace System::Globalization {
-struct MonthNameStyles;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -73,7 +73,7 @@ MARK_REF_PTR_T(::System::Globalization::__DateTimeFormatInfo__TokenHashValue);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2401)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2401))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3664))
 // CS Name: ::DateTimeFormatInfo::TokenHashValue*
 class CORDL_TYPE __DateTimeFormatInfo__TokenHashValue : public ::System::Object {
@@ -150,7 +150,7 @@ static_assert(offsetof(::System::Globalization::__DateTimeFormatInfo__TokenHashV
 // SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3670)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3663))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3663)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3670))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3665))
 // CS Name: ::System.Globalization::DateTimeFormatInfo*
 class CORDL_TYPE DateTimeFormatInfo : public ::System::Object {
@@ -405,8 +405,14 @@ public:
   /// @brief Convert operator to "::System::IFormatProvider"
   constexpr operator ::System::IFormatProvider*() noexcept;
 
+  /// @brief Convert to "::System::IFormatProvider"
+  constexpr ::System::IFormatProvider* i___System__IFormatProvider() noexcept;
+
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
+
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
   constexpr ::System::Globalization::CultureData*& __get__cultureData();
 

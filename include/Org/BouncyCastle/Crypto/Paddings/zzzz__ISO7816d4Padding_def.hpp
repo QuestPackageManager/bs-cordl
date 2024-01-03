@@ -34,6 +34,9 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding"
   constexpr operator ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding"
+  constexpr ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* i___Org__BouncyCastle__Crypto__Paddings__IBlockCipherPadding() noexcept;
+
   /// @brief Method Init, addr 0xf2e300, size 0x4, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Security::SecureRandom* random);
 

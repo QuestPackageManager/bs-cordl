@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SwitchView)
 namespace HMUI {
-struct __SwitchView__AnimationType;
+class ToggleWithCallbacks;
 }
 namespace HMUI {
-class ToggleWithCallbacks;
+struct __SwitchView__AnimationType;
 }
 namespace HMUI {
 struct __ToggleWithCallbacks__SelectionState;

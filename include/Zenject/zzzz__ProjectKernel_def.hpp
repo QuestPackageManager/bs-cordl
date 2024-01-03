@@ -7,32 +7,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ProjectKernel)
-namespace Zenject {
-class SceneContextRegistry;
-}
-namespace Zenject {
-class __ProjectKernel____c__DisplayClass4_0;
-}
-namespace Zenject {
-class ZenjectSettings;
-}
-namespace System {
-class Object;
-}
-namespace Zenject {
-class InjectTypeInfo;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace UnityEngine::SceneManagement {
-struct Scene;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
+namespace System {
+class Object;
+}
+namespace UnityEngine::SceneManagement {
+struct Scene;
+}
+namespace Zenject {
+class InjectTypeInfo;
+}
+namespace Zenject {
+class SceneContextRegistry;
+}
 namespace Zenject {
 class SceneContext;
+}
+namespace Zenject {
+class ZenjectSettings;
+}
+namespace Zenject {
+class __ProjectKernel____c__DisplayClass4_0;
 }
 // Forward declare root types
 namespace Zenject {
@@ -153,8 +153,7 @@ public:
   inline void DestroyEverythingInOrder();
 
   /// @brief Method ForceUnloadAllScenes, addr 0x2f1602c, size 0x3e8, virtual false, abstract: false, final false
-  /// @param immediate: bool (default: false)
-  inline void ForceUnloadAllScenes(bool immediate = false);
+  inline void ForceUnloadAllScenes(bool immediate);
 
   static inline ::Zenject::ProjectKernel* New_ctor();
 

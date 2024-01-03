@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpUserAttributeSubpacketVectorGenerator)
-namespace System::Collections {
-class IList;
-}
 namespace Org::BouncyCastle::Bcpg::Attr {
 struct __ImageAttrib__Format;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpUserAttributeSubpacketVector;
+}
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {

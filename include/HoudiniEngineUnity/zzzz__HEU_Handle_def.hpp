@@ -15,40 +15,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_Handle)
 namespace HoudiniEngineUnity {
+struct HAPI_HandleInfo;
+}
+namespace HoudiniEngineUnity {
 struct HAPI_RSTOrder;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_XYZOrder;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace HoudiniEngineUnity {
-struct __HEU_Handle__HEU_HandleType;
-}
-namespace HoudiniEngineUnity {
-class HEU_HandleParamBinding;
-}
-namespace HoudiniEngineUnity {
-class HEU_Parameters;
-}
-namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
-}
-namespace UnityEngine {
-struct Quaternion;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_TransformEuler;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_HandleInfo;
+struct HAPI_XYZOrder;
+}
+namespace HoudiniEngineUnity {
+class HEU_HandleParamBinding;
+}
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset;
+}
+namespace HoudiniEngineUnity {
+class HEU_Parameters;
 }
 namespace HoudiniEngineUnity {
 class HEU_SessionBase;
 }
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivable_1;
+}
+namespace HoudiniEngineUnity {
+struct __HEU_Handle__HEU_HandleType;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -114,8 +114,8 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType, value
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9681)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(9715)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9714)), TypeDefinitionIndex(TypeDefinitionIndex(9727)), TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9715)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10210)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9714)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(9727)), TypeDefinitionIndex(TypeDefinitionIndex(9681))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9682))
 // CS Name: ::HoudiniEngineUnity::HEU_Handle*
 class CORDL_TYPE HEU_Handle : public ::UnityEngine::ScriptableObject {
@@ -177,6 +177,9 @@ public:
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Handle*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Handle*>*() noexcept;
+
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Handle*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Handle*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_Handle__() noexcept;
 
   constexpr ::StringW& __get__handleName();
 

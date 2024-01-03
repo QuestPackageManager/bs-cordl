@@ -30,6 +30,9 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Math::Field::IFiniteField"
   constexpr operator ::Org::BouncyCastle::Math::Field::IFiniteField*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Math::Field::IFiniteField"
+  constexpr ::Org::BouncyCastle::Math::Field::IFiniteField* i___Org__BouncyCastle__Math__Field__IFiniteField() noexcept;
+
   /// @brief Method get_Subfield, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Math::Field::IFiniteField* get_Subfield();
 

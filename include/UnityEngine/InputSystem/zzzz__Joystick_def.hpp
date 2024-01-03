@@ -12,14 +12,14 @@ class AxisControl;
 namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
 }
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct ReadOnlyArray_1;
+namespace UnityEngine::InputSystem::Controls {
+class StickControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class Vector2Control;
 }
-namespace UnityEngine::InputSystem::Controls {
-class StickControl;
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> struct ReadOnlyArray_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {

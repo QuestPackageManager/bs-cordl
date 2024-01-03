@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NearestNeighbourList_2)
 namespace UnityEngine::ProBuilder::KdTree {
-template <typename TItem, typename TPriority> class PriorityQueue_2;
-}
-namespace UnityEngine::ProBuilder::KdTree {
 template <typename TItem, typename TDistance> class INearestNeighbourList_2;
 }
 namespace UnityEngine::ProBuilder::KdTree {
 template <typename T> class ITypeMath_1;
+}
+namespace UnityEngine::ProBuilder::KdTree {
+template <typename TItem, typename TPriority> class PriorityQueue_2;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::KdTree {
@@ -49,6 +49,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::ProBuilder::KdTree::INearestNeighbourList_2<TItem,TDistance>"
   constexpr operator ::UnityEngine::ProBuilder::KdTree::INearestNeighbourList_2<TItem, TDistance>*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::ProBuilder::KdTree::INearestNeighbourList_2<TItem,TDistance>"
+  constexpr ::UnityEngine::ProBuilder::KdTree::INearestNeighbourList_2<TItem, TDistance>* i___UnityEngine__ProBuilder__KdTree__INearestNeighbourList_2_TItem_TDistance_() noexcept;
 
   constexpr ::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TDistance>*& __get_queue();
 

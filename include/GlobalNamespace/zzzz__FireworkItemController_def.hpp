@@ -10,53 +10,53 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FireworkItemController)
-namespace UnityEngine {
-class Gradient;
-}
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
-class TubeBloomPrePassLight;
-}
-namespace GlobalNamespace {
-class __FireworkItemController___FireCoroutine_d__29;
-}
-namespace UnityEngine {
-class AudioSource;
-}
-namespace GlobalNamespace {
-class __FireworkItemController__Pool;
-}
-namespace GlobalNamespace {
-class __FireworkItemController__FireworkItemParticleSystem;
-}
-namespace UnityEngine {
-class AudioClip;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine {
-class AnimationCurve;
+class DirectionalLight;
 }
 namespace GlobalNamespace {
 template <typename T> class RandomObjectPicker_1;
 }
 namespace GlobalNamespace {
-class DirectionalLight;
+class TubeBloomPrePassLight;
 }
-namespace UnityEngine {
-class ParticleSystem;
+namespace GlobalNamespace {
+class __FireworkItemController__FireworkItemParticleSystem;
 }
-namespace System {
-class Object;
+namespace GlobalNamespace {
+class __FireworkItemController__Pool;
+}
+namespace GlobalNamespace {
+class __FireworkItemController___FireCoroutine_d__29;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+template <typename T> class Action_1;
+}
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine {
+class AnimationCurve;
+}
+namespace UnityEngine {
+class AudioClip;
+}
+namespace UnityEngine {
+class AudioSource;
+}
+namespace UnityEngine {
+class Gradient;
+}
+namespace UnityEngine {
+class ParticleSystem;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -199,7 +199,7 @@ static_assert(offsetof(::GlobalNamespace::__FireworkItemController__FireworkItem
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4846))
 // CS Name: ::FireworkItemController*
 class CORDL_TYPE FireworkItemController : public ::UnityEngine::MonoBehaviour {
@@ -533,7 +533,7 @@ static_assert(offsetof(::GlobalNamespace::FireworkItemController, ___didFinishEv
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 307 }), TypeDefinitionIndex(TypeDefinitionIndex(4846)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4846)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 307 }),
 // TypeDefinitionIndex(TypeDefinitionIndex(11050))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4844)) CS Name: ::FireworkItemController::Pool*
 class CORDL_TYPE __FireworkItemController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::FireworkItemController*> {
 public:
@@ -598,11 +598,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

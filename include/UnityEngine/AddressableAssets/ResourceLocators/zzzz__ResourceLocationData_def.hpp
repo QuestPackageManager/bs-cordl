@@ -130,8 +130,7 @@ public:
                                                                                                    ::System::Type* t, ::ArrayW<::StringW, ::Array<::StringW>*> dependencies);
 
   /// @brief Method .ctor, addr 0x2a2ea70, size 0x138, virtual false, abstract: false, final false
-  /// @param dependencies: ::ArrayW<::StringW,::Array<::StringW>*> (default: nullptr)
-  inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> keys, ::StringW id, ::System::Type* provider, ::System::Type* t, ::ArrayW<::StringW, ::Array<::StringW>*> dependencies = nullptr);
+  inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> keys, ::StringW id, ::System::Type* provider, ::System::Type* t, ::ArrayW<::StringW, ::Array<::StringW>*> dependencies);
 
   // Ctor Parameters [CppParam { name: "", ty: "ResourceLocationData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

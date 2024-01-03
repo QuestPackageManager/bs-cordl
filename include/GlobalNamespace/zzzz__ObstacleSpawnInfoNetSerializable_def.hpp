@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObstacleSpawnInfoNetSerializable)
-namespace LiteNetLib::Utils {
-class NetDataWriter;
+namespace GlobalNamespace {
+struct NoteLineLayer;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
-namespace GlobalNamespace {
-struct NoteLineLayer;
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ObstacleSpawnInfoNetSerializable);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15033)), TypeDefinitionIndex(TypeDefinitionIndex(15039)), TypeDefinitionIndex(TypeDefinitionIndex(14760))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15033)), TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(15039))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15029))
 // CS Name: ::ObstacleSpawnInfoNetSerializable*
 class CORDL_TYPE ObstacleSpawnInfoNetSerializable : public ::GlobalNamespace::PoolableSerializable {

@@ -7,31 +7,31 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SongPackMasksModelItem)
 namespace GlobalNamespace {
+class BeatmapLevelPackCollectionSO;
+}
+namespace GlobalNamespace {
 class BeatmapLevelPackSO;
 }
 namespace GlobalNamespace {
-class __SongPackMasksModelItem____c;
+class IBeatmapLevelPack;
 }
 namespace GlobalNamespace {
 class PreviewBeatmapLevelPackSO;
 }
 namespace GlobalNamespace {
-class BeatmapLevelPackCollectionSO;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+struct SongPackMask;
 }
 namespace GlobalNamespace {
-struct SongPackMask;
+class __SongPackMasksModelItem____c;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace System {
 template <typename T, typename TResult> class Func_2;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelPack;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -140,7 +140,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SongPackMasks
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4517)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4517))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4521))
 // CS Name: ::SongPackMasksModelItem*
 class CORDL_TYPE SongPackMasksModelItem : public ::System::Object {

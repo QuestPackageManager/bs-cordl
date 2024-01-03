@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(InstantMenuButtonTrigger)
-namespace Zenject {
-class ITickable;
-}
-namespace System {
-class Action;
-}
 namespace GlobalNamespace {
 class IMenuButtonTrigger;
 }
 namespace GlobalNamespace {
 class IVRPlatformHelper;
+}
+namespace System {
+class Action;
+}
+namespace Zenject {
+class ITickable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -41,8 +41,14 @@ public:
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
 
+  /// @brief Convert to "::Zenject::ITickable"
+  constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IMenuButtonTrigger"
   constexpr operator ::GlobalNamespace::IMenuButtonTrigger*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IMenuButtonTrigger"
+  constexpr ::GlobalNamespace::IMenuButtonTrigger* i___GlobalNamespace__IMenuButtonTrigger() noexcept;
 
   constexpr ::GlobalNamespace::IVRPlatformHelper*& __get__vrPlatformHelper();
 

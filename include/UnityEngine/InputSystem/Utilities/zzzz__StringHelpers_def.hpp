@@ -9,38 +9,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StringHelpers)
-namespace UnityEngine::InputSystem::Utilities {
-class __StringHelpers___Split_d__9;
-}
-namespace System {
-struct StringComparison;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct Substring;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace UnityEngine::InputSystem::Utilities {
-class __StringHelpers___Tokenize_d__8;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System {
-class Object;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace System {
+struct StringComparison;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct Substring;
+}
+namespace UnityEngine::InputSystem::Utilities {
+class __StringHelpers___Split_d__9;
+}
+namespace UnityEngine::InputSystem::Utilities {
+class __StringHelpers___Tokenize_d__8;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -60,7 +60,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6709)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6709))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6706))
 // CS Name: ::StringHelpers::<Tokenize>d__8*
 class CORDL_TYPE __StringHelpers___Tokenize_d__8 : public ::System::Object {
@@ -95,17 +95,34 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::Substring>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::Substring>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::Substring>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::Substring>*
+  i___System__Collections__Generic__IEnumerable_1___UnityEngine__InputSystem__Utilities__Substring_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::Utilities::Substring>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::Utilities::Substring>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::Utilities::Substring>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::Utilities::Substring>*
+  i___System__Collections__Generic__IEnumerator_1___UnityEngine__InputSystem__Utilities__Substring_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -275,17 +292,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::StringW>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::StringW>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::StringW>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::StringW>* i___System__Collections__Generic__IEnumerable_1___StringW_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::StringW>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::StringW>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::StringW>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::StringW>* i___System__Collections__Generic__IEnumerator_1___StringW_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -447,14 +479,10 @@ public:
   using _Tokenize_d__8 = ::UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8;
 
   /// @brief Method Escape, addr 0x2b17a90, size 0x16c, virtual false, abstract: false, final false
-  /// @param chars: ::StringW (default: u"\n\t\r\\\"")
-  /// @param replacements: ::StringW (default: u"ntr\\\"")
-  static inline ::StringW Escape(::StringW str, ::StringW chars = u"\n\t\r\\\"", ::StringW replacements = u"ntr\\\"");
+  static inline ::StringW Escape(::StringW str, ::StringW chars, ::StringW replacements);
 
   /// @brief Method Unescape, addr 0x2b17bfc, size 0x15c, virtual false, abstract: false, final false
-  /// @param chars: ::StringW (default: u"ntr\\\"")
-  /// @param replacements: ::StringW (default: u"\n\t\r\\\"")
-  static inline ::StringW Unescape(::StringW str, ::StringW chars = u"ntr\\\"", ::StringW replacements = u"\n\t\r\\\"");
+  static inline ::StringW Unescape(::StringW str, ::StringW chars, ::StringW replacements);
 
   /// @brief Method Contains, addr 0x2b17d58, size 0x20, virtual false, abstract: false, final false
   static inline bool Contains(::StringW str, char16_t ch);
@@ -469,8 +497,7 @@ public:
   static inline ::StringW NicifyMemorySize(int64_t numBytes);
 
   /// @brief Method FromNicifiedMemorySize, addr 0x2b18070, size 0x184, virtual false, abstract: false, final false
-  /// @param defaultMultiplier: int64_t (default: static_cast<int64_t>(0x1))
-  static inline bool FromNicifiedMemorySize(::StringW text, ByRef<int64_t> result, int64_t defaultMultiplier = static_cast<int64_t>(0x1));
+  static inline bool FromNicifiedMemorySize(::StringW text, ByRef<int64_t> result, int64_t defaultMultiplier);
 
   /// @brief Method CountOccurrences, addr 0x2b14e70, size 0x70, virtual false, abstract: false, final false
   static inline int32_t CountOccurrences(::StringW str, char16_t ch);

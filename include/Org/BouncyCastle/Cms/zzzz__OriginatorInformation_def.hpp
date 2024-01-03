@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(OriginatorInformation)
-namespace Org::BouncyCastle::X509::Store {
-class IX509Store;
-}
 namespace Org::BouncyCastle::Asn1::Cms {
 class OriginatorInfo;
+}
+namespace Org::BouncyCastle::X509::Store {
+class IX509Store;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

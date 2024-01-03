@@ -12,13 +12,13 @@ namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Crypto {
+class IStreamCalculator;
+}
+namespace Org::BouncyCastle::Crypto {
 class IVerifierFactory;
 }
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Crypto {
-class IStreamCalculator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Operators {
@@ -46,6 +46,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IVerifierFactory"
   constexpr operator ::Org::BouncyCastle::Crypto::IVerifierFactory*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IVerifierFactory"
+  constexpr ::Org::BouncyCastle::Crypto::IVerifierFactory* i___Org__BouncyCastle__Crypto__IVerifierFactory() noexcept;
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_algID();
 

@@ -2,18 +2,26 @@
 #include "System/Numerics/zzzz__Register_impl.hpp"
 #include "System/Numerics/zzzz__Vector_1_impl.hpp"
 #include "System/Numerics/zzzz__Vector_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__IFormatProvider_def.hpp"
 #include "System/Numerics/zzzz__Register_def.hpp"
-#include "System/zzzz__IFormattable_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/Numerics/zzzz__Vector_1_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__IFormatProvider_def.hpp"
+#include "System/zzzz__IFormattable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 /// @brief Convert operator to "::System::IEquatable_1<::System::Numerics::Vector_1<T>>"
 template <typename T> constexpr System::Numerics::Vector_1<T>::operator ::System::IEquatable_1<::System::Numerics::Vector_1<T>>*() {
   return static_cast<::System::IEquatable_1<::System::Numerics::Vector_1<T>>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::IEquatable_1<::System::Numerics::Vector_1<T>>"
+template <typename T> constexpr ::System::IEquatable_1<::System::Numerics::Vector_1<T>>* System::Numerics::Vector_1<T>::i___System__IEquatable_1___System__Numerics__Vector_1_T__() {
+  return static_cast<::System::IEquatable_1<::System::Numerics::Vector_1<T>>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::IFormattable"
 template <typename T> constexpr System::Numerics::Vector_1<T>::operator ::System::IFormattable*() {
+  return static_cast<::System::IFormattable*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::IFormattable"
+template <typename T> constexpr ::System::IFormattable* System::Numerics::Vector_1<T>::i___System__IFormattable() {
   return static_cast<::System::IFormattable*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename T> inline void System::Numerics::Vector_1<T>::setStaticF_s_count(int32_t value) {

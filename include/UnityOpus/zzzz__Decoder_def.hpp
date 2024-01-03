@@ -13,10 +13,10 @@ namespace System {
 class IDisposable;
 }
 namespace UnityOpus {
-struct SamplingFrequency;
+struct NumChannels;
 }
 namespace UnityOpus {
-struct NumChannels;
+struct SamplingFrequency;
 }
 // Forward declare root types
 namespace UnityOpus {
@@ -49,6 +49,9 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   constexpr void*& __get_decoder();
 
   constexpr void* const& __get_decoder() const;
@@ -79,8 +82,7 @@ public:
   inline void _ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels);
 
   /// @brief Method Decode, addr 0x21f72c8, size 0xcc, virtual false, abstract: false, final false
-  /// @param decodeFec: int32_t (default: static_cast<int32_t>(0x0))
-  inline int32_t Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t dataLength, ::ArrayW<float_t, ::Array<float_t>*> pcm, int32_t decodeFec = static_cast<int32_t>(0x0));
+  inline int32_t Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t dataLength, ::ArrayW<float_t, ::Array<float_t>*> pcm, int32_t decodeFec);
 
   /// @brief Method Dispose, addr 0x21f7504, size 0x84, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);

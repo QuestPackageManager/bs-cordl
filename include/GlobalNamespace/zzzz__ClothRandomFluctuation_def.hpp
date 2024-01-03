@@ -93,7 +93,7 @@ static_assert(offsetof(::GlobalNamespace::__ClothRandomFluctuation__SineLayer, _
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4011))
 // CS Name: ::ClothRandomFluctuation*
 class CORDL_TYPE ClothRandomFluctuation : public ::UnityEngine::MonoBehaviour {
@@ -180,8 +180,7 @@ public:
   inline void FluctuateCloth(::UnityEngine::Cloth* cloth);
 
   /// @brief Method GetNoise, addr 0x22224cc, size 0x104, virtual false, abstract: false, final false
-  /// @param offset: float_t (default: 0.0)
-  inline float_t GetNoise(float_t time, float_t offset = 0.0);
+  inline float_t GetNoise(float_t time, float_t offset);
 
   static inline ::GlobalNamespace::ClothRandomFluctuation* New_ctor();
 

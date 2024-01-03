@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HashAlgorithm)
-namespace System {
-class IDisposable;
-}
 namespace System::Security::Cryptography {
 class ICryptoTransform;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {
@@ -54,8 +54,14 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Security::Cryptography::ICryptoTransform"
   constexpr operator ::System::Security::Cryptography::ICryptoTransform*() noexcept;
+
+  /// @brief Convert to "::System::Security::Cryptography::ICryptoTransform"
+  constexpr ::System::Security::Cryptography::ICryptoTransform* i___System__Security__Cryptography__ICryptoTransform() noexcept;
 
   constexpr bool& __get__disposed();
 

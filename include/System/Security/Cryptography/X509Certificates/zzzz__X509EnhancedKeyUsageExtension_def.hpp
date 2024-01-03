@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509EnhancedKeyUsageExtension)
 namespace System::Security::Cryptography {
-class OidCollection;
+struct AsnDecodeStatus;
 }
 namespace System::Security::Cryptography {
 class AsnEncodedData;
 }
 namespace System::Security::Cryptography {
-struct AsnDecodeStatus;
+class OidCollection;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {

@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Converter)
-namespace System {
-class Array;
+namespace System::Reflection {
+class Assembly;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct InternalPrimitiveTypeE;
+}
+namespace System {
+class Array;
 }
 namespace System {
 class Object;
 }
 namespace System {
 struct TypeCode;
-}
-namespace System::Reflection {
-class Assembly;
 }
 namespace System {
 class Type;

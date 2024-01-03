@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObstacleData)
 namespace GlobalNamespace {
-struct NoteLineLayer;
+class BeatmapDataItem;
 }
 namespace GlobalNamespace {
-class BeatmapDataItem;
+struct NoteLineLayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {

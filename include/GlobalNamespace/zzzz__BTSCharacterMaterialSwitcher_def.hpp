@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BTSCharacterMaterialSwitcher)
 namespace GlobalNamespace {
-class __BTSCharacterMaterialSwitcher__RendererMaterialsPairs;
+class __BTSCharacterMaterialSwitcher__MaterialPairs;
 }
 namespace GlobalNamespace {
-class __BTSCharacterMaterialSwitcher__MaterialPairs;
+class __BTSCharacterMaterialSwitcher__RendererMaterialsPairs;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine {
 class Material;
 }
 namespace UnityEngine {
 class Renderer;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

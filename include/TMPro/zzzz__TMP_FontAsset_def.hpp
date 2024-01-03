@@ -15,62 +15,62 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_FontAsset)
-namespace UnityEngine::TextCore {
-struct GlyphRect;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace TMPro {
-class TMP_FontFeatureTable;
-}
-namespace TMPro {
-struct FontAssetCreationSettings;
-}
-namespace UnityEngine::TextCore {
-class Glyph;
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine::TextCore::LowLevel {
-struct GlyphRenderMode;
-}
-namespace UnityEngine {
-class Font;
-}
-namespace TMPro {
-struct TMP_FontWeightPair;
-}
-namespace UnityEngine {
-class Texture2D;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace TMPro {
 struct AtlasPopulationMode;
 }
 namespace TMPro {
-class TMP_Character;
+class FaceInfo_Legacy;
+}
+namespace TMPro {
+struct FontAssetCreationSettings;
 }
 namespace TMPro {
 class KerningTable;
 }
 namespace TMPro {
-class FaceInfo_Legacy;
+class TMP_Character;
 }
 namespace TMPro {
-class __TMP_FontAsset____c;
+class TMP_FontFeatureTable;
 }
-namespace UnityEngine::TextCore {
-struct FaceInfo;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace TMPro {
+struct TMP_FontWeightPair;
 }
 namespace TMPro {
 class TMP_Glyph;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace TMPro {
+class __TMP_FontAsset____c;
+}
+namespace UnityEngine::TextCore::LowLevel {
+struct GlyphRenderMode;
+}
+namespace UnityEngine::TextCore {
+struct FaceInfo;
+}
+namespace UnityEngine::TextCore {
+struct GlyphRect;
+}
+namespace UnityEngine::TextCore {
+class Glyph;
+}
+namespace UnityEngine {
+class Font;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 // Forward declare root types
 namespace TMPro {
@@ -148,8 +148,8 @@ static_assert(::cordl_internals::size_check_v<::TMPro::__TMP_FontAsset____c, 0x1
 // SizeInfo { instance_size: 536, native_size: -1, calculated_instance_size: 536, calculated_native_size: 536, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15526)), TypeDefinitionIndex(TypeDefinitionIndex(12359)), TypeDefinitionIndex(TypeDefinitionIndex(15534)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(12327)), TypeDefinitionIndex(TypeDefinitionIndex(12354))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(12327)), TypeDefinitionIndex(TypeDefinitionIndex(15526)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15534)), TypeDefinitionIndex(TypeDefinitionIndex(12359)), TypeDefinitionIndex(TypeDefinitionIndex(12354))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(12356)) CS Name: ::TMPro::TMP_FontAsset*
 class CORDL_TYPE TMP_FontAsset : public ::TMPro::TMP_Asset {
 public:
@@ -874,11 +874,8 @@ public:
   static inline ::TMPro::TMP_FontAsset* CreateFontAsset(::UnityEngine::Font* font);
 
   /// @brief Method CreateFontAsset, addr 0x2c07d64, size 0x524, virtual false, abstract: false, final false
-  /// @param atlasPopulationMode: ::TMPro::AtlasPopulationMode (default: static_cast<int32_t>(0x1))
-  /// @param enableMultiAtlasSupport: bool (default: true)
   static inline ::TMPro::TMP_FontAsset* CreateFontAsset(::UnityEngine::Font* font, int32_t samplingPointSize, int32_t atlasPadding, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode,
-                                                        int32_t atlasWidth, int32_t atlasHeight, ::TMPro::AtlasPopulationMode atlasPopulationMode = static_cast<int32_t>(0x1),
-                                                        bool enableMultiAtlasSupport = true);
+                                                        int32_t atlasWidth, int32_t atlasHeight, ::TMPro::AtlasPopulationMode atlasPopulationMode, bool enableMultiAtlasSupport);
 
   /// @brief Method Awake, addr 0x2c08288, size 0x88, virtual false, abstract: false, final false
   inline void Awake();
@@ -902,8 +899,7 @@ public:
   inline void AddSynthesizedCharactersAndFaceMetrics();
 
   /// @brief Method AddSynthesizedCharacter, addr 0x2c09c4c, size 0x254, virtual false, abstract: false, final false
-  /// @param addImmediately: bool (default: false)
-  inline void AddSynthesizedCharacter(uint32_t unicode, bool isFontFaceLoaded, bool addImmediately = false);
+  inline void AddSynthesizedCharacter(uint32_t unicode, bool isFontFaceLoaded, bool addImmediately);
 
   /// @brief Method AddCharacterToLookupCache, addr 0x2c09ea0, size 0xb8, virtual false, abstract: false, final false
   inline void AddCharacterToLookupCache(uint32_t unicode, ::TMPro::TMP_Character* character);
@@ -924,22 +920,16 @@ public:
   inline bool HasCharacter(int32_t character);
 
   /// @brief Method HasCharacter, addr 0x2c0a45c, size 0x4c0, virtual false, abstract: false, final false
-  /// @param searchFallbacks: bool (default: false)
-  /// @param tryAddCharacter: bool (default: false)
-  inline bool HasCharacter(char16_t character, bool searchFallbacks = false, bool tryAddCharacter = false);
+  inline bool HasCharacter(char16_t character, bool searchFallbacks, bool tryAddCharacter);
 
   /// @brief Method HasCharacter_Internal, addr 0x2c0b254, size 0x21c, virtual false, abstract: false, final false
-  /// @param searchFallbacks: bool (default: false)
-  /// @param tryAddCharacter: bool (default: false)
-  inline bool HasCharacter_Internal(uint32_t character, bool searchFallbacks = false, bool tryAddCharacter = false);
+  inline bool HasCharacter_Internal(uint32_t character, bool searchFallbacks, bool tryAddCharacter);
 
   /// @brief Method HasCharacters, addr 0x2c0b470, size 0x1a8, virtual false, abstract: false, final false
   inline bool HasCharacters(::StringW text, ByRef<::System::Collections::Generic::List_1<char16_t>*> missingCharacters);
 
   /// @brief Method HasCharacters, addr 0x2c0b618, size 0x5f8, virtual false, abstract: false, final false
-  /// @param searchFallbacks: bool (default: false)
-  /// @param tryAddCharacter: bool (default: false)
-  inline bool HasCharacters(::StringW text, ByRef<::ArrayW<uint32_t, ::Array<uint32_t>*>> missingCharacters, bool searchFallbacks = false, bool tryAddCharacter = false);
+  inline bool HasCharacters(::StringW text, ByRef<::ArrayW<uint32_t, ::Array<uint32_t>*>> missingCharacters, bool searchFallbacks, bool tryAddCharacter);
 
   /// @brief Method HasCharacters, addr 0x2c0bc10, size 0xb4, virtual false, abstract: false, final false
   inline bool HasCharacters(::StringW text);
@@ -966,20 +956,16 @@ public:
   static inline void UpdateAtlasTexturesForFontAssetsInQueue();
 
   /// @brief Method TryAddCharacters, addr 0x2c0c810, size 0x20, virtual false, abstract: false, final false
-  /// @param includeFontFeatures: bool (default: false)
-  inline bool TryAddCharacters(::ArrayW<uint32_t, ::Array<uint32_t>*> unicodes, bool includeFontFeatures = false);
+  inline bool TryAddCharacters(::ArrayW<uint32_t, ::Array<uint32_t>*> unicodes, bool includeFontFeatures);
 
   /// @brief Method TryAddCharacters, addr 0x2c0c830, size 0xc30, virtual false, abstract: false, final false
-  /// @param includeFontFeatures: bool (default: false)
-  inline bool TryAddCharacters(::ArrayW<uint32_t, ::Array<uint32_t>*> unicodes, ByRef<::ArrayW<uint32_t, ::Array<uint32_t>*>> missingUnicodes, bool includeFontFeatures = false);
+  inline bool TryAddCharacters(::ArrayW<uint32_t, ::Array<uint32_t>*> unicodes, ByRef<::ArrayW<uint32_t, ::Array<uint32_t>*>> missingUnicodes, bool includeFontFeatures);
 
   /// @brief Method TryAddCharacters, addr 0x2c0d8ec, size 0x20, virtual false, abstract: false, final false
-  /// @param includeFontFeatures: bool (default: false)
-  inline bool TryAddCharacters(::StringW characters, bool includeFontFeatures = false);
+  inline bool TryAddCharacters(::StringW characters, bool includeFontFeatures);
 
   /// @brief Method TryAddCharacters, addr 0x2c0d90c, size 0xbec, virtual false, abstract: false, final false
-  /// @param includeFontFeatures: bool (default: false)
-  inline bool TryAddCharacters(::StringW characters, ByRef<::StringW> missingCharacters, bool includeFontFeatures = false);
+  inline bool TryAddCharacters(::StringW characters, ByRef<::StringW> missingCharacters, bool includeFontFeatures);
 
   /// @brief Method TryAddCharacterInternal, addr 0x2c0a91c, size 0x938, virtual false, abstract: false, final false
   inline bool TryAddCharacterInternal(uint32_t unicode, ByRef<::TMPro::TMP_Character*> character);
@@ -1015,8 +1001,7 @@ public:
   template <typename T> inline void CopyListDataToArray(::System::Collections::Generic::List_1<T>* srcList, ByRef<::ArrayW<T, ::Array<T>*>> dstArray);
 
   /// @brief Method ClearFontAssetData, addr 0x2c0f2cc, size 0x30, virtual false, abstract: false, final false
-  /// @param setAtlasSizeToZero: bool (default: false)
-  inline void ClearFontAssetData(bool setAtlasSizeToZero = false);
+  inline void ClearFontAssetData(bool setAtlasSizeToZero);
 
   /// @brief Method ClearFontAssetDataInternal, addr 0x2c0f8d4, size 0x1c, virtual false, abstract: false, final false
   inline void ClearFontAssetDataInternal();
@@ -1028,8 +1013,7 @@ public:
   inline void ClearFontAssetTables();
 
   /// @brief Method ClearAtlasTextures, addr 0x2c0f510, size 0x3c4, virtual false, abstract: false, final false
-  /// @param setAtlasSizeToZero: bool (default: false)
-  inline void ClearAtlasTextures(bool setAtlasSizeToZero = false);
+  inline void ClearAtlasTextures(bool setAtlasSizeToZero);
 
   /// @brief Method UpgradeFontAsset, addr 0x2c08310, size 0xc54, virtual false, abstract: false, final false
   inline void UpgradeFontAsset();

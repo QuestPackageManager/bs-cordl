@@ -10,19 +10,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HydraulicCarJumpEffect)
 namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
-}
-namespace GlobalNamespace {
 class BasicBeatmapEventData;
-}
-namespace UnityEngine {
-class Rigidbody;
 }
 namespace GlobalNamespace {
 class BeatmapCallbacksController;
 }
+namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
+}
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
+}
+namespace UnityEngine {
+class Rigidbody;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::GlobalNamespace::HydraulicCarJumpEffect);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4000))
 // CS Name: ::HydraulicCarJumpEffect*
 class CORDL_TYPE HydraulicCarJumpEffect : public ::UnityEngine::MonoBehaviour {

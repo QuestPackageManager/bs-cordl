@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__TypeNames_def.hpp"
-#include "System/zzzz__TypeNames_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__TypeName_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__TypeNames_def.hpp"
 //  Writing Method size for method: ::System::__TypeNames__ATypeName.get_DisplayName
 template <>
 
@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__TypeNames__ATypeName*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__TypeNames__ATypeName*>::get(), 6));
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xd0;
   constexpr static std::size_t addrs = 0x2606728;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__TypeNames__ATypeName*>::get(), "Equals", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::TypeName*>::get() })));
@@ -40,7 +40,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x26067f8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__TypeNames__ATypeName*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__TypeNames__ATypeName*>::get(), 2));
@@ -54,7 +54,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0x2606820;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__TypeNames__ATypeName*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__TypeNames__ATypeName*>::get(), 0));
@@ -68,7 +68,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x2606880;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__TypeNames__ATypeName*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -78,8 +78,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 constexpr System::__TypeNames__ATypeName::operator ::System::TypeName*() noexcept {
   return static_cast<::System::TypeName*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::TypeName"
+constexpr ::System::TypeName* System::__TypeNames__ATypeName::i___System__TypeName() noexcept {
+  return static_cast<::System::TypeName*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::IEquatable_1<::System::TypeName*>"
 constexpr System::__TypeNames__ATypeName::operator ::System::IEquatable_1<::System::TypeName*>*() noexcept {
+  return static_cast<::System::IEquatable_1<::System::TypeName*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IEquatable_1<::System::TypeName*>"
+constexpr ::System::IEquatable_1<::System::TypeName*>* System::__TypeNames__ATypeName::i___System__IEquatable_1___System__TypeName__() noexcept {
   return static_cast<::System::IEquatable_1<::System::TypeName*>*>(static_cast<void*>(this));
 }
 inline ::StringW System::__TypeNames__ATypeName::get_DisplayName() {

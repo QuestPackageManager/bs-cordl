@@ -58,8 +58,7 @@ public:
   static inline ::GlobalNamespace::PathsHolder* New_ctor(int32_t numberOfFixedVertexPathSegments, bool updateVertexPath);
 
   /// @brief Method .ctor, addr 0x230be68, size 0x124, virtual false, abstract: false, final false
-  /// @param updateVertexPath: bool (default: true)
-  inline void _ctor(int32_t numberOfFixedVertexPathSegments, bool updateVertexPath = true);
+  inline void _ctor(int32_t numberOfFixedVertexPathSegments, bool updateVertexPath);
 
   /// @brief Method UpdateVertexPathByBezierPath, addr 0x230c4dc, size 0x20, virtual false, abstract: false, final false
   inline void UpdateVertexPathByBezierPath();

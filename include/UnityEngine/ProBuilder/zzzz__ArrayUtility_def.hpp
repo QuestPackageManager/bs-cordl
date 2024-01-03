@@ -10,31 +10,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArrayUtility)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::ProBuilder {
-template <typename TSource, typename TKey> class __ArrayUtility____c__DisplayClass21_0_2;
-}
-namespace UnityEngine::ProBuilder {
-struct __ArrayUtility__SearchRange;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template <typename T> class HashSet_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace UnityEngine::ProBuilder {
-template <typename T> class __ArrayUtility____c__23_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+namespace UnityEngine::ProBuilder {
+struct __ArrayUtility__SearchRange;
+}
+namespace UnityEngine::ProBuilder {
+template <typename T> class __ArrayUtility____c__23_1;
+}
+namespace UnityEngine::ProBuilder {
+template <typename TSource, typename TKey> class __ArrayUtility____c__DisplayClass21_0_2;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -302,8 +302,7 @@ public:
   template <typename TKey, typename TValue> static inline ::StringW ToString(::System::Collections::Generic::Dictionary_2<TKey, TValue>* dict);
 
   /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param separator: ::StringW (default: u", ")
-  template <typename T> static inline ::StringW ToString(::System::Collections::Generic::IEnumerable_1<T>* arr, ::StringW separator = u", ");
+  template <typename T> static inline ::StringW ToString(::System::Collections::Generic::IEnumerable_1<T>* arr, ::StringW separator);
 
   // Ctor Parameters [CppParam { name: "", ty: "ArrayUtility", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

@@ -10,7 +10,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23050dc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentCommandLineArgsProvider*>::get(),
                                                                                "GetCommandLineArgs", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -24,7 +24,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2305164;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentCommandLineArgsProvider*>::get(),
                                                                                ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -32,6 +32,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::GlobalNamespace::ICommandLineArgsProvider"
 constexpr GlobalNamespace::EnvironmentCommandLineArgsProvider::operator ::GlobalNamespace::ICommandLineArgsProvider*() noexcept {
+  return static_cast<::GlobalNamespace::ICommandLineArgsProvider*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::ICommandLineArgsProvider"
+constexpr ::GlobalNamespace::ICommandLineArgsProvider* GlobalNamespace::EnvironmentCommandLineArgsProvider::i___GlobalNamespace__ICommandLineArgsProvider() noexcept {
   return static_cast<::GlobalNamespace::ICommandLineArgsProvider*>(static_cast<void*>(this));
 }
 inline ::ArrayW<::StringW, ::Array<::StringW>*> GlobalNamespace::EnvironmentCommandLineArgsProvider::GetCommandLineArgs() {

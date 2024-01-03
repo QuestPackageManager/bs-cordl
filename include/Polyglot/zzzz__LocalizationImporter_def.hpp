@@ -7,40 +7,40 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(LocalizationImporter)
 namespace Polyglot {
-class LocalizationAsset;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace Polyglot {
-class Localization;
-}
-namespace Polyglot {
 struct GoogleDriveDownloadFormat;
-}
-namespace Polyglot {
-class __LocalizationImporter____c__DisplayClass5_0;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace Polyglot {
-class LocalizationDocument;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
 }
 namespace Polyglot {
 struct Language;
 }
 namespace Polyglot {
+class LocalizationAsset;
+}
+namespace Polyglot {
+class LocalizationDocument;
+}
+namespace Polyglot {
+class Localization;
+}
+namespace Polyglot {
+class __LocalizationImporter____c__DisplayClass5_0;
+}
+namespace Polyglot {
 class __LocalizationImporter____c__DisplayClass8_0;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace Polyglot {
@@ -206,12 +206,10 @@ public:
   static inline void Import(::StringW text, ::Polyglot::GoogleDriveDownloadFormat format);
 
   /// @brief Method Download, addr 0x28045cc, size 0x28, virtual false, abstract: false, final false
-  /// @param progressbar: ::System::Func_2<float_t,bool>* (default: nullptr)
-  static inline ::System::Collections::IEnumerator* Download(::Polyglot::LocalizationDocument* document, ::System::Action_1<::StringW>* done, ::System::Func_2<float_t, bool>* progressbar = nullptr);
+  static inline ::System::Collections::IEnumerator* Download(::Polyglot::LocalizationDocument* document, ::System::Action_1<::StringW>* done, ::System::Func_2<float_t, bool>* progressbar);
 
   /// @brief Method DownloadCustomSheet, addr 0x2804cf8, size 0x184, virtual false, abstract: false, final false
-  /// @param progressbar: ::System::Func_2<float_t,bool>* (default: nullptr)
-  static inline ::System::Collections::IEnumerator* DownloadCustomSheet(::System::Func_2<float_t, bool>* progressbar = nullptr);
+  static inline ::System::Collections::IEnumerator* DownloadCustomSheet(::System::Func_2<float_t, bool>* progressbar);
 
   /// @brief Method ImportFromFiles, addr 0x28043f8, size 0xc8, virtual false, abstract: false, final false
   static inline void ImportFromFiles(::Polyglot::Localization* settings);
@@ -226,8 +224,7 @@ public:
   static inline bool IsLineBreak(::StringW currentString);
 
   /// @brief Method GetLanguages, addr 0x28032d8, size 0x310, virtual false, abstract: false, final false
-  /// @param supportedLanguages: ::System::Collections::Generic::List_1<::Polyglot::Language>* (default: nullptr)
-  static inline ::System::Collections::Generic::List_1<::StringW>* GetLanguages(::StringW key, ::System::Collections::Generic::List_1<::Polyglot::Language>* supportedLanguages = nullptr);
+  static inline ::System::Collections::Generic::List_1<::StringW>* GetLanguages(::StringW key, ::System::Collections::Generic::List_1<::Polyglot::Language>* supportedLanguages);
 
   /// @brief Method GetLanguagesStartsWith, addr 0x280509c, size 0x2e0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::StringW>*>* GetLanguagesStartsWith(::StringW key);

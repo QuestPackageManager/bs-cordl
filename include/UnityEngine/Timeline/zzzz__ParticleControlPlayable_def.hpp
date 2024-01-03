@@ -6,8 +6,8 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ParticleControlPlayable)
-namespace UnityEngine {
-class ParticleSystem;
+namespace UnityEngine::Playables {
+struct FrameData;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
@@ -18,8 +18,8 @@ struct Playable;
 namespace UnityEngine::Playables {
 template <typename T> struct ScriptPlayable_1;
 }
-namespace UnityEngine::Playables {
-struct FrameData;
+namespace UnityEngine {
+class ParticleSystem;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

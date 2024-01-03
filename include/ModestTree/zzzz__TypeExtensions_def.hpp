@@ -7,67 +7,67 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TypeExtensions)
 namespace ModestTree {
-class __TypeExtensions____c__DisplayClass35_0;
-}
-namespace System::Reflection {
-class PropertyInfo;
-}
-namespace System::Reflection {
-class ParameterInfo;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System {
-class Attribute;
-}
-namespace ModestTree {
 class __TypeExtensions___GetParentTypes_d__28;
 }
 namespace ModestTree {
-class __TypeExtensions____c__DisplayClass39_0;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Reflection {
-class FieldInfo;
-}
-namespace System::Reflection {
-class ConstructorInfo;
+class __TypeExtensions____c__DisplayClass35_0;
 }
 namespace ModestTree {
 class __TypeExtensions____c__DisplayClass35_1;
 }
-namespace System {
-class Type;
-}
-namespace System::Reflection {
-class MemberInfo;
+namespace ModestTree {
+class __TypeExtensions____c__DisplayClass39_0;
 }
 namespace ModestTree {
 class __TypeExtensions____c__DisplayClass39_1;
 }
-namespace System::Reflection {
-class MethodInfo;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace System {
-class Delegate;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
+}
+namespace System::Reflection {
+class ConstructorInfo;
+}
+namespace System::Reflection {
+class FieldInfo;
+}
+namespace System::Reflection {
+class MemberInfo;
+}
+namespace System::Reflection {
+class MethodInfo;
+}
+namespace System::Reflection {
+class ParameterInfo;
+}
+namespace System::Reflection {
+class PropertyInfo;
+}
+namespace System {
+class Attribute;
+}
+namespace System {
+class Delegate;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace ModestTree {
@@ -130,17 +130,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Type*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::System::Type*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Type*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::System::Type*>* i___System__Collections__Generic__IEnumerable_1___System__Type__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Type*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Type*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Type*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Type*>* i___System__Collections__Generic__IEnumerator_1___System__Type__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

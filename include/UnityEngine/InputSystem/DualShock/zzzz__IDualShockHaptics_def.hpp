@@ -3,14 +3,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IDualShockHaptics)
-namespace UnityEngine {
-struct Color;
+namespace UnityEngine::InputSystem::Haptics {
+class IDualMotorRumble;
 }
 namespace UnityEngine::InputSystem::Haptics {
 class IHaptics;
 }
-namespace UnityEngine::InputSystem::Haptics {
-class IDualMotorRumble;
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::DualShock {
@@ -31,8 +31,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::Haptics::IDualMotorRumble"
   constexpr operator ::UnityEngine::InputSystem::Haptics::IDualMotorRumble*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::InputSystem::Haptics::IDualMotorRumble"
+  constexpr ::UnityEngine::InputSystem::Haptics::IDualMotorRumble* i___UnityEngine__InputSystem__Haptics__IDualMotorRumble() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::InputSystem::Haptics::IHaptics"
   constexpr operator ::UnityEngine::InputSystem::Haptics::IHaptics*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::InputSystem::Haptics::IHaptics"
+  constexpr ::UnityEngine::InputSystem::Haptics::IHaptics* i___UnityEngine__InputSystem__Haptics__IHaptics() noexcept;
 
   /// @brief Method SetLightBarColor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetLightBarColor(::UnityEngine::Color color);

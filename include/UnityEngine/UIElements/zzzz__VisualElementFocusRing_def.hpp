@@ -8,32 +8,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(VisualElementFocusRing)
-namespace UnityEngine::UIElements {
-class FocusChangeDirection;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-class IFocusRing;
-}
-namespace UnityEngine::UIElements {
-class Focusable;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace UnityEngine::UIElements {
-class __VisualElementFocusRing__FocusRingRecord;
-}
-namespace UnityEngine::UIElements {
-class FocusController;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
+class FocusChangeDirection;
+}
+namespace UnityEngine::UIElements {
+class FocusController;
+}
+namespace UnityEngine::UIElements {
+class Focusable;
+}
+namespace UnityEngine::UIElements {
+class IFocusRing;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
 struct __VisualElementFocusRing__DefaultFocusOrder;
+}
+namespace UnityEngine::UIElements {
+class __VisualElementFocusRing__FocusRingRecord;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -227,6 +227,9 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IFocusRing"
   constexpr operator ::UnityEngine::UIElements::IFocusRing*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::UIElements::IFocusRing"
+  constexpr ::UnityEngine::UIElements::IFocusRing* i___UnityEngine__UIElements__IFocusRing() noexcept;
+
   constexpr ::UnityEngine::UIElements::VisualElement*& __get_root();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_root() const;
@@ -248,8 +251,7 @@ public:
   static inline ::UnityEngine::UIElements::VisualElementFocusRing* New_ctor(::UnityEngine::UIElements::VisualElement* root, ::UnityEngine::UIElements::__VisualElementFocusRing__DefaultFocusOrder dfo);
 
   /// @brief Method .ctor, addr 0x2dbb6cc, size 0x98, virtual false, abstract: false, final false
-  /// @param dfo: ::UnityEngine::UIElements::__VisualElementFocusRing__DefaultFocusOrder (default: static_cast<int32_t>(0x0))
-  inline void _ctor(::UnityEngine::UIElements::VisualElement* root, ::UnityEngine::UIElements::__VisualElementFocusRing__DefaultFocusOrder dfo = static_cast<int32_t>(0x0));
+  inline void _ctor(::UnityEngine::UIElements::VisualElement* root, ::UnityEngine::UIElements::__VisualElementFocusRing__DefaultFocusOrder dfo);
 
   /// @brief Method get_focusController, addr 0x2dbb764, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::FocusController* get_focusController();

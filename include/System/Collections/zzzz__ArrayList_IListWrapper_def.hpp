@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArrayList_IListWrapper)
 namespace System::Collections {
-class IEnumerator;
+class ICollection;
 }
 namespace System::Collections {
 class IComparer;
 }
 namespace System::Collections {
-class ICollection;
-}
-namespace System {
-class Array;
+class IEnumerator;
 }
 namespace System::Collections {
 class IList;
+}
+namespace System {
+class Array;
 }
 namespace System {
 class Object;

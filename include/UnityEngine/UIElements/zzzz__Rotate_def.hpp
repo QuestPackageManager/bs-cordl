@@ -9,16 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Rotate)
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
-namespace UnityEngine {
-struct Quaternion;
+namespace System {
+class Object;
 }
 namespace UnityEngine::UIElements {
 struct Angle;
 }
-namespace System {
-template <typename T> class IEquatable_1;
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -43,6 +43,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Rotate>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Rotate>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Rotate>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Rotate>* i___System__IEquatable_1___UnityEngine__UIElements__Rotate_();
 
   /// @brief Method .ctor, addr 0x2e702a4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Angle angle);

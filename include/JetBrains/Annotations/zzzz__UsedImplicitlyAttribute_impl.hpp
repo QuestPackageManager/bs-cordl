@@ -3,8 +3,8 @@
 #include "JetBrains/Annotations/zzzz__ImplicitUseTargetFlags_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__UsedImplicitlyAttribute_def.hpp"
-#include "JetBrains/Annotations/zzzz__ImplicitUseTargetFlags_def.hpp"
 #include "JetBrains/Annotations/zzzz__ImplicitUseKindFlags_def.hpp"
+#include "JetBrains/Annotations/zzzz__ImplicitUseTargetFlags_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::UsedImplicitlyAttribute._ctor
 template <>
 
@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x2c9e630;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::UsedImplicitlyAttribute*>::get(),
                                                                                ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x2c9e654;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::UsedImplicitlyAttribute*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::JetBrains::Annotations::ImplicitUseKindFlags>::get(),

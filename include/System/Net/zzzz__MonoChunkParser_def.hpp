@@ -10,17 +10,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MonoChunkParser)
-namespace System::Net {
-struct __MonoChunkParser__State;
-}
-namespace System::Net {
-class __MonoChunkParser__Chunk;
-}
 namespace System::Collections {
 class ArrayList;
 }
 namespace System::Net {
 class WebHeaderCollection;
+}
+namespace System::Net {
+class __MonoChunkParser__Chunk;
+}
+namespace System::Net {
+struct __MonoChunkParser__State;
 }
 namespace System::Text {
 class StringBuilder;
@@ -171,7 +171,7 @@ static_assert(offsetof(::System::Net::__MonoChunkParser__Chunk, ___Offset) == 0x
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9191))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9191)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9193))
 // CS Name: ::System.Net::MonoChunkParser*
 class CORDL_TYPE MonoChunkParser : public ::System::Object {

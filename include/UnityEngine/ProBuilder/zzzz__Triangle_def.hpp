@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(Triangle)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace UnityEngine::ProBuilder {
-struct Edge;
-}
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
+}
+namespace UnityEngine::ProBuilder {
+struct Edge;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -43,6 +43,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::ProBuilder::Triangle>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::ProBuilder::Triangle>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ProBuilder::Triangle>"
+  constexpr ::System::IEquatable_1<::UnityEngine::ProBuilder::Triangle>* i___System__IEquatable_1___UnityEngine__ProBuilder__Triangle_();
 
   /// @brief Method get_a, addr 0x2b7c9a8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_a();

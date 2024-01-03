@@ -7,32 +7,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CrossAppDomainSink)
-namespace System::Runtime::Remoting::Messaging {
-class CADMethodCallMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
-namespace System {
-class Object;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
-}
-namespace System::Runtime::Remoting::Channels {
-struct __CrossAppDomainSink__ProcessMessageRes;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessageCtrl;
-}
 namespace System::Collections {
 class Hashtable;
 }
 namespace System::Reflection {
 class MethodInfo;
 }
+namespace System::Runtime::Remoting::Channels {
+struct __CrossAppDomainSink__ProcessMessageRes;
+}
+namespace System::Runtime::Remoting::Messaging {
+class CADMethodCallMessage;
+}
 namespace System::Runtime::Remoting::Messaging {
 class CADMethodReturnMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessageCtrl;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessageSink;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Channels {
@@ -106,6 +106,9 @@ public:
 
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"
+  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* i___System__Runtime__Remoting__Messaging__IMessageSink() noexcept;
 
   constexpr int32_t& __get__domainID();
 

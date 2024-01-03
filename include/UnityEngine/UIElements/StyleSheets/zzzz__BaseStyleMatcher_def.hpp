@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseStyleMatcher)
-namespace UnityEngine::UIElements::StyleSheets::Syntax {
-class Expression;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct __BaseStyleMatcher__MatchContext;
-}
 namespace System::Collections::Generic {
 template <typename T> class Stack_1;
 }
 namespace System::Text::RegularExpressions {
 class Regex;
+}
+namespace UnityEngine::UIElements::StyleSheets::Syntax {
+class Expression;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct __BaseStyleMatcher__MatchContext;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {
@@ -70,7 +70,7 @@ static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::__BaseStyleMatche
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7482))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7482)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7483))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::BaseStyleMatcher*
 class CORDL_TYPE BaseStyleMatcher : public ::System::Object {

@@ -6,20 +6,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScriptPlayable_1)
-namespace UnityEngine::Playables {
-struct PlayableHandle;
-}
-namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
 namespace System {
 class ICloneable;
-}
-namespace UnityEngine::Playables {
-struct Playable;
-}
-namespace UnityEngine::Playables {
-class IPlayable;
 }
 namespace System {
 template <typename T> class IEquatable_1;
@@ -29,6 +17,18 @@ class Object;
 }
 namespace UnityEngine::Playables {
 class IPlayableBehaviour;
+}
+namespace UnityEngine::Playables {
+class IPlayable;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
+namespace UnityEngine::Playables {
+struct PlayableHandle;
+}
+namespace UnityEngine::Playables {
+struct Playable;
 }
 namespace UnityEngine {
 class Object;
@@ -56,8 +56,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
+  /// @brief Convert to "::UnityEngine::Playables::IPlayable"
+  constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Playables::ScriptPlayable_1<T>>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Playables::ScriptPlayable_1<T>>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Playables::ScriptPlayable_1<T>>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Playables::ScriptPlayable_1<T>>* i___System__IEquatable_1___UnityEngine__Playables__ScriptPlayable_1_T__();
 
   static inline void setStaticF_m_NullPlayable(::UnityEngine::Playables::ScriptPlayable_1<T> value);
 
@@ -67,12 +73,10 @@ public:
   static inline ::UnityEngine::Playables::ScriptPlayable_1<T> get_Null();
 
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param inputCount: int32_t (default: static_cast<int32_t>(0x0))
-  static inline ::UnityEngine::Playables::ScriptPlayable_1<T> Create(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount = static_cast<int32_t>(0x0));
+  static inline ::UnityEngine::Playables::ScriptPlayable_1<T> Create(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount);
 
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param inputCount: int32_t (default: static_cast<int32_t>(0x0))
-  static inline ::UnityEngine::Playables::ScriptPlayable_1<T> Create(::UnityEngine::Playables::PlayableGraph graph, T _cordl_template, int32_t inputCount = static_cast<int32_t>(0x0));
+  static inline ::UnityEngine::Playables::ScriptPlayable_1<T> Create(::UnityEngine::Playables::PlayableGraph graph, T _cordl_template, int32_t inputCount);
 
   /// @brief Method CreateHandle, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableHandle CreateHandle(::UnityEngine::Playables::PlayableGraph graph, T _cordl_template, int32_t inputCount);

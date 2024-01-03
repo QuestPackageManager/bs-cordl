@@ -13,42 +13,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(WebOperation)
-namespace System::Net {
-struct __WebOperation___GetRequestStream_d__50;
-}
-namespace System::Net {
-struct __WebOperation___Run_d__58;
-}
-namespace System::Net {
-class HttpWebRequest;
-}
-namespace System::Net {
-class WebResponseStream;
-}
-namespace System::Runtime::ExceptionServices {
-class ExceptionDispatchInfo;
-}
-namespace System::Net {
-class WebRequestStream;
-}
-namespace System::Net {
-template <typename T> class WebCompletionSource_1;
-}
-namespace System::Net {
-class WebConnection;
-}
-namespace System::Threading {
-class CancellationTokenSource;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System {
-class Exception;
-}
 namespace System::IO {
 class Stream;
 }
@@ -56,13 +20,34 @@ namespace System::Net {
 class BufferOffsetSize;
 }
 namespace System::Net {
+class HttpWebRequest;
+}
+namespace System::Net {
 class ServicePoint;
 }
-namespace System {
-template <typename T1, typename T2> struct ValueTuple_2;
+namespace System::Net {
+template <typename T> class WebCompletionSource_1;
+}
+namespace System::Net {
+class WebConnection;
+}
+namespace System::Net {
+class WebRequestStream;
+}
+namespace System::Net {
+class WebResponseStream;
+}
+namespace System::Net {
+struct __WebOperation___GetRequestStream_d__50;
+}
+namespace System::Net {
+struct __WebOperation___Run_d__58;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -73,8 +58,23 @@ template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAw
 namespace System::Runtime::CompilerServices {
 struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
-namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+namespace System::Runtime::ExceptionServices {
+class ExceptionDispatchInfo;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
+class Exception;
+}
+namespace System {
+template <typename T1, typename T2> struct ValueTuple_2;
 }
 // Forward declare root types
 namespace System::Net {
@@ -94,14 +94,17 @@ MARK_VAL_T(::System::Net::__WebOperation___Run_d__58);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 901 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3402), inst: 899 }), TypeDefinitionIndex(TypeDefinitionIndex(3619)), TypeDefinitionIndex(TypeDefinitionIndex(9238)), TypeDefinitionIndex(TypeDefinitionIndex(3397))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 901 }), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(3402), inst: 899 }), TypeDefinitionIndex(TypeDefinitionIndex(3619)), TypeDefinitionIndex(TypeDefinitionIndex(9238)), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(9225)) CS Name: ::WebOperation::<GetRequestStream>d__50
 struct CORDL_TYPE __WebOperation___GetRequestStream_d__50 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x29e2b60, size 0x21c, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -154,14 +157,16 @@ static_assert(offsetof(::System::Net::__WebOperation___GetRequestStream_d__50, _
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9238)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 901 }), TypeDefinitionIndex(TypeDefinitionIndex(3395))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9226)) CS
-// Name: ::WebOperation::<Run>d__58
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 901
+// }), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(9238))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9226)) CS Name: ::WebOperation::<Run>d__58
 struct CORDL_TYPE __WebOperation___Run_d__58 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x29e2dd4, size 0x58c, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -503,12 +508,10 @@ public:
   inline void Run();
 
   /// @brief Method CompleteRequestWritten, addr 0x29e2abc, size 0x80, virtual false, abstract: false, final false
-  /// @param error: ::System::Exception* (default: nullptr)
-  inline void CompleteRequestWritten(::System::Net::WebRequestStream* stream, ::System::Exception* error = nullptr);
+  inline void CompleteRequestWritten(::System::Net::WebRequestStream* stream, ::System::Exception* error);
 
   /// @brief Method Finish, addr 0x29e2394, size 0x244, virtual false, abstract: false, final false
-  /// @param error: ::System::Exception* (default: nullptr)
-  inline void Finish(bool ok, ::System::Exception* error = nullptr);
+  inline void Finish(bool ok, ::System::Exception* error);
 
   /// @brief Method <RegisterRequest>b__48_0, addr 0x29e2b3c, size 0x24, virtual false, abstract: false, final false
   inline void _RegisterRequest_b__48_0();

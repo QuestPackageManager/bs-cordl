@@ -6,8 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(AnimationMotionXToDeltaPlayable)
-namespace UnityEngine::Playables {
-struct Playable;
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::Playables {
 class IPlayable;
@@ -15,11 +15,11 @@ class IPlayable;
 namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace UnityEngine::Playables {
 struct PlayableHandle;
+}
+namespace UnityEngine::Playables {
+struct Playable;
 }
 // Forward declare root types
 namespace UnityEngine::Animations {
@@ -43,8 +43,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
+  /// @brief Convert to "::UnityEngine::Playables::IPlayable"
+  constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Animations::AnimationMotionXToDeltaPlayable>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Animations::AnimationMotionXToDeltaPlayable>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Animations::AnimationMotionXToDeltaPlayable>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Animations::AnimationMotionXToDeltaPlayable>* i___System__IEquatable_1___UnityEngine__Animations__AnimationMotionXToDeltaPlayable_();
 
   static inline void setStaticF_m_NullPlayable(::UnityEngine::Animations::AnimationMotionXToDeltaPlayable value);
 

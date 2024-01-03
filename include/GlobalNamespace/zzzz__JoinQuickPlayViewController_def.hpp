@@ -5,25 +5,25 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 CORDL_MODULE_EXPORT(JoinQuickPlayViewController)
 namespace GlobalNamespace {
-class MultiplayerModeSettings;
-}
-namespace UnityEngine::UI {
-class Toggle;
-}
-namespace GlobalNamespace {
-class QuickPlaySongPacksDropdown;
-}
-namespace GlobalNamespace {
 class BeatmapDifficultyDropdown;
 }
-namespace UnityEngine::UI {
-class Button;
+namespace GlobalNamespace {
+class MultiplayerModeSettings;
 }
 namespace GlobalNamespace {
 class QuickPlaySetupData;
 }
+namespace GlobalNamespace {
+class QuickPlaySongPacksDropdown;
+}
 namespace System {
 template <typename T> class Action_1;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace UnityEngine::UI {
+class Toggle;
 }
 // Forward declare root types
 namespace GlobalNamespace {

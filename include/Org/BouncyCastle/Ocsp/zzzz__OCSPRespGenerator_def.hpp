@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OCSPRespGenerator)
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Ocsp {
 class OcspResp;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Ocsp {

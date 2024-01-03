@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/zzzz__HashtableExtensions_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 template <typename T> inline bool System::Collections::HashtableExtensions::TryGetValue(::System::Collections::Hashtable* table, ::System::Object* key, ByRef<T> value) {
   static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::HashtableExtensions*>::get(), "TryGetValue",

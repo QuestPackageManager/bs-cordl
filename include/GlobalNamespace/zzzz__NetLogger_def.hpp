@@ -34,6 +34,9 @@ public:
   /// @brief Convert operator to "::LiteNetLib::INetLogger"
   constexpr operator ::LiteNetLib::INetLogger*() noexcept;
 
+  /// @brief Convert to "::LiteNetLib::INetLogger"
+  constexpr ::LiteNetLib::INetLogger* i___LiteNetLib__INetLogger() noexcept;
+
   /// @brief Method WriteNet, addr 0xe4cea8, size 0x174, virtual true, abstract: false, final true
   inline void WriteNet(::LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 

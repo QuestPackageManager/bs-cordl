@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ExtenderProvidedPropertyAttribute)
 namespace System::ComponentModel {
-class PropertyDescriptor;
+class IExtenderProvider;
 }
 namespace System::ComponentModel {
-class IExtenderProvider;
+class PropertyDescriptor;
 }
 namespace System {
 class Object;

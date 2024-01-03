@@ -13,65 +13,65 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputActionTrace)
-namespace UnityEngine::InputSystem {
-class InputActionMap;
-}
-namespace UnityEngine::InputSystem {
-struct __InputAction__CallbackContext;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventBuffer;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace UnityEngine::InputSystem {
-struct InputActionChange;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct __InputActionTrace__ActionEventPtr;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
-class Object;
+template <typename T> class Action_1;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct ActionEvent;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventBuffer;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct __InputActionTrace__ActionEventPtr;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct __InputActionTrace__Enumerator;
 }
 namespace UnityEngine::InputSystem {
-class InputAction;
+class IInputInteraction;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace UnityEngine::InputSystem {
+struct InputActionChange;
 }
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct ActionEvent;
+namespace UnityEngine::InputSystem {
+class InputActionMap;
 }
 namespace UnityEngine::InputSystem {
 struct InputActionPhase;
 }
 namespace UnityEngine::InputSystem {
+class InputActionState;
+}
+namespace UnityEngine::InputSystem {
+class InputAction;
+}
+namespace UnityEngine::InputSystem {
 class InputControl;
 }
 namespace UnityEngine::InputSystem {
-class IInputInteraction;
-}
-namespace UnityEngine::InputSystem {
-class InputActionState;
+struct __InputAction__CallbackContext;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -193,11 +193,21 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::Utilities::__InputActionTrace__ActionEventPtr>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::Utilities::__InputActionTrace__ActionEventPtr>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::Utilities::__InputActionTrace__ActionEventPtr>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::Utilities::__InputActionTrace__ActionEventPtr>*
+  i___System__Collections__Generic__IEnumerator_1___UnityEngine__InputSystem__Utilities____InputActionTrace__ActionEventPtr_();
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*();
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator();
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   /// @brief Method .ctor, addr 0x2b0e7e8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::Utilities::InputActionTrace* trace);
@@ -266,10 +276,10 @@ static_assert(offsetof(::UnityEngine::InputSystem::Utilities::__InputActionTrace
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6669)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3867 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(6669), inst: 3103 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3104 }), TypeDefinitionIndex(TypeDefinitionIndex(6134)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6532)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6181)), TypeDefinitionIndex(TypeDefinitionIndex(6152))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(6655)) CS Name: ::UnityEngine.InputSystem.Utilities::InputActionTrace*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3867 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6532)), TypeDefinitionIndex(TypeDefinitionIndex(6152)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3104 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6134)), TypeDefinitionIndex(TypeDefinitionIndex(6181)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3103 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6669))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6655)) CS Name: ::UnityEngine.InputSystem.Utilities::InputActionTrace*
 class CORDL_TYPE InputActionTrace : public ::System::Object {
 public:
   // Declarations
@@ -316,11 +326,21 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::__InputActionTrace__ActionEventPtr>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::__InputActionTrace__ActionEventPtr>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::__InputActionTrace__ActionEventPtr>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::__InputActionTrace__ActionEventPtr>*
+  i___System__Collections__Generic__IEnumerable_1___UnityEngine__InputSystem__Utilities____InputActionTrace__ActionEventPtr_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr bool& __get_m_SubscribedToAll();
 

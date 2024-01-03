@@ -10,23 +10,23 @@ CORDL_MODULE_EXPORT(StyleSheetCache)
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEqualityComparer_1;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct StylePropertyId;
+}
 namespace UnityEngine::UIElements::StyleSheets {
 class __StyleSheetCache__SheetHandleKeyComparer;
 }
 namespace UnityEngine::UIElements::StyleSheets {
 struct __StyleSheetCache__SheetHandleKey;
 }
-namespace UnityEngine::UIElements::StyleSheets {
-struct StylePropertyId;
-}
 namespace UnityEngine::UIElements {
 class StyleRule;
 }
 namespace UnityEngine::UIElements {
 class StyleSheet;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {
@@ -93,6 +93,10 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey>"
+  constexpr ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey>*
+  i___System__Collections__Generic__IEqualityComparer_1___UnityEngine__UIElements__StyleSheets____StyleSheetCache__SheetHandleKey_() noexcept;
 
   /// @brief Method Equals, addr 0x2ded194, size 0x20, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey x, ::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey y);

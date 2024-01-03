@@ -6,8 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(VRPointer)
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+class VRController;
 }
 namespace UnityEngine::EventSystems {
 class EventSystem;
@@ -15,8 +15,8 @@ class EventSystem;
 namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
-namespace GlobalNamespace {
-class VRController;
+namespace UnityEngine {
+class Transform;
 }
 namespace UnityEngine {
 struct Vector3;

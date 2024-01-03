@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(TraceFilter)
 namespace System::Diagnostics {
 class TraceEventCache;
 }
-namespace System {
-class Object;
-}
 namespace System::Diagnostics {
 struct TraceEventType;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Diagnostics {

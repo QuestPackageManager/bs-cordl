@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(MultiplayerLocalInactivePlayerOutroAnimator)
-namespace UnityEngine::Playables {
-class PlayableDirector;
-}
 namespace GlobalNamespace {
 class MultiplayerController;
+}
+namespace UnityEngine::Playables {
+class PlayableDirector;
 }
 // Forward declare root types
 namespace GlobalNamespace {

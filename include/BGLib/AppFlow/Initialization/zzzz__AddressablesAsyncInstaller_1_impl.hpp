@@ -5,17 +5,23 @@
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_impl.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__AddressablesAsyncInstaller_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__AddressablesAsyncInstaller_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__AsyncInstaller_def.hpp"
-#include "UnityEngine/AddressableAssets/zzzz__AssetLabelReference_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "UnityEngine/AddressableAssets/zzzz__AssetLabelReference_def.hpp"
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 template <typename T>
 constexpr BGLib::AppFlow::Initialization::__AddressablesAsyncInstaller_1___LoadResourcesBeforeInstallAsync_d__2<T>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+template <typename T>
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+BGLib::AppFlow::Initialization::__AddressablesAsyncInstaller_1___LoadResourcesBeforeInstallAsync_d__2<T>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename T> inline void BGLib::AppFlow::Initialization::__AddressablesAsyncInstaller_1___LoadResourcesBeforeInstallAsync_d__2<T>::MoveNext() {

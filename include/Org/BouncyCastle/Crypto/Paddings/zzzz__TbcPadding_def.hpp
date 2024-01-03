@@ -34,6 +34,9 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding"
   constexpr operator ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding"
+  constexpr ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* i___Org__BouncyCastle__Crypto__Paddings__IBlockCipherPadding() noexcept;
+
   /// @brief Method get_PaddingName, addr 0xf2f204, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_PaddingName();
 

@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LocationWrapper)
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System {
+class Object;
+}
 namespace System {
 class Type;
 }
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceLocations {
@@ -55,6 +55,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation"
   constexpr operator ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation"
+  constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* i___UnityEngine__ResourceManagement__ResourceLocations__IResourceLocation() noexcept;
 
   constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*& __get_m_InternalLocation();
 

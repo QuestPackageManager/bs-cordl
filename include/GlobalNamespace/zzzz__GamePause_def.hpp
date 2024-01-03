@@ -5,13 +5,16 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(GamePause)
 namespace GlobalNamespace {
-class SaberManager;
-}
-namespace System {
-class Action;
+class AudioListenerController;
 }
 namespace GlobalNamespace {
 class BeatmapObjectExecutionRatingsRecorder;
+}
+namespace GlobalNamespace {
+class GameEnergyCounter;
+}
+namespace GlobalNamespace {
+class IGamePause;
 }
 namespace GlobalNamespace {
 class IScoreController;
@@ -20,16 +23,13 @@ namespace GlobalNamespace {
 class PlayerHeadAndObstacleInteraction;
 }
 namespace GlobalNamespace {
+class SaberManager;
+}
+namespace GlobalNamespace {
 class SongController;
 }
-namespace GlobalNamespace {
-class GameEnergyCounter;
-}
-namespace GlobalNamespace {
-class AudioListenerController;
-}
-namespace GlobalNamespace {
-class IGamePause;
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -86,6 +86,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IGamePause"
   constexpr operator ::GlobalNamespace::IGamePause*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IGamePause"
+  constexpr ::GlobalNamespace::IGamePause* i___GlobalNamespace__IGamePause() noexcept;
 
   constexpr ::System::Action*& __get_didPauseEvent();
 

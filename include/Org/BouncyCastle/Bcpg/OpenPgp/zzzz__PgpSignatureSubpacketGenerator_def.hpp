@@ -13,17 +13,17 @@ class PgpSignatureSubpacketVector;
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpSignature;
 }
-namespace System::Collections {
-class IList;
-}
-namespace System {
-struct DateTime;
-}
 namespace Org::BouncyCastle::Bcpg {
 struct PublicKeyAlgorithmTag;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct RevocationReasonTag;
+}
+namespace System::Collections {
+class IList;
+}
+namespace System {
+struct DateTime;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {

@@ -9,25 +9,19 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(PauseMenuManager)
 namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficulty;
+}
+namespace GlobalNamespace {
 class EnvironmentSpawnRotation;
 }
-namespace TMPro {
-class TextMeshProUGUI;
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 class IVRPlatformHelper;
-}
-namespace HMUI {
-class ButtonBinder;
-}
-namespace UnityEngine::UI {
-class Button;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace System {
-class Action;
 }
 namespace GlobalNamespace {
 class LevelBar;
@@ -38,14 +32,20 @@ class PauseAnimationController;
 namespace GlobalNamespace {
 class __PauseMenuManager__InitData;
 }
-namespace GlobalNamespace {
-struct BeatmapDifficulty;
+namespace HMUI {
+class ButtonBinder;
 }
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+namespace System {
+class Action;
 }
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -61,7 +61,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__PauseMenuManager__InitData);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 50, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14717))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5066))
 // CS Name: ::PauseMenuManager::InitData*
 class CORDL_TYPE __PauseMenuManager__InitData : public ::System::Object {

@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsymmetricAlgorithm)
-namespace System {
-class IDisposable;
-}
 namespace System::Security::Cryptography {
 class KeySizes;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {
@@ -40,6 +40,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get_KeySizeValue();
 

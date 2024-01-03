@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FontDefinition)
-namespace UnityEngine::TextCore::Text {
-class FontAsset;
-}
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
+}
+namespace UnityEngine::TextCore::Text {
+class FontAsset;
 }
 namespace UnityEngine {
 class Font;
@@ -40,6 +40,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::FontDefinition>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::FontDefinition>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::FontDefinition>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::FontDefinition>* i___System__IEquatable_1___UnityEngine__UIElements__FontDefinition_();
 
   /// @brief Method get_font, addr 0x2e6cdbc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Font* get_font();

@@ -6,32 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BasicOcspRespGenerator)
-namespace System::Collections {
-class IEnumerable;
+namespace Org::BouncyCastle::Asn1::Ocsp {
+class CertStatus;
+}
+namespace Org::BouncyCastle::Asn1::Ocsp {
+class SingleResponse;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
 }
+namespace Org::BouncyCastle::Asn1 {
+class DerGeneralizedTime;
+}
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
-}
-namespace Org::BouncyCastle::Ocsp {
-class RespID;
-}
-namespace System {
-struct DateTime;
-}
-namespace Org::BouncyCastle::Ocsp {
-class CertificateStatus;
-}
-namespace Org::BouncyCastle::Ocsp {
-class __BasicOcspRespGenerator__ResponseObject;
-}
-namespace Org::BouncyCastle::Ocsp {
-class CertificateID;
-}
-namespace System::Collections {
-class IList;
 }
 namespace Org::BouncyCastle::Crypto {
 class ISignatureFactory;
@@ -39,20 +27,32 @@ class ISignatureFactory;
 namespace Org::BouncyCastle::Ocsp {
 class BasicOcspResp;
 }
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
+namespace Org::BouncyCastle::Ocsp {
+class CertificateID;
+}
+namespace Org::BouncyCastle::Ocsp {
+class CertificateStatus;
+}
+namespace Org::BouncyCastle::Ocsp {
+class RespID;
+}
+namespace Org::BouncyCastle::Ocsp {
+class __BasicOcspRespGenerator__ResponseObject;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
-namespace Org::BouncyCastle::Asn1::Ocsp {
-class CertStatus;
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
-namespace Org::BouncyCastle::Asn1::Ocsp {
-class SingleResponse;
+namespace System::Collections {
+class IEnumerable;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerGeneralizedTime;
+namespace System::Collections {
+class IList;
+}
+namespace System {
+struct DateTime;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Ocsp {

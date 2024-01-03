@@ -7,6 +7,15 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IVRResources)
+namespace OVR::OpenVR {
+class __IVRResources___GetResourceFullPath;
+}
+namespace OVR::OpenVR {
+class __IVRResources___LoadSharedResource;
+}
+namespace System::Text {
+class StringBuilder;
+}
 namespace System {
 class AsyncCallback;
 }
@@ -15,15 +24,6 @@ class IAsyncResult;
 }
 namespace System {
 class Object;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace OVR::OpenVR {
-class __IVRResources___LoadSharedResource;
-}
-namespace OVR::OpenVR {
-class __IVRResources___GetResourceFullPath;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

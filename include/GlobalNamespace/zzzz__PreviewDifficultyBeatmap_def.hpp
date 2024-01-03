@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PreviewDifficultyBeatmap)
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace System {
-class Object;
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+class IPreviewBeatmapLevel;
 }
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::GlobalNamespace::PreviewDifficultyBeatmap);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14717))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4408))
 // CS Name: ::PreviewDifficultyBeatmap*
 class CORDL_TYPE PreviewDifficultyBeatmap : public ::System::Object {
@@ -55,6 +55,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::PreviewDifficultyBeatmap*>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::PreviewDifficultyBeatmap*>*() noexcept;
+
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::PreviewDifficultyBeatmap*>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::PreviewDifficultyBeatmap*>* i___System__IEquatable_1___GlobalNamespace__PreviewDifficultyBeatmap__() noexcept;
 
   constexpr ::GlobalNamespace::IPreviewBeatmapLevel*& __get__beatmapLevel_k__BackingField();
 

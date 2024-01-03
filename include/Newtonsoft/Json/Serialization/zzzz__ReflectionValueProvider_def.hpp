@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ReflectionValueProvider)
+namespace Newtonsoft::Json::Serialization {
+class IValueProvider;
+}
 namespace System::Reflection {
 class MemberInfo;
 }
 namespace System {
 class Object;
-}
-namespace Newtonsoft::Json::Serialization {
-class IValueProvider;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -34,6 +34,9 @@ public:
 
   /// @brief Convert operator to "::Newtonsoft::Json::Serialization::IValueProvider"
   constexpr operator ::Newtonsoft::Json::Serialization::IValueProvider*() noexcept;
+
+  /// @brief Convert to "::Newtonsoft::Json::Serialization::IValueProvider"
+  constexpr ::Newtonsoft::Json::Serialization::IValueProvider* i___Newtonsoft__Json__Serialization__IValueProvider() noexcept;
 
   constexpr ::System::Reflection::MemberInfo*& __get__memberInfo();
 

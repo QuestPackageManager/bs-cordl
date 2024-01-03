@@ -8,35 +8,35 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Physics)
-namespace UnityEngine {
-struct QueryTriggerInteraction;
-}
 namespace System {
 template <typename T1, typename T2> class Action_2;
-}
-namespace UnityEngine {
-struct ModifiableContactPair;
-}
-namespace UnityEngine {
-class Collider;
-}
-namespace UnityEngine {
-struct Ray;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
 }
 namespace UnityEngine {
+class Collider;
+}
+namespace UnityEngine {
+struct ModifiableContactPair;
+}
+namespace UnityEngine {
 struct PhysicsScene;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+struct QueryTriggerInteraction;
+}
+namespace UnityEngine {
+struct Ray;
 }
 namespace UnityEngine {
 struct RaycastHit;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine {

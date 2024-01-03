@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__LinkedListNodeCache_1_def.hpp"
-#include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__LinkedListNode_1_def.hpp"
+#include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
 template <typename T> constexpr int32_t& UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>::__get_m_NodesCreated() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NodesCreated;

@@ -11,19 +11,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NodePoseSyncStateManager)
 namespace GlobalNamespace {
-class INodePoseSyncStateManager;
-}
-namespace GlobalNamespace {
-struct PoseSerializable;
-}
-namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable> class INodePoseSyncStateManager_5;
 }
 namespace GlobalNamespace {
-struct NodePoseSyncState;
+class INodePoseSyncStateManager;
 }
 namespace GlobalNamespace {
-struct __MultiplayerSessionManager__MessageType;
+template <typename T> class IPacketPool_1;
 }
 namespace GlobalNamespace {
 class NodePoseSyncStateDeltaNetSerializable;
@@ -32,10 +26,16 @@ namespace GlobalNamespace {
 class NodePoseSyncStateNetSerializable;
 }
 namespace GlobalNamespace {
-struct __NodePoseSyncState__NodePose;
+struct NodePoseSyncState;
 }
 namespace GlobalNamespace {
-template <typename T> class IPacketPool_1;
+struct PoseSerializable;
+}
+namespace GlobalNamespace {
+struct __MultiplayerSessionManager__MessageType;
+}
+namespace GlobalNamespace {
+struct __NodePoseSyncState__NodePose;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -47,9 +47,9 @@ MARK_REF_PTR_T(::GlobalNamespace::NodePoseSyncStateManager);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12974)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14951), inst: 3651 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(12973)), TypeDefinitionIndex(TypeDefinitionIndex(14951)), TypeDefinitionIndex(TypeDefinitionIndex(12972)), TypeDefinitionIndex(TypeDefinitionIndex(15042)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12975))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14966)) CS Name: ::NodePoseSyncStateManager*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12973)), TypeDefinitionIndex(TypeDefinitionIndex(12974)), TypeDefinitionIndex(TypeDefinitionIndex(12975)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14951)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14951), inst: 3651 }), TypeDefinitionIndex(TypeDefinitionIndex(15042)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12972))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14966)) CS Name: ::NodePoseSyncStateManager*
 class CORDL_TYPE NodePoseSyncStateManager
     : public ::GlobalNamespace::MultiplayerSyncStateManager_5<::GlobalNamespace::NodePoseSyncState, ::GlobalNamespace::__NodePoseSyncState__NodePose, ::GlobalNamespace::PoseSerializable,
                                                               ::GlobalNamespace::NodePoseSyncStateNetSerializable*, ::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*> {
@@ -74,10 +74,19 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INodePoseSyncStateManager"
   constexpr operator ::GlobalNamespace::INodePoseSyncStateManager*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::INodePoseSyncStateManager"
+  constexpr ::GlobalNamespace::INodePoseSyncStateManager* i___GlobalNamespace__INodePoseSyncStateManager() noexcept;
+
   /// @brief Convert operator to
   /// "::GlobalNamespace::INodePoseSyncStateManager_5<::GlobalNamespace::NodePoseSyncState,::GlobalNamespace::__NodePoseSyncState__NodePose,::GlobalNamespace::PoseSerializable,::GlobalNamespace::NodePoseSyncStateNetSerializable*,::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>"
   constexpr operator ::GlobalNamespace::INodePoseSyncStateManager_5<::GlobalNamespace::NodePoseSyncState, ::GlobalNamespace::__NodePoseSyncState__NodePose, ::GlobalNamespace::PoseSerializable,
                                                                     ::GlobalNamespace::NodePoseSyncStateNetSerializable*, ::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>*() noexcept;
+
+  /// @brief Convert to
+  /// "::GlobalNamespace::INodePoseSyncStateManager_5<::GlobalNamespace::NodePoseSyncState,::GlobalNamespace::__NodePoseSyncState__NodePose,::GlobalNamespace::PoseSerializable,::GlobalNamespace::NodePoseSyncStateNetSerializable*,::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>"
+  constexpr ::GlobalNamespace::INodePoseSyncStateManager_5<::GlobalNamespace::NodePoseSyncState, ::GlobalNamespace::__NodePoseSyncState__NodePose, ::GlobalNamespace::PoseSerializable,
+                                                           ::GlobalNamespace::NodePoseSyncStateNetSerializable*, ::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>*
+  i___GlobalNamespace__INodePoseSyncStateManager_5___GlobalNamespace__NodePoseSyncState___GlobalNamespace____NodePoseSyncState__NodePose___GlobalNamespace__PoseSerializable___GlobalNamespace__NodePoseSyncStateNetSerializable____GlobalNamespace__NodePoseSyncStateDeltaNetSerializable__() noexcept;
 
   /// @brief Method get_deltaUpdateFrequencyMs, addr 0x2637c2c, size 0x8, virtual true, abstract: false, final false
   inline int64_t get_deltaUpdateFrequencyMs();

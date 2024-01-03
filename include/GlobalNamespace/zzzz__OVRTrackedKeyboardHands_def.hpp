@@ -12,49 +12,49 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRTrackedKeyboardHands)
 namespace GlobalNamespace {
-struct __OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent;
-}
-namespace GlobalNamespace {
 class OVRCameraRig;
 }
 namespace GlobalNamespace {
 class OVRHand;
 }
 namespace GlobalNamespace {
-struct __OVRTrackedKeyboardHands__HandBoneMapping;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace GlobalNamespace {
-class OVRSkeleton;
-}
-namespace UnityEngine {
-class SkinnedMeshRenderer;
-}
-namespace GlobalNamespace {
-class OVRTrackedKeyboard;
-}
-namespace GlobalNamespace {
-struct __OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent;
+class OVRMeshRenderer;
 }
 namespace GlobalNamespace {
 class OVRSkeletonRenderer;
 }
 namespace GlobalNamespace {
-class OVRMeshRenderer;
+class OVRSkeleton;
 }
-namespace UnityEngine {
-class Material;
+namespace GlobalNamespace {
+class OVRTrackedKeyboard;
+}
+namespace GlobalNamespace {
+struct __OVRSkeleton__BoneId;
+}
+namespace GlobalNamespace {
+struct __OVRTrackedKeyboardHands__HandBoneMapping;
+}
+namespace GlobalNamespace {
+struct __OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent;
 }
 namespace GlobalNamespace {
 struct __OVRTrackedKeyboard__TrackedKeyboardSetActiveEvent;
 }
 namespace GlobalNamespace {
-struct __OVRSkeleton__BoneId;
+struct __OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+class SkinnedMeshRenderer;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -177,8 +177,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRTrackedKeyboardHands__TrackedKeyb
 // SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 212, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4776 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(8040)), TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8041)) CS Name: ::OVRTrackedKeyboardHands*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4776 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(8040)), TypeDefinitionIndex(TypeDefinitionIndex(10225))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8041)) CS Name: ::OVRTrackedKeyboardHands*
 class CORDL_TYPE OVRTrackedKeyboardHands : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations

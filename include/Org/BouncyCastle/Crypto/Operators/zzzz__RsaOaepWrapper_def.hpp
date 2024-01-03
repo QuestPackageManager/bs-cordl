@@ -6,29 +6,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RsaOaepWrapper)
-namespace Org::BouncyCastle::Crypto {
-class IKeyUnwrapper;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IAsymmetricBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class IBlockResult;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class IKeyUnwrapper;
 }
 namespace Org::BouncyCastle::Crypto {
 class IKeyWrapper;
 }
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Crypto {
-class IAsymmetricBlockCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Operators {
@@ -57,8 +57,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IKeyWrapper"
   constexpr operator ::Org::BouncyCastle::Crypto::IKeyWrapper*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IKeyWrapper"
+  constexpr ::Org::BouncyCastle::Crypto::IKeyWrapper* i___Org__BouncyCastle__Crypto__IKeyWrapper() noexcept;
+
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IKeyUnwrapper"
   constexpr operator ::Org::BouncyCastle::Crypto::IKeyUnwrapper*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IKeyUnwrapper"
+  constexpr ::Org::BouncyCastle::Crypto::IKeyUnwrapper* i___Org__BouncyCastle__Crypto__IKeyUnwrapper() noexcept;
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_algId();
 

@@ -7,17 +7,17 @@ CORDL_MODULE_EXPORT(UnixIPInterfaceProperties)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System::Text::RegularExpressions {
-class Regex;
+namespace System::Net::NetworkInformation {
+class UnicastIPAddressInformationCollection;
 }
 namespace System::Net::NetworkInformation {
 class UnixNetworkInterface;
 }
-namespace System::Net::NetworkInformation {
-class UnicastIPAddressInformationCollection;
-}
 namespace System::Net {
 class IPAddress;
+}
+namespace System::Text::RegularExpressions {
+class Regex;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {

@@ -6,38 +6,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ReflectionObject)
-namespace Newtonsoft::Json::Utilities {
-class __ReflectionObject____c__DisplayClass13_2;
-}
-namespace System {
-class Object;
-}
 namespace Newtonsoft::Json::Serialization {
 template <typename T> class ObjectConstructor_1;
 }
-namespace System {
-class Type;
+namespace Newtonsoft::Json::Utilities {
+template <typename T, typename TResult> class MethodCall_2;
 }
 namespace Newtonsoft::Json::Utilities {
 class ReflectionMember;
 }
 namespace Newtonsoft::Json::Utilities {
+class __ReflectionObject____c__DisplayClass13_0;
+}
+namespace Newtonsoft::Json::Utilities {
 class __ReflectionObject____c__DisplayClass13_1;
 }
 namespace Newtonsoft::Json::Utilities {
-class __ReflectionObject____c__DisplayClass13_0;
-}
-namespace System::Reflection {
-class MethodBase;
+class __ReflectionObject____c__DisplayClass13_2;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class IDictionary_2;
 }
+namespace System::Reflection {
+class MethodBase;
+}
 namespace System {
 template <typename TResult> class Func_1;
 }
-namespace Newtonsoft::Json::Utilities {
-template <typename T, typename TResult> class MethodCall_2;
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {

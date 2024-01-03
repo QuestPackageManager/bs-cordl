@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpPbeEncryptedData)
 namespace Org::BouncyCastle::Bcpg {
-class SymmetricKeyEncSessionPacket;
-}
-namespace Org::BouncyCastle::Bcpg {
 class InputStreamPacket;
-}
-namespace System::IO {
-class Stream;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct SymmetricKeyAlgorithmTag;
 }
+namespace Org::BouncyCastle::Bcpg {
+class SymmetricKeyEncSessionPacket;
+}
 namespace Org::BouncyCastle::Crypto {
 class IBufferedCipher;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {

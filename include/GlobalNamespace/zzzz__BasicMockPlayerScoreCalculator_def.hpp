@@ -46,6 +46,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IMockPlayerScoreCalculator"
   constexpr operator ::GlobalNamespace::IMockPlayerScoreCalculator*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IMockPlayerScoreCalculator"
+  constexpr ::GlobalNamespace::IMockPlayerScoreCalculator* i___GlobalNamespace__IMockPlayerScoreCalculator() noexcept;
+
   constexpr float_t& __get__hitFrequency();
 
   constexpr float_t const& __get__hitFrequency() const;
@@ -73,10 +76,7 @@ public:
   static inline ::GlobalNamespace::BasicMockPlayerScoreCalculator* New_ctor(float_t hitFrequency, int32_t minScore, int32_t maxScore);
 
   /// @brief Method .ctor, addr 0x23e6748, size 0xbc, virtual false, abstract: false, final false
-  /// @param hitFrequency: float_t (default: 0.95)
-  /// @param minScore: int32_t (default: static_cast<int32_t>(0x42))
-  /// @param maxScore: int32_t (default: static_cast<int32_t>(0x6e))
-  inline void _ctor(float_t hitFrequency = 0.95, int32_t minScore = static_cast<int32_t>(0x42), int32_t maxScore = static_cast<int32_t>(0x6e));
+  inline void _ctor(float_t hitFrequency, int32_t minScore, int32_t maxScore);
 
   /// @brief Method GetScoreForNote, addr 0x23e6804, size 0x74, virtual true, abstract: false, final true
   inline int32_t GetScoreForNote(::GlobalNamespace::MockNoteData* noteData);

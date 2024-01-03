@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Timeline/zzzz__Marker_def.hpp"
 #include "UnityEngine/zzzz__PropertyName_def.hpp"
 CORDL_MODULE_EXPORT(JumpMarker)
+namespace GlobalNamespace {
+class JumpDestinationMarker;
+}
 namespace UnityEngine::Playables {
 class INotification;
 }
 namespace UnityEngine {
 struct PropertyName;
-}
-namespace GlobalNamespace {
-class JumpDestinationMarker;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::GlobalNamespace::JumpMarker);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13888)), TypeDefinitionIndex(TypeDefinitionIndex(10159))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10159)), TypeDefinitionIndex(TypeDefinitionIndex(13888))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14404))
 // CS Name: ::JumpMarker*
 class CORDL_TYPE JumpMarker : public ::UnityEngine::Timeline::Marker {
@@ -42,6 +42,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::Playables::INotification"
   constexpr operator ::UnityEngine::Playables::INotification*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::Playables::INotification"
+  constexpr ::UnityEngine::Playables::INotification* i___UnityEngine__Playables__INotification() noexcept;
 
   constexpr ::GlobalNamespace::JumpDestinationMarker*& __get__destination();
 

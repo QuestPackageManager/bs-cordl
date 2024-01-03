@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ExperimentalPacket)
 namespace Org::BouncyCastle::Bcpg {
-struct PacketTag;
+class BcpgInputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgOutputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
+struct PacketTag;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::ExperimentalPacket);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(560)), TypeDefinitionIndex(TypeDefinitionIndex(579))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(579)), TypeDefinitionIndex(TypeDefinitionIndex(560))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(571))
 // CS Name: ::Org.BouncyCastle.Bcpg::ExperimentalPacket*
 class CORDL_TYPE ExperimentalPacket : public ::Org::BouncyCastle::Bcpg::ContainedPacket {

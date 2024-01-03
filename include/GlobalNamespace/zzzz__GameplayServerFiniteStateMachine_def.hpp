@@ -8,6 +8,15 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(GameplayServerFiniteStateMachine)
+namespace BGNet::Core {
+class ITaskUtility;
+}
+namespace GlobalNamespace {
+struct BeatmapLevelSelectionMask;
+}
+namespace GlobalNamespace {
+class GameState;
+}
 namespace GlobalNamespace {
 class GameplayRpcManager;
 }
@@ -15,25 +24,16 @@ namespace GlobalNamespace {
 struct GameplayServerConfiguration;
 }
 namespace GlobalNamespace {
-class GameState;
+class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
 class IServerBeatmapProvider;
 }
 namespace GlobalNamespace {
-struct __GameplayServerFiniteStateMachine__InitParams;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace GlobalNamespace {
 class MenuRpcManager;
 }
-namespace BGNet::Core {
-class ITaskUtility;
-}
 namespace GlobalNamespace {
-struct BeatmapLevelSelectionMask;
+struct __GameplayServerFiniteStateMachine__InitParams;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -115,7 +115,7 @@ static_assert(offsetof(::GlobalNamespace::__GameplayServerFiniteStateMachine__In
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 137, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12758)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12758)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12762))
 // CS Name: ::GameplayServerFiniteStateMachine*
 class CORDL_TYPE GameplayServerFiniteStateMachine : public ::System::Object {

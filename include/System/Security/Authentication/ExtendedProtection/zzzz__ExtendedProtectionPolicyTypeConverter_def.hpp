@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
 CORDL_MODULE_EXPORT(ExtendedProtectionPolicyTypeConverter)
+namespace System::ComponentModel {
+class ITypeDescriptorContext;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
 namespace System {
 class Object;
 }
 namespace System {
 class Type;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System::ComponentModel {
-class ITypeDescriptorContext;
 }
 // Forward declare root types
 namespace System::Security::Authentication::ExtendedProtection {

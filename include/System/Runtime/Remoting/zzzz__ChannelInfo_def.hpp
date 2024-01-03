@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ChannelInfo)
-namespace System {
-class Object;
-}
 namespace System::Runtime::Remoting {
 class IChannelInfo;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {
@@ -34,6 +34,9 @@ public:
 
   /// @brief Convert operator to "::System::Runtime::Remoting::IChannelInfo"
   constexpr operator ::System::Runtime::Remoting::IChannelInfo*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Remoting::IChannelInfo"
+  constexpr ::System::Runtime::Remoting::IChannelInfo* i___System__Runtime__Remoting__IChannelInfo() noexcept;
 
   constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __get_channelData();
 

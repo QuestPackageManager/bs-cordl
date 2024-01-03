@@ -2,29 +2,28 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PreferenceDictionary)
-namespace UnityEngine {
-class Material;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace UnityEngine {
-struct Color;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::ProBuilder {
 class IHasDefault;
 }
 namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
 class ISerializationCallbackReceiver;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine {
+class Material;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -36,7 +35,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::PreferenceDictionary);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12151))
 // CS Name: ::UnityEngine.ProBuilder::PreferenceDictionary*
 class CORDL_TYPE PreferenceDictionary : public ::UnityEngine::ScriptableObject {
@@ -99,8 +98,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
+  constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::ProBuilder::IHasDefault"
   constexpr operator ::UnityEngine::ProBuilder::IHasDefault*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::ProBuilder::IHasDefault"
+  constexpr ::UnityEngine::ProBuilder::IHasDefault* i___UnityEngine__ProBuilder__IHasDefault() noexcept;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, bool>*& __get_m_Bool();
 
@@ -229,35 +234,28 @@ public:
   inline void DeleteKey(::StringW key);
 
   /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param fallback: T (default: nullptr)
-  template <typename T> inline T Get(::StringW key, T fallback = nullptr);
+  template <typename T> inline T Get(::StringW key, T fallback);
 
   /// @brief Method Set, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void Set(::StringW key, T value);
 
   /// @brief Method GetBool, addr 0x2b56bbc, size 0x88, virtual false, abstract: false, final false
-  /// @param fallback: bool (default: false)
-  inline bool GetBool(::StringW key, bool fallback = false);
+  inline bool GetBool(::StringW key, bool fallback);
 
   /// @brief Method GetInt, addr 0x2b56c44, size 0x7c, virtual false, abstract: false, final false
-  /// @param fallback: int32_t (default: static_cast<int32_t>(0x0))
-  inline int32_t GetInt(::StringW key, int32_t fallback = static_cast<int32_t>(0x0));
+  inline int32_t GetInt(::StringW key, int32_t fallback);
 
   /// @brief Method GetFloat, addr 0x2b56cc0, size 0x7c, virtual false, abstract: false, final false
-  /// @param fallback: float_t (default: 0.0)
-  inline float_t GetFloat(::StringW key, float_t fallback = 0.0);
+  inline float_t GetFloat(::StringW key, float_t fallback);
 
   /// @brief Method GetString, addr 0x2b56d3c, size 0x7c, virtual false, abstract: false, final false
-  /// @param fallback: ::StringW (default: nullptr)
-  inline ::StringW GetString(::StringW key, ::StringW fallback = nullptr);
+  inline ::StringW GetString(::StringW key, ::StringW fallback);
 
   /// @brief Method GetColor, addr 0x2b56db8, size 0xa8, virtual false, abstract: false, final false
-  /// @param fallback: ::UnityEngine::Color (default: {})
-  inline ::UnityEngine::Color GetColor(::StringW key, ::UnityEngine::Color fallback = {});
+  inline ::UnityEngine::Color GetColor(::StringW key, ::UnityEngine::Color fallback);
 
   /// @brief Method GetMaterial, addr 0x2b56e60, size 0x7c, virtual false, abstract: false, final false
-  /// @param fallback: ::UnityEngine::Material* (default: nullptr)
-  inline ::UnityEngine::Material* GetMaterial(::StringW key, ::UnityEngine::Material* fallback = nullptr);
+  inline ::UnityEngine::Material* GetMaterial(::StringW key, ::UnityEngine::Material* fallback);
 
   /// @brief Method SetBool, addr 0x2b56edc, size 0xcc, virtual false, abstract: false, final false
   inline void SetBool(::StringW key, bool value);

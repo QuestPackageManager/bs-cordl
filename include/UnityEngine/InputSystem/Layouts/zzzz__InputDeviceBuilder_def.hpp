@@ -3,42 +3,44 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputControlLayout_def.hpp"
-#include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputDeviceBuilder)
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace UnityEngine::InputSystem::Layouts {
-struct __InputControlLayout__CacheRefInstance;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace UnityEngine::InputSystem::Layouts {
-struct __InputDeviceBuilder__RefInstance;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace System {
+class IDisposable;
 }
 namespace UnityEngine::InputSystem::Layouts {
 class InputControlLayout;
 }
 namespace UnityEngine::InputSystem::Layouts {
+struct InputDeviceDescription;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct __InputControlLayout__CacheRefInstance;
+}
+namespace UnityEngine::InputSystem::Layouts {
 struct __InputControlLayout__ControlItem;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Text {
-class StringBuilder;
+namespace UnityEngine::InputSystem::Layouts {
+struct __InputDeviceBuilder__RefInstance;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct InternedString;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
 }
 namespace UnityEngine::InputSystem {
 class InputDevice;
@@ -67,6 +69,9 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
+
   /// @brief Method Dispose, addr 0x2b068c8, size 0x8c, virtual true, abstract: false, final true
   inline void Dispose();
 
@@ -91,7 +96,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layout
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6620)), TypeDefinitionIndex(TypeDefinitionIndex(6613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6618))
 // CS Name: ::UnityEngine.InputSystem.Layouts::InputDeviceBuilder
 struct CORDL_TYPE InputDeviceBuilder {
@@ -108,6 +113,9 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
+
   static inline void setStaticF_s_Instance(::UnityEngine::InputSystem::Layouts::InputDeviceBuilder value);
 
   static inline ::UnityEngine::InputSystem::Layouts::InputDeviceBuilder getStaticF_s_Instance();
@@ -117,9 +125,8 @@ public:
   static inline int32_t getStaticF_s_InstanceRef();
 
   /// @brief Method Setup, addr 0x2b037e8, size 0x15c, virtual false, abstract: false, final false
-  /// @param deviceDescription: ::UnityEngine::InputSystem::Layouts::InputDeviceDescription (default: {})
   inline void Setup(::UnityEngine::InputSystem::Utilities::InternedString layout, ::UnityEngine::InputSystem::Utilities::InternedString variants,
-                    ::UnityEngine::InputSystem::Layouts::InputDeviceDescription deviceDescription = {});
+                    ::UnityEngine::InputSystem::Layouts::InputDeviceDescription deviceDescription);
 
   /// @brief Method Finish, addr 0x2b03b48, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputDevice* Finish();
@@ -143,11 +150,9 @@ public:
                                ::UnityEngine::InputSystem::InputControl* parent, ByRef<bool> haveChildrenUsingStateFromOtherControls);
 
   /// @brief Method AddChildControl, addr 0x2b0536c, size 0x728, virtual false, abstract: false, final false
-  /// @param nameOverride: ::StringW (default: nullptr)
   inline ::UnityEngine::InputSystem::InputControl* AddChildControl(::UnityEngine::InputSystem::Layouts::InputControlLayout* layout, ::UnityEngine::InputSystem::Utilities::InternedString variants,
                                                                    ::UnityEngine::InputSystem::InputControl* parent, ByRef<bool> haveChildrenUsingStateFromOtherControls,
-                                                                   ::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem controlItem, int32_t childIndex,
-                                                                   ::StringW nameOverride = nullptr);
+                                                                   ::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem controlItem, int32_t childIndex, ::StringW nameOverride);
 
   /// @brief Method InsertChildControlOverride, addr 0x2b051d4, size 0x198, virtual false, abstract: false, final false
   inline void InsertChildControlOverride(::UnityEngine::InputSystem::InputControl* parent, ByRef<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem> controlItem);

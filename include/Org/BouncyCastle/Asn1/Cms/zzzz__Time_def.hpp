@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Time)
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class IAsn1Choice;
 }
 namespace System {
 struct DateTime;
@@ -45,6 +45,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept;
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Object*& __get_time();
 

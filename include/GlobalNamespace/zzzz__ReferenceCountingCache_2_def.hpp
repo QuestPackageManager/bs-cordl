@@ -40,6 +40,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IReferenceCountingCache_2<TKey,TValue>"
   constexpr operator ::GlobalNamespace::IReferenceCountingCache_2<TKey, TValue>*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IReferenceCountingCache_2<TKey,TValue>"
+  constexpr ::GlobalNamespace::IReferenceCountingCache_2<TKey, TValue>* i___GlobalNamespace__IReferenceCountingCache_2_TKey_TValue_() noexcept;
+
   constexpr ::System::Collections::Generic::Dictionary_2<TKey, TValue>*& __get__items();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TKey, TValue>*> const& __get__items() const;

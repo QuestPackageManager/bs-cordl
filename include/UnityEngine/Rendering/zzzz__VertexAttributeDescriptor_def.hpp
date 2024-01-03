@@ -9,6 +9,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(VertexAttributeDescriptor)
 namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
 class Object;
 }
 namespace UnityEngine::Rendering {
@@ -16,9 +19,6 @@ struct VertexAttributeFormat;
 }
 namespace UnityEngine::Rendering {
 struct VertexAttribute;
-}
-namespace System {
-template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -30,7 +30,7 @@ MARK_VAL_T(::UnityEngine::Rendering::VertexAttributeDescriptor);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10330)), TypeDefinitionIndex(TypeDefinitionIndex(10331))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10331)), TypeDefinitionIndex(TypeDefinitionIndex(10330))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10345))
 // CS Name: ::UnityEngine.Rendering::VertexAttributeDescriptor
 struct CORDL_TYPE VertexAttributeDescriptor {
@@ -46,6 +46,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::VertexAttributeDescriptor>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::VertexAttributeDescriptor>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::VertexAttributeDescriptor>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Rendering::VertexAttributeDescriptor>* i___System__IEquatable_1___UnityEngine__Rendering__VertexAttributeDescriptor_();
 
   /// @brief Method get_attribute, addr 0x2cebfd4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::VertexAttribute get_attribute();
@@ -72,12 +75,7 @@ public:
   inline void set_stream(int32_t value);
 
   /// @brief Method .ctor, addr 0x2cec014, size 0xc, virtual false, abstract: false, final false
-  /// @param attribute: ::UnityEngine::Rendering::VertexAttribute (default: static_cast<int32_t>(0x0))
-  /// @param format: ::UnityEngine::Rendering::VertexAttributeFormat (default: static_cast<int32_t>(0x0))
-  /// @param dimension: int32_t (default: static_cast<int32_t>(0x3))
-  /// @param stream: int32_t (default: static_cast<int32_t>(0x0))
-  inline void _ctor(::UnityEngine::Rendering::VertexAttribute attribute = static_cast<int32_t>(0x0), ::UnityEngine::Rendering::VertexAttributeFormat format = static_cast<int32_t>(0x0),
-                    int32_t dimension = static_cast<int32_t>(0x3), int32_t stream = static_cast<int32_t>(0x0));
+  inline void _ctor(::UnityEngine::Rendering::VertexAttribute attribute, ::UnityEngine::Rendering::VertexAttributeFormat format, int32_t dimension, int32_t stream);
 
   /// @brief Method ToString, addr 0x2cec020, size 0x1d4, virtual true, abstract: false, final false
   inline ::StringW ToString();

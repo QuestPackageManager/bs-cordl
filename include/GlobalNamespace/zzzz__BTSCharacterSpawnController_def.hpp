@@ -8,16 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BTSCharacterSpawnController)
 namespace GlobalNamespace {
-class __BTSCharacterSpawnController___TimelineStoppedDelayed_d__19;
-}
-namespace UnityEngine {
-class Coroutine;
-}
-namespace System::Collections {
-class IEnumerator;
+class BTSCharacterSpawnAnimationController;
 }
 namespace GlobalNamespace {
-class BTSCharacterSpawnAnimationController;
+class BTSCharacterSpawnEventEffect;
 }
 namespace GlobalNamespace {
 class BTSCharacter;
@@ -29,16 +23,22 @@ namespace GlobalNamespace {
 class ILevelEndActions;
 }
 namespace GlobalNamespace {
-class BTSCharacterSpawnEventEffect;
-}
-namespace System {
-class Object;
+class __BTSCharacterSpawnController___TimelineStoppedDelayed_d__19;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine {
+class Coroutine;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -76,11 +76,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

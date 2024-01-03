@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightManager)
 namespace UnityEngine {
-struct Vector4;
+class Camera;
 }
 namespace UnityEngine {
-class Camera;
+struct Vector4;
 }
 // Forward declare root types
 namespace GlobalNamespace {

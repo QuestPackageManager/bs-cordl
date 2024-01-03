@@ -9,17 +9,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayableBinding)
-namespace UnityEngine::Playables {
-struct PlayableOutput;
-}
-namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
 namespace System {
 class Object;
 }
 namespace System {
 class Type;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
+namespace UnityEngine::Playables {
+struct PlayableOutput;
 }
 namespace UnityEngine::Playables {
 class __PlayableBinding__CreateOutputMethod;

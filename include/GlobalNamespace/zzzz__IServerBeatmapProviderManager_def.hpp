@@ -3,14 +3,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IServerBeatmapProviderManager)
+namespace GlobalNamespace {
+class IServerBeatmapProvider;
+}
 namespace System::Threading::Tasks {
 class Task;
 }
 namespace System {
 class IDisposable;
-}
-namespace GlobalNamespace {
-class IServerBeatmapProvider;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,6 +30,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// @brief Method GetServerBeatmapProvider, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::IServerBeatmapProvider* GetServerBeatmapProvider();

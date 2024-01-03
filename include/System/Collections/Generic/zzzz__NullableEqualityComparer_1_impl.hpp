@@ -2,8 +2,8 @@
 #include "System/Collections/Generic/zzzz__EqualityComparer_1_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/Collections/Generic/zzzz__NullableEqualityComparer_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 template <typename T> inline bool System::Collections::Generic::NullableEqualityComparer_1<T>::Equals(::System::Nullable_1<T> x, ::System::Nullable_1<T> y) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

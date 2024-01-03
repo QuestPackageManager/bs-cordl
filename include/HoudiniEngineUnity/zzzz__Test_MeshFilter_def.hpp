@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Test_MeshFilter)
-namespace UnityEngine {
-class MeshFilter;
+namespace HoudiniEngineUnity {
+template <typename T> class IEquivableWrapperClass_1;
 }
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivable_1;
 }
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivableWrapperClass_1;
+namespace UnityEngine {
+class MeshFilter;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -35,8 +35,14 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_MeshFilter*>"
   constexpr operator ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_MeshFilter*>*() noexcept;
 
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_MeshFilter*>"
+  constexpr ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_MeshFilter*>* i___HoudiniEngineUnity__IEquivableWrapperClass_1___HoudiniEngineUnity__Test_MeshFilter__() noexcept;
+
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_MeshFilter*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_MeshFilter*>*() noexcept;
+
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_MeshFilter*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_MeshFilter*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_MeshFilter__() noexcept;
 
   constexpr ::UnityEngine::MeshFilter*& __get_self();
 

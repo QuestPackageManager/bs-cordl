@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__UnmodifiableSet_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnmodifiableSetProxy)
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
+}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
+class Array;
 }
 namespace System {
-class Array;
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Collections {

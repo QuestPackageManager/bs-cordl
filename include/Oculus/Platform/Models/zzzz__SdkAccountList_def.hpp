@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::SdkAccountList);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13430)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13430), inst: 1183 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(13478))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13479)) CS Name: ::Oculus.Platform.Models::SdkAccountList*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13430)), TypeDefinitionIndex(TypeDefinitionIndex(13478)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13430), inst:
+// 1183 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13479)) CS Name: ::Oculus.Platform.Models::SdkAccountList*
 class CORDL_TYPE SdkAccountList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::SdkAccount*> {
 public:
   // Declarations

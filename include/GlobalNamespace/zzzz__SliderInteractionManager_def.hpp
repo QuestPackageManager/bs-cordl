@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(SliderInteractionManager)
 namespace GlobalNamespace {
-class SliderController;
-}
-namespace GlobalNamespace {
 class BeatmapObjectManager;
 }
-namespace System {
-class Action;
+namespace GlobalNamespace {
+struct ColorType;
+}
+namespace GlobalNamespace {
+class SliderController;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -21,8 +21,8 @@ template <typename T> class List_1;
 namespace System {
 template <typename T> class Action_1;
 }
-namespace GlobalNamespace {
-struct ColorType;
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {

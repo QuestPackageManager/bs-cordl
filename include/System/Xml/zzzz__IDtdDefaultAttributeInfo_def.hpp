@@ -38,6 +38,9 @@ public:
   /// @brief Convert operator to "::System::Xml::IDtdAttributeInfo"
   constexpr operator ::System::Xml::IDtdAttributeInfo*() noexcept;
 
+  /// @brief Convert to "::System::Xml::IDtdAttributeInfo"
+  constexpr ::System::Xml::IDtdAttributeInfo* i___System__Xml__IDtdAttributeInfo() noexcept;
+
   /// @brief Method get_DefaultValueExpanded, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_DefaultValueExpanded();
 

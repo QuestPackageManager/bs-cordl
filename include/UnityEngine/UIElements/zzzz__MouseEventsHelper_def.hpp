@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MouseEventsHelper)
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::UIElements {
 class IMouseEvent;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

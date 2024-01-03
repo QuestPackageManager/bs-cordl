@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MirroredSliderController)
-namespace UnityEngine {
-class Transform;
-}
-namespace GlobalNamespace {
-class __MirroredSliderController__Pool;
-}
-namespace GlobalNamespace {
-class SliderController;
-}
 namespace GlobalNamespace {
 class IBeatmapObjectSpawnController;
 }
 namespace GlobalNamespace {
 class ISliderDidStartDissolvingEvent;
 }
+namespace GlobalNamespace {
+class SliderController;
+}
+namespace GlobalNamespace {
+class __MirroredSliderController__Pool;
+}
 namespace UnityEngine {
 class MeshFilter;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -65,6 +65,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::ISliderDidStartDissolvingEvent"
   constexpr operator ::GlobalNamespace::ISliderDidStartDissolvingEvent*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::ISliderDidStartDissolvingEvent"
+  constexpr ::GlobalNamespace::ISliderDidStartDissolvingEvent* i___GlobalNamespace__ISliderDidStartDissolvingEvent() noexcept;
 
   constexpr ::UnityEngine::MeshFilter*& __get__meshFilter();
 
@@ -177,8 +180,8 @@ static_assert(offsetof(::GlobalNamespace::MirroredSliderController, ____followed
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 2817 }), TypeDefinitionIndex(TypeDefinitionIndex(4758)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11050))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4757)) CS Name: ::MirroredSliderController::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4758)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// 2817 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4757)) CS Name: ::MirroredSliderController::Pool*
 class CORDL_TYPE __MirroredSliderController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MirroredSliderController*> {
 public:
   // Declarations

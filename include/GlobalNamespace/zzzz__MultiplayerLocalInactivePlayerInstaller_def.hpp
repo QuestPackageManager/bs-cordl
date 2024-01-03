@@ -8,19 +8,19 @@ namespace BeatSaber::AvatarCore {
 class OptionalAvatarDataSender;
 }
 namespace GlobalNamespace {
-class PlayerDataModel;
-}
-namespace GlobalNamespace {
 class AudioManagerSO;
 }
 namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
 }
 namespace GlobalNamespace {
-class RelativeSfxVolumePerLevelModel;
+class PerceivedLoudnessPerLevelModel;
 }
 namespace GlobalNamespace {
-class PerceivedLoudnessPerLevelModel;
+class PlayerDataModel;
+}
+namespace GlobalNamespace {
+class RelativeSfxVolumePerLevelModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {

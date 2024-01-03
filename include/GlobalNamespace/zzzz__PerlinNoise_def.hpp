@@ -38,8 +38,7 @@ public:
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_p();
 
   /// @brief Method OctavePerlin3D, addr 0x20f32c0, size 0xdc, virtual false, abstract: false, final false
-  /// @param repeat: int32_t (default: static_cast<int32_t>(0x0))
-  static inline float_t OctavePerlin3D(float_t x, float_t y, float_t z, int32_t octaves, float_t persistence, int32_t repeat = static_cast<int32_t>(0x0));
+  static inline float_t OctavePerlin3D(float_t x, float_t y, float_t z, int32_t octaves, float_t persistence, int32_t repeat);
 
   /// @brief Method Perlin3D, addr 0x20f339c, size 0x538, virtual false, abstract: false, final false
   static inline float_t Perlin3D(float_t x, float_t y, float_t z, int32_t repeat);

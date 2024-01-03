@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__SonyPlatformAdditionalContentModel_1_def.hpp"
 CORDL_MODULE_EXPORT(PS5PlatformAdditionalContentModel)
 namespace GlobalNamespace {
-class PS5LevelProductsModelSO;
-}
-namespace GlobalNamespace {
 class AlwaysOwnedContentContainerSO;
 }
 namespace GlobalNamespace {
 class ISonyCommerceHelper;
+}
+namespace GlobalNamespace {
+class PS5LevelProductsModelSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -10,10 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MenuEnvironmentManager)
 namespace GlobalNamespace {
-struct __MenuEnvironmentManager__MenuEnvironmentType;
+class __MenuEnvironmentManager__MenuEnvironmentObjects;
 }
 namespace GlobalNamespace {
-class __MenuEnvironmentManager__MenuEnvironmentObjects;
+struct __MenuEnvironmentManager__MenuEnvironmentType;
 }
 namespace UnityEngine {
 class GameObject;

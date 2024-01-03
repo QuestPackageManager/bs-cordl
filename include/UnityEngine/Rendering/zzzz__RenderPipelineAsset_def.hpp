@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(RenderPipelineAsset)
+namespace UnityEngine::Rendering {
+class RenderPipeline;
+}
 namespace UnityEngine {
 class Material;
 }
 namespace UnityEngine {
 class Shader;
-}
-namespace UnityEngine::Rendering {
-class RenderPipeline;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {

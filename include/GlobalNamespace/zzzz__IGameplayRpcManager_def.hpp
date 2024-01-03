@@ -7,43 +7,43 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IGameplayRpcManager)
 namespace GlobalNamespace {
-class NoteCutInfoNetSerializable;
-}
-namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettingsNetSerializable;
-}
-namespace GlobalNamespace {
-class NoteSpawnInfoNetSerializable;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4> class Action_4;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class SliderSpawnInfoNetSerializable;
-}
-namespace GlobalNamespace {
 class MultiplayerLevelCompletionResults;
 }
-namespace System {
-class IDisposable;
-}
 namespace GlobalNamespace {
-class PlayerSpecificSettingsAtStartNetSerializable;
+class NoteCutInfoNetSerializable;
 }
 namespace GlobalNamespace {
 class NoteMissInfoNetSerializable;
 }
 namespace GlobalNamespace {
+class NoteSpawnInfoNetSerializable;
+}
+namespace GlobalNamespace {
 class ObstacleSpawnInfoNetSerializable;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettingsAtStartNetSerializable;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettingsNetSerializable;
+}
+namespace GlobalNamespace {
+class SliderSpawnInfoNetSerializable;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace System {
+template <typename T1, typename T2, typename T3> class Action_3;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4> class Action_4;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -65,6 +65,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// @brief Method get_enabled, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_enabled();

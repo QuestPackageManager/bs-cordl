@@ -9,38 +9,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(KdTree_2)
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace UnityEngine::ProBuilder::KdTree {
-template <typename TKey, typename TValue> class IKdTree_2;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace UnityEngine::ProBuilder::KdTree {
-template <typename TKey, typename TValue> class __KdTree_2____c__DisplayClass33_0;
-}
-namespace UnityEngine::ProBuilder::KdTree {
-template <typename T> class ITypeMath_1;
-}
-namespace System::Text {
-class StringBuilder;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine::ProBuilder::KdTree {
-template <typename TKey, typename TValue> class __KdTree_2___GetEnumerator_d__33;
+namespace System::Collections::Generic {
+template <typename T> class Stack_1;
 }
-namespace UnityEngine::ProBuilder::KdTree {
-template <typename TItem, typename TDistance> class NearestNeighbourList_2;
+namespace System::Collections {
+class IEnumerable;
 }
-namespace UnityEngine::ProBuilder::KdTree {
-template <typename TKey, typename TValue> class KdTreeNode_2;
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
 }
 namespace UnityEngine::ProBuilder::KdTree {
 struct AddDuplicateBehavior;
@@ -48,20 +45,23 @@ struct AddDuplicateBehavior;
 namespace UnityEngine::ProBuilder::KdTree {
 template <typename T> struct HyperRect_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace UnityEngine::ProBuilder::KdTree {
+template <typename TKey, typename TValue> class IKdTree_2;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace UnityEngine::ProBuilder::KdTree {
+template <typename T> class ITypeMath_1;
 }
-namespace System {
-class Object;
+namespace UnityEngine::ProBuilder::KdTree {
+template <typename TKey, typename TValue> class KdTreeNode_2;
 }
-namespace System {
-class IDisposable;
+namespace UnityEngine::ProBuilder::KdTree {
+template <typename TItem, typename TDistance> class NearestNeighbourList_2;
 }
-namespace System::Collections::Generic {
-template <typename T> class Stack_1;
+namespace UnityEngine::ProBuilder::KdTree {
+template <typename TKey, typename TValue> class __KdTree_2___GetEnumerator_d__33;
+}
+namespace UnityEngine::ProBuilder::KdTree {
+template <typename TKey, typename TValue> class __KdTree_2____c__DisplayClass33_0;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::KdTree {
@@ -180,11 +180,21 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey,TValue>*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey,TValue>*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*
+  i___System__Collections__Generic__IEnumerator_1___UnityEngine__ProBuilder__KdTree__KdTreeNode_2_TKey_TValue___() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -285,7 +295,7 @@ namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15914))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15914)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15918))
 // CS Name: ::UnityEngine.ProBuilder.KdTree::KdTree`2<TKey,TValue>*
 class CORDL_TYPE KdTree_2 : public ::System::Object {
@@ -318,11 +328,21 @@ public:
   /// @brief Convert operator to "::UnityEngine::ProBuilder::KdTree::IKdTree_2<TKey,TValue>"
   constexpr operator ::UnityEngine::ProBuilder::KdTree::IKdTree_2<TKey, TValue>*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::ProBuilder::KdTree::IKdTree_2<TKey,TValue>"
+  constexpr ::UnityEngine::ProBuilder::KdTree::IKdTree_2<TKey, TValue>* i___UnityEngine__ProBuilder__KdTree__IKdTree_2_TKey_TValue_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey,TValue>*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey,TValue>*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*
+  i___System__Collections__Generic__IEnumerable_1___UnityEngine__ProBuilder__KdTree__KdTreeNode_2_TKey_TValue___() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr int32_t& __get_dimensions();
 

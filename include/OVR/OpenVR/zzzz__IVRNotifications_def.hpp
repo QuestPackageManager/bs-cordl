@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IVRNotifications)
 namespace OVR::OpenVR {
-struct EVRNotificationStyle;
+struct EVRNotificationError;
 }
 namespace OVR::OpenVR {
-struct EVRNotificationError;
+struct EVRNotificationStyle;
 }
 namespace OVR::OpenVR {
 struct EVRNotificationType;
@@ -20,8 +20,11 @@ struct EVRNotificationType;
 namespace OVR::OpenVR {
 struct NotificationBitmap_t;
 }
-namespace System {
-class Object;
+namespace OVR::OpenVR {
+class __IVRNotifications___CreateNotification;
+}
+namespace OVR::OpenVR {
+class __IVRNotifications___RemoveNotification;
 }
 namespace System {
 class AsyncCallback;
@@ -29,11 +32,8 @@ class AsyncCallback;
 namespace System {
 class IAsyncResult;
 }
-namespace OVR::OpenVR {
-class __IVRNotifications___CreateNotification;
-}
-namespace OVR::OpenVR {
-class __IVRNotifications___RemoveNotification;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

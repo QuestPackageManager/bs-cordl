@@ -6,16 +6,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AttributeTable)
 namespace Org::BouncyCastle::Asn1::Cms {
+class Attribute;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
 class Attributes;
 }
-namespace System::Collections {
-class IDictionary;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1EncodableVector;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class Attribute;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Set;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
@@ -23,11 +26,8 @@ class DerObjectIdentifier;
 namespace System::Collections {
 class Hashtable;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1EncodableVector;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
+namespace System::Collections {
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {

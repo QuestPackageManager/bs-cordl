@@ -13,44 +13,44 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AssemblyName)
+namespace Mono {
+struct MonoAssemblyName;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System::Reflection {
+struct AssemblyNameFlags;
+}
+namespace System::Reflection {
+class Assembly;
+}
 namespace System::Reflection {
 class StrongNameKeyPair;
 }
 namespace System::Runtime::InteropServices {
 class _AssemblyName;
 }
-namespace System::Reflection {
-struct AssemblyNameFlags;
-}
-namespace Mono {
-struct MonoAssemblyName;
-}
 namespace System::Runtime::Serialization {
 class IDeserializationCallback;
 }
-namespace System::Reflection {
-class Assembly;
-}
-namespace System {
-class ICloneable;
+namespace System::Runtime::Serialization {
+class ISerializable;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
-}
-namespace System {
-class Version;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System {
+class ICloneable;
+}
+namespace System {
 class Object;
 }
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::Globalization {
-class CultureInfo;
+namespace System {
+class Version;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -62,8 +62,8 @@ MARK_REF_PTR_T(::System::Reflection::AssemblyName);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3750)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3751)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3486)), TypeDefinitionIndex(TypeDefinitionIndex(3446)), TypeDefinitionIndex(TypeDefinitionIndex(3454))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3512))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3750)), TypeDefinitionIndex(TypeDefinitionIndex(3486)), TypeDefinitionIndex(TypeDefinitionIndex(3446)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3454)), TypeDefinitionIndex(TypeDefinitionIndex(3751)), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3512))
 // CS Name: ::System.Reflection::AssemblyName*
 class CORDL_TYPE AssemblyName : public ::System::Object {
 public:
@@ -131,14 +131,26 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
   constexpr operator ::System::Runtime::Serialization::IDeserializationCallback*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
+  constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::InteropServices::_AssemblyName"
   constexpr operator ::System::Runtime::InteropServices::_AssemblyName*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::InteropServices::_AssemblyName"
+  constexpr ::System::Runtime::InteropServices::_AssemblyName* i___System__Runtime__InteropServices___AssemblyName() noexcept;
 
   constexpr ::StringW& __get_name();
 

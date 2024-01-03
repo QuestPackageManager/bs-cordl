@@ -3,15 +3,15 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConditionalWeakTable_2_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConditionalWeakTable_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__Ephemeron_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConditionalWeakTable_2_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__Ephemeron_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 template <typename TKey, typename TValue>
 inline ::System::Runtime::CompilerServices::__ConditionalWeakTable_2__CreateValueCallback<TKey, TValue>*
 System::Runtime::CompilerServices::__ConditionalWeakTable_2__CreateValueCallback<TKey, TValue>::New_ctor(::System::Object* object, void* method) {
@@ -38,12 +38,27 @@ constexpr System::Runtime::CompilerServices::__ConditionalWeakTable_2__Enumerato
     ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* System::Runtime::CompilerServices::__ConditionalWeakTable_2__Enumerator<
+    TKey, TValue>::i___System__Collections__Generic__IEnumerator_1___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::IDisposable"
 template <typename TKey, typename TValue> constexpr System::Runtime::CompilerServices::__ConditionalWeakTable_2__Enumerator<TKey, TValue>::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::IDisposable"
+template <typename TKey, typename TValue> constexpr ::System::IDisposable* System::Runtime::CompilerServices::__ConditionalWeakTable_2__Enumerator<TKey, TValue>::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 template <typename TKey, typename TValue> constexpr System::Runtime::CompilerServices::__ConditionalWeakTable_2__Enumerator<TKey, TValue>::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::IEnumerator* System::Runtime::CompilerServices::__ConditionalWeakTable_2__Enumerator<TKey, TValue>::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 template <typename TKey, typename TValue>
@@ -146,8 +161,19 @@ constexpr System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue
     ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
+System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>::i___System__Collections__Generic__IEnumerable_1___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename TKey, typename TValue> constexpr System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::IEnumerable* System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 template <typename TKey, typename TValue>

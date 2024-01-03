@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerSpaceConvertor);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5276))
 // CS Name: ::PlayerSpaceConvertor*
 class CORDL_TYPE PlayerSpaceConvertor : public ::UnityEngine::MonoBehaviour {

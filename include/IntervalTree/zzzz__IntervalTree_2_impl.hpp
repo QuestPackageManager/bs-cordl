@@ -1,16 +1,16 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "IntervalTree/zzzz__IntervalTree_2_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "IntervalTree/zzzz__IIntervalTree_2_def.hpp"
+#include "IntervalTree/zzzz__IntervalTreeNode_2_def.hpp"
 #include "IntervalTree/zzzz__IntervalTree_2_def.hpp"
+#include "IntervalTree/zzzz__RangeValuePair_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "IntervalTree/zzzz__RangeValuePair_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "IntervalTree/zzzz__IntervalTreeNode_2_def.hpp"
-#include "IntervalTree/zzzz__IIntervalTree_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 template <typename TKey, typename TValue> inline void IntervalTree::__IntervalTree_2____c<TKey, TValue>::setStaticF___9(::IntervalTree::__IntervalTree_2____c<TKey, TValue>* value) {
   ::cordl_internals::setStaticField<::IntervalTree::__IntervalTree_2____c<TKey, TValue>*, "<>9",
@@ -201,13 +201,28 @@ template <typename TKey, typename TValue> constexpr ::IntervalTree::__IntervalTr
 template <typename TKey, typename TValue> constexpr IntervalTree::IntervalTree_2<TKey, TValue>::operator ::IntervalTree::IIntervalTree_2<TKey, TValue>*() noexcept {
   return static_cast<::IntervalTree::IIntervalTree_2<TKey, TValue>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::IntervalTree::IIntervalTree_2<TKey,TValue>"
+template <typename TKey, typename TValue>
+constexpr ::IntervalTree::IIntervalTree_2<TKey, TValue>* IntervalTree::IntervalTree_2<TKey, TValue>::i___IntervalTree__IIntervalTree_2_TKey_TValue_() noexcept {
+  return static_cast<::IntervalTree::IIntervalTree_2<TKey, TValue>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::IntervalTree::RangeValuePair_2<TKey,TValue>>"
 template <typename TKey, typename TValue>
 constexpr IntervalTree::IntervalTree_2<TKey, TValue>::operator ::System::Collections::Generic::IEnumerable_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::IntervalTree::RangeValuePair_2<TKey,TValue>>"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::IEnumerable_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*
+IntervalTree::IntervalTree_2<TKey, TValue>::i___System__Collections__Generic__IEnumerable_1___IntervalTree__RangeValuePair_2_TKey_TValue__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename TKey, typename TValue> constexpr IntervalTree::IntervalTree_2<TKey, TValue>::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename TKey, typename TValue> constexpr ::System::Collections::IEnumerable* IntervalTree::IntervalTree_2<TKey, TValue>::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 template <typename TKey, typename TValue> constexpr ::IntervalTree::IntervalTreeNode_2<TKey, TValue>*& IntervalTree::IntervalTree_2<TKey, TValue>::__get_root() {

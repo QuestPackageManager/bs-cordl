@@ -9,14 +9,8 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AudioSettings)
-namespace UnityEngine {
-class __AudioSettings__AudioConfigurationChangeHandler;
-}
-namespace UnityEngine {
-struct AudioConfiguration;
-}
-namespace UnityEngine {
-class __AudioSettings__Mobile;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System {
 class Action;
@@ -24,8 +18,14 @@ class Action;
 namespace System {
 class Object;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace UnityEngine {
+struct AudioConfiguration;
+}
+namespace UnityEngine {
+class __AudioSettings__AudioConfigurationChangeHandler;
+}
+namespace UnityEngine {
+class __AudioSettings__Mobile;
 }
 // Forward declare root types
 namespace UnityEngine {

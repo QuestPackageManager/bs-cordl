@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRBoneCapsule)
 namespace UnityEngine {
-class Rigidbody;
+class CapsuleCollider;
 }
 namespace UnityEngine {
-class CapsuleCollider;
+class Rigidbody;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -12,29 +12,29 @@ CORDL_MODULE_EXPORT(TermInfoDriver)
 namespace System::Collections {
 class Hashtable;
 }
-namespace System {
-class IConsoleDriver;
-}
-namespace System {
-class ByteMatcher;
+namespace System::IO {
+class CStreamWriter;
 }
 namespace System::IO {
 class StreamReader;
 }
 namespace System {
-class TermInfoReader;
-}
-namespace System::IO {
-class CStreamWriter;
+class ByteMatcher;
 }
 namespace System {
-struct TermInfoStrings;
+struct ConsoleKeyInfo;
+}
+namespace System {
+class IConsoleDriver;
 }
 namespace System {
 class Object;
 }
 namespace System {
-struct ConsoleKeyInfo;
+class TermInfoReader;
+}
+namespace System {
+struct TermInfoStrings;
 }
 // Forward declare root types
 namespace System {
@@ -192,6 +192,9 @@ public:
 
   /// @brief Convert operator to "::System::IConsoleDriver"
   constexpr operator ::System::IConsoleDriver*() noexcept;
+
+  /// @brief Convert to "::System::IConsoleDriver"
+  constexpr ::System::IConsoleDriver* i___System__IConsoleDriver() noexcept;
 
   constexpr ::System::TermInfoReader*& __get_reader();
 

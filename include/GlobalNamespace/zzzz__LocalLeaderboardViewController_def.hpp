@@ -8,37 +8,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LocalLeaderboardViewController)
 namespace GlobalNamespace {
-class ISaveData;
-}
-namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
-namespace HMUI {
-class SegmentedControl;
+namespace GlobalNamespace {
+class ISaveData;
 }
 namespace GlobalNamespace {
 class LocalLeaderboardTableView;
 }
-namespace HMUI {
-class IconSegmentedControl;
-}
 namespace GlobalNamespace {
-struct __LocalLeaderboardsModel__LeaderboardType;
+class LocalLeaderboardsModel;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
 }
+namespace GlobalNamespace {
+struct __LocalLeaderboardsModel__LeaderboardType;
+}
+namespace HMUI {
+class IconSegmentedControl;
+}
 namespace HMUI {
 class NoTransitionsButton;
 }
-namespace GlobalNamespace {
-class LocalLeaderboardsModel;
-}
-namespace UnityEngine {
-class Sprite;
+namespace HMUI {
+class SegmentedControl;
 }
 namespace UnityEngine {
 class GameObject;
+}
+namespace UnityEngine {
+class Sprite;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -50,7 +50,7 @@ MARK_REF_PTR_T(::GlobalNamespace::LocalLeaderboardViewController);
 // SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 210, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5650)), TypeDefinitionIndex(TypeDefinitionIndex(4214))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4214)), TypeDefinitionIndex(TypeDefinitionIndex(5650))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5689))
 // CS Name: ::LocalLeaderboardViewController*
 class CORDL_TYPE LocalLeaderboardViewController : public ::GlobalNamespace::LeaderboardViewController {

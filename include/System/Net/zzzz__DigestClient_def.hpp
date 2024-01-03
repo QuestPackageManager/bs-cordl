@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DigestClient)
-namespace System::Net {
-class Authorization;
-}
 namespace System::Collections {
 class Hashtable;
 }
 namespace System::Net {
-class ICredentials;
+class Authorization;
 }
 namespace System::Net {
 class IAuthenticationModule;
+}
+namespace System::Net {
+class ICredentials;
 }
 namespace System::Net {
 class WebRequest;
@@ -44,6 +44,9 @@ public:
 
   /// @brief Convert operator to "::System::Net::IAuthenticationModule"
   constexpr operator ::System::Net::IAuthenticationModule*() noexcept;
+
+  /// @brief Convert to "::System::Net::IAuthenticationModule"
+  constexpr ::System::Net::IAuthenticationModule* i___System__Net__IAuthenticationModule() noexcept;
 
   static inline void setStaticF_cache(::System::Collections::Hashtable* value);
 

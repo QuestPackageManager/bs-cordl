@@ -8,43 +8,43 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ClaimsIdentity)
 namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System {
-class Object;
-}
-namespace System::Security::Claims {
-class __ClaimsIdentity___get_Claims_d__51;
 }
 namespace System::Collections::ObjectModel {
 template <typename T> class Collection_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Security::Principal {
-class IIdentity;
-}
-namespace System::Security::Claims {
-class Claim;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
 namespace System::Collections {
 class IEnumerable;
-}
-namespace System {
-class IDisposable;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Security::Claims {
+class Claim;
+}
+namespace System::Security::Claims {
+class __ClaimsIdentity___get_Claims_d__51;
+}
+namespace System::Security::Principal {
+class IIdentity;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Security::Claims {
@@ -92,17 +92,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>* i___System__Collections__Generic__IEnumerable_1___System__Security__Claims__Claim__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Security::Claims::Claim*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Security::Claims::Claim*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Security::Claims::Claim*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Security::Claims::Claim*>* i___System__Collections__Generic__IEnumerator_1___System__Security__Claims__Claim__() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -284,6 +299,9 @@ public:
 
   /// @brief Convert operator to "::System::Security::Principal::IIdentity"
   constexpr operator ::System::Security::Principal::IIdentity*() noexcept;
+
+  /// @brief Convert to "::System::Security::Principal::IIdentity"
+  constexpr ::System::Security::Principal::IIdentity* i___System__Security__Principal__IIdentity() noexcept;
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_m_userSerializationData();
 

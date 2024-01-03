@@ -10,38 +10,38 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetworkPlayersTableView)
-namespace HMUI {
-class TableCell;
-}
 namespace GlobalNamespace {
-class NetworkPlayerOptionsTableCell;
-}
-namespace HMUI {
-class __TableView__IDataSource;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class INetworkPlayer;
 }
 namespace GlobalNamespace {
 class LevelPackHeaderTableCell;
 }
-namespace HMUI {
-class TableView;
+namespace GlobalNamespace {
+class NetworkPlayerOptionsTableCell;
 }
 namespace GlobalNamespace {
 class NetworkPlayerTableCell;
-}
-namespace GlobalNamespace {
-class INetworkPlayer;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 namespace GlobalNamespace {
 class __NetworkPlayersTableView__CellInfo;
 }
 namespace GlobalNamespace {
 struct __NetworkPlayersTableView__CellInfo__CellType;
+}
+namespace HMUI {
+class TableCell;
+}
+namespace HMUI {
+class TableView;
+}
+namespace HMUI {
+class __TableView__IDataSource;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -115,7 +115,7 @@ static_assert(offsetof(::GlobalNamespace::__NetworkPlayersTableView__CellInfo__C
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5585)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5585))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5586))
 // CS Name: ::NetworkPlayersTableView::CellInfo*
 class CORDL_TYPE __NetworkPlayersTableView__CellInfo : public ::System::Object {
@@ -245,6 +245,9 @@ public:
 
   /// @brief Convert operator to "::HMUI::__TableView__IDataSource"
   constexpr operator ::HMUI::__TableView__IDataSource*() noexcept;
+
+  /// @brief Convert to "::HMUI::__TableView__IDataSource"
+  constexpr ::HMUI::__TableView__IDataSource* i___HMUI____TableView__IDataSource() noexcept;
 
   constexpr ::HMUI::TableView*& __get__tableView();
 

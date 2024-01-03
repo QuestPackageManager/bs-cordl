@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JsonMergeSettings);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11972)), TypeDefinitionIndex(TypeDefinitionIndex(11973))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11973)), TypeDefinitionIndex(TypeDefinitionIndex(11972))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11971))
 // CS Name: ::Newtonsoft.Json.Linq::JsonMergeSettings*
 class CORDL_TYPE JsonMergeSettings : public ::System::Object {

@@ -11,8 +11,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_PDGAssetLink)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace HoudiniEngineUnity {
+struct HAPI_NodeInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_PDG_WorkitemInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_PDG_WorkitemResultInfo;
+}
+namespace HoudiniEngineUnity {
+class HEU_CookedEventData;
+}
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset;
+}
+namespace HoudiniEngineUnity {
+class HEU_ReloadEventData;
 }
 namespace HoudiniEngineUnity {
 class HEU_SessionBase;
@@ -21,58 +36,43 @@ namespace HoudiniEngineUnity {
 class HEU_TOPNetworkData;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_PDG_WorkitemResultInfo;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_NodeInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_PDG_WorkitemInfo;
-}
-namespace HoudiniEngineUnity {
-struct __HEU_PDGAssetLink__LinkState;
-}
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
-}
-namespace HoudiniEngineUnity {
-class HEU_ReloadEventData;
-}
-namespace HoudiniEngineUnity {
-class TOPNodeTags;
-}
-namespace HoudiniEngineUnity {
-class HEU_CookedEventData;
-}
-namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace HoudiniEngineUnity {
-class HEU_WorkItemTally;
-}
-namespace HoudiniEngineUnity {
-class __HEU_PDGAssetLink__UpdateUIDelegate;
+class HEU_TOPNodeData;
 }
 namespace HoudiniEngineUnity {
 class HEU_TOPWorkResult;
 }
 namespace HoudiniEngineUnity {
-class HEU_TOPNodeData;
+class HEU_WorkItemTally;
 }
-namespace System {
-class Object;
+namespace HoudiniEngineUnity {
+class TOPNodeTags;
+}
+namespace HoudiniEngineUnity {
+struct __HEU_PDGAssetLink__LinkState;
+}
+namespace HoudiniEngineUnity {
+class __HEU_PDGAssetLink__UpdateUIDelegate;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -260,6 +260,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
+  constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
   constexpr ::StringW& __get__assetPath();
 

@@ -7,6 +7,11 @@
 template <typename T> constexpr UnityEngine::UIElements::PointerCaptureEventBase_1<T>::operator ::UnityEngine::UIElements::IPointerCaptureEventInternal*() noexcept {
   return static_cast<::UnityEngine::UIElements::IPointerCaptureEventInternal*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::UnityEngine::UIElements::IPointerCaptureEventInternal"
+template <typename T>
+constexpr ::UnityEngine::UIElements::IPointerCaptureEventInternal* UnityEngine::UIElements::PointerCaptureEventBase_1<T>::i___UnityEngine__UIElements__IPointerCaptureEventInternal() noexcept {
+  return static_cast<::UnityEngine::UIElements::IPointerCaptureEventInternal*>(static_cast<void*>(this));
+}
 template <typename T> constexpr ::UnityEngine::UIElements::IEventHandler*& UnityEngine::UIElements::PointerCaptureEventBase_1<T>::__get__relatedTarget_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____relatedTarget_k__BackingField;

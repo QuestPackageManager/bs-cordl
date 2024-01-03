@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(NoPlatformInit)
-namespace Zenject {
-class IInitializable;
+namespace GlobalNamespace {
+class IPlatformInit;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
-namespace GlobalNamespace {
-class IPlatformInit;
+namespace Zenject {
+class IInitializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,8 +34,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPlatformInit"
   constexpr operator ::GlobalNamespace::IPlatformInit*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IPlatformInit"
+  constexpr ::GlobalNamespace::IPlatformInit* i___GlobalNamespace__IPlatformInit() noexcept;
+
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
+
+  /// @brief Convert to "::Zenject::IInitializable"
+  constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
 
   /// @brief Method Initialize, addr 0x27fddd0, size 0x4, virtual true, abstract: false, final true
   inline void Initialize();

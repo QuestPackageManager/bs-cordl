@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CrossAppDomainChannel)
-namespace System {
-class Object;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
+namespace System::Runtime::Remoting::Channels {
+class IChannelReceiver;
 }
 namespace System::Runtime::Remoting::Channels {
 class IChannelSender;
 }
 namespace System::Runtime::Remoting::Channels {
-class IChannelReceiver;
-}
-namespace System::Runtime::Remoting::Channels {
 class IChannel;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessageSink;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Channels {
@@ -50,11 +50,20 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Channels::IChannel"
   constexpr operator ::System::Runtime::Remoting::Channels::IChannel*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Remoting::Channels::IChannel"
+  constexpr ::System::Runtime::Remoting::Channels::IChannel* i___System__Runtime__Remoting__Channels__IChannel() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Remoting::Channels::IChannelSender"
   constexpr operator ::System::Runtime::Remoting::Channels::IChannelSender*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Remoting::Channels::IChannelSender"
+  constexpr ::System::Runtime::Remoting::Channels::IChannelSender* i___System__Runtime__Remoting__Channels__IChannelSender() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Remoting::Channels::IChannelReceiver"
   constexpr operator ::System::Runtime::Remoting::Channels::IChannelReceiver*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Remoting::Channels::IChannelReceiver"
+  constexpr ::System::Runtime::Remoting::Channels::IChannelReceiver* i___System__Runtime__Remoting__Channels__IChannelReceiver() noexcept;
 
   static inline void setStaticF_s_lock(::System::Object* value);
 

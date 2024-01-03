@@ -91,8 +91,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__NavigationMoveEvent__Directi
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7249)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(7248)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7248), inst: 4702 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7250)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7248)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7248), inst: 4702 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(7249)), TypeDefinitionIndex(TypeDefinitionIndex(10243))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7250)) CS Name:
 // ::UnityEngine.UIElements::NavigationMoveEvent*
 class CORDL_TYPE NavigationMoveEvent : public ::UnityEngine::UIElements::NavigationEventBase_1<::UnityEngine::UIElements::NavigationMoveEvent*> {
 public:
@@ -122,8 +122,7 @@ public:
   constexpr void __set__move_k__BackingField(::UnityEngine::Vector2 value);
 
   /// @brief Method DetermineMoveDirection, addr 0x2e52eb4, size 0x54, virtual false, abstract: false, final false
-  /// @param deadZone: float_t (default: 0.6)
-  static inline ::UnityEngine::UIElements::__NavigationMoveEvent__Direction DetermineMoveDirection(float_t x, float_t y, float_t deadZone = 0.6);
+  static inline ::UnityEngine::UIElements::__NavigationMoveEvent__Direction DetermineMoveDirection(float_t x, float_t y, float_t deadZone);
 
   /// @brief Method get_direction, addr 0x2e52f08, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::__NavigationMoveEvent__Direction get_direction();

@@ -4,8 +4,8 @@
 #include "LIV/SDK/Unity/zzzz__SDKVector3_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKTrackedSpace_def.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKMatrix4x4_def.hpp"
-#include "LIV/SDK/Unity/zzzz__SDKVector3_def.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKQuaternion_def.hpp"
+#include "LIV/SDK/Unity/zzzz__SDKVector3_def.hpp"
 //  Writing Method size for method: ::LIV::SDK::Unity::SDKTrackedSpace.get_empty
 template <>
 
@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x22155b0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKTrackedSpace>::get(), "get_empty",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x244;
   constexpr static std::size_t addrs = 0x22156d8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKTrackedSpace>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKTrackedSpace>::get(), 3));

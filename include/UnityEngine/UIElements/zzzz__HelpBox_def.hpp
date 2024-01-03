@@ -8,31 +8,31 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HelpBox)
 namespace UnityEngine::UIElements {
+struct CreationContext;
+}
+namespace UnityEngine::UIElements {
 struct HelpBoxMessageType;
-}
-namespace UnityEngine::UIElements {
-class __HelpBox__UxmlTraits;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-class Label;
-}
-namespace UnityEngine::UIElements {
-class __HelpBox__UxmlFactory;
-}
-namespace UnityEngine::UIElements {
-class UxmlStringAttributeDescription;
-}
-namespace UnityEngine::UIElements {
-template <typename T> class UxmlEnumAttributeDescription_1;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class Label;
+}
+namespace UnityEngine::UIElements {
+template <typename T> class UxmlEnumAttributeDescription_1;
+}
+namespace UnityEngine::UIElements {
+class UxmlStringAttributeDescription;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+class __HelpBox__UxmlFactory;
+}
+namespace UnityEngine::UIElements {
+class __HelpBox__UxmlTraits;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -118,7 +118,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__HelpBox__UxmlTraits, ___m_Me
 // SizeInfo { instance_size: 976, native_size: -1, calculated_instance_size: 976, calculated_native_size: 976, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6744)), TypeDefinitionIndex(TypeDefinitionIndex(7109))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7109)), TypeDefinitionIndex(TypeDefinitionIndex(6744))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7112))
 // CS Name: ::UnityEngine.UIElements::HelpBox*
 class CORDL_TYPE HelpBox : public ::UnityEngine::UIElements::VisualElement {
@@ -276,7 +276,7 @@ static_assert(offsetof(::UnityEngine::UIElements::HelpBox, ___m_Label) == 0x3c8,
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7112)), TypeDefinitionIndex(TypeDefinitionIndex(6997)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5262
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7112)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5262
 // }), TypeDefinitionIndex(TypeDefinitionIndex(7111))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7110)) CS Name: ::HelpBox::UxmlFactory*
 class CORDL_TYPE __HelpBox__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::HelpBox*, ::UnityEngine::UIElements::__HelpBox__UxmlTraits*> {
 public:

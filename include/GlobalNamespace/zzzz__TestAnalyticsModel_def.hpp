@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(TestAnalyticsModel)
 namespace GlobalNamespace {
+class IAnalyticsModel;
+}
+namespace GlobalNamespace {
 class __TestAnalyticsModel____c;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
-class IAnalyticsModel;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
@@ -98,6 +98,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IAnalyticsModel"
   constexpr operator ::GlobalNamespace::IAnalyticsModel*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IAnalyticsModel"
+  constexpr ::GlobalNamespace::IAnalyticsModel* i___GlobalNamespace__IAnalyticsModel() noexcept;
 
   /// @brief Method get_supportsOpenDataPrivacyPage, addr 0xdfcf20, size 0x8, virtual true, abstract: false, final true
   inline bool get_supportsOpenDataPrivacyPage();

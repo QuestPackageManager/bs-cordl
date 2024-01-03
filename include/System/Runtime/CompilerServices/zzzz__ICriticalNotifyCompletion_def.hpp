@@ -3,11 +3,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ICriticalNotifyCompletion)
-namespace System {
-class Action;
-}
 namespace System::Runtime::CompilerServices {
 class INotifyCompletion;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
@@ -27,6 +27,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::INotifyCompletion"
+  constexpr ::System::Runtime::CompilerServices::INotifyCompletion* i___System__Runtime__CompilerServices__INotifyCompletion() noexcept;
 
   /// @brief Method UnsafeOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UnsafeOnCompleted(::System::Action* continuation);

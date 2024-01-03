@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(JumpReceiver)
-namespace UnityEngine::Playables {
-class INotificationReceiver;
-}
 namespace System {
 class Object;
 }
 namespace UnityEngine::Playables {
-struct Playable;
+class INotificationReceiver;
 }
 namespace UnityEngine::Playables {
 class INotification;
+}
+namespace UnityEngine::Playables {
+struct Playable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -39,6 +39,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::Playables::INotificationReceiver"
   constexpr operator ::UnityEngine::Playables::INotificationReceiver*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::Playables::INotificationReceiver"
+  constexpr ::UnityEngine::Playables::INotificationReceiver* i___UnityEngine__Playables__INotificationReceiver() noexcept;
 
   constexpr bool& __get__jumpToDestinationValid_k__BackingField();
 

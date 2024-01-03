@@ -3,11 +3,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ICanvasElement)
-namespace UnityEngine {
-class Transform;
-}
 namespace UnityEngine::UI {
 struct CanvasUpdate;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace UnityEngine::UI {

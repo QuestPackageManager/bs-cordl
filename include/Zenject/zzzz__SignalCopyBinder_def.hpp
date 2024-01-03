@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SignalCopyBinder)
-namespace Zenject {
-class BindInfo;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace Zenject {
+class BindInfo;
 }
 namespace Zenject {
 struct BindingInheritanceMethods;

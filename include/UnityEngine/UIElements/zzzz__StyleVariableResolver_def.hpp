@@ -10,17 +10,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleVariableResolver)
-namespace UnityEngine::UIElements {
-struct __StyleVariableResolver__ResolveContext;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class Stack_1;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct StylePropertyValue;
-}
-namespace UnityEngine::UIElements {
-class StyleProperty;
 }
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 class StyleSyntaxParser;
@@ -28,20 +22,26 @@ class StyleSyntaxParser;
 namespace UnityEngine::UIElements::StyleSheets {
 class StylePropertyValueMatcher;
 }
+namespace UnityEngine::UIElements::StyleSheets {
+struct StylePropertyValue;
+}
 namespace UnityEngine::UIElements {
-class StyleVariableContext;
+class StyleProperty;
 }
 namespace UnityEngine::UIElements {
 class StyleSheet;
 }
 namespace UnityEngine::UIElements {
-struct __StyleVariableResolver__Result;
-}
-namespace UnityEngine::UIElements {
 struct StyleValueHandle;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::UIElements {
+class StyleVariableContext;
+}
+namespace UnityEngine::UIElements {
+struct __StyleVariableResolver__ResolveContext;
+}
+namespace UnityEngine::UIElements {
+struct __StyleVariableResolver__Result;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -153,7 +153,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__StyleVariableResolver__Resol
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7268)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7268))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7269))
 // CS Name: ::UnityEngine.UIElements::StyleVariableResolver*
 class CORDL_TYPE StyleVariableResolver : public ::System::Object {

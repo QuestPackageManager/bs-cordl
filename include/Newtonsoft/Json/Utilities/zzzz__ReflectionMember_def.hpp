@@ -8,13 +8,13 @@ namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace System {
-class Type;
-}
-namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {

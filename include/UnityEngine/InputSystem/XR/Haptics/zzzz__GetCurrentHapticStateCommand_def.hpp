@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GetCurrentHapticStateCommand)
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
-}
-namespace UnityEngine::InputSystem::XR::Haptics {
-struct HapticState;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputDeviceCommandInfo;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputDeviceCommand;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
+}
+namespace UnityEngine::InputSystem::XR::Haptics {
+struct HapticState;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XR::Haptics {
@@ -50,6 +50,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
+
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& __get_baseCommand();
 

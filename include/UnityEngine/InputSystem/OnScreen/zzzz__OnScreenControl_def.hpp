@@ -10,17 +10,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OnScreenControl)
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace UnityEngine::InputSystem::OnScreen {
-struct __OnScreenControl__OnScreenDeviceInfo;
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
 }
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+namespace UnityEngine::InputSystem::OnScreen {
+struct __OnScreenControl__OnScreenDeviceInfo;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
 }
 namespace UnityEngine::InputSystem {
 class InputDevice;
@@ -39,8 +39,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::OnScreen::__OnScreenControl__OnScreenDevi
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::OnScreen {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741 }), TypeDefinitionIndex(TypeDefinitionIndex(6536)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9999))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6387)) CS Name: ::OnScreenControl::OnScreenDeviceInfo
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6536)), TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6387)) CS Name: ::OnScreenControl::OnScreenDeviceInfo
 struct CORDL_TYPE __OnScreenControl__OnScreenDeviceInfo {
 public:
   // Declarations
@@ -96,8 +96,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::OnScreen::__OnScreenControl__
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::OnScreen {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(6536)), TypeDefinitionIndex(TypeDefinitionIndex(6669)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3872 }), TypeDefinitionIndex(TypeDefinitionIndex(6387))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6388)) CS
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6536)), TypeDefinitionIndex(TypeDefinitionIndex(6387)), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3872 }), TypeDefinitionIndex(TypeDefinitionIndex(6669))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6388)) CS
 // Name: ::UnityEngine.InputSystem.OnScreen::OnScreenControl*
 class CORDL_TYPE OnScreenControl : public ::UnityEngine::MonoBehaviour {
 public:

@@ -7,38 +7,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRSceneRoom)
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class OVRScenePlane;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-template <typename T> class Comparison_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace GlobalNamespace {
 class IOVRSceneComponent;
 }
 namespace GlobalNamespace {
-class OVRSceneManager;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+struct OVRAnchor;
 }
 namespace GlobalNamespace {
 class OVRSceneAnchor;
 }
 namespace GlobalNamespace {
-struct OVRAnchor;
+class OVRSceneManager;
+}
+namespace GlobalNamespace {
+class OVRScenePlane;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace System {
+template <typename T> class Comparison_1;
 }
 namespace System {
 struct Guid;
@@ -113,6 +113,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IOVRSceneComponent"
   constexpr operator ::GlobalNamespace::IOVRSceneComponent*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IOVRSceneComponent"
+  constexpr ::GlobalNamespace::IOVRSceneComponent* i___GlobalNamespace__IOVRSceneComponent() noexcept;
 
   constexpr ::GlobalNamespace::OVRScenePlane*& __get__Floor_k__BackingField();
 

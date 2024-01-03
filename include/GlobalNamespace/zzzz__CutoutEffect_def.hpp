@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(CutoutEffect)
 namespace GlobalNamespace {
 class BoolSO;
 }
-namespace UnityEngine {
-struct Vector3;
-}
 namespace GlobalNamespace {
 class MaterialPropertyBlockController;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {

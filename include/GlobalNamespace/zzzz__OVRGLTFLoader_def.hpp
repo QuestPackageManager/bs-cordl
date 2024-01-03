@@ -17,29 +17,41 @@ CORDL_MODULE_EXPORT(OVRGLTFLoader)
 namespace GlobalNamespace {
 struct OVRChunkType;
 }
-namespace UnityEngine {
-class Texture2D;
-}
-namespace GlobalNamespace {
-struct OVRTextureData;
-}
-namespace OVRSimpleJSON {
-class JSONNode;
-}
 namespace GlobalNamespace {
 class OVRGLTFAnimatinonNode;
 }
 namespace GlobalNamespace {
-struct OVRMaterialData;
+class OVRGLTFAnimationNodeMorphTargetHandler;
+}
+namespace GlobalNamespace {
+struct OVRGLTFInputNode;
 }
 namespace GlobalNamespace {
 struct OVRGLTFScene;
 }
 namespace GlobalNamespace {
+struct OVRMaterialData;
+}
+namespace GlobalNamespace {
+struct OVRMeshAttributes;
+}
+namespace GlobalNamespace {
+struct OVRMeshData;
+}
+namespace GlobalNamespace {
+struct OVRTextureData;
+}
+namespace GlobalNamespace {
+struct OVRTextureQualityFiltering;
+}
+namespace GlobalNamespace {
 class __OVRGLTFLoader____c__DisplayClass30_0;
 }
-namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
+namespace OVRSimpleJSON {
+class JSONNode;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -47,35 +59,23 @@ template <typename T> class List_1;
 namespace System::IO {
 class Stream;
 }
-namespace GlobalNamespace {
-struct OVRMeshAttributes;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace GlobalNamespace {
-struct OVRTextureQualityFiltering;
-}
-namespace GlobalNamespace {
-class OVRGLTFAnimationNodeMorphTargetHandler;
+namespace System {
+template <typename T1, typename T2, typename TResult> class Func_3;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine {
-class SkinnedMeshRenderer;
-}
-namespace GlobalNamespace {
-struct OVRMeshData;
+class Material;
 }
 namespace UnityEngine {
 class Shader;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace UnityEngine {
+class SkinnedMeshRenderer;
 }
-namespace GlobalNamespace {
-struct OVRGLTFInputNode;
+namespace UnityEngine {
+class Texture2D;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -157,8 +157,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRGLTFLoader____c__DisplayClass30_0
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(7564)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7563))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7571)) CS Name: ::OVRGLTFLoader*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7564)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(7563))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7571)) CS Name: ::OVRGLTFLoader*
 class CORDL_TYPE OVRGLTFLoader : public ::System::Object {
 public:
   // Declarations
@@ -321,8 +321,7 @@ public:
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   /// @brief Method LoadGLB, addr 0x2722ff0, size 0x638, virtual false, abstract: false, final false
-  /// @param loadMips: bool (default: true)
-  inline ::GlobalNamespace::OVRGLTFScene LoadGLB(bool supportAnimation, bool loadMips = true);
+  inline ::GlobalNamespace::OVRGLTFScene LoadGLB(bool supportAnimation, bool loadMips);
 
   /// @brief Method SetModelShader, addr 0x2723e14, size 0x8, virtual false, abstract: false, final false
   inline void SetModelShader(::UnityEngine::Shader* shader);

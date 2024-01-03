@@ -28,6 +28,9 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::BeatSaber::AvatarCore::OptionalAvatarData>"
   constexpr operator ::System::IEquatable_1<::BeatSaber::AvatarCore::OptionalAvatarData>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::BeatSaber::AvatarCore::OptionalAvatarData>"
+  constexpr ::System::IEquatable_1<::BeatSaber::AvatarCore::OptionalAvatarData>* i___System__IEquatable_1___BeatSaber__AvatarCore__OptionalAvatarData_();
+
   /// @brief Method Equals, addr 0xe10c10, size 0xbc, virtual true, abstract: false, final true
   inline bool Equals(::BeatSaber::AvatarCore::OptionalAvatarData other);
 

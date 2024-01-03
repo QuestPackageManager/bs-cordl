@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::NavigationSubmitEvent);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 124, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7248)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7248), inst: 4703 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7248), inst: 4703 }), TypeDefinitionIndex(TypeDefinitionIndex(7248))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7254))
 // CS Name: ::UnityEngine.UIElements::NavigationSubmitEvent*
 class CORDL_TYPE NavigationSubmitEvent : public ::UnityEngine::UIElements::NavigationEventBase_1<::UnityEngine::UIElements::NavigationSubmitEvent*> {

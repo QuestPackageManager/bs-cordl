@@ -8,31 +8,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameplayModifiersDropdown)
 namespace GlobalNamespace {
+struct GameplayModifierMask;
+}
+namespace GlobalNamespace {
 class GameplayModifiersModelSO;
-}
-namespace System {
-template <typename T1, typename T2> class Tuple_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
 class __GameplayModifiersDropdown____c;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace HMUI {
+class DropdownWithTableView;
 }
 namespace HMUI {
 class SimpleTextDropdown;
 }
-namespace GlobalNamespace {
-struct GameplayModifierMask;
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
-namespace HMUI {
-class DropdownWithTableView;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+template <typename T1, typename T2> class Tuple_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

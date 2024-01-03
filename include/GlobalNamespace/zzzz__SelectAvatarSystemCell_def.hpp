@@ -9,17 +9,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SelectAvatarSystemCell)
-namespace System {
-template <typename T> class Action_1;
-}
 namespace BeatSaber::AvatarCore {
 class AvatarSelectionView;
 }
 namespace BeatSaber::AvatarCore {
 class AvatarSystemCollection;
-}
-namespace GlobalNamespace {
-struct __SelectAvatarSystemCell___ReloadIsCreated_d__17;
 }
 namespace BeatSaber::AvatarCore {
 class IAvatarSystemMetadata;
@@ -27,14 +21,20 @@ class IAvatarSystemMetadata;
 namespace GlobalNamespace {
 struct __SelectAvatarSystemCell___Load_d__14;
 }
+namespace GlobalNamespace {
+struct __SelectAvatarSystemCell___ReloadIsCreated_d__17;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncVoidMethodBuilder;
+}
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
 }
-namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -54,13 +54,16 @@ MARK_VAL_T(::GlobalNamespace::__SelectAvatarSystemCell___ReloadIsCreated_d__17);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5065 }), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(15177))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5808)) CS Name: ::SelectAvatarSystemCell::<Load>d__14
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(15177)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5065 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5808)) CS Name: ::SelectAvatarSystemCell::<Load>d__14
 struct CORDL_TYPE __SelectAvatarSystemCell___Load_d__14 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x22e8fbc, size 0x5b4, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -118,13 +121,16 @@ static_assert(offsetof(::GlobalNamespace::__SelectAvatarSystemCell___Load_d__14,
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }),
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
 // TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5809)) CS Name: ::SelectAvatarSystemCell::<ReloadIsCreated>d__17
 struct CORDL_TYPE __SelectAvatarSystemCell___ReloadIsCreated_d__17 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x22e957c, size 0x2b0, virtual true, abstract: false, final true
   inline void MoveNext();

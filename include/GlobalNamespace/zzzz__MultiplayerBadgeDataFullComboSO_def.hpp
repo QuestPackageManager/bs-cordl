@@ -5,11 +5,8 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__MultiplayerBadgeDataSO_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerBadgeDataFullComboSO)
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
 namespace GlobalNamespace {
-class PlayerDataModel;
+class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 class MultiplayerBadgeAwardData;
@@ -18,7 +15,10 @@ namespace GlobalNamespace {
 class MultiplayerPlayerResultsData;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class PlayerDataModel;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

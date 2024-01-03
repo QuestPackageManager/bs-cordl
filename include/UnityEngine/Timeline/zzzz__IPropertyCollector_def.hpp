@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IPropertyCollector)
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
-class Component;
-}
-namespace UnityEngine {
-class Object;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine {
 class AnimationClip;
+}
+namespace UnityEngine {
+class Component;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

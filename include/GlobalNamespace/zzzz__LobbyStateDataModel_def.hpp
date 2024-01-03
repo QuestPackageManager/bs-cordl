@@ -6,14 +6,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(LobbyStateDataModel)
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
 namespace GlobalNamespace {
 struct GameplayServerConfiguration;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
@@ -24,8 +18,14 @@ class ILobbyStateDataModel;
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class IUnifiedNetworkPlayerModel;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -33,8 +33,8 @@ template <typename T> class List_1;
 namespace System {
 template <typename T> class Action_1;
 }
-namespace GlobalNamespace {
-class IUnifiedNetworkPlayerModel;
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -87,8 +87,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ILobbyStateDataModel"
   constexpr operator ::GlobalNamespace::ILobbyStateDataModel*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::ILobbyStateDataModel"
+  constexpr ::GlobalNamespace::ILobbyStateDataModel* i___GlobalNamespace__ILobbyStateDataModel() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __get__multiplayerSessionManager();
 

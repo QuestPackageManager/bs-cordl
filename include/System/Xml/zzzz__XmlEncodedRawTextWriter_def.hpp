@@ -12,17 +12,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlEncodedRawTextWriter)
-namespace System::Text {
-class Encoder;
+namespace System::IO {
+class Stream;
 }
 namespace System::IO {
 class TextWriter;
 }
-namespace System::IO {
-class Stream;
-}
-namespace System::Xml {
-class XmlWriterSettings;
+namespace System::Text {
+class Encoder;
 }
 namespace System::Text {
 class Encoding;
@@ -32,6 +29,9 @@ class CharEntityEncoderFallback;
 }
 namespace System::Xml {
 struct XmlStandalone;
+}
+namespace System::Xml {
+class XmlWriterSettings;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -43,8 +43,8 @@ MARK_REF_PTR_T(::System::Xml::XmlEncodedRawTextWriter);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 182, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11544)), TypeDefinitionIndex(TypeDefinitionIndex(11492)), TypeDefinitionIndex(TypeDefinitionIndex(11455)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11435)), TypeDefinitionIndex(TypeDefinitionIndex(11494))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11449)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11455)), TypeDefinitionIndex(TypeDefinitionIndex(11435)), TypeDefinitionIndex(TypeDefinitionIndex(11494)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11492)), TypeDefinitionIndex(TypeDefinitionIndex(11544))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11449)) CS Name:
 // ::System.Xml::XmlEncodedRawTextWriter*
 class CORDL_TYPE XmlEncodedRawTextWriter : public ::System::Xml::XmlRawWriter {
 public:

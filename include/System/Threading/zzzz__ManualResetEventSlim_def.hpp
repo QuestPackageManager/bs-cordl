@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ManualResetEventSlim)
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Threading {
+class ManualResetEvent;
+}
+namespace System::Threading {
+class WaitHandle;
+}
+namespace System {
+template <typename T> class Action_1;
+}
 namespace System {
 class IDisposable;
 }
 namespace System {
 class Object;
-}
-namespace System::Threading {
-class ManualResetEvent;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System::Threading {
-class WaitHandle;
-}
-namespace System::Threading {
-struct CancellationToken;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -61,6 +61,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::System::Object*& __get_m_lock();
 

@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(Parser)
 namespace System::Security::Util {
 class TokenizerStream;
 }
+namespace System::Security::Util {
+class Tokenizer;
+}
 namespace System::Security {
 class SecurityDocument;
 }
 namespace System::Security {
 class SecurityElement;
-}
-namespace System::Security::Util {
-class Tokenizer;
 }
 // Forward declare root types
 namespace System::Security::Util {

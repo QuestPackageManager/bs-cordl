@@ -11,19 +11,19 @@ namespace HMUI {
 class SegmentedControlCell;
 }
 namespace HMUI {
-class __SegmentedControl__IDataSource;
-}
-namespace HMUI {
 class TextSegmentedControlCell;
 }
-namespace Zenject {
-class DiContainer;
+namespace HMUI {
+class __SegmentedControl__IDataSource;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 namespace UnityEngine {
 class Object;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace HMUI {
@@ -73,6 +73,9 @@ public:
 
   /// @brief Convert operator to "::HMUI::__SegmentedControl__IDataSource"
   constexpr operator ::HMUI::__SegmentedControl__IDataSource*() noexcept;
+
+  /// @brief Convert to "::HMUI::__SegmentedControl__IDataSource"
+  constexpr ::HMUI::__SegmentedControl__IDataSource* i___HMUI____SegmentedControl__IDataSource() noexcept;
 
   constexpr float_t& __get__fontSize();
 

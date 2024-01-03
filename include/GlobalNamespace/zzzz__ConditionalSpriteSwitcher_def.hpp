@@ -8,13 +8,13 @@ namespace GlobalNamespace {
 class BoolSO;
 }
 namespace UnityEngine {
-class Sprite;
-}
-namespace UnityEngine {
 class Material;
 }
 namespace UnityEngine {
 class SpriteRenderer;
+}
+namespace UnityEngine {
+class Sprite;
 }
 // Forward declare root types
 namespace GlobalNamespace {

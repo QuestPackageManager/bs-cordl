@@ -1,26 +1,38 @@
 #pragma once
 #include "System/zzzz__ArraySegment_1_def.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "System/zzzz__ArraySegment_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__ArraySegment_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
 template <typename T> constexpr System::__ArraySegment_1__Enumerator<T>::operator ::System::Collections::Generic::IEnumerator_1<T>*() {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<T>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::IEnumerator_1<T>* System::__ArraySegment_1__Enumerator<T>::i___System__Collections__Generic__IEnumerator_1_T_() {
   return static_cast<::System::Collections::Generic::IEnumerator_1<T>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 /// @brief Convert operator to "::System::IDisposable"
 template <typename T> constexpr System::__ArraySegment_1__Enumerator<T>::operator ::System::IDisposable*() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::IDisposable"
+template <typename T> constexpr ::System::IDisposable* System::__ArraySegment_1__Enumerator<T>::i___System__IDisposable() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 template <typename T> constexpr System::__ArraySegment_1__Enumerator<T>::operator ::System::Collections::IEnumerator*() {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+template <typename T> constexpr ::System::Collections::IEnumerator* System::__ArraySegment_1__Enumerator<T>::i___System__Collections__IEnumerator() {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename T> inline void System::__ArraySegment_1__Enumerator<T>::_ctor(::System::ArraySegment_1<T> arraySegment) {
@@ -68,24 +80,48 @@ template <typename T> constexpr ::System::__ArraySegment_1__Enumerator<T>::__Arr
 template <typename T> constexpr System::ArraySegment_1<T>::operator ::System::Collections::Generic::IList_1<T>*() {
   return static_cast<::System::Collections::Generic::IList_1<T>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Collections::Generic::IList_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::IList_1<T>* System::ArraySegment_1<T>::i___System__Collections__Generic__IList_1_T_() {
+  return static_cast<::System::Collections::Generic::IList_1<T>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<T>"
 template <typename T> constexpr System::ArraySegment_1<T>::operator ::System::Collections::Generic::ICollection_1<T>*() {
+  return static_cast<::System::Collections::Generic::ICollection_1<T>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::Collections::Generic::ICollection_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::ICollection_1<T>* System::ArraySegment_1<T>::i___System__Collections__Generic__ICollection_1_T_() {
   return static_cast<::System::Collections::Generic::ICollection_1<T>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
 template <typename T> constexpr System::ArraySegment_1<T>::operator ::System::Collections::Generic::IEnumerable_1<T>*() {
   return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::IEnumerable_1<T>* System::ArraySegment_1<T>::i___System__Collections__Generic__IEnumerable_1_T_() {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename T> constexpr System::ArraySegment_1<T>::operator ::System::Collections::IEnumerable*() {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename T> constexpr ::System::Collections::IEnumerable* System::ArraySegment_1<T>::i___System__Collections__IEnumerable() {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyList_1<T>"
 template <typename T> constexpr System::ArraySegment_1<T>::operator ::System::Collections::Generic::IReadOnlyList_1<T>*() {
   return static_cast<::System::Collections::Generic::IReadOnlyList_1<T>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Collections::Generic::IReadOnlyList_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::IReadOnlyList_1<T>* System::ArraySegment_1<T>::i___System__Collections__Generic__IReadOnlyList_1_T_() {
+  return static_cast<::System::Collections::Generic::IReadOnlyList_1<T>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
 template <typename T> constexpr System::ArraySegment_1<T>::operator ::System::Collections::Generic::IReadOnlyCollection_1<T>*() {
+  return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<T>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::IReadOnlyCollection_1<T>* System::ArraySegment_1<T>::i___System__Collections__Generic__IReadOnlyCollection_1_T_() {
   return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<T>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename T> inline void System::ArraySegment_1<T>::setStaticF__Empty_k__BackingField(::System::ArraySegment_1<T> value) {

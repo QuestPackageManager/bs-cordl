@@ -16,46 +16,46 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UIRVEShaderInfoAllocator)
 namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
+}
+namespace Unity::Collections {
 template <typename T> struct NativeSlice_1;
 }
 namespace UnityEngine::UIElements::UIR {
 struct BMPAlloc;
 }
 namespace UnityEngine::UIElements::UIR {
-struct BitmapAllocator32;
-}
-namespace UnityEngine {
-struct RectInt;
-}
-namespace UnityEngine::UIElements::UIR {
 class BaseShaderInfoStorage;
 }
-namespace UnityEngine {
-struct Color;
-}
 namespace UnityEngine::UIElements::UIR {
-struct Transform3x4;
+struct BitmapAllocator32;
 }
 namespace UnityEngine::UIElements::UIR {
 struct TextCoreSettings;
 }
+namespace UnityEngine::UIElements::UIR {
+struct Transform3x4;
+}
+namespace UnityEngine {
+struct Color32;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace UnityEngine {
+struct RectInt;
+}
 namespace UnityEngine {
 class Texture;
-}
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
 }
 namespace UnityEngine {
 struct Vector2Int;
 }
 namespace UnityEngine {
 struct Vector4;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine {
-struct Color32;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -67,9 +67,9 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 751 }), TypeDefinitionIndex(TypeDefinitionIndex(7374)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7415)), TypeDefinitionIndex(TypeDefinitionIndex(7424)), TypeDefinitionIndex(TypeDefinitionIndex(10244)), TypeDefinitionIndex(TypeDefinitionIndex(10246)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(7376)), TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7424)), TypeDefinitionIndex(TypeDefinitionIndex(7376)), TypeDefinitionIndex(TypeDefinitionIndex(10244)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 751 }), TypeDefinitionIndex(TypeDefinitionIndex(7415)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7374)), TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(10246)), GenericInstantiation(GenericInstantiation { tdi:
 // TypeDefinitionIndex(9999), inst: 755 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7377)) CS Name: ::UnityEngine.UIElements.UIR::UIRVEShaderInfoAllocator
 struct CORDL_TYPE UIRVEShaderInfoAllocator {
 public:

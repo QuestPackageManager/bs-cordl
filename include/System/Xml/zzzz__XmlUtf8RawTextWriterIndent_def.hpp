@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlUtf8RawTextWriterIndent)
-namespace System::Xml {
-class BitStack;
-}
 namespace System::IO {
 class Stream;
 }
 namespace System::Xml {
-class XmlWriterSettings;
+class BitStack;
 }
 namespace System::Xml {
 struct ConformanceLevel;
+}
+namespace System::Xml {
+class XmlWriterSettings;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::System::Xml::XmlUtf8RawTextWriterIndent);
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 172, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11475)), TypeDefinitionIndex(TypeDefinitionIndex(11413))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11413)), TypeDefinitionIndex(TypeDefinitionIndex(11475))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11476))
 // CS Name: ::System.Xml::XmlUtf8RawTextWriterIndent*
 class CORDL_TYPE XmlUtf8RawTextWriterIndent : public ::System::Xml::XmlUtf8RawTextWriter {

@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PrefabProviderResource)
-namespace Zenject {
-class IPrefabProvider;
-}
 namespace UnityEngine {
 class Object;
+}
+namespace Zenject {
+class IPrefabProvider;
 }
 // Forward declare root types
 namespace Zenject {
@@ -32,6 +32,9 @@ public:
 
   /// @brief Convert operator to "::Zenject::IPrefabProvider"
   constexpr operator ::Zenject::IPrefabProvider*() noexcept;
+
+  /// @brief Convert to "::Zenject::IPrefabProvider"
+  constexpr ::Zenject::IPrefabProvider* i___Zenject__IPrefabProvider() noexcept;
 
   constexpr ::StringW& __get__resourcePath();
 

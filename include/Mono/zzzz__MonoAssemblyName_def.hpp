@@ -60,7 +60,7 @@ static_assert(offsetof(::Mono::__MonoAssemblyName___public_key_token_e__FixedBuf
 // SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 90, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2240))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2240)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2241))
 // CS Name: ::Mono::MonoAssemblyName
 struct CORDL_TYPE MonoAssemblyName {

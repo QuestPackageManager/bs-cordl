@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__ValueDropdownController_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PlayerSensitivityDropdown)
+namespace GlobalNamespace {
+struct PlayerSensitivityFlag;
+}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 namespace System {
 template <typename T1, typename T2> class Tuple_2;
-}
-namespace GlobalNamespace {
-struct PlayerSensitivityFlag;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerSensitivityDropdown);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5602), inst: 5292 }), TypeDefinitionIndex(TypeDefinitionIndex(5602)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4658))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5573)) CS Name: ::PlayerSensitivityDropdown*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4658)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5602), inst: 5292 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(5602))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5573)) CS Name: ::PlayerSensitivityDropdown*
 class CORDL_TYPE PlayerSensitivityDropdown : public ::GlobalNamespace::ValueDropdownController_1<::GlobalNamespace::PlayerSensitivityFlag> {
 public:
   // Declarations

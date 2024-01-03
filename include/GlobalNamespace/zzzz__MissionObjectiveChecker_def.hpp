@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MissionObjectiveChecker)
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
 class MissionObjectiveTypeSO;
 }
 namespace GlobalNamespace {
-struct __MissionObjectiveChecker__Status;
+class MissionObjective;
 }
 namespace GlobalNamespace {
-class MissionObjective;
+struct __MissionObjectiveChecker__Status;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

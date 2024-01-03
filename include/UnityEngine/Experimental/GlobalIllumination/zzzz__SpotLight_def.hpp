@@ -15,20 +15,20 @@ CORDL_MODULE_EXPORT(SpotLight)
 namespace UnityEngine::Experimental::GlobalIllumination {
 struct AngularFalloffType;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::Experimental::GlobalIllumination {
+struct FalloffType;
+}
+namespace UnityEngine::Experimental::GlobalIllumination {
+struct LightMode;
 }
 namespace UnityEngine::Experimental::GlobalIllumination {
 struct LinearColor;
 }
-namespace UnityEngine::Experimental::GlobalIllumination {
-struct FalloffType;
-}
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace UnityEngine::Experimental::GlobalIllumination {
-struct LightMode;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::Experimental::GlobalIllumination {
@@ -40,8 +40,8 @@ MARK_VAL_T(::UnityEngine::Experimental::GlobalIllumination::SpotLight);
 // SizeInfo { instance_size: 88, native_size: 92, calculated_instance_size: 88, calculated_native_size: 102, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10388)), TypeDefinitionIndex(TypeDefinitionIndex(10387)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10389)), TypeDefinitionIndex(TypeDefinitionIndex(10390))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10389)), TypeDefinitionIndex(TypeDefinitionIndex(10388)), TypeDefinitionIndex(TypeDefinitionIndex(10252)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10387)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10390))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(10393)) CS Name: ::UnityEngine.Experimental.GlobalIllumination::SpotLight
 struct CORDL_TYPE SpotLight {
 public:

@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ifreq)
 namespace System::Net::NetworkInformation::AixStructs {
-struct sockaddr;
+struct __ifreq___ifr_name_e__FixedBuffer;
 }
 namespace System::Net::NetworkInformation::AixStructs {
-struct __ifreq___ifr_name_e__FixedBuffer;
+struct sockaddr;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation::AixStructs {

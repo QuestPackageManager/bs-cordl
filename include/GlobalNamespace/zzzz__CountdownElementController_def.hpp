@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CountdownElementController)
-namespace UnityEngine {
-class Animation;
-}
 namespace TMPro {
 class TextMeshProUGUI;
+}
+namespace UnityEngine {
+class Animation;
 }
 // Forward declare root types
 namespace GlobalNamespace {

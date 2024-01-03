@@ -7,32 +7,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleSelectorHelper)
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class IDictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct MatchResultInfo;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct SelectorMatchRecord;
+}
 namespace UnityEngine::UIElements {
-class VisualElement;
+class StyleComplexSelector;
+}
+namespace UnityEngine::UIElements {
+class StyleMatchingContext;
 }
 namespace UnityEngine::UIElements {
 class StyleSelector;
 }
 namespace UnityEngine::UIElements {
-class StyleMatchingContext;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct MatchResultInfo;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class IDictionary_2;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct SelectorMatchRecord;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::UIElements {
-class StyleComplexSelector;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {

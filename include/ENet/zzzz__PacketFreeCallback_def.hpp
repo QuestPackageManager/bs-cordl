@@ -5,6 +5,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PacketFreeCallback)
+namespace ENet {
+struct Packet;
+}
 namespace System {
 class AsyncCallback;
 }
@@ -13,9 +16,6 @@ class IAsyncResult;
 }
 namespace System {
 class Object;
-}
-namespace ENet {
-struct Packet;
 }
 // Forward declare root types
 namespace ENet {

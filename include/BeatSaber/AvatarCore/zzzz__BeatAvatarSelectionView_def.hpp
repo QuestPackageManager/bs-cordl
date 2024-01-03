@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "BeatSaber/AvatarCore/zzzz__AvatarSelectionView_def.hpp"
 CORDL_MODULE_EXPORT(BeatAvatarSelectionView)
-namespace BeatSaber::BeatAvatarSDK {
-class AvatarDataModel;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace BeatSaber::BeatAvatarSDK {
-class AvatarData;
-}
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 class AvatarTweenController;
 }
 namespace BeatSaber::BeatAvatarSDK {
+class AvatarDataModel;
+}
+namespace BeatSaber::BeatAvatarSDK {
+class AvatarData;
+}
+namespace BeatSaber::BeatAvatarSDK {
 class BeatAvatarVisualController;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {

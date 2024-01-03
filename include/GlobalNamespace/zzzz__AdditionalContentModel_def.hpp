@@ -12,52 +12,52 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AdditionalContentModel)
 namespace GlobalNamespace {
+class AlwaysOwnedContentContainerSO;
+}
+namespace GlobalNamespace {
 struct EntitlementStatus;
 }
 namespace GlobalNamespace {
-struct __AdditionalContentModel__UpdateEntitlementsResult;
-}
-namespace GlobalNamespace {
 class IAdditionalContentModel;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class AlwaysOwnedContentContainerSO;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace GlobalNamespace {
-struct __AdditionalContentModel___GetLevelEntitlementStatusAsync_d__10;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace GlobalNamespace {
-struct OpenProductStoreResult;
 }
 namespace GlobalNamespace {
 struct IsPackBetterBuyThanLevelResult;
 }
 namespace GlobalNamespace {
+struct OpenProductStoreResult;
+}
+namespace GlobalNamespace {
+struct __AdditionalContentModel__UpdateEntitlementsResult;
+}
+namespace GlobalNamespace {
+struct __AdditionalContentModel___GetLevelEntitlementStatusAsync_d__10;
+}
+namespace GlobalNamespace {
 struct __AdditionalContentModel___GetPackEntitlementStatusAsync_d__11;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
+class Action;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -131,14 +131,17 @@ static_assert(offsetof(::GlobalNamespace::__AdditionalContentModel__UpdateEntitl
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(16270)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 880
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 }), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(4098)) CS Name: ::AdditionalContentModel::<GetLevelEntitlementStatusAsync>d__10
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(16270)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 880 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4098)) CS Name: ::AdditionalContentModel::<GetLevelEntitlementStatusAsync>d__10
 struct CORDL_TYPE __AdditionalContentModel___GetLevelEntitlementStatusAsync_d__10 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x2233ed4, size 0x230, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -203,15 +206,17 @@ static_assert(offsetof(::GlobalNamespace::__AdditionalContentModel___GetLevelEnt
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 880 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(16270))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4099))
-// CS Name: ::AdditionalContentModel::<GetPackEntitlementStatusAsync>d__11
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880
+// }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 880 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(4099)) CS Name: ::AdditionalContentModel::<GetPackEntitlementStatusAsync>d__11
 struct CORDL_TYPE __AdditionalContentModel___GetPackEntitlementStatusAsync_d__11 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x223415c, size 0x230, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -300,8 +305,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IAdditionalContentModel"
   constexpr operator ::GlobalNamespace::IAdditionalContentModel*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IAdditionalContentModel"
+  constexpr ::GlobalNamespace::IAdditionalContentModel* i___GlobalNamespace__IAdditionalContentModel() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::System::Action*& __get_didInvalidateDataEvent();
 

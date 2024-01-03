@@ -5,22 +5,13 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(PreLateUpdate)
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__EndGraphicsJobsAfterScriptUpdate;
-}
-namespace UnityEngine::PlayerLoop {
 struct __PreLateUpdate__AIUpdatePostScript;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__DirectorDeferredEvaluate;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__UpdateNetworkManager;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__Physics2DLateUpdate;
-}
-namespace UnityEngine::PlayerLoop {
 struct __PreLateUpdate__ConstraintManagerUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PreLateUpdate__DirectorDeferredEvaluate;
 }
 namespace UnityEngine::PlayerLoop {
 struct __PreLateUpdate__DirectorUpdateAnimationBegin;
@@ -29,22 +20,31 @@ namespace UnityEngine::PlayerLoop {
 struct __PreLateUpdate__DirectorUpdateAnimationEnd;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__UNetUpdate;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__ScriptRunBehaviourLateUpdate;
+struct __PreLateUpdate__EndGraphicsJobsAfterScriptUpdate;
 }
 namespace UnityEngine::PlayerLoop {
 struct __PreLateUpdate__LegacyAnimationUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__UIElementsUpdatePanels;
-}
-namespace UnityEngine::PlayerLoop {
 struct __PreLateUpdate__ParticleSystemBeginUpdateAll;
 }
 namespace UnityEngine::PlayerLoop {
+struct __PreLateUpdate__Physics2DLateUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PreLateUpdate__ScriptRunBehaviourLateUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PreLateUpdate__UIElementsUpdatePanels;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PreLateUpdate__UNetUpdate;
+}
+namespace UnityEngine::PlayerLoop {
 struct __PreLateUpdate__UpdateMasterServerInterface;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PreLateUpdate__UpdateNetworkManager;
 }
 // Forward declare root types
 namespace UnityEngine::PlayerLoop {

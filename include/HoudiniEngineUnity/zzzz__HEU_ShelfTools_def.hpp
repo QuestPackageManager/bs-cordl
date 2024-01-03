@@ -8,8 +8,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_ShelfTools)
-namespace UnityEngine {
-class GameObject;
+namespace HoudiniEngineUnity {
+class HEU_ShelfToolData;
 }
 namespace HoudiniEngineUnity {
 class HEU_Shelf;
@@ -18,13 +18,13 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace HoudiniEngineUnity {
-class HEU_ShelfToolData;
+class GameObject;
 }
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

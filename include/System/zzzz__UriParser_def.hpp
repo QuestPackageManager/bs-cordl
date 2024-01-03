@@ -10,17 +10,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UriParser)
-namespace System {
-struct __UriParser__UriQuirksVersion;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
-struct UriSyntaxFlags;
+struct UriComponents;
 }
 namespace System {
 class UriFormatException;
 }
 namespace System {
-struct UriComponents;
+struct UriFormat;
+}
+namespace System {
+struct UriSyntaxFlags;
 }
 namespace System {
 class Uri;
@@ -28,11 +31,8 @@ class Uri;
 namespace System {
 class __UriParser__BuiltInUriParser;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace System {
-struct UriFormat;
+struct __UriParser__UriQuirksVersion;
 }
 // Forward declare root types
 namespace System {

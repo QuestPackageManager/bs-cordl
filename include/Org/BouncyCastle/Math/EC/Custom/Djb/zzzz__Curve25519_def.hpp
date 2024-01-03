@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Curve25519)
-namespace Org::BouncyCastle::Math::EC {
-class ECFieldElement;
-}
 namespace Org::BouncyCastle::Math::EC::Custom::Djb {
 class Curve25519Point;
+}
+namespace Org::BouncyCastle::Math::EC::Custom::Djb {
+class __Curve25519__Curve25519LookupTable;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECCurve;
 }
-namespace Org::BouncyCastle::Math::EC::Custom::Djb {
-class __Curve25519__Curve25519LookupTable;
+namespace Org::BouncyCastle::Math::EC {
+class ECFieldElement;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECLookupTable;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECLookupTable;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;

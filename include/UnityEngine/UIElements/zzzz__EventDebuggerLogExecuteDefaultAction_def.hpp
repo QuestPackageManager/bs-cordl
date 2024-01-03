@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(EventDebuggerLogExecuteDefaultAction)
-namespace UnityEngine::UIElements {
-class EventBase;
-}
 namespace System {
 class IDisposable;
+}
+namespace UnityEngine::UIElements {
+class EventBase;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -29,6 +29,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   /// @brief Method .ctor, addr 0x2e83508, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EventBase* evt);

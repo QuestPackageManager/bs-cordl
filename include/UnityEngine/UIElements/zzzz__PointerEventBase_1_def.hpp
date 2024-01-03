@@ -11,31 +11,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PointerEventBase_1)
 namespace UnityEngine::UIElements {
+class IEventHandler;
+}
+namespace UnityEngine::UIElements {
+class IPanel;
+}
+namespace UnityEngine::UIElements {
+class IPointerEventInternal;
+}
+namespace UnityEngine::UIElements {
 class IPointerEvent;
 }
 namespace UnityEngine {
-struct Vector3;
+struct EventModifiers;
+}
+namespace UnityEngine {
+class Event;
+}
+namespace UnityEngine {
+struct Touch;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
-class Event;
-}
-namespace UnityEngine::UIElements {
-class IPointerEventInternal;
-}
-namespace UnityEngine {
-struct EventModifiers;
-}
-namespace UnityEngine::UIElements {
-class IEventHandler;
-}
-namespace UnityEngine {
-struct Touch;
-}
-namespace UnityEngine::UIElements {
-class IPanel;
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -49,9 +49,9 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14602)), TypeDefinitionIndex(TypeDefinitionIndex(7180)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst:
-// 1718 }), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10243))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7198)) CS Name:
-// ::UnityEngine.UIElements::PointerEventBase`1<T>*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(14602)), TypeDefinitionIndex(TypeDefinitionIndex(7180)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1718 }), TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7198)) CS
+// Name: ::UnityEngine.UIElements::PointerEventBase`1<T>*
 class CORDL_TYPE PointerEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
   // Declarations
@@ -176,8 +176,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IPointerEvent"
   constexpr operator ::UnityEngine::UIElements::IPointerEvent*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::UIElements::IPointerEvent"
+  constexpr ::UnityEngine::UIElements::IPointerEvent* i___UnityEngine__UIElements__IPointerEvent() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::UIElements::IPointerEventInternal"
   constexpr operator ::UnityEngine::UIElements::IPointerEventInternal*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UIElements::IPointerEventInternal"
+  constexpr ::UnityEngine::UIElements::IPointerEventInternal* i___UnityEngine__UIElements__IPointerEventInternal() noexcept;
 
   constexpr int32_t& __get__pointerId_k__BackingField();
 
@@ -453,8 +459,7 @@ public:
   static inline T GetPooled(::UnityEngine::Event* systemEvent);
 
   /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param modifiers: ::UnityEngine::EventModifiers (default: static_cast<int32_t>(0x0))
-  static inline T GetPooled(::UnityEngine::Touch touch, ::UnityEngine::EventModifiers modifiers = static_cast<int32_t>(0x0));
+  static inline T GetPooled(::UnityEngine::Touch touch, ::UnityEngine::EventModifiers modifiers);
 
   /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T GetPooled(::UnityEngine::UIElements::IPointerEvent* triggerEvent, ::UnityEngine::Vector2 position, int32_t pointerId);

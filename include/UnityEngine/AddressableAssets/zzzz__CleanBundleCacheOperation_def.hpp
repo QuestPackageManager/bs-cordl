@@ -9,32 +9,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(CleanBundleCacheOperation)
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> struct AsyncOperationHandle_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
-}
-namespace UnityEngine::AddressableAssets {
-class AddressablesImpl;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
-namespace System {
-class Object;
-}
-namespace UnityEngine::ResourceManagement {
-class IUpdateReceiver;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Threading {
 class Thread;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::AddressableAssets {
+class AddressablesImpl;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> struct AsyncOperationHandle_1;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
+}
+namespace UnityEngine::ResourceManagement {
+class IUpdateReceiver;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets {
@@ -46,10 +46,10 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::CleanBundleCacheOperation);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 201, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 792 }), GenericInstantiation(GenericInstantiation
-// { tdi: TypeDefinitionIndex(3835), inst: 275 }), TypeDefinitionIndex(TypeDefinitionIndex(14033)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14034)), TypeDefinitionIndex(TypeDefinitionIndex(3835))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14093)) CS Name:
-// ::UnityEngine.AddressableAssets::CleanBundleCacheOperation*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 105 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(14033)), TypeDefinitionIndex(TypeDefinitionIndex(14034)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 792 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3835)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 275 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14093)) CS
+// Name: ::UnityEngine.AddressableAssets::CleanBundleCacheOperation*
 class CORDL_TYPE CleanBundleCacheOperation : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<bool> {
 public:
   // Declarations
@@ -74,6 +74,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::IUpdateReceiver"
   constexpr operator ::UnityEngine::ResourceManagement::IUpdateReceiver*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::ResourceManagement::IUpdateReceiver"
+  constexpr ::UnityEngine::ResourceManagement::IUpdateReceiver* i___UnityEngine__ResourceManagement__IUpdateReceiver() noexcept;
 
   constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __get_m_Addressables();
 

@@ -10,22 +10,22 @@ namespace GlobalNamespace {
 class BeatmapLevelData;
 }
 namespace GlobalNamespace {
-class CustomPreviewBeatmapLevel;
+class ColorScheme;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class CustomPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 class IBeatmapLevelData;
 }
 namespace GlobalNamespace {
-class ColorScheme;
+class IBeatmapLevel;
 }
 namespace GlobalNamespace {
 class IFilePathSongAudioClipProvider;
 }
 namespace GlobalNamespace {
-class IBeatmapLevel;
+class IPreviewBeatmapLevel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -53,11 +53,20 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBeatmapLevel"
   constexpr operator ::GlobalNamespace::IBeatmapLevel*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IBeatmapLevel"
+  constexpr ::GlobalNamespace::IBeatmapLevel* i___GlobalNamespace__IBeatmapLevel() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IPreviewBeatmapLevel"
   constexpr operator ::GlobalNamespace::IPreviewBeatmapLevel*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IPreviewBeatmapLevel"
+  constexpr ::GlobalNamespace::IPreviewBeatmapLevel* i___GlobalNamespace__IPreviewBeatmapLevel() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IFilePathSongAudioClipProvider"
   constexpr operator ::GlobalNamespace::IFilePathSongAudioClipProvider*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IFilePathSongAudioClipProvider"
+  constexpr ::GlobalNamespace::IFilePathSongAudioClipProvider* i___GlobalNamespace__IFilePathSongAudioClipProvider() noexcept;
 
   constexpr ::GlobalNamespace::BeatmapLevelData*& __get__beatmapLevelData();
 

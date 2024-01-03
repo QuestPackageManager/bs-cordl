@@ -11,47 +11,47 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlDownloadManager)
-namespace System::Net {
-class IWebProxy;
-}
 namespace System::Collections {
 class Hashtable;
-}
-namespace System {
-class Uri;
-}
-namespace System::Net::Cache {
-class RequestCachePolicy;
-}
-namespace System::Xml {
-struct __XmlDownloadManager___GetNonFileStreamAsync_d__5;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
 }
 namespace System::IO {
 class Stream;
 }
+namespace System::Net::Cache {
+class RequestCachePolicy;
+}
 namespace System::Net {
 class ICredentials;
 }
-namespace System::Xml {
-class __XmlDownloadManager____c__DisplayClass4_0;
+namespace System::Net {
+class IWebProxy;
 }
 namespace System::Net {
 class WebRequest;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Net {
 class WebResponse;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Xml {
+struct __XmlDownloadManager___GetNonFileStreamAsync_d__5;
+}
+namespace System::Xml {
+class __XmlDownloadManager____c__DisplayClass4_0;
+}
+namespace System {
+class Uri;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -123,14 +123,17 @@ static_assert(offsetof(::System::Xml::__XmlDownloadManager____c__DisplayClass4_0
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3619)), TypeDefinitionIndex(TypeDefinitionIndex(9097)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 1125 }), TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3402), inst: 899 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(11550)) CS Name: ::XmlDownloadManager::<GetNonFileStreamAsync>d__5
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 1125
+// }), TypeDefinitionIndex(TypeDefinitionIndex(9097)), TypeDefinitionIndex(TypeDefinitionIndex(3619)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 899 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(11550)) CS Name: ::XmlDownloadManager::<GetNonFileStreamAsync>d__5
 struct CORDL_TYPE __XmlDownloadManager___GetNonFileStreamAsync_d__5 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x28a48c8, size 0x774, virtual true, abstract: false, final true
   inline void MoveNext();

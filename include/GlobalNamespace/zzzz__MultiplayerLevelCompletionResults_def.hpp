@@ -10,26 +10,26 @@ CORDL_MODULE_EXPORT(MultiplayerLevelCompletionResults)
 namespace GlobalNamespace {
 class LevelCompletionResults;
 }
-namespace System {
-class IComparable;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class INetImmutableSerializable_1;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
+namespace GlobalNamespace {
+struct __MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason;
 }
 namespace GlobalNamespace {
 struct __MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState;
 }
 namespace LiteNetLib::Utils {
+template <typename T> class INetImmutableSerializable_1;
+}
+namespace LiteNetLib::Utils {
 class NetDataReader;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace System {
+class IComparable;
 }
 namespace System {
 class Object;
-}
-namespace GlobalNamespace {
-struct __MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -177,7 +177,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerLevelCompletionResults__M
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12877)), TypeDefinitionIndex(TypeDefinitionIndex(12876)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12876)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12877))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12878))
 // CS Name: ::MultiplayerLevelCompletionResults*
 class CORDL_TYPE MultiplayerLevelCompletionResults : public ::System::Object {
@@ -210,8 +210,15 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>"
   constexpr operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*() noexcept;
 
+  /// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>"
+  constexpr ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*
+  i___LiteNetLib__Utils__INetImmutableSerializable_1___GlobalNamespace__MultiplayerLevelCompletionResults__() noexcept;
+
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*() noexcept;
+
+  /// @brief Convert to "::System::IComparable"
+  constexpr ::System::IComparable* i___System__IComparable() noexcept;
 
   constexpr ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState& __get__playerLevelEndState();
 

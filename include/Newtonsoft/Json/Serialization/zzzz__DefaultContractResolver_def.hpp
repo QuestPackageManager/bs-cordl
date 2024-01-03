@@ -10,62 +10,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DefaultContractResolver)
-namespace System {
-class IDisposable;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System {
-class Object;
-}
-namespace Newtonsoft::Json {
-class JsonConverter;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonPropertyCollection;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonContract;
-}
-namespace System::Reflection {
-class MemberInfo;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonObjectContract;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonArrayContract;
-}
-namespace Newtonsoft::Json {
-struct MemberSerialization;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonDictionaryContract;
-}
-namespace System::Reflection {
-class MethodInfo;
-}
-namespace Newtonsoft::Json::Serialization {
-template <typename TEnumeratorKey, typename TEnumeratorValue> class __DefaultContractResolver__EnumerableDictionaryWrapper_2;
-}
-namespace Newtonsoft::Json::Serialization {
-class SerializationCallback;
-}
-namespace Newtonsoft::Json::Serialization {
-class __DefaultContractResolver____c__DisplayClass64_0;
-}
-namespace Newtonsoft::Json::Serialization {
-class __DefaultContractResolver____c__DisplayClass34_0;
+namespace GlobalNamespace {
+template <typename TEnumeratorKey, typename TEnumeratorValue> class __DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2;
 }
 namespace Newtonsoft::Json::Serialization {
 class DefaultContractResolverState;
@@ -74,79 +20,133 @@ namespace Newtonsoft::Json::Serialization {
 class IContractResolver;
 }
 namespace Newtonsoft::Json::Serialization {
-class JsonProperty;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace Newtonsoft::Json::Serialization {
 class IValueProvider;
 }
 namespace Newtonsoft::Json::Serialization {
-class JsonISerializableContract;
+class JsonArrayContract;
 }
-namespace System {
-template <typename TResult> class Func_1;
+namespace Newtonsoft::Json::Serialization {
+class JsonContract;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonDictionaryContract;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonISerializableContract;
 }
 namespace Newtonsoft::Json::Serialization {
 class JsonLinqContract;
 }
 namespace Newtonsoft::Json::Serialization {
+class JsonObjectContract;
+}
+namespace Newtonsoft::Json::Serialization {
 class JsonPrimitiveContract;
 }
 namespace Newtonsoft::Json::Serialization {
-class __DefaultContractResolver____c__DisplayClass65_0;
-}
-namespace System {
-class Type;
+class JsonPropertyCollection;
 }
 namespace Newtonsoft::Json::Serialization {
-class __DefaultContractResolver____c__DisplayClass34_2;
+class JsonProperty;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonStringContract;
+}
+namespace Newtonsoft::Json::Serialization {
+template <typename T> class ObjectConstructor_1;
+}
+namespace Newtonsoft::Json::Serialization {
+class SerializationCallback;
+}
+namespace Newtonsoft::Json::Serialization {
+class SerializationErrorCallback;
+}
+namespace Newtonsoft::Json::Serialization {
+template <typename TEnumeratorKey, typename TEnumeratorValue> class __DefaultContractResolver__EnumerableDictionaryWrapper_2;
 }
 namespace Newtonsoft::Json::Serialization {
 class __DefaultContractResolver____c;
 }
 namespace Newtonsoft::Json::Serialization {
+class __DefaultContractResolver____c__DisplayClass34_0;
+}
+namespace Newtonsoft::Json::Serialization {
 class __DefaultContractResolver____c__DisplayClass34_1;
+}
+namespace Newtonsoft::Json::Serialization {
+class __DefaultContractResolver____c__DisplayClass34_2;
+}
+namespace Newtonsoft::Json::Serialization {
+class __DefaultContractResolver____c__DisplayClass64_0;
+}
+namespace Newtonsoft::Json::Serialization {
+class __DefaultContractResolver____c__DisplayClass65_0;
+}
+namespace Newtonsoft::Json::Utilities {
+template <typename T, typename TResult> class MethodCall_2;
+}
+namespace Newtonsoft::Json {
+class JsonConverter;
+}
+namespace Newtonsoft::Json {
+struct MemberSerialization;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct KeyValuePair_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Reflection {
 struct BindingFlags;
 }
 namespace System::Reflection {
-class ParameterInfo;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonStringContract;
-}
-namespace System {
-template <typename T> class Predicate_1;
-}
-namespace Newtonsoft::Json::Serialization {
-class SerializationErrorCallback;
-}
-namespace System::Reflection {
 class ConstructorInfo;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System::Reflection {
+class MemberInfo;
 }
-namespace GlobalNamespace {
-template <typename TEnumeratorKey, typename TEnumeratorValue> class __DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2;
+namespace System::Reflection {
+class MethodInfo;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System::Reflection {
+class ParameterInfo;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace System {
+template <typename TResult> class Func_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
-template <typename T1, typename T2> class Action_2;
+class IDisposable;
 }
-namespace Newtonsoft::Json::Utilities {
-template <typename T, typename TResult> class MethodCall_2;
+namespace System {
+class Object;
 }
-namespace Newtonsoft::Json::Serialization {
-template <typename T> class ObjectConstructor_1;
+namespace System {
+template <typename T> class Predicate_1;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -219,11 +219,21 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::System::Object*,::System::Object*>>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*>>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::System::Object*,::System::Object*>>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*>>*
+  i___System__Collections__Generic__IEnumerator_1___System__Collections__Generic__KeyValuePair_2___System__Object____System__Object___() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -326,8 +336,15 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::Object*,::System::Object*>>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*>>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::Object*,::System::Object*>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*>>*
+  i___System__Collections__Generic__IEnumerable_1___System__Collections__Generic__KeyValuePair_2___System__Object____System__Object___() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>*& __get__e();
 
@@ -870,6 +887,9 @@ public:
 
   /// @brief Convert operator to "::Newtonsoft::Json::Serialization::IContractResolver"
   constexpr operator ::Newtonsoft::Json::Serialization::IContractResolver*() noexcept;
+
+  /// @brief Convert to "::Newtonsoft::Json::Serialization::IContractResolver"
+  constexpr ::Newtonsoft::Json::Serialization::IContractResolver* i___Newtonsoft__Json__Serialization__IContractResolver() noexcept;
 
   constexpr ::Newtonsoft::Json::Serialization::DefaultContractResolverState*& __get__instanceState();
 

@@ -12,13 +12,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRHeadsetEmulator)
 namespace GlobalNamespace {
+class OVRManager;
+}
+namespace GlobalNamespace {
 struct __OVRHeadsetEmulator__OpMode;
 }
 namespace UnityEngine {
 struct KeyCode;
-}
-namespace GlobalNamespace {
-class OVRManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -88,7 +88,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRHeadsetEmulator__OpMode, value__)
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10060)), TypeDefinitionIndex(TypeDefinitionIndex(7578)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10060)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7578)),
 // TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7579)) CS Name: ::OVRHeadsetEmulator*
 class CORDL_TYPE OVRHeadsetEmulator : public ::UnityEngine::MonoBehaviour {
 public:

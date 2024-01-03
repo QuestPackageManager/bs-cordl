@@ -8,13 +8,13 @@ namespace GlobalNamespace {
 class BoolSO;
 }
 namespace GlobalNamespace {
+class IHapticFeedbackPlayer;
+}
+namespace GlobalNamespace {
 class RumbleHapticFeedbackPlayer;
 }
 namespace Libraries::HM::HMLib::VR {
 class HapticPresetSO;
-}
-namespace GlobalNamespace {
-class IHapticFeedbackPlayer;
 }
 namespace UnityEngine::XR {
 struct XRNode;

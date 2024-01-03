@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(KeyboardState)
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateTypeInfo;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct __KeyboardState___keys_e__FixedBuffer;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
 }
 namespace UnityEngine::InputSystem {
 struct Key;
@@ -81,6 +81,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
+
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo();
 
   /// @brief Method get_Format, addr 0x2ae88b0, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Format();

@@ -7,35 +7,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MaskableGraphic)
+namespace UnityEngine::UI {
+class IClippable;
+}
+namespace UnityEngine::UI {
+class IMaskable;
+}
+namespace UnityEngine::UI {
+class IMaterialModifier;
+}
+namespace UnityEngine::UI {
+class RectMask2D;
+}
+namespace UnityEngine::UI {
+class __MaskableGraphic__CullStateChangedEvent;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class Material;
+}
 namespace UnityEngine {
 struct Rect;
 }
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine::UI {
-class __MaskableGraphic__CullStateChangedEvent;
-}
-namespace UnityEngine::UI {
-class IClippable;
-}
-namespace UnityEngine::UI {
-class RectMask2D;
-}
-namespace UnityEngine::UI {
-class IMaterialModifier;
-}
-namespace UnityEngine::UI {
-class IMaskable;
-}
-namespace UnityEngine {
-class Material;
-}
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine {
-class GameObject;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -135,11 +135,20 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::IClippable"
   constexpr operator ::UnityEngine::UI::IClippable*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::UI::IClippable"
+  constexpr ::UnityEngine::UI::IClippable* i___UnityEngine__UI__IClippable() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::UI::IMaskable"
   constexpr operator ::UnityEngine::UI::IMaskable*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::UI::IMaskable"
+  constexpr ::UnityEngine::UI::IMaskable* i___UnityEngine__UI__IMaskable() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::UI::IMaterialModifier"
   constexpr operator ::UnityEngine::UI::IMaterialModifier*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UI::IMaterialModifier"
+  constexpr ::UnityEngine::UI::IMaterialModifier* i___UnityEngine__UI__IMaterialModifier() noexcept;
 
   constexpr bool& __get_m_ShouldRecalculateStencil();
 

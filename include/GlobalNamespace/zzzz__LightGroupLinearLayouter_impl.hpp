@@ -10,7 +10,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x23a9920;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightGroupLinearLayouter*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -18,6 +18,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::GlobalNamespace::IEditTimeValidated"
 constexpr GlobalNamespace::LightGroupLinearLayouter::operator ::GlobalNamespace::IEditTimeValidated*() noexcept {
+  return static_cast<::GlobalNamespace::IEditTimeValidated*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IEditTimeValidated"
+constexpr ::GlobalNamespace::IEditTimeValidated* GlobalNamespace::LightGroupLinearLayouter::i___GlobalNamespace__IEditTimeValidated() noexcept {
   return static_cast<::GlobalNamespace::IEditTimeValidated*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::LightGroupLinearLayouter::__get__movementStep() {

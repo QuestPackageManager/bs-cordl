@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EncryptedValueBuilder)
-namespace Org::BouncyCastle::Crmf {
-class IEncryptedValuePadder;
+namespace Org::BouncyCastle::Asn1::Crmf {
+class EncryptedValue;
 }
 namespace Org::BouncyCastle::Asn1::Pkcs {
 class PrivateKeyInfo;
 }
-namespace Org::BouncyCastle::Crypto {
-class IKeyWrapper;
-}
-namespace Org::BouncyCastle::Asn1::Crmf {
-class EncryptedValue;
+namespace Org::BouncyCastle::Crmf {
+class IEncryptedValuePadder;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherBuilderWithKey;
+}
+namespace Org::BouncyCastle::Crypto {
+class IKeyWrapper;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;

@@ -10,10 +10,10 @@ namespace GlobalNamespace {
 class PlaybackRenderer;
 }
 namespace UnityEngine {
-class Texture2D;
+class RenderTexture;
 }
 namespace UnityEngine {
-class RenderTexture;
+class Texture2D;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -7,15 +7,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(JPakeParticipant)
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Crypto::Agreement::JPake {
 class JPakePrimeOrderGroup;
 }
@@ -27,6 +18,15 @@ class JPakeRound2Payload;
 }
 namespace Org::BouncyCastle::Crypto::Agreement::JPake {
 class JPakeRound3Payload;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Agreement::JPake {

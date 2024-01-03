@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LanguageSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15869)), TypeDefinitionIndex(TypeDefinitionIndex(15554)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15869), inst:
-// 3855 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5848)) CS Name: ::LanguageSO*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15869), inst: 3855 }), TypeDefinitionIndex(TypeDefinitionIndex(15554)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15869))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5848)) CS Name: ::LanguageSO*
 class CORDL_TYPE LanguageSO : public ::GlobalNamespace::ObservableVariableSO_1<::Polyglot::Language> {
 public:
   // Declarations

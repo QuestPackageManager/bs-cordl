@@ -6,35 +6,35 @@ CORDL_MODULE_INIT
 #include "BeatSaber/AvatarCore/zzzz__AvatarSystem_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatAvatarSystem)
-namespace GlobalNamespace {
-struct MultiplayerAvatarData;
-}
 namespace BeatSaber::AvatarCore {
 struct AvatarDisplayContext;
-}
-namespace Zenject {
-class DiContainer;
 }
 namespace BeatSaber::AvatarCore {
 class AvatarEditorFlowCoordinator;
 }
 namespace BeatSaber::AvatarCore {
+class AvatarSelectionView;
+}
+namespace BeatSaber::AvatarCore {
 class Avatar;
 }
-namespace BeatSaber::BeatAvatarSDK {
-class AvatarDataModel;
+namespace BeatSaber::AvatarCore {
+class IOptionalAvatarDataProvider;
 }
 namespace BeatSaber::BeatAvatarAdapter {
 class BeatAvatarSystemSettings;
 }
+namespace BeatSaber::BeatAvatarSDK {
+class AvatarDataModel;
+}
+namespace GlobalNamespace {
+struct MultiplayerAvatarData;
+}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
-namespace BeatSaber::AvatarCore {
-class AvatarSelectionView;
-}
-namespace BeatSaber::AvatarCore {
-class IOptionalAvatarDataProvider;
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace BeatSaber::BeatAvatarAdapter {
@@ -46,7 +46,7 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarAdapter::BeatAvatarSystem);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarAdapter {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15183)), TypeDefinitionIndex(TypeDefinitionIndex(15179))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15179)), TypeDefinitionIndex(TypeDefinitionIndex(15183))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15259))
 // CS Name: ::BeatSaber.BeatAvatarAdapter::BeatAvatarSystem*
 class CORDL_TYPE BeatAvatarSystem : public ::BeatSaber::AvatarCore::AvatarSystem {
@@ -98,17 +98,14 @@ public:
   inline ::System::Threading::Tasks::Task_1<bool>* get_avatarCreated();
 
   /// @brief Method InstantiateAvatar, addr 0xe14814, size 0xac, virtual true, abstract: false, final false
-  /// @param container: ::Zenject::DiContainer* (default: nullptr)
   inline ::System::Threading::Tasks::Task_1<::BeatSaber::AvatarCore::Avatar*>* InstantiateAvatar(::BeatSaber::AvatarCore::AvatarDisplayContext avatarDisplayContext, int32_t levelOfDetail,
-                                                                                                 ::Zenject::DiContainer* container = nullptr);
+                                                                                                 ::Zenject::DiContainer* container);
 
   /// @brief Method InstantiateAvatarEditorUI, addr 0xe148c0, size 0x64, virtual true, abstract: false, final false
-  /// @param container: ::Zenject::DiContainer* (default: nullptr)
-  inline ::System::Threading::Tasks::Task_1<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*>* InstantiateAvatarEditorUI(::Zenject::DiContainer* container = nullptr);
+  inline ::System::Threading::Tasks::Task_1<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*>* InstantiateAvatarEditorUI(::Zenject::DiContainer* container);
 
   /// @brief Method InstantiateAvatarSelectionView, addr 0xe14924, size 0x64, virtual true, abstract: false, final false
-  /// @param container: ::Zenject::DiContainer* (default: nullptr)
-  inline ::System::Threading::Tasks::Task_1<::BeatSaber::AvatarCore::AvatarSelectionView*>* InstantiateAvatarSelectionView(::Zenject::DiContainer* container = nullptr);
+  inline ::System::Threading::Tasks::Task_1<::BeatSaber::AvatarCore::AvatarSelectionView*>* InstantiateAvatarSelectionView(::Zenject::DiContainer* container);
 
   /// @brief Method GetMultiplayerAvatarsData, addr 0xe14988, size 0x8c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerAvatarData>* GetMultiplayerAvatarsData();

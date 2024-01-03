@@ -10,34 +10,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GUIStyle)
 namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
-class GUIContent;
-}
-namespace UnityEngine {
-struct Vector2;
+struct FontStyle;
 }
 namespace UnityEngine {
 class Font;
 }
 namespace UnityEngine {
+class GUIContent;
+}
+namespace UnityEngine {
 class GUIStyleState;
-}
-namespace UnityEngine {
-struct TextAnchor;
-}
-namespace UnityEngine {
-struct FontStyle;
 }
 namespace UnityEngine {
 struct ImagePosition;
 }
 namespace UnityEngine {
+class RectOffset;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine {
+struct TextAnchor;
+}
+namespace UnityEngine {
 struct TextClipping;
 }
 namespace UnityEngine {
-class RectOffset;
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine {

@@ -10,8 +10,14 @@ CORDL_MODULE_EXPORT(TlsUtilities)
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509CertificateStructure;
 }
-namespace System::Collections {
-class IList;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class Certificate;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class ProtocolVersion;
@@ -20,16 +26,13 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class SessionParameters;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
+class SignatureAndHashAlgorithm;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
 }
-namespace System::Collections {
-class IDictionary;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsHandshakeHash;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSession;
@@ -37,29 +40,26 @@ class TlsSession;
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSignerCredentials;
 }
-namespace System::Net::Sockets {
-class SocketException;
-}
-namespace System::IO {
-class Stream;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsHandshakeHash;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class SignatureAndHashAlgorithm;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class Certificate;
+class TlsSigner;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSigner;
+namespace System::Collections {
+class IDictionary;
+}
+namespace System::Collections {
+class IList;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System::Net::Sockets {
+class SocketException;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

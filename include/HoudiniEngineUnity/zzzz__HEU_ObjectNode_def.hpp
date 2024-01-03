@@ -12,46 +12,46 @@ namespace HoudiniEngineUnity {
 struct HAPI_GeoInfo;
 }
 namespace HoudiniEngineUnity {
-class HEU_GeoNode;
-}
-namespace HoudiniEngineUnity {
-class HEU_MaterialData;
-}
-namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
-}
-namespace HoudiniEngineUnity {
 struct HAPI_ObjectInfo;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_Transform;
 }
 namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
-namespace HoudiniEngineUnity {
-class HEU_PartData;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
+class HEU_Curve;
 }
 namespace HoudiniEngineUnity {
 class HEU_GeneratedOutput;
 }
 namespace HoudiniEngineUnity {
-class HEU_Curve;
+class HEU_GeoNode;
+}
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset;
+}
+namespace HoudiniEngineUnity {
+class HEU_MaterialData;
 }
 namespace HoudiniEngineUnity {
 class HEU_ObjectInstanceInfo;
 }
-namespace UnityEngine {
-class GameObject;
+namespace HoudiniEngineUnity {
+class HEU_PartData;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
+}
+namespace HoudiniEngineUnity {
+template <typename T> class IEquivable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -92,6 +92,9 @@ public:
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectNode*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectNode*>*() noexcept;
+
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectNode*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectNode*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_ObjectNode__() noexcept;
 
   constexpr ::StringW& __get__objName();
 
@@ -154,8 +157,7 @@ public:
                          ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
 
   /// @brief Method DestroyAllData, addr 0x21731b8, size 0x100, virtual false, abstract: false, final false
-  /// @param bIsRebuild: bool (default: false)
-  inline void DestroyAllData(bool bIsRebuild = false);
+  inline void DestroyAllData(bool bIsRebuild);
 
   /// @brief Method CreateGeoNode, addr 0x2173104, size 0xb4, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_GeoNode* CreateGeoNode(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HAPI_GeoInfo geoInfo);

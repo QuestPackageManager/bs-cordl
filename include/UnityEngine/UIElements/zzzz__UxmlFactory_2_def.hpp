@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UxmlFactory_2)
 namespace UnityEngine::UIElements {
-class VisualElement;
+struct CreationContext;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class IUxmlFactory;
 }
 namespace UnityEngine::UIElements {
-class IUxmlFactory;
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -46,6 +46,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::UIElements::IUxmlFactory"
   constexpr operator ::UnityEngine::UIElements::IUxmlFactory*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UIElements::IUxmlFactory"
+  constexpr ::UnityEngine::UIElements::IUxmlFactory* i___UnityEngine__UIElements__IUxmlFactory() noexcept;
 
   constexpr TTraits& __get_m_Traits();
 

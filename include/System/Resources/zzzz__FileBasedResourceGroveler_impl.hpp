@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x24e0f64;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::FileBasedResourceGroveler*>::get(), ".ctor", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Resources::__ResourceManager__ResourceManagerMediator*>::get() })));
@@ -20,6 +20,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 };
 /// @brief Convert operator to "::System::Resources::IResourceGroveler"
 constexpr System::Resources::FileBasedResourceGroveler::operator ::System::Resources::IResourceGroveler*() noexcept {
+  return static_cast<::System::Resources::IResourceGroveler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Resources::IResourceGroveler"
+constexpr ::System::Resources::IResourceGroveler* System::Resources::FileBasedResourceGroveler::i___System__Resources__IResourceGroveler() noexcept {
   return static_cast<::System::Resources::IResourceGroveler*>(static_cast<void*>(this));
 }
 constexpr ::System::Resources::__ResourceManager__ResourceManagerMediator*& System::Resources::FileBasedResourceGroveler::__get__mediator() {

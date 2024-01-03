@@ -6,56 +6,56 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TickableManager)
+namespace ModestTree::Util {
+template <typename T1, typename T2> class ValuePair_2;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace Zenject {
-class __TickableManager____c;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
-namespace Zenject {
-class TickablesTaskUpdater;
-}
-namespace Zenject {
-class ILateTickable;
-}
-namespace Zenject {
-class FixedTickablesTaskUpdater;
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 class Object;
 }
-namespace Zenject {
-class __TickableManager____c__DisplayClass18_0;
-}
 namespace System {
 class Type;
 }
-namespace ModestTree::Util {
-template <typename T1, typename T2> class ValuePair_2;
-}
 namespace Zenject {
-class ITickable;
+class FixedTickablesTaskUpdater;
 }
 namespace Zenject {
 class IFixedTickable;
 }
 namespace Zenject {
-class LateTickablesTaskUpdater;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class ILateTickable;
 }
 namespace Zenject {
-class __TickableManager____c__DisplayClass19_0;
+class ITickable;
 }
 namespace Zenject {
 class InjectTypeInfo;
 }
 namespace Zenject {
+class LateTickablesTaskUpdater;
+}
+namespace Zenject {
+class TickablesTaskUpdater;
+}
+namespace Zenject {
+class __TickableManager____c;
+}
+namespace Zenject {
 class __TickableManager____c__DisplayClass17_0;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace Zenject {
+class __TickableManager____c__DisplayClass18_0;
+}
+namespace Zenject {
+class __TickableManager____c__DisplayClass19_0;
 }
 // Forward declare root types
 namespace Zenject {

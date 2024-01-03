@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_FontAssetUtilities)
-namespace TMPro {
-class TMP_FontAsset;
-}
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace TMPro {
 struct FontStyles;
@@ -18,11 +18,11 @@ struct FontStyles;
 namespace TMPro {
 struct FontWeight;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace TMPro {
 class TMP_Character;
+}
+namespace TMPro {
+class TMP_FontAsset;
 }
 namespace TMPro {
 class TMP_SpriteAsset;

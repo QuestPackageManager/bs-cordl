@@ -2,51 +2,53 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__Nullable_1_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputStateHistory_1)
-namespace UnityEngine::InputSystem::LowLevel {
-template <typename TValue> struct __InputStateHistory_1__Record;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyCollection_1;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace UnityEngine::InputSystem {
-template <typename TValue> class InputControl_1;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-template <typename TValue> struct __InputStateHistory_1__Enumerator;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
-namespace System {
-class Object;
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class IDisposable;
 }
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+template <typename TValue> struct __InputStateHistory_1__Enumerator;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+template <typename TValue> struct __InputStateHistory_1__Record;
+}
 namespace UnityEngine::InputSystem::LowLevel {
 struct __InputStateHistory__RecordHeader;
 }
-namespace System {
-template <typename T> class IEquatable_1;
+namespace UnityEngine::InputSystem {
+template <typename TValue> class InputControl_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -81,11 +83,21 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>*
+  i___System__Collections__Generic__IEnumerator_1___UnityEngine__InputSystem__LowLevel____InputStateHistory_1__Record_TValue__();
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*();
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator();
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<TValue>* history);
@@ -158,6 +170,10 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>"
+  constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>*
+  i___System__IEquatable_1___UnityEngine__InputSystem__LowLevel____InputStateHistory_1__Record_TValue__();
 
   /// @brief Method get_header, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::__InputStateHistory__RecordHeader> get_header();
@@ -256,8 +272,9 @@ namespace UnityEngine::InputSystem::LowLevel {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6574)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6577)) CS Name: ::UnityEngine.InputSystem.LowLevel::InputStateHistory`1<TValue>*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6574))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6577))
+// CS Name: ::UnityEngine.InputSystem.LowLevel::InputStateHistory`1<TValue>*
 class CORDL_TYPE InputStateHistory_1 : public ::UnityEngine::InputSystem::LowLevel::InputStateHistory {
 public:
   // Declarations
@@ -270,20 +287,34 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>"
   constexpr operator ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>"
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>*
+  i___System__Collections__Generic__IReadOnlyList_1___UnityEngine__InputSystem__LowLevel____InputStateHistory_1__Record_TValue__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>*
+  i___System__Collections__Generic__IEnumerable_1___UnityEngine__InputSystem__LowLevel____InputStateHistory_1__Record_TValue__() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>"
   constexpr operator ::System::Collections::Generic::IReadOnlyCollection_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>"
+  constexpr ::System::Collections::Generic::IReadOnlyCollection_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>*
+  i___System__Collections__Generic__IReadOnlyCollection_1___UnityEngine__InputSystem__LowLevel____InputStateHistory_1__Record_TValue__() noexcept;
 
   static inline ::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<TValue>* New_ctor(::System::Nullable_1<int32_t> maxStateSizeInBytes);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param maxStateSizeInBytes: ::System::Nullable_1<int32_t> (default: {})
-  inline void _ctor(::System::Nullable_1<int32_t> maxStateSizeInBytes = {});
+  inline void _ctor(::System::Nullable_1<int32_t> maxStateSizeInBytes);
 
   static inline ::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<TValue>* New_ctor(::UnityEngine::InputSystem::InputControl_1<TValue>* control);
 
@@ -302,8 +333,7 @@ public:
   inline ::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue> AddRecord(::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue> record);
 
   /// @brief Method RecordStateChange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param time: double_t (default: -1.0)
-  inline ::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue> RecordStateChange(::UnityEngine::InputSystem::InputControl_1<TValue>* control, TValue value, double_t time = -1.0);
+  inline ::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue> RecordStateChange(::UnityEngine::InputSystem::InputControl_1<TValue>* control, TValue value, double_t time);
 
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>* GetEnumerator();

@@ -10,68 +10,77 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InternalTreeView)
-namespace UnityEngine::UIElements {
-class __InternalTreeView__UxmlTraits;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
-namespace UnityEngine::UIElements {
-class __InternalTreeView__UxmlFactory;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace System::Collections::Generic {
+template <typename T> class Stack_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+template <typename T> class Action_1;
+}
 namespace System {
 template <typename T1, typename T2> class Action_2;
-}
-namespace UnityEngine::UIElements {
-class KeyDownEvent;
 }
 namespace System {
 template <typename TResult> class Func_1;
 }
-namespace UnityEngine::UIElements {
-class ScrollView;
-}
-namespace UnityEngine::UIElements {
-class MouseUpEvent;
-}
-namespace UnityEngine::UIElements {
-class ITreeViewItem;
-}
-namespace UnityEngine::UIElements {
-struct SelectionType;
-}
-namespace UnityEngine::UIElements {
-struct __InternalTreeView__TreeViewItemWrapper;
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
 struct AlternatingRowBackground;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::UIElements {
-class ListView;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace UnityEngine::UIElements {
-class __InternalTreeView___GetAllItems_d__64;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class ChangeEvent_1;
 }
 namespace UnityEngine::UIElements {
+struct CreationContext;
+}
+namespace UnityEngine::UIElements {
 class CustomStyleResolvedEvent;
+}
+namespace UnityEngine::UIElements {
+class ITreeViewItem;
+}
+namespace UnityEngine::UIElements {
+class IUxmlAttributes;
+}
+namespace UnityEngine::UIElements {
+class KeyDownEvent;
+}
+namespace UnityEngine::UIElements {
+class ListView;
+}
+namespace UnityEngine::UIElements {
+class MouseUpEvent;
+}
+namespace UnityEngine::UIElements {
+class ScrollView;
+}
+namespace UnityEngine::UIElements {
+struct SelectionType;
+}
+namespace UnityEngine::UIElements {
+class UxmlBoolAttributeDescription;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class UxmlEnumAttributeDescription_1;
@@ -80,28 +89,19 @@ namespace UnityEngine::UIElements {
 class UxmlIntAttributeDescription;
 }
 namespace UnityEngine::UIElements {
-class UxmlBoolAttributeDescription;
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+struct __InternalTreeView__TreeViewItemWrapper;
 }
 namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+class __InternalTreeView__UxmlFactory;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace UnityEngine::UIElements {
+class __InternalTreeView__UxmlTraits;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections::Generic {
-template <typename T> class Stack_1;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System {
-class IDisposable;
+namespace UnityEngine::UIElements {
+class __InternalTreeView___GetAllItems_d__64;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -560,8 +560,8 @@ static_assert(offsetof(::UnityEngine::UIElements::InternalTreeView, ___m_ScrollV
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6997)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5265 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7347)), TypeDefinitionIndex(TypeDefinitionIndex(7350))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7346)) CS Name: ::InternalTreeView::UxmlFactory*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5265 }), TypeDefinitionIndex(TypeDefinitionIndex(7350)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7347))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7346)) CS Name: ::InternalTreeView::UxmlFactory*
 class CORDL_TYPE __InternalTreeView__UxmlFactory
     : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::InternalTreeView*, ::UnityEngine::UIElements::__InternalTreeView__UxmlTraits*> {
 public:
@@ -681,17 +681,34 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*
+  i___System__Collections__Generic__IEnumerable_1___UnityEngine__UIElements__ITreeViewItem__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>*
+  i___System__Collections__Generic__IEnumerator_1___UnityEngine__UIElements__ITreeViewItem__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

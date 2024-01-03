@@ -3,13 +3,13 @@
 #include "UnityEngine/UIElements/UIR/zzzz__BaseShaderInfoStorage_impl.hpp"
 #include "UnityEngine/zzzz__TextureFormat_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__ShaderInfoStorage_1_def.hpp"
-#include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UIRAtlasAllocator_def.hpp"
-#include "UnityEngine/zzzz__TextureFormat_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UIRAtlasAllocator_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__RectInt_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
+#include "UnityEngine/zzzz__TextureFormat_def.hpp"
 template <typename T> constexpr int32_t& UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::__get_m_InitialSize() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InitialSize;

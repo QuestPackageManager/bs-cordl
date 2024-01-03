@@ -7,49 +7,49 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MissionLevelFailedController)
 namespace GlobalNamespace {
-class LevelFailedTextEffect;
-}
-namespace GlobalNamespace {
-class __MissionLevelFailedController__InitData;
-}
-namespace GlobalNamespace {
-class GameSongController;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace GlobalNamespace {
-class __MissionLevelFailedController___LevelFailedCoroutine_d__13;
-}
-namespace GlobalNamespace {
-class MissionLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class PrepareLevelCompletionResults;
+class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
 class BeatmapObjectSpawnController;
 }
 namespace GlobalNamespace {
-class BeatmapObjectManager;
-}
-namespace GlobalNamespace {
-class MissionObjectiveCheckersManager;
+class GameSongController;
 }
 namespace GlobalNamespace {
 class ILevelEndActions;
 }
 namespace GlobalNamespace {
+class LevelFailedTextEffect;
+}
+namespace GlobalNamespace {
 class MissionCompletionResults;
 }
-namespace System {
-class Object;
+namespace GlobalNamespace {
+class MissionLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class MissionObjectiveCheckersManager;
+}
+namespace GlobalNamespace {
+class PrepareLevelCompletionResults;
+}
+namespace GlobalNamespace {
+class __MissionLevelFailedController__InitData;
+}
+namespace GlobalNamespace {
+class __MissionLevelFailedController___LevelFailedCoroutine_d__13;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class IDisposable;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -143,11 +143,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

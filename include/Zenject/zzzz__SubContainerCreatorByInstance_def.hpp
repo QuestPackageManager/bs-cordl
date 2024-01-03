@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SubContainerCreatorByInstance)
-namespace Zenject {
-class ISubContainerCreator;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Zenject {
 class DiContainer;
+}
+namespace Zenject {
+class ISubContainerCreator;
 }
 namespace Zenject {
 class InjectContext;
@@ -40,6 +40,9 @@ public:
 
   /// @brief Convert operator to "::Zenject::ISubContainerCreator"
   constexpr operator ::Zenject::ISubContainerCreator*() noexcept;
+
+  /// @brief Convert to "::Zenject::ISubContainerCreator"
+  constexpr ::Zenject::ISubContainerCreator* i___Zenject__ISubContainerCreator() noexcept;
 
   constexpr ::Zenject::DiContainer*& __get__subcontainer();
 

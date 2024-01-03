@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Volatile)
 namespace System::Threading {
+struct __Volatile__VolatileBoolean;
+}
+namespace System::Threading {
 struct __Volatile__VolatileInt32;
 }
 namespace System::Threading {
 struct __Volatile__VolatileObject;
-}
-namespace System::Threading {
-struct __Volatile__VolatileBoolean;
 }
 namespace System {
 class Object;

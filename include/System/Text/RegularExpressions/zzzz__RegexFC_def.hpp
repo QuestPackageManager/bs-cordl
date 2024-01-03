@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(RegexFC)
-namespace System::Text::RegularExpressions {
-class RegexCharClass;
-}
 namespace System::Globalization {
 class CultureInfo;
+}
+namespace System::Text::RegularExpressions {
+class RegexCharClass;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {

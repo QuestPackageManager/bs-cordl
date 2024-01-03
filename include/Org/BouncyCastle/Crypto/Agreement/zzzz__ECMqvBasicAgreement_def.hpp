@@ -6,28 +6,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ECMqvBasicAgreement)
 namespace Org::BouncyCastle::Crypto::Parameters {
-class MqvPrivateParameters;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECPublicKeyParameters;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
+class ECDomainParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECPrivateKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
-class ECDomainParameters;
+class ECPublicKeyParameters;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class MqvPrivateParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class IBasicAgreement;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Agreement {
@@ -50,6 +50,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBasicAgreement"
   constexpr operator ::Org::BouncyCastle::Crypto::IBasicAgreement*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IBasicAgreement"
+  constexpr ::Org::BouncyCastle::Crypto::IBasicAgreement* i___Org__BouncyCastle__Crypto__IBasicAgreement() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters*& __get_privParams();
 

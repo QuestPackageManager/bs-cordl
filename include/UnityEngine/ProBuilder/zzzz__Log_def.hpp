@@ -5,21 +5,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__LogLevel_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__LogOutput_def.hpp"
-#include "UnityEngine/zzzz__LogType_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Log)
-namespace UnityEngine::ProBuilder {
-struct LogOutput;
-}
-namespace UnityEngine::ProBuilder {
-struct LogLevel;
+namespace System::Collections::Generic {
+template <typename T> class Stack_1;
 }
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class Stack_1;
+namespace UnityEngine::ProBuilder {
+struct LogLevel;
+}
+namespace UnityEngine::ProBuilder {
+struct LogOutput;
 }
 namespace UnityEngine {
 struct LogType;
@@ -34,8 +33,9 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Log);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10036)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12135)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12136))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12137)) CS Name: ::UnityEngine.ProBuilder::Log*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12136)), TypeDefinitionIndex(TypeDefinitionIndex(12135))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12137))
+// CS Name: ::UnityEngine.ProBuilder::Log*
 class CORDL_TYPE Log : public ::System::Object {
 public:
   // Declarations
@@ -122,8 +122,7 @@ public:
   static inline void ClearLogFile();
 
   /// @brief Method PrintToConsole, addr 0x2b478d8, size 0xd4, virtual false, abstract: false, final false
-  /// @param type: ::UnityEngine::LogType (default: static_cast<int32_t>(0x3))
-  static inline void PrintToConsole(::StringW message, ::UnityEngine::LogType type = static_cast<int32_t>(0x3));
+  static inline void PrintToConsole(::StringW message, ::UnityEngine::LogType type);
 
   /// @brief Method NotNull, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void NotNull(T obj, ::StringW message);

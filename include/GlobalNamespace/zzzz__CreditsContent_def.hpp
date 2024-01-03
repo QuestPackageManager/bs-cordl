@@ -10,10 +10,10 @@ namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine {
-class TextAsset;
+class RectTransform;
 }
 namespace UnityEngine {
-class RectTransform;
+class TextAsset;
 }
 namespace UnityEngine {
 class Transform;

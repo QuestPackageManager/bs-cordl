@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MaterialLightWithId)
 namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
 class MaterialPropertyBlock;
 }
 namespace UnityEngine {
 class MeshRenderer;
-}
-namespace UnityEngine {
-struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MaterialLightWithId);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14542))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14542)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14545))
 // CS Name: ::MaterialLightWithId*
 class CORDL_TYPE MaterialLightWithId : public ::GlobalNamespace::LightWithIdMonoBehaviour {

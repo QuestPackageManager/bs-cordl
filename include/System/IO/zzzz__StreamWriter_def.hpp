@@ -14,31 +14,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StreamWriter)
 namespace System::IO {
-struct __StreamWriter___DisposeAsyncCore_d__33;
-}
-namespace System::Text {
-class Encoder;
-}
-namespace System::IO {
 class Stream;
 }
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System::Text {
-class Encoding;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System::Threading::Tasks {
-struct ValueTask;
+namespace System::IO {
+struct __StreamWriter___DisposeAsyncCore_d__33;
 }
 namespace System::IO {
 struct __StreamWriter___FlushAsyncInternal_d__74;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncValueTaskMethodBuilder;
@@ -52,8 +37,23 @@ struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 namespace System::Runtime::CompilerServices {
 struct __ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter;
 }
-namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
+namespace System::Text {
+class Encoder;
+}
+namespace System::Text {
+class Encoding;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::Threading::Tasks {
+struct ValueTask;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
 }
 // Forward declare root types
 namespace System::IO {
@@ -73,7 +73,7 @@ MARK_VAL_T(::System::IO::__StreamWriter___FlushAsyncInternal_d__74);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3357))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3357)), TypeDefinitionIndex(TypeDefinitionIndex(3395))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3576))
 // CS Name: ::StreamWriter::<DisposeAsyncCore>d__33
 struct CORDL_TYPE __StreamWriter___DisposeAsyncCore_d__33 {
@@ -81,6 +81,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x2505fc4, size 0x28c, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -131,13 +134,16 @@ static_assert(offsetof(::System::IO::__StreamWriter___DisposeAsyncCore_d__33, __
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3361)), TypeDefinitionIndex(TypeDefinitionIndex(3395)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3577)) CS Name: ::StreamWriter::<FlushAsyncInternal>d__74
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3361)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3401))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3577)) CS Name: ::StreamWriter::<FlushAsyncInternal>d__74
 struct CORDL_TYPE __StreamWriter___FlushAsyncInternal_d__74 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x250625c, size 0x724, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -253,7 +259,7 @@ static_assert(offsetof(::System::IO::__StreamWriter___FlushAsyncInternal_d__74, 
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3586))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3586))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3578))
 // CS Name: ::System.IO::StreamWriter*
 class CORDL_TYPE StreamWriter : public ::System::IO::TextWriter {
@@ -484,9 +490,8 @@ public:
   inline void set_HaveWrittenPreamble_Prop(bool value);
 
   /// @brief Method FlushAsyncInternal, addr 0x2505c5c, size 0x174, virtual false, abstract: false, final false
-  /// @param cancellationToken: ::System::Threading::CancellationToken (default: {})
   inline ::System::Threading::Tasks::Task* FlushAsyncInternal(bool flushStream, bool flushEncoder, ::ArrayW<char16_t, ::Array<char16_t>*> sCharBuffer, int32_t sCharPos,
-                                                              ::System::Threading::CancellationToken cancellationToken = {});
+                                                              ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method FlushAsyncInternal, addr 0x2505ddc, size 0x134, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* FlushAsyncInternal(::System::IO::StreamWriter* _this, bool flushStream, bool flushEncoder, ::ArrayW<char16_t, ::Array<char16_t>*> charBuffer,

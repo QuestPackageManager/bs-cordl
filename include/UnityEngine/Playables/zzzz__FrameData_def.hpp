@@ -9,16 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FrameData)
 namespace UnityEngine::Playables {
-struct __FrameData__Flags;
-}
-namespace UnityEngine::Playables {
-struct __FrameData__EvaluationType;
+struct PlayState;
 }
 namespace UnityEngine::Playables {
 struct PlayableOutput;
 }
 namespace UnityEngine::Playables {
-struct PlayState;
+struct __FrameData__EvaluationType;
+}
+namespace UnityEngine::Playables {
+struct __FrameData__Flags;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {

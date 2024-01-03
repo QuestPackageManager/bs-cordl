@@ -8,47 +8,56 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConcurrentDictionary_2)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class IReadOnlyDictionary_2;
+namespace System::Collections::Concurrent {
+template <typename TKey, typename TValue> class __ConcurrentDictionary_2__DictionaryEnumerator;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System::Collections::Concurrent {
+template <typename TKey, typename TValue> class __ConcurrentDictionary_2__Node;
 }
-namespace System::Collections {
-struct DictionaryEntry;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace System::Collections {
-class IDictionaryEnumerator;
+namespace System::Collections::Concurrent {
+template <typename TKey, typename TValue> class __ConcurrentDictionary_2__Tables;
 }
 namespace System::Collections::Concurrent {
 template <typename TKey, typename TValue> class __ConcurrentDictionary_2___GetEnumerator_d__35;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections::Concurrent {
-template <typename TKey, typename TValue> class __ConcurrentDictionary_2__Node;
+template <typename T> class ICollection_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class IDictionary_2;
 }
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEqualityComparer_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class IReadOnlyDictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
-namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
-}
 namespace System::Collections::ObjectModel {
 template <typename T> class ReadOnlyCollection_1;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+namespace System::Collections {
+struct DictionaryEntry;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
+class IDictionaryEnumerator;
+}
+namespace System::Collections {
+class IDictionary;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -56,29 +65,20 @@ class IEnumerable;
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System::Collections::Concurrent {
-template <typename TKey, typename TValue> class __ConcurrentDictionary_2__DictionaryEnumerator;
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System {
 class Array;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
-}
-namespace System::Collections::Concurrent {
-template <typename TKey, typename TValue> class __ConcurrentDictionary_2__Tables;
-}
-namespace System::Collections {
-class IDictionary;
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Collections::Concurrent {
@@ -292,8 +292,14 @@ public:
   /// @brief Convert operator to "::System::Collections::IDictionaryEnumerator"
   constexpr operator ::System::Collections::IDictionaryEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IDictionaryEnumerator"
+  constexpr ::System::Collections::IDictionaryEnumerator* i___System__Collections__IDictionaryEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*& __get__enumerator();
 
@@ -352,8 +358,8 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3841)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 1104
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(3809)) CS Name: ::ConcurrentDictionary`2::<GetEnumerator>d__35<TKey,TValue>*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 1104 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3841))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3809)) CS Name: ::ConcurrentDictionary`2::<GetEnumerator>d__35<TKey,TValue>*
 class CORDL_TYPE __ConcurrentDictionary_2___GetEnumerator_d__35 : public ::System::Object {
 public:
   // Declarations
@@ -384,11 +390,21 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
+  i___System__Collections__Generic__IEnumerator_1___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -562,26 +578,53 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IDictionary_2<TKey,TValue>"
   constexpr operator ::System::Collections::Generic::IDictionary_2<TKey, TValue>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IDictionary_2<TKey,TValue>"
+  constexpr ::System::Collections::Generic::IDictionary_2<TKey, TValue>* i___System__Collections__Generic__IDictionary_2_TKey_TValue_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
   constexpr operator ::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
+  constexpr ::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
+  i___System__Collections__Generic__ICollection_1___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
+  i___System__Collections__Generic__IEnumerable_1___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IDictionary"
   constexpr operator ::System::Collections::IDictionary*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IDictionary"
+  constexpr ::System::Collections::IDictionary* i___System__Collections__IDictionary() noexcept;
+
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
+
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyDictionary_2<TKey,TValue>"
   constexpr operator ::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IReadOnlyDictionary_2<TKey,TValue>"
+  constexpr ::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>* i___System__Collections__Generic__IReadOnlyDictionary_2_TKey_TValue_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
   constexpr operator ::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
+  constexpr ::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
+  i___System__Collections__Generic__IReadOnlyCollection_1___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() noexcept;
 
   constexpr ::System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>*& __get__tables();
 

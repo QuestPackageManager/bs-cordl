@@ -4,26 +4,26 @@
 CORDL_MODULE_INIT
 #include "Newtonsoft/Json/Serialization/zzzz__JsonContainerContract_def.hpp"
 CORDL_MODULE_EXPORT(JsonArrayContract)
-namespace System::Collections {
-class IList;
+namespace Newtonsoft::Json::Serialization {
+template <typename T> class ObjectConstructor_1;
 }
 namespace Newtonsoft::Json::Utilities {
 class IWrappedCollection;
 }
-namespace System {
-class Type;
+namespace System::Collections {
+class IList;
 }
 namespace System::Reflection {
 class ConstructorInfo;
 }
 namespace System {
-class Object;
-}
-namespace Newtonsoft::Json::Serialization {
-template <typename T> class ObjectConstructor_1;
+template <typename TResult> class Func_1;
 }
 namespace System {
-template <typename TResult> class Func_1;
+class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {

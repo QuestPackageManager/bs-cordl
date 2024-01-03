@@ -9,17 +9,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NamedColorListController)
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
 class __NamedColorListController__ColorValuePair;
 }
-namespace UnityEngine {
-struct Color;
-}
 namespace HMUI {
 template <typename T> class IValueChanger_1;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__NamedColorListController__ColorValuePair);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16150))
 // CS Name: ::NamedColorListController::ColorValuePair*
 class CORDL_TYPE __NamedColorListController__ColorValuePair : public ::System::Object {
@@ -119,6 +119,9 @@ public:
 
   /// @brief Convert operator to "::HMUI::IValueChanger_1<int32_t>"
   constexpr operator ::HMUI::IValueChanger_1<int32_t>*() noexcept;
+
+  /// @brief Convert to "::HMUI::IValueChanger_1<int32_t>"
+  constexpr ::HMUI::IValueChanger_1<int32_t>* i___HMUI__IValueChanger_1_int32_t_() noexcept;
 
   constexpr ::ArrayW<::GlobalNamespace::__NamedColorListController__ColorValuePair*, ::Array<::GlobalNamespace::__NamedColorListController__ColorValuePair*>*>& __get__textValuePairs();
 

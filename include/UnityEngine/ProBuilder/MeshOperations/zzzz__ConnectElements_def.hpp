@@ -7,20 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConnectElements)
-namespace UnityEngine::ProBuilder {
-class WingedEdge;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace UnityEngine::ProBuilder::MeshOperations {
-class __ConnectElements____c;
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
-namespace UnityEngine::ProBuilder::MeshOperations {
-class __ConnectElements____c__DisplayClass3_0;
-}
-namespace UnityEngine::ProBuilder::MeshOperations {
-class ConnectFaceRebuildData;
-}
-namespace UnityEngine::ProBuilder {
-struct Edge;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
@@ -28,41 +22,47 @@ template <typename T> class IList_1;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine::ProBuilder::MeshOperations {
+class ConnectFaceRebuildData;
+}
+namespace UnityEngine::ProBuilder::MeshOperations {
+class __ConnectElements____c;
+}
 namespace UnityEngine::ProBuilder::MeshOperations {
 class __ConnectElements____c__DisplayClass2_0;
 }
-namespace UnityEngine::ProBuilder {
-template <typename T1, typename T2> struct SimpleTuple_2;
-}
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+namespace UnityEngine::ProBuilder::MeshOperations {
+class __ConnectElements____c__DisplayClass3_0;
 }
 namespace UnityEngine::ProBuilder {
 class ActionResult;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace UnityEngine::ProBuilder {
+struct EdgeLookup;
 }
 namespace UnityEngine::ProBuilder {
-class Face;
-}
-namespace UnityEngine::ProBuilder {
-class Vertex;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
+struct Edge;
 }
 namespace UnityEngine::ProBuilder {
 class FaceRebuildData;
 }
 namespace UnityEngine::ProBuilder {
-struct EdgeLookup;
+class Face;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
+}
+namespace UnityEngine::ProBuilder {
+template <typename T1, typename T2> struct SimpleTuple_2;
+}
+namespace UnityEngine::ProBuilder {
+class Vertex;
+}
+namespace UnityEngine::ProBuilder {
+class WingedEdge;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::MeshOperations {
@@ -420,13 +420,10 @@ public:
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> Connect(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<int32_t>* indexes);
 
   /// @brief Method Connect, addr 0x2ba46cc, size 0x1590, virtual false, abstract: false, final false
-  /// @param returnFaces: bool (default: false)
-  /// @param returnEdges: bool (default: false)
-  /// @param faceMask: ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* (default: nullptr)
   static inline ::UnityEngine::ProBuilder::ActionResult* Connect(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges,
                                                                  ByRef<::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*>> addedFaces,
-                                                                 ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>> connections, bool returnFaces = false,
-                                                                 bool returnEdges = false, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* faceMask = nullptr);
+                                                                 ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>> connections, bool returnFaces,
+                                                                 bool returnEdges, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* faceMask);
 
   /// @brief Method ConnectEdgesInFace, addr 0x2ba8d7c, size 0x7c0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>*

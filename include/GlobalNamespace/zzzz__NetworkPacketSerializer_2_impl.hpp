@@ -1,20 +1,20 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NetworkPacketSerializer_2_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
-#include "System/zzzz__Action_3_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkPacketSerializer_1_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "GlobalNamespace/zzzz__NetworkPacketSerializer_2_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkPacketSubSerializer_1_def.hpp"
-#include "System/zzzz__Type_def.hpp"
+#include "GlobalNamespace/zzzz__NetworkPacketSerializer_2_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "System/zzzz__Action_3_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__Func_4_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 template <typename TType, typename TData, typename TPacket>
 constexpr ::System::Action_1<TPacket>*& GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass4_0_1<TType, TData, TPacket>::__get_callback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -313,8 +313,18 @@ template <typename TType, typename TData> constexpr ::GlobalNamespace::__Network
 template <typename TType, typename TData> constexpr GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::operator ::GlobalNamespace::INetworkPacketSerializer_1<TData>*() noexcept {
   return static_cast<::GlobalNamespace::INetworkPacketSerializer_1<TData>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::GlobalNamespace::INetworkPacketSerializer_1<TData>"
+template <typename TType, typename TData>
+constexpr ::GlobalNamespace::INetworkPacketSerializer_1<TData>* GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::i___GlobalNamespace__INetworkPacketSerializer_1_TData_() noexcept {
+  return static_cast<::GlobalNamespace::INetworkPacketSerializer_1<TData>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::GlobalNamespace::INetworkPacketSubSerializer_1<TData>"
 template <typename TType, typename TData> constexpr GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::operator ::GlobalNamespace::INetworkPacketSubSerializer_1<TData>*() noexcept {
+  return static_cast<::GlobalNamespace::INetworkPacketSubSerializer_1<TData>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::INetworkPacketSubSerializer_1<TData>"
+template <typename TType, typename TData>
+constexpr ::GlobalNamespace::INetworkPacketSubSerializer_1<TData>* GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::i___GlobalNamespace__INetworkPacketSubSerializer_1_TData_() noexcept {
   return static_cast<::GlobalNamespace::INetworkPacketSubSerializer_1<TData>*>(static_cast<void*>(this));
 }
 template <typename TType, typename TData>

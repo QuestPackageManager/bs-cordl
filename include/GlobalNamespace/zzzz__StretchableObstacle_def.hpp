@@ -10,22 +10,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StretchableObstacle)
 namespace GlobalNamespace {
-class ParametricBoxFrameController;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace GlobalNamespace {
 class MaterialPropertyBlockController;
 }
 namespace GlobalNamespace {
 class ParametricBoxFakeGlowController;
+}
+namespace GlobalNamespace {
+class ParametricBoxFrameController;
 }
 namespace UnityEngine {
 struct Bounds;
 }
 namespace UnityEngine {
 struct Color;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {

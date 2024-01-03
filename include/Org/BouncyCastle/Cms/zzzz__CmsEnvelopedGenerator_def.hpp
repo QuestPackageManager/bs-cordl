@@ -8,29 +8,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsEnvelopedGenerator)
-namespace Org::BouncyCastle::Cms {
-class CmsAttributeTableGenerator;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
-}
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
-namespace System::Collections {
-class IList;
-}
 namespace Org::BouncyCastle::Asn1::Cms {
 class KekIdentifier;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsAttributeTableGenerator;
 }
 namespace Org::BouncyCastle::Cms {
 class CmsPbeKey;
@@ -38,14 +26,26 @@ class CmsPbeKey;
 namespace Org::BouncyCastle::Cms {
 class RecipientInfoGenerator;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 namespace System::Collections {
 class ICollection;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

@@ -8,44 +8,44 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextSlider)
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine::UI {
-struct CanvasUpdate;
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace TMPro {
 class TextMeshProUGUI;
 }
-namespace UnityEngine {
-class RectTransform;
-}
 namespace UnityEngine::EventSystems {
 class IBeginDragHandler;
-}
-namespace UnityEngine::UI {
-class ICanvasElement;
 }
 namespace UnityEngine::EventSystems {
 class IDragHandler;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine::UI {
-class Graphic;
+class IEventSystemHandler;
 }
 namespace UnityEngine::EventSystems {
 class IInitializePotentialDragHandler;
 }
-namespace System {
-template <typename T1, typename T2> class Action_2;
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace UnityEngine::UI {
+struct CanvasUpdate;
+}
+namespace UnityEngine::UI {
+class Graphic;
+}
+namespace UnityEngine::UI {
+class ICanvasElement;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace HMUI {
@@ -57,7 +57,7 @@ MARK_REF_PTR_T(::HMUI::TextSlider);
 // SizeInfo { instance_size: 320, native_size: -1, calculated_instance_size: 320, calculated_native_size: 313, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13119)), TypeDefinitionIndex(TypeDefinitionIndex(10278))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10278)), TypeDefinitionIndex(TypeDefinitionIndex(13119))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13560))
 // CS Name: ::HMUI::TextSlider*
 class CORDL_TYPE TextSlider : public ::UnityEngine::UI::Selectable {
@@ -118,17 +118,32 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IBeginDragHandler"
   constexpr operator ::UnityEngine::EventSystems::IBeginDragHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IBeginDragHandler"
+  constexpr ::UnityEngine::EventSystems::IBeginDragHandler* i___UnityEngine__EventSystems__IBeginDragHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IDragHandler"
   constexpr operator ::UnityEngine::EventSystems::IDragHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IDragHandler"
+  constexpr ::UnityEngine::EventSystems::IDragHandler* i___UnityEngine__EventSystems__IDragHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IInitializePotentialDragHandler"
   constexpr operator ::UnityEngine::EventSystems::IInitializePotentialDragHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IInitializePotentialDragHandler"
+  constexpr ::UnityEngine::EventSystems::IInitializePotentialDragHandler* i___UnityEngine__EventSystems__IInitializePotentialDragHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::UI::ICanvasElement"
   constexpr operator ::UnityEngine::UI::ICanvasElement*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UI::ICanvasElement"
+  constexpr ::UnityEngine::UI::ICanvasElement* i___UnityEngine__UI__ICanvasElement() noexcept;
 
   constexpr ::TMPro::TextMeshProUGUI*& __get__valueText();
 

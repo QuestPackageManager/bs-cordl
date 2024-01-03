@@ -1,30 +1,42 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__DictionaryWrapper_2_def.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__DictionaryWrapper_2_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__IWrappedDictionary_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__DictionaryEntry_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Array_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "System/Collections/zzzz__DictionaryEntry_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 /// @brief Convert operator to "::System::Collections::IDictionaryEnumerator"
 template <typename TKey, typename TValue, typename TEnumeratorKey, typename TEnumeratorValue>
 constexpr Newtonsoft::Json::Utilities::__DictionaryWrapper_2__DictionaryEnumerator_2<TKey, TValue, TEnumeratorKey, TEnumeratorValue>::operator ::System::Collections::IDictionaryEnumerator*() {
   return static_cast<::System::Collections::IDictionaryEnumerator*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::Collections::IDictionaryEnumerator"
+template <typename TKey, typename TValue, typename TEnumeratorKey, typename TEnumeratorValue>
+constexpr ::System::Collections::IDictionaryEnumerator*
+Newtonsoft::Json::Utilities::__DictionaryWrapper_2__DictionaryEnumerator_2<TKey, TValue, TEnumeratorKey, TEnumeratorValue>::i___System__Collections__IDictionaryEnumerator() {
+  return static_cast<::System::Collections::IDictionaryEnumerator*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 template <typename TKey, typename TValue, typename TEnumeratorKey, typename TEnumeratorValue>
 constexpr Newtonsoft::Json::Utilities::__DictionaryWrapper_2__DictionaryEnumerator_2<TKey, TValue, TEnumeratorKey, TEnumeratorValue>::operator ::System::Collections::IEnumerator*() {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+template <typename TKey, typename TValue, typename TEnumeratorKey, typename TEnumeratorValue>
+constexpr ::System::Collections::IEnumerator*
+Newtonsoft::Json::Utilities::__DictionaryWrapper_2__DictionaryEnumerator_2<TKey, TValue, TEnumeratorKey, TEnumeratorValue>::i___System__Collections__IEnumerator() {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename TKey, typename TValue, typename TEnumeratorKey, typename TEnumeratorValue>
@@ -137,10 +149,22 @@ template <typename TKey, typename TValue> constexpr ::Newtonsoft::Json::Utilitie
 template <typename TKey, typename TValue> constexpr Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::operator ::System::Collections::Generic::IDictionary_2<TKey, TValue>*() noexcept {
   return static_cast<::System::Collections::Generic::IDictionary_2<TKey, TValue>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IDictionary_2<TKey,TValue>"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::IDictionary_2<TKey, TValue>*
+Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::i___System__Collections__Generic__IDictionary_2_TKey_TValue_() noexcept {
+  return static_cast<::System::Collections::Generic::IDictionary_2<TKey, TValue>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
 template <typename TKey, typename TValue>
 constexpr Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey,
                                                            TValue>::operator ::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept {
+  return static_cast<::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
+Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::i___System__Collections__Generic__ICollection_1___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() noexcept {
   return static_cast<::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
@@ -149,20 +173,46 @@ constexpr Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey,
                                                            TValue>::operator ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
+Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::i___System__Collections__Generic__IEnumerable_1___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename TKey, typename TValue> constexpr Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::IEnumerable* Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::Newtonsoft::Json::Utilities::IWrappedDictionary"
 template <typename TKey, typename TValue> constexpr Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::operator ::Newtonsoft::Json::Utilities::IWrappedDictionary*() noexcept {
   return static_cast<::Newtonsoft::Json::Utilities::IWrappedDictionary*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::Newtonsoft::Json::Utilities::IWrappedDictionary"
+template <typename TKey, typename TValue>
+constexpr ::Newtonsoft::Json::Utilities::IWrappedDictionary* Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::i___Newtonsoft__Json__Utilities__IWrappedDictionary() noexcept {
+  return static_cast<::Newtonsoft::Json::Utilities::IWrappedDictionary*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IDictionary"
 template <typename TKey, typename TValue> constexpr Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::operator ::System::Collections::IDictionary*() noexcept {
   return static_cast<::System::Collections::IDictionary*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Collections::IDictionary"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::IDictionary* Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::i___System__Collections__IDictionary() noexcept {
+  return static_cast<::System::Collections::IDictionary*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::ICollection"
 template <typename TKey, typename TValue> constexpr Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::operator ::System::Collections::ICollection*() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::ICollection"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::ICollection* Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::i___System__Collections__ICollection() noexcept {
   return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
 }
 template <typename TKey, typename TValue> constexpr ::System::Collections::IDictionary*& Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::__get__dictionary() {

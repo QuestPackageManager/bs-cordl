@@ -9,37 +9,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapObjectsAvoidance)
 namespace GlobalNamespace {
+class BeatmapObjectAvoidancePathEvaluator;
+}
+namespace GlobalNamespace {
+class BeatmapObjectAvoidanceTiltEvaluator;
+}
+namespace GlobalNamespace {
+class BeatmapObjectAvoidanceYOffsetEvaluator;
+}
+namespace GlobalNamespace {
+class BezierSplineEvaluator;
+}
+namespace GlobalNamespace {
 class IAudioTimeSource;
 }
 namespace GlobalNamespace {
 class IBeatmapObjectSpawnController;
 }
 namespace GlobalNamespace {
-class BeatmapObjectAvoidancePathEvaluator;
-}
-namespace GlobalNamespace {
-class BeatmapObjectAvoidanceTiltEvaluator;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace GlobalNamespace {
 class IReadonlyBeatmapData;
-}
-namespace GlobalNamespace {
-class PlayerTransforms;
-}
-namespace GlobalNamespace {
-class BezierSplineEvaluator;
-}
-namespace UnityEngine {
-struct Vector2;
 }
 namespace GlobalNamespace {
 struct OffsetDirection;
 }
 namespace GlobalNamespace {
-class BeatmapObjectAvoidanceYOffsetEvaluator;
+class PlayerTransforms;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

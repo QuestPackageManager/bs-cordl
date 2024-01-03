@@ -8,25 +8,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SecT283R1Curve)
 namespace Org::BouncyCastle::Math::EC::Custom::Sec {
-class __SecT283R1Curve__SecT283R1LookupTable;
+class SecT283R1Point;
 }
-namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
+namespace Org::BouncyCastle::Math::EC::Custom::Sec {
+class __SecT283R1Curve__SecT283R1LookupTable;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECCurve;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Math::EC {
+class ECFieldElement;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECLookupTable;
 }
 namespace Org::BouncyCastle::Math::EC {
-class ECFieldElement;
+class ECPoint;
 }
-namespace Org::BouncyCastle::Math::EC::Custom::Sec {
-class SecT283R1Point;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Custom::Sec {

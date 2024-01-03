@@ -11,22 +11,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightPairRotationEventEffect)
 namespace GlobalNamespace {
+class BasicBeatmapEventData;
+}
+namespace GlobalNamespace {
 class BeatmapCallbacksController;
-}
-namespace GlobalNamespace {
-class __LightPairRotationEventEffect__RotationData;
-}
-namespace GlobalNamespace {
-class IAudioTimeSource;
-}
-namespace UnityEngine {
-class Transform;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
-class BasicBeatmapEventData;
+class IAudioTimeSource;
+}
+namespace GlobalNamespace {
+class __LightPairRotationEventEffect__RotationData;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -161,7 +161,7 @@ static_assert(offsetof(::GlobalNamespace::__LightPairRotationEventEffect__Rotati
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4950))
 // CS Name: ::LightPairRotationEventEffect*
 class CORDL_TYPE LightPairRotationEventEffect : public ::UnityEngine::MonoBehaviour {

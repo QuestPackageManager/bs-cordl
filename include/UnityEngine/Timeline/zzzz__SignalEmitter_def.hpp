@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/Timeline/zzzz__Marker_def.hpp"
 CORDL_MODULE_EXPORT(SignalEmitter)
-namespace UnityEngine::Timeline {
-class SignalAsset;
-}
 namespace UnityEngine::Playables {
 class INotification;
 }
 namespace UnityEngine::Timeline {
+class INotificationOptionProvider;
+}
+namespace UnityEngine::Timeline {
 struct NotificationFlags;
+}
+namespace UnityEngine::Timeline {
+class SignalAsset;
 }
 namespace UnityEngine {
 struct PropertyName;
-}
-namespace UnityEngine::Timeline {
-class INotificationOptionProvider;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -57,8 +57,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::INotification"
   constexpr operator ::UnityEngine::Playables::INotification*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::Playables::INotification"
+  constexpr ::UnityEngine::Playables::INotification* i___UnityEngine__Playables__INotification() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::Timeline::INotificationOptionProvider"
   constexpr operator ::UnityEngine::Timeline::INotificationOptionProvider*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::Timeline::INotificationOptionProvider"
+  constexpr ::UnityEngine::Timeline::INotificationOptionProvider* i___UnityEngine__Timeline__INotificationOptionProvider() noexcept;
 
   constexpr bool& __get_m_Retroactive();
 

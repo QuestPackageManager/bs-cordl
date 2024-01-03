@@ -9,32 +9,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MonoTlsSettings)
-namespace System {
-struct DateTime;
-}
-namespace System {
-class Object;
+namespace Mono::Security::Interface {
+struct CipherSuiteCode;
 }
 namespace Mono::Security::Interface {
 class ICertificateValidator;
 }
 namespace Mono::Security::Interface {
+class MonoLocalCertificateSelectionCallback;
+}
+namespace Mono::Security::Interface {
 class MonoRemoteCertificateValidationCallback;
 }
 namespace Mono::Security::Interface {
-struct CipherSuiteCode;
-}
-namespace Mono::Security::Interface {
 struct TlsProtocols;
-}
-namespace Mono::Security::Interface {
-class MonoLocalCertificateSelectionCallback;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateCollection;
 }
 namespace System {
+struct DateTime;
+}
+namespace System {
 template <typename T> struct Nullable_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Mono::Security::Interface {
@@ -46,9 +46,10 @@ MARK_REF_PTR_T(::Mono::Security::Interface::MonoTlsSettings);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Interface {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2701
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4760 }), TypeDefinitionIndex(TypeDefinitionIndex(13786)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13784)) CS Name: ::Mono.Security.Interface::MonoTlsSettings*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2701 }), TypeDefinitionIndex(TypeDefinitionIndex(13786)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4760 }), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13784)) CS
+// Name: ::Mono.Security.Interface::MonoTlsSettings*
 class CORDL_TYPE MonoTlsSettings : public ::System::Object {
 public:
   // Declarations

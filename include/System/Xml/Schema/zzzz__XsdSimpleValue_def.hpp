@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(XsdSimpleValue)
-namespace System {
-class Object;
-}
 namespace System::Xml::Schema {
 class XmlSchemaSimpleType;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TcpClient)
-namespace System::Threading::Tasks {
-class Task;
-}
 namespace System::Net::Sockets {
 struct AddressFamily;
-}
-namespace System {
-class AsyncCallback;
-}
-namespace System::Net {
-class IPEndPoint;
 }
 namespace System::Net::Sockets {
 class NetworkStream;
 }
-namespace System {
-class IAsyncResult;
-}
 namespace System::Net::Sockets {
 class Socket;
+}
+namespace System::Net {
+class IPEndPoint;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
 }
 namespace System {
 class IDisposable;
@@ -71,6 +71,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::System::Net::Sockets::Socket*& __get_m_ClientSocket();
 

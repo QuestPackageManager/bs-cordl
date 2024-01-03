@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SmimeCapabilityVector)
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1EncodableVector;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Smime {

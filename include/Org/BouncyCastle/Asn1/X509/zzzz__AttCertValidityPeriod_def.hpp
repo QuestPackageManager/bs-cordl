@@ -7,17 +7,17 @@ CORDL_MODULE_EXPORT(AttCertValidityPeriod)
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Asn1 {
-class DerGeneralizedTime;
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class DerGeneralizedTime;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {

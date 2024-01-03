@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(RegexMatchTimeoutException)
 namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System {
-struct TimeSpan;
-}
-namespace System::Runtime::Serialization {
 class ISerializable;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System {
+struct TimeSpan;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {
@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::RegexMatchTimeoutException);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2487)), TypeDefinitionIndex(TypeDefinitionIndex(2484))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2487))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8923))
 // CS Name: ::System.Text.RegularExpressions::RegexMatchTimeoutException*
 class CORDL_TYPE RegexMatchTimeoutException : public ::System::TimeoutException {
@@ -51,6 +51,9 @@ public:
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
   constexpr ::StringW& __get__Input_k__BackingField();
 

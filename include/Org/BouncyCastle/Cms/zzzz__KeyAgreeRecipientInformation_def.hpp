@@ -5,14 +5,8 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Cms/zzzz__RecipientInformation_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(KeyAgreeRecipientInformation)
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
-}
-namespace Org::BouncyCastle::Cms {
-class CmsTypedStream;
+namespace Org::BouncyCastle::Asn1::Cms {
+class KeyAgreeRecipientInfo;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class OriginatorIdentifierOrKey;
@@ -20,26 +14,32 @@ class OriginatorIdentifierOrKey;
 namespace Org::BouncyCastle::Asn1::Cms {
 class OriginatorPublicKey;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class KeyAgreeRecipientInfo;
-}
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Cms {
-class OriginatorID;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Cms {
 class CmsSecureReadable;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsTypedStream;
+}
+namespace Org::BouncyCastle::Cms {
+class OriginatorID;
 }
 namespace Org::BouncyCastle::Cms {
 class RecipientID;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

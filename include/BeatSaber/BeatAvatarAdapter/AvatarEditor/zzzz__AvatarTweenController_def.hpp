@@ -10,31 +10,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AvatarTweenController)
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
-class __AvatarTweenController____c__DisplayClass54_0;
-}
-namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 class __AvatarTweenController___AppearAnimation_d__55;
 }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 class __AvatarTweenController___DisappearAnimation_d__60;
 }
-namespace Tweening {
-class TimeTweeningManager;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace Tweening {
-template <typename T> class Tween_1;
+namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
+class __AvatarTweenController____c__DisplayClass54_0;
 }
 namespace GlobalNamespace {
 class ICoroutineStarter;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class IDisposable;
@@ -42,11 +33,20 @@ class IDisposable;
 namespace System {
 class Object;
 }
+namespace Tweening {
+class TimeTweeningManager;
+}
+namespace Tweening {
+template <typename T> class Tween_1;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
+}
 namespace UnityEngine {
 class WaitForSeconds;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
@@ -70,7 +70,7 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenContro
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15262))
 // CS Name: ::AvatarTweenController::<>c__DisplayClass54_0*
 class CORDL_TYPE __AvatarTweenController____c__DisplayClass54_0 : public ::System::Object {
@@ -161,11 +161,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -277,11 +286,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -360,7 +378,7 @@ static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTwe
 // SizeInfo { instance_size: 328, native_size: -1, calculated_instance_size: 328, calculated_native_size: 328, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(16090))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15265))
 // CS Name: ::BeatSaber.BeatAvatarAdapter.AvatarEditor::AvatarTweenController*
 class CORDL_TYPE AvatarTweenController : public ::UnityEngine::MonoBehaviour {

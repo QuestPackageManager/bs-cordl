@@ -36,6 +36,9 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstanceInputUIState*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstanceInputUIState*>*() noexcept;
 
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstanceInputUIState*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstanceInputUIState*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_InstanceInputUIState__() noexcept;
+
   constexpr bool& __get__showInstanceInputs();
 
   constexpr bool const& __get__showInstanceInputs() const;

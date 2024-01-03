@@ -12,11 +12,17 @@ CORDL_MODULE_EXPORT(FileSystemEnumerable_1)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System::IO {
-class EnumerationOptions;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System::IO::Enumeration {
+struct FileSystemEntry;
 }
 namespace System::IO::Enumeration {
 template <typename TResult> class __FileSystemEnumerable_1__DelegateEnumerator;
@@ -27,14 +33,8 @@ template <typename TResult> class __FileSystemEnumerable_1__FindPredicate;
 namespace System::IO::Enumeration {
 template <typename TResult> class __FileSystemEnumerable_1__FindTransform;
 }
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::IO::Enumeration {
-struct FileSystemEntry;
+namespace System::IO {
+class EnumerationOptions;
 }
 namespace System {
 class Object;
@@ -139,7 +139,7 @@ namespace System::IO::Enumeration {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3655)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3655), inst: 1976 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3655), inst: 1976 }), TypeDefinitionIndex(TypeDefinitionIndex(3655))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3645))
 // CS Name: ::FileSystemEnumerable`1::DelegateEnumerator<TResult>*
 class CORDL_TYPE __FileSystemEnumerable_1__DelegateEnumerator : public ::System::IO::Enumeration::FileSystemEnumerator_1<TResult> {
@@ -234,8 +234,14 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TResult>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TResult>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TResult>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<TResult>* i___System__Collections__Generic__IEnumerable_1_TResult_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::System::IO::Enumeration::__FileSystemEnumerable_1__DelegateEnumerator<TResult>*& __get__enumerator();
 
@@ -277,8 +283,7 @@ public:
                                                                                      ::System::IO::EnumerationOptions* options);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param options: ::System::IO::EnumerationOptions* (default: nullptr)
-  inline void _ctor(::StringW directory, ::System::IO::Enumeration::__FileSystemEnumerable_1__FindTransform<TResult>* transform, ::System::IO::EnumerationOptions* options = nullptr);
+  inline void _ctor(::StringW directory, ::System::IO::Enumeration::__FileSystemEnumerable_1__FindTransform<TResult>* transform, ::System::IO::EnumerationOptions* options);
 
   /// @brief Method get_ShouldIncludePredicate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>* get_ShouldIncludePredicate();

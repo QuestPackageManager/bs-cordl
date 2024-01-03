@@ -7,8 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ScriptableObjectResourceProvider)
-namespace Zenject {
-struct TypeValuePair;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace System {
+class Action;
 }
 namespace System {
 class Object;
@@ -16,32 +25,23 @@ class Object;
 namespace System {
 class Type;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace Zenject {
-class InjectContext;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
 namespace Zenject {
 class DiContainer;
-}
-namespace System {
-class Action;
 }
 namespace Zenject {
 class IProvider;
 }
 namespace Zenject {
-class __ScriptableObjectResourceProvider____c__DisplayClass13_0;
+class InjectContext;
 }
 namespace Zenject {
 class InjectTypeInfo;
+}
+namespace Zenject {
+struct TypeValuePair;
+}
+namespace Zenject {
+class __ScriptableObjectResourceProvider____c__DisplayClass13_0;
 }
 // Forward declare root types
 namespace Zenject {
@@ -192,6 +192,9 @@ public:
 
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
+
+  /// @brief Convert to "::Zenject::IProvider"
+  constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
 
   constexpr ::Zenject::DiContainer*& __get__container();
 

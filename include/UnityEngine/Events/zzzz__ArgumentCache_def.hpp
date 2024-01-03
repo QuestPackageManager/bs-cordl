@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArgumentCache)
 namespace UnityEngine {
-class Object;
+class ISerializationCallbackReceiver;
 }
 namespace UnityEngine {
-class ISerializationCallbackReceiver;
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::Events {
@@ -61,6 +61,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
+  constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
   constexpr ::UnityEngine::Object*& __get_m_ObjectArgument();
 

@@ -12,16 +12,16 @@ namespace GlobalNamespace {
 class RecordingToolConfigViewController;
 }
 namespace GlobalNamespace {
-class RecordingToolSettingsViewController;
-}
-namespace GlobalNamespace {
 class RecordingToolLoggingViewController;
 }
 namespace GlobalNamespace {
-class __RecordingToolSettingsFlowCoordinator__InitData;
+class RecordingToolSettingsViewController;
 }
 namespace GlobalNamespace {
 class ScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class __RecordingToolSettingsFlowCoordinator__InitData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(NoExperimentModel)
 namespace GlobalNamespace {
+class IExperimentData;
+}
+namespace GlobalNamespace {
 class IExperimentModel;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
-}
-namespace GlobalNamespace {
-class IExperimentData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -31,6 +31,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::GlobalNamespace::IExperimentModel"
   constexpr operator ::GlobalNamespace::IExperimentModel*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IExperimentModel"
+  constexpr ::GlobalNamespace::IExperimentModel* i___GlobalNamespace__IExperimentModel() noexcept;
 
   /// @brief Method IsEmployee, addr 0x2323130, size 0x68, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* IsEmployee();

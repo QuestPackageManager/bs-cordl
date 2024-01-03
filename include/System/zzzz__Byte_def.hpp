@@ -2,60 +2,59 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Byte)
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
-struct TypeCode;
-}
-namespace System {
-struct Decimal;
-}
-namespace System {
-class ISpanFormattable;
+namespace System::Globalization {
+class NumberFormatInfo;
 }
 namespace System::Globalization {
 struct NumberStyles;
 }
 namespace System {
-class IComparable;
+struct DateTime;
 }
 namespace System {
-class IFormattable;
-}
-namespace System {
-class Type;
-}
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System {
-class IConvertible;
-}
-namespace System::Globalization {
-class NumberFormatInfo;
-}
-namespace System {
-class IFormatProvider;
-}
-namespace System {
-template <typename T> struct Span_1;
-}
-namespace System {
-class Object;
+struct Decimal;
 }
 namespace System {
 template <typename T> class IComparable_1;
 }
 namespace System {
-struct DateTime;
+class IComparable;
+}
+namespace System {
+class IConvertible;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
+class IFormatProvider;
+}
+namespace System {
+class IFormattable;
+}
+namespace System {
+class ISpanFormattable;
+}
+namespace System {
+class Object;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
+template <typename T> struct Span_1;
+}
+namespace System {
+struct TypeCode;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System {
@@ -67,7 +66,7 @@ MARK_VAL_T(::System::Byte);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2464)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292 })}
+// Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2360))
 // CS Name: ::System::Byte
 struct CORDL_TYPE Byte {
@@ -76,20 +75,38 @@ public:
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*();
 
+  /// @brief Convert to "::System::IComparable"
+  constexpr ::System::IComparable* i___System__IComparable();
+
   /// @brief Convert operator to "::System::IConvertible"
   constexpr operator ::System::IConvertible*();
+
+  /// @brief Convert to "::System::IConvertible"
+  constexpr ::System::IConvertible* i___System__IConvertible();
 
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
+  /// @brief Convert to "::System::IFormattable"
+  constexpr ::System::IFormattable* i___System__IFormattable();
+
   /// @brief Convert operator to "::System::IComparable_1<uint8_t>"
   constexpr operator ::System::IComparable_1<uint8_t>*();
+
+  /// @brief Convert to "::System::IComparable_1<uint8_t>"
+  constexpr ::System::IComparable_1<uint8_t>* i___System__IComparable_1_uint8_t_();
 
   /// @brief Convert operator to "::System::IEquatable_1<uint8_t>"
   constexpr operator ::System::IEquatable_1<uint8_t>*();
 
+  /// @brief Convert to "::System::IEquatable_1<uint8_t>"
+  constexpr ::System::IEquatable_1<uint8_t>* i___System__IEquatable_1_uint8_t_();
+
   /// @brief Convert operator to "::System::ISpanFormattable"
   constexpr operator ::System::ISpanFormattable*();
+
+  /// @brief Convert to "::System::ISpanFormattable"
+  constexpr ::System::ISpanFormattable* i___System__ISpanFormattable();
 
   /// @brief Method CompareTo, addr 0x25243e8, size 0xbc, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* value);
@@ -134,9 +151,7 @@ public:
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* provider);
 
   /// @brief Method TryFormat, addr 0x2524c10, size 0xa4, virtual true, abstract: false, final true
-  /// @param format: ::System::ReadOnlySpan_1<char16_t> (default: {})
-  /// @param provider: ::System::IFormatProvider* (default: nullptr)
-  inline bool TryFormat(::System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten, ::System::ReadOnlySpan_1<char16_t> format = {}, ::System::IFormatProvider* provider = nullptr);
+  inline bool TryFormat(::System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten, ::System::ReadOnlySpan_1<char16_t> format, ::System::IFormatProvider* provider);
 
   /// @brief Method GetTypeCode, addr 0x2524cb4, size 0x8, virtual true, abstract: false, final true
   inline ::System::TypeCode GetTypeCode();

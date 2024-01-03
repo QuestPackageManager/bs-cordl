@@ -8,10 +8,10 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
-class Type;
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+class Type;
 }
 namespace Zenject {
 class DiContainer;

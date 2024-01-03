@@ -42,8 +42,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IValue_1<T>"
   constexpr operator ::GlobalNamespace::IValue_1<T>*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IValue_1<T>"
+  constexpr ::GlobalNamespace::IValue_1<T>* i___GlobalNamespace__IValue_1_T_() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IObservableChange"
   constexpr operator ::GlobalNamespace::IObservableChange*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IObservableChange"
+  constexpr ::GlobalNamespace::IObservableChange* i___GlobalNamespace__IObservableChange() noexcept;
 
   constexpr ::System::Action*& __get_didChangeEvent();
 

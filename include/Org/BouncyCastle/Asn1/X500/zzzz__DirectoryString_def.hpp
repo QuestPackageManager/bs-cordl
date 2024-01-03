@@ -8,8 +8,11 @@ CORDL_MODULE_EXPORT(DirectoryString)
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerStringBase;
 }
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Choice;
@@ -17,11 +20,8 @@ class IAsn1Choice;
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1String;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerStringBase;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X500 {
@@ -45,8 +45,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept;
+
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1String"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1String*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1String"
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1String* i___Org__BouncyCastle__Asn1__IAsn1String() noexcept;
 
   constexpr ::Org::BouncyCastle::Asn1::DerStringBase*& __get_str();
 

@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(SkeinParameters)
 namespace Org::BouncyCastle::Crypto::Parameters {
 class __SkeinParameters__Builder;
 }
-namespace System::Collections {
-class IDictionary;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace System::Collections {
+class IDictionary;
 }
 namespace System {
 struct DateTime;
@@ -129,6 +129,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"
+  constexpr ::Org::BouncyCastle::Crypto::ICipherParameters* i___Org__BouncyCastle__Crypto__ICipherParameters() noexcept;
 
   constexpr ::System::Collections::IDictionary*& __get_parameters();
 

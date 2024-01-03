@@ -8,37 +8,37 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(GameplayModifiersPanelController)
 namespace GlobalNamespace {
-class IRefreshable;
-}
-namespace GlobalNamespace {
-class GameplayModifiersModelSO;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
 class GameplayModifierParamsSO;
-}
-namespace HMUI {
-class ToggleBinder;
-}
-namespace GlobalNamespace {
-class __GameplayModifiersPanelController____c__DisplayClass16_0;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace UnityEngine::UI {
-class Toggle;
 }
 namespace GlobalNamespace {
 class GameplayModifierToggle;
 }
+namespace GlobalNamespace {
+class GameplayModifiersModelSO;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class IRefreshable;
+}
+namespace GlobalNamespace {
+class __GameplayModifiersPanelController____c__DisplayClass16_0;
+}
+namespace HMUI {
+class ToggleBinder;
+}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System {
+class Action;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace UnityEngine::UI {
+class Toggle;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -168,6 +168,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IRefreshable"
   constexpr operator ::GlobalNamespace::IRefreshable*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IRefreshable"
+  constexpr ::GlobalNamespace::IRefreshable* i___GlobalNamespace__IRefreshable() noexcept;
 
   constexpr ::GlobalNamespace::GameplayModifiersModelSO*& __get__gameplayModifiersModel();
 

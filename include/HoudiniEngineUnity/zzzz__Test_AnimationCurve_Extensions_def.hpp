@@ -8,17 +8,17 @@ CORDL_MODULE_EXPORT(Test_AnimationCurve_Extensions)
 namespace HoudiniEngineUnity {
 class Test_AnimationCurve;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace HoudiniEngineUnity {
 class __Test_AnimationCurve_Extensions____c;
 }
-namespace UnityEngine {
-class AnimationCurve;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 template <typename TInput, typename TOutput> class Converter_2;
+}
+namespace UnityEngine {
+class AnimationCurve;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

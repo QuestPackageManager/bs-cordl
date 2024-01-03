@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextWriter_SyncTextWriter)
+namespace System::IO {
+class TextWriter;
+}
+namespace System::Text {
+class Encoding;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
 namespace System {
 class IDisposable;
 }
 namespace System {
 class IFormatProvider;
 }
-namespace System::Threading::Tasks {
-class Task;
-}
 namespace System {
 class Object;
-}
-namespace System::IO {
-class TextWriter;
-}
-namespace System::Text {
-class Encoding;
 }
 // Forward declare root types
 namespace System::IO {
@@ -52,6 +52,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::System::IO::TextWriter*& __get__out();
 

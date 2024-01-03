@@ -9,44 +9,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AlphabetScrollbar)
+namespace GlobalNamespace {
+class __AlphabetScrollInfo__Data;
+}
+namespace HMUI {
+class TableView;
+}
+namespace HMUI {
+class __AlphabetScrollbar___PointerMoveInsideCoroutine_d__18;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine::EventSystems {
-class IPointerExitHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerDownHandler;
-}
-namespace GlobalNamespace {
-class __AlphabetScrollInfo__Data;
-}
-namespace UnityEngine::EventSystems {
-class IPointerEnterHandler;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace HMUI {
-class TableView;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine::UI {
-class Image;
-}
-namespace UnityEngine::EventSystems {
-class IPointerUpHandler;
-}
-namespace HMUI {
-class __AlphabetScrollbar___PointerMoveInsideCoroutine_d__18;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -54,11 +33,32 @@ class IEnumerator;
 namespace System {
 class IDisposable;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace System {
 class Object;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerDownHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerEnterHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerExitHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerUpHandler;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace UnityEngine::UI {
+class Image;
 }
 // Forward declare root types
 namespace HMUI {
@@ -99,11 +99,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -235,17 +244,32 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerDownHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerDownHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerDownHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerDownHandler* i___UnityEngine__EventSystems__IPointerDownHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerUpHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerUpHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerUpHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerUpHandler* i___UnityEngine__EventSystems__IPointerUpHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerEnterHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerEnterHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerEnterHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerEnterHandler* i___UnityEngine__EventSystems__IPointerEnterHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerExitHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerExitHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerExitHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerExitHandler* i___UnityEngine__EventSystems__IPointerExitHandler() noexcept;
 
   constexpr ::HMUI::TableView*& __get__tableView();
 

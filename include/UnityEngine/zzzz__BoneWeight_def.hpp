@@ -47,6 +47,9 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::BoneWeight>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::BoneWeight>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::BoneWeight>"
+  constexpr ::System::IEquatable_1<::UnityEngine::BoneWeight>* i___System__IEquatable_1___UnityEngine__BoneWeight_();
+
   /// @brief Method get_weight0, addr 0x2cc425c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_weight0();
 

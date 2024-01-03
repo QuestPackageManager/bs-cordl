@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(InputFieldViewStaticAnimations)
-namespace UnityEngine {
-class AnimationClip;
+namespace HMUI {
+class InputFieldView;
 }
 namespace HMUI {
 struct __InputFieldView__SelectionState;
 }
-namespace HMUI {
-class InputFieldView;
+namespace UnityEngine {
+class AnimationClip;
 }
 // Forward declare root types
 namespace HMUI {

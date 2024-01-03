@@ -9,16 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DpadControl)
 namespace UnityEngine::InputSystem::Controls {
-struct __DpadControl__ButtonBits;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
 }
 namespace UnityEngine::InputSystem::Controls {
+struct __DpadControl__ButtonBits;
+}
+namespace UnityEngine::InputSystem::Controls {
 class __DpadControl__DpadAxisControl;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Controls {
@@ -252,8 +252,7 @@ public:
   inline void WriteValueIntoState(::UnityEngine::Vector2 value, ::cordl_internals::Ptr<void> statePtr);
 
   /// @brief Method MakeDpadVector, addr 0x2b0ac40, size 0x5c, virtual false, abstract: false, final false
-  /// @param normalize: bool (default: true)
-  static inline ::UnityEngine::Vector2 MakeDpadVector(bool up, bool down, bool left, bool right, bool normalize = true);
+  static inline ::UnityEngine::Vector2 MakeDpadVector(bool up, bool down, bool left, bool right, bool normalize);
 
   /// @brief Method MakeDpadVector, addr 0x2b0ae48, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 MakeDpadVector(float_t up, float_t down, float_t left, float_t right);

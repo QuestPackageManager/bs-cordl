@@ -5,18 +5,6 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(TimelineCreateUtilities)
-namespace UnityEngine {
-class ScriptableObject;
-}
-namespace UnityEngine {
-class Object;
-}
-namespace UnityEngine::Timeline {
-class TrackAsset;
-}
-namespace UnityEngine::Timeline {
-class __TimelineCreateUtilities____c__DisplayClass0_0;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
@@ -24,10 +12,22 @@ namespace System {
 class Type;
 }
 namespace UnityEngine::Timeline {
+class TrackAsset;
+}
+namespace UnityEngine::Timeline {
+class __TimelineCreateUtilities____c__DisplayClass0_0;
+}
+namespace UnityEngine::Timeline {
 class __TimelineCreateUtilities____c__DisplayClass0_1;
 }
 namespace UnityEngine {
 class AnimationClip;
+}
+namespace UnityEngine {
+class Object;
+}
+namespace UnityEngine {
+class ScriptableObject;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

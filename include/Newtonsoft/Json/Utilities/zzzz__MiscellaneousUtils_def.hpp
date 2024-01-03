@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MiscellaneousUtils)
 namespace System {
-class Object;
+class ArgumentOutOfRangeException;
 }
 namespace System {
-class ArgumentOutOfRangeException;
+class Object;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {

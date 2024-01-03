@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GetMultiplayerInstanceResponse)
-namespace GlobalNamespace {
-struct MultiplayerPlacementErrorCode;
-}
 namespace BGNet::Core::GameLift {
 class PlayerSessionInfo;
+}
+namespace GlobalNamespace {
+struct MultiplayerPlacementErrorCode;
 }
 // Forward declare root types
 namespace BGNet::Core::GameLift {
@@ -30,12 +30,8 @@ struct CORDL_TYPE GetMultiplayerInstanceResponse {
 public:
   // Declarations
   /// @brief Method .ctor, addr 0xe60ec4, size 0x18, virtual false, abstract: false, final false
-  /// @param ticketId: ::StringW (default: nullptr)
-  /// @param ticketStatus: ::StringW (default: nullptr)
-  /// @param placementId: ::StringW (default: nullptr)
-  /// @param placementStatus: ::StringW (default: nullptr)
-  inline void _ctor(::GlobalNamespace::MultiplayerPlacementErrorCode errorCode, ::BGNet::Core::GameLift::PlayerSessionInfo* playerSessionInfo, int32_t pollIntervalMs, ::StringW ticketId = nullptr,
-                    ::StringW ticketStatus = nullptr, ::StringW placementId = nullptr, ::StringW placementStatus = nullptr);
+  inline void _ctor(::GlobalNamespace::MultiplayerPlacementErrorCode errorCode, ::BGNet::Core::GameLift::PlayerSessionInfo* playerSessionInfo, int32_t pollIntervalMs, ::StringW ticketId,
+                    ::StringW ticketStatus, ::StringW placementId, ::StringW placementStatus);
 
   // Ctor Parameters [CppParam { name: "errorCode", ty: "::GlobalNamespace::MultiplayerPlacementErrorCode", modifiers: "", def_value: None }, CppParam { name: "playerSessionInfo", ty:
   // "::BGNet::Core::GameLift::PlayerSessionInfo*", modifiers: "", def_value: None }, CppParam { name: "pollIntervalMs", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ticketId",

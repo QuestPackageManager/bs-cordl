@@ -9,28 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameServerPlayersTableView)
 namespace GlobalNamespace {
+class GameServerPlayerTableCell;
+}
+namespace GlobalNamespace {
 class GameplayModifiers;
 }
-namespace UnityEngine {
-class GameObject;
+namespace GlobalNamespace {
+class IAdditionalContentModel;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
-}
-namespace GlobalNamespace {
-class PreviewDifficultyBeatmap;
-}
-namespace HMUI {
-class TableView;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-class GameServerPlayerTableCell;
 }
 namespace GlobalNamespace {
 class ILobbyPlayerData;
@@ -38,17 +26,29 @@ class ILobbyPlayerData;
 namespace GlobalNamespace {
 class ILobbyPlayersDataModel;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace GlobalNamespace {
+class PreviewDifficultyBeatmap;
+}
+namespace HMUI {
+class TableCell;
+}
+namespace HMUI {
+class TableView;
 }
 namespace HMUI {
 class __TableView__IDataSource;
 }
-namespace GlobalNamespace {
-class IAdditionalContentModel;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
-namespace HMUI {
-class TableCell;
+namespace System {
+template <typename T> class Action_1;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -130,6 +130,9 @@ public:
 
   /// @brief Convert operator to "::HMUI::__TableView__IDataSource"
   constexpr operator ::HMUI::__TableView__IDataSource*() noexcept;
+
+  /// @brief Convert to "::HMUI::__TableView__IDataSource"
+  constexpr ::HMUI::__TableView__IDataSource* i___HMUI____TableView__IDataSource() noexcept;
 
   constexpr ::HMUI::TableView*& __get__tableView();
 
@@ -291,9 +294,8 @@ public:
   inline void HandleCellKickPlayer(int32_t idx);
 
   /// @brief Method SetData, addr 0x22d1f38, size 0xbc, virtual false, abstract: false, final false
-  /// @param clearSelection: bool (default: false)
   inline void SetData(::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* sortedPlayers, ::GlobalNamespace::ILobbyPlayersDataModel* lobbyPlayersDataModel,
-                      bool hasKickPermissions, bool allowSelection, bool showSongSelection, bool showModifierSelection, bool clearSelection = false);
+                      bool hasKickPermissions, bool allowSelection, bool showSongSelection, bool showModifierSelection, bool clearSelection);
 
   /// @brief Method Init, addr 0x22e1ea0, size 0x3c, virtual false, abstract: false, final false
   inline void Init();

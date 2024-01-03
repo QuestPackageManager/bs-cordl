@@ -6,20 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpOnePassSignature)
-namespace Org::BouncyCastle::Bcpg {
-class OnePassSignaturePacket;
-}
-namespace Org::BouncyCastle::Bcpg {
-class Packet;
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpPublicKey;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpSignature;
 }
 namespace Org::BouncyCastle::Bcpg {
+class BcpgInputStream;
+}
+namespace Org::BouncyCastle::Bcpg {
 struct HashAlgorithmTag;
 }
 namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
+class OnePassSignaturePacket;
+}
+namespace Org::BouncyCastle::Bcpg {
+class Packet;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct PublicKeyAlgorithmTag;
@@ -29,9 +32,6 @@ class ISigner;
 }
 namespace System::IO {
 class Stream;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpPublicKey;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {

@@ -5,22 +5,22 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(TMP_ScrollbarEventHandler)
 namespace UnityEngine::EventSystems {
-class IPointerClickHandler;
+class BaseEventData;
 }
 namespace UnityEngine::EventSystems {
 class IDeselectHandler;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+class IEventSystemHandler;
 }
 namespace UnityEngine::EventSystems {
-class BaseEventData;
+class IPointerClickHandler;
 }
 namespace UnityEngine::EventSystems {
 class ISelectHandler;
 }
 namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+class PointerEventData;
 }
 // Forward declare root types
 namespace TMPro {
@@ -44,14 +44,26 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerClickHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerClickHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerClickHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerClickHandler* i___UnityEngine__EventSystems__IPointerClickHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::ISelectHandler"
   constexpr operator ::UnityEngine::EventSystems::ISelectHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::ISelectHandler"
+  constexpr ::UnityEngine::EventSystems::ISelectHandler* i___UnityEngine__EventSystems__ISelectHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IDeselectHandler"
   constexpr operator ::UnityEngine::EventSystems::IDeselectHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IDeselectHandler"
+  constexpr ::UnityEngine::EventSystems::IDeselectHandler* i___UnityEngine__EventSystems__IDeselectHandler() noexcept;
 
   constexpr bool& __get_isSelected();
 

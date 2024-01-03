@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IServerBeatmapProvider)
 namespace GlobalNamespace {
+class BeatmapIdentifierNetSerializable;
+}
+namespace GlobalNamespace {
 struct BeatmapLevelSelectionMask;
 }
 namespace GlobalNamespace {
@@ -13,9 +16,6 @@ struct SongPackMask;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
-class BeatmapIdentifierNetSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

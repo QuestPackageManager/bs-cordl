@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(LegacyResourcesLocator)
-namespace UnityEngine::AddressableAssets::ResourceLocators {
-class IResourceLocator;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace System {
 class Object;
@@ -18,11 +18,11 @@ class Object;
 namespace System {
 class Type;
 }
+namespace UnityEngine::AddressableAssets::ResourceLocators {
+class IResourceLocator;
+}
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets::ResourceLocators {
@@ -46,6 +46,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"
   constexpr operator ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"
+  constexpr ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* i___UnityEngine__AddressableAssets__ResourceLocators__IResourceLocator() noexcept;
 
   /// @brief Method Locate, addr 0x2a2e694, size 0x274, virtual true, abstract: false, final true
   inline bool Locate(::System::Object* key, ::System::Type* type, ByRef<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> locations);

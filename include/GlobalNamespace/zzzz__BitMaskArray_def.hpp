@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BitMaskArray)
-namespace LiteNetLib::Utils {
-class INetSerializable;
-}
 namespace GlobalNamespace {
 template <typename T> class IBitMask_1;
 }
-namespace System {
-template <typename T> class IEquatable_1;
+namespace LiteNetLib::Utils {
+class INetSerializable;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -49,11 +49,20 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskArray*>"
   constexpr operator ::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskArray*>*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskArray*>"
+  constexpr ::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskArray*>* i___GlobalNamespace__IBitMask_1___GlobalNamespace__BitMaskArray__() noexcept;
+
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::BitMaskArray*>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::BitMaskArray*>*() noexcept;
 
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::BitMaskArray*>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::BitMaskArray*>* i___System__IEquatable_1___GlobalNamespace__BitMaskArray__() noexcept;
+
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
+
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
 
   constexpr int32_t& __get__bitCount_k__BackingField();
 

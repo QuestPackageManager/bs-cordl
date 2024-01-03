@@ -10,9 +10,6 @@ CORDL_MODULE_EXPORT(PublicKeyPacket)
 namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
 }
-namespace System {
-struct DateTime;
-}
 namespace Org::BouncyCastle::Bcpg {
 class BcpgOutputStream;
 }
@@ -21,6 +18,9 @@ class IBcpgKey;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct PublicKeyAlgorithmTag;
+}
+namespace System {
+struct DateTime;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::PublicKeyPacket);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(560)), TypeDefinitionIndex(TypeDefinitionIndex(580))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(580)), TypeDefinitionIndex(TypeDefinitionIndex(560))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(582))
 // CS Name: ::Org.BouncyCastle.Bcpg::PublicKeyPacket*
 class CORDL_TYPE PublicKeyPacket : public ::Org::BouncyCastle::Bcpg::ContainedPacket {

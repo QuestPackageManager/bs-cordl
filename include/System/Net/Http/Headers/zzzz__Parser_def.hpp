@@ -8,47 +8,47 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Parser)
-namespace System {
-class Object;
+namespace GlobalNamespace {
+class __Parser__DateTime____c;
+}
+namespace GlobalNamespace {
+class __Parser__MD5____c;
 }
 namespace System::Net::Http::Headers {
 class __Parser__DateTime;
 }
 namespace System::Net::Http::Headers {
-class __Parser__Long;
-}
-namespace System::Net::Http::Headers {
-class __Parser__Token;
-}
-namespace System::Net::Http::Headers {
 class __Parser__EmailAddress;
-}
-namespace System::Net::Http::Headers {
-class __Parser__MD5;
-}
-namespace System::Net::Http::Headers {
-class __Parser__Int;
-}
-namespace System::Net::Http::Headers {
-class __Parser__Uri;
 }
 namespace System::Net::Http::Headers {
 class __Parser__Host;
 }
 namespace System::Net::Http::Headers {
+class __Parser__Int;
+}
+namespace System::Net::Http::Headers {
+class __Parser__Long;
+}
+namespace System::Net::Http::Headers {
+class __Parser__MD5;
+}
+namespace System::Net::Http::Headers {
 class __Parser__TimeSpanSeconds;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace System::Net::Http::Headers {
+class __Parser__Token;
 }
-namespace GlobalNamespace {
-class __Parser__DateTime____c;
+namespace System::Net::Http::Headers {
+class __Parser__Uri;
 }
 namespace System {
 struct DateTimeOffset;
 }
-namespace GlobalNamespace {
-class __Parser__MD5____c;
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+class Object;
 }
 namespace System {
 struct TimeSpan;

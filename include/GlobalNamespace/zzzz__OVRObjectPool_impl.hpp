@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRObjectPool_def.hpp"
-#include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
 #include "GlobalNamespace/zzzz__OVRObjectPool_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 template <typename T> inline void GlobalNamespace::__OVRObjectPool__Storage_1<T>::setStaticF_HashSet(::System::Collections::Generic::HashSet_1<T>* value) {
@@ -21,6 +21,10 @@ template <typename T> inline ::System::Collections::Generic::HashSet_1<T>* Globa
 template <typename T> constexpr ::GlobalNamespace::__OVRObjectPool__Storage_1<T>::__OVRObjectPool__Storage_1() {}
 /// @brief Convert operator to "::System::IDisposable"
 template <typename T> constexpr GlobalNamespace::__OVRObjectPool__ListScope_1<T>::operator ::System::IDisposable*() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename T> constexpr ::System::IDisposable* GlobalNamespace::__OVRObjectPool__ListScope_1<T>::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename T> inline void GlobalNamespace::__OVRObjectPool__ListScope_1<T>::_ctor(ByRef<::System::Collections::Generic::List_1<T>*> list) {
@@ -42,6 +46,10 @@ template <typename T> constexpr ::GlobalNamespace::__OVRObjectPool__ListScope_1<
 template <typename T> constexpr ::GlobalNamespace::__OVRObjectPool__ListScope_1<T>::__OVRObjectPool__ListScope_1() {}
 /// @brief Convert operator to "::System::IDisposable"
 template <typename TKey, typename TValue> constexpr GlobalNamespace::__OVRObjectPool__DictionaryScope_2<TKey, TValue>::operator ::System::IDisposable*() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename TKey, typename TValue> constexpr ::System::IDisposable* GlobalNamespace::__OVRObjectPool__DictionaryScope_2<TKey, TValue>::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename TKey, typename TValue>
@@ -68,6 +76,10 @@ template <typename TKey, typename TValue> constexpr ::GlobalNamespace::__OVRObje
 template <typename T> constexpr GlobalNamespace::__OVRObjectPool__HashSetScope_1<T>::operator ::System::IDisposable*() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::IDisposable"
+template <typename T> constexpr ::System::IDisposable* GlobalNamespace::__OVRObjectPool__HashSetScope_1<T>::i___System__IDisposable() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 template <typename T> inline void GlobalNamespace::__OVRObjectPool__HashSetScope_1<T>::_ctor(ByRef<::System::Collections::Generic::HashSet_1<T>*> set) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRObjectPool__HashSetScope_1<T>>::get(), ".ctor", std::vector<Il2CppClass*>{},
@@ -87,6 +99,10 @@ template <typename T> constexpr ::GlobalNamespace::__OVRObjectPool__HashSetScope
 template <typename T> constexpr ::GlobalNamespace::__OVRObjectPool__HashSetScope_1<T>::__OVRObjectPool__HashSetScope_1() {}
 /// @brief Convert operator to "::System::IDisposable"
 template <typename T> constexpr GlobalNamespace::__OVRObjectPool__StackScope_1<T>::operator ::System::IDisposable*() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename T> constexpr ::System::IDisposable* GlobalNamespace::__OVRObjectPool__StackScope_1<T>::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename T> inline void GlobalNamespace::__OVRObjectPool__StackScope_1<T>::_ctor(ByRef<::System::Collections::Generic::Stack_1<T>*> stack) {
@@ -110,6 +126,10 @@ template <typename T> constexpr ::GlobalNamespace::__OVRObjectPool__StackScope_1
 template <typename T> constexpr GlobalNamespace::__OVRObjectPool__QueueScope_1<T>::operator ::System::IDisposable*() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::IDisposable"
+template <typename T> constexpr ::System::IDisposable* GlobalNamespace::__OVRObjectPool__QueueScope_1<T>::i___System__IDisposable() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 template <typename T> inline void GlobalNamespace::__OVRObjectPool__QueueScope_1<T>::_ctor(ByRef<::System::Collections::Generic::Queue_1<T>*> queue) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRObjectPool__QueueScope_1<T>>::get(), ".ctor", std::vector<Il2CppClass*>{},
@@ -129,6 +149,10 @@ template <typename T> constexpr ::GlobalNamespace::__OVRObjectPool__QueueScope_1
 template <typename T> constexpr ::GlobalNamespace::__OVRObjectPool__QueueScope_1<T>::__OVRObjectPool__QueueScope_1() {}
 /// @brief Convert operator to "::System::IDisposable"
 template <typename T> constexpr GlobalNamespace::__OVRObjectPool__ItemScope_1<T>::operator ::System::IDisposable*() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename T> constexpr ::System::IDisposable* GlobalNamespace::__OVRObjectPool__ItemScope_1<T>::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename T> inline void GlobalNamespace::__OVRObjectPool__ItemScope_1<T>::_ctor(ByRef<T> item) {

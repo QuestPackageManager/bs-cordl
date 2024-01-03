@@ -42,6 +42,9 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Translate>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Translate>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Translate>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Translate>* i___System__IEquatable_1___UnityEngine__UIElements__Translate_();
+
   /// @brief Method .ctor, addr 0x2e71500, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Length x, ::UnityEngine::UIElements::Length y, float_t z);
 

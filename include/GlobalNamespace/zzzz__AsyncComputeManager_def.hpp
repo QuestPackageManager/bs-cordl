@@ -4,12 +4,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(AsyncComputeManager)
-namespace System::Collections::Concurrent {
-template <typename T> class BlockingCollection_1;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
 namespace GlobalNamespace {
 template <typename T> class AsyncComputeOperation_1;
 }
@@ -19,11 +13,17 @@ class AsyncComputeOperation;
 namespace GlobalNamespace {
 class IAsyncComputeManager;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections::Concurrent {
+template <typename T> class BlockingCollection_1;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace System::Threading {
 class Thread;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -54,8 +54,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IAsyncComputeManager"
   constexpr operator ::GlobalNamespace::IAsyncComputeManager*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IAsyncComputeManager"
+  constexpr ::GlobalNamespace::IAsyncComputeManager* i___GlobalNamespace__IAsyncComputeManager() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::System::Collections::Concurrent::BlockingCollection_1<::GlobalNamespace::AsyncComputeOperation*>*& __get__asyncComputeRequests();
 

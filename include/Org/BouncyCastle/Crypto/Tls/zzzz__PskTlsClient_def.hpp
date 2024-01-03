@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PskTlsClient)
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipherFactory;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsPskIdentity;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
 class TlsAuthentication;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCipherFactory;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsDHVerifier;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsKeyExchange;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsPskIdentity;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

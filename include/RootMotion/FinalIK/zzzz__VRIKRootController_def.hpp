@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 CORDL_MODULE_EXPORT(VRIKRootController)
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class Transform;
+namespace RootMotion::FinalIK {
+class VRIK;
 }
 namespace RootMotion::FinalIK {
 class __VRIKCalibrator__CalibrationData;
 }
-namespace RootMotion::FinalIK {
-class VRIK;
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {

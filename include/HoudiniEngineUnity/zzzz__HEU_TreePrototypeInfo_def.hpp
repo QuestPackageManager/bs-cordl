@@ -34,6 +34,9 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>*() noexcept;
 
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_TreePrototypeInfo__() noexcept;
+
   constexpr ::StringW& __get__prefabPath();
 
   constexpr ::StringW const& __get__prefabPath() const;

@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder)
 namespace Zenject {
-class GameObjectCreationParameters;
+class BindInfo;
 }
 namespace Zenject {
-class BindInfo;
+class GameObjectCreationParameters;
 }
 namespace Zenject {
 class TransformScopeConcreteIdArgConditionCopyNonLazyBinder;

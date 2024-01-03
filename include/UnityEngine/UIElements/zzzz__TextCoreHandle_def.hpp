@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextCoreHandle)
 namespace UnityEngine::TextCore::Text {
+class TextGenerationSettings;
+}
+namespace UnityEngine::TextCore::Text {
 class TextInfo;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::TextCore::Text {
+struct TextOverflowMode;
 }
 namespace UnityEngine::UIElements {
 struct CursorPositionStylePainterParameters;
-}
-namespace UnityEngine::TextCore::Text {
-class TextGenerationSettings;
 }
 namespace UnityEngine::UIElements {
 class ITextHandle;
@@ -25,8 +25,8 @@ class ITextHandle;
 namespace UnityEngine::UIElements {
 struct __MeshGenerationContextUtils__TextParams;
 }
-namespace UnityEngine::TextCore::Text {
-struct TextOverflowMode;
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -58,6 +58,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::UIElements::ITextHandle"
   constexpr operator ::UnityEngine::UIElements::ITextHandle*();
+
+  /// @brief Convert to "::UnityEngine::UIElements::ITextHandle"
+  constexpr ::UnityEngine::UIElements::ITextHandle* i___UnityEngine__UIElements__ITextHandle();
 
   static inline void setStaticF_s_LayoutSettings(::UnityEngine::TextCore::Text::TextGenerationSettings* value);
 

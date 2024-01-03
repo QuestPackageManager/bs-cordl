@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 CORDL_MODULE_EXPORT(ReleaseInfoViewController)
-namespace HMUI {
-class TextPageScrollView;
-}
 namespace GlobalNamespace {
 class MainSettingsModelSO;
+}
+namespace HMUI {
+class TextPageScrollView;
 }
 namespace UnityEngine {
 class TextAsset;

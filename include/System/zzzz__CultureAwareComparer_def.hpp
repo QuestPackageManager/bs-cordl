@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CultureAwareComparer)
+namespace System::Globalization {
+class CompareInfo;
+}
+namespace System::Globalization {
+struct CompareOptions;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
 namespace System {
 class Object;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System::Globalization {
-struct CompareOptions;
-}
-namespace System::Globalization {
-class CompareInfo;
 }
 // Forward declare root types
 namespace System {
@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::System::CultureAwareComparer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2474)), TypeDefinitionIndex(TypeDefinitionIndex(3659))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3659)), TypeDefinitionIndex(TypeDefinitionIndex(2474))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2475))
 // CS Name: ::System::CultureAwareComparer*
 class CORDL_TYPE CultureAwareComparer : public ::System::StringComparer {
@@ -52,6 +52,9 @@ public:
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
   constexpr ::System::Globalization::CompareInfo*& __get__compareInfo();
 

@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(BeatmapObjectAvoidanceTiltEvaluator)
-namespace UnityEngine {
-struct Vector2;
-}
 namespace GlobalNamespace {
 class BezierSplineEvaluator;
 }
 namespace GlobalNamespace {
 class IAudioTimeSource;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(BombNoteController)
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-class GameObject;
-}
 namespace GlobalNamespace {
 class CuttableBySaber;
 }
 namespace GlobalNamespace {
-class __BombNoteController__Pool;
+class NoteData;
 }
 namespace GlobalNamespace {
 class Saber;
 }
 namespace GlobalNamespace {
-class NoteData;
+class __BombNoteController__Pool;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;

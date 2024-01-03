@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ImageWithHintItemsList);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13674)), TypeDefinitionIndex(TypeDefinitionIndex(13628)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13674), inst:
-// 5218 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5426)) CS Name: ::ImageWithHintItemsList*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13628)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13674), inst: 5218 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(13674))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5426)) CS Name: ::ImageWithHintItemsList*
 class CORDL_TYPE ImageWithHintItemsList : public ::HMUI::UIItemsList_1<::HMUI::ImageWithHint*> {
 public:
   // Declarations

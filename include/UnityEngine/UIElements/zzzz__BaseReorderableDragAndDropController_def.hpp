@@ -6,31 +6,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseReorderableDragAndDropController)
 namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
-class IListDragAndDropArgs;
+class BaseVerticalCollectionView;
+}
+namespace UnityEngine::UIElements {
+struct DragVisualMode;
 }
 namespace UnityEngine::UIElements {
 class ICollectionDragAndDropController;
 }
 namespace UnityEngine::UIElements {
-class IReorderable;
-}
-namespace UnityEngine::UIElements {
 template <typename TArgs> class IDragAndDropController_1;
 }
 namespace UnityEngine::UIElements {
+class IListDragAndDropArgs;
+}
+namespace UnityEngine::UIElements {
+class IReorderable;
+}
+namespace UnityEngine::UIElements {
 class StartDragArgs;
-}
-namespace UnityEngine::UIElements {
-class BaseVerticalCollectionView;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::UIElements {
-struct DragVisualMode;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -62,11 +62,21 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::ICollectionDragAndDropController"
   constexpr operator ::UnityEngine::UIElements::ICollectionDragAndDropController*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::UIElements::ICollectionDragAndDropController"
+  constexpr ::UnityEngine::UIElements::ICollectionDragAndDropController* i___UnityEngine__UIElements__ICollectionDragAndDropController() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::UIElements::IDragAndDropController_1<::UnityEngine::UIElements::IListDragAndDropArgs*>"
   constexpr operator ::UnityEngine::UIElements::IDragAndDropController_1<::UnityEngine::UIElements::IListDragAndDropArgs*>*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::UIElements::IDragAndDropController_1<::UnityEngine::UIElements::IListDragAndDropArgs*>"
+  constexpr ::UnityEngine::UIElements::IDragAndDropController_1<::UnityEngine::UIElements::IListDragAndDropArgs*>*
+  i___UnityEngine__UIElements__IDragAndDropController_1___UnityEngine__UIElements__IListDragAndDropArgs__() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::UIElements::IReorderable"
   constexpr operator ::UnityEngine::UIElements::IReorderable*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UIElements::IReorderable"
+  constexpr ::UnityEngine::UIElements::IReorderable* i___UnityEngine__UIElements__IReorderable() noexcept;
 
   constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView*& __get_m_View();
 
@@ -101,8 +111,7 @@ public:
   inline bool CanStartDrag(::System::Collections::Generic::IEnumerable_1<int32_t>* itemIndices);
 
   /// @brief Method SetupDragAndDrop, addr 0x2e08fb0, size 0x5d4, virtual true, abstract: false, final false
-  /// @param skipText: bool (default: false)
-  inline ::UnityEngine::UIElements::StartDragArgs* SetupDragAndDrop(::System::Collections::Generic::IEnumerable_1<int32_t>* itemIndices, bool skipText = false);
+  inline ::UnityEngine::UIElements::StartDragArgs* SetupDragAndDrop(::System::Collections::Generic::IEnumerable_1<int32_t>* itemIndices, bool skipText);
 
   /// @brief Method HandleDragAndDrop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::DragVisualMode HandleDragAndDrop(::UnityEngine::UIElements::IListDragAndDropArgs* args);

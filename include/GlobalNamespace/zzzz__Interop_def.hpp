@@ -12,37 +12,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Interop)
 namespace GlobalNamespace {
-class __Interop__Sys;
-}
-namespace GlobalNamespace {
 struct __Interop__ErrorInfo;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace System {
-class Exception;
 }
 namespace GlobalNamespace {
 struct __Interop__Error;
 }
 namespace GlobalNamespace {
-struct __Interop__Sys__FileStatus;
+class __Interop__Sys;
+}
+namespace GlobalNamespace {
+struct __Interop__Sys__DirectoryEntry;
 }
 namespace GlobalNamespace {
 struct __Interop__Sys__FileStatusFlags;
 }
 namespace GlobalNamespace {
-struct __Interop__Sys__NodeType;
+struct __Interop__Sys__FileStatus;
 }
-namespace Microsoft::Win32::SafeHandles {
-class SafeFileHandle;
+namespace GlobalNamespace {
+struct __Interop__Sys__NodeType;
 }
 namespace GlobalNamespace {
 struct __Interop__Sys__Permissions;
 }
-namespace GlobalNamespace {
-struct __Interop__Sys__DirectoryEntry;
+namespace Microsoft::Win32::SafeHandles {
+class SafeFileHandle;
+}
+namespace System {
+class Exception;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 template <typename T> struct ReadOnlySpan_1;
@@ -1049,23 +1049,13 @@ public:
                                               ::System::Func_2<::GlobalNamespace::__Interop__ErrorInfo, ::GlobalNamespace::__Interop__ErrorInfo>* errorRewriter);
 
   /// @brief Method CheckIo, addr 0x2410cd8, size 0x78, virtual false, abstract: false, final false
-  /// @param path: ::StringW (default: nullptr)
-  /// @param isDirectory: bool (default: false)
-  /// @param errorRewriter: ::System::Func_2<::GlobalNamespace::__Interop__ErrorInfo,::GlobalNamespace::__Interop__ErrorInfo>* (default: nullptr)
-  static inline int64_t CheckIo(int64_t result, ::StringW path = nullptr, bool isDirectory = false,
-                                ::System::Func_2<::GlobalNamespace::__Interop__ErrorInfo, ::GlobalNamespace::__Interop__ErrorInfo>* errorRewriter = nullptr);
+  static inline int64_t CheckIo(int64_t result, ::StringW path, bool isDirectory, ::System::Func_2<::GlobalNamespace::__Interop__ErrorInfo, ::GlobalNamespace::__Interop__ErrorInfo>* errorRewriter);
 
   /// @brief Method CheckIo, addr 0x2410db8, size 0x20, virtual false, abstract: false, final false
-  /// @param path: ::StringW (default: nullptr)
-  /// @param isDirectory: bool (default: false)
-  /// @param errorRewriter: ::System::Func_2<::GlobalNamespace::__Interop__ErrorInfo,::GlobalNamespace::__Interop__ErrorInfo>* (default: nullptr)
-  static inline int32_t CheckIo(int32_t result, ::StringW path = nullptr, bool isDirectory = false,
-                                ::System::Func_2<::GlobalNamespace::__Interop__ErrorInfo, ::GlobalNamespace::__Interop__ErrorInfo>* errorRewriter = nullptr);
+  static inline int32_t CheckIo(int32_t result, ::StringW path, bool isDirectory, ::System::Func_2<::GlobalNamespace::__Interop__ErrorInfo, ::GlobalNamespace::__Interop__ErrorInfo>* errorRewriter);
 
   /// @brief Method GetExceptionForIoErrno, addr 0x24107e0, size 0x4f8, virtual false, abstract: false, final false
-  /// @param path: ::StringW (default: nullptr)
-  /// @param isDirectory: bool (default: false)
-  static inline ::System::Exception* GetExceptionForIoErrno(::GlobalNamespace::__Interop__ErrorInfo errorInfo, ::StringW path = nullptr, bool isDirectory = false);
+  static inline ::System::Exception* GetExceptionForIoErrno(::GlobalNamespace::__Interop__ErrorInfo errorInfo, ::StringW path, bool isDirectory);
 
   /// @brief Method GetIOException, addr 0x2410e48, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::Exception* GetIOException(::GlobalNamespace::__Interop__ErrorInfo errorInfo);

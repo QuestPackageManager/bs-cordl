@@ -11,14 +11,14 @@ class Test_Gradient;
 namespace HoudiniEngineUnity {
 class __Test_Gradient_Extensions____c;
 }
-namespace UnityEngine {
-class Gradient;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
 template <typename TInput, typename TOutput> class Converter_2;
+}
+namespace UnityEngine {
+class Gradient;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

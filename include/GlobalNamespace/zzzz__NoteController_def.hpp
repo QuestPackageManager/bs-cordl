@@ -9,16 +9,46 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoteController)
 namespace GlobalNamespace {
+class IBeatmapObjectController;
+}
+namespace GlobalNamespace {
 template <typename T> class ILazyCopyHashSet_1;
+}
+namespace GlobalNamespace {
+class INoteControllerDidInitEvent;
+}
+namespace GlobalNamespace {
+class INoteControllerNoteDidDissolveEvent;
+}
+namespace GlobalNamespace {
+class INoteControllerNoteDidFinishJumpEvent;
+}
+namespace GlobalNamespace {
+class INoteControllerNoteDidPassJumpThreeQuartersEvent;
+}
+namespace GlobalNamespace {
+class INoteControllerNoteDidStartDissolvingEvent;
+}
+namespace GlobalNamespace {
+class INoteControllerNoteDidStartJumpEvent;
 }
 namespace GlobalNamespace {
 class INoteControllerNoteWasCutEvent;
 }
 namespace GlobalNamespace {
-class IBeatmapObjectController;
+class INoteControllerNoteWasMissedEvent;
 }
 namespace GlobalNamespace {
-class INoteControllerNoteDidStartJumpEvent;
+class INoteMirrorable;
+}
+namespace GlobalNamespace {
+template <typename T> class LazyCopyHashSet_1;
+}
+namespace GlobalNamespace {
+struct NoteCutInfo;
+}
+namespace GlobalNamespace {
+class NoteData;
 }
 namespace GlobalNamespace {
 class NoteMovement;
@@ -26,56 +56,26 @@ class NoteMovement;
 namespace GlobalNamespace {
 class __NoteController___DissolveCoroutine_d__75;
 }
-namespace GlobalNamespace {
-class INoteControllerNoteDidFinishJumpEvent;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace GlobalNamespace {
-class NoteData;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace GlobalNamespace {
-template <typename T> class LazyCopyHashSet_1;
-}
-namespace GlobalNamespace {
-class INoteControllerNoteDidStartDissolvingEvent;
-}
-namespace GlobalNamespace {
-class INoteControllerNoteDidDissolveEvent;
-}
-namespace GlobalNamespace {
-class INoteControllerNoteWasMissedEvent;
-}
-namespace GlobalNamespace {
-class INoteControllerNoteDidPassJumpThreeQuartersEvent;
-}
-namespace GlobalNamespace {
-class INoteControllerDidInitEvent;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace GlobalNamespace {
-class INoteMirrorable;
-}
-namespace GlobalNamespace {
-struct NoteCutInfo;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
 }
-namespace System {
-class IDisposable;
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -116,11 +116,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -315,8 +324,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INoteMirrorable"
   constexpr operator ::GlobalNamespace::INoteMirrorable*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::INoteMirrorable"
+  constexpr ::GlobalNamespace::INoteMirrorable* i___GlobalNamespace__INoteMirrorable() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IBeatmapObjectController"
   constexpr operator ::GlobalNamespace::IBeatmapObjectController*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IBeatmapObjectController"
+  constexpr ::GlobalNamespace::IBeatmapObjectController* i___GlobalNamespace__IBeatmapObjectController() noexcept;
 
   constexpr ::GlobalNamespace::NoteMovement*& __get__noteMovement();
 

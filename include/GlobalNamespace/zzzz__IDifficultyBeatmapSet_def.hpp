@@ -6,11 +6,11 @@ CORDL_MODULE_EXPORT(IDifficultyBeatmapSet)
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

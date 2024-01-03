@@ -11,16 +11,16 @@ namespace GlobalNamespace {
 class AudioClipQueue;
 }
 namespace GlobalNamespace {
-class __PlayAudioOnGameEventController__EventAudioBinding;
+class LocalizedAudioClipSO;
+}
+namespace GlobalNamespace {
+template <typename T> class RandomObjectPicker_1;
 }
 namespace GlobalNamespace {
 class Signal;
 }
 namespace GlobalNamespace {
-class LocalizedAudioClipSO;
-}
-namespace GlobalNamespace {
-template <typename T> class RandomObjectPicker_1;
+class __PlayAudioOnGameEventController__EventAudioBinding;
 }
 // Forward declare root types
 namespace GlobalNamespace {

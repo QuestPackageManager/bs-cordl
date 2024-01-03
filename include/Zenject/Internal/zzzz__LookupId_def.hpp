@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LookupId)
 namespace Zenject {
-class IProvider;
+struct BindingId;
 }
 namespace Zenject {
-struct BindingId;
+class IProvider;
 }
 // Forward declare root types
 namespace Zenject::Internal {

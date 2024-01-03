@@ -11,23 +11,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_InputInterfaceTerrain)
-namespace UnityEngine {
-class TerrainLayer;
+namespace HoudiniEngineUnity {
+struct HAPI_VolumeInfo;
 }
-namespace UnityEngine {
-class GameObject;
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
 }
 namespace HoudiniEngineUnity {
 class __HEU_InputInterfaceTerrain__HEU_InputDataTerrain;
 }
-namespace HoudiniEngineUnity {
-struct HAPI_VolumeInfo;
+namespace UnityEngine {
+class GameObject;
 }
 namespace UnityEngine {
 class TerrainData;
 }
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
+namespace UnityEngine {
+class TerrainLayer;
 }
 namespace UnityEngine {
 class Terrain;
@@ -46,7 +46,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataT
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 124, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9838)), TypeDefinitionIndex(TypeDefinitionIndex(9726))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9726)), TypeDefinitionIndex(TypeDefinitionIndex(9838))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9843))
 // CS Name: ::HEU_InputInterfaceTerrain::HEU_InputDataTerrain*
 class CORDL_TYPE __HEU_InputInterfaceTerrain__HEU_InputDataTerrain : public ::HoudiniEngineUnity::HEU_InputData {

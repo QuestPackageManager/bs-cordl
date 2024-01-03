@@ -10,17 +10,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AudioClip)
+namespace System {
+class Object;
+}
+namespace UnityEngine {
+struct AudioDataLoadState;
+}
 namespace UnityEngine {
 class __AudioClip__PCMReaderCallback;
 }
 namespace UnityEngine {
 class __AudioClip__PCMSetPositionCallback;
-}
-namespace UnityEngine {
-struct AudioDataLoadState;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace UnityEngine {

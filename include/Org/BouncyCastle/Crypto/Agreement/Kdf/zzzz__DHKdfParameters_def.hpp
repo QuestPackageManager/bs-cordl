@@ -47,6 +47,9 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDerivationParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::IDerivationParameters*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationParameters"
+  constexpr ::Org::BouncyCastle::Crypto::IDerivationParameters* i___Org__BouncyCastle__Crypto__IDerivationParameters() noexcept;
+
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __get_algorithm();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __get_algorithm() const;

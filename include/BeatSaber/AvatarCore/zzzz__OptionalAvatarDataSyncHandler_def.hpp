@@ -7,28 +7,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OptionalAvatarDataSyncHandler)
 namespace BeatSaber::AvatarCore {
-struct OptionalAvatarData;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace BeatSaber::AvatarCore {
 class OptionalAvatarDataPacket;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace BeatSaber::AvatarCore {
+struct OptionalAvatarData;
 }
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class ByteArrayNetSerializable;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace GlobalNamespace {
-class ByteArrayNetSerializable;
+class IMultiplayerSessionManager;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {
@@ -60,6 +60,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::System::Action_2<::GlobalNamespace::IConnectedPlayer*, ::BeatSaber::AvatarCore::OptionalAvatarData>*& __get_didChangeOptionalAvatarDataEvent();
 

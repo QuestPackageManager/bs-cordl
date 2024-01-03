@@ -9,20 +9,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectManager)
-namespace System::Runtime::Serialization {
-class ObjectHolder;
+namespace System::Reflection {
+class FieldInfo;
 }
-namespace System {
-class Object;
+namespace System::Reflection {
+class MemberInfo;
+}
+namespace System::Reflection {
+class RuntimeConstructorInfo;
 }
 namespace System::Runtime::Serialization {
 class DeserializationEventHandler;
 }
 namespace System::Runtime::Serialization {
+class FixupHolder;
+}
+namespace System::Runtime::Serialization {
 class ISurrogateSelector;
 }
 namespace System::Runtime::Serialization {
-class FixupHolder;
+class ObjectHolderList;
+}
+namespace System::Runtime::Serialization {
+class ObjectHolder;
 }
 namespace System::Runtime::Serialization {
 class SerializationEventHandler;
@@ -30,23 +39,14 @@ class SerializationEventHandler;
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
-namespace System::Reflection {
-class MemberInfo;
-}
-namespace System {
-class RuntimeType;
-}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System::Reflection {
-class RuntimeConstructorInfo;
+namespace System {
+class Object;
 }
-namespace System::Reflection {
-class FieldInfo;
-}
-namespace System::Runtime::Serialization {
-class ObjectHolderList;
+namespace System {
+class RuntimeType;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -58,7 +58,7 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::ObjectManager);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3235)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3235))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3217))
 // CS Name: ::System.Runtime.Serialization::ObjectManager*
 class CORDL_TYPE ObjectManager : public ::System::Object {

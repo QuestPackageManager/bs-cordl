@@ -11,16 +11,16 @@ namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::Playables {
-struct PlayableHandle;
-}
-namespace UnityEngine::Playables {
-struct Playable;
-}
-namespace UnityEngine::Playables {
 class IPlayable;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
+}
+namespace UnityEngine::Playables {
+struct PlayableHandle;
+}
+namespace UnityEngine::Playables {
+struct Playable;
 }
 // Forward declare root types
 namespace UnityEngine::Audio {
@@ -41,13 +41,17 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
+  /// @brief Convert to "::UnityEngine::Playables::IPlayable"
+  constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Audio::AudioMixerPlayable>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Audio::AudioMixerPlayable>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Audio::AudioMixerPlayable>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Audio::AudioMixerPlayable>* i___System__IEquatable_1___UnityEngine__Audio__AudioMixerPlayable_();
+
   /// @brief Method Create, addr 0x2c9cfe0, size 0x3c, virtual false, abstract: false, final false
-  /// @param inputCount: int32_t (default: static_cast<int32_t>(0x0))
-  /// @param normalizeInputVolumes: bool (default: false)
-  static inline ::UnityEngine::Audio::AudioMixerPlayable Create(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount = static_cast<int32_t>(0x0), bool normalizeInputVolumes = false);
+  static inline ::UnityEngine::Audio::AudioMixerPlayable Create(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount, bool normalizeInputVolumes);
 
   /// @brief Method CreateHandle, addr 0x2c9d01c, size 0xdc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableHandle CreateHandle(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount, bool normalizeInputVolumes);

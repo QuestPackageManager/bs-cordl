@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Playables/zzzz__PlayableHandle_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(AnimationScriptPlayable)
+namespace System {
+template <typename T> class IEquatable_1;
+}
 namespace UnityEngine::Playables {
 class IPlayable;
 }
 namespace UnityEngine::Playables {
 struct PlayableHandle;
-}
-namespace System {
-template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::Animations {
@@ -36,8 +36,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
+  /// @brief Convert to "::UnityEngine::Playables::IPlayable"
+  constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Animations::AnimationScriptPlayable>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Animations::AnimationScriptPlayable>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Animations::AnimationScriptPlayable>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Animations::AnimationScriptPlayable>* i___System__IEquatable_1___UnityEngine__Animations__AnimationScriptPlayable_();
 
   static inline void setStaticF_m_NullPlayable(::UnityEngine::Animations::AnimationScriptPlayable value);
 

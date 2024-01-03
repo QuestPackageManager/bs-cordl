@@ -7,41 +7,41 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Application)
-namespace UnityEngine {
-struct RuntimePlatform;
-}
 namespace System {
 template <typename T> class Action_1;
-}
-namespace UnityEngine {
-struct NetworkReachability;
 }
 namespace System {
 class Action;
 }
-namespace UnityEngine {
-class __Application__LogCallback;
-}
-namespace UnityEngine {
-struct LogType;
-}
-namespace UnityEngine {
-struct SystemLanguage;
-}
-namespace UnityEngine {
-class __Application__LowMemoryCallback;
-}
 namespace System {
 template <typename TResult> class Func_1;
+}
+namespace System {
+class Object;
 }
 namespace UnityEngine::Events {
 class UnityAction;
 }
 namespace UnityEngine {
+struct LogType;
+}
+namespace UnityEngine {
+struct NetworkReachability;
+}
+namespace UnityEngine {
+struct RuntimePlatform;
+}
+namespace UnityEngine {
+struct SystemLanguage;
+}
+namespace UnityEngine {
 struct ThreadPriority;
 }
-namespace System {
-class Object;
+namespace UnityEngine {
+class __Application__LogCallback;
+}
+namespace UnityEngine {
+class __Application__LowMemoryCallback;
 }
 // Forward declare root types
 namespace UnityEngine {

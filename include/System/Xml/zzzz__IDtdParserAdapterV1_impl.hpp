@@ -9,7 +9,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::IDtdParserAdapterV1*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::IDtdParserAdapterV1*>::get(), 0));
@@ -23,7 +23,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::IDtdParserAdapterV1*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::IDtdParserAdapterV1*>::get(), 1));
@@ -37,7 +37,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::IDtdParserAdapterV1*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::IDtdParserAdapterV1*>::get(), 2));
@@ -48,8 +48,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 constexpr System::Xml::IDtdParserAdapterV1::operator ::System::Xml::IDtdParserAdapterWithValidation*() noexcept {
   return static_cast<::System::Xml::IDtdParserAdapterWithValidation*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::Xml::IDtdParserAdapterWithValidation"
+constexpr ::System::Xml::IDtdParserAdapterWithValidation* System::Xml::IDtdParserAdapterV1::i___System__Xml__IDtdParserAdapterWithValidation() noexcept {
+  return static_cast<::System::Xml::IDtdParserAdapterWithValidation*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Xml::IDtdParserAdapter"
 constexpr System::Xml::IDtdParserAdapterV1::operator ::System::Xml::IDtdParserAdapter*() noexcept {
+  return static_cast<::System::Xml::IDtdParserAdapter*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Xml::IDtdParserAdapter"
+constexpr ::System::Xml::IDtdParserAdapter* System::Xml::IDtdParserAdapterV1::i___System__Xml__IDtdParserAdapter() noexcept {
   return static_cast<::System::Xml::IDtdParserAdapter*>(static_cast<void*>(this));
 }
 inline bool System::Xml::IDtdParserAdapterV1::get_V1CompatibilityMode() {

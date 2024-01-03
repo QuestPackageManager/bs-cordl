@@ -6,28 +6,28 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 CORDL_MODULE_EXPORT(MultiplayerConnectedPlayerInstaller)
 namespace GlobalNamespace {
-class MultiplayerConnectedPlayerSongTimeSyncController;
-}
-namespace GlobalNamespace {
-class MultiplayerConnectedPlayerObstacleController;
-}
-namespace GlobalNamespace {
-class PlayersSpecificSettingsAtGameStartModel;
+class GameplayCoreSceneSetupData;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace GlobalNamespace {
-class MultiplayerConnectedPlayerBombNoteController;
-}
-namespace GlobalNamespace {
 class MultiplayerConnectedPlayerBeatmapObjectEventManager;
 }
 namespace GlobalNamespace {
-class GameplayCoreSceneSetupData;
+class MultiplayerConnectedPlayerBombNoteController;
 }
 namespace GlobalNamespace {
 class MultiplayerConnectedPlayerGameNoteController;
+}
+namespace GlobalNamespace {
+class MultiplayerConnectedPlayerObstacleController;
+}
+namespace GlobalNamespace {
+class MultiplayerConnectedPlayerSongTimeSyncController;
+}
+namespace GlobalNamespace {
+class PlayersSpecificSettingsAtGameStartModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerInstaller);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138)), TypeDefinitionIndex(TypeDefinitionIndex(5239))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5239)), TypeDefinitionIndex(TypeDefinitionIndex(11138))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5124))
 // CS Name: ::MultiplayerConnectedPlayerInstaller*
 class CORDL_TYPE MultiplayerConnectedPlayerInstaller : public ::Zenject::MonoInstaller {

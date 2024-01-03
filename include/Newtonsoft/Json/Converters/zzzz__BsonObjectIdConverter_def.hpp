@@ -7,17 +7,17 @@ CORDL_MODULE_EXPORT(BsonObjectIdConverter)
 namespace Newtonsoft::Json {
 class JsonReader;
 }
-namespace System {
-class Object;
+namespace Newtonsoft::Json {
+class JsonSerializer;
 }
 namespace Newtonsoft::Json {
 class JsonWriter;
 }
 namespace System {
-class Type;
+class Object;
 }
-namespace Newtonsoft::Json {
-class JsonSerializer;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {

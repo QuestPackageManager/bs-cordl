@@ -32,6 +32,9 @@ public:
   /// @brief Convert operator to "::Polyglot::ILocalize"
   constexpr operator ::Polyglot::ILocalize*() noexcept;
 
+  /// @brief Convert to "::Polyglot::ILocalize"
+  constexpr ::Polyglot::ILocalize* i___Polyglot__ILocalize() noexcept;
+
   constexpr ::UnityEngine::UI::Dropdown*& __get_dropdown();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Dropdown*> const& __get_dropdown() const;

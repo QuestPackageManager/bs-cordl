@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(MonoPoolableMemoryPool_7)
 namespace System {
 class Object;
 }
-namespace Zenject {
-class InjectTypeInfo;
-}
 namespace UnityEngine {
 class Transform;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -26,7 +26,7 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11044)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11044), inst: 3536 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11044), inst: 3536 }), TypeDefinitionIndex(TypeDefinitionIndex(11044))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11062))
 // CS Name: ::Zenject::MonoPoolableMemoryPool`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TValue>*
 class CORDL_TYPE MonoPoolableMemoryPool_7 : public ::Zenject::MemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue> {

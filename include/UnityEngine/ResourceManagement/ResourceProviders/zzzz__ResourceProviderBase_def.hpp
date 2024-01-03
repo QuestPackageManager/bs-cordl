@@ -7,29 +7,23 @@ CORDL_MODULE_INIT
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ProviderBehaviourFlags_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ResourceProviderBase)
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> struct AsyncOperationHandle_1;
+namespace System {
+template <typename TResult> class Func_1;
 }
 namespace System {
 class Object;
 }
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class __ResourceProviderBase____c__DisplayClass10_0;
+namespace System {
+class Type;
 }
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class __ResourceProviderBase__BaseInitAsyncOp;
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> struct AsyncOperationHandle_1;
 }
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
 }
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
-}
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 class IResourceProvider;
-}
-namespace UnityEngine::ResourceManagement::Util {
-class IInitializableObject;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct ProvideHandle;
@@ -37,11 +31,17 @@ struct ProvideHandle;
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct ProviderBehaviourFlags;
 }
-namespace System {
-class Type;
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class __ResourceProviderBase__BaseInitAsyncOp;
 }
-namespace System {
-template <typename TResult> class Func_1;
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class __ResourceProviderBase____c__DisplayClass10_0;
+}
+namespace UnityEngine::ResourceManagement::Util {
+class IInitializableObject;
+}
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {
@@ -61,7 +61,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::__ResourceP
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 105 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(14032))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14011))
 // CS Name: ::ResourceProviderBase::BaseInitAsyncOp*
 class CORDL_TYPE __ResourceProviderBase__BaseInitAsyncOp : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<bool> {
@@ -223,8 +223,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider"
   constexpr operator ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider"
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* i___UnityEngine__ResourceManagement__ResourceProviders__IResourceProvider() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IInitializableObject"
   constexpr operator ::UnityEngine::ResourceManagement::Util::IInitializableObject*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::ResourceManagement::Util::IInitializableObject"
+  constexpr ::UnityEngine::ResourceManagement::Util::IInitializableObject* i___UnityEngine__ResourceManagement__Util__IInitializableObject() noexcept;
 
   constexpr ::StringW& __get_m_ProviderId();
 

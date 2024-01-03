@@ -34,6 +34,9 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::Eyes>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::Eyes>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::Eyes>"
+  constexpr ::System::IEquatable_1<::UnityEngine::XR::Eyes>* i___System__IEquatable_1___UnityEngine__XR__Eyes_();
+
   /// @brief Method get_deviceId, addr 0x2eb26b8, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_deviceId();
 

@@ -46,6 +46,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ILightWithId"
   constexpr operator ::GlobalNamespace::ILightWithId*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::ILightWithId"
+  constexpr ::GlobalNamespace::ILightWithId* i___GlobalNamespace__ILightWithId() noexcept;
+
   constexpr int32_t& __get__ID();
 
   constexpr int32_t const& __get__ID() const;

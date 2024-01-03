@@ -11,8 +11,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FBIKChain)
-namespace UnityEngine {
-struct Vector3;
+namespace RootMotion::FinalIK {
+class IKConstraintBend;
 }
 namespace RootMotion::FinalIK {
 class IKSolverFullBody;
@@ -21,19 +21,19 @@ namespace RootMotion::FinalIK {
 class __FBIKChain__ChildConstraint;
 }
 namespace RootMotion::FinalIK {
-class __IKSolver__Node;
+struct __FBIKChain__Smoothing;
 }
 namespace RootMotion::FinalIK {
-class IKConstraintBend;
+class __IKSolver__Node;
 }
 namespace RootMotion::FinalIK {
 class __IKSolver__Point;
 }
-namespace RootMotion::FinalIK {
-struct __FBIKChain__Smoothing;
-}
 namespace UnityEngine {
 class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -168,9 +168,7 @@ public:
   static inline ::RootMotion::FinalIK::__FBIKChain__ChildConstraint* New_ctor(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, float_t pushElasticity, float_t pullElasticity);
 
   /// @brief Method .ctor, addr 0x1257a7c, size 0x40, virtual false, abstract: false, final false
-  /// @param pushElasticity: float_t (default: 0.0)
-  /// @param pullElasticity: float_t (default: 0.0)
-  inline void _ctor(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, float_t pushElasticity = 0.0, float_t pullElasticity = 0.0);
+  inline void _ctor(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, float_t pushElasticity, float_t pullElasticity);
 
   /// @brief Method Initiate, addr 0x1255764, size 0x54, virtual false, abstract: false, final false
   inline void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);
@@ -553,8 +551,7 @@ public:
   inline ::UnityEngine::Vector3 Push(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
   /// @brief Method SolveTrigonometric, addr 0x1256558, size 0x238, virtual false, abstract: false, final false
-  /// @param calculateBendDirection: bool (default: false)
-  inline void SolveTrigonometric(::RootMotion::FinalIK::IKSolverFullBody* solver, bool calculateBendDirection = false);
+  inline void SolveTrigonometric(::RootMotion::FinalIK::IKSolverFullBody* solver, bool calculateBendDirection);
 
   /// @brief Method Stage1, addr 0x1256f20, size 0x2ac, virtual false, abstract: false, final false
   inline void Stage1(::RootMotion::FinalIK::IKSolverFullBody* solver);

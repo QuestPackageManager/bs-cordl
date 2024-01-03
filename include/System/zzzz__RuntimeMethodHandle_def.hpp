@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeMethodHandle)
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System {
-struct TypeNameFormatFlags;
+namespace System::Reflection {
+class RuntimeMethodInfo;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
@@ -22,8 +22,8 @@ struct StreamingContext;
 namespace System {
 class Object;
 }
-namespace System::Reflection {
-class RuntimeMethodInfo;
+namespace System {
+struct TypeNameFormatFlags;
 }
 // Forward declare root types
 namespace System {
@@ -45,6 +45,9 @@ public:
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*();
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable();
 
   /// @brief Method .ctor, addr 0x25ff248, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(void* v);

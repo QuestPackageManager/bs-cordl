@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(VerticalScrollIndicator)
 namespace UnityEngine {
-class RectTransform;
+class AnimationClip;
 }
 namespace UnityEngine {
-class AnimationClip;
+class RectTransform;
 }
 // Forward declare root types
 namespace HMUI {

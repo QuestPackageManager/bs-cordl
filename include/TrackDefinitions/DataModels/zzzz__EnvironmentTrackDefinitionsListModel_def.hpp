@@ -4,29 +4,29 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(EnvironmentTrackDefinitionsListModel)
-namespace TrackDefinitions {
-class EnvironmentTracksDefinitionSO;
-}
-namespace TrackDefinitions::DataModels {
-class __EnvironmentTrackDefinitionsListModel____c;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace TrackDefinitions {
-class EnvironmentDefinitionsListSO;
-}
 namespace GlobalNamespace {
 class EnvironmentInfoSO;
 }
-namespace TrackDefinitions::DataModels {
-class EnvironmentTrackDefinitionModel;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace TrackDefinitions::DataModels {
+class EnvironmentTrackDefinitionModel;
+}
+namespace TrackDefinitions::DataModels {
+class __EnvironmentTrackDefinitionsListModel____c;
+}
+namespace TrackDefinitions {
+class EnvironmentDefinitionsListSO;
+}
+namespace TrackDefinitions {
+class EnvironmentTracksDefinitionSO;
 }
 // Forward declare root types
 namespace TrackDefinitions::DataModels {

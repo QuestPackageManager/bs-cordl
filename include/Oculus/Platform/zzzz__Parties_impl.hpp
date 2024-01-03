@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__Parties_def.hpp"
-#include "Oculus/Platform/zzzz__Message_1_def.hpp"
-#include "Oculus/Platform/Models/zzzz__Party_def.hpp"
-#include "Oculus/Platform/zzzz__Request_1_def.hpp"
 #include "Oculus/Platform/Models/zzzz__PartyUpdateNotification_def.hpp"
+#include "Oculus/Platform/Models/zzzz__Party_def.hpp"
+#include "Oculus/Platform/zzzz__Message_1_def.hpp"
+#include "Oculus/Platform/zzzz__Request_1_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::Parties.GetCurrent
 template <>
 
@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x158;
   constexpr static std::size_t addrs = 0x26feee0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Parties*>::get(), "GetCurrent",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x26ff038;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Parties*>::get(), "SetPartyUpdateNotificationCallback", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{

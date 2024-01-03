@@ -7,11 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Renderer)
-namespace UnityEngine {
-struct MotionVectorGenerationMode;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
-namespace UnityEngine {
-class MaterialPropertyBlock;
+namespace UnityEngine::Rendering {
+struct LightProbeUsage;
+}
+namespace UnityEngine::Rendering {
+struct ReflectionProbeUsage;
 }
 namespace UnityEngine::Rendering {
 struct ShadowCastingMode;
@@ -19,17 +22,14 @@ struct ShadowCastingMode;
 namespace UnityEngine {
 struct Bounds;
 }
-namespace UnityEngine::Rendering {
-struct ReflectionProbeUsage;
-}
-namespace UnityEngine::Rendering {
-struct LightProbeUsage;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine {
+class MaterialPropertyBlock;
 }
 namespace UnityEngine {
 class Material;
+}
+namespace UnityEngine {
+struct MotionVectorGenerationMode;
 }
 // Forward declare root types
 namespace UnityEngine {

@@ -29,6 +29,9 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::ITuple"
   constexpr operator ::System::Runtime::CompilerServices::ITuple*() noexcept;
 
+  /// @brief Convert to "::System::Runtime::CompilerServices::ITuple"
+  constexpr ::System::Runtime::CompilerServices::ITuple* i___System__Runtime__CompilerServices__ITuple() noexcept;
+
   /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW ToString(::System::Text::StringBuilder* sb);
 

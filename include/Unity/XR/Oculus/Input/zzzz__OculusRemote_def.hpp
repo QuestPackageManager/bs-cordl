@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
 CORDL_MODULE_EXPORT(OculusRemote)
 namespace UnityEngine::InputSystem::Controls {
-class Vector2Control;
+class ButtonControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
+class Vector2Control;
 }
 // Forward declare root types
 namespace Unity::XR::Oculus::Input {

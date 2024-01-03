@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Path)
+namespace System::Buffers {
+template <typename T, typename TArg> class SpanAction_2;
+}
 namespace System::IO {
 class __Path____c;
 }
@@ -18,16 +21,13 @@ namespace System {
 template <typename T> struct Span_1;
 }
 namespace System {
+template <typename T1> struct ValueTuple_1;
+}
+namespace System {
 template <typename T1, typename T2, typename T3, typename T4, typename T5> struct ValueTuple_5;
 }
 namespace System {
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest> struct ValueTuple_8;
-}
-namespace System {
-template <typename T1> struct ValueTuple_1;
-}
-namespace System::Buffers {
-template <typename T, typename TArg> class SpanAction_2;
 }
 // Forward declare root types
 namespace System::IO {

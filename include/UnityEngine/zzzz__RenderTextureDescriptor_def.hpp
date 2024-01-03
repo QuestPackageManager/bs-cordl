@@ -11,26 +11,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RenderTextureDescriptor)
+namespace UnityEngine::Experimental::Rendering {
+struct GraphicsFormat;
+}
+namespace UnityEngine::Rendering {
+struct ShadowSamplingMode;
+}
+namespace UnityEngine::Rendering {
+struct TextureDimension;
+}
 namespace UnityEngine {
 struct RenderTextureCreationFlags;
 }
 namespace UnityEngine {
 struct RenderTextureFormat;
 }
-namespace UnityEngine::Rendering {
-struct TextureDimension;
-}
-namespace UnityEngine::Rendering {
-struct ShadowSamplingMode;
-}
-namespace UnityEngine {
-struct VRTextureUsage;
-}
 namespace UnityEngine {
 struct RenderTextureMemoryless;
 }
-namespace UnityEngine::Experimental::Rendering {
-struct GraphicsFormat;
+namespace UnityEngine {
+struct VRTextureUsage;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -42,8 +42,8 @@ MARK_VAL_T(::UnityEngine::RenderTextureDescriptor);
 // SizeInfo { instance_size: 52, native_size: 52, calculated_instance_size: 52, calculated_native_size: 68, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10406)), TypeDefinitionIndex(TypeDefinitionIndex(10350)), TypeDefinitionIndex(TypeDefinitionIndex(10121)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10118)), TypeDefinitionIndex(TypeDefinitionIndex(10119)), TypeDefinitionIndex(TypeDefinitionIndex(10348))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10118)), TypeDefinitionIndex(TypeDefinitionIndex(10119)), TypeDefinitionIndex(TypeDefinitionIndex(10121)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10350)), TypeDefinitionIndex(TypeDefinitionIndex(10406)), TypeDefinitionIndex(TypeDefinitionIndex(10348))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(10089)) CS Name: ::UnityEngine::RenderTextureDescriptor
 struct CORDL_TYPE RenderTextureDescriptor {
 public:

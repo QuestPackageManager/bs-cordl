@@ -11,23 +11,23 @@ CORDL_MODULE_EXPORT(Grounder)
 namespace RootMotion::FinalIK {
 class Grounding;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace RootMotion::FinalIK {
+class __Grounder__GrounderDelegate;
 }
 namespace RootMotion::FinalIK {
 class __Grounding__Leg;
 }
-namespace RootMotion::FinalIK {
-class __Grounder__GrounderDelegate;
-}
 namespace System {
-class Object;
+class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
 }
 namespace System {
-class AsyncCallback;
+class Object;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {

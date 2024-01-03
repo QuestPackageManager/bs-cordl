@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TerrainMap)
-namespace UnityEngine::TerrainUtils {
-struct TerrainTileCoord;
-}
-namespace UnityEngine::TerrainUtils {
-struct TerrainMapStatusCode;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine {
-struct Vector2;
 }
 namespace System {
 template <typename T> class Predicate_1;
 }
-namespace UnityEngine {
-class Terrain;
+namespace UnityEngine::TerrainUtils {
+struct TerrainMapStatusCode;
+}
+namespace UnityEngine::TerrainUtils {
+struct TerrainTileCoord;
 }
 namespace UnityEngine::TerrainUtils {
 class __TerrainMap____c__DisplayClass3_0;
+}
+namespace UnityEngine {
+class Terrain;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::TerrainUtils {
@@ -137,16 +137,11 @@ public:
   inline ::UnityEngine::Terrain* GetTerrain(int32_t tileX, int32_t tileZ);
 
   /// @brief Method CreateFromPlacement, addr 0x2d1e8fc, size 0x2b0, virtual false, abstract: false, final false
-  /// @param filter: ::System::Predicate_1<::UnityEngine::Terrain*>* (default: nullptr)
-  /// @param fullValidation: bool (default: true)
-  static inline ::UnityEngine::TerrainUtils::TerrainMap* CreateFromPlacement(::UnityEngine::Terrain* originTerrain, ::System::Predicate_1<::UnityEngine::Terrain*>* filter = nullptr,
-                                                                             bool fullValidation = true);
+  static inline ::UnityEngine::TerrainUtils::TerrainMap* CreateFromPlacement(::UnityEngine::Terrain* originTerrain, ::System::Predicate_1<::UnityEngine::Terrain*>* filter, bool fullValidation);
 
   /// @brief Method CreateFromPlacement, addr 0x2d1ebb4, size 0x3e0, virtual false, abstract: false, final false
-  /// @param filter: ::System::Predicate_1<::UnityEngine::Terrain*>* (default: nullptr)
-  /// @param fullValidation: bool (default: true)
-  static inline ::UnityEngine::TerrainUtils::TerrainMap* CreateFromPlacement(::UnityEngine::Vector2 gridOrigin, ::UnityEngine::Vector2 gridSize,
-                                                                             ::System::Predicate_1<::UnityEngine::Terrain*>* filter = nullptr, bool fullValidation = true);
+  static inline ::UnityEngine::TerrainUtils::TerrainMap* CreateFromPlacement(::UnityEngine::Vector2 gridOrigin, ::UnityEngine::Vector2 gridSize, ::System::Predicate_1<::UnityEngine::Terrain*>* filter,
+                                                                             bool fullValidation);
 
   /// @brief Method get_terrainTiles, addr 0x2d1f290, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::TerrainUtils::TerrainTileCoord, ::UnityEngine::Terrain*>* get_terrainTiles();

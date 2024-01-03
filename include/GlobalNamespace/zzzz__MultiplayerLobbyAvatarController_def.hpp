@@ -10,17 +10,8 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerLobbyAvatarController)
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::Playables {
-class PlayableDirector;
+namespace GlobalNamespace {
+class VFXController;
 }
 namespace GlobalNamespace {
 class __MultiplayerLobbyAvatarController__Factory;
@@ -28,26 +19,35 @@ class __MultiplayerLobbyAvatarController__Factory;
 namespace GlobalNamespace {
 class __MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12;
 }
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-class __MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8;
-}
 namespace GlobalNamespace {
 class __MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10;
 }
 namespace GlobalNamespace {
-class VFXController;
+class __MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System {
-class Object;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::Playables {
+class PlayableDirector;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -220,7 +220,7 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyAvatarController, ____
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11005)), TypeDefinitionIndex(TypeDefinitionIndex(12778)), TypeDefinitionIndex(TypeDefinitionIndex(5221)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12778)), TypeDefinitionIndex(TypeDefinitionIndex(11005)), TypeDefinitionIndex(TypeDefinitionIndex(5221)),
 // GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11005), inst: 3488 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5217)) CS Name:
 // ::MultiplayerLobbyAvatarController::Factory*
 class CORDL_TYPE __MultiplayerLobbyAvatarController__Factory : public ::Zenject::PlaceholderFactory_2<::GlobalNamespace::IConnectedPlayer*, ::GlobalNamespace::MultiplayerLobbyAvatarController*> {
@@ -277,11 +277,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -382,11 +391,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -487,11 +505,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

@@ -4,9 +4,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Shape)
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
@@ -15,6 +12,9 @@ struct Bounds;
 }
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {

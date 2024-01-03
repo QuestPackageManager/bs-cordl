@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BasicEntropySourceProvider)
+namespace Org::BouncyCastle::Crypto::Prng {
+class __BasicEntropySourceProvider__BasicEntropySource;
+}
 namespace Org::BouncyCastle::Crypto {
 class IEntropySourceProvider;
 }
@@ -14,9 +17,6 @@ class IEntropySource;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
-}
-namespace Org::BouncyCastle::Crypto::Prng {
-class __BasicEntropySourceProvider__BasicEntropySource;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Prng {
@@ -53,6 +53,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IEntropySource"
   constexpr operator ::Org::BouncyCastle::Crypto::IEntropySource*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IEntropySource"
+  constexpr ::Org::BouncyCastle::Crypto::IEntropySource* i___Org__BouncyCastle__Crypto__IEntropySource() noexcept;
 
   constexpr ::Org::BouncyCastle::Security::SecureRandom*& __get_mSecureRandom();
 
@@ -142,6 +145,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IEntropySourceProvider"
   constexpr operator ::Org::BouncyCastle::Crypto::IEntropySourceProvider*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IEntropySourceProvider"
+  constexpr ::Org::BouncyCastle::Crypto::IEntropySourceProvider* i___Org__BouncyCastle__Crypto__IEntropySourceProvider() noexcept;
 
   constexpr ::Org::BouncyCastle::Security::SecureRandom*& __get_mSecureRandom();
 

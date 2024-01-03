@@ -6,14 +6,8 @@ CORDL_MODULE_INIT
 #include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnityUtil)
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
-class Component;
-}
-namespace UnityEngine {
-class Transform;
+namespace ModestTree::Util {
+class __UnityUtil___GetDirectChildrenAndSelf_d__20;
 }
 namespace ModestTree::Util {
 class __UnityUtil___GetDirectChildren_d__21;
@@ -24,41 +18,47 @@ class __UnityUtil___GetParentsAndSelf_d__17;
 namespace ModestTree::Util {
 class __UnityUtil___GetParents_d__16;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace ModestTree::Util {
 class __UnityUtil____c;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::SceneManagement {
-struct Scene;
-}
-namespace ModestTree::Util {
-class __UnityUtil___GetDirectChildrenAndSelf_d__20;
 }
 namespace ModestTree::Util {
 class __UnityUtil___get_AllScenes_d__1;
 }
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
 class IDisposable;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+class Object;
+}
+namespace UnityEngine::SceneManagement {
+struct Scene;
+}
+namespace UnityEngine {
+class Component;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace ModestTree::Util {
@@ -120,17 +120,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::SceneManagement::Scene>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::SceneManagement::Scene>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::SceneManagement::Scene>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::SceneManagement::Scene>* i___System__Collections__Generic__IEnumerable_1___UnityEngine__SceneManagement__Scene_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::SceneManagement::Scene>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::SceneManagement::Scene>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::SceneManagement::Scene>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::SceneManagement::Scene>* i___System__Collections__Generic__IEnumerator_1___UnityEngine__SceneManagement__Scene_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -359,17 +374,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>* i___System__Collections__Generic__IEnumerable_1___UnityEngine__Transform__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>* i___System__Collections__Generic__IEnumerator_1___UnityEngine__Transform__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -521,17 +551,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>* i___System__Collections__Generic__IEnumerable_1___UnityEngine__Transform__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>* i___System__Collections__Generic__IEnumerator_1___UnityEngine__Transform__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -684,17 +729,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>* i___System__Collections__Generic__IEnumerable_1___UnityEngine__GameObject__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::GameObject*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::GameObject*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::GameObject*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::GameObject*>* i___System__Collections__Generic__IEnumerator_1___UnityEngine__GameObject__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -847,17 +907,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>* i___System__Collections__Generic__IEnumerable_1___UnityEngine__GameObject__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::GameObject*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::GameObject*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::GameObject*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::GameObject*>* i___System__Collections__Generic__IEnumerator_1___UnityEngine__GameObject__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

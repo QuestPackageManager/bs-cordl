@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LODParameters)
-namespace UnityEngine {
-struct Vector3;
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
 }
-namespace System {
-template <typename T> class IEquatable_1;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -34,6 +34,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>* i___System__IEquatable_1___UnityEngine__Rendering__LODParameters_();
 
   /// @brief Method Equals, addr 0x2cedac8, size 0x9c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::LODParameters other);

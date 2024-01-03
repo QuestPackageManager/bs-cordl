@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(MissionNodeGizmos)
 namespace GlobalNamespace {
-class MissionNode;
+class CampaignProgressModel;
 }
 namespace GlobalNamespace {
 class GameplayModifiersModelSO;
 }
 namespace GlobalNamespace {
-class CampaignProgressModel;
+class MissionNode;
 }
 // Forward declare root types
 namespace GlobalNamespace {

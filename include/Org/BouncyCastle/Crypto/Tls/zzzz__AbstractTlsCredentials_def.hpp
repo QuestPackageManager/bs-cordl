@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(AbstractTlsCredentials)
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCredentials;
+class Certificate;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class Certificate;
+class TlsCredentials;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -30,6 +30,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCredentials"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCredentials*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCredentials"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCredentials* i___Org__BouncyCastle__Crypto__Tls__TlsCredentials() noexcept;
 
   /// @brief Method get_Certificate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::Tls::Certificate* get_Certificate();

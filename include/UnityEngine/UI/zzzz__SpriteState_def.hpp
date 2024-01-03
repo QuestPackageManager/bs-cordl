@@ -37,6 +37,9 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UI::SpriteState>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UI::SpriteState>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UI::SpriteState>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UI::SpriteState>* i___System__IEquatable_1___UnityEngine__UI__SpriteState_();
+
   /// @brief Method get_highlightedSprite, addr 0x2d89c5c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Sprite* get_highlightedSprite();
 

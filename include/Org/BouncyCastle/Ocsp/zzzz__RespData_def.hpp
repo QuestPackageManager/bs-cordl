@@ -13,13 +13,13 @@ namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
 }
 namespace Org::BouncyCastle::Ocsp {
+class RespID;
+}
+namespace Org::BouncyCastle::Ocsp {
 class SingleResp;
 }
 namespace System {
 struct DateTime;
-}
-namespace Org::BouncyCastle::Ocsp {
-class RespID;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Ocsp {

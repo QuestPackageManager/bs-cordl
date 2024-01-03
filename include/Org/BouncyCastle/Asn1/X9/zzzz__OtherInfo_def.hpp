@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(OtherInfo)
+namespace Org::BouncyCastle::Asn1::X9 {
+class KeySpecificInfo;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class KeySpecificInfo;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;

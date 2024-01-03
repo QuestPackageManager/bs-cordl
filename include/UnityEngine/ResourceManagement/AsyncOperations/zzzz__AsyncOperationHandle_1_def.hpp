@@ -7,6 +7,27 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsyncOperationHandle_1)
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+class Exception;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
 namespace System {
 class Object;
 }
@@ -14,37 +35,16 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> class AsyncOperationBase_1;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationStatus;
+struct AsyncOperationHandle;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationStatus;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct DownloadStatus;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
-}
-namespace System {
-class Exception;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
 class IAsyncOperation;
-}
-namespace System {
-template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::AsyncOperations {
@@ -91,8 +91,15 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*();
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>"
+  constexpr ::System::IEquatable_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>*
+  i___System__IEquatable_1___UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationHandle_1_TObject__();
 
   /// @brief Method get_LocationName, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::StringW get_LocationName();

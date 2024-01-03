@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IX509Selector)
 namespace System {
-class Object;
+class ICloneable;
 }
 namespace System {
-class ICloneable;
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509::Store {
@@ -27,6 +27,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
+
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
   /// @brief Method Match, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Match(::System::Object* obj);

@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_MeshData)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template <typename T> class List_1;
 }
 namespace UnityEngine {
 struct Color32;
 }
 namespace UnityEngine {
-struct Vector4;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Vector4;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

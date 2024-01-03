@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EqualityComparer_1)
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class IEqualityComparer_1;
 }
 namespace System::Collections {
 class IEqualityComparer;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
@@ -39,8 +39,14 @@ public:
   /// @brief Convert operator to "::System::Collections::IEqualityComparer"
   constexpr operator ::System::Collections::IEqualityComparer*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEqualityComparer"
+  constexpr ::System::Collections::IEqualityComparer* i___System__Collections__IEqualityComparer() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<T>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<T>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<T>"
+  constexpr ::System::Collections::Generic::IEqualityComparer_1<T>* i___System__Collections__Generic__IEqualityComparer_1_T_() noexcept;
 
   static inline void setStaticF_defaultComparer(::System::Collections::Generic::EqualityComparer_1<T>* value);
 

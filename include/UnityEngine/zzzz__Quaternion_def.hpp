@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Quaternion)
-namespace UnityEngine {
-struct Vector3;
-}
 namespace System {
-class IFormattable;
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class IFormatProvider;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class IFormattable;
 }
 namespace System {
 class Object;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -49,8 +49,14 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Quaternion>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Quaternion>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Quaternion>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Quaternion>* i___System__IEquatable_1___UnityEngine__Quaternion_();
+
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
+
+  /// @brief Convert to "::System::IFormattable"
+  constexpr ::System::IFormattable* i___System__IFormattable();
 
   static inline void setStaticF_identityQuaternion(::UnityEngine::Quaternion value);
 

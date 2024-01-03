@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"
 CORDL_MODULE_EXPORT(QNameFacetsChecker)
+namespace System::Collections {
+class ArrayList;
+}
 namespace System::Xml::Schema {
 class XmlSchemaDatatype;
 }
 namespace System::Xml {
 class XmlQualifiedName;
 }
-namespace System::Collections {
-class ArrayList;
+namespace System {
+class Exception;
 }
 namespace System {
 class Object;
-}
-namespace System {
-class Exception;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

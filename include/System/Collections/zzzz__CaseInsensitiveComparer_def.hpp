@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CaseInsensitiveComparer)
-namespace System {
-class Object;
-}
-namespace System::Globalization {
-class CompareInfo;
-}
 namespace System::Collections {
 class IComparer;
 }
 namespace System::Globalization {
+class CompareInfo;
+}
+namespace System::Globalization {
 class CultureInfo;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Collections {
@@ -38,6 +38,9 @@ public:
 
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IComparer"
+  constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
 
   constexpr ::System::Globalization::CompareInfo*& __get__compareInfo();
 

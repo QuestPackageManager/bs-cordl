@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HashSet)
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
+}
+namespace System::Collections {
+class ICollection;
+}
 namespace System::Collections {
 class IDictionary;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class Array;
 }
 namespace System {
 class Object;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Collections {
@@ -60,11 +60,20 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Utilities::Collections::ISet"
   constexpr operator ::Org::BouncyCastle::Utilities::Collections::ISet*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Utilities::Collections::ISet"
+  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet* i___Org__BouncyCastle__Utilities__Collections__ISet() noexcept;
+
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
 
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr ::System::Collections::IDictionary*& __get_impl();
 

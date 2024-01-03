@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(ViaHeaderValue)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System {
-class ICloneable;
-}
 namespace System::Net::Http::Headers {
 class Lexer;
 }
 namespace System::Net::Http::Headers {
 struct Token;
+}
+namespace System {
+class ICloneable;
 }
 namespace System {
 class Object;
@@ -60,6 +60,9 @@ public:
 
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
+
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
   constexpr ::StringW& __get__Comment_k__BackingField();
 

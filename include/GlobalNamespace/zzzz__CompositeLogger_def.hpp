@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CompositeLogger)
+namespace GlobalNamespace {
+class IBeatSaberLogger;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
 class Exception;
-}
-namespace GlobalNamespace {
-class IBeatSaberLogger;
 }
 namespace System {
 class Object;
@@ -38,6 +38,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IBeatSaberLogger"
   constexpr operator ::GlobalNamespace::IBeatSaberLogger*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IBeatSaberLogger"
+  constexpr ::GlobalNamespace::IBeatSaberLogger* i___GlobalNamespace__IBeatSaberLogger() noexcept;
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::IBeatSaberLogger*>*& __get__loggers();
 

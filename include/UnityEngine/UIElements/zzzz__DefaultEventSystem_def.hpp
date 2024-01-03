@@ -11,22 +11,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DefaultEventSystem)
 namespace System {
+template <typename TResult> class Func_1;
+}
+namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
 }
 namespace System {
 template <typename T> struct Nullable_1;
 }
-namespace System {
-template <typename TResult> class Func_1;
+namespace UnityEngine::UIElements {
+class BaseRuntimePanel;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::UIElements {
+class EventBase;
+}
+namespace UnityEngine::UIElements {
+class __DefaultEventSystem__IInput;
+}
+namespace UnityEngine::UIElements {
+class __DefaultEventSystem__Input;
 }
 namespace UnityEngine::UIElements {
 class __DefaultEventSystem__NoInput;
 }
 namespace UnityEngine::UIElements {
-class __DefaultEventSystem__IInput;
+struct __DefaultEventSystem__UpdateMode;
+}
+namespace UnityEngine::UIElements {
+class __DefaultEventSystem____c;
+}
+namespace UnityEngine {
+struct EventModifiers;
 }
 namespace UnityEngine {
 class Event;
@@ -34,29 +52,11 @@ class Event;
 namespace UnityEngine {
 struct Touch;
 }
-namespace UnityEngine::UIElements {
-class BaseRuntimePanel;
-}
-namespace UnityEngine::UIElements {
-struct __DefaultEventSystem__UpdateMode;
-}
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
-struct EventModifiers;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
-}
-namespace UnityEngine::UIElements {
-class __DefaultEventSystem____c;
-}
-namespace UnityEngine::UIElements {
-class __DefaultEventSystem__Input;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -192,6 +192,9 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::__DefaultEventSystem__IInput"
   constexpr operator ::UnityEngine::UIElements::__DefaultEventSystem__IInput*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::UIElements::__DefaultEventSystem__IInput"
+  constexpr ::UnityEngine::UIElements::__DefaultEventSystem__IInput* i___UnityEngine__UIElements____DefaultEventSystem__IInput() noexcept;
+
   /// @brief Method GetButtonDown, addr 0x2db6980, size 0xc, virtual true, abstract: false, final true
   inline bool GetButtonDown(::StringW button);
 
@@ -248,6 +251,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::UIElements::__DefaultEventSystem__IInput"
   constexpr operator ::UnityEngine::UIElements::__DefaultEventSystem__IInput*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UIElements::__DefaultEventSystem__IInput"
+  constexpr ::UnityEngine::UIElements::__DefaultEventSystem__IInput* i___UnityEngine__UIElements____DefaultEventSystem__IInput() noexcept;
 
   /// @brief Method GetButtonDown, addr 0x2db69e0, size 0x8, virtual true, abstract: false, final true
   inline bool GetButtonDown(::StringW button);
@@ -415,7 +421,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Defau
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(6763)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6768))
 // CS Name: ::UnityEngine.UIElements::DefaultEventSystem*
 class CORDL_TYPE DefaultEventSystem : public ::System::Object {
@@ -580,8 +586,7 @@ public:
   inline void set_focusedPanel(::UnityEngine::UIElements::BaseRuntimePanel* value);
 
   /// @brief Method Update, addr 0x2db5360, size 0x6c, virtual false, abstract: false, final false
-  /// @param updateMode: ::UnityEngine::UIElements::__DefaultEventSystem__UpdateMode (default: static_cast<int32_t>(0x0))
-  inline void Update(::UnityEngine::UIElements::__DefaultEventSystem__UpdateMode updateMode = static_cast<int32_t>(0x0));
+  inline void Update(::UnityEngine::UIElements::__DefaultEventSystem__UpdateMode updateMode);
 
   /// @brief Method SendIMGUIEvents, addr 0x2db581c, size 0x4c0, virtual false, abstract: false, final false
   inline void SendIMGUIEvents();
@@ -593,11 +598,9 @@ public:
   template <typename TArg> inline void SendFocusBasedEvent(::System::Func_2<TArg, ::UnityEngine::UIElements::EventBase*>* evtFactory, TArg arg);
 
   /// @brief Method SendPositionBasedEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param deselectIfNoTarget: bool (default: false)
   template <typename TArg>
   inline void SendPositionBasedEvent(::UnityEngine::Vector3 mousePosition, ::UnityEngine::Vector3 delta, int32_t pointerId, ::System::Nullable_1<int32_t> targetDisplay,
-                                     ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, TArg, ::UnityEngine::UIElements::EventBase*>* evtFactory, TArg arg,
-                                     bool deselectIfNoTarget = false);
+                                     ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, TArg, ::UnityEngine::UIElements::EventBase*>* evtFactory, TArg arg, bool deselectIfNoTarget);
 
   /// @brief Method UpdateFocusedPanel, addr 0x2db630c, size 0x74, virtual false, abstract: false, final false
   inline void UpdateFocusedPanel(::UnityEngine::UIElements::BaseRuntimePanel* runtimePanel);

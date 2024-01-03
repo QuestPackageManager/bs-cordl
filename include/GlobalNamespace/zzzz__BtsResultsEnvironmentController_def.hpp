@@ -10,28 +10,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BtsResultsEnvironmentController)
 namespace GlobalNamespace {
-class __BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace GlobalNamespace {
 class BTSCharacterDataModel;
 }
 namespace GlobalNamespace {
-class __BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11;
+class BTSCharacterResultAnimationController;
 }
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::Playables {
-class PlayableDirector;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace GlobalNamespace {
+class BTSCharacter;
 }
 namespace GlobalNamespace {
 class IReadonlyBeatmapData;
@@ -39,29 +24,44 @@ class IReadonlyBeatmapData;
 namespace GlobalNamespace {
 class __BTSCharacterDataModel__PrefabWithId;
 }
-namespace UnityEngine {
-class AnimationClip;
-}
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+class __BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation;
 }
 namespace GlobalNamespace {
-class BTSCharacter;
-}
-namespace UnityEngine::AddressableAssets {
-class AssetReference;
-}
-namespace GlobalNamespace {
-class BTSCharacterResultAnimationController;
-}
-namespace System {
-class IDisposable;
+class __BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class IDisposable;
+}
 namespace System {
 class Object;
+}
+namespace UnityEngine::AddressableAssets {
+class AssetReference;
+}
+namespace UnityEngine::Playables {
+class PlayableDirector;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
+}
+namespace UnityEngine {
+class AnimationClip;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -233,11 +233,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -316,7 +325,7 @@ static_assert(offsetof(::GlobalNamespace::__BtsResultsEnvironmentController___De
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4687)), TypeDefinitionIndex(TypeDefinitionIndex(14724))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(4687))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3977))
 // CS Name: ::BtsResultsEnvironmentController*
 class CORDL_TYPE BtsResultsEnvironmentController : public ::GlobalNamespace::BaseResultsEnvironmentController {
@@ -388,12 +397,10 @@ public:
   inline void SpawnBtsCharacters(::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId* btsCharacterPrefabToSpawn, bool useAlternativeMaterial);
 
   /// @brief Method Activate, addr 0x221cb4c, size 0xa8, virtual true, abstract: false, final false
-  /// @param immediately: bool (default: false)
-  inline void Activate(bool immediately = false);
+  inline void Activate(bool immediately);
 
   /// @brief Method Deactivate, addr 0x221cbf4, size 0x1d0, virtual true, abstract: false, final false
-  /// @param immediately: bool (default: false)
-  inline void Deactivate(bool immediately = false);
+  inline void Deactivate(bool immediately);
 
   /// @brief Method DestroyCharactersDelayed, addr 0x221ce48, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DestroyCharactersDelayed();

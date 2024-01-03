@@ -119,8 +119,8 @@ static_assert(offsetof(::GlobalNamespace::SpawnRotationChevron, ____lightAmount)
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 2827 }), TypeDefinitionIndex(TypeDefinitionIndex(11050)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4995))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4994)) CS Name: ::SpawnRotationChevron::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4995)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// 2827 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4994)) CS Name: ::SpawnRotationChevron::Pool*
 class CORDL_TYPE __SpawnRotationChevron__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::SpawnRotationChevron*> {
 public:
   // Declarations

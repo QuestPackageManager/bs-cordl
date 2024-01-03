@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IetfUtilities)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
 namespace Org::BouncyCastle::Asn1::X500 {
 class AttributeTypeAndValue;
 }
 namespace Org::BouncyCastle::Asn1::X500 {
 class Rdn;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;

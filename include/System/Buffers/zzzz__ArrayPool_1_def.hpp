@@ -38,8 +38,7 @@ public:
   inline ::ArrayW<T, ::Array<T>*> Rent(int32_t minimumLength);
 
   /// @brief Method Return, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  /// @param clearArray: bool (default: false)
-  inline void Return(::ArrayW<T, ::Array<T>*> array, bool clearArray = false);
+  inline void Return(::ArrayW<T, ::Array<T>*> array, bool clearArray);
 
   static inline ::System::Buffers::ArrayPool_1<T>* New_ctor();
 

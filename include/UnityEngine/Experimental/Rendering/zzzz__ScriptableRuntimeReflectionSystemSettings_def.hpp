@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ScriptableRuntimeReflectionSystemSettings)
 namespace UnityEngine::Experimental::Rendering {
-class ScriptableRuntimeReflectionSystemWrapper;
+class IScriptableRuntimeReflectionSystem;
 }
 namespace UnityEngine::Experimental::Rendering {
-class IScriptableRuntimeReflectionSystem;
+class ScriptableRuntimeReflectionSystemWrapper;
 }
 // Forward declare root types
 namespace UnityEngine::Experimental::Rendering {

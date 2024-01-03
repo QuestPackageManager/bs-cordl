@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/Threading/Tasks/zzzz__TaskContinuation_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(AwaitTaskContinuation)
-namespace System::Threading {
-class IThreadPoolWorkItem;
-}
-namespace System {
-class Exception;
-}
 namespace System::Threading::Tasks {
 class TaskScheduler;
 }
 namespace System::Threading::Tasks {
 class Task;
 }
-namespace System {
-class Object;
+namespace System::Threading {
+class ContextCallback;
+}
+namespace System::Threading {
+class ExecutionContext;
+}
+namespace System::Threading {
+class IThreadPoolWorkItem;
 }
 namespace System::Threading {
 class ThreadAbortException;
@@ -26,14 +26,14 @@ class ThreadAbortException;
 namespace System {
 template <typename T> class Action_1;
 }
-namespace System::Threading {
-class ExecutionContext;
-}
 namespace System {
 class Action;
 }
-namespace System::Threading {
-class ContextCallback;
+namespace System {
+class Exception;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
@@ -62,6 +62,9 @@ public:
 
   /// @brief Convert operator to "::System::Threading::IThreadPoolWorkItem"
   constexpr operator ::System::Threading::IThreadPoolWorkItem*() noexcept;
+
+  /// @brief Convert to "::System::Threading::IThreadPoolWorkItem"
+  constexpr ::System::Threading::IThreadPoolWorkItem* i___System__Threading__IThreadPoolWorkItem() noexcept;
 
   constexpr ::System::Threading::ExecutionContext*& __get_m_capturedContext();
 

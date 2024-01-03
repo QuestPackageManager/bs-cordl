@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "Newtonsoft/Json/Converters/zzzz__DateTimeConverterBase_def.hpp"
 CORDL_MODULE_EXPORT(JavaScriptDateTimeConverter)
 namespace Newtonsoft::Json {
-class JsonSerializer;
+class JsonReader;
 }
 namespace Newtonsoft::Json {
-class JsonReader;
+class JsonSerializer;
 }
 namespace Newtonsoft::Json {
 class JsonWriter;

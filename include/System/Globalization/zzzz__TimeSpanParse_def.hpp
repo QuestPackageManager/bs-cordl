@@ -12,53 +12,53 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimeSpanParse)
-namespace System::Text {
-class StringBuilder;
+namespace System::Globalization {
+class DateTimeFormatInfo;
+}
+namespace System::Globalization {
+struct TimeSpanStyles;
+}
+namespace System::Globalization {
+struct __TimeSpanFormat__FormatLiterals;
+}
+namespace System::Globalization {
+struct __TimeSpanParse__ParseFailureKind;
+}
+namespace System::Globalization {
+struct __TimeSpanParse__StringParser;
 }
 namespace System::Globalization {
 struct __TimeSpanParse__TTT;
 }
 namespace System::Globalization {
-struct __TimeSpanParse__TimeSpanStandardStyles;
+struct __TimeSpanParse__TimeSpanRawInfo;
 }
 namespace System::Globalization {
-struct __TimeSpanParse__TimeSpanTokenizer;
+struct __TimeSpanParse__TimeSpanResult;
+}
+namespace System::Globalization {
+struct __TimeSpanParse__TimeSpanStandardStyles;
 }
 namespace System::Globalization {
 struct __TimeSpanParse__TimeSpanToken;
 }
 namespace System::Globalization {
-struct __TimeSpanParse__StringParser;
+struct __TimeSpanParse__TimeSpanTokenizer;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace System {
+class IFormatProvider;
+}
+namespace System {
+class Object;
 }
 namespace System {
 template <typename T> struct ReadOnlySpan_1;
 }
 namespace System {
 struct TimeSpan;
-}
-namespace System::Globalization {
-struct __TimeSpanParse__ParseFailureKind;
-}
-namespace System::Globalization {
-struct __TimeSpanParse__TimeSpanRawInfo;
-}
-namespace System {
-class IFormatProvider;
-}
-namespace System::Globalization {
-struct TimeSpanStyles;
-}
-namespace System::Globalization {
-struct __TimeSpanParse__TimeSpanResult;
-}
-namespace System::Globalization {
-struct __TimeSpanFormat__FormatLiterals;
-}
-namespace System::Globalization {
-class DateTimeFormatInfo;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -288,8 +288,8 @@ static_assert(offsetof(::System::Globalization::__TimeSpanParse__TTT, value__) =
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292 }), TypeDefinitionIndex(TypeDefinitionIndex(3686)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2464))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3687)) CS Name: ::TimeSpanParse::TimeSpanToken
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2464)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3686))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3687)) CS Name: ::TimeSpanParse::TimeSpanToken
 struct CORDL_TYPE __TimeSpanParse__TimeSpanToken {
 public:
   // Declarations
@@ -407,8 +407,9 @@ static_assert(offsetof(::System::Globalization::__TimeSpanParse__TimeSpanTokeniz
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 392, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3682)), TypeDefinitionIndex(TypeDefinitionIndex(2464)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3687)), TypeDefinitionIndex(TypeDefinitionIndex(3686))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3689)) CS Name: ::TimeSpanParse::TimeSpanRawInfo
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3682)), TypeDefinitionIndex(TypeDefinitionIndex(2464)), TypeDefinitionIndex(TypeDefinitionIndex(3686)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3687)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(3689)) CS
+// Name: ::TimeSpanParse::TimeSpanRawInfo
 struct CORDL_TYPE __TimeSpanParse__TimeSpanRawInfo {
 public:
   // Declarations
@@ -624,9 +625,7 @@ public:
   inline void _ctor(bool throwOnFailure);
 
   /// @brief Method SetFailure, addr 0x255d928, size 0x148, virtual false, abstract: false, final false
-  /// @param messageArgument: ::System::Object* (default: nullptr)
-  /// @param argumentName: ::StringW (default: nullptr)
-  inline bool SetFailure(::System::Globalization::__TimeSpanParse__ParseFailureKind kind, ::StringW resourceKey, ::System::Object* messageArgument = nullptr, ::StringW argumentName = nullptr);
+  inline bool SetFailure(::System::Globalization::__TimeSpanParse__ParseFailureKind kind, ::StringW resourceKey, ::System::Object* messageArgument, ::StringW argumentName);
 
   // Ctor Parameters [CppParam { name: "parsedTimeSpan", ty: "::System::TimeSpan", modifiers: "", def_value: None }, CppParam { name: "_throwOnFailure", ty: "bool", modifiers: "", def_value: None }]
   constexpr __TimeSpanParse__TimeSpanResult(::System::TimeSpan parsedTimeSpan, bool _throwOnFailure) noexcept;

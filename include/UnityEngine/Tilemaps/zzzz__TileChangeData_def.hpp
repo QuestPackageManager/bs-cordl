@@ -14,10 +14,10 @@ namespace UnityEngine {
 struct Matrix4x4;
 }
 namespace UnityEngine {
-struct Vector3Int;
+class Object;
 }
 namespace UnityEngine {
-class Object;
+struct Vector3Int;
 }
 // Forward declare root types
 namespace UnityEngine::Tilemaps {
@@ -29,7 +29,7 @@ MARK_VAL_T(::UnityEngine::Tilemaps::TileChangeData);
 // SizeInfo { instance_size: 104, native_size: 104, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Tilemaps {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10247))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10247)), TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15943))
 // CS Name: ::UnityEngine.Tilemaps::TileChangeData
 struct CORDL_TYPE TileChangeData {

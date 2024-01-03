@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CoroutineStarter_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "GlobalNamespace/zzzz__ICoroutineStarter_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "UnityEngine/zzzz__Coroutine_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CoroutineStarter.ICoroutineStarter_StartCoroutine
 template <>
@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xd4;
   constexpr static std::size_t addrs = 0xe27308;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
         ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoroutineStarter*>::get(), "ICoroutineStarter.StartCoroutine", std::vector<Il2CppClass*>{},
                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::IEnumerator*>::get() })));
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xcc;
   constexpr static std::size_t addrs = 0xe273dc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoroutineStarter*>::get(), "ICoroutineStarter.StopCoroutine", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Coroutine*>::get() })));
@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0xe274a8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoroutineStarter*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -49,6 +49,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 /// @brief Convert operator to "::GlobalNamespace::ICoroutineStarter"
 constexpr GlobalNamespace::CoroutineStarter::operator ::GlobalNamespace::ICoroutineStarter*() noexcept {
+  return static_cast<::GlobalNamespace::ICoroutineStarter*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::ICoroutineStarter"
+constexpr ::GlobalNamespace::ICoroutineStarter* GlobalNamespace::CoroutineStarter::i___GlobalNamespace__ICoroutineStarter() noexcept {
   return static_cast<::GlobalNamespace::ICoroutineStarter*>(static_cast<void*>(this));
 }
 inline ::UnityEngine::Coroutine* GlobalNamespace::CoroutineStarter::ICoroutineStarter_StartCoroutine(::System::Collections::IEnumerator* routine) {

@@ -7,9 +7,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(InternalUtility)
-namespace UnityEngine {
-class Component;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
@@ -17,22 +14,25 @@ namespace UnityEngine::ProBuilder {
 class __InternalUtility____c__DisplayClass7_0;
 }
 namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+class Component;
+}
+namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-struct Color;
+class Material;
 }
 namespace UnityEngine {
 class Mesh;
 }
 namespace UnityEngine {
-class Material;
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

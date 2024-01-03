@@ -6,28 +6,28 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BeatLineManager)
 namespace GlobalNamespace {
-class BeatmapObjectManager;
-}
-namespace GlobalNamespace {
 class AudioTimeSyncController;
-}
-namespace UnityEngine {
-struct Vector4;
 }
 namespace GlobalNamespace {
 class BeatLine;
 }
 namespace GlobalNamespace {
-class __BeatLine__Pool;
+class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
 class NoteController;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace GlobalNamespace {
+class __BeatLine__Pool;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 // Forward declare root types
 namespace GlobalNamespace {

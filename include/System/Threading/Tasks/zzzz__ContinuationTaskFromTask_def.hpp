@@ -4,8 +4,8 @@
 CORDL_MODULE_INIT
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 CORDL_MODULE_EXPORT(ContinuationTaskFromTask)
-namespace System {
-class Delegate;
+namespace System::Threading::Tasks {
+struct InternalTaskOptions;
 }
 namespace System::Threading::Tasks {
 struct TaskCreationOptions;
@@ -14,10 +14,10 @@ namespace System::Threading::Tasks {
 class Task;
 }
 namespace System {
-class Object;
+class Delegate;
 }
-namespace System::Threading::Tasks {
-struct InternalTaskOptions;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {

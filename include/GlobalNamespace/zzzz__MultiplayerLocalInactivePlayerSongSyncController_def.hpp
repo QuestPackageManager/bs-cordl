@@ -8,13 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerLocalInactivePlayerSongSyncController)
 namespace GlobalNamespace {
+class CrossFadeAudioSource;
+}
+namespace GlobalNamespace {
+class FloatSO;
+}
+namespace GlobalNamespace {
+class IMultiplayerObservable;
+}
+namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
 class IStartSeekSongController;
-}
-namespace GlobalNamespace {
-class IMultiplayerObservable;
 }
 namespace GlobalNamespace {
 class IVRPlatformHelper;
@@ -22,17 +28,11 @@ class IVRPlatformHelper;
 namespace GlobalNamespace {
 class __MultiplayerLocalInactivePlayerSongSyncController__InitData;
 }
-namespace GlobalNamespace {
-class CrossFadeAudioSource;
+namespace UnityEngine {
+class AudioClip;
 }
 namespace UnityEngine {
 class WaitUntil;
-}
-namespace GlobalNamespace {
-class FloatSO;
-}
-namespace UnityEngine {
-class AudioClip;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -194,6 +194,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IStartSeekSongController"
   constexpr operator ::GlobalNamespace::IStartSeekSongController*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IStartSeekSongController"
+  constexpr ::GlobalNamespace::IStartSeekSongController* i___GlobalNamespace__IStartSeekSongController() noexcept;
+
   constexpr ::GlobalNamespace::CrossFadeAudioSource*& __get__audioSource();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CrossFadeAudioSource*> const& __get__audioSource() const;
@@ -291,8 +294,7 @@ public:
   inline void Update();
 
   /// @brief Method StartSong, addr 0x23ddae8, size 0xf0, virtual true, abstract: false, final true
-  /// @param offsetTime: float_t (default: 0.0)
-  inline void StartSong(float_t offsetTime = 0.0);
+  inline void StartSong(float_t offsetTime);
 
   /// @brief Method FollowOffsetSyncTime, addr 0x23ddd38, size 0x1e4, virtual false, abstract: false, final false
   inline void FollowOffsetSyncTime(::GlobalNamespace::IMultiplayerObservable* observable, bool crossFade, bool forceUpdate);

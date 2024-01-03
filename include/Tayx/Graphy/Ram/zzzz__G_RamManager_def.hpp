@@ -5,23 +5,11 @@ CORDL_MODULE_INIT
 #include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(G_RamManager)
-namespace UnityEngine {
-class GameObject;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace Tayx::Graphy {
-struct __GraphyManager__ModulePosition;
-}
-namespace UnityEngine::UI {
-class Image;
-}
 namespace Tayx::Graphy::Ram {
 class G_RamGraph;
-}
-namespace Tayx::Graphy::UI {
-class IMovable;
 }
 namespace Tayx::Graphy::Ram {
 class G_RamText;
@@ -29,14 +17,26 @@ class G_RamText;
 namespace Tayx::Graphy::UI {
 class IModifiableState;
 }
-namespace Tayx::Graphy {
-struct __GraphyManager__ModuleState;
-}
-namespace UnityEngine {
-class RectTransform;
+namespace Tayx::Graphy::UI {
+class IMovable;
 }
 namespace Tayx::Graphy {
 class GraphyManager;
+}
+namespace Tayx::Graphy {
+struct __GraphyManager__ModulePosition;
+}
+namespace Tayx::Graphy {
+struct __GraphyManager__ModuleState;
+}
+namespace UnityEngine::UI {
+class Image;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class RectTransform;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Ram {
@@ -84,8 +84,14 @@ public:
   /// @brief Convert operator to "::Tayx::Graphy::UI::IMovable"
   constexpr operator ::Tayx::Graphy::UI::IMovable*() noexcept;
 
+  /// @brief Convert to "::Tayx::Graphy::UI::IMovable"
+  constexpr ::Tayx::Graphy::UI::IMovable* i___Tayx__Graphy__UI__IMovable() noexcept;
+
   /// @brief Convert operator to "::Tayx::Graphy::UI::IModifiableState"
   constexpr operator ::Tayx::Graphy::UI::IModifiableState*() noexcept;
+
+  /// @brief Convert to "::Tayx::Graphy::UI::IModifiableState"
+  constexpr ::Tayx::Graphy::UI::IModifiableState* i___Tayx__Graphy__UI__IModifiableState() noexcept;
 
   constexpr ::UnityEngine::GameObject*& __get_m_ramGraphGameObject();
 
@@ -151,8 +157,7 @@ public:
   inline void SetPosition(::Tayx::Graphy::__GraphyManager__ModulePosition newModulePosition);
 
   /// @brief Method SetState, addr 0x2a01750, size 0x150, virtual true, abstract: false, final true
-  /// @param silentUpdate: bool (default: false)
-  inline void SetState(::Tayx::Graphy::__GraphyManager__ModuleState state, bool silentUpdate = false);
+  inline void SetState(::Tayx::Graphy::__GraphyManager__ModuleState state, bool silentUpdate);
 
   /// @brief Method RestorePreviousState, addr 0x2a035fc, size 0xc, virtual false, abstract: false, final false
   inline void RestorePreviousState();

@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Salsa20Engine)
 namespace Org::BouncyCastle::Crypto {
-class IStreamCipher;
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IStreamCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -74,6 +74,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IStreamCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IStreamCipher*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IStreamCipher"
+  constexpr ::Org::BouncyCastle::Crypto::IStreamCipher* i___Org__BouncyCastle__Crypto__IStreamCipher() noexcept;
 
   constexpr int32_t& __get_rounds();
 

@@ -5,22 +5,22 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SelectObservable_2)
 namespace System {
-class IDisposable;
-}
-namespace System {
-template <typename T> class IObservable_1;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-template <typename TSource, typename TResult> class __SelectObservable_2__Select;
+class Exception;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
-template <typename T> class IObserver_1;
+class IDisposable;
 }
 namespace System {
-class Exception;
+template <typename T> class IObservable_1;
+}
+namespace System {
+template <typename T> class IObserver_1;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+template <typename TSource, typename TResult> class __SelectObservable_2__Select;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -52,6 +52,9 @@ public:
 
   /// @brief Convert operator to "::System::IObserver_1<TSource>"
   constexpr operator ::System::IObserver_1<TSource>*() noexcept;
+
+  /// @brief Convert to "::System::IObserver_1<TSource>"
+  constexpr ::System::IObserver_1<TSource>* i___System__IObserver_1_TSource_() noexcept;
 
   constexpr ::UnityEngine::InputSystem::LowLevel::SelectObservable_2<TSource, TResult>*& __get_m_Observable();
 
@@ -126,6 +129,9 @@ public:
 
   /// @brief Convert operator to "::System::IObservable_1<TResult>"
   constexpr operator ::System::IObservable_1<TResult>*() noexcept;
+
+  /// @brief Convert to "::System::IObservable_1<TResult>"
+  constexpr ::System::IObservable_1<TResult>* i___System__IObservable_1_TResult_() noexcept;
 
   constexpr ::System::IObservable_1<TSource>*& __get_m_Source();
 

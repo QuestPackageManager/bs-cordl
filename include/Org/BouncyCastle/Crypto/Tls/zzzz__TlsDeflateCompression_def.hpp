@@ -6,8 +6,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsDeflateCompression)
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCompression;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class __TlsDeflateCompression__DeflateOutputStream;
@@ -15,8 +15,8 @@ class __TlsDeflateCompression__DeflateOutputStream;
 namespace Org::BouncyCastle::Utilities::Zlib {
 class ZStream;
 }
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCompression;
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -86,6 +86,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCompression"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCompression*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCompression"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCompression* i___Org__BouncyCastle__Crypto__Tls__TlsCompression() noexcept;
 
   constexpr ::Org::BouncyCastle::Utilities::Zlib::ZStream*& __get_zIn();
 

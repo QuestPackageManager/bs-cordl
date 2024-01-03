@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Crypto/zzzz__KeyGenerationParameters_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DHKeyGenerationParameters)
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DHParameters;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {

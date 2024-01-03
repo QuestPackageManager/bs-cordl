@@ -34,8 +34,7 @@ public:
   inline void set_type(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType value);
 
   /// @brief Method .ctor, addr 0x2df888c, size 0x10, virtual false, abstract: false, final false
-  /// @param type: ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType (default: static_cast<int32_t>(0x0))
-  inline void _ctor(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType type = static_cast<int32_t>(0x0));
+  inline void _ctor(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType type);
 
   /// @brief Method SetType, addr 0x2df889c, size 0x54, virtual false, abstract: false, final false
   inline void SetType(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType value);

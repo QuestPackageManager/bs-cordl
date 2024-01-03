@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SelectPathFaces)
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace UnityEngine::ProBuilder {
 class Face;
 }
 namespace UnityEngine::ProBuilder {
-class WingedEdge;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::ProBuilder {
+class WingedEdge;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

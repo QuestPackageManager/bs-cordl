@@ -7,11 +7,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameplaySetupViewController)
-namespace HMUI {
-class TextSegmentedControl;
+namespace GlobalNamespace {
+class ColorSchemesSettings;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace GlobalNamespace {
+class ColorsOverrideSettingsPanelController;
+}
+namespace GlobalNamespace {
+class EnvironmentOverrideSettingsPanelController;
+}
+namespace GlobalNamespace {
+class GameplayModifiersPanelController;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class IRefreshable;
+}
+namespace GlobalNamespace {
+class MultiplayerSettingsPanelController;
+}
+namespace GlobalNamespace {
+class OverrideEnvironmentSettings;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
 }
 namespace GlobalNamespace {
 class PlayerSettingsPanelController;
@@ -20,46 +41,25 @@ namespace GlobalNamespace {
 class PlayerSpecificSettings;
 }
 namespace GlobalNamespace {
+class __GameplaySetupViewController__Panel;
+}
+namespace GlobalNamespace {
 struct __PlayerSettingsPanelController__PlayerSettingsPanelLayout;
 }
 namespace HMUI {
 class SegmentedControl;
 }
-namespace GlobalNamespace {
-class EnvironmentOverrideSettingsPanelController;
+namespace HMUI {
+class TextSegmentedControl;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 class Action;
 }
-namespace GlobalNamespace {
-class __GameplaySetupViewController__Panel;
-}
-namespace GlobalNamespace {
-class ColorsOverrideSettingsPanelController;
-}
-namespace GlobalNamespace {
-class MultiplayerSettingsPanelController;
-}
-namespace GlobalNamespace {
-class GameplayModifiersPanelController;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
-}
-namespace GlobalNamespace {
-class OverrideEnvironmentSettings;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class ColorSchemesSettings;
-}
 namespace UnityEngine {
 class GameObject;
-}
-namespace GlobalNamespace {
-class IRefreshable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

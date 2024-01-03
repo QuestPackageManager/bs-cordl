@@ -10,8 +10,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(JobsUtility)
-namespace Unity::Jobs {
-struct JobHandle;
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
+}
+namespace Unity::Jobs::LowLevel::Unsafe {
+struct JobRanges;
+}
+namespace Unity::Jobs::LowLevel::Unsafe {
+struct ScheduleMode;
 }
 namespace Unity::Jobs::LowLevel::Unsafe {
 struct __JobsUtility__JobScheduleParameters;
@@ -19,17 +28,8 @@ struct __JobsUtility__JobScheduleParameters;
 namespace Unity::Jobs::LowLevel::Unsafe {
 class __JobsUtility__PanicFunction_;
 }
-namespace System {
-class Type;
-}
-namespace System {
-class Object;
-}
-namespace Unity::Jobs::LowLevel::Unsafe {
-struct JobRanges;
-}
-namespace Unity::Jobs::LowLevel::Unsafe {
-struct ScheduleMode;
+namespace Unity::Jobs {
+struct JobHandle;
 }
 // Forward declare root types
 namespace Unity::Jobs::LowLevel::Unsafe {
@@ -49,7 +49,7 @@ MARK_VAL_T(::Unity::Jobs::LowLevel::Unsafe::__JobsUtility__JobScheduleParameters
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Jobs::LowLevel::Unsafe {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9977)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(9977))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9981))
 // CS Name: ::JobsUtility::JobScheduleParameters
 struct CORDL_TYPE __JobsUtility__JobScheduleParameters {
@@ -168,10 +168,7 @@ public:
                                               ::System::Object* managedJobFunction2);
 
   /// @brief Method CreateJobReflectionData, addr 0x2c9ddc0, size 0x60, virtual false, abstract: false, final false
-  /// @param managedJobFunction1: ::System::Object* (default: nullptr)
-  /// @param managedJobFunction2: ::System::Object* (default: nullptr)
-  static inline void* CreateJobReflectionData(::System::Type* type, ::System::Object* managedJobFunction0, ::System::Object* managedJobFunction1 = nullptr,
-                                              ::System::Object* managedJobFunction2 = nullptr);
+  static inline void* CreateJobReflectionData(::System::Type* type, ::System::Object* managedJobFunction0, ::System::Object* managedJobFunction1, ::System::Object* managedJobFunction2);
 
   /// @brief Method InvokePanicFunction, addr 0x2c9de20, size 0x64, virtual false, abstract: false, final false
   static inline void InvokePanicFunction();

@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PrimalityTest)
+namespace Mono::Math::Prime {
+struct ConfidenceFactor;
+}
 namespace Mono::Math {
 class BigInteger;
 }
 namespace System {
 class Object;
-}
-namespace Mono::Math::Prime {
-struct ConfidenceFactor;
 }
 // Forward declare root types
 namespace Mono::Math::Prime {

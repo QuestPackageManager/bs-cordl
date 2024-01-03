@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MultiplayerLocalPlayerDisconnectHelper)
 namespace GlobalNamespace {
-class LevelCompletionResults;
+class IGameplayRpcManager;
 }
 namespace GlobalNamespace {
 class IMultiplayerLevelEndActionsListener;
 }
 namespace GlobalNamespace {
-class LobbyPlayerPermissionsModel;
+class LevelCompletionResults;
 }
 namespace GlobalNamespace {
-class IGameplayRpcManager;
+class LobbyPlayerPermissionsModel;
 }
 namespace GlobalNamespace {
 struct __MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState;

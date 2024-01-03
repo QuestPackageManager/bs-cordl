@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HMacDsaKCalculator)
+namespace Org::BouncyCastle::Crypto::Macs {
+class HMac;
+}
+namespace Org::BouncyCastle::Crypto::Signers {
+class IDsaKCalculator;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
+}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
-}
-namespace Org::BouncyCastle::Crypto::Signers {
-class IDsaKCalculator;
-}
-namespace Org::BouncyCastle::Crypto::Macs {
-class HMac;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -53,6 +53,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator"
   constexpr operator ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator"
+  constexpr ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* i___Org__BouncyCastle__Crypto__Signers__IDsaKCalculator() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::Macs::HMac*& __get_hMac();
 

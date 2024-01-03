@@ -9,10 +9,10 @@ namespace UnityEngine {
 class GameObject;
 }
 namespace Zenject {
-class GameObjectCreationParameters;
+class DiContainer;
 }
 namespace Zenject {
-class DiContainer;
+class GameObjectCreationParameters;
 }
 namespace Zenject {
 class IPrefabProvider;

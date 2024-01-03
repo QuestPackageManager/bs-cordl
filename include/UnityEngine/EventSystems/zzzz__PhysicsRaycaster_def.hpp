@@ -10,14 +10,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PhysicsRaycaster)
+namespace System::Collections::Generic {
+template <typename T> class IComparer_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
-namespace UnityEngine {
-struct Ray;
-}
 namespace UnityEngine::EventSystems {
 struct RaycastResult;
+}
+namespace UnityEngine::EventSystems {
+class __PhysicsRaycaster__RaycastHitComparer;
 }
 namespace UnityEngine {
 class Camera;
@@ -25,17 +31,11 @@ class Camera;
 namespace UnityEngine {
 struct LayerMask;
 }
-namespace UnityEngine::EventSystems {
-class __PhysicsRaycaster__RaycastHitComparer;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine {
+struct Ray;
 }
 namespace UnityEngine {
 struct RaycastHit;
-}
-namespace System::Collections::Generic {
-template <typename T> class IComparer_1;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -62,6 +62,9 @@ public:
 
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::UnityEngine::RaycastHit>"
   constexpr operator ::System::Collections::Generic::IComparer_1<::UnityEngine::RaycastHit>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::IComparer_1<::UnityEngine::RaycastHit>"
+  constexpr ::System::Collections::Generic::IComparer_1<::UnityEngine::RaycastHit>* i___System__Collections__Generic__IComparer_1___UnityEngine__RaycastHit_() noexcept;
 
   static inline void setStaticF_instance(::UnityEngine::EventSystems::__PhysicsRaycaster__RaycastHitComparer* value);
 

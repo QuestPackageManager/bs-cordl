@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Buffers/zzzz__MemoryManager_1_def.hpp"
-#include "System/zzzz__Span_1_def.hpp"
-#include "System/zzzz__ArraySegment_1_def.hpp"
 #include "System/Buffers/zzzz__MemoryHandle_def.hpp"
+#include "System/zzzz__ArraySegment_1_def.hpp"
+#include "System/zzzz__Span_1_def.hpp"
 template <typename T> inline ::System::Span_1<T> System::Buffers::MemoryManager_1<T>::GetSpan() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Buffers::MemoryManager_1<T>*>::get(), 4)));

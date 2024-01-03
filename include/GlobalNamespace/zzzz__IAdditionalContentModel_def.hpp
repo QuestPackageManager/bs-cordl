@@ -10,14 +10,14 @@ struct EntitlementStatus;
 namespace GlobalNamespace {
 struct IsPackBetterBuyThanLevelResult;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace GlobalNamespace {
+struct OpenProductStoreResult;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
-namespace GlobalNamespace {
-struct OpenProductStoreResult;
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace System {
 class Action;

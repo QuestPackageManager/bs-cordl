@@ -13,7 +13,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FlowCoordinator)
 namespace HMUI {
+class NavigationController;
+}
+namespace HMUI {
+class ScreenSystem;
+}
+namespace HMUI {
+class ViewController;
+}
+namespace HMUI {
+struct __FlowCoordinator___DismissChildFlowCoordinatorsRecursively_d__39;
+}
+namespace HMUI {
+struct __FlowCoordinator___DismissChildViewControllersRecursively_d__40;
+}
+namespace HMUI {
+class __FlowCoordinator____c__DisplayClass37_0;
+}
+namespace HMUI {
+class __FlowCoordinator____c__DisplayClass38_0;
+}
+namespace HMUI {
 class __FlowCoordinator____c__DisplayClass41_0;
+}
+namespace HMUI {
+class __FlowCoordinator____c__DisplayClass42_0;
+}
+namespace HMUI {
+class __FlowCoordinator____c__DisplayClass43_0;
+}
+namespace HMUI {
+class __FlowCoordinator____c__DisplayClass45_0;
 }
 namespace HMUI {
 class __FlowCoordinator____c__DisplayClass46_0;
@@ -22,70 +52,43 @@ namespace HMUI {
 class __FlowCoordinator____c__DisplayClass49_0;
 }
 namespace HMUI {
-class __FlowCoordinator____c__DisplayClass38_0;
-}
-namespace UnityEngine::EventSystems {
-class BaseInputModule;
-}
-namespace System::Threading::Tasks {
-class Task;
+class __FlowCoordinator____c__DisplayClass50_0;
 }
 namespace HMUI {
-class __FlowCoordinator____c__DisplayClass43_0;
-}
-namespace HMUI {
-class ViewController;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::EventSystems {
-class EventSystem;
-}
-namespace HMUI {
-struct __FlowCoordinator___DismissChildViewControllersRecursively_d__40;
+struct __ViewController__AnimationDirection;
 }
 namespace HMUI {
 struct __ViewController__AnimationType;
 }
-namespace HMUI {
-class __FlowCoordinator____c__DisplayClass50_0;
-}
-namespace System {
-class Action;
-}
-namespace HMUI {
-class ScreenSystem;
-}
-namespace HMUI {
-class __FlowCoordinator____c__DisplayClass37_0;
-}
-namespace HMUI {
-class __FlowCoordinator____c__DisplayClass42_0;
-}
-namespace HMUI {
-class __FlowCoordinator____c__DisplayClass45_0;
-}
-namespace HMUI {
-class NavigationController;
-}
-namespace HMUI {
-struct __FlowCoordinator___DismissChildFlowCoordinatorsRecursively_d__39;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class TaskCompletionSource_1;
-}
-namespace System {
-class Object;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class TaskCompletionSource_1;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System {
+class Action;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::EventSystems {
+class BaseInputModule;
+}
+namespace UnityEngine::EventSystems {
+class EventSystem;
 }
 // Forward declare root types
 namespace HMUI {
@@ -332,7 +335,7 @@ static_assert(offsetof(::HMUI::__FlowCoordinator____c__DisplayClass38_0, ___flow
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13573))
 // CS Name: ::FlowCoordinator::<DismissChildFlowCoordinatorsRecursively>d__39
 struct CORDL_TYPE __FlowCoordinator___DismissChildFlowCoordinatorsRecursively_d__39 {
@@ -340,6 +343,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x2128f50, size 0x2e0, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -395,7 +401,7 @@ static_assert(offsetof(::HMUI::__FlowCoordinator___DismissChildFlowCoordinatorsR
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13574))
 // CS Name: ::FlowCoordinator::<DismissChildViewControllersRecursively>d__40
 struct CORDL_TYPE __FlowCoordinator___DismissChildViewControllersRecursively_d__40 {
@@ -403,6 +409,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x212923c, size 0x1dc, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -754,7 +763,7 @@ static_assert(offsetof(::HMUI::__FlowCoordinator____c__DisplayClass43_0, ___task
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13600))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13600)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13578))
 // CS Name: ::FlowCoordinator::<>c__DisplayClass45_0*
 class CORDL_TYPE __FlowCoordinator____c__DisplayClass45_0 : public ::System::Object {
@@ -1130,7 +1139,7 @@ static_assert(offsetof(::HMUI::__FlowCoordinator____c__DisplayClass50_0, ___navi
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(13600)), TypeDefinitionIndex(TypeDefinitionIndex(13601))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13582))
 // CS Name: ::HMUI::FlowCoordinator*
 class CORDL_TYPE FlowCoordinator : public ::UnityEngine::MonoBehaviour {
@@ -1384,8 +1393,7 @@ public:
   inline ::StringW get_title();
 
   /// @brief Method SetTitle, addr 0x21267fc, size 0x50, virtual false, abstract: false, final false
-  /// @param animationType: ::HMUI::__ViewController__AnimationType (default: static_cast<int32_t>(0x1))
-  inline void SetTitle(::StringW value, ::HMUI::__ViewController__AnimationType animationType = static_cast<int32_t>(0x1));
+  inline void SetTitle(::StringW value, ::HMUI::__ViewController__AnimationType animationType);
 
   /// @brief Method set_showBackButton, addr 0x212695c, size 0xc, virtual false, abstract: false, final false
   inline void set_showBackButton(bool value);
@@ -1397,70 +1405,40 @@ public:
   inline void __StartOnScreenSystem(::HMUI::ScreenSystem* screenSystem);
 
   /// @brief Method PresentFlowCoordinator, addr 0x2127298, size 0x3b8, virtual false, abstract: false, final false
-  /// @param finishedCallback: ::System::Action* (default: nullptr)
-  /// @param animationDirection: ::HMUI::__ViewController__AnimationDirection (default: static_cast<int32_t>(0x0))
-  /// @param immediately: bool (default: false)
-  /// @param replaceTopViewController: bool (default: false)
-  inline void PresentFlowCoordinator(::HMUI::FlowCoordinator* flowCoordinator, ::System::Action* finishedCallback = nullptr,
-                                     ::HMUI::__ViewController__AnimationDirection animationDirection = static_cast<int32_t>(0x0), bool immediately = false, bool replaceTopViewController = false);
+  inline void PresentFlowCoordinator(::HMUI::FlowCoordinator* flowCoordinator, ::System::Action* finishedCallback, ::HMUI::__ViewController__AnimationDirection animationDirection, bool immediately,
+                                     bool replaceTopViewController);
 
   /// @brief Method DismissFlowCoordinator, addr 0x212792c, size 0x30c, virtual false, abstract: false, final false
-  /// @param animationDirection: ::HMUI::__ViewController__AnimationDirection (default: static_cast<int32_t>(0x0))
-  /// @param finishedCallback: ::System::Action* (default: nullptr)
-  /// @param immediately: bool (default: false)
-  inline void DismissFlowCoordinator(::HMUI::FlowCoordinator* flowCoordinator, ::HMUI::__ViewController__AnimationDirection animationDirection = static_cast<int32_t>(0x0),
-                                     ::System::Action* finishedCallback = nullptr, bool immediately = false);
+  inline void DismissFlowCoordinator(::HMUI::FlowCoordinator* flowCoordinator, ::HMUI::__ViewController__AnimationDirection animationDirection, ::System::Action* finishedCallback, bool immediately);
 
   /// @brief Method DismissChildFlowCoordinatorsRecursively, addr 0x2127c60, size 0xdc, virtual false, abstract: false, final false
-  /// @param immediately: bool (default: true)
-  inline ::System::Threading::Tasks::Task* DismissChildFlowCoordinatorsRecursively(bool immediately = true);
+  inline ::System::Threading::Tasks::Task* DismissChildFlowCoordinatorsRecursively(bool immediately);
 
   /// @brief Method DismissChildViewControllersRecursively, addr 0x2127d3c, size 0xdc, virtual false, abstract: false, final false
-  /// @param immediately: bool (default: true)
-  inline ::System::Threading::Tasks::Task* DismissChildViewControllersRecursively(bool immediately = true);
+  inline ::System::Threading::Tasks::Task* DismissChildViewControllersRecursively(bool immediately);
 
   /// @brief Method ReplaceChildFlowCoordinator, addr 0x2127e18, size 0x2f8, virtual false, abstract: false, final false
-  /// @param finishedCallback: ::System::Action* (default: nullptr)
-  /// @param animationDirection: ::HMUI::__ViewController__AnimationDirection (default: static_cast<int32_t>(0x0))
-  /// @param immediately: bool (default: false)
-  inline void ReplaceChildFlowCoordinator(::HMUI::FlowCoordinator* flowCoordinator, ::System::Action* finishedCallback = nullptr,
-                                          ::HMUI::__ViewController__AnimationDirection animationDirection = static_cast<int32_t>(0x0), bool immediately = false);
+  inline void ReplaceChildFlowCoordinator(::HMUI::FlowCoordinator* flowCoordinator, ::System::Action* finishedCallback, ::HMUI::__ViewController__AnimationDirection animationDirection,
+                                          bool immediately);
 
   /// @brief Method PresentViewController, addr 0x2126eec, size 0x3ac, virtual false, abstract: false, final false
-  /// @param finishedCallback: ::System::Action* (default: nullptr)
-  /// @param animationDirection: ::HMUI::__ViewController__AnimationDirection (default: static_cast<int32_t>(0x0))
-  /// @param immediately: bool (default: false)
-  inline void PresentViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback = nullptr,
-                                    ::HMUI::__ViewController__AnimationDirection animationDirection = static_cast<int32_t>(0x0), bool immediately = false);
+  inline void PresentViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback, ::HMUI::__ViewController__AnimationDirection animationDirection, bool immediately);
 
   /// @brief Method DismissViewController, addr 0x2128120, size 0x238, virtual false, abstract: false, final false
-  /// @param animationDirection: ::HMUI::__ViewController__AnimationDirection (default: static_cast<int32_t>(0x0))
-  /// @param finishedCallback: ::System::Action* (default: nullptr)
-  /// @param immediately: bool (default: false)
-  inline ::System::Threading::Tasks::Task* DismissViewController(::HMUI::ViewController* viewController, ::HMUI::__ViewController__AnimationDirection animationDirection = static_cast<int32_t>(0x0),
-                                                                 ::System::Action* finishedCallback = nullptr, bool immediately = false);
+  inline ::System::Threading::Tasks::Task* DismissViewController(::HMUI::ViewController* viewController, ::HMUI::__ViewController__AnimationDirection animationDirection,
+                                                                 ::System::Action* finishedCallback, bool immediately);
 
   /// @brief Method ReplaceTopViewController, addr 0x2128360, size 0xdc, virtual false, abstract: false, final false
-  /// @param finishedCallback: ::System::Action* (default: nullptr)
-  /// @param animationType: ::HMUI::__ViewController__AnimationType (default: static_cast<int32_t>(0x1))
-  /// @param animationDirection: ::HMUI::__ViewController__AnimationDirection (default: static_cast<int32_t>(0x0))
-  inline void ReplaceTopViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback = nullptr,
-                                       ::HMUI::__ViewController__AnimationType animationType = static_cast<int32_t>(0x1),
-                                       ::HMUI::__ViewController__AnimationDirection animationDirection = static_cast<int32_t>(0x0));
+  inline void ReplaceTopViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback, ::HMUI::__ViewController__AnimationType animationType,
+                                       ::HMUI::__ViewController__AnimationDirection animationDirection);
 
   /// @brief Method ReplaceTopViewController, addr 0x2127710, size 0x21c, virtual false, abstract: false, final false
-  /// @param finishedCallback: ::System::Action* (default: nullptr)
-  /// @param animationType: ::HMUI::__ViewController__AnimationType (default: static_cast<int32_t>(0x1))
-  /// @param animationDirection: ::HMUI::__ViewController__AnimationDirection (default: static_cast<int32_t>(0x0))
   inline void ReplaceTopViewController(::HMUI::ViewController* viewController, ::HMUI::FlowCoordinator* originalOwnerFlowCoordinator, ::HMUI::FlowCoordinator* newOwnerFlowCoordinator,
-                                       ::System::Action* finishedCallback = nullptr, ::HMUI::__ViewController__AnimationType animationType = static_cast<int32_t>(0x1),
-                                       ::HMUI::__ViewController__AnimationDirection animationDirection = static_cast<int32_t>(0x0));
+                                       ::System::Action* finishedCallback, ::HMUI::__ViewController__AnimationType animationType, ::HMUI::__ViewController__AnimationDirection animationDirection);
 
   /// @brief Method PushViewControllerToNavigationController, addr 0x2128444, size 0x130, virtual false, abstract: false, final false
-  /// @param finishedCallback: ::System::Action* (default: nullptr)
-  /// @param immediately: bool (default: false)
-  inline void PushViewControllerToNavigationController(::HMUI::NavigationController* navigationController, ::HMUI::ViewController* viewController, ::System::Action* finishedCallback = nullptr,
-                                                       bool immediately = false);
+  inline void PushViewControllerToNavigationController(::HMUI::NavigationController* navigationController, ::HMUI::ViewController* viewController, ::System::Action* finishedCallback,
+                                                       bool immediately);
 
   /// @brief Method SetViewControllersToNavigationController, addr 0x212857c, size 0x18, virtual false, abstract: false, final false
   inline void SetViewControllersToNavigationController(::HMUI::NavigationController* navigationController, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllers);
@@ -1469,15 +1447,10 @@ public:
   inline void SetViewControllerToNavigationController(::HMUI::NavigationController* navigationController, ::HMUI::ViewController* viewController);
 
   /// @brief Method PopViewControllerFromNavigationController, addr 0x21285ac, size 0x128, virtual false, abstract: false, final false
-  /// @param finishedCallback: ::System::Action* (default: nullptr)
-  /// @param immediately: bool (default: false)
-  inline void PopViewControllerFromNavigationController(::HMUI::NavigationController* navigationController, ::System::Action* finishedCallback = nullptr, bool immediately = false);
+  inline void PopViewControllerFromNavigationController(::HMUI::NavigationController* navigationController, ::System::Action* finishedCallback, bool immediately);
 
   /// @brief Method PopViewControllersFromNavigationController, addr 0x21286dc, size 0x130, virtual false, abstract: false, final false
-  /// @param finishedCallback: ::System::Action* (default: nullptr)
-  /// @param immediately: bool (default: false)
-  inline void PopViewControllersFromNavigationController(::HMUI::NavigationController* navigationController, int32_t numberOfControllers, ::System::Action* finishedCallback = nullptr,
-                                                         bool immediately = false);
+  inline void PopViewControllersFromNavigationController(::HMUI::NavigationController* navigationController, int32_t numberOfControllers, ::System::Action* finishedCallback, bool immediately);
 
   /// @brief Method SetLeftScreenViewController, addr 0x2126b8c, size 0xd8, virtual false, abstract: false, final false
   inline void SetLeftScreenViewController(::HMUI::ViewController* viewController, ::HMUI::__ViewController__AnimationType animationType);
@@ -1501,13 +1474,8 @@ public:
   inline ::HMUI::FlowCoordinator* YoungestChildFlowCoordinatorOrSelf();
 
   /// @brief Method ProvideInitialViewControllers, addr 0x2128890, size 0x18, virtual false, abstract: false, final false
-  /// @param leftScreenViewController: ::HMUI::ViewController* (default: nullptr)
-  /// @param rightScreenViewController: ::HMUI::ViewController* (default: nullptr)
-  /// @param bottomScreenViewController: ::HMUI::ViewController* (default: nullptr)
-  /// @param topScreenViewController: ::HMUI::ViewController* (default: nullptr)
-  inline void ProvideInitialViewControllers(::HMUI::ViewController* mainViewController, ::HMUI::ViewController* leftScreenViewController = nullptr,
-                                            ::HMUI::ViewController* rightScreenViewController = nullptr, ::HMUI::ViewController* bottomScreenViewController = nullptr,
-                                            ::HMUI::ViewController* topScreenViewController = nullptr);
+  inline void ProvideInitialViewControllers(::HMUI::ViewController* mainViewController, ::HMUI::ViewController* leftScreenViewController, ::HMUI::ViewController* rightScreenViewController,
+                                            ::HMUI::ViewController* bottomScreenViewController, ::HMUI::ViewController* topScreenViewController);
 
   /// @brief Method Activate, addr 0x2126ac0, size 0xcc, virtual false, abstract: false, final false
   inline void Activate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

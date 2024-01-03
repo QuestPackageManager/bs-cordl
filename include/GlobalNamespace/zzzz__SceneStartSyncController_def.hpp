@@ -6,12 +6,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(SceneStartSyncController)
-namespace System {
-class Action;
-}
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
 class IGameplayRpcManager;
 }
@@ -19,10 +13,16 @@ namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class SceneStartHandler;
+class PlayersSpecificSettingsAtGameStartModel;
 }
 namespace GlobalNamespace {
-class PlayersSpecificSettingsAtGameStartModel;
+class SceneStartHandler;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -9,31 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DragEventsProcessor)
 namespace UnityEngine::UIElements {
-class PointerMoveEvent;
-}
-namespace UnityEngine::UIElements {
-class DetachFromPanelEvent;
-}
-namespace UnityEngine::UIElements {
-class StartDragArgs;
-}
-namespace UnityEngine::UIElements {
-struct __DragEventsProcessor__DragState;
-}
-namespace UnityEngine::UIElements {
-class PointerUpEvent;
+class AttachToPanelEvent;
 }
 namespace UnityEngine::UIElements {
 class DefaultDragAndDropClient;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+class DetachFromPanelEvent;
 }
 namespace UnityEngine::UIElements {
-class AttachToPanelEvent;
+struct DragVisualMode;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::UIElements {
+class PointerCancelEvent;
 }
 namespace UnityEngine::UIElements {
 class PointerDownEvent;
@@ -42,10 +30,22 @@ namespace UnityEngine::UIElements {
 class PointerLeaveEvent;
 }
 namespace UnityEngine::UIElements {
-class PointerCancelEvent;
+class PointerMoveEvent;
 }
 namespace UnityEngine::UIElements {
-struct DragVisualMode;
+class PointerUpEvent;
+}
+namespace UnityEngine::UIElements {
+class StartDragArgs;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+struct __DragEventsProcessor__DragState;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -115,7 +115,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__DragEventsProcessor__DragSta
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6968))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(6968)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6969))
 // CS Name: ::UnityEngine.UIElements::DragEventsProcessor*
 class CORDL_TYPE DragEventsProcessor : public ::System::Object {
@@ -198,8 +198,7 @@ public:
   inline void UnregisterCallbacksFromTarget(::UnityEngine::UIElements::DetachFromPanelEvent* evt);
 
   /// @brief Method UnregisterCallbacksFromTarget, addr 0x2e0d6d8, size 0x398, virtual false, abstract: false, final false
-  /// @param unregisterPanelEvents: bool (default: false)
-  inline void UnregisterCallbacksFromTarget(bool unregisterPanelEvents = false);
+  inline void UnregisterCallbacksFromTarget(bool unregisterPanelEvents);
 
   /// @brief Method CanStartDrag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool CanStartDrag(::UnityEngine::Vector3 pointerPosition);

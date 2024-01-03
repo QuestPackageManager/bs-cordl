@@ -8,43 +8,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509CertificateUtility)
 namespace GlobalNamespace {
-class __X509CertificateUtility__RSACertificateEncryptionProvider;
-}
-namespace GlobalNamespace {
-class __X509CertificateUtility____c;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2;
+class ICertificateEncryptionProvider;
 }
 namespace GlobalNamespace {
 class __X509CertificateUtility__PasswordFinder;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace GlobalNamespace {
-class ICertificateEncryptionProvider;
+class __X509CertificateUtility__RSACertificateEncryptionProvider;
 }
 namespace GlobalNamespace {
 class __X509CertificateUtility___GetCertificateList_d__9;
 }
-namespace Org::BouncyCastle::OpenSsl {
-class IPasswordFinder;
-}
-namespace Org::BouncyCastle::Crypto {
-class ISigner;
-}
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class __X509CertificateUtility____c;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class RsaPrivateCrtKeyParameters;
 }
+namespace Org::BouncyCastle::Crypto {
+class ISigner;
+}
+namespace Org::BouncyCastle::OpenSsl {
+class IPasswordFinder;
+}
+namespace Org::BouncyCastle::X509 {
+class X509CertificateParser;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
-}
-namespace System {
-class Object;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -52,14 +46,20 @@ class IEnumerable;
 namespace System::Collections {
 class IEnumerator;
 }
-namespace Org::BouncyCastle::X509 {
-class X509CertificateParser;
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate2;
 }
 namespace System::Security::Cryptography::X509Certificates {
 struct X509ChainStatus;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -98,6 +98,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::OpenSsl::IPasswordFinder"
   constexpr operator ::Org::BouncyCastle::OpenSsl::IPasswordFinder*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::OpenSsl::IPasswordFinder"
+  constexpr ::Org::BouncyCastle::OpenSsl::IPasswordFinder* i___Org__BouncyCastle__OpenSsl__IPasswordFinder() noexcept;
 
   constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get__password();
 
@@ -159,8 +162,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ICertificateEncryptionProvider"
   constexpr operator ::GlobalNamespace::ICertificateEncryptionProvider*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::ICertificateEncryptionProvider"
+  constexpr ::GlobalNamespace::ICertificateEncryptionProvider* i___GlobalNamespace__ICertificateEncryptionProvider() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::ISigner*& __get__signer();
 
@@ -249,17 +258,34 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>*
+  i___System__Collections__Generic__IEnumerable_1___System__Security__Cryptography__X509Certificates__X509Certificate2__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>*
+  i___System__Collections__Generic__IEnumerator_1___System__Security__Cryptography__X509Certificates__X509Certificate2__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -524,17 +550,15 @@ public:
   static inline ::StringW GetRootCertificatesRaw();
 
   /// @brief Method GetCertificateEncryptionProvider, addr 0xe5b018, size 0xa4, virtual false, abstract: false, final false
-  /// @param password: ::StringW (default: nullptr)
-  static inline ::GlobalNamespace::ICertificateEncryptionProvider* GetCertificateEncryptionProvider(::StringW privateKeyPem, ::StringW password = nullptr);
+  static inline ::GlobalNamespace::ICertificateEncryptionProvider* GetCertificateEncryptionProvider(::StringW privateKeyPem, ::StringW password);
 
   /// @brief Method GetRSACertificateEncryptionProvider, addr 0xe5b0bc, size 0x208, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__X509CertificateUtility__RSACertificateEncryptionProvider*
   GetRSACertificateEncryptionProvider(::StringW privateKeyPem, ::GlobalNamespace::__X509CertificateUtility__PasswordFinder* passwordFinder);
 
   /// @brief Method GetCertificateList, addr 0xe5af28, size 0x78, virtual false, abstract: false, final false
-  /// @param certificateChainPem: ::StringW (default: nullptr)
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>* GetCertificateList(::StringW certificatePem,
-                                                                                                                                                         ::StringW certificateChainPem = nullptr);
+                                                                                                                                                         ::StringW certificateChainPem);
 
   /// @brief Method ValidateCertificateChain, addr 0xe5b2c4, size 0x64, virtual false, abstract: false, final false
   static inline void ValidateCertificateChain(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate,

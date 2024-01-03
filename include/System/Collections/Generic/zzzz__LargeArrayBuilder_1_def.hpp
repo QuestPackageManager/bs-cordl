@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LargeArrayBuilder_1)
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename T> struct ArrayBuilder_1;
 }
 namespace System::Collections::Generic {
-template <typename T> struct ArrayBuilder_1;
+template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace System::Collections::Generic {

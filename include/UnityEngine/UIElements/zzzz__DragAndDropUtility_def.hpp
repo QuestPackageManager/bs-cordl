@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DragAndDropUtility)
-namespace UnityEngine::UIElements {
-class IDragAndDrop;
-}
 namespace System {
 template <typename TResult> class Func_1;
+}
+namespace UnityEngine::UIElements {
+class IDragAndDrop;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

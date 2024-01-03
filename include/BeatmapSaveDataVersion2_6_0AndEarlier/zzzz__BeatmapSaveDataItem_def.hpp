@@ -30,6 +30,9 @@ public:
   /// @brief Convert operator to "::System::IComparable_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem*>"
   constexpr operator ::System::IComparable_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem*>*() noexcept;
 
+  /// @brief Convert to "::System::IComparable_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem*>"
+  constexpr ::System::IComparable_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem*>* i___System__IComparable_1___BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveDataItem__() noexcept;
+
   /// @brief Method get_time, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_time();
 

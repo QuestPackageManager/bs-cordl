@@ -7,68 +7,68 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(YogaNode)
-namespace System {
-class WeakReference;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::Yoga {
-struct YogaSize;
-}
-namespace UnityEngine::Yoga {
-struct YogaAlign;
-}
-namespace UnityEngine::Yoga {
-struct YogaMeasureMode;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace UnityEngine::Yoga {
-struct YogaWrap;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class Object;
 }
+namespace System {
+class WeakReference;
+}
 namespace UnityEngine::Yoga {
-struct YogaDisplay;
+class BaselineFunction;
 }
 namespace UnityEngine::Yoga {
 class MeasureFunction;
 }
 namespace UnityEngine::Yoga {
-struct YogaOverflow;
+struct YogaAlign;
 }
 namespace UnityEngine::Yoga {
 class YogaConfig;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace UnityEngine::Yoga {
+struct YogaDisplay;
 }
 namespace UnityEngine::Yoga {
-class BaselineFunction;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::Yoga {
-struct YogaValue;
+struct YogaEdge;
 }
 namespace UnityEngine::Yoga {
 struct YogaFlexDirection;
 }
 namespace UnityEngine::Yoga {
-struct YogaPositionType;
-}
-namespace UnityEngine::Yoga {
 struct YogaJustify;
 }
 namespace UnityEngine::Yoga {
-struct YogaEdge;
+struct YogaMeasureMode;
+}
+namespace UnityEngine::Yoga {
+struct YogaOverflow;
+}
+namespace UnityEngine::Yoga {
+struct YogaPositionType;
+}
+namespace UnityEngine::Yoga {
+struct YogaSize;
+}
+namespace UnityEngine::Yoga {
+struct YogaValue;
+}
+namespace UnityEngine::Yoga {
+struct YogaWrap;
 }
 // Forward declare root types
 namespace UnityEngine::Yoga {
@@ -80,7 +80,7 @@ MARK_REF_PTR_T(::UnityEngine::Yoga::YogaNode);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Yoga {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15354))
 // CS Name: ::UnityEngine.Yoga::YogaNode*
 class CORDL_TYPE YogaNode : public ::System::Object {
@@ -228,8 +228,14 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::Yoga::YogaNode*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Yoga::YogaNode*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::Yoga::YogaNode*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Yoga::YogaNode*>* i___System__Collections__Generic__IEnumerable_1___UnityEngine__Yoga__YogaNode__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   constexpr void*& __get__ygNode();
 
@@ -369,8 +375,7 @@ public:
   static inline ::UnityEngine::Yoga::YogaNode* New_ctor(::UnityEngine::Yoga::YogaConfig* config);
 
   /// @brief Method .ctor, addr 0x2ea292c, size 0x130, virtual false, abstract: false, final false
-  /// @param config: ::UnityEngine::Yoga::YogaConfig* (default: nullptr)
-  inline void _ctor(::UnityEngine::Yoga::YogaConfig* config = nullptr);
+  inline void _ctor(::UnityEngine::Yoga::YogaConfig* config);
 
   /// @brief Method Finalize, addr 0x2ea2aa0, size 0x98, virtual true, abstract: false, final false
   inline void Finalize();
@@ -490,9 +495,7 @@ public:
   inline void SetMeasureFunction(::UnityEngine::Yoga::MeasureFunction* measureFunction);
 
   /// @brief Method CalculateLayout, addr 0x2ea467c, size 0x84, virtual false, abstract: false, final false
-  /// @param width: float_t (default: NAN)
-  /// @param height: float_t (default: NAN)
-  inline void CalculateLayout(float_t width = NAN, float_t height = NAN);
+  inline void CalculateLayout(float_t width, float_t height);
 
   /// @brief Method MeasureInternal, addr 0x2ea4798, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Yoga::YogaSize MeasureInternal(::UnityEngine::Yoga::YogaNode* node, float_t width, ::UnityEngine::Yoga::YogaMeasureMode widthMode, float_t height,

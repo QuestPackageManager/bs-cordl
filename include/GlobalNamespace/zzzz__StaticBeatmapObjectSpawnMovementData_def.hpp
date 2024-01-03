@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StaticBeatmapObjectSpawnMovementData)
-namespace UnityEngine {
-struct Vector2;
-}
 namespace GlobalNamespace {
 struct NoteLineLayer;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

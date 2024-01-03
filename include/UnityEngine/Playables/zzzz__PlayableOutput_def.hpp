@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Playables/zzzz__PlayableOutputHandle_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(PlayableOutput)
-namespace UnityEngine::Playables {
-class IPlayableOutput;
-}
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace UnityEngine::Playables {
+class IPlayableOutput;
 }
 namespace UnityEngine::Playables {
 struct PlayableOutputHandle;
@@ -36,8 +36,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayableOutput"
   constexpr operator ::UnityEngine::Playables::IPlayableOutput*();
 
+  /// @brief Convert to "::UnityEngine::Playables::IPlayableOutput"
+  constexpr ::UnityEngine::Playables::IPlayableOutput* i___UnityEngine__Playables__IPlayableOutput();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Playables::PlayableOutput>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Playables::PlayableOutput>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Playables::PlayableOutput>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Playables::PlayableOutput>* i___System__IEquatable_1___UnityEngine__Playables__PlayableOutput_();
 
   static inline void setStaticF_m_NullPlayableOutput(::UnityEngine::Playables::PlayableOutput value);
 

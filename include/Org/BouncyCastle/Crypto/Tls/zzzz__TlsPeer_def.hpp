@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsPeer)
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCloseable;
+class TlsCipher;
 }
-namespace System {
-class Exception;
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCloseable;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCompression;
 }
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipher;
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

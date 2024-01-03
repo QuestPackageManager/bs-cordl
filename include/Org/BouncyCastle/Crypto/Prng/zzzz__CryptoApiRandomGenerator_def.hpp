@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CryptoApiRandomGenerator)
-namespace System::Security::Cryptography {
-class RandomNumberGenerator;
-}
 namespace Org::BouncyCastle::Crypto::Prng {
 class IRandomGenerator;
+}
+namespace System::Security::Cryptography {
+class RandomNumberGenerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Prng {
@@ -33,6 +33,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::IRandomGenerator"
   constexpr operator ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::IRandomGenerator"
+  constexpr ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* i___Org__BouncyCastle__Crypto__Prng__IRandomGenerator() noexcept;
 
   constexpr ::System::Security::Cryptography::RandomNumberGenerator*& __get_rndProv();
 

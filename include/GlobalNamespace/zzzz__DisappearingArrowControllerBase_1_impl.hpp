@@ -2,8 +2,8 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__DisappearingArrowControllerBase_1_def.hpp"
 #include "GlobalNamespace/zzzz__CutoutEffect_def.hpp"
-#include "UnityEngine/zzzz__MeshRenderer_def.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
+#include "UnityEngine/zzzz__MeshRenderer_def.hpp"
 template <typename T>
 constexpr ::ArrayW<::GlobalNamespace::MaterialPropertyBlockController*, ::Array<::GlobalNamespace::MaterialPropertyBlockController*>*>&
 GlobalNamespace::DisappearingArrowControllerBase_1<T>::__get__transparentObjectMaterialPropertyBlocks() {

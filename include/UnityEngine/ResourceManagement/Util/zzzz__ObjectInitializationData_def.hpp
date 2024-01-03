@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(ObjectInitializationData)
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
-}
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct AsyncOperationHandle;
 }
 namespace UnityEngine::ResourceManagement::Util {
 struct SerializedType;
+}
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {
@@ -50,12 +50,10 @@ public:
   inline ::StringW ToString();
 
   /// @brief Method CreateInstance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param idOverride: ::StringW (default: nullptr)
-  template <typename TObject> inline TObject CreateInstance(::StringW idOverride = nullptr);
+  template <typename TObject> inline TObject CreateInstance(::StringW idOverride);
 
   /// @brief Method GetAsyncInitHandle, addr 0x2bd2898, size 0x24c, virtual false, abstract: false, final false
-  /// @param idOverride: ::StringW (default: nullptr)
-  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle GetAsyncInitHandle(::UnityEngine::ResourceManagement::ResourceManager* rm, ::StringW idOverride = nullptr);
+  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle GetAsyncInitHandle(::UnityEngine::ResourceManagement::ResourceManager* rm, ::StringW idOverride);
 
   // Ctor Parameters [CppParam { name: "m_Id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_ObjectType", ty: "::UnityEngine::ResourceManagement::Util::SerializedType",
   // modifiers: "", def_value: None }, CppParam { name: "m_Data", ty: "::StringW", modifiers: "", def_value: None }]

@@ -10,15 +10,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightRotationBeatmapEventData)
 namespace GlobalNamespace {
-struct LightRotationDirection;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
-struct LightAxis;
-}
-namespace GlobalNamespace {
 class BeatmapDataItem;
 }
 namespace GlobalNamespace {
@@ -26,6 +17,15 @@ class BeatmapEventData;
 }
 namespace GlobalNamespace {
 struct EaseType;
+}
+namespace GlobalNamespace {
+struct LightAxis;
+}
+namespace GlobalNamespace {
+struct LightRotationDirection;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::GlobalNamespace::LightRotationBeatmapEventData);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14733)), TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(14727)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14727)), TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(14733)),
 // TypeDefinitionIndex(TypeDefinitionIndex(14736))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14735)) CS Name: ::LightRotationBeatmapEventData*
 class CORDL_TYPE LightRotationBeatmapEventData : public ::GlobalNamespace::BeatmapEventData {
 public:

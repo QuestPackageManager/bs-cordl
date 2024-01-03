@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(Subdivision)
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
 namespace UnityEngine::ProBuilder {
 class ActionResult;
 }
 namespace UnityEngine::ProBuilder {
 class Face;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;

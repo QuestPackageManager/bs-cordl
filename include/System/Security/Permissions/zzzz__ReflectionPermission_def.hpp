@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/Security/Permissions/zzzz__ReflectionPermissionFlag_def.hpp"
 #include "System/Security/zzzz__CodeAccessPermission_def.hpp"
 CORDL_MODULE_EXPORT(ReflectionPermission)
+namespace System::Security::Permissions {
+struct ReflectionPermissionFlag;
+}
 namespace System::Security {
 class IPermission;
 }
 namespace System::Security {
 class SecurityElement;
-}
-namespace System::Security::Permissions {
-struct ReflectionPermissionFlag;
 }
 // Forward declare root types
 namespace System::Security::Permissions {

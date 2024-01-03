@@ -2,14 +2,19 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Mono/Security/Interface/zzzz__AlertDescription_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(UnityTlsConversions)
-namespace System::Security::Cryptography::X509Certificates {
-struct X509ChainStatusFlags;
+namespace Mono::Security::Interface {
+struct AlertDescription;
 }
 namespace Mono::Security::Interface {
 struct TlsProtocols;
+}
+namespace Mono::Unity {
+struct __UnityTls__unitytls_protocol;
+}
+namespace Mono::Unity {
+struct __UnityTls__unitytls_x509verify_result;
 }
 namespace System::Net::Security {
 struct SslPolicyErrors;
@@ -17,14 +22,8 @@ struct SslPolicyErrors;
 namespace System::Security::Authentication {
 struct SslProtocols;
 }
-namespace Mono::Unity {
-struct __UnityTls__unitytls_x509verify_result;
-}
-namespace Mono::Unity {
-struct __UnityTls__unitytls_protocol;
-}
-namespace Mono::Security::Interface {
-struct AlertDescription;
+namespace System::Security::Cryptography::X509Certificates {
+struct X509ChainStatusFlags;
 }
 // Forward declare root types
 namespace Mono::Unity {
@@ -36,7 +35,7 @@ MARK_REF_PTR_T(::Mono::Unity::UnityTlsConversions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13773)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8811))
 // CS Name: ::Mono.Unity::UnityTlsConversions*
 class CORDL_TYPE UnityTlsConversions : public ::System::Object {
@@ -52,9 +51,8 @@ public:
   static inline ::Mono::Security::Interface::TlsProtocols ConvertProtocolVersion(::Mono::Unity::__UnityTls__unitytls_protocol protocol);
 
   /// @brief Method VerifyResultToAlertDescription, addr 0x2817bd4, size 0x54, virtual false, abstract: false, final false
-  /// @param defaultAlert: ::Mono::Security::Interface::AlertDescription (default: static_cast<uint8_t>(0x50u))
   static inline ::Mono::Security::Interface::AlertDescription VerifyResultToAlertDescription(::Mono::Unity::__UnityTls__unitytls_x509verify_result verifyResult,
-                                                                                             ::Mono::Security::Interface::AlertDescription defaultAlert = static_cast<uint8_t>(0x50u));
+                                                                                             ::Mono::Security::Interface::AlertDescription defaultAlert);
 
   /// @brief Method VerifyResultToPolicyErrror, addr 0x281caa8, size 0x30, virtual false, abstract: false, final false
   static inline ::System::Net::Security::SslPolicyErrors VerifyResultToPolicyErrror(::Mono::Unity::__UnityTls__unitytls_x509verify_result verifyResult);

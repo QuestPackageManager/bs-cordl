@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ChecksumCallback)
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
 }
 namespace System {
-class AsyncCallback;
+class IAsyncResult;
 }
 namespace System {
 class Object;

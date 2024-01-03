@@ -10,13 +10,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HAPI_VolumeInfo)
 namespace HoudiniEngineUnity {
-struct HAPI_VolumeType;
+struct HAPI_StorageType;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_Transform;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_StorageType;
+struct HAPI_VolumeType;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -28,7 +28,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_VolumeInfo);
 // SizeInfo { instance_size: 104, native_size: 112, calculated_instance_size: 104, calculated_native_size: 116, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9705)), TypeDefinitionIndex(TypeDefinitionIndex(9707)), TypeDefinitionIndex(TypeDefinitionIndex(9726))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9726)), TypeDefinitionIndex(TypeDefinitionIndex(9705)), TypeDefinitionIndex(TypeDefinitionIndex(9707))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9746))
 // CS Name: ::HoudiniEngineUnity::HAPI_VolumeInfo
 struct CORDL_TYPE HAPI_VolumeInfo {

@@ -9,16 +9,16 @@ namespace Org::BouncyCastle::Utilities::Collections {
 class LinkedDictionary;
 }
 namespace System::Collections {
-class IDictionaryEnumerator;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections {
 struct DictionaryEntry;
 }
 namespace System::Collections {
+class IDictionaryEnumerator;
+}
+namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Collections {
@@ -55,8 +55,14 @@ public:
   /// @brief Convert operator to "::System::Collections::IDictionaryEnumerator"
   constexpr operator ::System::Collections::IDictionaryEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IDictionaryEnumerator"
+  constexpr ::System::Collections::IDictionaryEnumerator* i___System__Collections__IDictionaryEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr ::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*& __get_parent();
 

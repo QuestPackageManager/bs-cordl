@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(FlyingObjectEffect)
-namespace UnityEngine {
-struct Vector3;
-}
 namespace GlobalNamespace {
 class IFlyingObjectEffectDidFinishEvent;
 }
 namespace GlobalNamespace {
 template <typename T> class ILazyCopyHashSet_1;
+}
+namespace GlobalNamespace {
+template <typename T> class LazyCopyHashSet_1;
 }
 namespace UnityEngine {
 class AnimationCurve;
@@ -22,8 +22,8 @@ class AnimationCurve;
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace GlobalNamespace {
-template <typename T> class LazyCopyHashSet_1;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::GlobalNamespace::FlyingObjectEffect);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4852))
 // CS Name: ::FlyingObjectEffect*
 class CORDL_TYPE FlyingObjectEffect : public ::UnityEngine::MonoBehaviour {

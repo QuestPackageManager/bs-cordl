@@ -4,19 +4,19 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRTask_1_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "GlobalNamespace/zzzz__OVRTask_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__INotifyCompletion_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 template <typename TResult> inline ::GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>* GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>::New_ctor(::System::Object* object, void* method) {
   return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>*>(object, method));
 }
@@ -219,8 +219,17 @@ template <typename TResult, typename T> constexpr ::GlobalNamespace::__OVRTask_1
 template <typename TResult> constexpr GlobalNamespace::OVRTask_1<TResult>::operator ::System::IEquatable_1<::GlobalNamespace::OVRTask_1<TResult>>*() {
   return static_cast<::System::IEquatable_1<::GlobalNamespace::OVRTask_1<TResult>>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
+/// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::OVRTask_1<TResult>>"
+template <typename TResult>
+constexpr ::System::IEquatable_1<::GlobalNamespace::OVRTask_1<TResult>>* GlobalNamespace::OVRTask_1<TResult>::i___System__IEquatable_1___GlobalNamespace__OVRTask_1_TResult__() {
+  return static_cast<::System::IEquatable_1<::GlobalNamespace::OVRTask_1<TResult>>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
 /// @brief Convert operator to "::System::IDisposable"
 template <typename TResult> constexpr GlobalNamespace::OVRTask_1<TResult>::operator ::System::IDisposable*() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename TResult> constexpr ::System::IDisposable* GlobalNamespace::OVRTask_1<TResult>::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename TResult> inline void GlobalNamespace::OVRTask_1<TResult>::setStaticF_Pending(::System::Collections::Generic::HashSet_1<::System::Guid>* value) {
@@ -474,6 +483,11 @@ template <typename TResult> constexpr ::GlobalNamespace::OVRTask_1<TResult>::OVR
 template <typename TResult> constexpr ::GlobalNamespace::OVRTask_1<TResult>::OVRTask_1() {}
 /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
 template <typename TResult> constexpr GlobalNamespace::__OVRTask_1__Awaiter<TResult>::operator ::System::Runtime::CompilerServices::INotifyCompletion*() {
+  return static_cast<::System::Runtime::CompilerServices::INotifyCompletion*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::INotifyCompletion"
+template <typename TResult>
+constexpr ::System::Runtime::CompilerServices::INotifyCompletion* GlobalNamespace::__OVRTask_1__Awaiter<TResult>::i___System__Runtime__CompilerServices__INotifyCompletion() {
   return static_cast<::System::Runtime::CompilerServices::INotifyCompletion*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename TResult> inline void GlobalNamespace::__OVRTask_1__Awaiter<TResult>::_ctor(::GlobalNamespace::OVRTask_1<TResult> task) {

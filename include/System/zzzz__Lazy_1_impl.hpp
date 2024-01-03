@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Lazy_1_def.hpp"
+#include "System/Threading/zzzz__LazyThreadSafetyMode_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
 #include "System/zzzz__LazyHelper_def.hpp"
-#include "System/Threading/zzzz__LazyThreadSafetyMode_def.hpp"
 template <typename T> constexpr ::System::LazyHelper*& System::Lazy_1<T>::__get__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____state;

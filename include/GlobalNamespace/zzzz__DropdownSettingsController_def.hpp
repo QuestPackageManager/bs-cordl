@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DropdownSettingsController)
 namespace HMUI {
+class DropdownWithTableView;
+}
+namespace HMUI {
 class SimpleTextDropdown;
 }
 namespace System {
 class Action;
-}
-namespace HMUI {
-class DropdownWithTableView;
 }
 // Forward declare root types
 namespace GlobalNamespace {

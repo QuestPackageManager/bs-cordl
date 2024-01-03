@@ -10,19 +10,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SongPreviewPlayer)
 namespace GlobalNamespace {
-class __SongPreviewPlayer__InitData;
+class AudioManagerSO;
 }
 namespace GlobalNamespace {
 class __SongPreviewPlayer__AudioSourceParams;
 }
-namespace UnityEngine {
-class AudioClip;
+namespace GlobalNamespace {
+class __SongPreviewPlayer__AudioSourceVolumeController;
 }
-namespace System {
-class Action;
-}
-namespace System::Collections {
-class IEnumerator;
+namespace GlobalNamespace {
+class __SongPreviewPlayer__InitData;
 }
 namespace GlobalNamespace {
 class __SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__28;
@@ -30,26 +27,29 @@ class __SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__28;
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace UnityEngine {
-class AudioSource;
-}
-namespace GlobalNamespace {
-class AudioManagerSO;
-}
-namespace GlobalNamespace {
-class __SongPreviewPlayer__AudioSourceVolumeController;
-}
-namespace UnityEngine {
-struct Vector3;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class Action;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
 }
-namespace System {
-class IDisposable;
+namespace UnityEngine {
+class AudioClip;
+}
+namespace UnityEngine {
+class AudioSource;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -126,7 +126,7 @@ static_assert(offsetof(::GlobalNamespace::__SongPreviewPlayer__InitData, ___ambi
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4079))
 // CS Name: ::SongPreviewPlayer::AudioSourceParams*
 class CORDL_TYPE __SongPreviewPlayer__AudioSourceParams : public ::System::Object {
@@ -355,11 +355,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

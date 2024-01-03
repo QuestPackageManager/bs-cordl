@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_1_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataCallback_1_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 template <typename T> constexpr ::GlobalNamespace::BeatmapDataCallback_1<T>*& GlobalNamespace::BeatmapDataCallbackWrapper_1<T>::__get__callback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____callback;

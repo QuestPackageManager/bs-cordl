@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Test_HAPI_GeoInfo)
 namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
+struct HAPI_GeoInfo;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_GeoInfo;
+template <typename T> class IEquivable_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_HAPI_GeoInfo);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9739)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9739))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9896))
 // CS Name: ::HoudiniEngineUnity::Test_HAPI_GeoInfo*
 class CORDL_TYPE Test_HAPI_GeoInfo : public ::System::Object {
@@ -32,6 +32,9 @@ public:
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_GeoInfo*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_GeoInfo*>*() noexcept;
+
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_GeoInfo*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_GeoInfo*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_HAPI_GeoInfo__() noexcept;
 
   constexpr ::HoudiniEngineUnity::HAPI_GeoInfo& __get_self();
 

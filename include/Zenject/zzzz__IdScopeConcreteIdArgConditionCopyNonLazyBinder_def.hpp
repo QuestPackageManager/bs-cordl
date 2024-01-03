@@ -8,10 +8,10 @@ namespace System {
 class Object;
 }
 namespace Zenject {
-class ScopeConcreteIdArgConditionCopyNonLazyBinder;
+class BindInfo;
 }
 namespace Zenject {
-class BindInfo;
+class ScopeConcreteIdArgConditionCopyNonLazyBinder;
 }
 // Forward declare root types
 namespace Zenject {

@@ -11,6 +11,9 @@ CORDL_MODULE_EXPORT(PolyShape)
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace System::Collections::ObjectModel {
 template <typename T> class ReadOnlyCollection_1;
 }
@@ -22,9 +25,6 @@ struct __PolyShape__PolyEditMode;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

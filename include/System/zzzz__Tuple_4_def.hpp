@@ -7,22 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Tuple_4)
 namespace System::Collections {
-class IStructuralEquatable;
-}
-namespace System::Collections {
-class IStructuralComparable;
-}
-namespace System::Runtime::CompilerServices {
-class ITuple;
-}
-namespace System::Collections {
 class IComparer;
 }
 namespace System::Collections {
 class IEqualityComparer;
 }
-namespace System {
-class Object;
+namespace System::Collections {
+class IStructuralComparable;
+}
+namespace System::Collections {
+class IStructuralEquatable;
+}
+namespace System::Runtime::CompilerServices {
+class ITuple;
 }
 namespace System::Text {
 class StringBuilder;
@@ -32,6 +29,9 @@ class IComparable;
 }
 namespace System {
 class ITupleInternal;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System {
@@ -76,17 +76,32 @@ public:
   /// @brief Convert operator to "::System::Collections::IStructuralEquatable"
   constexpr operator ::System::Collections::IStructuralEquatable*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IStructuralEquatable"
+  constexpr ::System::Collections::IStructuralEquatable* i___System__Collections__IStructuralEquatable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IStructuralComparable"
   constexpr operator ::System::Collections::IStructuralComparable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IStructuralComparable"
+  constexpr ::System::Collections::IStructuralComparable* i___System__Collections__IStructuralComparable() noexcept;
 
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*() noexcept;
 
+  /// @brief Convert to "::System::IComparable"
+  constexpr ::System::IComparable* i___System__IComparable() noexcept;
+
   /// @brief Convert operator to "::System::ITupleInternal"
   constexpr operator ::System::ITupleInternal*() noexcept;
 
+  /// @brief Convert to "::System::ITupleInternal"
+  constexpr ::System::ITupleInternal* i___System__ITupleInternal() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::CompilerServices::ITuple"
   constexpr operator ::System::Runtime::CompilerServices::ITuple*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::ITuple"
+  constexpr ::System::Runtime::CompilerServices::ITuple* i___System__Runtime__CompilerServices__ITuple() noexcept;
 
   constexpr T1& __get_m_Item1();
 

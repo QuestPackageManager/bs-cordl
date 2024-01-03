@@ -32,8 +32,14 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TElement>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TElement>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TElement>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<TElement>* i___System__Collections__Generic__IEnumerable_1_TElement_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Method get_Key, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TKey get_Key();

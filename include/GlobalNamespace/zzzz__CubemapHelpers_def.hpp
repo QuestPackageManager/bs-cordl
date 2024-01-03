@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CubemapHelpers)
-namespace UnityEngine {
-class Material;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine {
-class Texture;
+struct CubemapFace;
+}
+namespace UnityEngine {
+class Material;
 }
 namespace UnityEngine {
 class RenderTexture;
 }
 namespace UnityEngine {
-struct CubemapFace;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+class Texture;
 }
 // Forward declare root types
 namespace GlobalNamespace {

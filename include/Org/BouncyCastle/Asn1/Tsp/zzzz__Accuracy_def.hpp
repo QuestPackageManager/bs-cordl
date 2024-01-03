@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Accuracy)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;

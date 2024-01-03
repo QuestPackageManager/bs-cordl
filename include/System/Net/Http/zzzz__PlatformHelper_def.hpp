@@ -11,11 +11,11 @@ template <typename T> class IEnumerable_1;
 namespace System::IO {
 class Stream;
 }
-namespace System::Threading {
-struct CancellationToken;
-}
 namespace System::Net::Http {
 class StreamContent;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 // Forward declare root types
 namespace System::Net::Http {

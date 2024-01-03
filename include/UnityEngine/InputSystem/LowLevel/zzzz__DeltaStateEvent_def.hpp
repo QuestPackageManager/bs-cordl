@@ -2,7 +2,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Unity/Collections/zzzz__Allocator_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__DeltaStateEvent_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEvent_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
@@ -10,11 +9,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DeltaStateEvent)
-namespace UnityEngine::InputSystem::LowLevel {
-struct __DeltaStateEvent___stateData_e__FixedBuffer;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
+namespace Unity::Collections {
+struct Allocator;
 }
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
@@ -25,11 +21,17 @@ class IInputEventTypeInfo;
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
 }
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEvent;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct __DeltaStateEvent___stateData_e__FixedBuffer;
+}
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEvent;
+namespace UnityEngine::InputSystem {
+class InputControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -78,8 +80,9 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__DeltaStateEvent__
 // SizeInfo { instance_size: 29, native_size: 29, calculated_instance_size: 29, calculated_native_size: 45, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(1) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6530)), TypeDefinitionIndex(TypeDefinitionIndex(10003)), TypeDefinitionIndex(TypeDefinitionIndex(6520)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6667))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6521)) CS Name: ::UnityEngine.InputSystem.LowLevel::DeltaStateEvent
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6520)), TypeDefinitionIndex(TypeDefinitionIndex(6667)), TypeDefinitionIndex(TypeDefinitionIndex(6530))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6521))
+// CS Name: ::UnityEngine.InputSystem.LowLevel::DeltaStateEvent
 #pragma pack(push, 1)
 struct CORDL_TYPE DeltaStateEvent {
 public:
@@ -106,6 +109,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo*();
+
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputEventTypeInfo();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent& __get_baseEvent();
 
@@ -150,9 +156,8 @@ public:
   static inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::DeltaStateEvent> FromUnchecked(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr);
 
   /// @brief Method From, addr 0x2ae96dc, size 0x318, virtual false, abstract: false, final false
-  /// @param allocator: ::Unity::Collections::Allocator (default: static_cast<int32_t>(0x2))
   static inline ::Unity::Collections::NativeArray_1<uint8_t> From(::UnityEngine::InputSystem::InputControl* control, ByRef<::UnityEngine::InputSystem::LowLevel::InputEventPtr> eventPtr,
-                                                                  ::Unity::Collections::Allocator allocator = static_cast<int32_t>(0x2));
+                                                                  ::Unity::Collections::Allocator allocator);
 
   // Ctor Parameters [CppParam { name: "baseEvent", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent", modifiers: "", def_value: None }, CppParam { name: "stateFormat", ty:
   // "::UnityEngine::InputSystem::Utilities::FourCC", modifiers: "", def_value: None }, CppParam { name: "stateOffset", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "stateData",

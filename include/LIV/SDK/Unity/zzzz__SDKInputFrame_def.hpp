@@ -12,19 +12,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SDKInputFrame)
 namespace LIV::SDK::Unity {
-struct SDKPriority;
+struct FEATURES;
+}
+namespace LIV::SDK::Unity {
+struct SDKClipPlane;
 }
 namespace LIV::SDK::Unity {
 struct SDKPose;
 }
 namespace LIV::SDK::Unity {
+struct SDKPriority;
+}
+namespace LIV::SDK::Unity {
 struct SDKTransform;
-}
-namespace LIV::SDK::Unity {
-struct FEATURES;
-}
-namespace LIV::SDK::Unity {
-struct SDKClipPlane;
 }
 // Forward declare root types
 namespace LIV::SDK::Unity {
@@ -36,8 +36,8 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKInputFrame);
 // SizeInfo { instance_size: 344, native_size: 344, calculated_instance_size: 344, calculated_native_size: 360, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15120)), TypeDefinitionIndex(TypeDefinitionIndex(15119)), TypeDefinitionIndex(TypeDefinitionIndex(15122)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15101)), TypeDefinitionIndex(TypeDefinitionIndex(15113))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15115)) CS Name: ::LIV.SDK.Unity::SDKInputFrame
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15113)), TypeDefinitionIndex(TypeDefinitionIndex(15120)), TypeDefinitionIndex(TypeDefinitionIndex(15119)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15122)), TypeDefinitionIndex(TypeDefinitionIndex(15101))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15115)) CS Name: ::LIV.SDK.Unity::SDKInputFrame
 struct CORDL_TYPE SDKInputFrame {
 public:
   // Declarations

@@ -12,41 +12,41 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GhostDuplicationEffect)
-namespace UnityEngine {
-struct Vector3;
+namespace GlobalNamespace {
+struct EaseType;
 }
 namespace GlobalNamespace {
 struct __GhostDuplicationEffect__GhostEffectParams;
 }
-namespace Tweening {
-class TimeTweeningManager;
-}
-namespace System::Collections {
-class IEnumerator;
+namespace GlobalNamespace {
+class __GhostDuplicationEffect___HideRedundantWithDelay_d__8;
 }
 namespace GlobalNamespace {
 class __GhostDuplicationEffect____c__DisplayClass7_0;
 }
-namespace GlobalNamespace {
-class __GhostDuplicationEffect___HideRedundantWithDelay_d__8;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
-namespace UnityEngine {
-class CanvasGroup;
-}
-namespace System {
-class Object;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class IDisposable;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class Object;
+}
+namespace Tweening {
+class TimeTweeningManager;
 }
 namespace UnityEngine {
 class AnimationCurve;
 }
-namespace GlobalNamespace {
-struct EaseType;
+namespace UnityEngine {
+class CanvasGroup;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -163,7 +163,7 @@ static_assert(offsetof(::GlobalNamespace::__GhostDuplicationEffect__GhostEffectP
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4859)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4859))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4860))
 // CS Name: ::GhostDuplicationEffect::<>c__DisplayClass7_0*
 class CORDL_TYPE __GhostDuplicationEffect____c__DisplayClass7_0 : public ::System::Object {
@@ -277,11 +277,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

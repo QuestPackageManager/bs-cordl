@@ -11,70 +11,70 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_AttributesStore)
 namespace HoudiniEngineUnity {
-class __HEU_AttributesStore__SetAttributeValueFunc;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_PartInfo;
-}
-namespace HoudiniEngineUnity {
 struct HAPI_AttributeInfo;
-}
-namespace HoudiniEngineUnity {
-class HEU_ToolsInfo;
-}
-namespace HoudiniEngineUnity {
-struct __HEU_AttributeData__AttributeType;
-}
-namespace UnityEngine {
-class MeshCollider;
-}
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_PartType;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-class Mesh;
-}
-namespace HoudiniEngineUnity {
-struct __HEU_ToolsInfo__PaintMergeMode;
-}
-namespace HoudiniEngineUnity {
-class HEU_AttributeData;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine {
-class GameObject;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_AttributeOwner;
 }
 namespace HoudiniEngineUnity {
+struct HAPI_PartInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_PartType;
+}
+namespace HoudiniEngineUnity {
+class HEU_AttributeData;
+}
+namespace HoudiniEngineUnity {
 class HEU_HoudiniAsset;
 }
-namespace System {
-class Object;
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
+}
+namespace HoudiniEngineUnity {
+class HEU_ToolsInfo;
+}
+namespace HoudiniEngineUnity {
+template <typename T> class IEquivable_1;
+}
+namespace HoudiniEngineUnity {
+struct __HEU_AttributeData__AttributeType;
+}
+namespace HoudiniEngineUnity {
+class __HEU_AttributesStore__SetAttributeValueFunc;
+}
+namespace HoudiniEngineUnity {
+struct __HEU_ToolsInfo__PaintMergeMode;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+class MeshCollider;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -209,6 +209,9 @@ public:
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AttributesStore*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AttributesStore*>*() noexcept;
+
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AttributesStore*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AttributesStore*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_AttributesStore__() noexcept;
 
   constexpr int32_t& __get__geoID();
 

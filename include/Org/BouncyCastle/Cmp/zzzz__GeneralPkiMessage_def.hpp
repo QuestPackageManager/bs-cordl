@@ -10,10 +10,10 @@ namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiBody;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiMessage;
+class PkiHeader;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiHeader;
+class PkiMessage;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cmp {

@@ -10,12 +10,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PointerDeviceState)
 namespace UnityEngine::UIElements {
-struct __PointerDeviceState__PointerLocation;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::UIElements {
 struct ContextType;
 }
 namespace UnityEngine::UIElements {
@@ -23,6 +17,12 @@ class IPanel;
 }
 namespace UnityEngine::UIElements {
 struct __PointerDeviceState__LocationFlag;
+}
+namespace UnityEngine::UIElements {
+struct __PointerDeviceState__PointerLocation;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

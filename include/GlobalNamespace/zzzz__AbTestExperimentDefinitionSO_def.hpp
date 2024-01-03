@@ -80,7 +80,7 @@ static_assert(offsetof(::GlobalNamespace::__AbTestExperimentDefinitionSO__Group,
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857)), TypeDefinitionIndex(TypeDefinitionIndex(5816))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5816)), TypeDefinitionIndex(TypeDefinitionIndex(15857))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5817))
 // CS Name: ::AbTestExperimentDefinitionSO*
 class CORDL_TYPE AbTestExperimentDefinitionSO : public ::GlobalNamespace::PersistentScriptableObject {

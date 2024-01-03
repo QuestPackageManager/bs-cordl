@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(BpmController)
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class BPMChangeBeatmapEventData;
 }
 namespace GlobalNamespace {
 class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
-class __BpmController__InitData;
-}
-namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
-class BPMChangeBeatmapEventData;
+class IBpmController;
 }
 namespace GlobalNamespace {
-class IBpmController;
+class __BpmController__InitData;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -110,8 +110,14 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IBpmController"
   constexpr operator ::GlobalNamespace::IBpmController*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IBpmController"
+  constexpr ::GlobalNamespace::IBpmController* i___GlobalNamespace__IBpmController() noexcept;
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __get__beatmapCallbacksController();
 

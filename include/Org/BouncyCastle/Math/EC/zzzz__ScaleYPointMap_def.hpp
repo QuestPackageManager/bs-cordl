@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ScaleYPointMap)
 namespace Org::BouncyCastle::Math::EC {
-class ECPointMap;
+class ECFieldElement;
 }
 namespace Org::BouncyCastle::Math::EC {
-class ECFieldElement;
+class ECPointMap;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
@@ -34,6 +34,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::ECPointMap"
   constexpr operator ::Org::BouncyCastle::Math::EC::ECPointMap*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Math::EC::ECPointMap"
+  constexpr ::Org::BouncyCastle::Math::EC::ECPointMap* i___Org__BouncyCastle__Math__EC__ECPointMap() noexcept;
 
   constexpr ::Org::BouncyCastle::Math::EC::ECFieldElement*& __get_scale();
 

@@ -4,11 +4,14 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(CommandBufferGOCore)
+namespace GlobalNamespace {
+class CommandBufferOwners;
+}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace GlobalNamespace {
-class CommandBufferOwners;
+namespace UnityEngine::Rendering {
+struct CameraEvent;
 }
 namespace UnityEngine::Rendering {
 class CommandBuffer;
@@ -21,9 +24,6 @@ class Material;
 }
 namespace UnityEngine {
 class Mesh;
-}
-namespace UnityEngine::Rendering {
-struct CameraEvent;
 }
 // Forward declare root types
 namespace GlobalNamespace {

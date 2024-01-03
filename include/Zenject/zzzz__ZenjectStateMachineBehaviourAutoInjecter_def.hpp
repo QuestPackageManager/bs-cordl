@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ZenjectStateMachineBehaviourAutoInjecter)
-namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-class InjectTypeInfo;
-}
 namespace System {
 class Object;
 }
 namespace UnityEngine {
 class Animator;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {

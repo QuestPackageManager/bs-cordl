@@ -46,6 +46,9 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crmf::IControl"
   constexpr operator ::Org::BouncyCastle::Crmf::IControl*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crmf::IControl"
+  constexpr ::Org::BouncyCastle::Crmf::IControl* i___Org__BouncyCastle__Crmf__IControl() noexcept;
+
   constexpr ::Org::BouncyCastle::Asn1::DerUtf8String*& __get_token();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerUtf8String*> const& __get_token() const;

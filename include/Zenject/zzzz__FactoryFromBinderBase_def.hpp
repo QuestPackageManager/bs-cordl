@@ -11,110 +11,110 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FactoryFromBinderBase)
-namespace Zenject {
-class __FactoryFromBinderBase____c__DisplayClass29_0;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+struct Guid;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class Object;
 }
 namespace Zenject {
-class __FactoryFromBinderBase____c__DisplayClass20_0;
+class BindInfo;
 }
 namespace Zenject {
-class __FactoryFromBinderBase____c__DisplayClass33_0;
+template <typename TContract> class ConcreteBinderGeneric_1;
 }
 namespace Zenject {
-class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
-}
-namespace Zenject {
-class __FactoryFromBinderBase___get_AllParentTypes_d__17;
+class ConditionCopyNonLazyBinder;
 }
 namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-class __FactoryFromBinderBase____c__DisplayClass30_0;
-}
-namespace Zenject {
-class __FactoryFromBinderBase____c__DisplayClass34_0;
-}
-namespace System {
-class Object;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace Zenject {
 class FactoryBindInfo;
 }
 namespace Zenject {
-class InjectContext;
-}
-namespace Zenject {
-class ConditionCopyNonLazyBinder;
-}
-namespace UnityEngine {
-class Object;
-}
-namespace Zenject {
-class __FactoryFromBinderBase____c__DisplayClass21_0;
-}
-namespace Zenject {
-class __FactoryFromBinderBase____c__DisplayClass24_0;
-}
-namespace Zenject {
-class BindInfo;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace Zenject {
-class __FactoryFromBinderBase____c__DisplayClass32_0;
-}
-namespace Zenject {
-class __FactoryFromBinderBase____c__DisplayClass28_0;
-}
-namespace System {
-class Type;
-}
-namespace Zenject {
-class __FactoryFromBinderBase____c__DisplayClass27_0;
-}
-namespace Zenject {
-class __FactoryFromBinderBase____c__DisplayClass31_0;
-}
-namespace Zenject {
-template <typename TContract> class ConcreteBinderGeneric_1;
-}
-namespace System {
-struct Guid;
-}
-namespace Zenject {
-class __FactoryFromBinderBase____c__DisplayClass23_0;
-}
-namespace Zenject {
-class __FactoryFromBinderBase____c__DisplayClass26_0;
+class GameObjectCreationParameters;
 }
 namespace Zenject {
 class IProvider;
 }
 namespace Zenject {
+class InjectContext;
+}
+namespace Zenject {
 class InjectTypeInfo;
 }
 namespace Zenject {
-class GameObjectCreationParameters;
+class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace Zenject {
+class __FactoryFromBinderBase____c__DisplayClass20_0;
 }
-namespace System {
-class IDisposable;
+namespace Zenject {
+class __FactoryFromBinderBase____c__DisplayClass21_0;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace Zenject {
+class __FactoryFromBinderBase____c__DisplayClass23_0;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace Zenject {
+class __FactoryFromBinderBase____c__DisplayClass24_0;
+}
+namespace Zenject {
+class __FactoryFromBinderBase____c__DisplayClass26_0;
+}
+namespace Zenject {
+class __FactoryFromBinderBase____c__DisplayClass27_0;
+}
+namespace Zenject {
+class __FactoryFromBinderBase____c__DisplayClass28_0;
+}
+namespace Zenject {
+class __FactoryFromBinderBase____c__DisplayClass29_0;
+}
+namespace Zenject {
+class __FactoryFromBinderBase____c__DisplayClass30_0;
+}
+namespace Zenject {
+class __FactoryFromBinderBase____c__DisplayClass31_0;
+}
+namespace Zenject {
+class __FactoryFromBinderBase____c__DisplayClass32_0;
+}
+namespace Zenject {
+class __FactoryFromBinderBase____c__DisplayClass33_0;
+}
+namespace Zenject {
+class __FactoryFromBinderBase____c__DisplayClass34_0;
+}
+namespace Zenject {
+class __FactoryFromBinderBase___get_AllParentTypes_d__17;
 }
 // Forward declare root types
 namespace Zenject {
@@ -182,9 +182,8 @@ MARK_REF_PTR_T(::Zenject::__FactoryFromBinderBase___get_AllParentTypes_d__17);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3842)), TypeDefinitionIndex(TypeDefinitionIndex(2494)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1695 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(10832)) CS Name:
-// ::FactoryFromBinderBase::<get_AllParentTypes>d__17*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2494)), TypeDefinitionIndex(TypeDefinitionIndex(3842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1695
+// }), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10832)) CS Name: ::FactoryFromBinderBase::<get_AllParentTypes>d__17*
 class CORDL_TYPE __FactoryFromBinderBase___get_AllParentTypes_d__17 : public ::System::Object {
 public:
   // Declarations
@@ -210,17 +209,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Type*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::System::Type*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Type*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::System::Type*>* i___System__Collections__Generic__IEnumerable_1___System__Type__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Type*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Type*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Type*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Type*>* i___System__Collections__Generic__IEnumerator_1___System__Type__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

@@ -6,50 +6,50 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UQueryState_1)
-namespace UnityEngine::UIElements {
-class VisualElement;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine::UIElements {
-struct RuleMatcher;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+class IDisposable;
+}
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System {
+class Object;
 }
 namespace UnityEngine::UIElements {
-template <typename T, typename TElement> class __UQueryState_1__ListQueryMatcher_1;
+struct RuleMatcher;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+template <typename T> class __UQueryState_1__ActionQueryMatcher;
 }
 namespace UnityEngine::UIElements {
 template <typename T> struct __UQueryState_1__Enumerator;
 }
 namespace UnityEngine::UIElements {
-class __UQuery__SingleQueryMatcher;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerator;
+template <typename T, typename TElement> class __UQueryState_1__ListQueryMatcher_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class __UQueryState_1__ActionQueryMatcher;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System {
-class IDisposable;
+class __UQuery__SingleQueryMatcher;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -204,11 +204,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<T>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<T>* i___System__Collections__Generic__IEnumerator_1_T_();
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*();
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator();
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::UQueryState_1<T> queryState);
@@ -280,11 +289,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<T>*();
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>* i___System__Collections__Generic__IEnumerable_1_T_();
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
 
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::UQueryState_1<T>>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::UQueryState_1<T>>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::UQueryState_1<T>>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::UQueryState_1<T>>* i___System__IEquatable_1___UnityEngine__UIElements__UQueryState_1_T__();
 
   static inline void setStaticF_s_Action(::UnityEngine::UIElements::__UQueryState_1__ActionQueryMatcher<T>* value);
 

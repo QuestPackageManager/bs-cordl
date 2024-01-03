@@ -16,46 +16,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ParticleSystem)
 namespace UnityEngine {
-struct __ParticleSystem__SubEmittersModule;
-}
-namespace UnityEngine {
-struct ParticleSystemStopBehavior;
-}
-namespace UnityEngine {
-struct Color32;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct __ParticleSystem__MainModule;
-}
-namespace UnityEngine {
-struct __ParticleSystem__ShapeModule;
-}
-namespace UnityEngine {
-struct __ParticleSystem__Particle;
-}
-namespace UnityEngine {
-struct __ParticleSystem__EmissionModule;
-}
-namespace UnityEngine {
-struct __ParticleSystem__MinMaxCurve;
-}
-namespace UnityEngine {
-struct __ParticleSystem__MinMaxGradient;
-}
-namespace UnityEngine {
-struct __ParticleSystem__EmitParams;
-}
-namespace UnityEngine {
-struct ParticleSystemCurveMode;
-}
-namespace UnityEngine {
 class AnimationCurve;
 }
 namespace UnityEngine {
-struct ParticleSystemGradientMode;
+struct Color32;
 }
 namespace UnityEngine {
 struct Color;
@@ -65,6 +29,42 @@ class Gradient;
 }
 namespace UnityEngine {
 class MeshRenderer;
+}
+namespace UnityEngine {
+struct ParticleSystemCurveMode;
+}
+namespace UnityEngine {
+struct ParticleSystemGradientMode;
+}
+namespace UnityEngine {
+struct ParticleSystemStopBehavior;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct __ParticleSystem__EmissionModule;
+}
+namespace UnityEngine {
+struct __ParticleSystem__EmitParams;
+}
+namespace UnityEngine {
+struct __ParticleSystem__MainModule;
+}
+namespace UnityEngine {
+struct __ParticleSystem__MinMaxCurve;
+}
+namespace UnityEngine {
+struct __ParticleSystem__MinMaxGradient;
+}
+namespace UnityEngine {
+struct __ParticleSystem__Particle;
+}
+namespace UnityEngine {
+struct __ParticleSystem__ShapeModule;
+}
+namespace UnityEngine {
+struct __ParticleSystem__SubEmittersModule;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -455,7 +455,7 @@ static_assert(offsetof(::UnityEngine::__ParticleSystem__MinMaxCurve, m_ConstantM
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(15893))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15893)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15887))
 // CS Name: ::ParticleSystem::MinMaxGradient
 struct CORDL_TYPE __ParticleSystem__MinMaxGradient {

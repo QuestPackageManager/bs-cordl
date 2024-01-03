@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UIDocumentList)
-namespace UnityEngine::UIElements {
-class VisualElement;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
 class UIDocument;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -43,8 +43,7 @@ public:
   inline void RemoveFromListAndFromVisualTree(::UnityEngine::UIElements::UIDocument* uiDocument);
 
   /// @brief Method AddToListAndToVisualTree, addr 0x2e14fc4, size 0x354, virtual false, abstract: false, final false
-  /// @param firstInsertIndex: int32_t (default: static_cast<int32_t>(0x0))
-  inline void AddToListAndToVisualTree(::UnityEngine::UIElements::UIDocument* uiDocument, ::UnityEngine::UIElements::VisualElement* visualTree, int32_t firstInsertIndex = static_cast<int32_t>(0x0));
+  inline void AddToListAndToVisualTree(::UnityEngine::UIElements::UIDocument* uiDocument, ::UnityEngine::UIElements::VisualElement* visualTree, int32_t firstInsertIndex);
 
   static inline ::UnityEngine::UIElements::UIDocumentList* New_ctor();
 

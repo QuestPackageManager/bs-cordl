@@ -11,15 +11,6 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RagdollUtility)
-namespace UnityEngine {
-class Animator;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace RootMotion::FinalIK {
-class __RagdollUtility___DisableRagdollSmooth_d__21;
-}
 namespace RootMotion::FinalIK {
 class IK;
 }
@@ -29,8 +20,26 @@ class __RagdollUtility__Child;
 namespace RootMotion::FinalIK {
 class __RagdollUtility__Rigidbone;
 }
+namespace RootMotion::FinalIK {
+class __RagdollUtility___DisableRagdollSmooth_d__21;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
+}
 namespace UnityEngine {
-class Transform;
+class Animator;
+}
+namespace UnityEngine {
+class Collider;
 }
 namespace UnityEngine {
 class Joint;
@@ -39,16 +48,7 @@ namespace UnityEngine {
 class Rigidbody;
 }
 namespace UnityEngine {
-class Collider;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
+class Transform;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -72,7 +72,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__RagdollUtility___DisableRagdollSmooth_d_
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12618))
 // CS Name: ::RagdollUtility::Rigidbone*
 class CORDL_TYPE __RagdollUtility__Rigidbone : public ::System::Object {
@@ -267,7 +267,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__RagdollUtility__Rigidbone, ___la
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12619))
 // CS Name: ::RagdollUtility::Child*
 class CORDL_TYPE __RagdollUtility__Child : public ::System::Object {
@@ -372,11 +372,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -455,7 +464,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__RagdollUtility___DisableRagdollS
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14877))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14877)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12621))
 // CS Name: ::RootMotion.FinalIK::RagdollUtility*
 class CORDL_TYPE RagdollUtility : public ::UnityEngine::MonoBehaviour {

@@ -7,6 +7,18 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Avatar)
 namespace BeatSaber::AvatarCore {
+struct AvatarPoseData;
+}
+namespace BeatSaber::AvatarCore {
+class IAvatarPoseDataProvider;
+}
+namespace BeatSaber::AvatarCore {
+class IAvatarVisualDataProvider;
+}
+namespace BeatSaber::AvatarCore {
+class IOptionalAvatarDataProvider;
+}
+namespace BeatSaber::AvatarCore {
 struct OptionalAvatarData;
 }
 namespace GlobalNamespace {
@@ -18,20 +30,8 @@ template <typename TKey, typename TValue> class Dictionary_2;
 namespace UnityEngine {
 struct Color;
 }
-namespace BeatSaber::AvatarCore {
-class IAvatarVisualDataProvider;
-}
 namespace UnityEngine {
 struct Vector3;
-}
-namespace BeatSaber::AvatarCore {
-class IAvatarPoseDataProvider;
-}
-namespace BeatSaber::AvatarCore {
-struct AvatarPoseData;
-}
-namespace BeatSaber::AvatarCore {
-class IOptionalAvatarDataProvider;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {

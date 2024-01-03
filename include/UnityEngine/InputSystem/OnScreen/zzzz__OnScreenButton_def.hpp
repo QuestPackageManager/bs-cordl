@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(OnScreenButton)
 namespace UnityEngine::EventSystems {
-class IPointerUpHandler;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
+class IEventSystemHandler;
 }
 namespace UnityEngine::EventSystems {
 class IPointerDownHandler;
 }
 namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+class IPointerUpHandler;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::OnScreen {
@@ -41,11 +41,20 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerDownHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerDownHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerDownHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerDownHandler* i___UnityEngine__EventSystems__IPointerDownHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerUpHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerUpHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerUpHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerUpHandler* i___UnityEngine__EventSystems__IPointerUpHandler() noexcept;
 
   constexpr ::StringW& __get_m_ControlPath();
 

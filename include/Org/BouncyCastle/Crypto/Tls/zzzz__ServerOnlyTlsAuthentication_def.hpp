@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ServerOnlyTlsAuthentication)
 namespace Org::BouncyCastle::Crypto::Tls {
-class Certificate;
+class CertificateRequest;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCredentials;
+class Certificate;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsAuthentication;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class CertificateRequest;
+class TlsCredentials;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -34,6 +34,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsAuthentication"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsAuthentication*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsAuthentication"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsAuthentication* i___Org__BouncyCastle__Crypto__Tls__TlsAuthentication() noexcept;
 
   /// @brief Method NotifyServerCertificate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void NotifyServerCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* serverCertificate);

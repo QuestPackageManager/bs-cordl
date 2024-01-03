@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnitySynchronizationContext)
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Threading {
-class SynchronizationContext;
+class ManualResetEvent;
 }
 namespace System::Threading {
 class SendOrPostCallback;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System::Threading {
+class SynchronizationContext;
+}
+namespace System {
+class Object;
 }
 namespace UnityEngine {
 struct __UnitySynchronizationContext__WorkRequest;
-}
-namespace System::Threading {
-class ManualResetEvent;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -45,8 +45,7 @@ struct CORDL_TYPE __UnitySynchronizationContext__WorkRequest {
 public:
   // Declarations
   /// @brief Method .ctor, addr 0x2cd4858, size 0xc, virtual false, abstract: false, final false
-  /// @param waitHandle: ::System::Threading::ManualResetEvent* (default: nullptr)
-  inline void _ctor(::System::Threading::SendOrPostCallback* callback, ::System::Object* state, ::System::Threading::ManualResetEvent* waitHandle = nullptr);
+  inline void _ctor(::System::Threading::SendOrPostCallback* callback, ::System::Object* state, ::System::Threading::ManualResetEvent* waitHandle);
 
   /// @brief Method Invoke, addr 0x2cd4bf8, size 0xac, virtual false, abstract: false, final false
   inline void Invoke();

@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextWriter)
-namespace System {
-class Object;
+namespace System::IO {
+class __TextWriter__NullTextWriter;
 }
-namespace System {
-class IAsyncDisposable;
+namespace System::IO {
+class __TextWriter__SyncTextWriter;
 }
-namespace System {
-class IFormatProvider;
+namespace System::IO {
+class __TextWriter____c;
 }
 namespace System::Text {
 class Encoding;
@@ -23,23 +23,23 @@ class Encoding;
 namespace System::Threading::Tasks {
 class Task;
 }
-namespace System::IO {
-class __TextWriter____c;
-}
 namespace System::Threading::Tasks {
 struct ValueTask;
 }
-namespace System::IO {
-class __TextWriter__NullTextWriter;
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+class IAsyncDisposable;
 }
 namespace System {
 class IDisposable;
 }
-namespace System::IO {
-class __TextWriter__SyncTextWriter;
+namespace System {
+class IFormatProvider;
 }
 namespace System {
-template <typename T> class Action_1;
+class Object;
 }
 // Forward declare root types
 namespace System::IO {
@@ -143,8 +143,14 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::IAsyncDisposable"
   constexpr operator ::System::IAsyncDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IAsyncDisposable"
+  constexpr ::System::IAsyncDisposable* i___System__IAsyncDisposable() noexcept;
 
   constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get_CoreNewLine();
 

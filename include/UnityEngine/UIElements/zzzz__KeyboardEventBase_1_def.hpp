@@ -13,10 +13,10 @@ namespace UnityEngine {
 struct EventModifiers;
 }
 namespace UnityEngine {
-struct KeyCode;
+class Event;
 }
 namespace UnityEngine {
-class Event;
+struct KeyCode;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -30,9 +30,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10058)), TypeDefinitionIndex(TypeDefinitionIndex(7180)), TypeDefinitionIndex(TypeDefinitionIndex(14602)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1713 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7240)) CS Name:
-// ::UnityEngine.UIElements::KeyboardEventBase`1<T>*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10058)), TypeDefinitionIndex(TypeDefinitionIndex(7180)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst:
+// 1713 }), TypeDefinitionIndex(TypeDefinitionIndex(14602))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7240)) CS Name: ::UnityEngine.UIElements::KeyboardEventBase`1<T>*
 class CORDL_TYPE KeyboardEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
   // Declarations
@@ -63,6 +62,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::UIElements::IKeyboardEvent"
   constexpr operator ::UnityEngine::UIElements::IKeyboardEvent*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UIElements::IKeyboardEvent"
+  constexpr ::UnityEngine::UIElements::IKeyboardEvent* i___UnityEngine__UIElements__IKeyboardEvent() noexcept;
 
   constexpr ::UnityEngine::EventModifiers& __get__modifiers_k__BackingField();
 

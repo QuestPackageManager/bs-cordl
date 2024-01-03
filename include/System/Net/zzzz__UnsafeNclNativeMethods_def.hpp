@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnsafeNclNativeMethods)
-namespace System::Net {
-class __UnsafeNclNativeMethods__SecureStringHelper;
+namespace GlobalNamespace {
+class __UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID;
 }
 namespace System::Net {
 class __UnsafeNclNativeMethods__HttpApi;
 }
-namespace GlobalNamespace {
-class __UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID;
+namespace System::Net {
+class __UnsafeNclNativeMethods__SecureStringHelper;
 }
 namespace System::Security {
 class SecureString;

@@ -1,12 +1,16 @@
 #pragma once
 #include "System/zzzz__Memory_1_def.hpp"
-#include "System/zzzz__ReadOnlyMemory_1_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
-#include "System/zzzz__Span_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Buffers/zzzz__MemoryHandle_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__ReadOnlyMemory_1_def.hpp"
+#include "System/zzzz__Span_1_def.hpp"
 /// @brief Convert operator to "::System::IEquatable_1<::System::Memory_1<T>>"
 template <typename T> constexpr System::Memory_1<T>::operator ::System::IEquatable_1<::System::Memory_1<T>>*() {
+  return static_cast<::System::IEquatable_1<::System::Memory_1<T>>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::System::Memory_1<T>>"
+template <typename T> constexpr ::System::IEquatable_1<::System::Memory_1<T>>* System::Memory_1<T>::i___System__IEquatable_1___System__Memory_1_T__() {
   return static_cast<::System::IEquatable_1<::System::Memory_1<T>>*>(static_cast<void*>(::cordl_internals::Box(this)));
 }
 template <typename T> inline void System::Memory_1<T>::_ctor(::ArrayW<T, ::Array<T>*> array) {

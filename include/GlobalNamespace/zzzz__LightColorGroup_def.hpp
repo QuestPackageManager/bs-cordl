@@ -26,6 +26,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IEditTimeValidated"
   constexpr operator ::GlobalNamespace::IEditTimeValidated*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IEditTimeValidated"
+  constexpr ::GlobalNamespace::IEditTimeValidated* i___GlobalNamespace__IEditTimeValidated() noexcept;
+
   static inline ::GlobalNamespace::LightColorGroup* New_ctor();
 
   /// @brief Method .ctor, addr 0x23a8068, size 0x8, virtual false, abstract: false, final false

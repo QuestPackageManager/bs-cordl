@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ResourceManagerDiagnostics)
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
 namespace System {
 class IDisposable;
 }
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace UnityEngine::AddressableAssets::Utility {
+class DiagnosticInfo;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct AsyncOperationHandle;
 }
-namespace UnityEngine::AddressableAssets::Utility {
-class DiagnosticInfo;
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
 }
 namespace UnityEngine::ResourceManagement {
 struct __ResourceManager__DiagnosticEventContext;
@@ -49,6 +49,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::UnityEngine::ResourceManagement::ResourceManager*& __get_m_ResourceManager();
 

@@ -11,26 +11,26 @@ CORDL_MODULE_EXPORT(DevicelessVRHelper)
 namespace GlobalNamespace {
 class IVRPlatformHelper;
 }
+namespace GlobalNamespace {
+class IVerboseLogger;
+}
+namespace GlobalNamespace {
+struct VRPlatformSDK;
+}
 namespace System {
 class Action;
-}
-namespace UnityEngine {
-struct Pose;
 }
 namespace UnityEngine::XR {
 struct XRNode;
 }
-namespace GlobalNamespace {
-class IVerboseLogger;
-}
 namespace UnityEngine {
-struct Vector2;
+struct Pose;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace GlobalNamespace {
-struct VRPlatformSDK;
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -97,8 +97,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IVRPlatformHelper"
   constexpr operator ::GlobalNamespace::IVRPlatformHelper*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IVRPlatformHelper"
+  constexpr ::GlobalNamespace::IVRPlatformHelper* i___GlobalNamespace__IVRPlatformHelper() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IVerboseLogger"
   constexpr operator ::GlobalNamespace::IVerboseLogger*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IVerboseLogger"
+  constexpr ::GlobalNamespace::IVerboseLogger* i___GlobalNamespace__IVerboseLogger() noexcept;
 
   constexpr ::System::Action*& __get_inputFocusWasCapturedEvent();
 

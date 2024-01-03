@@ -5,8 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TaskScheduler)
-namespace System::Threading {
-class Lock;
+namespace System::Runtime::CompilerServices {
+template <typename TKey, typename TValue> class ConditionalWeakTable_2;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace System::Threading::Tasks {
 class UnobservedTaskExceptionEventArgs;
@@ -14,14 +17,11 @@ class UnobservedTaskExceptionEventArgs;
 namespace System::Threading::Tasks {
 class __TaskScheduler__SystemThreadingTasks_TaskSchedulerDebugView;
 }
-namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue> class ConditionalWeakTable_2;
+namespace System::Threading {
+class Lock;
 }
 namespace System {
 template <typename TEventArgs> class EventHandler_1;
-}
-namespace System::Threading::Tasks {
-class Task;
 }
 namespace System {
 class Object;

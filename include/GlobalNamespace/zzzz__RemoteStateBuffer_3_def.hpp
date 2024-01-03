@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RemoteStateBuffer_3)
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__SmoothingDelegate;
+struct SyncStateId;
 }
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__InterpolationDelegate;
 }
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> struct __StateBuffer_3__TimestampedStateTable;
+template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__SmoothingDelegate;
 }
 namespace GlobalNamespace {
-struct SyncStateId;
+template <typename TStateTable, typename TType, typename TState> struct __StateBuffer_3__TimestampedStateTable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,7 +30,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12985), inst: 3837 }), TypeDefinitionIndex(TypeDefinitionIndex(12985))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12985)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12985), inst: 3837 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12987))
 // CS Name: ::RemoteStateBuffer`3<TStateTable,TType,TState>*
 class CORDL_TYPE RemoteStateBuffer_3 : public ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState> {
@@ -123,9 +123,8 @@ public:
                                                                                              ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* smoother);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param smoother: ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable,TType,TState>* (default: nullptr)
   inline void _ctor(int32_t size, ::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* interpolator,
-                    ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* smoother = nullptr);
+                    ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* smoother);
 
   // Ctor Parameters [CppParam { name: "", ty: "RemoteStateBuffer_3", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

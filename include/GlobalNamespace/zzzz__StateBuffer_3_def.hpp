@@ -12,28 +12,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StateBuffer_3)
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> struct __StateBuffer_3__TimestampedStateTable;
-}
-namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__SmoothingDelegate;
-}
-namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__InterpolationDelegate;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class IAsyncResult;
-}
-namespace System {
-class AsyncCallback;
+template <typename T> class IEquatableByReference_1;
 }
 namespace GlobalNamespace {
 struct SyncStateId;
 }
 namespace GlobalNamespace {
-template <typename T> class IEquatableByReference_1;
+template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__InterpolationDelegate;
+}
+namespace GlobalNamespace {
+template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__SmoothingDelegate;
+}
+namespace GlobalNamespace {
+template <typename TStateTable, typename TType, typename TState> struct __StateBuffer_3__TimestampedStateTable;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -67,6 +67,10 @@ public:
   // Declarations
   /// @brief Convert operator to "::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable,TType,TState>>"
   constexpr operator ::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*();
+
+  /// @brief Convert to "::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable,TType,TState>>"
+  constexpr ::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*
+  i___GlobalNamespace__IEquatableByReference_1___GlobalNamespace____StateBuffer_3__TimestampedStateTable_TStateTable_TType_TState__();
 
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool Equals(ByRef<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>> other);
@@ -262,9 +266,8 @@ public:
                                                                                        ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* smoother);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param smoother: ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable,TType,TState>* (default: nullptr)
   inline void _ctor(int32_t size, ::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* interpolator,
-                    ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* smoother = nullptr);
+                    ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* smoother);
 
   /// @brief Method GetPreviousIndex, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t GetPreviousIndex(int32_t offset);

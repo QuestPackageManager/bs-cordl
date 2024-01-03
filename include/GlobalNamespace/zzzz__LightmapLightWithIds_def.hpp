@@ -11,25 +11,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightmapLightWithIds)
 namespace GlobalNamespace {
-class __LightWithIds__LightWithId;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+class BakedLightsNormalizer;
 }
 namespace GlobalNamespace {
-class BakedLightsNormalizer;
+struct ColorMixAndWeightingApproach;
 }
 namespace GlobalNamespace {
 struct __LightConstants__BakeId;
 }
 namespace GlobalNamespace {
-struct ColorMixAndWeightingApproach;
-}
-namespace UnityEngine {
-struct Color;
+class __LightWithIds__LightWithId;
 }
 namespace GlobalNamespace {
 class __LightmapLightWithIds__LightIntensitiesWithId;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -118,8 +118,8 @@ static_assert(offsetof(::GlobalNamespace::__LightmapLightWithIds__LightIntensiti
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14522)), TypeDefinitionIndex(TypeDefinitionIndex(14544)), TypeDefinitionIndex(TypeDefinitionIndex(14532)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10251))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14537)) CS Name: ::LightmapLightWithIds*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14522)), TypeDefinitionIndex(TypeDefinitionIndex(14544)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14532))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14537)) CS Name: ::LightmapLightWithIds*
 class CORDL_TYPE LightmapLightWithIds : public ::GlobalNamespace::LightWithIds {
 public:
   // Declarations

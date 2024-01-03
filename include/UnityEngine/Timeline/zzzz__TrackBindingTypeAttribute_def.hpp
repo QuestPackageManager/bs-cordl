@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Attribute_def.hpp"
 #include "UnityEngine/Timeline/zzzz__TrackBindingFlags_def.hpp"
 CORDL_MODULE_EXPORT(TrackBindingTypeAttribute)
-namespace UnityEngine::Timeline {
-struct TrackBindingFlags;
-}
 namespace System {
 class Type;
+}
+namespace UnityEngine::Timeline {
+struct TrackBindingFlags;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::TrackBindingTypeAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13917)), TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(13917))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13918))
 // CS Name: ::UnityEngine.Timeline::TrackBindingTypeAttribute*
 class CORDL_TYPE TrackBindingTypeAttribute : public ::System::Attribute {

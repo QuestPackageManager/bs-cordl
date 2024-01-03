@@ -11,41 +11,41 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LayoutGroup)
-namespace UnityEngine::UI {
-class __LayoutGroup___DelayedSetDirty_d__56;
-}
-namespace UnityEngine {
-class RectOffset;
-}
-namespace UnityEngine::UI {
-class ILayoutElement;
-}
-namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine::UI {
-class ILayoutGroup;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine::UI {
-class ILayoutController;
-}
-namespace UnityEngine {
-struct TextAnchor;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class IDisposable;
 }
 namespace System {
 class Object;
+}
+namespace UnityEngine::UI {
+class ILayoutController;
+}
+namespace UnityEngine::UI {
+class ILayoutElement;
+}
+namespace UnityEngine::UI {
+class ILayoutGroup;
+}
+namespace UnityEngine::UI {
+class __LayoutGroup___DelayedSetDirty_d__56;
+}
+namespace UnityEngine {
+class RectOffset;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine {
+struct TextAnchor;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -83,11 +83,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -166,8 +175,8 @@ static_assert(offsetof(::UnityEngine::UI::__LayoutGroup___DelayedSetDirty_d__56,
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(13214)), TypeDefinitionIndex(TypeDefinitionIndex(15901)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10278))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13091)) CS Name: ::UnityEngine.UI::LayoutGroup*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10278)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(15901)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13214))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13091)) CS Name: ::UnityEngine.UI::LayoutGroup*
 class CORDL_TYPE LayoutGroup : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
   // Declarations
@@ -224,11 +233,20 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::ILayoutElement"
   constexpr operator ::UnityEngine::UI::ILayoutElement*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::UI::ILayoutElement"
+  constexpr ::UnityEngine::UI::ILayoutElement* i___UnityEngine__UI__ILayoutElement() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::UI::ILayoutGroup"
   constexpr operator ::UnityEngine::UI::ILayoutGroup*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::UI::ILayoutGroup"
+  constexpr ::UnityEngine::UI::ILayoutGroup* i___UnityEngine__UI__ILayoutGroup() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::UI::ILayoutController"
   constexpr operator ::UnityEngine::UI::ILayoutController*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UI::ILayoutController"
+  constexpr ::UnityEngine::UI::ILayoutController* i___UnityEngine__UI__ILayoutController() noexcept;
 
   constexpr ::UnityEngine::RectOffset*& __get_m_Padding();
 

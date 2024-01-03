@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IVRExtendedDisplay)
-namespace System {
-class AsyncCallback;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class IAsyncResult;
-}
 namespace OVR::OpenVR {
 struct EVREye;
 }
 namespace OVR::OpenVR {
-class __IVRExtendedDisplay___GetWindowBounds;
+class __IVRExtendedDisplay___GetDXGIOutputInfo;
 }
 namespace OVR::OpenVR {
 class __IVRExtendedDisplay___GetEyeOutputViewport;
 }
 namespace OVR::OpenVR {
-class __IVRExtendedDisplay___GetDXGIOutputInfo;
+class __IVRExtendedDisplay___GetWindowBounds;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

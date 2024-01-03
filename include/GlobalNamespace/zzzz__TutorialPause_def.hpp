@@ -5,7 +5,7 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(TutorialPause)
 namespace GlobalNamespace {
-class TutorialSongController;
+class AudioListenerController;
 }
 namespace GlobalNamespace {
 class IGamePause;
@@ -13,11 +13,11 @@ class IGamePause;
 namespace GlobalNamespace {
 class SaberManager;
 }
+namespace GlobalNamespace {
+class TutorialSongController;
+}
 namespace System {
 class Action;
-}
-namespace GlobalNamespace {
-class AudioListenerController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -60,6 +60,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IGamePause"
   constexpr operator ::GlobalNamespace::IGamePause*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IGamePause"
+  constexpr ::GlobalNamespace::IGamePause* i___GlobalNamespace__IGamePause() noexcept;
 
   constexpr ::GlobalNamespace::TutorialSongController*& __get__tutorialSongController();
 

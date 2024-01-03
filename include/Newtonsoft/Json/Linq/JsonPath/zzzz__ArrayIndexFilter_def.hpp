@@ -7,8 +7,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArrayIndexFilter)
-namespace System {
-template <typename T> struct Nullable_1;
+namespace Newtonsoft::Json::Linq::JsonPath {
+class __ArrayIndexFilter___ExecuteFilter_d__4;
 }
 namespace Newtonsoft::Json::Linq {
 class JToken;
@@ -16,23 +16,23 @@ class JToken;
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace Newtonsoft::Json::Linq::JsonPath {
-class __ArrayIndexFilter___ExecuteFilter_d__4;
-}
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerable;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq::JsonPath {
@@ -95,17 +95,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* i___System__Collections__Generic__IEnumerable_1___Newtonsoft__Json__Linq__JToken__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* i___System__Collections__Generic__IEnumerator_1___Newtonsoft__Json__Linq__JToken__() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -284,8 +299,8 @@ static_assert(offsetof(::Newtonsoft::Json::Linq::JsonPath::__ArrayIndexFilter___
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(12020)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(12009)) CS Name: ::Newtonsoft.Json.Linq.JsonPath::ArrayIndexFilter*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12020)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12009)) CS Name: ::Newtonsoft.Json.Linq.JsonPath::ArrayIndexFilter*
 class CORDL_TYPE ArrayIndexFilter : public ::Newtonsoft::Json::Linq::JsonPath::PathFilter {
 public:
   // Declarations

@@ -7,14 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(FactorySubContainerBinder_1)
-namespace Zenject {
-template <typename TContract> class __FactorySubContainerBinder_1____c__DisplayClass2_0;
-}
 namespace System {
 template <typename T> class Action_1;
 }
-namespace Zenject {
-class ScopeConcreteIdArgConditionCopyNonLazyBinder;
+namespace System {
+class Object;
 }
 namespace UnityEngine {
 class Object;
@@ -22,44 +19,47 @@ class Object;
 namespace Zenject {
 class BindInfo;
 }
-namespace System {
-class Object;
-}
-namespace Zenject {
-template <typename TContract> class __FactorySubContainerBinder_1____c__DisplayClass8_0;
-}
-namespace Zenject {
-template <typename TContract> class __FactorySubContainerBinder_1____c__DisplayClass1_0;
-}
-namespace Zenject {
-class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
-}
-namespace Zenject {
-template <typename TContract> class __FactorySubContainerBinder_1____c__DisplayClass6_0;
-}
-namespace Zenject {
-template <typename TContract> class __FactorySubContainerBinder_1____c__DisplayClass3_0;
-}
 namespace Zenject {
 class DiContainer;
-}
-namespace Zenject {
-template <typename TContract> class __FactorySubContainerBinder_1____c__DisplayClass4_0;
 }
 namespace Zenject {
 class FactoryBindInfo;
 }
 namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
-class SubContainerCreatorBindInfo;
+class GameObjectCreationParameters;
 }
 namespace Zenject {
 class IProvider;
 }
 namespace Zenject {
-class GameObjectCreationParameters;
+class InjectTypeInfo;
+}
+namespace Zenject {
+class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
+}
+namespace Zenject {
+class ScopeConcreteIdArgConditionCopyNonLazyBinder;
+}
+namespace Zenject {
+class SubContainerCreatorBindInfo;
+}
+namespace Zenject {
+template <typename TContract> class __FactorySubContainerBinder_1____c__DisplayClass1_0;
+}
+namespace Zenject {
+template <typename TContract> class __FactorySubContainerBinder_1____c__DisplayClass2_0;
+}
+namespace Zenject {
+template <typename TContract> class __FactorySubContainerBinder_1____c__DisplayClass3_0;
+}
+namespace Zenject {
+template <typename TContract> class __FactorySubContainerBinder_1____c__DisplayClass4_0;
+}
+namespace Zenject {
+template <typename TContract> class __FactorySubContainerBinder_1____c__DisplayClass6_0;
+}
+namespace Zenject {
+template <typename TContract> class __FactorySubContainerBinder_1____c__DisplayClass8_0;
 }
 // Forward declare root types
 namespace Zenject {
@@ -601,7 +601,7 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10827), inst: 1850 }), TypeDefinitionIndex(TypeDefinitionIndex(10827))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10827)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10827), inst: 1850 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10787))
 // CS Name: ::Zenject::FactorySubContainerBinder`1<TContract>*
 class CORDL_TYPE FactorySubContainerBinder_1 : public ::Zenject::FactorySubContainerBinderBase_1<TContract> {

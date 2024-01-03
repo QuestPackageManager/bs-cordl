@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BindingUtil)
-namespace System {
-class Type;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace UnityEngine {
+namespace System {
 class Object;
 }
-namespace Zenject {
-struct InvalidBindResponses;
-}
-namespace Zenject {
-class IProvider;
+namespace System {
+class Type;
 }
 namespace UnityEngine {
 class GameObject;
 }
-namespace System {
+namespace UnityEngine {
 class Object;
+}
+namespace Zenject {
+class IProvider;
+}
+namespace Zenject {
+struct InvalidBindResponses;
 }
 // Forward declare root types
 namespace Zenject {

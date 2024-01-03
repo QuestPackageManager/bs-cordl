@@ -4,9 +4,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(RichPresence)
-namespace Oculus::Platform {
-class RichPresenceOptions;
-}
 namespace Oculus::Platform::Models {
 class DestinationList;
 }
@@ -15,6 +12,9 @@ template <typename T> class Request_1;
 }
 namespace Oculus::Platform {
 class Request;
+}
+namespace Oculus::Platform {
+class RichPresenceOptions;
 }
 // Forward declare root types
 namespace Oculus::Platform {

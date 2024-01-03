@@ -33,6 +33,9 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Method get_keepWaiting, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_keepWaiting();
 

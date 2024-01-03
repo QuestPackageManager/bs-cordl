@@ -3,11 +3,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ICoroutineStarter)
-namespace UnityEngine {
-class Coroutine;
-}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace UnityEngine {
+class Coroutine;
 }
 // Forward declare root types
 namespace GlobalNamespace {

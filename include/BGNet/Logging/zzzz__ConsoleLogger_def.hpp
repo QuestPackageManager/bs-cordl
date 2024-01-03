@@ -30,6 +30,9 @@ public:
   /// @brief Convert operator to "::BGNet::Logging::__Debug__ILogger"
   constexpr operator ::BGNet::Logging::__Debug__ILogger*() noexcept;
 
+  /// @brief Convert to "::BGNet::Logging::__Debug__ILogger"
+  constexpr ::BGNet::Logging::__Debug__ILogger* i___BGNet__Logging____Debug__ILogger() noexcept;
+
   /// @brief Method LogInfo, addr 0xe60ee4, size 0xe0, virtual true, abstract: false, final true
   inline void LogInfo(::StringW message);
 

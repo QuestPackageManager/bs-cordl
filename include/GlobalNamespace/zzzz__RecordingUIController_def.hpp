@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(RecordingUIController)
-namespace UnityEngine {
-class GameObject;
-}
 namespace GlobalNamespace {
 class __RecordingUIController__InitData;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {

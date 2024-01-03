@@ -5,5 +5,9 @@
 constexpr System::ComponentModel::Design::IDesigner::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* System::ComponentModel::Design::IDesigner::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
 #ifndef CORDL_NO_IMPL_INCLUDE
 #endif

@@ -35,6 +35,9 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity* i___Org__BouncyCastle__Crypto__Tls__TlsPskIdentity() noexcept;
+
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mIdentity();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mIdentity() const;

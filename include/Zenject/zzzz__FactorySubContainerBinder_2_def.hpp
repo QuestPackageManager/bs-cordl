@@ -7,44 +7,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(FactorySubContainerBinder_2)
-namespace Zenject {
-class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
-}
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace System {
 class Object;
 }
-namespace Zenject {
-class FactoryBindInfo;
-}
-namespace Zenject {
-template <typename TParam1, typename TContract> class __FactorySubContainerBinder_2____c__DisplayClass3_0;
-}
 namespace UnityEngine {
 class Object;
-}
-namespace Zenject {
-class DiContainer;
 }
 namespace Zenject {
 class BindInfo;
 }
 namespace Zenject {
-class ScopeConcreteIdArgConditionCopyNonLazyBinder;
+class DiContainer;
 }
 namespace Zenject {
-template <typename TParam1, typename TContract> class __FactorySubContainerBinder_2____c__DisplayClass4_0;
+class FactoryBindInfo;
 }
 namespace Zenject {
-template <typename TParam1, typename TContract> class __FactorySubContainerBinder_2____c__DisplayClass1_0;
-}
-namespace Zenject {
-template <typename TParam1, typename TContract> class __FactorySubContainerBinder_2____c__DisplayClass2_0;
-}
-namespace Zenject {
-class SubContainerCreatorBindInfo;
+class GameObjectCreationParameters;
 }
 namespace Zenject {
 class IProvider;
@@ -53,7 +35,25 @@ namespace Zenject {
 class InjectTypeInfo;
 }
 namespace Zenject {
-class GameObjectCreationParameters;
+class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
+}
+namespace Zenject {
+class ScopeConcreteIdArgConditionCopyNonLazyBinder;
+}
+namespace Zenject {
+class SubContainerCreatorBindInfo;
+}
+namespace Zenject {
+template <typename TParam1, typename TContract> class __FactorySubContainerBinder_2____c__DisplayClass1_0;
+}
+namespace Zenject {
+template <typename TParam1, typename TContract> class __FactorySubContainerBinder_2____c__DisplayClass2_0;
+}
+namespace Zenject {
+template <typename TParam1, typename TContract> class __FactorySubContainerBinder_2____c__DisplayClass3_0;
+}
+namespace Zenject {
+template <typename TParam1, typename TContract> class __FactorySubContainerBinder_2____c__DisplayClass4_0;
 }
 // Forward declare root types
 namespace Zenject {

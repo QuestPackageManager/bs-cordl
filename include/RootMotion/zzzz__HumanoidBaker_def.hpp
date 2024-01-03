@@ -11,14 +11,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HumanoidBaker)
-namespace UnityEngine {
-class AnimationClip;
+namespace RootMotion {
+class BakerHumanoidQT;
 }
 namespace RootMotion {
 class BakerMuscle;
 }
-namespace RootMotion {
-class BakerHumanoidQT;
+namespace UnityEngine {
+class AnimationClip;
 }
 namespace UnityEngine {
 class HumanPoseHandler;
@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::RootMotion::HumanoidBaker);
 // SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12471)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(14884)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12479)) CS Name: ::RootMotion::HumanoidBaker*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(14884)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12471))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12479)) CS Name: ::RootMotion::HumanoidBaker*
 class CORDL_TYPE HumanoidBaker : public ::RootMotion::Baker {
 public:
   // Declarations

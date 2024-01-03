@@ -6,22 +6,22 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MonoSslAuthenticationOptions)
 namespace System::Net::Security {
+struct EncryptionPolicy;
+}
+namespace System::Net::Security {
 class ServerCertSelectionCallback;
 }
 namespace System::Security::Authentication {
 struct SslProtocols;
-}
-namespace System::Net::Security {
-struct EncryptionPolicy;
-}
-namespace System::Security::Cryptography::X509Certificates {
-struct X509RevocationMode;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateCollection;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
+}
+namespace System::Security::Cryptography::X509Certificates {
+struct X509RevocationMode;
 }
 // Forward declare root types
 namespace Mono::Net::Security {

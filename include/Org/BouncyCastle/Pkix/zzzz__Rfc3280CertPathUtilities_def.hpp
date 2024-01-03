@@ -7,53 +7,53 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Rfc3280CertPathUtilities)
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
-}
-namespace Org::BouncyCastle::Pkix {
-class PkixPolicyNode;
-}
-namespace Org::BouncyCastle::X509 {
-class X509Crl;
+namespace Org::BouncyCastle::Asn1::X509 {
+class DistributionPoint;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
 }
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Pkix {
+class CertStatus;
+}
+namespace Org::BouncyCastle::Pkix {
+class PkixCertPath;
+}
+namespace Org::BouncyCastle::Pkix {
+class PkixCrlUtilities;
+}
+namespace Org::BouncyCastle::Pkix {
+class PkixNameConstraintValidator;
+}
+namespace Org::BouncyCastle::Pkix {
+class PkixParameters;
+}
+namespace Org::BouncyCastle::Pkix {
+class PkixPolicyNode;
+}
 namespace Org::BouncyCastle::Pkix {
 class ReasonsMask;
+}
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Crl;
+}
+namespace System::Collections {
+class IList;
 }
 namespace System {
 struct DateTime;
 }
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
-namespace Org::BouncyCastle::Pkix {
-class PkixNameConstraintValidator;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class DistributionPoint;
-}
-namespace Org::BouncyCastle::Pkix {
-class PkixParameters;
-}
-namespace Org::BouncyCastle::Pkix {
-class PkixCertPath;
-}
-namespace Org::BouncyCastle::Pkix {
-class CertStatus;
-}
-namespace Org::BouncyCastle::Pkix {
-class PkixCrlUtilities;
-}
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {

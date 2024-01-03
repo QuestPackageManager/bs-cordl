@@ -6,92 +6,92 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SubContainerBinder)
-namespace Zenject {
-class __SubContainerBinder____c__DisplayClass13_0;
+namespace System {
+template <typename T> class Action_1;
 }
-namespace Zenject {
-class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
-}
-namespace Zenject {
-class BindInfo;
-}
-namespace Zenject {
-class __SubContainerBinder____c__DisplayClass8_0;
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 class Object;
 }
-namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-class __SubContainerBinder____c__DisplayClass24_0;
-}
-namespace Zenject {
-class __SubContainerBinder____c__DisplayClass12_0;
-}
-namespace Zenject {
-class IBindingFinalizer;
-}
-namespace Zenject {
-class __SubContainerBinder____c__DisplayClass11_0;
-}
-namespace Zenject {
-class __SubContainerBinder____c__DisplayClass15_0;
-}
-namespace Zenject {
-class __SubContainerBinder____c__DisplayClass20_0;
-}
-namespace Zenject {
-class __SubContainerBinder____c__DisplayClass10_0;
-}
-namespace Zenject {
-class __SubContainerBinder____c__DisplayClass18_0;
-}
-namespace Zenject {
-class __SubContainerBinder____c__DisplayClass7_0;
-}
-namespace Zenject {
-class WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder;
-}
 namespace System {
 class Type;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace Zenject {
-class InjectContext;
-}
-namespace Zenject {
-class ScopeConcreteIdArgConditionCopyNonLazyBinder;
-}
-namespace Zenject {
-class __SubContainerBinder____c__DisplayClass17_0;
-}
-namespace Zenject {
-class BindStatement;
-}
-namespace Zenject {
-class __SubContainerBinder____c__DisplayClass22_0;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine {
 class Object;
 }
 namespace Zenject {
+class BindInfo;
+}
+namespace Zenject {
+class BindStatement;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class GameObjectCreationParameters;
+}
+namespace Zenject {
+class IBindingFinalizer;
+}
+namespace Zenject {
 class ISubContainerCreator;
+}
+namespace Zenject {
+class InjectContext;
 }
 namespace Zenject {
 class InjectTypeInfo;
 }
 namespace Zenject {
+class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
+}
+namespace Zenject {
+class ScopeConcreteIdArgConditionCopyNonLazyBinder;
+}
+namespace Zenject {
 class SubContainerCreatorBindInfo;
 }
 namespace Zenject {
-class GameObjectCreationParameters;
+class WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder;
+}
+namespace Zenject {
+class __SubContainerBinder____c__DisplayClass10_0;
+}
+namespace Zenject {
+class __SubContainerBinder____c__DisplayClass11_0;
+}
+namespace Zenject {
+class __SubContainerBinder____c__DisplayClass12_0;
+}
+namespace Zenject {
+class __SubContainerBinder____c__DisplayClass13_0;
+}
+namespace Zenject {
+class __SubContainerBinder____c__DisplayClass15_0;
+}
+namespace Zenject {
+class __SubContainerBinder____c__DisplayClass17_0;
+}
+namespace Zenject {
+class __SubContainerBinder____c__DisplayClass18_0;
+}
+namespace Zenject {
+class __SubContainerBinder____c__DisplayClass20_0;
+}
+namespace Zenject {
+class __SubContainerBinder____c__DisplayClass22_0;
+}
+namespace Zenject {
+class __SubContainerBinder____c__DisplayClass24_0;
+}
+namespace Zenject {
+class __SubContainerBinder____c__DisplayClass7_0;
+}
+namespace Zenject {
+class __SubContainerBinder____c__DisplayClass8_0;
 }
 // Forward declare root types
 namespace Zenject {

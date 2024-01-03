@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CrossContextChannel)
 namespace System::Runtime::Remoting::Contexts {
+class Context;
+}
+namespace System::Runtime::Remoting::Contexts {
 class __CrossContextChannel__ContextRestoreSink;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessageCtrl;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessageCtrl;
-}
-namespace System::Runtime::Remoting::Contexts {
-class Context;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Contexts {
@@ -50,6 +50,9 @@ public:
 
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"
+  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* i___System__Runtime__Remoting__Messaging__IMessageSink() noexcept;
 
   constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __get__next();
 
@@ -131,6 +134,9 @@ public:
 
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"
+  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* i___System__Runtime__Remoting__Messaging__IMessageSink() noexcept;
 
   /// @brief Method SyncProcessMessage, addr 0x249ef04, size 0x3ec, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);

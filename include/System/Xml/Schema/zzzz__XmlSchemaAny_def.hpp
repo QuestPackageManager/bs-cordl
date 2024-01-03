@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaAny);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11734)), TypeDefinitionIndex(TypeDefinitionIndex(11721))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11721)), TypeDefinitionIndex(TypeDefinitionIndex(11734))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11715))
 // CS Name: ::System.Xml.Schema::XmlSchemaAny*
 class CORDL_TYPE XmlSchemaAny : public ::System::Xml::Schema::XmlSchemaParticle {

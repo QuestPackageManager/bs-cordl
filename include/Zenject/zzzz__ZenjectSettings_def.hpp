@@ -10,26 +10,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ZenjectSettings)
-namespace Zenject {
-class __ZenjectSettings__SignalSettings;
+namespace System {
+class Object;
 }
 namespace Zenject {
-struct ValidationErrorResponses;
+class InjectTypeInfo;
 }
 namespace Zenject {
 struct RootResolveMethods;
 }
 namespace Zenject {
-struct SignalMissingHandlerResponses;
-}
-namespace Zenject {
 struct SignalDefaultSyncModes;
 }
 namespace Zenject {
-class InjectTypeInfo;
+struct SignalMissingHandlerResponses;
 }
-namespace System {
-class Object;
+namespace Zenject {
+struct ValidationErrorResponses;
+}
+namespace Zenject {
+class __ZenjectSettings__SignalSettings;
 }
 // Forward declare root types
 namespace Zenject {
@@ -106,11 +106,8 @@ public:
                                                                        bool requireStrictUnsubscribe, int32_t defaultAsyncTickPriority);
 
   /// @brief Method .ctor, addr 0x2f0468c, size 0x44, virtual false, abstract: false, final false
-  /// @param missingHandlerDefaultResponse: ::Zenject::SignalMissingHandlerResponses (default: static_cast<int32_t>(0x2))
-  /// @param requireStrictUnsubscribe: bool (default: false)
-  /// @param defaultAsyncTickPriority: int32_t (default: static_cast<int32_t>(0x1))
-  inline void _ctor(::Zenject::SignalDefaultSyncModes defaultSyncMode, ::Zenject::SignalMissingHandlerResponses missingHandlerDefaultResponse = static_cast<int32_t>(0x2),
-                    bool requireStrictUnsubscribe = false, int32_t defaultAsyncTickPriority = static_cast<int32_t>(0x1));
+  inline void _ctor(::Zenject::SignalDefaultSyncModes defaultSyncMode, ::Zenject::SignalMissingHandlerResponses missingHandlerDefaultResponse, bool requireStrictUnsubscribe,
+                    int32_t defaultAsyncTickPriority);
 
   static inline ::Zenject::__ZenjectSettings__SignalSettings* New_ctor();
 
@@ -179,7 +176,7 @@ static_assert(offsetof(::Zenject::__ZenjectSettings__SignalSettings, ____default
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11169)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11170))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11169)), TypeDefinitionIndex(TypeDefinitionIndex(11170)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11174))
 // CS Name: ::Zenject::ZenjectSettings*
 class CORDL_TYPE ZenjectSettings : public ::System::Object {
@@ -255,13 +252,8 @@ public:
                                                      ::Zenject::__ZenjectSettings__SignalSettings* signalSettings);
 
   /// @brief Method .ctor, addr 0x2f04538, size 0xa0, virtual false, abstract: false, final false
-  /// @param validationRootResolveMethod: ::Zenject::RootResolveMethods (default: static_cast<int32_t>(0x0))
-  /// @param displayWarningWhenResolvingDuringInstall: bool (default: true)
-  /// @param ensureDeterministicDestructionOrderOnApplicationQuit: bool (default: false)
-  /// @param signalSettings: ::Zenject::__ZenjectSettings__SignalSettings* (default: nullptr)
-  inline void _ctor(::Zenject::ValidationErrorResponses validationErrorResponse, ::Zenject::RootResolveMethods validationRootResolveMethod = static_cast<int32_t>(0x0),
-                    bool displayWarningWhenResolvingDuringInstall = true, bool ensureDeterministicDestructionOrderOnApplicationQuit = false,
-                    ::Zenject::__ZenjectSettings__SignalSettings* signalSettings = nullptr);
+  inline void _ctor(::Zenject::ValidationErrorResponses validationErrorResponse, ::Zenject::RootResolveMethods validationRootResolveMethod, bool displayWarningWhenResolvingDuringInstall,
+                    bool ensureDeterministicDestructionOrderOnApplicationQuit, ::Zenject::__ZenjectSettings__SignalSettings* signalSettings);
 
   static inline ::Zenject::ZenjectSettings* New_ctor();
 

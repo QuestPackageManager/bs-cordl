@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/zzzz__TrackedDevice_def.hpp"
 CORDL_MODULE_EXPORT(XRHMD)
 namespace UnityEngine::InputSystem::Controls {
-class Vector3Control;
+class QuaternionControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class QuaternionControl;
+class Vector3Control;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XR {

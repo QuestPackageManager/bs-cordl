@@ -6,6 +6,12 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(XmlNumeric2Converter)
+namespace System::Xml::Schema {
+class XmlSchemaType;
+}
+namespace System::Xml::Schema {
+class XmlValueConverter;
+}
 namespace System::Xml {
 class IXmlNamespaceResolver;
 }
@@ -14,12 +20,6 @@ class Object;
 }
 namespace System {
 class Type;
-}
-namespace System::Xml::Schema {
-class XmlSchemaType;
-}
-namespace System::Xml::Schema {
-class XmlValueConverter;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

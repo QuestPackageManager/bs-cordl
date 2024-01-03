@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(QuantizedMathf)
 namespace UnityEngine {
-struct Quaternion;
+struct Pose;
 }
 namespace UnityEngine {
-struct Pose;
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;

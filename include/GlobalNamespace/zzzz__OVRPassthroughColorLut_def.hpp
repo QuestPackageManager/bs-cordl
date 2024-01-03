@@ -15,22 +15,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRPassthroughColorLut)
 namespace GlobalNamespace {
-struct __OVRPassthroughColorLut__WriteColorsAsBytesJob;
+struct __OVRPassthroughColorLut__ColorChannels;
 }
 namespace GlobalNamespace {
 class __OVRPassthroughColorLut__ColorLutTextureConverter;
 }
-namespace System {
-class Object;
-}
-namespace UnityEngine {
-struct TextureFormat;
+namespace GlobalNamespace {
+struct __OVRPassthroughColorLut__ColorLutTextureConverter__MapColorValuesJob;
 }
 namespace GlobalNamespace {
-struct __OVRPassthroughColorLut__ColorChannels;
+struct __OVRPassthroughColorLut__ColorLutTextureConverter__TextureSettings;
+}
+namespace GlobalNamespace {
+struct __OVRPassthroughColorLut__WriteColorsAsBytesJob;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__PassthroughColorLutData;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
+}
+namespace Unity::Jobs {
+class IJobParallelFor;
+}
+namespace UnityEngine {
+struct Color32;
 }
 namespace UnityEngine {
 struct Color;
@@ -39,22 +54,7 @@ namespace UnityEngine {
 class Texture2D;
 }
 namespace UnityEngine {
-struct Color32;
-}
-namespace System {
-class IDisposable;
-}
-namespace GlobalNamespace {
-struct __OVRPassthroughColorLut__ColorLutTextureConverter__MapColorValuesJob;
-}
-namespace GlobalNamespace {
-struct __OVRPassthroughColorLut__ColorLutTextureConverter__TextureSettings;
-}
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
-}
-namespace Unity::Jobs {
-class IJobParallelFor;
+struct TextureFormat;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -136,14 +136,17 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughColorLut__ColorChannel
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 293 }), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(8190)) CS
-// Name: ::OVRPassthroughColorLut::WriteColorsAsBytesJob
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 293 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(9999))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8190)) CS Name:
+// ::OVRPassthroughColorLut::WriteColorsAsBytesJob
 struct CORDL_TYPE __OVRPassthroughColorLut__WriteColorsAsBytesJob {
 public:
   // Declarations
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
+
+  /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
+  constexpr ::Unity::Jobs::IJobParallelFor* i___Unity__Jobs__IJobParallelFor();
 
   /// @brief Method Execute, addr 0x27c759c, size 0x130, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
@@ -277,13 +280,16 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughColorLut__ColorLutText
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741 }), TypeDefinitionIndex(TypeDefinitionIndex(8192)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9999))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8191)) CS Name: ::OVRPassthroughColorLut::ColorLutTextureConverter::MapColorValuesJob
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(8192))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8191)) CS Name: ::OVRPassthroughColorLut::ColorLutTextureConverter::MapColorValuesJob
 struct CORDL_TYPE __OVRPassthroughColorLut__ColorLutTextureConverter__MapColorValuesJob {
 public:
   // Declarations
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
+
+  /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
+  constexpr ::Unity::Jobs::IJobParallelFor* i___Unity__Jobs__IJobParallelFor();
 
   /// @brief Method Execute, addr 0x27c798c, size 0xa0, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
@@ -420,6 +426,9 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   constexpr uint32_t& __get__Resolution_k__BackingField();
 
   constexpr uint32_t const& __get__Resolution_k__BackingField() const;
@@ -495,8 +504,7 @@ public:
   static inline ::GlobalNamespace::OVRPassthroughColorLut* New_ctor(::UnityEngine::Texture2D* initialLutTexture, bool flipY);
 
   /// @brief Method .ctor, addr 0x27c5ba0, size 0x94, virtual false, abstract: false, final false
-  /// @param flipY: bool (default: true)
-  inline void _ctor(::UnityEngine::Texture2D* initialLutTexture, bool flipY = true);
+  inline void _ctor(::UnityEngine::Texture2D* initialLutTexture, bool flipY);
 
   static inline ::GlobalNamespace::OVRPassthroughColorLut* New_ctor(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> initialColorLut,
                                                                     ::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels channels);
@@ -525,8 +533,7 @@ public:
   inline void UpdateFrom(::ArrayW<uint8_t, ::Array<uint8_t>*> colors);
 
   /// @brief Method UpdateFrom, addr 0x27c6b04, size 0xb8, virtual false, abstract: false, final false
-  /// @param flipY: bool (default: true)
-  inline void UpdateFrom(::UnityEngine::Texture2D* lutTexture, bool flipY = true);
+  inline void UpdateFrom(::UnityEngine::Texture2D* lutTexture, bool flipY);
 
   /// @brief Method Dispose, addr 0x27c6d8c, size 0x44, virtual true, abstract: false, final true
   inline void Dispose();

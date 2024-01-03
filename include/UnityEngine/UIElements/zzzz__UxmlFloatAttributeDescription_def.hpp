@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(UxmlFloatAttributeDescription)
+namespace System {
+template <typename T1, typename T2, typename TResult> class Func_3;
+}
 namespace UnityEngine::UIElements {
 struct CreationContext;
 }
@@ -15,9 +18,6 @@ class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
 class __UxmlFloatAttributeDescription____c;
-}
-namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

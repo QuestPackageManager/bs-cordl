@@ -3,16 +3,24 @@
 #include "Zenject/zzzz__FactoryProviderWrapper_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__IFactory_1_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__IFactory_def.hpp"
 #include "Zenject/zzzz__IProvider_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 /// @brief Convert operator to "::Zenject::IFactory_1<TContract>"
 template <typename TContract> constexpr Zenject::FactoryProviderWrapper_1<TContract>::operator ::Zenject::IFactory_1<TContract>*() noexcept {
   return static_cast<::Zenject::IFactory_1<TContract>*>(static_cast<void*>(this));
 }
+/// @brief Convert to "::Zenject::IFactory_1<TContract>"
+template <typename TContract> constexpr ::Zenject::IFactory_1<TContract>* Zenject::FactoryProviderWrapper_1<TContract>::i___Zenject__IFactory_1_TContract_() noexcept {
+  return static_cast<::Zenject::IFactory_1<TContract>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::Zenject::IFactory"
 template <typename TContract> constexpr Zenject::FactoryProviderWrapper_1<TContract>::operator ::Zenject::IFactory*() noexcept {
+  return static_cast<::Zenject::IFactory*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::IFactory"
+template <typename TContract> constexpr ::Zenject::IFactory* Zenject::FactoryProviderWrapper_1<TContract>::i___Zenject__IFactory() noexcept {
   return static_cast<::Zenject::IFactory*>(static_cast<void*>(this));
 }
 template <typename TContract> constexpr ::Zenject::IProvider*& Zenject::FactoryProviderWrapper_1<TContract>::__get__provider() {

@@ -9,20 +9,20 @@ CORDL_MODULE_EXPORT(Background)
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace UnityEngine {
-class Texture2D;
-}
-namespace UnityEngine {
-class Sprite;
-}
 namespace System {
 class Object;
+}
+namespace UnityEngine::UIElements {
+class VectorImage;
 }
 namespace UnityEngine {
 class RenderTexture;
 }
-namespace UnityEngine::UIElements {
-class VectorImage;
+namespace UnityEngine {
+class Sprite;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -50,6 +50,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Background>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Background>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Background>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Background>* i___System__IEquatable_1___UnityEngine__UIElements__Background_();
 
   /// @brief Method get_texture, addr 0x2e6f998, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Texture2D* get_texture();

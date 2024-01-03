@@ -6,35 +6,35 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SignalCallbackWithLookupWrapper)
-namespace Zenject {
-class SignalBus;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System {
-class Type;
-}
-namespace Zenject {
-class SignalBindingBindInfo;
-}
-namespace System {
-class Object;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace System {
-class IDisposable;
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 struct Guid;
 }
 namespace System {
-template <typename T> class Action_1;
+class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
+}
+namespace Zenject {
+class DiContainer;
 }
 namespace Zenject {
 class InjectTypeInfo;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace Zenject {
+class SignalBindingBindInfo;
+}
+namespace Zenject {
+class SignalBus;
 }
 // Forward declare root types
 namespace Zenject {
@@ -75,6 +75,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::Zenject::DiContainer*& __get__container();
 

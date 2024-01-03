@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleTransformOrigin)
-namespace UnityEngine::UIElements {
-struct TransformOrigin;
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
 }
 namespace UnityEngine::UIElements {
-struct StyleKeyword;
-}
-namespace System {
-template <typename T> class IEquatable_1;
+template <typename T> class IStyleValue_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class IStyleValue_1;
+struct StyleKeyword;
+}
+namespace UnityEngine::UIElements {
+struct TransformOrigin;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -46,8 +46,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TransformOrigin>"
   constexpr operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TransformOrigin>*();
 
+  /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TransformOrigin>"
+  constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TransformOrigin>* i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__TransformOrigin_();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleTransformOrigin>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleTransformOrigin>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleTransformOrigin>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleTransformOrigin>* i___System__IEquatable_1___UnityEngine__UIElements__StyleTransformOrigin_();
 
   /// @brief Method get_value, addr 0x2e73024, size 0x40, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::TransformOrigin get_value();

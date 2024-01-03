@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(GameplayServerFiniteStateMachineFactory)
 namespace GlobalNamespace {
-struct __GameplayServerFiniteStateMachine__InitParams;
+class GameplayServerFiniteStateMachine;
 }
 namespace GlobalNamespace {
-class GameplayServerFiniteStateMachine;
+struct __GameplayServerFiniteStateMachine__InitParams;
 }
 // Forward declare root types
 namespace GlobalNamespace {

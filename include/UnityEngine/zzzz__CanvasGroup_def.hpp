@@ -41,6 +41,9 @@ public:
   /// @brief Convert operator to "::UnityEngine::ICanvasRaycastFilter"
   constexpr operator ::UnityEngine::ICanvasRaycastFilter*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::ICanvasRaycastFilter"
+  constexpr ::UnityEngine::ICanvasRaycastFilter* i___UnityEngine__ICanvasRaycastFilter() noexcept;
+
   /// @brief Method get_alpha, addr 0x2eab730, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_alpha();
 

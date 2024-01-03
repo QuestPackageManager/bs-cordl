@@ -10,10 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_HandleParamBinding)
 namespace HoudiniEngineUnity {
-struct __HEU_HandleParamBinding__HEU_HandleParamType;
+template <typename T> class IEquivable_1;
 }
 namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
+struct __HEU_HandleParamBinding__HEU_HandleParamType;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -83,7 +83,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_HandleParamBinding__HEU_Handl
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9683)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9683))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9684))
 // CS Name: ::HoudiniEngineUnity::HEU_HandleParamBinding*
 class CORDL_TYPE HEU_HandleParamBinding : public ::System::Object {
@@ -108,6 +108,9 @@ public:
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>*() noexcept;
+
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_HandleParamBinding__() noexcept;
 
   constexpr ::HoudiniEngineUnity::__HEU_HandleParamBinding__HEU_HandleParamType& __get__paramType();
 

@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Rendering/zzzz__CameraEvent_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CommandBufferGrabPass)
-namespace UnityEngine::Rendering {
-class CommandBuffer;
-}
-namespace UnityEngine::Rendering {
-struct CameraEvent;
+namespace GlobalNamespace {
+class CommandBufferOwners;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
+namespace UnityEngine::Rendering {
+struct CameraEvent;
+}
+namespace UnityEngine::Rendering {
+class CommandBuffer;
+}
 namespace UnityEngine {
 class Camera;
-}
-namespace GlobalNamespace {
-class CommandBufferOwners;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -8,9 +8,6 @@ CORDL_MODULE_EXPORT(X509SignatureUtilities)
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
-namespace Org::BouncyCastle::Crypto {
-class ISigner;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
@@ -19,6 +16,9 @@ class Asn1Null;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Crypto {
+class ISigner;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {

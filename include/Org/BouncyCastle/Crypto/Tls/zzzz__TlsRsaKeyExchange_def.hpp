@@ -6,14 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsRsaKeyExchange)
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsEncryptionCredentials;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class RsaKeyParameters;
 }
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Crypto::Tls {
+class CertificateRequest;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class Certificate;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCredentials;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsEncryptionCredentials;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
@@ -21,14 +27,8 @@ class AsymmetricKeyParameter;
 namespace System::Collections {
 class IList;
 }
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCredentials;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class CertificateRequest;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class RsaKeyParameters;
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

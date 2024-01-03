@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SignerInformationStore)
-namespace System::Collections {
-class ICollection;
+namespace Org::BouncyCastle::Cms {
+class SignerID;
 }
 namespace Org::BouncyCastle::Cms {
 class SignerInformation;
 }
 namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Cms {
-class SignerID;
+class ICollection;
 }
 namespace System::Collections {
 class IDictionary;
+}
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

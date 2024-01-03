@@ -11,20 +11,20 @@ CORDL_MODULE_EXPORT(HydraulicCarSuspensionEffect)
 namespace GlobalNamespace {
 class BasicBeatmapEventData;
 }
-namespace UnityEngine {
-class SpringJoint;
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
 }
-namespace UnityEngine {
-class Rigidbody;
-}
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
-namespace GlobalNamespace {
-class BeatmapCallbacksController;
+namespace UnityEngine {
+class Rigidbody;
+}
+namespace UnityEngine {
+class SpringJoint;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::GlobalNamespace::HydraulicCarSuspensionEffect);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4001))
 // CS Name: ::HydraulicCarSuspensionEffect*
 class CORDL_TYPE HydraulicCarSuspensionEffect : public ::UnityEngine::MonoBehaviour {

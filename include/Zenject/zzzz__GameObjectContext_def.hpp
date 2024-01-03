@@ -8,17 +8,17 @@ CORDL_MODULE_EXPORT(GameObjectContext)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System {
-class Action;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace System {
+class Action;
+}
+namespace System {
+class Object;
+}
 namespace UnityEngine {
 class GameObject;
-}
-namespace Zenject {
-class InjectTypeInfo;
 }
 namespace UnityEngine {
 class MonoBehaviour;
@@ -27,10 +27,10 @@ namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-class MonoKernel;
+class InjectTypeInfo;
 }
-namespace System {
-class Object;
+namespace Zenject {
+class MonoKernel;
 }
 // Forward declare root types
 namespace Zenject {

@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MultiplayerLeaderboardPanelController)
 namespace GlobalNamespace {
-class MultiplayerScoreProvider;
+class MultiplayerLeaderboardPanelItem;
 }
 namespace GlobalNamespace {
-class MultiplayerLeaderboardPanelItem;
+class MultiplayerScoreProvider;
 }
 // Forward declare root types
 namespace GlobalNamespace {

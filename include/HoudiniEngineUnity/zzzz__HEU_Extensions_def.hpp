@@ -8,29 +8,29 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_Extensions)
+namespace HoudiniEngineUnity {
+template <typename T> class IEquivable_1;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+template <typename T1, typename T2, typename TResult> class Func_3;
+}
+namespace UnityEngine {
+struct Matrix4x4;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
-}
-namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
+struct Vector3;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -76,8 +76,7 @@ public:
   template <typename T> static inline ::ArrayW<::HoudiniEngineUnity::IEquivable_1<T>*, ::Array<::HoudiniEngineUnity::IEquivable_1<T>*>*> ConvertArrayToEquivable(::ArrayW<T, ::Array<T>*> self);
 
   /// @brief Method ApproximatelyEquals, addr 0x21b3034, size 0x10, virtual false, abstract: false, final false
-  /// @param epsilon: float_t (default: 0.000001)
-  static inline bool ApproximatelyEquals(float_t self, float_t other, float_t epsilon = 0.000001);
+  static inline bool ApproximatelyEquals(float_t self, float_t other, float_t epsilon);
 
   /// @brief Method AsByteArray, addr 0x21b3044, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> AsByteArray(::StringW self);

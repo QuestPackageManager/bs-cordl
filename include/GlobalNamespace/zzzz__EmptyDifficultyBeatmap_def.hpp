@@ -14,40 +14,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EmptyDifficultyBeatmap)
 namespace GlobalNamespace {
-class IBeatmapLevel;
+class BeatmapData;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmapSet;
-}
-namespace GlobalNamespace {
-class IReadonlyBeatmapData;
-}
-namespace GlobalNamespace {
-class BeatmapData;
-}
-namespace GlobalNamespace {
-struct __EmptyDifficultyBeatmap___GetBeatmapDataAsync_d__24;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
-struct __EmptyDifficultyBeatmap___GetBeatmapDataBasicInfoAsync_d__23;
-}
-namespace GlobalNamespace {
 class EnvironmentInfoSO;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
 class IBeatmapDataBasicInfo;
 }
 namespace GlobalNamespace {
+class IBeatmapLevel;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmapSet;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class IReadonlyBeatmapData;
+}
+namespace GlobalNamespace {
 class PlayerSpecificSettings;
+}
+namespace GlobalNamespace {
+struct __EmptyDifficultyBeatmap___GetBeatmapDataAsync_d__24;
+}
+namespace GlobalNamespace {
+struct __EmptyDifficultyBeatmap___GetBeatmapDataBasicInfoAsync_d__23;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
@@ -57,6 +54,9 @@ class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -76,14 +76,17 @@ MARK_VAL_T(::GlobalNamespace::__EmptyDifficultyBeatmap___GetBeatmapDataBasicInfo
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4258)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5066 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 886 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4258)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 886 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5066 }),
 // TypeDefinitionIndex(TypeDefinitionIndex(4245))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4388)) CS Name: ::EmptyDifficultyBeatmap::<GetBeatmapDataBasicInfoAsync>d__23
 struct CORDL_TYPE __EmptyDifficultyBeatmap___GetBeatmapDataBasicInfoAsync_d__23 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x23480a0, size 0x220, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -137,14 +140,17 @@ static_assert(offsetof(::GlobalNamespace::__EmptyDifficultyBeatmap___GetBeatmapD
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(4260)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 890 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 890 })} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(4389)) CS Name: ::EmptyDifficultyBeatmap::<GetBeatmapDataAsync>d__24
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4260)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 890
+// }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 890 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4389)) CS
+// Name: ::EmptyDifficultyBeatmap::<GetBeatmapDataAsync>d__24
 struct CORDL_TYPE __EmptyDifficultyBeatmap___GetBeatmapDataAsync_d__24 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x2348318, size 0x220, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -251,6 +257,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IDifficultyBeatmap"
   constexpr operator ::GlobalNamespace::IDifficultyBeatmap*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IDifficultyBeatmap"
+  constexpr ::GlobalNamespace::IDifficultyBeatmap* i___GlobalNamespace__IDifficultyBeatmap() noexcept;
 
   constexpr ::GlobalNamespace::IBeatmapLevel*& __get__level_k__BackingField();
 

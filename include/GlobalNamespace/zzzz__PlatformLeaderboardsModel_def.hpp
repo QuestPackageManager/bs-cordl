@@ -16,58 +16,73 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlatformLeaderboardsModel)
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
-struct __PlatformLeaderboardsModel__ScoresScope;
-}
-namespace GlobalNamespace {
-class __LeaderboardScoreUploader__ScoreData;
-}
-namespace GlobalNamespace {
-class LeaderboardScoreUploader;
-}
-namespace GlobalNamespace {
-struct __PlatformLeaderboardsModel__State;
-}
-namespace GlobalNamespace {
-class __PlatformLeaderboardsModel__GetScoresCompletionHandler;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
+class GameplayModifierParamsSO;
 }
 namespace GlobalNamespace {
 class GameplayModifiersModelSO;
 }
 namespace GlobalNamespace {
-struct __PlatformLeaderboardsModel__GetScoresResult;
+class GameplayModifiers;
 }
 namespace GlobalNamespace {
 class HMAsyncRequest;
 }
 namespace GlobalNamespace {
-class UserInfo;
-}
-namespace GlobalNamespace {
-struct __PlatformLeaderboardsModel___Initialize_d__19;
-}
-namespace GlobalNamespace {
-class __PlatformLeaderboardsModel__LeaderboardScore;
+class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 class IPlatformUserModel;
 }
 namespace GlobalNamespace {
+class LeaderboardScoreUploader;
+}
+namespace GlobalNamespace {
 class PlatformLeaderboardsHandler;
+}
+namespace GlobalNamespace {
+class UserInfo;
+}
+namespace GlobalNamespace {
+class __LeaderboardScoreUploader__ScoreData;
+}
+namespace GlobalNamespace {
+class __PlatformLeaderboardsModel__GetScoresCompletionHandler;
+}
+namespace GlobalNamespace {
+struct __PlatformLeaderboardsModel__GetScoresResult;
+}
+namespace GlobalNamespace {
+class __PlatformLeaderboardsModel__LeaderboardScore;
+}
+namespace GlobalNamespace {
+struct __PlatformLeaderboardsModel__ScoresScope;
+}
+namespace GlobalNamespace {
+struct __PlatformLeaderboardsModel__State;
+}
+namespace GlobalNamespace {
+class __PlatformLeaderboardsModel__UploadScoreCompletionHandler;
 }
 namespace GlobalNamespace {
 struct __PlatformLeaderboardsModel__UploadScoreResult;
 }
 namespace GlobalNamespace {
-class __PlatformLeaderboardsModel__UploadScoreCompletionHandler;
+struct __PlatformLeaderboardsModel___Initialize_d__19;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncVoidMethodBuilder;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System {
+class Action;
 }
 namespace System {
 class AsyncCallback;
@@ -76,25 +91,10 @@ namespace System {
 class IAsyncResult;
 }
 namespace System {
-class Object;
-}
-namespace System {
 template <typename T> class IComparable_1;
 }
-namespace GlobalNamespace {
-class GameplayModifierParamsSO;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
-}
-namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -464,6 +464,10 @@ public:
   /// @brief Convert operator to "::System::IComparable_1<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*>"
   constexpr operator ::System::IComparable_1<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*>*() noexcept;
 
+  /// @brief Convert to "::System::IComparable_1<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*>"
+  constexpr ::System::IComparable_1<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*>*
+  i___System__IComparable_1___GlobalNamespace____PlatformLeaderboardsModel__LeaderboardScore__() noexcept;
+
   constexpr int32_t& __get_score();
 
   constexpr int32_t const& __get_score() const;
@@ -541,14 +545,17 @@ static_assert(offsetof(::GlobalNamespace::__PlatformLeaderboardsModel__Leaderboa
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(15996)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 410 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4234)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 410 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(15996))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4234)) CS Name:
 // ::PlatformLeaderboardsModel::<Initialize>d__19
 struct CORDL_TYPE __PlatformLeaderboardsModel___Initialize_d__19 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x232bb04, size 0x364, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -600,7 +607,7 @@ static_assert(offsetof(::GlobalNamespace::__PlatformLeaderboardsModel___Initiali
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(4227))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4227)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4235))
 // CS Name: ::PlatformLeaderboardsModel*
 class CORDL_TYPE PlatformLeaderboardsModel : public ::UnityEngine::MonoBehaviour {

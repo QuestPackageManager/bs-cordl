@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Dstu7564Mac)
-namespace Org::BouncyCastle::Crypto {
-class IMac;
-}
 namespace Org::BouncyCastle::Crypto::Digests {
 class Dstu7564Digest;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class IMac;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Macs {
@@ -51,6 +51,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IMac"
   constexpr operator ::Org::BouncyCastle::Crypto::IMac*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IMac"
+  constexpr ::Org::BouncyCastle::Crypto::IMac* i___Org__BouncyCastle__Crypto__IMac() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest*& __get_engine();
 

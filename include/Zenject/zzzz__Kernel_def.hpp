@@ -5,20 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(Kernel)
-namespace Zenject {
-class ILateDisposable;
+namespace System {
+class IDisposable;
 }
-namespace Zenject {
-class ITickable;
-}
-namespace Zenject {
-class InitializableManager;
-}
-namespace Zenject {
-class IInitializable;
-}
-namespace Zenject {
-class TickableManager;
+namespace System {
+class Object;
 }
 namespace Zenject {
 class DisposableManager;
@@ -27,16 +18,25 @@ namespace Zenject {
 class IFixedTickable;
 }
 namespace Zenject {
+class IInitializable;
+}
+namespace Zenject {
+class ILateDisposable;
+}
+namespace Zenject {
 class ILateTickable;
 }
-namespace System {
-class IDisposable;
+namespace Zenject {
+class ITickable;
 }
-namespace System {
-class Object;
+namespace Zenject {
+class InitializableManager;
 }
 namespace Zenject {
 class InjectTypeInfo;
+}
+namespace Zenject {
+class TickableManager;
 }
 // Forward declare root types
 namespace Zenject {
@@ -66,20 +66,38 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
+  /// @brief Convert to "::Zenject::IInitializable"
+  constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
 
+  /// @brief Convert to "::Zenject::ITickable"
+  constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
+
   /// @brief Convert operator to "::Zenject::ILateTickable"
   constexpr operator ::Zenject::ILateTickable*() noexcept;
+
+  /// @brief Convert to "::Zenject::ILateTickable"
+  constexpr ::Zenject::ILateTickable* i___Zenject__ILateTickable() noexcept;
 
   /// @brief Convert operator to "::Zenject::IFixedTickable"
   constexpr operator ::Zenject::IFixedTickable*() noexcept;
 
+  /// @brief Convert to "::Zenject::IFixedTickable"
+  constexpr ::Zenject::IFixedTickable* i___Zenject__IFixedTickable() noexcept;
+
   /// @brief Convert operator to "::Zenject::ILateDisposable"
   constexpr operator ::Zenject::ILateDisposable*() noexcept;
+
+  /// @brief Convert to "::Zenject::ILateDisposable"
+  constexpr ::Zenject::ILateDisposable* i___Zenject__ILateDisposable() noexcept;
 
   constexpr ::Zenject::TickableManager*& __get__tickableManager();
 

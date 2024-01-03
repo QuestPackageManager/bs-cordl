@@ -3,9 +3,9 @@
 #include "System/Security/AccessControl/zzzz__PropagationFlags_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/AccessControl/zzzz__AuthorizationRule_def.hpp"
-#include "System/Security/Principal/zzzz__IdentityReference_def.hpp"
 #include "System/Security/AccessControl/zzzz__InheritanceFlags_def.hpp"
 #include "System/Security/AccessControl/zzzz__PropagationFlags_def.hpp"
+#include "System/Security/Principal/zzzz__IdentityReference_def.hpp"
 //  Writing Method size for method: ::System::Security::AccessControl::AuthorizationRule._ctor
 template <>
 
@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x19c;
   constexpr static std::size_t addrs = 0x2480770;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::AuthorizationRule*>::get(), ".ctor", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Principal::IdentityReference*>::get(),
@@ -33,7 +33,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x24809e0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::AuthorizationRule*>::get(),
                                                                                "get_AccessMask", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;

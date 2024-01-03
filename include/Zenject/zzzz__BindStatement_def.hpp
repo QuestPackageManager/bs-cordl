@@ -4,23 +4,23 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(BindStatement)
-namespace Zenject {
-class IBindingFinalizer;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace Zenject {
-class DiContainer;
 }
 namespace System {
 class IDisposable;
 }
 namespace Zenject {
+class BindInfo;
+}
+namespace Zenject {
 struct BindingInheritanceMethods;
 }
 namespace Zenject {
-class BindInfo;
+class DiContainer;
+}
+namespace Zenject {
+class IBindingFinalizer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -50,6 +50,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::System::Collections::Generic::List_1<::System::IDisposable*>*& __get__disposables();
 

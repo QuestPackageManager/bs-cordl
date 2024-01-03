@@ -10,19 +10,19 @@ namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class StateBuffer_3;
-}
-namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__SmoothingDelegate;
-}
-namespace GlobalNamespace {
 template <typename T> class IPacketPool_1;
 }
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class LocalStateBuffer_3;
 }
 namespace GlobalNamespace {
+template <typename TStateTable, typename TType, typename TState> class StateBuffer_3;
+}
+namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__InterpolationDelegate;
+}
+namespace GlobalNamespace {
+template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__SmoothingDelegate;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -78,10 +78,9 @@ public:
            ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* smoother);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param smoother: ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable,TType,TState>* (default: nullptr)
   inline void _ctor(::GlobalNamespace::IConnectedPlayer* player, int64_t fullStateUpdateFrequency, int64_t deltaUpdateFrequency, int32_t size,
                     ::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* interpolator,
-                    ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* smoother = nullptr);
+                    ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* smoother);
 
   /// @brief Method TryGetSerializedState, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline bool TryGetSerializedState(::GlobalNamespace::IPacketPool_1<T>* pool, ByRef<T> serializable);

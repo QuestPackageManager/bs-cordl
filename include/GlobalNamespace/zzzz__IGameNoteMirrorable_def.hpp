@@ -7,13 +7,13 @@ namespace GlobalNamespace {
 class INoteMirrorable;
 }
 namespace GlobalNamespace {
+class NoteMovement;
+}
+namespace GlobalNamespace {
 struct NoteVisualModifierType;
 }
 namespace GlobalNamespace {
 struct __NoteData__GameplayType;
-}
-namespace GlobalNamespace {
-class NoteMovement;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -39,6 +39,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::INoteMirrorable"
   constexpr operator ::GlobalNamespace::INoteMirrorable*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::INoteMirrorable"
+  constexpr ::GlobalNamespace::INoteMirrorable* i___GlobalNamespace__INoteMirrorable() noexcept;
 
   /// @brief Method get_noteMovement, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::NoteMovement* get_noteMovement();

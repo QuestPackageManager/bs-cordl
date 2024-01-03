@@ -8,53 +8,53 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpEncryptedDataGenerator)
-namespace Org::BouncyCastle::Bcpg {
-struct SymmetricKeyAlgorithmTag;
-}
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Crypto {
-class IBufferedCipher;
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class IStreamGenerator;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpPublicKey;
 }
-namespace System::IO {
-class Stream;
-}
-namespace Org::BouncyCastle::Crypto::IO {
-class CipherStream;
-}
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class __PgpEncryptedDataGenerator__EncMethod;
-}
-namespace Org::BouncyCastle::Bcpg {
-struct HashAlgorithmTag;
-}
-namespace Org::BouncyCastle::Crypto::IO {
-class DigestStream;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class __PgpEncryptedDataGenerator__PbeMethod;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
-}
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class __PgpEncryptedDataGenerator__PubMethod;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class IStreamGenerator;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgOutputStream;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Bcpg {
+struct HashAlgorithmTag;
 }
 namespace Org::BouncyCastle::Bcpg {
 class S2k;
+}
+namespace Org::BouncyCastle::Bcpg {
+struct SymmetricKeyAlgorithmTag;
+}
+namespace Org::BouncyCastle::Crypto::IO {
+class CipherStream;
+}
+namespace Org::BouncyCastle::Crypto::IO {
+class DigestStream;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
+}
+namespace Org::BouncyCastle::Crypto {
+class IBufferedCipher;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
+namespace System::Collections {
+class IList;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -78,7 +78,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedDataGenerator__
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(560)), TypeDefinitionIndex(TypeDefinitionIndex(594))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(594)), TypeDefinitionIndex(TypeDefinitionIndex(560))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1639))
 // CS Name: ::PgpEncryptedDataGenerator::EncMethod*
 class CORDL_TYPE __PgpEncryptedDataGenerator__EncMethod : public ::Org::BouncyCastle::Bcpg::ContainedPacket {
@@ -309,7 +309,7 @@ static_assert(offsetof(::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedDataGen
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(594)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(594))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1642))
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpEncryptedDataGenerator*
 class CORDL_TYPE PgpEncryptedDataGenerator : public ::System::Object {
@@ -350,6 +350,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator"
   constexpr operator ::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator"
+  constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator* i___Org__BouncyCastle__Bcpg__OpenPgp__IStreamGenerator() noexcept;
 
   constexpr ::Org::BouncyCastle::Bcpg::BcpgOutputStream*& __get_pOut();
 

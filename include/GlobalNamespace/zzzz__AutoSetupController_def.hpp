@@ -4,23 +4,23 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(AutoSetupController)
+namespace GlobalNamespace {
+class AutoSetupData;
+}
 namespace HMUI {
 class ButtonBinder;
 }
+namespace HMUI {
+class ToggleBinder;
+}
 namespace System {
 template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class AutoSetupData;
 }
 namespace UnityEngine::UI {
 class Button;
 }
 namespace UnityEngine::UI {
 class Toggle;
-}
-namespace HMUI {
-class ToggleBinder;
 }
 // Forward declare root types
 namespace GlobalNamespace {

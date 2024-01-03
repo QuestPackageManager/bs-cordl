@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__AsyncComputeOperation_impl.hpp"
 #include "GlobalNamespace/zzzz__AsyncComputeOperation_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__TaskCompletionSource_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 template <typename T> constexpr ::System::Threading::Tasks::TaskCompletionSource_1<T>*& GlobalNamespace::AsyncComputeOperation_1<T>::__get__tcs() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

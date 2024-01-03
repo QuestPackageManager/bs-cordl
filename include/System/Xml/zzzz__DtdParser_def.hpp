@@ -12,32 +12,50 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DtdParser)
-namespace System::Xml::Schema {
-class SchemaElementDecl;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace System::Xml {
-struct __DtdParser__Token;
+namespace System::Text {
+class StringBuilder;
 }
 namespace System::Xml::Schema {
 class ParticleContentValidator;
 }
+namespace System::Xml::Schema {
+class SchemaAttDef;
+}
+namespace System::Xml::Schema {
+class SchemaElementDecl;
+}
+namespace System::Xml::Schema {
+class SchemaEntity;
+}
+namespace System::Xml::Schema {
+class SchemaInfo;
+}
+namespace System::Xml::Schema {
+class XmlSchemaException;
+}
+namespace System::Xml::Schema {
+struct XmlSeverityType;
+}
 namespace System::Xml {
-struct __DtdParser__ScanningFunction;
+class IDtdInfo;
+}
+namespace System::Xml {
+class IDtdParserAdapterWithValidation;
 }
 namespace System::Xml {
 class IDtdParserAdapter;
 }
-namespace System::Xml::Schema {
-class SchemaAttDef;
-}
-namespace System::Xml {
-class XmlQualifiedName;
-}
 namespace System::Xml {
 class IDtdParser;
 }
-namespace System::Xml::Schema {
-class XmlSchemaException;
+namespace System::Xml {
+class XmlNameTable;
+}
+namespace System::Xml {
+class XmlQualifiedName;
 }
 namespace System::Xml {
 struct __DtdParser__LiteralType;
@@ -45,32 +63,14 @@ struct __DtdParser__LiteralType;
 namespace System::Xml {
 class __DtdParser__ParseElementOnlyContent_LocalFrame;
 }
-namespace System::Xml::Schema {
-struct XmlSeverityType;
+namespace System::Xml {
+struct __DtdParser__ScanningFunction;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Text {
-class StringBuilder;
+namespace System::Xml {
+struct __DtdParser__Token;
 }
 namespace System::Xml {
 class __DtdParser__UndeclaredNotation;
-}
-namespace System::Xml {
-class IDtdParserAdapterWithValidation;
-}
-namespace System::Xml {
-class XmlNameTable;
-}
-namespace System::Xml::Schema {
-class SchemaInfo;
-}
-namespace System::Xml::Schema {
-class SchemaEntity;
-}
-namespace System::Xml {
-class IDtdInfo;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -659,7 +659,7 @@ static_assert(offsetof(::System::Xml::__DtdParser__UndeclaredNotation, ___next) 
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11536))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11536)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11540))
 // CS Name: ::DtdParser::ParseElementOnlyContent_LocalFrame*
 class CORDL_TYPE __DtdParser__ParseElementOnlyContent_LocalFrame : public ::System::Object {
@@ -722,8 +722,8 @@ static_assert(offsetof(::System::Xml::__DtdParser__ParseElementOnlyContent_Local
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11544)), TypeDefinitionIndex(TypeDefinitionIndex(11537)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11532))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11541)) CS Name: ::System.Xml::DtdParser*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11544)), TypeDefinitionIndex(TypeDefinitionIndex(11532)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11537))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11541)) CS Name: ::System.Xml::DtdParser*
 class CORDL_TYPE DtdParser : public ::System::Object {
 public:
   // Declarations
@@ -857,6 +857,9 @@ public:
 
   /// @brief Convert operator to "::System::Xml::IDtdParser"
   constexpr operator ::System::Xml::IDtdParser*() noexcept;
+
+  /// @brief Convert to "::System::Xml::IDtdParser"
+  constexpr ::System::Xml::IDtdParser* i___System__Xml__IDtdParser() noexcept;
 
   constexpr ::System::Xml::IDtdParserAdapter*& __get_readerAdapter();
 

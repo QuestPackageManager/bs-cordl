@@ -6,22 +6,22 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(TweeningManager)
 namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace System {
-class Object;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template <typename T> class Queue_1;
-}
-namespace Tweening {
-class Tween;
+template <typename T> class HashSet_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template <typename T> class Queue_1;
+}
+namespace System {
+class Object;
+}
+namespace Tweening {
+class Tween;
 }
 // Forward declare root types
 namespace Tweening {

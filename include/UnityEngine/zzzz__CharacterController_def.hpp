@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(CharacterController)
 namespace UnityEngine {
-struct Vector3;
+struct CollisionFlags;
 }
 namespace UnityEngine {
-struct CollisionFlags;
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine {

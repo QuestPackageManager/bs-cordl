@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(Ray)
 namespace System {
+class IFormatProvider;
+}
+namespace System {
 class IFormattable;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace System {
-class IFormatProvider;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -38,6 +38,9 @@ public:
 
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
+
+  /// @brief Convert to "::System::IFormattable"
+  constexpr ::System::IFormattable* i___System__IFormattable();
 
   /// @brief Method .ctor, addr 0x2ccbd2c, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 origin, ::UnityEngine::Vector3 direction);

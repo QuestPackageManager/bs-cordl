@@ -10,7 +10,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/Utilities/zzzz__CallbackArray_1_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionChange_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputActionPhase_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionState_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
@@ -19,56 +18,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputActionState)
-namespace UnityEngine::InputSystem {
-class InputActionMap;
+namespace GlobalNamespace {
+struct __InputActionState__BindingState__Flags;
 }
-namespace UnityEngine::InputSystem {
-class InputBindingComposite;
+namespace GlobalNamespace {
+struct __InputActionState__InteractionState__Flags;
 }
-namespace UnityEngine::InputSystem {
-struct InputBinding;
+namespace GlobalNamespace {
+struct __InputActionState__TriggerState__Flags;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputStateChangeMonitor;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
-namespace UnityEngine::InputSystem {
-class __InputActionState____c;
-}
-namespace UnityEngine::InputSystem {
-class InputProcessor;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionState__ActionMapIndices;
-}
-namespace System {
-class Type;
-}
-namespace UnityEngine::InputSystem {
-template <typename TValue> class InputControl_1;
-}
-namespace UnityEngine::InputSystem {
-class InputAction;
-}
-namespace UnityEngine::InputSystem::Utilities {
-class ISavedState;
+namespace System::Runtime::InteropServices {
+struct GCHandle;
 }
 namespace System {
 template <typename T> class Action_1;
 }
-namespace UnityEngine::InputSystem {
-struct __InputActionState__BindingState;
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace System {
 class Action;
 }
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionState__InteractionState;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
+namespace System {
+class ICloneable;
 }
 namespace System {
 class IDisposable;
@@ -76,71 +51,95 @@ class IDisposable;
 namespace System {
 class Object;
 }
-namespace UnityEngine::InputSystem {
-struct InputActionPhase;
+namespace System {
+class Type;
 }
-namespace UnityEngine::InputSystem {
-class InputDevice;
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputStateChangeMonitor;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEvent;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TDelegate> struct CallbackArray_1;
 }
-namespace System {
-class ICloneable;
+namespace UnityEngine::InputSystem::Utilities {
+class ISavedState;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> struct InlinedArray_1;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename T> class __SavedStructState_1__TypedRestore;
 }
 namespace UnityEngine::InputSystem {
-struct InputBindingResolver;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionState__GlobalState;
-}
-namespace UnityEngine::InputSystem {
-struct __InputAction__CallbackContext;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionState__TriggerState;
+class IInputInteraction;
 }
 namespace UnityEngine::InputSystem {
 struct InputActionChange;
 }
 namespace UnityEngine::InputSystem {
+class InputActionMap;
+}
+namespace UnityEngine::InputSystem {
+struct InputActionPhase;
+}
+namespace UnityEngine::InputSystem {
+class InputAction;
+}
+namespace UnityEngine::InputSystem {
+class InputBindingComposite;
+}
+namespace UnityEngine::InputSystem {
+struct InputBindingResolver;
+}
+namespace UnityEngine::InputSystem {
+struct InputBinding;
+}
+namespace UnityEngine::InputSystem {
 template <typename TControl> struct InputControlList_1;
 }
 namespace UnityEngine::InputSystem {
-class IInputInteraction;
+template <typename TValue> class InputControl_1;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEvent;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::InputSystem {
+class InputControl;
 }
 namespace UnityEngine::InputSystem {
 struct InputDeviceChange;
 }
 namespace UnityEngine::InputSystem {
+class InputDevice;
+}
+namespace UnityEngine::InputSystem {
+class InputProcessor;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionState__ActionMapIndices;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionState__BindingState;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionState__GlobalState;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionState__InteractionState;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionState__TriggerState;
+}
+namespace UnityEngine::InputSystem {
 struct __InputActionState__UnmanagedMemory;
 }
-namespace UnityEngine::InputSystem::Utilities {
-template <typename T> class __SavedStructState_1__TypedRestore;
+namespace UnityEngine::InputSystem {
+class __InputActionState____c;
 }
-namespace GlobalNamespace {
-struct __InputActionState__BindingState__Flags;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct InlinedArray_1;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace System::Runtime::InteropServices {
-struct GCHandle;
-}
-namespace GlobalNamespace {
-struct __InputActionState__InteractionState__Flags;
-}
-namespace GlobalNamespace {
-struct __InputActionState__TriggerState__Flags;
+namespace UnityEngine::InputSystem {
+struct __InputAction__CallbackContext;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -1888,6 +1887,9 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
+
   /// @brief Method get_isAllocated, addr 0x2a54c28, size 0x10, virtual false, abstract: false, final false
   inline bool get_isAllocated();
 
@@ -2039,11 +2041,11 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputActionState__Unmanaged
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 995 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3866 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2324), inst: 565 }), TypeDefinitionIndex(TypeDefinitionIndex(6660)), TypeDefinitionIndex(TypeDefinitionIndex(2324)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3336)), TypeDefinitionIndex(TypeDefinitionIndex(6669)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 987 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6140)), TypeDefinitionIndex(TypeDefinitionIndex(2323)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 2 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6179)) CS Name: ::InputActionState::GlobalState
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2324)), TypeDefinitionIndex(TypeDefinitionIndex(6669)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 995
+// }), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6140)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 987 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3336)), TypeDefinitionIndex(TypeDefinitionIndex(2323)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 2 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2324), inst: 565 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3866 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6660))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6179)) CS Name: ::InputActionState::GlobalState
 struct CORDL_TYPE __InputActionState__GlobalState {
 public:
   // Declarations
@@ -2152,9 +2154,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6536)), TypeDefinitionIndex(TypeDefinitionIndex(6163)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6179)), TypeDefinitionIndex(TypeDefinitionIndex(6178))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6181)) CS Name:
-// ::UnityEngine.InputSystem::InputActionState*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6179)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6536)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6178))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6181)) CS Name: ::UnityEngine.InputSystem::InputActionState*
 class CORDL_TYPE InputActionState : public ::System::Object {
 public:
   // Declarations
@@ -2249,11 +2250,20 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* i___UnityEngine__InputSystem__LowLevel__IInputStateChangeMonitor() noexcept;
+
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::ArrayW<::UnityEngine::InputSystem::InputActionMap*, ::Array<::UnityEngine::InputSystem::InputActionMap*>*>& __get_maps();
 
@@ -2398,8 +2408,7 @@ public:
   inline void Dispose();
 
   /// @brief Method Destroy, addr 0x2a4d898, size 0x190, virtual false, abstract: false, final false
-  /// @param isFinalizing: bool (default: false)
-  inline void Destroy(bool isFinalizing = false);
+  inline void Destroy(bool isFinalizing);
 
   /// @brief Method Clone, addr 0x2a4dd24, size 0x150, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionState* Clone();
@@ -2444,9 +2453,7 @@ public:
   inline bool IsActionBoundToControlFromDevice(::UnityEngine::InputSystem::InputDevice* device, int32_t actionIndex);
 
   /// @brief Method ResetActionState, addr 0x2a4ebac, size 0x11c, virtual false, abstract: false, final false
-  /// @param toPhase: ::UnityEngine::InputSystem::InputActionPhase (default: static_cast<int32_t>(0x1))
-  /// @param hardReset: bool (default: false)
-  inline void ResetActionState(int32_t actionIndex, ::UnityEngine::InputSystem::InputActionPhase toPhase = static_cast<int32_t>(0x1), bool hardReset = false);
+  inline void ResetActionState(int32_t actionIndex, ::UnityEngine::InputSystem::InputActionPhase toPhase, bool hardReset);
 
   /// @brief Method FetchActionState, addr 0x2a5039c, size 0x24, virtual false, abstract: false, final false
   inline ByRef<::UnityEngine::InputSystem::__InputActionState__TriggerState> FetchActionState(::UnityEngine::InputSystem::InputAction* action);
@@ -2485,8 +2492,7 @@ public:
   inline void DisableControls(int32_t mapIndex, int32_t controlStartIndex, int32_t numControls);
 
   /// @brief Method SetInitialStateCheckPending, addr 0x2a507d0, size 0x90, virtual false, abstract: false, final false
-  /// @param value: bool (default: true)
-  inline void SetInitialStateCheckPending(int32_t actionIndex, bool value = true);
+  inline void SetInitialStateCheckPending(int32_t actionIndex, bool value);
 
   /// @brief Method SetInitialStateCheckPending, addr 0x2a50750, size 0x48, virtual false, abstract: false, final false
   inline void SetInitialStateCheckPending(::cordl_internals::Ptr<::UnityEngine::InputSystem::__InputActionState__BindingState> bindingStatePtr, bool value);
@@ -2559,15 +2565,12 @@ public:
   inline void StopTimeout(int32_t interactionIndex);
 
   /// @brief Method ChangePhaseOfInteraction, addr 0x2a52038, size 0x400, virtual false, abstract: false, final false
-  /// @param phaseAfterPerformed: ::UnityEngine::InputSystem::InputActionPhase (default: static_cast<int32_t>(0x1))
-  /// @param processNextInteractionOnCancel: bool (default: true)
   inline void ChangePhaseOfInteraction(::UnityEngine::InputSystem::InputActionPhase newPhase, ByRef<::UnityEngine::InputSystem::__InputActionState__TriggerState> trigger,
-                                       ::UnityEngine::InputSystem::InputActionPhase phaseAfterPerformed = static_cast<int32_t>(0x1), bool processNextInteractionOnCancel = true);
+                                       ::UnityEngine::InputSystem::InputActionPhase phaseAfterPerformed, bool processNextInteractionOnCancel);
 
   /// @brief Method ChangePhaseOfAction, addr 0x2a5013c, size 0x20c, virtual false, abstract: false, final false
-  /// @param phaseAfterPerformedOrCanceled: ::UnityEngine::InputSystem::InputActionPhase (default: static_cast<int32_t>(0x1))
   inline bool ChangePhaseOfAction(::UnityEngine::InputSystem::InputActionPhase newPhase, ByRef<::UnityEngine::InputSystem::__InputActionState__TriggerState> trigger,
-                                  ::UnityEngine::InputSystem::InputActionPhase phaseAfterPerformedOrCanceled = static_cast<int32_t>(0x1));
+                                  ::UnityEngine::InputSystem::InputActionPhase phaseAfterPerformedOrCanceled);
 
   /// @brief Method ChangePhaseOfActionInternal, addr 0x2a52438, size 0x270, virtual false, abstract: false, final false
   inline void ChangePhaseOfActionInternal(int32_t actionIndex, ::cordl_internals::Ptr<::UnityEngine::InputSystem::__InputActionState__TriggerState> actionState,
@@ -2621,20 +2624,16 @@ public:
   inline ::System::Type* GetValueType(int32_t bindingIndex, int32_t controlIndex);
 
   /// @brief Method IsActuated, addr 0x2a51e80, size 0xa8, virtual false, abstract: false, final false
-  /// @param threshold: float_t (default: 0.0)
-  static inline bool IsActuated(ByRef<::UnityEngine::InputSystem::__InputActionState__TriggerState> trigger, float_t threshold = 0.0);
+  static inline bool IsActuated(ByRef<::UnityEngine::InputSystem::__InputActionState__TriggerState> trigger, float_t threshold);
 
   /// @brief Method ReadValue, addr 0x2a52d00, size 0x16c, virtual false, abstract: false, final false
-  /// @param ignoreComposites: bool (default: false)
-  inline void ReadValue(int32_t bindingIndex, int32_t controlIndex, ::cordl_internals::Ptr<void> buffer, int32_t bufferSize, bool ignoreComposites = false);
+  inline void ReadValue(int32_t bindingIndex, int32_t controlIndex, ::cordl_internals::Ptr<void> buffer, int32_t bufferSize, bool ignoreComposites);
 
   /// @brief Method ReadValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param ignoreComposites: bool (default: false)
-  template <typename TValue> inline TValue ReadValue(int32_t bindingIndex, int32_t controlIndex, bool ignoreComposites = false);
+  template <typename TValue> inline TValue ReadValue(int32_t bindingIndex, int32_t controlIndex, bool ignoreComposites);
 
   /// @brief Method ApplyProcessors, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param controlOfType: ::UnityEngine::InputSystem::InputControl_1<TValue>* (default: nullptr)
-  template <typename TValue> inline TValue ApplyProcessors(int32_t bindingIndex, TValue value, ::UnityEngine::InputSystem::InputControl_1<TValue>* controlOfType = nullptr);
+  template <typename TValue> inline TValue ApplyProcessors(int32_t bindingIndex, TValue value, ::UnityEngine::InputSystem::InputControl_1<TValue>* controlOfType);
 
   /// @brief Method EvaluateCompositePartMagnitude, addr 0x2a52e80, size 0xd4, virtual false, abstract: false, final false
   inline float_t EvaluateCompositePartMagnitude(int32_t bindingIndex, int32_t partNumber);
@@ -2643,9 +2642,8 @@ public:
   inline double_t GetCompositePartPressTime(int32_t bindingIndex, int32_t partNumber);
 
   /// @brief Method ReadCompositePartValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param comparer: TComparer (default: nullptr)
   template <typename TValue, typename TComparer>
-  inline TValue ReadCompositePartValue(int32_t bindingIndex, int32_t partNumber, ::cordl_internals::Ptr<bool> buttonValuePtr, ByRef<int32_t> controlIndex, TComparer comparer = nullptr);
+  inline TValue ReadCompositePartValue(int32_t bindingIndex, int32_t partNumber, ::cordl_internals::Ptr<bool> buttonValuePtr, ByRef<int32_t> controlIndex, TComparer comparer);
 
   /// @brief Method ReadCompositePartValue, addr 0x2a52fd4, size 0x114, virtual false, abstract: false, final false
   inline bool ReadCompositePartValue(int32_t bindingIndex, int32_t partNumber, ::cordl_internals::Ptr<void> buffer, int32_t bufferSize);
@@ -2654,8 +2652,7 @@ public:
   inline ::System::Object* ReadCompositePartValueAsObject(int32_t bindingIndex, int32_t partNumber);
 
   /// @brief Method ReadValueAsObject, addr 0x2a531e4, size 0x16c, virtual false, abstract: false, final false
-  /// @param ignoreComposites: bool (default: false)
-  inline ::System::Object* ReadValueAsObject(int32_t bindingIndex, int32_t controlIndex, bool ignoreComposites = false);
+  inline ::System::Object* ReadValueAsObject(int32_t bindingIndex, int32_t controlIndex, bool ignoreComposites);
 
   /// @brief Method ReadValueAsButton, addr 0x2a53350, size 0x130, virtual false, abstract: false, final false
   inline bool ReadValueAsButton(int32_t bindingIndex, int32_t controlIndex);

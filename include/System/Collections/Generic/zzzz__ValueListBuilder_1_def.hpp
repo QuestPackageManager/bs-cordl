@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ValueListBuilder_1)
 namespace System {
-template <typename T> struct Span_1;
+template <typename T> struct ReadOnlySpan_1;
 }
 namespace System {
-template <typename T> struct ReadOnlySpan_1;
+template <typename T> struct Span_1;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
@@ -25,7 +25,7 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2470), inst: 4906 }), TypeDefinitionIndex(TypeDefinitionIndex(2470))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2470)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2470), inst: 4906 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3844))
 // CS Name: ::System.Collections.Generic::ValueListBuilder`1<T>
 struct CORDL_TYPE ValueListBuilder_1 {

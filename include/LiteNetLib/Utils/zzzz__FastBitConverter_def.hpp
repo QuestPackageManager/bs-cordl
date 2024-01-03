@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FastBitConverter)
 namespace LiteNetLib::Utils {
-struct __FastBitConverter__ConverterHelperFloat;
+struct __FastBitConverter__ConverterHelperDouble;
 }
 namespace LiteNetLib::Utils {
-struct __FastBitConverter__ConverterHelperDouble;
+struct __FastBitConverter__ConverterHelperFloat;
 }
 // Forward declare root types
 namespace LiteNetLib::Utils {

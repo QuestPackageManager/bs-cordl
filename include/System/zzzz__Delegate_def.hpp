@@ -8,35 +8,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Delegate)
-namespace System {
-class MulticastDelegate;
+namespace System::Reflection {
+struct BindingFlags;
 }
 namespace System::Reflection {
 class MethodInfo;
 }
-namespace System::Reflection {
-struct BindingFlags;
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System {
+class DelegateData;
 }
 namespace System {
 class ICloneable;
 }
 namespace System {
-class Type;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System {
-class DelegateData;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+class MulticastDelegate;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System {
@@ -100,8 +100,14 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
+
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
   constexpr void*& __get_method_ptr();
 

@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CustomStyleProperty_1)
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -34,6 +34,9 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::CustomStyleProperty_1<T>>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::CustomStyleProperty_1<T>>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::CustomStyleProperty_1<T>>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::CustomStyleProperty_1<T>>* i___System__IEquatable_1___UnityEngine__UIElements__CustomStyleProperty_1_T__();
 
   /// @brief Method get_name, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::StringW get_name();

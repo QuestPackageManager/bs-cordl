@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MD2Digest)
-namespace Org::BouncyCastle::Utilities {
-class IMemoable;
-}
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
+}
+namespace Org::BouncyCastle::Utilities {
+class IMemoable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Digests {
@@ -55,8 +55,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDigest"
   constexpr operator ::Org::BouncyCastle::Crypto::IDigest*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"
+  constexpr ::Org::BouncyCastle::Crypto::IDigest* i___Org__BouncyCastle__Crypto__IDigest() noexcept;
+
   /// @brief Convert operator to "::Org::BouncyCastle::Utilities::IMemoable"
   constexpr operator ::Org::BouncyCastle::Utilities::IMemoable*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Utilities::IMemoable"
+  constexpr ::Org::BouncyCastle::Utilities::IMemoable* i___Org__BouncyCastle__Utilities__IMemoable() noexcept;
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_X();
 

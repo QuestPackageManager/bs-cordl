@@ -4,29 +4,29 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SubContainerCreatorByInstaller)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+class Type;
+}
 namespace Zenject {
 class DiContainer;
+}
+namespace Zenject {
+class ISubContainerCreator;
+}
+namespace Zenject {
+class InjectContext;
 }
 namespace Zenject {
 class SubContainerCreatorBindInfo;
 }
 namespace Zenject {
 struct TypeValuePair;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace Zenject {
-class ISubContainerCreator;
-}
-namespace System {
-class Type;
-}
-namespace Zenject {
-class InjectContext;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -58,6 +58,9 @@ public:
 
   /// @brief Convert operator to "::Zenject::ISubContainerCreator"
   constexpr operator ::Zenject::ISubContainerCreator*() noexcept;
+
+  /// @brief Convert to "::Zenject::ISubContainerCreator"
+  constexpr ::Zenject::ISubContainerCreator* i___Zenject__ISubContainerCreator() noexcept;
 
   constexpr ::System::Type*& __get__installerType();
 

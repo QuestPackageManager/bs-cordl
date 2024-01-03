@@ -12,97 +12,91 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerController)
 namespace GlobalNamespace {
-class SongStartSyncController;
-}
-namespace GlobalNamespace {
-class SceneStartSyncController;
-}
-namespace GlobalNamespace {
-class __MultiplayerController____c__DisplayClass45_0;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace GlobalNamespace {
-struct MultiplayerPlayerStartState;
-}
-namespace GlobalNamespace {
-class IGameplayRpcManager;
-}
-namespace GlobalNamespace {
-class MultiplayerBadgesProvider;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace System {
-template <typename T> class Action_1;
+struct DisconnectedReason;
 }
 namespace GlobalNamespace {
 class FadeInOutController;
 }
 namespace GlobalNamespace {
-class PlayersSpecificSettingsAtGameStartModel;
-}
-namespace GlobalNamespace {
-class IMenuRpcManager;
-}
-namespace GlobalNamespace {
-class MultiplayerLevelCompletionResults;
-}
-namespace GlobalNamespace {
-class MultiplayerLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class MultiplayerPlayersManager;
-}
-namespace GlobalNamespace {
-class __MultiplayerController____c;
-}
-namespace GlobalNamespace {
-struct MultiplayerGameState;
-}
-namespace GlobalNamespace {
-class MultiplayerResultsData;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace GlobalNamespace {
-struct DisconnectedReason;
-}
-namespace GlobalNamespace {
-class MultiplayerLevelFinishedController;
-}
-namespace GlobalNamespace {
-class MultiplayerIntroAnimationController;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-struct __MultiplayerController__State;
+class GameScenesManager;
 }
 namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
 }
 namespace GlobalNamespace {
-class __MultiplayerController___PerformSongStartSync_d__39;
+class IGameplayRpcManager;
+}
+namespace GlobalNamespace {
+class IMenuRpcManager;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+class MultiplayerBadgesProvider;
+}
+namespace GlobalNamespace {
+struct MultiplayerGameState;
+}
+namespace GlobalNamespace {
+class MultiplayerIntroAnimationController;
+}
+namespace GlobalNamespace {
+class MultiplayerLevelCompletionResults;
+}
+namespace GlobalNamespace {
+class MultiplayerLevelFinishedController;
+}
+namespace GlobalNamespace {
+class MultiplayerLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
 class MultiplayerOutroAnimationController;
 }
 namespace GlobalNamespace {
-class GameScenesManager;
+struct MultiplayerPlayerStartState;
 }
-namespace UnityEngine {
-class Coroutine;
+namespace GlobalNamespace {
+class MultiplayerPlayersManager;
+}
+namespace GlobalNamespace {
+class MultiplayerResultsData;
+}
+namespace GlobalNamespace {
+class PlayersSpecificSettingsAtGameStartModel;
+}
+namespace GlobalNamespace {
+class SceneStartSyncController;
+}
+namespace GlobalNamespace {
+class SongStartSyncController;
+}
+namespace GlobalNamespace {
+struct __MultiplayerController__State;
+}
+namespace GlobalNamespace {
+class __MultiplayerController___PerformSongStartSync_d__39;
+}
+namespace GlobalNamespace {
+class __MultiplayerController____c;
+}
+namespace GlobalNamespace {
+class __MultiplayerController____c__DisplayClass45_0;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 class IDisposable;
@@ -110,8 +104,14 @@ class IDisposable;
 namespace System {
 class Object;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace UnityEngine {
+class Coroutine;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -234,11 +234,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -446,7 +455,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerCo
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5198)), TypeDefinitionIndex(TypeDefinitionIndex(5239)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(5198)), TypeDefinitionIndex(TypeDefinitionIndex(5239))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5202))
 // CS Name: ::MultiplayerController*
 class CORDL_TYPE MultiplayerController : public ::UnityEngine::MonoBehaviour {

@@ -28,6 +28,9 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPollable"
   constexpr operator ::GlobalNamespace::IPollable*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::IPollable"
+  constexpr ::GlobalNamespace::IPollable* i___GlobalNamespace__IPollable() noexcept;
+
   /// @brief Method get_utilization, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_utilization();
 

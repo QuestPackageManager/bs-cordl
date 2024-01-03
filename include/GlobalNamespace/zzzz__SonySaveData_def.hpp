@@ -10,10 +10,10 @@ namespace GlobalNamespace {
 class ISaveData;
 }
 namespace Zenject {
-class TickableManager;
+class ITickable;
 }
 namespace Zenject {
-class ITickable;
+class TickableManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -37,8 +37,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ISaveData"
   constexpr operator ::GlobalNamespace::ISaveData*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::ISaveData"
+  constexpr ::GlobalNamespace::ISaveData* i___GlobalNamespace__ISaveData() noexcept;
+
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
+
+  /// @brief Convert to "::Zenject::ITickable"
+  constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
   constexpr bool& __get__isMarkedForSave();
 

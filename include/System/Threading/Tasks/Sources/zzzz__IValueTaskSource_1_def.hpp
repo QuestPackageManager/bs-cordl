@@ -4,9 +4,6 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IValueTaskSource_1)
-namespace System {
-class Object;
-}
 namespace System::Threading::Tasks::Sources {
 struct ValueTaskSourceOnCompletedFlags;
 }
@@ -15,6 +12,9 @@ struct ValueTaskSourceStatus;
 }
 namespace System {
 template <typename T> class Action_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Threading::Tasks::Sources {

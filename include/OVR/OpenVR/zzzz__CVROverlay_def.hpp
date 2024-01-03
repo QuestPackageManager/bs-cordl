@@ -12,88 +12,88 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CVROverlay)
 namespace OVR::OpenVR {
-struct EVROverlayError;
-}
-namespace OVR::OpenVR {
-struct VRTextureBounds_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_t;
-}
-namespace OVR::OpenVR {
-struct EOverlayDirection;
-}
-namespace OVR::OpenVR {
-struct HmdColor_t;
+struct EColorSpace;
 }
 namespace OVR::OpenVR {
 struct EDualAnalogWhich;
 }
 namespace OVR::OpenVR {
-struct Texture_t;
-}
-namespace OVR::OpenVR {
-struct HmdVector2_t;
-}
-namespace OVR::OpenVR {
-struct VROverlayInputMethod;
-}
-namespace OVR::OpenVR {
-struct VROverlayIntersectionParams_t;
-}
-namespace OVR::OpenVR {
-struct HmdRect2_t;
-}
-namespace OVR::OpenVR {
-struct HmdMatrix34_t;
-}
-namespace OVR::OpenVR {
-struct __CVROverlay__PollNextOverlayEventUnion;
+struct EOverlayDirection;
 }
 namespace OVR::OpenVR {
 struct ETextureType;
 }
 namespace OVR::OpenVR {
-struct VROverlayIntersectionMaskPrimitive_t;
+struct ETrackingUniverseOrigin;
+}
+namespace OVR::OpenVR {
+struct EVROverlayError;
+}
+namespace OVR::OpenVR {
+struct HmdColor_t;
+}
+namespace OVR::OpenVR {
+struct HmdMatrix34_t;
+}
+namespace OVR::OpenVR {
+struct HmdRect2_t;
+}
+namespace OVR::OpenVR {
+struct HmdVector2_t;
+}
+namespace OVR::OpenVR {
+struct Texture_t;
+}
+namespace OVR::OpenVR {
+struct VREvent_t_Packed;
+}
+namespace OVR::OpenVR {
+struct VREvent_t;
 }
 namespace OVR::OpenVR {
 struct VRMessageOverlayResponse;
 }
 namespace OVR::OpenVR {
-class __CVROverlay___PollNextOverlayEventPacked;
+struct VROverlayFlags;
 }
-namespace System::Text {
-class StringBuilder;
+namespace OVR::OpenVR {
+struct VROverlayInputMethod;
+}
+namespace OVR::OpenVR {
+struct VROverlayIntersectionMaskPrimitive_t;
+}
+namespace OVR::OpenVR {
+struct VROverlayIntersectionParams_t;
 }
 namespace OVR::OpenVR {
 struct VROverlayIntersectionResults_t;
 }
 namespace OVR::OpenVR {
-struct VROverlayFlags;
-}
-namespace OVR::OpenVR {
-struct EColorSpace;
-}
-namespace OVR::OpenVR {
 struct VROverlayTransformType;
 }
 namespace OVR::OpenVR {
-struct ETrackingUniverseOrigin;
+struct VRTextureBounds_t;
 }
 namespace OVR::OpenVR {
-struct VREvent_t_Packed;
+struct __CVROverlay__PollNextOverlayEventUnion;
 }
-namespace System {
-class IAsyncResult;
+namespace OVR::OpenVR {
+class __CVROverlay___PollNextOverlayEventPacked;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___PollNextOverlayEvent;
+}
+namespace System::Text {
+class StringBuilder;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System {
-class Object;
+class IAsyncResult;
 }
-namespace OVR::OpenVR {
-class __IVROverlay___PollNextOverlayEvent;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -238,7 +238,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__CVROverlay__PollN
 // SizeInfo { instance_size: 672, native_size: -1, calculated_instance_size: 672, calculated_native_size: 672, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8470))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8470)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8567))
 // CS Name: ::OVR.OpenVR::CVROverlay*
 class CORDL_TYPE CVROverlay : public ::System::Object {

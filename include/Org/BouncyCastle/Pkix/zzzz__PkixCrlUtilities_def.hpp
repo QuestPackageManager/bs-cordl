@@ -10,14 +10,14 @@ class PkixParameters;
 namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
 }
-namespace System::Collections {
-class IList;
+namespace Org::BouncyCastle::X509::Store {
+class X509CrlStoreSelector;
 }
 namespace System::Collections {
 class ICollection;
 }
-namespace Org::BouncyCastle::X509::Store {
-class X509CrlStoreSelector;
+namespace System::Collections {
+class IList;
 }
 namespace System {
 struct DateTime;

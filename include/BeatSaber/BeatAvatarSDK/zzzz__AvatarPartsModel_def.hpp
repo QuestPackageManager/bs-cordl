@@ -8,13 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AvatarPartsModel)
 namespace BeatSaber::BeatAvatarSDK {
-class SkinColorSO;
+class AvatarMeshPartSO;
 }
 namespace BeatSaber::BeatAvatarSDK {
 template <typename T> class AvatarPartCollection_1;
-}
-namespace BeatSaber::BeatAvatarSDK {
-class AvatarMeshPartSO;
 }
 namespace BeatSaber::BeatAvatarSDK {
 class AvatarPartsModelSO;
@@ -22,11 +19,14 @@ class AvatarPartsModelSO;
 namespace BeatSaber::BeatAvatarSDK {
 class AvatarSpritePartSO;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace BeatSaber::BeatAvatarSDK {
+class SkinColorSO;
 }
 namespace BeatSaber::BeatAvatarSDK {
 class SkinColorSetSO;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace BeatSaber::BeatAvatarSDK {

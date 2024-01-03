@@ -28,6 +28,9 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::INavigationEvent"
   constexpr operator ::UnityEngine::UIElements::INavigationEvent*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::UIElements::INavigationEvent"
+  constexpr ::UnityEngine::UIElements::INavigationEvent* i___UnityEngine__UIElements__INavigationEvent() noexcept;
+
   static inline ::UnityEngine::UIElements::NavigationEventBase_1<T>* New_ctor();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "Newtonsoft/Json/Converters/zzzz__XmlNodeWrapper_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlDeclarationWrapper)
-namespace System::Xml {
-class XmlDeclaration;
+namespace Newtonsoft::Json::Converters {
+class IXmlDeclaration;
 }
 namespace Newtonsoft::Json::Converters {
 class IXmlNode;
 }
-namespace Newtonsoft::Json::Converters {
-class IXmlDeclaration;
+namespace System::Xml {
+class XmlDeclaration;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -42,8 +42,14 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlDeclaration"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlDeclaration*() noexcept;
 
+  /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlDeclaration"
+  constexpr ::Newtonsoft::Json::Converters::IXmlDeclaration* i___Newtonsoft__Json__Converters__IXmlDeclaration() noexcept;
+
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept;
+
+  /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
+  constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
 
   constexpr ::System::Xml::XmlDeclaration*& __get__declaration();
 

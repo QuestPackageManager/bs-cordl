@@ -25,6 +25,9 @@ public:
   /// @brief Convert operator to "::Zenject::IValidatable"
   constexpr operator ::Zenject::IValidatable*() noexcept;
 
+  /// @brief Convert to "::Zenject::IValidatable"
+  constexpr ::Zenject::IValidatable* i___Zenject__IValidatable() noexcept;
+
   // Ctor Parameters [CppParam { name: "", ty: "IPlaceholderFactory", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IPlaceholderFactory(IPlaceholderFactory&&) = delete;

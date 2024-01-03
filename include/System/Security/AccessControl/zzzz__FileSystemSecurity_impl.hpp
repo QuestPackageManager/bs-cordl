@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Security/AccessControl/zzzz__NativeObjectSecurity_impl.hpp"
 #include "System/Security/AccessControl/zzzz__FileSystemSecurity_def.hpp"
-#include "System/Security/AccessControl/zzzz__PropagationFlags_def.hpp"
-#include "System/Security/AccessControl/zzzz__AccessRule_def.hpp"
-#include "System/Security/AccessControl/zzzz__AccessControlType_def.hpp"
-#include "System/Security/Principal/zzzz__IdentityReference_def.hpp"
-#include "System/Security/AccessControl/zzzz__InheritanceFlags_def.hpp"
 #include "System/Security/AccessControl/zzzz__AccessControlSections_def.hpp"
+#include "System/Security/AccessControl/zzzz__AccessControlType_def.hpp"
+#include "System/Security/AccessControl/zzzz__AccessRule_def.hpp"
+#include "System/Security/AccessControl/zzzz__InheritanceFlags_def.hpp"
+#include "System/Security/AccessControl/zzzz__PropagationFlags_def.hpp"
+#include "System/Security/Principal/zzzz__IdentityReference_def.hpp"
 //  Writing Method size for method: ::System::Security::AccessControl::FileSystemSecurity._ctor
 template <>
 
@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x24833b0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::FileSystemSecurity*>::get(), ".ctor", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
@@ -33,7 +33,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xa0;
   constexpr static std::size_t addrs = 0x24835cc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::FileSystemSecurity*>::get(), "AccessRuleFactory", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Principal::IdentityReference*>::get(),

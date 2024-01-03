@@ -6,8 +6,8 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CPUMonitor)
-namespace System::Diagnostics {
-class Process;
+namespace GlobalNamespace {
+class ICPUMonitor;
 }
 namespace GlobalNamespace {
 class IPollable;
@@ -15,8 +15,8 @@ class IPollable;
 namespace GlobalNamespace {
 class RollingAverage;
 }
-namespace GlobalNamespace {
-class ICPUMonitor;
+namespace System::Diagnostics {
+class Process;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -54,8 +54,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ICPUMonitor"
   constexpr operator ::GlobalNamespace::ICPUMonitor*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::ICPUMonitor"
+  constexpr ::GlobalNamespace::ICPUMonitor* i___GlobalNamespace__ICPUMonitor() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IPollable"
   constexpr operator ::GlobalNamespace::IPollable*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IPollable"
+  constexpr ::GlobalNamespace::IPollable* i___GlobalNamespace__IPollable() noexcept;
 
   constexpr ::GlobalNamespace::RollingAverage*& __get__utilization();
 

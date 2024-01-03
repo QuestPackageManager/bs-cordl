@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DHKeyPairGenerator)
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DHKeyGenerationParameters;
+}
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricCipherKeyPair;
 }
 namespace Org::BouncyCastle::Crypto {
 class IAsymmetricCipherKeyPairGenerator;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DHKeyGenerationParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class KeyGenerationParameters;
@@ -37,6 +37,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
   constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
+  constexpr ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator* i___Org__BouncyCastle__Crypto__IAsymmetricCipherKeyPairGenerator() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*& __get_param();
 

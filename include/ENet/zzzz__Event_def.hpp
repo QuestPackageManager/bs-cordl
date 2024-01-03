@@ -10,13 +10,13 @@ namespace ENet {
 struct ENetEvent;
 }
 namespace ENet {
-struct Peer;
-}
-namespace ENet {
 struct EventType;
 }
 namespace ENet {
 struct Packet;
+}
+namespace ENet {
+struct Peer;
 }
 // Forward declare root types
 namespace ENet {

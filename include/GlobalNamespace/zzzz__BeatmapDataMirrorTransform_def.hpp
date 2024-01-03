@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapDataMirrorTransform)
 namespace GlobalNamespace {
+class BeatmapDataItem;
+}
+namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
 class __BeatmapDataMirrorTransform____c__DisplayClass0_0;
-}
-namespace GlobalNamespace {
-class BeatmapDataItem;
 }
 // Forward declare root types
 namespace GlobalNamespace {

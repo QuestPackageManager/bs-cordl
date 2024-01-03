@@ -7,19 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsPskKeyExchange)
 namespace Org::BouncyCastle::Crypto::Parameters {
-class RsaKeyParameters;
+class DHParameters;
 }
-namespace Org::BouncyCastle::Crypto::Tls {
-class CertificateRequest;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCredentials;
-}
-namespace System::IO {
-class Stream;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsPskIdentityManager;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DHPrivateKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DHPublicKeyParameters;
@@ -28,31 +19,40 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 class ECPrivateKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
-class DHPrivateKeyParameters;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
 class ECPublicKeyParameters;
 }
+namespace Org::BouncyCastle::Crypto::Parameters {
+class RsaKeyParameters;
+}
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsEncryptionCredentials;
+class CertificateRequest;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class Certificate;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsPskIdentity;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DHParameters;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+class TlsCredentials;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsDHVerifier;
 }
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsEncryptionCredentials;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsPskIdentityManager;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsPskIdentity;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
 namespace System::Collections {
 class IList;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

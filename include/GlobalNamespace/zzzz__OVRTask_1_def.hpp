@@ -11,65 +11,65 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRTask_1)
-namespace System {
-class IAsyncResult;
-}
-namespace System {
-struct Guid;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class AsyncCallback;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System {
-class Action;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace GlobalNamespace {
-template <typename TResult> class __OVRTask_1__InternalDataRemover;
-}
-namespace GlobalNamespace {
-template <typename TResult> struct __OVRTask_1__Callback;
-}
-namespace GlobalNamespace {
-template <typename TResult> class __OVRTask_1__CallbackRemover;
-}
 namespace GlobalNamespace {
 template <typename TResult> struct __OVRTask_1__Awaiter;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace GlobalNamespace {
-template <typename TResult, typename T> class __OVRTask_1__InternalData_1;
-}
-namespace GlobalNamespace {
-template <typename TResult, typename T> class __OVRTask_1__IncrementalResultSubscriber_1;
 }
 namespace GlobalNamespace {
 template <typename TResult> class __OVRTask_1__CallbackInvoker;
 }
 namespace GlobalNamespace {
+template <typename TResult> class __OVRTask_1__CallbackRemover;
+}
+namespace GlobalNamespace {
 template <typename TResult, typename T> struct __OVRTask_1__CallbackWithState_1;
+}
+namespace GlobalNamespace {
+template <typename TResult> struct __OVRTask_1__Callback;
+}
+namespace GlobalNamespace {
+template <typename TResult, typename T> class __OVRTask_1__IncrementalResultSubscriber_1;
+}
+namespace GlobalNamespace {
+template <typename TResult> class __OVRTask_1__InternalDataRemover;
+}
+namespace GlobalNamespace {
+template <typename TResult, typename T> class __OVRTask_1__InternalData_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace System::Runtime::CompilerServices {
+class INotifyCompletion;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
-namespace System::Runtime::CompilerServices {
-class INotifyCompletion;
+namespace System {
+class Action;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System {
+struct Guid;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -439,8 +439,14 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::OVRTask_1<TResult>>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::OVRTask_1<TResult>>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::OVRTask_1<TResult>>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::OVRTask_1<TResult>>* i___System__IEquatable_1___GlobalNamespace__OVRTask_1_TResult__();
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   static inline void setStaticF_Pending(::System::Collections::Generic::HashSet_1<::System::Guid>* value);
 
@@ -581,6 +587,9 @@ public:
 
   /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::INotifyCompletion"
+  constexpr ::System::Runtime::CompilerServices::INotifyCompletion* i___System__Runtime__CompilerServices__INotifyCompletion();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRTask_1<TResult> task);

@@ -9,13 +9,13 @@ namespace ENet {
 class AllocCallback;
 }
 namespace ENet {
+struct ENetCallbacks;
+}
+namespace ENet {
 class FreeCallback;
 }
 namespace ENet {
 class NoMemoryCallback;
-}
-namespace ENet {
-struct ENetCallbacks;
 }
 // Forward declare root types
 namespace ENet {

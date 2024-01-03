@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IntegratedSubsystemDescriptor)
 namespace UnityEngine {
-class ISubsystem;
+class ISubsystemDescriptor;
 }
 namespace UnityEngine {
-class ISubsystemDescriptor;
+class ISubsystem;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::UnityEngine::IntegratedSubsystemDescriptor);
 // SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15959))
 // CS Name: ::UnityEngine::IntegratedSubsystemDescriptor*
 class CORDL_TYPE IntegratedSubsystemDescriptor : public ::System::Object {
@@ -36,6 +36,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::ISubsystemDescriptor"
   constexpr operator ::UnityEngine::ISubsystemDescriptor*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::ISubsystemDescriptor"
+  constexpr ::UnityEngine::ISubsystemDescriptor* i___UnityEngine__ISubsystemDescriptor() noexcept;
 
   constexpr void*& __get_m_Ptr();
 

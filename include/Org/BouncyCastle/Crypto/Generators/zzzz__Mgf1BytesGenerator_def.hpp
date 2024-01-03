@@ -10,10 +10,10 @@ namespace Org::BouncyCastle::Crypto {
 class IDerivationFunction;
 }
 namespace Org::BouncyCastle::Crypto {
-class IDigest;
+class IDerivationParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class IDerivationParameters;
+class IDigest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {
@@ -44,6 +44,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDerivationFunction"
   constexpr operator ::Org::BouncyCastle::Crypto::IDerivationFunction*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationFunction"
+  constexpr ::Org::BouncyCastle::Crypto::IDerivationFunction* i___Org__BouncyCastle__Crypto__IDerivationFunction() noexcept;
 
   constexpr ::Org::BouncyCastle::Crypto::IDigest*& __get_digest();
 

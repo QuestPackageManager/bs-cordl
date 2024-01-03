@@ -4,15 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
-#include "UnityEngine/SceneManagement/zzzz__LoadSceneMode_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AssetReference)
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-class GameObject;
+namespace System {
+class Object;
 }
 namespace System {
 class Type;
@@ -20,26 +16,32 @@ class Type;
 namespace UnityEngine::AddressableAssets {
 class IKeyEvaluator;
 }
-namespace UnityEngine {
-class Object;
-}
-namespace System {
-class Object;
-}
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> struct AsyncOperationHandle_1;
 }
-namespace UnityEngine {
-struct Quaternion;
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct SceneInstance;
 }
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
+namespace UnityEngine::SceneManagement {
+struct LoadSceneMode;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class Object;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets {
@@ -51,7 +53,7 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::AssetReference);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10375)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14034))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14034)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14089))
 // CS Name: ::UnityEngine.AddressableAssets::AssetReference*
 class CORDL_TYPE AssetReference : public ::System::Object {
@@ -85,6 +87,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::AddressableAssets::IKeyEvaluator"
   constexpr operator ::UnityEngine::AddressableAssets::IKeyEvaluator*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::AddressableAssets::IKeyEvaluator"
+  constexpr ::UnityEngine::AddressableAssets::IKeyEvaluator* i___UnityEngine__AddressableAssets__IKeyEvaluator() noexcept;
 
   constexpr ::StringW& __get_m_AssetGUID();
 
@@ -168,39 +173,28 @@ public:
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> LoadScene();
 
   /// @brief Method Instantiate, addr 0x2a24160, size 0x34, virtual false, abstract: false, final false
-  /// @param parent: ::UnityEngine::Transform* (default: nullptr)
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*> Instantiate(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation,
-                                                                                                                            ::UnityEngine::Transform* parent = nullptr);
+                                                                                                                            ::UnityEngine::Transform* parent);
 
   /// @brief Method Instantiate, addr 0x2a24194, size 0x38, virtual false, abstract: false, final false
-  /// @param parent: ::UnityEngine::Transform* (default: nullptr)
-  /// @param instantiateInWorldSpace: bool (default: false)
-  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*> Instantiate(::UnityEngine::Transform* parent = nullptr,
-                                                                                                                            bool instantiateInWorldSpace = false);
+  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*> Instantiate(::UnityEngine::Transform* parent, bool instantiateInWorldSpace);
 
   /// @brief Method LoadAssetAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename TObject> inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> LoadAssetAsync();
 
   /// @brief Method LoadSceneAsync, addr 0x2a241cc, size 0x160, virtual true, abstract: false, final false
-  /// @param loadMode: ::UnityEngine::SceneManagement::LoadSceneMode (default: static_cast<int32_t>(0x0))
-  /// @param activateOnLoad: bool (default: true)
-  /// @param priority: int32_t (default: static_cast<int32_t>(0x64))
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
-  LoadSceneAsync(::UnityEngine::SceneManagement::LoadSceneMode loadMode = static_cast<int32_t>(0x0), bool activateOnLoad = true, int32_t priority = static_cast<int32_t>(0x64));
+  LoadSceneAsync(::UnityEngine::SceneManagement::LoadSceneMode loadMode, bool activateOnLoad, int32_t priority);
 
   /// @brief Method UnLoadScene, addr 0x2a2432c, size 0x9c, virtual true, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> UnLoadScene();
 
   /// @brief Method InstantiateAsync, addr 0x2a243c8, size 0xf4, virtual true, abstract: false, final false
-  /// @param parent: ::UnityEngine::Transform* (default: nullptr)
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*> InstantiateAsync(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation,
-                                                                                                                                 ::UnityEngine::Transform* parent = nullptr);
+                                                                                                                                 ::UnityEngine::Transform* parent);
 
   /// @brief Method InstantiateAsync, addr 0x2a244bc, size 0xac, virtual true, abstract: false, final false
-  /// @param parent: ::UnityEngine::Transform* (default: nullptr)
-  /// @param instantiateInWorldSpace: bool (default: false)
-  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*> InstantiateAsync(::UnityEngine::Transform* parent = nullptr,
-                                                                                                                                 bool instantiateInWorldSpace = false);
+  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*> InstantiateAsync(::UnityEngine::Transform* parent, bool instantiateInWorldSpace);
 
   /// @brief Method RuntimeKeyIsValid, addr 0x2a24568, size 0xb8, virtual true, abstract: false, final false
   inline bool RuntimeKeyIsValid();

@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(FullBodyBipedIK)
 namespace RootMotion::FinalIK {
-class IKSolver;
+class IKSolverFullBodyBiped;
 }
 namespace RootMotion::FinalIK {
-class IKSolverFullBodyBiped;
+class IKSolver;
 }
 namespace RootMotion {
 class BipedReferences;

@@ -9,13 +9,19 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerConnectedPlayerBeatmapObjectManager)
 namespace GlobalNamespace {
-class ObstacleController;
+class IConnectedPlayerBeatmapObjectEventManager;
 }
 namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__SliderSpawnData;
+template <typename T> class MemoryPoolContainer_1;
+}
+namespace GlobalNamespace {
+template <typename T0, typename T1> class MemoryPoolContainer_2;
 }
 namespace GlobalNamespace {
 class MultiplayerConnectedPlayerBombNoteController;
+}
+namespace GlobalNamespace {
+class MultiplayerConnectedPlayerGameNoteController;
 }
 namespace GlobalNamespace {
 class MultiplayerConnectedPlayerObstacleController;
@@ -24,64 +30,58 @@ namespace GlobalNamespace {
 class NoteController;
 }
 namespace GlobalNamespace {
-class __MultiplayerConnectedPlayerGameNoteController__Pool;
-}
-namespace GlobalNamespace {
-class __MultiplayerConnectedPlayerBombNoteController__Pool;
-}
-namespace GlobalNamespace {
-class __MultiplayerConnectedPlayerObstacleController__Pool;
-}
-namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__ObstacleSpawnData;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-template <typename T> class MemoryPoolContainer_1;
-}
-namespace GlobalNamespace {
-class NoteData;
-}
-namespace System {
-class IDisposable;
-}
-namespace GlobalNamespace {
-class ObstacleData;
-}
-namespace GlobalNamespace {
-class SliderSpawnInfoNetSerializable;
-}
-namespace GlobalNamespace {
-class ObstacleSpawnInfoNetSerializable;
-}
-namespace GlobalNamespace {
 class NoteCutInfoNetSerializable;
 }
 namespace GlobalNamespace {
-class SliderController;
-}
-namespace GlobalNamespace {
-class MultiplayerConnectedPlayerGameNoteController;
-}
-namespace GlobalNamespace {
-class IConnectedPlayerBeatmapObjectEventManager;
-}
-namespace GlobalNamespace {
-class SliderData;
-}
-namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__NoteSpawnData;
+class NoteData;
 }
 namespace GlobalNamespace {
 class NoteSpawnInfoNetSerializable;
 }
 namespace GlobalNamespace {
+class ObstacleController;
+}
+namespace GlobalNamespace {
+class ObstacleData;
+}
+namespace GlobalNamespace {
+class ObstacleSpawnInfoNetSerializable;
+}
+namespace GlobalNamespace {
+class SliderController;
+}
+namespace GlobalNamespace {
+class SliderData;
+}
+namespace GlobalNamespace {
+class SliderSpawnInfoNetSerializable;
+}
+namespace GlobalNamespace {
+struct __BeatmapObjectSpawnMovementData__NoteSpawnData;
+}
+namespace GlobalNamespace {
+struct __BeatmapObjectSpawnMovementData__ObstacleSpawnData;
+}
+namespace GlobalNamespace {
+struct __BeatmapObjectSpawnMovementData__SliderSpawnData;
+}
+namespace GlobalNamespace {
 class __MultiplayerConnectedPlayerBeatmapObjectManager__InitData;
 }
 namespace GlobalNamespace {
-template <typename T0, typename T1> class MemoryPoolContainer_2;
+class __MultiplayerConnectedPlayerBombNoteController__Pool;
+}
+namespace GlobalNamespace {
+class __MultiplayerConnectedPlayerGameNoteController__Pool;
+}
+namespace GlobalNamespace {
+class __MultiplayerConnectedPlayerObstacleController__Pool;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -174,8 +174,8 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerConnectedPlayerBeatmapObj
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4716)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 391
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5119)) CS Name: ::MultiplayerConnectedPlayerBeatmapObjectManager*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 391 }), TypeDefinitionIndex(TypeDefinitionIndex(4716)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5119)) CS Name: ::MultiplayerConnectedPlayerBeatmapObjectManager*
 class CORDL_TYPE MultiplayerConnectedPlayerBeatmapObjectManager : public ::GlobalNamespace::BeatmapObjectManager {
 public:
   // Declarations
@@ -220,6 +220,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::System::Nullable_1<float_t>& __get__firstBasicNoteTime();
 

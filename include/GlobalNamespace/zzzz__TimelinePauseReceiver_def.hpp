@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(TimelinePauseReceiver)
 namespace System {
-class Object;
+class Action;
 }
-namespace UnityEngine::Playables {
-class INotification;
+namespace System {
+class Object;
 }
 namespace UnityEngine::Playables {
 class INotificationReceiver;
 }
-namespace System {
-class Action;
+namespace UnityEngine::Playables {
+class INotification;
 }
 namespace UnityEngine::Playables {
 struct Playable;
@@ -40,6 +40,9 @@ public:
 
   /// @brief Convert operator to "::UnityEngine::Playables::INotificationReceiver"
   constexpr operator ::UnityEngine::Playables::INotificationReceiver*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::Playables::INotificationReceiver"
+  constexpr ::UnityEngine::Playables::INotificationReceiver* i___UnityEngine__Playables__INotificationReceiver() noexcept;
 
   constexpr ::System::Action*& __get_timelinePauseEvent();
 

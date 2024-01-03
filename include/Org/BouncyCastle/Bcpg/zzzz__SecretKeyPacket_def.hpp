@@ -11,13 +11,13 @@ namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
-class S2k;
-}
-namespace Org::BouncyCastle::Bcpg {
 class BcpgOutputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
 class PublicKeyPacket;
+}
+namespace Org::BouncyCastle::Bcpg {
+class S2k;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct SymmetricKeyAlgorithmTag;

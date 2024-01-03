@@ -16,11 +16,32 @@ struct EVRScreenshotError;
 namespace OVR::OpenVR {
 struct EVRScreenshotPropertyFilenames;
 }
+namespace OVR::OpenVR {
+struct EVRScreenshotType;
+}
+namespace OVR::OpenVR {
+class __IVRScreenshots___GetScreenshotPropertyFilename;
+}
+namespace OVR::OpenVR {
+class __IVRScreenshots___GetScreenshotPropertyType;
+}
+namespace OVR::OpenVR {
+class __IVRScreenshots___HookScreenshot;
+}
+namespace OVR::OpenVR {
+class __IVRScreenshots___RequestScreenshot;
+}
+namespace OVR::OpenVR {
+class __IVRScreenshots___SubmitScreenshot;
+}
+namespace OVR::OpenVR {
+class __IVRScreenshots___TakeStereoScreenshot;
+}
+namespace OVR::OpenVR {
+class __IVRScreenshots___UpdateScreenshotProgress;
+}
 namespace System::Text {
 class StringBuilder;
-}
-namespace System {
-class Object;
 }
 namespace System {
 class AsyncCallback;
@@ -28,29 +49,8 @@ class AsyncCallback;
 namespace System {
 class IAsyncResult;
 }
-namespace OVR::OpenVR {
-struct EVRScreenshotType;
-}
-namespace OVR::OpenVR {
-class __IVRScreenshots___TakeStereoScreenshot;
-}
-namespace OVR::OpenVR {
-class __IVRScreenshots___GetScreenshotPropertyFilename;
-}
-namespace OVR::OpenVR {
-class __IVRScreenshots___SubmitScreenshot;
-}
-namespace OVR::OpenVR {
-class __IVRScreenshots___UpdateScreenshotProgress;
-}
-namespace OVR::OpenVR {
-class __IVRScreenshots___RequestScreenshot;
-}
-namespace OVR::OpenVR {
-class __IVRScreenshots___HookScreenshot;
-}
-namespace OVR::OpenVR {
-class __IVRScreenshots___GetScreenshotPropertyType;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

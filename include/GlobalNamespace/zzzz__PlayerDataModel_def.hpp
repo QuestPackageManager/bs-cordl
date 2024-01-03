@@ -8,13 +8,13 @@ namespace GlobalNamespace {
 class BeatmapCharacteristicCollection;
 }
 namespace GlobalNamespace {
-class PlayerData;
-}
-namespace GlobalNamespace {
 class ISaveData;
 }
 namespace GlobalNamespace {
 class PlayerDataFileManagerSO;
+}
+namespace GlobalNamespace {
+class PlayerData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

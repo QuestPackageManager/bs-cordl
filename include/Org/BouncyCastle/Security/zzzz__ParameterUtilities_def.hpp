@@ -8,31 +8,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ParameterUtilities)
 namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
-namespace System::Collections {
-class IDictionary;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
+namespace System::Collections {
+class IDictionary;
+}
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Security {

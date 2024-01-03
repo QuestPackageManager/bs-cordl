@@ -12,68 +12,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Selectable)
-namespace UnityEngine::EventSystems {
-class IMoveHandler;
-}
-namespace UnityEngine::UI {
-class Image;
-}
-namespace UnityEngine {
-class Sprite;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::EventSystems {
 class AxisEventData;
 }
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine::EventSystems {
-class IDeselectHandler;
-}
-namespace UnityEngine::UI {
-struct ColorBlock;
-}
-namespace UnityEngine::UI {
-struct __Selectable__Transition;
-}
-namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine::UI {
-struct __Selectable__SelectionState;
-}
-namespace UnityEngine::EventSystems {
-class IPointerExitHandler;
-}
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::EventSystems {
 class BaseEventData;
 }
 namespace UnityEngine::EventSystems {
-class IPointerUpHandler;
-}
-namespace UnityEngine::UI {
-struct Navigation;
+class IDeselectHandler;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine {
-class Animator;
-}
-namespace UnityEngine {
-class CanvasGroup;
+class IEventSystemHandler;
 }
 namespace UnityEngine::EventSystems {
-class ISelectHandler;
+class IMoveHandler;
 }
 namespace UnityEngine::EventSystems {
 class IPointerDownHandler;
@@ -81,17 +36,62 @@ class IPointerDownHandler;
 namespace UnityEngine::EventSystems {
 class IPointerEnterHandler;
 }
-namespace UnityEngine::UI {
-class Graphic;
+namespace UnityEngine::EventSystems {
+class IPointerExitHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerUpHandler;
+}
+namespace UnityEngine::EventSystems {
+class ISelectHandler;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
 }
 namespace UnityEngine::UI {
 class AnimationTriggers;
 }
 namespace UnityEngine::UI {
+struct ColorBlock;
+}
+namespace UnityEngine::UI {
+class Graphic;
+}
+namespace UnityEngine::UI {
+class Image;
+}
+namespace UnityEngine::UI {
+struct Navigation;
+}
+namespace UnityEngine::UI {
 struct SpriteState;
 }
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+namespace UnityEngine::UI {
+struct __Selectable__SelectionState;
+}
+namespace UnityEngine::UI {
+struct __Selectable__Transition;
+}
+namespace UnityEngine {
+class Animator;
+}
+namespace UnityEngine {
+class CanvasGroup;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine {
+class Sprite;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -231,8 +231,8 @@ static_assert(offsetof(::UnityEngine::UI::__Selectable__SelectionState, value__)
 // SizeInfo { instance_size: 248, native_size: -1, calculated_instance_size: 248, calculated_native_size: 248, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13125)), TypeDefinitionIndex(TypeDefinitionIndex(13105)), TypeDefinitionIndex(TypeDefinitionIndex(13023)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13117)), TypeDefinitionIndex(TypeDefinitionIndex(13214))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13119)) CS Name: ::UnityEngine.UI::Selectable*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13117)), TypeDefinitionIndex(TypeDefinitionIndex(13214)), TypeDefinitionIndex(TypeDefinitionIndex(13023)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13105)), TypeDefinitionIndex(TypeDefinitionIndex(13125))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13119)) CS Name: ::UnityEngine.UI::Selectable*
 class CORDL_TYPE Selectable : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
   // Declarations
@@ -317,26 +317,50 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IMoveHandler"
   constexpr operator ::UnityEngine::EventSystems::IMoveHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IMoveHandler"
+  constexpr ::UnityEngine::EventSystems::IMoveHandler* i___UnityEngine__EventSystems__IMoveHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerDownHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerDownHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerDownHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerDownHandler* i___UnityEngine__EventSystems__IPointerDownHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerUpHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerUpHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerUpHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerUpHandler* i___UnityEngine__EventSystems__IPointerUpHandler() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerEnterHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerEnterHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerEnterHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerEnterHandler* i___UnityEngine__EventSystems__IPointerEnterHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerExitHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerExitHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerExitHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerExitHandler* i___UnityEngine__EventSystems__IPointerExitHandler() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::ISelectHandler"
   constexpr operator ::UnityEngine::EventSystems::ISelectHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::ISelectHandler"
+  constexpr ::UnityEngine::EventSystems::ISelectHandler* i___UnityEngine__EventSystems__ISelectHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IDeselectHandler"
   constexpr operator ::UnityEngine::EventSystems::IDeselectHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IDeselectHandler"
+  constexpr ::UnityEngine::EventSystems::IDeselectHandler* i___UnityEngine__EventSystems__IDeselectHandler() noexcept;
 
   constexpr bool& __get_m_EnableCalled();
 

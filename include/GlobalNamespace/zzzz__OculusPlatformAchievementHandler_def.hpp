@@ -6,43 +6,43 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(OculusPlatformAchievementHandler)
 namespace GlobalNamespace {
-class __OculusPlatformAchievementHandler____c__DisplayClass3_1;
+class AchievementIdsModelSO;
+}
+namespace GlobalNamespace {
+class AchievementSO;
 }
 namespace GlobalNamespace {
 class HMAsyncRequest;
 }
 namespace GlobalNamespace {
-class __OculusPlatformAchievementHandler____c__DisplayClass2_0;
+class IPlatformAchievementsHandler;
 }
 namespace GlobalNamespace {
 class __IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler;
 }
 namespace GlobalNamespace {
-class IPlatformAchievementsHandler;
+class __IPlatformAchievementsHandler__UnlockAchievementCompletionHandler;
 }
 namespace GlobalNamespace {
-class __IPlatformAchievementsHandler__UnlockAchievementCompletionHandler;
+class __OculusPlatformAchievementHandler____c__DisplayClass2_0;
 }
 namespace GlobalNamespace {
 class __OculusPlatformAchievementHandler____c__DisplayClass3_0;
 }
 namespace GlobalNamespace {
-class AchievementIdsModelSO;
-}
-namespace Oculus::Platform {
-template <typename T> class Message_1;
-}
-namespace Oculus::Platform::Models {
-class AchievementUpdate;
+class __OculusPlatformAchievementHandler____c__DisplayClass3_1;
 }
 namespace Oculus::Platform::Models {
 class AchievementProgressList;
 }
-namespace GlobalNamespace {
-class AchievementSO;
-}
 namespace Oculus::Platform::Models {
 class AchievementProgress;
+}
+namespace Oculus::Platform::Models {
+class AchievementUpdate;
+}
+namespace Oculus::Platform {
+template <typename T> class Message_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -253,6 +253,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IPlatformAchievementsHandler"
   constexpr operator ::GlobalNamespace::IPlatformAchievementsHandler*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IPlatformAchievementsHandler"
+  constexpr ::GlobalNamespace::IPlatformAchievementsHandler* i___GlobalNamespace__IPlatformAchievementsHandler() noexcept;
 
   constexpr ::GlobalNamespace::AchievementIdsModelSO*& __get__achievementIdsModel();
 

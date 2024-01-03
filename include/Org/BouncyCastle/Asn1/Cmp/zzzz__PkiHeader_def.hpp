@@ -6,26 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PkiHeader)
-namespace Org::BouncyCastle::Asn1 {
-class DerGeneralizedTime;
-}
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace Org::BouncyCastle::Asn1::Cmp {
+class InfoTypeAndValue;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiFreeText;
 }
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class GeneralName;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1::Cmp {
-class InfoTypeAndValue;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
@@ -33,8 +27,14 @@ class Asn1OctetString;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralName;
+namespace Org::BouncyCastle::Asn1 {
+class DerGeneralizedTime;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {

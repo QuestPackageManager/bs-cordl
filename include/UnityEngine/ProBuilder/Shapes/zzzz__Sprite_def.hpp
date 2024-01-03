@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
 CORDL_MODULE_EXPORT(Sprite)
+namespace UnityEngine::ProBuilder::Shapes {
+class Shape;
+}
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
 namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
 struct Bounds;
 }
-namespace UnityEngine::ProBuilder::Shapes {
-class Shape;
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;

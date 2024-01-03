@@ -9,23 +9,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Vector_1)
+namespace System::Numerics {
+struct Register;
+}
+namespace System::Numerics {
+template <typename T> struct __Vector_1__VectorSizeHelper;
+}
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class IFormatProvider;
-}
-namespace System::Numerics {
-struct Register;
 }
 namespace System {
 class IFormattable;
 }
 namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System::Numerics {
-template <typename T> struct __Vector_1__VectorSizeHelper;
+class Object;
 }
 // Forward declare root types
 namespace System::Numerics {
@@ -43,8 +43,8 @@ namespace System::Numerics {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3553)), TypeDefinitionIndex(TypeDefinitionIndex(3551)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3553), inst: 5347
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(3553)) CS Name: ::System.Numerics::Vector`1<T>
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3551)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3553), inst: 5347 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3553))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3553)) CS Name: ::System.Numerics::Vector`1<T>
 struct CORDL_TYPE Vector_1 {
 public:
   // Declarations
@@ -67,8 +67,14 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::System::Numerics::Vector_1<T>>"
   constexpr operator ::System::IEquatable_1<::System::Numerics::Vector_1<T>>*();
 
+  /// @brief Convert to "::System::IEquatable_1<::System::Numerics::Vector_1<T>>"
+  constexpr ::System::IEquatable_1<::System::Numerics::Vector_1<T>>* i___System__IEquatable_1___System__Numerics__Vector_1_T__();
+
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
+
+  /// @brief Convert to "::System::IFormattable"
+  constexpr ::System::IFormattable* i___System__IFormattable();
 
   static inline void setStaticF_s_count(int32_t value);
 

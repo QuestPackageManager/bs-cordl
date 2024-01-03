@@ -12,49 +12,49 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Slider)
 namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine::UI {
-struct __Slider__Direction;
-}
-namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine::EventSystems {
 class AxisEventData;
 }
-namespace UnityEngine::UI {
-class ICanvasElement;
+namespace UnityEngine::EventSystems {
+class IDragHandler;
 }
-namespace UnityEngine {
-class RectTransform;
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
 }
-namespace UnityEngine::UI {
-class __Slider__SliderEvent;
-}
-namespace UnityEngine::UI {
-struct __Slider__Axis;
-}
-namespace UnityEngine::UI {
-class Selectable;
+namespace UnityEngine::EventSystems {
+class IInitializePotentialDragHandler;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
-namespace UnityEngine::EventSystems {
-class IDragHandler;
+namespace UnityEngine::UI {
+struct CanvasUpdate;
+}
+namespace UnityEngine::UI {
+class ICanvasElement;
 }
 namespace UnityEngine::UI {
 class Image;
 }
 namespace UnityEngine::UI {
-struct CanvasUpdate;
+class Selectable;
 }
-namespace UnityEngine::EventSystems {
-class IInitializePotentialDragHandler;
+namespace UnityEngine::UI {
+struct __Slider__Axis;
+}
+namespace UnityEngine::UI {
+struct __Slider__Direction;
+}
+namespace UnityEngine::UI {
+class __Slider__SliderEvent;
+}
+namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -221,8 +221,8 @@ static_assert(offsetof(::UnityEngine::UI::__Slider__Axis, value__) == 0x0, "Offs
 // SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 346, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10278)), TypeDefinitionIndex(TypeDefinitionIndex(13119)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13121))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13124)) CS Name: ::UnityEngine.UI::Slider*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13119)), TypeDefinitionIndex(TypeDefinitionIndex(10278)), TypeDefinitionIndex(TypeDefinitionIndex(13121)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10243))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13124)) CS Name: ::UnityEngine.UI::Slider*
 class CORDL_TYPE Slider : public ::UnityEngine::UI::Selectable {
 public:
   // Declarations
@@ -307,14 +307,26 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IDragHandler"
   constexpr operator ::UnityEngine::EventSystems::IDragHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IDragHandler"
+  constexpr ::UnityEngine::EventSystems::IDragHandler* i___UnityEngine__EventSystems__IDragHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IInitializePotentialDragHandler"
   constexpr operator ::UnityEngine::EventSystems::IInitializePotentialDragHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IInitializePotentialDragHandler"
+  constexpr ::UnityEngine::EventSystems::IInitializePotentialDragHandler* i___UnityEngine__EventSystems__IInitializePotentialDragHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::UI::ICanvasElement"
   constexpr operator ::UnityEngine::UI::ICanvasElement*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UI::ICanvasElement"
+  constexpr ::UnityEngine::UI::ICanvasElement* i___UnityEngine__UI__ICanvasElement() noexcept;
 
   constexpr ::UnityEngine::RectTransform*& __get_m_FillRect();
 
@@ -505,8 +517,7 @@ public:
   inline float_t ClampValue(float_t input);
 
   /// @brief Method Set, addr 0x2d89248, size 0xc4, virtual true, abstract: false, final false
-  /// @param sendCallback: bool (default: true)
-  inline void Set(float_t input, bool sendCallback = true);
+  inline void Set(float_t input, bool sendCallback);
 
   /// @brief Method OnRectTransformDimensionsChange, addr 0x2d8930c, size 0x38, virtual true, abstract: false, final false
   inline void OnRectTransformDimensionsChange();

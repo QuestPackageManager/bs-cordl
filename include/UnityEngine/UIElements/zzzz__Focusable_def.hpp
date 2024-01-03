@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Focusable)
 namespace UnityEngine::UIElements {
-class FocusController;
+class EventBase;
 }
 namespace UnityEngine::UIElements {
-class EventBase;
+class FocusController;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;

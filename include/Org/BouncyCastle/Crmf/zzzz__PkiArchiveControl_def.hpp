@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PkiArchiveControl)
+namespace Org::BouncyCastle::Asn1::Crmf {
+class PkiArchiveOptions;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
+}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Cms {
 class CmsEnvelopedData;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
-namespace Org::BouncyCastle::Asn1::Crmf {
-class PkiArchiveOptions;
 }
 namespace Org::BouncyCastle::Crmf {
 class IControl;
@@ -61,6 +61,9 @@ public:
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crmf::IControl"
   constexpr operator ::Org::BouncyCastle::Crmf::IControl*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crmf::IControl"
+  constexpr ::Org::BouncyCastle::Crmf::IControl* i___Org__BouncyCastle__Crmf__IControl() noexcept;
 
   constexpr ::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions*& __get_pkiArchiveOptions();
 

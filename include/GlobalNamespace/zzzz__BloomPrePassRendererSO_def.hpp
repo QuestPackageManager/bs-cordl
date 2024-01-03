@@ -13,53 +13,53 @@ CORDL_MODULE_EXPORT(BloomPrePassRendererSO)
 namespace GlobalNamespace {
 class BloomFogSO;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine {
-class Camera;
-}
 namespace GlobalNamespace {
-struct ToneMapping;
-}
-namespace UnityEngine {
-class Texture2D;
-}
-namespace GlobalNamespace {
-class __BloomPrePassRendererSO__LightsRenderingData;
-}
-namespace UnityEngine {
-class Texture;
-}
-namespace GlobalNamespace {
-class __BloomPrePassRendererSO__PreallocationData;
-}
-namespace UnityEngine {
-struct Vector3;
+class BloomPrePassLightTypeSO;
 }
 namespace GlobalNamespace {
 class IBloomPrePassParams;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace GlobalNamespace {
+struct ToneMapping;
+}
+namespace GlobalNamespace {
+struct __BloomPrePassLight__QuadData;
+}
+namespace GlobalNamespace {
+class __BloomPrePassRendererSO__LightsRenderingData;
+}
+namespace GlobalNamespace {
+class __BloomPrePassRendererSO__PreallocationData;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine::Rendering {
 class CommandBuffer;
 }
 namespace UnityEngine {
-class RenderTexture;
+class Camera;
 }
 namespace UnityEngine {
 struct Matrix4x4;
 }
-namespace GlobalNamespace {
-class BloomPrePassLightTypeSO;
-}
 namespace UnityEngine {
 class Mesh;
 }
-namespace GlobalNamespace {
-struct __BloomPrePassLight__QuadData;
+namespace UnityEngine {
+class RenderTexture;
+}
+namespace UnityEngine {
+class Texture2D;
+}
+namespace UnityEngine {
+class Texture;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::UnityEngine::Tilemaps::ITilemap);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Tilemaps {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 754 }), TypeDefinitionIndex(TypeDefinitionIndex(9999)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10247))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15948)) CS Name: ::UnityEngine.Tilemaps::ITilemap*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10247)), TypeDefinitionIndex(TypeDefinitionIndex(9999)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 754 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(15948)) CS Name: ::UnityEngine.Tilemaps::ITilemap*
 class CORDL_TYPE ITilemap : public ::System::Object {
 public:
   // Declarations

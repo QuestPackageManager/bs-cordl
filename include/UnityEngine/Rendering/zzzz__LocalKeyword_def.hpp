@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LocalKeyword)
-namespace UnityEngine::Rendering {
-struct LocalKeywordSpace;
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
 }
-namespace System {
-template <typename T> class IEquatable_1;
+namespace UnityEngine::Rendering {
+struct LocalKeywordSpace;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -34,6 +34,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::LocalKeyword>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::LocalKeyword>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::LocalKeyword>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Rendering::LocalKeyword>* i___System__IEquatable_1___UnityEngine__Rendering__LocalKeyword_();
 
   /// @brief Method ToString, addr 0x2cef09c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();

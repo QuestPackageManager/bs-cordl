@@ -4,9 +4,6 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsContext_def.hpp"
 CORDL_MODULE_EXPORT(TlsServerContextImpl)
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
 class SecurityParameters;
 }
@@ -15,6 +12,9 @@ class TlsContext;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsServerContext;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -37,8 +37,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsServerContext"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsServerContext*() noexcept;
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsServerContext"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsServerContext* i___Org__BouncyCastle__Crypto__Tls__TlsServerContext() noexcept;
+
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsContext"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsContext*() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsContext"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext* i___Org__BouncyCastle__Crypto__Tls__TlsContext() noexcept;
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsServerContextImpl* New_ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom,
                                                                                  ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* securityParameters);

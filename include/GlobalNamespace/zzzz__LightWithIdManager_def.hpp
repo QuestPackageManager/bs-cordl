@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightWithIdManager)
+namespace GlobalNamespace {
+class ILightWithId;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System {
+class Action;
 }
 namespace System {
 template <typename T> struct Nullable_1;
 }
 namespace UnityEngine {
 struct Color;
-}
-namespace GlobalNamespace {
-class ILightWithId;
-}
-namespace System {
-class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -104,8 +104,7 @@ public:
   inline void SetColorForId(int32_t lightId, ::UnityEngine::Color color);
 
   /// @brief Method GetColorForId, addr 0x2110e4c, size 0xe4, virtual false, abstract: false, final false
-  /// @param initializeIfNull: bool (default: false)
-  inline ::UnityEngine::Color GetColorForId(int32_t lightId, bool initializeIfNull = false);
+  inline ::UnityEngine::Color GetColorForId(int32_t lightId, bool initializeIfNull);
 
   static inline ::GlobalNamespace::LightWithIdManager* New_ctor();
 

@@ -17,35 +17,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(WebConnection)
-namespace System::Net {
-struct __WebConnection___InitConnection_d__19;
-}
-namespace System::Net {
-class NetworkCredential;
+namespace Mono::Net::Security {
+class MonoTlsStream;
 }
 namespace System::IO {
 class Stream;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace System::Net::Sockets {
+class NetworkStream;
+}
+namespace System::Net::Sockets {
+class Socket;
 }
 namespace System::Net {
-struct __WebConnection___CreateStream_d__18;
+class IPAddress;
 }
 namespace System::Net {
-class WebOperation;
+class IPEndPoint;
 }
 namespace System::Net {
-struct WebExceptionStatus;
-}
-namespace System::Net {
-class __WebConnection____c;
-}
-namespace System::Net {
-class WebException;
-}
-namespace System {
-class Exception;
+class NetworkCredential;
 }
 namespace System::Net {
 class ServicePoint;
@@ -53,68 +44,77 @@ class ServicePoint;
 namespace System::Net {
 class WebConnectionTunnel;
 }
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System {
-class IDisposable;
-}
-namespace Mono::Net::Security {
-class MonoTlsStream;
+namespace System::Net {
+struct WebExceptionStatus;
 }
 namespace System::Net {
-struct __WebConnection___Connect_d__16;
+class WebException;
 }
-namespace System {
-struct DateTime;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+namespace System::Net {
+class WebOperation;
 }
 namespace System::Net {
 class WebRequestStream;
 }
-namespace System::Net::Sockets {
-class Socket;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
+namespace System::Net {
+struct __WebConnection___Connect_d__16;
 }
 namespace System::Net {
-class IPEndPoint;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class IAsyncResult;
-}
-namespace System {
-class AsyncCallback;
+struct __WebConnection___CreateStream_d__18;
 }
 namespace System::Net {
-class IPAddress;
+struct __WebConnection___InitConnection_d__19;
+}
+namespace System::Net {
+class __WebConnection____c;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
-struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
-namespace System::Net::Sockets {
-class NetworkStream;
-}
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System {
+struct DateTime;
+}
+namespace System {
+class Exception;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Net {
@@ -214,6 +214,9 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+
   /// @brief Method MoveNext, addr 0x29ddef4, size 0x8c0, virtual true, abstract: false, final true
   inline void MoveNext();
 
@@ -293,14 +296,17 @@ static_assert(offsetof(::System::Net::__WebConnection___Connect_d__16, __u__1) =
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 899 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3397))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9217)) CS Name: ::WebConnection::<CreateStream>d__18
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(3397), inst: 899 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3619)), TypeDefinitionIndex(TypeDefinitionIndex(3395)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9217)) CS Name: ::WebConnection::<CreateStream>d__18
 struct CORDL_TYPE __WebConnection___CreateStream_d__18 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x29de804, size 0x66c, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -382,14 +388,17 @@ static_assert(offsetof(::System::Net::__WebConnection___CreateStream_d__18, __u_
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(9238)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 105
-// }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 901 }),
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(9238)), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(3402), inst: 901 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3395)),
 // TypeDefinitionIndex(TypeDefinitionIndex(3397))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9218)) CS Name: ::WebConnection::<InitConnection>d__19
 struct CORDL_TYPE __WebConnection___InitConnection_d__19 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
   /// @brief Method MoveNext, addr 0x29defd8, size 0x4cc, virtual true, abstract: false, final true
   inline void MoveNext();
@@ -526,6 +535,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::System::Net::NetworkCredential*& __get_ntlm_credentials();
 

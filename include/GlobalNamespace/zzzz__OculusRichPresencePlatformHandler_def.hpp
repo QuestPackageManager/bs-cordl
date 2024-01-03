@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(OculusRichPresencePlatformHandler)
 namespace GlobalNamespace {
-class IRichPresencePlatformHandler;
+class IRichPresenceData;
 }
 namespace GlobalNamespace {
-class IRichPresenceData;
+class IRichPresencePlatformHandler;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,6 +28,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::GlobalNamespace::IRichPresencePlatformHandler"
   constexpr operator ::GlobalNamespace::IRichPresencePlatformHandler*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IRichPresencePlatformHandler"
+  constexpr ::GlobalNamespace::IRichPresencePlatformHandler* i___GlobalNamespace__IRichPresencePlatformHandler() noexcept;
 
   /// @brief Method SetPresence, addr 0x23738c4, size 0x308, virtual true, abstract: false, final true
   inline void SetPresence(::GlobalNamespace::IRichPresenceData* richPresenceData);

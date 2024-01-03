@@ -10,23 +10,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlEventCache)
-namespace System {
-class Object;
-}
-namespace System::Xml {
-struct __XmlEventCache__XmlEvent;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Xml {
 struct XmlStandalone;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System::Xml {
+class XmlWriter;
 }
 namespace System::Xml {
 struct __XmlEventCache__XmlEventType;
 }
 namespace System::Xml {
-class XmlWriter;
+struct __XmlEventCache__XmlEvent;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -288,7 +288,7 @@ static_assert(offsetof(::System::Xml::__XmlEventCache__XmlEvent, o) == 0x20, "Of
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11455)), TypeDefinitionIndex(TypeDefinitionIndex(11592))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11592)), TypeDefinitionIndex(TypeDefinitionIndex(11455))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11453))
 // CS Name: ::System.Xml::XmlEventCache*
 class CORDL_TYPE XmlEventCache : public ::System::Xml::XmlRawWriter {

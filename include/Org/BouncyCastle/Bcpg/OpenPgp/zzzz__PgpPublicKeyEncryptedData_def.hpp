@@ -6,12 +6,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpPublicKeyEncryptedData)
-namespace Org::BouncyCastle::Crypto {
-class IBufferedCipher;
-}
-namespace Org::BouncyCastle::Bcpg {
-struct SymmetricKeyAlgorithmTag;
-}
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpPrivateKey;
 }
@@ -19,10 +13,16 @@ namespace Org::BouncyCastle::Bcpg {
 class InputStreamPacket;
 }
 namespace Org::BouncyCastle::Bcpg {
+struct PublicKeyAlgorithmTag;
+}
+namespace Org::BouncyCastle::Bcpg {
 class PublicKeyEncSessionPacket;
 }
 namespace Org::BouncyCastle::Bcpg {
-struct PublicKeyAlgorithmTag;
+struct SymmetricKeyAlgorithmTag;
+}
+namespace Org::BouncyCastle::Crypto {
+class IBufferedCipher;
 }
 namespace System::IO {
 class Stream;

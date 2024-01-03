@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HierarchyEvent)
-namespace UnityEngine::UIElements {
-struct HierarchyChangeType;
-}
 namespace System {
 class Object;
+}
+namespace UnityEngine::UIElements {
+struct HierarchyChangeType;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;

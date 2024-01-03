@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SyntaxTreeNode)
 namespace System::Xml::Schema {
-class Positions;
+class BitSet;
 }
 namespace System::Xml::Schema {
 class InteriorNode;
 }
 namespace System::Xml::Schema {
-class BitSet;
+class Positions;
 }
 namespace System::Xml::Schema {
 class SymbolsDictionary;

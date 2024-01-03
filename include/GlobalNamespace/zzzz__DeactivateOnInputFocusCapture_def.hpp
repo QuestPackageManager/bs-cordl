@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(DeactivateOnInputFocusCapture)
 namespace GlobalNamespace {
-class IVerboseLogger;
+class IVRPlatformHelper;
 }
 namespace GlobalNamespace {
-class IVRPlatformHelper;
+class IVerboseLogger;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,6 +34,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IVerboseLogger"
   constexpr operator ::GlobalNamespace::IVerboseLogger*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IVerboseLogger"
+  constexpr ::GlobalNamespace::IVerboseLogger* i___GlobalNamespace__IVerboseLogger() noexcept;
 
   constexpr ::GlobalNamespace::IVRPlatformHelper*& __get__vrPlatformHelper();
 

@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IStructuralComparable)
-namespace System {
-class Object;
-}
 namespace System::Collections {
 class IComparer;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Collections {

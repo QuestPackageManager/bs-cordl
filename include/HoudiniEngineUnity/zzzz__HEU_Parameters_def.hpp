@@ -11,22 +11,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_Parameters)
 namespace HoudiniEngineUnity {
+struct HAPI_NodeInfo;
+}
+namespace HoudiniEngineUnity {
 struct HAPI_ParmChoiceInfo;
 }
 namespace HoudiniEngineUnity {
-class __HEU_Parameters____c__DisplayClass35_0;
+struct HAPI_ParmInfo;
 }
 namespace HoudiniEngineUnity {
-class HEU_SessionBase;
+struct HAPI_TransformEuler;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_NodeInfo;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+class HEU_HoudiniAsset;
 }
 namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
+class HEU_InputNode;
 }
 namespace HoudiniEngineUnity {
 class HEU_ParameterData;
@@ -35,25 +35,25 @@ namespace HoudiniEngineUnity {
 class HEU_ParameterModifier;
 }
 namespace HoudiniEngineUnity {
-class HEU_InputNode;
+class HEU_SessionBase;
 }
 namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
+template <typename T> class IEquivable_1;
 }
-namespace UnityEngine {
-class GameObject;
+namespace HoudiniEngineUnity {
+class __HEU_Parameters____c__DisplayClass35_0;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace HoudiniEngineUnity {
-struct HAPI_TransformEuler;
-}
 namespace System {
 template <typename T> class Predicate_1;
 }
-namespace HoudiniEngineUnity {
-struct HAPI_ParmInfo;
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -200,6 +200,9 @@ public:
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Parameters*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Parameters*>*() noexcept;
+
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Parameters*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Parameters*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_Parameters__() noexcept;
 
   constexpr int32_t& __get__nodeID();
 
@@ -372,9 +375,7 @@ public:
   inline bool HaveParametersChanged();
 
   /// @brief Method UploadValuesToHoudini, addr 0x2195a2c, size 0x71c, virtual false, abstract: false, final false
-  /// @param bDoCheck: bool (default: true)
-  /// @param bForceUploadInputs: bool (default: false)
-  inline bool UploadValuesToHoudini(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, bool bDoCheck = true, bool bForceUploadInputs = false);
+  inline bool UploadValuesToHoudini(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, bool bDoCheck, bool bForceUploadInputs);
 
   /// @brief Method InsertInstanceToMultiParm, addr 0x2196148, size 0xd4, virtual false, abstract: false, final false
   inline void InsertInstanceToMultiParm(int32_t unityParamIndex, int32_t instanceIndex, int32_t numInstancesToAdd);

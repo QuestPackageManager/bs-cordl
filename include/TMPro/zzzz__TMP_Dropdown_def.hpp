@@ -10,92 +10,92 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_Dropdown)
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine::EventSystems {
-class ISubmitHandler;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace TMPro {
-template <typename T> class TweenRunner_1;
-}
-namespace System::Collections {
-class IEnumerator;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine {
-class RectTransform;
+namespace System::Collections {
+class IEnumerator;
 }
-namespace UnityEngine::UI {
-class Graphic;
+namespace System {
+class IDisposable;
 }
-namespace UnityEngine::EventSystems {
-class ICancelHandler;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::UI {
-class Toggle;
-}
-namespace TMPro {
-class __TMP_Dropdown___DelayedDestroyDropdownList_d__81;
-}
-namespace TMPro {
-class TMP_Text;
-}
-namespace UnityEngine::EventSystems {
-class BaseEventData;
-}
-namespace UnityEngine {
-class Sprite;
-}
-namespace UnityEngine::EventSystems {
-class IPointerClickHandler;
-}
-namespace UnityEngine {
-class Coroutine;
-}
-namespace UnityEngine {
-class Canvas;
-}
-namespace TMPro {
-class __TMP_Dropdown__OptionData;
-}
-namespace TMPro {
-class __TMP_Dropdown__OptionDataList;
-}
-namespace TMPro {
-class __TMP_Dropdown__DropdownItem;
-}
-namespace TMPro {
-class __TMP_Dropdown__DropdownEvent;
-}
-namespace UnityEngine::UI {
-class Image;
+namespace System {
+class Object;
 }
 namespace TMPro {
 struct FloatTween;
 }
 namespace TMPro {
+class TMP_Text;
+}
+namespace TMPro {
+template <typename T> class TweenRunner_1;
+}
+namespace TMPro {
+class __TMP_Dropdown__DropdownEvent;
+}
+namespace TMPro {
+class __TMP_Dropdown__DropdownItem;
+}
+namespace TMPro {
+class __TMP_Dropdown__OptionDataList;
+}
+namespace TMPro {
+class __TMP_Dropdown__OptionData;
+}
+namespace TMPro {
+class __TMP_Dropdown___DelayedDestroyDropdownList_d__81;
+}
+namespace TMPro {
 class __TMP_Dropdown____c__DisplayClass69_0;
+}
+namespace UnityEngine::EventSystems {
+class BaseEventData;
+}
+namespace UnityEngine::EventSystems {
+class ICancelHandler;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerClickHandler;
 }
 namespace UnityEngine::EventSystems {
 class IPointerEnterHandler;
 }
-namespace System {
-class Object;
+namespace UnityEngine::EventSystems {
+class ISubmitHandler;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace UnityEngine::EventSystems {
+class PointerEventData;
 }
-namespace System {
-class IDisposable;
+namespace UnityEngine::UI {
+class Graphic;
+}
+namespace UnityEngine::UI {
+class Image;
+}
+namespace UnityEngine::UI {
+class Toggle;
+}
+namespace UnityEngine {
+class Canvas;
+}
+namespace UnityEngine {
+class Coroutine;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine {
+class Sprite;
 }
 // Forward declare root types
 namespace TMPro {
@@ -160,11 +160,20 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerEnterHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerEnterHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerEnterHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerEnterHandler* i___UnityEngine__EventSystems__IPointerEnterHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::ICancelHandler"
   constexpr operator ::UnityEngine::EventSystems::ICancelHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::ICancelHandler"
+  constexpr ::UnityEngine::EventSystems::ICancelHandler* i___UnityEngine__EventSystems__ICancelHandler() noexcept;
 
   constexpr ::TMPro::TMP_Text*& __get_m_Text();
 
@@ -546,11 +555,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -734,14 +752,26 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerClickHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerClickHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerClickHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerClickHandler* i___UnityEngine__EventSystems__IPointerClickHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::ISubmitHandler"
   constexpr operator ::UnityEngine::EventSystems::ISubmitHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::ISubmitHandler"
+  constexpr ::UnityEngine::EventSystems::ISubmitHandler* i___UnityEngine__EventSystems__ISubmitHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::ICancelHandler"
   constexpr operator ::UnityEngine::EventSystems::ICancelHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::ICancelHandler"
+  constexpr ::UnityEngine::EventSystems::ICancelHandler* i___UnityEngine__EventSystems__ICancelHandler() noexcept;
 
   constexpr ::UnityEngine::RectTransform*& __get_m_Template();
 
@@ -907,8 +937,7 @@ public:
   inline void SetValueWithoutNotify(int32_t input);
 
   /// @brief Method SetValue, addr 0x2c04858, size 0x144, virtual false, abstract: false, final false
-  /// @param sendCallback: bool (default: true)
-  inline void SetValue(int32_t value, bool sendCallback = true);
+  inline void SetValue(int32_t value, bool sendCallback);
 
   /// @brief Method get_IsExpanded, addr 0x2c049a4, size 0x60, virtual false, abstract: false, final false
   inline bool get_IsExpanded();

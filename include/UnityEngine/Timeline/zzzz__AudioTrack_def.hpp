@@ -7,23 +7,35 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Timeline/zzzz__TrackAsset_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AudioTrack)
-namespace UnityEngine::Timeline {
-class RuntimeElement;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::Playables {
+struct PlayableBinding;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
-class AudioClip;
-}
-namespace UnityEngine::Timeline {
-class TimelineClip;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace UnityEngine::Playables {
+struct Playable;
 }
 namespace UnityEngine::Timeline {
 class AudioMixerProperties;
@@ -31,32 +43,20 @@ class AudioMixerProperties;
 namespace UnityEngine::Timeline {
 template <typename T> class IntervalTree_1;
 }
-namespace UnityEngine::Playables {
-struct Playable;
+namespace UnityEngine::Timeline {
+class RuntimeElement;
+}
+namespace UnityEngine::Timeline {
+class TimelineClip;
 }
 namespace UnityEngine::Timeline {
 class __AudioTrack___get_outputs_d__4;
 }
-namespace UnityEngine::Playables {
-struct PlayableBinding;
+namespace UnityEngine {
+class AudioClip;
 }
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-class IDisposable;
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -98,17 +98,34 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>*
+  i___System__Collections__Generic__IEnumerable_1___UnityEngine__Playables__PlayableBinding_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding>*
+  i___System__Collections__Generic__IEnumerator_1___UnityEngine__Playables__PlayableBinding_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 

@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SavedStructState_1)
-namespace UnityEngine::InputSystem::Utilities {
-class ISavedState;
-}
 namespace System {
 class Action;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template <typename T> class __SavedStructState_1__TypedRestore;
-}
-namespace System {
-class IAsyncResult;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System {
+class IAsyncResult;
+}
+namespace System {
 class Object;
+}
+namespace UnityEngine::InputSystem::Utilities {
+class ISavedState;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename T> class __SavedStructState_1__TypedRestore;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -105,6 +105,9 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::Utilities::ISavedState"
   constexpr operator ::UnityEngine::InputSystem::Utilities::ISavedState*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::InputSystem::Utilities::ISavedState"
+  constexpr ::UnityEngine::InputSystem::Utilities::ISavedState* i___UnityEngine__InputSystem__Utilities__ISavedState() noexcept;
+
   constexpr T& __get_m_State();
 
   constexpr T const& __get_m_State() const;
@@ -127,8 +130,7 @@ public:
                                                                                        ::System::Action* staticDisposeCurrentState);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  /// @param staticDisposeCurrentState: ::System::Action* (default: nullptr)
-  inline void _ctor(ByRef<T> state, ::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>* restoreAction, ::System::Action* staticDisposeCurrentState = nullptr);
+  inline void _ctor(ByRef<T> state, ::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>* restoreAction, ::System::Action* staticDisposeCurrentState);
 
   /// @brief Method StaticDisposeCurrentState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void StaticDisposeCurrentState();

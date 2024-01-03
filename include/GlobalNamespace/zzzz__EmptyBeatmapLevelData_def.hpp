@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(EmptyBeatmapLevelData)
-namespace UnityEngine {
-class AudioClip;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
 namespace GlobalNamespace {
 class IBeatmapLevelData;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmapSet;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace UnityEngine {
+class AudioClip;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -38,6 +38,9 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::IBeatmapLevelData"
   constexpr operator ::GlobalNamespace::IBeatmapLevelData*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IBeatmapLevelData"
+  constexpr ::GlobalNamespace::IBeatmapLevelData* i___GlobalNamespace__IBeatmapLevelData() noexcept;
 
   /// @brief Method get_audioClip, addr 0x2347dd4, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::AudioClip* get_audioClip();

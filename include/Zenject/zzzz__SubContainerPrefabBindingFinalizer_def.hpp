@@ -6,20 +6,8 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__ProviderBindingFinalizer_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SubContainerPrefabBindingFinalizer)
-namespace Zenject {
-class BindInfo;
-}
-namespace System {
-class Type;
-}
-namespace Zenject {
-class __SubContainerPrefabBindingFinalizer____c__DisplayClass6_1;
-}
-namespace Zenject {
-class ISubContainerCreator;
-}
-namespace Zenject {
-class __SubContainerPrefabBindingFinalizer____c__DisplayClass5_1;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -27,26 +15,38 @@ template <typename T, typename TResult> class Func_2;
 namespace System {
 class Object;
 }
+namespace System {
+class Type;
+}
+namespace Zenject {
+class BindInfo;
+}
 namespace Zenject {
 class DiContainer;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace Zenject {
-class __SubContainerPrefabBindingFinalizer____c__DisplayClass5_0;
-}
-namespace Zenject {
-class __SubContainerPrefabBindingFinalizer____c__DisplayClass6_0;
-}
 namespace Zenject {
 class IProvider;
+}
+namespace Zenject {
+class ISubContainerCreator;
 }
 namespace Zenject {
 class InjectTypeInfo;
 }
 namespace Zenject {
 class SubContainerCreatorCached;
+}
+namespace Zenject {
+class __SubContainerPrefabBindingFinalizer____c__DisplayClass5_0;
+}
+namespace Zenject {
+class __SubContainerPrefabBindingFinalizer____c__DisplayClass5_1;
+}
+namespace Zenject {
+class __SubContainerPrefabBindingFinalizer____c__DisplayClass6_0;
+}
+namespace Zenject {
+class __SubContainerPrefabBindingFinalizer____c__DisplayClass6_1;
 }
 // Forward declare root types
 namespace Zenject {

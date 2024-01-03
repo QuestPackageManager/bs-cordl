@@ -9,58 +9,58 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_GeoNode)
 namespace HoudiniEngineUnity {
-class HEU_MaterialData;
-}
-namespace HoudiniEngineUnity {
-class HEU_InputNode;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
-}
-namespace HoudiniEngineUnity {
-class HEU_GeneratedOutput;
+struct HAPI_GeoInfo;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_GeoType;
-}
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
-}
-namespace HoudiniEngineUnity {
-class HEU_ObjectNode;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_Transform;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_PartInfo;
 }
 namespace HoudiniEngineUnity {
-class HEU_SessionBase;
+struct HAPI_Transform;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace HoudiniEngineUnity {
+class HEU_Curve;
+}
+namespace HoudiniEngineUnity {
+class HEU_GeneratedOutput;
+}
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset;
+}
+namespace HoudiniEngineUnity {
+class HEU_InputNode;
+}
+namespace HoudiniEngineUnity {
+class HEU_MaterialData;
+}
+namespace HoudiniEngineUnity {
+class HEU_ObjectNode;
 }
 namespace HoudiniEngineUnity {
 class HEU_PartData;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_GeoInfo;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
+class HEU_SessionBase;
 }
 namespace HoudiniEngineUnity {
 class HEU_VolumeCache;
 }
 namespace HoudiniEngineUnity {
-class HEU_Curve;
+template <typename T> class IEquivable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -121,8 +121,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
+  constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
+
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeoNode*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeoNode*>*() noexcept;
+
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeoNode*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeoNode*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_GeoNode__() noexcept;
 
   constexpr ::HoudiniEngineUnity::HAPI_GeoInfo& __get__geoInfo();
 
@@ -223,8 +229,7 @@ public:
   inline void OnAfterDeserialize();
 
   /// @brief Method DestroyAllData, addr 0x2157698, size 0x1ac, virtual false, abstract: false, final false
-  /// @param bIsRebuild: bool (default: false)
-  inline void DestroyAllData(bool bIsRebuild = false);
+  inline void DestroyAllData(bool bIsRebuild);
 
   /// @brief Method RemoveAndDestroyPart, addr 0x2157a54, size 0x64, virtual false, abstract: false, final false
   inline void RemoveAndDestroyPart(::HoudiniEngineUnity::HEU_PartData* part);

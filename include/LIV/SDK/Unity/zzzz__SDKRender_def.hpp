@@ -12,37 +12,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SDKRender)
 namespace LIV::SDK::Unity {
-struct TEXTURE_ID;
+class LIV;
+}
+namespace LIV::SDK::Unity {
+struct SDKInputFrame;
 }
 namespace LIV::SDK::Unity {
 struct SDKOutputFrame;
 }
-namespace UnityEngine {
-class Material;
+namespace LIV::SDK::Unity {
+struct SDKResolution;
 }
-namespace UnityEngine {
-class RenderTexture;
+namespace LIV::SDK::Unity {
+struct TEXTURE_ID;
 }
 namespace System {
 class IDisposable;
 }
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace LIV::SDK::Unity {
-class LIV;
-}
-namespace UnityEngine {
-class Mesh;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-struct Quaternion;
+namespace UnityEngine::Rendering {
+struct ColorWriteMask;
 }
 namespace UnityEngine::Rendering {
 class CommandBuffer;
@@ -50,17 +38,29 @@ class CommandBuffer;
 namespace UnityEngine {
 class Camera;
 }
-namespace LIV::SDK::Unity {
-struct SDKResolution;
+namespace UnityEngine {
+class Material;
 }
-namespace UnityEngine::Rendering {
-struct ColorWriteMask;
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace UnityEngine {
+class Mesh;
 }
 namespace UnityEngine {
 struct Plane;
 }
-namespace LIV::SDK::Unity {
-struct SDKInputFrame;
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+class RenderTexture;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace LIV::SDK::Unity {
@@ -72,8 +72,8 @@ MARK_REF_PTR_T(::LIV::SDK::Unity::SDKRender);
 // SizeInfo { instance_size: 832, native_size: -1, calculated_instance_size: 832, calculated_native_size: 828, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15122)), TypeDefinitionIndex(TypeDefinitionIndex(15115)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10337)), TypeDefinitionIndex(TypeDefinitionIndex(15108)), TypeDefinitionIndex(TypeDefinitionIndex(15116))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10337)), TypeDefinitionIndex(TypeDefinitionIndex(15108)), TypeDefinitionIndex(TypeDefinitionIndex(15115)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15122)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15116))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(15097)) CS Name: ::LIV.SDK.Unity::SDKRender*
 class CORDL_TYPE SDKRender : public ::System::Object {
 public:
@@ -199,6 +199,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr ::UnityEngine::Rendering::CommandBuffer*& __get__clipPlaneCommandBuffer();
 
@@ -455,21 +458,16 @@ public:
   inline bool get_canSetPose();
 
   /// @brief Method SetPose, addr 0x2213008, size 0x2f4, virtual false, abstract: false, final false
-  /// @param verticalFieldOfView: float_t (default: 60.0)
-  /// @param useLocalSpace: bool (default: false)
-  inline bool SetPose(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, float_t verticalFieldOfView = 60.0, bool useLocalSpace = false);
+  inline bool SetPose(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, float_t verticalFieldOfView, bool useLocalSpace);
 
   /// @brief Method SetGroundPlane, addr 0x22134ac, size 0x194, virtual false, abstract: false, final false
-  /// @param useLocalSpace: bool (default: false)
-  inline void SetGroundPlane(float_t distance, ::UnityEngine::Vector3 normal, bool useLocalSpace = false);
+  inline void SetGroundPlane(float_t distance, ::UnityEngine::Vector3 normal, bool useLocalSpace);
 
   /// @brief Method SetGroundPlane, addr 0x2213640, size 0x78, virtual false, abstract: false, final false
-  /// @param useLocalSpace: bool (default: false)
-  inline void SetGroundPlane(::UnityEngine::Plane plane, bool useLocalSpace = false);
+  inline void SetGroundPlane(::UnityEngine::Plane plane, bool useLocalSpace);
 
   /// @brief Method SetGroundPlane, addr 0x22136b8, size 0x1a0, virtual false, abstract: false, final false
-  /// @param useLocalSpace: bool (default: false)
-  inline void SetGroundPlane(::UnityEngine::Transform* transform, bool useLocalSpace = false);
+  inline void SetGroundPlane(::UnityEngine::Transform* transform, bool useLocalSpace);
 
   /// @brief Method ReleaseBridgePoseControl, addr 0x2212d70, size 0x64, virtual false, abstract: false, final false
   inline void ReleaseBridgePoseControl();

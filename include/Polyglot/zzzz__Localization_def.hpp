@@ -9,34 +9,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Localization)
 namespace Polyglot {
-struct Language;
-}
-namespace UnityEngine {
-struct SystemLanguage;
+class ILocalize;
 }
 namespace Polyglot {
-class LocalizationDocument;
+struct LanguageDirection;
+}
+namespace Polyglot {
+struct Language;
 }
 namespace Polyglot {
 class LocalizationAsset;
 }
 namespace Polyglot {
-struct LanguageDirection;
+class LocalizationDocument;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace Polyglot {
-class ILocalize;
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace System {
 class Object;
 }
-namespace System::Globalization {
-class CultureInfo;
-}
 namespace UnityEngine::Events {
 class UnityEvent;
+}
+namespace UnityEngine {
+struct SystemLanguage;
 }
 // Forward declare root types
 namespace Polyglot {

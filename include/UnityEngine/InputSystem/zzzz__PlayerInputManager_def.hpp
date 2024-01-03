@@ -15,47 +15,47 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayerInputManager)
-namespace UnityEngine::InputSystem {
-class __PlayerInputManager__PlayerLeftEvent;
+namespace System {
+template <typename T> class Action_1;
 }
-namespace UnityEngine::InputSystem {
-class PlayerInput;
-}
-namespace UnityEngine::InputSystem {
-struct __InputAction__CallbackContext;
-}
-namespace UnityEngine::InputSystem {
-struct PlayerJoinBehavior;
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
 }
 namespace UnityEngine::InputSystem {
-struct PlayerNotifications;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
+struct InputActionProperty;
 }
 namespace UnityEngine::InputSystem {
 class InputControl;
 }
 namespace UnityEngine::InputSystem {
-class __PlayerInputManager__PlayerJoinedEvent;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine::InputSystem {
 class InputDevice;
 }
 namespace UnityEngine::InputSystem {
-struct InputActionProperty;
+class PlayerInput;
+}
+namespace UnityEngine::InputSystem {
+struct PlayerJoinBehavior;
+}
+namespace UnityEngine::InputSystem {
+struct PlayerNotifications;
+}
+namespace UnityEngine::InputSystem {
+struct __InputAction__CallbackContext;
+}
+namespace UnityEngine::InputSystem {
+class __PlayerInputManager__PlayerJoinedEvent;
+}
+namespace UnityEngine::InputSystem {
+class __PlayerInputManager__PlayerLeftEvent;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+struct Rect;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -75,8 +75,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::__PlayerInputManager__PlayerLeftEvent
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 378 }), TypeDefinitionIndex(TypeDefinitionIndex(6315)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10465))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6316)) CS Name: ::PlayerInputManager::PlayerJoinedEvent*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10465)), TypeDefinitionIndex(TypeDefinitionIndex(6315)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst:
+// 378 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6316)) CS Name: ::PlayerInputManager::PlayerJoinedEvent*
 class CORDL_TYPE __PlayerInputManager__PlayerJoinedEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::PlayerInput*> {
 public:
   // Declarations
@@ -109,8 +109,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Play
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6315)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 378 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10465))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6317)) CS Name: ::PlayerInputManager::PlayerLeftEvent*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6315)), TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst:
+// 378 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6317)) CS Name: ::PlayerInputManager::PlayerLeftEvent*
 class CORDL_TYPE __PlayerInputManager__PlayerLeftEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::PlayerInput*> {
 public:
   // Declarations
@@ -143,11 +143,10 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Play
 // SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6315)), TypeDefinitionIndex(TypeDefinitionIndex(6319)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 988
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 378 }), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(6164)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2323)), TypeDefinitionIndex(TypeDefinitionIndex(6320)), TypeDefinitionIndex(TypeDefinitionIndex(6660)), TypeDefinitionIndex(TypeDefinitionIndex(10165))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6318))
-// CS Name: ::UnityEngine.InputSystem::PlayerInputManager*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6320)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 988
+// }), TypeDefinitionIndex(TypeDefinitionIndex(6319)), TypeDefinitionIndex(TypeDefinitionIndex(2323)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2323), inst: 378 }), TypeDefinitionIndex(TypeDefinitionIndex(6164)), TypeDefinitionIndex(TypeDefinitionIndex(6315)), TypeDefinitionIndex(TypeDefinitionIndex(6660))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(6318)) CS Name: ::UnityEngine.InputSystem::PlayerInputManager*
 class CORDL_TYPE PlayerInputManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -444,27 +443,17 @@ public:
   inline void JoinPlayerFromActionIfNotAlreadyJoined(::UnityEngine::InputSystem::__InputAction__CallbackContext context);
 
   /// @brief Method JoinPlayer, addr 0x2ac454c, size 0xbc, virtual false, abstract: false, final false
-  /// @param playerIndex: int32_t (default: static_cast<int32_t>(0xffffffff))
-  /// @param splitScreenIndex: int32_t (default: static_cast<int32_t>(0xffffffff))
-  /// @param controlScheme: ::StringW (default: nullptr)
-  /// @param pairWithDevice: ::UnityEngine::InputSystem::InputDevice* (default: nullptr)
-  inline ::UnityEngine::InputSystem::PlayerInput* JoinPlayer(int32_t playerIndex = static_cast<int32_t>(0xffffffff), int32_t splitScreenIndex = static_cast<int32_t>(0xffffffff),
-                                                             ::StringW controlScheme = nullptr, ::UnityEngine::InputSystem::InputDevice* pairWithDevice = nullptr);
+  inline ::UnityEngine::InputSystem::PlayerInput* JoinPlayer(int32_t playerIndex, int32_t splitScreenIndex, ::StringW controlScheme, ::UnityEngine::InputSystem::InputDevice* pairWithDevice);
 
   /// @brief Method JoinPlayer, addr 0x2ac46f0, size 0xbc, virtual false, abstract: false, final false
-  /// @param playerIndex: int32_t (default: static_cast<int32_t>(0xffffffff))
-  /// @param splitScreenIndex: int32_t (default: static_cast<int32_t>(0xffffffff))
-  /// @param controlScheme: ::StringW (default: nullptr)
-  inline ::UnityEngine::InputSystem::PlayerInput* JoinPlayer(int32_t playerIndex = static_cast<int32_t>(0xffffffff), int32_t splitScreenIndex = static_cast<int32_t>(0xffffffff),
-                                                             ::StringW controlScheme = nullptr,
+  inline ::UnityEngine::InputSystem::PlayerInput* JoinPlayer(int32_t playerIndex, int32_t splitScreenIndex, ::StringW controlScheme,
                                                              ::ArrayW<::UnityEngine::InputSystem::InputDevice*, ::Array<::UnityEngine::InputSystem::InputDevice*>*> pairWithDevices);
 
   /// @brief Method get_messages, addr 0x2ac47ac, size 0xe4, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> get_messages();
 
   /// @brief Method CheckIfPlayerCanJoin, addr 0x2ac4220, size 0x2d8, virtual false, abstract: false, final false
-  /// @param playerIndex: int32_t (default: static_cast<int32_t>(0xffffffff))
-  inline bool CheckIfPlayerCanJoin(int32_t playerIndex = static_cast<int32_t>(0xffffffff));
+  inline bool CheckIfPlayerCanJoin(int32_t playerIndex);
 
   /// @brief Method OnUnpairedDeviceUsed, addr 0x2ac4890, size 0xb4, virtual false, abstract: false, final false
   inline void OnUnpairedDeviceUsed(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);

@@ -7,44 +7,44 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConcurrentBag_1)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System::Collections::Concurrent {
-template <typename T> class __ConcurrentBag_1__WorkStealingQueue;
+template <typename T> class IProducerConsumerCollection_1;
 }
 namespace System::Collections::Concurrent {
 template <typename T> class __ConcurrentBag_1__Enumerator;
 }
-namespace System {
-class Object;
-}
 namespace System::Collections::Concurrent {
-template <typename T> class IProducerConsumerCollection_1;
+template <typename T> class __ConcurrentBag_1__WorkStealingQueue;
 }
-namespace System::Threading {
-template <typename T> class ThreadLocal_1;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyCollection_1;
 }
 namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
 class ICollection;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Threading {
+template <typename T> class ThreadLocal_1;
 }
 namespace System {
 class Array;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Collections::Concurrent {
@@ -269,11 +269,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<T>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<T>* i___System__Collections__Generic__IEnumerator_1_T_() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   constexpr ::ArrayW<T, ::Array<T>*>& __get__array();
 
@@ -378,17 +387,32 @@ public:
   /// @brief Convert operator to "::System::Collections::Concurrent::IProducerConsumerCollection_1<T>"
   constexpr operator ::System::Collections::Concurrent::IProducerConsumerCollection_1<T>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Concurrent::IProducerConsumerCollection_1<T>"
+  constexpr ::System::Collections::Concurrent::IProducerConsumerCollection_1<T>* i___System__Collections__Concurrent__IProducerConsumerCollection_1_T_() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>* i___System__Collections__Generic__IEnumerable_1_T_() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
 
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
+
   /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
   constexpr operator ::System::Collections::Generic::IReadOnlyCollection_1<T>*() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
+  constexpr ::System::Collections::Generic::IReadOnlyCollection_1<T>* i___System__Collections__Generic__IReadOnlyCollection_1_T_() noexcept;
 
   constexpr ::System::Threading::ThreadLocal_1<::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*>*& __get__locals();
 

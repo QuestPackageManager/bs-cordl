@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleTextShadow)
-namespace UnityEngine::UIElements {
-struct StyleKeyword;
-}
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace System {
+class Object;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class IStyleValue_1;
 }
-namespace System {
-class Object;
+namespace UnityEngine::UIElements {
+struct StyleKeyword;
 }
 namespace UnityEngine::UIElements {
 struct TextShadow;
@@ -33,7 +33,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleTextShadow);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7300)), TypeDefinitionIndex(TypeDefinitionIndex(6790))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6790)), TypeDefinitionIndex(TypeDefinitionIndex(7300))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7319))
 // CS Name: ::UnityEngine.UIElements::StyleTextShadow
 struct CORDL_TYPE StyleTextShadow {
@@ -46,8 +46,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TextShadow>"
   constexpr operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TextShadow>*();
 
+  /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TextShadow>"
+  constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TextShadow>* i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__TextShadow_();
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleTextShadow>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleTextShadow>*();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleTextShadow>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleTextShadow>* i___System__IEquatable_1___UnityEngine__UIElements__StyleTextShadow_();
 
   /// @brief Method get_value, addr 0x2e72fd8, size 0x4c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::TextShadow get_value();

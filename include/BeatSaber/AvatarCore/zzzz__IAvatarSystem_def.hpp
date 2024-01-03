@@ -4,11 +4,8 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IAvatarSystem)
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
-}
 namespace BeatSaber::AvatarCore {
-class Avatar;
+struct AvatarDisplayContext;
 }
 namespace BeatSaber::AvatarCore {
 class AvatarEditorFlowCoordinator;
@@ -16,20 +13,23 @@ class AvatarEditorFlowCoordinator;
 namespace BeatSaber::AvatarCore {
 class AvatarSelectionView;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+namespace BeatSaber::AvatarCore {
+class Avatar;
 }
-namespace GlobalNamespace {
-struct MultiplayerAvatarData;
+namespace BeatSaber::AvatarCore {
+class IAvatarSystemMetadata;
 }
 namespace BeatSaber::AvatarCore {
 class IOptionalAvatarDataProvider;
 }
-namespace BeatSaber::AvatarCore {
-struct AvatarDisplayContext;
+namespace GlobalNamespace {
+struct MultiplayerAvatarData;
 }
-namespace BeatSaber::AvatarCore {
-class IAvatarSystemMetadata;
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace Zenject {
 class DiContainer;
@@ -61,6 +61,9 @@ public:
   /// @brief Convert operator to "::BeatSaber::AvatarCore::IAvatarSystemMetadata"
   constexpr operator ::BeatSaber::AvatarCore::IAvatarSystemMetadata*() noexcept;
 
+  /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarSystemMetadata"
+  constexpr ::BeatSaber::AvatarCore::IAvatarSystemMetadata* i___BeatSaber__AvatarCore__IAvatarSystemMetadata() noexcept;
+
   /// @brief Method get_selectableByUser, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_selectableByUser();
 
@@ -74,17 +77,14 @@ public:
   inline ::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>* get_supportedOptionalAvatarDataTypes();
 
   /// @brief Method InstantiateAvatar, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  /// @param container: ::Zenject::DiContainer* (default: nullptr)
   inline ::System::Threading::Tasks::Task_1<::BeatSaber::AvatarCore::Avatar*>* InstantiateAvatar(::BeatSaber::AvatarCore::AvatarDisplayContext avatarDisplayContext, int32_t levelOfDetail,
-                                                                                                 ::Zenject::DiContainer* container = nullptr);
+                                                                                                 ::Zenject::DiContainer* container);
 
   /// @brief Method InstantiateAvatarEditorUI, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  /// @param container: ::Zenject::DiContainer* (default: nullptr)
-  inline ::System::Threading::Tasks::Task_1<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*>* InstantiateAvatarEditorUI(::Zenject::DiContainer* container = nullptr);
+  inline ::System::Threading::Tasks::Task_1<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*>* InstantiateAvatarEditorUI(::Zenject::DiContainer* container);
 
   /// @brief Method InstantiateAvatarSelectionView, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  /// @param container: ::Zenject::DiContainer* (default: nullptr)
-  inline ::System::Threading::Tasks::Task_1<::BeatSaber::AvatarCore::AvatarSelectionView*>* InstantiateAvatarSelectionView(::Zenject::DiContainer* container = nullptr);
+  inline ::System::Threading::Tasks::Task_1<::BeatSaber::AvatarCore::AvatarSelectionView*>* InstantiateAvatarSelectionView(::Zenject::DiContainer* container);
 
   /// @brief Method GetMultiplayerAvatarsData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerAvatarData>* GetMultiplayerAvatarsData();

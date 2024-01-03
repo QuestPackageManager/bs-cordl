@@ -2,14 +2,14 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataSortedListForTypeAndIds_1_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataSortedListForTypeAndIds_1_def.hpp"
+#include "GlobalNamespace/zzzz__ISortedListItemProcessor_1_def.hpp"
 #include "GlobalNamespace/zzzz__ISortedList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Collections/Generic/zzzz__LinkedListNode_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__LinkedListNode_1_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__ValueTuple_2_def.hpp"
-#include "GlobalNamespace/zzzz__ISortedListItemProcessor_1_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
 template <typename TBase>
 inline void GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>::setStaticF___9(::GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>* value) {
   ::cordl_internals::setStaticField<::GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>*, "<>9",

@@ -8,32 +8,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EncryptionUtility)
-namespace GlobalNamespace {
-class __EncryptionUtility____c__DisplayClass18_0;
+namespace BGNet::Core {
+class ITaskUtility;
 }
-namespace System::Security::Cryptography {
-class AesCryptoServiceProvider;
+namespace GlobalNamespace {
+class __EncryptionUtility__EncryptionState;
 }
 namespace GlobalNamespace {
 class __EncryptionUtility__IEncryptionState;
 }
 namespace GlobalNamespace {
-class __EncryptionUtility__EncryptionState;
+class __EncryptionUtility____c__DisplayClass18_0;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace BGNet::Core {
-class ITaskUtility;
-}
-namespace System {
-class IDisposable;
+namespace Org::BouncyCastle::Crypto::Macs {
+class HMac;
 }
 namespace System::Collections::Concurrent {
 template <typename T> class ConcurrentQueue_1;
 }
-namespace Org::BouncyCastle::Crypto::Macs {
-class HMac;
+namespace System::Security::Cryptography {
+class AesCryptoServiceProvider;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -68,12 +68,14 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   /// @brief Method get_isValid, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isValid();
 
   /// @brief Method EncryptData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  /// @param extraPrefixBytes: int32_t (default: static_cast<int32_t>(0x0))
-  inline void EncryptData(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> offset, ByRef<int32_t> length, int32_t extraPrefixBytes = static_cast<int32_t>(0x0));
+  inline void EncryptData(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> offset, ByRef<int32_t> length, int32_t extraPrefixBytes);
 
   /// @brief Method TryDecryptData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryDecryptData(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> offset, ByRef<int32_t> length);
@@ -138,8 +140,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::__EncryptionUtility__IEncryptionState"
   constexpr operator ::GlobalNamespace::__EncryptionUtility__IEncryptionState*() noexcept;
 
+  /// @brief Convert to "::GlobalNamespace::__EncryptionUtility__IEncryptionState"
+  constexpr ::GlobalNamespace::__EncryptionUtility__IEncryptionState* i___GlobalNamespace____EncryptionUtility__IEncryptionState() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr bool& __get__isValid();
 
@@ -211,8 +219,7 @@ public:
   inline bool get_isValid();
 
   /// @brief Method EncryptData, addr 0xe3662c, size 0x84, virtual true, abstract: false, final true
-  /// @param extraPrefixBytes: int32_t (default: static_cast<int32_t>(0x0))
-  inline void EncryptData(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> offset, ByRef<int32_t> length, int32_t extraPrefixBytes = static_cast<int32_t>(0x0));
+  inline void EncryptData(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> offset, ByRef<int32_t> length, int32_t extraPrefixBytes);
 
   /// @brief Method TryDecryptData, addr 0xe366b0, size 0x7c, virtual true, abstract: false, final true
   inline bool TryDecryptData(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> offset, ByRef<int32_t> length);

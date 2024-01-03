@@ -63,6 +63,9 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailPrototype*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailPrototype*>*() noexcept;
 
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailPrototype*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailPrototype*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_DetailPrototype__() noexcept;
+
   constexpr ::StringW& __get__prototypePrefab();
 
   constexpr ::StringW const& __get__prototypePrefab() const;

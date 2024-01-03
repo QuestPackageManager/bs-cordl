@@ -1,10 +1,10 @@
 #pragma once
 #include "Zenject/zzzz__FactoryFromBinder_4_impl.hpp"
 #include "Zenject/zzzz__FactoryToChoiceBinder_4_def.hpp"
-#include "Zenject/zzzz__FactoryFromBinder_4_def.hpp"
-#include "Zenject/zzzz__FactoryBindInfo_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__BindInfo_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__FactoryBindInfo_def.hpp"
+#include "Zenject/zzzz__FactoryFromBinder_4_def.hpp"
 template <typename TParam1, typename TParam2, typename TParam3, typename TContract>
 inline ::Zenject::FactoryToChoiceBinder_4<TParam1, TParam2, TParam3, TContract>*
 Zenject::FactoryToChoiceBinder_4<TParam1, TParam2, TParam3, TContract>::New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo) {

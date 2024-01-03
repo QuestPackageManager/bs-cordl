@@ -8,29 +8,29 @@ CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(InputEventListener)
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
-}
-namespace System {
-template <typename T> class IObserver_1;
-}
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace System {
+class IDisposable;
+}
+namespace System {
 template <typename T> class IObservable_1;
+}
+namespace System {
+template <typename T> class IObserver_1;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class __InputEventListener__DisposableObserver;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class __InputEventListener__ObserverState;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-class __InputEventListener__DisposableObserver;
+namespace UnityEngine::InputSystem {
+class InputDevice;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -50,8 +50,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::InputEventListener);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3864 }), TypeDefinitionIndex(TypeDefinitionIndex(6536)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6669)), TypeDefinitionIndex(TypeDefinitionIndex(2420)), GenericInstantiation(GenericInstantiation { tdi:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3864 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2420)), TypeDefinitionIndex(TypeDefinitionIndex(6536)), TypeDefinitionIndex(TypeDefinitionIndex(6669)), GenericInstantiation(GenericInstantiation { tdi:
 // TypeDefinitionIndex(2420), inst: 330 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6533)) CS Name: ::InputEventListener::ObserverState*
 class CORDL_TYPE __InputEventListener__ObserverState : public ::System::Object {
 public:
@@ -131,6 +131,9 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
   constexpr ::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*& __get_observer();
 
   constexpr ::cordl_internals::to_const_pointer<::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*> const& __get_observer() const;
@@ -190,6 +193,9 @@ public:
 
   /// @brief Convert operator to "::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
   constexpr operator ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*();
+
+  /// @brief Convert to "::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
+  constexpr ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* i___System__IObservable_1___UnityEngine__InputSystem__LowLevel__InputEventPtr_();
 
   static inline void setStaticF_s_ObserverState(::UnityEngine::InputSystem::LowLevel::__InputEventListener__ObserverState* value);
 

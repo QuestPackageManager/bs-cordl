@@ -10,86 +10,86 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Dropdown)
-namespace UnityEngine::UI::CoroutineTween {
-struct FloatTween;
-}
-namespace UnityEngine::UI {
-class __Dropdown___DelayedDestroyDropdownList_d__75;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine::EventSystems {
-class IPointerClickHandler;
-}
-namespace UnityEngine::UI {
-class Text;
-}
-namespace UnityEngine {
-class Sprite;
-}
-namespace UnityEngine::EventSystems {
-class BaseEventData;
-}
-namespace UnityEngine::UI {
-class Toggle;
-}
-namespace UnityEngine::UI {
-class __Dropdown__OptionDataList;
-}
-namespace UnityEngine::UI {
-class __Dropdown__DropdownEvent;
-}
-namespace UnityEngine {
-class Canvas;
-}
-namespace UnityEngine::EventSystems {
-class ICancelHandler;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine::UI {
-class Image;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine::UI {
-class __Dropdown__OptionData;
-}
-namespace UnityEngine::UI {
-class __Dropdown____c__DisplayClass63_0;
-}
-namespace UnityEngine::UI {
-class __Dropdown__DropdownItem;
-}
-namespace UnityEngine {
-class GameObject;
-}
 namespace System::Collections {
 class IEnumerator;
-}
-namespace UnityEngine::UI::CoroutineTween {
-template <typename T> class TweenRunner_1;
-}
-namespace UnityEngine::EventSystems {
-class ISubmitHandler;
-}
-namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine::EventSystems {
-class IPointerEnterHandler;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
 }
 namespace System {
 class Object;
+}
+namespace UnityEngine::EventSystems {
+class BaseEventData;
+}
+namespace UnityEngine::EventSystems {
+class ICancelHandler;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerClickHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerEnterHandler;
+}
+namespace UnityEngine::EventSystems {
+class ISubmitHandler;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace UnityEngine::UI::CoroutineTween {
+struct FloatTween;
+}
+namespace UnityEngine::UI::CoroutineTween {
+template <typename T> class TweenRunner_1;
+}
+namespace UnityEngine::UI {
+class Image;
+}
+namespace UnityEngine::UI {
+class Text;
+}
+namespace UnityEngine::UI {
+class Toggle;
+}
+namespace UnityEngine::UI {
+class __Dropdown__DropdownEvent;
+}
+namespace UnityEngine::UI {
+class __Dropdown__DropdownItem;
+}
+namespace UnityEngine::UI {
+class __Dropdown__OptionDataList;
+}
+namespace UnityEngine::UI {
+class __Dropdown__OptionData;
+}
+namespace UnityEngine::UI {
+class __Dropdown___DelayedDestroyDropdownList_d__75;
+}
+namespace UnityEngine::UI {
+class __Dropdown____c__DisplayClass63_0;
+}
+namespace UnityEngine {
+class Canvas;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine {
+class Sprite;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -154,11 +154,20 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerEnterHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerEnterHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerEnterHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerEnterHandler* i___UnityEngine__EventSystems__IPointerEnterHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::ICancelHandler"
   constexpr operator ::UnityEngine::EventSystems::ICancelHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::ICancelHandler"
+  constexpr ::UnityEngine::EventSystems::ICancelHandler* i___UnityEngine__EventSystems__ICancelHandler() noexcept;
 
   constexpr ::UnityEngine::UI::Text*& __get_m_Text();
 
@@ -414,7 +423,7 @@ static_assert(offsetof(::UnityEngine::UI::__Dropdown__OptionDataList, ___m_Optio
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 98 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(10465))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13036))
 // CS Name: ::Dropdown::DropdownEvent*
 class CORDL_TYPE __Dropdown__DropdownEvent : public ::UnityEngine::Events::UnityEvent_1<int32_t> {
@@ -540,11 +549,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   constexpr int32_t& __get___1__state();
 
@@ -719,14 +737,26 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerClickHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerClickHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerClickHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerClickHandler* i___UnityEngine__EventSystems__IPointerClickHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::ISubmitHandler"
   constexpr operator ::UnityEngine::EventSystems::ISubmitHandler*() noexcept;
 
+  /// @brief Convert to "::UnityEngine::EventSystems::ISubmitHandler"
+  constexpr ::UnityEngine::EventSystems::ISubmitHandler* i___UnityEngine__EventSystems__ISubmitHandler() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::ICancelHandler"
   constexpr operator ::UnityEngine::EventSystems::ICancelHandler*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::ICancelHandler"
+  constexpr ::UnityEngine::EventSystems::ICancelHandler* i___UnityEngine__EventSystems__ICancelHandler() noexcept;
 
   constexpr ::UnityEngine::RectTransform*& __get_m_Template();
 
@@ -874,8 +904,7 @@ public:
   inline void SetValueWithoutNotify(int32_t input);
 
   /// @brief Method Set, addr 0x2d581bc, size 0x110, virtual false, abstract: false, final false
-  /// @param sendCallback: bool (default: true)
-  inline void Set(int32_t value, bool sendCallback = true);
+  inline void Set(int32_t value, bool sendCallback);
 
   static inline ::UnityEngine::UI::Dropdown* New_ctor();
 

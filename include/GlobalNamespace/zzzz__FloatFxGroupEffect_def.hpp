@@ -7,25 +7,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FloatFxGroupEffect)
 namespace GlobalNamespace {
-class __FloatFxGroupEffect__InitData;
-}
-namespace Tweening {
-class SongTimeTweeningManager;
+class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
 }
-namespace Tweening {
-class FloatTween;
-}
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+class FloatFxBeatmapEventData;
 }
 namespace GlobalNamespace {
 class FloatFxGroupEffectTarget;
 }
 namespace GlobalNamespace {
-class FloatFxBeatmapEventData;
+class __FloatFxGroupEffect__InitData;
+}
+namespace Tweening {
+class FloatTween;
+}
+namespace Tweening {
+class SongTimeTweeningManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {

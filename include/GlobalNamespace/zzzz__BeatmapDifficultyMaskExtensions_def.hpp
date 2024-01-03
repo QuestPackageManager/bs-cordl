@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapDifficultyMaskExtensions)
 namespace GlobalNamespace {
-struct BeatmapDifficulty;
+struct BeatmapDifficultyMask;
 }
 namespace GlobalNamespace {
-struct BeatmapDifficultyMask;
+struct BeatmapDifficulty;
 }
 // Forward declare root types
 namespace GlobalNamespace {
